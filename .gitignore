@@ -1,4 +1,4 @@
-# Archivos pesados de assets
+# Assets pesados
 *.mp4
 *.mp3
 *.mov
@@ -8,5 +8,29 @@ hf_*.jpg
 interes_compuesto_frames/
 _mati_analysis/
 avatar-swap-pipeline/
-*.png
-*.jpg
+image.png
+miniaturas-fix.png
+setup-miniaturas.png
+subtitulos-setup.png
+perro.mp4
+v4.mp4
+
+# Remotion
+remotion/node_modules/
+remotion/output/
+remotion/.cache/
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+
+# Misc
+.DS_Store
+*.lnk
+skills-lock.json
+.agents/
+.claude/
+.playwright-mcp/
+.windsurf/
