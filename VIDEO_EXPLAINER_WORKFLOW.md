@@ -15,10 +15,10 @@ Proceso completo para producir vídeos explainer estilo YouTube con voz sintéti
 
 ---
 
-## Flujo Completo (5 Pasos + 3 Revisiones Humanas)
+## Flujo Completo (6 Pasos + 4 Revisiones Humanas)
 
 ```
-PASO 1 → PASO 2 → [HITL 1] → PASO 3 → PASO 4 → [HITL 2] → PASO 5 → [HITL 3] → RENDER
+PASO 1 → PASO 2 → [HITL 1] → PASO 3 → PASO 4 → [HITL 2] → PASO 5 → [HITL 3] → RENDER → PASO 6 → [HITL 4] → PUBLICAR
 ```
 
 ---
@@ -225,6 +225,32 @@ El render tarda ~7-10 min para un vídeo de 2,5 min a 1920×1080.
 
 ---
 
+### PASO 6 — Crear la Miniatura (Thumbnail)
+
+La miniatura es la palanca #1 de CTR — no se improvisa. Se ejecuta con el skill
+**`/thumbnail-creator`**, que genera 3-4 variantes vía Higgsfield, las puntúa contra
+`agentic-channel-analytics/reference/audit-rubric.md` y te las presenta para elegir.
+
+- **Estilo:** stickman ampliado + capa de packaging (fondo de color sólido de alto
+  contraste, stickman focal grande, 1 elemento emocional, ≤4 palabras de texto).
+- **Complementaria al título, nunca redundante:** la miniatura enseña lo que el título
+  calla (curiosity gap). Por eso va después del render, con el título ya cerrado.
+- **Plantilla de marca fija:** mismo tratamiento de color/tipografía en todos los vídeos.
+
+Las reglas de prompt y la rúbrica completa viven en el skill, no aquí.
+
+---
+
+### 🔴 REVISIÓN HUMANA 4 — Elegir la Miniatura
+
+> Revisar las variantes generadas:
+> - ¿Se lee a tamaño móvil? ¿Hay un sujeto focal claro?
+> - ¿Tiene pull emocional (algo por lo que hacer clic)?
+> - ¿Es coherente con la marca y NO repite el título?
+> Elegir la mejor; regenerar las flojas. El humano decide, nunca auto-publicar.
+
+---
+
 ## Costes por Vídeo
 
 | Herramienta | Coste por vídeo |
@@ -262,4 +288,6 @@ El render tarda ~7-10 min para un vídeo de 2,5 min a 1920×1080.
 - [ ] Studio abierto y vídeo revisado
 - [ ] **HITL 3:** Sincronización validada
 - [ ] Render final ejecutado
-- [ ] MP4 listo para publicar ✅
+- [ ] Miniatura generada con `/thumbnail-creator` (variantes puntuadas)
+- [ ] **HITL 4:** Miniatura elegida y aprobada
+- [ ] MP4 + miniatura listos para publicar ✅
