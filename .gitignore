@@ -1,0 +1,12 @@
+# Archivos pesados de assets
+*.mp4
+*.mp3
+*.mov
+*.avi
+hf_*.png
+hf_*.jpg
+interes_compuesto_frames/
+_mati_analysis/
+avatar-swap-pipeline/
+*.png
+*.jpg
