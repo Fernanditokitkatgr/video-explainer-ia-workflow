@@ -44,6 +44,10 @@
 | Cortisol / estrés | la alarma de incendios que no se apaga |
 | Inflamación crónica | un fuego lento por dentro |
 | Hormona de reparación / crecimiento | el turno de mantenimiento |
+| Insulina alta constante | la puerta principal de las células que nunca se cierra |
+| Autofagia | el equipo de reciclaje |
+| Ventana de ayuno | la hora de mantenimiento del edificio |
+| Cetonas | combustible de emergencia |
 > Add new ones here as videos need them; reuse identically for consistency.
 
 ## L2 — Voice signature

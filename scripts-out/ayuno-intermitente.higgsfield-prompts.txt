@@ -1,0 +1,65 @@
+# Higgsfield prompts — ayuno-intermitente
+# Reference image job_id: 673502ef-9bf9-4db4-8d9a-eb5d949fb6ee (Stick variant B)
+# Style base: Simple stickman drawing on white paper, hand-drawn thick marker lines,
+#             muscular stickman with long hair, headband, red glasses — red glasses ONLY color accent.
+#             White background. One scene per prompt.
+# Output files: seg_00.png, seg_01.png, … (rename to match Whisper output)
+
+seg_00 — Stick standing in front of an open fridge, morning light, clock on wall shows 10:00
+seg_01 — Stick staring at the inside of the fridge, wide eyes
+seg_02 — Stick closing the fridge door firmly with one hand
+seg_03 — Close-up of Stick's face, thoughtful expression, a small lightbulb drawn above his head
+seg_04 — Stick looking at his own body with curiosity, arrows pointing inward
+seg_05 — Stick lying on a couch relaxing vs Stick standing alert — two panels split by a line
+seg_06 — A large ON/OFF switch labeled "REPARACIÓN", Stick's hand about to flip it
+seg_07 — Stick eating a big meal, arrow going up labeled "insulina"
+seg_08 — A giant door (cell door) wide open, packages being delivered through it
+seg_09 — Construction workers (stick figures) carrying boxes into the door non-stop
+seg_10 — Stick not eating, sitting with a coffee, arrow going down labeled "insulina"
+seg_11 — The giant door closing slowly, construction workers leaving
+seg_12 — A tiny cleaning crew (stick figures in overalls) entering through the now-closed door
+seg_13 — Text "AUTOFAGIA" in bold with Stick pointing at it, Greek letters in background
+seg_14 — Stick looking puzzled at the word, then giving thumbs up
+seg_15 — The cleaning crew inside a cell, finding broken proteins (tangled lines), old parts
+seg_16 — The crew dismantling broken parts with small tools, sorting pieces into two piles: good/bad
+seg_17 — Good pieces going into a recycling bin labeled "reutilizar", bad pieces into trash
+seg_18 — A building being renovated from the inside — scaffolding inside, facade intact
+seg_19 — Construction workers trying to enter but the door is closed — they wait outside
+seg_20 — Stick eating a snack every 2 hours — clock ticking, workers always at the door
+seg_21 — The building (Stick's body silhouette) never being renovated, dust accumulating inside
+seg_22 — A stopwatch showing 14-16 hours, cleaning crew waiting patiently
+seg_23 — A label "16:8" — clock face divided: 16 dark hours, 8 bright hours
+seg_24 — Stick skipping breakfast, sitting with coffee at noon, relaxed
+seg_25 — Timeline: Stick eats at 12:00, eats at 20:00, arrow spanning 16 hours labeled "mantenimiento"
+seg_26 — Tiny maintenance workers (cleaning crew) working inside Stick during the 16-hour window
+seg_27 — Stick flexing his arm, tiny batteries (mitocondrias) glowing inside his muscles
+seg_28 — Batteries labeled "pilas" — some dim (insulina alta), some bright (ayuno)
+seg_29 — A car engine with clogged filters vs clean filters — both same engine
+seg_30 — The engine with clean filters revving, speed lines
+seg_31 — Stick's brain with a fuel gauge — needle moving from "glucosa" to "cetonas"
+seg_32 — The liver (labeled "hígado") producing small pentagon shapes labeled "cetonas"
+seg_33 — Stick's brain glowing, stars around it, focused expression
+seg_34 — Stick with clear eyes and a straight posture, no fog around his head
+seg_35 — A warning sign: "OJO" with a clock — 12 to 16 hours timeline
+seg_36 — Glycogen tank emptying slowly over 16 hours — bar chart going down
+seg_37 — 16:8 label again with a checkmark, cleaning crew giving thumbs up
+seg_38 — Stick looking at his watch — question mark above, thought bubble with a plate and a clock
+seg_39 — A simple timeline: breakfast time → dinner time, bracket showing the window
+seg_40 — Stick sliding his meal window 2 hours later — simple arrow on a timeline
+seg_41 — Two timelines side by side: old schedule vs new schedule — new one has bigger gap
+seg_42 — Stick with a medical cross symbol, a scale, and a disclaimer sign
+seg_43 — Stick next to a person in a wheelchair and a person with a heart — inclusion message
+seg_44 — A doctor (stick figure in coat) with speech bubble
+seg_45 — A science book open, beaker, molecules — "la ciencia dice"
+seg_46 — A light switch labeled "interruptor de reparación" being turned ON
+seg_47 — Stick holding a sign: "el ayuno no es una dieta"
+seg_48 — A clock face with a bracket — "ventana de tiempo" label
+seg_49 — Same food portions but squeezed into a smaller time window on a timeline
+seg_50 — The cleaning crew, repair workers, and recycling team all working inside Stick's silhouette
+seg_51 — Stick sleeping — cleaning crew working inside — same scene as the sleep video but labeled "ayuno"
+seg_52 — A sleep timeline extended by 2 hours with an arrow — "alargar la ventana"
+seg_53 — Stick closing the fridge one more time, calm smile
+seg_54 — Stick making a black coffee — steam rising
+seg_55 — Stick sitting quietly, coffee in hand, window light, peaceful
+seg_56 — Stick with a thought bubble: an hourglass
+seg_57 — Final frame: Stick standing straight, confident, fist bump pose — "Stick to the plan." text below
