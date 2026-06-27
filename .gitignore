@@ -1,24 +1,25 @@
-# Assets pesados
+# Assets pesados (audio, vídeo, imágenes generadas)
 *.mp4
 *.mp3
 *.mov
 *.avi
-hf_*.png
-hf_*.jpg
+*.png
+*.jpg
+*.jpeg
+
+# Excepciones: imágenes de referencia del canal que sí van en git
+!agentic-channel-analytics/channels/assets/*.png
+!agentic-channel-analytics/channels/assets/*.jpg
+
 interes_compuesto_frames/
 _mati_analysis/
 avatar-swap-pipeline/
-image.png
-miniaturas-fix.png
-setup-miniaturas.png
-subtitulos-setup.png
-perro.mp4
-v4.mp4
 
 # Remotion
 remotion/node_modules/
 remotion/output/
 remotion/.cache/
+remotion/public/
 
 # Python
 __pycache__/
