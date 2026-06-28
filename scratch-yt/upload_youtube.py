@@ -9,6 +9,7 @@ Uso:
         --title "Mi título" \
         --description "Mi descripción" \
         --tags longevidad,stickman,habitos \
+        --thumbnail thumbnail.png \
         --privacy private
 
 privacy: private | unlisted | public   (por defecto: private, para probar sin publicar)
@@ -23,7 +24,7 @@ from google_auth_oauthlib.flow import InstalledAppFlow
 from googleapiclient.discovery import build
 from googleapiclient.http import MediaFileUpload
 
-SCOPES = ["https://www.googleapis.com/auth/youtube.upload"]
+SCOPES = ["https://www.googleapis.com/auth/youtube"]
 HERE = os.path.dirname(os.path.abspath(__file__))
 CLIENT_SECRET = os.path.join(HERE, "client_secret.json")
 TOKEN = os.path.join(HERE, "token.json")
@@ -72,6 +73,22 @@ def upload(args):
     vid = resp["id"]
     print(f"\n✅ Subido: https://youtu.be/{vid}  (privacy={args.privacy})")
 
+    if args.thumbnail:
+        set_thumbnail(youtube, vid, args.thumbnail)
+
+    return vid
+
+
+def set_thumbnail(youtube, video_id, thumbnail_path):
+    if not os.path.exists(thumbnail_path):
+        print(f"⚠️  Thumbnail no encontrado: {thumbnail_path} — omitiendo.")
+        return
+    ext = os.path.splitext(thumbnail_path)[1].lower()
+    mime = "image/png" if ext == ".png" else "image/jpeg"
+    media = MediaFileUpload(thumbnail_path, mimetype=mime)
+    youtube.thumbnails().set(videoId=video_id, media_body=media).execute()
+    print(f"🖼️  Thumbnail subido: {thumbnail_path}")
+
 
 if __name__ == "__main__":
     p = argparse.ArgumentParser()
@@ -79,6 +96,7 @@ if __name__ == "__main__":
     p.add_argument("--title", required=True)
     p.add_argument("--description", default="")
     p.add_argument("--tags", default="", help="separados por comas")
+    p.add_argument("--thumbnail", default="", help="ruta a PNG/JPG (1280×720 mínimo)")
     p.add_argument("--category", default="27", help="27=Educación")
     p.add_argument("--privacy", default="private", choices=["private", "unlisted", "public"])
     upload(p.parse_args())

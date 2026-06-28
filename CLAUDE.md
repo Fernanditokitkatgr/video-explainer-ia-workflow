@@ -130,6 +130,7 @@ Project skills (invoke with `/skill-name` after restarting Claude Code):
 | `/channel-audit` | Agentic audit of channel page + content vs Ecomonos benchmark, returns P0/P1/P2 fixes |
 | `/script-forge` | Generate a pipeline-ready script in a channel's voice (reads `channels/<slug>.md`) |
 | `/thumbnail-creator` | Generate thumbnail variants via Higgsfield, score against rubric, HITL selection (PASO 6) |
+| `/youtube-publisher <slug>` | Generate optimized metadata (title, description+chapters, tags), HITL review, upload MP4 + thumbnail via YouTube Data API v3, publish |
 
 Skills require a restart to register after first creation. If `/skill-name` isn't available yet, open `.claude/skills/<name>/SKILL.md` and follow it manually. **Ojo:** `.claude/` está gitignored, así que estas skills NO se sincronizan por git — pueden no existir en un clon nuevo.
 
