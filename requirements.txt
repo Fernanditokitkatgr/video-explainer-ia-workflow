@@ -1,0 +1,5 @@
+# Pipeline de producción de vídeos explainer IA
+requests>=2.31
+python-dotenv>=1.0
+faster-whisper>=1.0        # motor por defecto (rápido). Alternativa: openai-whisper
+# openai-whisper>=20231117 # descomenta si prefieres el motor de OpenAI

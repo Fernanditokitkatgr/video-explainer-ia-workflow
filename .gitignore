@@ -30,6 +30,7 @@ venv/
 # Credenciales / secrets (Google Cloud, APIs)
 .env
 .env.*
+!.env.example
 client_secret*.json
 *_client_secret.json
 token.json

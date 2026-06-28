@@ -1,0 +1,47 @@
+{
+  "sueno-stick": {
+    "composition": "SuenoStick",
+    "tsx": "remotion/src/SuenoStick.tsx",
+    "manifest_dir": "channel/stick-to-the-plan/videos/sueno-stick",
+    "script": "channel/stick-to-the-plan/videos/sueno-stick/script.md",
+    "audio_static": "sueno.mp3",
+    "images_subpath": "sueno",
+    "naming": "seg",
+    "ext": "png",
+    "playback_rate": 1.0,
+    "fps": 30,
+    "width": 1920,
+    "height": 1080,
+    "background": "#ffffff"
+  },
+  "ayuno-intermitente": {
+    "composition": "AyunoIntermitente",
+    "tsx": "remotion/src/AyunoIntermitente.tsx",
+    "manifest_dir": "channel/stick-to-the-plan/videos/ayuno-intermitente",
+    "script": "scripts-out/ayuno-intermitente.es.txt",
+    "audio_static": "ayuno-intermitente.mp3",
+    "images_subpath": "ayuno-intermitente",
+    "naming": "timestamp",
+    "ext": "jpg",
+    "playback_rate": 1.0,
+    "fps": 30,
+    "width": 1920,
+    "height": 1080,
+    "background": "#ffffff"
+  },
+  "interes-compuesto": {
+    "composition": "InteresCompuesto",
+    "tsx": "remotion/src/InteresCompuesto.tsx",
+    "manifest_dir": "channel/stick-to-the-plan/videos/interes-compuesto",
+    "script": null,
+    "audio_static": "interes-compuesto.mp3",
+    "images_subpath": "interes-compuesto",
+    "naming": "timestamp",
+    "ext": "jpg",
+    "playback_rate": 1.1,
+    "fps": 30,
+    "width": 1920,
+    "height": 1080,
+    "background": "#000000"
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "video": "sueno-stick",
+  "steps": {
+    "voice": "pending",
+    "whisper": "pending",
+    "inject": "done",
+    "images": "pending",
+    "validate": "pending",
+    "render": "pending"
+  }
+}

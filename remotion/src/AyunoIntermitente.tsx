@@ -6,6 +6,7 @@ import { AbsoluteFill, Audio, Img, staticFile, useCurrentFrame, useVideoConfig }
 //   python scripts/whisper_timestamps.py remotion/public/ayuno-intermitente.mp3 --format remotion
 // Replace the placeholder array below with the Whisper output.
 
+// === FRAMES:START (generado por scripts/orchestrate.py — no editar a mano) ===
 const FRAMES: { file: string; startSec: number }[] = [
   { file: '0_00.jpg', startSec: 0.0 },
   { file: '0_06.jpg', startSec: 6.3 },
@@ -64,6 +65,8 @@ const FRAMES: { file: string; startSec: number }[] = [
   { file: '3_47.jpg', startSec: 227.2 },
   { file: '3_52.jpg', startSec: 232.9 },
 ];
+
+// === FRAMES:END ===
 
 const PLAYBACK_RATE = 1.0;
 

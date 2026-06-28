@@ -1,0 +1,341 @@
+{
+  "video": "ayuno-intermitente",
+  "frames": [
+    {
+      "file": "0_00.jpg",
+      "startSec": 0.0,
+      "text": null,
+      "scene": "Stick standing in front of an open fridge, clock on wall shows 10:00, morning light"
+    },
+    {
+      "file": "0_06.jpg",
+      "startSec": 6.3,
+      "text": null,
+      "scene": "Stick staring into the fridge with wide curious eyes"
+    },
+    {
+      "file": "0_10.jpg",
+      "startSec": 10.16,
+      "text": null,
+      "scene": "Stick closing the fridge door firmly, determined expression"
+    },
+    {
+      "file": "0_15.jpg",
+      "startSec": 15.54,
+      "text": null,
+      "scene": "Close-up of Stick's face with a small lightbulb drawn above his head"
+    },
+    {
+      "file": "0_17.jpg",
+      "startSec": 17.94,
+      "text": null,
+      "scene": "Stick looking at his own body with curiosity, arrows pointing inward to his torso"
+    },
+    {
+      "file": "0_23.jpg",
+      "startSec": 23.56,
+      "text": null,
+      "scene": "A large ON/OFF switch labeled REPARACION, Stick pointing at it excitedly"
+    },
+    {
+      "file": "0_28.jpg",
+      "startSec": 28.32,
+      "text": null,
+      "scene": "Stick eating a big meal, a large upward arrow next to him labeled insulina"
+    },
+    {
+      "file": "0_31.jpg",
+      "startSec": 31.3,
+      "text": null,
+      "scene": "A giant cell door wide open, tiny packages being delivered through it non-stop"
+    },
+    {
+      "file": "0_33.jpg",
+      "startSec": 33.5,
+      "text": null,
+      "scene": "Construction stick-figure workers carrying boxes through the open cell door"
+    },
+    {
+      "file": "0_37.jpg",
+      "startSec": 37.84,
+      "text": null,
+      "scene": "Workers inside a cell stacking boxes labeled construccion, no cleaning crew in sight"
+    },
+    {
+      "file": "0_42.jpg",
+      "startSec": 42.56,
+      "text": null,
+      "scene": "Dirty cluttered cell interior, dust everywhere, no cleaning happening"
+    },
+    {
+      "file": "0_44.jpg",
+      "startSec": 44.22,
+      "text": null,
+      "scene": "Stick sitting with a coffee, arrow going down labeled insulina"
+    },
+    {
+      "file": "0_48.jpg",
+      "startSec": 48.5,
+      "text": null,
+      "scene": "The giant cell door closing slowly, construction workers leaving with their boxes"
+    },
+    {
+      "file": "0_50.jpg",
+      "startSec": 50.94,
+      "text": null,
+      "scene": "A tiny cleaning crew in overalls entering through the closed door with mops and tools"
+    },
+    {
+      "file": "0_53.jpg",
+      "startSec": 53.38,
+      "text": null,
+      "scene": "Text AUTOFAGIA in bold with Stick pointing at it, Greek letters scattered in background"
+    },
+    {
+      "file": "1_00.jpg",
+      "startSec": 60.16,
+      "text": null,
+      "scene": "The cleaning crew inside a cell finding tangled broken protein strings on the floor"
+    },
+    {
+      "file": "1_04.jpg",
+      "startSec": 64.62,
+      "text": null,
+      "scene": "Crew dismantling broken parts with tiny tools, sorting pieces into two piles"
+    },
+    {
+      "file": "1_08.jpg",
+      "startSec": 68.86,
+      "text": null,
+      "scene": "Good pieces going into a bin labeled reutilizar, bad pieces into a trash can"
+    },
+    {
+      "file": "1_12.jpg",
+      "startSec": 72.32,
+      "text": null,
+      "scene": "A building being renovated from the inside, scaffolding inside, clean facade outside"
+    },
+    {
+      "file": "1_17.jpg",
+      "startSec": 77.68,
+      "text": null,
+      "scene": "Construction workers trying to enter the cell door but it is closed, they wait outside"
+    },
+    {
+      "file": "1_24.jpg",
+      "startSec": 84.6,
+      "text": null,
+      "scene": "Stick eating a snack, clock ticking, construction workers always at the door again"
+    },
+    {
+      "file": "1_28.jpg",
+      "startSec": 88.04,
+      "text": null,
+      "scene": "Stick's body silhouette as a dusty building that was never renovated"
+    },
+    {
+      "file": "1_31.jpg",
+      "startSec": 91.42,
+      "text": null,
+      "scene": "A large stopwatch showing 14 to 16 hours, cleaning crew waiting patiently"
+    },
+    {
+      "file": "1_34.jpg",
+      "startSec": 94.76,
+      "text": null,
+      "scene": "A clock face split: 16 dark hours labeled ayuno, 8 bright hours labeled comer"
+    },
+    {
+      "file": "1_40.jpg",
+      "startSec": 100.82,
+      "text": null,
+      "scene": "Stick relaxing with coffee, label 16:8 with a green checkmark"
+    },
+    {
+      "file": "1_44.jpg",
+      "startSec": 104.86,
+      "text": null,
+      "scene": "Timeline: Stick eats at 12, eats at 20, a bracket spanning 16 hours labeled mantenimiento"
+    },
+    {
+      "file": "1_52.jpg",
+      "startSec": 112.38,
+      "text": null,
+      "scene": "Tiny maintenance workers operating inside Stick's body silhouette during the 16-hour gap"
+    },
+    {
+      "file": "1_56.jpg",
+      "startSec": 116.34,
+      "text": null,
+      "scene": "Stick flexing, tiny glowing batteries inside his muscles labeled mitocondrias"
+    },
+    {
+      "file": "2_00.jpg",
+      "startSec": 120.86,
+      "text": null,
+      "scene": "Two batteries side by side: one dim labeled insulina alta, one bright labeled ayuno"
+    },
+    {
+      "file": "2_06.jpg",
+      "startSec": 126.56,
+      "text": null,
+      "scene": "A car engine with clogged dirty filters versus clean filters, same engine label"
+    },
+    {
+      "file": "2_10.jpg",
+      "startSec": 130.62,
+      "text": null,
+      "scene": "The clean-filter engine with speed lines, running better"
+    },
+    {
+      "file": "2_15.jpg",
+      "startSec": 135.28,
+      "text": null,
+      "scene": "Stick's brain with a fuel gauge needle moving from glucosa to cetonas"
+    },
+    {
+      "file": "2_19.jpg",
+      "startSec": 139.62,
+      "text": null,
+      "scene": "The liver labeled higado producing small pentagon shapes labeled cetonas"
+    },
+    {
+      "file": "2_24.jpg",
+      "startSec": 144.48,
+      "text": null,
+      "scene": "Stick's brain glowing with stars, alert focused expression"
+    },
+    {
+      "file": "2_27.jpg",
+      "startSec": 147.14,
+      "text": null,
+      "scene": "Stick with clear sharp eyes and upright posture, no fog or cloud around his head"
+    },
+    {
+      "file": "2_32.jpg",
+      "startSec": 152.22,
+      "text": null,
+      "scene": "Warning sign labeled OJO, a clock timeline showing 12 to 16 hours"
+    },
+    {
+      "file": "2_38.jpg",
+      "startSec": 158.28,
+      "text": null,
+      "scene": "A bar chart glycogen tank emptying slowly over 16 hours"
+    },
+    {
+      "file": "2_41.jpg",
+      "startSec": 161.94,
+      "text": null,
+      "scene": "16:8 label with green checkmark, cleaning crew giving thumbs up"
+    },
+    {
+      "file": "2_43.jpg",
+      "startSec": 163.92,
+      "text": null,
+      "scene": "Stick looking at his watch, thought bubble showing a plate and a clock"
+    },
+    {
+      "file": "2_47.jpg",
+      "startSec": 167.52,
+      "text": null,
+      "scene": "A simple eating window timeline: breakfast time arrow to dinner time, bracket showing gap"
+    },
+    {
+      "file": "2_51.jpg",
+      "startSec": 171.9,
+      "text": null,
+      "scene": "Two timelines side by side: old eating schedule versus new schedule with bigger gap"
+    },
+    {
+      "file": "2_54.jpg",
+      "startSec": 174.16,
+      "text": null,
+      "scene": "Stick with a medical cross symbol and a doctor stick figure in white coat"
+    },
+    {
+      "file": "2_58.jpg",
+      "startSec": 178.08,
+      "text": null,
+      "scene": "Stick standing next to a person in a wheelchair and a person with a heart symbol"
+    },
+    {
+      "file": "3_02.jpg",
+      "startSec": 182.04,
+      "text": null,
+      "scene": "An open science book with beaker and molecules, label la ciencia dice"
+    },
+    {
+      "file": "3_05.jpg",
+      "startSec": 185.54,
+      "text": null,
+      "scene": "A light switch labeled interruptor de reparacion being turned ON, light radiates"
+    },
+    {
+      "file": "3_10.jpg",
+      "startSec": 190.5,
+      "text": null,
+      "scene": "Stick holding a sign that reads el ayuno no es una dieta"
+    },
+    {
+      "file": "3_13.jpg",
+      "startSec": 193.74,
+      "text": null,
+      "scene": "A clock face with a bracket labeled ventana de tiempo"
+    },
+    {
+      "file": "3_16.jpg",
+      "startSec": 196.72,
+      "text": null,
+      "scene": "Same food portions squeezed into a smaller time window on a timeline diagram"
+    },
+    {
+      "file": "3_20.jpg",
+      "startSec": 200.26,
+      "text": null,
+      "scene": "Cleaning crew repair workers and recycling team all working together inside Stick's body"
+    },
+    {
+      "file": "3_24.jpg",
+      "startSec": 204.9,
+      "text": null,
+      "scene": "Stick sleeping peacefully, cleaning crew working inside him, label ayuno"
+    },
+    {
+      "file": "3_29.jpg",
+      "startSec": 209.94,
+      "text": null,
+      "scene": "A sleep timeline extended by 2 hours with an arrow labeled alargar la ventana"
+    },
+    {
+      "file": "3_32.jpg",
+      "startSec": 212.14,
+      "text": null,
+      "scene": "Stick closing the fridge one more time, calm satisfied smile"
+    },
+    {
+      "file": "3_37.jpg",
+      "startSec": 217.62,
+      "text": null,
+      "scene": "Stick making a black coffee, steam rising from the cup"
+    },
+    {
+      "file": "3_43.jpg",
+      "startSec": 223.26,
+      "text": null,
+      "scene": "Stick sitting quietly by a window, coffee in hand, peaceful morning light"
+    },
+    {
+      "file": "3_47.jpg",
+      "startSec": 227.2,
+      "text": null,
+      "scene": "Stick with a thought bubble containing an hourglass"
+    },
+    {
+      "file": "3_52.jpg",
+      "startSec": 232.9,
+      "text": null,
+      "scene": "Stick standing tall, confident fist-bump pose. Text below: Stick to the plan."
+    }
+  ]
+}

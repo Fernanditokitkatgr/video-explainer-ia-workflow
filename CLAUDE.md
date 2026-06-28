@@ -11,15 +11,30 @@ Full step-by-step process: [VIDEO_EXPLAINER_WORKFLOW.md](./VIDEO_EXPLAINER_WORKF
 ## Repo structure
 
 ```
+SETUP.md            ← arranque + uso del orquestador (LÉELO PRIMERO)
+.env.example        ← plantilla de claves (copiar a .env, que es local/gitignored)
+videos.json         ← registro de vídeos (composición, naming, playback, rutas)
 remotion/           ← Remotion compositions (video assembly + render)
-scripts/            ← whisper_timestamps.py
+scripts/
+  config.py             ← config compartida: lee .env, única fuente de verdad
+  orchestrate.py        ← encadena el pipeline + guarda estado (handoff)
+  generate_voice.py     ← ElevenLabs (lee de config)
+  generate_images.py    ← Higgsfield (lee la receta de frames.json)
+  whisper_timestamps.py ← timestamps de audio (--language/--model/--naming)
+  validate_assets.py    ← verifica que existen audio + todas las imágenes
 agentic-channel-analytics/  ← separate vertical: channel DNA, audits, script generation
   reference/        ← Ecomonos benchmark, formula framework, audit rubric
   channels/         ← per-channel profiles (ecomonos.md, stick-to-the-plan.md, …)
   AUTOMATION-RUNBOOK.md
+channel/<canal>/videos/<video>/  ← RECETA por vídeo (va a git):
+  script.md · frames.json (timings + prompts) · state.json (progreso) · notes.md
 scratch-yt/         ← YouTube Data API upload scripts (Python venv inside)
-.claude/skills/     ← project skills: channel-formula, channel-audit, script-forge, thumbnail-creator
 ```
+
+> Las skills de proyecto (`/channel-formula`, `/channel-audit`, `/script-forge`,
+> `/thumbnail-creator`) viven en `.claude/skills/`, que está **gitignored**: NO se
+> sincronizan entre colaboradores y pueden no existir en un clon nuevo. Trátalas
+> como opcionales/locales.
 
 ## Pipeline
 
@@ -33,16 +48,34 @@ Script → ElevenLabs V3 (voice) → [human review] → Whisper (timestamps)
 - **Whisper**: `scripts/whisper_timestamps.py` produces per-segment start times. Output files named `seg_NN.png` (e.g. `seg_00.png`, `seg_01.png`).
 - **Remotion**: a composition reads a `FRAMES` array mapping `{ file, startSec }` and shows the last image whose `startSec <= currentSec`.
 
+## Setup (cada colaborador, una vez)
+
+```bash
+pip install -r requirements.txt      # requests, python-dotenv, faster-whisper
+cp .env.example .env                 # luego rellena ELEVENLABS_API_KEY + HIGGSFIELD_API_KEY
+cd remotion && npm install && cd ..
+```
+El `.env` es **local** (gitignored). Las keys se comparten por canal seguro, NUNCA en git.
+Detalle completo en [SETUP.md](./SETUP.md).
+
 ## Commands
 
-Whisper timestamp extraction (repo root):
+Orquestador (repo root) — encadena el pipeline y guarda el progreso en `state.json`:
 ```bash
-pip install faster-whisper           # default engine; or: pip install openai-whisper
-python scripts/whisper_timestamps.py audio.mp3 --format remotion   # prints FRAMES array
-python scripts/whisper_timestamps.py audio.mp3 --format json --output timestamps.json
-python scripts/whisper_timestamps.py audio.mp3 --engine whisper     # use openai-whisper instead
+python scripts/orchestrate.py --video sueno-stick --status     # ¿dónde se quedó?
+python scripts/orchestrate.py --video sueno-stick              # completo (con gates HITL)
+python scripts/orchestrate.py --video sueno-stick --steps voice,whisper,inject
+python scripts/orchestrate.py --video sueno-stick --yes        # sin pausas HITL
 ```
-`--format remotion` emits a `FRAMES = [...]` block ready to paste into a composition. Spanish (`language="es"`) and `base` model are hardcoded in the script.
+Pasos: `voice → whisper → inject → images → validate → render`.
+
+Scripts sueltos:
+```bash
+python scripts/whisper_timestamps.py audio.mp3 --format remotion   # array FRAMES
+python scripts/whisper_timestamps.py audio.mp3 --language en --naming seg --ext png
+python scripts/validate_assets.py --all                            # valida assets antes de render
+```
+Idioma, modelo y voz salen del `.env` (config.py); se pueden sobreescribir por CLI.
 
 Remotion (from `remotion/`):
 ```bash
@@ -56,21 +89,28 @@ Render is ~7-10 min for a 2.5-min 1920×1080 video. There are no tests, no lint 
 
 ## Remotion compositions
 
-Two compositions are registered in [Root.tsx](remotion/src/Root.tsx) and present on disk:
+Three compositions are registered in [Root.tsx](remotion/src/Root.tsx) and present on disk
+(Root.tsx está limpio — solo importa estas tres; cualquier nota antigua sobre "7 imports
+muertos que rompen la compilación" está **desactualizada**):
 
-| id | file | playback rate | notes |
-|---|---|---|---|
-| `InteresCompuesto` | `InteresCompuesto.tsx` | 1.1× | rate applied in both `<Audio>` and frame lookup |
-| `SuenoStick` | `SuenoStick.tsx` | 1.0× (normal) | "Qué le pasa a tu cuerpo cuando duermes mal" |
+| id | file | playback rate | naming | notes |
+|---|---|---|---|---|
+| `InteresCompuesto` | `InteresCompuesto.tsx` | 1.1× | `0_04.jpg` | rate applied in both `<Audio>` and frame lookup |
+| `SuenoStick` | `SuenoStick.tsx` | 1.0× | `seg_NN.png` | "Qué le pasa a tu cuerpo cuando duermes mal" |
+| `AyunoIntermitente` | `AyunoIntermitente.tsx` | 1.0× | `M_SS.jpg` | "Ayuno intermitente" — pendiente de imágenes |
 
-Image assets live in `remotion/public/<video-name>/` and audio at `remotion/public/<video-name>.mp3`. These are gitignored (`*.mp3`, `*.mp4`, `hf_*.png/jpg`) so a fresh clone has no media; the studio will 404 until you add them.
+Cada `FRAMES` array está entre marcadores `// === FRAMES:START/END ===`; el orquestador
+los inyecta automáticamente desde `frames.json` (no editar a mano esa zona).
+
+Image assets live in `remotion/public/<video-name>/` and audio at `remotion/public/<video-name>.mp3`. These are gitignored (`*.mp3`, `*.mp4`, `*.png/jpg`) so a fresh clone has no media; the studio will 404 until you add them. La **receta** (timings + prompts) sí va en git en `frames.json`, así que el medio se regenera/recupera desde las cuentas compartidas (ver SETUP.md).
 
 ## Adding a new video
 
-1. Put images in `remotion/public/<video-name>/` (named `seg_00.png`, `seg_01.png`, …) and audio at `remotion/public/<video-name>.mp3`.
-2. Create `remotion/src/<VideoName>.tsx` modeled on [SuenoStick.tsx](remotion/src/SuenoStick.tsx): a `FRAMES` array + the active-index lookup loop.
-3. Register a `<Composition>` in [Root.tsx](remotion/src/Root.tsx) with `durationInFrames`, `fps={30}`, dimensions.
-4. Render with `npx remotion render <CompositionId> output/<name>.mp4` from inside `remotion/`.
+1. Añade la entrada en [videos.json](./videos.json) (composición, naming, playback, rutas).
+2. `channel/<canal>/videos/<video>/script.md` con el guion (1 frase por línea).
+3. Crea `remotion/src/<VideoName>.tsx` modelado en [SuenoStick.tsx](remotion/src/SuenoStick.tsx), con los marcadores `// === FRAMES:START/END ===`, y regístralo en [Root.tsx](remotion/src/Root.tsx).
+4. `frames.json` con los prompts de escena (campo `scene`) por imagen.
+5. `python scripts/orchestrate.py --video <video>` y deja que el orquestador haga el resto.
 
 ## Critical gotchas
 
@@ -91,10 +131,18 @@ Project skills (invoke with `/skill-name` after restarting Claude Code):
 | `/script-forge` | Generate a pipeline-ready script in a channel's voice (reads `channels/<slug>.md`) |
 | `/thumbnail-creator` | Generate thumbnail variants via Higgsfield, score against rubric, HITL selection (PASO 6) |
 
-Skills require a restart to register after first creation. If `/skill-name` isn't available yet, open `.claude/skills/<name>/SKILL.md` and follow it manually.
+Skills require a restart to register after first creation. If `/skill-name` isn't available yet, open `.claude/skills/<name>/SKILL.md` and follow it manually. **Ojo:** `.claude/` está gitignored, así que estas skills NO se sincronizan por git — pueden no existir en un clon nuevo.
 
 YouTube data input: YouTube blocks scraping behind a consent wall — skills work with pasted data (channel URL, video titles + views, transcripts, optional Studio retention/CTR exports).
 
 ## Cost / capacity reference
 
-~€6/video (Higgsfield ~€5.60 dominates). Monthly ceiling ~21 videos (Higgsfield 3000 credits ÷ 140) / ~15 (ElevenLabs chars). See README for the breakdown.
+Imágenes (lo que domina el coste). Verificado vía preflight `get_cost` en Higgsfield (jun 2026):
+`nano_banana_pro` = **2 créditos/imagen a 1K y a 2K**, 4 a 4K (el "2K ilimitado" depende del plan;
+en el plan `ultimate` probado NO aplicaba). Para ~62 imágenes → ~124 créditos.
+
+Alternativas por API directa para esas 62 imágenes (si faltan créditos):
+- Gemini 3 Pro Image (= nano banana pro), 2K: ~$8.3 · Gemini 2.5 Flash Image: ~$2.4 (más barato, modelo más ligero)
+- OpenAI `gpt-image-1` alta: ~$15.5 · `gpt-image-1-mini`: ~$3.2
+
+Recomendación: para nano_banana_pro, **recargar Higgsfield (~$4-5) sale más barato y no requiere tocar código** (el pipeline ya habla con Higgsfield). Ver README para el desglose por vídeo.

@@ -1,118 +1,101 @@
-"""
-Whisper Timestamp Extractor
-Extrae el segundo exacto de cada segmento de audio para sincronizar con imágenes en Remotion.
+#!/usr/bin/env python3
+"""Whisper Timestamp Extractor.
+
+Extrae el segundo exacto de cada SEGMENTO de audio para sincronizar imágenes en
+Remotion. Usa segmentos (no palabras) a propósito: el match por palabra da falsos
+positivos ("no" dentro de "años").
+
+Idioma / modelo / motor salen del .env (config.py) y se pueden sobreescribir por CLI.
 
 Uso:
-    python whisper_timestamps.py audio.mp3
-    python whisper_timestamps.py audio.mp3 --format remotion
-    python whisper_timestamps.py audio.mp3 --output timestamps.json
+    python scripts/whisper_timestamps.py audio.mp3                       # tabla legible
+    python scripts/whisper_timestamps.py audio.mp3 --format remotion     # array FRAMES
+    python scripts/whisper_timestamps.py audio.mp3 --format frames --output f.json
+    python scripts/whisper_timestamps.py audio.mp3 --language en --naming seg --ext png
 
-Instalación:
-    pip install openai-whisper
-    # o faster-whisper (más rápido):
-    pip install faster-whisper
+Instalación:  pip install -r requirements.txt   (faster-whisper) | pip install openai-whisper
 """
-
 import sys
 import json
 import argparse
 
+import config
 
-def extract_timestamps_whisper(audio_path: str) -> list[dict]:
-    """Usa openai-whisper para extraer timestamps."""
+
+def extract_timestamps_whisper(audio_path: str, model_name: str, language: str) -> list[dict]:
     import whisper
-
-    print(f"Cargando modelo Whisper...")
-    model = whisper.load_model("base")
-
+    print(f"Cargando openai-whisper ({model_name})…")
+    model = whisper.load_model(model_name)
     print(f"Transcribiendo: {audio_path}")
-    result = model.transcribe(
-        audio_path,
-        word_timestamps=True,
-        language="es"
-    )
-
-    segments = []
-    for seg in result["segments"]:
-        segments.append({
-            "id": seg["id"],
-            "start": round(seg["start"], 2),
-            "end": round(seg["end"], 2),
-            "text": seg["text"].strip()
-        })
-
-    return segments
+    result = model.transcribe(audio_path, word_timestamps=True, language=language)
+    return [
+        {"id": seg["id"], "start": round(seg["start"], 2),
+         "end": round(seg["end"], 2), "text": seg["text"].strip()}
+        for seg in result["segments"]
+    ]
 
 
-def extract_timestamps_faster(audio_path: str) -> list[dict]:
-    """Usa faster-whisper (más rápido, recomendado)."""
+def extract_timestamps_faster(audio_path: str, model_name: str, language: str) -> list[dict]:
     from faster_whisper import WhisperModel
-
-    print("Cargando modelo faster-whisper (base)...")
-    model = WhisperModel("base", device="cpu", compute_type="int8")
-
+    print(f"Cargando faster-whisper ({model_name})…")
+    model = WhisperModel(model_name, device="cpu", compute_type="int8")
     print(f"Transcribiendo: {audio_path}")
-    segments_iter, info = model.transcribe(audio_path, language="es", word_timestamps=True)
-
-    segments = []
-    for i, seg in enumerate(segments_iter):
-        segments.append({
-            "id": i,
-            "start": round(seg.start, 2),
-            "end": round(seg.end, 2),
-            "text": seg.text.strip()
-        })
-
-    return segments
+    segments_iter, _info = model.transcribe(audio_path, language=language, word_timestamps=True)
+    return [
+        {"id": i, "start": round(seg.start, 2),
+         "end": round(seg.end, 2), "text": seg.text.strip()}
+        for i, seg in enumerate(segments_iter)
+    ]
 
 
-def format_for_remotion(segments: list[dict]) -> str:
-    """Genera el array FRAMES listo para pegar en InteresCompuesto.tsx."""
-    lines = ["const FRAMES = ["]
-    for seg in segments:
-        m = int(seg["start"]) // 60
-        s = seg["start"] % 60
-        filename = f"{m}_{int(s):02d}.jpg"
-        lines.append(f"  {{ file: '{filename}', startSec: {seg['start']} }},  // \"{seg['text']}\"")
+def to_frames(segments: list[dict], naming: str, ext: str) -> list[dict]:
+    """Receta lista para Remotion: {file, startSec, text} por segmento."""
+    return [
+        {"file": config.frame_filename(naming, ext, seg["id"], seg["start"]),
+         "startSec": seg["start"], "text": seg["text"]}
+        for seg in segments
+    ]
+
+
+def format_for_remotion(frames: list[dict]) -> str:
+    lines = ["const FRAMES: { file: string; startSec: number }[] = ["]
+    for f in frames:
+        lines.append(f"  {{ file: '{f['file']}', startSec: {f['startSec']} }},  // \"{f['text']}\"")
     lines.append("];")
     return "\n".join(lines)
 
 
-def main():
+def main() -> None:
     parser = argparse.ArgumentParser(description="Extrae timestamps de audio con Whisper")
-    parser.add_argument("audio", help="Ruta al archivo de audio (.mp3, .wav, etc.)")
-    parser.add_argument("--format", choices=["json", "remotion", "plain"], default="plain",
-                        help="Formato de salida (default: plain)")
-    parser.add_argument("--output", help="Archivo de salida (opcional, por defecto imprime en consola)")
-    parser.add_argument("--engine", choices=["whisper", "faster"], default="faster",
-                        help="Motor de transcripción (default: faster-whisper)")
+    parser.add_argument("audio", help="Ruta al audio (.mp3, .wav, …)")
+    parser.add_argument("--format", choices=["json", "remotion", "frames", "plain"],
+                        default="plain", help="json=segmentos · frames=receta {file,startSec,text} · remotion=array TS")
+    parser.add_argument("--output", help="Fichero de salida (por defecto: stdout)")
+    parser.add_argument("--engine", choices=["whisper", "faster"], default=config.WHISPER_ENGINE)
+    parser.add_argument("--model", default=config.WHISPER_MODEL)
+    parser.add_argument("--language", default=config.WHISPER_LANGUAGE)
+    parser.add_argument("--naming", choices=["timestamp", "seg"], default="timestamp")
+    parser.add_argument("--ext", default="jpg")
     args = parser.parse_args()
 
-    # Extraer segmentos
     try:
-        if args.engine == "faster":
-            segments = extract_timestamps_faster(args.audio)
-        else:
-            segments = extract_timestamps_whisper(args.audio)
+        extract = extract_timestamps_faster if args.engine == "faster" else extract_timestamps_whisper
+        segments = extract(args.audio, args.model, args.language)
     except ImportError as e:
         print(f"Error: {e}")
-        print("Instala con: pip install faster-whisper  (o: pip install openai-whisper)")
-        sys.exit(1)
+        sys.exit("Instala con: pip install -r requirements.txt  (o: pip install openai-whisper)")
 
-    # Formatear output
     if args.format == "json":
         output = json.dumps(segments, ensure_ascii=False, indent=2)
-    elif args.format == "remotion":
-        output = format_for_remotion(segments)
+    elif args.format in ("frames", "remotion"):
+        frames = to_frames(segments, args.naming, args.ext)
+        output = (json.dumps(frames, ensure_ascii=False, indent=2)
+                  if args.format == "frames" else format_for_remotion(frames))
     else:
-        # Plain: tabla legible
-        lines = [f"{'ID':>3}  {'START':>8}  {'END':>8}  TEXT"]
-        lines.append("-" * 60)
-        for seg in segments:
-            lines.append(f"{seg['id']:>3}  {seg['start']:>8.2f}s  {seg['end']:>8.2f}s  {seg['text']}")
-        output = "\n".join(lines)
+        rows = [f"{'ID':>3}  {'START':>8}  {'END':>8}  TEXT", "-" * 60]
+        rows += [f"{s['id']:>3}  {s['start']:>8.2f}s  {s['end']:>8.2f}s  {s['text']}" for s in segments]
+        output = "\n".join(rows)
 
-    # Output
     if args.output:
         with open(args.output, "w", encoding="utf-8") as f:
             f.write(output)

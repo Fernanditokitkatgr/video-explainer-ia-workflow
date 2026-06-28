@@ -2,7 +2,8 @@ import React from 'react';
 import { AbsoluteFill, Audio, Img, staticFile, useCurrentFrame, useVideoConfig } from 'remotion';
 
 // Timestamps from Whisper segment boundaries (exact audio sync, not guion approximations)
-const FRAMES = [
+// === FRAMES:START (generado por scripts/orchestrate.py — no editar a mano) ===
+const FRAMES: { file: string; startSec: number }[] = [
   { file: 'esta_noche.png', startSec: 0 },        // "Esta noche"
   { file: 'carlos_gasta.png', startSec: 1.16 },   // "Carlos va a gastar 10 euros en una tontería."
   { file: '0_04.jpg', startSec: 4.5 },     // "Y no va a pensar demasiado en ello."
@@ -68,6 +69,7 @@ const FRAMES = [
   { file: '2_13.jpg', startSec: 135.34 },  // "...no te vas a arrepentir de haber empezado pequeño."
   { file: '2_15.jpg', startSec: 137.8 },   // "Te vas a arrepentir de no haber empezado antes."
 ];
+// === FRAMES:END ===
 
 export const InteresCompuesto: React.FC = () => {
   const frame = useCurrentFrame();
