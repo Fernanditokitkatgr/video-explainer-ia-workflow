@@ -1,6 +1,7 @@
 import { Composition } from "remotion";
 import { InteresCompuesto } from "./InteresCompuesto";
 import { SuenoStick } from "./SuenoStick";
+import { SuenoStickShort } from "./SuenoStickShort";
 import { AyunoIntermitente } from "./AyunoIntermitente";
 import { ColonAmerica } from "./ColonAmerica";
 
@@ -22,6 +23,14 @@ export const RemotionRoot: React.FC = () => {
         fps={30}
         width={1920}
         height={1080}
+      />
+      <Composition
+        id="SuenoStickShort"
+        component={SuenoStickShort}
+        durationInFrames={4960}
+        fps={30}
+        width={1080}
+        height={1920}
       />
       <Composition
         id="AyunoIntermitente"

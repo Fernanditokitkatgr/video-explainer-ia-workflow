@@ -42,6 +42,7 @@ el tiempo sigue pasando.
 ---
 
 ### PASO 2 — Síntesis de Voz con ElevenLabs V3
+Si el video es para el canal stick to the plan, usar voz ID ZSWlW01JDqJRQML1cHGs "Triline Youtube"
 
 1. Ir a [ElevenLabs](https://elevenlabs.io)
 2. Seleccionar **modelo V3** (acepta emociones entre corchetes)
@@ -251,6 +252,50 @@ Las reglas de prompt y la rúbrica completa viven en el skill, no aquí.
 
 ---
 
+### PASO 7 — Publicar en YouTube
+
+Usar el skill **`/youtube-publisher <slug>`**:
+
+1. Lee script + timestamps → genera título (50-70 chars), descripción con chapters, tags y hashtags
+2. HITL: revisar y aprobar metadata
+3. Sube MP4 + thumbnail via YouTube Data API (siempre `private` primero)
+4. Revisar en YouTube Studio: chapters en la barra, captions automáticas, thumbnail en mobile
+5. Pasar a público cuando todo esté OK
+
+```bash
+# Upload manual si se prefiere:
+cd scratch-yt
+./.venv/bin/python upload_youtube.py ../remotion/output/<slug>.mp4 \
+  --title "Título" --description "..." --tags "tag1,tag2" \
+  --thumbnail ../remotion/output/<slug>-thumbnail.png \
+  --privacy private
+```
+
+**Publish time óptimo:** Thu-Sab 18:00-20:00 hora local de la audiencia.
+
+---
+
+### PASO 8 — Crear el Short (vertical 9:16)
+
+Una vez publicado el video principal, generar la versión Short desde el mismo MP4 final:
+
+```bash
+ffmpeg -i "video-final.mp4" \
+  -vf "crop=ih*9/16:ih:(iw-ih*9/16)/2:0" \
+  -c:a copy \
+  remotion/output/<slug>-short.mp4 -y
+```
+
+Luego subir con el mismo `upload_youtube.py`:
+- Título con `#shorts` al final
+- Descripción corta (sin chapters — demasiado corto)
+- Privado → revisar → público
+- YouTube clasifica el video como Short automáticamente al detectar formato 9:16
+
+**Nota:** No hace falta crear una composition separada en Remotion. El crop con ffmpeg sobre el MP4 final es suficiente y gratis.
+
+---
+
 ## Costes por Vídeo
 
 | Herramienta | Coste por vídeo |
@@ -291,3 +336,6 @@ Las reglas de prompt y la rúbrica completa viven en el skill, no aquí.
 - [ ] Miniatura generada con `/thumbnail-creator` (variantes puntuadas)
 - [ ] **HITL 4:** Miniatura elegida y aprobada
 - [ ] MP4 + miniatura listos para publicar ✅
+- [ ] `/youtube-publisher <slug>` — metadata generada (título, descripción+chapters, tags) y aprobada
+- [ ] **HITL 5:** Revisar video en YouTube Studio (chapters, captions, thumbnail mobile) → pasar a público
+- [ ] Short creado con `ffmpeg` (center-crop 9:16) y subido como Short separado

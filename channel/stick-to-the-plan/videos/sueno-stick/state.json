@@ -1,11 +1,17 @@
 {
   "video": "sueno-stick",
   "steps": {
-    "voice": "pending",
-    "whisper": "pending",
+    "voice": "done",
+    "whisper": "done",
     "inject": "done",
-    "images": "pending",
-    "validate": "pending",
-    "render": "pending"
+    "images": "done",
+    "validate": "done",
+    "render": "done"
+  },
+  "published": {
+    "youtube_id": "-dJ1wdx7H1c",
+    "url": "https://youtu.be/-dJ1wdx7H1c",
+    "privacy": "public",
+    "date": "2026-06-28"
   }
 }

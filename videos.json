@@ -12,7 +12,12 @@
     "fps": 30,
     "width": 1920,
     "height": 1080,
-    "background": "#ffffff"
+    "background": "#ffffff",
+    "published": {
+      "youtube_id": "-dJ1wdx7H1c",
+      "youtube_short_id": "kS2bgI9XVs8",
+      "date": "2026-06-28"
+    }
   },
   "ayuno-intermitente": {
     "composition": "AyunoIntermitente",
