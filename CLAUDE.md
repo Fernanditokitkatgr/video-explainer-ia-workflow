@@ -47,6 +47,14 @@ Script → ElevenLabs V3 (voice) → [human review] → Whisper (timestamps)
 - **Script**: very short sentences (1 sentence = 1 image = 1 visual beat), ~63-70 sentences for 2.5 min. Emotion tags in brackets `[tono cercano]` for ElevenLabs V3.
 - **Whisper**: `scripts/whisper_timestamps.py` produces per-segment start times. Output files named `seg_NN.png` (e.g. `seg_00.png`, `seg_01.png`).
 - **Remotion**: a composition reads a `FRAMES` array mapping `{ file, startSec }` and shows the last image whose `startSec <= currentSec`.
+- **SFX + música de fondo** (opcional, capa extra sobre voz + imágenes): ver sección [Audio: SFX y música de fondo](#audio-sfx-y-música-de-fondo) más abajo. No forma parte todavía de `orchestrate.py` (se corre a mano entre `images` y `render`).
+
+### Escribir el guion (storytelling)
+
+- **Con una sola voz narradora y sin subtítulos, NUNCA escribas diálogo con atribución** ("dice X", "responde Y", "pregunta Z"). Con un único narrador no hay forma de que el oyente distinga personajes por la voz — ese patrón confunde en vez de aclarar. Cuenta el mismo hecho/chiste en narración directa de tercera persona (ej. en vez de `¿Con qué barco? —Buen punto.`, escribe `Pero en el puerto solo había canoas, muy lejos de lo necesario`).
+- **Hook**: promete el pago final desde la primera frase (ej. "ni la comida de tu nevera, ni el idioma que hablas serían iguales") y resuélvelo literalmente al cierre, con eco del lenguaje de apertura — cierra el bucle narrativo en vez de solo añadir una CTA suelta.
+- **Causalidad antes que lista de hechos**: cada sección debe explicar el *por qué* antes de enumerar datos (ej. explicar por qué un escenario es "poco probable" con una prueba concreta, no solo declararlo).
+- Emotion tags `[tono ...]` siguen sirviendo para variar la ENTONACIÓN de un mismo narrador (no para fingir personajes distintos).
 
 ## Setup (cada colaborador, una vez)
 
@@ -104,6 +112,56 @@ los inyecta automáticamente desde `frames.json` (no editar a mano esa zona).
 
 Image assets live in `remotion/public/<video-name>/` and audio at `remotion/public/<video-name>.mp3`. These are gitignored (`*.mp3`, `*.mp4`, `*.png/jpg`) so a fresh clone has no media; the studio will 404 until you add them. La **receta** (timings + prompts) sí va en git en `frames.json`, así que el medio se regenera/recupera desde las cuentas compartidas (ver SETUP.md).
 
+## Imágenes: el texto que aparezca SIEMPRE en español
+
+El texto en las viñetas (carteles, mapas, rótulos, bocadillos) es bienvenido y útil cuando
+ayuda a explicar la escena — **el problema nunca fue el texto en sí, es que `nano_banana_pro`/
+`nano_banana_2` (Higgsfield) lo escribe en INGLÉS por su cuenta**, incluso si el prompt pide
+español explícitamente. Pedir "escribe esto en español" a secas no es fiable.
+
+- El `style_base` de `frames.json` debe decir, en sustancia: **"cualquier texto, cartel, letrero
+  o bocadillo que aparezca en la imagen debe estar en español perfecto. Nunca en inglés. Si no
+  estás seguro de poder renderizarlo bien en español, usa solo símbolos/iconos en su lugar."**
+  — es decir: texto SÍ, siempre que sea español; solo se evita cuando no se puede garantizar el idioma.
+- Para cada escena que necesite texto (nombre de ley, cartel de "SUSCRÍBETE", topónimo, el nombre
+  de un imperio/personaje), escríbelo tú mismo en el prompt de esa escena en concreto, en
+  mayúsculas y tal cual quieres que salga — cuanto más explícito el prompt, más fiable el resultado.
+- Verifica con `Read` (puede abrir imágenes) una muestra de las imágenes generadas antes de dar
+  por buena una tanda. Ojo con la sobrecorrección: forzar "sin texto" en escenas que sí lo pedían
+  puede perder detalles de personaje/tema importantes (ej. perder que un personaje debía ser
+  azteca/inca por quedarse con una figura genérica sin su etiqueta). Revisar con quien pidió el
+  vídeo antes de cerrar la tanda.
+
+## Audio: SFX y música de fondo
+
+ElevenLabs tiene un endpoint de **Sound Generation** separado del de voz — misma
+`ELEVENLABS_API_KEY`, otro producto (`POST /v1/sound-generation`, body `{text, duration_seconds}`).
+Higgsfield NO sirve para esto: `generate_audio` solo hace voz; los modelos de música/SFX
+(`sonilo_music`, `mirelo_text_to_audio`) están bloqueados para su pipeline interno de juegos.
+
+- Script: `scripts/generate_sfx.py --video <nombre>`. Lee `channel/<canal>/videos/<video>/sfx.json`:
+  - `sfx`: lista de `{file, prompt, startSec, duration, volume}` — efectos puntuales.
+  - `music` (opcional): un único clip `{file, prompt, duration, volume}` para loop de fondo.
+  - Reanudable (salta los `.mp3` que ya existen). Guarda en `remotion/public/<video>-sfx/`.
+- **Límite duro de la API: `duration_seconds` máximo 30s** (probado: 22 y 30 devuelven 200, 60
+  devuelve 400). Para música de fondo continua, genera UN clip corto (~20-22s) y haz que
+  Remotion lo repita con `<Loop>`, no intentes generar la duración completa del vídeo de una vez.
+- **Muchos efectos > pocos genéricos, pero cada uno debe encajar con SU frase concreta.**
+  Revisa el texto real de cada segmento (whisper) y elige el sonido para ESE momento — reusar el
+  mismo efecto en sitios que no vienen a cuento es el error #1 que los usuarios detectan al oír
+  el vídeo. Sí puedes reutilizar el mismo archivo de sonido en varios momentos si el tipo de
+  evento se repite (ej. `whoosh_transition.mp3` en cada cambio de escenario), pero revisa que el
+  hueco entre dos usos del mismo archivo no sea demasiado corto (parece spam).
+- Volumen bajo siempre: música de fondo ~0.08-0.12, SFX de ambiente ~0.09-0.14, acentos puntuales
+  (pop cómico, campanita) ~0.15-0.22. Todo por debajo de la voz del narrador.
+- En el `.tsx`, cablea el `SFX` array con `<Sequence from={frame}><Audio .../></Sequence>` y la
+  música con `<Loop durationInFrames={duracionDelClipEnFrames}><Audio .../></Loop>` — **NO** le
+  pases a `Loop` la duración total del vídeo (`durationInFrames` de `useVideoConfig()`): `Loop`
+  interpreta ese número como la longitud de UNA iteración, así que si le pasas la duración total
+  del vídeo solo suena una vez (la duración real del clip) y luego se queda en silencio el resto.
+  Pásale la duración real del clip (`Math.round(MUSIC_CLIP_SECONDS * fps)`) y Loop repite solo
+  hasta rellenar el resto automáticamente.
+
 ## Adding a new video
 
 1. Añade la entrada en [videos.json](./videos.json) (composición, naming, playback, rutas).
@@ -117,6 +175,8 @@ Image assets live in `remotion/public/<video-name>/` and audio at `remotion/publ
 - **Use Whisper SEGMENT timestamps, not word timestamps.** Word-level matching gives false positives (`"no"` inside `"años"`). The script returns segments for this reason.
 - **A missing image desyncs everything after it.** Because the lookup advances through `FRAMES` by time, one absent file shifts every later frame by +1. Verify the full image set before assembling.
 - **Playback rate must be applied in two places (1.1× videos only).** `InteresCompuesto` runs at 1.1×: `playbackRate={1.1}` on `<Audio>` AND `currentSec = (frame / fps) * 1.1` in the frame lookup. Also factor it into `durationInFrames` (`seconds * 30 / 1.1`). Changing one without the other desyncs audio from images. `SuenoStick` uses 1.0× — no multiplier needed.
+- **Si además hay una capa de SFX posicionada por `<Sequence from={frame}>`, ese `frame` TAMBIÉN hay que dividirlo por `PLAYBACK_RATE`** (`Math.round((startSecOriginal / PLAYBACK_RATE) * fps)`), igual que el lookup de `FRAMES`. Si no, los SFX quedan desincronizados en cuanto el rate no es 1.0 — no falla de forma visible al renderizar, solo suena tarde/pronto.
+- **Al regenerar imágenes para un guion reescrito, usa un prefijo de versión en los nombres de archivo** (ej. `v3_0_15.jpg`) en vez de dejar que el naming por timestamp (`M_SS.jpg`) reutilice nombres de una tanda anterior. Dos guiones distintos pueden producir el mismo `M_SS.jpg` para contenido totalmente distinto — como `generate_images.py`/la generación manual hacen skip-if-exists, sin prefijo se reusaría en silencio la imagen VIEJA equivocada. No borres las imágenes antiguas para "limpiar": son coste ya pagado y el auto-mode bloquea el borrado masivo por buen motivo.
 
 ## Agentic channel analytics vertical
 

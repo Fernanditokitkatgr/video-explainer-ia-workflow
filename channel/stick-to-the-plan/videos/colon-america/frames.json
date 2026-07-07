@@ -1,0 +1,415 @@
+{
+  "video": "colon-america",
+  "style_base": "Simple hand-drawn cartoon illustration, thick black marker outlines, soft flat colors, minimal shading, pure white background, 16:9, caricatured historical figures with exaggerated era-appropriate features (big noses, mustaches, iconic hats/clothing), expressive faces. CRITICAL TEXT RULE: prefer NO text, labels, signs, or speech bubbles at all — tell the scene through action, expression and symbols instead. If text is truly unavoidable, it MUST be written in perfect SPANISH exactly as specified in the scene description, in large simple block letters — NEVER English, NEVER any other language.",
+  "note": "v3: regeneracion completa por texto en ingles detectado en 30+ imagenes de la v2. Nuevo guion (storytelling v3, 69 segmentos). Minimizado el uso de texto embebido; donde aparece, va explicito en español en el prompt.",
+  "frames": [
+    {
+      "file": "v3_0_00.jpg",
+      "startSec": 0.0,
+      "text": "Imagina que en 1492 un tipo con tres barcos pudo simplemente no ir.",
+      "scene": "Caricatured 15th-century captain standing at a moonlit dock, looking back hesitantly toward a cozy lit house behind him instead of toward three ships waiting at the pier, no text"
+    },
+    {
+      "file": "v3_0_05.jpg",
+      "startSec": 5.8,
+      "text": "Nada de Santa María, nada de Pinta ni Niña...",
+      "scene": "Three small sailing ships sitting empty and still at a moonlit dock, sails furled, nobody aboard, no text"
+    },
+    {
+      "file": "v3_0_11.jpg",
+      "startSec": 11.64,
+      "text": "...la comida de tu nevera, ni el idioma que hablas, serían iguales.",
+      "scene": "A modern open refrigerator glowing softly, a potato, a tomato and a cup of coffee inside slowly fading into sparkly dust, no text"
+    },
+    {
+      "file": "v3_0_16.jpg",
+      "startSec": 16.32,
+      "text": "Hay exactamente cuatro formas en las que la historia podría haber ido distinta.",
+      "scene": "Four glowing stone path markers branching out from a single crossroads at night, each marker showing only a large carved number 1, 2, 3, 4, no other text"
+    },
+    {
+      "file": "v3_0_21.jpg",
+      "startSec": 21.04,
+      "text": "Vamos a verlas, de la menos probable a la más probable, empecemos por la menos probable",
+      "scene": "Caricatured narrator walking toward the glowing number 1 stone marker among the four crossroads paths, no text"
+    },
+    {
+      "file": "v3_0_25.jpg",
+      "startSec": 25.88,
+      "text": "...que nadie descubra América jamás.",
+      "scene": "A large blank foggy silhouette shaped like the American continent on an old map, faded and undefined, no text"
+    },
+    {
+      "file": "v3_0_29.jpg",
+      "startSec": 29.94,
+      "text": "Digo menos probable, porque en 1500 ya había pruebas de que tarde o temprano alguien iba",
+      "scene": "A crowded 16th-century dock full of caricatured European explorers eagerly boarding ships, excitement and bustle, no text"
+    },
+    {
+      "file": "v3_0_35.jpg",
+      "startSec": 35.54,
+      "text": "a tropezar con ella.",
+      "scene": "A ship's lookout caricature stumbling forward in surprise, spyglass falling from his hand, unexpected green coastline appearing on the horizon, no text"
+    },
+    {
+      "file": "v3_0_37.jpg",
+      "startSec": 37.34,
+      "text": "...Cabral, iba camino de la India y se topó con Brasil sin buscarlo siquiera.",
+      "scene": "Caricatured Cabral on a ship deck, compass pointing toward a small drawing of India, but an unexpected green coastline labeled BRASIL appears in a completely different direction, text BRASIL in bold simple Spanish letters on the coastline"
+    },
+    {
+      "file": "v3_0_42.jpg",
+      "startSec": 42.44,
+      "text": "siquiera.",
+      "scene": "Close-up of Cabral's shocked wide-eyed face, big nose, sailor hat, no text"
+    },
+    {
+      "file": "v3_0_43.jpg",
+      "startSec": 43.64,
+      "text": "Pero juguemos a que ese tipo de accidente nunca ocurre.",
+      "scene": "A giant caricatured hand holding a large eraser, wiping away a ship's dotted path drawn on an old map, no text"
+    },
+    {
+      "file": "v3_0_47.jpg",
+      "startSec": 47.26,
+      "text": "Nadie se atreve, nadie tropieza, nadie cruza el océano.",
+      "scene": "A vast empty calm ocean horizon at dawn, completely still, no ships anywhere, no text"
+    },
+    {
+      "file": "v3_0_51.jpg",
+      "startSec": 51.38,
+      "text": "Sin europeos de por medio, el continente sigue su propio camino.",
+      "scene": "A glowing stylized map of Mesoamerica and the Andes, untouched and self-contained, three softly glowing regions, no text"
+    },
+    {
+      "file": "v3_0_55.jpg",
+      "startSec": 55.64,
+      "text": "Los aztecas absorben a los mayas, ya debilitados por sequías y guerras internas.",
+      "scene": "Caricatured Aztec warrior with a feathered headdress absorbing a shrinking cracked Maya pyramid into his territory on a map, drought cracks visible, no text"
+    },
+    {
+      "file": "v3_1_00.jpg",
+      "startSec": 60.64,
+      "text": "Los incas se extienden hacia el sur, gracias a sus carreteras y su dominio de la agricultura",
+      "scene": "Caricatured Inca ruler with a headband and gold sun pendant, arms spread over a mountain range map expanding southward, network of stone roads visible, no text"
+    },
+    {
+      "file": "v3_1_05.jpg",
+      "startSec": 65.24,
+      "text": "de montaña.",
+      "scene": "Terraced Andean mountain farms with crops growing in neat stepped rows, tiny Inca farmers working, no text"
+    },
+    {
+      "file": "v3_1_06.jpg",
+      "startSec": 66.68,
+      "text": "Entre ambos imperios está el tapón del Darién, una selva tan hostil que hoy, en pleno",
+      "scene": "A dense green jungle strip on a map separating two empires, thick vines and swamp icons, no text"
+    },
+    {
+      "file": "v3_1_11.jpg",
+      "startSec": 71.62,
+      "text": "siglo veintiuno, sigue sin haber una carretera que la cruce.",
+      "scene": "Modern aerial-style view of the same dense jungle strip, a small red X mark where a road would be, dotted line stopping abruptly at the jungle edge, no text"
+    },
+    {
+      "file": "v3_1_16.jpg",
+      "startSec": 76.14,
+      "text": "Dos imperios, una frontera que ni la selva ni el tiempo logran borrar.",
+      "scene": "Aztec and Inca border markers facing each other across the jungle strip, neither side crossing, dust settling over the border, no text"
+    },
+    {
+      "file": "v3_1_20.jpg",
+      "startSec": 80.04,
+      "text": "Y mientras tanto, en Europa, sin América en el mapa, la mirada se habría ido hacia",
+      "scene": "European map with the American continent completely erased and blank, arrows redirecting explorer ships toward the African coastline instead, no text"
+    },
+    {
+      "file": "v3_1_26.jpg",
+      "startSec": 86.0,
+      "text": "África, chocando de frente con el imperio otomano.",
+      "scene": "A turbaned Ottoman warrior caricature blocking the explorers' path on an African shore with a raised scimitar, tense stand-off, no text"
+    },
+    {
+      "file": "v3_1_29.jpg",
+      "startSec": 89.92,
+      "text": "Segundo escenario, es América la que encuentra al resto del mundo primero.",
+      "scene": "A glowing stone marker with a large number 2, an American indigenous-style ship boldly sailing east toward Europe, roles reversed, no text"
+    },
+    {
+      "file": "v3_1_34.jpg",
+      "startSec": 94.3,
+      "text": "Suena a ciencia ficción y en parte lo es.",
+      "scene": "A whimsical stylized ship glowing with sparkles and small stars around it, fantastical sci-fi tint, no text"
+    },
+    {
+      "file": "v3_1_37.jpg",
+      "startSec": 97.06,
+      "text": "América lo tenía crudo desde el principio, es un continente vertical, no horizontal como Eurasia.",
+      "scene": "A tall vertical continent shape labeled by silhouette only (America) next to a wide horizontal continent shape (Eurasia) side by side for comparison, no text"
+    },
+    {
+      "file": "v3_1_43.jpg",
+      "startSec": 103.18,
+      "text": "Así que un cultivo no viaja bien de norte a sur.",
+      "scene": "Diagram of the vertical America continent with colored horizontal climate bands and small red arrows blocking vertical travel, no text"
+    },
+    {
+      "file": "v3_1_46.jpg",
+      "startSec": 106.14,
+      "text": "El maíz nunca cruzó al sur, la llama nunca subió al norte, y para cruzar un océano",
+      "scene": "Split image: a cartoon corn cob stuck halfway on a map on one side, a cartoon llama stuck at a mountain checkpoint on the other side, no text"
+    },
+    {
+      "file": "v3_1_51.jpg",
+      "startSec": 111.26,
+      "text": "hace falta algo más que ganas.",
+      "scene": "A tiny wooden canoe facing an enormous ocean horizon, comedic scale contrast, no text"
+    },
+    {
+      "file": "v3_1_53.jpg",
+      "startSec": 113.52,
+      "text": "Un consejero azteca podría proponerlo, sí, pero en el puerto sólo había canoas, a",
+      "scene": "Caricatured Aztec council chamber, a determined consejero pointing toward the ocean on a wall map, small canoes visible through a window, no text"
+    },
+    {
+      "file": "v3_1_58.jpg",
+      "startSec": 118.44,
+      "text": "años luz de lo necesario.",
+      "scene": "Close-up comedic scale contrast between a tiny wooden canoe and a massive ship silhouette drawn faintly behind it, no text"
+    },
+    {
+      "file": "v3_2_00.jpg",
+      "startSec": 120.44,
+      "text": "Aún así, juguemos a que sí lo consiguen, y son los aztecas quienes cruzan el Atlántico",
+      "scene": "A fleet of stylized Aztec sail-canoes crossing a stormy Atlantic Ocean, feathered banners flying, dramatic waves, no text"
+    },
+    {
+      "file": "v3_2_05.jpg",
+      "startSec": 125.18,
+      "text": "y conquistan Iberia, tres ciudades-estado, un sistema de impuestos brutal y el náhuatl",
+      "scene": "Aztec warriors landing on the Iberian coastline planting a feathered banner, three small circular city banners on a map of Iberia showing simple ship, tower and shield icons only, no text"
+    },
+    {
+      "file": "v3_2_11.jpg",
+      "startSec": 131.08,
+      "text": "como lengua de la clase alta.",
+      "scene": "An Iberian noble caricature dressed in local clothes but wearing Aztec-style jewelry, speaking with decorative glyph-style symbols floating from his mouth instead of readable words, no text"
+    },
+    {
+      "file": "v3_2_13.jpg",
+      "startSec": 133.48,
+      "text": "Con los incas casi nada cambiaría.",
+      "scene": "Caricatured Inca ruler calmly overseeing Iberian farmers working terraced fields, peaceful expression, no text"
+    },
+    {
+      "file": "v3_2_15.jpg",
+      "startSec": 135.74,
+      "text": "Ya vivían bajo un reparto de tierras parecido.",
+      "scene": "Iberian peasants exchanging goods equally at a simple market stall, no coins visible, Inca-style barter system, no text"
+    },
+    {
+      "file": "v3_2_18.jpg",
+      "startSec": 138.82,
+      "text": "Tercer escenario, es Asia quien llega primero, y aquí la cosa pudo ser muy distinta, porque",
+      "scene": "A glowing stone marker with a large number 3, a vast Pacific Ocean map stretching toward a distant American coastline, no text"
+    },
+    {
+      "file": "v3_2_24.jpg",
+      "startSec": 144.44,
+      "text": "China estuvo más cerca de lo que crees.",
+      "scene": "A Chinese treasure fleet map with dotted lines reaching toward America across the Pacific, no text"
+    },
+    {
+      "file": "v3_2_26.jpg",
+      "startSec": 146.98,
+      "text": "...sus flotas ya habían llegado hasta África oriental.",
+      "scene": "Caricatured Zheng He style Chinese admiral on a massive treasure ship, banners flying, reaching the African coast, no text"
+    },
+    {
+      "file": "v3_2_33.jpg",
+      "startSec": 153.54,
+      "text": "Inventaron la brújula y la pólvora antes que nadie.",
+      "scene": "Close-up of an ornate compass and a small pouch of gunpowder on a wooden table, Chinese inventions highlighted, no text"
+    },
+    {
+      "file": "v3_2_36.jpg",
+      "startSec": 156.4,
+      "text": "El emperador incluso se planteó seguir navegando hacia el este.",
+      "scene": "Caricatured Chinese emperor on a throne, thin mustache, imperial robe, looking thoughtfully toward a large map, no text"
+    },
+    {
+      "file": "v3_2_40.jpg",
+      "startSec": 160.14,
+      "text": "Pero el imperio tenía líos internos más urgentes y la flota dio media vuelta.",
+      "scene": "The emperor waving a dismissive hand, the treasure fleet turning back toward China on the map, no text"
+    },
+    {
+      "file": "v3_2_44.jpg",
+      "startSec": 164.76,
+      "text": "Por política, no por falta de barcos.",
+      "scene": "A closed ornate palace gate with a padlock icon, no text, no signage"
+    },
+    {
+      "file": "v3_2_47.jpg",
+      "startSec": 167.36,
+      "text": "Quizás la decisión más cara de la historia.",
+      "scene": "A glowing pile of treasure and gold coins slowly fading into shadow and darkness, symbolic of a lost opportunity, no text"
+    },
+    {
+      "file": "v3_2_50.jpg",
+      "startSec": 170.28,
+      "text": "Y aunque hubiesen insistido, el Pacífico no se lo iba a poner fácil.",
+      "scene": "A giant swirling ocean current loop drawn across the Pacific on a map, no text"
+    },
+    {
+      "file": "v3_2_54.jpg",
+      "startSec": 174.58,
+      "text": "Sus corrientes tardaron 43 años en descifrarse, incluso sabiendo ya que América estaba ahí.",
+      "scene": "A calendar flipping rapidly through many pages, a small ship stuck going in circles inside a Pacific current loop, no text"
+    },
+    {
+      "file": "v3_3_01.jpg",
+      "startSec": 181.2,
+      "text": "Japón en plena guerra civil, India partida en mil pedazos, los otomanos con la puerta",
+      "scene": "Split scene: a samurai-style warrior caricature clashing swords with another in chaotic civil war on the left, a map divided into many small fractured colored territories on the right, no text"
+    },
+    {
+      "file": "v3_3_06.jpg",
+      "startSec": 186.84,
+      "text": "de Gibraltar cerrada a cal y canto.",
+      "scene": "Ottoman ships caricature blocked by a giant closed stone gate at a narrow strait, no text"
+    },
+    {
+      "file": "v3_3_09.jpg",
+      "startSec": 189.26,
+      "text": "Este escenario, con todo su potencial, se queda corto.",
+      "scene": "The glowing number 3 stone marker dimming out and fading, no text"
+    },
+    {
+      "file": "v3_3_12.jpg",
+      "startSec": 192.84,
+      "text": "Y así llegamos al escenario que de verdad ocurrió, o algo muy parecido.",
+      "scene": "The glowing number 4 stone marker lighting up brightly, radiant golden light, no text"
+    },
+    {
+      "file": "v3_3_17.jpg",
+      "startSec": 197.2,
+      "text": "Otro país europeo llega primero.",
+      "scene": "Several small European ships racing across the ocean toward a cartoon America, each flying a distinct national flag (Spain, Portugal, England, France, Holland), no text"
+    },
+    {
+      "file": "v3_3_19.jpg",
+      "startSec": 199.54,
+      "text": "Da igual cuál, porque aquí es donde de verdad se decide el mundo que conoces hoy.",
+      "scene": "Caricatured narrator addressing the viewer directly, spreading hands wide over a detailed map of the Americas, no text"
+    },
+    {
+      "file": "v3_3_24.jpg",
+      "startSec": 204.14,
+      "text": "Cada potencia habría jugado sus cartas distinto.",
+      "scene": "Five caricatured European rulers each holding a different colored blank playing card, poker-table style, no text"
+    },
+    {
+      "file": "v3_3_27.jpg",
+      "startSec": 207.14,
+      "text": "España prohibió la esclavitud indígena con las leyes de Burgos, y terminó importando",
+      "scene": "A Spanish official caricature stamping a scroll, indigenous figures nearby looking relieved, the scroll shows the text LEYES DE BURGOS written clearly in bold Spanish letters"
+    },
+    {
+      "file": "v3_3_31.jpg",
+      "startSec": 211.54,
+      "text": "esclavos africanos igual.",
+      "scene": "Ships arriving from Africa unloading cargo crates marked with simple chain icons, somber tone shift, no text"
+    },
+    {
+      "file": "v3_3_33.jpg",
+      "startSec": 213.54,
+      "text": "Los colonos ingleses apenas se mezclaron con la población local, llevaban familias",
+      "scene": "Caricatured English colonists disembarking as whole families, suitcases and children, keeping visible distance from local indigenous figures, no text"
+    },
+    {
+      "file": "v3_3_38.jpg",
+      "startSec": 218.06,
+      "text": "enteras y mantenían las distancias.",
+      "scene": "A large family group of English colonists caricature standing together, turning their backs on nearby indigenous figures, no text"
+    },
+    {
+      "file": "v3_3_40.jpg",
+      "startSec": 220.48,
+      "text": "Los españoles en cambio ya se habían casado con buena parte de las aldeas indígenas.",
+      "scene": "Caricatured Spanish colonist smiling warmly next to his mixed-heritage family portrait, indigenous wife and children, no text"
+    },
+    {
+      "file": "v3_3_45.jpg",
+      "startSec": 225.66,
+      "text": "Y esa diferencia explica más de lo que parece.",
+      "scene": "Narrator caricature with a glowing lightbulb-style idea symbol above his head, insight moment, no text"
+    },
+    {
+      "file": "v3_3_48.jpg",
+      "startSec": 228.8,
+      "text": "De ahí viene que media Latinoamérica hable español y casi toda Norteamérica hable inglés.",
+      "scene": "A split map of the Americas, southern half glowing warm with a small Spanish flag icon, northern half glowing cool with a small British flag icon, no text"
+    },
+    {
+      "file": "v3_3_54.jpg",
+      "startSec": 234.5,
+      "text": "Si hubiese sido Portugal, el resultado habría sido casi idéntico al español.",
+      "scene": "A Portuguese flag caricature overlapping almost perfectly with a Spanish flag on the map, mirror effect, no text"
+    },
+    {
+      "file": "v3_3_58.jpg",
+      "startSec": 238.82,
+      "text": "Con Francia parecido, pero con Inglaterra o Holanda, hoy tendrías un continente mucho menos",
+      "scene": "A French flag caricature slightly offset near the Spanish flag, while English and Dutch flags stand clearly apart with a visible gap on the map, no text"
+    },
+    {
+      "file": "v3_4_05.jpg",
+      "startSec": 245.06,
+      "text": "mestizo.",
+      "scene": "A modern stylized map of the Americas with color gradients showing mixed heritage density, warmer tones in the south fading to cooler tones in the north, no text"
+    },
+    {
+      "file": "v3_4_06.jpg",
+      "startSec": 246.26,
+      "text": "Así que la próxima vez que abras la nevera y veas una patata, un tomate o te tomes un café,",
+      "scene": "A modern open refrigerator glowing warmly with a potato, a tomato and a cup of coffee clearly visible inside, no text"
+    },
+    {
+      "file": "v3_4_11.jpg",
+      "startSec": 251.44,
+      "text": "acuérdate.",
+      "scene": "Narrator caricature pointing directly at the viewer with a knowing expression, no text"
+    },
+    {
+      "file": "v3_4_12.jpg",
+      "startSec": 252.4,
+      "text": "Nada de eso debería estar ahí.",
+      "scene": "The potato, tomato and coffee cup from the fridge flickering and slightly transparent, as if about to disappear, no text"
+    },
+    {
+      "file": "v3_4_14.jpg",
+      "startSec": 254.7,
+      "text": "Todo empezó porque un día de 1492 un tipo con tres barcos decidió no quedarse en casa.",
+      "scene": "Caricatured captain firmly gripping the ship's helm wheel at sea, sailing forward, the small lit house from the opening scene fading into the distance behind him, no text"
+    },
+    {
+      "file": "v3_4_21.jpg",
+      "startSec": 261.28,
+      "text": "¿Cuál de los cuatro escenarios te hubiese gustado más?",
+      "scene": "Narrator caricature standing among the four glowing numbered stone markers, addressing the viewer directly, no text"
+    },
+    {
+      "file": "v3_4_24.jpg",
+      "startSec": 264.28,
+      "text": "Dímelo en comentarios.",
+      "scene": "A simple speech bubble icon shape with three small dots inside, narrator pointing at it, no text"
+    },
+    {
+      "file": "v3_4_25.jpg",
+      "startSec": 265.1,
+      "text": "Y si te ha volado la cabeza, suscríbete.",
+      "scene": "Narrator's head caricature exploding softly into stars and sparks, comedic mind-blown effect, next to a glowing red bell icon with the word SUSCRÍBETE written clearly in bold simple Spanish letters beneath it"
+    }
+  ]
+}

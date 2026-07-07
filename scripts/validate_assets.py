@@ -19,11 +19,16 @@ import sys
 import config
 
 FILE_RE = re.compile(r"file:\s*'([^']+)'")
+FRAMES_BLOCK_RE = re.compile(r"// === FRAMES:START.*?===\n(.*?)// === FRAMES:END ===", re.DOTALL)
 
 
 def frames_in_tsx(tsx_path) -> list[str]:
     text = tsx_path.read_text(encoding="utf-8")
-    return FILE_RE.findall(text)
+    # Solo dentro de FRAMES:START/END — otros arrays (p.ej. SFX) también usan 'file:'
+    # pero apuntan a remotion/public/<video>-sfx/, no a images_subpath.
+    block = FRAMES_BLOCK_RE.search(text)
+    scope = block.group(1) if block else text
+    return FILE_RE.findall(scope)
 
 
 def validate(name: str) -> bool:
