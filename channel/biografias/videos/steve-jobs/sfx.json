@@ -1,0 +1,263 @@
+{
+  "video": "steve-jobs",
+  "music": {
+    "file": "background_theme_30.mp3",
+    "prompt": "gentle emotional piano and soft strings, reflective inspirational documentary tone, no vocals, loopable, low energy, smooth seamless start and end",
+    "duration": 30,
+    "volume": 0.08
+  },
+  "sfx": [
+    {
+      "file": "soft_whoosh.mp3",
+      "startSec": 0.0,
+      "duration": 2,
+      "volume": 0.11,
+      "prompt": "soft cinematic whoosh transition, emotional documentary style, no music"
+    },
+    {
+      "file": "sad_sting.mp3",
+      "startSec": 4.6,
+      "duration": 2.5,
+      "volume": 0.13,
+      "prompt": "short somber cinematic sting, wistful and reflective, no music"
+    },
+    {
+      "file": "tense_sting.mp3",
+      "startSec": 28.56,
+      "duration": 2,
+      "volume": 0.14,
+      "prompt": "short tense dramatic sting, cinematic, no music"
+    },
+    {
+      "file": "page_flip.mp3",
+      "startSec": 33.86,
+      "duration": 1.5,
+      "volume": 0.1,
+      "prompt": "quick paper page flip sound, short, no music"
+    },
+    {
+      "file": "baby_coo.mp3",
+      "startSec": 37.1,
+      "duration": 2,
+      "volume": 0.11,
+      "prompt": "gentle short baby coo sound, warm and soft, very short"
+    },
+    {
+      "file": "sad_sting.mp3",
+      "startSec": 42.4,
+      "duration": 2,
+      "volume": 0.12,
+      "prompt": "short somber cinematic sting, wistful and reflective, no music"
+    },
+    {
+      "file": "hopeful_swell.mp3",
+      "startSec": 54.4,
+      "duration": 2.5,
+      "volume": 0.13,
+      "prompt": "short hopeful orchestral swell, uplifting emotional moment, no music"
+    },
+    {
+      "file": "soft_whoosh.mp3",
+      "startSec": 60.44,
+      "duration": 1.5,
+      "volume": 0.1,
+      "prompt": "soft cinematic whoosh transition, emotional documentary style, no music"
+    },
+    {
+      "file": "phone_dial.mp3",
+      "startSec": 76.38,
+      "duration": 2,
+      "volume": 0.12,
+      "prompt": "old rotary telephone dialing sound, short, no music"
+    },
+    {
+      "file": "realization_chime.mp3",
+      "startSec": 83.66,
+      "duration": 2,
+      "volume": 0.14,
+      "prompt": "short magical realization chime, bright sparkle, uplifting, very short"
+    },
+    {
+      "file": "tense_sting.mp3",
+      "startSec": 92.28,
+      "duration": 2,
+      "volume": 0.13,
+      "prompt": "short tense dramatic sting, cinematic, no music"
+    },
+    {
+      "file": "sad_sting.mp3",
+      "startSec": 101.8,
+      "duration": 2,
+      "volume": 0.1,
+      "prompt": "short somber cinematic sting, wistful and reflective, no music"
+    },
+    {
+      "file": "pencil_scribble.mp3",
+      "startSec": 108.7,
+      "duration": 2,
+      "volume": 0.11,
+      "prompt": "quick pencil scribbling sound on paper, short, no music"
+    },
+    {
+      "file": "realization_chime.mp3",
+      "startSec": 114.4,
+      "duration": 2,
+      "volume": 0.13,
+      "prompt": "short magical realization chime, bright sparkle, uplifting, very short"
+    },
+    {
+      "file": "soft_whoosh.mp3",
+      "startSec": 120.26,
+      "duration": 1.5,
+      "volume": 0.1,
+      "prompt": "soft cinematic whoosh transition, emotional documentary style, no music"
+    },
+    {
+      "file": "keyboard_clack.mp3",
+      "startSec": 129.38,
+      "duration": 2,
+      "volume": 0.11,
+      "prompt": "quick mechanical keyboard typing clacks, short burst, no music"
+    },
+    {
+      "file": "cash_register.mp3",
+      "startSec": 135.66,
+      "duration": 1.5,
+      "volume": 0.13,
+      "prompt": "short cheerful cash register cha-ching sound, no music"
+    },
+    {
+      "file": "hopeful_swell.mp3",
+      "startSec": 141.1,
+      "duration": 2,
+      "volume": 0.13,
+      "prompt": "short hopeful orchestral swell, uplifting emotional moment, no music"
+    },
+    {
+      "file": "cash_register.mp3",
+      "startSec": 144.22,
+      "duration": 1.5,
+      "volume": 0.12,
+      "prompt": "short cheerful cash register cha-ching sound, no music"
+    },
+    {
+      "file": "dramatic_reveal.mp3",
+      "startSec": 149.88,
+      "duration": 2,
+      "volume": 0.16,
+      "prompt": "short dramatic reveal sting, cinematic impact"
+    },
+    {
+      "file": "door_slam.mp3",
+      "startSec": 167.78,
+      "duration": 1.5,
+      "volume": 0.14,
+      "prompt": "single heavy glass office door closing, short, no music"
+    },
+    {
+      "file": "sad_sting.mp3",
+      "startSec": 172.72,
+      "duration": 2.5,
+      "volume": 0.14,
+      "prompt": "short somber cinematic sting, wistful and reflective, no music"
+    },
+    {
+      "file": "hopeful_swell.mp3",
+      "startSec": 178.7,
+      "duration": 2,
+      "volume": 0.13,
+      "prompt": "short hopeful orchestral swell, uplifting emotional moment, no music"
+    },
+    {
+      "file": "realization_chime.mp3",
+      "startSec": 186.2,
+      "duration": 2,
+      "volume": 0.13,
+      "prompt": "short magical realization chime, bright sparkle, uplifting, very short"
+    },
+    {
+      "file": "tense_sting.mp3",
+      "startSec": 191.78,
+      "duration": 2,
+      "volume": 0.14,
+      "prompt": "short tense dramatic sting, cinematic, no music"
+    },
+    {
+      "file": "hopeful_swell.mp3",
+      "startSec": 200.52,
+      "duration": 2.5,
+      "volume": 0.14,
+      "prompt": "short hopeful orchestral swell, uplifting emotional moment, no music"
+    },
+    {
+      "file": "dramatic_reveal.mp3",
+      "startSec": 208.0,
+      "duration": 2,
+      "volume": 0.17,
+      "prompt": "short dramatic reveal sting, cinematic impact"
+    },
+    {
+      "file": "sad_sting.mp3",
+      "startSec": 220.82,
+      "duration": 2,
+      "volume": 0.15,
+      "prompt": "short somber cinematic sting, wistful and reflective, no music"
+    },
+    {
+      "file": "soft_whoosh.mp3",
+      "startSec": 225.5,
+      "duration": 1.5,
+      "volume": 0.1,
+      "prompt": "soft cinematic whoosh transition, emotional documentary style, no music"
+    },
+    {
+      "file": "heartbeat_soft.mp3",
+      "startSec": 246.9,
+      "duration": 3,
+      "volume": 0.12,
+      "prompt": "soft slow heartbeat sound, calm and steady, short loop"
+    },
+    {
+      "file": "sad_sting.mp3",
+      "startSec": 264.62,
+      "duration": 2,
+      "volume": 0.16,
+      "prompt": "short somber cinematic sting, wistful and reflective, no music"
+    },
+    {
+      "file": "pencil_scribble.mp3",
+      "startSec": 269.7,
+      "duration": 1.5,
+      "volume": 0.1,
+      "prompt": "quick pencil scribbling sound on paper, short, no music"
+    },
+    {
+      "file": "candle_blow.mp3",
+      "startSec": 275.32,
+      "duration": 1.5,
+      "volume": 0.13,
+      "prompt": "soft gentle breath extinguishing a candle, short, no music"
+    },
+    {
+      "file": "warm_glow_chime.mp3",
+      "startSec": 283.2,
+      "duration": 2.5,
+      "volume": 0.15,
+      "prompt": "warm gentle glowing chime, peaceful and emotional, short"
+    },
+    {
+      "file": "warm_glow_chime.mp3",
+      "startSec": 287.22,
+      "duration": 2,
+      "volume": 0.14,
+      "prompt": "warm gentle glowing chime, peaceful and emotional, short"
+    },
+    {
+      "file": "subscribe_chime.mp3",
+      "startSec": 289.24,
+      "duration": 2,
+      "volume": 0.16,
+      "prompt": "warm cheerful subscribe notification chime, short and friendly"
+    }
+  ]
+}

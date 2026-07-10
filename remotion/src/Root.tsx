@@ -4,6 +4,8 @@ import { SuenoStick } from "./SuenoStick";
 import { SuenoStickShort } from "./SuenoStickShort";
 import { AyunoIntermitente } from "./AyunoIntermitente";
 import { ColonAmerica } from "./ColonAmerica";
+import { ComoFuncionaLaIA } from "./ComoFuncionaLaIA";
+import { SteveJobs } from "./SteveJobs";
 
 export const RemotionRoot: React.FC = () => {
   return (
@@ -44,6 +46,22 @@ export const RemotionRoot: React.FC = () => {
         id="ColonAmerica"
         component={ColonAmerica}
         durationInFrames={7350}
+        fps={30}
+        width={1920}
+        height={1080}
+      />
+      <Composition
+        id="ComoFuncionaLaIA"
+        component={ComoFuncionaLaIA}
+        durationInFrames={7155}
+        fps={30}
+        width={1920}
+        height={1080}
+      />
+      <Composition
+        id="SteveJobs"
+        component={SteveJobs}
+        durationInFrames={8114}
         fps={30}
         width={1920}
         height={1080}

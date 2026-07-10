@@ -1,0 +1,312 @@
+{
+  "video": "como-funciona-la-ia",
+  "music": {
+    "file": "background_theme_30.mp3",
+    "prompt": "light upbeat tech documentary background music, subtle synth pads and soft digital percussion, curious and playful tone, no vocals, loopable, low energy, smooth seamless start and end",
+    "duration": 30,
+    "volume": 0.09
+  },
+  "sfx": [
+    {
+      "file": "digital_whoosh.mp3",
+      "startSec": 0.0,
+      "duration": 2,
+      "volume": 0.12,
+      "prompt": "quick digital whoosh transition, futuristic sweep, no music"
+    },
+    {
+      "file": "chess_thud.mp3",
+      "startSec": 2.48,
+      "duration": 2,
+      "volume": 0.14,
+      "prompt": "single wooden chess piece toppling and thudding onto a wooden board, short"
+    },
+    {
+      "file": "realization_chime.mp3",
+      "startSec": 5.8,
+      "duration": 2,
+      "volume": 0.13,
+      "prompt": "short magical realization chime, bright sparkle, uplifting, very short"
+    },
+    {
+      "file": "camera_shutter.mp3",
+      "startSec": 8.54,
+      "duration": 1.5,
+      "volume": 0.13,
+      "prompt": "quick camera shutter click burst, short, no music"
+    },
+    {
+      "file": "digital_chime.mp3",
+      "startSec": 12.02,
+      "duration": 1.5,
+      "volume": 0.13,
+      "prompt": "short bright digital notification chime, curious and clean, very short"
+    },
+    {
+      "file": "digital_whoosh.mp3",
+      "startSec": 14.76,
+      "duration": 2,
+      "volume": 0.11,
+      "prompt": "quick digital whoosh transition, futuristic sweep, no music"
+    },
+    {
+      "file": "dramatic_reveal.mp3",
+      "startSec": 19.02,
+      "duration": 2,
+      "volume": 0.15,
+      "prompt": "short dramatic reveal sting, cinematic impact, digital undertone"
+    },
+    {
+      "file": "page_flip.mp3",
+      "startSec": 26.2,
+      "duration": 1.5,
+      "volume": 0.1,
+      "prompt": "quick paper page flip sound, short, no music"
+    },
+    {
+      "file": "digital_chime.mp3",
+      "startSec": 41.76,
+      "duration": 1.5,
+      "volume": 0.13,
+      "prompt": "short bright digital notification chime, curious and clean, very short"
+    },
+    {
+      "file": "keyboard_clack.mp3",
+      "startSec": 45.72,
+      "duration": 1.5,
+      "volume": 0.11,
+      "prompt": "quick mechanical keyboard typing clacks, short burst, no music"
+    },
+    {
+      "file": "comedic_boing.mp3",
+      "startSec": 47.58,
+      "duration": 1.5,
+      "volume": 0.14,
+      "prompt": "short comedic cartoon boing bounce sound, playful, very short"
+    },
+    {
+      "file": "warning_beep.mp3",
+      "startSec": 50.98,
+      "duration": 1.5,
+      "volume": 0.12,
+      "prompt": "short soft warning beep, cautionary but not alarming, very short"
+    },
+    {
+      "file": "comedic_boing.mp3",
+      "startSec": 57.66,
+      "duration": 1.5,
+      "volume": 0.13,
+      "prompt": "short comedic cartoon boing bounce sound, playful, very short"
+    },
+    {
+      "file": "digital_whoosh.mp3",
+      "startSec": 61.94,
+      "duration": 2,
+      "volume": 0.13,
+      "prompt": "quick digital whoosh transition, futuristic sweep, no music"
+    },
+    {
+      "file": "dramatic_reveal.mp3",
+      "startSec": 63.82,
+      "duration": 2,
+      "volume": 0.17,
+      "prompt": "short dramatic reveal sting, cinematic impact, digital undertone"
+    },
+    {
+      "file": "realization_chime.mp3",
+      "startSec": 74.66,
+      "duration": 2,
+      "volume": 0.14,
+      "prompt": "short magical realization chime, bright sparkle, uplifting, very short"
+    },
+    {
+      "file": "electric_zap.mp3",
+      "startSec": 84.08,
+      "duration": 1.5,
+      "volume": 0.14,
+      "prompt": "short electric zap sound, robotic and digital, very short"
+    },
+    {
+      "file": "camera_shutter.mp3",
+      "startSec": 86.48,
+      "duration": 1.5,
+      "volume": 0.13,
+      "prompt": "quick camera shutter click burst, short, no music"
+    },
+    {
+      "file": "digital_chime.mp3",
+      "startSec": 91.42,
+      "duration": 1.5,
+      "volume": 0.13,
+      "prompt": "short bright digital notification chime, curious and clean, very short"
+    },
+    {
+      "file": "keyboard_clack.mp3",
+      "startSec": 96.36,
+      "duration": 1.5,
+      "volume": 0.11,
+      "prompt": "quick mechanical keyboard typing clacks, short burst, no music"
+    },
+    {
+      "file": "game_blip.mp3",
+      "startSec": 103.2,
+      "duration": 1.5,
+      "volume": 0.13,
+      "prompt": "short retro arcade game blip beep, digital, very short"
+    },
+    {
+      "file": "victory_jingle.mp3",
+      "startSec": 108.06,
+      "duration": 2,
+      "volume": 0.15,
+      "prompt": "short simple victory jingle, cheerful digital tone, very short"
+    },
+    {
+      "file": "digital_chime.mp3",
+      "startSec": 112.62,
+      "duration": 1.5,
+      "volume": 0.12,
+      "prompt": "short bright digital notification chime, curious and clean, very short"
+    },
+    {
+      "file": "comedic_boing.mp3",
+      "startSec": 125.94,
+      "duration": 1.5,
+      "volume": 0.14,
+      "prompt": "short comedic cartoon boing bounce sound, playful, very short"
+    },
+    {
+      "file": "page_flip.mp3",
+      "startSec": 131.46,
+      "duration": 1.5,
+      "volume": 0.1,
+      "prompt": "quick paper page flip sound, short, no music"
+    },
+    {
+      "file": "digital_whoosh.mp3",
+      "startSec": 134.9,
+      "duration": 1.5,
+      "volume": 0.11,
+      "prompt": "quick digital whoosh transition, futuristic sweep, no music"
+    },
+    {
+      "file": "synth_pulse.mp3",
+      "startSec": 157.2,
+      "duration": 2.5,
+      "volume": 0.1,
+      "prompt": "pulsing synth network hum, glowing digital texture, ambient, no music"
+    },
+    {
+      "file": "digital_chime.mp3",
+      "startSec": 171.3,
+      "duration": 1.5,
+      "volume": 0.12,
+      "prompt": "short bright digital notification chime, curious and clean, very short"
+    },
+    {
+      "file": "game_blip.mp3",
+      "startSec": 179.98,
+      "duration": 1.5,
+      "volume": 0.13,
+      "prompt": "short retro arcade game blip beep, digital, very short"
+    },
+    {
+      "file": "victory_jingle.mp3",
+      "startSec": 183.42,
+      "duration": 2,
+      "volume": 0.15,
+      "prompt": "short simple victory jingle, cheerful digital tone, very short"
+    },
+    {
+      "file": "chess_thud.mp3",
+      "startSec": 187.88,
+      "duration": 2,
+      "volume": 0.13,
+      "prompt": "single wooden chess piece toppling and thudding onto a wooden board, short"
+    },
+    {
+      "file": "warning_beep.mp3",
+      "startSec": 194.92,
+      "duration": 1.5,
+      "volume": 0.11,
+      "prompt": "short soft warning beep, cautionary but not alarming, very short"
+    },
+    {
+      "file": "synth_pulse.mp3",
+      "startSec": 208.3,
+      "duration": 3,
+      "volume": 0.1,
+      "prompt": "pulsing synth network hum, glowing digital texture, ambient, no music"
+    },
+    {
+      "file": "dramatic_reveal.mp3",
+      "startSec": 221.02,
+      "duration": 2,
+      "volume": 0.18,
+      "prompt": "short dramatic reveal sting, cinematic impact, digital undertone"
+    },
+    {
+      "file": "realization_chime.mp3",
+      "startSec": 224.24,
+      "duration": 2,
+      "volume": 0.16,
+      "prompt": "short magical realization chime, bright sparkle, uplifting, very short"
+    },
+    {
+      "file": "chess_thud.mp3",
+      "startSec": 225.8,
+      "duration": 1.5,
+      "volume": 0.12,
+      "prompt": "single wooden chess piece toppling and thudding onto a wooden board, short"
+    },
+    {
+      "file": "digital_whoosh.mp3",
+      "startSec": 232.72,
+      "duration": 2,
+      "volume": 0.12,
+      "prompt": "quick digital whoosh transition, futuristic sweep, no music"
+    },
+    {
+      "file": "synth_pulse.mp3",
+      "startSec": 242.08,
+      "duration": 2.5,
+      "volume": 0.1,
+      "prompt": "pulsing synth network hum, glowing digital texture, ambient, no music"
+    },
+    {
+      "file": "digital_chime.mp3",
+      "startSec": 246.44,
+      "duration": 1.5,
+      "volume": 0.12,
+      "prompt": "short bright digital notification chime, curious and clean, very short"
+    },
+    {
+      "file": "warning_beep.mp3",
+      "startSec": 249.28,
+      "duration": 1.5,
+      "volume": 0.12,
+      "prompt": "short soft warning beep, cautionary but not alarming, very short"
+    },
+    {
+      "file": "page_flip.mp3",
+      "startSec": 251.1,
+      "duration": 1.5,
+      "volume": 0.1,
+      "prompt": "quick paper page flip sound, short, no music"
+    },
+    {
+      "file": "digital_chime.mp3",
+      "startSec": 254.82,
+      "duration": 1.5,
+      "volume": 0.13,
+      "prompt": "short bright digital notification chime, curious and clean, very short"
+    },
+    {
+      "file": "subscribe_chime.mp3",
+      "startSec": 261.54,
+      "duration": 2,
+      "volume": 0.18,
+      "prompt": "warm cheerful subscribe notification chime, short and friendly"
+    }
+  ]
+}

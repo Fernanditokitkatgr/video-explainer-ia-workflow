@@ -1,0 +1,541 @@
+{
+  "video": "como-funciona-la-ia",
+  "style_base": "Simple hand-drawn cartoon illustration, thick black marker outlines, soft flat colors, minimal shading, pure white background, 16:9, caricatured recognizable figures with exaggerated features (big noses, expressive faces). CRITICAL TEXT RULE: prefer NO text, labels, signs, or speech bubbles at all — tell the scene through action, expression and symbols instead. If text is truly unavoidable, it MUST be written in perfect SPANISH exactly as specified in the scene description, in large simple block letters — NEVER English, NEVER any other language. ",
+  "note": "86 sub-frames (2 por segmento whisper, tiempos interpolados). Tecnomono via reference element <<<1a757d5f-...>>>. | FIX sync como-funciona-la-ia: 88 timestamps reales (pausas a nivel de palabra, faster-whisper 'small', gap>0.35s) reemplazan los 86 segmentos/sub-frames anteriores (whisper 'base' fusionaba varias frases por segmento). Imagenes reutilizadas por mapeo de orden narrativo.",
+  "frames": [
+    {
+      "file": "0_00_0.jpg",
+      "startSec": 0.0,
+      "text": "Llevamos un tiempo escuchando noticias así.",
+      "scene": "<<<1a757d5f-7c13-4359-8f24-6dba5dec939c>>> sitting on a couch holding a remote control, watching an old TV showing a chess piece icon glowing, curious, no text"
+    },
+    {
+      "file": "0_02_1.jpg",
+      "startSec": 2.48,
+      "text": "Una IA derrota al mejor jugador de ajedrez del mundo.",
+      "scene": "a tipped-over wooden chess king on a chessboard, a grey-haired chess champion with both hands on his head in shock, no text"
+    },
+    {
+      "file": "0_05_bach.jpg",
+      "startSec": 5.8,
+      "text": "Otra compone música que nadie distingue de Bach.",
+      "scene": "a small easel with a Rembrandt-style portrait finishing itself, a caricatured art critic with a monocle scratching his head confused, no text"
+    },
+    {
+      "file": "0_05_0.jpg",
+      "startSec": 8.54,
+      "text": "Otra pinta como Rembrandt.",
+      "scene": "a small car driving itself down a street with an empty driver seat, a caricatured pedestrian with a bright facial-recognition scan square over his face, no text"
+    },
+    {
+      "file": "0_09_car.jpg",
+      "startSec": 10.35,
+      "text": "Otra conduce coche sola.",
+      "scene": "a small self-driving car, empty seat, no text"
+    },
+    {
+      "file": "0_08_1.jpg",
+      "startSec": 12.02,
+      "text": "Otra reconoce la cara de un criminal entre millones.",
+      "scene": "<<<1a757d5f-7c13-4359-8f24-6dba5dec939c>>> with a lightbulb-style idea symbol above his head, thinking hard, insight moment, no text"
+    },
+    {
+      "file": "0_13_1.jpg",
+      "startSec": 14.76,
+      "text": "Y en todas esas noticias hay una palabra que nadie explica.",
+      "scene": "<<<1a757d5f-7c13-4359-8f24-6dba5dec939c>>> with a big question mark over his head, scratching his screen-head, puzzled, no text"
+    },
+    {
+      "file": "0_11_0.jpg",
+      "startSec": 19.02,
+      "text": "Inteligencia artificial.",
+      "scene": "<<<1a757d5f-7c13-4359-8f24-6dba5dec939c>>> wearing a tiny detective hat, holding a magnifying glass, investigating, no text"
+    },
+    {
+      "file": "0_16_0.jpg",
+      "startSec": 21.02,
+      "text": "¿Qué significa exactamente?",
+      "scene": "<<<1a757d5f-7c13-4359-8f24-6dba5dec939c>>> rolling up his cracked-keyboard sleeve, gesturing 'lets go', energetic pose, no text"
+    },
+    {
+      "file": "0_19_0.jpg",
+      "startSec": 22.82,
+      "text": "¿Y cómo funciona de verdad?",
+      "scene": "a dictionary book opening by itself with light rays coming out of the pages, no text"
+    },
+    {
+      "file": "0_17_1.jpg",
+      "startSec": 24.66,
+      "text": "Vamos a descubrirlo.",
+      "scene": "<<<1a757d5f-7c13-4359-8f24-6dba5dec939c>>> standing next to a large cartoon brain with visible gears turning inside it, no text"
+    },
+    {
+      "file": "0_21_1.jpg",
+      "startSec": 26.2,
+      "text": "Rápido y sin tecnicismos. La definición oficial es simple.",
+      "scene": "an old 1980s calculator and a floppy disk sitting on a desk, dusty and old-fashioned, no text"
+    },
+    {
+      "file": "0_35_0.jpg",
+      "startSec": 30.36,
+      "text": "Máquinas haciendo tareas propias de una mente humana.",
+      "scene": "<<<1a757d5f-7c13-4359-8f24-6dba5dec939c>>> raising three fingers on his claw arm, serious expression, no text"
+    },
+    {
+      "file": "0_37_1.jpg",
+      "startSec": 33.52,
+      "text": "El problema es que cuenta como propio de una mente humana.",
+      "scene": "<<<1a757d5f-7c13-4359-8f24-6dba5dec939c>>> tripping over a small object and writing a note in a notebook afterward, no text"
+    },
+    {
+      "file": "0_24_0.jpg",
+      "startSec": 36.98,
+      "text": "Calcular ya lo hacía en las máquinas hace décadas.",
+      "scene": "a paintbrush and a musical note glowing side by side on a white background, no text"
+    },
+    {
+      "file": "0_24_0.jpg",
+      "startSec": 39.86,
+      "text": "Memorizar datos, también.",
+      "scene": "a simple robot looking at itself in a hand mirror, philosophical wide eyes, no text"
+    },
+    {
+      "file": "0_27_1.jpg",
+      "startSec": 41.76,
+      "text": "Pero había tres cosas que parecían imposibles para una máquina.",
+      "scene": "<<<1a757d5f-7c13-4359-8f24-6dba5dec939c>>> with a doubtful raised eyebrow, arms crossed, skeptical expression, no text"
+    },
+    {
+      "file": "0_30_0.jpg",
+      "startSec": 45.72,
+      "text": "Aprender de sus errores.",
+      "scene": "<<<1a757d5f-7c13-4359-8f24-6dba5dec939c>>> laughing at his own bad joke, one claw covering his screen-mouth in embarrassment, no text"
+    },
+    {
+      "file": "0_32_1.jpg",
+      "startSec": 47.58,
+      "text": "Ser creativa.",
+      "scene": "<<<1a757d5f-7c13-4359-8f24-6dba5dec939c>>> spinning around sharply to face the camera, dramatic turn, no text"
+    },
+    {
+      "file": "0_35_0.jpg",
+      "startSec": 48.84,
+      "text": "Y ser consciente de sí misma.",
+      "scene": "a large simple pie chart showing 90 percent and 10 percent, bold and clean, no text"
+    },
+    {
+      "file": "0_40_0.jpg",
+      "startSec": 50.98,
+      "text": "La autoconciencia sigue siendo pura ciencia ficción.",
+      "scene": "a big arrow pointing at a glowing word bubble with a brain icon inside, labeled with the concept of 'learning', no text"
+    },
+    {
+      "file": "0_32_1.jpg",
+      "startSec": 54.4,
+      "text": "La creatividad empieza a ser dosamente posible.",
+      "scene": "a single glowing lightbulb with a small brain icon inside it, no text"
+    },
+    {
+      "file": "0_32_1.jpg",
+      "startSec": 57.66,
+      "text": "Ya hay algoritmos que pintan, componen, incluso cuentan chistes.",
+      "scene": "<<<1a757d5f-7c13-4359-8f24-6dba5dec939c>>> pointing proudly upward with his claw arm, confident smile, no text"
+    },
+    {
+      "file": "0_43_1.jpg",
+      "startSec": 61.94,
+      "text": "Pero aquí viene el giro.",
+      "scene": "<<<1a757d5f-7c13-4359-8f24-6dba5dec939c>>> pointing proudly upward with his claw arm, confident smile, no text"
+    },
+    {
+      "file": "0_46_0.jpg",
+      "startSec": 63.82,
+      "text": "El 90 % de las veces que oyes inteligencia artificial,",
+      "scene": "a large simple banner sign hanging between two poles, blank and ready for a title, no text"
+    },
+    {
+      "file": "0_49_1.jpg",
+      "startSec": 68.02,
+      "text": "en realidad se refieren a sólo una de esas tres cosas.",
+      "scene": "two overlapping circles with an equals sign between them, simple diagram, no text"
+    },
+    {
+      "file": "0_52_0.jpg",
+      "startSec": 71.54,
+      "text": "Aprender.",
+      "scene": "<<<1a757d5f-7c13-4359-8f24-6dba5dec939c>>> leaning toward the camera with a sly, conspiratorial grin, no text"
+    },
+    {
+      "file": "0_55_1.jpg",
+      "startSec": 72.72,
+      "text": "Y eso tiene un nombre propio.",
+      "scene": "<<<1a757d5f-7c13-4359-8f24-6dba5dec939c>>> pointing directly at the camera/viewer with his claw arm, no text"
+    },
+    {
+      "file": "0_58_0.jpg",
+      "startSec": 74.66,
+      "text": "Aprendizaje automático o Machine Learning.",
+      "scene": "a captcha grid on a computer screen showing small squares with traffic lights and cars, no text"
+    },
+    {
+      "file": "1_01_1.jpg",
+      "startSec": 77.86,
+      "text": "Hoy Machine Learning es casi sinónimo de inteligencia artificial. Y aquí viene lo interesante.",
+      "scene": "<<<1a757d5f-7c13-4359-8f24-6dba5dec939c>>> clumsily disguised as a human with a fake mustache and hat, winking, no text"
+    },
+    {
+      "file": "1_05_0.jpg",
+      "startSec": 84.08,
+      "text": "Tú ya has entrenado una sin saberlo.",
+      "scene": "a large simple sign/banner shape, blank, ready to be labeled, no text"
+    },
+    {
+      "file": "1_08_1.jpg",
+      "startSec": 86.48,
+      "text": "¿Alguna vez marcaste fotos con semáforos o coches para demostrar que no eres un robot?",
+      "scene": "a hand marking checkboxes on a screen while little data squares fly upward into a cloud icon, no text"
+    },
+    {
+      "file": "1_11_0.jpg",
+      "startSec": 91.42,
+      "text": "Eso es un captcha.",
+      "scene": "three glowing icons lighting up in sequence: a traffic light, a car, a pedestrian, no text"
+    },
+    {
+      "file": "1_20_1.jpg",
+      "startSec": 93.04,
+      "text": "Y cada vez que lo resolvías, estabas etiquetando datos.",
+      "scene": "a real street scene with a traffic light, a car and a pedestrian crossing, no text"
+    },
+    {
+      "file": "1_24_0.jpg",
+      "startSec": 96.36,
+      "text": "Esos datos entrenan algoritmos que después reconocen semáforos, coches, peatones,",
+      "scene": "small glowing data squares flowing into the open hood of a toy car, no text"
+    },
+    {
+      "file": "1_26_1.jpg",
+      "startSec": 101.68,
+      "text": "en la vida real.",
+      "scene": "<<<1a757d5f-7c13-4359-8f24-6dba5dec939c>>> applauding toward the camera with a grateful, cheeky grin, tiny 'thank you human' gesture, no text"
+    },
+    {
+      "file": "1_29_0.jpg",
+      "startSec": 103.2,
+      "text": "Algunos de esos algoritmos terminan dentro de un coche autónomo.",
+      "scene": "<<<1a757d5f-7c13-4359-8f24-6dba5dec939c>>> sitting deep in thought, one claw on his screen-chin, no text"
+    },
+    {
+      "file": "1_14_1.jpg",
+      "startSec": 107.08,
+      "text": "Así que sí,",
+      "scene": "a mechanical gear adjusting itself, clicking into a new position, no text"
+    },
+    {
+      "file": "1_33_1.jpg",
+      "startSec": 108.06,
+      "text": "sin saberlo, llevas años enseñando a conducir a los coches del futuro.",
+      "scene": "<<<1a757d5f-7c13-4359-8f24-6dba5dec939c>>> nodding along in agreement, cheerful, no text"
+    },
+    {
+      "file": "1_36_0.jpg",
+      "startSec": 112.62,
+      "text": "Pero cómo aprende realmente una máquina?",
+      "scene": "a person excitedly signing up at a gym counter on January 2nd, confetti, no text"
+    },
+    {
+      "file": "1_39_1.jpg",
+      "startSec": 115.5,
+      "text": "El aprendizaje automático cambia el comportamiento de un algoritmo según los datos,",
+      "scene": "the same person unsubscribing sadly at the gym counter in February, gym membership card being torn, no text"
+    },
+    {
+      "file": "1_43_0.jpg",
+      "startSec": 119.84,
+      "text": "sus aciertos o sus errores.",
+      "scene": "<<<1a757d5f-7c13-4359-8f24-6dba5dec939c>>> holding up four claws/fingers, four glowing boxes floating behind him, no text"
+    },
+    {
+      "file": "1_43_0.jpg",
+      "startSec": 122.16,
+      "text": "Básicamente,",
+      "scene": "a single glowing box labeled with the number 1, spotlighted, no text"
+    },
+    {
+      "file": "1_46_1.jpg",
+      "startSec": 123.14,
+      "text": "aprender de la experiencia como haría cualquiera,",
+      "scene": "a stack of photographs each with a small tag/label attached, pinned to a corkboard, no text"
+    },
+    {
+      "file": "1_48_0.jpg",
+      "startSec": 125.94,
+      "text": "cualquiera menos esa gente que se apunta al gimnasio cada 2 de enero y se da de baja en febrero.",
+      "scene": "a collage of many face photos each with a small checkmark tag attached, no text"
+    },
+    {
+      "file": "1_52_1.jpg",
+      "startSec": 131.46,
+      "text": "Hay cuatro maneras principales de hacerlo.",
+      "scene": "a big green checkmark appearing over a simple cartoon face, no text"
+    },
+    {
+      "file": "1_55_0.jpg",
+      "startSec": 133.94,
+      "text": "La primera,",
+      "scene": "a small gold medal with a ribbon, labeled as most-used, simple icon, no text"
+    },
+    {
+      "file": "1_58_1.jpg",
+      "startSec": 134.9,
+      "text": "aprendizaje supervisado. Le das al algoritmo millones de datos ya etiquetados con la respuesta correcta incluida,",
+      "scene": "four small icons in a row: a face, a soundwave, a fingerprint, a car, no text"
+    },
+    {
+      "file": "2_00_0.jpg",
+      "startSec": 141.82,
+      "text": "como enseñarle miles de fotos tuyas y de otras personas hasta que aprenda a reconocerte.",
+      "scene": "a single glowing box labeled with the number 2, spotlighted, no text"
+    },
+    {
+      "file": "2_07_0.jpg",
+      "startSec": 147.08,
+      "text": "Es el más usado del mundo.",
+      "scene": "scattered dots of different colors with no visible order, floating on white, no text"
+    },
+    {
+      "file": "2_04_1.jpg",
+      "startSec": 149.08,
+      "text": "Reconocimiento facial,",
+      "scene": "the same scattered dots now grouping themselves into clean colored clusters, no text"
+    },
+    {
+      "file": "2_10_1.jpg",
+      "startSec": 150.64,
+      "text": "de voz,",
+      "scene": "two phone-shaped profile cards connected by a musical note, comparing music taste icons, no text"
+    },
+    {
+      "file": "2_10_1.jpg",
+      "startSec": 151.42,
+      "text": "de huellas, coches autónomos.",
+      "scene": "a single glowing box labeled with the number 3, spotlighted, no text"
+    },
+    {
+      "file": "2_13_0.jpg",
+      "startSec": 153.9,
+      "text": "La segunda,",
+      "scene": "a few tagged photos on the left expanding into many tagged photos on the right, arrow between them, no text"
+    },
+    {
+      "file": "2_16_1.jpg",
+      "startSec": 155.06,
+      "text": "aprendizaje no supervisado.",
+      "scene": "a single glowing box labeled with the number 4, spotlighted, no text"
+    },
+    {
+      "file": "2_19_0.jpg",
+      "startSec": 157.2,
+      "text": "Aquí no hay respuestas correctas, solo datos sueltos.",
+      "scene": "<<<1a757d5f-7c13-4359-8f24-6dba5dec939c>>> playing a small board game intensely, deep concentration, sweat drop, no text"
+    },
+    {
+      "file": "2_19_0.jpg",
+      "startSec": 160.44,
+      "text": "El algoritmo busca patrones y agrupa lo parecido,",
+      "scene": "<<<1a757d5f-7c13-4359-8f24-6dba5dec939c>>> holding up a small trophy with a big green checkmark, celebrating, no text"
+    },
+    {
+      "file": "2_22_1.jpg",
+      "startSec": 163.36,
+      "text": "como cuando Spotify compara tus gustos con los de otro usuario para recomendarte canciones.",
+      "scene": "a red X mark over a game board that is resetting itself, no text"
+    },
+    {
+      "file": "2_25_0.jpg",
+      "startSec": 168.82,
+      "text": "La tercera, semi -supervisado,",
+      "scene": "two identical chessboards playing against each other with a giant counter reading x1,000,000 behind them, no text"
+    },
+    {
+      "file": "2_28_1.jpg",
+      "startSec": 171.3,
+      "text": "un poco de cada.",
+      "scene": "an open spellbook with strange technical words glowing like magic incantations, no text"
+    },
+    {
+      "file": "2_28_1.jpg",
+      "startSec": 172.72,
+      "text": "Pocos datos etiquetados para entrenar un modelo que etiquete el resto.",
+      "scene": "three quick icons in a row: a branching tree, a small forest, scattered connected dots, no text"
+    },
+    {
+      "file": "2_31_0.jpg",
+      "startSec": 176.86,
+      "text": "Y la cuarta,",
+      "scene": "<<<1a757d5f-7c13-4359-8f24-6dba5dec939c>>> impressed, pointing with wide eyes at a glowing network of connected nodes, no text"
+    },
+    {
+      "file": "2_35_1.jpg",
+      "startSec": 178.02,
+      "text": "aprendizaje por refuerzo.",
+      "scene": "a glowing web of small connected nodes pulsing with light, no text"
+    },
+    {
+      "file": "2_35_1.jpg",
+      "startSec": 179.98,
+      "text": "Aquí el algoritmo aprende jugando a base de prueba y error.",
+      "scene": "a split image: connected nodes on one side, real biological neurons on the other, comparison, no text"
+    },
+    {
+      "file": "2_39_0.jpg",
+      "startSec": 183.42,
+      "text": "Si ganas, repites a estrategia. Si pierde, la descarta.",
+      "scene": "the glowing node network growing taller with many stacked layers, no text"
+    },
+    {
+      "file": "2_44_0.jpg",
+      "startSec": 187.88,
+      "text": "Así es como una máquina puede aprender a jugar al ajedrez o algo sola, contra sí misma, millones de veces.",
+      "scene": "bold text-free downward arrow emphasizing depth, layered glowing structure, no text"
+    },
+    {
+      "file": "2_48_1.jpg",
+      "startSec": 194.92,
+      "text": "Detrás de estos cuatro tipos hay decenas de técnicas con nombres que suenan a hechizos.",
+      "scene": "<<<1a757d5f-7c13-4359-8f24-6dba5dec939c>>> with a knowing look, gesturing 'you know what's coming', playful anticipation, no text"
+    },
+    {
+      "file": "2_52_0.jpg",
+      "startSec": 200.1,
+      "text": "Arboles de decisión,",
+      "scene": "<<<1a757d5f-7c13-4359-8f24-6dba5dec939c>>> with a knowing look, gesturing 'you know what's coming', playful anticipation, no text"
+    },
+    {
+      "file": "2_52_0.jpg",
+      "startSec": 201.66,
+      "text": "Random Forest,",
+      "scene": "a big glowing impact-style burst of light, dramatic reveal moment, no text, no text"
+    },
+    {
+      "file": "2_52_0.jpg",
+      "startSec": 202.96,
+      "text": "Key Nearest Neighbors,",
+      "scene": "the chess champion from earlier with hands on head in shock, chessboard with fallen king, same scene revisited, no text"
+    },
+    {
+      "file": "2_55_1.jpg",
+      "startSec": 204.78,
+      "text": "pero la más potente de todas son las redes neuronales.",
+      "scene": "<<<1a757d5f-7c13-4359-8f24-6dba5dec939c>>> dismantling a small magic wand, tossing it aside, 'not this' gesture, no text"
+    },
+    {
+      "file": "2_58_0.jpg",
+      "startSec": 208.3,
+      "text": "Miles de pequeñas funciones matemáticas conectadas entre sí,",
+      "scene": "the glowing node network superimposed over a chessboard, glowing connections mapping onto the squares, no text"
+    },
+    {
+      "file": "3_02_1.jpg",
+      "startSec": 212.06,
+      "text": "imitando muy de lejos cómo se conectan las neuronas de un cerebro.",
+      "scene": "<<<1a757d5f-7c13-4359-8f24-6dba5dec939c>>> pointing at his own CRT-monitor head, next to a simple human brain icon for comparison, no text"
+    },
+    {
+      "file": "3_05_0.jpg",
+      "startSec": 216.34,
+      "text": "Cuando esas redes son enormes y con muchas capas se llaman redes profundas.",
+      "scene": "a magnifying glass hovering over a set of glowing repeating patterns, no text"
+    },
+    {
+      "file": "3_08_1.jpg",
+      "startSec": 221.02,
+      "text": "Y ahí nace el término que seguro también has oído.",
+      "scene": "a glowing globe/world icon surrounded by small positive icons: a heart, a lightbulb, a plus sign, no text"
+    },
+    {
+      "file": "3_15_1.jpg",
+      "startSec": 224.24,
+      "text": "Deep Learning.",
+      "scene": "the same globe now surrounded by a warning triangle and small alert icons, no text"
+    },
+    {
+      "file": "3_17_0.jpg",
+      "startSec": 225.8,
+      "text": "Así que la próxima vez que oigas que una IA venció a un campeón mundial de ajedrez,",
+      "scene": "<<<1a757d5f-7c13-4359-8f24-6dba5dec939c>>> with a serious, focused expression, one claw raised making an important point, no text"
+    },
+    {
+      "file": "3_21_1.jpg",
+      "startSec": 230.48,
+      "text": "ya sabes que no fue magia.",
+      "scene": "<<<1a757d5f-7c13-4359-8f24-6dba5dec939c>>> with open claws in a questioning gesture, curious expression, no text"
+    },
+    {
+      "file": "3_25_0.jpg",
+      "startSec": 232.72,
+      "text": "Fue una red aprendiendo durante millones de partidas qué movimientos ganan y cuáles no.",
+      "scene": "a simple speech-bubble-shaped icon with three dots inside, comment icon, no text"
+    },
+    {
+      "file": "3_28_1.jpg",
+      "startSec": 239.02,
+      "text": "La inteligencia artificial no piensa como tú.",
+      "scene": "<<<1a757d5f-7c13-4359-8f24-6dba5dec939c>>> waving goodbye warmly, a simple glowing subscribe-bell icon floating nearby, no text, no text"
+    },
+    {
+      "file": "3_30_0.jpg",
+      "startSec": 242.08,
+      "text": "De momento solo encuentra patrones mejor que nadie.",
+      "scene": "a news-ticker style row of glowing icons scrolling by: a chess piece, a paintbrush, a musical note, a car, a face-scan square, no text"
+    },
+    {
+      "file": "3_34_1.jpg",
+      "startSec": 244.92,
+      "text": "Y eso, bien usado,",
+      "scene": "<<<1a757d5f-7c13-4359-8f24-6dba5dec939c>>> sitting up straight suddenly, alert and intrigued, leaning toward the TV, no text"
+    },
+    {
+      "file": "3_37_0.jpg",
+      "startSec": 246.44,
+      "text": "ya está cambiando el mundo. Mal usado,",
+      "scene": "a large glowing letter cloud forming the shape of a lightbulb, symbolic of a big idea forming, no text"
+    },
+    {
+      "file": "3_40_1.jpg",
+      "startSec": 249.28,
+      "text": "también puede salir caro.",
+      "scene": "<<<1a757d5f-7c13-4359-8f24-6dba5dec939c>>> tilting his CRT-monitor head sideways, genuinely curious expression, no text"
+    },
+    {
+      "file": "3_43_0.jpg",
+      "startSec": 251.1,
+      "text": "Así que entender cómo funciona ya no es opcional.",
+      "scene": "an old dusty punch-card computer next to a modern tiny smartphone, size comparison, no text"
+    },
+    {
+      "file": "3_46_1.jpg",
+      "startSec": 254.82,
+      "text": "¿Qué parte de la IA te gustaría que explicásemos a fondo?",
+      "scene": "<<<1a757d5f-7c13-4359-8f24-6dba5dec939c>>> shrugging with both claws up, uncertain but intrigued expression, no text"
+    },
+    {
+      "file": "3_46_1.jpg",
+      "startSec": 258.0,
+      "text": "Dímelo en comentarios.",
+      "scene": "a glowing pair of scales, one side heavy with 'good use' icons, the other with 'bad use' warning icons, no text"
+    },
+    {
+      "file": "3_52_1.jpg",
+      "startSec": 259.54,
+      "text": "Y si te ha quedado más claro que antes,",
+      "scene": "<<<1a757d5f-7c13-4359-8f24-6dba5dec939c>>> standing tall with arms open wide, triumphant closing pose, no text"
+    },
+    {
+      "file": "3_49_0.jpg",
+      "startSec": 261.54,
+      "text": "suscríbete.",
+      "scene": "a soft fade-to-white glow behind Tecnomono, warm closing atmosphere, no text, no text"
+    }
+  ]
+}

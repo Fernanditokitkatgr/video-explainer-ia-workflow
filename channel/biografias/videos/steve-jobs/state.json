@@ -1,0 +1,11 @@
+{
+  "video": "steve-jobs",
+  "steps": {
+    "voice": "pending",
+    "whisper": "done",
+    "inject": "done",
+    "images": "pending",
+    "validate": "pending",
+    "render": "pending"
+  }
+}

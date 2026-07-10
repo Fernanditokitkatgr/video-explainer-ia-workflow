@@ -1,0 +1,601 @@
+{
+  "video": "steve-jobs",
+  "frames": [
+    {
+      "file": "0_00.jpg",
+      "startSec": 0.0,
+      "text": "Esta foto es Steve Jobsano.",
+      "scene": "split image: a healthy vibrant Steve Jobs caricature smiling on the left, a gaunt frail sick version of him on the right, stark contrast, no text"
+    },
+    {
+      "file": "0_05.jpg",
+      "startSec": 2.2,
+      "text": "Esta es solo unos meses antes de morir.",
+      "scene": "younger healthy Steve Jobs caricature on a stage, present-day frail sick Steve Jobs caricature superimposed faintly behind him"
+    },
+    {
+      "file": "0_04_b.jpg",
+      "startSec": 4.6,
+      "text": "Fue dado en adopción de bebé,",
+      "scene": "younger healthy Steve Jobs caricature on a stage, present-day frail sick Steve Jobs caricature superimposed faintly behind him"
+    },
+    {
+      "file": "1_06_c.jpg",
+      "startSec": 6.47,
+      "text": "no terminó la universidad.",
+      "scene": "graduation cap and diploma with red X, no text"
+    },
+    {
+      "file": "2_47_b.jpg",
+      "startSec": 8.16,
+      "text": "Lo despidieron de su propia empresa y aún así,",
+      "scene": "termination letter stamped DESPEDIDO"
+    },
+    {
+      "file": "0_11.jpg",
+      "startSec": 11.16,
+      "text": "cambió la tecnología para siempre.",
+      "scene": "Steve Jobs caricature silhouette walking forward, determined, tech skyline in background"
+    },
+    {
+      "file": "0_13.jpg",
+      "startSec": 13.6,
+      "text": "Antes de morir, dio un discurso en Stanford que ya lleva más de 50 millones de reproducciones.",
+      "scene": "Steve Jobs caricature standing at a podium at Stanford, graduation caps flying in the crowd below"
+    },
+    {
+      "file": "0_20_b.jpg",
+      "startSec": 20.12,
+      "text": "Ahí reveló las tres lecciones más importantes de su vida.",
+      "scene": "Steve Jobs caricature standing at a podium at Stanford, graduation caps flying in the crowd below"
+    },
+    {
+      "file": "3_49_b.jpg",
+      "startSec": 24.02,
+      "text": "Unir los puntos,",
+      "scene": "three glowing numbered stone tablets floating: one, two, three, each blank, symbolic"
+    },
+    {
+      "file": "0_25_c.jpg",
+      "startSec": 25.58,
+      "text": "amor y pérdida.",
+      "scene": "a single dark tombstone-shaped icon glowing faintly, ominous but simple, no text"
+    },
+    {
+      "file": "0_26.jpg",
+      "startSec": 26.8,
+      "text": "Y la más dura de todas,",
+      "scene": "Steve Jobs caricature turning to walk into a glowing doorway shaped like a life story book opening"
+    },
+    {
+      "file": "0_28_b.jpg",
+      "startSec": 28.56,
+      "text": "la muerte.",
+      "scene": "Steve Jobs caricature turning to walk into a glowing doorway shaped like a life story book opening"
+    },
+    {
+      "file": "0_29.jpg",
+      "startSec": 29.88,
+      "text": "Para entenderlas, primero tienes que conocer su historia.",
+      "scene": "a hospital nursery window with a single baby crib, 1950s style building outside labeled San Francisco skyline silhouette"
+    },
+    {
+      "file": "0_42.jpg",
+      "startSec": 33.86,
+      "text": "1955,",
+      "scene": "two young worried caricatured college-age parents looking at a baby crib, unable to afford a stroller full of bills"
+    },
+    {
+      "file": "0_35_b.jpg",
+      "startSec": 35.64,
+      "text": "San Francisco.",
+      "scene": "two young worried caricatured college-age parents looking at a baby crib, unable to afford a stroller full of bills"
+    },
+    {
+      "file": "0_41.jpg",
+      "startSec": 37.1,
+      "text": "Nace un bebé que sus padres biológicos, aún universitarios, no pueden criar.",
+      "scene": "a stork-style adoption paper with a large university cap icon stamped on it as a condition, symbolic"
+    },
+    {
+      "file": "0_48.jpg",
+      "startSec": 42.4,
+      "text": "Deciden darlo en adopción,",
+      "scene": "a scale weighing a graduation cap against a plain question mark, biological mother caricature deciding"
+    },
+    {
+      "file": "0_44_b.jpg",
+      "startSec": 44.18,
+      "text": "pero ponen una condición,",
+      "scene": "a scale weighing a graduation cap against a plain question mark, biological mother caricature deciding"
+    },
+    {
+      "file": "0_53.jpg",
+      "startSec": 45.86,
+      "text": "que su nueva familia sea universitaria.",
+      "scene": "a caricatured young married couple, Paul and Clara Jobs, hopeful, holding a baby"
+    },
+    {
+      "file": "0_49_c.jpg",
+      "startSec": 48.6,
+      "text": "La madre biológica no queda convencida con la primera pareja candidata porque no se habían graduado.",
+      "scene": "a graduation cap icon glowing above a crib, promise symbol"
+    },
+    {
+      "file": "0_54_b.jpg",
+      "startSec": 54.4,
+      "text": "Al final, acepta a Paul y Clara Jobs,",
+      "scene": "a graduation cap icon glowing above a crib, promise symbol"
+    },
+    {
+      "file": "0_58.jpg",
+      "startSec": 56.92,
+      "text": "con la promesa de que el niño estudiaría en la universidad.",
+      "scene": "baby crib with a diploma icon crossed out faintly in the background, dramatic irony hint"
+    },
+    {
+      "file": "1_00.jpg",
+      "startSec": 60.44,
+      "text": "Ironía,",
+      "scene": "young Steve Jobs caricature as a curious kid surrounded by glowing tech gadgets and circuit boards, Silicon Valley hills behind him"
+    },
+    {
+      "file": "1_01_b.jpg",
+      "startSec": 61.3,
+      "text": "ese niño terminaría casi sin pisar las aulas.",
+      "scene": "young Steve Jobs caricature as a curious kid surrounded by glowing tech gadgets and circuit boards, Silicon Valley hills behind him"
+    },
+    {
+      "file": "1_09.jpg",
+      "startSec": 64.8,
+      "text": "Crece en Silicon Valley, rodeado de la primera ola de tecnología con una curiosidad que no para.",
+      "scene": "young Steve Jobs caricature with sparkling curious eyes, magnifying glass over an electronic circuit"
+    },
+    {
+      "file": "1_11.jpg",
+      "startSec": 71.04,
+      "text": "A los 12 años, necesita piezas para un proyecto y hace algo que parece una locura.",
+      "scene": "young Steve Jobs caricature holding an old rotary telephone with a determined face, phone book open beside him"
+    },
+    {
+      "file": "1_16_b.jpg",
+      "startSec": 76.38,
+      "text": "Busca en la guía telefónica y llama directamente a Bill Hewlett, cofundador de HP.",
+      "scene": "young Steve Jobs caricature holding an old rotary telephone with a determined face, phone book open beside him"
+    },
+    {
+      "file": "1_16.jpg",
+      "startSec": 82.12,
+      "text": "Hablan 20 minutos.",
+      "scene": "young Steve Jobs caricature on the phone, speech lines connecting to a caricatured Bill Hewlett figure with HP logo shape nearby"
+    },
+    {
+      "file": "1_21.jpg",
+      "startSec": 83.66,
+      "text": "Hewlett le da las piezas y un trabajo de verano en su empresa.",
+      "scene": "young Steve Jobs caricature receiving a box of electronic parts and a small ID badge with a smile"
+    },
+    {
+      "file": "1_27.jpg",
+      "startSec": 87.8,
+      "text": "Termina el instituto y entra a Reed College, tal como sus padres esperaban.",
+      "scene": "teenage Steve Jobs caricature walking through a college gate labeled with a simple graduation cap icon"
+    },
+    {
+      "file": "1_32_b.jpg",
+      "startSec": 92.28,
+      "text": "Pero a los pocos meses lo deja.",
+      "scene": "teenage Steve Jobs caricature walking through a college gate labeled with a simple graduation cap icon"
+    },
+    {
+      "file": "1_34.jpg",
+      "startSec": 94.46,
+      "text": "Después de todo lo que sus padres sacrificaron por esa promesa de universidad,",
+      "scene": "teenage Steve Jobs caricature turning away from the college gate, walking the other direction, backpack over shoulder"
+    },
+    {
+      "file": "1_39.jpg",
+      "startSec": 99.06,
+      "text": "se queda igualmente en el campus, sin dinero,",
+      "scene": "caricatured Paul and Clara Jobs looking sadly at an empty piggy bank, sacrifice symbol"
+    },
+    {
+      "file": "1_41_b.jpg",
+      "startSec": 101.8,
+      "text": "durmiendo en el suelo de amigos, recogiendo botellas para comer.",
+      "scene": "caricatured Paul and Clara Jobs looking sadly at an empty piggy bank, sacrifice symbol"
+    },
+    {
+      "file": "1_45_c.jpg",
+      "startSec": 105.64,
+      "text": "Solo entra a las clases que realmente le interesan.",
+      "scene": "teenage Steve Jobs caricature sleeping on a dorm floor on a thin blanket, minimalist and humble"
+    },
+    {
+      "file": "1_44_c.jpg",
+      "startSec": 108.7,
+      "text": "Una de ellas es un curso de caligrafía.",
+      "scene": "teenage Steve Jobs caricature collecting empty glass bottles into a bag for cash"
+    },
+    {
+      "file": "1_51.jpg",
+      "startSec": 111.2,
+      "text": "En ese momento parece inútil.",
+      "scene": "teenage Steve Jobs caricature collecting empty glass bottles into a bag for cash"
+    },
+    {
+      "file": "1_45.jpg",
+      "startSec": 113.32,
+      "text": "Años después,",
+      "scene": "teenage Steve Jobs caricature sitting cross-legged only in front of one single classroom door glowing, ignoring other doors"
+    },
+    {
+      "file": "1_48.jpg",
+      "startSec": 114.4,
+      "text": "esa clase se convertirá en las tipografías de sus computadoras.",
+      "scene": "a calligraphy pen with elegant flowing letters swirling above it"
+    },
+    {
+      "file": "1_58_b.jpg",
+      "startSec": 118.84,
+      "text": "Se une a Atari,",
+      "scene": "a calligraphy pen with elegant flowing letters swirling above it"
+    },
+    {
+      "file": "1_58.jpg",
+      "startSec": 120.26,
+      "text": "y ahí un vecino llamado Bosniak le habla de una idea que suena a ciencia ficción.",
+      "scene": "teenage Steve Jobs caricature shrugging, unimpressed, question mark above his head"
+    },
+    {
+      "file": "2_05.jpg",
+      "startSec": 125.36,
+      "text": "Una computadora lo bastante pequeña para caber en una casa.",
+      "scene": "a modern computer screen years later glowing with elegant typography, tying back to the calligraphy pen"
+    },
+    {
+      "file": "2_09.jpg",
+      "startSec": 129.38,
+      "text": "Juntan fuerzas en el garaje de los jobs.",
+      "scene": "young Steve Jobs caricature wearing an Atari name tag, standing next to a caricatured young Wozniak with wild curly hair"
+    },
+    {
+      "file": "2_11_b.jpg",
+      "startSec": 131.72,
+      "text": "Bosniak pone la ingeniería.",
+      "scene": "young Steve Jobs caricature wearing an Atari name tag, standing next to a caricatured young Wozniak with wild curly hair"
+    },
+    {
+      "file": "2_13.jpg",
+      "startSec": 133.72,
+      "text": "Jobs pone la visión.",
+      "scene": "a glowing lightbulb shaped like a tiny home computer, sci-fi sparkle effect"
+    },
+    {
+      "file": "2_11.jpg",
+      "startSec": 135.66,
+      "text": "Venden sus pertenencias más valiosas para financiar el primer prototipo,",
+      "scene": "a garage door open revealing workbenches full of circuit boards, the Jobs family garage"
+    },
+    {
+      "file": "2_19_b.jpg",
+      "startSec": 139.8,
+      "text": "la Apple 1.",
+      "scene": "a garage door open revealing workbenches full of circuit boards, the Jobs family garage"
+    },
+    {
+      "file": "2_21.jpg",
+      "startSec": 141.1,
+      "text": "Después llega la Apple 2, y con ella el éxito.",
+      "scene": "caricatured Wozniak with tools and circuit diagrams, focused engineer energy"
+    },
+    {
+      "file": "2_27.jpg",
+      "startSec": 144.22,
+      "text": "Apple sale a bolsa y los convierte en millonarios.",
+      "scene": "Steve Jobs caricature with a lightbulb over his head, visionary pose"
+    },
+    {
+      "file": "2_27_b.jpg",
+      "startSec": 147.4,
+      "text": "Pero el éxito trae otro problema.",
+      "scene": "Steve Jobs caricature with a lightbulb over his head, visionary pose"
+    },
+    {
+      "file": "2_34.jpg",
+      "startSec": 149.88,
+      "text": "Jobs contrata al CEO de Pepsi con una frase que se hizo legendaria.",
+      "scene": "Steve Jobs and Wozniak caricatures selling a calculator and a van model toy to a pawn shop counter"
+    },
+    {
+      "file": "2_39.jpg",
+      "startSec": 154.28,
+      "text": "¿Quieres vender agua azucarada el resto de tu vida? O venir a cambiar el mundo conmigo.",
+      "scene": "a simple beige circuit board computer, the Apple I, glowing on a workbench"
+    },
+    {
+      "file": "2_39_b.jpg",
+      "startSec": 159.44,
+      "text": "Ese mismo hombre, años después,",
+      "scene": "a simple beige circuit board computer, the Apple I, glowing on a workbench"
+    },
+    {
+      "file": "2_45.jpg",
+      "startSec": 161.54,
+      "text": "ayuda a la junta directiva a apartarlo de su propia empresa.",
+      "scene": "a sleek beige boxy computer with keyboard, the Apple II, on a store shelf with a sold sign"
+    },
+    {
+      "file": "2_29.jpg",
+      "startSec": 165.56,
+      "text": "En 1985,",
+      "scene": "Steve Jobs and Wozniak caricatures celebrating with dollar signs and a small stock ticker graphic"
+    },
+    {
+      "file": "2_52.jpg",
+      "startSec": 167.78,
+      "text": "Steve Jobs es despedido de Apple,",
+      "scene": "Steve Jobs and Wozniak caricatures celebrating with dollar signs and a small stock ticker graphic"
+    },
+    {
+      "file": "2_47_b.jpg",
+      "startSec": 170.12,
+      "text": "la compañía que él mismo fundó.",
+      "scene": "Steve Jobs caricature looking worried, a storm cloud forming above the Apple logo"
+    },
+    {
+      "file": "2_58.jpg",
+      "startSec": 172.72,
+      "text": "Cuenta después que perder Apple fue uno de los golpes más duros de su vida.",
+      "scene": "Steve Jobs caricature in a business meeting, shaking hands with a caricatured confident CEO figure holding a Pepsi can"
+    },
+    {
+      "file": "2_57_b.jpg",
+      "startSec": 177.14,
+      "text": "Pero no se rindió.",
+      "scene": "Steve Jobs caricature in a business meeting, shaking hands with a caricatured confident CEO figure holding a Pepsi can"
+    },
+    {
+      "file": "3_00.jpg",
+      "startSec": 178.7,
+      "text": "Funda Next compra una pequeña empresa de efectos especiales llamada Pixar,",
+      "scene": "Steve Jobs caricature pointing dramatically at a caricatured businessman, a soda can and a glowing globe on opposite hands, speech bubble-less dramatic gesture"
+    },
+    {
+      "file": "3_05.jpg",
+      "startSec": 183.88,
+      "text": "que terminaría creando Toy Story,",
+      "scene": "the caricatured CEO figure now whispering into the ears of a boardroom table of serious executives"
+    },
+    {
+      "file": "3_09.jpg",
+      "startSec": 186.2,
+      "text": "la primera película animada por computadora de la historia.",
+      "scene": "Steve Jobs caricature walking out of a glass office building carrying a small box, Apple logo sign behind him, dejected"
+    },
+    {
+      "file": "3_09_b.jpg",
+      "startSec": 189.84,
+      "text": "Mientras tanto, sin él,",
+      "scene": "Steve Jobs caricature walking out of a glass office building carrying a small box, Apple logo sign behind him, dejected"
+    },
+    {
+      "file": "3_15.jpg",
+      "startSec": 191.78,
+      "text": "Apple entra en caída libre, al borde de la bancarrota.",
+      "scene": "Steve Jobs caricature sitting alone on a bench, head down, reflecting, but a small determined spark in his eye"
+    },
+    {
+      "file": "3_23_survive.jpg",
+      "startSec": 195.08,
+      "text": "Para sobrevivir,",
+      "scene": "a glowing sign reading 'NeXT' shaped like a simple cube logo, Steve Jobs caricature founding it with rolled-up sleeves"
+    },
+    {
+      "file": "3_16_b.jpg",
+      "startSec": 196.48,
+      "text": "Apple no tiene más opción que comprar Next.",
+      "scene": "a glowing sign reading 'NeXT' shaped like a simple cube logo, Steve Jobs caricature founding it with rolled-up sleeves"
+    },
+    {
+      "file": "3_19.jpg",
+      "startSec": 199.22,
+      "text": "Y con esa compra,",
+      "scene": "Steve Jobs caricature holding a small film reel with a toy cowboy and toy astronaut peeking out, Pixar birth"
+    },
+    {
+      "file": "3_20_return.jpg",
+      "startSec": 200.52,
+      "text": "Jobs vuelve a la empresa que lo había echado, once años después.",
+      "scene": "a movie theater marquee glowing softly with a toy rocket ship silhouette, first-ever computer-animated film"
+    },
+    {
+      "file": "3_25_b.jpg",
+      "startSec": 205.18,
+      "text": "Reconstruye Apple desde cero,",
+      "scene": "a movie theater marquee glowing softly with a toy rocket ship silhouette, first-ever computer-animated film"
+    },
+    {
+      "file": "3_32.jpg",
+      "startSec": 207.14,
+      "text": "el iMac,",
+      "scene": "an Apple logo wilting like a dying plant, declining graph line behind it, dramatic financial trouble"
+    },
+    {
+      "file": "3_42.jpg",
+      "startSec": 208.0,
+      "text": "el iPod, y en 2007 el iPhone,",
+      "scene": "a handshake between Apple's logo-shaped hand and a NeXT cube-shaped hand, acquisition deal"
+    },
+    {
+      "file": "3_30_b.jpg",
+      "startSec": 210.98,
+      "text": "el dispositivo que redefiniría la tecnología para siempre.",
+      "scene": "a handshake between Apple's logo-shaped hand and a NeXT cube-shaped hand, acquisition deal"
+    },
+    {
+      "file": "3_35.jpg",
+      "startSec": 215.28,
+      "text": "Pero en 2004,",
+      "scene": "Steve Jobs caricature walking back through the same glass office doors he once left, welcomed back, warm lighting"
+    },
+    {
+      "file": "3_36_lineup.jpg",
+      "startSec": 216.72,
+      "text": "en plena racha de éxitos,",
+      "scene": "Steve Jobs caricature unveiling a colorful rounded iMac, spotlight, big reveal pose"
+    },
+    {
+      "file": "3_45.jpg",
+      "startSec": 218.4,
+      "text": "los médicos le dan una noticia.",
+      "scene": "Steve Jobs caricature holding up a small white iPod with earbuds, pride pose"
+    },
+    {
+      "file": "3_40_b.jpg",
+      "startSec": 220.82,
+      "text": "Cáncer de páncreas.",
+      "scene": "Steve Jobs caricature holding up a small white iPod with earbuds, pride pose"
+    },
+    {
+      "file": "3_49.jpg",
+      "startSec": 222.76,
+      "text": "Sigue trabajando con la misma intensidad.",
+      "scene": "Steve Jobs caricature on stage unveiling the first iPhone silhouette glowing in his raised hand, iconic keynote pose"
+    },
+    {
+      "file": "3_53.jpg",
+      "startSec": 225.5,
+      "text": "Un año después, Stanford lo invita a dar aquel discurso.",
+      "scene": "a doctor caricature showing an x-ray with a small warning icon near the stomach area to a concerned Steve Jobs caricature"
+    },
+    {
+      "file": "3_49_b.jpg",
+      "startSec": 229.26,
+      "text": "Ahí habla de unir los puntos,",
+      "scene": "a doctor caricature showing an x-ray with a small warning icon near the stomach area to a concerned Steve Jobs caricature"
+    },
+    {
+      "file": "3_58.jpg",
+      "startSec": 231.28,
+      "text": "que dejar la universidad sin saberlo, lo llevó a esa clase de caligrafía que terminaría definiendo el diseño de sus productos.",
+      "scene": "Steve Jobs caricature working late at a desk with intense focus, glowing laptop screen lighting his face"
+    },
+    {
+      "file": "4_05.jpg",
+      "startSec": 238.96,
+      "text": "Habla de amor y pérdida,",
+      "scene": "Steve Jobs caricature walking up to the same Stanford podium seen at the start of the video"
+    },
+    {
+      "file": "4_00_b.jpg",
+      "startSec": 240.52,
+      "text": "que sólo logró seguir adelante después de ser despedido porque amaba lo que hacía.",
+      "scene": "Steve Jobs caricature walking up to the same Stanford podium seen at the start of the video"
+    },
+    {
+      "file": "0_28_b.jpg",
+      "startSec": 245.56,
+      "text": "Y habla de la muerte,",
+      "scene": "a glowing trail of connected dots forming a line from a graduation cap icon to a calligraphy pen icon"
+    },
+    {
+      "file": "4_17.jpg",
+      "startSec": 246.9,
+      "text": "que llevaba 33 años preguntándose cada mañana frente al espejo.",
+      "scene": "the calligraphy pen icon morphing into a computer font glyph, connecting dots visual metaphor"
+    },
+    {
+      "file": "4_11_b.jpg",
+      "startSec": 251.66,
+      "text": "Si hoy fuera el último día de mi vida,",
+      "scene": "the calligraphy pen icon morphing into a computer font glyph, connecting dots visual metaphor"
+    },
+    {
+      "file": "4_05.jpg",
+      "startSec": 254.1,
+      "text": "querría hacer lo que estoy a punto de hacer,",
+      "scene": "a broken heart icon mending itself back together, glowing warmly"
+    },
+    {
+      "file": "4_11.jpg",
+      "startSec": 257.06,
+      "text": "cuando la respuesta era demasiadas veces no, sabía que tenía que cambiar algo.",
+      "scene": "Steve Jobs caricature looking content, working passionately, tiny heart icon above his tools"
+    },
+    {
+      "file": "4_22_b.jpg",
+      "startSec": 262.38,
+      "text": "El 5 de octubre de 2011,",
+      "scene": "Steve Jobs caricature looking content, working passionately, tiny heart icon above his tools"
+    },
+    {
+      "file": "4_32.jpg",
+      "startSec": 264.62,
+      "text": "Steve Jobs muere.",
+      "scene": "Steve Jobs caricature looking into a bathroom mirror, questioning expression, 33 tally marks faintly visible on the wall"
+    },
+    {
+      "file": "4_37.jpg",
+      "startSec": 266.26,
+      "text": "Pero antes había escrito, con sólo 17 años,",
+      "scene": "Steve Jobs caricature in the mirror with a thought-bubble-less contemplative face, mirror reflection slightly different mood"
+    },
+    {
+      "file": "4_29_b.jpg",
+      "startSec": 269.7,
+      "text": "una frase que resultó profética.",
+      "scene": "Steve Jobs caricature in the mirror with a thought-bubble-less contemplative face, mirror reflection slightly different mood"
+    },
+    {
+      "file": "4_26.jpg",
+      "startSec": 272.5,
+      "text": "Si vives cada día como si fuera el último,",
+      "scene": "a large red X fading away, Steve Jobs caricature nodding with resolve, decision made"
+    },
+    {
+      "file": "4_26.jpg",
+      "startSec": 275.32,
+      "text": "algún día tendrás razón.",
+      "scene": "a single candle flame gently going out, soft peaceful glow, no text"
+    },
+    {
+      "file": "4_49.jpg",
+      "startSec": 277.8,
+      "text": "Esa foto sano y esa foto enferma que viste al principio,",
+      "scene": "a young teenage Steve Jobs caricature writing in a journal with a glowing quill, prophetic note"
+    },
+    {
+      "file": "4_45.jpg",
+      "startSec": 281.6,
+      "text": "son la misma persona,",
+      "scene": "a young teenage Steve Jobs caricature writing in a journal with a glowing quill, prophetic note"
+    },
+    {
+      "file": "4_29_b.jpg",
+      "startSec": 283.2,
+      "text": "con el mismo mensaje.",
+      "scene": "an hourglass with sand steadily falling, warm lighting, symbolic of time"
+    },
+    {
+      "file": "4_22.jpg",
+      "startSec": 285.22,
+      "text": "No sabes cuánto tiempo tienes,",
+      "scene": "split image again: healthy Steve Jobs caricature and frail sick Steve Jobs caricature side by side, now with a warm golden light connecting them"
+    },
+    {
+      "file": "4_47_b.jpg",
+      "startSec": 287.22,
+      "text": "así que hazlo valer.",
+      "scene": "split image again: healthy Steve Jobs caricature and frail sick Steve Jobs caricature side by side, now with a warm golden light connecting them"
+    },
+    {
+      "file": "4_52.jpg",
+      "startSec": 289.24,
+      "text": "Si esta historia te ha hecho pensar en tu propia vida, suscríbete y cuéntame en comentarios cuál de las tres lecciones de Jobs te llega más.",
+      "scene": "an hourglass glowing warmly, Steve Jobs caricature silhouette walking into bright light, peaceful"
+    }
+  ],
+  "style_base": "Simple hand-drawn cartoon illustration, thick black marker outlines, soft flat colors, minimal shading, pure white background, 16:9, caricatured recognizable real tech-world figures with exaggerated features, expressive faces. Steve Jobs caricature: black turtleneck, round glasses, receding hairline, expressive eyebrows — keep this exact look consistent every time he appears. CRITICAL TEXT RULE: prefer NO text, labels, signs, or speech bubbles at all — tell the scene through action, expression and symbols instead. If text is truly unavoidable, it MUST be written in perfect SPANISH exactly as specified in the scene description, in large simple block letters — NEVER English, NEVER any other language. ",
+  "note": "67 frames = segmentos whisper 1:1. Steve Jobs caricature consistente via prompt de estilo (sin reference element, nano_banana_2). | FIX sync steve-jobs: 97 timestamps reales (pausas a nivel de palabra, faster-whisper 'small', gap>0.35s) reemplazan los 67 segmentos/sub-frames anteriores (whisper 'base' fusionaba varias frases por segmento). Imagenes reutilizadas por mapeo de orden narrativo."
+}

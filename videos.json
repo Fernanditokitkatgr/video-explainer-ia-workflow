@@ -63,5 +63,35 @@
     "width": 1920,
     "height": 1080,
     "background": "#ffffff"
+  },
+  "como-funciona-la-ia": {
+    "composition": "ComoFuncionaLaIA",
+    "tsx": "remotion/src/ComoFuncionaLaIA.tsx",
+    "manifest_dir": "channel/tecno/videos/como-funciona-la-ia",
+    "script": "channel/tecno/videos/como-funciona-la-ia/script.md",
+    "audio_static": "como-funciona-la-ia.mp3",
+    "images_subpath": "como-funciona-la-ia",
+    "naming": "timestamp",
+    "ext": "jpg",
+    "playback_rate": 1.1,
+    "fps": 30,
+    "width": 1920,
+    "height": 1080,
+    "background": "#ffffff"
+  },
+  "steve-jobs": {
+    "composition": "SteveJobs",
+    "tsx": "remotion/src/SteveJobs.tsx",
+    "manifest_dir": "channel/biografias/videos/steve-jobs",
+    "script": "channel/biografias/videos/steve-jobs/script.md",
+    "audio_static": "steve-jobs.mp3",
+    "images_subpath": "steve-jobs",
+    "naming": "timestamp",
+    "ext": "jpg",
+    "playback_rate": 1.1,
+    "fps": 30,
+    "width": 1920,
+    "height": 1080,
+    "background": "#ffffff"
   }
 }
