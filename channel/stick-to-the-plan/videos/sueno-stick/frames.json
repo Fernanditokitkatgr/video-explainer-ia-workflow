@@ -4,164 +4,301 @@
     {
       "file": "seg_00.png",
       "startSec": 0.0,
-      "text": "Son las tres de la mañana, toda la ciudad duerme, todos menos Stick.",
-      "scene": null
+      "text": "3 de la manana, todos menos Stick"
     },
     {
       "file": "seg_01.png",
-      "startSec": 6.2,
-      "text": "pelo largo, cinta, gafas rojas, la luz del móvil le ilumina las gafas.",
-      "scene": null
+      "startSec": 5.32,
+      "text": "gafas rojas, luz del movil"
     },
     {
       "file": "seg_02.png",
-      "startSec": 13.16,
-      "text": "Un vídeo más... y mañana sí cumplo el plan, pero mira de cerca su pelo...",
-      "scene": null
+      "startSec": 10.34,
+      "text": "un video mas, manana cumplo el plan"
     },
     {
       "file": "seg_03.png",
-      "startSec": 20.06,
-      "text": "salirle una cana, y ayer no estaba.",
-      "scene": null
+      "startSec": 14.54,
+      "text": "le ha salido una cana"
     },
     {
       "file": "seg_04.png",
-      "startSec": 22.9,
-      "text": "dormir es perder el tiempo... su turno de mantenimiento",
-      "scene": null
+      "startSec": 19.24,
+      "text": "dormir es perder el tiempo"
     },
     {
       "file": "seg_05.png",
-      "startSec": 28.88,
-      "text": "el cuerpo se arregla por dentro, no dormir no le roba horas",
-      "scene": null
+      "startSec": 24.0,
+      "text": "el cuerpo se arregla por dentro"
     },
     {
       "file": "seg_06.png",
-      "startSec": 34.46,
-      "text": "le roba años de vida. Cuando Stick duerme bien, su cuerpo trabaja",
-      "scene": null
+      "startSec": 30.8,
+      "text": "cuando duerme bien, su cuerpo trabaja"
     },
     {
       "file": "seg_07.png",
-      "startSec": 39.94,
-      "text": "entra el equipo de limpieza nocturno",
-      "scene": null
+      "startSec": 33.54,
+      "text": "entra el equipo de limpieza"
     },
     {
       "file": "seg_08.png",
-      "startSec": 44.56,
-      "text": "recoge la basura que el cerebro deja durante el día",
-      "scene": null
+      "startSec": 36.0,
+      "text": "recoge la basura del cerebro"
     },
     {
       "file": "seg_09.png",
-      "startSec": 49.74,
-      "text": "si Stick no duerme, el equipo no entra, la basura se queda",
-      "scene": null
+      "startSec": 38.56,
+      "text": "si no duerme, la basura se queda"
     },
     {
       "file": "seg_10.png",
-      "startSec": 54.44,
-      "text": "noche tras noche se amontona, sus pilas se recargan",
-      "scene": null
+      "startSec": 44.2,
+      "text": "sus pilas se recargan"
     },
     {
       "file": "seg_11.png",
-      "startSec": 61.36,
-      "text": "el cuerpo cose lo que rompió y cuida la punta de sus cordones",
-      "scene": null
+      "startSec": 46.82,
+      "text": "cose lo roto, cuida la punta del cordon"
     },
     {
       "file": "seg_12.png",
-      "startSec": 68.22,
-      "text": "la punta de plástico del cordón",
-      "scene": null
+      "startSec": 50.58,
+      "text": "la punta de plastico del cordon"
     },
     {
       "file": "seg_13.png",
-      "startSec": 73.3,
-      "text": "tus células tienen una igual, cuanto más se gasta, más viejo",
-      "scene": null
+      "startSec": 52.82,
+      "text": "tus celulas tienen una igual"
     },
     {
       "file": "seg_14.png",
-      "startSec": 78.28,
-      "text": "dormir bien la mantiene entera, ahora mira Stick sin dormir, suena una alarma",
-      "scene": null
+      "startSec": 59.44,
+      "text": "mira a Stick sin dormir"
     },
     {
       "file": "seg_15.png",
-      "startSec": 84.3,
-      "text": "la alarma de incendios del estrés, de día/de noche",
-      "scene": null
+      "startSec": 61.14,
+      "text": "alarma de incendios del estres"
     },
     {
       "file": "seg_16.png",
-      "startSec": 91.04,
-      "text": "no se apaga nunca, enciende un fuego lento",
-      "scene": null
+      "startSec": 65.38,
+      "text": "no se apaga, fuego lento"
     },
     {
       "file": "seg_17.png",
-      "startSec": 97.8,
-      "text": "arde despacio, oxida el cuerpo poco a poco",
-      "scene": null
+      "startSec": 68.5,
+      "text": "arde despacio, oxida el cuerpo"
     },
     {
       "file": "seg_18.png",
-      "startSec": 105.34,
-      "text": "la punta de los cordones se deshilacha, más canas más rápido",
-      "scene": null
+      "startSec": 71.48,
+      "text": "cordones se deshilachan, mas canas"
     },
     {
       "file": "seg_19.png",
-      "startSec": 111.98,
-      "text": "envejece al doble, no es solo cosa de Stick, pasa en tu cuerpo",
-      "scene": null
+      "startSec": 75.54,
+      "text": "envejece al doble"
     },
     {
       "file": "seg_20.png",
-      "startSec": 118.14,
-      "text": "esta misma noche, una mala noche enciende tu alarma",
-      "scene": null
+      "startSec": 80.0,
+      "text": "esta noche enciende tu alarma"
     },
     {
       "file": "seg_21.png",
-      "startSec": 124.64,
-      "text": "tu cerebro sin limpiar, lo notas en 10 años, seamos honestos",
-      "scene": null
+      "startSec": 82.34,
+      "text": "cerebro sin limpiar, 10 anos"
     },
     {
       "file": "seg_22.png",
-      "startSec": 131.66,
-      "text": "dormir profundo a tu ritmo, cada cuerpo necesita lo suyo",
-      "scene": null
+      "startSec": 86.2,
+      "text": "duerme profundo a tu ritmo"
     },
     {
       "file": "seg_23.png",
-      "startSec": 137.88,
-      "text": "divulgación, no consejo médico, habla con un profesional",
-      "scene": null
+      "startSec": 91.42,
+      "text": "divulgacion, no consejo medico"
     },
     {
       "file": "seg_24.png",
-      "startSec": 144.9,
-      "text": "tu equipo de limpieza quiere entrar, déjalo pasar",
-      "scene": null
+      "startSec": 95.58,
+      "text": "tu equipo quiere entrar, dejalo pasar"
     },
     {
       "file": "seg_25.png",
-      "startSec": 151.28,
-      "text": "empieza por algo simple, cumple el plan, duerme",
-      "scene": null
+      "startSec": 98.58,
+      "text": "cumple el plan, duerme"
     },
     {
       "file": "seg_26.png",
-      "startSec": 158.04,
-      "text": "qué hábito alarga más la vida, siguiente vídeo, like, Stick to the plan",
-      "scene": null
+      "startSec": 102.08,
+      "text": "que habito alarga la vida? like"
+    }
+  ],
+  "images": [
+    {
+      "file": "seg_00.png",
+      "higgsfield_id": "cdd88e24-fc6a-4af0-b8d6-5911e25ed35f",
+      "source_url": "https://d8j0ntlcm91z4.cloudfront.net/user_34yqYI98ISTVRDkpkjgoVTpldzA/hf_20260624_214756_cdd88e24-fc6a-4af0-b8d6-5911e25ed35f.png",
+      "scene": "Doodle stickman art style, thick black marker lines on a light background, red is the ONLY color (the character's round glasses). SCENE: the muscular good-looking doodle stickman 'Stick' (long hair, headband, round red glasses) lying awake in bed at night, a glowing phone lighting his red glasses, a nightstand clock reading 3:00, a window showing a sleeping city skyline with a moon. No text."
+    },
+    {
+      "file": "seg_01.png",
+      "higgsfield_id": "1be01843-b3ad-4539-9203-624db13e1513",
+      "source_url": "https://d8j0ntlcm91z4.cloudfront.net/user_34yqYI98ISTVRDkpkjgoVTpldzA/hf_20260624_214759_1be01843-b3ad-4539-9203-624db13e1513.png",
+      "scene": "Doodle stickman art style, thick black marker lines on a light background, red is the ONLY color (the round glasses). SCENE: close-up of 'Stick' (muscular doodle stickman) face at night lit by a phone glow from below, clearly showing his long hair, headband and round red glasses. No text."
+    },
+    {
+      "file": "seg_02.png",
+      "higgsfield_id": "e62b279c-bcce-4024-b25c-9e20d57849fc",
+      "source_url": "https://d8j0ntlcm91z4.cloudfront.net/user_34yqYI98ISTVRDkpkjgoVTpldzA/hf_20260624_214802_e62b279c-bcce-4024-b25c-9e20d57849fc.png",
+      "scene": "Doodle stickman art style, thick black marker lines on white, red is the ONLY color (round glasses). SCENE: 'Stick' (muscular doodle stickman, long hair, headband, red glasses) sitting up in bed at night holding a glowing phone, looking slightly uneasy as he glances at a strand of his own hair. No text."
+    },
+    {
+      "file": "seg_03.png",
+      "higgsfield_id": "4c5e5c33-ac5e-433c-a95f-fa5df140df76",
+      "source_url": "https://d8j0ntlcm91z4.cloudfront.net/user_34yqYI98ISTVRDkpkjgoVTpldzA/hf_20260624_214805_4c5e5c33-ac5e-433c-a95f-fa5df140df76.png",
+      "scene": "Doodle stickman art style, thick black marker lines on white, red is the ONLY color (round glasses). SCENE: extreme close-up of 'Stick' looking shocked and pointing at a single GRAY hair standing out among his dark long hair, eyes wide, headband and round red glasses. One single gray hair. No text."
+    },
+    {
+      "file": "seg_04.png",
+      "higgsfield_id": "9902611c-7ffd-448b-8239-9dcf53ef7ff8",
+      "source_url": "https://d8j0ntlcm91z4.cloudfront.net/user_34yqYI98ISTVRDkpkjgoVTpldzA/hf_20260624_214808_9902611c-7ffd-448b-8239-9dcf53ef7ff8.png",
+      "scene": "Doodle stickman art style, thick black marker lines on white, red is the ONLY color (round glasses). SCENE: 'Stick' (muscular doodle stickman, long hair, headband, red glasses) sleeping peacefully in bed, with a floating wrench-and-gear 'maintenance' icon above him, calm night, small moon. No text."
+    },
+    {
+      "file": "seg_05.png",
+      "higgsfield_id": "d57bb789-487c-4133-b69a-49325799e433",
+      "source_url": "https://d8j0ntlcm91z4.cloudfront.net/user_34yqYI98ISTVRDkpkjgoVTpldzA/hf_20260624_214810_d57bb789-487c-4133-b69a-49325799e433.png",
+      "scene": "Doodle stickman art style, thick black marker lines on white, a few small red accents. SCENE: cross-section of 'Stick's sleeping muscular body, with several tiny stick-figure repair workers inside fixing and tightening little gears and bolts. Conceptual 'the body repairs itself during sleep'. No text."
+    },
+    {
+      "file": "seg_06.png",
+      "higgsfield_id": "fb402d35-b7f5-467e-966f-54381ebdf088",
+      "source_url": "https://d8j0ntlcm91z4.cloudfront.net/user_34yqYI98ISTVRDkpkjgoVTpldzA/hf_20260624_214815_fb402d35-b7f5-467e-966f-54381ebdf088.png",
+      "scene": "Doodle stickman art style, thick black marker lines on white, a few small red accents. SCENE: split image — on the left 'Stick' sleeping soundly in bed; on the right his body shown 'at work' with big turning gears. Conceptual. No text."
+    },
+    {
+      "file": "seg_07.png",
+      "higgsfield_id": "dea73976-4181-450e-b5fb-802babb6ffd4",
+      "source_url": "https://d8j0ntlcm91z4.cloudfront.net/user_34yqYI98ISTVRDkpkjgoVTpldzA/hf_20260624_214849_dea73976-4181-450e-b5fb-802babb6ffd4.png",
+      "scene": "Doodle stickman art style, thick black marker lines on white, a few small red accents. SCENE: a large human head cross-section at night, a crew of tiny stick-figure janitors with brooms ENTERING the brain to clean it, moon and Zzz. No text."
+    },
+    {
+      "file": "seg_08.png",
+      "higgsfield_id": "530175bc-8480-4e37-9cbf-9ea25a6c60e5",
+      "source_url": "https://d8j0ntlcm91z4.cloudfront.net/user_34yqYI98ISTVRDkpkjgoVTpldzA/hf_20260624_214852_530175bc-8480-4e37-9cbf-9ea25a6c60e5.png",
+      "scene": "Doodle stickman art style, thick black marker lines on white, a few small red accents. SCENE: tiny stick-figure janitors carrying little trash bags OUT of an opening in a human head, sweeping the brain clean. Conceptual. No text."
+    },
+    {
+      "file": "seg_09.png",
+      "higgsfield_id": "d017d39d-097a-4538-b77a-90e48d88486b",
+      "source_url": "https://d8j0ntlcm91z4.cloudfront.net/user_34yqYI98ISTVRDkpkjgoVTpldzA/hf_20260624_214855_d017d39d-097a-4538-b77a-90e48d88486b.png",
+      "scene": "Doodle stickman art style, thick black marker lines on white, a few small red accents. SCENE: tiny stick-figure janitors locked OUTSIDE a closed door on a human head (a small 'no entry' sign), while trash piles up inside the head. Conceptual. No text."
+    },
+    {
+      "file": "seg_10.png",
+      "higgsfield_id": "e60a37fb-83c6-4fd0-b26b-6a874dafc846",
+      "source_url": "https://d8j0ntlcm91z4.cloudfront.net/user_34yqYI98ISTVRDkpkjgoVTpldzA/hf_20260624_214858_e60a37fb-83c6-4fd0-b26b-6a874dafc846.png",
+      "scene": "Doodle stickman art style, thick black marker lines on white, a few small red accents. SCENE: two simple batteries charging with little energy glow lines, next to a growing pile of trash bags. Conceptual 'batteries recharge during sleep'. No text."
+    },
+    {
+      "file": "seg_11.png",
+      "higgsfield_id": "a20d00f3-2adb-4486-b1a7-1e431ca0f79d",
+      "source_url": "https://d8j0ntlcm91z4.cloudfront.net/user_34yqYI98ISTVRDkpkjgoVTpldzA/hf_20260624_214901_a20d00f3-2adb-4486-b1a7-1e431ca0f79d.png",
+      "scene": "Doodle stickman art style, thick black marker lines on white, a few small red accents. SCENE: a needle and thread sewing/stitching a simple muscle shape, and beside it a shoelace with its tip highlighted. Conceptual 'the body repairs itself'. No text."
+    },
+    {
+      "file": "seg_12.png",
+      "higgsfield_id": "afd7b4ae-0ad8-4fd6-883b-0875952c9f3b",
+      "source_url": "https://d8j0ntlcm91z4.cloudfront.net/user_34yqYI98ISTVRDkpkjgoVTpldzA/hf_20260624_214904_afd7b4ae-0ad8-4fd6-883b-0875952c9f3b.png",
+      "scene": "Doodle stickman art style, thick black marker lines on white, a touch of red. SCENE: a big clear close-up of a shoelace end with its plastic tip (aglet) highlighted, the rest of the lace trailing off. Minimalist. No text."
+    },
+    {
+      "file": "seg_13.png",
+      "higgsfield_id": "f3249417-91e6-417f-b9c6-363b8e23d2fd",
+      "source_url": "https://d8j0ntlcm91z4.cloudfront.net/user_34yqYI98ISTVRDkpkjgoVTpldzA/hf_20260624_214907_f3249417-91e6-417f-b9c6-363b8e23d2fd.png",
+      "scene": "Doodle stickman art style, thick black marker lines on white, a touch of red. SCENE: a simple round cell with a protective shoelace-like tip on its end, shown getting shorter, an arrow pointing to a slightly older hunched stick figure. Conceptual telomeres. No text."
+    },
+    {
+      "file": "seg_14.png",
+      "higgsfield_id": "f66e45ee-96e4-4549-928d-bbc3ff099d74",
+      "source_url": "https://d8j0ntlcm91z4.cloudfront.net/user_34yqYI98ISTVRDkpkjgoVTpldzA/hf_20260624_214910_f66e45ee-96e4-4549-928d-bbc3ff099d74.png",
+      "scene": "Doodle stickman art style, thick black marker lines on white, red is the only color (glasses + alarm). SCENE: 'Stick' (muscular doodle stickman, long hair, headband, red glasses) lying awake in bed exhausted, with a red alarm bell ringing loudly above his head. No text."
+    },
+    {
+      "file": "seg_15.png",
+      "higgsfield_id": "3435cc8a-f412-4bce-afe4-b2090268d9dd",
+      "source_url": "https://d8j0ntlcm91z4.cloudfront.net/user_34yqYI98ISTVRDkpkjgoVTpldzA/hf_20260624_214913_3435cc8a-f412-4bce-afe4-b2090268d9dd.png",
+      "scene": "Doodle stickman art style, thick black marker lines on white, red accent on the alarm. SCENE: a ringing red fire-alarm bell with a small stressed face on it; a small sun on one side and a moon on the other to suggest day vs night. Conceptual cortisol/stress alarm. No text."
+    },
+    {
+      "file": "seg_16.png",
+      "higgsfield_id": "ec2f8bb9-775a-4619-9d45-c5ac3bc9d69f",
+      "source_url": "https://d8j0ntlcm91z4.cloudfront.net/user_34yqYI98ISTVRDkpkjgoVTpldzA/hf_20260624_214916_ec2f8bb9-775a-4619-9d45-c5ac3bc9d69f.png",
+      "scene": "Doodle stickman art style, thick black marker lines on white, red accents. SCENE: 'Stick' at night, a red alarm bell still ringing inside his chest and a small flame starting to burn inside him. Conceptual 'the alarm never shuts off, a fire starts'. No text."
+    },
+    {
+      "file": "seg_17.png",
+      "higgsfield_id": "8aa8862e-84fd-4abc-a8b6-0c7780c5975e",
+      "source_url": "https://d8j0ntlcm91z4.cloudfront.net/user_34yqYI98ISTVRDkpkjgoVTpldzA/hf_20260624_214933_8aa8862e-84fd-4abc-a8b6-0c7780c5975e.png",
+      "scene": "Doodle stickman art style, thick black marker lines on white, red accents. SCENE: a small slow fire smoldering with wisps of smoke inside a simple body silhouette, with little rust/oxidation spots appearing. Conceptual 'slow inflammation oxidizing the body'. No text."
+    },
+    {
+      "file": "seg_18.png",
+      "higgsfield_id": "cd732864-7275-496f-bed3-85b48f2aa4dc",
+      "source_url": "https://d8j0ntlcm91z4.cloudfront.net/user_34yqYI98ISTVRDkpkjgoVTpldzA/hf_20260624_214937_cd732864-7275-496f-bed3-85b48f2aa4dc.png",
+      "scene": "Doodle stickman art style, thick black marker lines on white, red accent. SCENE: a shoelace fraying badly at its tip on one side, and on the other side 'Stick' (long hair, headband, red glasses) with several new gray hairs appearing, looking worried. No text."
+    },
+    {
+      "file": "seg_19.png",
+      "higgsfield_id": "bad8fa5f-5c60-4c42-ba49-29cb6bb4ae4c",
+      "source_url": "https://d8j0ntlcm91z4.cloudfront.net/user_34yqYI98ISTVRDkpkjgoVTpldzA/hf_20260624_214941_bad8fa5f-5c60-4c42-ba49-29cb6bb4ae4c.png",
+      "scene": "Doodle stickman art style, thick black marker lines on white, red accent (glasses). SCENE: 'Stick' shown split in two — young and energetic on the left, prematurely old and hunched with gray hair on the right — and a hand pointing a finger toward the viewer. Conceptual 'this happens to you too'. No text."
+    },
+    {
+      "file": "seg_20.png",
+      "higgsfield_id": "f6d9c62a-268f-441a-86cb-887a9a83d79d",
+      "source_url": "https://d8j0ntlcm91z4.cloudfront.net/user_34yqYI98ISTVRDkpkjgoVTpldzA/hf_20260624_214944_f6d9c62a-268f-441a-86cb-887a9a83d79d.png",
+      "scene": "Doodle stickman art style, thick black marker lines on white, red accent. SCENE: an ordinary everyman stick figure (the viewer) lying awake in bed at night, a faint red alarm glow inside the chest. Relatable 'this is you tonight'. No text."
+    },
+    {
+      "file": "seg_21.png",
+      "higgsfield_id": "48805028-6b33-4adf-bef5-0e1d0e7f7b58",
+      "source_url": "https://d8j0ntlcm91z4.cloudfront.net/user_34yqYI98ISTVRDkpkjgoVTpldzA/hf_20260624_214949_48805028-6b33-4adf-bef5-0e1d0e7f7b58.png",
+      "scene": "Doodle stickman art style, thick black marker lines on white, red accent. SCENE: a human head with trash left uncleaned inside the brain, next to a calendar/clock marked '+10' suggesting ten years later. Conceptual. No text."
+    },
+    {
+      "file": "seg_22.png",
+      "higgsfield_id": "60760733-f2c4-4fc0-ac41-806143a1be4a",
+      "source_url": "https://d8j0ntlcm91z4.cloudfront.net/user_34yqYI98ISTVRDkpkjgoVTpldzA/hf_20260624_214952_60760733-f2c4-4fc0-ac41-806143a1be4a.png",
+      "scene": "Doodle stickman art style, thick black marker lines on white, red accent (glasses). SCENE: 'Stick' (long hair, headband, red glasses) sleeping deeply and peacefully in bed with a content smile, a big calm moon and soft Zzz. No text."
+    },
+    {
+      "file": "seg_23.png",
+      "higgsfield_id": "5dca9b58-6bfa-43b2-b3c4-dfa51a5e3aca",
+      "source_url": "https://d8j0ntlcm91z4.cloudfront.net/user_34yqYI98ISTVRDkpkjgoVTpldzA/hf_20260624_214955_5dca9b58-6bfa-43b2-b3c4-dfa51a5e3aca.png",
+      "scene": "Doodle stickman art style, thick black marker lines on white, red accent (glasses). SCENE: 'Stick' (long hair, headband, red glasses) talking with a doctor stick-figure wearing a white coat and a stethoscope. Friendly, reassuring. Conceptual 'talk to a professional'. No text."
+    },
+    {
+      "file": "seg_24.png",
+      "higgsfield_id": "81e5aba9-5e3e-4d81-a487-658d638f08c9",
+      "source_url": "https://d8j0ntlcm91z4.cloudfront.net/user_34yqYI98ISTVRDkpkjgoVTpldzA/hf_20260624_214957_81e5aba9-5e3e-4d81-a487-658d638f08c9.png",
+      "scene": "Doodle stickman art style, thick black marker lines on white, a few red accents. SCENE: a friendly crew of tiny stick-figure janitors being welcomed through an OPEN door into a human head, smiling. Conceptual 'let the cleaning crew in'. No text."
+    },
+    {
+      "file": "seg_25.png",
+      "higgsfield_id": "e3b5278e-4fc1-42ed-b7ea-6d3529c36077",
+      "source_url": "https://d8j0ntlcm91z4.cloudfront.net/user_34yqYI98ISTVRDkpkjgoVTpldzA/hf_20260624_215001_e3b5278e-4fc1-42ed-b7ea-6d3529c36077.png",
+      "scene": "Doodle stickman art style, thick black marker lines on white, red accent (glasses). SCENE: 'Stick' (long hair, headband, red glasses) happily putting his phone face-down on the nightstand and lying down to sleep, content. No text."
+    },
+    {
+      "file": "seg_26.png",
+      "higgsfield_id": "8d84f05b-4779-4ce1-8c32-56d2aca4140c",
+      "source_url": "https://d8j0ntlcm91z4.cloudfront.net/user_34yqYI98ISTVRDkpkjgoVTpldzA/hf_20260624_215004_8d84f05b-4779-4ce1-8c32-56d2aca4140c.png",
+      "scene": "Doodle stickman art style, thick black marker lines on white, red accent (glasses). SCENE: 'Stick' (muscular, long hair, headband, red glasses) giving a confident thumbs up next to a big 'like' thumb icon and an arrow pointing right to a 'next video' rectangle. End-card vibe. No text."
     }
   ]
 }
