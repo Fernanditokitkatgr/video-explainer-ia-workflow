@@ -79,3 +79,18 @@ No sabes cuánto tiempo tienes.
 Así que hazlo valer.
 Si esta historia te ha hecho pensar en tu propia vida, suscríbete.
 Y cuéntame en comentarios cuál de las tres lecciones de Jobs te llega más.
+
+---
+
+## SEO / Metadata (ver `seo.md` para el detalle completo)
+
+**Título recomendado**: Steve Jobs: la foto que nadie quiere ver (biografía completa)
+
+**Descripción corta**: Biografía completa de Steve Jobs — adopción, infancia en Silicon Valley,
+Apple, despido de su propia empresa, NeXT/Pixar, regreso, cáncer, y las tres lecciones de su
+discurso de Stanford.
+
+**Tags**: steve jobs, biografia steve jobs, historia de apple, discurso stanford steve jobs,
+steve jobs despedido de apple, wozniak, biografias inspiradoras, vida de steve jobs.
+
+**Miniatura**: contraste sano/enfermo de la apertura (~1.9s del render final).

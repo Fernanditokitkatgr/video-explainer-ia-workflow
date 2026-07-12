@@ -85,3 +85,19 @@ Así que entender cómo funciona ya no es opcional.
 ¿Qué parte de la IA te gustaría que explicásemos a fondo?
 Dímelo en comentarios.
 Y si te ha quedado más claro que antes, suscríbete.
+
+---
+
+## SEO / Metadata (ver `seo.md` para el detalle completo)
+
+**Título recomendado**: Así funciona REALMENTE la Inteligencia Artificial (en 4 minutos)
+
+**Descripción corta**: Explicación sin tecnicismos de qué es la IA de verdad, machine learning,
+los 4 tipos de aprendizaje automático (supervisado, no supervisado, semi-supervisado, por
+refuerzo), redes neuronales y deep learning.
+
+**Tags**: inteligencia artificial, machine learning explicado, aprendizaje automatico, deep
+learning, redes neuronales, ia explicada, aprendizaje supervisado, captcha ia, coches
+autonomos ia, ia para principiantes.
+
+**Miniatura**: frame del rey de ajedrez cayendo (~2.3s del render final).

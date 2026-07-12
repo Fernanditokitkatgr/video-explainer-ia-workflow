@@ -1,0 +1,395 @@
+1
+00:00:00,000 --> 00:00:02,000
+Esta foto es Steve Jobs sano.
+
+2
+00:00:02,000 --> 00:00:04,182
+Esta es solo unos meses antes de morir.
+
+3
+00:00:04,182 --> 00:00:05,882
+Fue dado en adopción de bebé,
+
+4
+00:00:05,882 --> 00:00:07,418
+no terminó la universidad.
+
+5
+00:00:07,418 --> 00:00:10,145
+Lo despidieron de su propia empresa y aún así,
+
+6
+00:00:10,145 --> 00:00:12,364
+cambió la tecnología para siempre.
+
+7
+00:00:12,364 --> 00:00:18,291
+Antes de morir, dio un discurso en Stanford que ya lleva más de 50 millones de reproducciones.
+
+8
+00:00:18,291 --> 00:00:21,836
+Ahí reveló las tres lecciones más importantes de su vida.
+
+9
+00:00:21,836 --> 00:00:23,255
+Unir los puntos,
+
+10
+00:00:23,255 --> 00:00:24,455
+amor y pérdida.
+
+11
+00:00:24,364 --> 00:00:25,964
+Y la más dura de todas,
+
+12
+00:00:25,964 --> 00:00:27,164
+la muerte.
+
+13
+00:00:27,164 --> 00:00:30,782
+Para entenderlas, primero tienes que conocer su historia.
+
+14
+00:00:30,782 --> 00:00:32,400
+1955,
+
+15
+00:00:32,400 --> 00:00:33,727
+San Francisco.
+
+16
+00:00:33,727 --> 00:00:38,545
+Nace un bebé que sus padres biológicos, aún universitarios, no pueden criar.
+
+17
+00:00:38,545 --> 00:00:40,164
+Deciden darlo en adopción,
+
+18
+00:00:40,164 --> 00:00:41,691
+pero ponen una condición,
+
+19
+00:00:41,691 --> 00:00:44,182
+que su nueva familia sea universitaria.
+
+20
+00:00:44,182 --> 00:00:49,455
+La madre biológica no queda convencida con la primera pareja candidata porque no se habían graduado.
+
+21
+00:00:49,455 --> 00:00:51,745
+Al final, acepta a Paul y Clara Jobs,
+
+22
+00:00:51,745 --> 00:00:54,945
+con la promesa de que el niño estudiaría en la universidad.
+
+23
+00:00:54,945 --> 00:00:56,145
+Ironía,
+
+24
+00:00:55,727 --> 00:00:58,909
+ese niño terminaría casi sin pisar las aulas.
+
+25
+00:00:58,909 --> 00:01:04,582
+Crece en Silicon Valley, rodeado de la primera ola de tecnología con una curiosidad que no para.
+
+26
+00:01:04,582 --> 00:01:09,436
+A los 12 años, necesita piezas para un proyecto y hace algo que parece una locura.
+
+27
+00:01:09,436 --> 00:01:14,655
+Busca en la guía telefónica y llama directamente a Bill Hewlett, cofundador de HP.
+
+28
+00:01:14,655 --> 00:01:16,055
+Hablan 20 minutos.
+
+29
+00:01:16,055 --> 00:01:19,818
+Hewlett le da las piezas y un trabajo de verano en su empresa.
+
+30
+00:01:19,818 --> 00:01:23,891
+Termina el instituto y entra a Reed College, tal como sus padres esperaban.
+
+31
+00:01:23,891 --> 00:01:25,873
+Pero a los pocos meses lo deja.
+
+32
+00:01:25,873 --> 00:01:30,055
+Después de todo lo que sus padres sacrificaron por esa promesa de universidad,
+
+33
+00:01:30,055 --> 00:01:32,545
+se queda igualmente en el campus, sin dinero,
+
+34
+00:01:32,545 --> 00:01:36,036
+durmiendo en el suelo de amigos, recogiendo botellas para comer.
+
+35
+00:01:36,036 --> 00:01:38,818
+Solo entra a las clases que realmente le interesan.
+
+36
+00:01:38,818 --> 00:01:41,091
+Una de ellas es un curso de caligrafía.
+
+37
+00:01:41,091 --> 00:01:43,018
+En ese momento parece inútil.
+
+38
+00:01:43,018 --> 00:01:44,218
+Años después,
+
+39
+00:01:44,000 --> 00:01:48,036
+esa clase se convertirá en las tipografías de sus computadoras.
+
+40
+00:01:48,036 --> 00:01:49,327
+Se une a Atari,
+
+41
+00:01:49,327 --> 00:01:53,964
+y ahí un vecino llamado Wozniak le habla de una idea que suena a ciencia ficción.
+
+42
+00:01:53,964 --> 00:01:57,618
+Una computadora lo bastante pequeña para caber en una casa.
+
+43
+00:01:57,618 --> 00:01:59,745
+Juntan fuerzas en el garaje de los jobs.
+
+44
+00:01:59,745 --> 00:02:01,564
+Wozniak pone la ingeniería.
+
+45
+00:02:01,564 --> 00:02:03,327
+Jobs pone la visión.
+
+46
+00:02:03,327 --> 00:02:07,091
+Venden sus pertenencias más valiosas para financiar el primer prototipo,
+
+47
+00:02:07,091 --> 00:02:08,291
+la Apple 1.
+
+48
+00:02:08,273 --> 00:02:11,109
+Después llega la Apple 2, y con ella el éxito.
+
+49
+00:02:11,109 --> 00:02:14,000
+Apple sale a bolsa y los convierte en millonarios.
+
+50
+00:02:14,000 --> 00:02:16,255
+Pero el éxito trae otro problema.
+
+51
+00:02:16,255 --> 00:02:20,255
+Jobs contrata al CEO de Pepsi con una frase que se hizo legendaria.
+
+52
+00:02:20,255 --> 00:02:24,945
+¿Quieres vender agua azucarada el resto de tu vida? O venir a cambiar el mundo conmigo.
+
+53
+00:02:24,945 --> 00:02:26,855
+Ese mismo hombre, años después,
+
+54
+00:02:26,855 --> 00:02:30,509
+ayuda a la junta directiva a apartarlo de su propia empresa.
+
+55
+00:02:30,509 --> 00:02:32,527
+En 1985,
+
+56
+00:02:32,527 --> 00:02:34,655
+Steve Jobs es despedido de Apple,
+
+57
+00:02:34,655 --> 00:02:37,018
+la compañía que él mismo fundó.
+
+58
+00:02:37,018 --> 00:02:41,036
+Cuenta después que perder Apple fue uno de los golpes más duros de su vida.
+
+59
+00:02:41,036 --> 00:02:42,455
+Pero no se rindió.
+
+60
+00:02:42,455 --> 00:02:47,164
+Funda Next compra una pequeña empresa de efectos especiales llamada Pixar,
+
+61
+00:02:47,164 --> 00:02:49,273
+que terminaría creando Toy Story,
+
+62
+00:02:49,273 --> 00:02:52,582
+la primera película animada por computadora de la historia.
+
+63
+00:02:52,582 --> 00:02:54,345
+Mientras tanto, sin él,
+
+64
+00:02:54,345 --> 00:02:57,345
+Apple entra en caída libre, al borde de la bancarrota.
+
+65
+00:02:57,345 --> 00:02:58,618
+Para sobrevivir,
+
+66
+00:02:58,618 --> 00:03:01,109
+Apple no tiene más opción que comprar Next.
+
+67
+00:03:01,109 --> 00:03:02,309
+Y con esa compra,
+
+68
+00:03:02,291 --> 00:03:06,527
+Jobs vuelve a la empresa que lo había echado, once años después.
+
+69
+00:03:06,527 --> 00:03:08,309
+Reconstruye Apple desde cero,
+
+70
+00:03:08,309 --> 00:03:09,509
+el iMac,
+
+71
+00:03:09,091 --> 00:03:11,800
+el iPod, y en 2007 el iPhone,
+
+72
+00:03:11,800 --> 00:03:15,709
+el dispositivo que redefiniría la tecnología para siempre.
+
+73
+00:03:15,709 --> 00:03:17,018
+Pero en 2004,
+
+74
+00:03:17,018 --> 00:03:18,545
+en plena racha de éxitos,
+
+75
+00:03:18,545 --> 00:03:20,745
+los médicos le dan una noticia.
+
+76
+00:03:20,745 --> 00:03:22,509
+Cáncer de páncreas.
+
+77
+00:03:22,509 --> 00:03:25,000
+Sigue trabajando con la misma intensidad.
+
+78
+00:03:25,000 --> 00:03:28,418
+Un año después, Stanford lo invita a dar aquel discurso.
+
+79
+00:03:28,418 --> 00:03:30,255
+Ahí habla de unir los puntos,
+
+80
+00:03:30,255 --> 00:03:37,236
+que dejar la universidad sin saberlo, lo llevó a esa clase de caligrafía que terminaría definiendo el diseño de sus productos.
+
+81
+00:03:37,236 --> 00:03:38,655
+Habla de amor y pérdida,
+
+82
+00:03:38,655 --> 00:03:43,236
+que sólo logró seguir adelante después de ser despedido porque amaba lo que hacía.
+
+83
+00:03:43,236 --> 00:03:44,455
+Y habla de la muerte,
+
+84
+00:03:44,455 --> 00:03:48,782
+que llevaba 33 años preguntándose cada mañana frente al espejo.
+
+85
+00:03:48,782 --> 00:03:51,000
+Si hoy fuera el último día de mi vida,
+
+86
+00:03:51,000 --> 00:03:53,691
+querría hacer lo que estoy a punto de hacer,
+
+87
+00:03:53,691 --> 00:03:58,527
+cuando la respuesta era demasiadas veces no, sabía que tenía que cambiar algo.
+
+88
+00:03:58,527 --> 00:04:00,564
+El 5 de octubre de 2011,
+
+89
+00:04:00,564 --> 00:04:02,055
+Steve Jobs muere.
+
+90
+00:04:02,055 --> 00:04:05,182
+Pero antes había escrito, con sólo 17 años,
+
+91
+00:04:05,182 --> 00:04:07,727
+una frase que resultó profética.
+
+92
+00:04:07,727 --> 00:04:10,291
+Si vives cada día como si fuera el último,
+
+93
+00:04:10,291 --> 00:04:12,545
+algún día tendrás razón.
+
+94
+00:04:12,545 --> 00:04:16,000
+Esa foto sano y esa foto enferma que viste al principio,
+
+95
+00:04:16,000 --> 00:04:17,455
+son la misma persona,
+
+96
+00:04:17,455 --> 00:04:19,291
+con el mismo mensaje.
+
+97
+00:04:19,291 --> 00:04:21,109
+No sabes cuánto tiempo tienes,
+
+98
+00:04:21,109 --> 00:04:22,945
+así que hazlo valer.
+
+99
+00:04:22,945 --> 00:04:25,945
+Si esta historia te ha hecho pensar en tu propia vida, suscríbete y cuéntame en comentarios cuál de las tres lecciones de Jobs te llega más.

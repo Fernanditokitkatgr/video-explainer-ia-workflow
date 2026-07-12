@@ -1,0 +1,355 @@
+1
+00:00:00,000 --> 00:00:02,255
+Llevamos un tiempo escuchando noticias así.
+
+2
+00:00:02,255 --> 00:00:05,273
+Una IA derrota al mejor jugador de ajedrez del mundo.
+
+3
+00:00:05,273 --> 00:00:07,764
+Otra compone música que nadie distingue de Bach.
+
+4
+00:00:07,764 --> 00:00:09,409
+Otra pinta como Rembrandt.
+
+5
+00:00:09,409 --> 00:00:10,927
+Otra conduce coche sola.
+
+6
+00:00:10,927 --> 00:00:13,418
+Otra reconoce la cara de un criminal entre millones.
+
+7
+00:00:13,418 --> 00:00:17,291
+Y en todas esas noticias hay una palabra que nadie explica.
+
+8
+00:00:17,291 --> 00:00:19,109
+Inteligencia artificial.
+
+9
+00:00:19,109 --> 00:00:20,745
+¿Qué significa exactamente?
+
+10
+00:00:20,745 --> 00:00:22,418
+¿Y cómo funciona de verdad?
+
+11
+00:00:22,418 --> 00:00:23,818
+Vamos a descubrirlo.
+
+12
+00:00:23,818 --> 00:00:27,600
+Rápido y sin tecnicismos. La definición oficial es simple.
+
+13
+00:00:27,600 --> 00:00:30,473
+Máquinas haciendo tareas propias de una mente humana.
+
+14
+00:00:30,473 --> 00:00:33,618
+El problema es que cuenta como propio de una mente humana.
+
+15
+00:00:33,618 --> 00:00:36,236
+Calcular ya lo hacía en las máquinas hace décadas.
+
+16
+00:00:36,236 --> 00:00:37,964
+Memorizar datos, también.
+
+17
+00:00:37,964 --> 00:00:41,564
+Pero había tres cosas que parecían imposibles para una máquina.
+
+18
+00:00:41,564 --> 00:00:43,255
+Aprender de sus errores.
+
+19
+00:00:43,255 --> 00:00:44,455
+Ser creativa.
+
+20
+00:00:44,400 --> 00:00:46,345
+Y ser consciente de sí misma.
+
+21
+00:00:46,345 --> 00:00:49,455
+La autoconciencia sigue siendo pura ciencia ficción.
+
+22
+00:00:49,455 --> 00:00:52,418
+La creatividad empieza a ser dudosamente posible.
+
+23
+00:00:52,418 --> 00:00:56,309
+Ya hay algoritmos que pintan, componen, incluso cuentan chistes.
+
+24
+00:00:56,309 --> 00:00:58,018
+Pero aquí viene el giro.
+
+25
+00:00:58,018 --> 00:01:01,836
+El 90 % de las veces que oyes inteligencia artificial,
+
+26
+00:01:01,836 --> 00:01:05,036
+en realidad se refieren a sólo una de esas tres cosas.
+
+27
+00:01:05,036 --> 00:01:06,236
+Aprender.
+
+28
+00:01:06,109 --> 00:01:07,873
+Y eso tiene un nombre propio.
+
+29
+00:01:07,873 --> 00:01:10,782
+Aprendizaje automático o Machine Learning.
+
+30
+00:01:10,782 --> 00:01:16,436
+Hoy Machine Learning es casi sinónimo de inteligencia artificial. Y aquí viene lo interesante.
+
+31
+00:01:16,436 --> 00:01:18,618
+Tú ya has entrenado una sin saberlo.
+
+32
+00:01:18,618 --> 00:01:23,109
+¿Alguna vez marcaste fotos con semáforos o coches para demostrar que no eres un robot?
+
+33
+00:01:23,109 --> 00:01:24,582
+Eso es un captcha.
+
+34
+00:01:24,582 --> 00:01:27,600
+Y cada vez que lo resolvías, estabas etiquetando datos.
+
+35
+00:01:27,600 --> 00:01:32,436
+Esos datos entrenan algoritmos que después reconocen semáforos, coches, peatones,
+
+36
+00:01:32,436 --> 00:01:33,818
+en la vida real.
+
+37
+00:01:33,818 --> 00:01:37,345
+Algunos de esos algoritmos terminan dentro de un coche autónomo.
+
+38
+00:01:37,345 --> 00:01:38,545
+Así que sí,
+
+39
+00:01:38,236 --> 00:01:42,382
+sin saberlo, llevas años enseñando a conducir a los coches del futuro.
+
+40
+00:01:42,382 --> 00:01:45,000
+Pero cómo aprende realmente una máquina?
+
+41
+00:01:45,000 --> 00:01:48,945
+El aprendizaje automático cambia el comportamiento de un algoritmo según los datos,
+
+42
+00:01:48,945 --> 00:01:51,055
+sus aciertos o sus errores.
+
+43
+00:01:51,055 --> 00:01:52,255
+Básicamente,
+
+44
+00:01:51,945 --> 00:01:54,491
+aprender de la experiencia como haría cualquiera,
+
+45
+00:01:54,491 --> 00:01:59,509
+cualquiera menos esa gente que se apunta al gimnasio cada 2 de enero y se da de baja en febrero.
+
+46
+00:01:59,509 --> 00:02:01,764
+Hay cuatro maneras principales de hacerlo.
+
+47
+00:02:01,764 --> 00:02:02,964
+La primera,
+
+48
+00:02:02,636 --> 00:02:08,927
+aprendizaje supervisado. Le das al algoritmo millones de datos ya etiquetados con la respuesta correcta incluida,
+
+49
+00:02:08,927 --> 00:02:13,709
+como enseñarle miles de fotos tuyas y de otras personas hasta que aprenda a reconocerte.
+
+50
+00:02:13,709 --> 00:02:15,527
+Es el más usado del mundo.
+
+51
+00:02:15,527 --> 00:02:16,945
+Reconocimiento facial,
+
+52
+00:02:16,945 --> 00:02:18,145
+de voz,
+
+53
+00:02:17,655 --> 00:02:19,909
+de huellas, coches autónomos.
+
+54
+00:02:19,909 --> 00:02:21,109
+La segunda,
+
+55
+00:02:20,964 --> 00:02:22,909
+aprendizaje no supervisado.
+
+56
+00:02:22,909 --> 00:02:25,855
+Aquí no hay respuestas correctas, solo datos sueltos.
+
+57
+00:02:25,855 --> 00:02:28,509
+El algoritmo busca patrones y agrupa lo parecido,
+
+58
+00:02:28,509 --> 00:02:33,473
+como cuando Spotify compara tus gustos con los de otro usuario para recomendarte canciones.
+
+59
+00:02:33,473 --> 00:02:35,727
+La tercera, semi-supervisado,
+
+60
+00:02:35,727 --> 00:02:37,018
+un poco de cada.
+
+61
+00:02:37,018 --> 00:02:40,782
+Pocos datos etiquetados para entrenar un modelo que etiquete el resto.
+
+62
+00:02:40,782 --> 00:02:41,982
+Y la cuarta,
+
+63
+00:02:41,836 --> 00:02:43,618
+aprendizaje por refuerzo.
+
+64
+00:02:43,618 --> 00:02:46,745
+Aquí el algoritmo aprende jugando a base de prueba y error.
+
+65
+00:02:46,745 --> 00:02:50,800
+Si ganas, repites a estrategia. Si pierde, la descarta.
+
+66
+00:02:50,800 --> 00:02:57,200
+Así es como una máquina puede aprender a jugar al ajedrez o algo sola, contra sí misma, millones de veces.
+
+67
+00:02:57,200 --> 00:03:01,909
+Detrás de estos cuatro tipos hay decenas de técnicas con nombres que suenan a hechizos.
+
+68
+00:03:01,909 --> 00:03:03,327
+Arboles de decisión,
+
+69
+00:03:03,327 --> 00:03:04,527
+Random Forest,
+
+70
+00:03:04,509 --> 00:03:06,164
+k-nearest neighbors,
+
+71
+00:03:06,164 --> 00:03:09,364
+pero la más potente de todas son las redes neuronales.
+
+72
+00:03:09,364 --> 00:03:12,782
+Miles de pequeñas funciones matemáticas conectadas entre sí,
+
+73
+00:03:12,782 --> 00:03:16,673
+imitando muy de lejos cómo se conectan las neuronas de un cerebro.
+
+74
+00:03:16,673 --> 00:03:20,927
+Cuando esas redes son enormes y con muchas capas se llaman redes profundas.
+
+75
+00:03:20,927 --> 00:03:23,855
+Y ahí nace el término que seguro también has oído.
+
+76
+00:03:23,855 --> 00:03:25,273
+Deep Learning.
+
+77
+00:03:25,273 --> 00:03:29,527
+Así que la próxima vez que oigas que una IA venció a un campeón mundial de ajedrez,
+
+78
+00:03:29,527 --> 00:03:31,564
+ya sabes que no fue magia.
+
+79
+00:03:31,564 --> 00:03:37,291
+Fue una red aprendiendo durante millones de partidas qué movimientos ganan y cuáles no.
+
+80
+00:03:37,291 --> 00:03:40,073
+La inteligencia artificial no piensa como tú.
+
+81
+00:03:40,073 --> 00:03:42,655
+De momento solo encuentra patrones mejor que nadie.
+
+82
+00:03:42,655 --> 00:03:44,036
+Y eso, bien usado,
+
+83
+00:03:44,036 --> 00:03:46,618
+ya está cambiando el mundo. Mal usado,
+
+84
+00:03:46,618 --> 00:03:48,273
+también puede salir caro.
+
+85
+00:03:48,273 --> 00:03:51,655
+Así que entender cómo funciona ya no es opcional.
+
+86
+00:03:51,655 --> 00:03:54,545
+¿Qué parte de la IA te gustaría que explicásemos a fondo?
+
+87
+00:03:54,545 --> 00:03:55,945
+Dímelo en comentarios.
+
+88
+00:03:55,945 --> 00:03:57,764
+Y si te ha quedado más claro que antes,
+
+89
+00:03:57,764 --> 00:04:00,764
+suscríbete.
