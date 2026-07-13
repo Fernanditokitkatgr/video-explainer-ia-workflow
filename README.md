@@ -72,6 +72,26 @@ Guion → ElevenLabs V3 → [Revisar voz] → Whisper → Higgsfield → [Revisa
 
 📋 Guía detallada: [VIDEO_EXPLAINER_WORKFLOW.md](./VIDEO_EXPLAINER_WORKFLOW.md)
 
+## Skills del proyecto (SEO + canal)
+
+Dos skills automatizan el packaging y SEO de YouTube vía la YouTube Data API v3 (sin
+pasos manuales en YouTube Studio):
+
+- **`/video-seo <slug>`** — genera el título (híbrido: keyword de búsqueda al frente si
+  hay demanda probada — método Hot Dog —, o gancho narrativo si no la hay), descripción
+  con capítulos, tags y hashtags para un vídeo del pipeline. Antes de subir, comprueba
+  automáticamente que el canal tiene su packaging configurado (`/channel-setup`); si
+  falta algo, bloquea la subida y avisa. Sube el vídeo (privado) + miniatura vía API.
+- **`/channel-setup`** — configura o audita el packaging del canal: descripción/about,
+  keywords, tráiler para no-suscriptores, secciones de la home, playlists y banner. Todo
+  vía API, con confirmación humana antes de escribir cualquier cambio real en el canal.
+
+Ambas comparten `scratch-yt/youtube_channel.py` (helpers de la API) y reutilizan las
+credenciales OAuth ya configuradas para la subida de vídeos.
+
+> Estas skills viven en `.claude/skills/` (gitignored) — ver `CLAUDE.md` para el listado
+> completo y el proceso manual de respaldo si no están disponibles en tu clon.
+
 📊 Costes y escalabilidad: [Notion](https://app.notion.com/p/389df36536f381ff9c46d8325c37d655)
 
 🎨 Diagrama del flujo: [FigJam](https://www.figma.com/board/1SE5XSFGzfIiamBL5gN9Fq)
