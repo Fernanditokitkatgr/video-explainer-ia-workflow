@@ -1,7 +1,7 @@
 # scratch-yt — Subida automática a YouTube
 
 Sube los MP4 del pipeline a YouTube vía la **YouTube Data API v3** con OAuth de usuario.
-Usa la skill `/youtube-publisher <slug>` para el flujo completo (metadata generada + HITL + upload).
+Usa la skill `/video-seo <slug>` para el flujo completo (metadata generada + HITL + upload). Requiere que `/channel-setup` se haya corrido antes (gate de packaging del canal).
 
 ## Setup (ya hecho, solo referencia)
 

@@ -254,7 +254,7 @@ Las reglas de prompt y la rúbrica completa viven en el skill, no aquí.
 
 ### PASO 7 — Publicar en YouTube
 
-Usar el skill **`/youtube-publisher <slug>`**:
+Usar el skill **`/video-seo <slug>`**:
 
 1. Lee script + timestamps → genera título (50-70 chars), descripción con chapters, tags y hashtags
 2. HITL: revisar y aprobar metadata
@@ -336,6 +336,6 @@ Luego subir con el mismo `upload_youtube.py`:
 - [ ] Miniatura generada con `/thumbnail-creator` (variantes puntuadas)
 - [ ] **HITL 4:** Miniatura elegida y aprobada
 - [ ] MP4 + miniatura listos para publicar ✅
-- [ ] `/youtube-publisher <slug>` — metadata generada (título, descripción+chapters, tags) y aprobada
+- [ ] `/video-seo <slug>` — metadata generada (título híbrido search/narrativo, descripción+chapters, tags) y aprobada
 - [ ] **HITL 5:** Revisar video en YouTube Studio (chapters, captions, thumbnail mobile) → pasar a público
 - [ ] Short creado con `ffmpeg` (center-crop 9:16) y subido como Short separado
