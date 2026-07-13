@@ -19,6 +19,7 @@ from google.auth.transport.requests import Request
 from google.oauth2.credentials import Credentials
 from google_auth_oauthlib.flow import InstalledAppFlow
 from googleapiclient.discovery import build
+from googleapiclient.http import MediaFileUpload
 
 SCOPES = ["https://www.googleapis.com/auth/youtube"]
 HERE = os.path.dirname(os.path.abspath(__file__))
@@ -151,6 +152,68 @@ def check_status(youtube):
     return {"ok": not missing, "missing": missing}
 
 
+
+def update_channel_branding(youtube, about=None, keywords=None, trailer_video_id=None):
+    """Update channel branding fields. Only fields passed (not None) are changed.
+    Costs 50 quota units (channels.update) — channels.update replaces the whole
+    brandingSettings.channel object, so current values are read first and merged."""
+    current = get_channel_branding(youtube)
+    channel_snippet = dict(current.get("brandingSettings", {}).get("channel", {}))
+
+    if about is not None:
+        channel_snippet["description"] = about
+    if keywords is not None:
+        channel_snippet["keywords"] = keywords
+    if trailer_video_id is not None:
+        channel_snippet["unsubscribedTrailer"] = trailer_video_id
+
+    body = {"id": current["id"], "brandingSettings": {"channel": channel_snippet}}
+    return youtube.channels().update(part="brandingSettings", body=body).execute()
+
+
+def upload_banner(youtube, image_path):
+    """Upload + set a channel banner. Costs 50 quota units (channelBanners.insert).
+    Google recommends 2048x1152px, max 6MB, safe area 1546x423px centered."""
+    if not os.path.exists(image_path):
+        raise FileNotFoundError(f"Banner image not found: {image_path}")
+    ext = os.path.splitext(image_path)[1].lower()
+    mime = "image/png" if ext == ".png" else "image/jpeg"
+    media = MediaFileUpload(image_path, mimetype=mime)
+    resp = youtube.channelBanners().insert(media_body=media).execute()
+    banner_url = resp["url"]
+
+    current = get_channel_branding(youtube)
+    body = {"id": current["id"], "brandingSettings": {"image": {"bannerExternalUrl": banner_url}}}
+    youtube.channels().update(part="brandingSettings", body=body).execute()
+    return banner_url
+
+
+def upsert_playlist(youtube, title, description="", playlist_id=None):
+    """Create a playlist, or update an existing one if playlist_id is given.
+    Costs 50 quota units (playlists.insert or playlists.update)."""
+    body = {"snippet": {"title": title, "description": description}}
+    if playlist_id:
+        body["id"] = playlist_id
+        return youtube.playlists().update(part="snippet", body=body).execute()
+    return youtube.playlists().insert(part="snippet", body=body).execute()
+
+
+def upsert_section(youtube, style, section_type, title=None, playlist_ids=None, section_id=None):
+    """Create or update a channel homepage section.
+    style: "horizontalRow" | "verticalList"
+    section_type: e.g. "singlePlaylist", "multiplePlaylists", "recentUploads"
+    Costs 50 quota units (channelSections.insert or channelSections.update)."""
+    snippet = {"type": section_type, "style": style}
+    if title:
+        snippet["title"] = title
+    body = {"snippet": snippet}
+    if playlist_ids:
+        body["contentDetails"] = {"playlists": playlist_ids}
+    if section_id:
+        body["id"] = section_id
+        return youtube.channelSections().update(part="snippet,contentDetails", body=body).execute()
+    return youtube.channelSections().insert(part="snippet,contentDetails", body=body).execute()
+
 def _cli():
     p = argparse.ArgumentParser(description="YouTube channel branding + search helpers")
     sub = p.add_subparsers(dest="cmd", required=True)
@@ -163,25 +226,55 @@ def _cli():
     sub.add_parser("sections")
     sub.add_parser("playlists")
 
+    sp_update = sub.add_parser("update-branding")
+    sp_update.add_argument("--about")
+    sp_update.add_argument("--keywords")
+    sp_update.add_argument("--trailer-video-id")
+
+    sp_banner = sub.add_parser("upload-banner")
+    sp_banner.add_argument("image_path")
+
+    sp_playlist = sub.add_parser("upsert-playlist")
+    sp_playlist.add_argument("title")
+    sp_playlist.add_argument("--description", default="")
+    sp_playlist.add_argument("--playlist-id")
+
+    sp_section = sub.add_parser("upsert-section")
+    sp_section.add_argument("style", choices=["horizontalRow", "verticalList"])
+    sp_section.add_argument("section_type")
+    sp_section.add_argument("--title")
+    sp_section.add_argument("--playlist-ids", help="comma-separated playlist IDs")
+    sp_section.add_argument("--section-id")
+
     args = p.parse_args()
     youtube = get_service()
 
     if args.cmd == "status":
         print(json.dumps(check_status(youtube), indent=2, ensure_ascii=False))
     elif args.cmd == "search":
-        print(
-            json.dumps(
-                search_videos(youtube, args.query, args.max_results),
-                indent=2,
-                ensure_ascii=False,
-            )
-        )
+        print(json.dumps(search_videos(youtube, args.query, args.max_results), indent=2, ensure_ascii=False))
     elif args.cmd == "branding":
         print(json.dumps(get_channel_branding(youtube), indent=2, ensure_ascii=False))
     elif args.cmd == "sections":
         print(json.dumps(list_sections(youtube), indent=2, ensure_ascii=False))
     elif args.cmd == "playlists":
         print(json.dumps(list_playlists(youtube), indent=2, ensure_ascii=False))
+    elif args.cmd == "update-branding":
+        result = update_channel_branding(
+            youtube, about=args.about, keywords=args.keywords, trailer_video_id=args.trailer_video_id
+        )
+        print(json.dumps(result, indent=2, ensure_ascii=False))
+    elif args.cmd == "upload-banner":
+        print(json.dumps({"banner_url": upload_banner(youtube, args.image_path)}, indent=2))
+    elif args.cmd == "upsert-playlist":
+        result = upsert_playlist(youtube, args.title, args.description, args.playlist_id)
+        print(json.dumps(result, indent=2, ensure_ascii=False))
+    elif args.cmd == "upsert-section":
+        playlist_ids = args.playlist_ids.split(",") if args.playlist_ids else None
+        result = upsert_section(
+            youtube, args.style, args.section_type, args.title, playlist_ids, args.section_id
+        )
+        print(json.dumps(result, indent=2, ensure_ascii=False))
 
 
 if __name__ == "__main__":

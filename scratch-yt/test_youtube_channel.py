@@ -94,5 +94,64 @@ class TestCheckStatus(unittest.TestCase):
         )
 
 
+
+
+from youtube_channel import update_channel_branding, upsert_playlist, upsert_section
+
+
+class TestUpdateChannelBranding(unittest.TestCase):
+    def test_merges_new_fields_without_clobbering_existing(self):
+        youtube = MagicMock()
+        youtube.channels.return_value.list.return_value.execute.return_value = {
+            "items": [
+                {
+                    "id": "UC123",
+                    "brandingSettings": {
+                        "channel": {"description": "old about", "keywords": "old kw"}
+                    },
+                }
+            ]
+        }
+        youtube.channels.return_value.update.return_value.execute.return_value = {"id": "UC123"}
+
+        update_channel_branding(youtube, about="new about")
+
+        call_kwargs = youtube.channels.return_value.update.call_args.kwargs
+        sent_channel = call_kwargs["body"]["brandingSettings"]["channel"]
+        self.assertEqual(sent_channel["description"], "new about")
+        self.assertEqual(sent_channel["keywords"], "old kw")
+
+
+class TestUpsertPlaylist(unittest.TestCase):
+    def test_insert_when_no_playlist_id(self):
+        youtube = MagicMock()
+
+        upsert_playlist(youtube, "Sueño y longevidad")
+
+        youtube.playlists.return_value.insert.assert_called_once()
+        youtube.playlists.return_value.update.assert_not_called()
+
+    def test_update_when_playlist_id_given(self):
+        youtube = MagicMock()
+
+        upsert_playlist(youtube, "Sueño y longevidad", playlist_id="PL123")
+
+        youtube.playlists.return_value.update.assert_called_once()
+        sent_body = youtube.playlists.return_value.update.call_args.kwargs["body"]
+        self.assertEqual(sent_body["id"], "PL123")
+
+
+class TestUpsertSection(unittest.TestCase):
+    def test_insert_includes_playlist_ids(self):
+        youtube = MagicMock()
+
+        upsert_section(youtube, "horizontalRow", "multiplePlaylists", title="Empieza aquí", playlist_ids=["PL1", "PL2"])
+
+        youtube.channelSections.return_value.insert.assert_called_once()
+        sent_body = youtube.channelSections.return_value.insert.call_args.kwargs["body"]
+        self.assertEqual(sent_body["contentDetails"]["playlists"], ["PL1", "PL2"])
+        self.assertEqual(sent_body["snippet"]["title"], "Empieza aquí")
+
+
 if __name__ == "__main__":
     unittest.main()
