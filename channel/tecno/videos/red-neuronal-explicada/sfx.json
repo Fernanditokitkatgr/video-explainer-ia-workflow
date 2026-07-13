@@ -1,0 +1,38 @@
+{
+  "video": "red-neuronal-explicada",
+  "music": {
+    "file": "background_theme_lofi_30.mp3",
+    "prompt": "warm lo-fi chill background beat, soft mellow piano and gentle warm synth pads, light vinyl crackle texture, relaxed contemplative studious mood, no drums, no vocals, loopable, very low energy, smooth seamless start and end",
+    "duration": 30,
+    "volume": 0.1
+  },
+  "sfx": [
+    { "file": "digital_whoosh.mp3", "startSec": 0.0, "duration": 1.5, "volume": 0.13, "prompt": "quick digital whoosh transition, futuristic sweep, no music" },
+    { "file": "marker_scribble.mp3", "startSec": 1.42, "duration": 2, "volume": 0.13, "prompt": "quick messy marker scribbling sound on a whiteboard, short" },
+    { "file": "digital_chime.mp3", "startSec": 8.88, "duration": 1.5, "volume": 0.14, "prompt": "short bright digital notification chime, curious and clean, very short" },
+    { "file": "marker_squeak.mp3", "startSec": 11.34, "duration": 1.5, "volume": 0.1, "prompt": "quick marker squeak on whiteboard, short" },
+    { "file": "warning_beep.mp3", "startSec": 21.0, "duration": 1.5, "volume": 0.13, "prompt": "short soft warning beep, cautionary but not alarming, very short" },
+    { "file": "comedic_boing.mp3", "startSec": 23.94, "duration": 1.5, "volume": 0.15, "prompt": "short comedic cartoon boing bounce sound, playful, very short" },
+    { "file": "digital_whoosh.mp3", "startSec": 30.0, "duration": 1.5, "volume": 0.12, "prompt": "quick digital whoosh transition, futuristic sweep, no music" },
+    { "file": "digital_chime.mp3", "startSec": 41.64, "duration": 1.5, "volume": 0.14, "prompt": "short bright digital notification chime, curious and clean, very short" },
+    { "file": "page_flip.mp3", "startSec": 56.78, "duration": 1.5, "volume": 0.1, "prompt": "quick paper page flip sound, short, no music" },
+    { "file": "synth_pulse.mp3", "startSec": 71.2, "duration": 2.5, "volume": 0.1, "prompt": "pulsing synth network hum, glowing digital texture, ambient, no music" },
+    { "file": "camera_shutter.mp3", "startSec": 86.12, "duration": 1.5, "volume": 0.13, "prompt": "quick camera shutter click burst, short, no music" },
+    { "file": "realization_chime.mp3", "startSec": 92.74, "duration": 2, "volume": 0.14, "prompt": "short magical realization chime, bright sparkle, uplifting, very short" },
+    { "file": "dramatic_reveal.mp3", "startSec": 104.54, "duration": 2, "volume": 0.16, "prompt": "short dramatic reveal sting, cinematic impact, digital undertone" },
+    { "file": "glass_crack.mp3", "startSec": 108.8, "duration": 1.5, "volume": 0.12, "prompt": "short glass crack breaking apart sound, clean and quick" },
+    { "file": "magnifying_zoom.mp3", "startSec": 140.36, "duration": 1.5, "volume": 0.11, "prompt": "quick zoom-in swoosh, focus effect, short, no music" },
+    { "file": "crowd_murmur.mp3", "startSec": 142.28, "duration": 2.5, "volume": 0.12, "prompt": "short soft crowd murmur, many overlapping quiet voices at once, no music" },
+    { "file": "weight_thud.mp3", "startSec": 147.34, "duration": 1.5, "volume": 0.14, "prompt": "short heavy weight thud landing on a scale, no music" },
+    { "file": "electric_zap.mp3", "startSec": 171.84, "duration": 1.5, "volume": 0.14, "prompt": "short electric zap sound, robotic and digital, very short" },
+    { "file": "warning_beep.mp3", "startSec": 178.16, "duration": 1.5, "volume": 0.13, "prompt": "short soft warning beep, cautionary but not alarming, very short" },
+    { "file": "dramatic_reveal.mp3", "startSec": 184.6, "duration": 2, "volume": 0.17, "prompt": "short dramatic reveal sting, cinematic impact, digital undertone" },
+    { "file": "digital_chime.mp3", "startSec": 194.0, "duration": 1.5, "volume": 0.15, "prompt": "short bright digital notification chime, curious and clean, very short" },
+    { "file": "synth_pulse.mp3", "startSec": 199.12, "duration": 2.5, "volume": 0.11, "prompt": "pulsing synth network hum, glowing digital texture, ambient, no music" },
+    { "file": "keyboard_clack.mp3", "startSec": 220.84, "duration": 1.5, "volume": 0.11, "prompt": "quick mechanical keyboard typing clacks, short burst, no music" },
+    { "file": "gear_whirring.mp3", "startSec": 237.96, "duration": 2, "volume": 0.13, "prompt": "short mechanical gear whirring sound, spinning cog, no music" },
+    { "file": "realization_chime.mp3", "startSec": 241.68, "duration": 2, "volume": 0.15, "prompt": "short magical realization chime, bright sparkle, uplifting, very short" },
+    { "file": "comedic_boing.mp3", "startSec": 273.7, "duration": 1.5, "volume": 0.14, "prompt": "short comedic cartoon boing bounce sound, playful, very short" },
+    { "file": "subscribe_chime.mp3", "startSec": 276.14, "duration": 2, "volume": 0.18, "prompt": "warm cheerful subscribe notification chime, short and friendly" }
+  ]
+}

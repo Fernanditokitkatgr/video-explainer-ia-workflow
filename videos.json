@@ -93,5 +93,20 @@
     "width": 1920,
     "height": 1080,
     "background": "#ffffff"
+  },
+  "red-neuronal-explicada": {
+    "composition": "RedNeuronalExplicada",
+    "tsx": "remotion/src/RedNeuronalExplicada.tsx",
+    "manifest_dir": "channel/tecno/videos/red-neuronal-explicada",
+    "script": "channel/tecno/videos/red-neuronal-explicada/script.md",
+    "audio_static": "red-neuronal-explicada.mp3",
+    "images_subpath": "red-neuronal-explicada",
+    "naming": "timestamp",
+    "ext": "jpg",
+    "playback_rate": 1.1,
+    "fps": 30,
+    "width": 1920,
+    "height": 1080,
+    "background": "#ffffff"
   }
 }

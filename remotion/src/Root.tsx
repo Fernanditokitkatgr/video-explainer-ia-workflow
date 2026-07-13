@@ -6,6 +6,7 @@ import { AyunoIntermitente } from "./AyunoIntermitente";
 import { ColonAmerica } from "./ColonAmerica";
 import { ComoFuncionaLaIA } from "./ComoFuncionaLaIA";
 import { SteveJobs } from "./SteveJobs";
+import { RedNeuronalExplicada } from "./RedNeuronalExplicada";
 
 export const RemotionRoot: React.FC = () => {
   return (
@@ -62,6 +63,14 @@ export const RemotionRoot: React.FC = () => {
         id="SteveJobs"
         component={SteveJobs}
         durationInFrames={8114}
+        fps={30}
+        width={1920}
+        height={1080}
+      />
+      <Composition
+        id="RedNeuronalExplicada"
+        component={RedNeuronalExplicada}
+        durationInFrames={7860}
         fps={30}
         width={1920}
         height={1080}

@@ -1,0 +1,432 @@
+{
+  "video": "red-neuronal-explicada",
+  "style_base": "Whiteboard doodle style, black marker sketch lines on a plain white whiteboard background, simple explanatory hand-drawn diagrams and doodles, casual classroom sketch aesthetic, no photorealism, 16:9. CRITICAL TEXT RULE: prefer NO text at all unless explicitly specified below — tell the idea through doodles, arrows, symbols and numbers instead. If the scene below explicitly asks for written words, they MUST be written in perfect SPANISH, exactly as specified, in simple casual handwritten marker letters — NEVER English. CRITICAL SCOPE RULE: draw ONLY the elements described in the scene below. Do not add unrelated icons, generic business diagrams (no idea/process/result boxes, no PDCA cycles, no growth charts), or any extra decoration not explicitly mentioned.",
+  "frames": [
+    {
+      "file": "0_00.jpg",
+      "startSec": 0.0,
+      "text": "Esto es un 3.",
+      "scene": "a single large clean hand-drawn digit '3', simple and legible, centered, nothing else on the board"
+    },
+    {
+      "file": "0_01.jpg",
+      "startSec": 1.42,
+      "text": "Escritos en ningún cuidado, reducido a una imagen minúscula de solo 28x28 píxeles y aún así tu cerebro lo reconoce al instante, sin esfuerzo.",
+      "scene": "a messy scrawled digit 3 morphing into a clean blocky 28 by 28 pixel grid version of the same 3, with a tiny brain icon and a small lightning bolt spark doodled beside it, nothing else on the board"
+    },
+    {
+      "file": "0_11.jpg",
+      "startSec": 11.34,
+      "text": "Este también es un 3 y este y este,",
+      "scene": "three hand-drawn digit 3s in a row, each in a distinctly different messy handwriting style, nothing else on the board"
+    },
+    {
+      "file": "0_14.jpg",
+      "startSec": 14.88,
+      "text": "aunque cada píxel sea completamente diferente de un dibujo a otro.",
+      "scene": "two small pixel grids side by side, each shaded in a different pattern of squares but both forming a recognizable digit 3 shape, nothing else on the board"
+    },
+    {
+      "file": "0_18.jpg",
+      "startSec": 18.86,
+      "text": "Para tus ojos, esto es trivial.",
+      "scene": "a simple hand-drawn eye icon with a small checkmark doodled next to it, nothing else on the board"
+    },
+    {
+      "file": "0_21.jpg",
+      "startSec": 21.0,
+      "text": "Para un ordenador, es casi una tortura.",
+      "scene": "an old computer monitor doodled with a stressed sweating face on its screen, small steam lines coming off the top, crumpled paper balls scattered around its base, nothing else on the board"
+    },
+    {
+      "file": "0_23.jpg",
+      "startSec": 23.94,
+      "text": "Pídele a alguien que programa esto a mano y en 5 segundos pasa de fácil a quiero llorar.",
+      "scene": "a stick figure slumped face-down on a desk in exaggerated frustration, a crumpled paper ball and scattered pencil doodled nearby, nothing else on the board"
+    },
+    {
+      "file": "0_30.jpg",
+      "startSec": 30.0,
+      "text": "Este es el mismo truco detrás de un coche que se conduce solo, de una app que reconoce tu cara para desbloquear el móvil.",
+      "scene": "a simple doodled car icon with a steering wheel spinning by itself next to a smartphone shape with a face-scan square icon on its screen, nothing else on the board"
+    },
+    {
+      "file": "0_36.jpg",
+      "startSec": 36.72,
+      "text": "De un chatbot que entiende lo que le escribes,",
+      "scene": "a simple doodled speech bubble shape with a tiny robot icon sketched inside it, nothing else on the board"
+    },
+    {
+      "file": "0_39.jpg",
+      "startSec": 39.28,
+      "text": "todo eso tiene el mismo nombre.",
+      "scene": "three small doodled icons — a car, a phone, a speech bubble — each connected by a thin line converging into one single point, nothing else on the board"
+    },
+    {
+      "file": "0_41.jpg",
+      "startSec": 41.64,
+      "text": "Redes neuronales.",
+      "scene": "a simple doodle of small circles connected by thin lines forming a loose web/network pattern, nothing else on the board"
+    },
+    {
+      "file": "0_43.jpg",
+      "startSec": 43.18,
+      "text": "Hoy vas a entender de verdad que son, no palabras raras, no fingir que lo entiendes en una fiesta.",
+      "scene": "a simple stick figure pointing confidently at a small doodled network of connected circles, nothing else on the board"
+    },
+    {
+      "file": "0_48.jpg",
+      "startSec": 48.7,
+      "text": "Vamos a construir pieza a pieza, una red que aprende a leer números escritos a mano. Ojo, hoy solo vemos la estructura, el esqueleto.",
+      "scene": "a hand holding a marker stacking small building-block shapes into the bare skeleton outline of a network of empty circles, nothing else on the board"
+    },
+    {
+      "file": "0_56.jpg",
+      "startSec": 56.78,
+      "text": "¿Cómo aprende esa estructura te lo cuento en el próximo vídeo?",
+      "scene": "a small hand-drawn clock icon with a forward arrow and a small numeral '2' doodled beside it, nothing else on the board"
+    },
+    {
+      "file": "1_00.jpg",
+      "startSec": 60.7,
+      "text": "Empecemos por lo más simple posible.",
+      "scene": "a single small circle alone on the whiteboard, with simple radiating spotlight lines drawn around it, nothing else on the board"
+    },
+    {
+      "file": "1_03.jpg",
+      "startSec": 63.62,
+      "text": "Una neurona no es más que una caja, una caja que guarda un número,",
+      "scene": "a single simple hand-drawn box shape, empty at first, with the number '0.7' appearing handwritten inside it, small doodle arrows pointing into and out of the box, nothing else on the board"
+    },
+    {
+      "file": "1_07.jpg",
+      "startSec": 67.6,
+      "text": "entre 0 y 1, nada más, nada de ciencia ficción.",
+      "scene": "a simple hand-drawn number line from 0 to 1 with a single dot marked partway along it, next to a small robot head icon with a big red X over it, nothing else on the board"
+    },
+    {
+      "file": "1_11.jpg",
+      "startSec": 71.2,
+      "text": "Nuestra red arranca con 784 de esas cajas,",
+      "scene": "a huge hand-drawn grid completely filled with many small boxes and circles, overwhelming quantity, densely packed, nothing else on the board"
+    },
+    {
+      "file": "1_15.jpg",
+      "startSec": 75.14,
+      "text": "una por cada píxel de la imagen,",
+      "scene": "a grid of small squares (a pixel image) with thin arrows each pointing from one square to one separate circle, showing a one-to-one correspondence, nothing else on the board"
+    },
+    {
+      "file": "1_17.jpg",
+      "startSec": 77.16,
+      "text": "28x28,",
+      "scene": "a hand-drawn 28 by 28 grid outline with small handwritten '28' markers doodled along one edge row and one edge column, nothing else on the board"
+    },
+    {
+      "file": "1_18.jpg",
+      "startSec": 78.68,
+      "text": "784 en total. Cada una guarda cuánto de blanco o de negro es su píxel, eso es toda la primera capa.",
+      "scene": "a tall vertical column of many small hand-drawn circles stacked closely together, with a simple bracket sketched beside the whole column, nothing else on the board"
+    },
+    {
+      "file": "1_26.jpg",
+      "startSec": 86.12,
+      "text": "En el otro extremo hay una última capa, con solo 10 neuronas, una por cada número posible, del 0 a 9.",
+      "scene": "ONLY this and nothing more: a single vertical column of exactly ten small hand-drawn circles, each one containing a small handwritten digit from 0 to 9 in order, centered on an otherwise completely blank whiteboard, no other icons, no diagrams, no unrelated drawings, no business graphics of any kind"
+    },
+    {
+      "file": "1_32.jpg",
+      "startSec": 92.74,
+      "text": "Cuanto más brillante esté una de esas 10, más convencida está la red de que ese es el dígito correcto.",
+      "scene": "the same column of ten circles with one single circle shaded darker and bolder than the rest, an arrow pointing from it to a large handwritten digit with a checkmark beside it, nothing else on the board"
+    },
+    {
+      "file": "1_38.jpg",
+      "startSec": 98.82,
+      "text": "Y en medio,",
+      "scene": "a large hand-drawn question mark sketched directly between two columns of small circles, nothing else on the board"
+    },
+    {
+      "file": "1_39.jpg",
+      "startSec": 99.92,
+      "text": "un par de capas ocultas, que de momento son un enorme signo de interrogación.",
+      "scene": "two more columns of circles sketched between the input and output columns, the whole middle area covered by an enormous hand-drawn question mark, nothing else on the board"
+    },
+    {
+      "file": "1_44.jpg",
+      "startSec": 104.54,
+      "text": "Ahí es donde se supone que ocurre la magia. La idea es esta.",
+      "scene": "a small sparkle and magic-wand icon doodled hovering above a network diagram, next to a simple lightbulb icon turning on with small radiating lines, nothing else on the board"
+    },
+    {
+      "file": "1_48.jpg",
+      "startSec": 108.8,
+      "text": "Cuando tú reconoces un 9, tu cerebro junta piezas sueltas, un círculo arriba,",
+      "scene": "a hand-drawn digit 9 breaking apart into two simple pieces, a circle shape and a short diagonal line, nothing else on the board"
+    },
+    {
+      "file": "1_53.jpg",
+      "startSec": 113.44,
+      "text": "una línea a la derecha,",
+      "scene": "just one isolated plain diagonal line shape sketched alone on the board, nothing else"
+    },
+    {
+      "file": "1_54.jpg",
+      "startSec": 114.9,
+      "text": "un 8 junta dos círculos,",
+      "scene": "a hand-drawn digit 8 breaking apart into two separate stacked circle shapes, nothing else on the board"
+    },
+    {
+      "file": "1_56.jpg",
+      "startSec": 116.68,
+      "text": "la esperanza es que la red haga exactamente lo mismo, que una capa detecte borde sueltos, que la siguiente junta esos borde en círculos y líneas, y que la última junta es esas piezas en un dígito completo.",
+      "scene": "a three-step hand-drawn sequence connected by arrows: scattered short edge lines, then those edges forming a circle and a line shape, then those shapes combining into a complete digit 9, nothing else on the board"
+    },
+    {
+      "file": "2_08.jpg",
+      "startSec": 128.64,
+      "text": "Píxeles,",
+      "scene": "a small hand-drawn icon of a few tiny squares alone, representing raw pixels, simple and isolated, nothing else on the board"
+    },
+    {
+      "file": "2_09.jpg",
+      "startSec": 129.64,
+      "text": "abordes, apatrones,",
+      "scene": "a small hand-drawn icon showing tiny squares connecting into short edges and then into simple shapes, a middle step in a flow, nothing else on the board"
+    },
+    {
+      "file": "2_11.jpg",
+      "startSec": 131.28,
+      "text": "a números,",
+      "scene": "a small hand-drawn digit icon at the end of a flow, receiving arrows from simpler shapes before it, nothing else on the board"
+    },
+    {
+      "file": "2_12.jpg",
+      "startSec": 132.14,
+      "text": "como un cerebro junta sonidos en sílabas, en palabras,",
+      "scene": "a simple soundwave squiggle icon flowing into a row of stacked building blocks, nothing else on the board"
+    },
+    {
+      "file": "2_15.jpg",
+      "startSec": 135.48,
+      "text": "en frases,",
+      "scene": "the same row of stacked building blocks now grown progressively larger and taller at each step, nothing else on the board"
+    },
+    {
+      "file": "2_16.jpg",
+      "startSec": 136.36,
+      "text": "pero como decide una sola neuronas si está viendo un borde?",
+      "scene": "a single hand-drawn circle with a large question mark above it and a puzzled simple face doodled onto the circle, nothing else on the board"
+    },
+    {
+      "file": "2_20.jpg",
+      "startSec": 140.36,
+      "text": "Aquí está el truco real,",
+      "scene": "a magnifying glass icon doodled hovering directly over that same puzzled circle, nothing else on the board"
+    },
+    {
+      "file": "2_22.jpg",
+      "startSec": 142.28,
+      "text": "piensa en cada neuronas como alguien que escucha 784 opiniones a la vez.",
+      "scene": "a single hand-drawn circle in the center with many thin lines and tiny speech-bubble icons pointing into it from all directions, like a crowd of small voices all talking to it at once, nothing else on the board"
+    },
+    {
+      "file": "2_27.jpg",
+      "startSec": 147.34,
+      "text": "Cada conexión entre dos neuronas tiene asignado un peso, y un peso es solo eso, un número que dice cuánto importa esa opinión. Si el peso es alto, esa entrada pesa mucho en la decisión final, si es bajo o negativo casi no cuenta o incluso resta.",
+      "scene": "a hand-drawn line connecting into a circle, with the word 'PESO' written large in casual handwritten Spanish marker letters right next to the line, a small weight/scale icon doodled beside the word, nothing else on the board"
+    },
+    {
+      "file": "2_42.jpg",
+      "startSec": 162.78,
+      "text": "La neurona multiplica cada entrada por su peso y lo suma todo.",
+      "scene": "a simple hand-drawn multiplication symbol and a plus symbol sketched near lines converging into a circle, nothing else on the board"
+    },
+    {
+      "file": "2_46.jpg",
+      "startSec": 166.62,
+      "text": "Si los pesos son altos justo donde debería haber un borde y bajos o negativos alrededor,",
+      "scene": "several thick heavy dark marker lines converging into a circle from one direction, next to several thin faint dashed lines converging from other directions, nothing else on the board"
+    },
+    {
+      "file": "2_51.jpg",
+      "startSec": 171.84,
+      "text": "esa suma se dispara solo cuando el borde existe de verdad y se queda plana cuando no.",
+      "scene": "one circle drawn glowing bright and solid, next to an identical circle drawn faint and barely visible, side by side comparison, nothing else on the board"
+    },
+    {
+      "file": "2_56.jpg",
+      "startSec": 176.78,
+      "text": "Pero hay un problema,",
+      "scene": "a single hand-drawn circle with a large simple surprised face on it and a small warning-triangle icon beside it, nothing else on the board"
+    },
+    {
+      "file": "2_58.jpg",
+      "startSec": 178.16,
+      "text": "esa suma puede dar cualquier número gigante o gigante negativo. Así que le sumamos otro número más,",
+      "scene": "a wild zigzagging number line doodle with an arrow shooting off past both ends, chaotic and unbounded, nothing else on the board"
+    },
+    {
+      "file": "3_04.jpg",
+      "startSec": 184.6,
+      "text": "el sesgo.",
+      "scene": "the word 'SESGO' written large and bold in casual handwritten Spanish marker letters, centered alone on the whiteboard, nothing else"
+    },
+    {
+      "file": "3_05.jpg",
+      "startSec": 185.54,
+      "text": "El sesgo es como el umbral de exigencia de la neurona.",
+      "scene": "a simple hand-drawn horizontal threshold gauge with a marker line across it, the word 'SESGO' written small beside it in Spanish handwriting, nothing else on the board"
+    },
+    {
+      "file": "3_08.jpg",
+      "startSec": 188.8,
+      "text": "Un sesgo muy negativo hace que le cueste mucho activarse,",
+      "scene": "the same threshold gauge with its needle pushed hard to one end, next to a circle drawn straining with effort lines around it, nothing else on the board"
+    },
+    {
+      "file": "3_12.jpg",
+      "startSec": 192.16,
+      "text": "uno positivo se lo pone fácil,",
+      "scene": "the same threshold gauge with its needle resting easily at the other end, next to a circle drawn glowing calmly and easily, nothing else on the board"
+    },
+    {
+      "file": "3_14.jpg",
+      "startSec": 194.0,
+      "text": "y al final aplastamos ese resultado con una función que se llama Sigmoide.",
+      "scene": "an S-shaped curve sketched on small hand-drawn axes, with the word 'SIGMOIDE' written large in casual handwritten Spanish marker letters right above the curve, nothing else on the board"
+    },
+    {
+      "file": "3_19.jpg",
+      "startSec": 199.12,
+      "text": "La Sigmoide agarra cualquier número, por gigante que sea, y lo comprime entre 0 y 1.",
+      "scene": "the same S-shaped curve with arrows showing huge numbers from both far ends being squeezed and funneled into a narrow band between 0 and 1 in the middle, nothing else on the board"
+    },
+    {
+      "file": "3_24.jpg",
+      "startSec": 204.9,
+      "text": "Así todas las neuronas de la red hablan el mismo idioma. Eso es todo lo que hace una neurona, multiplicar, sumar,",
+      "scene": "one small clean circle with arrows pointing in and one arrow pointing out, next to a multiplication symbol and a plus symbol icon, nothing else on the board"
+    },
+    {
+      "file": "3_32.jpg",
+      "startSec": 212.22,
+      "text": "comprimir.",
+      "scene": "a simple S-shaped curve icon alone, clean and isolated, nothing else on the board"
+    },
+    {
+      "file": "3_33.jpg",
+      "startSec": 213.1,
+      "text": "El problema es la escala.",
+      "scene": "a simple hand-drawn balance scale icon tipping heavily to one side under a huge pile of doodled circles, nothing else on the board"
+    },
+    {
+      "file": "3_34.jpg",
+      "startSec": 214.9,
+      "text": "Solo entre la primera y la segunda capa hay 784 por 16 pesos distintos.",
+      "scene": "a dense tangled mesh of many crisscrossing thin lines connecting two columns of circles, overwhelmingly dense, nothing else on the board"
+    },
+    {
+      "file": "3_40.jpg",
+      "startSec": 220.84,
+      "text": "Toda la red junta acumula casi 13 mil números,",
+      "scene": "a whiteboard completely filled edge-to-edge with tiny scribbled handwritten numbers, chaotic and cluttered, nothing else on the board"
+    },
+    {
+      "file": "3_43.jpg",
+      "startSec": 223.98,
+      "text": "13 mil diales que hay que calibrar bien para distinguir un 3 de 1 ocho.",
+      "scene": "a large panel of many tiny hand-drawn dials and knobs sketched in a dense grid, overwhelming in scale, nothing else on the board"
+    },
+    {
+      "file": "3_48.jpg",
+      "startSec": 228.46,
+      "text": "Imagina sentarte tú, a mano, a mover esos 13 mil diales 1 por 1,",
+      "scene": "a small stick figure standing tiny in front of that huge dial panel, one hand reaching up toward it, nothing else on the board"
+    },
+    {
+      "file": "3_53.jpg",
+      "startSec": 233.26,
+      "text": "ni con 5 cafés de por medio. Por suerte no hace falta hacerlo a mano.",
+      "scene": "a stick figure surrounded by several small doodled coffee cup icons with an exhausted expression, next to the same figure stepping back relieved with a big red X drawn over the dial panel, nothing else on the board"
+    },
+    {
+      "file": "3_57.jpg",
+      "startSec": 237.96,
+      "text": "Eso precisamente es lo que la red aprende a hacer sola.",
+      "scene": "the dial panel now with a small gear or cog icon doodled spinning on its own, no hand nearby, nothing else on the board"
+    },
+    {
+      "file": "4_01.jpg",
+      "startSec": 241.68,
+      "text": "Y como una máquina calibra sola 13 mil números sin que nadie se los diga, es la parte más alucinante de todo esto.",
+      "scene": "the same gear icon doodled with small motion and spark lines, next to a simple exploding-mind head icon with burst lines shooting out the top, nothing else on the board"
+    },
+    {
+      "file": "4_08.jpg",
+      "startSec": 248.92,
+      "text": "Te la cuento en el próximo vídeo.",
+      "scene": "a small forward arrow icon doodled with a numeral '2' sketched small beside it, nothing else on the board"
+    },
+    {
+      "file": "4_10.jpg",
+      "startSec": 250.78,
+      "text": "Por ahora quédate con esto.",
+      "scene": "a hand pointing down at a simple circled note shape doodled on the whiteboard, nothing else on the board"
+    },
+    {
+      "file": "4_12.jpg",
+      "startSec": 252.86,
+      "text": "Una cordes magia,",
+      "scene": "a magic wand and small wizard hat icon doodled with a big red X drawn over it, nothing else on the board"
+    },
+    {
+      "file": "4_14.jpg",
+      "startSec": 254.12,
+      "text": "ni conciencia,",
+      "scene": "a simple thinking-brain icon doodled with a big red X drawn over it, nothing else on the board"
+    },
+    {
+      "file": "4_15.jpg",
+      "startSec": 255.28,
+      "text": "ni un cerebro digital pensando como tú.",
+      "scene": "a simple robot head icon doodled with a big red X drawn over it, nothing else on the board"
+    },
+    {
+      "file": "4_17.jpg",
+      "startSec": 257.72,
+      "text": "Es una función larguísima, sí,",
+      "scene": "a simple box shape doodled with one arrow going in on the left and one arrow coming out on the right, a single small 'f' letter inside, the box stretched slightly longer than usual, nothing else on the board"
+    },
+    {
+      "file": "4_20.jpg",
+      "startSec": 260.4,
+      "text": "con miles de números, sí. Pero solo una función,",
+      "scene": "a long stretched box shape filled edge to edge with tiny scattered handwritten numbers inside it, next to the same box shown small, clean and simple again, nothing else on the board"
+    },
+    {
+      "file": "4_23.jpg",
+      "startSec": 263.86,
+      "text": "que convierte 784 píxeles en 10 probabilidades.",
+      "scene": "a big pixel grid doodled on the left side with a long arrow pointing across to a column of ten circles on the right side, nothing else on the board"
+    },
+    {
+      "file": "4_28.jpg",
+      "startSec": 268.28,
+      "text": "Y aun con solo esto ya reconoce números escritos a mano casi tan bien como tú.",
+      "scene": "a simple hand-drawn digit 3 with a big checkmark doodled next to it, and a small stick figure giving a thumbs up nearby, nothing else on the board"
+    },
+    {
+      "file": "4_33.jpg",
+      "startSec": 273.7,
+      "text": "¿Te está volando un poco la cabeza?",
+      "scene": "a small stick figure with a comedic exploding-mind burst icon doodled above its head, nothing else on the board"
+    },
+    {
+      "file": "4_36.jpg",
+      "startSec": 276.14,
+      "text": "Suscríbete que la segunda parte como aprende de verdad una red neuronal viene pronto.",
+      "scene": "a simple hand-drawn bell icon with a small numeral '2' beside it and a forward arrow doodled next to it, a subscribe-bell style sketch, nothing else on the board"
+    }
+  ]
+}
