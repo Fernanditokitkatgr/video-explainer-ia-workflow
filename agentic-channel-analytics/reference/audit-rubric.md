@@ -25,7 +25,7 @@ Score each lever 0-3 against the reference. Flag:
 
 ## Output format (what channel-audit must produce)
 
-\`\`\`
+```
 # Channel Audit — <channel> vs Ecomonos reference
 Date: <date>  ·  Videos sampled: <n>  ·  Lever score: <x>/30
 
@@ -48,7 +48,7 @@ Date: <date>  ·  Videos sampled: <n>  ·  Lever score: <x>/30
 
 ## Quick wins (this week)
 1. ...  2. ...  3. ...
-\`\`\`
+```
 
 Findings must be **concrete and channel-specific** — quote the actual sentence and give
 the rewrite, never generic advice ("improve your hooks" is banned).
