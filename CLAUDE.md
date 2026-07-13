@@ -32,7 +32,8 @@ scratch-yt/         ← YouTube Data API upload scripts (Python venv inside)
 ```
 
 > Las skills de proyecto (`/channel-formula`, `/channel-audit`, `/script-forge`,
-> `/thumbnail-creator`) viven en `.claude/skills/`, que está **gitignored**: NO se
+> `/thumbnail-creator`, `/video-seo`, `/channel-setup`) viven en `.claude/skills/`, que
+> está **gitignored**: NO se
 > sincronizan entre colaboradores y pueden no existir en un clon nuevo. Trátalas
 > como opcionales/locales.
 
@@ -42,7 +43,7 @@ scratch-yt/         ← YouTube Data API upload scripts (Python venv inside)
 Script → ElevenLabs V3 (voice) → [human review] → Whisper (timestamps)
        → Higgsfield (1 image/segment) → [human review] → Remotion (assemble)
        → SFX + música de fondo (OBLIGATORIO) → [human review] → MP4
-       → thumbnail-creator (OBLIGATORIO) → SEO/metadata (OBLIGATORIO) → publish
+       → thumbnail-creator (OBLIGATORIO) → video-seo/channel-setup (OBLIGATORIO) → publish
 ```
 
 - **Script**: very short sentences (1 sentence = 1 image = 1 visual beat), ~63-70 sentences for 2.5 min. Emotion tags in brackets `[tono cercano]` for ElevenLabs V3.
@@ -157,8 +158,11 @@ como parte del canal (ver `agentic-channel-analytics/reference/audit-rubric.md`,
 ## SEO / metadata de YouTube — paso obligatorio tras CADA vídeo
 
 Ningún vídeo se considera terminado sin su paquete de metadata (título, descripción, tags,
-capítulos), aunque la skill `/youtube-publisher` no exista en tu clon. Si no está disponible,
-generarlo a mano siguiendo este proceso — no lo omitas ni lo dejes "para luego":
+capítulos), aunque la skill `/video-seo` no exista en tu clon. Si no está disponible,
+generarlo a mano siguiendo este proceso — no lo omitas ni lo dejes "para luego". `/video-seo`
+también exige que `/channel-setup` se haya corrido antes (gate de packaging del canal) — si
+haces esto a mano, revisa igualmente que el canal tenga about/keywords/trailer/secciones/banner
+configurados.
 
 1. **Busca antes de titular.** Con `WebSearch`, comprueba qué vídeos ya existen sobre el mismo
    tema/premisa (ej. buscar la frase que piensas usar en el título entre comillas). Si ya hay
@@ -247,10 +251,11 @@ Project skills (invoke with `/skill-name` after restarting Claude Code):
 | Skill | When to use |
 |---|---|
 | `/channel-formula` | Extract a YouTube channel's viral DNA into a `channels/<slug>.md` profile |
-| `/channel-audit` | Agentic audit of channel page + content vs Ecomonos benchmark, returns P0/P1/P2 fixes |
+| `/channel-audit` | Agentic audit of channel content formula vs Ecomonos benchmark, returns P0/P1/P2 fixes |
 | `/script-forge` | Generate a pipeline-ready script in a channel's voice (reads `channels/<slug>.md`) |
 | `/thumbnail-creator` | Generate thumbnail variants via Higgsfield, score against rubric, HITL selection (PASO 6) |
-| `/youtube-publisher <slug>` | Generate optimized metadata (title, description+chapters, tags), HITL review, upload MP4 + thumbnail via YouTube Data API v3, publish |
+| `/video-seo <slug>` | Hybrid search/narrative title (Moneyball + Hot Dog method), description+chapters, tags, gated on channel setup, HITL review, upload MP4 + thumbnail via YouTube Data API v3, publish |
+| `/channel-setup` | Sets up or audits channel packaging (about, keywords, trailer, sections, playlists, banner) via YouTube Data API v3 |
 
 Skills require a restart to register after first creation. If `/skill-name` isn't available yet, open `.claude/skills/<name>/SKILL.md` and follow it manually. **Ojo:** `.claude/` está gitignored, así que estas skills NO se sincronizan por git — pueden no existir en un clon nuevo.
 
