@@ -1,0 +1,318 @@
+{
+  "video": "red-neuronal-truco",
+  "style_base": "Whiteboard doodle style, black marker sketch lines on a plain white whiteboard background, simple explanatory hand-drawn diagrams and doodles, casual classroom sketch aesthetic, no photorealism, 16:9. CRITICAL TEXT RULE: prefer NO text at all unless explicitly specified below — tell the idea through doodles, arrows, symbols and numbers instead. If the scene below explicitly asks for written words, they MUST be written in perfect SPANISH, exactly as specified, in simple casual handwritten marker letters — NEVER English. CRITICAL SCOPE RULE: draw ONLY the elements described in the scene below. Do not add unrelated icons, generic business diagrams (no idea/process/result boxes, no PDCA cycles, no growth charts), or any extra decoration not explicitly mentioned.",
+  "frames": [
+    {
+      "file": "0_00.jpg",
+      "startSec": 0.0,
+      "text": "En el vídeo pasado entrenamos una red para reconocer dígitos, 96 % de aciertos, con ajustes hasta 98%, deberíamos estar celebrando,",
+      "scene": "the handwritten numbers '96%' and '98%' with a small trophy or celebration icon beside them, nothing else on the board"
+    },
+    {
+      "file": "0_09.jpg",
+      "startSec": 9.96,
+      "text": "pero hay un problema.",
+      "scene": "a large hand-drawn warning triangle icon with an exclamation mark inside it, nothing else on the board"
+    },
+    {
+      "file": "0_11.jpg",
+      "startSec": 11.42,
+      "text": "La red no aprendió lo que creíamos que había aprendido.",
+      "scene": "a simple lightbulb icon doodled cracked and broken, nothing else on the board"
+    },
+    {
+      "file": "0_14.jpg",
+      "startSec": 14.48,
+      "text": "Te explico.",
+      "scene": "a simple stick figure pointing at the whiteboard, nothing else on the board"
+    },
+    {
+      "file": "0_15.jpg",
+      "startSec": 15.56,
+      "text": "La esperanza original era bonita,",
+      "scene": "a small heart icon next to a miniature neural network diagram, nothing else on the board"
+    },
+    {
+      "file": "0_17.jpg",
+      "startSec": 17.76,
+      "text": "que una capa detectar a bordes sueltos, que otra los juntara en círculos y líneas y que la última combinar a esos patrones en dígitos completos.",
+      "scene": "a three-step hand-drawn sequence connected by arrows: scattered short edge lines, then those edges forming a circle and a line shape, then those shapes combining into a complete digit, nothing else on the board"
+    },
+    {
+      "file": "0_25.jpg",
+      "startSec": 25.64,
+      "text": "Así que fuimos a comprobarlo.",
+      "scene": "a magnifying glass icon doodled hovering over a small neural network diagram, nothing else on the board"
+    },
+    {
+      "file": "0_27.jpg",
+      "startSec": 27.5,
+      "text": "Visualizamos los pesos de esas neuronas ocultas,",
+      "scene": "a simple hand-drawn eye icon looking closely into a single circle/neuron, nothing else on the board"
+    },
+    {
+      "file": "0_30.jpg",
+      "startSec": 30.46,
+      "text": "literalmente convertimos los números en una imagen y lo que vimos no fueron bordes limpios,",
+      "scene": "a grid of small numbers morphing into a blurry fuzzy square image, nothing else on the board"
+    },
+    {
+      "file": "0_36.jpg",
+      "startSec": 36.26,
+      "text": "fue casi puro ruido,",
+      "scene": "a square filled edge to edge with chaotic scribbled static/noise texture, nothing else on the board"
+    },
+    {
+      "file": "0_37.jpg",
+      "startSec": 37.88,
+      "text": "con como mucho un par de patrones vagos en el medio.",
+      "scene": "the same noisy scribbled square with one faint vague circular smudge visible in the middle, nothing else on the board"
+    },
+    {
+      "file": "0_41.jpg",
+      "startSec": 41.14,
+      "text": "En un espacio de 13 mil dimensiones posibles,",
+      "scene": "a large swarm/cloud of many tiny dots filling the board, nothing else on the board"
+    },
+    {
+      "file": "0_44.jpg",
+      "startSec": 44.12,
+      "text": "la red encontró un valle cualquiera,",
+      "scene": "a landscape doodle with several valleys of different depths, one shallow valley marked with an arrow, nothing else on the board"
+    },
+    {
+      "file": "0_46.jpg",
+      "startSec": 46.44,
+      "text": "uno que clasifica bien los dígitos, pero sin entender ni un solo patron real.",
+      "scene": "a checkmark next to a small digit icon, but a big question mark over a brain icon with a red X beside it, nothing else on the board"
+    },
+    {
+      "file": "0_50.jpg",
+      "startSec": 50.92,
+      "text": "Y la prueba definitiva es todavía más incómoda.",
+      "scene": "a large bold hand-drawn warning triangle icon, bigger and bolder than before, nothing else on the board"
+    },
+    {
+      "file": "0_53.jpg",
+      "startSec": 53.82,
+      "text": "Dale a esta red una imagen de puro ruido aleatorio,",
+      "scene": "a square filled with chaotic scribbled random noise/static texture, nothing else on the board"
+    },
+    {
+      "file": "0_56.jpg",
+      "startSec": 56.92,
+      "text": "ni siquiera se parece un número.",
+      "scene": "a big red X drawn over a square of scribbled noise, nothing else on the board"
+    },
+    {
+      "file": "0_59.jpg",
+      "startSec": 59.0,
+      "text": "Una red que entendiera dudaría.",
+      "scene": "a simple puzzled face icon with a question mark above it, nothing else on the board"
+    },
+    {
+      "file": "1_01.jpg",
+      "startSec": 61.48,
+      "text": "La nuestra no.",
+      "scene": "a big red X drawn over that question mark, nothing else on the board"
+    },
+    {
+      "file": "1_02.jpg",
+      "startSec": 62.56,
+      "text": "Te dice con total confianza que ese ruido es un 5.",
+      "scene": "a square of scribbled noise with an arrow pointing to a confidently circled handwritten digit 5, nothing else on the board"
+    },
+    {
+      "file": "1_05.jpg",
+      "startSec": 65.98,
+      "text": "Tan segura como si fuera un 5 de verdad.",
+      "scene": "two small panels side by side, a real handwritten digit 5 and a noisy scribbled square, both with the same big checkmark above them, nothing else on the board"
+    },
+    {
+      "file": "1_08.jpg",
+      "startSec": 68.48,
+      "text": "¿Por qué pasa esto?",
+      "scene": "a large hand-drawn question mark alone on the whiteboard, nothing else"
+    },
+    {
+      "file": "1_09.jpg",
+      "startSec": 69.88,
+      "text": "Porque nunca le dimos motivos para dudar. Su universo entero son dígitos perfectos en una cuadrícula pequeña.",
+      "scene": "a small sealed box or bubble shape containing only a few clean simple digit icons inside it, closed off from everything outside, nothing else on the board"
+    },
+    {
+      "file": "1_16.jpg",
+      "startSec": 76.06,
+      "text": "Nadie le enseñó lo que es, no lo sé.",
+      "scene": "a simple shrugging stick figure icon with an empty thought bubble containing just a question mark, nothing else on the board"
+    },
+    {
+      "file": "1_18.jpg",
+      "startSec": 78.68,
+      "text": "Aquí hay un experimento real que lo deja aún más claro.",
+      "scene": "a simple lab flask/beaker icon, nothing else on the board"
+    },
+    {
+      "file": "1_21.jpg",
+      "startSec": 81.78,
+      "text": "Unos investigadores cogieron una red así de buena reconociendo imágenes,",
+      "scene": "a simple stick figure scientist standing next to a small neural network diagram, nothing else on the board"
+    },
+    {
+      "file": "1_25.jpg",
+      "startSec": 85.7,
+      "text": "y antes de entrenarla,",
+      "scene": "a small clock icon with a rewind arrow pointing backward, nothing else on the board"
+    },
+    {
+      "file": "1_27.jpg",
+      "startSec": 87.24,
+      "text": "revolvieron todas las etiquetas.",
+      "scene": "several small tag icons connected by chaotic crossing arrows, shuffled and scrambled, nothing else on the board"
+    },
+    {
+      "file": "1_29.jpg",
+      "startSec": 89.3,
+      "text": "Perro pasó a ser gato,",
+      "scene": "a simple dog icon with an arrow pointing to a cat icon, relabeling one as the other, nothing else on the board"
+    },
+    {
+      "file": "1_30.jpg",
+      "startSec": 90.9,
+      "text": "gato pasó a ser avión,",
+      "scene": "a simple cat icon with an arrow pointing to an airplane icon, relabeling one as the other, nothing else on the board"
+    },
+    {
+      "file": "1_32.jpg",
+      "startSec": 92.54,
+      "text": "puro caos, a propósito.",
+      "scene": "a chaotic tangle of crossed arrows and scrambled small icons, nothing else on the board"
+    },
+    {
+      "file": "1_34.jpg",
+      "startSec": 94.44,
+      "text": "Resultado,",
+      "scene": "a simple arrow pointing forward into a small result box shape, nothing else on the board"
+    },
+    {
+      "file": "1_35.jpg",
+      "startSec": 95.42,
+      "text": "la red igual conseguió memorizar el desastre entero,",
+      "scene": "a brain icon doodled stuffed full of scrambled overlapping tag shapes, looking overloaded, nothing else on the board"
+    },
+    {
+      "file": "1_38.jpg",
+      "startSec": 98.46,
+      "text": "misma precisión final que con etiquetas correctas.",
+      "scene": "two simple bar chart icons side by side at the exact same height, nothing else on the board"
+    },
+    {
+      "file": "1_41.jpg",
+      "startSec": 101.38,
+      "text": "O sea, con suficientes pesos, una red puede memorizar cualquier cosa,",
+      "scene": "a huge pile of small scattered numbers being funneled and stuffed into a small brain icon, nothing else on the board"
+    },
+    {
+      "file": "1_45.jpg",
+      "startSec": 105.56,
+      "text": "aunque no tengan ningún sentido.",
+      "scene": "a big red X drawn over a scattered jigsaw puzzle piece icon, nothing else on the board"
+    },
+    {
+      "file": "1_47.jpg",
+      "startSec": 107.36,
+      "text": "La pregunta incómoda es esta.",
+      "scene": "a large hand-drawn question mark alone on the whiteboard, nothing else"
+    },
+    {
+      "file": "1_49.jpg",
+      "startSec": 109.36,
+      "text": "La red encuentra patrones reales, o solo memoriza.",
+      "scene": "a fork-in-the-road doodle, one path leading to a magnifying glass icon, the other path leading to a stuffed brain icon, nothing else on the board"
+    },
+    {
+      "file": "1_52.jpg",
+      "startSec": 112.66,
+      "text": "Aquí está el dato que lo aclara un poco.",
+      "scene": "a small simple line graph/chart icon, nothing else on the board"
+    },
+    {
+      "file": "1_54.jpg",
+      "startSec": 114.76,
+      "text": "Con etiquetas revoltas aprender es lentísimo.",
+      "scene": "a nearly flat, very slowly declining line graph sketched on small axes, nothing else on the board"
+    },
+    {
+      "file": "1_57.jpg",
+      "startSec": 117.68,
+      "text": "La curva de precisión baja casi en línea recta.",
+      "scene": "a straight diagonal declining line graph sketched on small axes, nothing else on the board"
+    },
+    {
+      "file": "2_00.jpg",
+      "startSec": 120.52,
+      "text": "Con etiquetas reales y datos con estructura, cuesta al principio,",
+      "scene": "a graph line starting flat near the top, nothing else on the board"
+    },
+    {
+      "file": "2_04.jpg",
+      "startSec": 124.04,
+      "text": "pero luego cae rápido.",
+      "scene": "the same graph line then dropping sharply downward, nothing else on the board"
+    },
+    {
+      "file": "2_05.jpg",
+      "startSec": 125.58,
+      "text": "Como si la estructura real fuera más fácil de encontrar,",
+      "scene": "a small ball rolling smoothly and easily down a smooth clean slope, nothing else on the board"
+    },
+    {
+      "file": "2_08.jpg",
+      "startSec": 128.46,
+      "text": "que memorizar caos puro. Así que no. La red no está lista como pensábamos,",
+      "scene": "a small ball struggling to roll down a bumpy rocky chaotic slope, next to the smooth slope for contrast, nothing else on the board"
+    },
+    {
+      "file": "2_13.jpg",
+      "startSec": 133.22,
+      "text": "pero tampoco es solo un loro memorizando al azar, es algo intermedio. Y honestamente, esta red de aquí es tecnología de los años 80 y 90.",
+      "scene": "a simple parrot icon with a big red X over it, next to a small half-and-half gauge icon and a small vintage old computer/monitor icon, nothing else on the board"
+    },
+    {
+      "file": "2_21.jpg",
+      "startSec": 141.56,
+      "text": "El punto de partida no la meta final.",
+      "scene": "a small flag icon planted at a starting line on the ground, nothing else on the board"
+    },
+    {
+      "file": "2_24.jpg",
+      "startSec": 144.14,
+      "text": "Aún así, que reconozca dígitos que nunca ha visto,",
+      "scene": "a few clean simple digit icons each with a small checkmark beside them, nothing else on the board"
+    },
+    {
+      "file": "2_26.jpg",
+      "startSec": 146.96,
+      "text": "sigue siendo una pasada.",
+      "scene": "a simple stick figure with an impressed wide-eyed 'wow' expression, nothing else on the board"
+    },
+    {
+      "file": "2_28.jpg",
+      "startSec": 148.46,
+      "text": "Todavía queda una pregunta enorme sin responder.",
+      "scene": "a giant hand-drawn question mark filling most of the board, nothing else on the board"
+    },
+    {
+      "file": "2_31.jpg",
+      "startSec": 151.12,
+      "text": "¿Cómo exactamente calculas ese gradiente de 13 mil números?",
+      "scene": "a large panel of tiny hand-drawn dials and knobs with a question mark hovering above it, nothing else on the board"
+    },
+    {
+      "file": "2_35.jpg",
+      "startSec": 155.08,
+      "text": "Eso se llama Propagación hacia atrás y es el tema del próximo vídeo. Suscríbete para no perdértelo.",
+      "scene": "the words 'PROPAGACION HACIA ATRAS' written large in casual handwritten Spanish marker letters, with a small forward arrow and a numeral '4' beside it, and a subscribe-bell icon nearby, nothing else on the board"
+    }
+  ]
+}

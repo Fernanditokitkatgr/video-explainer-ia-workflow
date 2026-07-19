@@ -1,0 +1,99 @@
+Hoy hablamos del algoritmo más importante de todo esto, la propagación hacia atrás.
+Es el motor real de cómo aprende una red neuronal.
+Repaso relámpago antes de empezar, ya sabes que es una red neuronal,
+ya sabes cómo propaga información hacia adelante.
+Y ya viste el descenso de gradiente,
+mover 13.000 diales para bajar el costo lo más rápido posible.
+Pues bien, la retropropagación es el algoritmo que calcula exactamente ese movimiento,
+cómo mover esos 13.000 números uno por uno. Y sí,
+pensar entre 13.000 dimensiones a la vez es imposible para un cerebro humano.
+Por suerte hay otra forma de pensarlo.
+Cada número de ese gradiente te dice una cosa muy simple, que tan sensible es el costo a ese peso en concreto.
+Un ejemplo rápido,
+imagina que calculas la gradiente y un peso te da 3x2, otro peso en cambio te da 0x1.
+Eso significa que el costo es 32 veces más sensible al primer peso que al segundo. Mover el primero un poco cambia mucho el resultado.
+Mover el segundo casi nada.
+Vale, con eso claro, vamos al mecanismo real paso a paso.
+Nos olvidamos de la notación matemática por completo, solo vamos a razonar con un único ejemplo de entrenamiento, la imagen de un 2.
+La red, sin entrenar todavía, escupe resultados casi aleatorios.
+Algo como 0,5, 0,8, 0,2, puro ruido. No podemos tocar esas activaciones directamente,
+solo controlamos los pesos y los sesgos.
+Pero si podemos anotar que cambios nos gustaría ver en esa última capa. Como queremos que la red diga 2, el valor de esa neurona debería subir,
+y todos los demás deberían bajar. Cuanto más lejos esté un valor de donde debería estar, más importante es corregirlo.
+Centrémonos solo en la neurona del 2. ¿Cómo aumentamos su activación?
+Recuerda, activación es una suma ponderada de la capa anterior, más un sesgo metida en una función de apachurramiento.
+Así que hay tres palancas disponibles,
+subir el sesgo,
+subir los pesos o cambiar las activaciones de la capa anterior.
+Vamos con los pesos primero.
+No todos los pesos pesan igual,
+nunca mejor dicho.
+Las conexiones con neuronas ya muy brillantes en la capa anterior tienen más impacto.
+Subir ese peso mueve más la aguja que subir un peso conectado a una neurona apagada. Dato curioso, esto se parece a una idea real de neurociencia, la teoría hebbiana,
+las neuronas que se activan juntas se conectan juntas. Aquí pasa algo parecido, las neuronas más activas y las que queremos activar más, se refuerzan entre sí.
+Ojo, esto es solo una analogía, no una prueba de que las redes artificiales funcionen como el cerebro real, pero mola señalarlo.
+La tercera palanca, cambiar las activaciones de la capa anterior.
+Si todo lo conectado con peso positivo se vuelve más brillante y lo conectado con peso negativo se apaga, esa neurona del dos se activa más.
+Y otra vez, los cambios más eficientes son proporcionales al tamaño de esos pesos.
+El problema es que tampoco controlamos esas activaciones directamente,
+solo anotamos qué querríamos que pasara ahí.
+Pero espera,
+hay más.
+Eso es solo lo que quiere la neurona del dos.
+Las otras nueve neuronas de salida también tienen sus propias exigencias para esa misma capa anterior. Aquí es exactamente donde aparece la propagación hacia atrás,
+sumas todos esos deseos de las diez neuronas de salida a la vez.
+Y el resultado es una lista de ajustes deseados para toda la penúltima capa.
+¿Y ahora qué?
+Repite exactamente el mismo proceso,
+pero una capa más atrás.
+Y otra vez,
+y otra,
+retrocediendo por toda la red capa por capa.
+Eso es literalmente propagar hacia atrás,
+empujar los ajustes deseados desde la salida hasta la entrada Pero espera, todavía falta una pieza.
+Si solo escucháramos a este único dos,
+la red se obsesionaría con clasificar todo como un dos.
+Así que repites este mismo proceso para cada ejemplo de entrenamiento,
+miles y miles de dígitos distintos,
+cada uno con su propia opinión sobre cómo mover los pesos.
+Y al final, promedias todos esos deseos.
+Ese promedio de ajustes es, básicamente,
+el negativo del gradiente que veníamos persiguiendo. Si entendiste por qué unos cambios pesan más que otros y cómo se suman entre capas,
+ya entiendes la mecánica real de la retropropagación.
+Ahora un problema práctico.
+Sumar la influencia de decenas de miles de ejemplos en cada paso es carísimo computacionalmente.
+Así que en la práctica se hace un truquito.
+Revuelves todos tus datos.
+Los divides en minilotes,
+digamos, de 100 ejemplos cada uno.
+Calculas un paso de descenso usando solo ese minilote. No es la gradiente perfecta, pero es una muy buena aproximación y muchísimo más rápida.
+Si dibujaras el camino que sigue la red por la superficie de costo con este método,
+parecería un borracho tambaleándose cuesta abajo.
+Pasos rápidos,
+dirección no perfecta.
+En vez de alguien calculando milimétricamente cada paso antes de moverse.
+Esta técnica tiene nombre.
+Descenso de gradiente estocástico.
+Es literalmente cómo se entrena casi cualquier red neuronal moderna.
+Repasemos todo, porque han pasado muchas cosas.
+La retropropagación calcula como un ejemplo de entrenamiento,
+quiere mover cada peso y sesgo.
+No solo si debes subir o bajar,
+sino cuánto, en proporción,
+para bajar el costo lo más rápido posible.
+Un paso de descenso de gradiente real
+promediaría esto sobre todos tus ejemplos,
+pero por eficiencia usamos minilotes al azar uno por paso.
+Repitiendo esto una y otra vez, la red converge hacia un mínimo local del costo y termina siendo un buen trabajo con los ejemplos que ha visto.
+Con todo esto, cada línea de código detrás de la retropropagación corresponde algo que ya entiendes, aunque sea de forma intuitiva.
+Pero una cosa es entender las matemáticas y otra muy distinta es programarla sin liarte con la notación.
+Ahí es donde de verdad se complica todo.
+Para quien quiera ir más profundo, el próximo vídeo entra en el cálculo real detrás de todo esto.
+Las mismas ideas, pero con las fórmulas completas.
+Antes de cerrar una cosa importante que aplica a todo el aprendizaje automático, no sólo a redes neuronales.
+Nada de esto funciona sin muchísimos datos de entrenamiento.
+Los dígitos escritos a mano son un ejemplo perfecto porque existe MNIST,
+miles de ejemplos ya etiquetados por humanos.
+En cualquier proyecto real de IA,
+conseguir datos etiquetados de calidad suele ser el reto más grande de todos. Y así es paso a paso como una red neuronal aprende de verdad.
+Suscríbete si quieres ver las matemáticas completas en el próximo vídeo.

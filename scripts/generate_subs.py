@@ -35,9 +35,23 @@ TAIL = 3.0
 FIXES = [
     (r"Steve Jobsano", "Steve Jobs sano"),
     (r"\bBosniak\b", "Wozniak"),
+    (r"Una cordes magia", "Una red neuronal no es magia"),
     (r"dosamente posible", "dudosamente posible"),
     (r"semi -supervisado", "semi-supervisado"),
     (r"Key Nearest Neighbors", "k-nearest neighbors"),
+    (r"\bclassifica\b", "clasifica"),
+    (r"No imagía, no hay conciencia", "No hay magia, no hay conciencia"),
+    (r"descenso degradiente", "descenso de gradiente"),
+    (r"(\d+) \.000", r"\1.000"),
+    (r"\bagradiente\b", "gradiente"),
+    (r"\bes cupe resultados\b", "escupe resultados"),
+    (r"0 ,(\d)", r"0,\1"),
+    (r"teoría heavyana", "teoría hebbiana"),
+    (r"retro -propagación", "retropropagación"),
+    (r"\bRevolves todos tus datos\b", "Revuelves todos tus datos"),
+    (r"un borracho tan valeándose", "un borracho tambaleándose"),
+    (r"\bexiste emenist\b", "existe MNIST"),
+    (r"\bproyecto real deía\b", "proyecto real de IA"),
 ]
 
 

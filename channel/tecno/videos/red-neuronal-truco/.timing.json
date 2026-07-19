@@ -1,0 +1,262 @@
+[
+  {
+    "file": "0_00.jpg",
+    "startSec": 0.0,
+    "text": "En el vídeo pasado entrenamos una red para reconocer dígitos, 96 % de aciertos, con ajustes hasta 98%, deberíamos estar celebrando,"
+  },
+  {
+    "file": "0_09.jpg",
+    "startSec": 9.96,
+    "text": "pero hay un problema."
+  },
+  {
+    "file": "0_11.jpg",
+    "startSec": 11.42,
+    "text": "La red no aprendió lo que creíamos que había aprendido."
+  },
+  {
+    "file": "0_14.jpg",
+    "startSec": 14.48,
+    "text": "Te explico."
+  },
+  {
+    "file": "0_15.jpg",
+    "startSec": 15.56,
+    "text": "La esperanza original era bonita,"
+  },
+  {
+    "file": "0_17.jpg",
+    "startSec": 17.76,
+    "text": "que una capa detectar a bordes sueltos, que otra los juntara en círculos y líneas y que la última combinar a esos patrones en dígitos completos."
+  },
+  {
+    "file": "0_25.jpg",
+    "startSec": 25.64,
+    "text": "Así que fuimos a comprobarlo."
+  },
+  {
+    "file": "0_27.jpg",
+    "startSec": 27.5,
+    "text": "Visualizamos los pesos de esas neuronas ocultas,"
+  },
+  {
+    "file": "0_30.jpg",
+    "startSec": 30.46,
+    "text": "literalmente convertimos los números en una imagen y lo que vimos no fueron bordes limpios,"
+  },
+  {
+    "file": "0_36.jpg",
+    "startSec": 36.26,
+    "text": "fue casi puro ruido,"
+  },
+  {
+    "file": "0_37.jpg",
+    "startSec": 37.88,
+    "text": "con como mucho un par de patrones vagos en el medio."
+  },
+  {
+    "file": "0_41.jpg",
+    "startSec": 41.14,
+    "text": "En un espacio de 13 mil dimensiones posibles,"
+  },
+  {
+    "file": "0_44.jpg",
+    "startSec": 44.12,
+    "text": "la red encontró un valle cualquiera,"
+  },
+  {
+    "file": "0_46.jpg",
+    "startSec": 46.44,
+    "text": "uno que clasifica bien los dígitos, pero sin entender ni un solo patron real."
+  },
+  {
+    "file": "0_50.jpg",
+    "startSec": 50.92,
+    "text": "Y la prueba definitiva es todavía más incómoda."
+  },
+  {
+    "file": "0_53.jpg",
+    "startSec": 53.82,
+    "text": "Dale a esta red una imagen de puro ruido aleatorio,"
+  },
+  {
+    "file": "0_56.jpg",
+    "startSec": 56.92,
+    "text": "ni siquiera se parece un número."
+  },
+  {
+    "file": "0_59.jpg",
+    "startSec": 59.0,
+    "text": "Una red que entendiera dudaría."
+  },
+  {
+    "file": "1_01.jpg",
+    "startSec": 61.48,
+    "text": "La nuestra no."
+  },
+  {
+    "file": "1_02.jpg",
+    "startSec": 62.56,
+    "text": "Te dice con total confianza que ese ruido es un 5."
+  },
+  {
+    "file": "1_05.jpg",
+    "startSec": 65.98,
+    "text": "Tan segura como si fuera un 5 de verdad."
+  },
+  {
+    "file": "1_08.jpg",
+    "startSec": 68.48,
+    "text": "¿Por qué pasa esto?"
+  },
+  {
+    "file": "1_09.jpg",
+    "startSec": 69.88,
+    "text": "Porque nunca le dimos motivos para dudar. Su universo entero son dígitos perfectos en una cuadrícula pequeña."
+  },
+  {
+    "file": "1_16.jpg",
+    "startSec": 76.06,
+    "text": "Nadie le enseñó lo que es, no lo sé."
+  },
+  {
+    "file": "1_18.jpg",
+    "startSec": 78.68,
+    "text": "Aquí hay un experimento real que lo deja aún más claro."
+  },
+  {
+    "file": "1_21.jpg",
+    "startSec": 81.78,
+    "text": "Unos investigadores cogieron una red así de buena reconociendo imágenes,"
+  },
+  {
+    "file": "1_25.jpg",
+    "startSec": 85.7,
+    "text": "y antes de entrenarla,"
+  },
+  {
+    "file": "1_27.jpg",
+    "startSec": 87.24,
+    "text": "revolvieron todas las etiquetas."
+  },
+  {
+    "file": "1_29.jpg",
+    "startSec": 89.3,
+    "text": "Perro pasó a ser gato,"
+  },
+  {
+    "file": "1_30.jpg",
+    "startSec": 90.9,
+    "text": "gato pasó a ser avión,"
+  },
+  {
+    "file": "1_32.jpg",
+    "startSec": 92.54,
+    "text": "puro caos, a propósito."
+  },
+  {
+    "file": "1_34.jpg",
+    "startSec": 94.44,
+    "text": "Resultado,"
+  },
+  {
+    "file": "1_35.jpg",
+    "startSec": 95.42,
+    "text": "la red igual conseguió memorizar el desastre entero,"
+  },
+  {
+    "file": "1_38.jpg",
+    "startSec": 98.46,
+    "text": "misma precisión final que con etiquetas correctas."
+  },
+  {
+    "file": "1_41.jpg",
+    "startSec": 101.38,
+    "text": "O sea, con suficientes pesos, una red puede memorizar cualquier cosa,"
+  },
+  {
+    "file": "1_45.jpg",
+    "startSec": 105.56,
+    "text": "aunque no tengan ningún sentido."
+  },
+  {
+    "file": "1_47.jpg",
+    "startSec": 107.36,
+    "text": "La pregunta incómoda es esta."
+  },
+  {
+    "file": "1_49.jpg",
+    "startSec": 109.36,
+    "text": "La red encuentra patrones reales, o solo memoriza."
+  },
+  {
+    "file": "1_52.jpg",
+    "startSec": 112.66,
+    "text": "Aquí está el dato que lo aclara un poco."
+  },
+  {
+    "file": "1_54.jpg",
+    "startSec": 114.76,
+    "text": "Con etiquetas revoltas aprender es lentísimo."
+  },
+  {
+    "file": "1_57.jpg",
+    "startSec": 117.68,
+    "text": "La curva de precisión baja casi en línea recta."
+  },
+  {
+    "file": "2_00.jpg",
+    "startSec": 120.52,
+    "text": "Con etiquetas reales y datos con estructura, cuesta al principio,"
+  },
+  {
+    "file": "2_04.jpg",
+    "startSec": 124.04,
+    "text": "pero luego cae rápido."
+  },
+  {
+    "file": "2_05.jpg",
+    "startSec": 125.58,
+    "text": "Como si la estructura real fuera más fácil de encontrar,"
+  },
+  {
+    "file": "2_08.jpg",
+    "startSec": 128.46,
+    "text": "que memorizar caos puro. Así que no. La red no está lista como pensábamos,"
+  },
+  {
+    "file": "2_13.jpg",
+    "startSec": 133.22,
+    "text": "pero tampoco es solo un loro memorizando al azar, es algo intermedio. Y honestamente, esta red de aquí es tecnología de los años 80 y 90."
+  },
+  {
+    "file": "2_21.jpg",
+    "startSec": 141.56,
+    "text": "El punto de partida no la meta final."
+  },
+  {
+    "file": "2_24.jpg",
+    "startSec": 144.14,
+    "text": "Aún así, que reconozca dígitos que nunca ha visto,"
+  },
+  {
+    "file": "2_26.jpg",
+    "startSec": 146.96,
+    "text": "sigue siendo una pasada."
+  },
+  {
+    "file": "2_28.jpg",
+    "startSec": 148.46,
+    "text": "Todavía queda una pregunta enorme sin responder."
+  },
+  {
+    "file": "2_31.jpg",
+    "startSec": 151.12,
+    "text": "¿Cómo exactamente calculas ese gradiente de 13 mil números?"
+  },
+  {
+    "file": "2_35.jpg",
+    "startSec": 155.08,
+    "text": "Eso se llama Propagación hacia atrás y es el tema del próximo vídeo. Suscríbete para no perdértelo."
+  }
+]

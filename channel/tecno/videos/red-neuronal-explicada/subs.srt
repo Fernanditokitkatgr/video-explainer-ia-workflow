@@ -1,0 +1,283 @@
+1
+00:00:00,000 --> 00:00:01,291
+Esto es un 3.
+
+2
+00:00:01,291 --> 00:00:10,309
+Escritos en ningún cuidado, reducido a una imagen minúscula de solo 28x28 píxeles y aún así tu cerebro lo reconoce al instante, sin esfuerzo.
+
+3
+00:00:10,309 --> 00:00:13,527
+Este también es un 3 y este y este,
+
+4
+00:00:13,527 --> 00:00:17,145
+aunque cada píxel sea completamente diferente de un dibujo a otro.
+
+5
+00:00:17,145 --> 00:00:19,091
+Para tus ojos, esto es trivial.
+
+6
+00:00:19,091 --> 00:00:21,764
+Para un ordenador, es casi una tortura.
+
+7
+00:00:21,764 --> 00:00:27,273
+Pídele a alguien que programa esto a mano y en 5 segundos pasa de fácil a quiero llorar.
+
+8
+00:00:27,273 --> 00:00:33,382
+Este es el mismo truco detrás de un coche que se conduce solo, de una app que reconoce tu cara para desbloquear el móvil.
+
+9
+00:00:33,382 --> 00:00:35,709
+De un chatbot que entiende lo que le escribes,
+
+10
+00:00:35,709 --> 00:00:37,855
+todo eso tiene el mismo nombre.
+
+11
+00:00:37,855 --> 00:00:39,255
+Redes neuronales.
+
+12
+00:00:39,255 --> 00:00:44,273
+Hoy vas a entender de verdad que son, no palabras raras, no fingir que lo entiendes en una fiesta.
+
+13
+00:00:44,273 --> 00:00:51,618
+Vamos a construir pieza a pieza, una red que aprende a leer números escritos a mano. Ojo, hoy solo vemos la estructura, el esqueleto.
+
+14
+00:00:51,618 --> 00:00:55,182
+¿Cómo aprende esa estructura te lo cuento en el próximo vídeo?
+
+15
+00:00:55,182 --> 00:00:57,836
+Empecemos por lo más simple posible.
+
+16
+00:00:57,836 --> 00:01:01,455
+Una neurona no es más que una caja, una caja que guarda un número,
+
+17
+00:01:01,455 --> 00:01:04,727
+entre 0 y 1, nada más, nada de ciencia ficción.
+
+18
+00:01:04,727 --> 00:01:08,309
+Nuestra red arranca con 784 de esas cajas,
+
+19
+00:01:08,309 --> 00:01:10,145
+una por cada píxel de la imagen,
+
+20
+00:01:10,145 --> 00:01:11,527
+28x28,
+
+21
+00:01:11,527 --> 00:01:18,291
+784 en total. Cada una guarda cuánto de blanco o de negro es su píxel, eso es toda la primera capa.
+
+22
+00:01:18,291 --> 00:01:24,309
+En el otro extremo hay una última capa, con solo 10 neuronas, una por cada número posible, del 0 a 9.
+
+23
+00:01:24,309 --> 00:01:29,836
+Cuanto más brillante esté una de esas 10, más convencida está la red de que ese es el dígito correcto.
+
+24
+00:01:29,836 --> 00:01:31,036
+Y en medio,
+
+25
+00:01:30,836 --> 00:01:35,036
+un par de capas ocultas, que de momento son un enorme signo de interrogación.
+
+26
+00:01:35,036 --> 00:01:38,909
+Ahí es donde se supone que ocurre la magia. La idea es esta.
+
+27
+00:01:38,909 --> 00:01:43,127
+Cuando tú reconoces un 9, tu cerebro junta piezas sueltas, un círculo arriba,
+
+28
+00:01:43,127 --> 00:01:44,455
+una línea a la derecha,
+
+29
+00:01:44,455 --> 00:01:46,073
+un 8 junta dos círculos,
+
+30
+00:01:46,073 --> 00:01:56,945
+la esperanza es que la red haga exactamente lo mismo, que una capa detecte borde sueltos, que la siguiente junta esos borde en círculos y líneas, y que la última junta es esas piezas en un dígito completo.
+
+31
+00:01:56,945 --> 00:01:58,145
+Píxeles,
+
+32
+00:01:57,855 --> 00:01:59,345
+abordes, apatrones,
+
+33
+00:01:59,345 --> 00:02:00,545
+a números,
+
+34
+00:02:00,127 --> 00:02:03,164
+como un cerebro junta sonidos en sílabas, en palabras,
+
+35
+00:02:03,164 --> 00:02:04,364
+en frases,
+
+36
+00:02:03,964 --> 00:02:07,600
+pero como decide una sola neuronas si está viendo un borde?
+
+37
+00:02:07,600 --> 00:02:09,345
+Aquí está el truco real,
+
+38
+00:02:09,345 --> 00:02:13,945
+piensa en cada neuronas como alguien que escucha 784 opiniones a la vez.
+
+39
+00:02:13,945 --> 00:02:27,982
+Cada conexión entre dos neuronas tiene asignado un peso, y un peso es solo eso, un número que dice cuánto importa esa opinión. Si el peso es alto, esa entrada pesa mucho en la decisión final, si es bajo o negativo casi no cuenta o incluso resta.
+
+40
+00:02:27,982 --> 00:02:31,473
+La neurona multiplica cada entrada por su peso y lo suma todo.
+
+41
+00:02:31,473 --> 00:02:36,218
+Si los pesos son altos justo donde debería haber un borde y bajos o negativos alrededor,
+
+42
+00:02:36,218 --> 00:02:40,709
+esa suma se dispara solo cuando el borde existe de verdad y se queda plana cuando no.
+
+43
+00:02:40,709 --> 00:02:41,964
+Pero hay un problema,
+
+44
+00:02:41,964 --> 00:02:47,818
+esa suma puede dar cualquier número gigante o gigante negativo. Así que le sumamos otro número más,
+
+45
+00:02:47,818 --> 00:02:49,018
+el sesgo.
+
+46
+00:02:48,673 --> 00:02:51,636
+El sesgo es como el umbral de exigencia de la neurona.
+
+47
+00:02:51,636 --> 00:02:54,691
+Un sesgo muy negativo hace que le cueste mucho activarse,
+
+48
+00:02:54,691 --> 00:02:56,364
+uno positivo se lo pone fácil,
+
+49
+00:02:56,364 --> 00:03:01,018
+y al final aplastamos ese resultado con una función que se llama Sigmoide.
+
+50
+00:03:01,018 --> 00:03:06,273
+La Sigmoide agarra cualquier número, por gigante que sea, y lo comprime entre 0 y 1.
+
+51
+00:03:06,273 --> 00:03:12,927
+Así todas las neuronas de la red hablan el mismo idioma. Eso es todo lo que hace una neurona, multiplicar, sumar,
+
+52
+00:03:12,927 --> 00:03:14,127
+comprimir.
+
+53
+00:03:13,727 --> 00:03:15,364
+El problema es la escala.
+
+54
+00:03:15,364 --> 00:03:20,764
+Solo entre la primera y la segunda capa hay 784 por 16 pesos distintos.
+
+55
+00:03:20,764 --> 00:03:23,618
+Toda la red junta acumula casi 13 mil números,
+
+56
+00:03:23,618 --> 00:03:27,691
+13 mil diales que hay que calibrar bien para distinguir un 3 de 1 ocho.
+
+57
+00:03:27,691 --> 00:03:32,055
+Imagina sentarte tú, a mano, a mover esos 13 mil diales 1 por 1,
+
+58
+00:03:32,055 --> 00:03:36,327
+ni con 5 cafés de por medio. Por suerte no hace falta hacerlo a mano.
+
+59
+00:03:36,327 --> 00:03:39,709
+Eso precisamente es lo que la red aprende a hacer sola.
+
+60
+00:03:39,709 --> 00:03:46,291
+Y como una máquina calibra sola 13 mil números sin que nadie se los diga, es la parte más alucinante de todo esto.
+
+61
+00:03:46,291 --> 00:03:47,982
+Te la cuento en el próximo vídeo.
+
+62
+00:03:47,982 --> 00:03:49,873
+Por ahora quédate con esto.
+
+63
+00:03:49,873 --> 00:03:51,073
+Una cordes magia,
+
+64
+00:03:51,018 --> 00:03:52,218
+ni conciencia,
+
+65
+00:03:52,073 --> 00:03:54,291
+ni un cerebro digital pensando como tú.
+
+66
+00:03:54,291 --> 00:03:56,727
+Es una función larguísima, sí,
+
+67
+00:03:56,727 --> 00:03:59,873
+con miles de números, sí. Pero solo una función,
+
+68
+00:03:59,873 --> 00:04:03,891
+que convierte 784 píxeles en 10 probabilidades.
+
+69
+00:04:03,891 --> 00:04:08,818
+Y aun con solo esto ya reconoce números escritos a mano casi tan bien como tú.
+
+70
+00:04:08,818 --> 00:04:11,036
+¿Te está volando un poco la cabeza?
+
+71
+00:04:11,036 --> 00:04:14,036
+Suscríbete que la segunda parte como aprende de verdad una red neuronal viene pronto.

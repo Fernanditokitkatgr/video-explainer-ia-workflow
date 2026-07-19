@@ -1,0 +1,29 @@
+{
+  "video": "red-neuronal-truco",
+  "music": {
+    "file": "background_theme_lofi_30.mp3",
+    "prompt": "warm lo-fi chill background beat, soft mellow piano and gentle warm synth pads, light vinyl crackle texture, relaxed contemplative studious mood, no drums, no vocals, loopable, very low energy, smooth seamless start and end",
+    "duration": 30,
+    "volume": 0.1
+  },
+  "sfx": [
+    { "file": "digital_whoosh.mp3", "startSec": 0.0, "duration": 1.5, "volume": 0.13, "prompt": "quick digital whoosh transition, futuristic sweep, no music" },
+    { "file": "warning_beep.mp3", "startSec": 9.96, "duration": 1.5, "volume": 0.14, "prompt": "short soft warning beep, cautionary but not alarming, very short" },
+    { "file": "glass_crack.mp3", "startSec": 11.42, "duration": 1.5, "volume": 0.13, "prompt": "short glass crack breaking apart sound, clean and quick" },
+    { "file": "magnifying_zoom.mp3", "startSec": 25.64, "duration": 1.5, "volume": 0.11, "prompt": "quick zoom-in swoosh, focus effect, short, no music" },
+    { "file": "static_noise.mp3", "startSec": 36.26, "duration": 2, "volume": 0.13, "prompt": "short burst of chaotic radio static noise, digital and gritty, no music" },
+    { "file": "synth_pulse.mp3", "startSec": 41.14, "duration": 2.5, "volume": 0.1, "prompt": "pulsing synth network hum, glowing digital texture, ambient, no music" },
+    { "file": "dramatic_reveal.mp3", "startSec": 46.44, "duration": 2, "volume": 0.16, "prompt": "short dramatic reveal sting, cinematic impact, digital undertone" },
+    { "file": "static_noise.mp3", "startSec": 53.82, "duration": 2, "volume": 0.13, "prompt": "short burst of chaotic radio static noise, digital and gritty, no music" },
+    { "file": "mystery_sting.mp3", "startSec": 68.48, "duration": 2, "volume": 0.15, "prompt": "short mysterious cliffhanger sting, tense and curious, cinematic, no music" },
+    { "file": "lab_bubble.mp3", "startSec": 78.68, "duration": 1.5, "volume": 0.11, "prompt": "short bubbling laboratory flask sound, quirky and light, no music" },
+    { "file": "shuffle_cards.mp3", "startSec": 87.24, "duration": 1.5, "volume": 0.12, "prompt": "quick shuffling cards or papers sound, chaotic riffling, short, no music" },
+    { "file": "comedic_boing.mp3", "startSec": 90.9, "duration": 1.5, "volume": 0.14, "prompt": "short comedic cartoon boing bounce sound, playful, very short" },
+    { "file": "weight_thud.mp3", "startSec": 95.42, "duration": 1.5, "volume": 0.14, "prompt": "short heavy weight thud landing on a scale, no music" },
+    { "file": "realization_chime.mp3", "startSec": 128.46, "duration": 2, "volume": 0.15, "prompt": "short magical realization chime, bright sparkle, uplifting, very short" },
+    { "file": "vintage_computer.mp3", "startSec": 133.22, "duration": 2, "volume": 0.12, "prompt": "short retro computer beep and whirring sound, vintage 80s electronics, no music" },
+    { "file": "digital_chime.mp3", "startSec": 146.96, "duration": 1.5, "volume": 0.14, "prompt": "short bright digital notification chime, curious and clean, very short" },
+    { "file": "mystery_sting.mp3", "startSec": 151.12, "duration": 2, "volume": 0.16, "prompt": "short mysterious cliffhanger sting, tense and curious, cinematic, no music" },
+    { "file": "subscribe_chime.mp3", "startSec": 155.08, "duration": 2, "volume": 0.18, "prompt": "warm cheerful subscribe notification chime, short and friendly" }
+  ]
+}

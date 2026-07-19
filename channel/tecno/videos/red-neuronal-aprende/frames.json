@@ -1,0 +1,294 @@
+{
+  "video": "red-neuronal-aprende",
+  "style_base": "Whiteboard doodle style, black marker sketch lines on a plain white whiteboard background, simple explanatory hand-drawn diagrams and doodles, casual classroom sketch aesthetic, no photorealism, 16:9. CRITICAL TEXT RULE: prefer NO text at all unless explicitly specified below — tell the idea through doodles, arrows, symbols and numbers instead. If the scene below explicitly asks for written words, they MUST be written in perfect SPANISH, exactly as specified, in simple casual handwritten marker letters — NEVER English. CRITICAL SCOPE RULE: draw ONLY the elements described in the scene below. Do not add unrelated icons, generic business diagrams (no idea/process/result boxes, no PDCA cycles, no growth charts), or any extra decoration not explicitly mentioned.",
+  "frames": [
+    {
+      "file": "0_00.jpg",
+      "startSec": 0.0,
+      "text": "En el vídeo anterior viste la estructura de una red neuronal,",
+      "scene": "a small rewind arrow icon next to a miniature version of a three-column neural network diagram, nothing else on the board"
+    },
+    {
+      "file": "0_03.jpg",
+      "startSec": 3.18,
+      "text": "neuronas,",
+      "scene": "a single simple hand-drawn circle, nothing else on the board"
+    },
+    {
+      "file": "0_03_b.jpg",
+      "startSec": 3.98,
+      "text": "capas, pesos,",
+      "scene": "a column of small circles connected by thin lines, one line labeled 'PESO' in small casual Spanish handwriting, nothing else on the board"
+    },
+    {
+      "file": "0_05.jpg",
+      "startSec": 5.3,
+      "text": "sesgos,",
+      "scene": "the word 'SESGO' written large and bold in casual handwritten Spanish marker letters, centered alone on the whiteboard, nothing else"
+    },
+    {
+      "file": "0_05_b.jpg",
+      "startSec": 5.96,
+      "text": "un esqueleto entero listo para funcionar, pero le faltaba lo más importante,",
+      "scene": "a full network skeleton outline made of empty unfilled circles connected by thin lines, with one visible empty gap or missing puzzle-piece shape in the middle, nothing else on the board"
+    },
+    {
+      "file": "0_10.jpg",
+      "startSec": 10.38,
+      "text": "aprender.",
+      "scene": "the word 'APRENDER' written huge and bold in casual handwritten Spanish marker letters, centered alone on the whiteboard, nothing else"
+    },
+    {
+      "file": "0_11.jpg",
+      "startSec": 11.32,
+      "text": "Hoy te lo cuento.",
+      "scene": "a simple stick figure confidently pointing at the whiteboard, nothing else on the board"
+    },
+    {
+      "file": "0_13.jpg",
+      "startSec": 13.3,
+      "text": "Repaso relámpago por si se te olvidó algo.",
+      "scene": "a small lightning bolt icon next to a simple clock icon, nothing else on the board"
+    },
+    {
+      "file": "0_16.jpg",
+      "startSec": 16.32,
+      "text": "Nuestra red recibe 784 números, 1 por pixel.",
+      "scene": "a grid of small squares (a pixel image) with arrows pointing into a tall column of circles, nothing else on the board"
+    },
+    {
+      "file": "0_20.jpg",
+      "startSec": 20.54,
+      "text": "Los pasa por un par de capas ocultas y escúpe 10 números al final, 1 por cada dígito posible.",
+      "scene": "a full hand-drawn neural network diagram with three vertical columns of connected circles and arrows flowing left to right, nothing else on the board"
+    },
+    {
+      "file": "0_26.jpg",
+      "startSec": 26.34,
+      "text": "El más brillante de esos 10 gana. Toda la red no es más que una función gigante,",
+      "scene": "a column of ten circles with one circle glowing dark and bold, next to a simple box shape with a small 'f' letter inside, nothing else on the board"
+    },
+    {
+      "file": "0_31.jpg",
+      "startSec": 31.52,
+      "text": "784 entradas,",
+      "scene": "an arrow labeled with the handwritten number '784' pointing into a simple box shape, nothing else on the board"
+    },
+    {
+      "file": "0_33.jpg",
+      "startSec": 33.04,
+      "text": "10 salidas,",
+      "scene": "an arrow labeled with the handwritten number '10' pointing out of a simple box shape, nothing else on the board"
+    },
+    {
+      "file": "0_33_b.jpg",
+      "startSec": 33.98,
+      "text": "y unos 13 mil pesos y sesgos que puedes mover como diales.",
+      "scene": "a large panel of many tiny hand-drawn dials and knobs sketched in a dense grid, overwhelming in scale, nothing else on the board"
+    },
+    {
+      "file": "0_37.jpg",
+      "startSec": 37.96,
+      "text": "Al principio esos 13 mil diales están puestos al azar, así que como te imaginarás, la red es pésima.",
+      "scene": "the same dial panel with all the dials pointing in random chaotic directions, a simple sad face doodled beside it, nothing else on the board"
+    },
+    {
+      "file": "0_44.jpg",
+      "startSec": 44.36,
+      "text": "Le enseñas la imagen de un tres y la capa de salida responde con puro caos.",
+      "scene": "a hand-drawn digit 3 with an arrow pointing to a column of circles filled with chaotic messy scribbles instead of clean shapes, nothing else on the board"
+    },
+    {
+      "file": "0_49.jpg",
+      "startSec": 49.22,
+      "text": "Aquí es donde entra la primera pieza clave, la función de costo, es solo una forma de decirle a la máquina, esto está mal, muy mal.",
+      "scene": "the words 'FUNCION DE COSTO' written large in casual handwritten Spanish marker letters, with a simple disappointed/angry face icon beside it, nothing else on the board"
+    },
+    {
+      "file": "0_57.jpg",
+      "startSec": 57.22,
+      "text": "Compara lo que la red respondió con lo que debería haber respondido, cuanto más se parezcan menor el costo,",
+      "scene": "two columns of small circles side by side being compared with a double-headed arrow between them, a small handwritten minus sign nearby, nothing else on the board"
+    },
+    {
+      "file": "1_02.jpg",
+      "startSec": 62.88,
+      "text": "cuanto más la cague mayor el costo.",
+      "scene": "two columns of small circles side by side looking very different from each other, a big handwritten plus sign and an upward arrow nearby, nothing else on the board"
+    },
+    {
+      "file": "1_05.jpg",
+      "startSec": 65.52,
+      "text": "Haces esto con decenas de miles de ejemplos y sacas el promedio, eso es el costo total de la red, un solo número gigante que resume lo mala que es.",
+      "scene": "many small digit icons stacked and funneling down into one single large handwritten number, nothing else on the board"
+    },
+    {
+      "file": "1_15.jpg",
+      "startSec": 75.02,
+      "text": "Ahora viene la pregunta importante,",
+      "scene": "a large hand-drawn question mark alone on the whiteboard, nothing else"
+    },
+    {
+      "file": "1_17.jpg",
+      "startSec": 77.0,
+      "text": "¿cómo bajas ese número?",
+      "scene": "a large handwritten number with a downward arrow pointing beneath it, nothing else on the board"
+    },
+    {
+      "file": "1_18.jpg",
+      "startSec": 78.52,
+      "text": "Aquí entra la segunda pieza clave, el descenso de gradiente.",
+      "scene": "the words 'DESCENSO DE GRADIENTE' written large in casual handwritten Spanish marker letters, nothing else on the board"
+    },
+    {
+      "file": "1_22.jpg",
+      "startSec": 82.24,
+      "text": "Olvídate de 13 mil pesos por un segundo, imagina solo una función con un número de entrada. Quieres encontrar el valor que le da el resultado más bajo posible.",
+      "scene": "a simple U-shaped curve graph sketched on small hand-drawn axes, nothing else on the board"
+    },
+    {
+      "file": "1_31.jpg",
+      "startSec": 91.54,
+      "text": "La táctica es simple,",
+      "scene": "a simple hand-drawn lightbulb icon, nothing else on the board"
+    },
+    {
+      "file": "1_32.jpg",
+      "startSec": 92.92,
+      "text": "mira la pendiente donde estás,",
+      "scene": "a dot marked on the U-shaped curve with a small tangent slope line drawn through it, nothing else on the board"
+    },
+    {
+      "file": "1_34.jpg",
+      "startSec": 94.54,
+      "text": "si sube hacia la derecha, muevete a la izquierda, si sube hacia la izquierda, muevete a la derecha.",
+      "scene": "the U-shaped curve with two small arrows near two different points, each pointing toward the bottom valley from either side, nothing else on the board"
+    },
+    {
+      "file": "1_40.jpg",
+      "startSec": 100.04,
+      "text": "Repite eso una y otra vez.",
+      "scene": "a simple circular repeat/loop arrow icon, nothing else on the board"
+    },
+    {
+      "file": "1_42.jpg",
+      "startSec": 102.0,
+      "text": "Es como una pelota rodando cuesta abajo, al final cae en un valle, un mínimo local.",
+      "scene": "a small ball doodled rolling down the U-shaped curve into the bottom valley, nothing else on the board"
+    },
+    {
+      "file": "1_46.jpg",
+      "startSec": 106.92,
+      "text": "Ojo, no siempre el más bajo de todos los valles posibles,",
+      "scene": "a curve with several valleys of different depths sketched along it, nothing else on the board"
+    },
+    {
+      "file": "1_50.jpg",
+      "startSec": 110.32,
+      "text": "solo el más cercano a donde empezaste.",
+      "scene": "an arrow from a starting point on the curve dropping down into the nearest shallow valley, not the deepest one, nothing else on the board"
+    },
+    {
+      "file": "1_52.jpg",
+      "startSec": 112.62,
+      "text": "Ahora, en vez de un número, imagina 13 mil,",
+      "scene": "a single dot expanding and morphing into a large swarm/cloud of many tiny dots, nothing else on the board"
+    },
+    {
+      "file": "1_55.jpg",
+      "startSec": 115.64,
+      "text": "uno por cada peso y sesgo de la red.",
+      "scene": "a long vertical column list icon made of many small stacked lines, representing a big vector, nothing else on the board"
+    },
+    {
+      "file": "1_57.jpg",
+      "startSec": 117.82,
+      "text": "La misma idea sigue funcionando, solo que ahora la pendiente se llama a gradiente.",
+      "scene": "the word 'GRADIENTE' written large in casual handwritten Spanish marker letters beside a small curve sketch, nothing else on the board"
+    },
+    {
+      "file": "2_02.jpg",
+      "startSec": 122.72,
+      "text": "El gradiente negativo te dice dos cosas a la vez, hacia donde moverte para bajar más rápido y cuánto importa cada uno de esos 13 mil números.",
+      "scene": "a single arrow splitting into two labeled branches, one small compass/direction icon and one small ruler/scale icon, nothing else on the board"
+    },
+    {
+      "file": "2_10.jpg",
+      "startSec": 130.76,
+      "text": "Algunos pesos apenas mueve la aguja, otros lo cambian todo.",
+      "scene": "two small gauge dial icons side by side, one needle barely moving, the other swinging hard to one side, nothing else on the board"
+    },
+    {
+      "file": "2_14.jpg",
+      "startSec": 134.84,
+      "text": "El gradiente te dice cuáles son cuáles.",
+      "scene": "a checkmark doodled next to the hard-swinging gauge dial, nothing else on the board"
+    },
+    {
+      "file": "2_17.jpg",
+      "startSec": 137.6,
+      "text": "Así que el algoritmo entero es esto,",
+      "scene": "three small numbered circles in a row (1, 2, 3), connected by simple arrows, nothing else on the board"
+    },
+    {
+      "file": "2_19.jpg",
+      "startSec": 139.86,
+      "text": "calcula el gradiente, da un paso pequeño cuesta abajo,",
+      "scene": "a small ball on the U-shaped curve taking one small step downward, a short arrow showing the movement, nothing else on the board"
+    },
+    {
+      "file": "2_23.jpg",
+      "startSec": 143.3,
+      "text": "repite miles y miles de veces.",
+      "scene": "a sequence of several small steps drawn descending down the curve toward the bottom, nothing else on the board"
+    },
+    {
+      "file": "2_25.jpg",
+      "startSec": 145.86,
+      "text": "Eso literalmente es aprender.",
+      "scene": "the word 'APRENDER' written large again with a big checkmark beside it, nothing else on the board"
+    },
+    {
+      "file": "2_28.jpg",
+      "startSec": 148.16,
+      "text": "No imagía, no hay conciencia,",
+      "scene": "a magic wand icon and a thinking-brain icon, both with a big red X drawn over them, nothing else on the board"
+    },
+    {
+      "file": "2_30.jpg",
+      "startSec": 150.14,
+      "text": "solo una bola rodando por una montaña de 13 mil dimensiones y funciona sorprendentemente bien.",
+      "scene": "a small ball rolling down a large bumpy abstract mountain landscape doodle, nothing else on the board"
+    },
+    {
+      "file": "2_35.jpg",
+      "startSec": 155.8,
+      "text": "La red que construimos classifica bien el 96 % de dígitos que nunca ha visto.",
+      "scene": "the handwritten number '96%' written large with a checkmark and a few small digit icons scattered around it, nothing else on the board"
+    },
+    {
+      "file": "2_40.jpg",
+      "startSec": 160.84,
+      "text": "Con algunos ajustes suben el 98%. Nada mal para un puñado de matemáticas de los años 80.",
+      "scene": "the handwritten number '98%' written large with an upward arrow coming from a smaller '96%' beside it, nothing else on the board"
+    },
+    {
+      "file": "2_47.jpg",
+      "startSec": 167.4,
+      "text": "Pero aquí viene la parte incómoda. La red realmente aprendió a reconocer bordes y patrones como esperábamos?",
+      "scene": "a single hand-drawn circle with a large question mark above it and a puzzled uneasy face doodled onto it, nothing else on the board"
+    },
+    {
+      "file": "2_53.jpg",
+      "startSec": 173.7,
+      "text": "Eso te lo cuento en el próximo vídeo porque la respuesta te va a sorprender.",
+      "scene": "a small forward arrow icon doodled with a numeral '3' sketched small beside it, nothing else on the board"
+    },
+    {
+      "file": "2_57.jpg",
+      "startSec": 177.96,
+      "text": "Suscríbete si quieres verlo.",
+      "scene": "a simple hand-drawn bell icon with a forward arrow doodled next to it, a subscribe-bell style sketch, nothing else on the board"
+    }
+  ]
+}

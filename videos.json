@@ -108,5 +108,50 @@
     "width": 1920,
     "height": 1080,
     "background": "#ffffff"
+  },
+  "red-neuronal-aprende": {
+    "composition": "RedNeuronalAprende",
+    "tsx": "remotion/src/RedNeuronalAprende.tsx",
+    "manifest_dir": "channel/tecno/videos/red-neuronal-aprende",
+    "script": "channel/tecno/videos/red-neuronal-aprende/script.md",
+    "audio_static": "red-neuronal-aprende.mp3",
+    "images_subpath": "red-neuronal-aprende",
+    "naming": "timestamp",
+    "ext": "jpg",
+    "playback_rate": 1.1,
+    "fps": 30,
+    "width": 1920,
+    "height": 1080,
+    "background": "#ffffff"
+  },
+  "red-neuronal-truco": {
+    "composition": "RedNeuronalTruco",
+    "tsx": "remotion/src/RedNeuronalTruco.tsx",
+    "manifest_dir": "channel/tecno/videos/red-neuronal-truco",
+    "script": "channel/tecno/videos/red-neuronal-truco/script.md",
+    "audio_static": "red-neuronal-truco.mp3",
+    "images_subpath": "red-neuronal-truco",
+    "naming": "timestamp",
+    "ext": "jpg",
+    "playback_rate": 1.1,
+    "fps": 30,
+    "width": 1920,
+    "height": 1080,
+    "background": "#ffffff"
+  },
+  "red-neuronal-retropropagacion": {
+    "composition": "RedNeuronalRetropropagacion",
+    "tsx": "remotion/src/RedNeuronalRetropropagacion.tsx",
+    "manifest_dir": "channel/tecno/videos/red-neuronal-retropropagacion",
+    "script": "channel/tecno/videos/red-neuronal-retropropagacion/script.md",
+    "audio_static": "red-neuronal-retropropagacion.mp3",
+    "images_subpath": "red-neuronal-retropropagacion",
+    "naming": "timestamp",
+    "ext": "jpg",
+    "playback_rate": 1.1,
+    "fps": 30,
+    "width": 1920,
+    "height": 1080,
+    "background": "#ffffff"
   }
 }

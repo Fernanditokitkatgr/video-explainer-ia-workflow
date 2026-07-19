@@ -59,6 +59,14 @@ HIGGSFIELD_STYLE_BASE = os.environ.get(
     "Red glasses are the ONLY color accent. Pure white background. Minimal, clean. ",
 )
 
+# ── Gemini vía Vertex AI (imágenes) — motor por defecto desde jul-2026 ────
+# Auth por ADC (gcloud auth application-default login), no por API key — ver .env.example.
+GEMINI_VERTEX_PROJECT = os.environ.get("GEMINI_VERTEX_PROJECT", "")
+GEMINI_VERTEX_LOCATION = os.environ.get("GEMINI_VERTEX_LOCATION", "us-central1")
+GEMINI_IMAGE_MODEL_PRO = os.environ.get("GEMINI_IMAGE_MODEL_PRO", "gemini-3-pro-image-preview")
+GEMINI_IMAGE_MODEL_FLASH = os.environ.get("GEMINI_IMAGE_MODEL_FLASH", "gemini-2.5-flash-image")
+GEMINI_ASPECT_RATIO = os.environ.get("GEMINI_ASPECT_RATIO", "16:9")
+
 # ── Whisper (timestamps) ───────────────────────────────────────────
 WHISPER_ENGINE = os.environ.get("WHISPER_ENGINE", "faster")
 WHISPER_MODEL = os.environ.get("WHISPER_MODEL", "base")

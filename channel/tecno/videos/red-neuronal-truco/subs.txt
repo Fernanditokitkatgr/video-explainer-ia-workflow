@@ -1,0 +1,52 @@
+En el vídeo pasado entrenamos una red para reconocer dígitos, 96 % de aciertos, con ajustes hasta 98%, deberíamos estar celebrando,
+pero hay un problema.
+La red no aprendió lo que creíamos que había aprendido.
+Te explico.
+La esperanza original era bonita,
+que una capa detectar a bordes sueltos, que otra los juntara en círculos y líneas y que la última combinar a esos patrones en dígitos completos.
+Así que fuimos a comprobarlo.
+Visualizamos los pesos de esas neuronas ocultas,
+literalmente convertimos los números en una imagen y lo que vimos no fueron bordes limpios,
+fue casi puro ruido,
+con como mucho un par de patrones vagos en el medio.
+En un espacio de 13 mil dimensiones posibles,
+la red encontró un valle cualquiera,
+uno que clasifica bien los dígitos, pero sin entender ni un solo patron real.
+Y la prueba definitiva es todavía más incómoda.
+Dale a esta red una imagen de puro ruido aleatorio,
+ni siquiera se parece un número.
+Una red que entendiera dudaría.
+La nuestra no.
+Te dice con total confianza que ese ruido es un 5.
+Tan segura como si fuera un 5 de verdad.
+¿Por qué pasa esto?
+Porque nunca le dimos motivos para dudar. Su universo entero son dígitos perfectos en una cuadrícula pequeña.
+Nadie le enseñó lo que es, no lo sé.
+Aquí hay un experimento real que lo deja aún más claro.
+Unos investigadores cogieron una red así de buena reconociendo imágenes,
+y antes de entrenarla,
+revolvieron todas las etiquetas.
+Perro pasó a ser gato,
+gato pasó a ser avión,
+puro caos, a propósito.
+Resultado,
+la red igual conseguió memorizar el desastre entero,
+misma precisión final que con etiquetas correctas.
+O sea, con suficientes pesos, una red puede memorizar cualquier cosa,
+aunque no tengan ningún sentido.
+La pregunta incómoda es esta.
+La red encuentra patrones reales, o solo memoriza.
+Aquí está el dato que lo aclara un poco.
+Con etiquetas revoltas aprender es lentísimo.
+La curva de precisión baja casi en línea recta.
+Con etiquetas reales y datos con estructura, cuesta al principio,
+pero luego cae rápido.
+Como si la estructura real fuera más fácil de encontrar,
+que memorizar caos puro. Así que no. La red no está lista como pensábamos,
+pero tampoco es solo un loro memorizando al azar, es algo intermedio. Y honestamente, esta red de aquí es tecnología de los años 80 y 90.
+El punto de partida no la meta final.
+Aún así, que reconozca dígitos que nunca ha visto,
+sigue siendo una pasada.
+Todavía queda una pregunta enorme sin responder.
+¿Cómo exactamente calculas ese gradiente de 13 mil números?
+Eso se llama Propagación hacia atrás y es el tema del próximo vídeo. Suscríbete para no perdértelo.

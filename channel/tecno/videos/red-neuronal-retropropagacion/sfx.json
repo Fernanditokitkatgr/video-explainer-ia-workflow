@@ -1,0 +1,32 @@
+{
+  "video": "red-neuronal-retropropagacion",
+  "music": {
+    "file": "background_theme_lofi_30.mp3",
+    "prompt": "warm lo-fi chill background beat, soft mellow piano and gentle warm synth pads, light vinyl crackle texture, relaxed contemplative studious mood, no drums, no vocals, loopable, very low energy, smooth seamless start and end",
+    "duration": 30,
+    "volume": 0.1
+  },
+  "sfx": [
+    { "file": "digital_whoosh.mp3", "startSec": 0.0, "duration": 1.5, "volume": 0.13, "prompt": "quick digital whoosh transition, futuristic sweep, no music" },
+    { "file": "digital_chime.mp3", "startSec": 20.86, "duration": 1.5, "volume": 0.14, "prompt": "short bright digital notification chime, curious and clean, very short" },
+    { "file": "synth_pulse.mp3", "startSec": 36.32, "duration": 2.5, "volume": 0.1, "prompt": "pulsing synth network hum, glowing digital texture, ambient, no music" },
+    { "file": "weight_thud.mp3", "startSec": 51.24, "duration": 1.5, "volume": 0.14, "prompt": "short heavy weight thud landing on a scale, no music" },
+    { "file": "glitch_error.mp3", "startSec": 73.22, "duration": 1.5, "volume": 0.14, "prompt": "short digital glitch error sound, chaotic and broken, very short" },
+    { "file": "marker_scribble.mp3", "startSec": 102.4, "duration": 1.5, "volume": 0.11, "prompt": "quick messy marker scribbling sound on a whiteboard, short" },
+    { "file": "synth_pulse.mp3", "startSec": 130.22, "duration": 2.5, "volume": 0.1, "prompt": "pulsing synth network hum, glowing digital texture, ambient, no music" },
+    { "file": "realization_chime.mp3", "startSec": 141.28, "duration": 2, "volume": 0.15, "prompt": "short magical realization chime, bright sparkle, uplifting, very short" },
+    { "file": "digital_chime.mp3", "startSec": 195.36, "duration": 1.5, "volume": 0.14, "prompt": "short bright digital notification chime, curious and clean, very short" },
+    { "file": "dramatic_reveal.mp3", "startSec": 215.62, "duration": 2, "volume": 0.16, "prompt": "short dramatic reveal sting, cinematic impact, digital undertone" },
+    { "file": "comedic_boing.mp3", "startSec": 226.82, "duration": 1.5, "volume": 0.14, "prompt": "short comedic cartoon boing bounce sound, playful, very short" },
+    { "file": "synth_pulse.mp3", "startSec": 246.3, "duration": 2.5, "volume": 0.11, "prompt": "pulsing synth network hum, glowing digital texture, ambient, no music" },
+    { "file": "warning_beep.mp3", "startSec": 259.56, "duration": 1.5, "volume": 0.13, "prompt": "short soft warning beep, cautionary but not alarming, very short" },
+    { "file": "comedic_boing.mp3", "startSec": 288.02, "duration": 1.5, "volume": 0.13, "prompt": "short comedic cartoon boing bounce sound, playful, very short" },
+    { "file": "realization_chime.mp3", "startSec": 300.26, "duration": 2, "volume": 0.15, "prompt": "short magical realization chime, bright sparkle, uplifting, very short" },
+    { "file": "digital_chime.mp3", "startSec": 322.6, "duration": 1.5, "volume": 0.13, "prompt": "short bright digital notification chime, curious and clean, very short" },
+    { "file": "glitch_error.mp3", "startSec": 348.62, "duration": 1.5, "volume": 0.13, "prompt": "short digital glitch error sound, chaotic and broken, very short" },
+    { "file": "mystery_sting.mp3", "startSec": 358.22, "duration": 2, "volume": 0.16, "prompt": "short mysterious cliffhanger sting, tense and curious, cinematic, no music" },
+    { "file": "page_flip.mp3", "startSec": 373.22, "duration": 1.5, "volume": 0.1, "prompt": "quick paper page flip sound, short, no music" },
+    { "file": "digital_chime.mp3", "startSec": 382.08, "duration": 1.5, "volume": 0.13, "prompt": "short bright digital notification chime, curious and clean, very short" },
+    { "file": "subscribe_chime.mp3", "startSec": 396.52, "duration": 2, "volume": 0.18, "prompt": "warm cheerful subscribe notification chime, short and friendly" }
+  ]
+}

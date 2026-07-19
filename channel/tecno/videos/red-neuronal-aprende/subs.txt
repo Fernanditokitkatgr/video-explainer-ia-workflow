@@ -1,0 +1,48 @@
+En el vídeo anterior viste la estructura de una red neuronal,
+neuronas,
+capas, pesos,
+sesgos,
+un esqueleto entero listo para funcionar, pero le faltaba lo más importante,
+aprender.
+Hoy te lo cuento.
+Repaso relámpago por si se te olvidó algo.
+Nuestra red recibe 784 números, 1 por pixel.
+Los pasa por un par de capas ocultas y escúpe 10 números al final, 1 por cada dígito posible.
+El más brillante de esos 10 gana. Toda la red no es más que una función gigante,
+784 entradas,
+10 salidas,
+y unos 13 mil pesos y sesgos que puedes mover como diales.
+Al principio esos 13 mil diales están puestos al azar, así que como te imaginarás, la red es pésima.
+Le enseñas la imagen de un tres y la capa de salida responde con puro caos.
+Aquí es donde entra la primera pieza clave, la función de costo, es solo una forma de decirle a la máquina, esto está mal, muy mal.
+Compara lo que la red respondió con lo que debería haber respondido, cuanto más se parezcan menor el costo,
+cuanto más la cague mayor el costo.
+Haces esto con decenas de miles de ejemplos y sacas el promedio, eso es el costo total de la red, un solo número gigante que resume lo mala que es.
+Ahora viene la pregunta importante,
+¿cómo bajas ese número?
+Aquí entra la segunda pieza clave, el descenso de gradiente.
+Olvídate de 13 mil pesos por un segundo, imagina solo una función con un número de entrada. Quieres encontrar el valor que le da el resultado más bajo posible.
+La táctica es simple,
+mira la pendiente donde estás,
+si sube hacia la derecha, muevete a la izquierda, si sube hacia la izquierda, muevete a la derecha.
+Repite eso una y otra vez.
+Es como una pelota rodando cuesta abajo, al final cae en un valle, un mínimo local.
+Ojo, no siempre el más bajo de todos los valles posibles,
+solo el más cercano a donde empezaste.
+Ahora, en vez de un número, imagina 13 mil,
+uno por cada peso y sesgo de la red.
+La misma idea sigue funcionando, solo que ahora la pendiente se llama a gradiente.
+El gradiente negativo te dice dos cosas a la vez, hacia donde moverte para bajar más rápido y cuánto importa cada uno de esos 13 mil números.
+Algunos pesos apenas mueve la aguja, otros lo cambian todo.
+El gradiente te dice cuáles son cuáles.
+Así que el algoritmo entero es esto,
+calcula el gradiente, da un paso pequeño cuesta abajo,
+repite miles y miles de veces.
+Eso literalmente es aprender.
+No hay magia, no hay conciencia,
+solo una bola rodando por una montaña de 13 mil dimensiones y funciona sorprendentemente bien.
+La red que construimos clasifica bien el 96 % de dígitos que nunca ha visto.
+Con algunos ajustes suben el 98%. Nada mal para un puñado de matemáticas de los años 80.
+Pero aquí viene la parte incómoda. La red realmente aprendió a reconocer bordes y patrones como esperábamos?
+Eso te lo cuento en el próximo vídeo porque la respuesta te va a sorprender.
+Suscríbete si quieres verlo.

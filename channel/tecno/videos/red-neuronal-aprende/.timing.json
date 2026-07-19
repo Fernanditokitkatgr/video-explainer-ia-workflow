@@ -1,0 +1,242 @@
+[
+  {
+    "file": "0_00.jpg",
+    "startSec": 0.0,
+    "text": "En el vídeo anterior viste la estructura de una red neuronal,"
+  },
+  {
+    "file": "0_03.jpg",
+    "startSec": 3.18,
+    "text": "neuronas,"
+  },
+  {
+    "file": "0_03.jpg",
+    "startSec": 3.98,
+    "text": "capas, pesos,"
+  },
+  {
+    "file": "0_05.jpg",
+    "startSec": 5.3,
+    "text": "sesgos,"
+  },
+  {
+    "file": "0_05.jpg",
+    "startSec": 5.96,
+    "text": "un esqueleto entero listo para funcionar, pero le faltaba lo más importante,"
+  },
+  {
+    "file": "0_10.jpg",
+    "startSec": 10.38,
+    "text": "aprender."
+  },
+  {
+    "file": "0_11.jpg",
+    "startSec": 11.32,
+    "text": "Hoy te lo cuento."
+  },
+  {
+    "file": "0_13.jpg",
+    "startSec": 13.3,
+    "text": "Repaso relámpago por si se te olvidó algo."
+  },
+  {
+    "file": "0_16.jpg",
+    "startSec": 16.32,
+    "text": "Nuestra red recibe 784 números, 1 por pixel."
+  },
+  {
+    "file": "0_20.jpg",
+    "startSec": 20.54,
+    "text": "Los pasa por un par de capas ocultas y escúpe 10 números al final, 1 por cada dígito posible."
+  },
+  {
+    "file": "0_26.jpg",
+    "startSec": 26.34,
+    "text": "El más brillante de esos 10 gana. Toda la red no es más que una función gigante,"
+  },
+  {
+    "file": "0_31.jpg",
+    "startSec": 31.52,
+    "text": "784 entradas,"
+  },
+  {
+    "file": "0_33.jpg",
+    "startSec": 33.04,
+    "text": "10 salidas,"
+  },
+  {
+    "file": "0_33.jpg",
+    "startSec": 33.98,
+    "text": "y unos 13 mil pesos y sesgos que puedes mover como diales."
+  },
+  {
+    "file": "0_37.jpg",
+    "startSec": 37.96,
+    "text": "Al principio esos 13 mil diales están puestos al azar, así que como te imaginarás, la red es pésima."
+  },
+  {
+    "file": "0_44.jpg",
+    "startSec": 44.36,
+    "text": "Le enseñas la imagen de un tres y la capa de salida responde con puro caos."
+  },
+  {
+    "file": "0_49.jpg",
+    "startSec": 49.22,
+    "text": "Aquí es donde entra la primera pieza clave, la función de costo, es solo una forma de decirle a la máquina, esto está mal, muy mal."
+  },
+  {
+    "file": "0_57.jpg",
+    "startSec": 57.22,
+    "text": "Compara lo que la red respondió con lo que debería haber respondido, cuanto más se parezcan menor el costo,"
+  },
+  {
+    "file": "1_02.jpg",
+    "startSec": 62.88,
+    "text": "cuanto más la cague mayor el costo."
+  },
+  {
+    "file": "1_05.jpg",
+    "startSec": 65.52,
+    "text": "Haces esto con decenas de miles de ejemplos y sacas el promedio, eso es el costo total de la red, un solo número gigante que resume lo mala que es."
+  },
+  {
+    "file": "1_15.jpg",
+    "startSec": 75.02,
+    "text": "Ahora viene la pregunta importante,"
+  },
+  {
+    "file": "1_17.jpg",
+    "startSec": 77.0,
+    "text": "¿cómo bajas ese número?"
+  },
+  {
+    "file": "1_18.jpg",
+    "startSec": 78.52,
+    "text": "Aquí entra la segunda pieza clave, el descenso de gradiente."
+  },
+  {
+    "file": "1_22.jpg",
+    "startSec": 82.24,
+    "text": "Olvídate de 13 mil pesos por un segundo, imagina solo una función con un número de entrada. Quieres encontrar el valor que le da el resultado más bajo posible."
+  },
+  {
+    "file": "1_31.jpg",
+    "startSec": 91.54,
+    "text": "La táctica es simple,"
+  },
+  {
+    "file": "1_32.jpg",
+    "startSec": 92.92,
+    "text": "mira la pendiente donde estás,"
+  },
+  {
+    "file": "1_34.jpg",
+    "startSec": 94.54,
+    "text": "si sube hacia la derecha, muevete a la izquierda, si sube hacia la izquierda, muevete a la derecha."
+  },
+  {
+    "file": "1_40.jpg",
+    "startSec": 100.04,
+    "text": "Repite eso una y otra vez."
+  },
+  {
+    "file": "1_42.jpg",
+    "startSec": 102.0,
+    "text": "Es como una pelota rodando cuesta abajo, al final cae en un valle, un mínimo local."
+  },
+  {
+    "file": "1_46.jpg",
+    "startSec": 106.92,
+    "text": "Ojo, no siempre el más bajo de todos los valles posibles,"
+  },
+  {
+    "file": "1_50.jpg",
+    "startSec": 110.32,
+    "text": "solo el más cercano a donde empezaste."
+  },
+  {
+    "file": "1_52.jpg",
+    "startSec": 112.62,
+    "text": "Ahora, en vez de un número, imagina 13 mil,"
+  },
+  {
+    "file": "1_55.jpg",
+    "startSec": 115.64,
+    "text": "uno por cada peso y sesgo de la red."
+  },
+  {
+    "file": "1_57.jpg",
+    "startSec": 117.82,
+    "text": "La misma idea sigue funcionando, solo que ahora la pendiente se llama a gradiente."
+  },
+  {
+    "file": "2_02.jpg",
+    "startSec": 122.72,
+    "text": "El gradiente negativo te dice dos cosas a la vez, hacia donde moverte para bajar más rápido y cuánto importa cada uno de esos 13 mil números."
+  },
+  {
+    "file": "2_10.jpg",
+    "startSec": 130.76,
+    "text": "Algunos pesos apenas mueve la aguja, otros lo cambian todo."
+  },
+  {
+    "file": "2_14.jpg",
+    "startSec": 134.84,
+    "text": "El gradiente te dice cuáles son cuáles."
+  },
+  {
+    "file": "2_17.jpg",
+    "startSec": 137.6,
+    "text": "Así que el algoritmo entero es esto,"
+  },
+  {
+    "file": "2_19.jpg",
+    "startSec": 139.86,
+    "text": "calcula el gradiente, da un paso pequeño cuesta abajo,"
+  },
+  {
+    "file": "2_23.jpg",
+    "startSec": 143.3,
+    "text": "repite miles y miles de veces."
+  },
+  {
+    "file": "2_25.jpg",
+    "startSec": 145.86,
+    "text": "Eso literalmente es aprender."
+  },
+  {
+    "file": "2_28.jpg",
+    "startSec": 148.16,
+    "text": "No imagía, no hay conciencia,"
+  },
+  {
+    "file": "2_30.jpg",
+    "startSec": 150.14,
+    "text": "solo una bola rodando por una montaña de 13 mil dimensiones y funciona sorprendentemente bien."
+  },
+  {
+    "file": "2_35.jpg",
+    "startSec": 155.8,
+    "text": "La red que construimos classifica bien el 96 % de dígitos que nunca ha visto."
+  },
+  {
+    "file": "2_40.jpg",
+    "startSec": 160.84,
+    "text": "Con algunos ajustes suben el 98%. Nada mal para un puñado de matemáticas de los años 80."
+  },
+  {
+    "file": "2_47.jpg",
+    "startSec": 167.4,
+    "text": "Pero aquí viene la parte incómoda. La red realmente aprendió a reconocer bordes y patrones como esperábamos?"
+  },
+  {
+    "file": "2_53.jpg",
+    "startSec": 173.7,
+    "text": "Eso te lo cuento en el próximo vídeo porque la respuesta te va a sorprender."
+  },
+  {
+    "file": "2_57.jpg",
+    "startSec": 177.96,
+    "text": "Suscríbete si quieres verlo."
+  }
+]

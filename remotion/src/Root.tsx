@@ -7,6 +7,9 @@ import { ColonAmerica } from "./ColonAmerica";
 import { ComoFuncionaLaIA } from "./ComoFuncionaLaIA";
 import { SteveJobs } from "./SteveJobs";
 import { RedNeuronalExplicada } from "./RedNeuronalExplicada";
+import { RedNeuronalAprende } from "./RedNeuronalAprende";
+import { RedNeuronalTruco } from "./RedNeuronalTruco";
+import { RedNeuronalRetropropagacion } from "./RedNeuronalRetropropagacion";
 
 export const RemotionRoot: React.FC = () => {
   return (
@@ -71,6 +74,30 @@ export const RemotionRoot: React.FC = () => {
         id="RedNeuronalExplicada"
         component={RedNeuronalExplicada}
         durationInFrames={7860}
+        fps={30}
+        width={1920}
+        height={1080}
+      />
+      <Composition
+        id="RedNeuronalAprende"
+        component={RedNeuronalAprende}
+        durationInFrames={4980}
+        fps={30}
+        width={1920}
+        height={1080}
+      />
+      <Composition
+        id="RedNeuronalTruco"
+        component={RedNeuronalTruco}
+        durationInFrames={4470}
+        fps={30}
+        width={1920}
+        height={1080}
+      />
+      <Composition
+        id="RedNeuronalRetropropagacion"
+        component={RedNeuronalRetropropagacion}
+        durationInFrames={10970}
         fps={30}
         width={1920}
         height={1080}

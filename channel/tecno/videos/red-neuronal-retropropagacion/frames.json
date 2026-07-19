@@ -1,0 +1,600 @@
+{
+  "video": "red-neuronal-retropropagacion",
+  "style_base": "Whiteboard doodle style, black marker sketch lines on a plain white whiteboard background, simple explanatory hand-drawn diagrams and doodles, casual classroom sketch aesthetic, no photorealism, 16:9. CRITICAL TEXT RULE: prefer NO text at all unless explicitly specified below — tell the idea through doodles, arrows, symbols and numbers instead. If the scene below explicitly asks for written words, they MUST be written in perfect SPANISH, exactly as specified, in simple casual handwritten marker letters — NEVER English. CRITICAL SCOPE RULE: draw ONLY the elements described in the scene below. Do not add unrelated icons, generic business diagrams (no idea/process/result boxes, no PDCA cycles, no growth charts), or any extra decoration not explicitly mentioned.",
+  "frames": [
+    {
+      "file": "0_00.jpg",
+      "startSec": 0.0,
+      "text": "Hoy hablamos del algoritmo más importante de todo esto, la propagación hacia atrás.",
+      "scene": "the words 'PROPAGACION HACIA ATRAS' written huge in casual handwritten Spanish marker letters, centered alone on the whiteboard, nothing else"
+    },
+    {
+      "file": "0_05.jpg",
+      "startSec": 5.16,
+      "text": "Es el motor real de cómo aprende una red neuronal.",
+      "scene": "a full hand-drawn neural network diagram (three columns of connected circles) with a small gear icon pulsing over the center neuron, nothing else on the board"
+    },
+    {
+      "file": "0_08.jpg",
+      "startSec": 8.38,
+      "text": "Repaso relámpago antes de empezar, ya sabes que es una red neuronal,",
+      "scene": "a small rewind arrow icon next to a miniature three-column neural network diagram, nothing else on the board"
+    },
+    {
+      "file": "0_12.jpg",
+      "startSec": 12.4,
+      "text": "ya sabes cómo propaga información hacia adelante.",
+      "scene": "a neural network diagram with arrows flowing left to right across all connections, nothing else on the board"
+    },
+    {
+      "file": "0_15.jpg",
+      "startSec": 15.02,
+      "text": "Y ya viste el descenso degradiente,",
+      "scene": "a simple U-shaped valley curve graph on small hand-drawn axes, nothing else on the board"
+    },
+    {
+      "file": "0_17.jpg",
+      "startSec": 17.06,
+      "text": "mover 13 .000 diales para bajar el costo lo más rápido posible.",
+      "scene": "a large panel of many tiny hand-drawn dials and knobs with the handwritten number '13000' labeled above it, nothing else on the board"
+    },
+    {
+      "file": "0_20.jpg",
+      "startSec": 20.86,
+      "text": "Pues bien, la retropropagación es el algoritmo que calcula exactamente ese movimiento,",
+      "scene": "the same dial panel with one bold arrow pointing into it, nothing else on the board"
+    },
+    {
+      "file": "0_26.jpg",
+      "startSec": 26.12,
+      "text": "cómo mover esos 13 .000 números uno por uno. Y sí,",
+      "scene": "a long vertical column of small numbers each with a tiny arrow beside it, nothing else on the board"
+    },
+    {
+      "file": "0_30.jpg",
+      "startSec": 30.06,
+      "text": "pensar entre 13 .000 dimensiones a la vez es imposible para un cerebro humano.",
+      "scene": "a simple stick figure with a dizzy spiral-eyes expression standing in front of a huge cloud of tiny scattered dots, nothing else on the board"
+    },
+    {
+      "file": "0_34.jpg",
+      "startSec": 34.06,
+      "text": "Por suerte hay otra forma de pensarlo.",
+      "scene": "a simple hand-drawn lightbulb icon, nothing else on the board"
+    },
+    {
+      "file": "0_36.jpg",
+      "startSec": 36.32,
+      "text": "Cada número de ese agradiente te dice una cosa muy simple, que tan sensible es el costo a ese peso en concreto.",
+      "scene": "a single circle with a small thermometer/sensitivity gauge icon beside it, nothing else on the board"
+    },
+    {
+      "file": "0_43.jpg",
+      "startSec": 43.5,
+      "text": "Un ejemplo rápido,",
+      "scene": "a simple magnifying glass icon over a small pencil, nothing else on the board"
+    },
+    {
+      "file": "0_44.jpg",
+      "startSec": 44.78,
+      "text": "imagina que calculas la agradiente y un peso te da 3x2, otro peso en cambio te da 0x1.",
+      "scene": "two small dial icons side by side, one labeled '3.2' and the other labeled '0.1' in handwritten numbers, nothing else on the board"
+    },
+    {
+      "file": "0_51.jpg",
+      "startSec": 51.24,
+      "text": "Eso significa que el costo es 32 veces más sensible al primer peso que al segundo. Mover el primero un poco cambia mucho el resultado.",
+      "scene": "a big hand-drawn balance scale tipping heavily down on one side labeled '32x', nothing else on the board"
+    },
+    {
+      "file": "0_59.jpg",
+      "startSec": 59.8,
+      "text": "Mover el segundo casi nada.",
+      "scene": "a small dial with a tiny barely-moving arrow beside it, nothing else on the board"
+    },
+    {
+      "file": "1_02.jpg",
+      "startSec": 62.12,
+      "text": "Vale, con eso claro, vamos al mecanismo real paso a paso.",
+      "scene": "a stick figure rolling up its sleeves next to three small numbered step icons (1, 2, 3), nothing else on the board"
+    },
+    {
+      "file": "1_05.jpg",
+      "startSec": 65.74,
+      "text": "Nos olvidamos de la notación matemática por completo, solo vamos a razonar con un único ejemplo de entrenamiento, la imagen de un 2.",
+      "scene": "a tangle of small subscript letters and symbols crossed out with a big red X, nothing else on the board"
+    },
+    {
+      "file": "1_13.jpg",
+      "startSec": 73.22,
+      "text": "La red, sin entrenar todavía, es cupe resultados casi aleatorios.",
+      "scene": "a full neural network diagram with the output layer circles filled with chaotic messy scribbles instead of clean shapes, nothing else on the board"
+    },
+    {
+      "file": "1_17.jpg",
+      "startSec": 77.38,
+      "text": "Algo como 0 ,5, 0 ,8, 0 ,2, puro ruido. No podemos tocar esas activaciones directamente,",
+      "scene": "three output circles with the handwritten numbers '0.5', '0.8', '0.2' scattered messily around them, nothing else on the board"
+    },
+    {
+      "file": "1_24.jpg",
+      "startSec": 84.56,
+      "text": "solo controlamos los pesos y los sesgos.",
+      "scene": "a large panel of tiny dials and knobs with a padlock icon drawn over a separate row of small lightbulbs beside it, nothing else on the board"
+    },
+    {
+      "file": "1_27.jpg",
+      "startSec": 87.02,
+      "text": "Pero si podemos anotar que cambios nos gustaría ver en esa última capa. Como queremos que la red diga 2, el valor de esa neurona debería subir,",
+      "scene": "an arrow pointing to the output layer of a network diagram with a small sticky-note and pencil icon attached, nothing else on the board"
+    },
+    {
+      "file": "1_35.jpg",
+      "startSec": 95.4,
+      "text": "y todos los demás deberían bajar. Cuanto más lejos esté un valor de donde debería estar, más importante es corregirlo.",
+      "scene": "one glowing bold circle in the output column labeled with the handwritten digit '2', with downward arrows on the other dimmer circles, nothing else on the board"
+    },
+    {
+      "file": "1_42.jpg",
+      "startSec": 102.4,
+      "text": "Centrémonos solo en la neurona del 2. ¿Cómo aumentamos su activación?",
+      "scene": "a single circle with a magnifying glass zoomed in around it, nothing else on the board"
+    },
+    {
+      "file": "1_46.jpg",
+      "startSec": 106.48,
+      "text": "Recuerda, activación es una suma ponderada de la capa anterior, más un sesgo metida en una función de apachurramiento.",
+      "scene": "one neuron circle receiving several weighted arrows plus a small battery icon labeled '+b', feeding into a small S-curve squashing icon, nothing else on the board"
+    },
+    {
+      "file": "1_53.jpg",
+      "startSec": 113.54,
+      "text": "Así que hay tres palancas disponibles,",
+      "scene": "three arrows branching out from one neuron, each ending in a different tiny icon: a battery, a dial, and a row of small lightbulbs, nothing else on the board"
+    },
+    {
+      "file": "1_55.jpg",
+      "startSec": 115.72,
+      "text": "subir el sesgo,",
+      "scene": "a single battery icon with a bold upward arrow above it, nothing else on the board"
+    },
+    {
+      "file": "1_56.jpg",
+      "startSec": 116.8,
+      "text": "subir los pesos o cambiar las activaciones de la capa anterior.",
+      "scene": "a dial icon with an upward arrow next to a row of small lightbulbs also with an upward arrow, nothing else on the board"
+    },
+    {
+      "file": "2_00.jpg",
+      "startSec": 120.6,
+      "text": "Vamos con los pesos primero.",
+      "scene": "a spotlight cone shining down onto a single dial icon, nothing else on the board"
+    },
+    {
+      "file": "2_02.jpg",
+      "startSec": 122.42,
+      "text": "No todos los pesos pesan igual,",
+      "scene": "a row of dials of clearly different sizes, some big some small, nothing else on the board"
+    },
+    {
+      "file": "2_04.jpg",
+      "startSec": 124.26,
+      "text": "nunca mejor dicho.",
+      "scene": "a single bold hand-drawn exclamation mark, nothing else on the board"
+    },
+    {
+      "file": "2_05.jpg",
+      "startSec": 125.54,
+      "text": "Las conexiones con neuronas ya muy brillantes en la capa anterior tienen más impacto.",
+      "scene": "one bright bulb connected by a thick bold arrow to a neuron circle, and one dim bulb connected by a thin faint arrow to the same neuron, nothing else on the board"
+    },
+    {
+      "file": "2_10.jpg",
+      "startSec": 130.22,
+      "text": "Subir ese peso mueve más la aguja que subir un peso conectado a una neurona apagada. Dato curioso, esto se parece a una idea real de neurociencia, la teoría heavyana,",
+      "scene": "a small brain icon with a lightning bolt zapping out of it, nothing else on the board"
+    },
+    {
+      "file": "2_21.jpg",
+      "startSec": 141.28,
+      "text": "las neuronas que se activan juntas se conectan juntas. Aquí pasa algo parecido, las neuronas más activas y las que queremos activar más, se refuerzan entre sí.",
+      "scene": "two neuron circles connected by a line that is visibly getting thicker/bolder between them, nothing else on the board"
+    },
+    {
+      "file": "2_30.jpg",
+      "startSec": 150.66,
+      "text": "Ojo, esto es solo una analogía, no una prueba de que las redes artificiales funcionen como el cerebro real, pero mola señalarlo.",
+      "scene": "a red asterisk warning icon next to a simple shrugging stick figure, nothing else on the board"
+    },
+    {
+      "file": "2_38.jpg",
+      "startSec": 158.1,
+      "text": "La tercera palanca, cambiar las activaciones de la capa anterior.",
+      "scene": "a single arrow spotlighted alone among two faded/greyed out arrows, nothing else on the board"
+    },
+    {
+      "file": "2_41.jpg",
+      "startSec": 161.86,
+      "text": "Si todo lo conectado con peso positivo se vuelve más brillante y lo conectado con peso negativo se apaga, esa neurona del dos se activa más.",
+      "scene": "a row of small lightbulbs in a previous layer, some brightening with arrows pointing up and some dimming with arrows pointing down, nothing else on the board"
+    },
+    {
+      "file": "2_49.jpg",
+      "startSec": 169.86,
+      "text": "Y otra vez, los cambios más eficientes son proporcionales al tamaño de esos pesos.",
+      "scene": "the same row of lightbulbs with arrow sizes clearly proportional to nearby dial sizes, nothing else on the board"
+    },
+    {
+      "file": "2_55.jpg",
+      "startSec": 175.12,
+      "text": "El problema es que tampoco controlamos esas activaciones directamente,",
+      "scene": "a padlock icon drawn over a row of small lightbulbs, nothing else on the board"
+    },
+    {
+      "file": "2_58.jpg",
+      "startSec": 178.8,
+      "text": "solo anotamos qué querríamos que pasara ahí.",
+      "scene": "a small notepad icon with a pencil writing on it, nothing else on the board"
+    },
+    {
+      "file": "3_01.jpg",
+      "startSec": 181.52,
+      "text": "Pero espera,",
+      "scene": "a simple hand raised in a 'stop/wait' gesture, nothing else on the board"
+    },
+    {
+      "file": "3_02.jpg",
+      "startSec": 182.26,
+      "text": "hay más.",
+      "scene": "a single bold hand-drawn plus sign, nothing else on the board"
+    },
+    {
+      "file": "3_03.jpg",
+      "startSec": 183.2,
+      "text": "Eso es solo lo que quiere la neurona del dos.",
+      "scene": "a single neuron circle labeled '2' with a small speech bubble above it, nothing else on the board"
+    },
+    {
+      "file": "3_05.jpg",
+      "startSec": 185.6,
+      "text": "Las otras nueve neuronas de salida también tienen sus propias exigencias para esa misma capa anterior. Aquí es exactamente donde aparece la propagación hacia atrás,",
+      "scene": "nine small neuron circles each with their own tiny speech bubble, all with arrows pointing down to the same row of circles below, nothing else on the board"
+    },
+    {
+      "file": "3_15.jpg",
+      "startSec": 195.36,
+      "text": "sumas todos esos deseos de las diez neuronas de salida a la vez.",
+      "scene": "many arrows from a row of ten circles all converging downward into a single row of circles beneath them, nothing else on the board"
+    },
+    {
+      "file": "3_19.jpg",
+      "startSec": 199.4,
+      "text": "Y el resultado es una lista de ajustes deseados para toda la penúltima capa.",
+      "scene": "a simple checklist icon with several small checkmarked lines, nothing else on the board"
+    },
+    {
+      "file": "3_24.jpg",
+      "startSec": 204.76,
+      "text": "¿Y ahora qué?",
+      "scene": "a large hand-drawn question mark alone on the whiteboard, nothing else"
+    },
+    {
+      "file": "3_26.jpg",
+      "startSec": 206.3,
+      "text": "Repite exactamente el mismo proceso,",
+      "scene": "a simple circular repeat/loop arrow icon, nothing else on the board"
+    },
+    {
+      "file": "3_28.jpg",
+      "startSec": 208.72,
+      "text": "pero una capa más atrás.",
+      "scene": "a neural network diagram with one layer, further back than before, highlighted with a glowing outline, nothing else on the board"
+    },
+    {
+      "file": "3_30.jpg",
+      "startSec": 210.3,
+      "text": "Y otra vez,",
+      "scene": "a simple circular repeat/loop arrow icon, nothing else on the board"
+    },
+    {
+      "file": "3_31.jpg",
+      "startSec": 211.24,
+      "text": "y otra,",
+      "scene": "a simple circular repeat/loop arrow icon, slightly bigger and bolder than before, nothing else on the board"
+    },
+    {
+      "file": "3_32.jpg",
+      "startSec": 212.24,
+      "text": "retrocediendo por toda la red capa por capa.",
+      "scene": "a full neural network diagram with one big bold arrow sweeping backward from the output layer toward the input layer, passing through each column, nothing else on the board"
+    },
+    {
+      "file": "3_35.jpg",
+      "startSec": 215.62,
+      "text": "Eso es literalmente propagar hacia atrás,",
+      "scene": "the words 'PROPAGACION HACIA ATRAS' written large in casual handwritten Spanish marker letters beside a bold backward arrow, nothing else on the board"
+    },
+    {
+      "file": "3_38.jpg",
+      "startSec": 218.46,
+      "text": "empujar los ajustes deseados desde la salida hasta la entrada Pero espera, todavía falta una pieza.",
+      "scene": "a small unfinished jigsaw puzzle piece icon with a warning triangle beside it, nothing else on the board"
+    },
+    {
+      "file": "3_44.jpg",
+      "startSec": 224.42,
+      "text": "Si solo escucháramos a este único dos,",
+      "scene": "a single handwritten digit '2' circled alone and spotlighted, nothing else on the board"
+    },
+    {
+      "file": "3_46.jpg",
+      "startSec": 226.82,
+      "text": "la red se obsesionaría con clasificar todo como un dos.",
+      "scene": "a row of different handwritten digits (0, 1, 2, 3...) each with an arrow pointing toward a single circled '2', nothing else on the board"
+    },
+    {
+      "file": "3_50.jpg",
+      "startSec": 230.48,
+      "text": "Así que repites este mismo proceso para cada ejemplo de entrenamiento,",
+      "scene": "a stack of many different handwritten digit images queued up in a row, nothing else on the board"
+    },
+    {
+      "file": "3_54.jpg",
+      "startSec": 234.5,
+      "text": "miles y miles de dígitos distintos,",
+      "scene": "a tall stack of handwritten digit images, very large pile, nothing else on the board"
+    },
+    {
+      "file": "3_56.jpg",
+      "startSec": 236.9,
+      "text": "cada uno con su propia opinión sobre cómo mover los pesos.",
+      "scene": "each digit image in a small stack with its own tiny arrow icon beside it, nothing else on the board"
+    },
+    {
+      "file": "4_00.jpg",
+      "startSec": 240.38,
+      "text": "Y al final, promedias todos esos deseos.",
+      "scene": "many small arrows converging into one single bold averaged arrow, nothing else on the board"
+    },
+    {
+      "file": "4_03.jpg",
+      "startSec": 243.44,
+      "text": "Ese promedio de ajustes es, básicamente,",
+      "scene": "a bold hand-drawn equals sign with a downward arrow beneath it, nothing else on the board"
+    },
+    {
+      "file": "4_06.jpg",
+      "startSec": 246.3,
+      "text": "el negativo del agradiente que veníamos persiguiendo. Si entendiste por qué unos cambios pesan más que otros y cómo se suman entre capas,",
+      "scene": "a single bold arrow labeled with a small handwritten minus sign and a checkmark beside it, nothing else on the board"
+    },
+    {
+      "file": "4_14.jpg",
+      "startSec": 254.2,
+      "text": "ya entiendes la mecánica real de la retro -propagación.",
+      "scene": "a simple lightbulb icon with a checkmark beside it, nothing else on the board"
+    },
+    {
+      "file": "4_17.jpg",
+      "startSec": 257.62,
+      "text": "Ahora un problema práctico.",
+      "scene": "a simple wrench and gear icon together, nothing else on the board"
+    },
+    {
+      "file": "4_19.jpg",
+      "startSec": 259.56,
+      "text": "Sumar la influencia de decenas de miles de ejemplos en cada paso es carísimo computacionalmente.",
+      "scene": "a small snail icon crawling beside a huge tall stack of images, nothing else on the board"
+    },
+    {
+      "file": "4_25.jpg",
+      "startSec": 265.86,
+      "text": "Así que en la práctica se hace un truquito.",
+      "scene": "a lightbulb icon next to a small wrench, nothing else on the board"
+    },
+    {
+      "file": "4_28.jpg",
+      "startSec": 268.18,
+      "text": "Revolves todos tus datos.",
+      "scene": "a shuffle icon: two overlapping cards with curved swap arrows, nothing else on the board"
+    },
+    {
+      "file": "4_29.jpg",
+      "startSec": 269.98,
+      "text": "Los divides en minilotes,",
+      "scene": "a stack of cards being divided into several small separate groups, nothing else on the board"
+    },
+    {
+      "file": "4_31.jpg",
+      "startSec": 271.6,
+      "text": "digamos, de 100 ejemplos cada uno.",
+      "scene": "one small group of cards labeled with the handwritten number '100', nothing else on the board"
+    },
+    {
+      "file": "4_33.jpg",
+      "startSec": 273.84,
+      "text": "Calculas un paso de descenso usando solo ese minilote. No es la agradiente perfecta, pero es una muy buena aproximación y muchísimo más rápida.",
+      "scene": "an arrow from one small card group pointing down into a short single step on a downhill slope, nothing else on the board"
+    },
+    {
+      "file": "4_43.jpg",
+      "startSec": 283.5,
+      "text": "Si dibujaras el camino que sigue la red por la superficie de costo con este método,",
+      "scene": "a bumpy hand-drawn hill/terrain landscape with a winding path line drawn across it, nothing else on the board"
+    },
+    {
+      "file": "4_48.jpg",
+      "startSec": 288.02,
+      "text": "parecería un borracho tan valeándose cuesta abajo.",
+      "scene": "a stumbling stick figure zigzagging unevenly down a bumpy hill, nothing else on the board"
+    },
+    {
+      "file": "4_51.jpg",
+      "startSec": 291.12,
+      "text": "Pasos rápidos,",
+      "scene": "several short quick arrows in a row, nothing else on the board"
+    },
+    {
+      "file": "4_52.jpg",
+      "startSec": 292.28,
+      "text": "dirección no perfecta.",
+      "scene": "one single slightly crooked wobbly arrow, nothing else on the board"
+    },
+    {
+      "file": "4_54.jpg",
+      "startSec": 294.08,
+      "text": "En vez de alguien calculando milimétricamente cada paso antes de moverse.",
+      "scene": "a careful precise stick figure holding a ruler and compass, with one slow straight arrow drawn beneath it, nothing else on the board"
+    },
+    {
+      "file": "4_58.jpg",
+      "startSec": 298.54,
+      "text": "Esta técnica tiene nombre.",
+      "scene": "a small nameplate/tag icon with blank lines suggesting a label, nothing else on the board"
+    },
+    {
+      "file": "5_00.jpg",
+      "startSec": 300.26,
+      "text": "Descenso de agradiente estocástico.",
+      "scene": "the words 'DESCENSO DE GRADIENTE ESTOCASTICO' written large in casual handwritten Spanish marker letters, nothing else on the board"
+    },
+    {
+      "file": "5_02.jpg",
+      "startSec": 302.66,
+      "text": "Es literalmente cómo se entrena casi cualquier red neuronal moderna.",
+      "scene": "a neural network diagram with a bold checkmark and a small star badge beside it, nothing else on the board"
+    },
+    {
+      "file": "5_07.jpg",
+      "startSec": 307.06,
+      "text": "Repasemos todo, porque han pasado muchas cosas.",
+      "scene": "a simple clipboard icon with a short checklist of lines, nothing else on the board"
+    },
+    {
+      "file": "5_10.jpg",
+      "startSec": 310.2,
+      "text": "La retropropagación calcula como un ejemplo de entrenamiento,",
+      "scene": "a single handwritten digit '2' with arrows pointing to a small dial and battery icon, nothing else on the board"
+    },
+    {
+      "file": "5_14.jpg",
+      "startSec": 314.04,
+      "text": "quiere mover cada peso y sesgo.",
+      "scene": "a dial icon and a battery icon side by side, nothing else on the board"
+    },
+    {
+      "file": "5_16.jpg",
+      "startSec": 316.24,
+      "text": "No solo si debes subir o bajar,",
+      "scene": "a bold up arrow and down arrow side by side, nothing else on the board"
+    },
+    {
+      "file": "5_18.jpg",
+      "startSec": 318.1,
+      "text": "sino cuánto, en proporción,",
+      "scene": "a small ruler/proportion scale icon, nothing else on the board"
+    },
+    {
+      "file": "5_19.jpg",
+      "startSec": 319.88,
+      "text": "para bajar el costo lo más rápido posible.",
+      "scene": "a bold arrow pointing down into a valley curve, nothing else on the board"
+    },
+    {
+      "file": "5_22.jpg",
+      "startSec": 322.6,
+      "text": "Un paso de descenso de gradiente real",
+      "scene": "a simple U-shaped valley curve graph on small hand-drawn axes, nothing else on the board"
+    },
+    {
+      "file": "5_25.jpg",
+      "startSec": 325.23,
+      "text": "promediaría esto sobre todos tus ejemplos,",
+      "scene": "many arrows from a large pile of images all averaging into one single arrow, nothing else on the board"
+    },
+    {
+      "file": "5_27.jpg",
+      "startSec": 327.52,
+      "text": "pero por eficiencia usamos minilotes al azar uno por paso.",
+      "scene": "a shuffled deck of cards with one single arrow pointing out of it, nothing else on the board"
+    },
+    {
+      "file": "5_31.jpg",
+      "startSec": 331.76,
+      "text": "Repitiendo esto una y otra vez, la red converge hacia un mínimo local del costo y termina siendo un buen trabajo con los ejemplos que ha visto.",
+      "scene": "a circular repeat/loop arrow icon leading into a small ball settling at the bottom of a valley curve, with a checkmark beside it, nothing else on the board"
+    },
+    {
+      "file": "5_41.jpg",
+      "startSec": 341.14,
+      "text": "Con todo esto, cada línea de código detrás de la retropropagación corresponde algo que ya entiendes, aunque sea de forma intuitiva.",
+      "scene": "simple code bracket symbols '</>' transforming into a small dial icon and valley icon beside them, nothing else on the board"
+    },
+    {
+      "file": "5_48.jpg",
+      "startSec": 348.62,
+      "text": "Pero una cosa es entender las matemáticas y otra muy distinta es programarla sin liarte con la notación.",
+      "scene": "a tangled knot of small subscript symbols and squiggly lines, nothing else on the board"
+    },
+    {
+      "file": "5_55.jpg",
+      "startSec": 355.24,
+      "text": "Ahí es donde de verdad se complica todo.",
+      "scene": "the same tangled knot of symbols with a frustrated stick figure face beside it, nothing else on the board"
+    },
+    {
+      "file": "5_58.jpg",
+      "startSec": 358.22,
+      "text": "Para quien quiera ir más profundo, el próximo vídeo entra en el cálculo real detrás de todo esto.",
+      "scene": "a forward arrow with the handwritten numeral '5' and a small integral/calculus symbol icon beside it, nothing else on the board"
+    },
+    {
+      "file": "6_03.jpg",
+      "startSec": 363.56,
+      "text": "Las mismas ideas, pero con las fórmulas completas.",
+      "scene": "a small dial icon and arrow icon beside a small handwritten sigma symbol, nothing else on the board"
+    },
+    {
+      "file": "6_07.jpg",
+      "startSec": 367.1,
+      "text": "Antes de cerrar una cosa importante que aplica a todo el aprendizaje automático, no sólo a redes neuronales.",
+      "scene": "a large outer circle labeled loosely around a small neural network diagram inside it, suggesting a bigger umbrella category, nothing else on the board"
+    },
+    {
+      "file": "6_13.jpg",
+      "startSec": 373.22,
+      "text": "Nada de esto funciona sin muchísimos datos de entrenamiento.",
+      "scene": "a tall stack of labeled folder icons, nothing else on the board"
+    },
+    {
+      "file": "6_17.jpg",
+      "startSec": 377.36,
+      "text": "Los dígitos escritos a mano son un ejemplo perfecto porque existe emenist,",
+      "scene": "the word 'MNIST' written large in casual handwritten letters beside a small grid of simple handwritten digit doodles, nothing else on the board"
+    },
+    {
+      "file": "6_22.jpg",
+      "startSec": 382.08,
+      "text": "miles de ejemplos ya etiquetados por humanos.",
+      "scene": "several small handwritten digit doodles each with a small tag/label icon attached, nothing else on the board"
+    },
+    {
+      "file": "6_25.jpg",
+      "startSec": 385.1,
+      "text": "En cualquier proyecto real deía,",
+      "scene": "a stick figure scratching its head beside a stack of folder icons, nothing else on the board"
+    },
+    {
+      "file": "6_27.jpg",
+      "startSec": 387.2,
+      "text": "conseguir datos etiquetados de calidad suele ser el reto más grande de todos. Y así es paso a paso como una red neuronal aprende de verdad.",
+      "scene": "a big red exclamation mark over a tall stack of folder icons, nothing else on the board"
+    },
+    {
+      "file": "6_36.jpg",
+      "startSec": 396.52,
+      "text": "Suscríbete si quieres ver las matemáticas completas en el próximo vídeo.",
+      "scene": "a simple hand-drawn bell icon with a forward arrow and the handwritten numeral '5' beside it, a subscribe-bell style sketch, nothing else on the board"
+    }
+  ]
+}
