@@ -38,10 +38,10 @@ except ImportError:
 
 import config
 
-# Modelos NO disponibles todavía en Vertex AI para este proyecto (probado jul-2026, dan 404):
-# gemini-3-pro-image-preview, gemini-3-pro-image. Solo "flash" confirmado funcionando.
-VERTEX_PROJECT = "project-579f4a95-abb7-4062-9b4"
-VERTEX_LOCATION = "us-central1"
+# Gotcha (jul-2026): gemini-3-pro-image-preview SOLO responde con location="global" en
+# Vertex — con cualquier región concreta (us-central1, us-east5, europe-west4) da 404
+# "not found or your project does not have access", que parece un error de acceso pero
+# es en realidad un problema de región. gemini-2.5-flash-image sí funciona en regional.
 
 
 def load_frames(cfg: dict) -> tuple[str, list[dict]]:
@@ -104,8 +104,13 @@ def main() -> None:
     parser.add_argument("--test", type=int, help="Solo genera las primeras N imágenes (comparar calidad)")
     args = parser.parse_args()
 
-    model = config.GEMINI_IMAGE_MODEL_PRO if args.model == "pro" else config.GEMINI_IMAGE_MODEL_FLASH
-    client = genai.Client(vertexai=True, project=VERTEX_PROJECT, location=VERTEX_LOCATION)
+    if args.model == "pro":
+        model = config.GEMINI_IMAGE_MODEL_PRO
+        location = config.GEMINI_VERTEX_LOCATION_PRO
+    else:
+        model = config.GEMINI_IMAGE_MODEL_FLASH
+        location = config.GEMINI_VERTEX_LOCATION
+    client = genai.Client(vertexai=True, project=config.GEMINI_VERTEX_PROJECT, location=location)
 
     cfg = config.get_video(args.video)
     style_base, frames = load_frames(cfg)
@@ -115,7 +120,7 @@ def main() -> None:
     end = args.start + args.test if args.test else len(frames)
     subset = frames[args.start:end]
     total = len(subset)
-    print(f"Modelo: {model} (Vertex AI, proyecto {VERTEX_PROJECT}) — {total} imágenes")
+    print(f"Modelo: {model} (Vertex AI, proyecto {config.GEMINI_VERTEX_PROJECT}, location={location}) — {total} imágenes")
 
     for i, fr in enumerate(subset, start=1):
         print(f"[{i}/{total}] {fr['file']}")

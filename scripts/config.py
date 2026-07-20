@@ -63,6 +63,9 @@ HIGGSFIELD_STYLE_BASE = os.environ.get(
 # Auth por ADC (gcloud auth application-default login), no por API key — ver .env.example.
 GEMINI_VERTEX_PROJECT = os.environ.get("GEMINI_VERTEX_PROJECT", "")
 GEMINI_VERTEX_LOCATION = os.environ.get("GEMINI_VERTEX_LOCATION", "us-central1")
+# gemini-3-pro-image-preview solo se sirve en location="global" en Vertex (probado jul-2026;
+# da 404 en us-central1/us-east5/europe-west4). gemini-2.5-flash-image sí funciona en regional.
+GEMINI_VERTEX_LOCATION_PRO = os.environ.get("GEMINI_VERTEX_LOCATION_PRO", "global")
 GEMINI_IMAGE_MODEL_PRO = os.environ.get("GEMINI_IMAGE_MODEL_PRO", "gemini-3-pro-image-preview")
 GEMINI_IMAGE_MODEL_FLASH = os.environ.get("GEMINI_IMAGE_MODEL_FLASH", "gemini-2.5-flash-image")
 GEMINI_ASPECT_RATIO = os.environ.get("GEMINI_ASPECT_RATIO", "16:9")
