@@ -25,8 +25,22 @@ sincronización, coste y fiabilidad de APIs de terceros — documentados abajo e
 - **Generación de contenido guiada por reglas de estilo**: prompts de imagen con reglas anti-texto-
   en-inglés y anti-diagramas-genéricos para forzar consistencia visual de marca en un modelo
   generativo que por defecto no la respeta.
-- **Automatización de publicación**: metadata SEO (título, descripción, capítulos calculados desde
-  timestamps reales, tags) y setup de canal completo vía YouTube Data API v3.
+- **Automatización de publicación con control de calidad y HITL**: metadata SEO (título,
+  descripción, capítulos calculados desde timestamps reales, tags) generada directamente desde
+  la receta del vídeo y volcada a la subida sin copiar/pegar a mano; un agente revisor automático
+  (`/video-reviewer`) hace QC de consistencia imagen/guion y sincronía de audio antes de que el
+  humano dé el único visto bueno para publicar.
+- **Publicación programada nativa, sin cron.** Cola de publicación (`publish_queue.py`) que
+  reserva un hueco diario y sube el vídeo ya con `publishAt` fijado — YouTube lo hace público él
+  solo a esa hora exacta, sin depender de ningún proceso corriendo en ese momento.
+- **Aislamiento de credenciales multi-canal/multi-colaborador**: cada canal/colaborador configura
+  su propio proyecto de Google Cloud + cliente OAuth (modo Testing, usuario de prueba propio),
+  documentado paso a paso para que un equipo con varios canales no comparta credenciales entre
+  cuentas de Google distintas.
+- **Degradación controlada ante fallos de proveedor de IA, sin bloquear la entrega.** Cuando un
+  modelo de imagen premium se queda sin cuota a mitad de tanda (ver más abajo), el pipeline no se
+  detiene: cae a un motor alternativo para completar el vídeo y lo deja explícitamente marcado en
+  el informe de revisión — nunca oculta una degradación de calidad al usuario final.
 
 ---
 
@@ -40,7 +54,10 @@ flowchart LR
     D --> E["Remotion\nensamblado + render"]
     E --> F["ElevenLabs Sound Gen\nSFX + musica"]
     F --> G["Miniatura + SEO\nYouTube Data API v3"]
-    G --> H(["MP4 publicado"])
+    G --> R["Agente revisor\nQC imagen/guion/audio"]
+    R --> H{"HITL\n¿publicar?"}
+    H -->|si| Q["Cola de publicacion\npublishAt programado"]
+    Q --> P(["MP4 publicado en YouTube"])
 ```
 
 Cada flecha es un paso reanudable de forma independiente — si se agotan los créditos de la API de
@@ -58,7 +75,8 @@ retomar, sin repetir trabajo ya pagado.
 | 🎨 Imágenes | **Gemini 2.5/3 Pro Image (Vertex AI)** + **Higgsfield** | Motor dual — Vertex AI por coste, Higgsfield como fallback |
 | 🔊 Audio | **ElevenLabs Sound Generation** | SFX puntuales + música de fondo en loop |
 | 🎬 Montaje | **Remotion** (React + TypeScript) | Composición de vídeo declarativa, render programático |
-| 📊 Publicación | **YouTube Data API v3** | Subida, SEO, packaging de canal, todo sin YouTube Studio manual |
+| 📊 Publicación | **YouTube Data API v3** | Subida, SEO, subtítulos, packaging de canal, `publishAt` programado — todo sin YouTube Studio manual |
+| 🔍 QC | Skill de revisión propia (`/video-reviewer`) | Muestreo visual + estructural antes del único gate humano de publicación |
 
 ---
 
@@ -80,6 +98,12 @@ retomar, sin repetir trabajo ya pagado.
 │   └── src/                      ← una composición .tsx por vídeo, registradas en Root.tsx
 ├── channel/<canal>/videos/<video>/
 │   └── script.md · frames.json · sfx.json · seo.md · state.json · subs.txt   ← la "receta" versionada
+├── scratch-yt/
+│   ├── upload_youtube.py        ← subida + thumbnail + subtítulos, con --publish-at programado
+│   ├── publish_queue.py         ← cola diaria de publicación (un vídeo/día a hora fija)
+│   ├── publish_from_recipe.py   ← parsea seo.md y publica sin copiar/pegar metadata a mano
+│   └── GUIA-COLABORADOR-YOUTUBE.md  ← setup de credenciales propio por canal/colaborador
+├── .claude/skills/video-reviewer/   ← QC automático post-render antes del HITL de publicación
 └── agentic-channel-analytics/    ← generación de guiones + auditoría de canal basada en un benchmark
 ```
 
@@ -136,6 +160,17 @@ Una selección de los más representativos — el resto está documentado en det
   redondear al mismo `M_SS.jpg` (ej. `134.16s` y `134.96s` → ambos `2_14.jpg`), sobrescribiendo en
   silencio una imagen ya generada y pagada — deduplicación automática con sufijo tras cada
   resincronización.
+- **Cuota de un modelo premium agotada a media tanda, en las 4 regiones a la vez.** Generando 70
+  imágenes con `gemini-3-pro-image-preview`, la 36ª empezó a devolver 404 en `global`,
+  `us-central1`, `us-east5` y `europe-west4` simultáneamente — no era el gotcha de región ya
+  conocido (eso daba 404 solo en regiones concretas), sino cuota de proyecto agotada para ese
+  modelo preview en concreto. Se resolvió completando el resto con el motor secundario (Flash) en
+  vez de bloquear la entrega, dejándolo explícito en el informe de revisión — nunca se mezclan
+  motores en silencio sin decírselo a quien decide publicar.
+- **`captions.insert` (subtítulos) da 403 `insufficientPermissions` con el scope `youtube` que
+  basta para subir vídeo/miniatura.** Necesita además `youtube.force-ssl` — un scope separado no
+  documentado de forma obvia junto al resto de operaciones de `videos.insert`, hace falta
+  reautenticar con ambos scopes a la vez si el token ya existía solo con el primero.
 
 ---
 
