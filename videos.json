@@ -168,5 +168,20 @@
     "width": 1920,
     "height": 1080,
     "background": "#ffffff"
+  },
+  "el-error-de-los-ordenadores-de-ia": {
+    "composition": "ElErrorDeLosOrdenadoresDeIA",
+    "tsx": "remotion/src/ElErrorDeLosOrdenadoresDeIA.tsx",
+    "manifest_dir": "channel/tecno/videos/el-error-de-los-ordenadores-de-ia",
+    "script": "channel/tecno/videos/el-error-de-los-ordenadores-de-ia/script.md",
+    "audio_static": "el-error-de-los-ordenadores-de-ia.mp3",
+    "images_subpath": "el-error-de-los-ordenadores-de-ia",
+    "naming": "timestamp",
+    "ext": "jpg",
+    "playback_rate": 1.1,
+    "fps": 30,
+    "width": 1920,
+    "height": 1080,
+    "background": "#ffffff"
   }
 }

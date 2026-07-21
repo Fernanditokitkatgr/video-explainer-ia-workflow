@@ -1,0 +1,399 @@
+1
+00:00:00,000 --> 00:00:05,236
+Durante siglos, las computadoras más poderosas del mundo no tenían ni un solo cero, ni uno, no.
+
+2
+00:00:05,236 --> 00:00:10,673
+Predecían eclipses, mareas y guiaban cañones antiaéreos, todo con electricidad pura.
+
+3
+00:00:10,673 --> 00:00:15,491
+Luego llegaron los transistores y las computadoras digitales las barrieron del mapa.
+
+4
+00:00:15,491 --> 00:00:17,636
+Hoy casi todo lo que usas es digital,
+
+5
+00:00:17,636 --> 00:00:23,164
+pero una tormenta perfecta está a punto de traer de vuelta lo analógico y todo empieza con un error,
+
+6
+00:00:23,164 --> 00:00:27,436
+un experimento fallido y un hombre que se ahogó antes de ver si tenía razón.
+
+7
+00:00:27,436 --> 00:00:34,382
+Una computadora analógica no calcula con ceros y unos, calcula con voltaje puro, subiendo y bajando como una masa en un resorte.
+
+8
+00:00:34,382 --> 00:00:37,345
+El circuito eléctrico es el problema físico,
+
+9
+00:00:37,345 --> 00:00:39,291
+solo que ocurre mucho más rápido.
+
+10
+00:00:39,291 --> 00:00:46,255
+Con esto puedes simular el clima, el caos, cualquier ecuación diferencial, solo cambiando cables de sitio y es rápidísima.
+
+11
+00:00:46,255 --> 00:00:50,491
+Para sumar dos números, una computadora digital necesita unos 50 transistores.
+
+12
+00:00:50,491 --> 00:00:53,600
+Una analógica solo necesita conectar dos cables.
+
+13
+00:00:53,600 --> 00:00:56,818
+Para multiplicar, lo digital necesita mil transistores.
+
+14
+00:00:56,818 --> 00:00:59,436
+Lo analógico solo necesita una resistencia,
+
+15
+00:00:59,436 --> 00:01:03,000
+voltaje entre resistencia y ya tienes la multiplicación gratis.
+
+16
+00:01:03,000 --> 00:01:13,527
+Pero lo analógico tiene un problema serio, no sirve para propósitos generales, no vas a escribir un documento de Word en una de estas y como todo es continuo, nunca obtienes el mismo resultado dos veces.
+
+17
+00:01:13,527 --> 00:01:16,218
+Siempre hay un margen de error del 1 por ciento.
+
+18
+00:01:16,218 --> 00:01:19,255
+Por eso lo digital ganó la guerra en cuanto se hizo viable.
+
+19
+00:01:19,255 --> 00:01:21,564
+Fin de la historia, durante 70 años,
+
+20
+00:01:21,564 --> 00:01:25,545
+hasta que llegó la inteligencia artificial y todo volvió a estar en juego.
+
+21
+00:01:25,545 --> 00:01:27,255
+En 1958,
+
+22
+00:01:27,255 --> 00:01:33,109
+un psicólogo llamado Frank Rosenblatt construyó una máquina para imitar neuronas, la llamó el Perceptrón.
+
+23
+00:01:33,109 --> 00:01:35,873
+Una neurona artificial hace algo muy simple,
+
+24
+00:01:35,873 --> 00:01:39,455
+recibe señales, las multiplica por un peso y las suma todas.
+
+25
+00:01:39,455 --> 00:01:44,145
+Si la suma supera cierto umbral, la neurona se dispara, si no se queda callada.
+
+26
+00:01:44,145 --> 00:01:50,018
+El Perceptrón de Rosenblatt tenía 400 células fotosensibles como una imagen de 20x20 pixels.
+
+27
+00:01:50,018 --> 00:01:54,764
+Todas conectadas a una única neurona de salida, cada una con su propio peso ajustable.
+
+28
+00:01:54,764 --> 00:02:00,745
+El objetivo era simple, distinguir un círculo de un rectángulo. Al principio todos los pesos empezaban en cero,
+
+29
+00:02:00,745 --> 00:02:02,455
+la máquina no sabía nada.
+
+30
+00:02:02,455 --> 00:02:08,764
+Le enseñaban círculos y rectángulos uno tras otro, y cada vez que se equivocaba, ajustaba sus propios pesos un poquito.
+
+31
+00:02:08,764 --> 00:02:09,964
+Y funcionó.
+
+32
+00:02:09,909 --> 00:02:12,727
+Aprendió solo a base de errores corregidos.
+
+33
+00:02:12,727 --> 00:02:14,400
+Los medios enloquecieron,
+
+34
+00:02:14,400 --> 00:02:18,764
+el New York Times escribió que la marina esperaba una máquina capaz de caminar, hablar,
+
+35
+00:02:18,764 --> 00:02:19,964
+ver,
+
+36
+00:02:19,345 --> 00:02:20,545
+escribir,
+
+37
+00:02:19,873 --> 00:02:28,127
+reproducirse y ser consciente de su propia existencia. Un ordenador de los años 50, del tamaño de un armario, del que se esperaba que tuviera alma.
+
+38
+00:02:28,127 --> 00:02:29,891
+La realidad fue más humilde.
+
+39
+00:02:29,891 --> 00:02:33,091
+El Perceptrón ni siquiera podía distinguir un perro de un gato.
+
+40
+00:02:33,091 --> 00:02:34,618
+En 1969,
+
+41
+00:02:34,618 --> 00:02:38,855
+dos investigadores del MIT publicaron un libro destrozando sus límites matemáticos.
+
+42
+00:02:38,855 --> 00:02:41,745
+Fue el primer invierno de la inteligencia artificial.
+
+43
+00:02:41,745 --> 00:02:44,545
+La financiación se congeló de la noche a la mañana.
+
+44
+00:02:44,545 --> 00:02:49,764
+Rosenblatt no llegó a verlo, murió ahogado navegando, el día de su cumpleaños número 43.
+
+45
+00:02:49,764 --> 00:02:51,709
+Pero su idea no murió con él.
+
+46
+00:02:51,709 --> 00:02:54,636
+Volvió en los años 80, dentro de un camión.
+
+47
+00:02:54,636 --> 00:03:03,182
+Investigadores de Carnegie Mellon construyeron ALVINN, un camión que conducía solo, guiado por una red neuronal con una capa oculta de neuronas entre la entrada y la salida.
+
+48
+00:03:03,182 --> 00:03:07,800
+Un humano conducía primero, enseñándole el ángulo de giro correcto para cada imagen del camino.
+
+49
+00:03:07,800 --> 00:03:11,327
+La velocidad máxima del camión autónomo era de 2 kilómetros por hora.
+
+50
+00:03:11,327 --> 00:03:14,945
+El cuello de botella no era la inteligencia, era la velocidad de cálculo.
+
+51
+00:03:14,945 --> 00:03:16,927
+En los 90 llegó otro invierno.
+
+52
+00:03:16,927 --> 00:03:21,018
+Nadie sabía si el problema era el software o simplemente que faltaba hardware.
+
+53
+00:03:21,018 --> 00:03:22,291
+A mediados de los 2000,
+
+54
+00:03:22,291 --> 00:03:25,673
+una investigadora llamada Fei-Fei Li tuvo una idea distinta.
+
+55
+00:03:25,673 --> 00:03:29,636
+Quizás el problema nunca fue el algoritmo, quizás faltaban datos.
+
+56
+00:03:29,636 --> 00:03:32,855
+Entre 2006 y 2009 construyó ImageNet,
+
+57
+00:03:32,855 --> 00:03:37,127
+una base de datos con un millón 200 mil imágenes etiquetadas a mano.
+
+58
+00:03:37,127 --> 00:03:42,000
+Con eso organizó una competición anual para clasificar imágenes en mil categorías distintas.
+
+59
+00:03:42,000 --> 00:03:43,200
+En 2010,
+
+60
+00:03:42,945 --> 00:03:45,618
+la mejor red se equivocaba casi un tercio de las veces.
+
+61
+00:03:45,618 --> 00:03:47,382
+En 2011 mejoró un poco,
+
+62
+00:03:47,382 --> 00:03:50,055
+pero en 2012 todo cambió de golpe.
+
+63
+00:03:50,055 --> 00:03:56,091
+Una red llamada AlexNet arrasó la competición con una tasa de error de solo el 16%.
+
+64
+00:03:56,091 --> 00:04:04,273
+Tenía 8 capas, 500 mil neuronas y 60 millones de pesos que ajustar y se entrenó usando tarjetas gráficas no procesadores normales.
+
+65
+00:04:04,273 --> 00:04:06,836
+Su artículo se ha citado más de 100 mil veces,
+
+66
+00:04:06,836 --> 00:04:09,945
+fue el pistoletazo de salida de la IA moderna.
+
+67
+00:04:09,945 --> 00:04:14,545
+Para 2015 una red de 100 capas ya clasificaba imágenes mejor que un humano,
+
+68
+00:04:14,545 --> 00:04:17,745
+pero ese éxito trajo un problema nuevo y muy caro.
+
+69
+00:04:17,745 --> 00:04:30,218
+Entrenar una sola red neuronal grande puede gastar tanta electricidad como tres casas en un año entero y la mayor parte de esa energía no se gasta calculando. Se gasta moviendo datos de la memoria al procesador una y otra vez.
+
+70
+00:04:30,218 --> 00:04:33,436
+Además, los transistores ya casi tienen el tamaño de un átomo,
+
+71
+00:04:33,436 --> 00:04:35,836
+no queda mucho margen para encogerlos más.
+
+72
+00:04:35,836 --> 00:04:37,982
+Digital llegando a su límite físico,
+
+73
+00:04:37,982 --> 00:04:42,982
+redes neuronales cada vez más grandes y casi todo su trabajo reducido a una sola operación,
+
+74
+00:04:42,982 --> 00:04:44,764
+multiplicar y sumar.
+
+75
+00:04:44,764 --> 00:04:48,309
+Esa es la tormenta perfecta que puede traer de vuelta lo analógico.
+
+76
+00:04:48,309 --> 00:04:50,055
+Y aquí está el giro final.
+
+77
+00:04:50,055 --> 00:04:57,655
+A una red neuronal no le importa ser un poco imprecisa. Si está 97 % segura de que ve una gallina, sigue siendo una gallina.
+
+78
+00:04:57,655 --> 00:05:04,509
+Justo el error que hundió a las computadoras analógicas hace 70 años a la inteligencia artificial no le molesta en absoluto.
+
+79
+00:05:04,509 --> 00:05:08,036
+Hoy existen chips analógicos reales para redes neuronales.
+
+80
+00:05:08,036 --> 00:05:11,382
+Reutilizan memoria flash corriente pero de una forma ingeniosa.
+
+81
+00:05:11,382 --> 00:05:17,455
+En vez de guardar solo un cero o un uno guardan una cantidad exacta de electrones como una resistencia variable.
+
+82
+00:05:17,455 --> 00:05:23,873
+Aplicas un voltaje y la corriente resultante ya es, literalmente, la multiplicación hecha por la física misma.
+
+83
+00:05:23,873 --> 00:05:29,782
+Uno de estos chips hace 25 billones de operaciones por segundo usando solo 3 vatios de energía.
+
+84
+00:05:29,782 --> 00:05:34,600
+Un chip digital equivalente necesita decenas de vatios y cuesta miles de dólares.
+
+85
+00:05:34,600 --> 00:05:42,927
+Ya se usan para cámaras de seguridad, inspección en fábricas y para que un altavoz inteligente reconozca su palabra de activación gastando casi nada de batería.
+
+86
+00:05:42,927 --> 00:05:44,491
+Todavía tienen un límite.
+
+87
+00:05:44,491 --> 00:05:48,727
+La señal analógica se distorsiona si encadenas demasiadas operaciones seguidas.
+
+88
+00:05:48,727 --> 00:05:52,236
+Así que los chips actuales alternan. Analógico digital,
+
+89
+00:05:52,236 --> 00:05:55,473
+analógico otra vez para no perder la señal por el camino.
+
+90
+00:05:55,473 --> 00:05:57,600
+Hay algo casi poético en todo esto.
+
+91
+00:05:57,600 --> 00:05:59,673
+Para construir su Perceptrón original,
+
+92
+00:05:59,673 --> 00:06:02,473
+Rosenblatt no tenía suficiente potencia digital.
+
+93
+00:06:02,473 --> 00:06:08,436
+Así que construyó su propia computadora analógica a mano con resistencias variables y pequeños motores.
+
+94
+00:06:08,436 --> 00:06:11,673
+Su idea sobre las redes neuronales resultó ser correcta.
+
+95
+00:06:11,673 --> 00:06:14,418
+Puede que su instinto analógico también lo fuera.
+
+96
+00:06:14,418 --> 00:06:18,909
+Nuestro propio cerebro es digital en el sentido de que una neurona se dispara o no.
+
+97
+00:06:18,909 --> 00:06:21,255
+Pero también es profundamente analógico.
+
+98
+00:06:21,255 --> 00:06:23,909
+El pensamiento ocurre en todas partes a la vez.
+
+99
+00:06:23,909 --> 00:06:29,182
+Quizás para lograr una inteligencia artificial de verdad hace falta algo del poder de lo analógico.
+
+100
+00:06:29,182 --> 00:06:32,182
+Suscríbete si quieres que sigamos abriendo la caja negra de la IA.

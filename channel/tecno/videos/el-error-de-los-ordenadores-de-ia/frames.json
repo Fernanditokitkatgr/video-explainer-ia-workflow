@@ -1,0 +1,606 @@
+{
+  "video": "el-error-de-los-ordenadores-de-ia",
+  "style_base": "Whiteboard doodle style, black marker sketch lines on a plain white whiteboard background, simple explanatory hand-drawn diagrams and doodles, casual classroom sketch aesthetic, no photorealism. TEXT RULE: written words/labels are WELCOME and encouraged when they reinforce the key concept of the scene (a short word, a key term, a number) - they MUST always be written in perfect SPANISH, exactly as specified in the scene below, in simple bold casual handwritten marker capital letters, spelled correctly letter by letter - NEVER English, never generic filler text. If the scene doesn't ask for a specific word, don't invent one. CRITICAL SCOPE RULE: draw ONLY the elements described in the scene below. Do not add unrelated icons, generic business diagrams (no idea/process/result boxes, no PDCA cycles, no growth charts), or any extra decoration not explicitly mentioned.",
+  "frames": [
+    {
+      "file": "0_00.jpg",
+      "startSec": 0.0,
+      "text": "Durante siglos, las computadoras más poderosas del mundo no tenían ni un solo cero, ni uno, no.",
+      "scene": "a vintage analog computer console covered in dials, knobs and gauges, no screen, small lightning bolt sparks around it, no text, no labels, no words anywhere in the image"
+    },
+    {
+      "file": "0_05.jpg",
+      "startSec": 5.76,
+      "text": "Predecían eclipses, mareas y guiaban cañones antiaéreos, todo con electricidad pura.",
+      "scene": "a small solar eclipse doodle (sun with a dark circle over it), a wavy tide/ocean line, and a simple anti-aircraft cannon icon, three small doodles side by side, no other elements"
+    },
+    {
+      "file": "0_11.jpg",
+      "startSec": 11.74,
+      "text": "Luego llegaron los transistores y las computadores digitales las parrieron del mapa.",
+      "scene": "a tiny transistor chip icon with a bold sweeping arrow pushing away and fading out a row of old-fashioned analog dials, nothing else on the board"
+    },
+    {
+      "file": "0_17.jpg",
+      "startSec": 17.04,
+      "text": "Hoy casi todo lo que usas es digital,",
+      "scene": "a simple smartphone/laptop icon in the foreground with a dark ominous storm cloud brewing behind it, ready to strike, nothing else on the board"
+    },
+    {
+      "file": "0_19.jpg",
+      "startSec": 19.4,
+      "text": "pero una tormenta perfecta está a punto de traer de vuelta lo analógico y todo empieza con un error,",
+      "scene": "a simple smartphone/laptop icon in the foreground with a dark ominous storm cloud brewing behind it, ready to strike, nothing else on the board"
+    },
+    {
+      "file": "0_25.jpg",
+      "startSec": 25.48,
+      "text": "un experimento fallido y un hombre que se ogo antes de ver si tenía razón.",
+      "scene": "a small sailboat silhouette alone on choppy wavy water lines, somber mood, nothing else on the board"
+    },
+    {
+      "file": "0_30.jpg",
+      "startSec": 30.18,
+      "text": "Una computadora analógica no calcula con cero si unos, calcula con voltaje puro, subiendo y bajando como una masa en un resorte.",
+      "scene": "a wavy voltage line oscillating up and down like a mass bouncing on a spring, simple doodle, nothing else on the board"
+    },
+    {
+      "file": "0_37.jpg",
+      "startSec": 37.82,
+      "text": "El circuito eléctrico es el problema físico,",
+      "scene": "a simple circuit diagram (resistor, wire loop) morphing into a spring-and-mass doodle connected by an equals sign, nothing else on the board"
+    },
+    {
+      "file": "0_41.jpg",
+      "startSec": 41.08,
+      "text": "solo que ocurre mucho más rápido.",
+      "scene": "a simple circuit diagram (resistor, wire loop) morphing into a spring-and-mass doodle connected by an equals sign, nothing else on the board"
+    },
+    {
+      "file": "0_43.jpg",
+      "startSec": 43.22,
+      "text": "Con esto puedes simular el clima, el caos, cualquier ecuación diferencial, solo cambiando cables de sitio y es rápidísima.",
+      "scene": "the Lorenz butterfly attractor doodle, an elegant continuous double-loop swirling line resembling butterfly wings, nothing else on the board"
+    },
+    {
+      "file": "0_50.jpg",
+      "startSec": 50.88,
+      "text": "Para sumar dos números, una computadora digital necesita unos 50 transistores.",
+      "scene": "a small tight grid of about fifty tiny identical square transistor icons, nothing else on the board"
+    },
+    {
+      "file": "0_55.jpg",
+      "startSec": 55.54,
+      "text": "Una analógica solo necesita conectar dos cables.",
+      "scene": "two simple wires joined together at a single point with a plus sign above the junction, nothing else on the board"
+    },
+    {
+      "file": "0_58.jpg",
+      "startSec": 58.96,
+      "text": "Para multiplicar, lo digital necesita mil transistores.",
+      "scene": "a huge dense grid filling the whole board with hundreds of tiny square transistor icons, overwhelming quantity, nothing else on the board"
+    },
+    {
+      "file": "1_02.jpg",
+      "startSec": 62.5,
+      "text": "Lo analógico solo necesita una resistencia,",
+      "scene": "a single zigzag resistor symbol with the letters V and R labeled beside it, nothing else on the board"
+    },
+    {
+      "file": "1_05.jpg",
+      "startSec": 65.38,
+      "text": "voltaje entre resistencia y ya tienes la multiplicación gratis.",
+      "scene": "a single zigzag resistor symbol with the letters V and R labeled beside it, nothing else on the board"
+    },
+    {
+      "file": "1_09.jpg",
+      "startSec": 69.3,
+      "text": "Pero lo analógico tiene un problema serio, no sirve para propósitos generales, no vas a escribir un documento de Word en una de estas y como todo es continuo, nunca obtienes el mismo resultado dos veces.",
+      "scene": "an old analog dial computer doodle with a big bold red X drawn over it, nothing else on the board"
+    },
+    {
+      "file": "1_20.jpg",
+      "startSec": 80.88,
+      "text": "Siempre hay un margen de error del 1 por ciento.",
+      "scene": "two slightly different wavy lines drawn side by side that don't quite match, with the handwritten label 1% beside them, nothing else on the board"
+    },
+    {
+      "file": "1_23.jpg",
+      "startSec": 83.84,
+      "text": "Por eso lo digital ganó la guerra en cuanto se hizo viable.",
+      "scene": "a small trophy icon on one side glowing brightly, and a greyed-out fading analog computer dial on the other side, nothing else on the board"
+    },
+    {
+      "file": "1_27.jpg",
+      "startSec": 87.18,
+      "text": "Finde la historia, durante 70 años,",
+      "scene": "a small trophy icon on one side glowing brightly, and a greyed-out fading analog computer dial on the other side, nothing else on the board"
+    },
+    {
+      "file": "1_29.jpg",
+      "startSec": 89.72,
+      "text": "hasta que llegó la inteligencia artificial y todo volvió a estar en juego.",
+      "scene": "a simple brain-shaped neural network icon (a few connected circles) appearing faintly with a large question mark above it, nothing else on the board"
+    },
+    {
+      "file": "1_34.jpg",
+      "startSec": 94.1,
+      "text": "En 1958,",
+      "scene": "a simple stick figure scientist standing next to a boxy machine with the handwritten word PERCEPTRON on it, nothing else on the board"
+    },
+    {
+      "file": "1_35.jpg",
+      "startSec": 95.98,
+      "text": "un psicólogo llamado Frank Rosenblatt construyó una máquina para imitar neuronas, la llamó el Perceptron.",
+      "scene": "a simple stick figure scientist standing next to a boxy machine with the handwritten word PERCEPTRON on it, nothing else on the board"
+    },
+    {
+      "file": "1_42.jpg",
+      "startSec": 102.42,
+      "text": "Una neuron artificial hace algo muy simple,",
+      "scene": "a simple doodle of one neuron: a few arrows entering a circle, a small multiplication symbol and a sum symbol inside it, nothing else on the board"
+    },
+    {
+      "file": "1_45.jpg",
+      "startSec": 105.46,
+      "text": "recibe señales, las multiplica por un peso y las suma todas.",
+      "scene": "a simple doodle of one neuron: a few arrows entering a circle, a small multiplication symbol and a sum symbol inside it, nothing else on the board"
+    },
+    {
+      "file": "1_49.jpg",
+      "startSec": 109.4,
+      "text": "Si la suma supera cierto ombral, la neuronas se dispara, sino se queda callada.",
+      "scene": "a small gauge/dial doodle with a threshold line marked on it and a lightning bolt symbol beside it, nothing else on the board"
+    },
+    {
+      "file": "1_54.jpg",
+      "startSec": 114.56,
+      "text": "El Perceptron de Rosenblatt tenía 400 células fotosensibles como una imagen de 20x20 pixels.",
+      "scene": "a neat 20 by 20 grid of tiny dots representing pixels, nothing else on the board"
+    },
+    {
+      "file": "2_01.jpg",
+      "startSec": 121.02,
+      "text": "Todas conectadas a una única neurona de salida, cada una con su propio peso ajustable.",
+      "scene": "the same small pixel grid with lines converging from every dot into a single circle on the right (the output neuron), nothing else on the board"
+    },
+    {
+      "file": "2_06.jpg",
+      "startSec": 126.24,
+      "text": "El objetivo era simple, distinguir un círculo de un rectángulo. Al principio todos los pesos empezaban en cero,",
+      "scene": "a simple circle doodle and a simple rectangle doodle side by side, nothing else on the board"
+    },
+    {
+      "file": "2_12.jpg",
+      "startSec": 132.82,
+      "text": "la máquina no sabía nada.",
+      "scene": "a row of five small dial icons all pointing exactly to zero, nothing else on the board"
+    },
+    {
+      "file": "2_14.jpg",
+      "startSec": 134.7,
+      "text": "Le enseñaban círculos y rectángulos uno tras otro, y cada vez que se equivocaba, ajustaba sus propios pesos un poquito.",
+      "scene": "a circle and a rectangle doodle alternating with a small hand adjusting one dial slightly, nothing else on the board"
+    },
+    {
+      "file": "2_21.jpg",
+      "startSec": 141.64,
+      "text": "Y funcionó.",
+      "scene": "a circle doodle with a bold checkmark next to it and a simple happy stick figure face, nothing else on the board"
+    },
+    {
+      "file": "2_22.jpg",
+      "startSec": 142.9,
+      "text": "Aprendió solo a base de errores corregidos.",
+      "scene": "a circle doodle with a bold checkmark next to it and a simple happy stick figure face, nothing else on the board"
+    },
+    {
+      "file": "2_26.jpg",
+      "startSec": 146.0,
+      "text": "Los medios en lo que hicieron,",
+      "scene": "a large newspaper page doodle with bold blocky headline lines (no readable words, just headline-shaped bars), nothing else on the board"
+    },
+    {
+      "file": "2_27.jpg",
+      "startSec": 147.84,
+      "text": "el New York Times escribió que la marina esperaba una máquina capaz de caminar, hablar,",
+      "scene": "a large newspaper page doodle with bold blocky headline lines (no readable words, just headline-shaped bars), nothing else on the board"
+    },
+    {
+      "file": "2_32.jpg",
+      "startSec": 152.64,
+      "text": "ver,",
+      "scene": "a large newspaper page doodle with bold blocky headline lines (no readable words, just headline-shaped bars), nothing else on the board"
+    },
+    {
+      "file": "2_33.jpg",
+      "startSec": 153.28,
+      "text": "escribir,",
+      "scene": "a large newspaper page doodle with bold blocky headline lines (no readable words, just headline-shaped bars), nothing else on the board"
+    },
+    {
+      "file": "2_33_b.jpg",
+      "startSec": 153.86,
+      "text": "reproducirse y ser consciente de su propia existencia. Un ordenador de los años 50, del tamaño de un armario, del que se esperaba que tuviera alma.",
+      "scene": "a giant closet-sized boxy machine doodle with a small friendly ghost-like soul icon floating above it, whimsical, nothing else on the board"
+    },
+    {
+      "file": "2_42.jpg",
+      "startSec": 162.94,
+      "text": "La realidad fue más humilde.",
+      "scene": "a simple dog doodle and a simple cat doodle with a big confused question mark between them, nothing else on the board"
+    },
+    {
+      "file": "2_44.jpg",
+      "startSec": 164.88,
+      "text": "El Perceptron ni siquiera podía distinguir un perro de un gato.",
+      "scene": "a simple dog doodle and a simple cat doodle with a big confused question mark between them, nothing else on the board"
+    },
+    {
+      "file": "2_48.jpg",
+      "startSec": 168.4,
+      "text": "En 1969,",
+      "scene": "a thick book doodle with a crack breaking through a small boxy machine drawn beside it, nothing else on the board"
+    },
+    {
+      "file": "2_50.jpg",
+      "startSec": 170.08,
+      "text": "dos investigadores del MIT publicaron un libro destrozando sus límites matemáticos.",
+      "scene": "a thick book doodle with a crack breaking through a small boxy machine drawn beside it, nothing else on the board"
+    },
+    {
+      "file": "2_54.jpg",
+      "startSec": 174.74,
+      "text": "Fue el primer invierno de la inteligencia artificial.",
+      "scene": "a snowflake icon over a boxy machine, icy jagged texture, with a dollar sign crossed out beside it, nothing else on the board"
+    },
+    {
+      "file": "2_57.jpg",
+      "startSec": 177.92,
+      "text": "La financiación se congeló de la noche a la mañana.",
+      "scene": "a snowflake icon over a boxy machine, icy jagged texture, with a dollar sign crossed out beside it, nothing else on the board"
+    },
+    {
+      "file": "3_01.jpg",
+      "startSec": 181.0,
+      "text": "Rosenblatt no llegó a verlo, murió aogado navegando, el día de su cumpleaños número 43.",
+      "scene": "a small lone sailboat doodle drifting on wavy water lines under a plain sky, quiet and somber, nothing else on the board"
+    },
+    {
+      "file": "3_06.jpg",
+      "startSec": 186.74,
+      "text": "Pero su idea no murió con él.",
+      "scene": "a simple truck doodle with a small glowing spark/brain icon visible inside its cabin, nothing else on the board"
+    },
+    {
+      "file": "3_08.jpg",
+      "startSec": 188.88,
+      "text": "Volvió en los años 80, dentro de un camión.",
+      "scene": "a simple truck doodle with a small glowing spark/brain icon visible inside its cabin, nothing else on the board"
+    },
+    {
+      "file": "3_12.jpg",
+      "startSec": 192.1,
+      "text": "Investigadores de Carnegie Mellon construyeron Alvin, un camión que conducía solo, guiado por una red neuronal con una capa oculta de neuronas entre la entrada y la salida.",
+      "scene": "a truck doodle beside a simple three-layer neural network diagram (a column of circles, then another column, then one more, connected by lines), nothing else on the board"
+    },
+    {
+      "file": "3_21.jpg",
+      "startSec": 201.5,
+      "text": "Un humano conducía primero, enseñándole el ángulo de giro correcto para cada imagen del camino.",
+      "scene": "a stick figure driving a truck, holding a steering wheel with a small angle arrow drawn above it, nothing else on the board"
+    },
+    {
+      "file": "3_26.jpg",
+      "startSec": 206.58,
+      "text": "La velocidad máxima del camión autónomo era de 2 kilómetros por hora.",
+      "scene": "a snail doodle racing right next to the truck doodle, comedic, nothing else on the board"
+    },
+    {
+      "file": "3_30.jpg",
+      "startSec": 210.46,
+      "text": "El cuello de botella no era la inteligencia, era la velocidad de cálculo.",
+      "scene": "a snail doodle racing right next to the truck doodle, comedic, nothing else on the board"
+    },
+    {
+      "file": "3_34.jpg",
+      "startSec": 214.44,
+      "text": "En los 90 llegó otro invierno.",
+      "scene": "a snowflake icon beside a computer chip doodle and a large question mark, nothing else on the board"
+    },
+    {
+      "file": "3_36.jpg",
+      "startSec": 216.62,
+      "text": "Nadie sabía si el problema era el software o simplemente que faltaba hardware.",
+      "scene": "a snowflake icon beside a computer chip doodle and a large question mark, no text, no labels, no words anywhere in the image"
+    },
+    {
+      "file": "3_41.jpg",
+      "startSec": 221.12,
+      "text": "A mediados de los 2000,",
+      "scene": "a female stick figure scientist with a glowing lightbulb above her head, next to a small stack of photographs, nothing else on the board"
+    },
+    {
+      "file": "3_42.jpg",
+      "startSec": 222.52,
+      "text": "una investigadora llamada Faith Faley tuvo una idea distinta.",
+      "scene": "a female stick figure scientist with a glowing lightbulb above her head, next to a small stack of photographs, nothing else on the board"
+    },
+    {
+      "file": "3_46.jpg",
+      "startSec": 226.24,
+      "text": "Quizás el problema nunca fue el algoritmo, quizás faltaban datos.",
+      "scene": "a female stick figure scientist with a glowing lightbulb above her head, next to a small stack of photographs, nothing else on the board"
+    },
+    {
+      "file": "3_50.jpg",
+      "startSec": 230.6,
+      "text": "Entre 2006 y 2009 construyó ImageNet,",
+      "scene": "a huge wall-sized grid filled with hundreds of tiny labeled photo-frame icons, overwhelming quantity, nothing else on the board"
+    },
+    {
+      "file": "3_54.jpg",
+      "startSec": 234.14,
+      "text": "una base de datos con un millón 200 mil imágenes etiquetadas a mano.",
+      "scene": "a huge wall-sized grid filled with hundreds of tiny labeled photo-frame icons, overwhelming quantity, nothing else on the board"
+    },
+    {
+      "file": "3_58.jpg",
+      "startSec": 238.84,
+      "text": "Con eso organizó una competición anual para clasificar imágenes en mil categorías distintas.",
+      "scene": "a trophy on a small podium with the handwritten number 1000 beside it and a few medal icons, nothing else on the board"
+    },
+    {
+      "file": "4_04.jpg",
+      "startSec": 244.2,
+      "text": "En 2010,",
+      "scene": "a circle divided into three parts like a pie chart, one third shaded and marked with small X symbols, nothing else on the board"
+    },
+    {
+      "file": "4_05.jpg",
+      "startSec": 245.24,
+      "text": "la mejor red se equivocaba casi un tercio de las veces.",
+      "scene": "a circle divided into three parts like a pie chart, one third shaded and marked with small X symbols, nothing else on the board"
+    },
+    {
+      "file": "4_08.jpg",
+      "startSec": 248.18,
+      "text": "En 2011 mejoró un poco,",
+      "scene": "a line trending slightly downward then dropping in one dramatic steep plunge, nothing else on the board"
+    },
+    {
+      "file": "4_10.jpg",
+      "startSec": 250.12,
+      "text": "pero en 2012 todo cambió de golpe.",
+      "scene": "a line trending slightly downward then dropping in one dramatic steep plunge, nothing else on the board"
+    },
+    {
+      "file": "4_13.jpg",
+      "startSec": 253.06,
+      "text": "Una red llamada AlexNet arrasó la competición con una tasa de error de solo el 16%.",
+      "scene": "the bold handwritten word ALEXNET with a trophy icon and a lightning bolt smashing through a small wall, spelled EXACTLY as these 7 letters A-L-E-X-N-E-T, nothing else on the board"
+    },
+    {
+      "file": "4_19.jpg",
+      "startSec": 259.7,
+      "text": "Tenía 8 capas, 500 mil neuronas y 60 millones de pesos que ajustar y se entrenó usando tarjetas gráficas no procesadores normales.",
+      "scene": "a stack of horizontal layer bars (a simple neural network diagram) next to a glowing computer chip icon, nothing else on the board"
+    },
+    {
+      "file": "4_28.jpg",
+      "startSec": 268.7,
+      "text": "Su artículo se ha citado más de 100 mil veces,",
+      "scene": "a tall stack of academic paper doodles piling up high, with a small starting-pistol flag icon beside it, nothing else on the board"
+    },
+    {
+      "file": "4_31.jpg",
+      "startSec": 271.52,
+      "text": "fue el pistoletazo de salida de la Ia moderna.",
+      "scene": "a tall stack of academic paper doodles piling up high, with a small starting-pistol flag icon beside it, nothing else on the board"
+    },
+    {
+      "file": "4_34.jpg",
+      "startSec": 274.94,
+      "text": "Para 2015 una red de 100 capas ya clasificaba imágenes mejor que un humano,",
+      "scene": "a very tall stack of a hundred thin layer bars next to a simple human stick figure silhouette, with a checkmark beating the human, nothing else on the board"
+    },
+    {
+      "file": "4_40.jpg",
+      "startSec": 280.0,
+      "text": "pero ese éxito trajo un problema nuevo y muy caro.",
+      "scene": "a dollar sign doodle with a small warning triangle exclamation icon beside it, nothing else on the board"
+    },
+    {
+      "file": "4_43.jpg",
+      "startSec": 283.52,
+      "text": "Entrenar una sola red neuronal grande puede gastar tanta electricidad como tres casas en un año entero y la mayor parte de esa energía no se gasta calculando. Se gasta moviendo datos de la memoria al procesador una y otra vez.",
+      "scene": "two boxes labeled with small icons (one representing memory, one representing processor) connected by a thick busy double-headed arrow with small heat wave lines around it, nothing else on the board"
+    },
+    {
+      "file": "4_57.jpg",
+      "startSec": 297.24,
+      "text": "Además, los transistores ya casi tienen el tamaño de un átomo,",
+      "scene": "a tiny transistor icon next to a simple atom diagram (small circle with orbiting dots, completely empty center, no text inside it), with a shrinking ruler line between them, no text, no labels, no words anywhere in the image"
+    },
+    {
+      "file": "5_00.jpg",
+      "startSec": 300.78,
+      "text": "no queda mucho margen para encogerlos más.",
+      "scene": "a tiny transistor icon next to a simple atom diagram (small circle with orbiting dots), with a shrinking ruler line between them, nothing else on the board"
+    },
+    {
+      "file": "5_03.jpg",
+      "startSec": 303.42,
+      "text": "Digital llegando a su límite físico,",
+      "scene": "a digital chip icon hitting a solid wall on one side, and a large growing neural network diagram on the other side, with a multiply and sum symbol between them, nothing else on the board"
+    },
+    {
+      "file": "5_05.jpg",
+      "startSec": 305.78,
+      "text": "redes neuronales cada vez más grandes y casi todo su trabajo reducido a una sola operación,",
+      "scene": "a digital chip icon hitting a solid wall on one side, and a large growing neural network diagram on the other side, with a multiply and sum symbol between them, nothing else on the board"
+    },
+    {
+      "file": "5_11.jpg",
+      "startSec": 311.28,
+      "text": "multiplicar y sumar.",
+      "scene": "a digital chip icon hitting a solid wall on one side, and a large growing neural network diagram on the other side, with a multiply and sum symbol between them, nothing else on the board"
+    },
+    {
+      "file": "5_13.jpg",
+      "startSec": 313.24,
+      "text": "Esa es la tormenta perfecta que puede traer de vuelta al o analógico.",
+      "scene": "a dark storm cloud converging directly above an old analog dial computer doodle re-emerging from shadow, nothing else on the board"
+    },
+    {
+      "file": "5_17.jpg",
+      "startSec": 317.14,
+      "text": "Y aquí está el giro final.",
+      "scene": "a simple shrugging stick figure with a small approximation symbol ~ above its head, nothing else on the board"
+    },
+    {
+      "file": "5_19.jpg",
+      "startSec": 319.06,
+      "text": "A una red neuronal no le importa ser un poco imprescisa. Si está 97 % segura de que ve una gallina, sí enciendo una gallina.",
+      "scene": "a simple shrugging stick figure with a small approximation symbol ~ above its head, nothing else on the board"
+    },
+    {
+      "file": "5_27.jpg",
+      "startSec": 327.42,
+      "text": "Justo el error que un dio a las computadoras analógicas hace 70 años a la inteligencia artificial no le molesta en absoluto.",
+      "scene": "an old analog dial computer doodle with a bold green checkmark over it instead of a red X, nothing else on the board"
+    },
+    {
+      "file": "5_34.jpg",
+      "startSec": 334.96,
+      "text": "Hoy existen chips analógicos reales para redes neuronales.",
+      "scene": "a small computer chip icon labeled FLASH, spelled EXACTLY as these 5 letters F-L-A-S-H, with tiny gear icons inside it, nothing else on the board"
+    },
+    {
+      "file": "5_38.jpg",
+      "startSec": 338.84,
+      "text": "Reutilizan memoria flasco -riente pero de una forma ingeniosa.",
+      "scene": "a small computer chip icon labeled FLASH, spelled EXACTLY as these 5 letters F-L-A-S-H, with tiny gear icons inside it, nothing else on the board"
+    },
+    {
+      "file": "5_42.jpg",
+      "startSec": 342.52,
+      "text": "En vez de guardar solo un cero o un uno guardan una cantidad exacta de electrones como una resistencia variable.",
+      "scene": "a small memory cell doodle filled with tiny dot electrons at a partial level, with a dial showing variable resistance beside it, nothing else on the board"
+    },
+    {
+      "file": "5_49.jpg",
+      "startSec": 349.2,
+      "text": "Aplica su envoltaje y la corriente resultante ya es, literalmente, la multiplicación hecha por la física misma.",
+      "scene": "an arrow labeled V meeting an arrow labeled I at a glowing multiplication symbol, nothing else on the board"
+    },
+    {
+      "file": "5_56.jpg",
+      "startSec": 356.26,
+      "text": "Uno de estos chips hace 25 billones de operaciones por segundo usando solo 3 vatios de energía.",
+      "scene": "a tiny computer chip icon with a row of small identical zero digits stretching across the board above it (an overwhelming long row of zeros, no other digits mixed in), and a small battery icon labeled 3W beside it, nothing else on the board"
+    },
+    {
+      "file": "6_02.jpg",
+      "startSec": 362.76,
+      "text": "Un chip digital equivalente necesita decenas de vatios y cuesta miles de dólares.",
+      "scene": "a large hot chip doodle with small flame/heat lines rising from it and a stack of dollar sign icons beside it, nothing else on the board"
+    },
+    {
+      "file": "6_08.jpg",
+      "startSec": 368.06,
+      "text": "Ya se usan para cámaras de seguridad, inspección en fábricas y para que un altavoz inteligente reconozca su palabra de activación gastando casi nada de batería.",
+      "scene": "a small security camera icon, a factory conveyor belt icon, and a smart speaker icon in a row, with a tiny battery icon near the speaker, nothing else on the board"
+    },
+    {
+      "file": "6_17.jpg",
+      "startSec": 377.22,
+      "text": "Todavía tienen un límite.",
+      "scene": "a clean smooth wavy signal line that gradually becomes jagged and noisy after passing through a few arrows, nothing else on the board"
+    },
+    {
+      "file": "6_18.jpg",
+      "startSec": 378.94,
+      "text": "La señal analógica se distorsiona si en cadenas demasiado operaciones seguidas.",
+      "scene": "a clean smooth wavy signal line that gradually becomes jagged and noisy after passing through a few arrows, nothing else on the board"
+    },
+    {
+      "file": "6_23.jpg",
+      "startSec": 383.6,
+      "text": "Así que los chips actuales alternan. Analógico digital,",
+      "scene": "a repeating sequence of three icons connected by arrows: a wavy analog signal, a small digital chip, then a wavy analog signal again, clean and preserved, nothing else on the board"
+    },
+    {
+      "file": "6_27.jpg",
+      "startSec": 387.46,
+      "text": "analógico otra vez para no perder la señal por el camino.",
+      "scene": "a repeating sequence of three icons connected by arrows: a wavy analog signal, a small digital chip, then a wavy analog signal again, clean and preserved, nothing else on the board"
+    },
+    {
+      "file": "6_31.jpg",
+      "startSec": 391.02,
+      "text": "Hay algo casi poético en todo esto.",
+      "scene": "a stick figure scratching its head next to a large slow boxy machine labeled with a small confused expression, nothing else on the board"
+    },
+    {
+      "file": "6_33.jpg",
+      "startSec": 393.36,
+      "text": "Para construir su perceptro en original,",
+      "scene": "a stick figure scratching its head next to a large slow boxy machine labeled with a small confused expression, nothing else on the board"
+    },
+    {
+      "file": "6_35.jpg",
+      "startSec": 395.64,
+      "text": "Rosenblatt no tenía suficiente potencia digital.",
+      "scene": "a stick figure scratching its head next to a large slow boxy machine labeled with a small confused expression, nothing else on the board"
+    },
+    {
+      "file": "6_38.jpg",
+      "startSec": 398.72,
+      "text": "Así que construyó su propia computadora analógica a mano con resistencias variables y pequeños motores.",
+      "scene": "a stick figure building a small machine with resistor dials and tiny gear/motor icons scattered around, holding a wrench, nothing else on the board"
+    },
+    {
+      "file": "6_45.jpg",
+      "startSec": 405.28,
+      "text": "Su idea sobre las redes neuronales resultó ser correcta.",
+      "scene": "a simple neuron diagram and an analog dial doodle side by side, both marked with a bold checkmark above them, nothing else on the board"
+    },
+    {
+      "file": "6_48.jpg",
+      "startSec": 408.84,
+      "text": "Puede que su instinto analógico también lo fuera.",
+      "scene": "a simple neuron diagram and an analog dial doodle side by side, both marked with a bold checkmark above them, nothing else on the board"
+    },
+    {
+      "file": "6_51.jpg",
+      "startSec": 411.86,
+      "text": "Nuestro propio cerebro es digital en el sentido de que una neurona se dispara o no.",
+      "scene": "a simple brain outline doodle with tiny on/off switch icons scattered inside it, nothing else on the board"
+    },
+    {
+      "file": "6_56.jpg",
+      "startSec": 416.8,
+      "text": "Pero también es profundamente analógico.",
+      "scene": "the same brain outline doodle now glowing with soft wavy continuous lines filling it everywhere at once, nothing else on the board"
+    },
+    {
+      "file": "6_59.jpg",
+      "startSec": 419.38,
+      "text": "El pensamiento ocurre en todas partes a la vez.",
+      "scene": "the same brain outline doodle now glowing with soft wavy continuous lines filling it everywhere at once, nothing else on the board"
+    },
+    {
+      "file": "7_02.jpg",
+      "startSec": 422.3,
+      "text": "Quizás para lograr una inteligencia artificial de verdad hace falta algo del poder de lo analógico.",
+      "scene": "a brain outline doodle merging together with a computer chip icon, both glowing softly where they meet, nothing else on the board"
+    },
+    {
+      "file": "7_08.jpg",
+      "startSec": 428.1,
+      "text": "Suscríbete si quieres que sigamos abriendo la caja negra de la IA.",
+      "scene": "a simple hand-drawn bell icon with a forward arrow beside it, the handwritten words SUSCRIBETE and ACTIVA LA CAMPANA below it"
+    }
+  ]
+}

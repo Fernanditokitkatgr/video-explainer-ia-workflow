@@ -11,6 +11,7 @@ import { RedNeuronalAprende } from "./RedNeuronalAprende";
 import { RedNeuronalTruco } from "./RedNeuronalTruco";
 import { RedNeuronalRetropropagacion } from "./RedNeuronalRetropropagacion";
 import { ComoFuncionanLosLLM } from "./ComoFuncionanLosLLM";
+import { ElErrorDeLosOrdenadoresDeIA } from "./ElErrorDeLosOrdenadoresDeIA";
 
 export const RemotionRoot: React.FC = () => {
   return (
@@ -107,6 +108,14 @@ export const RemotionRoot: React.FC = () => {
         id="ComoFuncionanLosLLM"
         component={ComoFuncionanLosLLM}
         durationInFrames={8062}
+        fps={30}
+        width={1920}
+        height={1080}
+      />
+      <Composition
+        id="ElErrorDeLosOrdenadoresDeIA"
+        component={ElErrorDeLosOrdenadoresDeIA}
+        durationInFrames={11864}
         fps={30}
         width={1920}
         height={1080}

@@ -1,0 +1,100 @@
+Durante siglos, las computadoras más poderosas del mundo no tenían ni un solo cero, ni uno, no.
+Predecían eclipses, mareas y guiaban cañones antiaéreos, todo con electricidad pura.
+Luego llegaron los transistores y las computadoras digitales las barrieron del mapa.
+Hoy casi todo lo que usas es digital,
+pero una tormenta perfecta está a punto de traer de vuelta lo analógico y todo empieza con un error,
+un experimento fallido y un hombre que se ahogó antes de ver si tenía razón.
+Una computadora analógica no calcula con ceros y unos, calcula con voltaje puro, subiendo y bajando como una masa en un resorte.
+El circuito eléctrico es el problema físico,
+solo que ocurre mucho más rápido.
+Con esto puedes simular el clima, el caos, cualquier ecuación diferencial, solo cambiando cables de sitio y es rápidísima.
+Para sumar dos números, una computadora digital necesita unos 50 transistores.
+Una analógica solo necesita conectar dos cables.
+Para multiplicar, lo digital necesita mil transistores.
+Lo analógico solo necesita una resistencia,
+voltaje entre resistencia y ya tienes la multiplicación gratis.
+Pero lo analógico tiene un problema serio, no sirve para propósitos generales, no vas a escribir un documento de Word en una de estas y como todo es continuo, nunca obtienes el mismo resultado dos veces.
+Siempre hay un margen de error del 1 por ciento.
+Por eso lo digital ganó la guerra en cuanto se hizo viable.
+Fin de la historia, durante 70 años,
+hasta que llegó la inteligencia artificial y todo volvió a estar en juego.
+En 1958,
+un psicólogo llamado Frank Rosenblatt construyó una máquina para imitar neuronas, la llamó el Perceptrón.
+Una neurona artificial hace algo muy simple,
+recibe señales, las multiplica por un peso y las suma todas.
+Si la suma supera cierto umbral, la neurona se dispara, si no se queda callada.
+El Perceptrón de Rosenblatt tenía 400 células fotosensibles como una imagen de 20x20 pixels.
+Todas conectadas a una única neurona de salida, cada una con su propio peso ajustable.
+El objetivo era simple, distinguir un círculo de un rectángulo. Al principio todos los pesos empezaban en cero,
+la máquina no sabía nada.
+Le enseñaban círculos y rectángulos uno tras otro, y cada vez que se equivocaba, ajustaba sus propios pesos un poquito.
+Y funcionó.
+Aprendió solo a base de errores corregidos.
+Los medios enloquecieron,
+el New York Times escribió que la marina esperaba una máquina capaz de caminar, hablar,
+ver,
+escribir,
+reproducirse y ser consciente de su propia existencia. Un ordenador de los años 50, del tamaño de un armario, del que se esperaba que tuviera alma.
+La realidad fue más humilde.
+El Perceptrón ni siquiera podía distinguir un perro de un gato.
+En 1969,
+dos investigadores del MIT publicaron un libro destrozando sus límites matemáticos.
+Fue el primer invierno de la inteligencia artificial.
+La financiación se congeló de la noche a la mañana.
+Rosenblatt no llegó a verlo, murió ahogado navegando, el día de su cumpleaños número 43.
+Pero su idea no murió con él.
+Volvió en los años 80, dentro de un camión.
+Investigadores de Carnegie Mellon construyeron ALVINN, un camión que conducía solo, guiado por una red neuronal con una capa oculta de neuronas entre la entrada y la salida.
+Un humano conducía primero, enseñándole el ángulo de giro correcto para cada imagen del camino.
+La velocidad máxima del camión autónomo era de 2 kilómetros por hora.
+El cuello de botella no era la inteligencia, era la velocidad de cálculo.
+En los 90 llegó otro invierno.
+Nadie sabía si el problema era el software o simplemente que faltaba hardware.
+A mediados de los 2000,
+una investigadora llamada Fei-Fei Li tuvo una idea distinta.
+Quizás el problema nunca fue el algoritmo, quizás faltaban datos.
+Entre 2006 y 2009 construyó ImageNet,
+una base de datos con un millón 200 mil imágenes etiquetadas a mano.
+Con eso organizó una competición anual para clasificar imágenes en mil categorías distintas.
+En 2010,
+la mejor red se equivocaba casi un tercio de las veces.
+En 2011 mejoró un poco,
+pero en 2012 todo cambió de golpe.
+Una red llamada AlexNet arrasó la competición con una tasa de error de solo el 16%.
+Tenía 8 capas, 500 mil neuronas y 60 millones de pesos que ajustar y se entrenó usando tarjetas gráficas no procesadores normales.
+Su artículo se ha citado más de 100 mil veces,
+fue el pistoletazo de salida de la IA moderna.
+Para 2015 una red de 100 capas ya clasificaba imágenes mejor que un humano,
+pero ese éxito trajo un problema nuevo y muy caro.
+Entrenar una sola red neuronal grande puede gastar tanta electricidad como tres casas en un año entero y la mayor parte de esa energía no se gasta calculando. Se gasta moviendo datos de la memoria al procesador una y otra vez.
+Además, los transistores ya casi tienen el tamaño de un átomo,
+no queda mucho margen para encogerlos más.
+Digital llegando a su límite físico,
+redes neuronales cada vez más grandes y casi todo su trabajo reducido a una sola operación,
+multiplicar y sumar.
+Esa es la tormenta perfecta que puede traer de vuelta lo analógico.
+Y aquí está el giro final.
+A una red neuronal no le importa ser un poco imprecisa. Si está 97 % segura de que ve una gallina, sigue siendo una gallina.
+Justo el error que hundió a las computadoras analógicas hace 70 años a la inteligencia artificial no le molesta en absoluto.
+Hoy existen chips analógicos reales para redes neuronales.
+Reutilizan memoria flash corriente pero de una forma ingeniosa.
+En vez de guardar solo un cero o un uno guardan una cantidad exacta de electrones como una resistencia variable.
+Aplicas un voltaje y la corriente resultante ya es, literalmente, la multiplicación hecha por la física misma.
+Uno de estos chips hace 25 billones de operaciones por segundo usando solo 3 vatios de energía.
+Un chip digital equivalente necesita decenas de vatios y cuesta miles de dólares.
+Ya se usan para cámaras de seguridad, inspección en fábricas y para que un altavoz inteligente reconozca su palabra de activación gastando casi nada de batería.
+Todavía tienen un límite.
+La señal analógica se distorsiona si encadenas demasiadas operaciones seguidas.
+Así que los chips actuales alternan. Analógico digital,
+analógico otra vez para no perder la señal por el camino.
+Hay algo casi poético en todo esto.
+Para construir su Perceptrón original,
+Rosenblatt no tenía suficiente potencia digital.
+Así que construyó su propia computadora analógica a mano con resistencias variables y pequeños motores.
+Su idea sobre las redes neuronales resultó ser correcta.
+Puede que su instinto analógico también lo fuera.
+Nuestro propio cerebro es digital en el sentido de que una neurona se dispara o no.
+Pero también es profundamente analógico.
+El pensamiento ocurre en todas partes a la vez.
+Quizás para lograr una inteligencia artificial de verdad hace falta algo del poder de lo analógico.
+Suscríbete si quieres que sigamos abriendo la caja negra de la IA.
