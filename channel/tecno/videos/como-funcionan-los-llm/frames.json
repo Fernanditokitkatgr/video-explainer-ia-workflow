@@ -1,0 +1,426 @@
+{
+  "video": "como-funcionan-los-llm",
+  "style_base": "Whiteboard doodle style, black marker sketch lines on a plain white whiteboard background, simple explanatory hand-drawn diagrams and doodles, casual classroom sketch aesthetic, no photorealism. TEXT RULE: written words/labels are WELCOME and encouraged when they reinforce the key concept of the scene (a short word, a key term, a number) — they MUST always be written in perfect SPANISH, exactly as specified in the scene below, in simple bold casual handwritten marker capital letters, spelled correctly letter by letter — NEVER English, never generic filler text. If the scene doesn't ask for a specific word, don't invent one. CRITICAL SCOPE RULE: draw ONLY the elements described in the scene below. Do not add unrelated icons, generic business diagrams (no idea/process/result boxes, no PDCA cycles, no growth charts), or any extra decoration not explicitly mentioned.",
+  "frames": [
+    {
+      "file": "0_00.jpg",
+      "startSec": 0.0,
+      "text": "Imagina que encuentras el vión de un cortometraje.",
+      "scene": "a simple hand-drawn screenplay page icon with a few lines represented as squiggly scribbles, nothing else on the board, no real text"
+    },
+    {
+      "file": "0_03.jpg",
+      "startSec": 3.06,
+      "text": "Una escena entre una persona y su asistente de inteligencia artificial.",
+      "scene": "two simple stick figures facing each other, one labeled with a small robot antenna icon on its head, nothing else on the board"
+    },
+    {
+      "file": "0_07.jpg",
+      "startSec": 7.22,
+      "text": "Ves la pregunta,",
+      "scene": "a small speech bubble with a question mark inside it, nothing else on the board"
+    },
+    {
+      "file": "0_08.jpg",
+      "startSec": 8.7,
+      "text": "pero la respuesta ha desaparecido.",
+      "scene": "a small speech bubble with a big red X inside it, empty and crossed out, nothing else on the board"
+    },
+    {
+      "file": "0_11.jpg",
+      "startSec": 11.16,
+      "text": "Ahora imagina que tienes una máquina mágica que predice la siguiente palabra de cualquier texto.",
+      "scene": "a simple hand-drawn box shape with gears inside it and a magic sparkle icon above it, nothing else on the board"
+    },
+    {
+      "file": "0_16.jpg",
+      "startSec": 16.5,
+      "text": "Podrías meter el guión en esa máquina,",
+      "scene": "a screenplay page icon with an arrow pointing into a box-with-gears machine, nothing else on the board"
+    },
+    {
+      "file": "0_18.jpg",
+      "startSec": 18.9,
+      "text": "predecir la primera palabra de la respuesta,",
+      "scene": "an arrow coming out of the machine box pointing to a single highlighted word rectangle, with a circular repeat arrow beside it, nothing else on the board"
+    },
+    {
+      "file": "0_21.jpg",
+      "startSec": 21.34,
+      "text": "y repetir palabra por palabra hasta completar el diálogo.",
+      "scene": "an arrow coming out of the machine box pointing to a single highlighted word rectangle, with a circular repeat arrow beside it, nothing else on the board"
+    },
+    {
+      "file": "0_24.jpg",
+      "startSec": 24.86,
+      "text": "Cuando hablas con un chatbot,",
+      "scene": "two stick figures facing each other with a chat bubble and small robot icon between them, nothing else on the board"
+    },
+    {
+      "file": "0_26.jpg",
+      "startSec": 26.68,
+      "text": "es literalmente esto lo que pasa.",
+      "scene": "two stick figures facing each other with a chat bubble and small robot icon between them, nothing else on the board"
+    },
+    {
+      "file": "0_28.jpg",
+      "startSec": 28.6,
+      "text": "Un modelo de lenguaje, un l -l -m,",
+      "scene": "a large box with the handwritten word 'LLM' written big and bold inside it, and a small 'f(x)' icon beside it, nothing else on the board"
+    },
+    {
+      "file": "0_31.jpg",
+      "startSec": 31.04,
+      "text": "es una función matemática gigante.",
+      "scene": "a large box labeled with a small 'f(x)' icon inside it, big and centered, nothing else on the board"
+    },
+    {
+      "file": "0_33.jpg",
+      "startSec": 33.12,
+      "text": "Solo hace una cosa, predecir la siguiente palabra.",
+      "scene": "a simple hand-drawn number '1' alone, nothing else on the board"
+    },
+    {
+      "file": "0_36.jpg",
+      "startSec": 36.42,
+      "text": "Pero no predice una palabra con certeza.",
+      "scene": "a large hand-drawn question mark with a red X over it, nothing else on the board"
+    },
+    {
+      "file": "0_38.jpg",
+      "startSec": 38.94,
+      "text": "Le asigna una probabilidad a cada palabra posible del idioma.",
+      "scene": "a row of small bars of different heights like a bar chart, representing probabilities, nothing else on the board"
+    },
+    {
+      "file": "0_42.jpg",
+      "startSec": 42.38,
+      "text": "Para montar un chatbot, le das un texto que simula una conversación entre un usuario y una ia.",
+      "scene": "two stick figures with a chat bubble between them and a small robot icon, nothing else on the board"
+    },
+    {
+      "file": "0_47.jpg",
+      "startSec": 47.74,
+      "text": "Añades lo que escribe el usuario real y haces que el modelo prediga una y otra vez que diría la ia. El resultado suena mucho más natural si dejas que el modelo elija a veces palabras menos probables al azar.",
+      "scene": "a stick figure typing on a keyboard with a circular repeat arrow pointing to a small robot icon, nothing else on the board"
+    },
+    {
+      "file": "1_00.jpg",
+      "startSec": 60.36,
+      "text": "Por eso la misma pregunta te da respuestas distintas cada vez, aunque el modelo sea determinista.",
+      "scene": "two identical speech bubbles with different squiggly answers inside each, nothing else on the board"
+    },
+    {
+      "file": "1_05.jpg",
+      "startSec": 65.62,
+      "text": "Y cómo aprende a predecir,",
+      "scene": "a large hand-drawn question mark alone on the whiteboard, nothing else"
+    },
+    {
+      "file": "1_07.jpg",
+      "startSec": 67.72,
+      "text": "leyendo cantidades brutales de texto de Internet.",
+      "scene": "a large stack of papers with a small globe/internet icon above it, nothing else on the board"
+    },
+    {
+      "file": "1_10.jpg",
+      "startSec": 70.64,
+      "text": "Para leer todo el texto que entrenó a GPT -3, un humano tardaría más de 2600 años sin dormir.",
+      "scene": "a stick figure reading a huge tall stack of books with a clock icon showing '2600' beside it, nothing else on the board"
+    },
+    {
+      "file": "1_17.jpg",
+      "startSec": 77.28,
+      "text": "Los modelos actuales entrenan con muchísimo más. Piensa en el entrenamiento como girar millones de diales de una máquina enorme.",
+      "scene": "a large panel of many tiny hand-drawn dials and knobs, nothing else on the board"
+    },
+    {
+      "file": "1_24.jpg",
+      "startSec": 84.4,
+      "text": "Esos diales se llaman parámetros o pesos.",
+      "scene": "a single dial icon with a small tag/label icon beside it, nothing else on the board"
+    },
+    {
+      "file": "1_27.jpg",
+      "startSec": 87.46,
+      "text": "Cambia los diales y cambian las probabilidades que predice el modelo.",
+      "scene": "a hand turning one dial with an arrow pointing to a row of bars changing height, nothing else on the board"
+    },
+    {
+      "file": "1_31.jpg",
+      "startSec": 91.38,
+      "text": "Lo que hace grande a un LLM es tener cientos de miles de millones de esos parámetros.",
+      "scene": "a huge panel completely packed with countless tiny dials stretching off both edges of the frame, with the handwritten number '100 000 000 000' written boldly above the panel, spelled exactly as this sequence of digits and spaces, no letters, nothing else on the board"
+    },
+    {
+      "file": "1_37.jpg",
+      "startSec": 97.08,
+      "text": "Y nadie los diseña a mano.",
+      "scene": "a simple crossed-out stick figure hand over a dial panel, nothing else on the board"
+    },
+    {
+      "file": "1_38.jpg",
+      "startSec": 98.74,
+      "text": "Empiezan totalmente al azar.",
+      "scene": "a dial panel with all the dials pointing in random chaotic directions, nothing else on the board"
+    },
+    {
+      "file": "1_40.jpg",
+      "startSec": 100.86,
+      "text": "Al principio el modelo solo escúpe letras sin sentido.",
+      "scene": "a dial panel with random dials and a small scribbled nonsense squiggly text icon beside it, nothing else on the board"
+    },
+    {
+      "file": "1_43.jpg",
+      "startSec": 103.92,
+      "text": "Si afina con ejemplos reales de texto,",
+      "scene": "a dial panel with random dials and a small scribbled nonsense squiggly text icon beside it, nothing else on the board"
+    },
+    {
+      "file": "1_46.jpg",
+      "startSec": 106.7,
+      "text": "metes todas las palabras de un ejemplo menos la última. Comparas la predicción del modelo con la palabra real y usas retropropagación para ajustar los parámetros.",
+      "scene": "two word rectangles side by side being compared with a double-headed arrow between them, plus a small backward arrow icon, nothing else on the board"
+    },
+    {
+      "file": "1_56.jpg",
+      "startSec": 116.02,
+      "text": "Para que la próxima vez acerte un poco más esa última palabra.",
+      "scene": "a single arrow labeled with a small checkmark pointing toward a highlighted word rectangle, nothing else on the board"
+    },
+    {
+      "file": "1_59.jpg",
+      "startSec": 119.74,
+      "text": "Repite estos billones de veces y el modelo no solo mejora en sus ejemplos de entrenamiento. Empieza a predecir razonablemente textos que nunca ha visto.",
+      "scene": "a circular repeat/loop arrow icon with the handwritten label 'x1 000 000 000 000' beside it, nothing else on the board"
+    },
+    {
+      "file": "2_08.jpg",
+      "startSec": 128.5,
+      "text": "La cantidad de cálculo para entrenar esto es una locura.",
+      "scene": "a simple lightbulb icon with a checkmark, next to a stack of new unseen word rectangles, nothing else on the board"
+    },
+    {
+      "file": "2_11.jpg",
+      "startSec": 131.6,
+      "text": "Imagina que puedes hacer mil millones de operaciones por segundo. ¿Cuánto tardarías en entrenar el modelo más grande?",
+      "scene": "a simple hand-drawn stopwatch icon, nothing else on the board"
+    },
+    {
+      "file": "2_18.jpg",
+      "startSec": 138.02,
+      "text": "Un año,",
+      "scene": "two small clock icons side by side, one labeled '1' and one labeled '10000', nothing else on the board"
+    },
+    {
+      "file": "2_18_b.jpg",
+      "startSec": 138.9,
+      "text": "diez mil años, la respuesta real más de cien millones de años.",
+      "scene": "a large hand-drawn arrow pointing far off the board toward a huge handwritten number '100 000 000', nothing else on the board"
+    },
+    {
+      "file": "2_23.jpg",
+      "startSec": 143.84,
+      "text": "Pero esto es solo la mitad de la historia.",
+      "scene": "a simple hourglass icon cut exactly in half, nothing else on the board"
+    },
+    {
+      "file": "2_26.jpg",
+      "startSec": 146.24,
+      "text": "Se llama preentrenamiento.",
+      "scene": "the words 'PRE-ENTRENAMIENTO' written large in casual handwritten Spanish marker letters, nothing else on the board"
+    },
+    {
+      "file": "2_28.jpg",
+      "startSec": 148.54,
+      "text": "Autocompletar texto de internet no es lo mismo que ser un buen asistente.",
+      "scene": "the words 'PRE-ENTRENAMIENTO' written large in casual handwritten Spanish marker letters, nothing else on the board"
+    },
+    {
+      "file": "2_32.jpg",
+      "startSec": 152.52,
+      "text": "Por eso viene una segunda fase igual de importante.",
+      "scene": "a circular repeat/loop arrow icon labeled with a small numeral '2', nothing else on the board"
+    },
+    {
+      "file": "2_35.jpg",
+      "startSec": 155.96,
+      "text": "Aprendizaje por refuerzo con retroalimentación humana.",
+      "scene": "the words 'RETROALIMENTACION HUMANA' written large in casual handwritten Spanish marker letters, nothing else on the board"
+    },
+    {
+      "file": "2_39.jpg",
+      "startSec": 159.34,
+      "text": "Personas señalan que respuestas son inútiles o problemáticas. Y esas correcciones afinan aún más los parámetros del modelo.",
+      "scene": "a simple stick figure pointing at a speech bubble with a red X inside it, with a small pencil correcting it, nothing else on the board"
+    },
+    {
+      "file": "2_47.jpg",
+      "startSec": 167.18,
+      "text": "Todo este cálculo solo es posible gracias a chips diseñados para hacer muchísimas operaciones en paralelo,",
+      "scene": "a small computer chip icon with lightning bolts around it, nothing else on the board"
+    },
+    {
+      "file": "2_53.jpg",
+      "startSec": 173.22,
+      "text": "las GPU.",
+      "scene": "the letters 'GPU' written large in casual handwritten marker letters beside a small chip icon, nothing else on the board"
+    },
+    {
+      "file": "2_54.jpg",
+      "startSec": 174.54,
+      "text": "Pero no todos los modelos se pueden paralelizar bien.",
+      "scene": "a big red X over a single-file row of word rectangles going through one small gate, nothing else on the board"
+    },
+    {
+      "file": "2_57.jpg",
+      "startSec": 177.76,
+      "text": "Antes de 2017 casi todos procesaban el texto palabra por palabra en fila.",
+      "scene": "a single-file row of plain empty word rectangles (no text or letters inside any of them) passing one by one through a small gate icon, nothing else on the board, no text, no labels, no words anywhere in the image"
+    },
+    {
+      "file": "3_03.jpg",
+      "startSec": 183.36,
+      "text": "Entonces un equipo de Google presentó un modelo nuevo, el Transformer.",
+      "scene": "the word 'TRANSFORMER' written large in casual handwritten letters beside a small gear icon, nothing else on the board"
+    },
+    {
+      "file": "3_07.jpg",
+      "startSec": 187.72,
+      "text": "Los Transformers no leen de principio a fin. Absorben todo el texto de golpe en paralelo.",
+      "scene": "a big red X over a row of word rectangles being read left to right in order, nothing else on the board"
+    },
+    {
+      "file": "3_13.jpg",
+      "startSec": 193.82,
+      "text": "El primer paso,",
+      "scene": "a single word rectangle with an arrow pointing to a long vertical column of small numbers, nothing else on the board"
+    },
+    {
+      "file": "3_15.jpg",
+      "startSec": 195.34,
+      "text": "convertir cada palabra en una lista larga de números porque el entrenamiento solo entiende números, no letras.",
+      "scene": "a single word rectangle with an arrow pointing to a long vertical column of small numbers, nothing else on the board"
+    },
+    {
+      "file": "3_21.jpg",
+      "startSec": 201.76,
+      "text": "Esa lista de números codifica el significado de la palabra.",
+      "scene": "a long vertical column of abstract tally-mark dashes and dots (not real numerals, not readable digits) increasing gradually in visual density and thickness from top to bottom, next to a small blank rectangle tag icon (empty, no text or words inside it), nothing else on the board, no numbers, no letters, no words anywhere"
+    },
+    {
+      "file": "3_25.jpg",
+      "startSec": 205.42,
+      "text": "Lo que hace único al Transformer es una operación especial,",
+      "scene": "a bold hand-drawn spark/star icon labeled with a small magnifying glass, nothing else on the board"
+    },
+    {
+      "file": "3_28.jpg",
+      "startSec": 208.96,
+      "text": "la atención.",
+      "scene": "a single small doodle circle glowing brighter and larger than several other faded small doodle circles around it, with a few short focus lines radiating toward it like a magnifying spotlight, and the handwritten word 'ATENCIÓN' written boldly above it, spelled EXACTLY as these 8 letters A-T-E-N-C-I-O-N with an accent on the O, no other words, nothing else on the board"
+    },
+    {
+      "file": "3_30.jpg",
+      "startSec": 210.22,
+      "text": "La atención deja que todas esas listas de números hablen entre sí y afinen su significado según el contexto todo en paralelo.",
+      "scene": "several vertical columns of small numbers connected to each other with crossing arrows, all talking to each other, nothing else on the board"
+    },
+    {
+      "file": "3_38.jpg",
+      "startSec": 218.38,
+      "text": "Por ejemplo, la palabra banco cambia sus números según el contexto.",
+      "scene": "the word 'BANCO' written large in casual handwritten Spanish marker letters with an arrow splitting into a small bill/coin icon and a small wavy river icon, nothing else on the board"
+    },
+    {
+      "file": "3_42.jpg",
+      "startSec": 222.5,
+      "text": "Puede pasar de significar entidad financiera a significar la orilla de un río.",
+      "scene": "an arrow pointing from a small bill/coin icon toward a small wavy river icon, nothing else on the board"
+    },
+    {
+      "file": "3_47.jpg",
+      "startSec": 227.66,
+      "text": "Los Transformers también tienen otra pieza, una red neuronal normal y corriente.",
+      "scene": "a small classic neural network icon (a few connected circles) beside a transformer gear icon, nothing else on the board"
+    },
+    {
+      "file": "3_52.jpg",
+      "startSec": 232.84,
+      "text": "Le da al modelo espacio extra para guardar patrones aprendidos en el entrenamiento.",
+      "scene": "a small treasure chest icon with a lightbulb beside it, nothing else on the board"
+    },
+    {
+      "file": "3_57.jpg",
+      "startSec": 237.56,
+      "text": "Todo esto se repite muchas veces, capa, trascapa.",
+      "scene": "a small treasure chest icon with a lightbulb beside it, nothing else on the board"
+    },
+    {
+      "file": "4_00.jpg",
+      "startSec": 240.92,
+      "text": "Cada lista de números se enriquece un poco más en cada pasada, hasta acumular toda la información necesaria para predecir bien la siguiente palabra.",
+      "scene": "a small treasure chest icon with a lightbulb beside it, nothing else on the board"
+    },
+    {
+      "file": "4_09.jpg",
+      "startSec": 249.42,
+      "text": "Al final, se usa el último de esos vectores, ya ha cargado de contexto para hacer la predicción final.",
+      "scene": "several vertical number columns each getting visually thicker and bolder in successive small panels, nothing else on the board"
+    },
+    {
+      "file": "4_15.jpg",
+      "startSec": 255.5,
+      "text": "Una probabilidad para cada palabra posible del idioma.",
+      "scene": "a row of small bars of different heights like a bar chart, representing probabilities, nothing else on the board"
+    },
+    {
+      "file": "4_19.jpg",
+      "startSec": 259.14,
+      "text": "Los investigadores diseñan cada paso del proceso,",
+      "scene": "a simple stick figure scientist drawing a blueprint/diagram with a pencil, nothing else on the board"
+    },
+    {
+      "file": "4_22.jpg",
+      "startSec": 262.18,
+      "text": "pero lo que el modelo aprende dentro es un fenómeno emergente,",
+      "scene": "a full neural network diagram with a giant question mark floating above it, nothing else on the board"
+    },
+    {
+      "file": "4_25.jpg",
+      "startSec": 265.5,
+      "text": "depende de miles de millones de parámetros ajustados solo, sin que nadie los programe a mano.",
+      "scene": "a full neural network diagram with a giant question mark floating above it, nothing else on the board"
+    },
+    {
+      "file": "4_30.jpg",
+      "startSec": 270.92,
+      "text": "Por eso es tan difícil saber exactamente por qué el modelo predice lo que predice.",
+      "scene": "a large panel of tiny dials and knobs with a giant question mark above it, nothing else on the board"
+    },
+    {
+      "file": "4_36.jpg",
+      "startSec": 276.18,
+      "text": "Lo que sí puedes ver es el resultado,",
+      "scene": "a simple lightbulb icon with a checkmark and a small sparkle icon beside it, nothing else on the board"
+    },
+    {
+      "file": "4_38.jpg",
+      "startSec": 278.48,
+      "text": "texto sorprendentemente fluido, coherente y a veces genuinamente útil.",
+      "scene": "a row of small bars of different heights with a bold checkmark above them and a small heart icon, nothing else on the board"
+    },
+    {
+      "file": "4_43.jpg",
+      "startSec": 283.6,
+      "text": "Y así, palabra por palabra, es como funciona de verdad un modelo del lenguaje.",
+      "scene": "a row of plain empty rectangles (blank word placeholders, no text inside any of them) connected by a repeat/loop arrow curling back to the start, nothing else on the board, no labels, no words, no \"IDEA\" box, no business diagram of any kind"
+    },
+    {
+      "file": "4_48.jpg",
+      "startSec": 288.84,
+      "text": "Suscríbete si quieres que sigamos abriendo la caja negra de la ia.",
+      "scene": "a simple hand-drawn bell icon with a forward arrow beside it, a subscribe-bell style sketch, nothing else on the board"
+    }
+  ]
+}

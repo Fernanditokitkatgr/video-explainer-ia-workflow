@@ -1,0 +1,279 @@
+1
+00:00:00,000 --> 00:00:02,782
+Imagina que encuentras el guion de un cortometraje.
+
+2
+00:00:02,782 --> 00:00:06,564
+Una escena entre una persona y su asistente de inteligencia artificial.
+
+3
+00:00:06,564 --> 00:00:07,909
+Ves la pregunta,
+
+4
+00:00:07,909 --> 00:00:10,145
+pero la respuesta ha desaparecido.
+
+5
+00:00:10,145 --> 00:00:15,000
+Ahora imagina que tienes una máquina mágica que predice la siguiente palabra de cualquier texto.
+
+6
+00:00:15,000 --> 00:00:17,182
+Podrías meter el guión en esa máquina,
+
+7
+00:00:17,182 --> 00:00:19,400
+predecir la primera palabra de la respuesta,
+
+8
+00:00:19,400 --> 00:00:22,600
+y repetir palabra por palabra hasta completar el diálogo.
+
+9
+00:00:22,600 --> 00:00:24,255
+Cuando hablas con un chatbot,
+
+10
+00:00:24,255 --> 00:00:26,000
+es literalmente esto lo que pasa.
+
+11
+00:00:26,000 --> 00:00:28,218
+Un modelo de lenguaje, un LLM,
+
+12
+00:00:28,218 --> 00:00:30,109
+es una función matemática gigante.
+
+13
+00:00:30,109 --> 00:00:33,109
+Solo hace una cosa, predecir la siguiente palabra.
+
+14
+00:00:33,109 --> 00:00:35,400
+Pero no predice una palabra con certeza.
+
+15
+00:00:35,400 --> 00:00:38,527
+Le asigna una probabilidad a cada palabra posible del idioma.
+
+16
+00:00:38,527 --> 00:00:43,400
+Para montar un chatbot, le das un texto que simula una conversación entre un usuario y una IA.
+
+17
+00:00:43,400 --> 00:00:54,873
+Añades lo que escribe el usuario real y haces que el modelo prediga una y otra vez que diría la IA. El resultado suena mucho más natural si dejas que el modelo elija a veces palabras menos probables al azar.
+
+18
+00:00:54,873 --> 00:00:59,655
+Por eso la misma pregunta te da respuestas distintas cada vez, aunque el modelo sea determinista.
+
+19
+00:00:59,655 --> 00:01:01,564
+Y cómo aprende a predecir,
+
+20
+00:01:01,564 --> 00:01:04,218
+leyendo cantidades brutales de texto de Internet.
+
+21
+00:01:04,218 --> 00:01:10,255
+Para leer todo el texto que entrenó a GPT-3, un humano tardaría más de 2600 años sin dormir.
+
+22
+00:01:10,255 --> 00:01:16,727
+Los modelos actuales entrenan con muchísimo más. Piensa en el entrenamiento como girar millones de diales de una máquina enorme.
+
+23
+00:01:16,727 --> 00:01:19,509
+Esos diales se llaman parámetros o pesos.
+
+24
+00:01:19,509 --> 00:01:23,073
+Cambia los diales y cambian las probabilidades que predice el modelo.
+
+25
+00:01:23,073 --> 00:01:28,255
+Lo que hace grande a un LLM es tener cientos de miles de millones de esos parámetros.
+
+26
+00:01:28,255 --> 00:01:29,764
+Y nadie los diseña a mano.
+
+27
+00:01:29,764 --> 00:01:31,691
+Empiezan totalmente al azar.
+
+28
+00:01:31,691 --> 00:01:34,473
+Al principio el modelo solo escúpe letras sin sentido.
+
+29
+00:01:34,473 --> 00:01:37,000
+Si afina con ejemplos reales de texto,
+
+30
+00:01:37,000 --> 00:01:45,473
+metes todas las palabras de un ejemplo menos la última. Comparas la predicción del modelo con la palabra real y usas retropropagación para ajustar los parámetros.
+
+31
+00:01:45,473 --> 00:01:48,855
+Para que la próxima vez acierte un poco más esa última palabra.
+
+32
+00:01:48,855 --> 00:01:56,818
+Repite estos billones de veces y el modelo no solo mejora en sus ejemplos de entrenamiento. Empieza a predecir razonablemente textos que nunca ha visto.
+
+33
+00:01:56,818 --> 00:01:59,636
+La cantidad de cálculo para entrenar esto es una locura.
+
+34
+00:01:59,636 --> 00:02:05,473
+Imagina que puedes hacer mil millones de operaciones por segundo. ¿Cuánto tardarías en entrenar el modelo más grande?
+
+35
+00:02:05,473 --> 00:02:06,673
+Un año,
+
+36
+00:02:06,273 --> 00:02:10,764
+diez mil años, la respuesta real más de cien millones de años.
+
+37
+00:02:10,764 --> 00:02:12,945
+Pero esto es solo la mitad de la historia.
+
+38
+00:02:12,945 --> 00:02:15,036
+Se llama preentrenamiento.
+
+39
+00:02:15,036 --> 00:02:18,655
+Autocompletar texto de internet no es lo mismo que ser un buen asistente.
+
+40
+00:02:18,655 --> 00:02:21,782
+Por eso viene una segunda fase igual de importante.
+
+41
+00:02:21,782 --> 00:02:24,855
+Aprendizaje por refuerzo con retroalimentación humana.
+
+42
+00:02:24,855 --> 00:02:31,982
+Personas señalan que respuestas son inútiles o problemáticas. Y esas correcciones afinan aún más los parámetros del modelo.
+
+43
+00:02:31,982 --> 00:02:37,473
+Todo este cálculo solo es posible gracias a chips diseñados para hacer muchísimas operaciones en paralelo,
+
+44
+00:02:37,473 --> 00:02:38,673
+las GPU.
+
+45
+00:02:38,673 --> 00:02:41,600
+Pero no todos los modelos se pueden paralelizar bien.
+
+46
+00:02:41,600 --> 00:02:46,691
+Antes de 2017 casi todos procesaban el texto palabra por palabra en fila.
+
+47
+00:02:46,691 --> 00:02:50,655
+Entonces un equipo de Google presentó un modelo nuevo, el Transformer.
+
+48
+00:02:50,655 --> 00:02:56,200
+Los Transformers no leen de principio a fin. Absorben todo el texto de golpe en paralelo.
+
+49
+00:02:56,200 --> 00:02:57,582
+El primer paso,
+
+50
+00:02:57,582 --> 00:03:03,418
+convertir cada palabra en una lista larga de números porque el entrenamiento solo entiende números, no letras.
+
+51
+00:03:03,418 --> 00:03:06,745
+Esa lista de números codifica el significado de la palabra.
+
+52
+00:03:06,745 --> 00:03:09,964
+Lo que hace único al Transformer es una operación especial,
+
+53
+00:03:09,964 --> 00:03:11,164
+la atención.
+
+54
+00:03:11,109 --> 00:03:18,527
+La atención deja que todas esas listas de números hablen entre sí y afinen su significado según el contexto todo en paralelo.
+
+55
+00:03:18,527 --> 00:03:22,273
+Por ejemplo, la palabra banco cambia sus números según el contexto.
+
+56
+00:03:22,273 --> 00:03:26,964
+Puede pasar de significar entidad financiera a significar la orilla de un río.
+
+57
+00:03:26,964 --> 00:03:31,673
+Los Transformers también tienen otra pieza, una red neuronal normal y corriente.
+
+58
+00:03:31,673 --> 00:03:35,964
+Le da al modelo espacio extra para guardar patrones aprendidos en el entrenamiento.
+
+59
+00:03:35,964 --> 00:03:39,018
+Todo esto se repite muchas veces, capa tras capa.
+
+60
+00:03:39,018 --> 00:03:46,745
+Cada lista de números se enriquece un poco más en cada pasada, hasta acumular toda la información necesaria para predecir bien la siguiente palabra.
+
+61
+00:03:46,745 --> 00:03:52,273
+Al final, se usa el último de esos vectores, ya cargado de contexto para hacer la predicción final.
+
+62
+00:03:52,273 --> 00:03:55,582
+Una probabilidad para cada palabra posible del idioma.
+
+63
+00:03:55,582 --> 00:03:58,345
+Los investigadores diseñan cada paso del proceso,
+
+64
+00:03:58,345 --> 00:04:01,364
+pero lo que el modelo aprende dentro es un fenómeno emergente,
+
+65
+00:04:01,364 --> 00:04:06,291
+depende de miles de millones de parámetros ajustados solo, sin que nadie los programe a mano.
+
+66
+00:04:06,291 --> 00:04:11,073
+Por eso es tan difícil saber exactamente por qué el modelo predice lo que predice.
+
+67
+00:04:11,073 --> 00:04:13,164
+Lo que sí puedes ver es el resultado,
+
+68
+00:04:13,164 --> 00:04:17,818
+texto sorprendentemente fluido, coherente y a veces genuinamente útil.
+
+69
+00:04:17,818 --> 00:04:22,582
+Y así, palabra por palabra, es como funciona de verdad un modelo del lenguaje.
+
+70
+00:04:22,582 --> 00:04:25,582
+Suscríbete si quieres que sigamos abriendo la caja negra de la IA.

@@ -10,6 +10,7 @@ import { RedNeuronalExplicada } from "./RedNeuronalExplicada";
 import { RedNeuronalAprende } from "./RedNeuronalAprende";
 import { RedNeuronalTruco } from "./RedNeuronalTruco";
 import { RedNeuronalRetropropagacion } from "./RedNeuronalRetropropagacion";
+import { ComoFuncionanLosLLM } from "./ComoFuncionanLosLLM";
 
 export const RemotionRoot: React.FC = () => {
   return (
@@ -98,6 +99,14 @@ export const RemotionRoot: React.FC = () => {
         id="RedNeuronalRetropropagacion"
         component={RedNeuronalRetropropagacion}
         durationInFrames={10970}
+        fps={30}
+        width={1920}
+        height={1080}
+      />
+      <Composition
+        id="ComoFuncionanLosLLM"
+        component={ComoFuncionanLosLLM}
+        durationInFrames={8062}
         fps={30}
         width={1920}
         height={1080}

@@ -35,6 +35,7 @@ client_secret*.json
 *_client_secret.json
 token.json
 *.token.json
+scratch-yt/publish_queue.json
 service-account*.json
 credentials.json
 

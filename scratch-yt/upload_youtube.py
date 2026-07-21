@@ -13,10 +13,26 @@ Uso:
         --privacy private
 
 privacy: private | unlisted | public   (por defecto: private, para probar sin publicar)
+
+Publicación programada (--publish-at):
+    python upload_youtube.py VIDEO.mp4 --title "..." --publish-at 2026-07-22T17:00:00Z
+
+--publish-at acepta un ISO 8601 en UTC. YouTube exige que el vídeo esté en privacyStatus
+"private" para poder fijar publishAt (no se puede combinar con --privacy unlisted/public,
+ni fijar publishAt sobre un vídeo ya público) — por eso --publish-at fuerza privacy=private
+automáticamente y avisa si el usuario pasó otro --privacy explícito. YouTube cambia el vídeo
+a público él solo a esa hora exacta: no hace falta ningún proceso corriendo en ese momento,
+solo que el upload (con el token OAuth válido) se haya hecho de antemano.
 """
 import argparse
 import os
 import sys
+from datetime import datetime, timezone
+
+# Windows console a veces usa cp1252 por defecto y no puede imprimir los emojis de abajo
+# (crashea DESPUÉS de que la subida ya haya terminado con éxito) — forzamos UTF-8.
+if hasattr(sys.stdout, "reconfigure"):
+    sys.stdout.reconfigure(encoding="utf-8")
 
 from google.auth.transport.requests import Request
 from google.oauth2.credentials import Credentials
@@ -24,7 +40,10 @@ from google_auth_oauthlib.flow import InstalledAppFlow
 from googleapiclient.discovery import build
 from googleapiclient.http import MediaFileUpload
 
-SCOPES = ["https://www.googleapis.com/auth/youtube"]
+SCOPES = [
+    "https://www.googleapis.com/auth/youtube",
+    "https://www.googleapis.com/auth/youtube.force-ssl",  # requerido por captions.insert
+]
 HERE = os.path.dirname(os.path.abspath(__file__))
 CLIENT_SECRET = os.path.join(HERE, "client_secret.json")
 TOKEN = os.path.join(HERE, "token.json")
@@ -48,7 +67,27 @@ def get_service():
 def upload(args):
     if not os.path.exists(args.video):
         sys.exit(f"No existe el vídeo: {args.video}")
+
+    privacy = args.privacy
+    if args.publish_at:
+        try:
+            publish_dt = datetime.fromisoformat(args.publish_at.replace("Z", "+00:00"))
+        except ValueError:
+            sys.exit(f"--publish-at inválido (usa ISO 8601, ej. 2026-07-22T17:00:00Z): {args.publish_at}")
+        if publish_dt <= datetime.now(timezone.utc):
+            sys.exit(f"--publish-at debe ser una fecha futura: {args.publish_at}")
+        # YouTube exige privacyStatus=private para poder fijar publishAt.
+        if args.privacy != "private":
+            print(f"⚠️  --publish-at fuerza privacy=private (ignorando --privacy {args.privacy}).")
+        privacy = "private"
+
     youtube = get_service()
+    status = {
+        "privacyStatus": privacy,
+        "selfDeclaredMadeForKids": False,
+    }
+    if args.publish_at:
+        status["publishAt"] = args.publish_at
     body = {
         "snippet": {
             "title": args.title,
@@ -56,10 +95,7 @@ def upload(args):
             "tags": args.tags.split(",") if args.tags else [],
             "categoryId": args.category,
         },
-        "status": {
-            "privacyStatus": args.privacy,
-            "selfDeclaredMadeForKids": False,
-        },
+        "status": status,
     }
     media = MediaFileUpload(args.video, chunksize=-1, resumable=True)
     req = youtube.videos().insert(part="snippet,status", body=body, media_body=media)
@@ -71,7 +107,10 @@ def upload(args):
         if status:
             print(f"  {int(status.progress() * 100)}%")
     vid = resp["id"]
-    print(f"\n✅ Subido: https://youtu.be/{vid}  (privacy={args.privacy})")
+    if args.publish_at:
+        print(f"\n✅ Subido: https://youtu.be/{vid}  (privado, se publicará solo el {args.publish_at})")
+    else:
+        print(f"\n✅ Subido: https://youtu.be/{vid}  (privacy={privacy})")
 
     if args.thumbnail:
         set_thumbnail(youtube, vid, args.thumbnail)
@@ -99,4 +138,5 @@ if __name__ == "__main__":
     p.add_argument("--thumbnail", default="", help="ruta a PNG/JPG (1280×720 mínimo)")
     p.add_argument("--category", default="27", help="27=Educación")
     p.add_argument("--privacy", default="private", choices=["private", "unlisted", "public"])
+    p.add_argument("--publish-at", default="", help="ISO 8601 UTC (ej. 2026-07-22T17:00:00Z) — sube privado y YouTube lo publica solo a esa hora")
     upload(p.parse_args())

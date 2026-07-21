@@ -52,6 +52,20 @@ FIXES = [
     (r"un borracho tan valeándose", "un borracho tambaleándose"),
     (r"\bexiste emenist\b", "existe MNIST"),
     (r"\bproyecto real deía\b", "proyecto real de IA"),
+    (r"\bVés\b", "Ves"),
+    (r"Le llendo cantidades", "Leyendo cantidades"),
+    (r"Pienzan el entrenamiento", "Piensa en el entrenamiento"),
+    (r"no le tras\b", "no letras"),
+    (r"de la haya\.?$", "de la IA."),
+    (r"GPT -3", "GPT-3"),
+    (r"\bacerte\b", "acierte"),
+    (r"\bescúpe letra\b", "escupe letras"),
+    (r"\bel vión\b", "el guion"),
+    (r"\bun l -l -m,", "un LLM,"),
+    (r"\buna ia\.", "una IA."),
+    (r"\bla ia\.", "la IA."),
+    (r"capa, trascapa\.", "capa tras capa."),
+    (r"\bya ha cargado de contexto\b", "ya cargado de contexto"),
 ]
 
 

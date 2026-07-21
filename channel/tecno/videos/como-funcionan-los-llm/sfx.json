@@ -1,0 +1,40 @@
+{
+  "video": "como-funcionan-los-llm",
+  "music": {
+    "file": "background_theme_curious_30.mp3",
+    "prompt": "catchy curious tech-mystery beat for a YouTube science/tech explainer video, plucked marimba/pizzicato synth motif with a light playful bounce, subtle steady low-key percussion pulse, inquisitive and engaging mood, modern and clean production, no vocals, no heavy drums, no melody line that fights for attention, loopable, smooth seamless start and end",
+    "duration": 30,
+    "volume": 0.14
+  },
+  "sfx": [
+    { "file": "digital_whoosh.mp3", "startSec": 0.0, "duration": 1.5, "volume": 0.14, "prompt": "quick digital whoosh transition, futuristic sweep, no music" },
+    { "file": "digital_chime.mp3", "startSec": 7.22, "duration": 1.5, "volume": 0.14, "prompt": "short bright digital notification chime, curious and clean, very short" },
+    { "file": "mystery_sting.mp3", "startSec": 8.7, "duration": 2, "volume": 0.16, "prompt": "short mysterious cliffhanger sting, tense and curious, cinematic, no music" },
+    { "file": "magic_sparkle.mp3", "startSec": 11.16, "duration": 1.5, "volume": 0.15, "prompt": "short magical sparkle chime, whimsical and bright, very short" },
+    { "file": "keyboard_clack.mp3", "startSec": 21.34, "duration": 1.5, "volume": 0.12, "prompt": "quick mechanical keyboard typing clacks, short burst, no music" },
+    { "file": "realization_chime.mp3", "startSec": 26.68, "duration": 2, "volume": 0.15, "prompt": "short magical realization chime, bright sparkle, uplifting, very short" },
+    { "file": "warning_beep.mp3", "startSec": 36.42, "duration": 1.5, "volume": 0.14, "prompt": "short soft warning beep, cautionary but not alarming, very short" },
+    { "file": "dice_roll.mp3", "startSec": 60.36, "duration": 2, "volume": 0.15, "prompt": "short dice rolling and tumbling sound, playful, no music" },
+    { "file": "page_flip.mp3", "startSec": 67.72, "duration": 1.5, "volume": 0.11, "prompt": "quick paper page flip sound, short, no music" },
+    { "file": "vintage_computer.mp3", "startSec": 70.64, "duration": 2, "volume": 0.13, "prompt": "short retro computer beep and whirring sound, vintage electronics, no music" },
+    { "file": "dramatic_reveal.mp3", "startSec": 91.38, "duration": 2.5, "volume": 0.18, "prompt": "short dramatic reveal sting building to an impact, cinematic swell, digital undertone" },
+    { "file": "electric_zap.mp3", "startSec": 98.74, "duration": 1.5, "volume": 0.15, "prompt": "short electric zap sound, robotic and digital, very short" },
+    { "file": "typewriter_glitch.mp3", "startSec": 100.86, "duration": 1.5, "volume": 0.13, "prompt": "short glitchy typewriter clatter with a digital error stutter, nonsense-text feel, very short" },
+    { "file": "realization_chime.mp3", "startSec": 116.02, "duration": 2, "volume": 0.15, "prompt": "short magical realization chime, bright sparkle, uplifting, very short" },
+    { "file": "synth_pulse.mp3", "startSec": 131.6, "duration": 2.5, "volume": 0.12, "prompt": "pulsing synth network hum, glowing digital texture, ambient, no music" },
+    { "file": "big_reveal_swell.mp3", "startSec": 138.9, "duration": 2.5, "volume": 0.2, "prompt": "big dramatic orchestral-digital reveal hit with a rising swell, shocking and epic, short cinematic impact" },
+    { "file": "digital_chime.mp3", "startSec": 146.24, "duration": 1.5, "volume": 0.13, "prompt": "short bright digital notification chime, curious and clean, very short" },
+    { "file": "realization_chime.mp3", "startSec": 159.34, "duration": 2, "volume": 0.14, "prompt": "short magical realization chime, bright sparkle, uplifting, very short" },
+    { "file": "gear_whirring.mp3", "startSec": 167.18, "duration": 2, "volume": 0.13, "prompt": "short mechanical gear whirring sound, spinning cog, no music" },
+    { "file": "mystery_sting.mp3", "startSec": 183.36, "duration": 2, "volume": 0.16, "prompt": "short mysterious cliffhanger sting, tense and curious, cinematic, no music" },
+    { "file": "synth_pulse.mp3", "startSec": 201.76, "duration": 2.5, "volume": 0.11, "prompt": "pulsing synth network hum, glowing digital texture, ambient, no music" },
+    { "file": "magic_sparkle.mp3", "startSec": 208.96, "duration": 1.5, "volume": 0.17, "prompt": "short magical sparkle chime, whimsical and bright, very short" },
+    { "file": "comedic_boing.mp3", "startSec": 222.5, "duration": 1.5, "volume": 0.13, "prompt": "short comedic cartoon boing bounce sound, playful, very short" },
+    { "file": "gear_whirring.mp3", "startSec": 237.56, "duration": 2, "volume": 0.12, "prompt": "short mechanical gear whirring sound, spinning cog, no music" },
+    { "file": "digital_chime.mp3", "startSec": 255.5, "duration": 1.5, "volume": 0.13, "prompt": "short bright digital notification chime, curious and clean, very short" },
+    { "file": "clock_tick.mp3", "startSec": 270.92, "duration": 2, "volume": 0.11, "prompt": "short ticking clock sound, suspenseful countdown feel, no music" },
+    { "file": "realization_chime.mp3", "startSec": 278.48, "duration": 2, "volume": 0.15, "prompt": "short magical realization chime, bright sparkle, uplifting, very short" },
+    { "file": "digital_whoosh.mp3", "startSec": 283.6, "duration": 1.5, "volume": 0.13, "prompt": "quick digital whoosh transition, futuristic sweep, no music" },
+    { "file": "subscribe_chime.mp3", "startSec": 288.84, "duration": 2, "volume": 0.18, "prompt": "warm cheerful subscribe notification chime, short and friendly" }
+  ]
+}

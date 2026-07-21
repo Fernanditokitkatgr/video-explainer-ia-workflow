@@ -28,6 +28,7 @@ import argparse
 import json
 import re
 import sys
+import time
 from pathlib import Path
 
 try:
@@ -61,7 +62,7 @@ def load_frames(cfg: dict) -> tuple[str, list[dict]]:
     return style_base, frames
 
 
-def generate_frame(client, model: str, prompt: str, out_path: Path, retries: int = 3) -> bool:
+def generate_frame(client, model: str, prompt: str, out_path: Path, retries: int = 5) -> bool:
     if out_path.exists():
         print(f"  SKIP {out_path.name} (ya existe)")
         return True
@@ -87,8 +88,14 @@ def generate_frame(client, model: str, prompt: str, out_path: Path, retries: int
             break
         except Exception as e:
             last_err = f"{type(e).__name__}: {str(e)[:200]}"
+            # Gotcha (jul-2026): 429 RESOURCE_EXHAUSTED (cuota de peticiones/minuto de
+            # Vertex AI) aparece a partir de la imagen ~40 en una tanda rápida seguida.
+            # Backoff mucho más largo para 429 que para otros errores transitorios.
+            is_429 = "429" in last_err or "RESOURCE_EXHAUSTED" in last_err
             if attempt < retries:
-                print(f"  ⚠️  {last_err}, reintento {attempt}/{retries}…")
+                wait = 15 * attempt if is_429 else 2 ** attempt
+                print(f"  ⚠️  {last_err}, reintento {attempt}/{retries} en {wait}s…")
+                time.sleep(wait)
                 continue
             break
     print(f"  ERROR {out_path.name}: {last_err}")
@@ -126,6 +133,7 @@ def main() -> None:
         print(f"[{i}/{total}] {fr['file']}")
         prompt = f"{style_base} {fr['scene']}"
         generate_frame(client, model, prompt, out_dir / fr["file"])
+        time.sleep(1.5)  # ritmo para no disparar la cuota de peticiones/minuto de Vertex AI
 
     have = sum(1 for fr in frames if (out_dir / fr["file"]).exists())
     print(f"\nHecho. {have}/{len(frames)} imágenes en {out_dir}/")

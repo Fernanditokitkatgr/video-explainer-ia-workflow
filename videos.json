@@ -153,5 +153,20 @@
     "width": 1920,
     "height": 1080,
     "background": "#ffffff"
+  },
+  "como-funcionan-los-llm": {
+    "composition": "ComoFuncionanLosLLM",
+    "tsx": "remotion/src/ComoFuncionanLosLLM.tsx",
+    "manifest_dir": "channel/tecno/videos/como-funcionan-los-llm",
+    "script": "channel/tecno/videos/como-funcionan-los-llm/script.md",
+    "audio_static": "como-funcionan-los-llm.mp3",
+    "images_subpath": "como-funcionan-los-llm",
+    "naming": "timestamp",
+    "ext": "jpg",
+    "playback_rate": 1.1,
+    "fps": 30,
+    "width": 1920,
+    "height": 1080,
+    "background": "#ffffff"
   }
 }

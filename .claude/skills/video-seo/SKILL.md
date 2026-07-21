@@ -160,6 +160,14 @@ cd scratch-yt
 Always upload as `private` first. Tell the user to review in YouTube Studio (auto-captions,
 chapters rendered correctly, thumbnail on mobile) before switching to public.
 
+**Alternativa: cola de publicación diaria programada.** Si el usuario quiere un ritmo
+constante (un vídeo publicado por día a una hora fija) en vez de decidir manualmente cuándo
+pasar cada vídeo a público, usa `scratch-yt/publish_from_recipe.py` en vez del `upload_youtube.py`
+de arriba — parsea `seo.md` automáticamente (mismo título/descripción/tags, sin copiar/pegar)
+y sube el vídeo ya en `publishAt` programado al siguiente hueco libre de
+`scratch-yt/publish_queue.py` (19:00 Europe/Madrid, un vídeo por día). Requiere haber pasado
+antes por `/video-reviewer` (PASS) y la confirmación HITL — ver `scratch-yt/README.md`.
+
 ## Phase 6 — Post-upload checklist
 
 - [ ] Chapters appear correctly in the progress bar
