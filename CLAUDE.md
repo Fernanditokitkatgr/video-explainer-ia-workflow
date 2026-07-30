@@ -41,10 +41,25 @@ scratch-yt/         ← YouTube Data API upload scripts (Python venv inside)
 
 ```
 Script → ElevenLabs V3 (voice) → [human review] → Whisper (timestamps)
-       → Higgsfield (1 image/segment) → [human review] → Remotion (assemble)
-       → SFX + música de fondo (OBLIGATORIO) → [human review] → MP4
+       → 1 imagen/segmento → [human review] → SFX + música (OBLIGATORIO)
+       → preflight.py (GATE: si falla, NO se renderiza) → Remotion → MP4
        → thumbnail-creator (OBLIGATORIO) → video-seo/channel-setup (OBLIGATORIO) → publish
 ```
+
+### Reglas de producción no negociables
+
+- **UN vídeo al día, nunca en tanda.** Si se piden 3 vídeos, son 3 días distintos (uno por día),
+  no 3 subidas seguidas. Se publicaron 3 de golpe una vez y hubo que corregirlo a posteriori.
+- **Duración objetivo: 6-7 minutos de vídeo final.** Con `playback_rate` 1.1 eso son ~430-460 s
+  de audio bruto, que salen de **~7.800-8.300 caracteres de narración** (medido: 7.795 chars →
+  461 s). Guiones de ~4.000 chars dan 3,5 min: demasiado corto, no vale.
+- **`scripts/preflight.py` es un gate, no un consejo.** Corre dentro de `orchestrate.py` antes de
+  `render` y `step_render` lo vuelve a invocar por si alguien salta el paso con `--steps`.
+  Comprueba lo objetivable (música presente, 1 escena por frase sin relleno, ajustes de voz
+  coincidentes con `.env`, aspect ratio, FRAMES inyectados, duración, CTA). Si falla, se para.
+- **Lo que el gate NO puede juzgar** (y por tanto sigue necesitando persona o agente): si una
+  imagen concreta pega con SU frase, si el estilo tiene variedad real, y **la expresividad de la
+  voz** — Claude no puede oír el audio, así que ese punto lo valida siempre una persona.
 
 - **Script**: very short sentences (1 sentence = 1 image = 1 visual beat), ~63-70 sentences for 2.5 min. Emotion tags in brackets `[tono cercano]` for ElevenLabs V3.
 - **Whisper**: `scripts/whisper_timestamps.py` produces per-segment start times. Output files named `seg_NN.png` (e.g. `seg_00.png`, `seg_01.png`).
@@ -118,6 +133,34 @@ Cada `FRAMES` array está entre marcadores `// === FRAMES:START/END ===`; el orq
 los inyecta automáticamente desde `frames.json` (no editar a mano esa zona).
 
 Image assets live in `remotion/public/<video-name>/` and audio at `remotion/public/<video-name>.mp3`. These are gitignored (`*.mp3`, `*.mp4`, `*.png/jpg`) so a fresh clone has no media; the studio will 404 until you add them. La **receta** (timings + prompts) sí va en git en `frames.json`, así que el medio se regenera/recupera desde las cuentas compartidas (ver SETUP.md).
+
+## Estilo visual del canal tecno — `channel/tecno/style.json`
+
+**Fuente de verdad única del estilo.** Los scripts que construyen `frames.json` deben leer
+`style_base` y `characters` de ahí, NUNCA copiarlo a mano (así no deriva entre vídeos).
+
+Reescrito jul-2026 porque el estilo anterior fue rechazado por repetitivo: navy oscuro
+uniforme en todos los planos, mono diminuto en escenas vacías, todo bañado en glow verde,
+y el modelo confundía qué mono era cuál. El estilo actual:
+
+- **Fondo BLANCO por defecto.** Solo se usa fondo oscuro cuando la escena lo pide de verdad
+  (noche, luces de policía, habitación a oscuras). No por defecto, nunca "porque es hacking".
+- **Mono tosco estilo Ecomonos**: contorno negro gordo, colores planos, **ojos enormes**
+  redondos y blancos, cara muy exagerada. Sin desenfoque, sin gradientes, sin render 3D.
+- **El mono grande en cuadro** (40-60%), no perdido en un plano general.
+- **Etiquetas escritas a mano en español con flechas** señalando cosas de la escena
+  (`SUELDO LEGAL →`, `¡AY, NO! ¡LA POLICÍA!`). Es firma del canal, no decoración opcional.
+- **Props en colores saturados** (amarillo, naranja, rojo, verde) que resalten sobre el blanco.
+- **Variedad de plano obligatoria** — ver la lista `framing_variety` del propio `style.json`.
+
+**Hacker bueno vs hacker malo** (`characters` en `style.json`): la diferenciación es
+**deliberadamente redundante** — color + capucha arriba/abajo + placa sí/no — porque cuando la
+única señal era el color, el modelo se equivocaba. Bueno = sudadera azul cielo, capucha ABAJO,
+placa colgando. Malo = sudadera negra, capucha ARRIBA, sin placa. Si salen los dos en la misma
+escena, describe SIEMPRE las tres señales de cada uno.
+
+`preflight.py` mide la monotonía de una tanda con la desviación del brillo medio entre imágenes
+(<12 = FAIL). Es un proxy tosco pero objetivo de "todas las imágenes son iguales".
 
 ## Imágenes: el texto que aparezca SIEMPRE en español
 
@@ -234,6 +277,7 @@ Higgsfield NO sirve para esto: `generate_audio` solo hace voz; los modelos de m�
 - **Whisper SEGMENT timestamps solo sirven si el guion garantiza pausas claras entre frases** (frases cortas, ver "1 frase = 1 imagen" arriba). Si no — frases largas, con comas, ElevenLabs v3 hablando fluido —, whisper fusiona 2-3 frases en un solo segmento y eso desincroniza imagen/diálogo en todo el vídeo aunque el render sea técnicamente correcto. Si no estás seguro de que el guion produce 1 segmento por frase, usa `python scripts/whisper_timestamps.py audio.mp3 --resegment-gap 0.35 --format frames`: ignora el agrupamiento de whisper y recorta por huecos de silencio reales a nivel de palabra. Word-level puro (sin este resegment) sigue dando falsos positivos (`"no"` dentro de `"años"`), por eso no es el default.
 - **Antes de dar por buena una tanda de imágenes, abre una muestra real con `Read`.** El campo `scene` de `frames.json` es una descripción que TÚ escribiste al pedir la imagen, no una prueba de qué salió generado — puede quedar obsoleta tras un remapeo, o directamente no coincidir (se ha colado alguna imagen de otro proyecto). No des por bueno un match solo por el texto guardado.
 - **Al remapear imágenes ya generadas a nuevos timestamps (ej. tras resincronizar), no uses "vecino más cercano" por proporción de índice sin verificar después.** Desplaza el contenido varias posiciones sin que se note hasta que alguien lo mira con atención. Mapea por contenido verificado cuando puedas.
+- **NUNCA cuadres el número de escenas repartiéndolas proporcionalmente ni repitiendo la última para rellenar.** Si whisper devuelve N segmentos, hay que escribir N escenas leyendo el texto REAL de cada segmento. Distribuir "a ojo" 193 escenas sobre 203 frames produjo un vídeo entero donde la imagen no correspondía a lo que se estaba diciendo (y era imposible de detectar mirando solo el `frames.json`, porque cada entrada parecía razonable por separado). Rellenar duplicando la escena anterior tiene el mismo efecto y además hace la tanda repetitiva. `preflight.py` falla si detecta escenas idénticas consecutivas por encima del 3%.
 - **A missing image desyncs everything after it.** Because the lookup advances through `FRAMES` by time, one absent file shifts every later frame by +1. Verify the full image set before assembling.
 - **Playback rate must be applied in two places (1.1× videos only).** `InteresCompuesto` runs at 1.1×: `playbackRate={1.1}` on `<Audio>` AND `currentSec = (frame / fps) * 1.1` in the frame lookup. Also factor it into `durationInFrames` (`seconds * 30 / 1.1`). Changing one without the other desyncs audio from images. `SuenoStick` uses 1.0× — no multiplier needed.
 - **Si además hay una capa de SFX posicionada por `<Sequence from={frame}>`, ese `frame` TAMBIÉN hay que dividirlo por `PLAYBACK_RATE`** (`Math.round((startSecOriginal / PLAYBACK_RATE) * fps)`), igual que el lookup de `FRAMES`. Si no, los SFX quedan desincronizados en cuanto el rate no es 1.0 — no falla de forma visible al renderizar, solo suena tarde/pronto.
@@ -243,7 +287,8 @@ Higgsfield NO sirve para esto: `generate_audio` solo hace voz; los modelos de m�
 - **`whisper_timestamps.py --resegment-gap` puede alucinar un segmento final falso** sobre el silencio/respiración al final del audio (texto sin sentido, ej. "La acuendación de lo próximo de prosifar..."). No corresponde a ninguna frase real del guion — compara el número de segmentos reales contra las frases del guion y descarta cualquier cola que no encaje antes de generar su imagen.
 - **El naming por timestamp (`M_SS.jpg`) puede colisionar entre dos segmentos distintos** que redondean al mismo minuto:segundo (ej. 134.16s y 134.96s → ambos `2_14.jpg`). Compruébalo tras CADA resincronización (`grep -oP "file: '[^']+'" *.tsx | sort | uniq -d`), no solo la primera vez — renombra el segundo con un sufijo (`2_14_b.jpg`) antes de generar imágenes.
 - **`nano_banana_pro`/`nano_banana_2` puede ignorar un prompt de escena específico y rellenar el hueco con un diagrama de negocio genérico** (cajas "IDEA/PROCESS/RESULT", ciclos PDCA, gráficos de crecimiento) cuando la escena pedida es muy abstracta/conceptual (ej. "columna de círculos numerados"). Si ves esto en la verificación visual, no lo aceptes: repite el prompt añadiendo una restricción explícita tipo "ONLY this and nothing more: ... no other icons, no diagrams, no business graphics of any kind" — casi siempre lo arregla.
-- **Para más efusividad/variación de entonación en la voz (ElevenLabs v3)**: baja `ELEVENLABS_STABILITY` (~0.30) y sube `ELEVENLABS_STYLE` (~0.55) respecto a los defaults, y añade etiquetas `[tono curioso]`, `[tono cómico]`, `[tono asombrado]`, etc. inline en el guion en los puntos de énfasis — combinar ambas cosas da un resultado notablemente más dinámico que solo una de las dos.
+- **NO pases `--stability`/`--style` a `generate_voice.py` "para mejorar la entonación": el `.env` ya está afinado y el override la EMPEORA.** El `.env` del canal está en `ELEVENLABS_STABILITY=0.10` / `ELEVENLABS_STYLE=0.68` (muy expresivo). Los defaults de `config.py` (0.45/0.30) son mucho más conservadores, así que comparando contra ELLOS parece que pasar 0.30/0.55 "sube" la expresividad — y en realidad la baja: sube la estabilidad (menos variación) y baja el style. Así salieron 4 vídeos con voz plana antes de detectarlo. **Comprueba siempre `grep ELEVENLABS .env` antes de asumir la configuración de voz; el `.env` es la fuente de verdad, no los defaults del código ni este documento.** `generate_voice.py` ahora imprime los ajustes efectivos y deja un sidecar `<audio>.voice.json` que `preflight.py` compara contra el `.env` para que una regresión así no vuelva a pasar en silencio.
+- Las etiquetas de emoción inline (`[tono curioso]`, `[excited]`, `[ominous]`…) siguen ayudando en los puntos de énfasis, pero por sí solas no compensan unos `voice_settings` mal puestos.
 - **La miniatura debe conectar con el título elegido, no ser un gancho genérico desconectado del tema** (ej. si el título es "red neuronal por dentro", el texto de la miniatura debería mencionar "red neuronal", no una pregunta suelta tipo "¿cómo ve esto tu cerebro?" que no se relaciona). Sigue siendo válido no repetir el título palabra por palabra (ver sección Miniatura), pero el concepto central sí debe coincidir.
 - **Los créditos de Higgsfield se pueden agotar a mitad de una tanda grande de imágenes.** El `frames.json` con los prompts ya escritos es la fuente de verdad para retomar: no se pierde nada, solo hay que recargar créditos (o conectar otro workspace) y continuar generando las que falten por nombre de archivo.
 - **`gemini-3-pro-image-preview` puede agotar su cuota de proyecto A MEDIA TANDA, fallando con 404 en las 4 regiones a la vez** (`global`, `us-central1`, `us-east5`, `europe-west4`) — no confundir con el gotcha de región de más arriba (ese daba 404 solo en regiones concretas con el proyecto teniendo acceso real). Si el 404 aparece de golpe tras N llamadas exitosas y persiste en TODAS las regiones probadas, es cuota agotada, no un problema de acceso — no tiene sentido seguir reintentando esa misma tanda. Salida pragmática: completar las imágenes restantes con `--model flash` (skip-if-exists conserva las ya generadas en Pro) y **dejarlo explícito en el informe de revisión** (`/video-reviewer`), nunca mezclar motores de imagen en silencio sin que quien decide publicar lo sepa.

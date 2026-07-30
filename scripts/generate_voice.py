@@ -10,6 +10,7 @@ Uso:
         --out remotion/public/ayuno-intermitente.mp3
 """
 import argparse
+import json
 import subprocess
 import sys
 import tempfile
@@ -69,18 +70,30 @@ def read_script(path: Path) -> str:
     return "\n".join(narration)
 
 
+def effective_settings(stability: float = None, style: float = None) -> dict:
+    """Ajustes de voz REALES de esta llamada. El .env manda salvo override explícito.
+
+    OJO (bug real, jul-2026): el .env del canal está afinado MUY expresivo
+    (stability 0.10 / style 0.68). Pasar --stability/--style "para mejorar"
+    comparando contra los defaults de config.py (0.45/0.30) empeora la
+    entonación: sube estabilidad = menos variación, baja style = más seca.
+    No pases overrides salvo que sepas que el .env está mal.
+    """
+    return {
+        "stability": config.ELEVENLABS_STABILITY if stability is None else stability,
+        "similarity_boost": config.ELEVENLABS_SIMILARITY_BOOST,
+        "style": config.ELEVENLABS_STYLE if style is None else style,
+        "use_speaker_boost": config.ELEVENLABS_SPEAKER_BOOST,
+    }
+
+
 def _request_tts(text: str, retries: int = 3, stability: float = None, style: float = None) -> bytes:
     url = f"https://api.elevenlabs.io/v1/text-to-speech/{config.ELEVENLABS_VOICE_ID}"
     headers = {"xi-api-key": config.ELEVENLABS_API_KEY, "Content-Type": "application/json"}
     payload = {
         "text": text,
         "model_id": config.ELEVENLABS_MODEL_ID,
-        "voice_settings": {
-            "stability": config.ELEVENLABS_STABILITY if stability is None else stability,
-            "similarity_boost": config.ELEVENLABS_SIMILARITY_BOOST,
-            "style": config.ELEVENLABS_STYLE if style is None else style,
-            "use_speaker_boost": config.ELEVENLABS_SPEAKER_BOOST,
-        },
+        "voice_settings": effective_settings(stability, style),
     }
     last_err = ""
     for attempt in range(1, retries + 1):
@@ -95,6 +108,17 @@ def _request_tts(text: str, retries: int = 3, stability: float = None, style: fl
             continue
         break
     sys.exit(f"Error ElevenLabs {last_err}")
+
+
+def _write_sidecar(out_path: Path, voice_settings: dict) -> None:
+    """Deja constancia de los ajustes REALES junto al mp3, para que
+    scripts/preflight.py pueda detectar una entonación plana por override."""
+    sidecar = out_path.with_suffix(".voice.json")
+    sidecar.write_text(json.dumps({
+        "voice_id": config.ELEVENLABS_VOICE_ID,
+        "model_id": config.ELEVENLABS_MODEL_ID,
+        **voice_settings,
+    }, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
 
 
 def _concat_mp3s(parts: list[Path], out_path: Path) -> None:
@@ -127,10 +151,18 @@ def generate(script_path: Path, out_path: Path, retries: int = 3,
     out_path.parent.mkdir(parents=True, exist_ok=True)
     chunks = chunk_text(text)
 
+    # Loguea SIEMPRE los ajustes reales: una entonación plana por un override
+    # silencioso costó re-renderizar 3 vídeos enteros (ver docstring de effective_settings).
+    vs = effective_settings(stability, style)
+    origen = "override CLI" if (stability is not None or style is not None) else ".env"
+    print(f"Voz: stability={vs['stability']} style={vs['style']} "
+          f"similarity={vs['similarity_boost']} (origen: {origen})")
+
     if len(chunks) == 1:
         print(f"Enviando {len(text)} chars a ElevenLabs ({config.ELEVENLABS_MODEL_ID}, "
               f"voz {config.ELEVENLABS_VOICE_ID})…")
         out_path.write_bytes(_request_tts(text, retries, stability, style))
+        _write_sidecar(out_path, vs)
         print(f"✅ Audio guardado en {out_path} ({out_path.stat().st_size // 1024} KB)")
         return
 
@@ -146,6 +178,7 @@ def generate(script_path: Path, out_path: Path, retries: int = 3,
             part_paths.append(part_path)
         print("Uniendo fragmentos con ffmpeg…")
         _concat_mp3s(part_paths, out_path)
+    _write_sidecar(out_path, vs)
     print(f"✅ Audio guardado en {out_path} ({out_path.stat().st_size // 1024} KB)")
 
 

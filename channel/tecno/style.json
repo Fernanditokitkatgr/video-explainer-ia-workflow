@@ -1,0 +1,24 @@
+{
+  "_doc": "Estilo visual CANÓNICO del canal tecno. Fuente de verdad única: los scripts que construyen frames.json deben leer 'style_base' de aquí, NUNCA copiarlo a mano (así no deriva entre vídeos). Reescrito jul-2026 tras feedback: el estilo anterior (navy oscuro uniforme, mono pequeño, todo con glow verde) era repetitivo, incoherente con el guion y confundía los colores de los personajes.",
+
+  "style_base": "Crude hand-drawn cartoon in the style of the 'Ecomonos' YouTube channel. PURE WHITE background as the default. Thick bold black ink outlines, flat solid colors, NO gradients, NO blur, NO depth of field, NO glow effects, NO soft shading — everything sharp, crisp and clean like a marker drawing. A recurring brown cartoon monkey character with VERY LARGE round white eyes and small black pupils, and a hugely exaggerated expressive face (wide toothy grin, shocked open mouth, half-lidded smug look, or furrowed angry brow depending on the moment). The monkey is BIG in frame, occupying roughly 40-60% of the image — never a tiny figure lost in a wide empty scene. Props and objects are drawn in bright saturated colors (yellow, orange, red, green, blue) that pop against the white background. Scatter a few HANDWRITTEN SPANISH labels and little arrows around the scene naming or reacting to what is in it, in rough hand-drawn marker capitals with a thin black outline. CRITICAL TEXT RULE: every single word of text in the image MUST be in perfect Spanish exactly as specified, never in English; if a word cannot be rendered reliably in Spanish, draw a symbol or icon instead. Only use a dark or moody background when the scene itself is explicitly at night, in a dark room, or lit by police lights — otherwise the background stays white. ",
+
+  "characters": {
+    "hacker_bueno": "the GOOD hacker monkey: a light SKY-BLUE zip-up hoodie with the hood DOWN so the whole friendly face is visible, plus a white ID badge hanging from a lanyard on the chest. Relaxed, confident, often smiling. NEVER wears a hood up, NEVER wears black.",
+    "hacker_malo": "the BAD hacker monkey: a BLACK hoodie with the hood UP casting a shadow over the top of the face (eyes still clearly visible and glowing faintly), NO badge, NO lanyard. Hunched, smug or menacing. NEVER wears blue, NEVER shows a badge.",
+    "_note": "La diferenciación es DELIBERADAMENTE redundante (color + capucha arriba/abajo + placa sí/no) porque el modelo se equivocaba de color cuando la única señal era el color. Si en una escena salen los dos a la vez, describe SIEMPRE las tres señales de cada uno."
+  },
+
+  "framing_variety": [
+    "extreme close-up of the monkey's face filling the frame",
+    "medium shot, monkey from the waist up, facing the camera",
+    "over-the-shoulder shot looking at what the monkey is looking at",
+    "wide comedy shot with the monkey small-ish but a big absurd prop dominating",
+    "side profile of the monkey interacting with an object",
+    "the monkey pointing directly at a labelled diagram beside it",
+    "two monkeys facing each other in confrontation",
+    "the monkey's hands/paws close-up doing something on a keyboard or object"
+  ],
+
+  "negative_prompt_notes": "Evitar SIEMPRE: fondo azul marino/negro por defecto, todo bañado en glow verde, mono diminuto en escena vacía, wireframes y diagramas abstractos genéricos, desenfoque/bokeh, render 3D, fotorrealismo, texto en inglés, composiciones repetidas una detrás de otra."
+}

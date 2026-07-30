@@ -24,7 +24,7 @@ from pathlib import Path
 import config
 
 SCRIPTS = Path(__file__).resolve().parent
-ALL_STEPS = ["voice", "whisper", "inject", "images", "validate", "render"]
+ALL_STEPS = ["voice", "whisper", "inject", "images", "sfx", "validate", "preflight", "render"]
 HITL = {  # mensaje de revisión humana ANTES de continuar tras el paso clave
     "voice": "Escucha el audio entero. ¿Suena natural? Corrige el guion y regenera si hace falta.",
     "images": "Verifica que están TODAS las imágenes. Una que falte descuadra el resto.",
@@ -123,7 +123,21 @@ def step_validate(cfg: dict) -> None:
     run([sys.executable, str(SCRIPTS / "validate_assets.py"), "--video", cfg["name"]])
 
 
+def step_sfx(cfg: dict) -> None:
+    """SFX + música de fondo. Paso OBLIGATORIO (CLAUDE.md), ahora dentro del
+    orquestador: antes se corría a mano entre 'images' y 'render' y se olvidaba."""
+    run([sys.executable, str(SCRIPTS / "generate_sfx.py"), "--video", cfg["name"]])
+
+
+def step_preflight(cfg: dict) -> None:
+    """Gate determinista. Si falla, se para aquí y NO se renderiza."""
+    run([sys.executable, str(SCRIPTS / "preflight.py"), "--video", cfg["name"]])
+
+
 def step_render(cfg: dict) -> None:
+    # Doble red: aunque alguien salte el paso 'preflight' con --steps, el render
+    # no arranca sin pasar el gate. Los bugs llegaron a YouTube justo así.
+    step_preflight(cfg)
     out = f"output/{cfg['name']}.mp4"
     run(["npx", "remotion", "render", cfg["composition"], out])
     print(f"✓ Render en remotion/{out}")
@@ -131,7 +145,8 @@ def step_render(cfg: dict) -> None:
 
 STEP_FN = {
     "voice": step_voice, "whisper": step_whisper, "inject": step_inject,
-    "images": step_images, "validate": step_validate, "render": step_render,
+    "images": step_images, "sfx": step_sfx, "validate": step_validate,
+    "preflight": step_preflight, "render": step_render,
 }
 
 
