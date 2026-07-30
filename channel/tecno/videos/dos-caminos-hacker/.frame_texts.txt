@@ -1,0 +1,203 @@
+0.0 | Tres de la madrugada,
+1.4 | yo,
+1.96 | delante de pantalla en negro,
+3.7 | tengo acceso,
+4.9 | acceso que no es mío,
+6.62 | un clic más,
+8.02 | y nido entero, cae,
+10.0 | dedos sobre tecla enter,
+11.56 | no pulso,
+12.4 | todavía.
+13.6 | Antes de este clic hubo camino,
+15.54 | camino largo, años de camino,
+17.86 | ese camino se parte en dos,
+19.68 | como carretera que se bifurca en la niebla,
+22.28 | yo elegí una rama,
+23.78 | tú vas a elegir la tuya viendo esto. Esta es el historia de cómo se ha
+28.68 | y de lo que pasa según qué puerta cruzas.
+32.0 | Capítulo 1.
+33.36 | ¿Cómo nació un hacker?
+35.0 | Nadie nace hacker,
+36.56 | se hace noche tras noche, delante de teclado,
+39.42 | no empiezo por dinero,
+40.82 | empiezo por preguntas simple,
+42.66 | como funciona esto por dentro,
+44.68 | un vídeo,
+45.58 | un foro,
+46.56 | una duda que no me deja dormir. Linux primero,
+50.04 | Windows esconde demasiado,
+51.94 | Linux no es condenada,
+53.62 | aprendo puerto,
+54.62 | aprendo paquete,
+55.74 | aprendo cómo viaja un dato de un lado a otro.
+58.62 | Python después,
+59.8 | porque mano se cansa, script no se cansa nunca.
+63.14 | Y llega al bice bueno,
+64.66 | las CTF,
+66.04 | competiciones de hacking,
+67.4 | legales, gamificadas,
+69.12 | hack de box,
+70.06 | try hack me,
+71.24 | maquina virtual que existe solo para que yo la rompa,
+74.34 | cada máquina pude, cada pude más enganchado. Un año dentro y ya pienso
+81.22 | mira una web y no veo diseño,
+83.0 | veo superficie, superficie de ataque,
+85.72 | mira formulario de login y no veo formulario,
+88.52 | veo pregunta,
+89.7 | ¿qué pasa si meto algo que no debería ir ahí?
+92.94 | Y en algún punto, sin darme cuenta,
+95.1 | ya se entrada donde no debería,
+96.94 | ahí se abre la bifurcación y nadie me avisa que estoy delante de ella.
+101.24 | Capítulo 2, la bifurcación.
+103.94 | Tengo la habilidad,
+105.52 | ahora toca elegir que hacer con ella,
+107.62 | un lado me ofrece contrato, nómina,
+110.14 | currículum que puedo enseñar a mi madre,
+112.28 | otro lado me ofrece dinero rápido, sin preguntas,
+115.34 | sin jefe.
+116.7 | Miles de hackers jóvenes reciben esa segunda oferta en Discord,
+120.62 | en foro oculto, en privado. Tenemos acceso a una empresa,
+124.64 | solo hace falta que actives la carga,
+127.0 | suena fácil,
+127.98 | y ahí está la trampa,
+129.52 | suena demasiado fácil.
+131.6 | Otros cogemos el mismo talento y lo certificamos,
+134.64 | saco el OECP,
+136.26 | certificación que demuestra que seja que arde verdad, no de boca,
+139.9 | me doy de alta en hacker one,
+141.54 | en background,
+142.64 | plataformas donde empresa me paga por encontrar su fallo. Mismo cerebr
+147.18 | mismas manos,
+148.32 | caminos opuestos,
+149.58 | voy a los dos,
+150.76 | uno primero,
+151.72 | otro después.
+153.36 | Capítulo 3, camino ético.
+156.0 | Aquí soy Pentester,
+157.42 | orretimer,
+158.54 | me pagan por atacar con permiso por escrito con contrato firmado.
+162.76 | Lunes cualquiera, mi trabajo es intentar entrar en el banco que me con
+166.92 | no para robar para avisar de la grieta antes de que otro la encuentre 
+174.54 | mitada hace clic,
+175.76 | siempre hace clic.
+177.22 | Probo contraseñas filtradas de otras brechas, porque gente reutiliza c
+183.36 | Y en 3 días estoy dentro de su red interna,
+186.14 | escalo privilegios,
+187.52 | llego a controlador de dominio.
+189.48 | Técnicamente podría cifrar en presa entera ahora mismo,
+193.04 | pero no lo hago.
+194.34 | Escribo informe de 40 páginas en su lugar,
+196.98 | esa informe vale más que el ataque en sí.
+199.72 | Y el dinero?
+200.82 | Aquí está lo que pocos saben de verdad.
+203.2 | Pentester Junior en España empieza cerca de 30 .000 euros al año,
+207.08 | Retimer con experiencia supera 70 .000.
+210.2 | Pero Backbounty es otra liga,
+212.32 | otro deporte, encontrar un solo fallo crítico en Google o en Apple pue
+218.44 | por un solo fallo.
+220.08 | En 2019,
+221.4 | Chaval argentino llamado Santiago López se convirtió en primer hackeré
+227.0 | Un millón de dólares,
+228.48 | encontrando fallos,
+229.84 | sin romper ley ninguna.
+231.88 | Apple llegó a pagar hasta 2 millones de dólares por un solo exploit de
+236.26 | acceso remoto sin que tuto que es nada.
+238.78 | Mi hito espectacular en este camino llega un martes cualquiera,
+242.64 | me llaman de empresa de seguridad física,
+244.92 | Misión,
+245.74 | entrar en su sede sin que nadie me pare.
+248.46 | Me disfrazo de técnico de mantenimiento,
+250.74 | enseño tarjeta falsa hecha por mí mismo.
+253.5 | Guardia me abre la puerta él mismo,
+255.52 | sin dudarlo.
+256.96 | Estoy dentro del edificio en menos de 4 minutos.
+260.22 | Al día siguiente se lo explico todo al director de seguridad,
+263.78 | con una sonrisa, café en mano, ese es camino ético,
+267.5 | adrenalina real,
+268.92 | sueldo real,
+270.1 | cero cárcel.
+271.84 | Capítulo 4.
+272.92 | Camino criminal.
+274.52 | Aquí soy afiliado,
+276.22 | trabajo para grupo de ransomware como servicio.
+278.92 | No programo el virus,
+280.16 | otro lo hizo,
+281.14 | yo solo lo distribuyo.
+283.12 | Compro acceso a una empresa por 2 .000 dólares a un corredor de acceso
+295.34 | sin tocar nada todavía.
+297.26 | Solo miro, solo aprendo su red.
+299.84 | Primero robo los datos,
+301.2 | contratos, nóminas, historiales médicos,
+304.22 | luego de madrugada,
+305.46 | activo el cifrado en todos sus servidores a la vez.
+308.38 | A las 9 de la mañana,
+309.9 | empresa entera está bloqueada,
+311.94 | pantallas negras,
+313.28 | letras roja.
+314.54 | Dejo nota.
+315.72 | Paga o publicamos todo lo que hemos robado. Si pagan me llevo hasta el
+321.98 | el resto para el grupo que hizo el virus.
+324.26 | En 2021,
+325.76 | Colonia el Pipeline pagó 4 ,4 millones de dólares en Bitcoin a un solo
+331.14 | DarkSide.
+332.64 | Y para mí el afiliado en una sola operación,
+335.58 | puede ser una casa,
+336.98 | puede ser un coche caro.
+338.78 | Pero aquí está lo que las series no cuentan.
+341.76 | FBI no necesita atraparmejakeando.
+344.58 | Le basta con que yo gaste mal ese dinero. Relojo caro en Instagram,
+348.84 | transferencia torpe al banco,
+350.6 | compañero que confiesa para reducir su condena.
+353.58 | Condenas por ransomware a gran escala,
+355.88 | superan hoy 20 años de presión,
+358.0 | algunas más de 80.
+360.06 | Y Bitcoin que cobre,
+361.54 | queda escrito para siempre en cadena pública.
+364.14 | No se borra,
+365.2 | nunca se borra.
+366.92 | Investigadores tienen años para rastrearlo,
+369.48 | yo solo tengo una vida.
+371.44 | Mi hito espectacular en este camino llega de madrugada, noche que cifr
+377.26 | Veo entrar primer pago en mi cartera.
+379.84 | Y por un segundo,
+381.14 | siento que he ganado.
+382.96 | Lo que no veo es a noche,
+384.6 | es a la gente federal que ya etiquetó esa transacción.
+387.92 | Ya sabe mi nombre de usuario.
+389.92 | Solo espera el momento.
+392.26 | Capítulo 5.
+393.78 | Cara a cara.
+395.22 | Pongo las cifras un al lado de otra.
+397.32 | Camino ético,
+398.38 | sueldo estable,
+399.38 | bonus por cada fallo,
+400.78 | cero riesgo legal,
+402.0 | carrera de décadas por delante. Camino criminal.
+405.48 | Pagos mar grande sobre el papel,
+407.32 | pero reloj corriendo desde el primer click.
+410.22 | Aquí el dato que casi nadie calcula.
+412.82 | Valor esperado real,
+414.36 | no el número bonito del titular.
+416.76 | Si hay probabilidad alta de acabar 20 años preso,
+419.98 | ese pago grande vale mucho menos de lo que parece en la pantalla.
+424.54 | Mientras tanto,
+425.72 | hackerético cobra menos por golpe,
+427.76 | pero cobra siempre y duerme tranquilo sin mirar la puerta cada noche.
+432.5 | Abilidades idénticas en los dos.
+434.7 | Destino, no.
+437.14 | Capítulo 6.
+438.58 | Cierre.
+439.88 | Así que si tuvieras este talento hoy mismo,
+442.64 | ¿qué puerta cruzarías tú?
+444.78 | Buena noticia.
+446.14 | Puerta ética está abierta ahora mismo.
+448.22 | Gratis.
+449.12 | Para cualquiera que quiera empezar.
+451.36 | Puedes entrar hoy mismo en Trai Hacmi o en Hack de Box.
+454.94 | Sin pagar nada.
+456.52 | Mismo cerebro que podría meterte 20 años en la cárcel,
+460.12 | puede pagarte sueldo de seis cifras.
+462.72 | Solo cambia la puerta que decide escruzar.
+465.82 | Si esta comparación te ha volado la cabeza,
+468.22 | suscríbete.
+469.28 | En el próximo vídeo entro en Lazarus, el grupo de hackers que trabaja 

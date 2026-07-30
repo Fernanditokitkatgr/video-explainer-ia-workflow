@@ -1,0 +1,160 @@
+0 0.0 | Son las tres de la madrugada.
+1 2.0 | Estoy solo,
+2 3.18 | frente a una pantalla en negro.
+3 5.66 | Tengo acceso a algo que no es mío.
+4 8.28 | Un clic más y toda una empresa se viene abajo.
+5 11.98 | Mi dedo está sobre la tecla entera.
+6 14.52 | No pulso,
+7 15.68 | todavía.
+8 17.32 | Antes de este momento hubo un camino muy largo y ese camino se partió en dos hace años.
+9 22.88 | Yo elegí una rama.
+10 24.56 | Tú vas a elegir la tuya,
+11 25.96 | viendo esto.
+12 27.14 | Esta es la historia de cómo se hace un hacker y de lo que pasa según que puerta cruzas.
+13 32.92 | Capítulo 1. ¿Cómo nace un hacker?
+14 35.74 | Nadie nace hacker.
+15 37.32 | Se hace noche tras noche delante de un teclado y no empiezas por el dinero.
+16 41.74 | Empiezas por una pregunta.
+17 43.68 | ¿Cómo funciona esto por dentro?
+18 45.64 | Aprendes Linux, porque Windows te esconde demasiado.
+19 48.62 | Aprendes que es un puerto, que es un paquete,
+20 51.16 | como viaja un dato de un lado a otro.
+21 53.4 | Aprendes Python, porque tu mano se cansa, pero un script no se cansa nunca.
+22 57.74 | Y entonces descubres las CTF,
+23 60.2 | competiciones de hacking,
+24 61.58 | legales, gamificadas,
+25 63.2 | hack de box,
+26 64.26 | trae hackmy,
+27 65.36 | máquinas virtuales que existen solo para que tú las rompas.
+28 68.58 | Cada máquina es un puzzle y cada puzzle te engancha un poco más.
+29 72.96 | Un año después ya piensas distinto que el resto del mundo.
+30 76.34 | Miras una web y no ves un diseño,
+31 78.72 | ves una superficie de ataque.
+32 80.7 | Miras un formulario de login y te preguntas qué pasas y metes algo que no debería ir ahí.
+33 85.8 | Y en algún punto, sin darte cuenta,
+34 88.14 | ya sabes entrar donde no deberías.
+35 90.38 | Ahí es exactamente donde se abre la bifurcación.
+36 94.04 | Capítulo 2. La bifurcación.
+37 96.6 | Tienes la habilidad.
+38 98.14 | Ahora toca decidir qué haces con ella.
+39 100.52 | Un camino te ofrece un contrato, una nómina, un currículum.
+40 104.14 | El otro te ofrece dinero rápido, sin preguntas,
+41 106.7 | sin jefe.
+42 108.0 | Miles de hackers jóvenes reciben esa segunda oferta en foros ocultos, en privado.
+43 113.14 | Tenemos acceso a una empresa,
+44 115.12 | solo hace falta que actives la carga.
+45 117.46 | Suena fácil y esa es exactamente la trampa.
+46 121.2 | Otros cogen ese mismo talento y lo certifican.
+47 124.48 | Saca en el oscp,
+48 126.26 | la certificación que demuestra que saben jaquear de verdad no solo de boca.
+49 130.7 | Se dan de alta en hacker one y en back crowd plataformas donde las empresas pagan por encontrar sus fallos.
+50 137.04 | Mismo cerebro,
+51 138.52 | mismas manos,
+52 139.68 | caminos completamente opuestos.
+53 141.78 | Vamos a ver los dos, uno detrás del otro.
+54 144.94 | Capítulo 3. El camino ético.
+55 147.56 | Aquí soy Pentester o Red Timmer.
+56 150.16 | Me pagan por atacar con permiso por escrito.
+57 153.18 | Un lunes cualquiera,
+58 154.5 | mi trabajo es intentar entrar en el banco que me ha contratado,
+59 157.68 | no para robar nada,
+60 159.08 | para avisarles de la grieta antes de que otro la encuentre primero.
+61 162.46 | Mando un correo de fishing simulado a sus empleados.
+62 165.6 | La mitad hace clic.
+63 167.04 | Siempre hay quien hace clic.
+64 168.68 | Provebo contraseñas filtradas de otras brechas porque la gente reutiliza contraseñas.
+65 173.56 | Siempre la reutiliza.
+66 175.76 | Y en tres días estoy dentro de su red interna.
+67 178.82 | Escalo privilegios,
+68 180.22 | llego a controlador de dominio.
+69 182.4 | Tecnicamente podría cifrar la empresa entera ahora mismo.
+70 185.96 | Pero no lo hago,
+71 187.14 | escribo un informe de cuarenta páginas en su lugar.
+72 190.1 | Ese informe vale más que cualquier ataque.
+73 193.18 | Y el dinero?
+74 194.32 | Aquí está lo que muy poca gente sabe.
+75 196.54 | Un Pentester Junior en España empieza cerca de 30 .000 euros al año.
+76 201.0 | Un Red Timmer con experiencia supera los 70 .000.
+77 204.24 | Pero el Bag Bounty juega en otra liga.
+78 206.66 | Encontrar un solo fallo crítico en Google o en Apple puede pagarte más de 100 .000 dólares.
+79 213.4 | Por un chaval argentino llamado Santiago López se convirtió en el primer jaquerético millonario del mundo.
+80 220.54 | Un millón de dólares,
+81 222.32 | encontrando fallos sin romper ni una sola ley.
+82 226.04 | Apple ha llegado a pagar hasta dos millones de dólares por un solo exploit de los grandes,
+83 230.68 | acceso remoto sin que la víctima toque nada.
+84 233.74 | Mi momento más espectacular en este camino llega un martes cualquiera.
+85 237.9 | Me contratan de una empresa de seguridad física.
+86 240.66 | La misión entrar en su frazo de técnico de mantenimiento.
+87 246.58 | Enseño una tarjeta falsa que he fabricado yo mismo.
+88 249.94 | El guardia me abre la puerta él mismo sin dudarlo.
+89 253.02 | Estoy dentro del edificio en menos de cuatro minutos.
+90 256.42 | Al día siguiente se lo explico todo al director de seguridad con una sonrisa café en mano.
+91 262.28 | Ese es el camino ético,
+92 263.98 | adrenalina real,
+93 265.44 | sueldo real y cero cárcel.
+94 268.32 | Capítulo 4.
+95 269.52 | El camino criminal.
+96 271.1 | Aquí soy afiliado.
+97 272.72 | Trabajo para un grupo de ramson guercomo servicio.
+98 275.48 | Yo no programo el virus.
+99 277.04 | Otro lo he hecho.
+100 278.24 | Yo solo lo distribuyo.
+101 280.14 | Compró el acceso a una empresa por dos mil dólares a un corredor de accesos en un foro oculto. Entro por una WPN mal configurada que alguien más encontró antes que yo.
+102 289.28 | Paso semanas ahí dentro en silencio sin tocar nada todavía.
+103 292.64 | Solo miro,
+104 293.56 | solo aprendo su red.
+105 295.48 | Primero robo los datos, contratos, nóminas y historiales médicos.
+106 299.7 | Luego de madrugada activo el cifrado en todos sus servidores a la vez.
+107 303.98 | A las nueve de la mañana la empresa entera está bloqueada,
+108 307.54 | pantallas, negras,
+109 308.82 | letras rojas,
+110 309.96 | dejó una nota.
+111 311.32 | Paga o publicamos todo lo que hemos robado.
+112 314.36 | Si pagan me llevo hasta el 80 % del rescate.
+113 317.58 | El resto es para el grupo que hizo el virus.
+114 320.14 | En 2021, Colonial Pipeline pagó 4 ,4 millones de dólares en Bitcoin a un solo grupo Darkside.
+115 328.2 | Y para mí el afiliado en una sola operación,
+116 331.1 | puede ser una casa, puede ser un coche caro.
+117 334.14 | Pero aquí está lo que las series nunca te cuentan.
+118 337.08 | El FBI no necesita atraparme jakeando.
+119 339.9 | Le basta con que gaste mal ese dinero.
+120 342.12 | Un reloj caro en redes sociales, una transferencia torpe,
+121 345.46 | un compañero que confiesa para reducir su condena.
+122 348.58 | Las condenas por ramsón muera gran escala, superan hoy los 20 años de prisión,
+123 353.18 | algunas más de 80.
+124 355.0 | Y el Bitcoin que cobre queda escrito para siempre en una cadena pública.
+125 359.12 | No se borra nunca.
+126 360.7 | Los investigadores tienen años enteros para rastrearlo.
+127 363.86 | Yo solo tengo una vida.
+128 366.18 | Mi momento más espectacular en este camino llega de madrugada,
+129 369.62 | la noche que cifro mi primera empresa grande.
+130 372.46 | Veo entrar el primer pago en mi cartera y por un segundo siento que he ganado.
+131 377.14 | Lo que no veo esa noche es a la gente federal que ya ha etiquetado esa transacción,
+132 382.1 | ya conoce mi nombre de usuario.
+133 384.08 | Solo espera el momento.
+134 386.62 | Capítulo 5.
+135 388.0 | Cara a cara.
+136 389.66 | Pongo las tifras una al lado de la otra.
+137 392.0 | Camino ético,
+138 393.08 | sueldo estable, un bonus por cada fallo,
+139 395.56 | cero ríes golegal y una carrera de décadas por delante.
+140 399.0 | Camino criminal,
+141 400.42 | pagos más grandes sobre el papel,
+142 402.2 | pero un reloj corriendo desde el primer click.
+143 404.84 | Y aquí está el dato que casi nadie calcula.
+144 407.42 | El valor esperado real no el número bonito del titular.
+145 411.36 | Si existe una probabilidad alta de acabar 20 años en prisión,
+146 415.16 | ese pago grande vale mucho menos de lo que parece en la pantalla.
+147 419.62 | El hacker ético cobra menos por cada golpe, pero cobra siempre y duerme tranquilo sin mirar la puerta cada noche.
+148 426.5 | La habilidad es idéntica en los dos caminos.
+149 428.98 | El destino no.
+150 431.28 | Capítulo 6.
+151 432.48 | El cierre.
+152 433.9 | Así que si tuvieras este talento hoy mismo,
+153 436.82 | ¿qué puerta cruzarías tú?
+154 438.86 | La buena noticia es que la puerta ética está abierta ahora mismo, y es gratis.
+155 443.28 | Puedes entrar hoy en tryhacmi o en hack de box sin pagar nada.
+156 447.74 | El mismo cerebro que podría meterte 20 años en la cárcel puede pagarte un sueldo de seis tifras.
+157 453.54 | Solo cambia la puerta que decide escruzar.
+158 456.48 | Si esta comparación te ha volado la cabeza, suscríbete.
+159 459.56 | Se viene más de este mundo, muy pronto.

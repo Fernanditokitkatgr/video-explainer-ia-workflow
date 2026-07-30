@@ -1,0 +1,802 @@
+[
+  {
+    "file": "0_00.jpg",
+    "startSec": 0.0,
+    "text": "Son las tres de la madrugada."
+  },
+  {
+    "file": "0_02.jpg",
+    "startSec": 2.0,
+    "text": "Estoy solo,"
+  },
+  {
+    "file": "0_03.jpg",
+    "startSec": 3.18,
+    "text": "frente a una pantalla en negro."
+  },
+  {
+    "file": "0_05.jpg",
+    "startSec": 5.66,
+    "text": "Tengo acceso a algo que no es mío."
+  },
+  {
+    "file": "0_08.jpg",
+    "startSec": 8.28,
+    "text": "Un clic más y toda una empresa se viene abajo."
+  },
+  {
+    "file": "0_11.jpg",
+    "startSec": 11.98,
+    "text": "Mi dedo está sobre la tecla entera."
+  },
+  {
+    "file": "0_14.jpg",
+    "startSec": 14.52,
+    "text": "No pulso,"
+  },
+  {
+    "file": "0_15.jpg",
+    "startSec": 15.68,
+    "text": "todavía."
+  },
+  {
+    "file": "0_17.jpg",
+    "startSec": 17.32,
+    "text": "Antes de este momento hubo un camino muy largo y ese camino se partió en dos hace años."
+  },
+  {
+    "file": "0_22.jpg",
+    "startSec": 22.88,
+    "text": "Yo elegí una rama."
+  },
+  {
+    "file": "0_24.jpg",
+    "startSec": 24.56,
+    "text": "Tú vas a elegir la tuya,"
+  },
+  {
+    "file": "0_25.jpg",
+    "startSec": 25.96,
+    "text": "viendo esto."
+  },
+  {
+    "file": "0_27.jpg",
+    "startSec": 27.14,
+    "text": "Esta es la historia de cómo se hace un hacker y de lo que pasa según que puerta cruzas."
+  },
+  {
+    "file": "0_32.jpg",
+    "startSec": 32.92,
+    "text": "Capítulo 1. ¿Cómo nace un hacker?"
+  },
+  {
+    "file": "0_35.jpg",
+    "startSec": 35.74,
+    "text": "Nadie nace hacker."
+  },
+  {
+    "file": "0_37.jpg",
+    "startSec": 37.32,
+    "text": "Se hace noche tras noche delante de un teclado y no empiezas por el dinero."
+  },
+  {
+    "file": "0_41.jpg",
+    "startSec": 41.74,
+    "text": "Empiezas por una pregunta."
+  },
+  {
+    "file": "0_43.jpg",
+    "startSec": 43.68,
+    "text": "¿Cómo funciona esto por dentro?"
+  },
+  {
+    "file": "0_45.jpg",
+    "startSec": 45.64,
+    "text": "Aprendes Linux, porque Windows te esconde demasiado."
+  },
+  {
+    "file": "0_48.jpg",
+    "startSec": 48.62,
+    "text": "Aprendes que es un puerto, que es un paquete,"
+  },
+  {
+    "file": "0_51.jpg",
+    "startSec": 51.16,
+    "text": "como viaja un dato de un lado a otro."
+  },
+  {
+    "file": "0_53.jpg",
+    "startSec": 53.4,
+    "text": "Aprendes Python, porque tu mano se cansa, pero un script no se cansa nunca."
+  },
+  {
+    "file": "0_57.jpg",
+    "startSec": 57.74,
+    "text": "Y entonces descubres las CTF,"
+  },
+  {
+    "file": "1_00.jpg",
+    "startSec": 60.2,
+    "text": "competiciones de hacking,"
+  },
+  {
+    "file": "1_01.jpg",
+    "startSec": 61.58,
+    "text": "legales, gamificadas,"
+  },
+  {
+    "file": "1_03.jpg",
+    "startSec": 63.2,
+    "text": "hack de box,"
+  },
+  {
+    "file": "1_04.jpg",
+    "startSec": 64.26,
+    "text": "trae hackmy,"
+  },
+  {
+    "file": "1_05.jpg",
+    "startSec": 65.36,
+    "text": "máquinas virtuales que existen solo para que tú las rompas."
+  },
+  {
+    "file": "1_08.jpg",
+    "startSec": 68.58,
+    "text": "Cada máquina es un puzzle y cada puzzle te engancha un poco más."
+  },
+  {
+    "file": "1_12.jpg",
+    "startSec": 72.96,
+    "text": "Un año después ya piensas distinto que el resto del mundo."
+  },
+  {
+    "file": "1_16.jpg",
+    "startSec": 76.34,
+    "text": "Miras una web y no ves un diseño,"
+  },
+  {
+    "file": "1_18.jpg",
+    "startSec": 78.72,
+    "text": "ves una superficie de ataque."
+  },
+  {
+    "file": "1_20.jpg",
+    "startSec": 80.7,
+    "text": "Miras un formulario de login y te preguntas qué pasas y metes algo que no debería ir ahí."
+  },
+  {
+    "file": "1_25.jpg",
+    "startSec": 85.8,
+    "text": "Y en algún punto, sin darte cuenta,"
+  },
+  {
+    "file": "1_28.jpg",
+    "startSec": 88.14,
+    "text": "ya sabes entrar donde no deberías."
+  },
+  {
+    "file": "1_30.jpg",
+    "startSec": 90.38,
+    "text": "Ahí es exactamente donde se abre la bifurcación."
+  },
+  {
+    "file": "1_34.jpg",
+    "startSec": 94.04,
+    "text": "Capítulo 2. La bifurcación."
+  },
+  {
+    "file": "1_36.jpg",
+    "startSec": 96.6,
+    "text": "Tienes la habilidad."
+  },
+  {
+    "file": "1_38.jpg",
+    "startSec": 98.14,
+    "text": "Ahora toca decidir qué haces con ella."
+  },
+  {
+    "file": "1_40.jpg",
+    "startSec": 100.52,
+    "text": "Un camino te ofrece un contrato, una nómina, un currículum."
+  },
+  {
+    "file": "1_44.jpg",
+    "startSec": 104.14,
+    "text": "El otro te ofrece dinero rápido, sin preguntas,"
+  },
+  {
+    "file": "1_46.jpg",
+    "startSec": 106.7,
+    "text": "sin jefe."
+  },
+  {
+    "file": "1_48.jpg",
+    "startSec": 108.0,
+    "text": "Miles de hackers jóvenes reciben esa segunda oferta en foros ocultos, en privado."
+  },
+  {
+    "file": "1_53.jpg",
+    "startSec": 113.14,
+    "text": "Tenemos acceso a una empresa,"
+  },
+  {
+    "file": "1_55.jpg",
+    "startSec": 115.12,
+    "text": "solo hace falta que actives la carga."
+  },
+  {
+    "file": "1_57.jpg",
+    "startSec": 117.46,
+    "text": "Suena fácil y esa es exactamente la trampa."
+  },
+  {
+    "file": "2_01.jpg",
+    "startSec": 121.2,
+    "text": "Otros cogen ese mismo talento y lo certifican."
+  },
+  {
+    "file": "2_04.jpg",
+    "startSec": 124.48,
+    "text": "Saca en el oscp,"
+  },
+  {
+    "file": "2_06.jpg",
+    "startSec": 126.26,
+    "text": "la certificación que demuestra que saben jaquear de verdad no solo de boca."
+  },
+  {
+    "file": "2_10.jpg",
+    "startSec": 130.7,
+    "text": "Se dan de alta en hacker one y en back crowd plataformas donde las empresas pagan por encontrar sus fallos."
+  },
+  {
+    "file": "2_17.jpg",
+    "startSec": 137.04,
+    "text": "Mismo cerebro,"
+  },
+  {
+    "file": "2_18.jpg",
+    "startSec": 138.52,
+    "text": "mismas manos,"
+  },
+  {
+    "file": "2_19.jpg",
+    "startSec": 139.68,
+    "text": "caminos completamente opuestos."
+  },
+  {
+    "file": "2_21.jpg",
+    "startSec": 141.78,
+    "text": "Vamos a ver los dos, uno detrás del otro."
+  },
+  {
+    "file": "2_24.jpg",
+    "startSec": 144.94,
+    "text": "Capítulo 3. El camino ético."
+  },
+  {
+    "file": "2_27.jpg",
+    "startSec": 147.56,
+    "text": "Aquí soy Pentester o Red Timmer."
+  },
+  {
+    "file": "2_30.jpg",
+    "startSec": 150.16,
+    "text": "Me pagan por atacar con permiso por escrito."
+  },
+  {
+    "file": "2_33.jpg",
+    "startSec": 153.18,
+    "text": "Un lunes cualquiera,"
+  },
+  {
+    "file": "2_34.jpg",
+    "startSec": 154.5,
+    "text": "mi trabajo es intentar entrar en el banco que me ha contratado,"
+  },
+  {
+    "file": "2_37.jpg",
+    "startSec": 157.68,
+    "text": "no para robar nada,"
+  },
+  {
+    "file": "2_39.jpg",
+    "startSec": 159.08,
+    "text": "para avisarles de la grieta antes de que otro la encuentre primero."
+  },
+  {
+    "file": "2_42.jpg",
+    "startSec": 162.46,
+    "text": "Mando un correo de fishing simulado a sus empleados."
+  },
+  {
+    "file": "2_45.jpg",
+    "startSec": 165.6,
+    "text": "La mitad hace clic."
+  },
+  {
+    "file": "2_47.jpg",
+    "startSec": 167.04,
+    "text": "Siempre hay quien hace clic."
+  },
+  {
+    "file": "2_48.jpg",
+    "startSec": 168.68,
+    "text": "Provebo contraseñas filtradas de otras brechas porque la gente reutiliza contraseñas."
+  },
+  {
+    "file": "2_53.jpg",
+    "startSec": 173.56,
+    "text": "Siempre la reutiliza."
+  },
+  {
+    "file": "2_55.jpg",
+    "startSec": 175.76,
+    "text": "Y en tres días estoy dentro de su red interna."
+  },
+  {
+    "file": "2_58.jpg",
+    "startSec": 178.82,
+    "text": "Escalo privilegios,"
+  },
+  {
+    "file": "3_00.jpg",
+    "startSec": 180.22,
+    "text": "llego a controlador de dominio."
+  },
+  {
+    "file": "3_02.jpg",
+    "startSec": 182.4,
+    "text": "Tecnicamente podría cifrar la empresa entera ahora mismo."
+  },
+  {
+    "file": "3_05.jpg",
+    "startSec": 185.96,
+    "text": "Pero no lo hago,"
+  },
+  {
+    "file": "3_07.jpg",
+    "startSec": 187.14,
+    "text": "escribo un informe de cuarenta páginas en su lugar."
+  },
+  {
+    "file": "3_10.jpg",
+    "startSec": 190.1,
+    "text": "Ese informe vale más que cualquier ataque."
+  },
+  {
+    "file": "3_13.jpg",
+    "startSec": 193.18,
+    "text": "Y el dinero?"
+  },
+  {
+    "file": "3_14.jpg",
+    "startSec": 194.32,
+    "text": "Aquí está lo que muy poca gente sabe."
+  },
+  {
+    "file": "3_16.jpg",
+    "startSec": 196.54,
+    "text": "Un Pentester Junior en España empieza cerca de 30 .000 euros al año."
+  },
+  {
+    "file": "3_21.jpg",
+    "startSec": 201.0,
+    "text": "Un Red Timmer con experiencia supera los 70 .000."
+  },
+  {
+    "file": "3_24.jpg",
+    "startSec": 204.24,
+    "text": "Pero el Bag Bounty juega en otra liga."
+  },
+  {
+    "file": "3_26.jpg",
+    "startSec": 206.66,
+    "text": "Encontrar un solo fallo crítico en Google o en Apple puede pagarte más de 100 .000 dólares."
+  },
+  {
+    "file": "3_33.jpg",
+    "startSec": 213.4,
+    "text": "Por un chaval argentino llamado Santiago López se convirtió en el primer jaquerético millonario del mundo."
+  },
+  {
+    "file": "3_40.jpg",
+    "startSec": 220.54,
+    "text": "Un millón de dólares,"
+  },
+  {
+    "file": "3_42.jpg",
+    "startSec": 222.32,
+    "text": "encontrando fallos sin romper ni una sola ley."
+  },
+  {
+    "file": "3_46.jpg",
+    "startSec": 226.04,
+    "text": "Apple ha llegado a pagar hasta dos millones de dólares por un solo exploit de los grandes,"
+  },
+  {
+    "file": "3_50.jpg",
+    "startSec": 230.68,
+    "text": "acceso remoto sin que la víctima toque nada."
+  },
+  {
+    "file": "3_53.jpg",
+    "startSec": 233.74,
+    "text": "Mi momento más espectacular en este camino llega un martes cualquiera."
+  },
+  {
+    "file": "3_57.jpg",
+    "startSec": 237.9,
+    "text": "Me contratan de una empresa de seguridad física."
+  },
+  {
+    "file": "4_00.jpg",
+    "startSec": 240.66,
+    "text": "La misión entrar en su frazo de técnico de mantenimiento."
+  },
+  {
+    "file": "4_06.jpg",
+    "startSec": 246.58,
+    "text": "Enseño una tarjeta falsa que he fabricado yo mismo."
+  },
+  {
+    "file": "4_09.jpg",
+    "startSec": 249.94,
+    "text": "El guardia me abre la puerta él mismo sin dudarlo."
+  },
+  {
+    "file": "4_13.jpg",
+    "startSec": 253.02,
+    "text": "Estoy dentro del edificio en menos de cuatro minutos."
+  },
+  {
+    "file": "4_16.jpg",
+    "startSec": 256.42,
+    "text": "Al día siguiente se lo explico todo al director de seguridad con una sonrisa café en mano."
+  },
+  {
+    "file": "4_22.jpg",
+    "startSec": 262.28,
+    "text": "Ese es el camino ético,"
+  },
+  {
+    "file": "4_23.jpg",
+    "startSec": 263.98,
+    "text": "adrenalina real,"
+  },
+  {
+    "file": "4_25.jpg",
+    "startSec": 265.44,
+    "text": "sueldo real y cero cárcel."
+  },
+  {
+    "file": "4_28.jpg",
+    "startSec": 268.32,
+    "text": "Capítulo 4."
+  },
+  {
+    "file": "4_29.jpg",
+    "startSec": 269.52,
+    "text": "El camino criminal."
+  },
+  {
+    "file": "4_31.jpg",
+    "startSec": 271.1,
+    "text": "Aquí soy afiliado."
+  },
+  {
+    "file": "4_32.jpg",
+    "startSec": 272.72,
+    "text": "Trabajo para un grupo de ramson guercomo servicio."
+  },
+  {
+    "file": "4_35.jpg",
+    "startSec": 275.48,
+    "text": "Yo no programo el virus."
+  },
+  {
+    "file": "4_37.jpg",
+    "startSec": 277.04,
+    "text": "Otro lo he hecho."
+  },
+  {
+    "file": "4_38.jpg",
+    "startSec": 278.24,
+    "text": "Yo solo lo distribuyo."
+  },
+  {
+    "file": "4_40.jpg",
+    "startSec": 280.14,
+    "text": "Compró el acceso a una empresa por dos mil dólares a un corredor de accesos en un foro oculto. Entro por una WPN mal configurada que alguien más encontró antes que yo."
+  },
+  {
+    "file": "4_49.jpg",
+    "startSec": 289.28,
+    "text": "Paso semanas ahí dentro en silencio sin tocar nada todavía."
+  },
+  {
+    "file": "4_52.jpg",
+    "startSec": 292.64,
+    "text": "Solo miro,"
+  },
+  {
+    "file": "4_53.jpg",
+    "startSec": 293.56,
+    "text": "solo aprendo su red."
+  },
+  {
+    "file": "4_55.jpg",
+    "startSec": 295.48,
+    "text": "Primero robo los datos, contratos, nóminas y historiales médicos."
+  },
+  {
+    "file": "4_59.jpg",
+    "startSec": 299.7,
+    "text": "Luego de madrugada activo el cifrado en todos sus servidores a la vez."
+  },
+  {
+    "file": "5_03.jpg",
+    "startSec": 303.98,
+    "text": "A las nueve de la mañana la empresa entera está bloqueada,"
+  },
+  {
+    "file": "5_07.jpg",
+    "startSec": 307.54,
+    "text": "pantallas, negras,"
+  },
+  {
+    "file": "5_08.jpg",
+    "startSec": 308.82,
+    "text": "letras rojas,"
+  },
+  {
+    "file": "5_09.jpg",
+    "startSec": 309.96,
+    "text": "dejó una nota."
+  },
+  {
+    "file": "5_11.jpg",
+    "startSec": 311.32,
+    "text": "Paga o publicamos todo lo que hemos robado."
+  },
+  {
+    "file": "5_14.jpg",
+    "startSec": 314.36,
+    "text": "Si pagan me llevo hasta el 80 % del rescate."
+  },
+  {
+    "file": "5_17.jpg",
+    "startSec": 317.58,
+    "text": "El resto es para el grupo que hizo el virus."
+  },
+  {
+    "file": "5_20.jpg",
+    "startSec": 320.14,
+    "text": "En 2021, Colonial Pipeline pagó 4 ,4 millones de dólares en Bitcoin a un solo grupo Darkside."
+  },
+  {
+    "file": "5_28.jpg",
+    "startSec": 328.2,
+    "text": "Y para mí el afiliado en una sola operación,"
+  },
+  {
+    "file": "5_31.jpg",
+    "startSec": 331.1,
+    "text": "puede ser una casa, puede ser un coche caro."
+  },
+  {
+    "file": "5_34.jpg",
+    "startSec": 334.14,
+    "text": "Pero aquí está lo que las series nunca te cuentan."
+  },
+  {
+    "file": "5_37.jpg",
+    "startSec": 337.08,
+    "text": "El FBI no necesita atraparme jakeando."
+  },
+  {
+    "file": "5_39.jpg",
+    "startSec": 339.9,
+    "text": "Le basta con que gaste mal ese dinero."
+  },
+  {
+    "file": "5_42.jpg",
+    "startSec": 342.12,
+    "text": "Un reloj caro en redes sociales, una transferencia torpe,"
+  },
+  {
+    "file": "5_45.jpg",
+    "startSec": 345.46,
+    "text": "un compañero que confiesa para reducir su condena."
+  },
+  {
+    "file": "5_48.jpg",
+    "startSec": 348.58,
+    "text": "Las condenas por ramsón muera gran escala, superan hoy los 20 años de prisión,"
+  },
+  {
+    "file": "5_53.jpg",
+    "startSec": 353.18,
+    "text": "algunas más de 80."
+  },
+  {
+    "file": "5_55.jpg",
+    "startSec": 355.0,
+    "text": "Y el Bitcoin que cobre queda escrito para siempre en una cadena pública."
+  },
+  {
+    "file": "5_59.jpg",
+    "startSec": 359.12,
+    "text": "No se borra nunca."
+  },
+  {
+    "file": "6_00.jpg",
+    "startSec": 360.7,
+    "text": "Los investigadores tienen años enteros para rastrearlo."
+  },
+  {
+    "file": "6_03.jpg",
+    "startSec": 363.86,
+    "text": "Yo solo tengo una vida."
+  },
+  {
+    "file": "6_06.jpg",
+    "startSec": 366.18,
+    "text": "Mi momento más espectacular en este camino llega de madrugada,"
+  },
+  {
+    "file": "6_09.jpg",
+    "startSec": 369.62,
+    "text": "la noche que cifro mi primera empresa grande."
+  },
+  {
+    "file": "6_12.jpg",
+    "startSec": 372.46,
+    "text": "Veo entrar el primer pago en mi cartera y por un segundo siento que he ganado."
+  },
+  {
+    "file": "6_17.jpg",
+    "startSec": 377.14,
+    "text": "Lo que no veo esa noche es a la gente federal que ya ha etiquetado esa transacción,"
+  },
+  {
+    "file": "6_22.jpg",
+    "startSec": 382.1,
+    "text": "ya conoce mi nombre de usuario."
+  },
+  {
+    "file": "6_24.jpg",
+    "startSec": 384.08,
+    "text": "Solo espera el momento."
+  },
+  {
+    "file": "6_26.jpg",
+    "startSec": 386.62,
+    "text": "Capítulo 5."
+  },
+  {
+    "file": "6_28.jpg",
+    "startSec": 388.0,
+    "text": "Cara a cara."
+  },
+  {
+    "file": "6_29.jpg",
+    "startSec": 389.66,
+    "text": "Pongo las tifras una al lado de la otra."
+  },
+  {
+    "file": "6_32.jpg",
+    "startSec": 392.0,
+    "text": "Camino ético,"
+  },
+  {
+    "file": "6_33.jpg",
+    "startSec": 393.08,
+    "text": "sueldo estable, un bonus por cada fallo,"
+  },
+  {
+    "file": "6_35.jpg",
+    "startSec": 395.56,
+    "text": "cero ríes golegal y una carrera de décadas por delante."
+  },
+  {
+    "file": "6_39.jpg",
+    "startSec": 399.0,
+    "text": "Camino criminal,"
+  },
+  {
+    "file": "6_40.jpg",
+    "startSec": 400.42,
+    "text": "pagos más grandes sobre el papel,"
+  },
+  {
+    "file": "6_42.jpg",
+    "startSec": 402.2,
+    "text": "pero un reloj corriendo desde el primer click."
+  },
+  {
+    "file": "6_44.jpg",
+    "startSec": 404.84,
+    "text": "Y aquí está el dato que casi nadie calcula."
+  },
+  {
+    "file": "6_47.jpg",
+    "startSec": 407.42,
+    "text": "El valor esperado real no el número bonito del titular."
+  },
+  {
+    "file": "6_51.jpg",
+    "startSec": 411.36,
+    "text": "Si existe una probabilidad alta de acabar 20 años en prisión,"
+  },
+  {
+    "file": "6_55.jpg",
+    "startSec": 415.16,
+    "text": "ese pago grande vale mucho menos de lo que parece en la pantalla."
+  },
+  {
+    "file": "6_59.jpg",
+    "startSec": 419.62,
+    "text": "El hacker ético cobra menos por cada golpe, pero cobra siempre y duerme tranquilo sin mirar la puerta cada noche."
+  },
+  {
+    "file": "7_06.jpg",
+    "startSec": 426.5,
+    "text": "La habilidad es idéntica en los dos caminos."
+  },
+  {
+    "file": "7_08.jpg",
+    "startSec": 428.98,
+    "text": "El destino no."
+  },
+  {
+    "file": "7_11.jpg",
+    "startSec": 431.28,
+    "text": "Capítulo 6."
+  },
+  {
+    "file": "7_12.jpg",
+    "startSec": 432.48,
+    "text": "El cierre."
+  },
+  {
+    "file": "7_13.jpg",
+    "startSec": 433.9,
+    "text": "Así que si tuvieras este talento hoy mismo,"
+  },
+  {
+    "file": "7_16.jpg",
+    "startSec": 436.82,
+    "text": "¿qué puerta cruzarías tú?"
+  },
+  {
+    "file": "7_18.jpg",
+    "startSec": 438.86,
+    "text": "La buena noticia es que la puerta ética está abierta ahora mismo, y es gratis."
+  },
+  {
+    "file": "7_23.jpg",
+    "startSec": 443.28,
+    "text": "Puedes entrar hoy en tryhacmi o en hack de box sin pagar nada."
+  },
+  {
+    "file": "7_27.jpg",
+    "startSec": 447.74,
+    "text": "El mismo cerebro que podría meterte 20 años en la cárcel puede pagarte un sueldo de seis tifras."
+  },
+  {
+    "file": "7_33.jpg",
+    "startSec": 453.54,
+    "text": "Solo cambia la puerta que decide escruzar."
+  },
+  {
+    "file": "7_36.jpg",
+    "startSec": 456.48,
+    "text": "Si esta comparación te ha volado la cabeza, suscríbete."
+  },
+  {
+    "file": "7_39.jpg",
+    "startSec": 459.56,
+    "text": "Se viene más de este mundo, muy pronto."
+  }
+]
