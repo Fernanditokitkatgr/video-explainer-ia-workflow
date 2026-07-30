@@ -12,10 +12,81 @@ import { RedNeuronalTruco } from "./RedNeuronalTruco";
 import { RedNeuronalRetropropagacion } from "./RedNeuronalRetropropagacion";
 import { ComoFuncionanLosLLM } from "./ComoFuncionanLosLLM";
 import { ElErrorDeLosOrdenadoresDeIA } from "./ElErrorDeLosOrdenadoresDeIA";
+import { EmpleosDelFuturo } from "./EmpleosDelFuturo";
+import { TheCom } from "./TheCom";
+import { Pegasus } from "./Pegasus";
+import { Lazarus } from "./Lazarus";
+import { DosCaminosHacker } from "./DosCaminosHacker";
+import { RedTeamVsBlueTeam } from "./RedTeamVsBlueTeam";
+import { HackerNovatoADios } from "./HackerNovatoADios";
 
 export const RemotionRoot: React.FC = () => {
   return (
     <>
+      <Composition
+        id="RedTeamVsBlueTeam"
+        component={RedTeamVsBlueTeam}
+        durationInFrames={7511}
+        fps={30}
+        width={1920}
+        height={1080}
+      />
+      <Composition
+        id="HackerNovatoADios"
+        component={HackerNovatoADios}
+        durationInFrames={6351}
+        fps={30}
+        width={1920}
+        height={1080}
+      />
+      <Composition
+        id="DosCaminosHacker"
+        component={DosCaminosHacker}
+        durationInFrames={12620}
+        fps={30}
+        width={1920}
+        height={1080}
+      />
+      <Composition
+        id="Lazarus"
+        component={Lazarus}
+        durationInFrames={5450}
+        fps={30}
+        width={1920}
+        height={1080}
+      />
+      <Composition
+        id="Pegasus"
+        component={Pegasus}
+        durationInFrames={6314}
+        fps={30}
+        width={1920}
+        height={1080}
+      />
+      <Composition
+        id="TheCom"
+        component={TheCom}
+        durationInFrames={2681}
+        fps={30}
+        width={1920}
+        height={1080}
+      />
+      <Composition
+        id="EmpleosDelFuturo"
+        component={EmpleosDelFuturo}
+        durationInFrames={12541}
+        fps={30}
+        width={1920}
+        height={1080}
+      />
+      <Composition
+        id="EmpleosDelFuturoVertical"
+        component={EmpleosDelFuturo}
+        durationInFrames={12541}
+        fps={30}
+        width={1080}
+        height={1920}
+      />
       <Composition
         id="InteresCompuesto"
         component={InteresCompuesto}

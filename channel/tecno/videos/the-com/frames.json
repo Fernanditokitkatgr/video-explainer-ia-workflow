@@ -1,0 +1,193 @@
+{
+  "video": "the-com",
+  "style_base": "Simple crude hand-drawn cartoon in the style of the 'Ecomonos' youtube channel. A recurring brown cartoon monkey character with big round white eyes and black pupils, thick bold black outlines, flat colors, expressive exaggerated faces — but in a DARK HACKER setting: dark near-black navy background, moody lighting, glowing green terminal-code and subtle red accents lighting the scene, the monkey often wearing a dark grey hoodie. Comedy-meets-noir tone. The SAME monkey character appears consistently in every image. CRITICAL TEXT RULE: prefer NO text, labels or signs at all — tell the scene through the monkey's action and expression and simple symbols. If a short text is truly necessary it MUST be in perfect SPANISH exactly as specified, in large simple block letters — NEVER English.",
+  "note": "Mono-hacker oscuro. Gemini flash via Vertex AI. 31 escenas.",
+  "frames": [
+    {
+      "file": "0_00.jpg",
+      "startSec": 0.0,
+      "text": "Hay un rincón de internet gobernado por niños, tienen entre 11 y 26 años.",
+      "scene": "a hooded brown monkey hacker at a laptop in the dark, green code glow on its face, a few small shadowy hooded kid figures behind it, no text"
+    },
+    {
+      "file": "0_05.jpg",
+      "startSec": 5.14,
+      "text": "Y han robado cientos de millones de dólares, se llama Decom.",
+      "scene": "the hooded monkey holding a big glowing pile of stolen cash and crypto coins, dark background, no text"
+    },
+    {
+      "file": "0_09.jpg",
+      "startSec": 9.78,
+      "text": "Y no es un grupo, es un archipiélago de bandas conectadas entre sí,",
+      "scene": "a dark map of scattered islands connected by glowing green lines, a tiny hooded monkey on each island, no text"
+    },
+    {
+      "file": "0_13.jpg",
+      "startSec": 13.96,
+      "text": "la mayoría menores de edad.",
+      "scene": "several small child-sized hooded monkeys standing in the dark, glowing screens, no text"
+    },
+    {
+      "file": "0_16.jpg",
+      "startSec": 16.16,
+      "text": "¿Y cómo caen ahí?",
+      "scene": "the monkey shrugging with open palms and a big question mark, green screen glow, no text"
+    },
+    {
+      "file": "0_17.jpg",
+      "startSec": 17.78,
+      "text": "Los reclutan jugando, en Roblox, en Minecraft,",
+      "scene": "the monkey playing a blocky video game on a screen while a shadowy hand reaches out from the screen toward it, no text"
+    },
+    {
+      "file": "0_21.jpg",
+      "startSec": 21.14,
+      "text": "les prometen dinero rápido y estatus,",
+      "scene": "a shadowy figure dangling bait in front of a small monkey: a wad of cash and a golden crown, dark, no text"
+    },
+    {
+      "file": "0_23.jpg",
+      "startSec": 23.66,
+      "text": "y funciona, Fardan de Rolex, de cripto, de Lamborghinis,",
+      "scene": "the monkey showing off a shiny Rolex watch, glowing crypto coins and a little Lamborghini, flashy, dark background, no text"
+    },
+    {
+      "file": "0_27.jpg",
+      "startSec": 27.22,
+      "text": "ese es justo su gran error.",
+      "scene": "the monkey facepalming with a red warning glow around it, no text"
+    },
+    {
+      "file": "0_29.jpg",
+      "startSec": 29.5,
+      "text": "A más de uno lo han pillado por subir una simple foto a Instagram.",
+      "scene": "a smartphone showing an Instagram-style selfie with a location pin, red and blue police lights reflecting on it, no text"
+    },
+    {
+      "file": "0_33.jpg",
+      "startSec": 33.12,
+      "text": "Pero cuando todavía no los pillan, lo que hacen a cojona.",
+      "scene": "the monkey looking nervous and scared, lit by an ominous dark red screen, no text"
+    },
+    {
+      "file": "0_36.jpg",
+      "startSec": 36.74,
+      "text": "Tumbaron los casinos MGM de Las Vegas y los dejaron fuera de juego varios días.",
+      "scene": "a neon Las Vegas casino building going dark and offline, a small hooded monkey with a laptop in front, no text"
+    },
+    {
+      "file": "0_41.jpg",
+      "startSec": 41.54,
+      "text": "Un chaval de 17 años filtró el GTA6 entero antes de que saliera.",
+      "scene": "a hooded teenage monkey pulling a leaked game city out of a computer screen, controller nearby, no text"
+    },
+    {
+      "file": "0_46.jpg",
+      "startSec": 46.14,
+      "text": "Han atacado a Nvidia, a Microsoft, a Samsung.",
+      "scene": "three big tech company buildings under attack (a green microchip tower, a windowed office, a blue tower), a tiny hooded monkey, no text"
+    },
+    {
+      "file": "0_49.jpg",
+      "startSec": 49.24,
+      "text": "Los daños, más de 500 millones de dólares.",
+      "scene": "a huge glowing mountain of dollars and coins in the dark, a tiny monkey standing beside it amazed, no text"
+    },
+    {
+      "file": "0_53.jpg",
+      "startSec": 53.06,
+      "text": "Su arma favorita, el SIM Swapping.",
+      "scene": "the monkey holding up a SIM card triumphantly next to a phone with a swap arrow, green glow, no text"
+    },
+    {
+      "file": "0_56.jpg",
+      "startSec": 56.02,
+      "text": "Básicamente, te roban tu número de teléfonos sin tocar tu móvil,",
+      "scene": "a phone number and SIM floating out of a victim's phone into the monkey's hand while the victim's phone stays untouched, no text"
+    },
+    {
+      "file": "0_59.jpg",
+      "startSec": 59.6,
+      "text": "y con eso entran en tus mensajes, en tus cuentas y en tu dinero.",
+      "scene": "the monkey unlocking floating icons of messages, a bank and a crypto wallet with a glowing key, dark, no text"
+    },
+    {
+      "file": "1_03.jpg",
+      "startSec": 63.44,
+      "text": "Ahora lo serio.",
+      "scene": "the monkey pulling off a playful mask to reveal a serious grave face, dark tone, no text"
+    },
+    {
+      "file": "1_04.jpg",
+      "startSec": 64.7,
+      "text": "Decom también tiene zonas muchísimo más oscuras y peligrosas.",
+      "scene": "the monkey cautiously peering into a dark ominous doorway glowing red, deeper into the network, unsettling but abstract, no text"
+    },
+    {
+      "file": "1_08.jpg",
+      "startSec": 68.52,
+      "text": "Tanto que el FBI ya no se anda con la edad.",
+      "scene": "a stern FBI-style agent silhouette shining a flashlight into the dark onto a small caught hooded monkey, no text"
+    },
+    {
+      "file": "1_11.jpg",
+      "startSec": 71.56,
+      "text": "Están cayendo penas de 10 años, de 25,",
+      "scene": "a monkey sitting behind prison bars in the dark looking at a wall calendar, no text"
+    },
+    {
+      "file": "1_14.jpg",
+      "startSec": 74.46,
+      "text": "y en lo más grave, de más de 80.",
+      "scene": "a small shocked monkey behind prison bars with a huge looming shadow number over it, no text"
+    },
+    {
+      "file": "1_16.jpg",
+      "startSec": 76.92,
+      "text": "Así que, protéjete, que es fácil, no uses SMS para tus códigos,",
+      "scene": "the monkey switching to a protective heroic pose as a glowing shield appears, and a phone with a crossed-out SMS icon, no text"
+    },
+    {
+      "file": "1_21.jpg",
+      "startSec": 81.2,
+      "text": "usa una app de autenticación,",
+      "scene": "the monkey proudly holding a phone showing an authenticator app icon (shield with a rotating code), reassuring green glow, no text"
+    },
+    {
+      "file": "1_22.jpg",
+      "startSec": 82.64,
+      "text": "no fardes de lo que tienes,",
+      "scene": "the monkey zipping its mouth shut and hiding its valuables behind its back, secretive, no text"
+    },
+    {
+      "file": "1_24.jpg",
+      "startSec": 84.76,
+      "text": "y desconfía de quien te promete dinero fácil por internet.",
+      "scene": "the monkey wagging its finger 'no' at a shady hooded figure offering a glowing bait of easy money, no text"
+    },
+    {
+      "file": "1_27.jpg",
+      "startSec": 87.94,
+      "text": "Porque en Decom, el que menos parece un criminal,",
+      "scene": "a lineup of several monkeys in the dark, one innocent-looking ordinary monkey subtly highlighted, no text"
+    },
+    {
+      "file": "1_31.jpg",
+      "startSec": 91.34,
+      "text": "suele ser el más peligroso.",
+      "scene": "that same innocent-looking monkey revealed with a sinister shadow and a creepy grin, dark, no text"
+    },
+    {
+      "file": "1_33.jpg",
+      "startSec": 93.52,
+      "text": "¿Te flipa que unos críos muevan todo esto?",
+      "scene": "the monkey pointing directly at the viewer with wide surprised eyes, dark background with green glow, no text"
+    },
+    {
+      "file": "1_36.jpg",
+      "startSec": 96.06,
+      "text": "Suscríbete, que hay mucho más.",
+      "scene": "the monkey pointing at a big glowing red rounded button that reads 'SUSCRIBETE' in Spanish, dark background"
+    }
+  ]
+}

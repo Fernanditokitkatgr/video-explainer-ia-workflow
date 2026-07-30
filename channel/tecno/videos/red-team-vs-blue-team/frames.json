@@ -1,0 +1,463 @@
+{
+  "video": "red-team-vs-blue-team",
+  "style_base": "Simple crude hand-drawn cartoon in the style of the 'Ecomonos' youtube channel. A recurring brown cartoon monkey character with big round white eyes and black pupils, thick bold black outlines, flat colors, expressive exaggerated faces - but in a DARK HACKER setting: dark near-black navy background, moody lighting, glowing green terminal-code and subtle red accents lighting the scene, the monkey often wearing a dark grey hoodie. Comedy-meets-noir tone. The SAME monkey character appears consistently in every image. CRITICAL TEXT RULE: prefer NO text, labels or signs at all - tell the scene through the monkey's action and expression and simple symbols. If a short text is truly necessary it MUST be in perfect SPANISH exactly as specified, in large simple block letters - NEVER English.",
+  "note": "Mono rojo (Red Team) vs mono azul (Blue Team), estilo EXACTO tecno, fondos variados (SOC, oficina, arena).",
+  "frames": [
+    {
+      "file": "0_00.jpg",
+      "startSec": 0.0,
+      "text": "Cada gran empresa del mundo libra una guerra silenciosa todos los días.",
+      "scene": "a dark office building at night, two glowing silhouettes facing each other on opposite rooftops, one red-tinted, one blue-tinted, no text"
+    },
+    {
+      "file": "0_04.jpg",
+      "startSec": 4.66,
+      "text": "No sale en las noticias,",
+      "scene": "a wide shot of a corporate office building, calm exterior, no visible drama, no text"
+    },
+    {
+      "file": "0_06.jpg",
+      "startSec": 6.22,
+      "text": "no hay explosiones,",
+      "scene": "the same office building, completely quiet, no explosions, ironic calm, no text"
+    },
+    {
+      "file": "0_07.jpg",
+      "startSec": 7.86,
+      "text": "pero hay un equipo que ataca y otro que defiende,",
+      "scene": "a hooded monkey hacker wearing a red-tinted hoodie (Red Team) and a hooded monkey hacker wearing a blue-tinted hoodie (Blue Team) standing back to back inside the same office building, no text"
+    },
+    {
+      "file": "0_11.jpg",
+      "startSec": 11.24,
+      "text": "contra el mismo objetivo,",
+      "scene": "a hooded monkey hacker wearing a red-tinted hoodie (Red Team) and a hooded monkey hacker wearing a blue-tinted hoodie (Blue Team) both pointing at the same glowing company logo on a wall, no text"
+    },
+    {
+      "file": "0_12.jpg",
+      "startSec": 12.82,
+      "text": "la misma empresa.",
+      "scene": "a glowing company logo shield floating between the red and blue monkeys, no text"
+    },
+    {
+      "file": "0_14.jpg",
+      "startSec": 14.48,
+      "text": "Se llaman Red Team y Blue Team,",
+      "scene": "large glowing text-free banner split red and blue down the middle, no text"
+    },
+    {
+      "file": "0_16.jpg",
+      "startSec": 16.66,
+      "text": "y la pregunta que nadie responde bien es esta.",
+      "scene": "both monkeys turning to face the camera, a glowing question mark between them, no text"
+    },
+    {
+      "file": "0_20.jpg",
+      "startSec": 20.02,
+      "text": "¿Quién gana de verdad?",
+      "scene": "a glowing golden trophy hovering between the red and blue monkey, contested, no text"
+    },
+    {
+      "file": "0_22.jpg",
+      "startSec": 22.12,
+      "text": "Capítulo 1.",
+      "scene": "a large glowing green chapter number '1' floating in darkness, no other text"
+    },
+    {
+      "file": "0_23.jpg",
+      "startSec": 23.38,
+      "text": "¿Quién es el Red Team?",
+      "scene": "big green Spanish caption '¿QUIÉN ES EL RED TEAM?' over a dark office background, no other text"
+    },
+    {
+      "file": "0_24.jpg",
+      "startSec": 24.98,
+      "text": "El Red Team es el equipo que ataca su propia empresa, con permiso, para encontrar el fallo antes que un criminal real.",
+      "scene": "a hooded monkey hacker wearing a red-tinted hoodie (Red Team) climbing through a glowing wireframe network diagram of an office building, no text"
+    },
+    {
+      "file": "0_32.jpg",
+      "startSec": 32.22,
+      "text": "Pienzan como un atacante todo el tiempo, es su trabajo.",
+      "scene": "a hooded monkey hacker wearing a red-tinted hoodie (Red Team) sitting at a desk full of monitors, deep in thought, red glow, no text"
+    },
+    {
+      "file": "0_36.jpg",
+      "startSec": 36.6,
+      "text": "Un lunes cualquiera prueban si pueden entrar en la red interna desde fuera.",
+      "scene": "a hooded monkey hacker wearing a red-tinted hoodie (Red Team) sending a glowing phishing envelope toward a small office building icon, Monday calendar page, no text"
+    },
+    {
+      "file": "0_40.jpg",
+      "startSec": 40.74,
+      "text": "Un martes prueban si un empleado hace clic en un correo falso.",
+      "scene": "a hooded monkey hacker wearing a red-tinted hoodie (Red Team) sending a glowing phishing envelope toward a tiny employee avatar, Tuesday calendar page, no text"
+    },
+    {
+      "file": "0_44.jpg",
+      "startSec": 44.68,
+      "text": "Un miércoles prueban si pueden moverse de un ordenador a otro sin que nadie se de cuenta.",
+      "scene": "a hooded monkey hacker wearing a red-tinted hoodie (Red Team) sneaking silently between two glowing computer icons, Wednesday calendar page, no text"
+    },
+    {
+      "file": "0_50.jpg",
+      "startSec": 50.12,
+      "text": "Su herramienta favorita no es un virus de película,",
+      "scene": "a hooded monkey hacker wearing a red-tinted hoodie (Red Team) holding up an empty movie-style virus icon, crossed out, no text"
+    },
+    {
+      "file": "0_53.jpg",
+      "startSec": 53.12,
+      "text": "es la paciencia.",
+      "scene": "a hooded monkey hacker wearing a red-tinted hoodie (Red Team) instead holding a glowing hourglass, patience as the real weapon, no text"
+    },
+    {
+      "file": "0_54.jpg",
+      "startSec": 54.76,
+      "text": "Usan escáneres de vulnerabilidades, credenciales filtradas y mucho conocimiento del sistema operativo por dentro.",
+      "scene": "a glowing vulnerability scanner interface and a stream of leaked credential icons around a hooded monkey hacker wearing a red-tinted hoodie (Red Team), no text"
+    },
+    {
+      "file": "1_01.jpg",
+      "startSec": 61.54,
+      "text": "Si consiguen llegar hasta el controlador de dominio, han ganado esa ronda.",
+      "scene": "a hooded monkey hacker wearing a red-tinted hoodie (Red Team) reaching a glowing crown icon labeled as the top of a server hierarchy, victorious pose, no text"
+    },
+    {
+      "file": "1_05.jpg",
+      "startSec": 65.96,
+      "text": "Pero su objetivo nunca es destruir nada,",
+      "scene": "a hooded monkey hacker wearing a red-tinted hoodie (Red Team) standing calmly instead of destroying anything, hand raised in restraint, no text"
+    },
+    {
+      "file": "1_08.jpg",
+      "startSec": 68.86,
+      "text": "es escribir el informe que evita el desastre real.",
+      "scene": "a hooded monkey hacker wearing a red-tinted hoodie (Red Team) writing a thick glowing report document at a desk, red glow dimming to a calmer tone, no text"
+    },
+    {
+      "file": "1_13.jpg",
+      "startSec": 73.1,
+      "text": "Capítulo 2. ¿Quién es el Blue Team?",
+      "scene": "a large glowing green chapter number '2' floating in darkness, no other text"
+    },
+    {
+      "file": "1_16.jpg",
+      "startSec": 76.14,
+      "text": "El Blue Team es el equipo que defiende esa misma empresa todos los días, contra todo el mundo.",
+      "scene": "big green Spanish caption '¿QUIÉN ES EL BLUE TEAM?' over a dark SOC room background, no other text"
+    },
+    {
+      "file": "1_22.jpg",
+      "startSec": 82.4,
+      "text": "No sabe cuando llega el ataque,",
+      "scene": "a hooded monkey hacker wearing a blue-tinted hoodie (Blue Team) sitting in a glowing security operations center full of monitors, blue light everywhere, no text"
+    },
+    {
+      "file": "1_24.jpg",
+      "startSec": 84.6,
+      "text": "ni si es un simulacro del red team o un criminal de verdad.",
+      "scene": "a hooded monkey hacker wearing a blue-tinted hoodie (Blue Team) looking nervously at an unmarked glowing alert on a wall of screens, no text"
+    },
+    {
+      "file": "1_28.jpg",
+      "startSec": 88.56,
+      "text": "Vigila el tráfico de la red las 24 horas,",
+      "scene": "a hooded monkey hacker wearing a blue-tinted hoodie (Blue Team) looking at two identical alerts, one labeled drill, one blank, unable to tell them apart, no text"
+    },
+    {
+      "file": "1_31.jpg",
+      "startSec": 91.62,
+      "text": "revisa alertas,",
+      "scene": "a hooded monkey hacker wearing a blue-tinted hoodie (Blue Team) watching a glowing 24-hour clock spinning around a network traffic map, no text"
+    },
+    {
+      "file": "1_32.jpg",
+      "startSec": 92.88,
+      "text": "miles de alertas al día, la mayoría falsas.",
+      "scene": "a hooded monkey hacker wearing a blue-tinted hoodie (Blue Team) surrounded by a wall of glowing alert icons, no text"
+    },
+    {
+      "file": "1_36.jpg",
+      "startSec": 96.24,
+      "text": "Su trabajo es encontrar la aguja real en un pajar de ruido.",
+      "scene": "thousands of tiny glowing alert icons around a hooded monkey hacker wearing a blue-tinted hoodie (Blue Team), most fading out as false alarms, no text"
+    },
+    {
+      "file": "1_40.jpg",
+      "startSec": 100.3,
+      "text": "Cuando ocurre algo raro, tienen minutos, no horas, para decidir si es un ataque real.",
+      "scene": "a hooded monkey hacker wearing a blue-tinted hoodie (Blue Team) spotting a single glowing needle inside a giant haystack of alert icons, no text"
+    },
+    {
+      "file": "1_46.jpg",
+      "startSec": 106.12,
+      "text": "Usan sistemas de detección,",
+      "scene": "a glowing clock ticking fast next to a hooded monkey hacker wearing a blue-tinted hoodie (Blue Team), minutes counting down, tense, no text"
+    },
+    {
+      "file": "1_48.jpg",
+      "startSec": 108.0,
+      "text": "registros de actividad y una regla de oro. Nunca confiar por defecto.",
+      "scene": "a hooded monkey hacker wearing a blue-tinted hoodie (Blue Team) operating a glowing intrusion detection dashboard, blue SOC room, no text"
+    },
+    {
+      "file": "1_53.jpg",
+      "startSec": 113.16,
+      "text": "Si el red team consigue entrar sin que el Blue Team lo detecte, esa ronda la pierde en ellos.",
+      "scene": "a hooded monkey hacker wearing a blue-tinted hoodie (Blue Team) standing firm behind a glowing shield reading a golden rule symbol, no text"
+    },
+    {
+      "file": "1_58.jpg",
+      "startSec": 118.46,
+      "text": "Pero si lo detectan a tiempo, han hecho su trabajo perfectamente, aunque nadie fuera lo sepa nunca.",
+      "scene": "a hooded monkey hacker wearing a red-tinted hoodie (Red Team) slipping past a distracted a hooded monkey hacker wearing a blue-tinted hoodie (Blue Team) in the same SOC room, red team wins this round, no text"
+    },
+    {
+      "file": "2_04.jpg",
+      "startSec": 124.96,
+      "text": "Capítulo 3.",
+      "scene": "a hooded monkey hacker wearing a blue-tinted hoodie (Blue Team) catching a hooded monkey hacker wearing a red-tinted hoodie (Red Team) right on time, a glowing green checkmark appearing, blue team wins this round, no text"
+    },
+    {
+      "file": "2_06.jpg",
+      "startSec": 126.42,
+      "text": "La simulación que lo cambia todo.",
+      "scene": "a large glowing green chapter number '3' floating in darkness, no other text"
+    },
+    {
+      "file": "2_08.jpg",
+      "startSec": 128.96,
+      "text": "Muchas empresas ya no separan los dos equipos del todo,",
+      "scene": "big green Spanish caption 'LA SIMULACIÓN QUE LO CAMBIA TODO' over a dark background, no other text"
+    },
+    {
+      "file": "2_12.jpg",
+      "startSec": 132.32,
+      "text": "crean un parpe el team,",
+      "scene": "a hooded monkey hacker wearing a red-tinted hoodie (Red Team) and a hooded monkey hacker wearing a blue-tinted hoodie (Blue Team) standing on opposite sides of a glowing dividing wall inside an office, no text"
+    },
+    {
+      "file": "2_13.jpg",
+      "startSec": 133.9,
+      "text": "la mezcla de los dos, compartiendo lo que aprenden en cada simulacro.",
+      "scene": "the dividing wall between a hooded monkey hacker wearing a red-tinted hoodie (Red Team) and a hooded monkey hacker wearing a blue-tinted hoodie (Blue Team) cracking and merging into a purple glow, no text"
+    },
+    {
+      "file": "2_18.jpg",
+      "startSec": 138.06,
+      "text": "El red team ataca, el Blue Team defiende y luego se sientan juntos a revisar qué pasó.",
+      "scene": "a hooded monkey hacker wearing a red-tinted hoodie (Red Team) and a hooded monkey hacker wearing a blue-tinted hoodie (Blue Team) now sitting together at the same table, purple light mixing red and blue, no text"
+    },
+    {
+      "file": "2_24.jpg",
+      "startSec": 144.04,
+      "text": "Eso, más que la victoria de un solo vando,",
+      "scene": "a hooded monkey hacker wearing a red-tinted hoodie (Red Team) attacking a glowing network map while a hooded monkey hacker wearing a blue-tinted hoodie (Blue Team) watches and takes notes beside them, no text"
+    },
+    {
+      "file": "2_26.jpg",
+      "startSec": 146.56,
+      "text": "es lo que de verdad protege la empresa.",
+      "scene": "a hooded monkey hacker wearing a red-tinted hoodie (Red Team) and a hooded monkey hacker wearing a blue-tinted hoodie (Blue Team) reviewing a glowing report together, purple light, collaborative, no text"
+    },
+    {
+      "file": "2_29.jpg",
+      "startSec": 149.34,
+      "text": "Sin esa mezcla, el red team gana simulacros, pero la empresa sigue expuesta al ataque real.",
+      "scene": "a glowing shield protecting an office building, powered equally by red and blue light, no text"
+    },
+    {
+      "file": "2_35.jpg",
+      "startSec": 155.56,
+      "text": "Capítulo 4.",
+      "scene": "the dividing wall reappearing between a hooded monkey hacker wearing a red-tinted hoodie (Red Team) and a hooded monkey hacker wearing a blue-tinted hoodie (Blue Team), the office building left exposed and dim, no text"
+    },
+    {
+      "file": "2_36.jpg",
+      "startSec": 156.88,
+      "text": "El día a día real.",
+      "scene": "a large glowing green chapter number '4' floating in darkness, no other text"
+    },
+    {
+      "file": "2_38.jpg",
+      "startSec": 158.66,
+      "text": "Un red teamer pasa la mayor parte del tiempo investigando antes de atacar nada. Busca en redes sociales de empleados, en filtraciones antiguas, en la configuración pública de la empresa.",
+      "scene": "big green Spanish caption 'EL DÍA A DÍA REAL' over a dark background, no other text"
+    },
+    {
+      "file": "2_49.jpg",
+      "startSec": 169.7,
+      "text": "El ataque en sí puede durar minutos,",
+      "scene": "a hooded monkey hacker wearing a red-tinted hoodie (Red Team) scrolling through glowing social media profiles and old data-leak archives on a big screen, no text"
+    },
+    {
+      "file": "2_52.jpg",
+      "startSec": 172.12,
+      "text": "la investigación previa semanas.",
+      "scene": "a hooded monkey hacker wearing a red-tinted hoodie (Red Team) standing in front of a giant glowing wall of company public records, tiny among the data, no text"
+    },
+    {
+      "file": "2_54.jpg",
+      "startSec": 174.72,
+      "text": "Un Blue Teamer pasa la mayor parte del tiempo mirando paneles,",
+      "scene": "a glowing stopwatch showing minutes next to a hooded monkey hacker wearing a red-tinted hoodie (Red Team)'s attack, and weeks next to their research pile, no text"
+    },
+    {
+      "file": "2_58.jpg",
+      "startSec": 178.16,
+      "text": "no persiguiendo hackers de película.",
+      "scene": "a hooded monkey hacker wearing a blue-tinted hoodie (Blue Team) staring at rows of calm glowing dashboard panels, unglamorous SOC room, no text"
+    },
+    {
+      "file": "3_00.jpg",
+      "startSec": 180.46,
+      "text": "Configura alertas, ajustas reglas,",
+      "scene": "a hooded monkey hacker wearing a blue-tinted hoodie (Blue Team) yawning slightly at a quiet dashboard, no dramatic chase in sight, no text"
+    },
+    {
+      "file": "3_03.jpg",
+      "startSec": 183.08,
+      "text": "reduce el ruido para que la señal real se vea.",
+      "scene": "a hooded monkey hacker wearing a blue-tinted hoodie (Blue Team) adjusting glowing alert-threshold sliders on a control panel, no text"
+    },
+    {
+      "file": "3_05.jpg",
+      "startSec": 185.98,
+      "text": "El trabajo bonito de las series es apenas el 5 % de lo que hacen los dos equipos.",
+      "scene": "a hooded monkey hacker wearing a blue-tinted hoodie (Blue Team) turning down the noise level on a glowing dashboard until only a clear signal remains, no text"
+    },
+    {
+      "file": "3_11.jpg",
+      "startSec": 191.78,
+      "text": "Capítulo 5.",
+      "scene": "a tiny glowing movie-camera icon crossed out above both a hooded monkey hacker wearing a red-tinted hoodie (Red Team) and a hooded monkey hacker wearing a blue-tinted hoodie (Blue Team), real work is different, no text"
+    },
+    {
+      "file": "3_13.jpg",
+      "startSec": 193.32,
+      "text": "El dinero.",
+      "scene": "a large glowing green chapter number '5' floating in darkness, no other text"
+    },
+    {
+      "file": "3_14.jpg",
+      "startSec": 194.6,
+      "text": "¿Y quién cobra más?",
+      "scene": "big green Spanish caption 'EL DINERO' over a dark background, no other text"
+    },
+    {
+      "file": "3_16.jpg",
+      "startSec": 196.3,
+      "text": "Aquí la respuesta sorprende a mucha gente.",
+      "scene": "a hooded monkey hacker wearing a red-tinted hoodie (Red Team) and a hooded monkey hacker wearing a blue-tinted hoodie (Blue Team) standing beside two glowing coin piles, one slightly taller, no text"
+    },
+    {
+      "file": "3_19.jpg",
+      "startSec": 199.02,
+      "text": "Una analista de Blue Team Junior en España empieza cerca de 28 .000 euros al año.",
+      "scene": "a glowing salary bar chart labeled with a euro symbol next to a hooded monkey hacker wearing a blue-tinted hoodie (Blue Team), big green Spanish caption '28.000 €'"
+    },
+    {
+      "file": "3_24.jpg",
+      "startSec": 204.42,
+      "text": "Un red teamer junior cerca de 32 .000, un poco más por el perfil ofensivo.",
+      "scene": "a slightly taller glowing salary bar chart next to a hooded monkey hacker wearing a red-tinted hoodie (Red Team), big green Spanish caption '32.000 €'"
+    },
+    {
+      "file": "3_29.jpg",
+      "startSec": 209.76,
+      "text": "Pero con experiencia,",
+      "scene": "the two salary bars growing closer in height over time, years passing on a calendar, no text"
+    },
+    {
+      "file": "3_31.jpg",
+      "startSec": 211.06,
+      "text": "la brecha se cierra casi del todo.",
+      "scene": "the two bars now almost equal height, senior versions of a hooded monkey hacker wearing a red-tinted hoodie (Red Team) and a hooded monkey hacker wearing a blue-tinted hoodie (Blue Team) standing taller, no text"
+    },
+    {
+      "file": "3_33.jpg",
+      "startSec": 213.32,
+      "text": "Un responsable de seguridad defensiva senior puede superar los 80 .000 euros al año en empresas grandes. Y el red team con más demanda ahora mismo no es el que ataca sistemas.",
+      "scene": "a very tall glowing salary bar chart above a senior a hooded monkey hacker wearing a blue-tinted hoodie (Blue Team), big green Spanish caption '80.000 €'"
+    },
+    {
+      "file": "3_44.jpg",
+      "startSec": 224.32,
+      "text": "Es el que simula ataques con inteligencia artificial contra la propia inteligencia artificial de la empresa.",
+      "scene": "a hooded monkey hacker wearing a red-tinted hoodie (Red Team) now facing a glowing artificial-intelligence brain icon instead of a normal computer, new frontier, no text"
+    },
+    {
+      "file": "3_51.jpg",
+      "startSec": 231.26,
+      "text": "Capítulo 6.",
+      "scene": "a hooded monkey hacker wearing a red-tinted hoodie (Red Team) simulating an attack against a glowing AI brain icon guarded by another glowing AI shield, no text"
+    },
+    {
+      "file": "3_52.jpg",
+      "startSec": 232.52,
+      "text": "Entonces,",
+      "scene": "a large glowing green chapter number '6' floating in darkness, no other text"
+    },
+    {
+      "file": "3_53.jpg",
+      "startSec": 233.44,
+      "text": "¿Quién gana de verdad?",
+      "scene": "big green Spanish caption '¿QUIÉN GANA DE VERDAD?' over a dark background, no other text"
+    },
+    {
+      "file": "3_55.jpg",
+      "startSec": 235.26,
+      "text": "En una simulación aislada casi siempre gana el red team.",
+      "scene": "an isolated glowing arena with only a hooded monkey hacker wearing a red-tinted hoodie (Red Team) and a hooded monkey hacker wearing a blue-tinted hoodie (Blue Team) facing off, a hooded monkey hacker wearing a red-tinted hoodie (Red Team) winning this staged round, no text"
+    },
+    {
+      "file": "3_58.jpg",
+      "startSec": 238.96,
+      "text": "Atacar es más fácil que defenderlo todo, todo el tiempo.",
+      "scene": "a hooded monkey hacker wearing a red-tinted hoodie (Red Team) standing over a fallen glowing shield, attacking is easier than defending everything, no text"
+    },
+    {
+      "file": "4_02.jpg",
+      "startSec": 242.48,
+      "text": "Pero en la vida real,",
+      "scene": "the arena walls dissolving to reveal an entire glowing office building around them, real life is bigger, no text"
+    },
+    {
+      "file": "4_03.jpg",
+      "startSec": 243.96,
+      "text": "la empresa entera es el verdadero equipo. Si red team y Blue Team no comparten lo que aprenden, los dos pierden tarde o temprano.",
+      "scene": "the whole company glowing as one giant shield shape made of many small employee icons, no text"
+    },
+    {
+      "file": "4_12.jpg",
+      "startSec": 252.02,
+      "text": "Las empresas con mejor seguridad del mundo no son las que tienen el mejor atacante.",
+      "scene": "a hooded monkey hacker wearing a red-tinted hoodie (Red Team) and a hooded monkey hacker wearing a blue-tinted hoodie (Blue Team) standing apart with a crack between them, both slowly losing light over time, no text"
+    },
+    {
+      "file": "4_16.jpg",
+      "startSec": 256.84,
+      "text": "Son las que consiguen que ataca y defensa hablen entre ellos cada semana.",
+      "scene": "a glowing trophy labeled 'MEJOR SEGURIDAD' held up not by a hooded monkey hacker wearing a red-tinted hoodie (Red Team) alone, but by the whole shield, no text"
+    },
+    {
+      "file": "4_21.jpg",
+      "startSec": 261.7,
+      "text": "Así que la pregunta real no es quién gana.",
+      "scene": "a hooded monkey hacker wearing a red-tinted hoodie (Red Team) and a hooded monkey hacker wearing a blue-tinted hoodie (Blue Team) finally shaking paws in front of the whole glowing shield, weekly meeting, no text"
+    },
+    {
+      "file": "4_24.jpg",
+      "startSec": 264.34,
+      "text": "Es si tu empresa deja que los dos equipos se hablen.",
+      "scene": "the office building glowing warmly, question mark fading, a calm green checkmark appearing instead, no text"
+    },
+    {
+      "file": "4_28.jpg",
+      "startSec": 268.12,
+      "text": "Si te ha interesado este mundo, suscríbete. Se viene mucho más sobre ciberseguridad real, contada sin humo.",
+      "scene": "a hooded monkey hacker wearing a red-tinted hoodie (Red Team) and a hooded monkey hacker wearing a blue-tinted hoodie (Blue Team) standing together looking at the camera, purple light, big green Spanish caption 'SUSCRÍBETE'"
+    }
+  ]
+}

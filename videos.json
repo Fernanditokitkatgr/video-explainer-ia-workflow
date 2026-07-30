@@ -1,4 +1,146 @@
 {
+  "red-team-vs-blue-team": {
+    "composition": "RedTeamVsBlueTeam",
+    "tsx": "remotion/src/RedTeamVsBlueTeam.tsx",
+    "manifest_dir": "channel/tecno/videos/red-team-vs-blue-team",
+    "script": "channel/tecno/videos/red-team-vs-blue-team/script.md",
+    "audio_static": "red-team-vs-blue-team.mp3",
+    "images_subpath": "red-team-vs-blue-team",
+    "naming": "timestamp",
+    "ext": "jpg",
+    "playback_rate": 1.1,
+    "fps": 30,
+    "width": 1920,
+    "height": 1080,
+    "background": "#0d1117",
+    "published": {
+      "youtube_id": "7foMLrvosPU",
+      "privacy": "public",
+      "date": "2026-07-30"
+    }
+  },
+  "hacker-novato-a-dios": {
+    "composition": "HackerNovatoADios",
+    "tsx": "remotion/src/HackerNovatoADios.tsx",
+    "manifest_dir": "channel/tecno/videos/hacker-novato-a-dios",
+    "script": "channel/tecno/videos/hacker-novato-a-dios/script.md",
+    "audio_static": "hacker-novato-a-dios.mp3",
+    "images_subpath": "hacker-novato-a-dios",
+    "naming": "timestamp",
+    "ext": "jpg",
+    "playback_rate": 1.1,
+    "fps": 30,
+    "width": 1920,
+    "height": 1080,
+    "background": "#0d1117",
+    "published": {
+      "youtube_id": "5QQ2PTpb7iM",
+      "privacy": "public",
+      "date": "2026-07-30"
+    }
+  },
+  "dos-caminos-hacker": {
+    "composition": "DosCaminosHacker",
+    "tsx": "remotion/src/DosCaminosHacker.tsx",
+    "manifest_dir": "channel/tecno/videos/dos-caminos-hacker",
+    "script": "channel/tecno/videos/dos-caminos-hacker/script.md",
+    "audio_static": "dos-caminos-hacker.mp3",
+    "images_subpath": "dos-caminos-hacker-v2",
+    "naming": "timestamp",
+    "ext": "jpg",
+    "playback_rate": 1.1,
+    "fps": 30,
+    "width": 1920,
+    "height": 1080,
+    "background": "#0d1117",
+    "published": {
+      "youtube_id": "JT5aKXFQbqI",
+      "privacy": "public",
+      "date": "2026-07-30",
+      "note": "v2 corregida; v1 original (KAKt4mWLn2A) quedo unlisted por fallos de sincronia/estilo"
+    }
+  },
+  "lazarus": {
+    "composition": "Lazarus",
+    "tsx": "remotion/src/Lazarus.tsx",
+    "manifest_dir": "channel/tecno/videos/lazarus",
+    "script": "channel/tecno/videos/lazarus/script.md",
+    "audio_static": "lazarus.mp3",
+    "images_subpath": "lazarus",
+    "naming": "timestamp",
+    "ext": "jpg",
+    "playback_rate": 1.1,
+    "fps": 30,
+    "width": 1920,
+    "height": 1080,
+    "background": "#0d1117",
+    "published": {
+      "youtube_id": "vPdm-xXlU7k",
+      "privacy": "public",
+      "date": "2026-07-26"
+    }
+  },
+  "pegasus": {
+    "composition": "Pegasus",
+    "tsx": "remotion/src/Pegasus.tsx",
+    "manifest_dir": "channel/tecno/videos/pegasus",
+    "script": "channel/tecno/videos/pegasus/script.md",
+    "audio_static": "pegasus.mp3",
+    "images_subpath": "pegasus",
+    "naming": "timestamp",
+    "ext": "jpg",
+    "playback_rate": 1.1,
+    "fps": 30,
+    "width": 1920,
+    "height": 1080,
+    "background": "#0d1117",
+    "published": {
+      "youtube_id": "hC0K7tKdDgc",
+      "privacy": "scheduled",
+      "scheduled_publish_utc": "2026-07-27T17:00:00Z",
+      "date": "2026-07-26"
+    }
+  },
+  "the-com": {
+    "composition": "TheCom",
+    "tsx": "remotion/src/TheCom.tsx",
+    "manifest_dir": "channel/tecno/videos/the-com",
+    "script": "channel/tecno/videos/the-com/script.md",
+    "audio_static": "the-com.mp3",
+    "images_subpath": "the-com",
+    "naming": "timestamp",
+    "ext": "jpg",
+    "playback_rate": 1.1,
+    "fps": 30,
+    "width": 1920,
+    "height": 1080,
+    "background": "#0d1117",
+    "published": {
+      "youtube_id": "1WYEZ3Q56tw",
+      "privacy": "public",
+      "date": "2026-07-24"
+    }
+  },
+  "empleos-del-futuro": {
+    "composition": "EmpleosDelFuturo",
+    "tsx": "remotion/src/EmpleosDelFuturo.tsx",
+    "manifest_dir": "channel/tecno/videos/empleos-del-futuro",
+    "script": "channel/tecno/videos/empleos-del-futuro/script.md",
+    "audio_static": "empleos-del-futuro.mp3",
+    "images_subpath": "empleos-del-futuro",
+    "naming": "timestamp",
+    "ext": "jpg",
+    "playback_rate": 1.1,
+    "fps": 30,
+    "width": 1920,
+    "height": 1080,
+    "background": "#ffffff",
+    "published": {
+      "youtube_id": "cwd0-blIn6M",
+      "date": "2026-07-23",
+      "scheduled_publish_utc": "2026-07-23T17:00:00Z"
+    }
+  },
   "sueno-stick": {
     "composition": "SuenoStick",
     "tsx": "remotion/src/SuenoStick.tsx",

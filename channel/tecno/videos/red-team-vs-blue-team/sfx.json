@@ -1,0 +1,25 @@
+{
+  "video": "red-team-vs-blue-team",
+  "sfx": [
+    { "file": "intro_drone.mp3", "startSec": 0.0, "duration": 2.0, "volume": 0.13, "prompt": "dark tense cinematic drone, digital ambience, no music" },
+    { "file": "ominous_sting_1.mp3", "startSec": 20.02, "duration": 1.6, "volume": 0.15, "prompt": "ominous low tension sting, revelation, no music" },
+    { "file": "chapter_sting_red.mp3", "startSec": 22.12, "duration": 1.5, "volume": 0.17, "prompt": "short digital chapter transition sting, red tone, no music" },
+    { "file": "click_alert.mp3", "startSec": 40.74, "duration": 1.2, "volume": 0.14, "prompt": "phishing link click alert, subtle digital chime, no music" },
+    { "file": "achievement_chime.mp3", "startSec": 61.54, "duration": 1.3, "volume": 0.15, "prompt": "bright achievement chime, positive, no music" },
+    { "file": "chapter_sting_blue.mp3", "startSec": 73.1, "duration": 1.5, "volume": 0.17, "prompt": "short digital chapter transition sting, blue tone, no music" },
+    { "file": "alarm_blare.mp3", "startSec": 100.3, "duration": 1.6, "volume": 0.17, "prompt": "short alert alarm blare, urgent, no music" },
+    { "file": "danger_buzz.mp3", "startSec": 113.16, "duration": 1.3, "volume": 0.16, "prompt": "short warning buzz, danger alert, no music" },
+    { "file": "chapter_sting_purple.mp3", "startSec": 124.96, "duration": 1.5, "volume": 0.16, "prompt": "short digital chapter transition sting, purple mixed tone, no music" },
+    { "file": "positive_chime.mp3", "startSec": 138.06, "duration": 1.3, "volume": 0.14, "prompt": "warm positive resolve chime, no music" },
+    { "file": "chapter_sting_neutral.mp3", "startSec": 155.56, "duration": 1.5, "volume": 0.16, "prompt": "short digital chapter transition sting, neutral analytical tone, no music" },
+    { "file": "time_whoosh.mp3", "startSec": 169.7, "duration": 1.4, "volume": 0.12, "prompt": "time passing whoosh, no music" },
+    { "file": "chapter_sting_money.mp3", "startSec": 191.78, "duration": 1.5, "volume": 0.16, "prompt": "short digital chapter transition sting, no music" },
+    { "file": "cash_register_1.mp3", "startSec": 199.02, "duration": 1.5, "volume": 0.15, "prompt": "cash register cha-ching with coins, no music" },
+    { "file": "cash_register_2.mp3", "startSec": 213.32, "duration": 1.6, "volume": 0.16, "prompt": "bigger cash register cha-ching, no music" },
+    { "file": "chapter_sting_final.mp3", "startSec": 231.26, "duration": 1.5, "volume": 0.17, "prompt": "short digital chapter transition sting, decisive tone, no music" },
+    { "file": "tense_sting_final.mp3", "startSec": 238.96, "duration": 1.5, "volume": 0.15, "prompt": "tense suspense sting, no music" },
+    { "file": "calm_resolve_chime.mp3", "startSec": 256.84, "duration": 1.4, "volume": 0.13, "prompt": "calm warm resolution chime, teamwork, no music" },
+    { "file": "subscribe_chime.mp3", "startSec": 264.34, "duration": 1.6, "volume": 0.17, "prompt": "friendly subscribe notification chime, upbeat, no music" }
+  ],
+  "music": null
+}

@@ -1,0 +1,385 @@
+{
+  "video": "lazarus",
+  "style_base": "Simple crude hand-drawn cartoon in the style of the 'Ecomonos' youtube channel. A recurring brown cartoon monkey character with big round white eyes and black pupils, thick bold black outlines, flat colors, expressive exaggerated faces - but in a DARK HACKER setting: dark near-black navy background, moody lighting, glowing green terminal-code and subtle red accents lighting the scene, the monkey often wearing a dark grey hoodie. Comedy-meets-noir tone. The SAME monkey character appears consistently in every image. CRITICAL TEXT RULE: prefer NO text, labels or signs at all - tell the scene through the monkey's action and expression and simple symbols. If a short text is truly necessary it MUST be in perfect SPANISH exactly as specified, in large simple block letters - NEVER English.",
+  "note": "Estilo EXACTO The Com. 63 escenas.",
+  "frames": [
+    {
+      "file": "0_00.jpg",
+      "startSec": 0.0,
+      "text": "Hay un país entero dedicado a robar por Internet, no una banda de chavales,",
+      "scene": "the hooded monkey wearing a small military cap with a red star, typing on a laptop with green code, small hooded monkeys behind like an army, no text"
+    },
+    {
+      "file": "0_04.jpg",
+      "startSec": 4.38,
+      "text": "un país se llama Corea del Lorde y su ejército de hackers ha robado miles de millones de dólares.",
+      "scene": "the hooded monkey sitting on a huge pile of glowing stolen crypto coins, no text"
+    },
+    {
+      "file": "0_10.jpg",
+      "startSec": 10.9,
+      "text": "Su unidad más temida tiene nombre bíblico.",
+      "scene": "the hooded monkey in a menacing pose as a glowing green ghost rises behind it, no text"
+    },
+    {
+      "file": "0_13.jpg",
+      "startSec": 13.76,
+      "text": "Lázaros.",
+      "scene": "the hooded monkey standing dramatically; big green Spanish caption 'LAZARUS'"
+    },
+    {
+      "file": "0_15.jpg",
+      "startSec": 15.24,
+      "text": "¿Por qué un país entero se dedica a robar online?",
+      "scene": "the hooded monkey shrugging with a questioning face, no text"
+    },
+    {
+      "file": "0_18.jpg",
+      "startSec": 18.16,
+      "text": "Muy sencillo. Está es lado del mundo y ahogado por las anciones.",
+      "scene": "a tiny lonely country on a small island cut off by tall walls and chains, no text"
+    },
+    {
+      "file": "0_21.jpg",
+      "startSec": 21.92,
+      "text": "No puede comerciar casi con nadie y un país necesita dinero para sobrevivir y para armarse. Así que el régimen montó un plantan brillante como aterrador,",
+      "scene": "a balance scale with a pile of money on one side and a missile on the other, the hooded monkey beside, no text"
+    },
+    {
+      "file": "0_31.jpg",
+      "startSec": 31.66,
+      "text": "convertir a sus mejores mentes en ladrones digitales y su objetivo favorito son las criptomonedas. ¿Por qué cripto?",
+      "scene": "a row of several hooded hacker monkeys at glowing computers reaching for crypto coins, no text"
+    },
+    {
+      "file": "0_38.jpg",
+      "startSec": 38.48,
+      "text": "¿Por qué rápida global y difícil derrastrear?",
+      "scene": "the hooded monkey greedily grabbing floating glowing bitcoin and ethereum coins, no text"
+    },
+    {
+      "file": "0_41.jpg",
+      "startSec": 41.72,
+      "text": "Pero antes de la cripto ya avisaron de lo que venía,",
+      "scene": "the hooded monkey raising a warning finger with a sly look, no text"
+    },
+    {
+      "file": "0_44.jpg",
+      "startSec": 44.62,
+      "text": "en 2014 hackearon a Sony Pictures.",
+      "scene": "the hooded monkey hacking into a big movie studio building; green caption 'SONY 2014'"
+    },
+    {
+      "file": "0_47.jpg",
+      "startSec": 47.22,
+      "text": "El motivo,",
+      "scene": "the hooded monkey shrugging with a questioning face, no text"
+    },
+    {
+      "file": "0_48.jpg",
+      "startSec": 48.0,
+      "text": "una película que se reía de su líder, filtraron correos,",
+      "scene": "a torn movie poster and leaked emails flying out of a computer, no text"
+    },
+    {
+      "file": "0_51.jpg",
+      "startSec": 51.7,
+      "text": "sueldos y películas enteras, un aviso a todo Hollywood.",
+      "scene": "leaked documents raining over a Hollywood-style hill sign, no text"
+    },
+    {
+      "file": "0_55.jpg",
+      "startSec": 55.24,
+      "text": "En 2017 soltaron Guana Cry, un virus que se cuestró ordenadores por todo el planeta,",
+      "scene": "many computer screens showing a red padlock ransom lock; green caption 'WANNACRY'"
+    },
+    {
+      "file": "1_00.jpg",
+      "startSec": 60.68,
+      "text": "hospitales, empresas y gobiernos,",
+      "scene": "a hospital, an office and a government building all with red padlocks, no text"
+    },
+    {
+      "file": "1_02.jpg",
+      "startSec": 62.84,
+      "text": "pagando rescates para recuperar sus datos.",
+      "scene": "a hand giving money to get a key back from the red padlock, no text"
+    },
+    {
+      "file": "1_05.jpg",
+      "startSec": 65.68,
+      "text": "Pero el verdadero negocio llegó con las criptomonedas y ahí no hablamos de calderilla. En 2022 vaciaron Ronin,",
+      "scene": "the hooded monkey rubbing its hands greedily over a giant pile of glowing crypto, no text"
+    },
+    {
+      "file": "1_12.jpg",
+      "startSec": 72.54,
+      "text": "la red del juego Axi Infinity.",
+      "scene": "the hooded monkey draining coins out of a video-game network, no text"
+    },
+    {
+      "file": "1_14.jpg",
+      "startSec": 74.62,
+      "text": "El botín,",
+      "scene": "the hooded monkey rubbing its fingers in the money gesture, no text"
+    },
+    {
+      "file": "1_15.jpg",
+      "startSec": 75.5,
+      "text": "620 millones de dólares.",
+      "scene": "a glowing pile of coins; green caption '620 MILLONES'"
+    },
+    {
+      "file": "1_18.jpg",
+      "startSec": 78.34,
+      "text": "Pero en 2025 batieron todos los records.",
+      "scene": "the hooded monkey cracking open a giant crypto exchange vault, no text"
+    },
+    {
+      "file": "1_21.jpg",
+      "startSec": 81.46,
+      "text": "Le robaron a Bybeet, una de las mayores casas de cripto del mundo.",
+      "scene": "a big crypto exchange building being drained of glowing coins by the monkey, no text"
+    },
+    {
+      "file": "1_25.jpg",
+      "startSec": 85.26,
+      "text": "El botín,",
+      "scene": "the hooded monkey with huge wide eyes, no text"
+    },
+    {
+      "file": "1_26.jpg",
+      "startSec": 86.28,
+      "text": "1 .500 millones de dólares.",
+      "scene": "a huge mountain of glowing crypto coins; green caption '1.500 MILLONES'"
+    },
+    {
+      "file": "1_28.jpg",
+      "startSec": 88.68,
+      "text": "El mayor robo digital de la historia.",
+      "scene": "the hooded monkey standing triumphant on top of a mountain of glowing crypto, no text"
+    },
+    {
+      "file": "1_31.jpg",
+      "startSec": 91.24,
+      "text": "¿Y cómo lo hacen?",
+      "scene": "the hooded monkey shrugging with a questioning face, no text"
+    },
+    {
+      "file": "1_32.jpg",
+      "startSec": 92.46,
+      "text": "No con películas de Matrix,",
+      "scene": "green matrix code crossed out with a big red X, no text"
+    },
+    {
+      "file": "1_34.jpg",
+      "startSec": 94.3,
+      "text": "su arma de verdad es la ingeniería social. Enganñar a personas,",
+      "scene": "the hooded monkey wearing a charming friendly mask to trick a naive person, no text"
+    },
+    {
+      "file": "1_38.jpg",
+      "startSec": 98.04,
+      "text": "su truco estrella son las ofertas de trabajo falsas.",
+      "scene": "the hooded monkey handing a fake job-offer letter to an office worker; green caption 'OFERTA FALSA'"
+    },
+    {
+      "file": "1_41.jpg",
+      "startSec": 101.16,
+      "text": "Contactan a un empleado por LinkedIn con un puestazo irresistible.",
+      "scene": "a phone screen showing a shiny irresistible job offer chat message, no text"
+    },
+    {
+      "file": "1_45.jpg",
+      "startSec": 105.02,
+      "text": "Le mandan una prueba técnica que en realidad es un archivo con virus.",
+      "scene": "an email attachment file releasing a green virus, no text"
+    },
+    {
+      "file": "1_48.jpg",
+      "startSec": 108.88,
+      "text": "El empleado lo abre y ya están dentro de la empresa.",
+      "scene": "a worker opening the file while the hooded monkey grins behind him, no text"
+    },
+    {
+      "file": "1_52.jpg",
+      "startSec": 112.28,
+      "text": "Desde ahí se mueven en silencio durante semanas,",
+      "scene": "the hooded monkey tiptoeing quietly and sneakily, no text"
+    },
+    {
+      "file": "1_54.jpg",
+      "startSec": 114.82,
+      "text": "hasta que un día en apenas unos segundos vacían las carteras. Y tienen otro truco todavía más increíble,",
+      "scene": "a crypto wallet emptying instantly in a flash of green, no text"
+    },
+    {
+      "file": "2_01.jpg",
+      "startSec": 121.66,
+      "text": "colocan a sus propios agentes como empleados remotos,",
+      "scene": "the hooded monkey wearing a fake ID badge, sitting at a normal office desk pretending to work while spying, no text"
+    },
+    {
+      "file": "2_05.jpg",
+      "startSec": 125.02,
+      "text": "con identidades falsas cobran un sueldo y espían desde dentro.",
+      "scene": "the hooded monkey in a mask receiving a paycheck while secretly peeking at data, no text"
+    },
+    {
+      "file": "2_09.jpg",
+      "startSec": 129.2,
+      "text": "Y luego viene lo más difícil,",
+      "scene": "the hooded monkey thinking with a hand on chin, no text"
+    },
+    {
+      "file": "2_10.jpg",
+      "startSec": 130.96,
+      "text": "blanquear el dinero,",
+      "scene": "the hooded monkey washing dirty coins with soap and bubbles, no text"
+    },
+    {
+      "file": "2_12.jpg",
+      "startSec": 132.36,
+      "text": "trocea la criptor robada en miles de pedazos,",
+      "scene": "a big glowing coin being chopped into thousands of tiny pieces, no text"
+    },
+    {
+      "file": "2_15.jpg",
+      "startSec": 135.02,
+      "text": "la pasan por mezcladores que borran el rastro, y poco a poco la convierten en dinero para el régimen. Se cree que financia buena parte de su programa de armas y misiles.",
+      "scene": "coins going into a blender machine and coming out clean, flowing toward a flag, no text"
+    },
+    {
+      "file": "2_24.jpg",
+      "startSec": 144.06,
+      "text": "Sí,",
+      "scene": "the hooded monkey nodding gravely, no text"
+    },
+    {
+      "file": "2_24.jpg",
+      "startSec": 144.84,
+      "text": "cada vez que roban,",
+      "scene": "the hooded monkey stealing coins in the dark, no text"
+    },
+    {
+      "file": "2_26.jpg",
+      "startSec": 146.0,
+      "text": "el mundo entero tiembla un poco más.",
+      "scene": "a cartoon globe trembling with cracks, the hooded monkey watching, no text"
+    },
+    {
+      "file": "2_28.jpg",
+      "startSec": 148.56,
+      "text": "¿Y nadie los para?",
+      "scene": "the hooded monkey shrugging with a questioning face, no text"
+    },
+    {
+      "file": "2_30.jpg",
+      "startSec": 150.08,
+      "text": "El FBI y empresas como Chainalisis le siguen el rastro por la cadena de bloques,",
+      "scene": "a detective monkey with a magnifying glass following glowing blockchain links, no text"
+    },
+    {
+      "file": "2_35.jpg",
+      "startSec": 155.02,
+      "text": "han recuperado parte del dinero y han puesto cara y nombre a sus hackers,",
+      "scene": "several wanted posters showing hooded monkey hacker faces, no text"
+    },
+    {
+      "file": "2_38.jpg",
+      "startSec": 158.92,
+      "text": "pero la zarús es como una hidra,",
+      "scene": "a green hydra monster with several hooded monkey heads, no text"
+    },
+    {
+      "file": "2_40.jpg",
+      "startSec": 160.92,
+      "text": "le cortas una cabeza y les salen tres.",
+      "scene": "the hydra growing three new heads where one was cut, no text"
+    },
+    {
+      "file": "2_43.jpg",
+      "startSec": 163.58,
+      "text": "Y a ti esto en qué te afecta, más de lo que crees,",
+      "scene": "the hooded monkey pointing directly at the viewer, no text"
+    },
+    {
+      "file": "2_46.jpg",
+      "startSec": 166.98,
+      "text": "porque las mismas trampas las usan estafadores de medio mundo.",
+      "scene": "many small scammers all using the same fake job-offer trick, no text"
+    },
+    {
+      "file": "2_50.jpg",
+      "startSec": 170.56,
+      "text": "1.",
+      "scene": "the hooded monkey holding up one finger; green caption '1'"
+    },
+    {
+      "file": "2_51.jpg",
+      "startSec": 171.4,
+      "text": "Desconfía de las ofertas de trabajo demasiado buenas.",
+      "scene": "the hooded monkey looking wary at a too-good-to-be-true job offer; green caption 'DESCONFIA'"
+    },
+    {
+      "file": "2_54.jpg",
+      "startSec": 174.54,
+      "text": "2.",
+      "scene": "the hooded monkey holding up two fingers; green caption '2'"
+    },
+    {
+      "file": "2_55.jpg",
+      "startSec": 175.28,
+      "text": "Nunca abras archivos ni pruebas de desconocidos.",
+      "scene": "the hooded monkey refusing a suspicious file attachment with a firm no, no text"
+    },
+    {
+      "file": "2_58.jpg",
+      "startSec": 178.32,
+      "text": "3.",
+      "scene": "the hooded monkey holding up three fingers; green caption '3'"
+    },
+    {
+      "file": "2_59.jpg",
+      "startSec": 179.18,
+      "text": "Protége tu cripto con doble factor y una cartera fría. 4.",
+      "scene": "the hooded monkey putting crypto coins into a cold hardware wallet with a shield; green caption 'CARTERA FRIA'"
+    },
+    {
+      "file": "3_03.jpg",
+      "startSec": 183.78,
+      "text": "Si algo promete hacerte rico rápido,",
+      "scene": "a glowing 'HAZTE RICO YA' bait sign, the monkey suspicious, no text"
+    },
+    {
+      "file": "3_06.jpg",
+      "startSec": 186.18,
+      "text": "oye,",
+      "scene": "the hooded monkey running away fast from the bait, no text"
+    },
+    {
+      "file": "3_07.jpg",
+      "startSec": 187.1,
+      "text": "porque ahí fuera y todo un país esperando a que bajes la cuardia,",
+      "scene": "a whole army of hooded monkeys watching silently from the dark, no text"
+    },
+    {
+      "file": "3_10.jpg",
+      "startSec": 190.66,
+      "text": "y sólo necesitan que pique su una vez.",
+      "scene": "a single glowing fishing hook with bait, the hooded monkey eyeing it, no text"
+    },
+    {
+      "file": "3_13.jpg",
+      "startSec": 193.6,
+      "text": "Flippas con que un país entero robe así?",
+      "scene": "the hooded monkey pointing at the viewer with a mind-blown face, no text"
+    },
+    {
+      "file": "3_16.jpg",
+      "startSec": 196.34,
+      "text": "Suscríbete que el lado oscuro de internet no para.",
+      "scene": "the hooded monkey pointing at a big glowing red rounded button that reads 'SUSCRIBETE' in Spanish"
+    }
+  ]
+}

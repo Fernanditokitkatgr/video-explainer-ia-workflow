@@ -57,13 +57,13 @@ def mcp_call(method: str, params: dict) -> dict:
     raise ValueError(f"No data line in response: {r.text[:200]}")
 
 
-def generate_frame(filename: str, scene: str, out_dir: Path) -> bool:
+def generate_frame(filename: str, scene: str, out_dir: Path, style_base: str) -> bool:
     out_path = out_dir / filename
     if out_path.exists():
         print(f"  SKIP {filename} (ya existe)")
         return True
 
-    prompt = config.HIGGSFIELD_STYLE_BASE + scene
+    prompt = style_base + scene
     resp = mcp_call("tools/call", {
         "name": "generate_image",
         "arguments": {"params": {
@@ -116,11 +116,14 @@ def main() -> None:
     frames = load_frames(cfg)
     out_dir = config.PUBLIC_DIR / cfg["images_subpath"]
     out_dir.mkdir(parents=True, exist_ok=True)
+    # Permite que un vídeo concreto (ej. canal "tecno") anule el style_base
+    # global del .env (pensado para el canal "stick"), vía "style_base" en videos.json.
+    style_base = cfg.get("style_base", config.HIGGSFIELD_STYLE_BASE)
 
     total = len(frames)
     for i, fr in enumerate(frames[args.start:], start=args.start):
         print(f"[{i + 1}/{total}] {fr['file']}")
-        generate_frame(fr["file"], fr["scene"], out_dir)
+        generate_frame(fr["file"], fr["scene"], out_dir, style_base)
 
     have = sum(1 for fr in frames if (out_dir / fr["file"]).exists())
     print(f"\nHecho. {have}/{total} imágenes en {out_dir}/")

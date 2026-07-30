@@ -1,0 +1,967 @@
+{
+  "video": "dos-caminos-hacker",
+  "style_base": "Simple crude hand-drawn cartoon in the style of the 'Ecomonos' youtube channel. A recurring brown cartoon monkey character with big round white eyes and black pupils, thick bold black outlines, flat colors, expressive exaggerated faces - but in a DARK HACKER setting: dark near-black navy background, moody lighting, glowing green terminal-code and subtle red accents lighting the scene, the monkey often wearing a dark grey hoodie. Comedy-meets-noir tone. The SAME monkey character appears consistently in every image. CRITICAL TEXT RULE: prefer NO text, labels or signs at all - tell the scene through the monkey's action and expression and simple symbols. If a short text is truly necessary it MUST be in perfect SPANISH exactly as specified, in large simple block letters - NEVER English.",
+  "note": "v2: escenas emparejadas 1:1 al texto REAL de whisper (no proporcional), fondos variados (oficina/calle/foro oscuro/prision), estilo EXACTO tecno.",
+  "frames": [
+    {
+      "file": "0_00.jpg",
+      "startSec": 0.0,
+      "text": "Son las tres de la madrugada.",
+      "scene": "extreme close-up of a hooded monkey hacker's glowing green eyes in a pitch-black home office, digital clock reads 03:00, no text"
+    },
+    {
+      "file": "0_02.jpg",
+      "startSec": 2.0,
+      "text": "Estoy solo,",
+      "scene": "a hooded monkey hacker alone at a cluttered desk lit only by monitor glow, dark bedroom background, no text"
+    },
+    {
+      "file": "0_03.jpg",
+      "startSec": 3.18,
+      "text": "frente a una pantalla en negro.",
+      "scene": "a hooded monkey hacker facing a large black screen, dim blue window light behind, no text"
+    },
+    {
+      "file": "0_05.jpg",
+      "startSec": 5.66,
+      "text": "Tengo acceso a algo que no es mío.",
+      "scene": "a glowing padlock icon cracking open on screen, monkey's silhouette reflected, dark server-rack shapes in background, no text"
+    },
+    {
+      "file": "0_08.jpg",
+      "startSec": 8.28,
+      "text": "Un clic más y toda una empresa se viene abajo.",
+      "scene": "a wide network map of a company collapsing like dominoes, tiny monkey silhouette below, no text"
+    },
+    {
+      "file": "0_11.jpg",
+      "startSec": 11.98,
+      "text": "Mi dedo está sobre la tecla entera.",
+      "scene": "extreme close-up of a furry finger frozen just above a glowing Enter key, dark room, no text"
+    },
+    {
+      "file": "0_14.jpg",
+      "startSec": 14.52,
+      "text": "No pulso,",
+      "scene": "the monkey's paw pulling back sharply from the keyboard, frozen, no text"
+    },
+    {
+      "file": "0_15.jpg",
+      "startSec": 15.68,
+      "text": "todavía.",
+      "scene": "the monkey staring at the still keyboard, single bead of sweat, dim glow, no text"
+    },
+    {
+      "file": "0_17.jpg",
+      "startSec": 17.32,
+      "text": "Antes de este momento hubo un camino muy largo y ese camino se partió en dos hace años.",
+      "scene": "a long foggy road stretching into the distance splitting into two glowing paths, no text"
+    },
+    {
+      "file": "0_22.jpg",
+      "startSec": 22.88,
+      "text": "Yo elegí una rama.",
+      "scene": "a hooded monkey hacker standing at a foggy crossroads, already on one glowing path, no text"
+    },
+    {
+      "file": "0_24.jpg",
+      "startSec": 24.56,
+      "text": "Tú vas a elegir la tuya,",
+      "scene": "a second hooded monkey silhouette (the viewer) standing at the same crossroads, no text"
+    },
+    {
+      "file": "0_25.jpg",
+      "startSec": 25.96,
+      "text": "viendo esto.",
+      "scene": "the viewer-monkey looking down both glowing paths in the fog, no text"
+    },
+    {
+      "file": "0_27.jpg",
+      "startSec": 27.14,
+      "text": "Esta es la historia de cómo se hace un hacker y de lo que pasa según que puerta cruzas.",
+      "scene": "wide cinematic shot of the two glowing paths with soft title glow between them, big green Spanish caption 'DOS CAMINOS'"
+    },
+    {
+      "file": "0_32.jpg",
+      "startSec": 32.92,
+      "text": "Capítulo 1. ¿Cómo nace un hacker?",
+      "scene": "a large glowing green chapter number '1' floating in darkness, no other text"
+    },
+    {
+      "file": "0_35.jpg",
+      "startSec": 35.74,
+      "text": "Nadie nace hacker.",
+      "scene": "a hooded monkey hacker as a smaller, younger figure sitting alone in a dim bedroom lit by a laptop, no text"
+    },
+    {
+      "file": "0_37.jpg",
+      "startSec": 37.32,
+      "text": "Se hace noche tras noche delante de un teclado y no empiezas por el dinero.",
+      "scene": "the young monkey typing late at night, a wall calendar flipping pages fast behind it, no text"
+    },
+    {
+      "file": "0_41.jpg",
+      "startSec": 41.74,
+      "text": "Empiezas por una pregunta.",
+      "scene": "a glowing question mark hovering above the monkey's head as it stares at a laptop, no text"
+    },
+    {
+      "file": "0_43.jpg",
+      "startSec": 43.68,
+      "text": "¿Cómo funciona esto por dentro?",
+      "scene": "a cracked-open laptop screen playing a tutorial video, monkey watching intently in the dark, no text"
+    },
+    {
+      "file": "0_45.jpg",
+      "startSec": 45.64,
+      "text": "Aprendes Linux, porque Windows te esconde demasiado.",
+      "scene": "a glowing penguin Linux logo replacing a crossed-out Windows logo on screen, dim room, no text"
+    },
+    {
+      "file": "0_48.jpg",
+      "startSec": 48.62,
+      "text": "Aprendes que es un puerto, que es un paquete,",
+      "scene": "transparent glowing diagram of a network port and a data packet floating in the dark, monkey studying it, no text"
+    },
+    {
+      "file": "0_51.jpg",
+      "startSec": 51.16,
+      "text": "como viaja un dato de un lado a otro.",
+      "scene": "a glowing green data packet traveling along a network cable between two server towers, no text"
+    },
+    {
+      "file": "0_53.jpg",
+      "startSec": 53.4,
+      "text": "Aprendes Python, porque tu mano se cansa, pero un script no se cansa nunca.",
+      "scene": "a snake-shaped Python logo coiling around the monkey's arm like a glowing tattoo, no text"
+    },
+    {
+      "file": "0_57.jpg",
+      "startSec": 57.74,
+      "text": "Y entonces descubres las CTF,",
+      "scene": "a glowing neon arcade-style sign reading 'CTF' above a competitive arena full of screens, no text"
+    },
+    {
+      "file": "1_00.jpg",
+      "startSec": 60.2,
+      "text": "competiciones de hacking,",
+      "scene": "rows of glowing arcade screens in a dark CTF arena, tiny monkeys competing at each one, no text"
+    },
+    {
+      "file": "1_01.jpg",
+      "startSec": 61.58,
+      "text": "legales, gamificadas,",
+      "scene": "a glowing laptop screen showing a stylized 'HackTheBox' icon, arena lights around it, no text"
+    },
+    {
+      "file": "1_03.jpg",
+      "startSec": 63.2,
+      "text": "hack de box,",
+      "scene": "a glowing laptop screen showing a stylized 'TryHackMe' icon, arena lights around it, no text"
+    },
+    {
+      "file": "1_04.jpg",
+      "startSec": 64.26,
+      "text": "trae hackmy,",
+      "scene": "the monkey cracking open a glowing wireframe virtual-machine box like an egg, no text"
+    },
+    {
+      "file": "1_05.jpg",
+      "startSec": 65.36,
+      "text": "máquinas virtuales que existen solo para que tú las rompas.",
+      "scene": "a single glowing jigsaw puzzle piece hovering in the monkey's paw inside the arena, no text"
+    },
+    {
+      "file": "1_08.jpg",
+      "startSec": 68.58,
+      "text": "Cada máquina es un puzzle y cada puzzle te engancha un poco más.",
+      "scene": "multiple glowing puzzle pieces snapping together rapidly around the monkey, no text"
+    },
+    {
+      "file": "1_12.jpg",
+      "startSec": 72.96,
+      "text": "Un año después ya piensas distinto que el resto del mundo.",
+      "scene": "the monkey standing tall in a city street at dawn, eyes glowing green, calendar pages behind fading, no text"
+    },
+    {
+      "file": "1_16.jpg",
+      "startSec": 76.34,
+      "text": "Miras una web y no ves un diseño,",
+      "scene": "the monkey looking at an ordinary website billboard in the city, its eyes rendering it as glowing red crosshairs, no text"
+    },
+    {
+      "file": "1_18.jpg",
+      "startSec": 78.72,
+      "text": "ves una superficie de ataque.",
+      "scene": "a glowing red crosshair scanning across a giant website mockup on a city wall, no text"
+    },
+    {
+      "file": "1_20.jpg",
+      "startSec": 80.7,
+      "text": "Miras un formulario de login y te preguntas qué pasas y metes algo que no debería ir ahí.",
+      "scene": "the monkey looking at a glowing login form floating in the street, seeing a hidden crack in it, no text"
+    },
+    {
+      "file": "1_25.jpg",
+      "startSec": 85.8,
+      "text": "Y en algún punto, sin darte cuenta,",
+      "scene": "a glowing crack spreading through a digital password field, no text"
+    },
+    {
+      "file": "1_28.jpg",
+      "startSec": 88.14,
+      "text": "ya sabes entrar donde no deberías.",
+      "scene": "the monkey stepping through a glowing doorway that appears out of nowhere in the street, no text"
+    },
+    {
+      "file": "1_30.jpg",
+      "startSec": 90.38,
+      "text": "Ahí es exactamente donde se abre la bifurcación.",
+      "scene": "the monkey standing back at the foggy crossroads from the intro, now fully arrived, no text"
+    },
+    {
+      "file": "1_34.jpg",
+      "startSec": 94.04,
+      "text": "Capítulo 2. La bifurcación.",
+      "scene": "a large glowing green chapter number '2' floating in darkness, no other text"
+    },
+    {
+      "file": "1_36.jpg",
+      "startSec": 96.6,
+      "text": "Tienes la habilidad.",
+      "scene": "a hooded monkey hacker standing at the glowing crossroads, flexing its paw, sparks of code dancing between its fingers, no text"
+    },
+    {
+      "file": "1_38.jpg",
+      "startSec": 98.14,
+      "text": "Ahora toca decidir qué haces con ella.",
+      "scene": "the monkey scratching its head between two glowing doors in the fog, no text"
+    },
+    {
+      "file": "1_40.jpg",
+      "startSec": 100.52,
+      "text": "Un camino te ofrece un contrato, una nómina, un currículum.",
+      "scene": "a glowing blue door with a small briefcase and a paycheck icon floating above it, no text"
+    },
+    {
+      "file": "1_44.jpg",
+      "startSec": 104.14,
+      "text": "El otro te ofrece dinero rápido, sin preguntas,",
+      "scene": "a glowing red door with stacks of cash spilling out from underneath it in the fog, no text"
+    },
+    {
+      "file": "1_46.jpg",
+      "startSec": 106.7,
+      "text": "sin jefe.",
+      "scene": "a red glowing speech-bubble crossed-out boss icon near the red door, no text"
+    },
+    {
+      "file": "1_48.jpg",
+      "startSec": 108.0,
+      "text": "Miles de hackers jóvenes reciben esa segunda oferta en foros ocultos, en privado.",
+      "scene": "a dark hidden forum interface glowing on a phone screen, tiny hooded monkey avatars in a chat, no text"
+    },
+    {
+      "file": "1_53.jpg",
+      "startSec": 113.14,
+      "text": "Tenemos acceso a una empresa,",
+      "scene": "a glowing chat bubble reading with a small padlocked briefcase icon, sinister red tint, big green Spanish caption '\"TENEMOS ACCESO\"'"
+    },
+    {
+      "file": "1_55.jpg",
+      "startSec": 115.12,
+      "text": "solo hace falta que actives la carga.",
+      "scene": "a glowing red USB payload icon inside a chat bubble, big green Spanish caption '\"ACTIVA LA CARGA\"'"
+    },
+    {
+      "file": "1_57.jpg",
+      "startSec": 117.46,
+      "text": "Suena fácil y esa es exactamente la trampa.",
+      "scene": "a bear trap hidden under a glowing pile of cash near the red door, no text"
+    },
+    {
+      "file": "2_01.jpg",
+      "startSec": 121.2,
+      "text": "Otros cogen ese mismo talento y lo certifican.",
+      "scene": "a hooded monkey hacker wearing a clean blue lanyard badge, standing confidently in front of the blue door, no text"
+    },
+    {
+      "file": "2_04.jpg",
+      "startSec": 124.48,
+      "text": "Saca en el oscp,",
+      "scene": "a glowing certificate scroll embossed 'OSCP', monkey holding it proudly, big green Spanish caption 'OSCP'"
+    },
+    {
+      "file": "2_06.jpg",
+      "startSec": 126.26,
+      "text": "la certificación que demuestra que saben jaquear de verdad no solo de boca.",
+      "scene": "a glowing laptop screen showing 'HackerOne' and 'Bugcrowd' style bug-bounty dashboards side by side, no text"
+    },
+    {
+      "file": "2_10.jpg",
+      "startSec": 130.7,
+      "text": "Se dan de alta en hacker one y en back crowd plataformas donde las empresas pagan por encontrar sus fallos.",
+      "scene": "a glowing brain icon split exactly in half, identical on both sides, floating between the two doors, no text"
+    },
+    {
+      "file": "2_17.jpg",
+      "startSec": 137.04,
+      "text": "Mismo cerebro,",
+      "scene": "two identical glowing paws side by side, mirrored, one reaching each door, no text"
+    },
+    {
+      "file": "2_18.jpg",
+      "startSec": 138.52,
+      "text": "mismas manos,",
+      "scene": "split screen: the monkey stepping onto the blue path on the left, no text"
+    },
+    {
+      "file": "2_19.jpg",
+      "startSec": 139.68,
+      "text": "caminos completamente opuestos.",
+      "scene": "split screen: the same monkey stepping onto the red path on the right, no text"
+    },
+    {
+      "file": "2_21.jpg",
+      "startSec": 141.78,
+      "text": "Vamos a ver los dos, uno detrás del otro.",
+      "scene": "wide shot of both glowing paths disappearing into their own distinct horizons, blue sunrise vs red dusk, no text"
+    },
+    {
+      "file": "2_24.jpg",
+      "startSec": 144.94,
+      "text": "Capítulo 3. El camino ético.",
+      "scene": "a large glowing green chapter number '3' floating in darkness, no other text"
+    },
+    {
+      "file": "2_27.jpg",
+      "startSec": 147.56,
+      "text": "Aquí soy Pentester o Red Timmer.",
+      "scene": "a hooded monkey hacker wearing a clean blue polo and an ID badge, sitting at a bright professional dual-monitor workstation, daylight, no text"
+    },
+    {
+      "file": "2_30.jpg",
+      "startSec": 150.16,
+      "text": "Me pagan por atacar con permiso por escrito.",
+      "scene": "a signed contract document glowing on the desk, the monkey's paw finishing a signature, no text"
+    },
+    {
+      "file": "2_33.jpg",
+      "startSec": 153.18,
+      "text": "Un lunes cualquiera,",
+      "scene": "a glowing calendar showing 'LUNES' highlighted, a bank tower icon glowing beside it, big green Spanish caption 'LUNES'"
+    },
+    {
+      "file": "2_34.jpg",
+      "startSec": 154.5,
+      "text": "mi trabajo es intentar entrar en el banco que me ha contratado,",
+      "scene": "the monkey standing outside a tall glass bank tower in daylight, calm posture, no text"
+    },
+    {
+      "file": "2_37.jpg",
+      "startSec": 157.68,
+      "text": "no para robar nada,",
+      "scene": "the monkey holding up a glowing warning flag instead of a weapon in front of the bank tower, no text"
+    },
+    {
+      "file": "2_39.jpg",
+      "startSec": 159.08,
+      "text": "para avisarles de la grieta antes de que otro la encuentre primero.",
+      "scene": "a glowing envelope icon flying toward rows of small employee avatars inside an office, no text"
+    },
+    {
+      "file": "2_42.jpg",
+      "startSec": 162.46,
+      "text": "Mando un correo de fishing simulado a sus empleados.",
+      "scene": "half the employee avatars glowing red as if clicking a bad link, office daylight background, no text"
+    },
+    {
+      "file": "2_45.jpg",
+      "startSec": 165.6,
+      "text": "La mitad hace clic.",
+      "scene": "a glowing stream of leaked password icons being tested one by one against a login form, no text"
+    },
+    {
+      "file": "2_47.jpg",
+      "startSec": 167.04,
+      "text": "Siempre hay quien hace clic.",
+      "scene": "a glowing progress bar over a calendar showing three days passing, office background, no text"
+    },
+    {
+      "file": "2_48.jpg",
+      "startSec": 168.68,
+      "text": "Provebo contraseñas filtradas de otras brechas porque la gente reutiliza contraseñas.",
+      "scene": "the monkey standing inside a glowing wireframe network map, fully immersed, no text"
+    },
+    {
+      "file": "2_53.jpg",
+      "startSec": 173.56,
+      "text": "Siempre la reutiliza.",
+      "scene": "the monkey climbing a glowing staircase of privilege icons inside the network map, no text"
+    },
+    {
+      "file": "2_55.jpg",
+      "startSec": 175.76,
+      "text": "Y en tres días estoy dentro de su red interna.",
+      "scene": "a giant red self-destruct button glowing in front of the monkey, temptation, dim server room, no text"
+    },
+    {
+      "file": "2_58.jpg",
+      "startSec": 178.82,
+      "text": "Escalo privilegios,",
+      "scene": "the monkey's paw pulling back from the red button, choosing restraint, no text"
+    },
+    {
+      "file": "3_00.jpg",
+      "startSec": 180.22,
+      "text": "llego a controlador de dominio.",
+      "scene": "the monkey typing calmly at a bright desk, a thick report document forming page by page, no text"
+    },
+    {
+      "file": "3_02.jpg",
+      "startSec": 182.4,
+      "text": "Tecnicamente podría cifrar la empresa entera ahora mismo.",
+      "scene": "a glowing forty-page report stacking up on the desk, daylight, no text"
+    },
+    {
+      "file": "3_05.jpg",
+      "startSec": 185.96,
+      "text": "Pero no lo hago,",
+      "scene": "the glowing report outweighing a small pile of cash on an old-fashioned scale, no text"
+    },
+    {
+      "file": "3_07.jpg",
+      "startSec": 187.14,
+      "text": "escribo un informe de cuarenta páginas en su lugar.",
+      "scene": "a glowing green question-mark coin hovering above the monkey's open paw, no text"
+    },
+    {
+      "file": "3_10.jpg",
+      "startSec": 190.1,
+      "text": "Ese informe vale más que cualquier ataque.",
+      "scene": "a glowing lightbulb turning on above the monkey's head revealing hidden salary numbers, no text"
+    },
+    {
+      "file": "3_13.jpg",
+      "startSec": 193.18,
+      "text": "Y el dinero?",
+      "scene": "a glowing salary bar chart rising modestly with a euro symbol, big green Spanish caption '30.000 €'"
+    },
+    {
+      "file": "3_14.jpg",
+      "startSec": 194.32,
+      "text": "Aquí está lo que muy poca gente sabe.",
+      "scene": "a taller glowing salary bar chart with a euro symbol, big green Spanish caption '70.000 €'"
+    },
+    {
+      "file": "3_16.jpg",
+      "startSec": 196.54,
+      "text": "Un Pentester Junior en España empieza cerca de 30 .000 euros al año.",
+      "scene": "a glowing trophy labeled 'BUG BOUNTY' shining brighter than the salary charts, no text"
+    },
+    {
+      "file": "3_21.jpg",
+      "startSec": 201.0,
+      "text": "Un Red Timmer con experiencia supera los 70 .000.",
+      "scene": "a single glowing coin landing in a jar with a giant dollar sign, big green Spanish caption '100.000 $'"
+    },
+    {
+      "file": "3_24.jpg",
+      "startSec": 204.24,
+      "text": "Pero el Bag Bounty juega en otra liga.",
+      "scene": "a newspaper-style glowing headline floating in daylight, a young monkey silhouette pictured, big green Spanish caption 'SANTIAGO LÓPEZ'"
+    },
+    {
+      "file": "3_26.jpg",
+      "startSec": 206.66,
+      "text": "Encontrar un solo fallo crítico en Google o en Apple puede pagarte más de 100 .000 dólares.",
+      "scene": "a glowing pile of coins shaped like the number one followed by six zeros, big green Spanish caption '1.000.000 $'"
+    },
+    {
+      "file": "3_33.jpg",
+      "startSec": 213.4,
+      "text": "Por un chaval argentino llamado Santiago López se convirtió en el primer jaquerético millonario del mundo.",
+      "scene": "the monkey standing next to the glowing coin pile, clean and proud, daylight, no text"
+    },
+    {
+      "file": "3_40.jpg",
+      "startSec": 220.54,
+      "text": "Un millón de dólares,",
+      "scene": "a glowing Apple-logo vault door slowly opening, coins spilling out, big green Spanish caption '2.000.000 $'"
+    },
+    {
+      "file": "3_42.jpg",
+      "startSec": 222.32,
+      "text": "encontrando fallos sin romper ni una sola ley.",
+      "scene": "a glowing phone icon unlocking itself with no hand touching it, eerie remote glow, no text"
+    },
+    {
+      "file": "3_46.jpg",
+      "startSec": 226.04,
+      "text": "Apple ha llegado a pagar hasta dos millones de dólares por un solo exploit de los grandes,",
+      "scene": "the monkey checking a calendar with 'MARTES' highlighted, big green Spanish caption 'MARTES'"
+    },
+    {
+      "file": "3_50.jpg",
+      "startSec": 230.68,
+      "text": "acceso remoto sin que la víctima toque nada.",
+      "scene": "the monkey answering a phone call in front of a tall glass corporate security building, no text"
+    },
+    {
+      "file": "3_53.jpg",
+      "startSec": 233.74,
+      "text": "Mi momento más espectacular en este camino llega un martes cualquiera.",
+      "scene": "the monkey putting on a fake maintenance uniform and cap in front of a mirror, no text"
+    },
+    {
+      "file": "3_57.jpg",
+      "startSec": 237.9,
+      "text": "Me contratan de una empresa de seguridad física.",
+      "scene": "a glowing fake ID badge in the monkey's paw, slightly too shiny, no text"
+    },
+    {
+      "file": "4_00.jpg",
+      "startSec": 240.66,
+      "text": "La misión entrar en su frazo de técnico de mantenimiento.",
+      "scene": "a security guard silhouette waving the monkey through the glass building's door without checking twice, no text"
+    },
+    {
+      "file": "4_06.jpg",
+      "startSec": 246.58,
+      "text": "Enseño una tarjeta falsa que he fabricado yo mismo.",
+      "scene": "the monkey walking confidently down a bright corporate hallway, a small digital timer under four minutes, no text"
+    },
+    {
+      "file": "4_09.jpg",
+      "startSec": 249.94,
+      "text": "El guardia me abre la puerta él mismo sin dudarlo.",
+      "scene": "the monkey sitting across a desk from a security director silhouette, coffee cups, calm smiles, daylight, no text"
+    },
+    {
+      "file": "4_13.jpg",
+      "startSec": 253.02,
+      "text": "Estoy dentro del edificio en menos de cuatro minutos.",
+      "scene": "a hooded monkey hacker standing in a bright doorway of blue morning light, calm and confident, no text"
+    },
+    {
+      "file": "4_16.jpg",
+      "startSec": 256.42,
+      "text": "Al día siguiente se lo explico todo al director de seguridad con una sonrisa café en mano.",
+      "scene": "a glowing heart-rate line spiking with excitement but staying in a safe green zone, no text"
+    },
+    {
+      "file": "4_22.jpg",
+      "startSec": 262.28,
+      "text": "Ese es el camino ético,",
+      "scene": "a glowing stack of coins next to a small green checkmark icon, daylight desk, no text"
+    },
+    {
+      "file": "4_23.jpg",
+      "startSec": 263.98,
+      "text": "adrenalina real,",
+      "scene": "a glowing prison-bar icon with a big red 'X' crossed through it, bright background, no text"
+    },
+    {
+      "file": "4_25.jpg",
+      "startSec": 265.44,
+      "text": "sueldo real y cero cárcel.",
+      "scene": "a glowing prison-bar icon with a big red 'X' crossed through it, bright background, no text"
+    },
+    {
+      "file": "4_28.jpg",
+      "startSec": 268.32,
+      "text": "Capítulo 4.",
+      "scene": "a large glowing green chapter number '4' floating in darkness, no other text"
+    },
+    {
+      "file": "4_29.jpg",
+      "startSec": 269.52,
+      "text": "El camino criminal.",
+      "scene": "a wide glowing red-tinted banner across total darkness, big green Spanish caption 'CAMINO CRIMINAL'"
+    },
+    {
+      "file": "4_31.jpg",
+      "startSec": 271.1,
+      "text": "Aquí soy afiliado.",
+      "scene": "a hooded monkey hacker wearing a dark red-tinted hoodie, alone in a cluttered room lit only by monitors, no text"
+    },
+    {
+      "file": "4_32.jpg",
+      "startSec": 272.72,
+      "text": "Trabajo para un grupo de ramson guercomo servicio.",
+      "scene": "a glowing red ransomware icon with tiny gears turning, being handed to the monkey by a shadowy hand, no text"
+    },
+    {
+      "file": "4_35.jpg",
+      "startSec": 275.48,
+      "text": "Yo no programo el virus.",
+      "scene": "the monkey shaking its head, refusing to touch the glowing red code itself, no text"
+    },
+    {
+      "file": "4_37.jpg",
+      "startSec": 277.04,
+      "text": "Otro lo he hecho.",
+      "scene": "the shadowy hand retreating into darkness after handing over the payload, no text"
+    },
+    {
+      "file": "4_38.jpg",
+      "startSec": 278.24,
+      "text": "Yo solo lo distribuyo.",
+      "scene": "a glowing dark marketplace stall in a hidden forum, a shadowy broker trading a glowing key for coins, big green Spanish caption '2.000 $'"
+    },
+    {
+      "file": "4_40.jpg",
+      "startSec": 280.14,
+      "text": "Compró el acceso a una empresa por dos mil dólares a un corredor de accesos en un foro oculto. Entro por una WPN mal configurada que alguien más encontró antes que yo.",
+      "scene": "the monkey slipping through a glowing weak VPN icon like a hole in a fence, dark server room, no text"
+    },
+    {
+      "file": "4_49.jpg",
+      "startSec": 289.28,
+      "text": "Paso semanas ahí dentro en silencio sin tocar nada todavía.",
+      "scene": "the monkey standing motionless camouflaged in a dim server room, weeks passing on a wall calendar, no text"
+    },
+    {
+      "file": "4_52.jpg",
+      "startSec": 292.64,
+      "text": "Solo miro,",
+      "scene": "the monkey's eyes scanning silently across glowing network diagrams without touching anything, no text"
+    },
+    {
+      "file": "4_53.jpg",
+      "startSec": 293.56,
+      "text": "solo aprendo su red.",
+      "scene": "glowing folders labeled contract, paycheck and medical-cross icons dropping into a growing red suitcase, no text"
+    },
+    {
+      "file": "4_55.jpg",
+      "startSec": 295.48,
+      "text": "Primero robo los datos, contratos, nóminas y historiales médicos.",
+      "scene": "the monkey pressing a single glowing red button at night, red light spreading across a server map, no text"
+    },
+    {
+      "file": "4_59.jpg",
+      "startSec": 299.7,
+      "text": "Luego de madrugada activo el cifrado en todos sus servidores a la vez.",
+      "scene": "rows of office monitor icons turning red one by one at sunrise, digital clock reads 09:00, no text"
+    },
+    {
+      "file": "5_03.jpg",
+      "startSec": 303.98,
+      "text": "A las nueve de la mañana la empresa entera está bloqueada,",
+      "scene": "a wall of monitors glowing entirely red with jagged glitch patterns, no text"
+    },
+    {
+      "file": "5_07.jpg",
+      "startSec": 307.54,
+      "text": "pantallas, negras,",
+      "scene": "a glowing red ransom note unfurling on every screen at once, big green Spanish caption 'PAGA O PUBLICAMOS TODO'"
+    },
+    {
+      "file": "5_08.jpg",
+      "startSec": 308.82,
+      "text": "letras rojas,",
+      "scene": "a glowing pile of coins splitting into two unequal piles, a bigger one sliding toward the monkey, no text"
+    },
+    {
+      "file": "5_09.jpg",
+      "startSec": 309.96,
+      "text": "dejó una nota.",
+      "scene": "a smaller glowing pile of coins sliding toward a shadowy hooded group in the background, no text"
+    },
+    {
+      "file": "5_11.jpg",
+      "startSec": 311.32,
+      "text": "Paga o publicamos todo lo que hemos robado.",
+      "scene": "a glowing oil pipeline icon clamped with a red ransom lock, big green Spanish caption 'COLONIAL PIPELINE · 4,4M $'"
+    },
+    {
+      "file": "5_14.jpg",
+      "startSec": 314.36,
+      "text": "Si pagan me llevo hasta el 80 % del rescate.",
+      "scene": "the monkey staring at a glowing wallet icon filling with coins, uneasy expression, dim room, no text"
+    },
+    {
+      "file": "5_17.jpg",
+      "startSec": 317.58,
+      "text": "El resto es para el grupo que hizo el virus.",
+      "scene": "a small glowing house icon and car icon appearing briefly above the coin pile, then fading, no text"
+    },
+    {
+      "file": "5_20.jpg",
+      "startSec": 320.14,
+      "text": "En 2021, Colonial Pipeline pagó 4 ,4 millones de dólares en Bitcoin a un solo grupo Darkside.",
+      "scene": "a glowing red warning label peeling back to reveal a hidden FBI badge icon underneath, no text"
+    },
+    {
+      "file": "5_28.jpg",
+      "startSec": 328.2,
+      "text": "Y para mí el afiliado en una sola operación,",
+      "scene": "the monkey checking its reflection with a shiny watch, a glowing eye watching faintly from a phone screen, no text"
+    },
+    {
+      "file": "5_31.jpg",
+      "startSec": 331.1,
+      "text": "puede ser una casa, puede ser un coche caro.",
+      "scene": "a glowing luxury watch posted on a social phone screen labeled with a small camera icon, no text"
+    },
+    {
+      "file": "5_34.jpg",
+      "startSec": 334.14,
+      "text": "Pero aquí está lo que las series nunca te cuentan.",
+      "scene": "a glowing bank-transfer icon with a red flag popping up beside it, no text"
+    },
+    {
+      "file": "5_37.jpg",
+      "startSec": 337.08,
+      "text": "El FBI no necesita atraparme jakeando.",
+      "scene": "a second small hooded monkey whispering into a glowing microphone toward an unseen investigator, no text"
+    },
+    {
+      "file": "5_39.jpg",
+      "startSec": 339.9,
+      "text": "Le basta con que gaste mal ese dinero.",
+      "scene": "a glowing prison-bar icon slowly forming out of falling calendar pages, big green Spanish caption '+20 AÑOS'"
+    },
+    {
+      "file": "5_42.jpg",
+      "startSec": 342.12,
+      "text": "Un reloj caro en redes sociales, una transferencia torpe,",
+      "scene": "the prison-bar icon growing taller and darker, big green Spanish caption '+80 AÑOS'"
+    },
+    {
+      "file": "5_45.jpg",
+      "startSec": 345.46,
+      "text": "un compañero que confiesa para reducir su condena.",
+      "scene": "a glowing blockchain chain-link icon stretching infinitely into darkness, permanent, no text"
+    },
+    {
+      "file": "5_48.jpg",
+      "startSec": 348.58,
+      "text": "Las condenas por ramsón muera gran escala, superan hoy los 20 años de prisión,",
+      "scene": "a single glowing coin locked inside a transparent chain-link cube, visible forever, no text"
+    },
+    {
+      "file": "5_53.jpg",
+      "startSec": 353.18,
+      "text": "algunas más de 80.",
+      "scene": "a glowing magnifying glass slowly tracing the chain-link cube from a distance, patient, no text"
+    },
+    {
+      "file": "5_55.jpg",
+      "startSec": 355.0,
+      "text": "Y el Bitcoin que cobre queda escrito para siempre en una cadena pública.",
+      "scene": "an hourglass glowing red, sand falling fast, monkey small and alone beneath it, no text"
+    },
+    {
+      "file": "5_59.jpg",
+      "startSec": 359.12,
+      "text": "No se borra nunca.",
+      "scene": "the monkey alone again at the cold-open desk, late at night, red cifrado screens glowing around it, no text"
+    },
+    {
+      "file": "6_00.jpg",
+      "startSec": 360.7,
+      "text": "Los investigadores tienen años enteros para rastrearlo.",
+      "scene": "a glowing wallet icon receiving its first big red-tinted payment, coin counter spinning up, no text"
+    },
+    {
+      "file": "6_03.jpg",
+      "startSec": 363.86,
+      "text": "Yo solo tengo una vida.",
+      "scene": "the monkey's paw trembling with excitement over the glowing wallet, dim room, no text"
+    },
+    {
+      "file": "6_06.jpg",
+      "startSec": 366.18,
+      "text": "Mi momento más espectacular en este camino llega de madrugada,",
+      "scene": "a glowing FBI badge icon appearing silently in a dark corner behind the unaware monkey, no text"
+    },
+    {
+      "file": "6_09.jpg",
+      "startSec": 369.62,
+      "text": "la noche que cifro mi primera empresa grande.",
+      "scene": "a glowing tag icon stamping itself onto the wallet transaction in the background, unnoticed, no text"
+    },
+    {
+      "file": "6_12.jpg",
+      "startSec": 372.46,
+      "text": "Veo entrar el primer pago en mi cartera y por un segundo siento que he ganado.",
+      "scene": "a glowing username tag hovering above the monkey's head like a target marker, invisible to it, no text"
+    },
+    {
+      "file": "6_17.jpg",
+      "startSec": 377.14,
+      "text": "Lo que no veo esa noche es a la gente federal que ya ha etiquetado esa transacción,",
+      "scene": "a glowing clock icon ticking silently in the shadows behind the monkey, no text"
+    },
+    {
+      "file": "6_22.jpg",
+      "startSec": 382.1,
+      "text": "ya conoce mi nombre de usuario.",
+      "scene": "a glowing clock icon ticking silently in the shadows behind the monkey, no text"
+    },
+    {
+      "file": "6_24.jpg",
+      "startSec": 384.08,
+      "text": "Solo espera el momento.",
+      "scene": "a glowing clock icon ticking silently in the shadows behind the monkey, no text"
+    },
+    {
+      "file": "6_26.jpg",
+      "startSec": 386.62,
+      "text": "Capítulo 5.",
+      "scene": "a large glowing green chapter number '5' floating in darkness, no other text"
+    },
+    {
+      "file": "6_28.jpg",
+      "startSec": 388.0,
+      "text": "Cara a cara.",
+      "scene": "split screen with the blue-badge monkey on the left in daylight and the red-hoodie monkey on the right in darkness, no text"
+    },
+    {
+      "file": "6_29.jpg",
+      "startSec": 389.66,
+      "text": "Pongo las tifras una al lado de la otra.",
+      "scene": "two glowing scoreboards floating side by side, blue on the left, red on the right, no text"
+    },
+    {
+      "file": "6_32.jpg",
+      "startSec": 392.0,
+      "text": "Camino ético,",
+      "scene": "the blue scoreboard glowing, no text"
+    },
+    {
+      "file": "6_33.jpg",
+      "startSec": 393.08,
+      "text": "sueldo estable, un bonus por cada fallo,",
+      "scene": "the blue scoreboard filling with steady glowing green checkmarks: stable, bonus, legal, no text"
+    },
+    {
+      "file": "6_35.jpg",
+      "startSec": 395.56,
+      "text": "cero ríes golegal y una carrera de décadas por delante.",
+      "scene": "the blue scoreboard adding a final checkmark labeled decades of career, no text"
+    },
+    {
+      "file": "6_39.jpg",
+      "startSec": 399.0,
+      "text": "Camino criminal,",
+      "scene": "the red scoreboard glowing, no text"
+    },
+    {
+      "file": "6_40.jpg",
+      "startSec": 400.42,
+      "text": "pagos más grandes sobre el papel,",
+      "scene": "the red scoreboard showing one huge glowing number, no text"
+    },
+    {
+      "file": "6_42.jpg",
+      "startSec": 402.2,
+      "text": "pero un reloj corriendo desde el primer click.",
+      "scene": "the red scoreboard's huge number starting to crack at the edges, a ticking clock beside it, no text"
+    },
+    {
+      "file": "6_44.jpg",
+      "startSec": 404.84,
+      "text": "Y aquí está el dato que casi nadie calcula.",
+      "scene": "a glowing calculator icon crunching numbers between the two scoreboards, no text"
+    },
+    {
+      "file": "6_47.jpg",
+      "startSec": 407.42,
+      "text": "El valor esperado real no el número bonito del titular.",
+      "scene": "the red scoreboard's number shrinking rapidly as a glowing probability percentage rises beside it, big green Spanish caption '¿Y SI TE PILLAN?'"
+    },
+    {
+      "file": "6_51.jpg",
+      "startSec": 411.36,
+      "text": "Si existe una probabilidad alta de acabar 20 años en prisión,",
+      "scene": "the blue-badge monkey sleeping peacefully at its desk, dim lamp glow, calm, no text"
+    },
+    {
+      "file": "6_55.jpg",
+      "startSec": 415.16,
+      "text": "ese pago grande vale mucho menos de lo que parece en la pantalla.",
+      "scene": "the blue-badge monkey glancing calmly at an unlocked door, relaxed, no text"
+    },
+    {
+      "file": "6_59.jpg",
+      "startSec": 419.62,
+      "text": "El hacker ético cobra menos por cada golpe, pero cobra siempre y duerme tranquilo sin mirar la puerta cada noche.",
+      "scene": "a glowing brain icon split in half, identical glowing halves above both scoreboards, no text"
+    },
+    {
+      "file": "7_06.jpg",
+      "startSec": 426.5,
+      "text": "La habilidad es idéntica en los dos caminos.",
+      "scene": "two diverging glowing roads fading into the distance, one calm and lit, one dark and jagged, no text"
+    },
+    {
+      "file": "7_08.jpg",
+      "startSec": 428.98,
+      "text": "El destino no.",
+      "scene": "two diverging glowing roads fading into the distance, one calm and lit, one dark and jagged, no text"
+    },
+    {
+      "file": "7_11.jpg",
+      "startSec": 431.28,
+      "text": "Capítulo 6.",
+      "scene": "a large glowing green chapter number '6' floating in darkness, no other text"
+    },
+    {
+      "file": "7_12.jpg",
+      "startSec": 432.48,
+      "text": "El cierre.",
+      "scene": "the word fading in softly in glowing green over total darkness, big green Spanish caption 'CIERRE'"
+    },
+    {
+      "file": "7_13.jpg",
+      "startSec": 433.9,
+      "text": "Así que si tuvieras este talento hoy mismo,",
+      "scene": "a third hooded monkey silhouette (the viewer) standing again at the original foggy crossroads, no text"
+    },
+    {
+      "file": "7_16.jpg",
+      "startSec": 436.82,
+      "text": "¿qué puerta cruzarías tú?",
+      "scene": "the viewer-monkey looking down at its own paw, deciding, fog swirling, no text"
+    },
+    {
+      "file": "7_18.jpg",
+      "startSec": 438.86,
+      "text": "La buena noticia es que la puerta ética está abierta ahora mismo, y es gratis.",
+      "scene": "the blue door glowing brighter, swinging open on its own, welcoming light spilling out, no text"
+    },
+    {
+      "file": "7_23.jpg",
+      "startSec": 443.28,
+      "text": "Puedes entrar hoy en tryhacmi o en hack de box sin pagar nada.",
+      "scene": "a glowing laptop screen showing 'TryHackMe' and 'HackTheBox' icons side by side, warm welcoming glow, no text"
+    },
+    {
+      "file": "7_27.jpg",
+      "startSec": 447.74,
+      "text": "El mismo cerebro que podría meterte 20 años en la cárcel puede pagarte un sueldo de seis tifras.",
+      "scene": "a glowing 'GRATIS' tag hanging on the blue door handle, big green Spanish caption 'GRATIS'"
+    },
+    {
+      "file": "7_33.jpg",
+      "startSec": 453.54,
+      "text": "Solo cambia la puerta que decide escruzar.",
+      "scene": "a glowing brain icon with two paths leading out, one to a six-figure salary chart, one to prison bars, no text"
+    },
+    {
+      "file": "7_36.jpg",
+      "startSec": 456.48,
+      "text": "Si esta comparación te ha volado la cabeza, suscríbete.",
+      "scene": "the viewer-monkey's paw reaching toward the glowing blue door handle, decision made, no text"
+    },
+    {
+      "file": "7_39.jpg",
+      "startSec": 459.56,
+      "text": "Se viene más de este mundo, muy pronto.",
+      "scene": "the viewer-monkey stepping fully through the blue door into bright green morning light, no text"
+    }
+  ]
+}

@@ -1,0 +1,305 @@
+{
+  "video": "empleos-del-futuro",
+  "music": {
+    "file": "background_theme_30.mp3",
+    "prompt": "upbeat quirky playful comedic background music, light bouncy ukulele and whistle, fun explainer cartoon vibe, no vocals, loopable, smooth seamless start and end, low energy bed",
+    "duration": 25,
+    "volume": 0.07
+  },
+  "sfx": [
+    {
+      "file": "pop_intro.mp3",
+      "startSec": 0.0,
+      "duration": 1.5,
+      "volume": 0.14,
+      "prompt": "short playful cartoon pop intro, comedic, no music"
+    },
+    {
+      "file": "cash_register.mp3",
+      "startSec": 3.38,
+      "duration": 1.5,
+      "volume": 0.16,
+      "prompt": "cartoon cash register ka-ching, comedic money sound, no music"
+    },
+    {
+      "file": "paper_toss.mp3",
+      "startSec": 6.94,
+      "duration": 1.2,
+      "volume": 0.13,
+      "prompt": "quick paper tear and toss, comedic, no music"
+    },
+    {
+      "file": "coins_stack.mp3",
+      "startSec": 10.2,
+      "duration": 1.5,
+      "volume": 0.13,
+      "prompt": "coins stacking and clinking, playful, no music"
+    },
+    {
+      "file": "rising_whoosh.mp3",
+      "startSec": 14.02,
+      "duration": 1.5,
+      "volume": 0.13,
+      "prompt": "fast rising whoosh going up, comedic, no music"
+    },
+    {
+      "file": "tada_7.mp3",
+      "startSec": 20.06,
+      "duration": 1.5,
+      "volume": 0.15,
+      "prompt": "short comedic ta-da reveal chime, no music"
+    },
+    {
+      "file": "drone_buzz.mp3",
+      "startSec": 25.4,
+      "duration": 2.0,
+      "volume": 0.11,
+      "prompt": "small quadcopter drone buzzing hovering, no music"
+    },
+    {
+      "file": "stamp_thud.mp3",
+      "startSec": 44.72,
+      "duration": 1.2,
+      "volume": 0.14,
+      "prompt": "official rubber stamp thud on paper, no music"
+    },
+    {
+      "file": "easy_ding.mp3",
+      "startSec": 48.78,
+      "duration": 1.2,
+      "volume": 0.12,
+      "prompt": "light easy positive ding, no music"
+    },
+    {
+      "file": "coin_small.mp3",
+      "startSec": 63.3,
+      "duration": 1.2,
+      "volume": 0.12,
+      "prompt": "small coins jingle, no music"
+    },
+    {
+      "file": "sneaky_reveal.mp3",
+      "startSec": 69.88,
+      "duration": 1.5,
+      "volume": 0.13,
+      "prompt": "sneaky comedic tiptoe reveal sting, no music"
+    },
+    {
+      "file": "tiptoe.mp3",
+      "startSec": 72.88,
+      "duration": 2.0,
+      "volume": 0.12,
+      "prompt": "comedic sneaky tiptoe pizzicato, no music"
+    },
+    {
+      "file": "camera_shutter.mp3",
+      "startSec": 94.42,
+      "duration": 1.2,
+      "volume": 0.12,
+      "prompt": "camera shutter click drone filming, no music"
+    },
+    {
+      "file": "boing.mp3",
+      "startSec": 110.86,
+      "duration": 1.2,
+      "volume": 0.13,
+      "prompt": "comedic cartoon boing, no music"
+    },
+    {
+      "file": "wrench_clank.mp3",
+      "startSec": 114.08,
+      "duration": 1.2,
+      "volume": 0.13,
+      "prompt": "metal wrench clank plumber, no music"
+    },
+    {
+      "file": "slurp.mp3",
+      "startSec": 122.66,
+      "duration": 1.3,
+      "volume": 0.13,
+      "prompt": "comedic feeding slurp gulp, no music"
+    },
+    {
+      "file": "phone_notify.mp3",
+      "startSec": 155.32,
+      "duration": 1.2,
+      "volume": 0.12,
+      "prompt": "phone notification chat pop, no music"
+    },
+    {
+      "file": "fanfare_small.mp3",
+      "startSec": 165.36,
+      "duration": 1.6,
+      "volume": 0.14,
+      "prompt": "short proud little fanfare, no music"
+    },
+    {
+      "file": "record_scratch.mp3",
+      "startSec": 169.1,
+      "duration": 1.3,
+      "volume": 0.16,
+      "prompt": "record scratch stop, comedic interruption, no music"
+    },
+    {
+      "file": "glitch.mp3",
+      "startSec": 176.1,
+      "duration": 1.0,
+      "volume": 0.12,
+      "prompt": "short digital glitch blip, no music"
+    },
+    {
+      "file": "eraser_swipe.mp3",
+      "startSec": 181.72,
+      "duration": 1.2,
+      "volume": 0.13,
+      "prompt": "eraser swipe wiping away, no music"
+    },
+    {
+      "file": "climb_steps.mp3",
+      "startSec": 186.74,
+      "duration": 1.5,
+      "volume": 0.11,
+      "prompt": "comedic climbing steps up, no music"
+    },
+    {
+      "file": "tada_4.mp3",
+      "startSec": 191.3,
+      "duration": 1.4,
+      "volume": 0.14,
+      "prompt": "short comedic reveal chime, no music"
+    },
+    {
+      "file": "comedic_boing2.mp3",
+      "startSec": 203.28,
+      "duration": 1.2,
+      "volume": 0.13,
+      "prompt": "comedic confused boing, no music"
+    },
+    {
+      "file": "tension_up.mp3",
+      "startSec": 222.4,
+      "duration": 1.4,
+      "volume": 0.12,
+      "prompt": "short rising tension sting, no music"
+    },
+    {
+      "file": "drumroll.mp3",
+      "startSec": 238.24,
+      "duration": 1.8,
+      "volume": 0.13,
+      "prompt": "short drumroll build up, no music"
+    },
+    {
+      "file": "cash_register2.mp3",
+      "startSec": 239.32,
+      "duration": 1.5,
+      "volume": 0.16,
+      "prompt": "cartoon cash register ka-ching, no music"
+    },
+    {
+      "file": "tada_3.mp3",
+      "startSec": 243.14,
+      "duration": 1.4,
+      "volume": 0.14,
+      "prompt": "short comedic reveal chime, no music"
+    },
+    {
+      "file": "electric_zap.mp3",
+      "startSec": 254.06,
+      "duration": 1.5,
+      "volume": 0.14,
+      "prompt": "electric frankenstein zap spark, no music"
+    },
+    {
+      "file": "cash_register3.mp3",
+      "startSec": 291.66,
+      "duration": 1.5,
+      "volume": 0.16,
+      "prompt": "cartoon cash register ka-ching, no music"
+    },
+    {
+      "file": "tada_2.mp3",
+      "startSec": 296.02,
+      "duration": 1.4,
+      "volume": 0.14,
+      "prompt": "short comedic reveal chime, no music"
+    },
+    {
+      "file": "effort_grunt.mp3",
+      "startSec": 301.86,
+      "duration": 1.3,
+      "volume": 0.12,
+      "prompt": "comedic workout effort grunt, no music"
+    },
+    {
+      "file": "heavy_thud.mp3",
+      "startSec": 322.72,
+      "duration": 1.3,
+      "volume": 0.13,
+      "prompt": "heavy difficult thud, no music"
+    },
+    {
+      "file": "cash_big.mp3",
+      "startSec": 342.56,
+      "duration": 1.8,
+      "volume": 0.17,
+      "prompt": "big triumphant cash register ka-ching, no music"
+    },
+    {
+      "file": "faint_thud.mp3",
+      "startSec": 346.76,
+      "duration": 1.3,
+      "volume": 0.14,
+      "prompt": "comedic fainting thud body drop, no music"
+    },
+    {
+      "file": "fanfare_1.mp3",
+      "startSec": 350.28,
+      "duration": 2.2,
+      "volume": 0.16,
+      "prompt": "triumphant number one fanfare reveal, no music"
+    },
+    {
+      "file": "dramatic_hit.mp3",
+      "startSec": 357.82,
+      "duration": 1.6,
+      "volume": 0.15,
+      "prompt": "dramatic villain boss orchestra hit, no music"
+    },
+    {
+      "file": "cash_huge.mp3",
+      "startSec": 423.62,
+      "duration": 2.2,
+      "volume": 0.18,
+      "prompt": "huge over-the-top cash register jackpot, no music"
+    },
+    {
+      "file": "money_rain.mp3",
+      "startSec": 428.14,
+      "duration": 2.5,
+      "volume": 0.15,
+      "prompt": "money rain coins pouring jackpot, no music"
+    },
+    {
+      "file": "mind_blown.mp3",
+      "startSec": 436.3,
+      "duration": 1.6,
+      "volume": 0.16,
+      "prompt": "comedic mind blown explosion pop, no music"
+    },
+    {
+      "file": "checklist.mp3",
+      "startSec": 445.48,
+      "duration": 1.4,
+      "volume": 0.12,
+      "prompt": "quick positive checklist tick ticks, no music"
+    },
+    {
+      "file": "subscribe_chime.mp3",
+      "startSec": 453.9,
+      "duration": 1.6,
+      "volume": 0.16,
+      "prompt": "bright positive subscribe bell chime, no music"
+    }
+  ]
+}

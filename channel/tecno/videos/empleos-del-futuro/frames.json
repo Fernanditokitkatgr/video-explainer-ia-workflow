@@ -1,0 +1,1015 @@
+{
+  "video": "empleos-del-futuro",
+  "style_base": "Simple crude hand-drawn cartoon in the style of the 'Ecomonos' youtube channel. A recurring friendly brown cartoon monkey character with a lighter tan belly and face, big round white eyes with black pupils, thick bold black outlines, flat simple colors, deliberately simple and slightly rough but charming and funny, expressive exaggerated faces. Pure white background, lots of empty white space, minimalist, comedy tone. The SAME monkey character appears consistently in every image. CRITICAL TEXT RULE: prefer NO text, labels or signs at all — tell the scene through the monkey's action and expression and simple symbols. If a short text is truly necessary it MUST be in perfect SPANISH exactly as specified, in large simple hand-drawn block letters — NEVER English, NEVER any other language.",
+  "note": "Estilo Ecomonos (mono cartoon). Motor: Gemini flash via Vertex AI (credito Google Cloud). 168 escenas.",
+  "frames": [
+    {
+      "file": "0_00.jpg",
+      "startSec": 0.0,
+      "text": "Estos siete trabajos casi no existían hace diez años.",
+      "scene": "the brown monkey standing with a curious puzzled face, scratching its head, looking up at a row of seven floating question marks, no text"
+    },
+    {
+      "file": "0_03.jpg",
+      "startSec": 3.38,
+      "text": "El último paga casi un millón de dólares al año.",
+      "scene": "the brown monkey with huge bulging shocked eyes and open mouth, staring at a giant oversized green bank check completely covered in dollar signs and zeros, no text"
+    },
+    {
+      "file": "0_06.jpg",
+      "startSec": 6.94,
+      "text": "Y para los primeros no necesitas ni carrera.",
+      "scene": "the brown monkey cheerfully tossing away a university graduation cap and a rolled diploma with a big red X painted over it, relieved happy face, no text"
+    },
+    {
+      "file": "0_10.jpg",
+      "startSec": 10.2,
+      "text": "Los vamos a ver de menos a más dinero.",
+      "scene": "the brown monkey pointing at an ascending staircase of coin stacks, from a tiny pile on the left to a huge towering pile on the right, no text"
+    },
+    {
+      "file": "0_12.jpg",
+      "startSec": 12.86,
+      "text": "Y te habizo.",
+      "scene": "the brown monkey raising one index finger up with a cheeky knowing smirk, warning the viewer, no text"
+    },
+    {
+      "file": "0_14.jpg",
+      "startSec": 14.02,
+      "text": "¿Cuánto más subimos, más se descontró la la cosa?",
+      "scene": "the brown monkey holding on with a wild excited face while riding a big red arrow that shoots steeply upward and loops off the top, no text"
+    },
+    {
+      "file": "0_17.jpg",
+      "startSec": 17.42,
+      "text": "Así que quédate hasta el final.",
+      "scene": "the brown monkey pointing directly at the viewer with both hands, gesturing 'stay here', big friendly smile, no text"
+    },
+    {
+      "file": "0_20.jpg",
+      "startSec": 20.06,
+      "text": "Empezamos por el número siete, piloto de drones.",
+      "scene": "the brown monkey proudly presenting a small flying drone with one arm, a big number 7 floating beside it, no text"
+    },
+    {
+      "file": "0_23.jpg",
+      "startSec": 23.48,
+      "text": "Sí, ha soído bien.",
+      "scene": "the brown monkey holding a hand to its ear with a cheeky grin, as if saying 'you heard right', no text"
+    },
+    {
+      "file": "0_25.jpg",
+      "startSec": 25.4,
+      "text": "Te pagan por volar un juguete carísimo y encima es legal.",
+      "scene": "the brown monkey happily flying a drone with a remote controller while a dollar sign floats above, no text"
+    },
+    {
+      "file": "0_29.jpg",
+      "startSec": 29.34,
+      "text": "¿Pero qué hace exactamente un piloto de drones?",
+      "scene": "the brown monkey shrugging with open palms next to a hovering drone, questioning expression, no text"
+    },
+    {
+      "file": "0_32.jpg",
+      "startSec": 32.6,
+      "text": "Pues de todo.",
+      "scene": "the brown monkey with many busy arms doing several tasks at once, energetic, no text"
+    },
+    {
+      "file": "0_33.jpg",
+      "startSec": 33.92,
+      "text": "Grava bodas desde el cielo, inspecciona puentes sin subirse a ellos,",
+      "scene": "a small drone in the sky filming a tiny wedding couple and a bridge far below, aerial cartoon view, no text"
+    },
+    {
+      "file": "0_37.jpg",
+      "startSec": 37.96,
+      "text": "vigila campos enteros desde el sofá.",
+      "scene": "the brown monkey relaxing on a sofa with a drink while a drone watches green fields on its behalf, no text"
+    },
+    {
+      "file": "0_40.jpg",
+      "startSec": 40.44,
+      "text": "¿Y qué necesitas para dedicarte a esto?",
+      "scene": "the brown monkey with a thinking pose, one hand on chin and a question mark above its head, no text"
+    },
+    {
+      "file": "0_43.jpg",
+      "startSec": 43.18,
+      "text": "Menos de lo que crees,",
+      "scene": "the brown monkey pinching its thumb and finger close together, meaning 'just a little', slight smile, no text"
+    },
+    {
+      "file": "0_44.jpg",
+      "startSec": 44.72,
+      "text": "básicamente un carne oficial de drone y buen pulso.",
+      "scene": "the brown monkey proudly holding up a small official ID card that reads 'CARNE DE DRON' in Spanish block letters, steady confident pose"
+    },
+    {
+      "file": "0_47.jpg",
+      "startSec": 47.86,
+      "text": "Poco más.",
+      "scene": "the brown monkey shrugging with a relaxed 'that's about it' expression, no text"
+    },
+    {
+      "file": "0_48.jpg",
+      "startSec": 48.78,
+      "text": "Por eso su dificultades bajísima.",
+      "scene": "the brown monkey next to a simple difficulty gauge with the needle pointing far left into the green low zone, relaxed, no text"
+    },
+    {
+      "file": "0_51.jpg",
+      "startSec": 51.14,
+      "text": "En un par de meses ya estás volando.",
+      "scene": "the brown monkey flying a drone next to a small calendar showing only two months crossed, no text"
+    },
+    {
+      "file": "0_53.jpg",
+      "startSec": 53.34,
+      "text": "Y si quieres probarlo este fin de, es fácil.",
+      "scene": "the brown monkey holding a cheap little toy drone, excited, no text"
+    },
+    {
+      "file": "0_55.jpg",
+      "startSec": 55.4,
+      "text": "Pilla un dron barato y graba tu barrio como si fuera una pele de acción.",
+      "scene": "the brown monkey filming a street with a drone while a cartoon action explosion happens behind, no text"
+    },
+    {
+      "file": "0_59.jpg",
+      "startSec": 59.96,
+      "text": "¿Y cuánto se lleva a casa un piloto de drones?",
+      "scene": "the brown monkey rubbing its fingers together in the money gesture, hopeful face, no text"
+    },
+    {
+      "file": "1_03.jpg",
+      "startSec": 63.3,
+      "text": "Entre 25 y 40.000 euros.",
+      "scene": "the brown monkey happily holding a modest stack of euro coins and bills, medium pile, no text"
+    },
+    {
+      "file": "1_05.jpg",
+      "startSec": 65.42,
+      "text": "Por jugar con drones.",
+      "scene": "the brown monkey grinning while playing with a flying drone, having fun, no text"
+    },
+    {
+      "file": "1_06.jpg",
+      "startSec": 66.86,
+      "text": "Oye, no está nada mal para empezar.",
+      "scene": "the brown monkey giving an enthusiastic thumbs up with a big smile, no text"
+    },
+    {
+      "file": "1_09.jpg",
+      "startSec": 69.88,
+      "text": "Subimos al número seis, el cazador de hackers.",
+      "scene": "the brown monkey wearing a dark hoodie like a hacker in front of a laptop, a big number 6 floating beside it, no text"
+    },
+    {
+      "file": "1_12.jpg",
+      "startSec": 72.88,
+      "text": "Y este me encanta, porque te pagan por colarte donde no debes,",
+      "scene": "the brown monkey sneaking through a giant keyhole in a door, mischievous grin, no text"
+    },
+    {
+      "file": "1_16.jpg",
+      "startSec": 76.52,
+      "text": "como un ladrón, pero con contrato y sin acabar en la cárcel.",
+      "scene": "the brown monkey wearing a burglar mask but holding a signed paper contract, cheeky, no text"
+    },
+    {
+      "file": "1_20.jpg",
+      "startSec": 80.46,
+      "text": "Su trabajo es atacar empresas a propósito",
+      "scene": "the brown monkey at a laptop launching little attack arrows toward a company building icon, focused, no text"
+    },
+    {
+      "file": "1_22.jpg",
+      "startSec": 82.8,
+      "text": "para encontrar los agujeros antes que los malos de verdad.",
+      "scene": "the brown monkey pointing at a hole in a brick wall while a shadowy villain lurks behind it, no text"
+    },
+    {
+      "file": "1_26.jpg",
+      "startSec": 86.62,
+      "text": "¿Y qué necesitas para ser cazador de hackers?",
+      "scene": "the brown monkey in a thinking pose with a question mark, hacker hoodie, no text"
+    },
+    {
+      "file": "1_29.jpg",
+      "startSec": 89.4,
+      "text": "Curiosidad, un poco de mala idea sana y aprender a pensar como un delincuente.",
+      "scene": "the brown monkey with a glowing lightbulb over its head and a sneaky clever grin, no text"
+    },
+    {
+      "file": "1_34.jpg",
+      "startSec": 94.42,
+      "text": "Su dificultad ya sube a media,",
+      "scene": "the brown monkey next to a difficulty gauge with the needle pointing to the middle yellow zone, no text"
+    },
+    {
+      "file": "1_36.jpg",
+      "startSec": 96.54,
+      "text": "pero es de lo más divertido que vas a encontrar.",
+      "scene": "the brown monkey laughing with delight in front of a laptop, having a blast, no text"
+    },
+    {
+      "file": "1_39.jpg",
+      "startSec": 99.16,
+      "text": "Para empezar hoy,",
+      "scene": "the brown monkey pointing downward emphatically meaning 'right now, today', no text"
+    },
+    {
+      "file": "1_40.jpg",
+      "startSec": 100.28,
+      "text": "monta un laboratorio en tu propio ordenador",
+      "scene": "the brown monkey setting up a little computer lab with cables and a laptop on a desk, no text"
+    },
+    {
+      "file": "1_42.jpg",
+      "startSec": 102.32,
+      "text": "e intenta hackearte a ti mismo, legal y adictivo.",
+      "scene": "the brown monkey at a laptop hacking a mirror image of itself, playful, no text"
+    },
+    {
+      "file": "1_46.jpg",
+      "startSec": 106.74,
+      "text": "Y el sueldo de un cazador de hackers?",
+      "scene": "the brown monkey rubbing its fingers in the money gesture, curious face, no text"
+    },
+    {
+      "file": "1_49.jpg",
+      "startSec": 109.1,
+      "text": "Entre 40 y 70.000 euros.",
+      "scene": "the brown monkey holding a bigger stack of euro coins and bills, pleased, no text"
+    },
+    {
+      "file": "1_50.jpg",
+      "startSec": 110.86,
+      "text": "Por ser el malo de los buenos.",
+      "scene": "the brown monkey half dressed as a villain with a mask and half as a hero with a cape, funny split look, no text"
+    },
+    {
+      "file": "1_54.jpg",
+      "startSec": 114.08,
+      "text": "Y llegamos al número cinco, el fontanero de datos.",
+      "scene": "the brown monkey dressed as a plumber with a wrench, a big number 5 floating beside it, standing next to pipes, no text"
+    },
+    {
+      "file": "1_57.jpg",
+      "startSec": 117.94,
+      "text": "Para entenderlo, piensa en la inteligencia artificial como un bebé gigante.",
+      "scene": "a giant cute robot baby sitting on the floor, oversized, cartoon, no text"
+    },
+    {
+      "file": "2_02.jpg",
+      "startSec": 122.66,
+      "text": "Solo come datos y alguien tiene que darle la papilla.",
+      "scene": "the brown monkey spoon-feeding a giant robot baby with a spoonful of glowing 1s and 0s, no text"
+    },
+    {
+      "file": "2_06.jpg",
+      "startSec": 126.2,
+      "text": "Ese es el fontanero.",
+      "scene": "the brown monkey plumber presenting itself proudly with a wrench, no text"
+    },
+    {
+      "file": "2_08.jpg",
+      "startSec": 128.06,
+      "text": "¿Qué hace en concreto?",
+      "scene": "the brown monkey shrugging with a questioning face next to some pipes, no text"
+    },
+    {
+      "file": "2_09.jpg",
+      "startSec": 129.66,
+      "text": "Construye las tuberías por las que fluyen los datos,",
+      "scene": "the brown monkey building a network of pipes with little 1s and 0s flowing through them, no text"
+    },
+    {
+      "file": "2_12.jpg",
+      "startSec": 132.54,
+      "text": "limpios y ordenados hasta la máquina.",
+      "scene": "clean organized pipes carrying tidy streams of 1s and 0s into a friendly machine, the monkey watching, no text"
+    },
+    {
+      "file": "2_15.jpg",
+      "startSec": 135.24,
+      "text": "¿Y qué necesitas para ser fontanero de datos?",
+      "scene": "the brown monkey in a thinking pose with a question mark above, no text"
+    },
+    {
+      "file": "2_18.jpg",
+      "startSec": 138.36,
+      "text": "Tranquilo, nada de matemáticas raras.",
+      "scene": "the brown monkey pushing away scary floating math symbols with relief, no text"
+    },
+    {
+      "file": "2_20.jpg",
+      "startSec": 140.9,
+      "text": "Solo algo de programación",
+      "scene": "the brown monkey typing simple code on a keyboard, calm and happy, no text"
+    },
+    {
+      "file": "2_22.jpg",
+      "startSec": 142.14,
+      "text": "y ser una persona muy, muy ordenada.",
+      "scene": "the brown monkey neatly organizing labeled boxes in perfect order, tidy and proud, no text"
+    },
+    {
+      "file": "2_25.jpg",
+      "startSec": 145.76,
+      "text": "Y como de difíciles.",
+      "scene": "the brown monkey standing beside a difficulty gauge, gesturing at it, no text"
+    },
+    {
+      "file": "2_27.jpg",
+      "startSec": 147.42,
+      "text": "Su dificultad es media y lo mejor.",
+      "scene": "the brown monkey next to a difficulty gauge with the needle in the middle yellow zone, no text"
+    },
+    {
+      "file": "2_29.jpg",
+      "startSec": 149.78,
+      "text": "Se aprende sin carrera.",
+      "scene": "the brown monkey happily tossing a graduation diploma with a red X, relieved, no text"
+    },
+    {
+      "file": "2_32.jpg",
+      "startSec": 152.02,
+      "text": "¿Quieres probar como se siente?",
+      "scene": "the brown monkey with a curious intrigued expression, leaning in, no text"
+    },
+    {
+      "file": "2_34.jpg",
+      "startSec": 154.06,
+      "text": "Coge tus chats de WhatsApp",
+      "scene": "the brown monkey looking at a smartphone full of chat bubbles, curious, no text"
+    },
+    {
+      "file": "2_35.jpg",
+      "startSec": 155.32,
+      "text": "y descubre a qué hora hablas más y con quién.",
+      "scene": "the brown monkey looking at a phone screen showing a simple colorful bar chart of chat activity, no text"
+    },
+    {
+      "file": "2_38.jpg",
+      "startSec": 158.18,
+      "text": "Vas a flipar con lo que sale.",
+      "scene": "the brown monkey amazed with wide eyes staring at its phone, mind blown, no text"
+    },
+    {
+      "file": "2_40.jpg",
+      "startSec": 160.36,
+      "text": "¿Y cuánto gana este fontanero?",
+      "scene": "the brown monkey rubbing fingers in the money gesture, no text"
+    },
+    {
+      "file": "2_42.jpg",
+      "startSec": 162.64,
+      "text": "Entre 45 y 70.000 euros.",
+      "scene": "the brown monkey holding a solid stack of euro coins and bills, satisfied, no text"
+    },
+    {
+      "file": "2_45.jpg",
+      "startSec": 165.36,
+      "text": "Oficialmente, el fontanero mejor pagado de la historia.",
+      "scene": "the brown monkey plumber standing proud with a shiny winner medal around its neck, no text"
+    },
+    {
+      "file": "2_49.jpg",
+      "startSec": 169.1,
+      "text": "Espera un momento,",
+      "scene": "the brown monkey holding up one hand in a firm 'stop, wait a moment' gesture, serious, no text"
+    },
+    {
+      "file": "2_50.jpg",
+      "startSec": 170.44,
+      "text": "porque seguro que estás pensando en otro trabajo famoso,",
+      "scene": "the brown monkey with a thought bubble above its head, pondering, no text"
+    },
+    {
+      "file": "2_53.jpg",
+      "startSec": 173.54,
+      "text": "el experto en hablarle a Chat GPT,",
+      "scene": "the brown monkey talking to a small friendly chatbot robot on a screen, no text"
+    },
+    {
+      "file": "2_56.jpg",
+      "startSec": 176.1,
+      "text": "el prompt engineer.",
+      "scene": "the brown monkey pointing at a glowing chat speech bubble icon, no text"
+    },
+    {
+      "file": "2_57.jpg",
+      "startSec": 177.82,
+      "text": "Pues malas noticias.",
+      "scene": "the brown monkey wincing with an awkward 'bad news' expression, no text"
+    },
+    {
+      "file": "2_59.jpg",
+      "startSec": 179.36,
+      "text": "Chat GPT ya se entiende solito.",
+      "scene": "a small friendly chatbot robot smiling confidently by itself on a screen, no monkey, no text"
+    },
+    {
+      "file": "3_01.jpg",
+      "startSec": 181.72,
+      "text": "Ese trabajo se está borrando del mapa.",
+      "scene": "a wooden signpost with a label being erased and fading away into nothing, no text"
+    },
+    {
+      "file": "3_04.jpg",
+      "startSec": 184.04,
+      "text": "Así que no pierdas ni un minuto ahí.",
+      "scene": "the brown monkey wagging its finger side to side saying no, serious, no text"
+    },
+    {
+      "file": "3_06.jpg",
+      "startSec": 186.74,
+      "text": "Seguimos subiendo.",
+      "scene": "the brown monkey climbing up a set of stairs with determination, no text"
+    },
+    {
+      "file": "3_08.jpg",
+      "startSec": 188.06,
+      "text": "Y a partir de aquí, esto se pone muy serio.",
+      "scene": "the brown monkey with a very serious focused determined face, sleeves rolled up, no text"
+    },
+    {
+      "file": "3_11.jpg",
+      "startSec": 191.3,
+      "text": "Número cuatro.",
+      "scene": "a big bold number 4 with a spotlight, minimal, no text"
+    },
+    {
+      "file": "3_12.jpg",
+      "startSec": 192.62,
+      "text": "El que enseña a ver a las máquinas.",
+      "scene": "the brown monkey placing a pair of glasses onto a friendly camera-robot, no text"
+    },
+    {
+      "file": "3_15.jpg",
+      "startSec": 195.14,
+      "text": "¿Y qué hace un ingeniero de visión?",
+      "scene": "the brown monkey shrugging with a camera in hand, questioning, no text"
+    },
+    {
+      "file": "3_17.jpg",
+      "startSec": 197.74,
+      "text": "Algo que suena a magia.",
+      "scene": "the brown monkey dressed as a magician pulling sparkles out of a camera, magical, no text"
+    },
+    {
+      "file": "3_19.jpg",
+      "startSec": 199.48,
+      "text": "Consigue que un ordenador mire una foto y entienda que hay dentro.",
+      "scene": "a cartoon computer screen with a big eye looking closely at a photograph, no text"
+    },
+    {
+      "file": "3_23.jpg",
+      "startSec": 203.28,
+      "text": "Por ejemplo, distinguir un perro de una magdalena.",
+      "scene": "a dog on the left and a muffin on the right side by side, the brown monkey looking confused between them, no text"
+    },
+    {
+      "file": "3_26.jpg",
+      "startSec": 206.5,
+      "text": "No te rías, que es más difícil de lo que crees.",
+      "scene": "the brown monkey with a serious face wagging its finger, a small dog and a muffin beside it, no text"
+    },
+    {
+      "file": "3_29.jpg",
+      "startSec": 209.62,
+      "text": "Gracias a él, existen los coches que conducen solos",
+      "scene": "a cute self-driving cartoon car with a big eye on top driving by itself, no text"
+    },
+    {
+      "file": "3_32.jpg",
+      "startSec": 212.3,
+      "text": "y las cámaras que te reconocen la cara.",
+      "scene": "a camera scanning a smiling face with a friendly scan beam, no text"
+    },
+    {
+      "file": "3_34.jpg",
+      "startSec": 214.94,
+      "text": "¿Y qué necesitas para esto?",
+      "scene": "the brown monkey in a thinking pose with a question mark, no text"
+    },
+    {
+      "file": "3_37.jpg",
+      "startSec": 217.06,
+      "text": "Aquí ya subimos el listón,",
+      "scene": "the brown monkey lifting a bar higher, raising the level, effortful, no text"
+    },
+    {
+      "file": "3_38.jpg",
+      "startSec": 218.52,
+      "text": "programación de verdad.",
+      "scene": "the brown monkey typing serious real code on a computer, focused, no text"
+    },
+    {
+      "file": "3_40.jpg",
+      "startSec": 220.28,
+      "text": "Y ahora sí, matemáticas.",
+      "scene": "the brown monkey surrounded by floating math symbols and equations, slightly overwhelmed, no text"
+    },
+    {
+      "file": "3_42.jpg",
+      "startSec": 222.4,
+      "text": "Por eso su dificultad ya es alta.",
+      "scene": "the brown monkey next to a difficulty gauge with the needle pointing high into the red zone, no text"
+    },
+    {
+      "file": "3_44.jpg",
+      "startSec": 224.76,
+      "text": "Aquí ya se suda.",
+      "scene": "the brown monkey sweating with effort at a desk, working hard, no text"
+    },
+    {
+      "file": "3_46.jpg",
+      "startSec": 226.56,
+      "text": "Tu primer proyecto podría ser una app que mire una foto",
+      "scene": "the brown monkey holding a phone running a simple photo app, no text"
+    },
+    {
+      "file": "3_49.jpg",
+      "startSec": 229.32,
+      "text": "y diga si es un gato o un perro.",
+      "scene": "a phone screen showing a cat on one side and a dog on the other being identified, no text"
+    },
+    {
+      "file": "3_51.jpg",
+      "startSec": 231.74,
+      "text": "Esa tontería es la base de absolutamente todo.",
+      "scene": "the brown monkey proudly holding a single foundation building block, no text"
+    },
+    {
+      "file": "3_55.jpg",
+      "startSec": 235.16,
+      "text": "¿Y cuánto paga enseñarle a ver a una máquina?",
+      "scene": "the brown monkey rubbing fingers in the money gesture, no text"
+    },
+    {
+      "file": "3_58.jpg",
+      "startSec": 238.24,
+      "text": "Agárrate.",
+      "scene": "the brown monkey bracing itself and gripping a chair, wide eyes, no text"
+    },
+    {
+      "file": "3_59.jpg",
+      "startSec": 239.32,
+      "text": "De 140 a 208.000 dólares.",
+      "scene": "the brown monkey shocked at a large bank check covered in dollar signs, big amount, no text"
+    },
+    {
+      "file": "4_03.jpg",
+      "startSec": 243.14,
+      "text": "Número tres.",
+      "scene": "a big bold number 3 with a spotlight, minimal, no text"
+    },
+    {
+      "file": "4_04.jpg",
+      "startSec": 244.3,
+      "text": "El que le pone cuerpo a la máquina.",
+      "scene": "the brown monkey assembling a friendly robot body with a wrench, no text"
+    },
+    {
+      "file": "4_05.jpg",
+      "startSec": 245.92,
+      "text": "Porque hasta ahora nuestra inteligencia artificial",
+      "scene": "the brown monkey pointing at a floating screen with a tiny face inside it, no text"
+    },
+    {
+      "file": "4_08.jpg",
+      "startSec": 248.78,
+      "text": "era sólo una bocecita atrapada en una pantalla.",
+      "scene": "a little cartoon face trapped inside a computer screen looking out, no text"
+    },
+    {
+      "file": "4_12.jpg",
+      "startSec": 252.06,
+      "text": "¿Y qué hace este ingeniero?",
+      "scene": "the brown monkey shrugging with a wrench, questioning, no text"
+    },
+    {
+      "file": "4_14.jpg",
+      "startSec": 254.06,
+      "text": "Ne construye un cuerpo como el Dr. Frankenstein, pero coserando.",
+      "scene": "the brown monkey dressed as Dr Frankenstein assembling a robot while a dollar sign floats nearby, funny, no text"
+    },
+    {
+      "file": "4_18.jpg",
+      "startSec": 258.68,
+      "text": "Le pone brazos, piernas, ruedas y sensores",
+      "scene": "a friendly robot with clearly separate arms, legs, wheels and sensors, the monkey adding a part, no text"
+    },
+    {
+      "file": "4_21.jpg",
+      "startSec": 261.5,
+      "text": "y luego la suelta en fábricas, almacenes y hasta quirófonos.",
+      "scene": "a robot working happily in a factory, a warehouse and a hospital operating room, split scene, no text"
+    },
+    {
+      "file": "4_26.jpg",
+      "startSec": 266.3,
+      "text": "¿Y qué necesitas para dedicarte a la robótica?",
+      "scene": "the brown monkey in a thinking pose with a question mark, no text"
+    },
+    {
+      "file": "4_29.jpg",
+      "startSec": 269.34,
+      "text": "El pack completo, programación, electrónica y física.",
+      "scene": "the brown monkey juggling a laptop, an electronic circuit board and a physics atom symbol, no text"
+    },
+    {
+      "file": "4_32.jpg",
+      "startSec": 272.76,
+      "text": "Por eso su dificultad es muy alta.",
+      "scene": "the brown monkey next to a difficulty gauge with the needle pushed to the very high dark red zone, no text"
+    },
+    {
+      "file": "4_35.jpg",
+      "startSec": 275.66,
+      "text": "Es sin discusión el trabajo más exigente de la lista.",
+      "scene": "the brown monkey exhausted while lifting a very heavy block labelled with sweat drops, effort, no text"
+    },
+    {
+      "file": "4_39.jpg",
+      "startSec": 279.5,
+      "text": "Si te pica la curiosidad empieza por lo clásico.",
+      "scene": "the brown monkey pointing helpfully at an idea, encouraging, no text"
+    },
+    {
+      "file": "4_42.jpg",
+      "startSec": 282.66,
+      "text": "Un robot de cartón que siga una línea negra por el suelo.",
+      "scene": "a little cardboard robot following a black line drawn on the floor, cute and simple, no text"
+    },
+    {
+      "file": "4_46.jpg",
+      "startSec": 286.02,
+      "text": "Todos los cracks empezaron justo ahí.",
+      "scene": "the brown monkey giving a nostalgic proud thumbs up next to the cardboard robot, no text"
+    },
+    {
+      "file": "4_49.jpg",
+      "startSec": 289.24,
+      "text": "¿Y el sueldo de un ingeniero de robótica?",
+      "scene": "the brown monkey rubbing fingers in the money gesture, no text"
+    },
+    {
+      "file": "4_51.jpg",
+      "startSec": 291.66,
+      "text": "Más de 180.000 dólares por darle vida a la máquina.",
+      "scene": "the brown monkey holding a large stack of dollar bills, impressed, no text"
+    },
+    {
+      "file": "4_56.jpg",
+      "startSec": 296.02,
+      "text": "Número dos.",
+      "scene": "a big bold number 2 with a spotlight, minimal, no text"
+    },
+    {
+      "file": "4_57.jpg",
+      "startSec": 297.2,
+      "text": "El entrenador del cerebro.",
+      "scene": "the brown monkey acting as a personal trainer next to a giant cartoon brain, whistle in mouth, no text"
+    },
+    {
+      "file": "4_58.jpg",
+      "startSec": 298.94,
+      "text": "Este coge un cerebro artificial completamente vacío",
+      "scene": "the brown monkey holding an empty transparent cartoon brain, curious, no text"
+    },
+    {
+      "file": "5_01.jpg",
+      "startSec": 301.86,
+      "text": "y lo entrena.",
+      "scene": "the brown monkey coaching a giant brain that is lifting a heavy dumbbell, sweat drops, no text"
+    },
+    {
+      "file": "5_03.jpg",
+      "startSec": 303.34,
+      "text": "Es como un entrenador personal pero para robots.",
+      "scene": "the brown monkey blowing a whistle while a robot does push-ups, gym vibe, no text"
+    },
+    {
+      "file": "5_06.jpg",
+      "startSec": 306.68,
+      "text": "Una más máquina, una más.",
+      "scene": "the brown monkey shouting encouragement at a giant brain doing exercise reps, energetic, no text"
+    },
+    {
+      "file": "5_09.jpg",
+      "startSec": 309.08,
+      "text": "¿Qué hace exactamente?",
+      "scene": "the brown monkey shrugging with a questioning face, no text"
+    },
+    {
+      "file": "5_11.jpg",
+      "startSec": 311.02,
+      "text": "Le mete millones de ejemplos una y otra vez hasta que la máquina aprende sola.",
+      "scene": "the brown monkey feeding stacks of little data cards to a giant brain that is growing smarter, no text"
+    },
+    {
+      "file": "5_15.jpg",
+      "startSec": 315.9,
+      "text": "¿Y qué necesitas para entrenar cerebros?",
+      "scene": "the brown monkey in a thinking pose with a question mark, no text"
+    },
+    {
+      "file": "5_18.jpg",
+      "startSec": 318.28,
+      "text": "Programación y muchísimas matemáticas.",
+      "scene": "the brown monkey half-buried under a pile of math equations and code, overwhelmed but game, no text"
+    },
+    {
+      "file": "5_21.jpg",
+      "startSec": 321.06,
+      "text": "Aquí no hay ningún atajo.",
+      "scene": "the brown monkey blocking a shortcut path with a barrier, 'no shortcuts', no text"
+    },
+    {
+      "file": "5_22.jpg",
+      "startSec": 322.72,
+      "text": "Por eso su dificultad es brutal.",
+      "scene": "the brown monkey next to a difficulty gauge with the needle maxed out in the darkest red zone, no text"
+    },
+    {
+      "file": "5_24.jpg",
+      "startSec": 324.94,
+      "text": "Es uno de los perfiles más técnicos que existen en el planeta.",
+      "scene": "the brown monkey wearing nerdy glasses surrounded by gears and technical diagrams, no text"
+    },
+    {
+      "file": "5_28.jpg",
+      "startSec": 328.7,
+      "text": "¿Quieres saborearlo?",
+      "scene": "the brown monkey with a curious eager expression, leaning in, no text"
+    },
+    {
+      "file": "5_29.jpg",
+      "startSec": 329.58,
+      "text": "Crea una inteligencia que te recomiende películas según lo que ya te gusta.",
+      "scene": "the brown monkey pointing at a screen showing several movie posters recommended, no text"
+    },
+    {
+      "file": "5_34.jpg",
+      "startSec": 334.14,
+      "text": "Sí, el famoso truco de Netflix y sí, puedes hacerlo tú.",
+      "scene": "the brown monkey pointing at itself proudly in front of a red streaming-service style screen with movie thumbnails, no text"
+    },
+    {
+      "file": "5_38.jpg",
+      "startSec": 338.2,
+      "text": "Y ahora sujetate al sueldo.",
+      "scene": "the brown monkey bracing itself gripping a chair with wide eyes, no text"
+    },
+    {
+      "file": "5_40.jpg",
+      "startSec": 340.06,
+      "text": "En empresas como Meta o OpenAI,",
+      "scene": "two big abstract tech-company skyscrapers side by side, impressive, no text"
+    },
+    {
+      "file": "5_42.jpg",
+      "startSec": 342.56,
+      "text": "un entrenador de estos gana hasta 490.000 dólares al año.",
+      "scene": "the brown monkey stunned at a huge bank check covered in dollar signs, enormous amount, no text"
+    },
+    {
+      "file": "5_46.jpg",
+      "startSec": 346.76,
+      "text": "Medio millón por entrenar a una máquina.",
+      "scene": "the brown monkey fainting backwards with dollar signs and a brain floating above, funny, no text"
+    },
+    {
+      "file": "5_50.jpg",
+      "startSec": 350.28,
+      "text": "Y por fin, el número uno.",
+      "scene": "a big bold number 1 lit by a dramatic spotlight, minimal, no text"
+    },
+    {
+      "file": "5_52.jpg",
+      "startSec": 352.46,
+      "text": "El jefe supremo de la inteligencia artificial.",
+      "scene": "the brown monkey sitting on a throne wearing a crown made of computer chips, regal, no text"
+    },
+    {
+      "file": "5_55.jpg",
+      "startSec": 355.46,
+      "text": "Este es el que manda sobre todos los anteriores.",
+      "scene": "the brown monkey on a throne pointing down at smaller worker figures below, commanding, no text"
+    },
+    {
+      "file": "5_57.jpg",
+      "startSec": 357.82,
+      "text": "El jefe final, el tanos de la oficina.",
+      "scene": "the brown monkey as a powerful boss wearing a big golden gauntlet, dramatic villain-boss pose, no text"
+    },
+    {
+      "file": "6_01.jpg",
+      "startSec": 361.22,
+      "text": "¿Y qué hace un jefe de inteligencia artificial?",
+      "scene": "the brown monkey on a throne gesturing while giving orders, no text"
+    },
+    {
+      "file": "6_04.jpg",
+      "startSec": 364.08,
+      "text": "Toma las grandes decisiones. Decide qué se construye, con qué datos se hace,",
+      "scene": "the brown monkey at a big executive desk with blueprints and charts, deciding, no text"
+    },
+    {
+      "file": "6_08.jpg",
+      "startSec": 368.62,
+      "text": "y para ganar cuánto dinero.",
+      "scene": "the brown monkey holding two big money bags, satisfied, no text"
+    },
+    {
+      "file": "6_10.jpg",
+      "startSec": 370.62,
+      "text": "Dirige a los fontaneros, a los entrenadores y a los ingenieros, a todos.",
+      "scene": "the brown monkey boss directing a group of little worker monkeys (a plumber, a trainer, an engineer), no text"
+    },
+    {
+      "file": "6_15.jpg",
+      "startSec": 375.26,
+      "text": "Pero aquí viene lo más curioso de todo.",
+      "scene": "the brown monkey raising one eyebrow with a curious intrigued look, no text"
+    },
+    {
+      "file": "6_17.jpg",
+      "startSec": 377.48,
+      "text": "Este señor ni siquiera programa.",
+      "scene": "the brown monkey pushing a laptop away and crossing its arms, 'I don't code', no text"
+    },
+    {
+      "file": "6_20.jpg",
+      "startSec": 380.14,
+      "text": "Entonces, ¿qué necesitas para llegar a jefe de inteligencia artificial?",
+      "scene": "the brown monkey thinking big with a grand thought bubble, no text"
+    },
+    {
+      "file": "6_24.jpg",
+      "startSec": 384.12,
+      "text": "Otra cosa completamente distinta.",
+      "scene": "the brown monkey shrugging and pointing at a completely different path, no text"
+    },
+    {
+      "file": "6_26.jpg",
+      "startSec": 386.48,
+      "text": "Necesitas visión de negocio, mucho liderazgo,",
+      "scene": "the brown monkey holding a telescope like a visionary leader, confident pose, no text"
+    },
+    {
+      "file": "6_29.jpg",
+      "startSec": 389.38,
+      "text": "y entender de tecnología más que nadie en la sala.",
+      "scene": "the brown monkey with a head full of glowing tech icons and gears, very smart, no text"
+    },
+    {
+      "file": "6_32.jpg",
+      "startSec": 392.56,
+      "text": "¿Y cómo de difíciles llegar aquí?",
+      "scene": "the brown monkey next to a difficulty gauge whose needle flies off the chart entirely, no text"
+    },
+    {
+      "file": "6_34.jpg",
+      "startSec": 394.82,
+      "text": "Tanto que no se mide en un curso.",
+      "scene": "the brown monkey holding a course diploma with a big red X, 'not from a course', no text"
+    },
+    {
+      "file": "6_37.jpg",
+      "startSec": 397.0,
+      "text": "Se mide en 10 o 15 años de carrera.",
+      "scene": "a long calendar and a big hourglass side by side showing many years passing, no text"
+    },
+    {
+      "file": "6_39.jpg",
+      "startSec": 399.28,
+      "text": "Porque a este puesto no se estudia. A este puesto se llega.",
+      "scene": "the brown monkey triumphantly reaching the top of a tall mountain, arms raised, no text"
+    },
+    {
+      "file": "6_43.jpg",
+      "startSec": 403.6,
+      "text": "Aún así, puedes empezar a entrenar la mente desde hoy.",
+      "scene": "the brown monkey sitting calmly meditating and thinking, training its mind, no text"
+    },
+    {
+      "file": "6_46.jpg",
+      "startSec": 406.94,
+      "text": "Coge la panadería de tu barrio,",
+      "scene": "a small cute neighbourhood bakery shopfront, cozy, no text"
+    },
+    {
+      "file": "6_48.jpg",
+      "startSec": 408.62,
+      "text": "y decide dónde le meterías inteligencia artificial para ganar más dinero.",
+      "scene": "the brown monkey placing a small helpful robot inside the little bakery, no text"
+    },
+    {
+      "file": "6_52.jpg",
+      "startSec": 412.74,
+      "text": "Enhorabona, acabas de pensar como un jefe de inteligencia artificial.",
+      "scene": "the brown monkey wearing a tiny crown, proud, thinking like a boss, no text"
+    },
+    {
+      "file": "6_57.jpg",
+      "startSec": 417.1,
+      "text": "¿Y su sueldo?",
+      "scene": "the brown monkey rubbing fingers in the money gesture, no text"
+    },
+    {
+      "file": "6_58.jpg",
+      "startSec": 418.44,
+      "text": "El que cierre al vídeo por todo lo alto.",
+      "scene": "the brown monkey presenting grandly with both arms, showman pose, no text"
+    },
+    {
+      "file": "7_00.jpg",
+      "startSec": 420.62,
+      "text": "De media, 350.000 dólares.",
+      "scene": "the brown monkey impressed at a big bank check covered in dollar signs, no text"
+    },
+    {
+      "file": "7_03.jpg",
+      "startSec": 423.62,
+      "text": "Pero un jefe senior en Google puede llegar a 893.000,",
+      "scene": "the brown monkey with eyes popping out at an even bigger giant bank check overflowing with dollar signs, no text"
+    },
+    {
+      "file": "7_08.jpg",
+      "startSec": 428.14,
+      "text": "casi un millón de dólares, al año, por mandar sobre robots.",
+      "scene": "the brown monkey on a throne under a rain of money with little robots bowing around it, no text"
+    },
+    {
+      "file": "7_12.jpg",
+      "startSec": 432.84,
+      "text": "Y hasta aquí, siete trabajos, siete sueldos,",
+      "scene": "the brown monkey standing proudly next to a row of seven little job icons, no text"
+    },
+    {
+      "file": "7_16.jpg",
+      "startSec": 436.3,
+      "text": "siete formas distintas de flipar,",
+      "scene": "the brown monkey with its mind blown, the top of its head popping off in a cartoon way, no text"
+    },
+    {
+      "file": "7_18.jpg",
+      "startSec": 438.38,
+      "text": "y sabes cuál es la mejor noticia,",
+      "scene": "the brown monkey with one finger raised and a bright smile, 'good news', no text"
+    },
+    {
+      "file": "7_20.jpg",
+      "startSec": 440.06,
+      "text": "que los de abajo, los más fáciles,",
+      "scene": "the brown monkey pointing at the low easy green end of a difficulty scale, encouraging, no text"
+    },
+    {
+      "file": "7_22.jpg",
+      "startSec": 442.64,
+      "text": "los puedes empezar este mismo fin de semana.",
+      "scene": "the brown monkey excited next to a calendar with the weekend circled, no text"
+    },
+    {
+      "file": "7_25.jpg",
+      "startSec": 445.48,
+      "text": "Te he dado un proyecto para cada uno,",
+      "scene": "the brown monkey holding a checklist with seven ticked project items, no text"
+    },
+    {
+      "file": "7_27.jpg",
+      "startSec": 447.54,
+      "text": "así que ya no tienes excusas.",
+      "scene": "the brown monkey pointing straight at the viewer with a friendly 'no excuses' face, no text"
+    },
+    {
+      "file": "7_29.jpg",
+      "startSec": 449.74,
+      "text": "Ahora dime tú una cosa en los comentarios.",
+      "scene": "the brown monkey pointing down at a comment box area below, inviting, no text"
+    },
+    {
+      "file": "7_32.jpg",
+      "startSec": 452.06,
+      "text": "¿Cuál de los siete harías?",
+      "scene": "the brown monkey shrugging toward the viewer with seven little job icons around, asking a question, no text"
+    },
+    {
+      "file": "7_33.jpg",
+      "startSec": 453.9,
+      "text": "Y suscríbete que la semana que viene,",
+      "scene": "the brown monkey pointing at a big red rounded SUSCRIBETE button in Spanish, cheerful"
+    },
+    {
+      "file": "7_35.jpg",
+      "startSec": 455.8,
+      "text": "te enseño hacer fontanero de datos desde cero, sin carrera.",
+      "scene": "the brown monkey dressed as a plumber waving goodbye with a wrench, see-you-next-week vibe, no text"
+    }
+  ]
+}

@@ -1,0 +1,541 @@
+{
+  "video": "hacker-novato-a-dios",
+  "style_base": "Simple crude hand-drawn cartoon in the style of the 'Ecomonos' youtube channel. A recurring brown cartoon monkey character with big round white eyes and black pupils, thick bold black outlines, flat colors, expressive exaggerated faces - but in a DARK HACKER setting: dark near-black navy background, moody lighting, glowing green terminal-code and subtle red accents lighting the scene, the monkey often wearing a dark grey hoodie. Comedy-meets-noir tone. The SAME monkey character appears consistently in every image. CRITICAL TEXT RULE: prefer NO text, labels or signs at all - tell the scene through the monkey's action and expression and simple symbols. If a short text is truly necessary it MUST be in perfect SPANISH exactly as specified, in large simple block letters - NEVER English.",
+  "note": "Progresion novato -> nivel dios, estilo EXACTO tecno, fondos variados por etapa.",
+  "frames": [
+    {
+      "file": "0_00.jpg",
+      "startSec": 0.0,
+      "text": "Todo el mundo quiere el hacker de nivel dios. Nadie quiere hablar del camino real hasta llegar ahí.",
+      "scene": "a glowing golden god-tier version of a hooded monkey hacker on a pedestal, tiny novice monkey looking up at it from far below, no text"
+    },
+    {
+      "file": "0_05.jpg",
+      "startSec": 5.46,
+      "text": "Y ese camino tiene etapas exactas, con tiempos reales, no promesas de Odd hacker en un mes.",
+      "scene": "a glowing level-up progress bar with five stages, all locked except the first, no text"
+    },
+    {
+      "file": "0_12.jpg",
+      "startSec": 12.46,
+      "text": "Esta es la hoja de ruta real etapa por etapa.",
+      "scene": "a glowing winding road map with five numbered checkpoints stretching into the distance, no text"
+    },
+    {
+      "file": "0_16.jpg",
+      "startSec": 16.16,
+      "text": "Etapa 1.",
+      "scene": "a large glowing green stage number '1' floating in darkness, no other text"
+    },
+    {
+      "file": "0_17.jpg",
+      "startSec": 17.38,
+      "text": "Los primeros tres meses.",
+      "scene": "big green Spanish caption 'LOS PRIMEROS TRES MESES' over a dim bedroom background, no other text"
+    },
+    {
+      "file": "0_19.jpg",
+      "startSec": 19.08,
+      "text": "Aquí no tocas nada avanzado todavía.",
+      "scene": "big green Spanish caption 'LOS PRIMEROS TRES MESES' over a dim bedroom background, no other text"
+    },
+    {
+      "file": "0_21.jpg",
+      "startSec": 21.48,
+      "text": "Aprendes cómo funciona un ordenador por dentro,",
+      "scene": "a small novice a hooded monkey hacker, sitting quietly at a plain desk, dim room, no text"
+    },
+    {
+      "file": "0_24.jpg",
+      "startSec": 24.04,
+      "text": "que es un sistema operativo,",
+      "scene": "the novice monkey studying a glowing computer diagram floating above the desk, no text"
+    },
+    {
+      "file": "0_25.jpg",
+      "startSec": 25.74,
+      "text": "que es una red,",
+      "scene": "a glowing wireframe operating-system icon floating in front of the monkey, no text"
+    },
+    {
+      "file": "0_26.jpg",
+      "startSec": 26.92,
+      "text": "que es un puerto abierto.",
+      "scene": "a glowing network diagram with connected nodes floating in front of the monkey, no text"
+    },
+    {
+      "file": "0_28.jpg",
+      "startSec": 28.6,
+      "text": "Instalas Linux,",
+      "scene": "a single glowing open-port icon floating in front of the monkey, no text"
+    },
+    {
+      "file": "0_29.jpg",
+      "startSec": 29.76,
+      "text": "aunque no entiendas ni la mitad de lo que ves en pantalla.",
+      "scene": "a single glowing open-port icon floating in front of the monkey, no text"
+    },
+    {
+      "file": "0_32.jpg",
+      "startSec": 32.64,
+      "text": "La mayoría abandona aquí, porque es la etapa menos emocionante de todas.",
+      "scene": "a glowing penguin Linux logo appearing on the monkey's screen, no text"
+    },
+    {
+      "file": "0_37.jpg",
+      "startSec": 37.0,
+      "text": "Si aguantas estos tres meses aburridos,",
+      "scene": "the monkey squinting confused at a wall of glowing terminal text, no text"
+    },
+    {
+      "file": "0_39.jpg",
+      "startSec": 39.44,
+      "text": "llavas por delante del 90 % de la gente que lo intenta.",
+      "scene": "several other tiny monkey silhouettes fading away into darkness around the desk, giving up, no text"
+    },
+    {
+      "file": "0_43.jpg",
+      "startSec": 43.4,
+      "text": "Etápados.",
+      "scene": "the novice monkey still sitting there alone, calendar showing three months passing, no text"
+    },
+    {
+      "file": "0_44.jpg",
+      "startSec": 44.56,
+      "text": "Del mes 4 al mes 12.",
+      "scene": "a glowing '90%' marker behind the monkey, most others have vanished, no text"
+    },
+    {
+      "file": "0_46.jpg",
+      "startSec": 46.52,
+      "text": "Empiezas a practicar de verdad,",
+      "scene": "a glowing '90%' marker behind the monkey, most others have vanished, no text"
+    },
+    {
+      "file": "0_48.jpg",
+      "startSec": 48.26,
+      "text": "en plataformas legales como Trai, Hackney y Hackdebox.",
+      "scene": "a large glowing green stage number '2' floating in darkness, no other text"
+    },
+    {
+      "file": "0_51.jpg",
+      "startSec": 51.78,
+      "text": "Rompes tu primera máquina virtual,",
+      "scene": "big green Spanish caption 'DEL MES 4 AL MES 12' over a glowing training-arena background, no other text"
+    },
+    {
+      "file": "0_53.jpg",
+      "startSec": 53.92,
+      "text": "y luego la segunda,",
+      "scene": "the monkey now inside a glowing arcade-style training arena full of screens, no text"
+    },
+    {
+      "file": "0_55.jpg",
+      "startSec": 55.08,
+      "text": "y luego veinte más.",
+      "scene": "a glowing laptop screen showing stylized 'TryHackMe' and 'HackTheBox' icons side by side, no text"
+    },
+    {
+      "file": "0_56.jpg",
+      "startSec": 56.7,
+      "text": "Aprendes a leer código,",
+      "scene": "the monkey cracking open a glowing virtual-machine box, first success, no text"
+    },
+    {
+      "file": "0_58.jpg",
+      "startSec": 58.08,
+      "text": "aunque sea mal,",
+      "scene": "the monkey cracking open a glowing virtual-machine box, first success, no text"
+    },
+    {
+      "file": "0_59.jpg",
+      "startSec": 59.18,
+      "text": "aprendes a buscar en foros técnicos sin rendirtirte a la primera.",
+      "scene": "a second glowing virtual-machine box being cracked open, no text"
+    },
+    {
+      "file": "1_02.jpg",
+      "startSec": 62.42,
+      "text": "En este punto, ya puedes intentar tu primera certificación de entrada, tipo Ejo -TAPT o Security Plus.",
+      "scene": "a whole row of twenty glowing cracked-open boxes behind the monkey, no text"
+    },
+    {
+      "file": "1_09.jpg",
+      "startSec": 69.1,
+      "text": "Aquí es donde la mayoría de la gente que sí aguantó la etapa 1,",
+      "scene": "the monkey squinting at glowing lines of code, slowly improving, no text"
+    },
+    {
+      "file": "1_12.jpg",
+      "startSec": 72.54,
+      "text": "se atasca de verdad.",
+      "scene": "the monkey searching a glowing forum interface, persistent, no text"
+    },
+    {
+      "file": "1_14.jpg",
+      "startSec": 74.22,
+      "text": "Porque ya no es aburrido,",
+      "scene": "a glowing certificate scroll appearing faintly, first attempt, big green Spanish caption 'eJPT / Security+'"
+    },
+    {
+      "file": "1_15.jpg",
+      "startSec": 75.64,
+      "text": "es difícil y son cosas distintas.",
+      "scene": "a glowing certificate scroll appearing faintly, first attempt, big green Spanish caption 'eJPT / Security+'"
+    },
+    {
+      "file": "1_19.jpg",
+      "startSec": 79.16,
+      "text": "Etapa 3.",
+      "scene": "other monkeys who survived stage one now struggling and stopping here, dim arena corner, no text"
+    },
+    {
+      "file": "1_20.jpg",
+      "startSec": 80.32,
+      "text": "Del año 1 al año 2.",
+      "scene": "the monkey looking frustrated at a much harder glowing puzzle wall, no text"
+    },
+    {
+      "file": "1_22.jpg",
+      "startSec": 82.08,
+      "text": "Ya sabes lo suficiente para tu primer trabajo real. No como hacker de élite,",
+      "scene": "the monkey realizing this stage is a different kind of hard, thoughtful expression, no text"
+    },
+    {
+      "file": "1_26.jpg",
+      "startSec": 86.64,
+      "text": "como analista junior de seguridad,",
+      "scene": "a large glowing green stage number '3' floating in darkness, no other text"
+    },
+    {
+      "file": "1_28.jpg",
+      "startSec": 88.64,
+      "text": "o como soporte técnico con interés en seguridad.",
+      "scene": "big green Spanish caption 'DEL AÑO 1 AL AÑO 2' over a bright office background, no other text"
+    },
+    {
+      "file": "1_31.jpg",
+      "startSec": 91.68,
+      "text": "Ese primer trabajo es la etapa más importante de todas, aunque no lo parezca,",
+      "scene": "big green Spanish caption 'DEL AÑO 1 AL AÑO 2' over a bright office background, no other text"
+    },
+    {
+      "file": "1_35.jpg",
+      "startSec": 95.64,
+      "text": "porque ahí aprendes cómo funciona una empresa de verdad,",
+      "scene": "the monkey now wearing a junior ID badge, sitting at a real office desk, daylight, no text"
+    },
+    {
+      "file": "1_38.jpg",
+      "startSec": 98.84,
+      "text": "no un laboratorio de prácticas,",
+      "scene": "a glowing junior-analyst badge on the monkey's chest, professional office, no text"
+    },
+    {
+      "file": "1_40.jpg",
+      "startSec": 100.7,
+      "text": "ves incidentes reales, ves presión real,",
+      "scene": "the same monkey at a technical-support desk with a small security badge, office, no text"
+    },
+    {
+      "file": "1_43.jpg",
+      "startSec": 103.74,
+      "text": "ves que la teoría y la realidad no siempre coinciden.",
+      "scene": "the monkey's badge glowing importantly among a wall of other office badges, no text"
+    },
+    {
+      "file": "1_46.jpg",
+      "startSec": 106.88,
+      "text": "La mayoría de los currículums fallan aquí, no por falta de conocimiento,",
+      "scene": "the monkey watching a real glowing incident alert on an office screen, tense first day, no text"
+    },
+    {
+      "file": "1_50.jpg",
+      "startSec": 110.66,
+      "text": "sino por no tener ningún proyecto propio que enseñar. Un perfil de GitHub, con tres proyectos propios,",
+      "scene": "the monkey watching a real glowing incident alert on an office screen, tense first day, no text"
+    },
+    {
+      "file": "1_56.jpg",
+      "startSec": 116.64,
+      "text": "pesa más que un título sin nada detrás.",
+      "scene": "the monkey standing in a real office, wireframe practice-lab dissolving behind, no text"
+    },
+    {
+      "file": "1_59.jpg",
+      "startSec": 119.66,
+      "text": "Etapa 4.",
+      "scene": "the monkey looking stressed under a glowing pressure-gauge icon in the office, no text"
+    },
+    {
+      "file": "2_00.jpg",
+      "startSec": 120.88,
+      "text": "Del año 2 al año 4.",
+      "scene": "a glowing scale comparing 'teoría' and 'realidad' tipping unevenly, office background, no text"
+    },
+    {
+      "file": "2_02.jpg",
+      "startSec": 122.42,
+      "text": "Ahora te especializas,",
+      "scene": "a pile of glowing rejected résumé icons around a confused monkey, no text"
+    },
+    {
+      "file": "2_04.jpg",
+      "startSec": 124.06,
+      "text": "y aquí se abre la bifurcación real.",
+      "scene": "a glowing GitHub-style profile icon with three small project icons shining brighter than a plain diploma icon, no text"
+    },
+    {
+      "file": "2_06.jpg",
+      "startSec": 126.38,
+      "text": "Unos van hacia el Pentestin,",
+      "scene": "a glowing GitHub-style profile icon with three small project icons shining brighter than a plain diploma icon, no text"
+    },
+    {
+      "file": "2_08.jpg",
+      "startSec": 128.22,
+      "text": "atacar sistemas con permiso para encontrar sus fallos.",
+      "scene": "a large glowing green stage number '4' floating in darkness, no other text"
+    },
+    {
+      "file": "2_11.jpg",
+      "startSec": 131.32,
+      "text": "Otros van hacia el Blue Team,",
+      "scene": "big green Spanish caption 'DEL AÑO 2 AL AÑO 4' over a glowing forked-path background, no other text"
+    },
+    {
+      "file": "2_12.jpg",
+      "startSec": 132.98,
+      "text": "defender sistemas,",
+      "scene": "the monkey standing at a glowing fork, more confident now, office lights behind, no text"
+    },
+    {
+      "file": "2_14.jpg",
+      "startSec": 134.16,
+      "text": "detectar ataques en tiempo real. Sacas tu primera certificación sería el OSCP si vas por ataque,",
+      "scene": "the monkey stepping toward a glowing red-tinted path labeled with an attack icon, no text"
+    },
+    {
+      "file": "2_20.jpg",
+      "startSec": 140.8,
+      "text": "o certificaciones de detección si vas por defensa.",
+      "scene": "a glowing red crosshair icon over a system diagram, pentesting path, no text"
+    },
+    {
+      "file": "2_23.jpg",
+      "startSec": 143.88,
+      "text": "Esta etapa es la que multiplica tu sueldo, no la primera,",
+      "scene": "a glowing red crosshair icon over a system diagram, pentesting path, no text"
+    },
+    {
+      "file": "2_27.jpg",
+      "startSec": 147.36,
+      "text": "esta.",
+      "scene": "the monkey instead stepping toward a glowing blue-tinted path with a shield icon, no text"
+    },
+    {
+      "file": "2_28.jpg",
+      "startSec": 148.52,
+      "text": "Un profesional en esta etapa ya gana el doble que en su primer trabajo si eligío bien su especialidad.",
+      "scene": "a glowing blue shield icon over a system diagram, detection path, no text"
+    },
+    {
+      "file": "2_34.jpg",
+      "startSec": 154.88,
+      "text": "Etapa 5.",
+      "scene": "the monkey holding a glowing OSCP certificate scroll on the red path, big green Spanish caption 'OSCP'"
+    },
+    {
+      "file": "2_36.jpg",
+      "startSec": 156.22,
+      "text": "Del año 4 en adelante.",
+      "scene": "the monkey holding a glowing detection-certification badge on the blue path, no text"
+    },
+    {
+      "file": "2_38.jpg",
+      "startSec": 158.14,
+      "text": "Aquí está el nivel dios.",
+      "scene": "a glowing salary bar chart doubling in height compared to the junior stage, no text"
+    },
+    {
+      "file": "2_39.jpg",
+      "startSec": 159.94,
+      "text": "No es alguien que sabe todos los trucos,",
+      "scene": "a glowing salary bar chart doubling in height compared to the junior stage, no text"
+    },
+    {
+      "file": "2_42.jpg",
+      "startSec": 162.14,
+      "text": "es alguien que ha visto tantos casos reales que reconoce el patrón en segundos,",
+      "scene": "the monkey standing taller, badge upgraded, glowing confidently, no text"
+    },
+    {
+      "file": "2_46.jpg",
+      "startSec": 166.62,
+      "text": "encuentra el fallo crítico que 10 personas más ya miraron y no vieran.",
+      "scene": "a large glowing green stage number '5' floating in darkness, no other text"
+    },
+    {
+      "file": "2_50.jpg",
+      "startSec": 170.98,
+      "text": "Compiten el Backbound y más alto,",
+      "scene": "big green Spanish caption 'NIVEL DIOS' over a glowing golden background, no other text"
+    },
+    {
+      "file": "2_53.jpg",
+      "startSec": 173.14,
+      "text": "los programas de Google,",
+      "scene": "a glowing golden-tinted a hooded monkey hacker, calm and all-seeing, standing above a sea of glowing code, no text"
+    },
+    {
+      "file": "2_54.jpg",
+      "startSec": 174.66,
+      "text": "Apple, Microsoft,",
+      "scene": "the golden monkey instantly spotting a single glowing red flaw among thousands of green lines, no text"
+    },
+    {
+      "file": "2_55.jpg",
+      "startSec": 175.88,
+      "text": "donde un solo fallo puede pagar 100 .000 dólares o más.",
+      "scene": "the golden monkey instantly spotting a single glowing red flaw among thousands of green lines, no text"
+    },
+    {
+      "file": "2_59.jpg",
+      "startSec": 179.16,
+      "text": "O lidera el red team de una empresa entera,",
+      "scene": "ten smaller monkey silhouettes having missed the same glowing flaw earlier, no text"
+    },
+    {
+      "file": "3_01.jpg",
+      "startSec": 181.68,
+      "text": "decidiendo qué se ataca y por qué.",
+      "scene": "a glowing bug-bounty trophy shelf labeled with Google, Apple and Microsoft logos style icons, no text"
+    },
+    {
+      "file": "3_04.jpg",
+      "startSec": 184.22,
+      "text": "Y lo más importante,",
+      "scene": "a glowing coin pile labeled with a giant dollar sign near the golden monkey, big green Spanish caption '100.000 $'"
+    },
+    {
+      "file": "3_05.jpg",
+      "startSec": 185.76,
+      "text": "sigue aprendiendo cada semana,",
+      "scene": "the golden monkey leading a small team of monkeys around a glowing strategy table, no text"
+    },
+    {
+      "file": "3_07.jpg",
+      "startSec": 187.64,
+      "text": "porque en este mundo, quien deja de aprender, se queda absoluto en menos de dos años.",
+      "scene": "the golden monkey pointing at a glowing target on a large network map, deciding what to attack, no text"
+    },
+    {
+      "file": "3_12.jpg",
+      "startSec": 192.9,
+      "text": "Capítulo final.",
+      "scene": "the golden monkey pointing at a glowing target on a large network map, deciding what to attack, no text"
+    },
+    {
+      "file": "3_14.jpg",
+      "startSec": 194.16,
+      "text": "¿Cuánto tarda de verdad?",
+      "scene": "the golden monkey still studying a new glowing screen every night, never stopping, no text"
+    },
+    {
+      "file": "3_15.jpg",
+      "startSec": 195.98,
+      "text": "La respuesta honesta,",
+      "scene": "a glowing hourglass with a two-year marker, an outdated monkey icon fading in the background, no text"
+    },
+    {
+      "file": "3_17.jpg",
+      "startSec": 197.4,
+      "text": "entre 3 y 5 años de trabajo constante,",
+      "scene": "a large glowing green chapter marker floating in darkness, no other text"
+    },
+    {
+      "file": "3_20.jpg",
+      "startSec": 200.38,
+      "text": "no de promesas de curso rápido.",
+      "scene": "big green Spanish caption '¿CUÁNTO TARDA DE VERDAD?' over a dark background, no other text"
+    },
+    {
+      "file": "3_22.jpg",
+      "startSec": 202.46,
+      "text": "Nadie llega a nivel dios en un fin de semana,",
+      "scene": "a glowing honest calendar stretching three to five years, no shortcuts, no text"
+    },
+    {
+      "file": "3_25.jpg",
+      "startSec": 205.14,
+      "text": "ni en un mes,",
+      "scene": "a glowing honest calendar stretching three to five years, no shortcuts, no text"
+    },
+    {
+      "file": "3_26.jpg",
+      "startSec": 206.06,
+      "text": "ni en un curso de 40 horas.",
+      "scene": "a glowing calendar showing three years passing steadily, no text"
+    },
+    {
+      "file": "3_28.jpg",
+      "startSec": 208.28,
+      "text": "Pero si empiezas hoy, con constancia real,",
+      "scene": "a glowing calendar showing five years passing steadily, no text"
+    },
+    {
+      "file": "3_31.jpg",
+      "startSec": 211.22,
+      "text": "dentro de un año ya estarás muy por delante de dónde estás ahora mismo.",
+      "scene": "a glowing crossed-out weekend icon, no shortcut here, no text"
+    },
+    {
+      "file": "3_35.jpg",
+      "startSec": 215.18,
+      "text": "La pregunta no es si tienes talento,",
+      "scene": "a glowing crossed-out single-month calendar icon, no text"
+    },
+    {
+      "file": "3_37.jpg",
+      "startSec": 217.66,
+      "text": "es si vas a aguantar la etapa 1, la aburrida,",
+      "scene": "a glowing crossed-out forty-hour course certificate icon, no text"
+    },
+    {
+      "file": "3_40.jpg",
+      "startSec": 220.7,
+      "text": "la que casi nadie termina.",
+      "scene": "a glowing crossed-out forty-hour course certificate icon, no text"
+    },
+    {
+      "file": "3_42.jpg",
+      "startSec": 222.94,
+      "text": "Si quieres empezar de verdad,",
+      "scene": "the novice monkey from the very start, now one year in, already ahead of a faded version of itself, no text"
+    },
+    {
+      "file": "3_44.jpg",
+      "startSec": 224.72,
+      "text": "trae Hackmy, Hack de Box,",
+      "scene": "the monkey looking back at the long glowing road map from stage one to stage five, no text"
+    },
+    {
+      "file": "3_46.jpg",
+      "startSec": 226.22,
+      "text": "son gratis para dar el primer paso hoy mismo.",
+      "scene": "the monkey standing right at the beginning of the road, stage one glowing brightest, decisive, no text"
+    },
+    {
+      "file": "3_49.jpg",
+      "startSec": 229.06,
+      "text": "Suscríbete,",
+      "scene": "a glowing laptop showing 'TryHackMe' and 'HackTheBox' icons, warm inviting light, big green Spanish caption 'EMPIEZA HOY'"
+    },
+    {
+      "file": "3_49_b.jpg",
+      "startSec": 229.96,
+      "text": "se viene mucho más de este camino.",
+      "scene": "the monkey stepping forward onto the glowing road map, journey beginning, big green Spanish caption 'SUSCRÍBETE'"
+    }
+  ]
+}
