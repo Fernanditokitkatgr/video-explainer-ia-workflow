@@ -16,6 +16,7 @@ import { EmpleosDelFuturo } from "./EmpleosDelFuturo";
 import { TheCom } from "./TheCom";
 import { Pegasus } from "./Pegasus";
 import { Lazarus } from "./Lazarus";
+import { HackearLaIA } from "./HackearLaIA";
 import { DosCaminosHacker } from "./DosCaminosHacker";
 import { RedTeamVsBlueTeam } from "./RedTeamVsBlueTeam";
 import { HackerNovatoADios } from "./HackerNovatoADios";
@@ -23,6 +24,14 @@ import { HackerNovatoADios } from "./HackerNovatoADios";
 export const RemotionRoot: React.FC = () => {
   return (
     <>
+      <Composition
+        id="HackearLaIA"
+        component={HackearLaIA}
+        durationInFrames={13533}
+        fps={30}
+        width={1920}
+        height={1080}
+      />
       <Composition
         id="RedTeamVsBlueTeam"
         component={RedTeamVsBlueTeam}

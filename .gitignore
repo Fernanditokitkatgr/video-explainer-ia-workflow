@@ -10,6 +10,9 @@
 # Excepciones: imágenes de referencia del canal que sí van en git
 !agentic-channel-analytics/channels/assets/*.png
 !agentic-channel-analytics/channels/assets/*.jpg
+# La música de fondo del canal es un clip APROBADO por el usuario y compartido por
+# todos los vídeos: si no va en git, un clon regenera otra distinta y se pierde.
+!channel/*/assets/*.mp3
 
 interes_compuesto_frames/
 _mati_analysis/

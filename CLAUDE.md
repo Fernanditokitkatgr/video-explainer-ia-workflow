@@ -61,6 +61,27 @@ Script → ElevenLabs V3 (voice) → [human review] → Whisper (timestamps)
   imagen concreta pega con SU frase, si el estilo tiene variedad real, y **la expresividad de la
   voz** — Claude no puede oír el audio, así que ese punto lo valida siempre una persona.
 
+### Las dos capas de control de calidad
+
+| Capa | Herramienta | Qué caza |
+|---|---|---|
+| 1 · determinista | `scripts/preflight.py` | música ausente, escenas rellenadas, ajustes de voz que no cuadran con el `.env`, aspect ratio, FRAMES desincronizados, duración, CTA a un vídeo ya publicado, tanda monótona (varianza de brillo) |
+| 2 · agentes con visión | `scripts/qc_visual_prep.py` + agentes en paralelo | imagen que no ilustra su frase, texto en inglés (`AI` en vez de `IA`), faltas de ortografía, marcas inventadas, fondo oscuro indebido, colores de personaje cambiados, deformidades del dibujo |
+
+**La capa 2 no es opcional.** `preflight.py` dio PASS a una tanda en la que **3 de cada 6**
+imágenes eran inservibles: una ilustraba dinero en lugar del rótulo "Capítulo 2", otra rotulaba
+`CHICO LISTO AI` en inglés, y otra escribía `LA RESPESTA` y citaba ChatGPT cuando la narración
+hablaba de Bing. Ninguno de esos fallos es detectable sin mirar el dibujo, y ninguno lo detecta
+un script. Flujo: `qc_visual_prep.py --lotes N` → los agentes revisan sus lotes → recoger los
+fallos en un JSON → `qc_visual_prep.py --aplicar fallos.json` (borra las malas) →
+`generate_images_gemini.py` (regenera solo las que faltan) → **volver a pasar el QC sobre esas**.
+
+**Gotcha del generador**: en escenas abstractas (rótulos de capítulo, conceptos sin objeto
+concreto) el modelo rellena con gráficos de negocio, monedas y flechas de crecimiento que nadie
+pidió. La única cosa que lo evita de forma fiable es una restricción explícita y agresiva en el
+prompt: *"ONLY a giant numeral 'N' on white and NOTHING ELSE WHATSOEVER. No monkey, no coins,
+no arrows, no charts, no icons, no extra words."*
+
 - **Script**: very short sentences (1 sentence = 1 image = 1 visual beat), ~63-70 sentences for 2.5 min. Emotion tags in brackets `[tono cercano]` for ElevenLabs V3.
 - **Whisper**: `scripts/whisper_timestamps.py` produces per-segment start times. Output files named `seg_NN.png` (e.g. `seg_00.png`, `seg_01.png`).
 - **Remotion**: a composition reads a `FRAMES` array mapping `{ file, startSec }` and shows the last image whose `startSec <= currentSec`.

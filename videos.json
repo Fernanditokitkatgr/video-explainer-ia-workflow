@@ -325,5 +325,50 @@
     "width": 1920,
     "height": 1080,
     "background": "#ffffff"
+  },
+  "hackear-la-ia": {
+    "composition": "HackearLaIA",
+    "tsx": "remotion/src/HackearLaIA.tsx",
+    "manifest_dir": "channel/tecno/videos/hackear-la-ia",
+    "script": "channel/tecno/videos/hackear-la-ia/script.md",
+    "audio_static": "hackear-la-ia.mp3",
+    "images_subpath": "hackear-la-ia",
+    "naming": "timestamp",
+    "ext": "jpg",
+    "playback_rate": 1.1,
+    "fps": 30,
+    "width": 1920,
+    "height": 1080,
+    "background": "#ffffff"
+  },
+  "te-han-hackeado-y-no-lo-sabes": {
+    "composition": "TeHanHackeado",
+    "tsx": "remotion/src/TeHanHackeado.tsx",
+    "manifest_dir": "channel/tecno/videos/te-han-hackeado-y-no-lo-sabes",
+    "script": "channel/tecno/videos/te-han-hackeado-y-no-lo-sabes/script.md",
+    "audio_static": "te-han-hackeado-y-no-lo-sabes.mp3",
+    "images_subpath": "te-han-hackeado-y-no-lo-sabes",
+    "naming": "timestamp",
+    "ext": "jpg",
+    "playback_rate": 1.1,
+    "fps": 30,
+    "width": 1920,
+    "height": 1080,
+    "background": "#ffffff"
+  },
+  "que-hacen-con-tu-dni-robado": {
+    "composition": "DniRobado",
+    "tsx": "remotion/src/DniRobado.tsx",
+    "manifest_dir": "channel/tecno/videos/que-hacen-con-tu-dni-robado",
+    "script": "channel/tecno/videos/que-hacen-con-tu-dni-robado/script.md",
+    "audio_static": "que-hacen-con-tu-dni-robado.mp3",
+    "images_subpath": "que-hacen-con-tu-dni-robado",
+    "naming": "timestamp",
+    "ext": "jpg",
+    "playback_rate": 1.1,
+    "fps": 30,
+    "width": 1920,
+    "height": 1080,
+    "background": "#ffffff"
   }
 }

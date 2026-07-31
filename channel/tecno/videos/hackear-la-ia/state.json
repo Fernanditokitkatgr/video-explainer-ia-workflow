@@ -1,0 +1,13 @@
+{
+  "video": "hackear-la-ia",
+  "steps": {
+    "voice": "pending",
+    "whisper": "pending",
+    "inject": "done",
+    "images": "pending",
+    "sfx": "pending",
+    "validate": "pending",
+    "preflight": "pending",
+    "render": "pending"
+  }
+}
