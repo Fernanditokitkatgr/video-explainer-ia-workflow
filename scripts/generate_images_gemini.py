@@ -78,13 +78,27 @@ def generate_frame(client, model: str, prompt: str, out_path: Path, retries: int
                     image_config=types.ImageConfig(aspect_ratio=config.GEMINI_ASPECT_RATIO),
                 ),
             )
-            img_part = next(p for p in resp.candidates[0].content.parts if p.inline_data)
+            # Cuando el modelo BLOQUEA un prompt devuelve candidates con content.parts
+            # a None, y el `next(...)` reventaba con un 'NoneType is not iterable' que
+            # no dice nada y encima se reintentaba 5 veces en balde. Aquí se saca el
+            # motivo real (finish_reason / safety) y se corta sin reintentar, porque
+            # repetir el mismo prompt bloqueado nunca lo desbloquea.
+            cand = (resp.candidates or [None])[0]
+            partes = getattr(getattr(cand, "content", None), "parts", None)
+            if not partes:
+                motivo = getattr(cand, "finish_reason", None) or "desconocido"
+                bloqueo = getattr(getattr(resp, "prompt_feedback", None), "block_reason", None)
+                last_err = (f"prompt RECHAZADO por el modelo (finish_reason={motivo}"
+                            f"{f', block_reason={bloqueo}' if bloqueo else ''}) "
+                            f"— reescribe la escena, reintentar no sirve")
+                break
+            img_part = next(p for p in partes if p.inline_data)
             out_path.parent.mkdir(parents=True, exist_ok=True)
             out_path.write_bytes(img_part.inline_data.data)
             print(f"  OK {out_path.name} ({len(img_part.inline_data.data) // 1024} KB)")
             return True
         except StopIteration:
-            last_err = "respuesta sin imagen"
+            last_err = "respuesta sin ninguna parte de imagen"
             break
         except Exception as e:
             last_err = f"{type(e).__name__}: {str(e)[:200]}"
