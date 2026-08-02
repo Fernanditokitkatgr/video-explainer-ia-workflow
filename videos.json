@@ -332,7 +332,7 @@
     "manifest_dir": "channel/tecno/videos/hackear-la-ia",
     "script": "channel/tecno/videos/hackear-la-ia/script.md",
     "audio_static": "hackear-la-ia.mp3",
-    "images_subpath": "hackear-la-ia",
+    "images_subpath": "hackear-la-ia-notext",
     "naming": "timestamp",
     "ext": "jpg",
     "playback_rate": 1.1,

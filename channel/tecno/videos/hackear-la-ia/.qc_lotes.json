@@ -35,6 +35,11 @@
         "scene": "the GOOD hacker monkey: a light SKY-BLUE zip-up hoodie with the hood DOWN so the whole friendly face is visible, plus a white ID badge hanging from a lanyard on the chest. Relaxed, confident, often smiling. NEVER wears a hood up, NEVER wears black. pointing directly at the camera with a knowing grin, a big empty chair beside it labelled with a handwritten Spanish label: 'HUECO VACÍO'"
       },
       {
+        "file": "0_24.jpg",
+        "text": "Capítulo 1.",
+        "scene": "ONLY a single giant hand-drawn numeral '1' in thick black marker, centred on a plain pure white background, and NOTHING ELSE WHATSOEVER. No monkey, no coins, no money, no arrows, no charts, no business graphics, no icons, no extra words, no labels of any kind. Just the numeral '1' on white."
+      },
+      {
         "file": "0_25.jpg",
         "text": "¿Qué significa jaquear una inteligencia artificial?",
         "scene": "the GOOD hacker monkey: a light SKY-BLUE zip-up hoodie with the hood DOWN so the whole friendly face is visible, plus a white ID badge hanging from a lanyard on the chest. Relaxed, confident, often smiling. NEVER wears a hood up, NEVER wears black. standing beside the AI character: a big friendly-looking chatbot screen-robot with two huge round white cartoon eyes, a simple smiling mouth, flat light-grey body, drawn in the same crude thick-outline style, scratching its head while looking at the robot. Handwritten Spanish label above: '¿QUÉ ES HACKEAR UNA IA?'"
@@ -58,9 +63,7 @@
         "file": "0_42.jpg",
         "text": "Aquí no hay una línea de código con el fallo dentro.",
         "scene": "A wall of code being searched with a magnifying glass, finding nothing, big handwritten Spanish label: 'AQUÍ NO HAY NADA'"
-      }
-    ],
-    [
+      },
       {
         "file": "0_44.jpg",
         "text": "El fallo está en el comportamiento del modelo.",
@@ -86,6 +89,13 @@
         "text": "Y eso rompe casi todo el manual de seguridad que teníamos escrito.",
         "scene": "An old thick security manual being torn in half by two monkey paws, pages flying. Handwritten Spanish label: 'MANUAL ROTO'"
       },
+      {
+        "file": "1_05.jpg",
+        "text": "Capítulo 2.",
+        "scene": "ONLY a single giant hand-drawn numeral '2' in thick black marker, centred on a plain pure white background, and NOTHING ELSE WHATSOEVER. No monkey, no coins, no money, no arrows, no charts, no business graphics, no icons, no extra words, no labels of any kind. Just the numeral '2' on white."
+      }
+    ],
+    [
       {
         "file": "1_06.jpg",
         "text": "Las armas del nuevo hacker.",
@@ -115,9 +125,7 @@
         "file": "1_17.jpg",
         "text": "El modelo no distingue entre la orden de su dueño y el texto que está leyendo.",
         "scene": "the AI character: a big friendly-looking chatbot screen-robot with two huge round white cartoon eyes, a simple smiling mouth, flat light-grey body, drawn in the same crude thick-outline style between two speech bubbles it cannot tell apart, one from a monkey owner and one from a page of text, both identical grey. Handwritten Spanish label: 'NO DISTINGUE'"
-      }
-    ],
-    [
+      },
       {
         "file": "1_22.jpg",
         "text": "Simon Willison le puso nombre a esto en septiembre de 2022.",
@@ -137,6 +145,11 @@
         "file": "1_29.jpg",
         "text": "El jailbreak.",
         "scene": "the AI character: a big friendly-looking chatbot screen-robot with two huge round white cartoon eyes, a simple smiling mouth, flat light-grey body, drawn in the same crude thick-outline style climbing over its own low fence of rules, looking sheepish, fence labelled with small rule icons"
+      },
+      {
+        "file": "1_31.jpg",
+        "text": "Convencer al modelo de que salte sus propias normas de seguridad.",
+        "scene": "the BAD hacker monkey: a BLACK hoodie with the hood UP casting a shadow over the top of the face (eyes still clearly visible and glowing faintly), NO badge, NO lanyard. Hunched, smug or menacing. NEVER wears blue, NEVER shows a badge. sweet-talking the AI character: a big friendly-looking chatbot screen-robot with two huge round white cartoon eyes, a simple smiling mouth, flat light-grey body, drawn in the same crude thick-outline style while the robot pushes its own rulebook aside"
       },
       {
         "file": "1_35.jpg",
@@ -179,6 +192,11 @@
         "file": "1_55.jpg",
         "text": "Todo asistente de IA lleva instrucciones ocultas escritas por la empresa.",
         "scene": "the AI character: a big friendly-looking chatbot screen-robot with two huge round white cartoon eyes, a simple smiling mouth, flat light-grey body, drawn in the same crude thick-outline style with a small locked drawer in its chest holding a folded instruction sheet. Handwritten Spanish label: 'INSTRUCCIONES OCULTAS'"
+      },
+      {
+        "file": "2_00.jpg",
+        "text": "En febrero de 2023 un estudiante de Stanford llamado Kevin Liu se las sacó Archat de Bing.",
+        "scene": "A student monkey with a backpack and glasses in front of a search-engine chat, holding the extracted scroll triumphantly, calendar shows 2023. Handwritten Spanish label: 'KEVIN LIU'"
       },
       {
         "file": "2_07.jpg",
@@ -229,9 +247,7 @@
         "file": "2_30.jpg",
         "text": "Un fallo en Microsoft 365 Copilot que permitía sacar datos internos sin que el usuario hiciera un solo clic.",
         "scene": "Internal documents flying out of an office window into an envelope held by a shadowy paw, the AI character: a big friendly-looking chatbot screen-robot with two huge round white cartoon eyes, a simple smiling mouth, flat light-grey body, drawn in the same crude thick-outline style watching passively"
-      }
-    ],
-    [
+      },
       {
         "file": "2_38.jpg",
         "text": "Zero clicks.",
@@ -261,7 +277,9 @@
         "file": "2_51.jpg",
         "text": "Si controlas una parte diminuta de esos datos,",
         "scene": "A gigantic pile of documents with one tiny corner highlighted in bright red, monkey paw pointing at the tiny corner"
-      },
+      }
+    ],
+    [
       {
         "file": "2_54.jpg",
         "text": "puedes plantar una puerta trasera.",
@@ -286,9 +304,7 @@
         "file": "3_11.jpg",
         "text": "Con unos 250 documentos envenenados basta para meter una puerta trasera.",
         "scene": "A neat stack of exactly a few hundred documents with a green poison drop on top, next to the AI character: a big friendly-looking chatbot screen-robot with two huge round white cartoon eyes, a simple smiling mouth, flat light-grey body, drawn in the same crude thick-outline style with a trapdoor. Handwritten Spanish label: '250 DOCUMENTOS'"
-      }
-    ],
-    [
+      },
       {
         "file": "3_17.jpg",
         "text": "No necesitas envenenar el 1 por ciento.",
@@ -298,6 +314,11 @@
         "file": "3_20.jpg",
         "text": "Necesitas 250 archivos.",
         "scene": "A small stack of 250 files glowing bright, dwarfing a huge crossed-out mountain of files behind it. Handwritten Spanish label: 'SOLO 250'"
+      },
+      {
+        "file": "3_23.jpg",
+        "text": "Capítulo 3.",
+        "scene": "ONLY a single giant hand-drawn numeral '3' in thick black marker, centred on a plain pure white background, and NOTHING ELSE WHATSOEVER. No monkey, no coins, no money, no arrows, no charts, no business graphics, no icons, no extra words, no labels of any kind. Just the numeral '3' on white."
       },
       {
         "file": "3_25.jpg",
@@ -343,14 +364,14 @@
         "file": "3_48.jpg",
         "text": "Eso significa que el ataque no era un fallo de una empresa,",
         "scene": "A monkey pointing away from a single company logo box towards a much bigger box. Handwritten Spanish label: 'NO ERA UN FALLO'"
-      }
-    ],
-    [
+      },
       {
         "file": "3_51.jpg",
         "text": "era una propiedad de la tecnología.",
         "scene": "A giant label drawn over the whole technology, not over one company. Handwritten Spanish label: 'ES LA TECNOLOGÍA'"
-      },
+      }
+    ],
+    [
       {
         "file": "3_54.jpg",
         "text": "Y una defensa que funciona el 99 por ciento de las veces,",
@@ -377,6 +398,11 @@
         "scene": "A monkey head in profile with speech bubbles and letters inside it instead of circuits. Handwritten Spanish label: 'PIENSA EN LENGUAJE'"
       },
       {
+        "file": "4_08.jpg",
+        "text": "Capítulo 4.",
+        "scene": "ONLY a single giant hand-drawn numeral '4' in thick black marker, centred on a plain pure white background, and NOTHING ELSE WHATSOEVER. No monkey, no coins, no money, no arrows, no charts, no business graphics, no icons, no extra words, no labels of any kind. Just the numeral '4' on white."
+      },
+      {
         "file": "4_10.jpg",
         "text": "¿Y esto te afecta a ti?",
         "scene": "the AI character: a big friendly-looking chatbot screen-robot with two huge round white cartoon eyes, a simple smiling mouth, flat light-grey body, drawn in the same crude thick-outline style pointing directly at the viewer, monkey beside it with raised eyebrows. Handwritten Spanish label: '¿Y A TI QUÉ?'"
@@ -400,9 +426,7 @@
         "file": "4_20.jpg",
         "text": "Cada vez que un asistente puede leer y además actuar,",
         "scene": "the AI character: a big friendly-looking chatbot screen-robot with two huge round white cartoon eyes, a simple smiling mouth, flat light-grey body, drawn in the same crude thick-outline style with one eye reading a document and one arm reaching out to press a button, doing both at once. Handwritten Spanish labels: 'LEER' and 'ACTUAR'"
-      }
-    ],
-    [
+      },
       {
         "file": "4_23.jpg",
         "text": "tienes esta superficie de ataque en casa.",
@@ -437,7 +461,9 @@
         "file": "4_44.jpg",
         "text": "El tribunal decidió que la aerolínea era responsable de lo que había dicho su vot.",
         "scene": "A judge monkey pointing at the AI character: a big friendly-looking chatbot screen-robot with two huge round white cartoon eyes, a simple smiling mouth, flat light-grey body, drawn in the same crude thick-outline style and then at the airline monkey, assigning blame. Handwritten Spanish label: 'RESPONSABLE'"
-      },
+      }
+    ],
+    [
       {
         "file": "4_48.jpg",
         "text": "Traducción,",
@@ -452,6 +478,255 @@
         "file": "4_51.jpg",
         "text": "lo padas tú.",
         "scene": "The airline monkey paying the bill with a sour face while the AI character: a big friendly-looking chatbot screen-robot with two huge round white cartoon eyes, a simple smiling mouth, flat light-grey body, drawn in the same crude thick-outline style whistles innocently. Handwritten Spanish label: 'LO PAGAS TÚ'"
+      },
+      {
+        "file": "4_53.jpg",
+        "text": "Hoas, la referencia mundial en seguridad de aplicaciones publicó en 2023 su top 10 de riesgos para aplicaciones con modelos del lenguaje.",
+        "scene": "An official-looking organisation crest on white with a top-10 list scroll beside it, calendar 2023. Handwritten Spanish label: 'OWASP'"
+      },
+      {
+        "file": "5_01.jpg",
+        "text": "El número uno de la lista es la inyección de instrucciones,",
+        "scene": "A numbered top-10 list where position one is circled in thick bright red marker"
+      },
+      {
+        "file": "5_04.jpg",
+        "text": "el primero,",
+        "scene": "A big bold handwritten Spanish label on white: 'Nº 1', with a small note icon beside it"
+      },
+      {
+        "file": "5_05.jpg",
+        "text": "por encima de todo lo demás.",
+        "scene": "The number one on a podium, towering over the rest of the list which shrinks below it"
+      },
+      {
+        "file": "5_07.jpg",
+        "text": "Capítulo 5.",
+        "scene": "ONLY a single giant hand-drawn numeral '5' in thick black marker, centred on a plain pure white background, and NOTHING ELSE WHATSOEVER. No monkey, no coins, no money, no arrows, no charts, no business graphics, no icons, no extra words, no labels of any kind. Just the numeral '5' on white."
+      },
+      {
+        "file": "5_08.jpg",
+        "text": "¿Cuánto se gana con esto?",
+        "scene": "the GOOD hacker monkey: a light SKY-BLUE zip-up hoodie with the hood DOWN so the whole friendly face is visible, plus a white ID badge hanging from a lanyard on the chest. Relaxed, confident, often smiling. NEVER wears a hood up, NEVER wears black. rubbing its paws together with a big greedy grin, coins in its eyes. Handwritten Spanish label: '¿CUÁNTO SE GANA?'"
+      },
+      {
+        "file": "5_10.jpg",
+        "text": "Un pentester junior en España empieza cerca de los 30 .000 euros al año.",
+        "scene": "A modest salary bar with a euro symbol on white. Handwritten Spanish label: '30.000 €'"
+      },
+      {
+        "file": "5_15.jpg",
+        "text": "Un retymer clásico con experiencias se mueve por encima de los 70 .000. Un especialista en seguridad de modelos de ella juega en otra liga.",
+        "scene": "A taller salary bar beside the first one. Handwritten Spanish label: '70.000 €'"
+      },
+      {
+        "file": "5_23.jpg",
+        "text": "Las ofertas de AI retymer en Estados Unidos se publican entre 180 .000 y 300 .000 dólares.",
+        "scene": "A gigantic salary bar dwarfing the previous two, the GOOD hacker monkey: a light SKY-BLUE zip-up hoodie with the hood DOWN so the whole friendly face is visible, plus a white ID badge hanging from a lanyard on the chest. Relaxed, confident, often smiling. NEVER wears a hood up, NEVER wears black. climbing it with wide eyes. Handwritten Spanish labels: '180.000 $' and '300.000 $'"
+      },
+      {
+        "file": "5_30.jpg",
+        "text": "Y no porque el trabajo sea más difícil,",
+        "scene": "A crossed-out sweating-difficulty icon, monkey shaking its head to say that is not the reason"
+      },
+      {
+        "file": "5_32.jpg",
+        "text": "porque hay muy poquísima gente que sepa hacerlo.",
+        "scene": "An almost empty room with three tiny monkeys in it and lots of empty space. Handwritten Spanish label: 'CASI NADIE SABE'"
+      },
+      {
+        "file": "5_36.jpg",
+        "text": "Además, está la vía del Book Bounty y ahí ya no hay nómina, hay recompensas.",
+        "scene": "the GOOD hacker monkey: a light SKY-BLUE zip-up hoodie with the hood DOWN so the whole friendly face is visible, plus a white ID badge hanging from a lanyard on the chest. Relaxed, confident, often smiling. NEVER wears a hood up, NEVER wears black. beside a crossed-out payslip and a big treasure chest instead. Handwritten Spanish label: 'RECOMPENSAS'"
+      },
+      {
+        "file": "5_40.jpg",
+        "text": "Open AI abrió su programa en abril de 2023 a través de Book Crowd. Anthropic paga hasta 15 .000 dólares por un jailbreak universal en sus sistemas más protegidos.",
+        "scene": "A bounty poster on white with a company logo box and a calendar page 2023, monkey reading it"
+      },
+      {
+        "file": "5_51.jpg",
+        "text": "Y Google lanzó en octubre de 2025 un programa dedicado solo a AIA, con premios de hasta 30 .000 dólares por ayazgo.",
+        "scene": "A cheque being handed to the GOOD hacker monkey: a light SKY-BLUE zip-up hoodie with the hood DOWN so the whole friendly face is visible, plus a white ID badge hanging from a lanyard on the chest. Relaxed, confident, often smiling. NEVER wears a hood up, NEVER wears black. by a paw from behind a logo box. Handwritten Spanish label: '15.000 $'"
+      },
+      {
+        "file": "5_59.jpg",
+        "text": "Fíjate en el detalle que importa.",
+        "scene": "A second bigger cheque handed over, calendar page 2025 beside it. Handwritten Spanish label: '30.000 $'"
+      }
+    ],
+    [
+      {
+        "file": "6_01.jpg",
+        "text": "Aquí el ayazgo no es un exploit de 20 kilobytes.",
+        "scene": "A monkey holding a magnifying glass right up to the camera, pointing at one small detail. Handwritten Spanish label: 'EL DETALLE'"
+      },
+      {
+        "file": "6_04.jpg",
+        "text": "Muchas veces es un párrafo bien escrito.",
+        "scene": "A heavy crossed-out exploit file icon with a size label, being thrown away"
+      },
+      {
+        "file": "6_06.jpg",
+        "text": "En Hacker One, la mayor plataforma de Book Bounty del mundo,",
+        "scene": "A single short paragraph of handwritten text on a sheet of paper, glowing, held delicately in two paws. Handwritten Spanish label: 'UN PÁRRAFO'"
+      },
+      {
+        "file": "6_10.jpg",
+        "text": "los informes relacionados con AIA se dispararon más de 170 % en un año.",
+        "scene": "A big bug-bounty platform building drawn on white with many monkeys queueing at the door"
+      },
+      {
+        "file": "6_15.jpg",
+        "text": "Y en agosto de 2023, en la Defcon de Las Vegas,",
+        "scene": "A steep rising arrow chart on white, the GOOD hacker monkey: a light SKY-BLUE zip-up hoodie with the hood DOWN so the whole friendly face is visible, plus a white ID badge hanging from a lanyard on the chest. Relaxed, confident, often smiling. NEVER wears a hood up, NEVER wears black. riding the arrow upward. Handwritten Spanish label: '+170 %'"
+      },
+      {
+        "file": "6_19.jpg",
+        "text": "hubo un red timpúblico de modelos generativos.",
+        "scene": "A big convention hall on white with rows of monkeys at laptops all attacking robots, banners overhead"
+      },
+      {
+        "file": "6_21.jpg",
+        "text": "Más de 2000 personas atacando modelos a la vez con apoyo de la Casa Blanca.",
+        "scene": "A huge crowd of monkeys at laptops, a small official government building icon behind them with a flag. Handwritten Spanish label: '+2.000 PERSONAS'"
+      },
+      {
+        "file": "6_26.jpg",
+        "text": "Cuando un gobierno organiza el ataque,",
+        "scene": "A government building handing a bounty poster to a crowd of hacker monkeys, official stamp on it"
+      },
+      {
+        "file": "6_29.jpg",
+        "text": "es que el ataque ya es una profesión.",
+        "scene": "the GOOD hacker monkey: a light SKY-BLUE zip-up hoodie with the hood DOWN so the whole friendly face is visible, plus a white ID badge hanging from a lanyard on the chest. Relaxed, confident, often smiling. NEVER wears a hood up, NEVER wears black. straightening an imaginary tie, now looking like a professional with a badge. Handwritten Spanish label: 'YA ES UNA PROFESIÓN'"
+      },
+      {
+        "file": "6_32.jpg",
+        "text": "Capítulo 6,",
+        "scene": "ONLY a single giant hand-drawn numeral '6' in thick black marker, centred on a plain pure white background, and NOTHING ELSE WHATSOEVER. No monkey, no coins, no money, no arrows, no charts, no business graphics, no icons, no extra words, no labels of any kind. Just the numeral '6' on white."
+      },
+      {
+        "file": "6_33.jpg",
+        "text": "la ventana.",
+        "scene": "A wide open window drawn on white with bright light coming through it, the GOOD hacker monkey: a light SKY-BLUE zip-up hoodie with the hood DOWN so the whole friendly face is visible, plus a white ID badge hanging from a lanyard on the chest. Relaxed, confident, often smiling. NEVER wears a hood up, NEVER wears black. looking out. Handwritten Spanish label: 'LA VENTANA'"
+      },
+      {
+        "file": "6_35.jpg",
+        "text": "Y aquí llega la parte que te prometí al principio.",
+        "scene": "the GOOD hacker monkey: a light SKY-BLUE zip-up hoodie with the hood DOWN so the whole friendly face is visible, plus a white ID badge hanging from a lanyard on the chest. Relaxed, confident, often smiling. NEVER wears a hood up, NEVER wears black. pointing back over its shoulder at the very first scene's single sentence, closing the loop"
+      },
+      {
+        "file": "6_37.jpg",
+        "text": "Este hueco estaba cío y estaba cío por un motivo muy concreto.",
+        "scene": "An empty room with a single chair and a lot of white space, one monkey standing alone in it. Handwritten Spanish label: 'VACÍO'"
+      },
+      {
+        "file": "6_42.jpg",
+        "text": "Para hacer esto bien necesitas dos cosas que casi nunca van juntas en la misma persona.",
+        "scene": "Two puzzle pieces held apart in two different paws, clearly not yet joined. Handwritten Spanish label: 'DOS COSAS'"
+      },
+      {
+        "file": "6_47.jpg",
+        "text": "La gente de seguridad clásica sabe lo primero, pero no lo segundo.",
+        "scene": "A classic-security monkey holding one puzzle piece confidently but missing the other, shrugging at the gap"
+      },
+      {
+        "file": "6_51.jpg",
+        "text": "La gente de Machine Learning sabe lo segundo, pero nunca ha pensado como un atacante.",
+        "scene": "A machine-learning monkey with glasses holding the other puzzle piece, looking innocent, a crossed-out attacker mask beside it"
+      },
+      {
+        "file": "6_56.jpg",
+        "text": "Quien junta las dos cosas, soy no tiene competencia.",
+        "scene": "the GOOD hacker monkey: a light SKY-BLUE zip-up hoodie with the hood DOWN so the whole friendly face is visible, plus a white ID badge hanging from a lanyard on the chest. Relaxed, confident, often smiling. NEVER wears a hood up, NEVER wears black. clicking the two puzzle pieces together with a satisfying snap, alone on a podium. Handwritten Spanish label: 'SIN COMPETENCIA'"
+      },
+      {
+        "file": "6_59.jpg",
+        "text": "Literalmente no la tiene.",
+        "scene": "An open door on white with a bright green free tag hanging on the handle. Handwritten Spanish labels: 'GRATIS' and 'LEGAL'"
+      }
+    ],
+    [
+      {
+        "file": "7_01.jpg",
+        "text": "Y la puerta de entrada es gratis y legal. Hay laboratorios abiertos hechos para esto,",
+        "scene": "Two playful lab signs on white with small wizard-hat and paper-plane icons, monkey reading them. Handwritten Spanish labels: 'GANDALF' and 'PROMPT AIRLINES'"
+      },
+      {
+        "file": "7_06.jpg",
+        "text": "Gandalf de la Quera y el clásico Prompt Airlines.",
+        "scene": "A tidy numbered checklist scroll on white with an official crest at the top, monkey ticking items. Handwritten Spanish label: 'TEMARIO GRATIS'"
+      },
+      {
+        "file": "7_10.jpg",
+        "text": "Añad de la lista de OWASP para modelos del lenguaje y ya tienes el temario ordenado, gratis y en abierto.",
+        "scene": "the GOOD hacker monkey: a light SKY-BLUE zip-up hoodie with the hood DOWN so the whole friendly face is visible, plus a white ID badge hanging from a lanyard on the chest. Relaxed, confident, often smiling. NEVER wears a hood up, NEVER wears black. holding up an open palm in a stop gesture, serious face, no smile. Handwritten Spanish label: 'AHORA LO HONESTO'"
+      },
+      {
+        "file": "7_16.jpg",
+        "text": "Ahora la parte honesta porque no te voy a vender humo.",
+        "scene": "A big salary figure with a small country flag pin and a crossed-out globe beside it, showing it is not the global average. Handwritten Spanish label: 'NO ES LA MEDIA'"
+      },
+      {
+        "file": "7_20.jpg",
+        "text": "Los sueldos de 300 .000 dólares son de Estados Unidos y de las empresas punteras no la media global.",
+        "scene": "The bright open window slowly closing, the GOOD hacker monkey: a light SKY-BLUE zip-up hoodie with the hood DOWN so the whole friendly face is visible, plus a white ID badge hanging from a lanyard on the chest. Relaxed, confident, often smiling. NEVER wears a hood up, NEVER wears black. watching it with a slightly worried face"
+      },
+      {
+        "file": "7_26.jpg",
+        "text": "Y esta ventana no va a estar abierta para siempre, ninguna lo está. Y algo importante,",
+        "scene": "the GOOD hacker monkey: a light SKY-BLUE zip-up hoodie with the hood DOWN so the whole friendly face is visible, plus a white ID badge hanging from a lanyard on the chest. Relaxed, confident, often smiling. NEVER wears a hood up, NEVER wears black. holding a signed permission document with a stamp, standing inside a marked-out lab area. Handwritten Spanish label: 'CON PERMISO'"
+      },
+      {
+        "file": "7_32.jpg",
+        "text": "todo esto se hace con permiso, en laboratorios o en programas oficiales.",
+        "scene": "A prison-bar icon on white beside a crossed-out unauthorised-attack icon, monkey shaking a warning finger. Handwritten Spanish label: 'ES DELITO'"
+      },
+      {
+        "file": "7_36.jpg",
+        "text": "Atacar un modelo en producción sin autorización es un delito, exactamente igual que atacar cualquier otro sistema.",
+        "scene": "A crossed-out attack icon beside a glowing report document, the report clearly the valuable one"
+      },
+      {
+        "file": "7_43.jpg",
+        "text": "Lo que hace que esto se pague no es el ataque,",
+        "scene": "the GOOD hacker monkey: a light SKY-BLUE zip-up hoodie with the hood DOWN so the whole friendly face is visible, plus a white ID badge hanging from a lanyard on the chest. Relaxed, confident, often smiling. NEVER wears a hood up, NEVER wears black. handing a report to a company monkey while a shadowy black-hooded figure arrives too late behind them. Handwritten Spanish label: 'LLEGA ANTES'"
+      },
+      {
+        "file": "7_46.jpg",
+        "text": "es el informe que llega antes de que lo haga alguien con malas intenciones.",
+        "scene": "the GOOD hacker monkey: a light SKY-BLUE zip-up hoodie with the hood DOWN so the whole friendly face is visible, plus a white ID badge hanging from a lanyard on the chest. Relaxed, confident, often smiling. NEVER wears a hood up, NEVER wears black. pointing back at the opening scene, the single sentence reappearing on a laptop screen"
+      },
+      {
+        "file": "7_50.jpg",
+        "text": "Así que volvamos a la frase del principio.",
+        "scene": "A single short sentence on a screen with a price tag hanging off it. Handwritten Spanish label: '30.000 $'"
+      },
+      {
+        "file": "7_52.jpg",
+        "text": "Sí, hay un hacker que entra escribiendo sólo una frase. Y esa frase secotiza a 30 .000 dólares porque el fallo no está en el código,",
+        "scene": "the AI character: a big friendly-looking chatbot screen-robot with two huge round white cartoon eyes, a simple smiling mouth, flat light-grey body, drawn in the same crude thick-outline style with a crossed-out code wall behind it and a big arrow pointing at the robot's own face instead. Handwritten Spanish label: 'NO ES EL CÓDIGO'"
+      },
+      {
+        "file": "8_01.jpg",
+        "text": "está en el comportamiento.",
+        "scene": "A big handwritten Spanish label on white: 'ES EL COMPORTAMIENTO', with the AI character: a big friendly-looking chatbot screen-robot with two huge round white cartoon eyes, a simple smiling mouth, flat light-grey body, drawn in the same crude thick-outline style shrugging beside it"
+      },
+      {
+        "file": "8_03.jpg",
+        "text": "No hay parte que lo cierre, sólo hay gente que lo busca.",
+        "scene": "A patch being offered and bouncing off, and instead a small group of monkeys with magnifying glasses searching. Handwritten Spanish label: 'SOLO GENTE QUE LO BUSCA'"
+      },
+      {
+        "file": "8_07.jpg",
+        "text": "Y ahora mismo esa gente cabe en un ascensor.",
+        "scene": "A small lift with just a handful of monkeys inside it, doors open, plenty of room left. Handwritten Spanish label: 'CABEN EN UN ASCENSOR'"
+      },
+      {
+        "file": "8_10.jpg",
+        "text": "Si esto te ha volado la cabeza a suscríbete, se viene más de este mundo.",
+        "scene": "the GOOD hacker monkey: a light SKY-BLUE zip-up hoodie with the hood DOWN so the whole friendly face is visible, plus a white ID badge hanging from a lanyard on the chest. Relaxed, confident, often smiling. NEVER wears a hood up, NEVER wears black. waving goodbye with a big friendly grin beside a subscribe bell icon. Handwritten Spanish label: 'SUSCRÍBETE'"
       }
     ]
   ]

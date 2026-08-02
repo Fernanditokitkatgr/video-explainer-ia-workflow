@@ -99,10 +99,18 @@ def step_inject(cfg: dict) -> None:
         sys.exit(f"No existe {fj}. Corre 'whisper' primero.")
     frames = json.loads(fj.read_text(encoding="utf-8")).get("frames", [])
 
-    lines = ["const FRAMES: { file: string; startSec: number }[] = ["]
+    # 'labels' son los rótulos en español que se pintan como TEXTO REAL en Remotion
+    # (ver LabelOverlay.tsx): pedírselos al generador de imágenes producía faltas.
+    lines = ["const FRAMES: { file: string; startSec: number; labels?: string[] }[] = ["]
     for fr in frames:
         comment = f"  // \"{fr['text']}\"" if fr.get("text") else ""
-        lines.append(f"  {{ file: '{fr['file']}', startSec: {fr['startSec']} }},{comment}")
+        etiquetas = fr.get("labels") or []
+        campo = ""
+        if etiquetas:
+            joined = ", ".join("'" + e.replace("\\", "\\\\").replace("'", "\\'") + "'"
+                               for e in etiquetas)
+            campo = f", labels: [{joined}]"
+        lines.append(f"  {{ file: '{fr['file']}', startSec: {fr['startSec']}{campo} }},{comment}")
     lines.append("];")
     block = "\n".join(lines) + "\n"
 

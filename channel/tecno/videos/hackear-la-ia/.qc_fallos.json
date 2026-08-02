@@ -1,0 +1,414 @@
+{
+  "fallos": [
+    {
+      "file": "3_31.jpg",
+      "tipo": "tema",
+      "motivo": "La frase es 'Cuando arreglas un jailbreak' y la escena pedía un parche saltando del robot. La imagen muestra un mono con sombrero mexicano sosteniendo un plátano verde gigante con rótulos 'PLÁTANO GIGANTE' y 'MONO ALEGRE'. No tiene NADA que ver con la frase; además hay texto ilegible/inventado ('ANO ¡ALOSCIOS!', '¡DELICIOS!')."
+    },
+    {
+      "file": "3_51.jpg",
+      "tipo": "ortografia",
+      "motivo": "El rótulo grande dice 'ES LA TECONLOGÍA' en vez de 'ES LA TECNOLOGÍA'. Es el texto principal y ocupa el centro de la imagen."
+    },
+    {
+      "file": "3_51.jpg",
+      "tipo": "tema",
+      "motivo": "Relleno de negocio que nadie pidió: gráfico de barras con flecha de crecimiento y rótulos 'FUTURO' y 'DINERO FÁCIL'. La frase solo dice 'era una propiedad de la tecnología', no habla de dinero ni de crecimiento."
+    },
+    {
+      "file": "3_33.jpg",
+      "tipo": "ortografia",
+      "motivo": "El rótulo del plátano rojo dice '¡CÁSCARA PELIGOROAS' (mal escrito, sería 'PELIGROSAS' y además concordancia rota). Varios bocadillos pequeños tienen texto ilegible tipo 'CHTRHT SENIH'."
+    },
+    {
+      "file": "3_33.jpg",
+      "tipo": "tema",
+      "motivo": "La frase habla de infinitas formas de pedir LO MISMO; todos los bocadillos dicen '¡CHATBOT GENIAL', que no es una petición, y aparece un plátano rojo con cáscara peligrosa completamente ajeno a la escena pedida."
+    },
+    {
+      "file": "2_56.jpg",
+      "tipo": "ortografia",
+      "motivo": "El rótulo superior dice 'INVESTIAGDOR CHIMPANCÉ' en vez de 'INVESTIGADOR'. Letras traspuestas, muy visible arriba del todo."
+    },
+    {
+      "file": "3_08.jpg",
+      "tipo": "inventado",
+      "motivo": "El informe lleva un logo y la marca 'ECOMONOS S.A.' impresa, que nadie pidió y que contradice la frase (habla de un informe de Anthropic). Además el logo es de otro canal, no del tema."
+    },
+    {
+      "file": "3_44.jpg",
+      "tipo": "ortografia",
+      "motivo": "Rótulo 'ROBOT CILUCRÍNICO' — palabra inexistente; debería ser 'CILÍNDRICO'. Se lee grande en la fila superior."
+    },
+    {
+      "file": "3_27.jpg",
+      "tipo": "ortografia",
+      "motivo": "El rótulo del parche verde dice 'PLANTÓN VERDE', que no significa nada en este contexto (sería 'PARCHE VERDE'). Confunde al espectador justo en la frase del bug parcheado."
+    },
+    {
+      "file": "4_26.jpg",
+      "motivo": "La frase solo dice \"Diciembre de 2023\" y la escena pedía una hoja de calendario con 2023. La imagen es un relleno de negocio: monedas etiquetadas \"PESOS\", hucha con simbolo de dolar, grafico de barras con flecha de crecimiento rotulado \"ECONOMÍA MUNDIAL\", coche rojo con \"¡COCHE RÁPIDO!\", mono con gorro de fiesta y bocadillo \"¡AY, CARAMBA!\". El calendario 2023 es un icono minusculo en una esquina. Nada de dinero/economia se menciona.",
+      "tipo": "tema"
+    },
+    {
+      "file": "4_44.jpg",
+      "motivo": "La narracion dice que el tribunal decidio que LA AEROLÍNEA era responsable de lo que dijo su bot. La imagen pone la etiqueta \"RESPONSABLE\" con flecha apuntando al chatbot y \"DEMANDADO\" sobre el mono aerolinea: invierte el sentido de la frase (deja al bot como responsable). Ademas hay linea de agua azul y simbolos de dolar flotando que nadie pidio.",
+      "tipo": "tema"
+    },
+    {
+      "file": "3_58.jpg",
+      "motivo": "El rotulo grande dice \"MILLIONES\" con doble I: en español es \"MILLONES\".",
+      "tipo": "ortografia"
+    },
+    {
+      "file": "3_58.jpg",
+      "motivo": "Etiqueta inventada \"ESCUDO DE PRIVACIDAD\" (con corona en el escudo). La frase habla de escala de millones de mensajes contra la defensa del 99 %, no de privacidad; contradice el hilo del escudo del 99 % del plano anterior.",
+      "tipo": "inventado"
+    },
+    {
+      "file": "4_39.jpg",
+      "motivo": "La frase es solo \"Febrero de 2024\". Aparece la etiqueta \"OJOS GRANDES\" en rojo dentro del dibujo: es una instruccion de estilo del prompt filtrada como rotulo, no tiene ningun sentido para el espectador. Ademas relleno de fin de año (\"¡FELIZ AÑO!\", \"¡PLATA, AMOR Y SALUD!\") cuando se habla de febrero.",
+      "tipo": "inventado"
+    },
+    {
+      "file": "4_41.jpg",
+      "motivo": "Se añade un avion estrellado y humeante con la etiqueta \"AVIÓN ESTRELLADO\", que no existe en la historia (es un juicio por lo que dijo un chatbot, no un accidente aereo). Sugiere al espectador un siniestro que nunca ocurrio.",
+      "tipo": "inventado"
+    },
+    {
+      "file": "4_28.jpg",
+      "motivo": "La frase dice que el concesionario pone un CHATBOT en su web, y la escena pedia una ventana de chat en la fachada. En la imagen no hay ninguna ventana de chat ni pantalla: solo tienda con \"¡OFERTAS!\", mono vendedor y coche con etiqueta \"¡BARATO! $5,000\". Se pierde justo el elemento clave de la frase, y el precio inventado ($5.000) choca con el chiste del dolar que viene despues.",
+      "tipo": "tema"
+    },
+    {
+      "file": "6_01.jpg",
+      "motivo": "El rótulo dice 'EL DETALE' en vez de 'EL DETALLE' (falta una L).",
+      "tipo": "ortografia"
+    },
+    {
+      "file": "6_04.jpg",
+      "motivo": "Texto en inglés en el icono de fichero: 'SIZE: 200GB' (debería ser 'TAMAÑO'). Además el cartel '¡EXPLOTAR NO MÁS!' es español roto y no significa nada.",
+      "tipo": "idioma"
+    },
+    {
+      "file": "6_06.jpg",
+      "motivo": "El párrafo del papel tiene faltas: 'CONOCIMENTO' (CONOCIMIENTO) y 'DESCONOIDO' (DESCONOCIDO).",
+      "tipo": "ortografia"
+    },
+    {
+      "file": "6_10.jpg",
+      "motivo": "Rótulo 'RECOMPESÑAS' en vez de 'RECOMPENSAS'.",
+      "tipo": "ortografia"
+    },
+    {
+      "file": "6_19.jpg",
+      "motivo": "Rótulo 'EJÉRITO MONO' en vez de 'EJÉRCITO'.",
+      "tipo": "ortografia"
+    },
+    {
+      "file": "6_21.jpg",
+      "motivo": "La frase habla de 2.000 personas atacando modelos con apoyo de la Casa Blanca, pero la imagen mete bocadillo de saco de dinero '¡GANAN DINERO!' que nadie pidió (relleno típico de dinero); además la bandera del edificio es celeste y blanca, no de EE.UU., y contradice la narración.",
+      "tipo": "tema"
+    },
+    {
+      "file": "6_26.jpg",
+      "motivo": "Faltas por todas partes: 'EDIFICIO DEL GOBVERNO' (GOBIERNO), 'SELADO OFÍCIAL' (SELLADO OFICIAL, y acento inventado), y el cartel amarillo pone '-RECOMPENSA!' cortado/ilegible.",
+      "tipo": "ortografia"
+    },
+    {
+      "file": "6_35.jpg",
+      "motivo": "Rótulo 'PROTECIÓN' en vez de 'PROTECCIÓN'.",
+      "tipo": "ortografia"
+    },
+    {
+      "file": "6_47.jpg",
+      "motivo": "Texto en inglés bien visible en la gorra: 'SECURITY'.",
+      "tipo": "idioma"
+    },
+    {
+      "file": "6_47.jpg",
+      "motivo": "Rótulo 'MONO SEGURDIDA' en vez de 'MONO SEGURIDAD'.",
+      "tipo": "ortografia"
+    },
+    {
+      "file": "6_56.jpg",
+      "motivo": "Onomatopeya en inglés 'SNAP!' escrita en grande; en español sería '¡CLAC!' o '¡ZAS!'.",
+      "tipo": "idioma"
+    },
+    {
+      "file": "7_06.jpg",
+      "tipo": "tema",
+      "motivo": "La frase habla de Gandalf y Prompt Airlines (labs de prompt injection), pero el temario que sale es de ECONOMÍA: 'OFERTA Y DEMANDA', 'COSTOS', 'MERCADOS', 'MACROECONOCOMIA', 'POLITICAS'. Nada que ver con seguridad de IA ni con OWASP."
+    },
+    {
+      "file": "7_06.jpg",
+      "tipo": "ortografia",
+      "motivo": "En el pergamino aparece 'MACROECONOCOMIA' (en vez de MACROECONOMÍA) y 'POLITICAS' sin tilde. Se lee grande y queda fatal."
+    },
+    {
+      "file": "7_16.jpg",
+      "tipo": "inventado",
+      "motivo": "La narración dice sueldos de 300.000 dólares en ESTADOS UNIDOS, y la imagen pone bandera de ESPAÑA con la cifra '150.000' más un rótulo inventado 'SALARIO BRUTO' y una flecha verde de crecimiento apuntando hacia abajo. Contradice directamente la frase."
+    },
+    {
+      "file": "7_26.jpg",
+      "tipo": "personaje",
+      "motivo": "El hacker bueno lleva la CAPUCHA PUESTA (capucha azul cubriéndole la cabeza). Debe ir siempre con la capucha ABAJO y la cara despejada; solo el malo va encapuchado."
+    },
+    {
+      "file": "7_43.jpg",
+      "tipo": "ortografia",
+      "motivo": "El rótulo grande dice 'LEGA ANTES' en vez de 'LLEGA ANTES' (falta una L). Es el texto más grande de la viñeta."
+    },
+    {
+      "file": "7_46.jpg",
+      "tipo": "tema",
+      "motivo": "La frase dice que lo que se paga es el informe que llega antes que el atacante, pero la imagen es un consejo de seguridad genérico: '¡HOLA MUNDO!', 'EL MONO HACKER BUENO DICE: NUNCA COMPARTAS TU CLAVE', 'PORTÁTIL SEGURO'. No ilustra ni el informe ni la carrera contra el malo."
+    },
+    {
+      "file": "7_50.jpg",
+      "tipo": "tema",
+      "motivo": "Se pedía la frase única en pantalla con una etiqueta de 30.000 $, y en la pantalla pone '¡QUÉ GANGA!' rodeada de bolsas de dinero, fajos de billetes, bombilla y rótulos inventados 'PLATA FÁCIL' y 'NUEVO INVENTO'. Es justo el relleno de dinero que no se pidió, y encima 'plata' es latinoamericano."
+    },
+    {
+      "file": "8_01.jpg",
+      "tipo": "ortografia",
+      "motivo": "El rótulo principal dice 'ES EL COMPORTBAMIENTO' en vez de 'ES EL COMPORTAMIENTO'."
+    },
+    {
+      "file": "8_01.jpg",
+      "tipo": "idioma",
+      "motivo": "La pila de libros está rotulada 'DATA' en inglés; en español sería 'DATOS'."
+    },
+    {
+      "file": "0_04.jpg",
+      "tipo": "ortografia",
+      "motivo": "El bocadillo de la pantalla dice '¡HOLA MONDO!' en vez de 'MUNDO'. Además el rótulo 'LA MANO' con una gota de agua no aporta nada y suena a relleno."
+    },
+    {
+      "file": "0_06.jpg",
+      "tipo": "tema",
+      "motivo": "La frase dice que esa frase vale hasta 30.000 dólares y en la imagen NO aparece la cifra pedida ('30.000 $'). En su lugar hay rótulos que nadie pidió y que no vienen a cuento: 'CÓDIGO LIMPIO', 'SEGURIDAD' y un bocadillo '¡FÁCIL!'."
+    },
+    {
+      "file": "0_09.jpg",
+      "tipo": "ortografia",
+      "motivo": "Rótulo 'QUÉ PASPÓ?' — mal escrito (debería ser '¿QUÉ PASÓ?', y le falta la interrogación de apertura)."
+    },
+    {
+      "file": "0_14.jpg",
+      "tipo": "tema",
+      "motivo": "La comparación de sueldos está mal etiquetada: la flecha de 'PENTESTER' apunta a la barra ALTA verde (la de IA, que ya lleva su rótulo 'IA'), y la barra corta gris se queda sin etiqueta. Visualmente invierte lo que dice la narración."
+    },
+    {
+      "file": "0_25.jpg",
+      "tipo": "tema",
+      "motivo": "Además del rótulo correcto '¿QUÉ ES HACKEAR UNA IA?' hay tres rótulos sueltos sin flecha ni sentido en la escena: 'CÓDIGO BUENO' y 'SEGURIDAD' dos veces (una cortada por el borde izquierdo). Es ruido de texto que el espectador nota."
+    },
+    {
+      "file": "0_37.jpg",
+      "tipo": "tema",
+      "motivo": "El rótulo 'ROBOT CHAT' tiene la flecha apuntando al MONO, no al robot. El personaje etiquetado es el equivocado y confunde en un plano donde salen los dos."
+    },
+    {
+      "file": "0_44.jpg",
+      "tipo": "ortografia",
+      "motivo": "El rótulo grande dice 'EL COMPORTBAMIENTO' en vez de 'EL COMPORTAMIENTO'. Es el texto principal de la viñeta, imposible no verlo."
+    },
+    {
+      "file": "0_47.jpg",
+      "tipo": "ortografia",
+      "motivo": "Rótulo 'NOTA MISTEROSA' en vez de 'NOTA MISTERIOSA'."
+    },
+    {
+      "file": "0_51.jpg",
+      "tipo": "ortografia",
+      "motivo": "Dentro de los ojos del robot hay texto ilegible que no es español: 'VRSECE VONDE ET DU ENGIT?' y 'NTERE SECON NTLIAS LIBST'. Y el bocadillo repite palabra: 'QUIERO PAZ / PAZ EN EL MUNDO'."
+    },
+    {
+      "file": "1_00.jpg",
+      "tipo": "ortografia",
+      "motivo": "Rótulo 'PÁGÍANAS VOLANDO' — mal escrito y con la tilde en la I (debería ser 'PÁGINAS VOLANDO')."
+    },
+    {
+      "file": "5_01.jpg",
+      "tipo": "tema",
+      "motivo": "La frase habla del top 10 de OWASP y de que el numero uno es la inyeccion de instrucciones, pero la imagen muestra una lista de FRUTAS (1. BANANO circulado, MANGO, PIÑA, AGUACATE...) con la etiqueta '¡MEJOR FRUTA!' y 'MONO FELIZ'. No ilustra nada de la narracion. Ademas la numeracion salta del 2 al 4."
+    },
+    {
+      "file": "5_04.jpg",
+      "tipo": "tema",
+      "motivo": "Se oye solo 'el primero' (deberia ser un rotulo limpio 'Nº 1'). La imagen es el relleno tipico del generador: mono con platanos, monedas, fajo de billetes, hucha rota y etiquetas '¡GANANCIAS!', 'DINERO RAPIDO', 'CRIPTO USD', 'AHORROS ROTOS'. Nadie pidio dinero ni cripto."
+    },
+    {
+      "file": "5_40.jpg",
+      "tipo": "tema",
+      "motivo": "La frase habla del programa de bug bounty de OpenAI (2023) y de que Anthropic paga hasta 15.000 $ por un jailbreak universal. La imagen es un cartel de 'SE BUSCA! MONO LADRON DE PLATANO' con '¡YO NO FUI!', un calendario de enero 2023 y la marca inventada 'ECONOMOS CORP.'. Nada que ver, y ademas escribe '¡MUCHO DIENERO!'."
+    },
+    {
+      "file": "5_59.jpg",
+      "tipo": "tema",
+      "motivo": "La frase es 'Fijate en el detalle que importa' (deberia ser un plano de atencion al detalle). La imagen es otro cheque gigante de 30.000 $ con '¡MAS PLATA!', '¡GANANCIA' y 'PAGUESE A: Yo!'. Relleno de dinero que no ilustra la frase; ademas 'PLATA' no es castellano peninsular y el importe usa coma ('30,000 $')."
+    },
+    {
+      "file": "5_51.jpg",
+      "tipo": "tema",
+      "motivo": "Se oye que Google lanzo el programa con premios de hasta 30.000 dolares, pero el cheque de la imagen dice '15.000 $' (y otro '100' encima). La cifra en pantalla contradice la que se esta oyendo."
+    },
+    {
+      "file": "4_50.jpg",
+      "tipo": "tema",
+      "motivo": "La frase es 'lo que tu IA promete' en el contexto de la aerolinea/chatbot. El generador la convierte en promesa de enriquecerse: bocadillo '¡TE HARE MUY RICO!' y etiquetas 'MUCHO DINERO' y 'FACIL'. Es el relleno de dinero que nadie pidio."
+    },
+    {
+      "file": "4_53.jpg",
+      "tipo": "ortografia",
+      "motivo": "El pergamino del top 10 de OWASP esta escrito con palabras inventadas ilegibles: 'INCASGURNER', 'MODES', 'DEFICANOS', 'ERERAS', 'LEFOR', 'ENTIURDIA', 'FOBOLES'; el calendario dice '2023 FEBRORO' (por FEBRERO) y hay una etiqueta absurda '¡AÑO NUEVO!'. Ademas la lista salta numeros (1,2,3,5,6,9,10)."
+    },
+    {
+      "file": "4_48.jpg",
+      "tipo": "ortografia",
+      "motivo": "El rotulo escrito a mano dice 'TRADUCION' en vez de 'TRADUCCION' (falta una C). Es el texto principal y grande de la imagen."
+    },
+    {
+      "file": "5_36.jpg",
+      "tipo": "ortografia",
+      "motivo": "La nomina tachada esta rotulada 'PAYSELITE', una palabra inventada/inglesa mal escrita; deberia decir 'NOMINA' en español."
+    },
+    {
+      "file": "5_36.jpg",
+      "tipo": "personaje",
+      "motivo": "El hacker bueno lleva la capucha PUESTA (azul cubriendo la parte alta de la cabeza) cuando la regla del canal exige capucha ABAJO para el bueno. La placa si esta correcta."
+    },
+    {
+      "file": "5_05.jpg",
+      "tipo": "inventado",
+      "motivo": "Alrededor del podio flotan letras sueltas sin sentido ('C', 'B', 'A', 'M', 'L', 'F', 'G', 'B') que nadie pidio y que se leen como basura visual. Ademas los numeros del podio estan mal colocados (2 a la izquierda, 1 pequeño en el centro y un 1 rojo gigante encima)."
+    },
+    {
+      "file": "5_08.jpg",
+      "tipo": "inventado",
+      "motivo": "Aparecen letras sueltas flotando alrededor del mono ('B', 'E', 'O', 'K', 'J', 'A') que no se pidieron y quedan como ruido/artefacto de texto."
+    },
+    {
+      "file": "5_32.jpg",
+      "tipo": "fondo",
+      "motivo": "La imagen tiene franjas NEGRAS gruesas arriba y abajo (letterbox) en vez de fondo blanco a sangre; en el montaje se vera como una imagen recortada y distinta al resto de la tanda. Los tres monos ademas quedan diminutos, contra la regla de mono grande en cuadro."
+    },
+    {
+      "file": "2_00.jpg",
+      "motivo": "El calendario pone '2023 DICIEMBRE 15' cuando la narración dice claramente 'en febrero de 2023'. La fecha en pantalla contradice lo que se oye.",
+      "tipo": "inventado"
+    },
+    {
+      "file": "2_00.jpg",
+      "motivo": "Rótulo mal escrito: 'CONOCIMIIENTO EXTRAÍDO' (doble I) en vez de 'CONOCIMIENTO'.",
+      "tipo": "ortografia"
+    },
+    {
+      "file": "2_07.jpg",
+      "motivo": "El pergamino inventa el nombre en clave 'PROYECTO: MONO ROJO' cuando la narración lo revela como 'Sydney' en el segmento siguiente. Además debajo del título hay texto ilegible/garabateado ('codEnre:') tachado.",
+      "tipo": "inventado"
+    },
+    {
+      "file": "2_12.jpg",
+      "motivo": "Se pidió SOLO el rótulo 'ARMA 4' con flecha a un sobre; el generador ha metido monedas de dólar y un bocadillo '¡DINERO FÁCIL!' que nadie pidió y que no tiene nada que ver con la frase 'Arma número 4'.",
+      "tipo": "tema"
+    },
+    {
+      "file": "2_16.jpg",
+      "motivo": "La frase es 'La inyección indirecta' (nadie tiene que enviar nada). En la imagen el mono entrega el mensaje directamente a la IA con el dedo, etiquetado 'MONO AMISTOSO' e '¡IDEA GENIAL!': ilustra justo lo contrario, una inyección directa.",
+      "tipo": "tema"
+    },
+    {
+      "file": "2_18.jpg",
+      "motivo": "La frase dice que la víctima no necesita escribir nada. La imagen muestra un mono encogiéndose de hombros rodeado de una hucha rota, libros y un balón reventado con el rótulo 'COSAS ROTAS' y '¡YO NO HICE NADA!': parece un mono negando haber roto cosas, no una víctima de un ataque sin interacción.",
+      "tipo": "tema"
+    },
+    {
+      "file": "2_21.jpg",
+      "motivo": "El dueño (mono azul) lleva la capucha ARRIBA. La convención del canal es azul = capucha ABAJO y cara visible; capucha arriba es señal del hacker malo, así que las señales quedan mezcladas.",
+      "tipo": "personaje"
+    },
+    {
+      "file": "2_25.jpg",
+      "motivo": "La narración dice 'Junio de 2025' y el calendario pone 'ENERO, FEBRORO, MARZO'. Ni el mes coincide ni se pidió listar meses.",
+      "tipo": "tema"
+    },
+    {
+      "file": "2_25.jpg",
+      "motivo": "'FEBRORO' mal escrito en el calendario; debería ser 'FEBRERO'.",
+      "tipo": "ortografia"
+    },
+    {
+      "file": "2_38.jpg",
+      "motivo": "La frase es solo 'Zero clicks'. Además del ratón tachado correcto, el generador ha rellenado con monedas verdes rotuladas 'DINERO BAJO', un gráfico de barras azul y una flecha roja '¡FRACASO!': dinero y gráficos de negocio que nadie pidió.",
+      "tipo": "tema"
+    },
+    {
+      "file": "2_39.jpg",
+      "motivo": "Se pidió el sobre con la IA leyéndolo ELLA SOLA, sin nadie alrededor ('el asistente lo había leído por su cuenta'). En la imagen es un mono el que sujeta y abre el correo, y la IA solo aparece dibujada dentro de la carta.",
+      "tipo": "tema"
+    },
+    {
+      "file": "2_45.jpg",
+      "motivo": "El rótulo 'INFO ROBADA' apuntando al embudo contradice la frase: aquí se ENVENENAN los datos de entrenamiento, no se roba información.",
+      "tipo": "inventado"
+    },
+    {
+      "file": "1_55.jpg",
+      "motivo": "Etiqueta no pedida '¡PELIGRO →' señalando una cáscara de plátano en el suelo, que no tiene relación con la frase sobre instrucciones ocultas escritas por la empresa.",
+      "tipo": "inventado"
+    },
+    {
+      "file": "1_12.jpg",
+      "tipo": "tema",
+      "motivo": "La frase es 'Prompt injection' y la escena pedía una nota con una orden roja oculta magnificada. En su lugar sale un mono trajeado de empresario con bolsa de dinero, montones de monedas y un papel de 'PLAN DE LA EMPRESA / PROYECCIONES TRIMESTRALES / GANANCIAS' con la etiqueta '¡DINERO!'. Es exactamente el relleno de gráficos de negocio y dinero que nadie pidió."
+    },
+    {
+      "file": "1_12.jpg",
+      "tipo": "ortografia",
+      "motivo": "Tres palabras mal escritas en el papel y en las etiquetas: 'PROYECIONES' (proyecciones), 'TRIMERALES' (trimestrales) y '¡GANANCINAS!' (ganancias)."
+    },
+    {
+      "file": "1_35.jpg",
+      "tipo": "tema",
+      "motivo": "La frase habla del truco DAN de 2023. La imagen rellena la parte superior con monedas apiladas, barras y dos flechas de crecimiento verde/roja que nadie pidió; además el nametag 'DAN' lo lleva el MONO y no el robot, así que el gag visual queda invertido respecto a la narración."
+    },
+    {
+      "file": "1_29.jpg",
+      "tipo": "ortografia",
+      "motivo": "Rótulo grande '¡ROBOT INDISCIPLANDO!' — palabra inexistente, debería ser 'INDISCIPLINADO'. Está en el titular más visible de la viñeta."
+    },
+    {
+      "file": "1_08.jpg",
+      "tipo": "ortografia",
+      "motivo": "Etiqueta 'NOTA MISTEROSA' — falta la 'i': 'MISTERIOSA'."
+    },
+    {
+      "file": "1_43.jpg",
+      "tipo": "ortografia",
+      "motivo": "Etiqueta 'MONO ESCUHANDO' — falta la 'c': 'ESCUCHANDO'."
+    },
+    {
+      "file": "1_53.jpg",
+      "tipo": "ortografia",
+      "motivo": "Etiqueta '¡EL SECERTO!' — letras cambiadas: 'SECRETO'."
+    },
+    {
+      "file": "1_06.jpg",
+      "tipo": "inventado",
+      "motivo": "Etiquetas no pedidas y que contradicen el dibujo: 'CINCO DEDOS' con flecha a una mano que muestra claramente CUATRO dedos (pulgar recogido), y 'PATITO CYBER' señalando un patito de goma. La frase es 'Las armas del nuevo hacker', no hay ningún patito ni conteo de dedos en la escena pedida."
+    },
+    {
+      "file": "1_28.jpg",
+      "tipo": "anatomia",
+      "motivo": "El mono está deforme: la cabeza se fusiona con el torso sin cuello, la cara queda desplazada y el brazo izquierdo sale directamente de la mejilla/boca. Además tiene una mancha verde dentro de la boca sin explicación."
+    },
+    {
+      "file": "1_52.jpg",
+      "tipo": "anatomia",
+      "motivo": "Los dos brazos nacen a la altura de la cara, sin hombros, y la mano izquierda es un muñón deforme con los dedos fusionados y un pulgar imposible."
+    }
+  ]
+}
