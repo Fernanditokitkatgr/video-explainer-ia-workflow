@@ -1,0 +1,154 @@
+{
+  "fallos": [
+    {
+      "file": "4_00.jpg",
+      "tipo": "texto",
+      "motivo": "El escudo tiene pintado \"99%\" en el centro, con los trazos superpuestos y de aspecto sucio. Esta tanda debe ir sin ningun texto ni numero dibujado."
+    },
+    {
+      "file": "4_04.jpg",
+      "tipo": "texto",
+      "motivo": "El cartel del fondo lleva escrito \"SE BUSCA\" en letras grandes y perfectamente legibles. No deberia haber ningun texto dibujado en la imagen."
+    },
+    {
+      "file": "4_33.jpg",
+      "tipo": "texto",
+      "motivo": "La etiqueta de precio colgada del coche amarillo tiene un numero \"1\" dibujado. No debe haber numeros en la imagen."
+    },
+    {
+      "file": "0_14.jpg",
+      "tipo": "personaje",
+      "motivo": "El hacker BUENO (sudadera azul cielo con placa) lleva la capucha PUESTA/ARRIBA, cubriéndole la cabeza. La especificación exige capucha ABAJO para el bueno; solo el malo va encapuchado. Es la señal visual que distingue a los dos personajes y está mal."
+    },
+    {
+      "file": "0_37.jpg",
+      "tipo": "tema",
+      "motivo": "La frase es 'Jaquear un modelo de lenguaje es otra cosa completamente distinta', y la escena pedía el muro de código TACHADO detrás del robot. En la imagen la gran X negra está pintada encima del ROBOT (el modelo de lenguaje), no sobre el muro de código, y no aparece ningún muro de código. Visualmente comunica lo contrario: que se descarta la IA."
+    },
+    {
+      "file": "0_06.jpg",
+      "tipo": "fondo",
+      "motivo": "La imagen tiene dos bandas negras verticales muy anchas en el borde izquierdo y derecho (pillarbox) que rompen el fondo blanco del canal. A pantalla completa se ven como dos franjas oscuras a los lados del dibujo."
+    },
+    {
+      "file": "2_18.jpg",
+      "motivo": "La frase dice 'Aqui ya no hace falta que la victima escriba nada' y la imagen muestra a DOS MONOS POLICIA (gorra azul y gorra verde) senalando acusadoramente a un mono con las manos en alto junto a un jarron roto con flores y una banana en el suelo. Es una escena de acusacion policial / 'no he sido yo' que nadie pidio y que no ilustra la pasividad de la victima ante un ataque sin clics. El espectador lo lee como otro tema completamente distinto.",
+      "tipo": "tema"
+    },
+    {
+      "file": "2_21.jpg",
+      "motivo": "El duenio de la sudadera AZUL (que debe ser el hacker bueno: mono, capucha ABAJO, placa colgando) aparece como un NINO HUMANO con sudadera azul y la capucha ARRIBA, sin placa y sin cara de mono. Rompe la regla de personaje (capucha arriba = malo) y ademas no es un mono, asi que choca con el resto de la tanda.",
+      "tipo": "personaje"
+    },
+    {
+      "file": "2_39.jpg",
+      "motivo": "La frase es 'Solo un correo que el asistente habia leido por su cuenta' (justo despues de 'Zero clicks'), y la imagen muestra a un mono ENTREGANDOLE el sobre en mano al robot. Transmite lo contrario a lo que se narra: que nadie intervino y que el asistente lo leyo solo, sin que ningun usuario hiciera nada.",
+      "tipo": "tema"
+    },
+    {
+      "file": "1_22.jpg",
+      "tipo": "tema",
+      "motivo": "La frase habla de que Simon Willison le puso NOMBRE al problema en 2022. El retrato con gafas y la placa en blanco sí están, pero ocupan una esquina y la imagen la domina un mono gritando con la boca abierta, una nube con rayo y una BOMBA roja con la mecha encendida que nadie pidió. Lee como escena de ataque/alarma, no como 'alguien bautizó esto'."
+    },
+    {
+      "file": "1_29.jpg",
+      "tipo": "tema",
+      "motivo": "Es el rótulo de 'El jailbreak' y nadie salta nada: el robot y el mono están simplemente asomados DETRÁS de una valla, quietos, con cara neutra. No se ve escapar/saltar las propias normas, que es todo el concepto de la frase. Además el que trepa la valla debería ser el robot (salta SUS reglas), no aparecer un mono ajeno a la escena."
+    },
+    {
+      "file": "1_46.jpg",
+      "tipo": "personaje",
+      "motivo": "El robot-abuela no es el personaje de IA del vídeo: en 1_43 es la pantalla gris con ojos redondos blancos y sonrisa simple, y aquí de golpe es otro robot completamente distinto (cabeza cúbica naranja con CARA HUMANA arrugada, ojos verdes, moño morado, torso amarillo y brazos rojos). En dos planos consecutivos el espectador ve dos abuelas distintas; rompe la continuidad del personaje."
+    },
+    {
+      "file": "1_47.jpg",
+      "tipo": "personaje",
+      "motivo": "Tercera versión distinta de la abuela en tres planos seguidos: aquí es un robot de armadura azul con cara HUMANA de anciana (pelo blanco, gafas, mejillas rosas) sirviendo una bandeja de engranajes. Ni es la pantalla gris con ojos de dibujo del personaje IA ni coincide con la abuela de 1_43 ni con la de 1_46."
+    },
+    {
+      "file": "6_04.jpg",
+      "tipo": "tema",
+      "motivo": "La frase dice \"Muchas veces es un párrafo bien escrito\", pero la imagen muestra a un mono tirando a la basura una tarjeta roja con una X y un icono de chip (un fichero/exploit descartado). No ilustra el párrafo escrito; parece la imagen que correspondía a la frase anterior sobre el exploit de 20 kilobytes."
+    },
+    {
+      "file": "6_06.jpg",
+      "tipo": "tema",
+      "motivo": "La frase presenta Hacker One, \"la mayor plataforma de bug bounty del mundo\", y la imagen es solo un mono sosteniendo una hoja de papel brillante con garabatos. No hay ni plataforma, ni web, ni nada que sugiera un sitio de recompensas: el papel es lo que pegaba con la frase anterior (\"un párrafo bien escrito\")."
+    },
+    {
+      "file": "6_15.jpg",
+      "tipo": "tema",
+      "motivo": "La frase sitúa la acción en \"agosto de 2023, en la Defcon de Las Vegas\" y la imagen es el mono bueno cabalgando una flecha roja de crecimiento sobre barras verdes: un gráfico de negocio que nadie pidió, sin ninguna referencia a un congreso, una fecha ni Las Vegas. Es exactamente el vicio del generador de rellenar con flechas de crecimiento."
+    },
+    {
+      "file": "3_31.jpg",
+      "tipo": "tema",
+      "motivo": "La frase es 'Cuando arreglas un jailbreak' y la escena pedia un parche pegado al robot que se despega al instante. Lo que hay es un MONO con la pantalla del robot incrustada en el pecho (personaje quimera mono-robot), gritando con los brazos en alto, rodeado de cubos de juguete y nubes verdes. No hay parche, no hay robot como personaje, y la fusion mono/robot rompe el diseno de personajes del canal."
+    },
+    {
+      "file": "3_40.jpg",
+      "tipo": "texto",
+      "motivo": "El papel naranja que sostiene el mono central tiene LETRAS dibujadas: una especie de 'xCH+X' arriba y 'SO' abajo a la derecha. Son letras/simbolos inventados sin sentido, y estas imagenes deben salir sin ningun texto (los rotulos se pintan luego)."
+    },
+    {
+      "file": "3_37.jpg",
+      "tipo": "anatomia",
+      "motivo": "Aparece una TERCERA mano amarilla flotando suelta en medio del aire, senalando el calendario, mientras el mono ya tiene las dos manos levantadas. Mano desconectada del cuerpo, se nota a simple vista."
+    },
+    {
+      "file": "4_53.jpg",
+      "tipo": "tema",
+      "motivo": "La frase habla de OWASP publicando su top 10 de riesgos de seguridad, pero se ve un mono con CORONA dorada (nadie la pidio) sosteniendo un pergamino con iconos aleatorios de vacaciones (palmera, sol, pez, estrella, regalo). No se lee ni 'organizacion de seguridad' ni 'lista de riesgos'. Ademas la cara del mono sale bicolor amarillo/marron, incoherente con el personaje."
+    },
+    {
+      "file": "5_05.jpg",
+      "tipo": "tema",
+      "motivo": "La frase es 'por encima de todo lo demas' y se pidio el numero uno en un podio dominando al resto. Lo que hay es un mono de pie en el escalon ROJO mas bajo, con bloques naranja/amarillo/rojo y bolas verdes y un circulo azul colocados sin jerarquia (el elemento grande esta en un escalon inferior). No se transmite la idea de primacia; es relleno abstracto."
+    },
+    {
+      "file": "5_30.jpg",
+      "tipo": "anatomia",
+      "motivo": "El mono tiene TRES brazos claramente dibujados: uno sujetando la X roja abajo a la izquierda, otro cruzando por encima de la cabeza y un tercero levantado a la derecha. Salta a la vista."
+    },
+    {
+      "file": "5_51.jpg",
+      "tipo": "texto",
+      "motivo": "En la caja amarilla del logo aparecen letras dibujadas: 'iA' en azul (con la i minuscula, mal escrito). Estas imagenes deben ir sin ningun texto porque los rotulos se pintan despues en el montaje."
+    },
+    {
+      "file": "7_06.jpg",
+      "tipo": "tema",
+      "motivo": "La frase nombra dos laboratorios concretos (Gandalf de Lakera y Prompt Airlines) pero la imagen es un mono tachando items de un checklist con un escudo oficial arriba: es la escena del temario/OWASP, no la de los labs. La imagen va una posición desfasada respecto al audio. El escudo además lleva un icono raro tipo melocotón que no se pidió."
+    },
+    {
+      "file": "7_10.jpg",
+      "tipo": "tema",
+      "motivo": "La frase dice que añadiendo la lista de OWASP ya tienes el temario ordenado, gratis y en abierto; la imagen es el mono azul con la palma en gesto de STOP y cara muy seria. No ilustra nada de un temario ni de recursos gratis: es la escena de advertencia que corresponde a otra frase."
+    },
+    {
+      "file": "7_16.jpg",
+      "tipo": "tema",
+      "motivo": "La frase es la transicion honesta ('no te voy a vender humo') y la imagen es un mono con sonrisa picara sosteniendo una bolsa de dinero con simbolo del dolar, bandera de Espana y globo tachado. Ilustra la frase siguiente (sueldos no globales) y, con esa cara y esa bolsa de dinero, transmite justo lo contrario de 'no te vendo humo'."
+    },
+    {
+      "file": "7_20.jpg",
+      "tipo": "texto",
+      "motivo": "Hay letras dibujadas en la imagen: un enorme 'IA' amarillo dentro de la ventana, cuando estas imagenes se generan expresamente sin ningun texto. Ademas el tema no encaja: la frase habla de que los sueldos de 300.000 dolares son de EEUU y no la media global, y la imagen es la ventana de oportunidad cerrandose (la frase siguiente)."
+    },
+    {
+      "file": "7_26.jpg",
+      "tipo": "tema",
+      "motivo": "La frase avisa de que esta ventana no va a estar abierta para siempre; la imagen es el mono azul en un laboratorio marcado mostrando un documento firmado y sellado. No hay ninguna ventana ni idea de cierre: es la escena del permiso, que pertenece a la frase posterior."
+    },
+    {
+      "file": "7_32.jpg",
+      "tipo": "tema",
+      "motivo": "La frase dice que todo esto se hace CON permiso, en laboratorios o programas oficiales, y la imagen muestra barrotes de carcel, un icono tachado y un mono enfadado amenazando con el dedo. Visualmente comunica prohibicion/delito, que es la frase siguiente, no el marco legal autorizado."
+    },
+    {
+      "file": "7_36.jpg",
+      "tipo": "tema",
+      "motivo": "La frase es la advertencia dura de que atacar un modelo en produccion sin autorizacion es un delito, y la imagen es un mono con sonrisa de oreja a oreja sosteniendo un documento brillante y sentado sobre billetes. La cara de fiesta y el dinero desactivan por completo el aviso; es la escena del informe valioso, correspondiente a otra frase."
+    }
+  ]
+}

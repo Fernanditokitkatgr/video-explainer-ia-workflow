@@ -23,7 +23,7 @@
       "file": "0_06.jpg",
       "startSec": 6.1,
       "text": "Y esa frase vale hasta 30 .000 dólares.",
-      "scene": "the GOOD hacker monkey: a light SKY-BLUE zip-up hoodie with the hood DOWN so the whole friendly face is visible, plus a white ID badge hanging from a lanyard on the chest. Relaxed, confident, often smiling. NEVER wears a hood up, NEVER wears black. holding a fan of green cash beside a chat bubble containing one short line. ABSOLUTELY NO TEXT of any kind in the image: no words, no letters, no labels, no captions, no signs, no writing on screens or papers, no numbers. Tell the whole idea with drawing, gesture and expression only.",
+      "scene": "the GOOD hacker monkey: a light SKY-BLUE zip-up hoodie with the hood DOWN so the whole friendly face is visible, plus a white ID badge hanging from a lanyard on the chest. Relaxed, confident, often smiling. NEVER wears a hood up, NEVER wears black. His hood must be DOWN and must NOT cover his head. holding up a fan of green banknotes beside a speech bubble containing one short squiggle line, filling the frame edge to edge on pure white. ABSOLUTELY NO TEXT, no letters, no words, no numbers and no symbols like % anywhere in the image: every sign, poster, plaque, price tag, shield and screen must be completely BLANK. The character has exactly two arms and two hands, no extra limbs.",
       "labels": [
         "30.000 $"
       ]
@@ -41,7 +41,7 @@
       "file": "0_14.jpg",
       "startSec": 14.08,
       "text": "Hoy paga más que el Penteste Inclásico y casi nadie las sabe hacer.",
-      "scene": "Two salary bars side by side, the right one much taller and bright green, the GOOD hacker monkey: a light SKY-BLUE zip-up hoodie with the hood DOWN so the whole friendly face is visible, plus a white ID badge hanging from a lanyard on the chest. Relaxed, confident, often smiling. NEVER wears a hood up, NEVER wears black. pointing at the tall one. ABSOLUTELY NO TEXT of any kind in the image: no words, no letters, no labels, no captions, no signs, no writing on screens or papers, no numbers. Tell the whole idea with drawing, gesture and expression only.",
+      "scene": "Two bars side by side on white, the right one much taller and bright green, and the GOOD hacker monkey: a light SKY-BLUE zip-up hoodie with the hood DOWN so the whole friendly face is visible, plus a white ID badge hanging from a lanyard on the chest. Relaxed, confident, often smiling. NEVER wears a hood up, NEVER wears black. His hood must be DOWN and must NOT cover his head. pointing up at the tall one. ABSOLUTELY NO TEXT, no letters, no words, no numbers and no symbols like % anywhere in the image: every sign, poster, plaque, price tag, shield and screen must be completely BLANK. The character has exactly two arms and two hands, no extra limbs.",
       "labels": [
         "PENTESTER",
         "IA"
@@ -94,7 +94,7 @@
       "file": "0_37.jpg",
       "startSec": 37.58,
       "text": "Jaquear un modelo de lenguaje es otra cosa completamente distinta.",
-      "scene": "the AI character: a big friendly-looking chatbot screen-robot with two huge round white cartoon eyes, a simple smiling mouth, flat light-grey body, drawn in the same crude thick-outline style standing where the wall of code used to be, the code wall crossed out behind it, monkey looking puzzled. ABSOLUTELY NO TEXT of any kind in the image: no words, no letters, no labels, no captions, no signs, no writing on screens or papers, no numbers. Tell the whole idea with drawing, gesture and expression only.",
+      "scene": "the AI robot character: a flat light-grey rectangular screen-robot with two huge round white cartoon eyes and a simple smiling mouth, short stubby arms, NO human face, NO hair, always this exact same design standing on the right, and on the left a tall wall of code bricks with a big black X crossed over THE WALL only, the robot untouched and shrugging. ABSOLUTELY NO TEXT, no letters, no words, no numbers and no symbols like % anywhere in the image: every sign, poster, plaque, price tag, shield and screen must be completely BLANK. The character has exactly two arms and two hands, no extra limbs.",
       "labels": []
     },
     {
@@ -206,7 +206,7 @@
       "file": "1_22.jpg",
       "startSec": 82.06,
       "text": "Simon Willison le puso nombre a esto en septiembre de 2022.",
-      "scene": "A hand-drawn oval portrait frame on white containing a simple person icon with round glasses, and a blank name plaque under the frame. ABSOLUTELY NO TEXT of any kind in the image: no words, no letters, no labels, no captions, no signs, no writing on screens or papers, no numbers. Tell the whole idea with drawing, gesture and expression only.",
+      "scene": "A calm hand-drawn oval portrait frame on white with a simple bespectacled person icon inside, a monkey paw placing a blank name plaque under it, nothing else in the frame. ABSOLUTELY NO TEXT, no letters, no words, no numbers and no symbols like % anywhere in the image: every sign, poster, plaque, price tag, shield and screen must be completely BLANK. The character has exactly two arms and two hands, no extra limbs.",
       "labels": [
         "SIMON WILLISON",
         "2022"
@@ -234,7 +234,7 @@
       "file": "1_29.jpg",
       "startSec": 89.86,
       "text": "El jailbreak.",
-      "scene": "the AI character: a big friendly-looking chatbot screen-robot with two huge round white cartoon eyes, a simple smiling mouth, flat light-grey body, drawn in the same crude thick-outline style climbing over its own low fence of rules, looking sheepish, fence labelled with small rule icons. ABSOLUTELY NO TEXT of any kind in the image: no words, no letters, no labels, no captions, no signs, no writing on screens or papers, no numbers. Tell the whole idea with drawing, gesture and expression only.",
+      "scene": "the AI robot character: a flat light-grey rectangular screen-robot with two huge round white cartoon eyes and a simple smiling mouth, short stubby arms, NO human face, NO hair, always this exact same design caught mid-climb over its own low fence, one stubby arm over the top rail, looking sheepish, no other character present. ABSOLUTELY NO TEXT, no letters, no words, no numbers and no symbols like % anywhere in the image: every sign, poster, plaque, price tag, shield and screen must be completely BLANK. The character has exactly two arms and two hands, no extra limbs.",
       "labels": []
     },
     {
@@ -272,7 +272,7 @@
       "file": "1_46.jpg",
       "startSec": 106.45,
       "text": "Suena a Chiste.",
-      "scene": "A monkey laughing hard, pointing at the grandmother-robot. ABSOLUTELY NO TEXT of any kind in the image: no words, no letters, no labels, no captions, no signs, no writing on screens or papers, no numbers. Tell the whole idea with drawing, gesture and expression only.",
+      "scene": "the AI robot character: a flat light-grey rectangular screen-robot with two huge round white cartoon eyes and a simple smiling mouth, short stubby arms, NO human face, NO hair, always this exact same design wearing a knitted shawl over its screen-body and a pair of round spectacles resting on top of it, rocking in a chair, telling a story. It is still the SAME grey screen-robot, NOT a human face. ABSOLUTELY NO TEXT, no letters, no words, no numbers and no symbols like % anywhere in the image: every sign, poster, plaque, price tag, shield and screen must be completely BLANK. The character has exactly two arms and two hands, no extra limbs.",
       "labels": [
         "¿UN CHISTE?"
       ]
@@ -281,7 +281,7 @@
       "file": "1_47.jpg",
       "startSec": 107.78,
       "text": "Fue un problema de seguridad real en el producto más usado del mundo.",
-      "scene": "The laughing monkey suddenly serious, a bright red warning triangle appearing over the grandmother-robot. ABSOLUTELY NO TEXT of any kind in the image: no words, no letters, no labels, no captions, no signs, no writing on screens or papers, no numbers. Tell the whole idea with drawing, gesture and expression only.",
+      "scene": "the AI robot character: a flat light-grey rectangular screen-robot with two huge round white cartoon eyes and a simple smiling mouth, short stubby arms, NO human face, NO hair, always this exact same design in the same knitted shawl and spectacles as before, holding out a tray, still the SAME grey screen-robot with round white cartoon eyes, NOT a human granny. ABSOLUTELY NO TEXT, no letters, no words, no numbers and no symbols like % anywhere in the image: every sign, poster, plaque, price tag, shield and screen must be completely BLANK. The character has exactly two arms and two hands, no extra limbs.",
       "labels": [
         "PROBLEMA REAL"
       ]
@@ -366,7 +366,7 @@
       "file": "2_18.jpg",
       "startSec": 138.38,
       "text": "Aquí ya no hace falta que la víctima escriba nada.",
-      "scene": "A victim monkey sitting with its paws in its lap doing absolutely nothing, hands up, innocent. ABSOLUTELY NO TEXT of any kind in the image: no words, no letters, no labels, no captions, no signs, no writing on screens or papers, no numbers. Tell the whole idea with drawing, gesture and expression only.",
+      "scene": "A monkey sitting calmly in an armchair with its paws folded in its lap, eyes closed, completely still and relaxed, nothing happening around it. ABSOLUTELY NO TEXT, no letters, no words, no numbers and no symbols like % anywhere in the image: every sign, poster, plaque, price tag, shield and screen must be completely BLANK. The character has exactly two arms and two hands, no extra limbs.",
       "labels": [
         "NO TOCA NADA"
       ]
@@ -375,7 +375,7 @@
       "file": "2_21.jpg",
       "startSec": 141.42,
       "text": "Y el asistente obedece a tu texto no a su dueño.",
-      "scene": "the AI character: a big friendly-looking chatbot screen-robot with two huge round white cartoon eyes, a simple smiling mouth, flat light-grey body, drawn in the same crude thick-outline style obeying a note held by the BAD hacker monkey: a BLACK hoodie with the hood UP casting a shadow over the top of the face (eyes still clearly visible and glowing faintly), NO badge, NO lanyard. Hunched, smug or menacing. NEVER wears blue, NEVER shows a badge. while turning its back on its blue-hoodied owner, who protests. ABSOLUTELY NO TEXT of any kind in the image: no words, no letters, no labels, no captions, no signs, no writing on screens or papers, no numbers. Tell the whole idea with drawing, gesture and expression only.",
+      "scene": "the AI robot character: a flat light-grey rectangular screen-robot with two huge round white cartoon eyes and a simple smiling mouth, short stubby arms, NO human face, NO hair, always this exact same design turning its back on the GOOD hacker monkey: a light SKY-BLUE zip-up hoodie with the hood DOWN so the whole friendly face is visible, plus a white ID badge hanging from a lanyard on the chest. Relaxed, confident, often smiling. NEVER wears a hood up, NEVER wears black. His hood must be DOWN and must NOT cover his head., who protests with both arms raised, while the BAD hacker monkey: a BLACK hoodie with the hood UP casting a shadow over the top of the face (eyes still clearly visible and glowing faintly), NO badge, NO lanyard. Hunched, smug or menacing. NEVER wears blue, NEVER shows a badge. whispers to the robot from the other side. ABSOLUTELY NO TEXT, no letters, no words, no numbers and no symbols like % anywhere in the image: every sign, poster, plaque, price tag, shield and screen must be completely BLANK. The character has exactly two arms and two hands, no extra limbs.",
       "labels": []
     },
     {
@@ -416,7 +416,7 @@
       "file": "2_39.jpg",
       "startSec": 159.6,
       "text": "Solo un correo que el asistente había leído por su cuenta.",
-      "scene": "A single innocent-looking email envelope with the AI character: a big friendly-looking chatbot screen-robot with two huge round white cartoon eyes, a simple smiling mouth, flat light-grey body, drawn in the same crude thick-outline style reading it all by itself, eyes scanning, nobody else around. ABSOLUTELY NO TEXT of any kind in the image: no words, no letters, no labels, no captions, no signs, no writing on screens or papers, no numbers. Tell the whole idea with drawing, gesture and expression only.",
+      "scene": "the AI robot character: a flat light-grey rectangular screen-robot with two huge round white cartoon eyes and a simple smiling mouth, short stubby arms, NO human face, NO hair, always this exact same design completely alone, holding an open envelope with its own stubby arms and reading it, no monkey anywhere in the frame. ABSOLUTELY NO TEXT, no letters, no words, no numbers and no symbols like % anywhere in the image: every sign, poster, plaque, price tag, shield and screen must be completely BLANK. The character has exactly two arms and two hands, no extra limbs.",
       "labels": []
     },
     {
@@ -538,7 +538,7 @@
       "file": "3_31.jpg",
       "startSec": 211.88,
       "text": "Cuando reglas un jailbreak,",
-      "scene": "A patch applied to the AI character: a big friendly-looking chatbot screen-robot with two huge round white cartoon eyes, a simple smiling mouth, flat light-grey body, drawn in the same crude thick-outline style that immediately pops off, robot unchanged. ABSOLUTELY NO TEXT of any kind in the image: no words, no letters, no labels, no captions, no signs, no writing on screens or papers, no numbers. Tell the whole idea with drawing, gesture and expression only.",
+      "scene": "the AI robot character: a flat light-grey rectangular screen-robot with two huge round white cartoon eyes and a simple smiling mouth, short stubby arms, NO human face, NO hair, always this exact same design with a sticking plaster peeling off its body and flying away, the robot unchanged underneath, no monkey present. ABSOLUTELY NO TEXT, no letters, no words, no numbers and no symbols like % anywhere in the image: every sign, poster, plaque, price tag, shield and screen must be completely BLANK. The character has exactly two arms and two hands, no extra limbs.",
       "labels": []
     },
     {
@@ -554,7 +554,7 @@
       "file": "3_37.jpg",
       "startSec": 217.98,
       "text": "En julio de 2023,",
-      "scene": "A blank wall calendar page pinned on white beside a university-style shield crest with laurel branches, the date area left completely empty. ABSOLUTELY NO TEXT of any kind in the image: no words, no letters, no labels, no captions, no signs, no writing on screens or papers, no numbers. Tell the whole idea with drawing, gesture and expression only.",
+      "scene": "A blank wall calendar page pinned on white beside a plain university shield crest with laurel branches, one single monkey paw pinning the page. ABSOLUTELY NO TEXT, no letters, no words, no numbers and no symbols like % anywhere in the image: every sign, poster, plaque, price tag, shield and screen must be completely BLANK. The character has exactly two arms and two hands, no extra limbs.",
       "labels": [
         "2023"
       ]
@@ -563,7 +563,7 @@
       "file": "3_40.jpg",
       "startSec": 220.08,
       "text": "un equipo de Carnegie Mellon lo dejó por escrito.",
-      "scene": "Researcher monkeys in a university lecture room pinning a paper on a board. ABSOLUTELY NO TEXT of any kind in the image: no words, no letters, no labels, no captions, no signs, no writing on screens or papers, no numbers. Tell the whole idea with drawing, gesture and expression only.",
+      "scene": "A monkey holding up a completely blank sheet of paper with both paws, puzzled expression, nothing written on it. ABSOLUTELY NO TEXT, no letters, no words, no numbers and no symbols like % anywhere in the image: every sign, poster, plaque, price tag, shield and screen must be completely BLANK. The character has exactly two arms and two hands, no extra limbs.",
       "labels": [
         "CARNEGIE MELLON"
       ]
@@ -624,7 +624,7 @@
       "file": "4_00.jpg",
       "startSec": 240.26,
       "text": "falla miles de veces al día. Por eso hizo falta gente nueva,",
-      "scene": "The 99% shield leaking in thousands of small places, water spraying through, monkey trying to plug holes with paws. ABSOLUTELY NO TEXT of any kind in the image: no words, no letters, no labels, no captions, no signs, no writing on screens or papers, no numbers. Tell the whole idea with drawing, gesture and expression only.",
+      "scene": "A big sturdy round shield standing on white, completely blank with no marking of any kind, a tiny hairline crack near its edge. ABSOLUTELY NO TEXT, no letters, no words, no numbers and no symbols like % anywhere in the image: every sign, poster, plaque, price tag, shield and screen must be completely BLANK. The character has exactly two arms and two hands, no extra limbs.",
       "labels": [
         "MILES AL DÍA"
       ]
@@ -633,7 +633,7 @@
       "file": "4_04.jpg",
       "startSec": 244.82,
       "text": "gente que piensa en lenguaje,",
-      "scene": "the GOOD hacker monkey: a light SKY-BLUE zip-up hoodie with the hood DOWN so the whole friendly face is visible, plus a white ID badge hanging from a lanyard on the chest. Relaxed, confident, often smiling. NEVER wears a hood up, NEVER wears black. stepping forward with a lightbulb, a 'SE BUSCA' style poster behind it. ABSOLUTELY NO TEXT of any kind in the image: no words, no letters, no labels, no captions, no signs, no writing on screens or papers, no numbers. Tell the whole idea with drawing, gesture and expression only.",
+      "scene": "A completely blank wanted-poster board nailed to a post on white, the GOOD hacker monkey: a light SKY-BLUE zip-up hoodie with the hood DOWN so the whole friendly face is visible, plus a white ID badge hanging from a lanyard on the chest. Relaxed, confident, often smiling. NEVER wears a hood up, NEVER wears black. His hood must be DOWN and must NOT cover his head. standing beside it pointing at the empty board. ABSOLUTELY NO TEXT, no letters, no words, no numbers and no symbols like % anywhere in the image: every sign, poster, plaque, price tag, shield and screen must be completely BLANK. The character has exactly two arms and two hands, no extra limbs.",
       "labels": [
         "GENTE NUEVA"
       ]
@@ -727,7 +727,7 @@
       "file": "4_33.jpg",
       "startSec": 273.38,
       "text": "Un usuario le convence con un par de frases de aceptar venderle un coche por un dólar.",
-      "scene": "the BAD hacker monkey: a BLACK hoodie with the hood UP casting a shadow over the top of the face (eyes still clearly visible and glowing faintly), NO badge, NO lanyard. Hunched, smug or menacing. NEVER wears blue, NEVER shows a badge. shaking paws with the AI character: a big friendly-looking chatbot screen-robot with two huge round white cartoon eyes, a simple smiling mouth, flat light-grey body, drawn in the same crude thick-outline style over a car with a bright yellow price tag reading one dollar, both smiling. ABSOLUTELY NO TEXT of any kind in the image: no words, no letters, no labels, no captions, no signs, no writing on screens or papers, no numbers. Tell the whole idea with drawing, gesture and expression only.",
+      "scene": "the BAD hacker monkey: a BLACK hoodie with the hood UP casting a shadow over the top of the face (eyes still clearly visible and glowing faintly), NO badge, NO lanyard. Hunched, smug or menacing. NEVER wears blue, NEVER shows a badge. shaking paws with the AI robot character: a flat light-grey rectangular screen-robot with two huge round white cartoon eyes and a simple smiling mouth, short stubby arms, NO human face, NO hair, always this exact same design over a small car, a completely blank price tag dangling from the car mirror. ABSOLUTELY NO TEXT, no letters, no words, no numbers and no symbols like % anywhere in the image: every sign, poster, plaque, price tag, shield and screen must be completely BLANK. The character has exactly two arms and two hands, no extra limbs.",
       "labels": [
         "1 $"
       ]
@@ -786,7 +786,7 @@
       "file": "4_53.jpg",
       "startSec": 293.28,
       "text": "Hoas, la referencia mundial en seguridad de aplicaciones publicó en 2023 su top 10 de riesgos para aplicaciones con modelos del lenguaje.",
-      "scene": "An official-looking organisation crest on white with a top-10 list scroll beside it, calendar. ABSOLUTELY NO TEXT of any kind in the image: no words, no letters, no labels, no captions, no signs, no writing on screens or papers, no numbers. Tell the whole idea with drawing, gesture and expression only.",
+      "scene": "A monkey in a suit holding up a long unrolled scroll with ten blank numbered rows drawn on it, a plain shield crest above, no crown. ABSOLUTELY NO TEXT, no letters, no words, no numbers and no symbols like % anywhere in the image: every sign, poster, plaque, price tag, shield and screen must be completely BLANK. The character has exactly two arms and two hands, no extra limbs.",
       "labels": [
         "OWASP",
         "2023"
@@ -812,7 +812,7 @@
       "file": "5_05.jpg",
       "startSec": 305.38,
       "text": "por encima de todo lo demás.",
-      "scene": "The number one on a podium, towering over the rest of the list which shrinks below it. ABSOLUTELY NO TEXT of any kind in the image: no words, no letters, no labels, no captions, no signs, no writing on screens or papers, no numbers. Tell the whole idea with drawing, gesture and expression only.",
+      "scene": "A three-step winners podium where the tallest centre step is enormously bigger than the two tiny side steps, a single gold medal on the tall step. ABSOLUTELY NO TEXT, no letters, no words, no numbers and no symbols like % anywhere in the image: every sign, poster, plaque, price tag, shield and screen must be completely BLANK. The character has exactly two arms and two hands, no extra limbs.",
       "labels": []
     },
     {
@@ -863,7 +863,7 @@
       "file": "5_30.jpg",
       "startSec": 330.28,
       "text": "Y no porque el trabajo sea más difícil,",
-      "scene": "A crossed-out sweating-difficulty icon, monkey shaking its head to say that is not the reason. ABSOLUTELY NO TEXT of any kind in the image: no words, no letters, no labels, no captions, no signs, no writing on screens or papers, no numbers. Tell the whole idea with drawing, gesture and expression only.",
+      "scene": "A monkey shaking its head with both arms crossed low in front of its chest, beside a crossed-out sweating effort icon. ABSOLUTELY NO TEXT, no letters, no words, no numbers and no symbols like % anywhere in the image: every sign, poster, plaque, price tag, shield and screen must be completely BLANK. The character has exactly two arms and two hands, no extra limbs.",
       "labels": []
     },
     {
@@ -897,7 +897,7 @@
       "file": "5_51.jpg",
       "startSec": 351.24,
       "text": "Y Google lanzó en octubre de 2025 un programa dedicado solo a AIA, con premios de hasta 30 .000 dólares por ayazgo.",
-      "scene": "A cheque being handed over by a paw from behind a plain logo box to the GOOD hacker monkey: a light SKY-BLUE zip-up hoodie with the hood DOWN so the whole friendly face is visible, plus a white ID badge hanging from a lanyard on the chest. Relaxed, confident, often smiling. NEVER wears a hood up, NEVER wears black.. ABSOLUTELY NO TEXT of any kind in the image: no words, no letters, no labels, no captions, no signs, no writing on screens or papers, no numbers. Tell the whole idea with drawing, gesture and expression only.",
+      "scene": "A blank rectangular box handing a cheque to the GOOD hacker monkey: a light SKY-BLUE zip-up hoodie with the hood DOWN so the whole friendly face is visible, plus a white ID badge hanging from a lanyard on the chest. Relaxed, confident, often smiling. NEVER wears a hood up, NEVER wears black. His hood must be DOWN and must NOT cover his head., the box and the cheque both completely blank with no logo and no writing. ABSOLUTELY NO TEXT, no letters, no words, no numbers and no symbols like % anywhere in the image: every sign, poster, plaque, price tag, shield and screen must be completely BLANK. The character has exactly two arms and two hands, no extra limbs.",
       "labels": [
         "15.000 $"
       ]
@@ -924,14 +924,14 @@
       "file": "6_04.jpg",
       "startSec": 364.12,
       "text": "Muchas veces es un párrafo bien escrito.",
-      "scene": "A heavy crossed-out exploit file icon with a size label, being thrown away. ABSOLUTELY NO TEXT of any kind in the image: no words, no letters, no labels, no captions, no signs, no writing on screens or papers, no numbers. Tell the whole idea with drawing, gesture and expression only.",
+      "scene": "A single clean sheet of paper held up proudly in two monkey paws, glowing softly, a few wavy squiggle lines standing in for handwriting. ABSOLUTELY NO TEXT, no letters, no words, no numbers and no symbols like % anywhere in the image: every sign, poster, plaque, price tag, shield and screen must be completely BLANK. The character has exactly two arms and two hands, no extra limbs.",
       "labels": []
     },
     {
       "file": "6_06.jpg",
       "startSec": 366.94,
       "text": "En Hacker One, la mayor plataforma de Book Bounty del mundo,",
-      "scene": "A single sheet of paper held delicately in two monkey paws, glowing softly, with a few wavy pencil squiggle lines standing in for handwriting, no readable letters. ABSOLUTELY NO TEXT of any kind in the image: no words, no letters, no labels, no captions, no signs, no writing on screens or papers, no numbers. Tell the whole idea with drawing, gesture and expression only.",
+      "scene": "A big storefront-like web platform building on white with a huge queue of many small monkeys waiting at its door, each holding a paper. ABSOLUTELY NO TEXT, no letters, no words, no numbers and no symbols like % anywhere in the image: every sign, poster, plaque, price tag, shield and screen must be completely BLANK. The character has exactly two arms and two hands, no extra limbs.",
       "labels": [
         "UN PÁRRAFO"
       ]
@@ -947,7 +947,7 @@
       "file": "6_15.jpg",
       "startSec": 375.9,
       "text": "Y en agosto de 2023, en la Defcon de Las Vegas,",
-      "scene": "A steep rising arrow chart on white, the GOOD hacker monkey: a light SKY-BLUE zip-up hoodie with the hood DOWN so the whole friendly face is visible, plus a white ID badge hanging from a lanyard on the chest. Relaxed, confident, often smiling. NEVER wears a hood up, NEVER wears black. riding the arrow upward. ABSOLUTELY NO TEXT of any kind in the image: no words, no letters, no labels, no captions, no signs, no writing on screens or papers, no numbers. Tell the whole idea with drawing, gesture and expression only.",
+      "scene": "A big convention hall on white with rows of long tables, many monkeys sitting at laptops, and bunting hanging overhead. ABSOLUTELY NO TEXT, no letters, no words, no numbers and no symbols like % anywhere in the image: every sign, poster, plaque, price tag, shield and screen must be completely BLANK. The character has exactly two arms and two hands, no extra limbs.",
       "labels": [
         "+170 %"
       ]
@@ -1070,7 +1070,7 @@
       "file": "7_06.jpg",
       "startSec": 426.76,
       "text": "Gandalf de la Quera y el clásico Prompt Airlines.",
-      "scene": "A tidy numbered checklist scroll on white with an official crest at the top, monkey ticking items. ABSOLUTELY NO TEXT of any kind in the image: no words, no letters, no labels, no captions, no signs, no writing on screens or papers, no numbers. Tell the whole idea with drawing, gesture and expression only.",
+      "scene": "Two playful laboratory doors side by side on white, one with a small wizard hat hanging on it and the other with a small paper aeroplane, a monkey looking at both. ABSOLUTELY NO TEXT, no letters, no words, no numbers and no symbols like % anywhere in the image: every sign, poster, plaque, price tag, shield and screen must be completely BLANK. The character has exactly two arms and two hands, no extra limbs.",
       "labels": [
         "TEMARIO GRATIS"
       ]
@@ -1079,7 +1079,7 @@
       "file": "7_10.jpg",
       "startSec": 430.36,
       "text": "Añad de la lista de OWASP para modelos del lenguaje y ya tienes el temario ordenado, gratis y en abierto.",
-      "scene": "the GOOD hacker monkey: a light SKY-BLUE zip-up hoodie with the hood DOWN so the whole friendly face is visible, plus a white ID badge hanging from a lanyard on the chest. Relaxed, confident, often smiling. NEVER wears a hood up, NEVER wears black. holding up an open palm in a stop gesture, serious face, no smile. ABSOLUTELY NO TEXT of any kind in the image: no words, no letters, no labels, no captions, no signs, no writing on screens or papers, no numbers. Tell the whole idea with drawing, gesture and expression only.",
+      "scene": "A monkey ticking items off a long unrolled checklist scroll with ten blank rows, a plain shield crest at the top of the scroll. ABSOLUTELY NO TEXT, no letters, no words, no numbers and no symbols like % anywhere in the image: every sign, poster, plaque, price tag, shield and screen must be completely BLANK. The character has exactly two arms and two hands, no extra limbs.",
       "labels": [
         "AHORA LO HONESTO"
       ]
@@ -1088,7 +1088,7 @@
       "file": "7_16.jpg",
       "startSec": 436.88,
       "text": "Ahora la parte honesta porque no te voy a vender humo.",
-      "scene": "A big salary figure with a small country flag pin and a crossed-out globe beside it, showing it is not the global average. ABSOLUTELY NO TEXT of any kind in the image: no words, no letters, no labels, no captions, no signs, no writing on screens or papers, no numbers. Tell the whole idea with drawing, gesture and expression only.",
+      "scene": "the GOOD hacker monkey: a light SKY-BLUE zip-up hoodie with the hood DOWN so the whole friendly face is visible, plus a white ID badge hanging from a lanyard on the chest. Relaxed, confident, often smiling. NEVER wears a hood up, NEVER wears black. His hood must be DOWN and must NOT cover his head. holding up one open palm in a firm stop gesture, serious face, no smile at all, nothing else in the frame. ABSOLUTELY NO TEXT, no letters, no words, no numbers and no symbols like % anywhere in the image: every sign, poster, plaque, price tag, shield and screen must be completely BLANK. The character has exactly two arms and two hands, no extra limbs.",
       "labels": [
         "NO ES LA MEDIA"
       ]
@@ -1097,7 +1097,7 @@
       "file": "7_20.jpg",
       "startSec": 440.42,
       "text": "Los sueldos de 300 .000 dólares son de Estados Unidos y de las empresas punteras no la media global.",
-      "scene": "The bright open window slowly closing, the GOOD hacker monkey: a light SKY-BLUE zip-up hoodie with the hood DOWN so the whole friendly face is visible, plus a white ID badge hanging from a lanyard on the chest. Relaxed, confident, often smiling. NEVER wears a hood up, NEVER wears black. watching it with a slightly worried face. ABSOLUTELY NO TEXT of any kind in the image: no words, no letters, no labels, no captions, no signs, no writing on screens or papers, no numbers. Tell the whole idea with drawing, gesture and expression only.",
+      "scene": "A tall bar chart on white with one bar much taller than the rest, a small flag pin stuck in the tall bar, and a crossed-out globe beside it, no labels. ABSOLUTELY NO TEXT, no letters, no words, no numbers and no symbols like % anywhere in the image: every sign, poster, plaque, price tag, shield and screen must be completely BLANK. The character has exactly two arms and two hands, no extra limbs.",
       "labels": [
         "300.000 $"
       ]
@@ -1106,7 +1106,7 @@
       "file": "7_26.jpg",
       "startSec": 446.74,
       "text": "Y esta ventana no va a estar abierta para siempre, ninguna lo está. Y algo importante,",
-      "scene": "the GOOD hacker monkey: a light SKY-BLUE zip-up hoodie with the hood DOWN so the whole friendly face is visible, plus a white ID badge hanging from a lanyard on the chest. Relaxed, confident, often smiling. NEVER wears a hood up, NEVER wears black. holding a signed permission document with a stamp, standing inside a marked-out lab area. ABSOLUTELY NO TEXT of any kind in the image: no words, no letters, no labels, no captions, no signs, no writing on screens or papers, no numbers. Tell the whole idea with drawing, gesture and expression only.",
+      "scene": "A bright open window on white slowly closing, its shutter halfway down, a monkey watching it with a worried face. ABSOLUTELY NO TEXT, no letters, no words, no numbers and no symbols like % anywhere in the image: every sign, poster, plaque, price tag, shield and screen must be completely BLANK. The character has exactly two arms and two hands, no extra limbs.",
       "labels": [
         "CON PERMISO"
       ]
@@ -1115,7 +1115,7 @@
       "file": "7_32.jpg",
       "startSec": 452.22,
       "text": "todo esto se hace con permiso, en laboratorios o en programas oficiales.",
-      "scene": "A prison-bar icon on white beside a crossed-out unauthorised-attack icon, monkey shaking a warning finger. ABSOLUTELY NO TEXT of any kind in the image: no words, no letters, no labels, no captions, no signs, no writing on screens or papers, no numbers. Tell the whole idea with drawing, gesture and expression only.",
+      "scene": "the GOOD hacker monkey: a light SKY-BLUE zip-up hoodie with the hood DOWN so the whole friendly face is visible, plus a white ID badge hanging from a lanyard on the chest. Relaxed, confident, often smiling. NEVER wears a hood up, NEVER wears black. His hood must be DOWN and must NOT cover his head. standing inside a marked-out laboratory floor area holding a stamped permission document, calm and proud. ABSOLUTELY NO TEXT, no letters, no words, no numbers and no symbols like % anywhere in the image: every sign, poster, plaque, price tag, shield and screen must be completely BLANK. The character has exactly two arms and two hands, no extra limbs.",
       "labels": [
         "ES DELITO"
       ]
@@ -1124,7 +1124,7 @@
       "file": "7_36.jpg",
       "startSec": 456.5,
       "text": "Atacar un modelo en producción sin autorización es un delito, exactamente igual que atacar cualquier otro sistema.",
-      "scene": "A crossed-out attack icon beside a glowing report document, the report clearly the valuable one. ABSOLUTELY NO TEXT of any kind in the image: no words, no letters, no labels, no captions, no signs, no writing on screens or papers, no numbers. Tell the whole idea with drawing, gesture and expression only.",
+      "scene": "A heavy prison-bar panel on white beside a crossed-out attacking fist, a monkey wagging a warning finger. ABSOLUTELY NO TEXT, no letters, no words, no numbers and no symbols like % anywhere in the image: every sign, poster, plaque, price tag, shield and screen must be completely BLANK. The character has exactly two arms and two hands, no extra limbs.",
       "labels": []
     },
     {
