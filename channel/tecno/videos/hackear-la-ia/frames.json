@@ -23,8 +23,10 @@
       "file": "0_06.jpg",
       "startSec": 6.1,
       "text": "Y esa frase vale hasta 30 .000 dólares.",
-      "scene": "the GOOD hacker monkey: a light SKY-BLUE zip-up hoodie with the hood DOWN so the whole friendly face is visible, plus a white ID badge hanging from a lanyard on the chest. Relaxed, confident, often smiling. NEVER wears a hood up, NEVER wears black. holding a fan of green cash beside a chat bubble containing one short line.000 $'. ABSOLUTELY NO TEXT of any kind in the image: no words, no letters, no labels, no captions, no signs, no writing on screens or papers, no numbers. Tell the whole idea with drawing, gesture and expression only.",
-      "labels": []
+      "scene": "the GOOD hacker monkey: a light SKY-BLUE zip-up hoodie with the hood DOWN so the whole friendly face is visible, plus a white ID badge hanging from a lanyard on the chest. Relaxed, confident, often smiling. NEVER wears a hood up, NEVER wears black. holding a fan of green cash beside a chat bubble containing one short line. ABSOLUTELY NO TEXT of any kind in the image: no words, no letters, no labels, no captions, no signs, no writing on screens or papers, no numbers. Tell the whole idea with drawing, gesture and expression only.",
+      "labels": [
+        "30.000 $"
+      ]
     },
     {
       "file": "0_09.jpg",
@@ -204,9 +206,9 @@
       "file": "1_22.jpg",
       "startSec": 82.06,
       "text": "Simon Willison le puso nombre a esto en septiembre de 2022.",
-      "scene": "A hand-drawn portrait-style frame of a person icon beside, and a name tag. ABSOLUTELY NO TEXT of any kind in the image: no words, no letters, no labels, no captions, no signs, no writing on screens or papers, no numbers. Tell the whole idea with drawing, gesture and expression only.",
+      "scene": "A hand-drawn oval portrait frame on white containing a simple person icon with round glasses, and a blank name plaque under the frame. ABSOLUTELY NO TEXT of any kind in the image: no words, no letters, no labels, no captions, no signs, no writing on screens or papers, no numbers. Tell the whole idea with drawing, gesture and expression only.",
       "labels": [
-        "SIMON WILLISON · 2022",
+        "SIMON WILLISON",
         "2022"
       ]
     },
@@ -380,7 +382,7 @@
       "file": "2_25.jpg",
       "startSec": 145.26,
       "text": "Junio de 2025.",
-      "scene": " pinned on white, small monkey paw pinning it. ABSOLUTELY NO TEXT of any kind in the image: no words, no letters, no labels, no captions, no signs, no writing on screens or papers, no numbers. Tell the whole idea with drawing, gesture and expression only.",
+      "scene": "A blank wall calendar page pinned on white, a small monkey paw pinning it, the date area left completely empty. ABSOLUTELY NO TEXT of any kind in the image: no words, no letters, no labels, no captions, no signs, no writing on screens or papers, no numbers. Tell the whole idea with drawing, gesture and expression only.",
       "labels": [
         "2025"
       ]
@@ -460,7 +462,7 @@
       "file": "2_56.jpg",
       "startSec": 176.86,
       "text": "Nicolás Carlini y su equipo demostraron en 2023 que era práctico y barato.",
-      "scene": "A researcher monkey in a lab coat holding up a proof-of-concept sign. ABSOLUTELY NO TEXT of any kind in the image: no words, no letters, no labels, no captions, no signs, no writing on screens or papers, no numbers. Tell the whole idea with drawing, gesture and expression only.",
+      "scene": "A researcher monkey in a white lab coat holding up a blank placard with both paws, proud expression. ABSOLUTELY NO TEXT of any kind in the image: no words, no letters, no labels, no captions, no signs, no writing on screens or papers, no numbers. Tell the whole idea with drawing, gesture and expression only.",
       "labels": [
         "NICOLAS CARLINI",
         "2023"
@@ -552,7 +554,7 @@
       "file": "3_37.jpg",
       "startSec": 217.98,
       "text": "En julio de 2023,",
-      "scene": " pinned beside a university-style crest. ABSOLUTELY NO TEXT of any kind in the image: no words, no letters, no labels, no captions, no signs, no writing on screens or papers, no numbers. Tell the whole idea with drawing, gesture and expression only.",
+      "scene": "A blank wall calendar page pinned on white beside a university-style shield crest with laurel branches, the date area left completely empty. ABSOLUTELY NO TEXT of any kind in the image: no words, no letters, no labels, no captions, no signs, no writing on screens or papers, no numbers. Tell the whole idea with drawing, gesture and expression only.",
       "labels": [
         "2023"
       ]
@@ -595,7 +597,7 @@
       "file": "3_51.jpg",
       "startSec": 231.92,
       "text": "era una propiedad de la tecnología.",
-      "scene": "A giant label drawn over the whole technology, not over one company. ABSOLUTELY NO TEXT of any kind in the image: no words, no letters, no labels, no captions, no signs, no writing on screens or papers, no numbers. Tell the whole idea with drawing, gesture and expression only.",
+      "scene": "A giant hand-drawn bracket spanning the whole width of the frame, enclosing many small different-shaped robots together, while a single small company building sits outside the bracket, crossed out. ABSOLUTELY NO TEXT of any kind in the image: no words, no letters, no labels, no captions, no signs, no writing on screens or papers, no numbers. Tell the whole idea with drawing, gesture and expression only.",
       "labels": [
         "ES LA TECNOLOGÍA"
       ]
@@ -604,8 +606,10 @@
       "file": "3_54.jpg",
       "startSec": 234.5,
       "text": "Y una defensa que funciona el 99 por ciento de las veces,",
-      "scene": "A shield with a big '99%' written on it, looking strong and reassuring. ABSOLUTELY NO TEXT of any kind in the image: no words, no letters, no labels, no captions, no signs, no writing on screens or papers, no numbers. Tell the whole idea with drawing, gesture and expression only.",
-      "labels": []
+      "scene": "A big sturdy round shield standing on white, looking strong and reassuring, with a tiny hairline crack near its edge. ABSOLUTELY NO TEXT of any kind in the image: no words, no letters, no labels, no captions, no signs, no writing on screens or papers, no numbers. Tell the whole idea with drawing, gesture and expression only.",
+      "labels": [
+        "99 %"
+      ]
     },
     {
       "file": "3_58.jpg",
@@ -831,22 +835,29 @@
       "file": "5_10.jpg",
       "startSec": 310.9,
       "text": "Un pentester junior en España empieza cerca de los 30 .000 euros al año.",
-      "scene": "A modest salary bar with a euro symbol on white.000 €'. ABSOLUTELY NO TEXT of any kind in the image: no words, no letters, no labels, no captions, no signs, no writing on screens or papers, no numbers. Tell the whole idea with drawing, gesture and expression only.",
-      "labels": []
+      "scene": "A short modest bar rising from a baseline on white, a monkey paw pointing at its low top, with a coin stack beside it no taller than the bar. ABSOLUTELY NO TEXT of any kind in the image: no words, no letters, no labels, no captions, no signs, no writing on screens or papers, no numbers. Tell the whole idea with drawing, gesture and expression only.",
+      "labels": [
+        "30.000 €"
+      ]
     },
     {
       "file": "5_15.jpg",
       "startSec": 315.28,
       "text": "Un retymer clásico con experiencias se mueve por encima de los 70 .000. Un especialista en seguridad de modelos de ella juega en otra liga.",
-      "scene": "A taller salary bar beside the first one.000 €'. ABSOLUTELY NO TEXT of any kind in the image: no words, no letters, no labels, no captions, no signs, no writing on screens or papers, no numbers. Tell the whole idea with drawing, gesture and expression only.",
-      "labels": []
+      "scene": "A taller salary bar beside the first one. ABSOLUTELY NO TEXT of any kind in the image: no words, no letters, no labels, no captions, no signs, no writing on screens or papers, no numbers. Tell the whole idea with drawing, gesture and expression only.",
+      "labels": [
+        "70.000 €"
+      ]
     },
     {
       "file": "5_23.jpg",
       "startSec": 323.78,
       "text": "Las ofertas de AI retymer en Estados Unidos se publican entre 180 .000 y 300 .000 dólares.",
-      "scene": "A gigantic salary bar dwarfing the previous two, the GOOD hacker monkey: a light SKY-BLUE zip-up hoodie with the hood DOWN so the whole friendly face is visible, plus a white ID badge hanging from a lanyard on the chest. Relaxed, confident, often smiling. NEVER wears a hood up, NEVER wears black. climbing it with wide eyes.000 $' and '300.000 $'. ABSOLUTELY NO TEXT of any kind in the image: no words, no letters, no labels, no captions, no signs, no writing on screens or papers, no numbers. Tell the whole idea with drawing, gesture and expression only.",
-      "labels": []
+      "scene": "A gigantic salary bar dwarfing the previous two, the GOOD hacker monkey: a light SKY-BLUE zip-up hoodie with the hood DOWN so the whole friendly face is visible, plus a white ID badge hanging from a lanyard on the chest. Relaxed, confident, often smiling. NEVER wears a hood up, NEVER wears black. climbing it with wide eyes and '. ABSOLUTELY NO TEXT of any kind in the image: no words, no letters, no labels, no captions, no signs, no writing on screens or papers, no numbers. Tell the whole idea with drawing, gesture and expression only.",
+      "labels": [
+        "180.000 $",
+        "300.000 $"
+      ]
     },
     {
       "file": "5_30.jpg",
@@ -886,8 +897,10 @@
       "file": "5_51.jpg",
       "startSec": 351.24,
       "text": "Y Google lanzó en octubre de 2025 un programa dedicado solo a AIA, con premios de hasta 30 .000 dólares por ayazgo.",
-      "scene": "A cheque being handed to the GOOD hacker monkey: a light SKY-BLUE zip-up hoodie with the hood DOWN so the whole friendly face is visible, plus a white ID badge hanging from a lanyard on the chest. Relaxed, confident, often smiling. NEVER wears a hood up, NEVER wears black. by a paw from behind a logo box.000 $'. ABSOLUTELY NO TEXT of any kind in the image: no words, no letters, no labels, no captions, no signs, no writing on screens or papers, no numbers. Tell the whole idea with drawing, gesture and expression only.",
-      "labels": []
+      "scene": "A cheque being handed over by a paw from behind a plain logo box to the GOOD hacker monkey: a light SKY-BLUE zip-up hoodie with the hood DOWN so the whole friendly face is visible, plus a white ID badge hanging from a lanyard on the chest. Relaxed, confident, often smiling. NEVER wears a hood up, NEVER wears black.. ABSOLUTELY NO TEXT of any kind in the image: no words, no letters, no labels, no captions, no signs, no writing on screens or papers, no numbers. Tell the whole idea with drawing, gesture and expression only.",
+      "labels": [
+        "15.000 $"
+      ]
     },
     {
       "file": "5_59.jpg",
@@ -918,7 +931,7 @@
       "file": "6_06.jpg",
       "startSec": 366.94,
       "text": "En Hacker One, la mayor plataforma de Book Bounty del mundo,",
-      "scene": "A single short paragraph of handwritten text on a sheet of paper, glowing, held delicately in two paws. ABSOLUTELY NO TEXT of any kind in the image: no words, no letters, no labels, no captions, no signs, no writing on screens or papers, no numbers. Tell the whole idea with drawing, gesture and expression only.",
+      "scene": "A single sheet of paper held delicately in two monkey paws, glowing softly, with a few wavy pencil squiggle lines standing in for handwriting, no readable letters. ABSOLUTELY NO TEXT of any kind in the image: no words, no letters, no labels, no captions, no signs, no writing on screens or papers, no numbers. Tell the whole idea with drawing, gesture and expression only.",
       "labels": [
         "UN PÁRRAFO"
       ]
@@ -1085,7 +1098,9 @@
       "startSec": 440.42,
       "text": "Los sueldos de 300 .000 dólares son de Estados Unidos y de las empresas punteras no la media global.",
       "scene": "The bright open window slowly closing, the GOOD hacker monkey: a light SKY-BLUE zip-up hoodie with the hood DOWN so the whole friendly face is visible, plus a white ID badge hanging from a lanyard on the chest. Relaxed, confident, often smiling. NEVER wears a hood up, NEVER wears black. watching it with a slightly worried face. ABSOLUTELY NO TEXT of any kind in the image: no words, no letters, no labels, no captions, no signs, no writing on screens or papers, no numbers. Tell the whole idea with drawing, gesture and expression only.",
-      "labels": []
+      "labels": [
+        "300.000 $"
+      ]
     },
     {
       "file": "7_26.jpg",

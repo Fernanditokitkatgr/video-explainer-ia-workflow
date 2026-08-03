@@ -1,0 +1,615 @@
+Modelo: gemini-2.5-flash-image (Vertex AI, proyecto project-579f4a95-abb7-4062-9b4, location=us-central1) — 142 imágenes
+[1/142] 0_00.jpg
+  ⚠️  ClientError: 429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'Resource exhausted. Please try again later. Please refer to https://cloud.google.com/vertex-ai/generative-ai/docs/error-code-429 for more de, reintento 1/5 en 15s…
+  OK 0_00.jpg (834 KB)
+[2/142] 0_04.jpg
+  SKIP 0_04.jpg (ya existe)
+[3/142] 0_06.jpg
+  SKIP 0_06.jpg (ya existe)
+[4/142] 0_09.jpg
+  OK 0_09.jpg (970 KB)
+[5/142] 0_14.jpg
+  ⚠️  ClientError: 429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'Resource exhausted. Please try again later. Please refer to https://cloud.google.com/vertex-ai/generative-ai/docs/error-code-429 for more de, reintento 1/5 en 15s…
+  OK 0_14.jpg (822 KB)
+[6/142] 0_18.jpg
+  ⚠️  ClientError: 429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'Resource exhausted. Please try again later. Please refer to https://cloud.google.com/vertex-ai/generative-ai/docs/error-code-429 for more de, reintento 1/5 en 15s…
+  ⚠️  ClientError: 429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'Resource exhausted. Please try again later. Please refer to https://cloud.google.com/vertex-ai/generative-ai/docs/error-code-429 for more de, reintento 2/5 en 30s…
+  OK 0_18.jpg (912 KB)
+[7/142] 0_24.jpg
+  SKIP 0_24.jpg (ya existe)
+[8/142] 0_25.jpg
+  ⚠️  ClientError: 429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'Resource exhausted. Please try again later. Please refer to https://cloud.google.com/vertex-ai/generative-ai/docs/error-code-429 for more de, reintento 1/5 en 15s…
+  ⚠️  ClientError: 429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'Resource exhausted. Please try again later. Please refer to https://cloud.google.com/vertex-ai/generative-ai/docs/error-code-429 for more de, reintento 2/5 en 30s…
+  OK 0_25.jpg (924 KB)
+[9/142] 0_29.jpg
+  ⚠️  ClientError: 429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'Resource exhausted. Please try again later. Please refer to https://cloud.google.com/vertex-ai/generative-ai/docs/error-code-429 for more de, reintento 1/5 en 15s…
+  ⚠️  ClientError: 429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'Resource exhausted. Please try again later. Please refer to https://cloud.google.com/vertex-ai/generative-ai/docs/error-code-429 for more de, reintento 2/5 en 30s…
+  OK 0_29.jpg (1106 KB)
+[10/142] 0_33.jpg
+  OK 0_33.jpg (1080 KB)
+[11/142] 0_37.jpg
+  SKIP 0_37.jpg (ya existe)
+[12/142] 0_42.jpg
+  ⚠️  ClientError: 429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'Resource exhausted. Please try again later. Please refer to https://cloud.google.com/vertex-ai/generative-ai/docs/error-code-429 for more de, reintento 1/5 en 15s…
+  OK 0_42.jpg (1355 KB)
+[13/142] 0_44.jpg
+  ⚠️  ClientError: 429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'Resource exhausted. Please try again later. Please refer to https://cloud.google.com/vertex-ai/generative-ai/docs/error-code-429 for more de, reintento 1/5 en 15s…
+  ⚠️  ClientError: 429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'Resource exhausted. Please try again later. Please refer to https://cloud.google.com/vertex-ai/generative-ai/docs/error-code-429 for more de, reintento 2/5 en 30s…
+  OK 0_44.jpg (926 KB)
+[14/142] 0_47.jpg
+  SKIP 0_47.jpg (ya existe)
+[15/142] 0_51.jpg
+  ⚠️  ClientError: 429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'Resource exhausted. Please try again later. Please refer to https://cloud.google.com/vertex-ai/generative-ai/docs/error-code-429 for more de, reintento 1/5 en 15s…
+  ⚠️  ClientError: 429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'Resource exhausted. Please try again later. Please refer to https://cloud.google.com/vertex-ai/generative-ai/docs/error-code-429 for more de, reintento 2/5 en 30s…
+  OK 0_51.jpg (1011 KB)
+[16/142] 0_53.jpg
+  ⚠️  ClientError: 429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'Resource exhausted. Please try again later. Please refer to https://cloud.google.com/vertex-ai/generative-ai/docs/error-code-429 for more de, reintento 1/5 en 15s…
+  OK 0_53.jpg (916 KB)
+[17/142] 1_00.jpg
+  ⚠️  ClientError: 429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'Resource exhausted. Please try again later. Please refer to https://cloud.google.com/vertex-ai/generative-ai/docs/error-code-429 for more de, reintento 1/5 en 15s…
+  OK 1_00.jpg (994 KB)
+[18/142] 1_05.jpg
+  SKIP 1_05.jpg (ya existe)
+[19/142] 1_06.jpg
+  SKIP 1_06.jpg (ya existe)
+[20/142] 1_08.jpg
+  ⚠️  ClientError: 429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'Resource exhausted. Please try again later. Please refer to https://cloud.google.com/vertex-ai/generative-ai/docs/error-code-429 for more de, reintento 1/5 en 15s…
+  OK 1_08.jpg (821 KB)
+[21/142] 1_10.jpg
+  SKIP 1_10.jpg (ya existe)
+[22/142] 1_12.jpg
+  SKIP 1_12.jpg (ya existe)
+[23/142] 1_13.jpg
+  SKIP 1_13.jpg (ya existe)
+[24/142] 1_17.jpg
+  ⚠️  ClientError: 429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'Resource exhausted. Please try again later. Please refer to https://cloud.google.com/vertex-ai/generative-ai/docs/error-code-429 for more de, reintento 1/5 en 15s…
+  ⚠️  ClientError: 429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'Resource exhausted. Please try again later. Please refer to https://cloud.google.com/vertex-ai/generative-ai/docs/error-code-429 for more de, reintento 2/5 en 30s…
+  OK 1_17.jpg (907 KB)
+[25/142] 1_22.jpg
+  ⚠️  ClientError: 429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'Resource exhausted. Please try again later. Please refer to https://cloud.google.com/vertex-ai/generative-ai/docs/error-code-429 for more de, reintento 1/5 en 15s…
+  ERROR 1_22.jpg: prompt RECHAZADO por el modelo (finish_reason=FinishReason.NO_IMAGE) — reescribe la escena, reintentar no sirve
+[26/142] 1_26.jpg
+  ⚠️  ClientError: 429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'Resource exhausted. Please try again later. Please refer to https://cloud.google.com/vertex-ai/generative-ai/docs/error-code-429 for more de, reintento 1/5 en 15s…
+  ⚠️  ClientError: 429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'Resource exhausted. Please try again later. Please refer to https://cloud.google.com/vertex-ai/generative-ai/docs/error-code-429 for more de, reintento 2/5 en 30s…
+  OK 1_26.jpg (870 KB)
+[27/142] 1_28.jpg
+  OK 1_28.jpg (809 KB)
+[28/142] 1_29.jpg
+  SKIP 1_29.jpg (ya existe)
+[29/142] 1_31.jpg
+  SKIP 1_31.jpg (ya existe)
+[30/142] 1_35.jpg
+  ⚠️  ClientError: 429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'Resource exhausted. Please try again later. Please refer to https://cloud.google.com/vertex-ai/generative-ai/docs/error-code-429 for more de, reintento 1/5 en 15s…
+  ⚠️  ClientError: 429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'Resource exhausted. Please try again later. Please refer to https://cloud.google.com/vertex-ai/generative-ai/docs/error-code-429 for more de, reintento 2/5 en 30s…
+  OK 1_35.jpg (1037 KB)
+[31/142] 1_40.jpg
+  SKIP 1_40.jpg (ya existe)
+[32/142] 1_43.jpg
+  SKIP 1_43.jpg (ya existe)
+[33/142] 1_46.jpg
+  ⚠️  ClientError: 429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'Resource exhausted. Please try again later. Please refer to https://cloud.google.com/vertex-ai/generative-ai/docs/error-code-429 for more de, reintento 1/5 en 15s…
+  OK 1_46.jpg (1005 KB)
+[34/142] 1_47.jpg
+  ⚠️  ClientError: 429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'Resource exhausted. Please try again later. Please refer to https://cloud.google.com/vertex-ai/generative-ai/docs/error-code-429 for more de, reintento 1/5 en 15s…
+  ⚠️  ClientError: 429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'Resource exhausted. Please try again later. Please refer to https://cloud.google.com/vertex-ai/generative-ai/docs/error-code-429 for more de, reintento 2/5 en 30s…
+  OK 1_47.jpg (957 KB)
+[35/142] 1_52.jpg
+  ⚠️  ClientError: 429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'Resource exhausted. Please try again later. Please refer to https://cloud.google.com/vertex-ai/generative-ai/docs/error-code-429 for more de, reintento 1/5 en 15s…
+  ⚠️  ClientError: 429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'Resource exhausted. Please try again later. Please refer to https://cloud.google.com/vertex-ai/generative-ai/docs/error-code-429 for more de, reintento 2/5 en 30s…
+  OK 1_52.jpg (762 KB)
+[36/142] 1_53.jpg
+  SKIP 1_53.jpg (ya existe)
+[37/142] 1_55.jpg
+  ⚠️  ClientError: 429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'Resource exhausted. Please try again later. Please refer to https://cloud.google.com/vertex-ai/generative-ai/docs/error-code-429 for more de, reintento 1/5 en 15s…
+  OK 1_55.jpg (918 KB)
+[38/142] 2_00.jpg
+  ⚠️  ClientError: 429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'Resource exhausted. Please try again later. Please refer to https://cloud.google.com/vertex-ai/generative-ai/docs/error-code-429 for more de, reintento 1/5 en 15s…
+  ⚠️  ClientError: 429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'Resource exhausted. Please try again later. Please refer to https://cloud.google.com/vertex-ai/generative-ai/docs/error-code-429 for more de, reintento 2/5 en 30s…
+  OK 2_00.jpg (891 KB)
+[39/142] 2_07.jpg
+  SKIP 2_07.jpg (ya existe)
+[40/142] 2_11.jpg
+  ⚠️  ClientError: 429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'Resource exhausted. Please try again later. Please refer to https://cloud.google.com/vertex-ai/generative-ai/docs/error-code-429 for more de, reintento 1/5 en 15s…
+  ⚠️  ClientError: 429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'Resource exhausted. Please try again later. Please refer to https://cloud.google.com/vertex-ai/generative-ai/docs/error-code-429 for more de, reintento 2/5 en 30s…
+  OK 2_11.jpg (899 KB)
+[41/142] 2_12.jpg
+  ⚠️  ClientError: 429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'Resource exhausted. Please try again later. Please refer to https://cloud.google.com/vertex-ai/generative-ai/docs/error-code-429 for more de, reintento 1/5 en 15s…
+  OK 2_12.jpg (911 KB)
+[42/142] 2_14.jpg
+  ⚠️  ClientError: 429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'Resource exhausted. Please try again later. Please refer to https://cloud.google.com/vertex-ai/generative-ai/docs/error-code-429 for more de, reintento 1/5 en 15s…
+  ⚠️  ClientError: 429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'Resource exhausted. Please try again later. Please refer to https://cloud.google.com/vertex-ai/generative-ai/docs/error-code-429 for more de, reintento 2/5 en 30s…
+  OK 2_14.jpg (762 KB)
+[43/142] 2_16.jpg
+  SKIP 2_16.jpg (ya existe)
+[44/142] 2_18.jpg
+  ⚠️  ReadError: [WinError 10054] Se ha forzado la interrupción de una conexión existente por el host remoto, reintento 1/5 en 2s…
+  OK 2_18.jpg (1018 KB)
+[45/142] 2_21.jpg
+  SKIP 2_21.jpg (ya existe)
+[46/142] 2_25.jpg
+  OK 2_25.jpg (1014 KB)
+[47/142] 2_27.jpg
+  ⚠️  ClientError: 429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'Resource exhausted. Please try again later. Please refer to https://cloud.google.com/vertex-ai/generative-ai/docs/error-code-429 for more de, reintento 1/5 en 15s…
+  ⚠️  ClientError: 429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'Resource exhausted. Please try again later. Please refer to https://cloud.google.com/vertex-ai/generative-ai/docs/error-code-429 for more de, reintento 2/5 en 30s…
+  OK 2_27.jpg (912 KB)
+[48/142] 2_30.jpg
+  SKIP 2_30.jpg (ya existe)
+[49/142] 2_38.jpg
+  ⚠️  ClientError: 429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'Resource exhausted. Please try again later. Please refer to https://cloud.google.com/vertex-ai/generative-ai/docs/error-code-429 for more de, reintento 1/5 en 15s…
+  ⚠️  ClientError: 429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'Resource exhausted. Please try again later. Please refer to https://cloud.google.com/vertex-ai/generative-ai/docs/error-code-429 for more de, reintento 2/5 en 30s…
+  OK 2_38.jpg (947 KB)
+[50/142] 2_39.jpg
+  ⚠️  ClientError: 429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'Resource exhausted. Please try again later. Please refer to https://cloud.google.com/vertex-ai/generative-ai/docs/error-code-429 for more de, reintento 1/5 en 15s…
+  ⚠️  ClientError: 429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'Resource exhausted. Please try again later. Please refer to https://cloud.google.com/vertex-ai/generative-ai/docs/error-code-429 for more de, reintento 2/5 en 30s…
+  OK 2_39.jpg (865 KB)
+[51/142] 2_43.jpg
+  ⚠️  ClientError: 429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'Resource exhausted. Please try again later. Please refer to https://cloud.google.com/vertex-ai/generative-ai/docs/error-code-429 for more de, reintento 1/5 en 15s…
+  OK 2_43.jpg (902 KB)
+[52/142] 2_45.jpg
+  ⚠️  ClientError: 429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'Resource exhausted. Please try again later. Please refer to https://cloud.google.com/vertex-ai/generative-ai/docs/error-code-429 for more de, reintento 1/5 en 15s…
+  OK 2_45.jpg (781 KB)
+[53/142] 2_47.jpg
+  ⚠️  ClientError: 429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'Resource exhausted. Please try again later. Please refer to https://cloud.google.com/vertex-ai/generative-ai/docs/error-code-429 for more de, reintento 1/5 en 15s…
+  OK 2_47.jpg (1166 KB)
+[54/142] 2_51.jpg
+  ⚠️  ClientError: 429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'Resource exhausted. Please try again later. Please refer to https://cloud.google.com/vertex-ai/generative-ai/docs/error-code-429 for more de, reintento 1/5 en 15s…
+  ⚠️  ClientError: 429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'Resource exhausted. Please try again later. Please refer to https://cloud.google.com/vertex-ai/generative-ai/docs/error-code-429 for more de, reintento 2/5 en 30s…
+  OK 2_51.jpg (1209 KB)
+[55/142] 2_54.jpg
+  OK 2_54.jpg (1057 KB)
+[56/142] 2_56.jpg
+  OK 2_56.jpg (951 KB)
+[57/142] 3_02.jpg
+  OK 3_02.jpg (966 KB)
+[58/142] 3_08.jpg
+  ⚠️  ClientError: 429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'Resource exhausted. Please try again later. Please refer to https://cloud.google.com/vertex-ai/generative-ai/docs/error-code-429 for more de, reintento 1/5 en 15s…
+  OK 3_08.jpg (1122 KB)
+[59/142] 3_11.jpg
+  ⚠️  ClientError: 429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'Resource exhausted. Please try again later. Please refer to https://cloud.google.com/vertex-ai/generative-ai/docs/error-code-429 for more de, reintento 1/5 en 15s…
+  ⚠️  ClientError: 429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'Resource exhausted. Please try again later. Please refer to https://cloud.google.com/vertex-ai/generative-ai/docs/error-code-429 for more de, reintento 2/5 en 30s…
+  OK 3_11.jpg (1172 KB)
+[60/142] 3_17.jpg
+  ⚠️  ClientError: 429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'Resource exhausted. Please try again later. Please refer to https://cloud.google.com/vertex-ai/generative-ai/docs/error-code-429 for more de, reintento 1/5 en 15s…
+  ⚠️  ClientError: 429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'Resource exhausted. Please try again later. Please refer to https://cloud.google.com/vertex-ai/generative-ai/docs/error-code-429 for more de, reintento 2/5 en 30s…
+  OK 3_17.jpg (929 KB)
+[61/142] 3_20.jpg
+  ⚠️  ClientError: 429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'Resource exhausted. Please try again later. Please refer to https://cloud.google.com/vertex-ai/generative-ai/docs/error-code-429 for more de, reintento 1/5 en 15s…
+  ⚠️  ClientError: 429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'Resource exhausted. Please try again later. Please refer to https://cloud.google.com/vertex-ai/generative-ai/docs/error-code-429 for more de, reintento 2/5 en 30s…
+  OK 3_20.jpg (1021 KB)
+[62/142] 3_23.jpg
+  ⚠️  ClientError: 429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'Resource exhausted. Please try again later. Please refer to https://cloud.google.com/vertex-ai/generative-ai/docs/error-code-429 for more de, reintento 1/5 en 15s…
+  OK 3_23.jpg (238 KB)
+[63/142] 3_25.jpg
+  ⚠️  ClientError: 429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'Resource exhausted. Please try again later. Please refer to https://cloud.google.com/vertex-ai/generative-ai/docs/error-code-429 for more de, reintento 1/5 en 15s…
+  ⚠️  ClientError: 429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'Resource exhausted. Please try again later. Please refer to https://cloud.google.com/vertex-ai/generative-ai/docs/error-code-429 for more de, reintento 2/5 en 30s…
+  OK 3_25.jpg (899 KB)
+[64/142] 3_27.jpg
+  ⚠️  ClientError: 429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'Resource exhausted. Please try again later. Please refer to https://cloud.google.com/vertex-ai/generative-ai/docs/error-code-429 for more de, reintento 1/5 en 15s…
+  OK 3_27.jpg (862 KB)
+[65/142] 3_31.jpg
+  ERROR 3_31.jpg: prompt RECHAZADO por el modelo (finish_reason=FinishReason.NO_IMAGE) — reescribe la escena, reintentar no sirve
+[66/142] 3_33.jpg
+  ⚠️  ClientError: 429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'Resource exhausted. Please try again later. Please refer to https://cloud.google.com/vertex-ai/generative-ai/docs/error-code-429 for more de, reintento 1/5 en 15s…
+  ⚠️  ClientError: 429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'Resource exhausted. Please try again later. Please refer to https://cloud.google.com/vertex-ai/generative-ai/docs/error-code-429 for more de, reintento 2/5 en 30s…
+  OK 3_33.jpg (1216 KB)
+[67/142] 3_37.jpg
+  ⚠️  ClientError: 429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'Resource exhausted. Please try again later. Please refer to https://cloud.google.com/vertex-ai/generative-ai/docs/error-code-429 for more de, reintento 1/5 en 15s…
+  ⚠️  ClientError: 429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'Resource exhausted. Please try again later. Please refer to https://cloud.google.com/vertex-ai/generative-ai/docs/error-code-429 for more de, reintento 2/5 en 30s…
+  OK 3_37.jpg (900 KB)
+[68/142] 3_40.jpg
+  ⚠️  ClientError: 429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'Resource exhausted. Please try again later. Please refer to https://cloud.google.com/vertex-ai/generative-ai/docs/error-code-429 for more de, reintento 1/5 en 15s…
+  ⚠️  ClientError: 429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'Resource exhausted. Please try again later. Please refer to https://cloud.google.com/vertex-ai/generative-ai/docs/error-code-429 for more de, reintento 2/5 en 30s…
+  OK 3_40.jpg (1177 KB)
+[69/142] 3_43.jpg
+  ⚠️  ClientError: 429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'Resource exhausted. Please try again later. Please refer to https://cloud.google.com/vertex-ai/generative-ai/docs/error-code-429 for more de, reintento 1/5 en 15s…
+  ⚠️  ClientError: 429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'Resource exhausted. Please try again later. Please refer to https://cloud.google.com/vertex-ai/generative-ai/docs/error-code-429 for more de, reintento 2/5 en 30s…
+  OK 3_43.jpg (926 KB)
+[70/142] 3_44.jpg
+  ⚠️  ClientError: 429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'Resource exhausted. Please try again later. Please refer to https://cloud.google.com/vertex-ai/generative-ai/docs/error-code-429 for more de, reintento 1/5 en 15s…
+  OK 3_44.jpg (1043 KB)
+[71/142] 3_48.jpg
+  ⚠️  ClientError: 429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'Resource exhausted. Please try again later. Please refer to https://cloud.google.com/vertex-ai/generative-ai/docs/error-code-429 for more de, reintento 1/5 en 15s…
+  ⚠️  ClientError: 429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'Resource exhausted. Please try again later. Please refer to https://cloud.google.com/vertex-ai/generative-ai/docs/error-code-429 for more de, reintento 2/5 en 30s…
+  OK 3_48.jpg (745 KB)
+[72/142] 3_51.jpg
+  ⚠️  ClientError: 429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'Resource exhausted. Please try again later. Please refer to https://cloud.google.com/vertex-ai/generative-ai/docs/error-code-429 for more de, reintento 1/5 en 15s…
+  ⚠️  ClientError: 429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'Resource exhausted. Please try again later. Please refer to https://cloud.google.com/vertex-ai/generative-ai/docs/error-code-429 for more de, reintento 2/5 en 30s…
+  ERROR 3_51.jpg: prompt RECHAZADO por el modelo (finish_reason=FinishReason.NO_IMAGE) — reescribe la escena, reintentar no sirve
+[73/142] 3_54.jpg
+  ⚠️  ClientError: 429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'Resource exhausted. Please try again later. Please refer to https://cloud.google.com/vertex-ai/generative-ai/docs/error-code-429 for more de, reintento 1/5 en 15s…
+  ⚠️  ClientError: 429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'Resource exhausted. Please try again later. Please refer to https://cloud.google.com/vertex-ai/generative-ai/docs/error-code-429 for more de, reintento 2/5 en 30s…
+  OK 3_54.jpg (801 KB)
+[74/142] 3_58.jpg
+  ⚠️  ClientError: 429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'Resource exhausted. Please try again later. Please refer to https://cloud.google.com/vertex-ai/generative-ai/docs/error-code-429 for more de, reintento 1/5 en 15s…
+  ⚠️  ClientError: 429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'Resource exhausted. Please try again later. Please refer to https://cloud.google.com/vertex-ai/generative-ai/docs/error-code-429 for more de, reintento 2/5 en 30s…
+  OK 3_58.jpg (1070 KB)
+[75/142] 4_00.jpg
+  ⚠️  ClientError: 429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'Resource exhausted. Please try again later. Please refer to https://cloud.google.com/vertex-ai/generative-ai/docs/error-code-429 for more de, reintento 1/5 en 15s…
+  ⚠️  ClientError: 429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'Resource exhausted. Please try again later. Please refer to https://cloud.google.com/vertex-ai/generative-ai/docs/error-code-429 for more de, reintento 2/5 en 30s…
+  OK 4_00.jpg (994 KB)
+[76/142] 4_04.jpg
+  OK 4_04.jpg (931 KB)
+[77/142] 4_06.jpg
+  ⚠️  ClientError: 429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'Resource exhausted. Please try again later. Please refer to https://cloud.google.com/vertex-ai/generative-ai/docs/error-code-429 for more de, reintento 1/5 en 15s…
+  OK 4_06.jpg (839 KB)
+[78/142] 4_08.jpg
+  ⚠️  ClientError: 429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'Resource exhausted. Please try again later. Please refer to https://cloud.google.com/vertex-ai/generative-ai/docs/error-code-429 for more de, reintento 1/5 en 15s…
+  ⚠️  ClientError: 429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'Resource exhausted. Please try again later. Please refer to https://cloud.google.com/vertex-ai/generative-ai/docs/error-code-429 for more de, reintento 2/5 en 30s…
+  OK 4_08.jpg (226 KB)
+[79/142] 4_10.jpg
+  ERROR 4_10.jpg: prompt RECHAZADO por el modelo (finish_reason=FinishReason.NO_IMAGE) — reescribe la escena, reintentar no sirve
+[80/142] 4_12.jpg
+  OK 4_12.jpg (842 KB)
+[81/142] 4_13.jpg
+  OK 4_13.jpg (1007 KB)
+[82/142] 4_16.jpg
+  OK 4_16.jpg (976 KB)
+[83/142] 4_20.jpg
+  OK 4_20.jpg (976 KB)
+[84/142] 4_23.jpg
+  OK 4_23.jpg (789 KB)
+[85/142] 4_26.jpg
+  OK 4_26.jpg (964 KB)
+[86/142] 4_28.jpg
+  OK 4_28.jpg (940 KB)
+[87/142] 4_33.jpg
+  OK 4_33.jpg (892 KB)
+[88/142] 4_39.jpg
+  OK 4_39.jpg (892 KB)
+[89/142] 4_41.jpg
+  OK 4_41.jpg (941 KB)
+[90/142] 4_44.jpg
+  OK 4_44.jpg (938 KB)
+[91/142] 4_48.jpg
+  OK 4_48.jpg (902 KB)
+[92/142] 4_50.jpg
+  OK 4_50.jpg (802 KB)
+[93/142] 4_51.jpg
+  ⚠️  ClientError: 429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'Resource exhausted. Please try again later. Please refer to https://cloud.google.com/vertex-ai/generative-ai/docs/error-code-429 for more de, reintento 1/5 en 15s…
+  OK 4_51.jpg (956 KB)
+[94/142] 4_53.jpg
+  ⚠️  ClientError: 429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'Resource exhausted. Please try again later. Please refer to https://cloud.google.com/vertex-ai/generative-ai/docs/error-code-429 for more de, reintento 1/5 en 15s…
+  OK 4_53.jpg (938 KB)
+[95/142] 5_01.jpg
+  ⚠️  ClientError: 429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'Resource exhausted. Please try again later. Please refer to https://cloud.google.com/vertex-ai/generative-ai/docs/error-code-429 for more de, reintento 1/5 en 15s…
+Modelo: gemini-2.5-flash-image (Vertex AI, proyecto project-579f4a95-abb7-4062-9b4, location=us-central1) — 142 imágenes
+[1/142] 0_00.jpg
+  SKIP 0_00.jpg (ya existe)
+[2/142] 0_04.jpg
+  SKIP 0_04.jpg (ya existe)
+[3/142] 0_06.jpg
+  SKIP 0_06.jpg (ya existe)
+[4/142] 0_09.jpg
+  SKIP 0_09.jpg (ya existe)
+[5/142] 0_14.jpg
+  SKIP 0_14.jpg (ya existe)
+[6/142] 0_18.jpg
+  SKIP 0_18.jpg (ya existe)
+[7/142] 0_24.jpg
+  SKIP 0_24.jpg (ya existe)
+[8/142] 0_25.jpg
+  SKIP 0_25.jpg (ya existe)
+[9/142] 0_29.jpg
+  SKIP 0_29.jpg (ya existe)
+[10/142] 0_33.jpg
+  SKIP 0_33.jpg (ya existe)
+[11/142] 0_37.jpg
+  SKIP 0_37.jpg (ya existe)
+[12/142] 0_42.jpg
+  SKIP 0_42.jpg (ya existe)
+[13/142] 0_44.jpg
+  SKIP 0_44.jpg (ya existe)
+[14/142] 0_47.jpg
+  SKIP 0_47.jpg (ya existe)
+[15/142] 0_51.jpg
+  SKIP 0_51.jpg (ya existe)
+[16/142] 0_53.jpg
+  SKIP 0_53.jpg (ya existe)
+[17/142] 1_00.jpg
+  SKIP 1_00.jpg (ya existe)
+[18/142] 1_05.jpg
+  SKIP 1_05.jpg (ya existe)
+[19/142] 1_06.jpg
+  SKIP 1_06.jpg (ya existe)
+[20/142] 1_08.jpg
+  SKIP 1_08.jpg (ya existe)
+[21/142] 1_10.jpg
+  SKIP 1_10.jpg (ya existe)
+[22/142] 1_12.jpg
+  SKIP 1_12.jpg (ya existe)
+[23/142] 1_13.jpg
+  SKIP 1_13.jpg (ya existe)
+[24/142] 1_17.jpg
+  SKIP 1_17.jpg (ya existe)
+[25/142] 1_22.jpg
+  ERROR 1_22.jpg: prompt RECHAZADO por el modelo (finish_reason=FinishReason.NO_IMAGE) — reescribe la escena, reintentar no sirve
+[26/142] 1_26.jpg
+  SKIP 1_26.jpg (ya existe)
+[27/142] 1_28.jpg
+  SKIP 1_28.jpg (ya existe)
+[28/142] 1_29.jpg
+  SKIP 1_29.jpg (ya existe)
+[29/142] 1_31.jpg
+  SKIP 1_31.jpg (ya existe)
+[30/142] 1_35.jpg
+  SKIP 1_35.jpg (ya existe)
+[31/142] 1_40.jpg
+  SKIP 1_40.jpg (ya existe)
+[32/142] 1_43.jpg
+  SKIP 1_43.jpg (ya existe)
+[33/142] 1_46.jpg
+  SKIP 1_46.jpg (ya existe)
+[34/142] 1_47.jpg
+  SKIP 1_47.jpg (ya existe)
+[35/142] 1_52.jpg
+  SKIP 1_52.jpg (ya existe)
+[36/142] 1_53.jpg
+  SKIP 1_53.jpg (ya existe)
+[37/142] 1_55.jpg
+  SKIP 1_55.jpg (ya existe)
+[38/142] 2_00.jpg
+  SKIP 2_00.jpg (ya existe)
+[39/142] 2_07.jpg
+  SKIP 2_07.jpg (ya existe)
+[40/142] 2_11.jpg
+  SKIP 2_11.jpg (ya existe)
+[41/142] 2_12.jpg
+  SKIP 2_12.jpg (ya existe)
+[42/142] 2_14.jpg
+  SKIP 2_14.jpg (ya existe)
+[43/142] 2_16.jpg
+  SKIP 2_16.jpg (ya existe)
+[44/142] 2_18.jpg
+  SKIP 2_18.jpg (ya existe)
+[45/142] 2_21.jpg
+  SKIP 2_21.jpg (ya existe)
+[46/142] 2_25.jpg
+  SKIP 2_25.jpg (ya existe)
+[47/142] 2_27.jpg
+  SKIP 2_27.jpg (ya existe)
+[48/142] 2_30.jpg
+  SKIP 2_30.jpg (ya existe)
+[49/142] 2_38.jpg
+  SKIP 2_38.jpg (ya existe)
+[50/142] 2_39.jpg
+  SKIP 2_39.jpg (ya existe)
+[51/142] 2_43.jpg
+  SKIP 2_43.jpg (ya existe)
+[52/142] 2_45.jpg
+  SKIP 2_45.jpg (ya existe)
+[53/142] 2_47.jpg
+  SKIP 2_47.jpg (ya existe)
+[54/142] 2_51.jpg
+  SKIP 2_51.jpg (ya existe)
+[55/142] 2_54.jpg
+  SKIP 2_54.jpg (ya existe)
+[56/142] 2_56.jpg
+  SKIP 2_56.jpg (ya existe)
+[57/142] 3_02.jpg
+  SKIP 3_02.jpg (ya existe)
+[58/142] 3_08.jpg
+  SKIP 3_08.jpg (ya existe)
+[59/142] 3_11.jpg
+  SKIP 3_11.jpg (ya existe)
+[60/142] 3_17.jpg
+  SKIP 3_17.jpg (ya existe)
+[61/142] 3_20.jpg
+  SKIP 3_20.jpg (ya existe)
+[62/142] 3_23.jpg
+  SKIP 3_23.jpg (ya existe)
+[63/142] 3_25.jpg
+  SKIP 3_25.jpg (ya existe)
+[64/142] 3_27.jpg
+  SKIP 3_27.jpg (ya existe)
+[65/142] 3_31.jpg
+  OK 3_31.jpg (1070 KB)
+[66/142] 3_33.jpg
+  SKIP 3_33.jpg (ya existe)
+[67/142] 3_37.jpg
+  SKIP 3_37.jpg (ya existe)
+[68/142] 3_40.jpg
+  SKIP 3_40.jpg (ya existe)
+[69/142] 3_43.jpg
+  SKIP 3_43.jpg (ya existe)
+[70/142] 3_44.jpg
+  SKIP 3_44.jpg (ya existe)
+[71/142] 3_48.jpg
+  SKIP 3_48.jpg (ya existe)
+[72/142] 3_51.jpg
+  ERROR 3_51.jpg: prompt RECHAZADO por el modelo (finish_reason=FinishReason.NO_IMAGE) — reescribe la escena, reintentar no sirve
+[73/142] 3_54.jpg
+  SKIP 3_54.jpg (ya existe)
+[74/142] 3_58.jpg
+  SKIP 3_58.jpg (ya existe)
+[75/142] 4_00.jpg
+  SKIP 4_00.jpg (ya existe)
+[76/142] 4_04.jpg
+  SKIP 4_04.jpg (ya existe)
+[77/142] 4_06.jpg
+  SKIP 4_06.jpg (ya existe)
+[78/142] 4_08.jpg
+  SKIP 4_08.jpg (ya existe)
+[79/142] 4_10.jpg
+  OK 4_10.jpg (928 KB)
+[80/142] 4_12.jpg
+  SKIP 4_12.jpg (ya existe)
+[81/142] 4_13.jpg
+  SKIP 4_13.jpg (ya existe)
+[82/142] 4_16.jpg
+  SKIP 4_16.jpg (ya existe)
+[83/142] 4_20.jpg
+  SKIP 4_20.jpg (ya existe)
+[84/142] 4_23.jpg
+  SKIP 4_23.jpg (ya existe)
+[85/142] 4_26.jpg
+  SKIP 4_26.jpg (ya existe)
+[86/142] 4_28.jpg
+  SKIP 4_28.jpg (ya existe)
+[87/142] 4_33.jpg
+  SKIP 4_33.jpg (ya existe)
+[88/142] 4_39.jpg
+  SKIP 4_39.jpg (ya existe)
+[89/142] 4_41.jpg
+  SKIP 4_41.jpg (ya existe)
+[90/142] 4_44.jpg
+  SKIP 4_44.jpg (ya existe)
+[91/142] 4_48.jpg
+  SKIP 4_48.jpg (ya existe)
+[92/142] 4_50.jpg
+  SKIP 4_50.jpg (ya existe)
+[93/142] 4_51.jpg
+  SKIP 4_51.jpg (ya existe)
+[94/142] 4_53.jpg
+  SKIP 4_53.jpg (ya existe)
+[95/142] 5_01.jpg
+  OK 5_01.jpg (1122 KB)
+[96/142] 5_04.jpg
+  OK 5_04.jpg (673 KB)
+[97/142] 5_05.jpg
+  OK 5_05.jpg (834 KB)
+[98/142] 5_07.jpg
+  OK 5_07.jpg (217 KB)
+[99/142] 5_08.jpg
+  OK 5_08.jpg (841 KB)
+[100/142] 5_10.jpg
+  ⚠️  ClientError: 429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'Resource exhausted. Please try again later. Please refer to https://cloud.google.com/vertex-ai/generative-ai/docs/error-code-429 for more de, reintento 1/5 en 15s…
+  ERROR 5_10.jpg: prompt RECHAZADO por el modelo (finish_reason=FinishReason.NO_IMAGE) — reescribe la escena, reintentar no sirve
+[101/142] 5_15.jpg
+  ⚠️  ClientError: 429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'Resource exhausted. Please try again later. Please refer to https://cloud.google.com/vertex-ai/generative-ai/docs/error-code-429 for more de, reintento 1/5 en 15s…
+  ⚠️  ClientError: 429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'Resource exhausted. Please try again later. Please refer to https://cloud.google.com/vertex-ai/generative-ai/docs/error-code-429 for more de, reintento 2/5 en 30s…
+  OK 5_15.jpg (796 KB)
+[102/142] 5_23.jpg
+  OK 5_23.jpg (808 KB)
+[103/142] 5_30.jpg
+  ⚠️  ClientError: 429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'Resource exhausted. Please try again later. Please refer to https://cloud.google.com/vertex-ai/generative-ai/docs/error-code-429 for more de, reintento 1/5 en 15s…
+  ERROR 5_30.jpg: prompt RECHAZADO por el modelo (finish_reason=FinishReason.NO_IMAGE) — reescribe la escena, reintentar no sirve
+[104/142] 5_32.jpg
+  OK 5_32.jpg (846 KB)
+[105/142] 5_36.jpg
+  OK 5_36.jpg (1041 KB)
+[106/142] 5_40.jpg
+  OK 5_40.jpg (868 KB)
+[107/142] 5_51.jpg
+  ERROR 5_51.jpg: prompt RECHAZADO por el modelo (finish_reason=FinishReason.NO_IMAGE) — reescribe la escena, reintentar no sirve
+[108/142] 5_59.jpg
+  OK 5_59.jpg (974 KB)
+[109/142] 6_01.jpg
+  OK 6_01.jpg (924 KB)
+[110/142] 6_04.jpg
+  ⚠️  ClientError: 429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'Resource exhausted. Please try again later. Please refer to https://cloud.google.com/vertex-ai/generative-ai/docs/error-code-429 for more de, reintento 1/5 en 15s…
+  OK 6_04.jpg (976 KB)
+[111/142] 6_06.jpg
+  ⚠️  ClientError: 429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'Resource exhausted. Please try again later. Please refer to https://cloud.google.com/vertex-ai/generative-ai/docs/error-code-429 for more de, reintento 1/5 en 15s…
+  ⚠️  ClientError: 429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'Resource exhausted. Please try again later. Please refer to https://cloud.google.com/vertex-ai/generative-ai/docs/error-code-429 for more de, reintento 2/5 en 30s…
+  ERROR 6_06.jpg: prompt RECHAZADO por el modelo (finish_reason=FinishReason.NO_IMAGE) — reescribe la escena, reintentar no sirve
+[112/142] 6_10.jpg
+  ⚠️  ClientError: 429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'Resource exhausted. Please try again later. Please refer to https://cloud.google.com/vertex-ai/generative-ai/docs/error-code-429 for more de, reintento 1/5 en 15s…
+  OK 6_10.jpg (1067 KB)
+[113/142] 6_15.jpg
+  OK 6_15.jpg (876 KB)
+[114/142] 6_19.jpg
+  OK 6_19.jpg (1705 KB)
+[115/142] 6_21.jpg
+  OK 6_21.jpg (1195 KB)
+[116/142] 6_26.jpg
+  OK 6_26.jpg (1194 KB)
+[117/142] 6_29.jpg
+  ⚠️  ClientError: 429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'Resource exhausted. Please try again later. Please refer to https://cloud.google.com/vertex-ai/generative-ai/docs/error-code-429 for more de, reintento 1/5 en 15s…
+  OK 6_29.jpg (848 KB)
+[118/142] 6_32.jpg
+  ⚠️  ReadTimeout: [WinError 10060] Se produjo un error durante el intento de conexión ya que la parte conectada no respondió adecuadamente tras un periodo de tiempo, o bien se produjo un error en la conexión establecid, reintento 1/5 en 2s…
+  ⚠️  ClientError: 429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'Resource exhausted. Please try again later. Please refer to https://cloud.google.com/vertex-ai/generative-ai/docs/error-code-429 for more de, reintento 2/5 en 30s…
+  OK 6_32.jpg (234 KB)
+[119/142] 6_33.jpg
+  ⚠️  ClientError: 429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'Resource exhausted. Please try again later. Please refer to https://cloud.google.com/vertex-ai/generative-ai/docs/error-code-429 for more de, reintento 1/5 en 15s…
+  ⚠️  ClientError: 429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'Resource exhausted. Please try again later. Please refer to https://cloud.google.com/vertex-ai/generative-ai/docs/error-code-429 for more de, reintento 2/5 en 30s…
+  OK 6_33.jpg (917 KB)
+[120/142] 6_35.jpg
+  ⚠️  ClientError: 429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'Resource exhausted. Please try again later. Please refer to https://cloud.google.com/vertex-ai/generative-ai/docs/error-code-429 for more de, reintento 1/5 en 15s…
+  ⚠️  ClientError: 429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'Resource exhausted. Please try again later. Please refer to https://cloud.google.com/vertex-ai/generative-ai/docs/error-code-429 for more de, reintento 2/5 en 30s…
+  OK 6_35.jpg (863 KB)
+[121/142] 6_37.jpg
+  ⚠️  ClientError: 429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'Resource exhausted. Please try again later. Please refer to https://cloud.google.com/vertex-ai/generative-ai/docs/error-code-429 for more de, reintento 1/5 en 15s…
+  ⚠️  ClientError: 429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'Resource exhausted. Please try again later. Please refer to https://cloud.google.com/vertex-ai/generative-ai/docs/error-code-429 for more de, reintento 2/5 en 30s…
+  OK 6_37.jpg (802 KB)
+[122/142] 6_42.jpg
+  ⚠️  ClientError: 429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'Resource exhausted. Please try again later. Please refer to https://cloud.google.com/vertex-ai/generative-ai/docs/error-code-429 for more de, reintento 1/5 en 15s…
+  OK 6_42.jpg (852 KB)
+[123/142] 6_47.jpg
+  ⚠️  ClientError: 429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'Resource exhausted. Please try again later. Please refer to https://cloud.google.com/vertex-ai/generative-ai/docs/error-code-429 for more de, reintento 1/5 en 15s…
+  ⚠️  ClientError: 429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'Resource exhausted. Please try again later. Please refer to https://cloud.google.com/vertex-ai/generative-ai/docs/error-code-429 for more de, reintento 2/5 en 30s…
+  OK 6_47.jpg (932 KB)
+[124/142] 6_51.jpg
+  ⚠️  ClientError: 429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'Resource exhausted. Please try again later. Please refer to https://cloud.google.com/vertex-ai/generative-ai/docs/error-code-429 for more de, reintento 1/5 en 15s…
+  ⚠️  ClientError: 429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'Resource exhausted. Please try again later. Please refer to https://cloud.google.com/vertex-ai/generative-ai/docs/error-code-429 for more de, reintento 2/5 en 30s…
+  OK 6_51.jpg (858 KB)
+[125/142] 6_56.jpg
+  ⚠️  ClientError: 429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'Resource exhausted. Please try again later. Please refer to https://cloud.google.com/vertex-ai/generative-ai/docs/error-code-429 for more de, reintento 1/5 en 15s…
+  ⚠️  ClientError: 429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'Resource exhausted. Please try again later. Please refer to https://cloud.google.com/vertex-ai/generative-ai/docs/error-code-429 for more de, reintento 2/5 en 30s…
+  OK 6_56.jpg (778 KB)
+[126/142] 6_59.jpg
+  ⚠️  ClientError: 429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'Resource exhausted. Please try again later. Please refer to https://cloud.google.com/vertex-ai/generative-ai/docs/error-code-429 for more de, reintento 1/5 en 15s…
+  ⚠️  ClientError: 429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'Resource exhausted. Please try again later. Please refer to https://cloud.google.com/vertex-ai/generative-ai/docs/error-code-429 for more de, reintento 2/5 en 30s…
+  OK 6_59.jpg (865 KB)
+[127/142] 7_01.jpg
+  ⚠️  ClientError: 429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'Resource exhausted. Please try again later. Please refer to https://cloud.google.com/vertex-ai/generative-ai/docs/error-code-429 for more de, reintento 1/5 en 15s…
+  OK 7_01.jpg (905 KB)
+[128/142] 7_06.jpg
+  ⚠️  ClientError: 429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'Resource exhausted. Please try again later. Please refer to https://cloud.google.com/vertex-ai/generative-ai/docs/error-code-429 for more de, reintento 1/5 en 15s…
+  ⚠️  ClientError: 429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'Resource exhausted. Please try again later. Please refer to https://cloud.google.com/vertex-ai/generative-ai/docs/error-code-429 for more de, reintento 2/5 en 30s…
+  OK 7_06.jpg (929 KB)
+[129/142] 7_10.jpg
+  ⚠️  ClientError: 429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'Resource exhausted. Please try again later. Please refer to https://cloud.google.com/vertex-ai/generative-ai/docs/error-code-429 for more de, reintento 1/5 en 15s…
+  ⚠️  ClientError: 429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'Resource exhausted. Please try again later. Please refer to https://cloud.google.com/vertex-ai/generative-ai/docs/error-code-429 for more de, reintento 2/5 en 30s…
+  OK 7_10.jpg (799 KB)
+[130/142] 7_16.jpg
+  ⚠️  ClientError: 429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'Resource exhausted. Please try again later. Please refer to https://cloud.google.com/vertex-ai/generative-ai/docs/error-code-429 for more de, reintento 1/5 en 15s…
+  ⚠️  ClientError: 429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'Resource exhausted. Please try again later. Please refer to https://cloud.google.com/vertex-ai/generative-ai/docs/error-code-429 for more de, reintento 2/5 en 30s…
+  OK 7_16.jpg (993 KB)
+[131/142] 7_20.jpg
+  ⚠️  ClientError: 429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'Resource exhausted. Please try again later. Please refer to https://cloud.google.com/vertex-ai/generative-ai/docs/error-code-429 for more de, reintento 1/5 en 15s…
+  ⚠️  ClientError: 429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'Resource exhausted. Please try again later. Please refer to https://cloud.google.com/vertex-ai/generative-ai/docs/error-code-429 for more de, reintento 2/5 en 30s…
+  OK 7_20.jpg (871 KB)
+[132/142] 7_26.jpg
+  ⚠️  ClientError: 429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'Resource exhausted. Please try again later. Please refer to https://cloud.google.com/vertex-ai/generative-ai/docs/error-code-429 for more de, reintento 1/5 en 15s…
+  OK 7_26.jpg (913 KB)
+[133/142] 7_32.jpg
+  ⚠️  ClientError: 429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'Resource exhausted. Please try again later. Please refer to https://cloud.google.com/vertex-ai/generative-ai/docs/error-code-429 for more de, reintento 1/5 en 15s…
+  ⚠️  ClientError: 429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'Resource exhausted. Please try again later. Please refer to https://cloud.google.com/vertex-ai/generative-ai/docs/error-code-429 for more de, reintento 2/5 en 30s…
+  OK 7_32.jpg (934 KB)
+[134/142] 7_36.jpg
+  ⚠️  ClientError: 429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'Resource exhausted. Please try again later. Please refer to https://cloud.google.com/vertex-ai/generative-ai/docs/error-code-429 for more de, reintento 1/5 en 15s…
+  ⚠️  ClientError: 429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'Resource exhausted. Please try again later. Please refer to https://cloud.google.com/vertex-ai/generative-ai/docs/error-code-429 for more de, reintento 2/5 en 30s…
+  OK 7_36.jpg (881 KB)
+[135/142] 7_43.jpg
+  ⚠️  ClientError: 429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'Resource exhausted. Please try again later. Please refer to https://cloud.google.com/vertex-ai/generative-ai/docs/error-code-429 for more de, reintento 1/5 en 15s…
+  ⚠️  ClientError: 429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'Resource exhausted. Please try again later. Please refer to https://cloud.google.com/vertex-ai/generative-ai/docs/error-code-429 for more de, reintento 2/5 en 30s…
+  OK 7_43.jpg (884 KB)
+[136/142] 7_46.jpg
+  ⚠️  ClientError: 429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'Resource exhausted. Please try again later. Please refer to https://cloud.google.com/vertex-ai/generative-ai/docs/error-code-429 for more de, reintento 1/5 en 15s…
+  OK 7_46.jpg (868 KB)
+[137/142] 7_50.jpg
+  ⚠️  ClientError: 429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'Resource exhausted. Please try again later. Please refer to https://cloud.google.com/vertex-ai/generative-ai/docs/error-code-429 for more de, reintento 1/5 en 15s…
+  ⚠️  ClientError: 429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'Resource exhausted. Please try again later. Please refer to https://cloud.google.com/vertex-ai/generative-ai/docs/error-code-429 for more de, reintento 2/5 en 30s…
+  OK 7_50.jpg (943 KB)
+[138/142] 7_52.jpg
+  ⚠️  ClientError: 429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'Resource exhausted. Please try again later. Please refer to https://cloud.google.com/vertex-ai/generative-ai/docs/error-code-429 for more de, reintento 1/5 en 15s…
+  ⚠️  ClientError: 429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'Resource exhausted. Please try again later. Please refer to https://cloud.google.com/vertex-ai/generative-ai/docs/error-code-429 for more de, reintento 2/5 en 30s…
+  OK 7_52.jpg (1193 KB)
+[139/142] 8_01.jpg
+  ⚠️  ClientError: 429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'Resource exhausted. Please try again later. Please refer to https://cloud.google.com/vertex-ai/generative-ai/docs/error-code-429 for more de, reintento 1/5 en 15s…
+  ⚠️  ClientError: 429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'Resource exhausted. Please try again later. Please refer to https://cloud.google.com/vertex-ai/generative-ai/docs/error-code-429 for more de, reintento 2/5 en 30s…
+  OK 8_01.jpg (1054 KB)
+[140/142] 8_03.jpg
+  ⚠️  ClientError: 429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'Resource exhausted. Please try again later. Please refer to https://cloud.google.com/vertex-ai/generative-ai/docs/error-code-429 for more de, reintento 1/5 en 15s…
+  OK 8_03.jpg (904 KB)
+[141/142] 8_07.jpg
+  ⚠️  ClientError: 429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'Resource exhausted. Please try again later. Please refer to https://cloud.google.com/vertex-ai/generative-ai/docs/error-code-429 for more de, reintento 1/5 en 15s…
+  ⚠️  ClientError: 429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'Resource exhausted. Please try again later. Please refer to https://cloud.google.com/vertex-ai/generative-ai/docs/error-code-429 for more de, reintento 2/5 en 30s…
+  OK 8_07.jpg (858 KB)
+[142/142] 8_10.jpg
+  ⚠️  ClientError: 429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'Resource exhausted. Please try again later. Please refer to https://cloud.google.com/vertex-ai/generative-ai/docs/error-code-429 for more de, reintento 1/5 en 15s…
+  ⚠️  ClientError: 429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'Resource exhausted. Please try again later. Please refer to https://cloud.google.com/vertex-ai/generative-ai/docs/error-code-429 for more de, reintento 2/5 en 30s…
+  OK 8_10.jpg (831 KB)
+
+Hecho. 136/142 imágenes en C:\Users\ferna\Desktop\Untangle\Claude\Youtube videos\video-explainer-ia-workflow\remotion\public\hackear-la-ia-notext/
