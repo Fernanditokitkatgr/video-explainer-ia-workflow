@@ -1,6 +1,5 @@
 import React from 'react';
 import { AbsoluteFill, Audio, Img, Loop, Sequence, staticFile, useCurrentFrame, useVideoConfig } from 'remotion';
-import { LabelOverlay } from './LabelOverlay';
 
 // Hackear la IA: el nuevo tipo de hacker — canal tecno.
 // === FRAMES:START (generado — no editar a mano) ===
@@ -153,6 +152,8 @@ const FRAMES: { file: string; startSec: number; labels?: string[] }[] = [
 
 
 
+
+
 // === FRAMES:END ===
 
 const SFX: { file: string; startSec: number; volume?: number }[] = [
@@ -191,7 +192,7 @@ const SFX: { file: string; startSec: number; volume?: number }[] = [
 // duración de UNA iteración (el clip), nunca la duración total del vídeo.
 const MUSIC_FILE = 'musica-canal.mp3';
 const MUSIC_CLIP_SECONDS = 30;
-const MUSIC_VOLUME = 0.075;
+const MUSIC_VOLUME = 0.17;
 
 export const HackearLaIA: React.FC = () => {
   const frame = useCurrentFrame();
@@ -215,7 +216,6 @@ export const HackearLaIA: React.FC = () => {
       {activeFrame && (
         <Img src={staticFile(`hackear-la-ia-notext/${activeFrame.file}`)} style={{ width: '100%', height: '100%', objectFit: 'cover' }} />
       )}
-      {activeFrame && <LabelOverlay labels={activeFrame.labels} seed={activeIndex} />}
     </AbsoluteFill>
   );
 };

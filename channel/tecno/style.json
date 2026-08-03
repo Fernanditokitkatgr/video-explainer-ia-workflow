@@ -16,5 +16,10 @@
     "two monkeys facing each other in confrontation",
     "the monkey's hands/paws close-up doing something on a keyboard or object"
   ],
-  "negative_prompt_notes": "Evitar SIEMPRE: fondo azul marino/negro por defecto, todo bañado en glow verde, mono diminuto en escena vacía, wireframes y diagramas abstractos genéricos, desenfoque/bokeh, render 3D, fotorrealismo, texto en inglés, composiciones repetidas una detrás de otra."
+  "negative_prompt_notes": "Evitar SIEMPRE: fondo azul marino/negro por defecto, todo bañado en glow verde, mono diminuto en escena vacía, wireframes y diagramas abstractos genéricos, desenfoque/bokeh, render 3D, fotorrealismo, texto en inglés, composiciones repetidas una detrás de otra.",
+  "pendiente_siguiente_video": {
+    "texto_en_imagen": "DECISIÓN (ago-2026, pendiente de aplicar): las CIFRAS y los CONCEPTOS CLAVE sí deben dibujarse dentro de la imagen, no superponerse. Los rótulos superpuestos en Remotion se descartaron porque caían en esquinas fijas sin saber dónde estaba el dibujo, y quedaban encima de los personajes o descolgados.",
+    "matiz_medido": "Los NÚMEROS se generan bien (los numerales de capítulo salieron perfectos). Las PALABRAS largas no: 'MONDO', 'COMPORTBAMIENTO', 'FEBRORO', 'TECONLOGÍA', 'PROYECIONES TRIMERALES'. Por tanto: pedir cifras dibujadas es fiable; pedir frases dibujadas es una lotería. Para conceptos difíciles, preferir que se entiendan por el DIBUJO y limitar el texto a cifras y palabras cortas y comunes.",
+    "estado": "el usuario dará más indicaciones de estilo antes de producir el resto de vídeos"
+  }
 }
