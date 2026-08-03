@@ -1,6 +1,6 @@
 {
   "video": "hackear-la-ia",
-  "style_base": "Crude hand-drawn cartoon in the style of the 'Ecomonos' YouTube channel. PURE WHITE background as the default. Thick bold black ink outlines, flat solid colors, NO gradients, NO blur, NO depth of field, NO glow effects, NO soft shading — everything sharp, crisp and clean like a marker drawing. A recurring brown cartoon monkey character with VERY LARGE round white eyes and small black pupils, and a hugely exaggerated expressive face (wide toothy grin, shocked open mouth, half-lidded smug look, or furrowed angry brow depending on the moment). The monkey is BIG in frame, occupying roughly 40-60% of the image — never a tiny figure lost in a wide empty scene. Props and objects are drawn in bright saturated colors (yellow, orange, red, green, blue) that pop against the white background. Scatter a few HANDWRITTEN SPANISH labels and little arrows around the scene naming or reacting to what is in it, in rough hand-drawn marker capitals with a thin black outline. CRITICAL TEXT RULE: every single word of text in the image MUST be in perfect Spanish, spelled exactly as specified, never in English. Write ONLY the words explicitly requested — do not invent extra labels. NEVER write the English abbreviation 'AI': the Spanish form is 'IA'. NEVER write brand names that were not requested. Do not misspell: if unsure how to spell a Spanish word, draw a symbol or icon instead of the word. NEVER add generic business or finance graphics — no growth arrows, no money labels, no 'DINERO', no charts — unless the requested scene explicitly asks for them. Only use a dark or moody background when the scene itself is explicitly at night, in a dark room, or lit by police lights — otherwise the background stays white. ",
+  "style_base": "Crude hand-drawn cartoon in the style of the 'Ecomonos' YouTube channel. PURE WHITE background as the default. Thick bold black ink outlines, flat solid colors, NO gradients, NO blur, NO depth of field, NO glow effects, NO soft shading — everything sharp, crisp and clean like a marker drawing. A recurring brown cartoon monkey character with VERY LARGE round white eyes and small black pupils, and a hugely exaggerated expressive face (wide toothy grin, shocked open mouth, half-lidded smug look, or furrowed angry brow depending on the moment). The monkey is BIG in frame, occupying roughly 40-60% of the image — never a tiny figure lost in a wide empty scene. Props and objects are drawn in bright saturated colors (yellow, orange, red, green, blue) that pop against the white background. The image must contain NO text at all: no words, no letters, no numbers, no captions, no signs and no labels. Every poster, plaque, shield, price tag, badge, calendar, screen and sheet of paper is drawn completely BLANK. The Spanish captions are added afterwards in the edit, so drawing them here would duplicate them and misspell them. Tell the whole idea with drawing, gesture and facial expression alone. Characters have exactly two arms and two hands. Only use a dark or moody background when the scene itself is explicitly at night, in a dark room, or lit by police lights — otherwise the background stays white. ",
   "note": "Estilo tecno v2 (fondo blanco, etiquetas a mano). Escenas 1:1 con el texto real de whisper.",
   "frames": [
     {
@@ -94,7 +94,7 @@
       "file": "0_37.jpg",
       "startSec": 37.58,
       "text": "Jaquear un modelo de lenguaje es otra cosa completamente distinta.",
-      "scene": "the AI robot character: a flat light-grey rectangular screen-robot with two huge round white cartoon eyes and a simple smiling mouth, short stubby arms, NO human face, NO hair, always this exact same design standing on the right, and on the left a tall wall of code bricks with a big black X crossed over THE WALL only, the robot untouched and shrugging. ABSOLUTELY NO TEXT, no letters, no words, no numbers and no symbols like % anywhere in the image: every sign, poster, plaque, price tag, shield and screen must be completely BLANK. The character has exactly two arms and two hands, no extra limbs.",
+      "scene": "On the left a tall wall of code bricks with a big black cross painted over the wall. On the right a grey rectangular screen-robot with two huge round white cartoon eyes, a simple smiling mouth and short stubby arms shrugging, untouched and cheerful. Blank surfaces, no lettering.",
       "labels": []
     },
     {
@@ -272,7 +272,7 @@
       "file": "1_46.jpg",
       "startSec": 106.45,
       "text": "Suena a Chiste.",
-      "scene": "the AI robot character: a flat light-grey rectangular screen-robot with two huge round white cartoon eyes and a simple smiling mouth, short stubby arms, NO human face, NO hair, always this exact same design wearing a knitted shawl over its screen-body and a pair of round spectacles resting on top of it, rocking in a chair, telling a story. It is still the SAME grey screen-robot, NOT a human face. ABSOLUTELY NO TEXT, no letters, no words, no numbers and no symbols like % anywhere in the image: every sign, poster, plaque, price tag, shield and screen must be completely BLANK. The character has exactly two arms and two hands, no extra limbs.",
+      "scene": "a grey rectangular screen-robot with two huge round white cartoon eyes, a simple smiling mouth and short stubby arms wrapped in a knitted shawl with round spectacles resting on its screen, rocking gently in a wooden rocking chair as if telling a bedtime story. Blank surfaces, no lettering.",
       "labels": [
         "¿UN CHISTE?"
       ]
@@ -281,7 +281,7 @@
       "file": "1_47.jpg",
       "startSec": 107.78,
       "text": "Fue un problema de seguridad real en el producto más usado del mundo.",
-      "scene": "the AI robot character: a flat light-grey rectangular screen-robot with two huge round white cartoon eyes and a simple smiling mouth, short stubby arms, NO human face, NO hair, always this exact same design in the same knitted shawl and spectacles as before, holding out a tray, still the SAME grey screen-robot with round white cartoon eyes, NOT a human granny. ABSOLUTELY NO TEXT, no letters, no words, no numbers and no symbols like % anywhere in the image: every sign, poster, plaque, price tag, shield and screen must be completely BLANK. The character has exactly two arms and two hands, no extra limbs.",
+      "scene": "a grey rectangular screen-robot with two huge round white cartoon eyes, a simple smiling mouth and short stubby arms in a knitted shawl and round spectacles, holding out a tray of cogs with its stubby arms, warm and friendly. Blank surfaces, no lettering.",
       "labels": [
         "PROBLEMA REAL"
       ]
@@ -538,7 +538,7 @@
       "file": "3_31.jpg",
       "startSec": 211.88,
       "text": "Cuando reglas un jailbreak,",
-      "scene": "the AI robot character: a flat light-grey rectangular screen-robot with two huge round white cartoon eyes and a simple smiling mouth, short stubby arms, NO human face, NO hair, always this exact same design with a sticking plaster peeling off its body and flying away, the robot unchanged underneath, no monkey present. ABSOLUTELY NO TEXT, no letters, no words, no numbers and no symbols like % anywhere in the image: every sign, poster, plaque, price tag, shield and screen must be completely BLANK. The character has exactly two arms and two hands, no extra limbs.",
+      "scene": "a grey rectangular screen-robot with two huge round white cartoon eyes, a simple smiling mouth and short stubby arms standing still while a sticking plaster peels away from its body and flutters off, the robot unchanged and smiling. Blank surfaces, no lettering.",
       "labels": []
     },
     {
@@ -554,7 +554,7 @@
       "file": "3_37.jpg",
       "startSec": 217.98,
       "text": "En julio de 2023,",
-      "scene": "A blank wall calendar page pinned on white beside a plain university shield crest with laurel branches, one single monkey paw pinning the page. ABSOLUTELY NO TEXT, no letters, no words, no numbers and no symbols like % anywhere in the image: every sign, poster, plaque, price tag, shield and screen must be completely BLANK. The character has exactly two arms and two hands, no extra limbs.",
+      "scene": "A blank wall calendar page pinned up on a white background beside a plain shield crest with laurel branches, a single monkey paw pinning the page. Blank surfaces, no lettering.",
       "labels": [
         "2023"
       ]
@@ -1106,7 +1106,7 @@
       "file": "7_26.jpg",
       "startSec": 446.74,
       "text": "Y esta ventana no va a estar abierta para siempre, ninguna lo está. Y algo importante,",
-      "scene": "A bright open window on white slowly closing, its shutter halfway down, a monkey watching it with a worried face. ABSOLUTELY NO TEXT, no letters, no words, no numbers and no symbols like % anywhere in the image: every sign, poster, plaque, price tag, shield and screen must be completely BLANK. The character has exactly two arms and two hands, no extra limbs.",
+      "scene": "A wall with a real open window in it, sky visible through the opening, and a roller shutter coming down from the top of the window frame, already covering the upper half of the opening. A monkey stands below watching it with a worried face.",
       "labels": [
         "CON PERMISO"
       ]
