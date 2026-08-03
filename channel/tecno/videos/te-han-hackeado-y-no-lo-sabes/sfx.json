@@ -1,0 +1,235 @@
+{
+  "video": "te-han-hackeado-y-no-lo-sabes",
+  "sfx": [
+    {
+      "file": "intro_drone.mp3",
+      "startSec": 0.0,
+      "duration": 2.0,
+      "volume": 0.13,
+      "prompt": "dark tense cinematic drone, unsettling ambience, no music"
+    },
+    {
+      "file": "promise_sting.mp3",
+      "startSec": 11.62,
+      "duration": 1.4,
+      "volume": 0.15,
+      "prompt": "short intriguing reveal sting, no music"
+    },
+    {
+      "file": "silence_drop.mp3",
+      "startSec": 27.02,
+      "duration": 1.6,
+      "volume": 0.14,
+      "prompt": "sudden drop into total silence, tension, no music"
+    },
+    {
+      "file": "movie_alarm.mp3",
+      "startSec": 30.0,
+      "duration": 1.5,
+      "volume": 0.16,
+      "prompt": "cheesy movie hacker alarm with red alert siren, no music"
+    },
+    {
+      "file": "flatline_quiet.mp3",
+      "startSec": 38.3,
+      "duration": 1.5,
+      "volume": 0.13,
+      "prompt": "eerie quiet hum, nothing happening, unsettling, no music"
+    },
+    {
+      "file": "clock_ticking.mp3",
+      "startSec": 51.92,
+      "duration": 1.8,
+      "volume": 0.14,
+      "prompt": "clock ticking fast, many days passing, no music"
+    },
+    {
+      "file": "impact_thud.mp3",
+      "startSec": 86.74,
+      "duration": 1.4,
+      "volume": 0.16,
+      "prompt": "heavy impact thud, shocking statistic, no music"
+    },
+    {
+      "file": "list_sting.mp3",
+      "startSec": 102.18,
+      "duration": 1.4,
+      "volume": 0.15,
+      "prompt": "short digital sting introducing a list, no music"
+    },
+    {
+      "file": "notification_1.mp3",
+      "startSec": 109.78,
+      "duration": 1.1,
+      "volume": 0.15,
+      "prompt": "single clean phone notification ping, no music"
+    },
+    {
+      "file": "notification_2.mp3",
+      "startSec": 124.66,
+      "duration": 1.1,
+      "volume": 0.15,
+      "prompt": "urgent phone notification ping, slightly alarming, no music"
+    },
+    {
+      "file": "signal_lost.mp3",
+      "startSec": 146.22,
+      "duration": 1.5,
+      "volume": 0.16,
+      "prompt": "mobile phone losing signal, dead tone, no music"
+    },
+    {
+      "file": "sneaky_whoosh.mp3",
+      "startSec": 177.84,
+      "duration": 1.4,
+      "volume": 0.14,
+      "prompt": "quiet sneaky whoosh, something done in secret, no music"
+    },
+    {
+      "file": "copy_repeat.mp3",
+      "startSec": 198.26,
+      "duration": 1.5,
+      "volume": 0.14,
+      "prompt": "repeating soft digital copy sound, endless duplication, no music"
+    },
+    {
+      "file": "cash_dark.mp3",
+      "startSec": 211.32,
+      "duration": 1.5,
+      "volume": 0.16,
+      "prompt": "cash register cha-ching distorted and dark, fraud, no music"
+    },
+    {
+      "file": "notification_3.mp3",
+      "startSec": 218.8,
+      "duration": 1.1,
+      "volume": 0.15,
+      "prompt": "phone notification ping, no music"
+    },
+    {
+      "file": "reveal_dark.mp3",
+      "startSec": 237.04,
+      "duration": 1.6,
+      "volume": 0.16,
+      "prompt": "ominous realization sting, the twist, no music"
+    },
+    {
+      "file": "keyring.mp3",
+      "startSec": 266.48,
+      "duration": 1.3,
+      "volume": 0.14,
+      "prompt": "bunch of keys jangling, master key, no music"
+    },
+    {
+      "file": "email_tense.mp3",
+      "startSec": 283.3,
+      "duration": 1.4,
+      "volume": 0.16,
+      "prompt": "tense email arriving notification, sinister, no music"
+    },
+    {
+      "file": "question_sting.mp3",
+      "startSec": 292.14,
+      "duration": 1.4,
+      "volume": 0.15,
+      "prompt": "short curious question sting, no music"
+    },
+    {
+      "file": "machine_gun_try.mp3",
+      "startSec": 301.74,
+      "duration": 1.6,
+      "volume": 0.14,
+      "prompt": "rapid automated attempts, machine-gun clicking, no music"
+    },
+    {
+      "file": "data_dump.mp3",
+      "startSec": 324.82,
+      "duration": 1.6,
+      "volume": 0.15,
+      "prompt": "massive data dump pouring, digital flood, no music"
+    },
+    {
+      "file": "cheap_buzz.mp3",
+      "startSec": 345.08,
+      "duration": 1.3,
+      "volume": 0.15,
+      "prompt": "short deflating buzz, you are cheap, no music"
+    },
+    {
+      "file": "action_sting.mp3",
+      "startSec": 347.16,
+      "duration": 1.5,
+      "volume": 0.16,
+      "prompt": "energetic call-to-action sting, positive, no music"
+    },
+    {
+      "file": "tick_1.mp3",
+      "startSec": 356.06,
+      "duration": 1.0,
+      "volume": 0.15,
+      "prompt": "single checklist tick, satisfying, no music"
+    },
+    {
+      "file": "tick_2.mp3",
+      "startSec": 367.08,
+      "duration": 1.0,
+      "volume": 0.15,
+      "prompt": "single checklist tick, satisfying, no music"
+    },
+    {
+      "file": "tick_3.mp3",
+      "startSec": 377.2,
+      "duration": 1.0,
+      "volume": 0.15,
+      "prompt": "single checklist tick, satisfying, no music"
+    },
+    {
+      "file": "tick_4.mp3",
+      "startSec": 392.8,
+      "duration": 1.0,
+      "volume": 0.15,
+      "prompt": "single checklist tick, satisfying, no music"
+    },
+    {
+      "file": "tick_5.mp3",
+      "startSec": 411.84,
+      "duration": 1.0,
+      "volume": 0.15,
+      "prompt": "single checklist tick, satisfying, no music"
+    },
+    {
+      "file": "serious_turn.mp3",
+      "startSec": 423.08,
+      "duration": 1.5,
+      "volume": 0.14,
+      "prompt": "short serious tonal shift, honest moment, no music"
+    },
+    {
+      "file": "gavel_soft.mp3",
+      "startSec": 456.44,
+      "duration": 1.3,
+      "volume": 0.15,
+      "prompt": "soft gavel tap, legal warning, no music"
+    },
+    {
+      "file": "loop_close.mp3",
+      "startSec": 458.0,
+      "duration": 1.5,
+      "volume": 0.15,
+      "prompt": "warm resolving sting closing a loop, no music"
+    },
+    {
+      "file": "subscribe.mp3",
+      "startSec": 479.84,
+      "duration": 1.6,
+      "volume": 0.17,
+      "prompt": "friendly subscribe notification chime, upbeat, no music"
+    }
+  ],
+  "music": {
+    "file": "musica-canal.mp3",
+    "duration": 30,
+    "volume": 0.17,
+    "prompt": "understated dark electronic loop, steady pulsing bassline, loopable, no vocals"
+  }
+}

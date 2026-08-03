@@ -1,0 +1,807 @@
+[
+  {
+    "file": "0_00.jpg",
+    "startSec": 0.0,
+    "text": "Ahora mismo, mientras ves esto,"
+  },
+  {
+    "file": "0_02.jpg",
+    "startSec": 2.3,
+    "text": "puede haber alguien dentro de una de tus cuentas."
+  },
+  {
+    "file": "0_04.jpg",
+    "startSec": 4.88,
+    "text": "Y lo peor no es eso,"
+  },
+  {
+    "file": "0_06.jpg",
+    "startSec": 6.3,
+    "text": "lo peores que llevaría ahí semanas,"
+  },
+  {
+    "file": "0_08.jpg",
+    "startSec": 8.56,
+    "text": "y tú no habrías notado absolutamente nada."
+  },
+  {
+    "file": "0_11.jpg",
+    "startSec": 11.62,
+    "text": "Al final de este vídeo vas a saber las cinco señales exactas que delatan a un intruso,"
+  },
+  {
+    "file": "0_16.jpg",
+    "startSec": 16.38,
+    "text": "y vas a poder comprobar en cinco minutos si tú eres una de las víctimas."
+  },
+  {
+    "file": "0_20.jpg",
+    "startSec": 20.54,
+    "text": "Porque el otro día contamos la historia del hacker,"
+  },
+  {
+    "file": "0_23.jpg",
+    "startSec": 23.18,
+    "text": "hoy le damos la vuelta a la cámara,"
+  },
+  {
+    "file": "0_25.jpg",
+    "startSec": 25.1,
+    "text": "hoy la víctima eres tú."
+  },
+  {
+    "file": "0_27.jpg",
+    "startSec": 27.02,
+    "text": "Y lo primero que tienes que entender es el silencio."
+  },
+  {
+    "file": "0_30.jpg",
+    "startSec": 30.0,
+    "text": "En las películas cuando te jakean, la pantalla se pone roja y suena una alarma."
+  },
+  {
+    "file": "0_34.jpg",
+    "startSec": 34.82,
+    "text": "En la vida real no suena nada,"
+  },
+  {
+    "file": "0_36.jpg",
+    "startSec": 36.62,
+    "text": "no hay humo, no hay ruido,"
+  },
+  {
+    "file": "0_38.jpg",
+    "startSec": 38.3,
+    "text": "no hay aviso."
+  },
+  {
+    "file": "0_39.jpg",
+    "startSec": 39.98,
+    "text": "IBM publica cada año su informe sobre el coste de una brecha de datos."
+  },
+  {
+    "file": "0_44.jpg",
+    "startSec": 44.12,
+    "text": "En la edición de 2024,"
+  },
+  {
+    "file": "0_46.jpg",
+    "startSec": 46.0,
+    "text": "la media para identificar y contener una brecha fue de 258 días."
+  },
+  {
+    "file": "0_51.jpg",
+    "startSec": 51.92,
+    "text": "258 días,"
+  },
+  {
+    "file": "0_53.jpg",
+    "startSec": 53.34,
+    "text": "casi nueve meses,"
+  },
+  {
+    "file": "0_54.jpg",
+    "startSec": 54.8,
+    "text": "es el tiempo que alguien puede pasar leyendo tu correo antes de que alguien se de cuenta."
+  },
+  {
+    "file": "0_59.jpg",
+    "startSec": 59.76,
+    "text": "Mandiant la empresa que investiga intrusiones reales midi otra cosa,"
+  },
+  {
+    "file": "1_04.jpg",
+    "startSec": 64.02,
+    "text": "el tiempo de permanencia,"
+  },
+  {
+    "file": "1_05.jpg",
+    "startSec": 65.56,
+    "text": "es decir, cuánto tarda el atacante desde que entra hasta que lo pillan."
+  },
+  {
+    "file": "1_09.jpg",
+    "startSec": 69.44,
+    "text": "La mediana global ha bajado a unos diez días y eso suena bien,"
+  },
+  {
+    "file": "1_13.jpg",
+    "startSec": 73.16,
+    "text": "pero es una mediana y la mediana esconde los casos largos."
+  },
+  {
+    "file": "1_16.jpg",
+    "startSec": 76.88,
+    "text": "En Mario, los investigadores descubrieron que los intrusos llevaban dentro desde 2014."
+  },
+  {
+    "file": "1_22.jpg",
+    "startSec": 82.58,
+    "text": "La brecha se anunció en 2018,"
+  },
+  {
+    "file": "1_24.jpg",
+    "startSec": 84.74,
+    "text": "cuatro años dentro."
+  },
+  {
+    "file": "1_26.jpg",
+    "startSec": 86.74,
+    "text": "Ya jú tardó años en admitir una brecha que afectó a 3 .000 millones de cuentas."
+  },
+  {
+    "file": "1_31.jpg",
+    "startSec": 91.3,
+    "text": "Y si empresas con equipos de seguridad entero tardan meses en verlo, dime una cosa."
+  },
+  {
+    "file": "1_36.jpg",
+    "startSec": 96.28,
+    "text": "¿Cuánto crees que tardarías tú,"
+  },
+  {
+    "file": "1_38.jpg",
+    "startSec": 98.06,
+    "text": "solo, sin herramientas, sin logs,"
+  },
+  {
+    "file": "1_40.jpg",
+    "startSec": 100.48,
+    "text": "sin nadie mirando?"
+  },
+  {
+    "file": "1_42.jpg",
+    "startSec": 102.18,
+    "text": "Hay cinco señales,"
+  },
+  {
+    "file": "1_43.jpg",
+    "startSec": 103.52,
+    "text": "todas fáciles de pasar por alto."
+  },
+  {
+    "file": "1_45.jpg",
+    "startSec": 105.38,
+    "text": "Vale,"
+  },
+  {
+    "file": "1_46.jpg",
+    "startSec": 106.1,
+    "text": "vamos a lo práctico."
+  },
+  {
+    "file": "1_47.jpg",
+    "startSec": 107.36,
+    "text": "Estas son las señales reales."
+  },
+  {
+    "file": "1_49.jpg",
+    "startSec": 109.78,
+    "text": "Señal número uno,"
+  },
+  {
+    "file": "1_51.jpg",
+    "startSec": 111.02,
+    "text": "sesiones activas que no reconoces."
+  },
+  {
+    "file": "1_53.jpg",
+    "startSec": 113.22,
+    "text": "Google, Instagram, WhatsApp o tu banco,"
+  },
+  {
+    "file": "1_55.jpg",
+    "startSec": 115.82,
+    "text": "te dejan verdes de que dispositivos hay sesión abierta."
+  },
+  {
+    "file": "1_58.jpg",
+    "startSec": 118.96,
+    "text": "Si ahí aparece un móvil Andro y de en Vietnam y tú tienes un iPhone en Murcia,"
+  },
+  {
+    "file": "2_02.jpg",
+    "startSec": 122.92,
+    "text": "ya lo sabes."
+  },
+  {
+    "file": "2_04.jpg",
+    "startSec": 124.66,
+    "text": "Señal número dos,"
+  },
+  {
+    "file": "2_05.jpg",
+    "startSec": 125.78,
+    "text": "un correo de tu contraseña ha cambiado que tú no pediste."
+  },
+  {
+    "file": "2_09.jpg",
+    "startSec": 129.84,
+    "text": "No lo gorres."
+  },
+  {
+    "file": "2_11.jpg",
+    "startSec": 131.05,
+    "text": "Ese correo suele ser el último viso antes de perder la cuenta."
+  },
+  {
+    "file": "2_14.jpg",
+    "startSec": 134.48,
+    "text": "Y su primo hermano es igual de peligroso,"
+  },
+  {
+    "file": "2_16.jpg",
+    "startSec": 136.66,
+    "text": "un código de verificación que llega sin que tú lo pidieras."
+  },
+  {
+    "file": "2_20.jpg",
+    "startSec": 140.18,
+    "text": "Si te llega un código que no ha solicitado, alguien está probando tu contraseña."
+  },
+  {
+    "file": "2_24.jpg",
+    "startSec": 144.44,
+    "text": "Y la tiene."
+  },
+  {
+    "file": "2_26.jpg",
+    "startSec": 146.22,
+    "text": "Señal número tres,"
+  },
+  {
+    "file": "2_27.jpg",
+    "startSec": 147.46,
+    "text": "tu móvil se queda sin cobertura de repente."
+  },
+  {
+    "file": "2_30.jpg",
+    "startSec": 150.08,
+    "text": "Eso puede ser un sim -swapping."
+  },
+  {
+    "file": "2_32.jpg",
+    "startSec": 152.16,
+    "text": "Alguien ha llamado tu operadora haciéndose pasar por ti y ha portado tu número a su tarjeta. Desde ese segundo,"
+  },
+  {
+    "file": "2_38.jpg",
+    "startSec": 158.42,
+    "text": "todos tus SMS de verificación llegan a su móvil, no al tuyo."
+  },
+  {
+    "file": "2_42.jpg",
+    "startSec": 162.72,
+    "text": "El SDI recibió 1 .600 denuncias de sim -swapping en 2021,"
+  },
+  {
+    "file": "2_47.jpg",
+    "startSec": 167.62,
+    "text": "casi 70 millones de dólares en pérdidas en un solo año."
+  },
+  {
+    "file": "2_51.jpg",
+    "startSec": 171.72,
+    "text": "Frente a unas 300 denuncias en los tres años anteriores juntos,"
+  },
+  {
+    "file": "2_55.jpg",
+    "startSec": 175.46,
+    "text": "se multiplicó por 5."
+  },
+  {
+    "file": "2_57.jpg",
+    "startSec": 177.84,
+    "text": "Señal número 4 y esta es mi favorita,"
+  },
+  {
+    "file": "3_00.jpg",
+    "startSec": 180.56,
+    "text": "porque es la más silenciosa de todas."
+  },
+  {
+    "file": "3_02.jpg",
+    "startSec": 182.58,
+    "text": "Reglas de reenvió automático creadas en tu correo sin que tú lo sepas."
+  },
+  {
+    "file": "3_07.jpg",
+    "startSec": 187.14,
+    "text": "Es una función legítima,"
+  },
+  {
+    "file": "3_08.jpg",
+    "startSec": 188.7,
+    "text": "sirve para reenviar copias de tus correos a otra dirección."
+  },
+  {
+    "file": "3_12.jpg",
+    "startSec": 192.1,
+    "text": "El atacante entra, crea una regla y sale."
+  },
+  {
+    "file": "3_15.jpg",
+    "startSec": 195.42,
+    "text": "Ya no necesita tu contraseña nunca más."
+  },
+  {
+    "file": "3_18.jpg",
+    "startSec": 198.26,
+    "text": "Le llega una copia de todo, cada día, para siempre."
+  },
+  {
+    "file": "3_21.jpg",
+    "startSec": 201.54,
+    "text": "Y encima suelen añadir un filtro para que los avisos de seguridad se borren solos antes de que los veas."
+  },
+  {
+    "file": "3_27.jpg",
+    "startSec": 207.58,
+    "text": "Así funciona el fraude del CEO,"
+  },
+  {
+    "file": "3_29.jpg",
+    "startSec": 209.48,
+    "text": "el fraude de la factura falsa."
+  },
+  {
+    "file": "3_31.jpg",
+    "startSec": 211.32,
+    "text": "El FBI cifró esas estafas en más de 2 .900 millones de dólares de pérdidas en un solo año."
+  },
+  {
+    "file": "3_38.jpg",
+    "startSec": 218.8,
+    "text": "Señal número 5,"
+  },
+  {
+    "file": "3_40.jpg",
+    "startSec": 220.3,
+    "text": "dispositivos o aplicaciones vinculadas que no conoces."
+  },
+  {
+    "file": "3_43.jpg",
+    "startSec": 223.78,
+    "text": "En WhatsApp se llaman dispositivos vinculados,"
+  },
+  {
+    "file": "3_46.jpg",
+    "startSec": 226.4,
+    "text": "en Google aplicaciones con acceso a tu cuenta."
+  },
+  {
+    "file": "3_49.jpg",
+    "startSec": 229.28,
+    "text": "Ahí puede haber un permiso que diste hace cuatro años a una app de filtros de fotos."
+  },
+  {
+    "file": "3_53.jpg",
+    "startSec": 233.84,
+    "text": "Ese permiso sigue vivo y sigue leyendo."
+  },
+  {
+    "file": "3_57.jpg",
+    "startSec": 237.04,
+    "text": "Ahora la parte que nadie cuenta,"
+  },
+  {
+    "file": "3_59.jpg",
+    "startSec": 239.08,
+    "text": "¿por qué no quiere que lo notes?"
+  },
+  {
+    "file": "4_01.jpg",
+    "startSec": 241.46,
+    "text": "Aquí está la parte que casi nadie explica bien."
+  },
+  {
+    "file": "4_04.jpg",
+    "startSec": 244.02,
+    "text": "El atacante medio no quiere hacer ruido."
+  },
+  {
+    "file": "4_06.jpg",
+    "startSec": 246.22,
+    "text": "Al revés, hace todo lo posible por no hacerlo."
+  },
+  {
+    "file": "4_09.jpg",
+    "startSec": 249.48,
+    "text": "Porque tu cuenta vale mucho más viva que quemada."
+  },
+  {
+    "file": "4_12.jpg",
+    "startSec": 252.22,
+    "text": "Si cambia tu contraseña y bloquea tu acceso,"
+  },
+  {
+    "file": "4_14.jpg",
+    "startSec": 254.76,
+    "text": "tu tenteras en horas y llamas a soporte."
+  },
+  {
+    "file": "4_17.jpg",
+    "startSec": 257.08,
+    "text": "Si no tocan nada, tiene tu correo, tus facturas, tus contactos y tu identidad durante meses."
+  },
+  {
+    "file": "4_22.jpg",
+    "startSec": 262.69,
+    "text": "Y con tu correo puede recetear la contraseña de todo lo demás."
+  },
+  {
+    "file": "4_26.jpg",
+    "startSec": 266.48,
+    "text": "Tu correo es el llaverio romáestro. Por eso los ataques buenos son aburridos."
+  },
+  {
+    "file": "4_30.jpg",
+    "startSec": 270.78,
+    "text": "¿No hay pantallas verdes?"
+  },
+  {
+    "file": "4_32.jpg",
+    "startSec": 272.24,
+    "text": "No hay letras cayendo."
+  },
+  {
+    "file": "4_33.jpg",
+    "startSec": 273.78,
+    "text": "Hay alguien leyendo tus conversaciones en silencio y esperando el momento adecuado."
+  },
+  {
+    "file": "4_38.jpg",
+    "startSec": 278.9,
+    "text": "Por ejemplo,"
+  },
+  {
+    "file": "4_39.jpg",
+    "startSec": 279.92,
+    "text": "el día que estás comprando un piso y esperas una transferencia."
+  },
+  {
+    "file": "4_43.jpg",
+    "startSec": 283.3,
+    "text": "Ahí aparece un correo perfecto, con tu hilo real citado y un número de cuenta cambiado. Pero lo que de verdad te mata no es ninguna de esas cinco."
+  },
+  {
+    "file": "4_52.jpg",
+    "startSec": 292.14,
+    "text": "Y ahora la pregunta importante."
+  },
+  {
+    "file": "4_54.jpg",
+    "startSec": 294.32,
+    "text": "¿Cómo llegan a tu contraseña si tú no le has dado nada a nadie?"
+  },
+  {
+    "file": "4_58.jpg",
+    "startSec": 298.04,
+    "text": "La mayoría de las veces no te jakean a ti,"
+  },
+  {
+    "file": "5_00.jpg",
+    "startSec": 300.6,
+    "text": "te reciclan."
+  },
+  {
+    "file": "5_01.jpg",
+    "startSec": 301.74,
+    "text": "Se llama Credential Stuffing."
+  },
+  {
+    "file": "5_04.jpg",
+    "startSec": 304.18,
+    "text": "Roban una base de datos de una web cualquiera,"
+  },
+  {
+    "file": "5_06.jpg",
+    "startSec": 306.62,
+    "text": "una tienda pequeña, un foro viejo de 2012."
+  },
+  {
+    "file": "5_09.jpg",
+    "startSec": 309.78,
+    "text": "Coge en esos millones de correos y contraseñas y los prueban automatizados en Gmail,"
+  },
+  {
+    "file": "5_14.jpg",
+    "startSec": 314.5,
+    "text": "en Amazon, en tu banco."
+  },
+  {
+    "file": "5_16.jpg",
+    "startSec": 316.24,
+    "text": "La tasa de acierto es baja, en torno al 1 por ciento."
+  },
+  {
+    "file": "5_19.jpg",
+    "startSec": 319.68,
+    "text": "Pero cuando pruebas 100 millones de combinaciones, el 1 por ciento es un millón de cuentas."
+  },
+  {
+    "file": "5_24.jpg",
+    "startSec": 324.82,
+    "text": "En 2019 apareció una recopilación llamada Collection Number One,"
+  },
+  {
+    "file": "5_30.jpg",
+    "startSec": 330.14,
+    "text": "773 millones de correos y 21 millones de contraseñas únicas en un solo archivo."
+  },
+  {
+    "file": "5_36.jpg",
+    "startSec": 336.3,
+    "text": "Nada de eso requiere talento,"
+  },
+  {
+    "file": "5_38.jpg",
+    "startSec": 338.42,
+    "text": "requiere que tú reutilices la contraseña."
+  },
+  {
+    "file": "5_41.jpg",
+    "startSec": 341.16,
+    "text": "Y ese es el punto."
+  },
+  {
+    "file": "5_42.jpg",
+    "startSec": 342.88,
+    "text": "No te pillan porque sea su objetivo."
+  },
+  {
+    "file": "5_45.jpg",
+    "startSec": 345.08,
+    "text": "Te pillan porque eres barato."
+  },
+  {
+    "file": "5_47.jpg",
+    "startSec": 347.16,
+    "text": "Vamos a lo práctico."
+  },
+  {
+    "file": "5_48.jpg",
+    "startSec": 348.66,
+    "text": "10 minutos, ahora mismo, y sales de dudas."
+  },
+  {
+    "file": "5_51.jpg",
+    "startSec": 351.64,
+    "text": "Esto es accionable."
+  },
+  {
+    "file": "5_53.jpg",
+    "startSec": 353.04,
+    "text": "Puedes hacerlo al acabar el video y deberías."
+  },
+  {
+    "file": "5_56.jpg",
+    "startSec": 356.06,
+    "text": "Uno,"
+  },
+  {
+    "file": "5_56.jpg",
+    "startSec": 356.9,
+    "text": "entre en la seguridad de tu cuenta de Google y de Instagram y mira las sesiones activas."
+  },
+  {
+    "file": "6_01.jpg",
+    "startSec": 361.98,
+    "text": "Cierra todas las que no reconozcas y luego cambia la contraseña en ese orden."
+  },
+  {
+    "file": "6_07.jpg",
+    "startSec": 367.08,
+    "text": "Dos,"
+  },
+  {
+    "file": "6_07.jpg",
+    "startSec": 367.84,
+    "text": "entre los ajustes de renvío y en los filtros de tu correo."
+  },
+  {
+    "file": "6_11.jpg",
+    "startSec": 371.36,
+    "text": "Casi nadie ha mirado eso en su vida."
+  },
+  {
+    "file": "6_13.jpg",
+    "startSec": 373.5,
+    "text": "Míralo,"
+  },
+  {
+    "file": "6_14.jpg",
+    "startSec": 374.28,
+    "text": "es donde se esconde los intrusos pacientes."
+  },
+  {
+    "file": "6_17.jpg",
+    "startSec": 377.2,
+    "text": "Tres,"
+  },
+  {
+    "file": "6_17.jpg",
+    "startSec": 377.92,
+    "text": "comprovas si tu correo está en filtraciones conocidas."
+  },
+  {
+    "file": "6_21.jpg",
+    "startSec": 381.08,
+    "text": "La web, Java y WinPound,"
+  },
+  {
+    "file": "6_23.jpg",
+    "startSec": 383.04,
+    "text": "lo hace gratis y llevan miles de millones de cuentas indexadas."
+  },
+  {
+    "file": "6_26.jpg",
+    "startSec": 386.74,
+    "text": "Si tu correo sale ahí con la contraseña que sigue usando,"
+  },
+  {
+    "file": "6_30.jpg",
+    "startSec": 390.14,
+    "text": "cambia la antes de seguir viendo esto."
+  },
+  {
+    "file": "6_32.jpg",
+    "startSec": 392.8,
+    "text": "Cuatro,"
+  },
+  {
+    "file": "6_33.jpg",
+    "startSec": 393.66,
+    "text": "quita el SMS como segundo factor donde puedas, porque el SMS depende de tu operadora y tu operadora se pueden cañar por teléfono."
+  },
+  {
+    "file": "6_41.jpg",
+    "startSec": 401.78,
+    "text": "Usa una app de autenticación o mejor, una llave física."
+  },
+  {
+    "file": "6_45.jpg",
+    "startSec": 405.98,
+    "text": "Microsoft calculó que el doble factor bloquea más del 99 % de los ataques de cuenta."
+  },
+  {
+    "file": "6_51.jpg",
+    "startSec": 411.84,
+    "text": "Cinco,"
+  },
+  {
+    "file": "6_52.jpg",
+    "startSec": 412.7,
+    "text": "un gestor de contraseñas."
+  },
+  {
+    "file": "6_54.jpg",
+    "startSec": 414.4,
+    "text": "No es para Gix,"
+  },
+  {
+    "file": "6_55.jpg",
+    "startSec": 415.58,
+    "text": "es para no reutilizar nunca más."
+  },
+  {
+    "file": "6_58.jpg",
+    "startSec": 418.06,
+    "text": "Con eso, una brecha en un foro viejo deja de ser una brecha en toda tu vida."
+  },
+  {
+    "file": "7_03.jpg",
+    "startSec": 423.08,
+    "text": "Y queda una última cosa,"
+  },
+  {
+    "file": "7_04.jpg",
+    "startSec": 424.78,
+    "text": "la más importante de todas."
+  },
+  {
+    "file": "7_07.jpg",
+    "startSec": 427.2,
+    "text": "Y aquí toca ser honesto contigo."
+  },
+  {
+    "file": "7_09.jpg",
+    "startSec": 429.54,
+    "text": "Ninguna de estas señales prueba por sí sola que te hayan jaqueado."
+  },
+  {
+    "file": "7_13.jpg",
+    "startSec": 433.62,
+    "text": "Una sesión rara puede ser tu propio móvil viejo."
+  },
+  {
+    "file": "7_16.jpg",
+    "startSec": 436.68,
+    "text": "Una caída de cobertura puede ser solo mala cobertura."
+  },
+  {
+    "file": "7_20.jpg",
+    "startSec": 440.14,
+    "text": "La clave no es el pánico,"
+  },
+  {
+    "file": "7_22.jpg",
+    "startSec": 442.06,
+    "text": "es el patrón. Varias señales a la vez, el mismo día."
+  },
+  {
+    "file": "7_26.jpg",
+    "startSec": 446.34,
+    "text": "Y esto es divulgación defensiva."
+  },
+  {
+    "file": "7_28.jpg",
+    "startSec": 448.58,
+    "text": "Todo lo que has visto son ajustes de tu cuenta."
+  },
+  {
+    "file": "7_31.jpg",
+    "startSec": 451.56,
+    "text": "Mirar la seguridad de cuentas ajenas no es curiosidad,"
+  },
+  {
+    "file": "7_34.jpg",
+    "startSec": 454.78,
+    "text": "es delito."
+  },
+  {
+    "file": "7_36.jpg",
+    "startSec": 456.44,
+    "text": "Volvamos al principio."
+  },
+  {
+    "file": "7_38.jpg",
+    "startSec": 458.0,
+    "text": "Te dije que alguien podría llevar semanas dentro de tus cuentas."
+  },
+  {
+    "file": "7_41.jpg",
+    "startSec": 461.54,
+    "text": "Ahora ya no depende de que suene una alarma que nunca va a sonar."
+  },
+  {
+    "file": "7_45.jpg",
+    "startSec": 465.42,
+    "text": "Depende de cinco pantallas de ajustes que puedes abrir en 10 minutos."
+  },
+  {
+    "file": "7_49.jpg",
+    "startSec": 469.74,
+    "text": "Esas la diferencia entre ser una víctima de 258 días y una de 10 minutos."
+  },
+  {
+    "file": "7_56.jpg",
+    "startSec": 476.2,
+    "text": "Si esto te ha hecho sacar el móvil a mitad del video, suscríbete,"
+  },
+  {
+    "file": "7_59.jpg",
+    "startSec": 479.84,
+    "text": "se viene más de este mundo."
+  }
+]

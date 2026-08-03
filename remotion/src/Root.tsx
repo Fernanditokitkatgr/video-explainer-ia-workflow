@@ -16,6 +16,8 @@ import { EmpleosDelFuturo } from "./EmpleosDelFuturo";
 import { TheCom } from "./TheCom";
 import { Pegasus } from "./Pegasus";
 import { Lazarus } from "./Lazarus";
+import { TeHanHackeado } from "./TeHanHackeado";
+import { DniRobado } from "./DniRobado";
 import { HackearLaIA } from "./HackearLaIA";
 import { DosCaminosHacker } from "./DosCaminosHacker";
 import { RedTeamVsBlueTeam } from "./RedTeamVsBlueTeam";
@@ -24,6 +26,22 @@ import { HackerNovatoADios } from "./HackerNovatoADios";
 export const RemotionRoot: React.FC = () => {
   return (
     <>
+      <Composition
+        id="TeHanHackeado"
+        component={TeHanHackeado}
+        durationInFrames={13148}
+        fps={30}
+        width={1920}
+        height={1080}
+      />
+      <Composition
+        id="DniRobado"
+        component={DniRobado}
+        durationInFrames={12412}
+        fps={30}
+        width={1920}
+        height={1080}
+      />
       <Composition
         id="HackearLaIA"
         component={HackearLaIA}

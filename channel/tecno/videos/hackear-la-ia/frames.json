@@ -23,10 +23,8 @@
       "file": "0_06.jpg",
       "startSec": 6.1,
       "text": "Y esa frase vale hasta 30 .000 dólares.",
-      "scene": "the GOOD hacker monkey: a light SKY-BLUE zip-up hoodie with the hood DOWN so the whole friendly face is visible, plus a white ID badge hanging from a lanyard on the chest. Relaxed, confident, often smiling. NEVER wears a hood up, NEVER wears black. His hood must be DOWN and must NOT cover his head. holding up a fan of green banknotes beside a speech bubble containing one short squiggle line, filling the frame edge to edge on pure white. ABSOLUTELY NO TEXT, no letters, no words, no numbers and no symbols like % anywhere in the image: every sign, poster, plaque, price tag, shield and screen must be completely BLANK. The character has exactly two arms and two hands, no extra limbs.",
-      "labels": [
-        "30.000 $"
-      ]
+      "scene": "the GOOD hacker monkey: a light SKY-BLUE zip-up hoodie with the hood DOWN so the whole friendly face is visible, plus a white ID badge hanging from a lanyard on the chest. Relaxed, confident, often smiling. NEVER wears a hood up, NEVER wears black. grinning and holding up a fan of green banknotes, with the figure floating big beside his head. The ONLY thing written anywhere in the image is the figure '30.000 $', drawn very large in thick bold black hand-drawn digits. No other words, no letters, no captions, no labels of any kind. Everything else in the scene is blank.",
+      "labels": []
     },
     {
       "file": "0_09.jpg",
@@ -472,10 +470,8 @@
       "file": "3_02.jpg",
       "startSec": 182.1,
       "text": "Por unos 60 dólares podían cambiar lo que iba a aprender el modelo. Y en octubre de 2025,",
-      "scene": "A small handful of coins on a table beside a big poisoned funnel, shockingly cheap. ABSOLUTELY NO TEXT of any kind in the image: no words, no letters, no labels, no captions, no signs, no writing on screens or papers, no numbers. Tell the whole idea with drawing, gesture and expression only.",
-      "labels": [
-        "60 $"
-      ]
+      "scene": "the BAD hacker monkey: a BLACK hoodie with the hood UP casting a shadow over the top of the face (eyes still clearly visible and glowing faintly), NO badge, NO lanyard. Hunched, smug or menacing. NEVER wears blue, NEVER shows a badge. holding out a small handful of coins over a big poison funnel, the tiny figure floating big beside the coins. The ONLY thing written anywhere in the image is the figure '60 $', drawn very large in thick bold black hand-drawn digits. No other words, no letters, no captions, no labels of any kind. Everything else in the scene is blank.",
+      "labels": []
     },
     {
       "file": "3_08.jpg",
@@ -490,10 +486,8 @@
       "file": "3_11.jpg",
       "startSec": 191.7,
       "text": "Con unos 250 documentos envenenados basta para meter una puerta trasera.",
-      "scene": "A neat stack of exactly a few hundred documents with a green poison drop on top, next to the AI character: a big friendly-looking chatbot screen-robot with two huge round white cartoon eyes, a simple smiling mouth, flat light-grey body, drawn in the same crude thick-outline style with a trapdoor. ABSOLUTELY NO TEXT of any kind in the image: no words, no letters, no labels, no captions, no signs, no writing on screens or papers, no numbers. Tell the whole idea with drawing, gesture and expression only.",
-      "labels": [
-        "250 DOCUMENTOS"
-      ]
+      "scene": "A neat modest stack of documents on white with a green poison drop on top, the figure floating very large beside the stack. The ONLY thing written anywhere in the image is the figure '250', drawn very large in thick bold black hand-drawn digits. No other words, no letters, no captions, no labels of any kind. Everything else in the scene is blank.",
+      "labels": []
     },
     {
       "file": "3_17.jpg",
@@ -606,10 +600,8 @@
       "file": "3_54.jpg",
       "startSec": 234.5,
       "text": "Y una defensa que funciona el 99 por ciento de las veces,",
-      "scene": "A big sturdy round shield standing on white, looking strong and reassuring, with a tiny hairline crack near its edge. ABSOLUTELY NO TEXT of any kind in the image: no words, no letters, no labels, no captions, no signs, no writing on screens or papers, no numbers. Tell the whole idea with drawing, gesture and expression only.",
-      "labels": [
-        "99 %"
-      ]
+      "scene": "A big sturdy round shield standing on white with a tiny hairline crack, the figure floating large beside the shield. The ONLY thing written anywhere in the image is the figure '99 %', drawn very large in thick bold black hand-drawn digits. No other words, no letters, no captions, no labels of any kind. Everything else in the scene is blank.",
+      "labels": []
     },
     {
       "file": "3_58.jpg",
@@ -727,10 +719,8 @@
       "file": "4_33.jpg",
       "startSec": 273.38,
       "text": "Un usuario le convence con un par de frases de aceptar venderle un coche por un dólar.",
-      "scene": "the BAD hacker monkey: a BLACK hoodie with the hood UP casting a shadow over the top of the face (eyes still clearly visible and glowing faintly), NO badge, NO lanyard. Hunched, smug or menacing. NEVER wears blue, NEVER shows a badge. shaking paws with the AI robot character: a flat light-grey rectangular screen-robot with two huge round white cartoon eyes and a simple smiling mouth, short stubby arms, NO human face, NO hair, always this exact same design over a small car, a completely blank price tag dangling from the car mirror. ABSOLUTELY NO TEXT, no letters, no words, no numbers and no symbols like % anywhere in the image: every sign, poster, plaque, price tag, shield and screen must be completely BLANK. The character has exactly two arms and two hands, no extra limbs.",
-      "labels": [
-        "1 $"
-      ]
+      "scene": "the BAD hacker monkey: a BLACK hoodie with the hood UP casting a shadow over the top of the face (eyes still clearly visible and glowing faintly), NO badge, NO lanyard. Hunched, smug or menacing. NEVER wears blue, NEVER shows a badge. shaking paws with a grey screen-robot over a small yellow car, a price tag on the car showing the figure very large. The ONLY thing written anywhere in the image is the figure '1 $', drawn very large in thick bold black hand-drawn digits. No other words, no letters, no captions, no labels of any kind. Everything else in the scene is blank.",
+      "labels": []
     },
     {
       "file": "4_39.jpg",
@@ -835,29 +825,22 @@
       "file": "5_10.jpg",
       "startSec": 310.9,
       "text": "Un pentester junior en España empieza cerca de los 30 .000 euros al año.",
-      "scene": "A short modest bar rising from a baseline on white, a monkey paw pointing at its low top, with a coin stack beside it no taller than the bar. ABSOLUTELY NO TEXT of any kind in the image: no words, no letters, no labels, no captions, no signs, no writing on screens or papers, no numbers. Tell the whole idea with drawing, gesture and expression only.",
-      "labels": [
-        "30.000 €"
-      ]
+      "scene": "A short modest bar rising from a baseline on white, a monkey paw pointing at its low top, the figure floating large above the bar. The ONLY thing written anywhere in the image is the figure '30.000 €', drawn very large in thick bold black hand-drawn digits. No other words, no letters, no captions, no labels of any kind. Everything else in the scene is blank.",
+      "labels": []
     },
     {
       "file": "5_15.jpg",
       "startSec": 315.28,
       "text": "Un retymer clásico con experiencias se mueve por encima de los 70 .000. Un especialista en seguridad de modelos de ella juega en otra liga.",
-      "scene": "A taller salary bar beside the first one. ABSOLUTELY NO TEXT of any kind in the image: no words, no letters, no labels, no captions, no signs, no writing on screens or papers, no numbers. Tell the whole idea with drawing, gesture and expression only.",
-      "labels": [
-        "70.000 €"
-      ]
+      "scene": "A medium-height bar on white, clearly taller than a small one beside it, the figure floating large above the tall bar. The ONLY thing written anywhere in the image is the figure '70.000 €', drawn very large in thick bold black hand-drawn digits. No other words, no letters, no captions, no labels of any kind. Everything else in the scene is blank.",
+      "labels": []
     },
     {
       "file": "5_23.jpg",
       "startSec": 323.78,
       "text": "Las ofertas de AI retymer en Estados Unidos se publican entre 180 .000 y 300 .000 dólares.",
-      "scene": "A gigantic salary bar dwarfing the previous two, the GOOD hacker monkey: a light SKY-BLUE zip-up hoodie with the hood DOWN so the whole friendly face is visible, plus a white ID badge hanging from a lanyard on the chest. Relaxed, confident, often smiling. NEVER wears a hood up, NEVER wears black. climbing it with wide eyes and '. ABSOLUTELY NO TEXT of any kind in the image: no words, no letters, no labels, no captions, no signs, no writing on screens or papers, no numbers. Tell the whole idea with drawing, gesture and expression only.",
-      "labels": [
-        "180.000 $",
-        "300.000 $"
-      ]
+      "scene": "the GOOD hacker monkey: a light SKY-BLUE zip-up hoodie with the hood DOWN so the whole friendly face is visible, plus a white ID badge hanging from a lanyard on the chest. Relaxed, confident, often smiling. NEVER wears a hood up, NEVER wears black. climbing an enormously tall bar that dwarfs two small bars beside it, wide-eyed, the figures floating large beside the tall bar. The ONLY thing written anywhere in the image is the figure '180.000 $ - 300.000 $', drawn very large in thick bold black hand-drawn digits. No other words, no letters, no captions, no labels of any kind. Everything else in the scene is blank.",
+      "labels": []
     },
     {
       "file": "5_30.jpg",
@@ -897,10 +880,8 @@
       "file": "5_51.jpg",
       "startSec": 351.24,
       "text": "Y Google lanzó en octubre de 2025 un programa dedicado solo a AIA, con premios de hasta 30 .000 dólares por ayazgo.",
-      "scene": "A blank rectangular box handing a cheque to the GOOD hacker monkey: a light SKY-BLUE zip-up hoodie with the hood DOWN so the whole friendly face is visible, plus a white ID badge hanging from a lanyard on the chest. Relaxed, confident, often smiling. NEVER wears a hood up, NEVER wears black. His hood must be DOWN and must NOT cover his head., the box and the cheque both completely blank with no logo and no writing. ABSOLUTELY NO TEXT, no letters, no words, no numbers and no symbols like % anywhere in the image: every sign, poster, plaque, price tag, shield and screen must be completely BLANK. The character has exactly two arms and two hands, no extra limbs.",
-      "labels": [
-        "15.000 $"
-      ]
+      "scene": "A blank box handing a big cheque to the GOOD hacker monkey: a light SKY-BLUE zip-up hoodie with the hood DOWN so the whole friendly face is visible, plus a white ID badge hanging from a lanyard on the chest. Relaxed, confident, often smiling. NEVER wears a hood up, NEVER wears black., the cheque showing the figure very large. The ONLY thing written anywhere in the image is the figure '30.000 $', drawn very large in thick bold black hand-drawn digits. No other words, no letters, no captions, no labels of any kind. Everything else in the scene is blank.",
+      "labels": []
     },
     {
       "file": "5_59.jpg",
@@ -1097,10 +1078,8 @@
       "file": "7_20.jpg",
       "startSec": 440.42,
       "text": "Los sueldos de 300 .000 dólares son de Estados Unidos y de las empresas punteras no la media global.",
-      "scene": "A tall bar chart on white with one bar much taller than the rest, a small flag pin stuck in the tall bar, and a crossed-out globe beside it, no labels. ABSOLUTELY NO TEXT, no letters, no words, no numbers and no symbols like % anywhere in the image: every sign, poster, plaque, price tag, shield and screen must be completely BLANK. The character has exactly two arms and two hands, no extra limbs.",
-      "labels": [
-        "300.000 $"
-      ]
+      "scene": "A very tall bar on white with a small flag pin stuck in it and a crossed-out globe beside it, the figure floating large above the tall bar. The ONLY thing written anywhere in the image is the figure '300.000 $', drawn very large in thick bold black hand-drawn digits. No other words, no letters, no captions, no labels of any kind. Everything else in the scene is blank.",
+      "labels": []
     },
     {
       "file": "7_26.jpg",

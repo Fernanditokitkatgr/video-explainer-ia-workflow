@@ -339,7 +339,12 @@
     "fps": 30,
     "width": 1920,
     "height": 1080,
-    "background": "#ffffff"
+    "background": "#ffffff",
+    "published": {
+      "youtube_id": "fua0CuWni8o",
+      "privacy": "public",
+      "date": "2026-08-03"
+    }
   },
   "te-han-hackeado-y-no-lo-sabes": {
     "composition": "TeHanHackeado",

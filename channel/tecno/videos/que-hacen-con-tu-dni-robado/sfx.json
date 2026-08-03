@@ -1,0 +1,235 @@
+{
+  "video": "que-hacen-con-tu-dni-robado",
+  "sfx": [
+    {
+      "file": "intro_drone.mp3",
+      "startSec": 0.0,
+      "duration": 2.0,
+      "volume": 0.13,
+      "prompt": "dark tense cinematic drone, digital ambience, no music"
+    },
+    {
+      "file": "journey_start.mp3",
+      "startSec": 14.18,
+      "duration": 1.5,
+      "volume": 0.14,
+      "prompt": "travelling whoosh starting a journey, no music"
+    },
+    {
+      "file": "stop_1.mp3",
+      "startSec": 23.82,
+      "duration": 1.4,
+      "volume": 0.15,
+      "prompt": "short marker sting announcing a stop on a journey, no music"
+    },
+    {
+      "file": "camera_shutter.mp3",
+      "startSec": 43.56,
+      "duration": 1.1,
+      "volume": 0.14,
+      "prompt": "phone camera shutter click, no music"
+    },
+    {
+      "file": "data_spill.mp3",
+      "startSec": 59.2,
+      "duration": 1.6,
+      "volume": 0.16,
+      "prompt": "massive data spilling out, digital flood, no music"
+    },
+    {
+      "file": "chat_ping.mp3",
+      "startSec": 78.62,
+      "duration": 1.1,
+      "volume": 0.15,
+      "prompt": "whatsapp style message ping, no music"
+    },
+    {
+      "file": "door_creak_dark.mp3",
+      "startSec": 97.02,
+      "duration": 1.4,
+      "volume": 0.15,
+      "prompt": "door creaking open ominously, intrusion, no music"
+    },
+    {
+      "file": "phishing_sting.mp3",
+      "startSec": 101.24,
+      "duration": 1.5,
+      "volume": 0.16,
+      "prompt": "sinister deceptive sting, something fake, no music"
+    },
+    {
+      "file": "hard_no.mp3",
+      "startSec": 119.88,
+      "duration": 1.3,
+      "volume": 0.16,
+      "prompt": "firm short negative buzz, absolute no, no music"
+    },
+    {
+      "file": "stop_2.mp3",
+      "startSec": 124.58,
+      "duration": 1.4,
+      "volume": 0.15,
+      "prompt": "short marker sting announcing a stop on a journey, no music"
+    },
+    {
+      "file": "price_reveal.mp3",
+      "startSec": 131.46,
+      "duration": 1.5,
+      "volume": 0.15,
+      "prompt": "price tag reveal sting, surprising, no music"
+    },
+    {
+      "file": "fly_buzz.mp3",
+      "startSec": 159.34,
+      "duration": 1.3,
+      "volume": 0.14,
+      "prompt": "small fly buzzing briefly then silence, short life, no music"
+    },
+    {
+      "file": "long_tone.mp3",
+      "startSec": 166.22,
+      "duration": 1.6,
+      "volume": 0.13,
+      "prompt": "long sustained tone, something that never ends, no music"
+    },
+    {
+      "file": "danger_turn.mp3",
+      "startSec": 184.34,
+      "duration": 1.5,
+      "volume": 0.16,
+      "prompt": "ominous turn into serious territory, no music"
+    },
+    {
+      "file": "count_1.mp3",
+      "startSec": 196.52,
+      "duration": 1.0,
+      "volume": 0.15,
+      "prompt": "single counting tick, list item, no music"
+    },
+    {
+      "file": "count_2.mp3",
+      "startSec": 210.12,
+      "duration": 1.0,
+      "volume": 0.15,
+      "prompt": "single counting tick, list item, no music"
+    },
+    {
+      "file": "signal_lost.mp3",
+      "startSec": 223.96,
+      "duration": 1.5,
+      "volume": 0.17,
+      "prompt": "mobile phone losing signal, dead tone, alarming, no music"
+    },
+    {
+      "file": "sms_flood.mp3",
+      "startSec": 234.94,
+      "duration": 1.6,
+      "volume": 0.16,
+      "prompt": "many sms notifications arriving at once, no music"
+    },
+    {
+      "file": "count_4.mp3",
+      "startSec": 253.94,
+      "duration": 1.0,
+      "volume": 0.15,
+      "prompt": "single counting tick, list item, no music"
+    },
+    {
+      "file": "personal_turn.mp3",
+      "startSec": 266.64,
+      "duration": 1.5,
+      "volume": 0.15,
+      "prompt": "tonal shift making it personal, no music"
+    },
+    {
+      "file": "rejection_stamp.mp3",
+      "startSec": 277.36,
+      "duration": 1.4,
+      "volume": 0.16,
+      "prompt": "heavy rejection stamp thud, denied, no music"
+    },
+    {
+      "file": "file_drop.mp3",
+      "startSec": 287.58,
+      "duration": 1.4,
+      "volume": 0.15,
+      "prompt": "heavy file dropping into a registry, bureaucratic, no music"
+    },
+    {
+      "file": "unfair_sting.mp3",
+      "startSec": 297.26,
+      "duration": 1.5,
+      "volume": 0.15,
+      "prompt": "unfair frustrating sting, no music"
+    },
+    {
+      "file": "action_sting.mp3",
+      "startSec": 315.28,
+      "duration": 1.5,
+      "volume": 0.16,
+      "prompt": "energetic positive call-to-action sting, no music"
+    },
+    {
+      "file": "tick_1.mp3",
+      "startSec": 323.76,
+      "duration": 1.0,
+      "volume": 0.15,
+      "prompt": "single checklist tick, satisfying, no music"
+    },
+    {
+      "file": "tick_2.mp3",
+      "startSec": 335.66,
+      "duration": 1.0,
+      "volume": 0.15,
+      "prompt": "single checklist tick, satisfying, no music"
+    },
+    {
+      "file": "tick_3.mp3",
+      "startSec": 353.86,
+      "duration": 1.0,
+      "volume": 0.15,
+      "prompt": "single checklist tick, satisfying, no music"
+    },
+    {
+      "file": "tick_4.mp3",
+      "startSec": 368.34,
+      "duration": 1.0,
+      "volume": 0.15,
+      "prompt": "single checklist tick, satisfying, no music"
+    },
+    {
+      "file": "urgent_step.mp3",
+      "startSec": 381.74,
+      "duration": 1.4,
+      "volume": 0.15,
+      "prompt": "urgent but calm procedural sting, no music"
+    },
+    {
+      "file": "loop_close.mp3",
+      "startSec": 404.86,
+      "duration": 1.5,
+      "volume": 0.15,
+      "prompt": "warm resolving sting closing a narrative loop, no music"
+    },
+    {
+      "file": "honest_turn.mp3",
+      "startSec": 417.64,
+      "duration": 1.4,
+      "volume": 0.14,
+      "prompt": "short serious honest tonal shift, no music"
+    },
+    {
+      "file": "subscribe.mp3",
+      "startSec": 448.6,
+      "duration": 1.6,
+      "volume": 0.17,
+      "prompt": "friendly subscribe notification chime, upbeat, no music"
+    }
+  ],
+  "music": {
+    "file": "musica-canal.mp3",
+    "duration": 30,
+    "volume": 0.17,
+    "prompt": "understated dark electronic loop, steady pulsing bassline, loopable, no vocals"
+  }
+}
