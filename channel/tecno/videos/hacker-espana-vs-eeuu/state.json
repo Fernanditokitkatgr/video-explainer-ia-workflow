@@ -1,0 +1,13 @@
+{
+  "video": "hacker-espana-vs-eeuu",
+  "steps": {
+    "voice": "pending",
+    "whisper": "pending",
+    "inject": "done",
+    "images": "pending",
+    "sfx": "pending",
+    "validate": "done",
+    "preflight": "done",
+    "render": "pending"
+  }
+}

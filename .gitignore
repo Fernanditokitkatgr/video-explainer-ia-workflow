@@ -13,6 +13,11 @@
 # La música de fondo del canal es un clip APROBADO por el usuario y compartido por
 # todos los vídeos: si no va en git, un clon regenera otra distinta y se pierde.
 !channel/*/assets/*.mp3
+# Referencias CANÓNICAS de estilo (mono protagonista, hacker-sombra): son la
+# fuente de verdad visual del canal y DEBEN ir en git — sin ellas, un clon en otra
+# cuenta no puede reproducir el estilo y la producción en masa se rompe.
+!channel/*/references/*.png
+!channel/*/references/*.jpg
 
 interes_compuesto_frames/
 _mati_analysis/
@@ -50,3 +55,7 @@ skills-lock.json
 .claude/
 .playwright-mcp/
 .windsurf/
+
+# Logs de render sueltos de Remotion (basura)
+remotion/*.log
+remotion/.*.log

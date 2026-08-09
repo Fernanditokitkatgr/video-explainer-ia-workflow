@@ -14,12 +14,25 @@
     "side profile of the monkey interacting with an object",
     "the monkey pointing directly at a big blank diagram beside it",
     "two monkeys facing each other in confrontation",
-    "the monkey's hands/paws close-up doing something on a keyboard or object"
+    "the monkey's hands/paws close-up doing something on a keyboard or object",
+    "split-screen: a vertical black line divides the frame in two panels, each side showing a different subject/reaction to the same event"
   ],
   "negative_prompt_notes": "Evitar SIEMPRE: fondo azul marino/negro por defecto, todo bañado en glow verde, mono diminuto en escena vacía, wireframes y diagramas abstractos genéricos, desenfoque/bokeh, render 3D, fotorrealismo, texto en inglés, composiciones repetidas una detrás de otra.",
   "pendiente_siguiente_video": {
     "texto_en_imagen": "DECISIÓN (ago-2026, pendiente de aplicar): las CIFRAS y los CONCEPTOS CLAVE sí deben dibujarse dentro de la imagen, no superponerse. Los rótulos superpuestos en Remotion se descartaron porque caían en esquinas fijas sin saber dónde estaba el dibujo, y quedaban encima de los personajes o descolgados.",
     "matiz_medido": "Los NÚMEROS se generan bien (los numerales de capítulo salieron perfectos). Las PALABRAS largas no: 'MONDO', 'COMPORTBAMIENTO', 'FEBRORO', 'TECONLOGÍA', 'PROYECIONES TRIMERALES'. Por tanto: pedir cifras dibujadas es fiable; pedir frases dibujadas es una lotería. Para conceptos difíciles, preferir que se entiendan por el DIBUJO y limitar el texto a cifras y palabras cortas y comunes.",
-    "estado": "el usuario dará más indicaciones de estilo antes de producir el resto de vídeos"
+    "estado": "RESUELTO ago-2026: el usuario probó 5 estilos vía Higgsfield MCP (nocturno, ecomonos, pizarra, vector-monos, papel recortado) contra las 3 primeras escenas reales de te-han-hackeado-y-no-lo-sabes, y eligió UNA imagen concreta generada como el estilo definitivo del canal."
+  },
+  "estilo_ganador_ago2026": {
+    "media_id_referencia": "cdcd8a21-c212-4c92-8002-097f3ed687db",
+    "url_original": "https://d8j0ntlcm91z4.cloudfront.net/user_38elMZWeDbgo5y4OiLfcvjns5pH/hf_20260804_180738_56229d99-0cd9-41c2-9861-1be38639a709.png",
+    "descripcion_visual": "Variante limpia del estilo Ecomonos ya descrito en style_base: fondo blanco puro, contorno negro grueso, colores planos, mono marrón con ojos enormes blancos y expresión de shock (boca abierta, cejas arriba). A su lado, un objeto plano tipo hoja de calendario/nota con UNA cifra gigante dibujada a mano ('258') y una palabra corta debajo ('DIAS'), sin ningún otro texto ni ruido visual en el encuadre.",
+    "regla_confirmada": "Confirma la decisión de 'texto_en_imagen' de arriba: cifras grandes y palabras cortas SÍ se dibujan dentro de la imagen (no overlay), el resto de la escena se cuenta con dibujo/gesto. Usar SIEMPRE este media_id como referencia de estilo (medias[].role de tipo imagen/estilo) en generate_image/generate_image_batch para todas las escenas del canal a partir de ahora.",
+    "aplicado_a": ["te-han-hackeado-y-no-lo-sabes (en curso, ago-2026)"]
+  },
+  "ajuste_diseno_mono_pendiente_ago2026": {
+    "estado": "PENDIENTE de aplicar en el SIGUIENTE vídeo (no en dni-robado, que ya está renderizado) — el usuario pegó 2 capturas de referencia tras ver dni-robado y pidió explícitamente que el mono del canal se parezca más a esas capturas.",
+    "diferencias_observadas": "Frente al mono que hemos estado generando (ojos grandes simétricos, cejas finas rectas), las referencias del usuario muestran: OJOS MARCADAMENTE ASIMÉTRICOS (un ojo notablemente más grande/redondo que el otro, look 'bizco'/desalineado característico), UNA sola ceja muy gruesa y arqueada mucho más expresiva que dominante en la cara (en vez de dos cejas finas iguales), expresiones más 'flojas'/laxas (media sonrisa torcida, mirada de lado). Una referencia también mostraba un encuadre partido en dos paneles verticales (izquierda: figura encapuchada con móvil y notificación '¡FELIZ!'; derecha: el mono con la misma cara de shock) — anotar como ejemplo de framing dividido a considerar en 'framing_variety', no como cambio de personaje.",
+    "accion": "REVERTIDO ago-2026: el usuario probó el diseño de ojos asimétricos aplicado a un lote real (hacker-espana-vs-eeuu) y NO le gustó ('esto que me has hecho es una basura') — pidió volver EXACTAMENTE al diseño usado en dni-robado y hackear-la-ia (ojos grandes simétricos, sin ceja única). style_base revertido a esa versión. NO reintentar el diseño asimétrico sin que el usuario lo pida explícitamente de nuevo."
   }
 }

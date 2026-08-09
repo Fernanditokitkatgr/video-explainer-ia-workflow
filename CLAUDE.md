@@ -22,6 +22,9 @@ scripts/
   generate_images.py    ← Higgsfield (lee la receta de frames.json)
   whisper_timestamps.py ← timestamps de audio (--language/--model/--naming)
   validate_assets.py    ← verifica que existen audio + todas las imágenes
+  scene_context.py      ← memoria visual AL ESCRIBIR escenas (evita repetir composición)
+  scene_diversity_check.py ← GATE de coherencia/variedad ANTES de generar imágenes
+channel/<canal>/style-bible.json ← STYLE BIBLE: fuente de verdad del estilo visual
 agentic-channel-analytics/  ← separate vertical: channel DNA, audits, script generation
   reference/        ← Ecomonos benchmark, formula framework, audit rubric
   channels/         ← per-channel profiles (ecomonos.md, stick-to-the-plan.md, …)
@@ -41,7 +44,9 @@ scratch-yt/         ← YouTube Data API upload scripts (Python venv inside)
 
 ```
 Script → ElevenLabs V3 (voice) → [human review] → Whisper (timestamps)
-       → 1 imagen/segmento → [human review] → SFX + música (OBLIGATORIO)
+       → escribir escenas 1:1 → scene_diversity_check.py (GATE de coherencia/variedad)
+       → generate_images_gemini.py (SIEMPRE con imagen de referencia adjunta) → [human review]
+       → SFX + música (OBLIGATORIO)
        → preflight.py (GATE: si falla, NO se renderiza) → Remotion → MP4
        → thumbnail-creator (OBLIGATORIO) → video-seo/channel-setup (OBLIGATORIO) → publish
 ```
@@ -155,33 +160,118 @@ los inyecta automáticamente desde `frames.json` (no editar a mano esa zona).
 
 Image assets live in `remotion/public/<video-name>/` and audio at `remotion/public/<video-name>.mp3`. These are gitignored (`*.mp3`, `*.mp4`, `*.png/jpg`) so a fresh clone has no media; the studio will 404 until you add them. La **receta** (timings + prompts) sí va en git en `frames.json`, así que el medio se regenera/recupera desde las cuentas compartidas (ver SETUP.md).
 
-## Estilo visual del canal tecno — `channel/tecno/style.json`
+## Estilo visual: la STYLE BIBLE — `channel/tecno/style-bible.json`
 
-**Fuente de verdad única del estilo.** Los scripts que construyen `frames.json` deben leer
-`style_base` y `characters` de ahí, NUNCA copiarlo a mano (así no deriva entre vídeos).
+**Fuente de verdad única y estructurada del estilo.** Sustituye a los campos sueltos de
+`style.json` (que queda solo como log histórico de decisiones y de estilos rechazados).
+Todo script que construya `frames.json` o genere imágenes DEBE leerla, nunca copiar sus
+valores a mano.
 
-Reescrito jul-2026 porque el estilo anterior fue rechazado por repetitivo: navy oscuro
-uniforme en todos los planos, mono diminuto en escenas vacías, todo bañado en glow verde,
-y el modelo confundía qué mono era cuál. El estilo actual:
+Creada ago-2026 tras detectar los tres problemas que más molestaban al usuario:
+**mezcla de estilos dentro de un mismo vídeo**, **deriva del personaje entre escenas** y
+**repetición constante de la misma composición** (sobre todo "dos monitos uno al lado del
+otro con pequeñas variaciones").
 
-- **Fondo BLANCO por defecto.** Solo se usa fondo oscuro cuando la escena lo pide de verdad
-  (noche, luces de policía, habitación a oscuras). No por defecto, nunca "porque es hacking".
-- **Mono tosco estilo Ecomonos**: contorno negro gordo, colores planos, **ojos enormes**
-  redondos y blancos, cara muy exagerada. Sin desenfoque, sin gradientes, sin render 3D.
-- **El mono grande en cuadro** (40-60%), no perdido en un plano general.
-- **Etiquetas escritas a mano en español con flechas** señalando cosas de la escena
-  (`SUELDO LEGAL →`, `¡AY, NO! ¡LA POLICÍA!`). Es firma del canal, no decoración opcional.
-- **Props en colores saturados** (amarillo, naranja, rojo, verde) que resalten sobre el blanco.
-- **Variedad de plano obligatoria** — ver la lista `framing_variety` del propio `style.json`.
+La Style Bible fija, en secciones separadas: `identidad_visual`, `personaje_protagonista`
+(con su **imagen de referencia canónica**), `personajes_secundarios`, `paleta`,
+`tipo_de_ilustracion`, `nivel_de_detalle`, `reglas_de_composicion`, `elementos_permitidos`,
+`elementos_que_deben_evitarse`, `referencias_existentes` y `reglas_de_consistencia_entre_escenas`.
 
-**Hacker bueno vs hacker malo** (`characters` en `style.json`): la diferenciación es
-**deliberadamente redundante** — color + capucha arriba/abajo + placa sí/no — porque cuando la
-única señal era el color, el modelo se equivocaba. Bueno = sudadera azul cielo, capucha ABAJO,
-placa colgando. Malo = sudadera negra, capucha ARRIBA, sin placa. Si salen los dos en la misma
-escena, describe SIEMPRE las tres señales de cada uno.
+### El objetivo es COHERENCIA DE ESTILO + VARIEDAD DE COMPOSICIÓN
 
-`preflight.py` mide la monotonía de una tanda con la desviación del brillo medio entre imágenes
-(<12 = FAIL). Es un proxy tosco pero objetivo de "todas las imágenes son iguales".
+`mismo estilo ≠ misma imagen repetida`. La identidad visual se mantiene estable (personaje,
+paleta, trazo, acabado) mientras varía deliberadamente: número de personajes, posición,
+acción, expresión, objetos, escenario, perspectiva, distancia de cámara, composición y
+metáfora visual.
+
+Reglas duras que salieron de errores reales, todas en `reglas_de_composicion`:
+
+- **`regla_anti_gemelos`** — PROHIBIDO usar "dos monos idénticos uno al lado del otro" como
+  recurso por defecto para comparativas. Alternativas a rotar: un solo mono reaccionando a un
+  objeto/icono que representa la otra opción, plano dividido puntual, el mono señalando una
+  balanza/gráfico, o metáfora visual sin duplicar el personaje.
+- **`regla_no_repetir_consecutivo`** — nunca el mismo tipo de plano+composición en 2 escenas
+  seguidas; si dos frases del guion son parecidas, cambiar al menos ángulo de cámara u objeto.
+- **`distribucion_recomendada_por_cada_20_escenas`** — ningún tipo de plano por encima del
+  ~20% del vídeo; máx. 1 split-screen y máx. 2 escenas con dos personajes por cada 20.
+
+### Anclaje del personaje: imagen de referencia OBLIGATORIA
+
+Describir el diseño del personaje **solo en texto no basta: deriva**. Salió un mono con
+camiseta azul y otra cara en la cola de un vídeo justo por esto. `generate_images_gemini.py`
+adjunta ahora **siempre** la imagen de `personaje_protagonista.imagen_referencia_canonica`
+como input multimodal (`types.Part.from_bytes`) en cada llamada. Se puede desactivar con
+`--no-ref`, pero solo tiene sentido en escenas sin ningún personaje.
+
+**Antes de generar la tanda completa de un vídeo con CUALQUIER cambio de diseño respecto al
+último vídeo aprobado: generar 2-3 muestras con el guion real y pedir confirmación al
+usuario.** Un cambio de diseño aplicado a 141 imágenes sin validar se rechazó entero.
+
+`preflight.py` mide además la monotonía de una tanda ya generada con la desviación del brillo
+medio entre imágenes (<12 = FAIL). Es un proxy tosco pero objetivo de "todas las imágenes son
+iguales", y actúa después; el gate de abajo actúa antes.
+
+## `scene_diversity_check.py` — el gate ANTES de generar imágenes
+
+```bash
+python scripts/scene_diversity_check.py --video <video>          # informe legible
+python scripts/scene_diversity_check.py --video <video> --json   # para pipelines
+```
+
+Corre automáticamente dentro de `generate_images_gemini.py`; si falla, **no se genera nada**
+(se puede saltar con `--skip-diversity-check`, pero hay que decir por qué). Responde de forma
+objetiva a las partes comprobables del checklist de validación de prompts:
+
+| # | Pregunta | Cómo se comprueba |
+|---|---|---|
+| 1 | ¿Respeta el estilo seleccionado? | busca palabras que rompen el estilo (`photorealistic`, `3d render`, `gradient`, `shirt`, `glow`…) |
+| 4 | ¿Repite demasiado una composición? | clasifica cada escena en un tipo de plano, mide histograma + rachas consecutivas + tope de "dos monos"/split-screen |
+| 5 | ¿Objetos con texto sin contenido? | detecta `document`/`plaque`/`screen`/`sign`… sin cifra, sin texto entrecomillado y sin declararse `blank` |
+| 6 | ¿Prompt con info suficiente? | marca prompts < 40 chars (riesgo de que el modelo improvise) |
+| 7 | ¿Riesgo de cambio de estilo involuntario? | mismo chequeo que el 1 |
+| — | ¿Motivo calendario fuera de contexto? | el motivo calendario/hoja arrancada solo vale si la frase habla de días/meses; si no, alucina la palabra "DIAS" |
+
+**Lo que este gate NO puede juzgar** (preguntas 2 y 3 del checklist: coherencia visual real
+con las imágenes anteriores, y si la imagen ilustra bien SU frase): eso sigue siendo revisión
+con visión —agente o persona— sobre las imágenes ya generadas, igual que `preflight.py` no
+puede juzgar la expresividad de la voz. Ver "Las dos capas de control de calidad" arriba.
+
+## `scene_context.py` — memoria visual MIENTRAS se escriben las escenas
+
+El gate de arriba corre cuando las escenas ya están escritas: dice *"te has repetido"*, pero
+no evita repetirse. `scene_context.py` es la pieza que actúa **antes**, al escribir la escena
+N sabiendo qué se usó en 1..N-1 — el contexto que faltaba cuando cada prompt se escribía de
+forma totalmente independiente.
+
+```python
+from scene_context import SceneContext
+ctx = SceneContext(total_scenes=len(segmentos))   # lee la Style Bible del canal
+for texto in segmentos:
+    sug = ctx.suggest()      # {'evitar': [...], 'sugerencias': [...], 'racha_actual': N}
+    prompt = escribir_escena(texto, sug)
+    ctx.record(prompt)       # clasifica y apunta la composición usada
+print(ctx.summary())
+```
+
+`suggest()` devuelve qué composiciones tocan y cuáles evitar, aplicando: nunca el plano de la
+escena anterior, nunca un tipo ya pasado de cupo (`two_characters` >10%, `split_screen` >2%,
+resto >20%), y prioriza los tipos menos usados hasta ahora. Cuando lo que hay que evitar es
+"dos monos", devuelve además el texto de la `regla_anti_gemelos` como recordatorio.
+
+Usa **la misma función de clasificación** que `scene_diversity_check.py`, así que lo que se
+sugiere al escribir y lo que se valida antes de generar hablan exactamente el mismo idioma.
+
+Como CLI audita un vídeo ya escrito y enseña **dónde** empezó a repetirse:
+
+```bash
+python scripts/scene_context.py --video hacker-espana-vs-eeuu
+```
+
+**Hacker bueno vs hacker malo** (`personajes_secundarios` en la Style Bible): la diferenciación
+es **deliberadamente redundante** — color + capucha arriba/abajo + placa sí/no — porque cuando
+la única señal era el color, el modelo se equivocaba. Bueno = sudadera azul cielo, capucha
+ABAJO, placa colgando. Malo = sudadera negra, capucha ARRIBA, sin placa. Si salen los dos en
+la misma escena, describe SIEMPRE las tres señales de cada uno.
 
 ## Imágenes: el texto que aparezca SIEMPRE en español
 
@@ -338,12 +428,30 @@ YouTube data input: YouTube blocks scraping behind a consent wall — skills wor
 
 ## Cost / capacity reference
 
+**Regla no negociable (ago-2026): la generación de imágenes de PRODUCCIÓN (la tanda completa
+de un vídeo) SIEMPRE se paga con el crédito de Google Cloud vía `scripts/generate_images_gemini.py`
+(Vertex AI), nunca con crédito/dinero de Higgsfield.** El MCP de Higgsfield (`mcp__higgsfield__*`)
+se usa EXCLUSIVAMENTE para probar/decidir un estilo visual nuevo con un puñado de imágenes de
+muestra (como se hizo en ago-2026 para elegir el estilo de `te-han-hackeado-y-no-lo-sabes`,
+ver `channel/tecno/style.json` → `estilo_ganador_ago2026`) — una vez decidido el estilo, TODA
+la tanda real de un vídeo se genera con Gemini/Vertex, no con Higgsfield. Motivo: Google Cloud
+tiene crédito de bienvenida ya asignado a este proyecto que solo se puede gastar en productos
+"normales" de Cloud (Vertex AI), no en Higgsfield ni en AI Studio — usar Higgsfield para producción
+completa desperdicia ese crédito y gasta dinero real en Higgsfield en su lugar.
+
 Imágenes (lo que domina el coste). Verificado vía preflight `get_cost` en Higgsfield (jun 2026):
 `nano_banana_pro` = **2 créditos/imagen a 1K y a 2K**, 4 a 4K (el "2K ilimitado" depende del plan;
-en el plan `ultimate` probado NO aplicaba). Para ~62 imágenes → ~124 créditos.
+en el plan `ultimate` probado NO aplicaba). Para ~62 imágenes → ~124 créditos. Esta cifra es
+solo referencia de coste para las pruebas de estilo puntuales, no para decidir el motor de producción.
 
-Alternativas por API directa para esas 62 imágenes (si faltan créditos):
-- Gemini 3 Pro Image (= nano banana pro), 2K: ~$8.3 · Gemini 2.5 Flash Image: ~$2.4 (más barato, modelo más ligero)
-- OpenAI `gpt-image-1` alta: ~$15.5 · `gpt-image-1-mini`: ~$3.2
+Alternativas por API directa para esas 62 imágenes:
+- Gemini 3 Pro Image (= nano banana pro), 2K: ~$8.3 · Gemini 2.5 Flash Image: ~$2.4 (más barato, modelo más ligero) — **este es el camino de producción real, pagado con crédito de Google Cloud**
+- OpenAI `gpt-image-1` alta: ~$15.5 · `gpt-image-1-mini`: ~$3.2 (no usado en este pipeline)
 
-Recomendación: para nano_banana_pro, **recargar Higgsfield (~$4-5) sale más barato y no requiere tocar código** (el pipeline ya habla con Higgsfield). Ver README para el desglose por vídeo.
+**Gotcha (ago-2026): al pasar un `style_base` de Gemini/Vertex, nunca incluyas un ejemplo
+concreto con cifras/palabras literales** (ej. "un cartel con el número '258' y la palabra
+'DIAS'") **para ilustrar el estilo** — el modelo lo trata como contenido fijo a dibujar y lo
+repite en TODAS las escenas de la tanda, ignorando lo que pida cada `scene` individual. Describe
+la REGLA en abstracto ("cuando la escena lo pida, dibuja una cifra grande relacionada con ESA
+escena, nunca reutilices cifras de otras escenas") y deja que cada prompt de escena aporte su
+propio número/palabra si lo necesita.

@@ -1,0 +1,720 @@
+{
+  "video": "que-hacen-con-tu-dni-robado",
+  "style_base": "Crude hand-drawn cartoon in the style of the 'Ecomonos' YouTube channel. PURE WHITE background as the default. Thick bold black ink outlines, flat solid colors, NO gradients, NO blur, NO depth of field, NO glow effects, NO soft shading — everything sharp, crisp and clean like a marker drawing. A recurring brown cartoon monkey character with VERY LARGE round white eyes and small black pupils, and a hugely exaggerated expressive face (wide toothy grin, shocked open mouth, half-lidded smug look, or furrowed angry brow depending on the moment). The monkey is BIG in frame, occupying roughly 40-60% of the image — never a tiny figure lost in a wide empty scene. Props and objects are drawn in bright saturated colors (yellow, orange, red, green, blue) that pop against the white background. The image must contain NO text at all: no words, no letters, no numbers, no captions, no signs and no labels. Every poster, plaque, shield, price tag, badge, calendar, screen and sheet of paper is drawn completely BLANK. The Spanish captions are added afterwards in the edit, so drawing them here would duplicate them and misspell them. Tell the whole idea with drawing, gesture and facial expression alone. Characters have exactly two arms and two hands. Only use a dark or moody background when the scene itself is explicitly at night, in a dark room, or lit by police lights — otherwise the background stays white.  Cuando la escena lo pida, dibuja DENTRO de la imagen (nunca superpuesto) una cifra grande y, como mucho, una palabra corta en espanol relacionada con ESA escena concreta -- nunca reutilices cifras ni palabras de otras escenas, y si la escena no pide ninguna cifra no dibujes ninguna. Prefiere medallones/monedas doradas circulares para numeros sueltos en vez de calendarios/tablones de madera, salvo que la escena sea explicitamente sobre dias/meses transcurridos.",
+  "frames": [
+    {
+      "file": "0_00.jpg",
+      "startSec": 0.0,
+      "text": "Tu DNA vale más que tu tarjeta de crédito en el mercado negro, y al final de este vídeo vas a entender exactamente por qué.",
+      "scene": "Wide shot: the protagonist brown monkey holding up a blank ID-card-shaped document in one hand and a credit card in the other, a golden coin medallion with numeral comparing them floating between, curious confident expression."
+    },
+    {
+      "file": "0_06.jpg",
+      "startSec": 6.96,
+      "text": "No es porque sea más difícil de robar, es porque una tarjeta se cancela en un día, tu identidad no se cancela nunca.",
+      "scene": "Wide shot: a giant credit-card-shaped prop with a big red X and a small clock icon (one day), next to a giant ID-card-shaped prop glowing steadily with no clock at all, clear contrast, no characters."
+    },
+    {
+      "file": "0_14.jpg",
+      "startSec": 14.18,
+      "text": "Hoy vamos a seguir el viaje completo de una foto de tu DNA,",
+      "scene": "Medium shot: the protagonist brown monkey holding up a smartphone showing a photographed ID-card icon on the screen, determined expression, road/signpost prop beside it suggesting a journey begins."
+    },
+    {
+      "file": "0_17.jpg",
+      "startSec": 17.36,
+      "text": "desde el segundo en que sale de tus manos,",
+      "scene": "Close-up: the protagonist brown monkey's hand releasing a small ID-card-shaped paper that floats away, wistful expression."
+    },
+    {
+      "file": "0_19.jpg",
+      "startSec": 19.38,
+      "text": "hasta el día en que te llega una carta de un banco donde nunca has estado.",
+      "scene": "Medium shot: the protagonist brown monkey opening a giant envelope with a simple bank-column icon on it, shocked confused expression, question mark floating above."
+    },
+    {
+      "file": "0_22.jpg",
+      "startSec": 22.9,
+      "text": "Vamos.",
+      "scene": "Close-up of the protagonist brown monkey nodding, determined, ready-to-explain expression."
+    },
+    {
+      "file": "0_23.jpg",
+      "startSec": 23.82,
+      "text": "Primera parada, de donde sale de verdad tu DNA.",
+      "scene": "Wide shot: a giant hand-drawn road signpost reading nothing but showing a numeral '1' badge on it, the protagonist brown monkey standing beside it pointing forward, journey-stop staging."
+    },
+    {
+      "file": "0_27.jpg",
+      "startSec": 27.02,
+      "text": "Cuando pensamos en robo de identidad, imaginamos a alguien quitándote la cartera, y eso casi nunca es lo que pasa.",
+      "scene": "Wide shot: a shadowy buyer/broker monkey silhouette wearing a BLACK hoodie with the hood UP, eyes glowing faintly, no badge, seen only as a silhouette silhouette reaching for a wallet in the protagonist brown monkey's back pocket, but a big red X crossed over the whole scene, showing this ISN'T how it happens."
+    },
+    {
+      "file": "0_33.jpg",
+      "startSec": 33.44,
+      "text": "La inmensa mayoría de los documentos de identidad que circulan hoy salieron de una base de datos,",
+      "scene": "Wide shot: a giant simple database-cylinder icon prop with many tiny ID-card icons pouring out of it, no characters."
+    },
+    {
+      "file": "0_38.jpg",
+      "startSec": 38.24,
+      "text": "no de un bolsillo.",
+      "scene": "Close-up: a small empty wallet/pocket icon with a red X over it, plain and simple, no characters."
+    },
+    {
+      "file": "0_39.jpg",
+      "startSec": 39.58,
+      "text": "Salieron de empresas donde tú te registraste con toda la buena fe del mundo.",
+      "scene": "Medium shot: the protagonist brown monkey happily filling out a form at a giant simple counter/window prop with a friendly building icon behind it, trusting expression."
+    },
+    {
+      "file": "0_43.jpg",
+      "startSec": 43.56,
+      "text": "Piensa en cuántas veces ha subido una foto de tu DNA y a una web. Para verificar tu cuenta en una casa de apuestas,",
+      "scene": "Medium shot: the protagonist brown monkey uploading a photo of an ID-card icon to a giant screen prop with a simple dice/betting-chip icon on it."
+    },
+    {
+      "file": "0_49.jpg",
+      "startSec": 49.38,
+      "text": "para abrir un banco digital desde el sofá, para darte de alta en un exchange de criptomonedas,",
+      "scene": "Wide shot: the protagonist brown monkey relaxed on a sofa with a phone, giant screen icons floating around showing a simple bank-column icon and a simple coin-exchange arrows icon."
+    },
+    {
+      "file": "0_54.jpg",
+      "startSec": 54.0,
+      "text": "cada una de esas copias sigue existiendo en algún servidor, y tú no controlas ninguna.",
+      "scene": "Wide shot: many small identical ID-card icons scattered across several giant server-rack icon props, no characters, scattered/uncontrolled feel."
+    },
+    {
+      "file": "0_59.jpg",
+      "startSec": 59.2,
+      "text": "En 2021 una filtración expuso datos de más de 500 millones de usuarios de Facebook con teléfonos incluidos.",
+      "scene": "Medium shot: a golden coin medallion with ONLY the numeral 2021 engraved, beside a giant plaque with numeral '500M' and a simple generic social-network icon (no real logo), no characters."
+    },
+    {
+      "file": "1_05.jpg",
+      "startSec": 65.72,
+      "text": "En 2019,",
+      "scene": "Extreme close-up: a golden coin medallion with ONLY the numeral 2019 engraved on it, nothing else, no characters."
+    },
+    {
+      "file": "1_06.jpg",
+      "startSec": 66.88,
+      "text": "Capital One perdió datos de 100 millones de personas,",
+      "scene": "Medium shot: a giant plaque with numeral '100M' and a simple generic bank-column icon (no real logo), no characters."
+    },
+    {
+      "file": "1_09.jpg",
+      "startSec": 69.82,
+      "text": "incluidos números de la seguridad social.",
+      "scene": "Close-up: a simple ID-card icon with a row of digits partially visible, a small padlock icon broken beside it."
+    },
+    {
+      "file": "1_12.jpg",
+      "startSec": 72.18,
+      "text": "Y en España, en 2023,",
+      "scene": "Extreme close-up: a golden coin medallion with ONLY the numeral 2023 engraved, a tiny simple Spain-map silhouette beside it, no other text."
+    },
+    {
+      "file": "1_14.jpg",
+      "startSec": 74.0,
+      "text": "se filtraron datos de cientos de miles de clientes de un grupo hospitalario privado.",
+      "scene": "Medium shot: a giant simple hospital-cross icon prop with many tiny ID-card icons spilling out of a cracked folder beside it, no characters, no real names."
+    },
+    {
+      "file": "1_18.jpg",
+      "startSec": 78.62,
+      "text": "Y ahora el otro gran canal, el que casi nadie vigila, el chat.",
+      "scene": "Wide shot: the protagonist brown monkey looking at a giant smartphone screen prop with a simple chat-bubble icon glowing, curious wary expression."
+    },
+    {
+      "file": "1_22.jpg",
+      "startSec": 82.62,
+      "text": "Has enviado una foto de tu DNA por WhatsApp alguna vez, al casero, a la agencia,",
+      "scene": "Medium shot: the protagonist brown monkey sending a photo of an ID-card icon via a giant phone screen showing a simple chat-bubble icon, two small generic recipient icons (a house icon for landlord, a briefcase icon for agency) floating nearby."
+    },
+    {
+      "file": "1_27.jpg",
+      "startSec": 87.44,
+      "text": "al compañero de trabajo que gestionaba el papeléo.",
+      "scene": "Close-up: a simple generic office-desk icon with papers, a small chat-bubble icon above it, no characters, no faces."
+    },
+    {
+      "file": "1_30.jpg",
+      "startSec": 90.18,
+      "text": "Esa foto ya no está solo en tu móvil,",
+      "scene": "Medium shot: the protagonist brown monkey looking at their own phone showing an ID-card icon, and an identical second phone floating in the distance also showing the same icon, unsettled realization."
+    },
+    {
+      "file": "1_32.jpg",
+      "startSec": 92.3,
+      "text": "está en el móvil de otra persona sin cifrar en una carpeta que nadie limpia nunca.",
+      "scene": "Close-up: a giant dusty folder icon prop covered in light cobwebs with a small unlocked-padlock icon on it, plain staging, no characters."
+    },
+    {
+      "file": "1_37.jpg",
+      "startSec": 97.02,
+      "text": "Y si a ese señor le entran en la cuenta, tu documento se va con lo demás.",
+      "scene": "Wide shot: a shadowy buyer/broker monkey silhouette wearing a BLACK hoodie with the hood UP, eyes glowing faintly, no badge, seen only as a silhouette silhouette reaching into a giant folder icon prop and pulling out a small ID-card icon along with other papers, sneaky pose."
+    },
+    {
+      "file": "1_41.jpg",
+      "startSec": 101.24,
+      "text": "Y el tercer canal es el más sucio de los tres, el Fishing Directo. Un correo perfecto de tu banco pidiendote verificar tu identidad,",
+      "scene": "Medium shot: the protagonist brown monkey staring at a giant envelope prop with a simple bank-column icon and an exclamation mark on it, suspicious squinting expression."
+    },
+    {
+      "file": "1_48.jpg",
+      "startSec": 108.92,
+      "text": "un mensaje de una empresa de mensajería que necesita una foto del documento para liberar el paquete.",
+      "scene": "Close-up: a giant envelope prop with a simple delivery-box icon on it and a small ID-card icon beside a question mark, plain staging, no characters."
+    },
+    {
+      "file": "1_54.jpg",
+      "startSec": 114.42,
+      "text": "Ninguna entidad legítima te pide una foto de tu DNA y por chat ni por correo para desbloquear nada.",
+      "scene": "Wide shot: the protagonist brown monkey shaking a finger 'no' at a giant envelope and a giant chat-bubble icon side by side, both crossed out with red X marks."
+    },
+    {
+      "file": "1_59.jpg",
+      "startSec": 119.88,
+      "text": "Ninguna, nunca.",
+      "scene": "Extreme close-up of the protagonist brown monkey's face, firm serious expression, one eyebrow raised."
+    },
+    {
+      "file": "2_01.jpg",
+      "startSec": 121.46,
+      "text": "Eso solo lo hace quien lo quiere para otra cosa.",
+      "scene": "Close-up of a shadowy buyer/broker monkey silhouette wearing a BLACK hoodie with the hood UP, eyes glowing faintly, no badge, seen only as a silhouette silhouette's glowing eyes under the hood, smug expression, rest of face in shadow."
+    },
+    {
+      "file": "2_04.jpg",
+      "startSec": 124.58,
+      "text": "Siguiente parada, ¿cuánto vale tu identidad ahí dentro?",
+      "scene": "Wide shot: a giant road signpost with a numeral '2' badge on it, the protagonist brown monkey pointing forward past it, journey-stop staging."
+    },
+    {
+      "file": "2_07.jpg",
+      "startSec": 127.98,
+      "text": "Aquí es donde la mayoría de la gente se lleva en la primera sorpresa.",
+      "scene": "Extreme close-up of the protagonist brown monkey's face, eyes widening in surprise, mouth slightly open."
+    },
+    {
+      "file": "2_11.jpg",
+      "startSec": 131.46,
+      "text": "Según los informes de precios del mercado negro que publican cada año empresas como Privacy Affairs,",
+      "scene": "Medium shot: a giant blank report folder/booklet with a generic price-tag icon drawn on the cover, presented plainly, no characters."
+    },
+    {
+      "file": "2_16.jpg",
+      "startSec": 136.44,
+      "text": "los números son ridículamente bajos. Los datos de una tarjeta de crédito con saldo se venden por unos pocos dólares y un escaneo de un documento de identidad se mueve en un rango parecido, pero se paga mejor cuando viene completo.",
+      "scene": "Wide shot: a giant credit-card icon with a small price-tag showing a low drawn price mark, beside an ID-card icon with a similar small price-tag, side by side comparison, no characters, no legible numbers needed beyond simple price-tag shape."
+    },
+    {
+      "file": "2_28.jpg",
+      "startSec": 148.72,
+      "text": "Un pack con documento, slip sujetándolo y un recibo de luz a tu nombre puede irse a bastante más.",
+      "scene": "Medium shot: a giant stack of three icons bundled together with a ribbon (ID-card icon, a hand-holding-card icon, a utility-bill icon) and a taller price-tag icon beside the bundle, no characters."
+    },
+    {
+      "file": "2_34.jpg",
+      "startSec": 154.48,
+      "text": "Y por qué se paga más por los segundos y son cifras parecidas?",
+      "scene": "Extreme close-up of the protagonist brown monkey's face, one eyebrow raised, genuinely curious questioning look."
+    },
+    {
+      "file": "2_37.jpg",
+      "startSec": 157.98,
+      "text": "Por su vida útil.",
+      "scene": "Close-up: a giant hourglass prop with sand frozen mid-fall, no text, no characters."
+    },
+    {
+      "file": "2_39.jpg",
+      "startSec": 159.34,
+      "text": "Una tarjeta robada tiene la vida de una mosca.",
+      "scene": "Wide shot: a giant credit-card icon prop with small cartoon fly wings attached, comedic short-lived visual, no characters."
+    },
+    {
+      "file": "2_41.jpg",
+      "startSec": 161.96,
+      "text": "En 24 horas es el número está muerto y el banco te devuelve el dinero.",
+      "scene": "Medium shot: a golden coin medallion with ONLY the numeral 24 engraved and a small clock-hand icon beside it, a credit-card icon fading/greyed out nearby, no other text."
+    },
+    {
+      "file": "2_46.jpg",
+      "startSec": 166.22,
+      "text": "Tu número de documento, tu fecha de nacimiento, tu nombre completo y tu firma no expiran. No hay un teléfono al que llamar para cancelar tu identidad. La tarjeta es un billete de un solo uso.",
+      "scene": "Wide shot: the protagonist brown monkey holding a giant glowing ID-card icon that keeps shining steadily, an old-fashioned telephone prop crossed out with a red X beside it, calm resigned expression."
+    },
+    {
+      "file": "2_56.jpg",
+      "startSec": 176.68,
+      "text": "Tu identidad es un abono anual.",
+      "scene": "Close-up: a giant simple ticket/pass-shaped icon glowing steadily, plain staging, no characters, no legible words needed beyond the pass shape itself."
+    },
+    {
+      "file": "2_58.jpg",
+      "startSec": 178.82,
+      "text": "Y por eso el segundo producto se revende una y otra vez a compradores distintos durante años.",
+      "scene": "Wide shot: a single glowing ID-card icon being passed hand to hand between several a shadowy buyer/broker monkey silhouette wearing a BLACK hoodie with the hood UP, eyes glowing faintly, no badge, seen only as a silhouette-style shadowy silhouettes standing in a row, repeating exchange motion."
+    },
+    {
+      "file": "3_04.jpg",
+      "startSec": 184.34,
+      "text": "Y aquí empieza lo serio.",
+      "scene": "Extreme close-up of the protagonist brown monkey's face, expression turning serious, eyebrows lowering."
+    },
+    {
+      "file": "3_05.jpg",
+      "startSec": 185.96,
+      "text": "¿Para qué se usa exactamente?",
+      "scene": "Medium shot: the protagonist brown monkey with hands on hips, questioning expression, addressing camera directly."
+    },
+    {
+      "file": "3_08.jpg",
+      "startSec": 188.02,
+      "text": "Aquí llega la parte que casi nunca se cuenta bien.",
+      "scene": "Medium shot: the protagonist brown monkey standing beside a giant blank open book prop, pointing at a page, teaching pose."
+    },
+    {
+      "file": "3_10.jpg",
+      "startSec": 190.6,
+      "text": "Nadie roba tu DNA y para mirarlo. Lo roba para convertirlo en dinero y hay cuatro formas principales.",
+      "scene": "Wide comedy shot: four giant blank coin medallions standing in a row, each with a big hand-drawn numeral 1 through 4, a small monkey pointing at them."
+    },
+    {
+      "file": "3_16.jpg",
+      "startSec": 196.52,
+      "text": "Uno,",
+      "scene": "Extreme close-up: a golden coin medallion with ONLY the numeral 1 engraved on it, nothing else, no characters."
+    },
+    {
+      "file": "3_17.jpg",
+      "startSec": 197.38,
+      "text": "crédito a tu nombre.",
+      "scene": "Close-up: a giant simple bank-column icon with a small ID-card icon being fed into a document slot, no characters, no legible words."
+    },
+    {
+      "file": "3_18.jpg",
+      "startSec": 198.58,
+      "text": "Se abre una cuenta en un banco digital con tu documento. Se pide un préstamo rápido de esos que se aproban en 10 minutos con una foto.",
+      "scene": "Wide shot: a shadowy buyer/broker monkey silhouette wearing a BLACK hoodie with the hood UP, eyes glowing faintly, no badge, seen only as a silhouette silhouette holding up a phone showing a simple bank-column icon and a stopwatch icon reading '10' beside it, confident sneaky pose."
+    },
+    {
+      "file": "3_25.jpg",
+      "startSec": 205.68,
+      "text": "El dinero llega, el producto se revende y las cuotas quedan a tu nombre.",
+      "scene": "Medium shot: giant coins flowing toward a shadowy buyer/broker monkey silhouette wearing a BLACK hoodie with the hood UP, eyes glowing faintly, no badge, seen only as a silhouette's silhouette while a stack of small unpaid-bill icons piles up beside the protagonist brown monkey, who looks confused and burdened."
+    },
+    {
+      "file": "3_30.jpg",
+      "startSec": 210.12,
+      "text": "Dos,",
+      "scene": "Extreme close-up: a golden coin medallion with ONLY the numeral 2 engraved on it, nothing else, no characters."
+    },
+    {
+      "file": "3_30_b.jpg",
+      "startSec": 210.82,
+      "text": "líneas de telefonía móvil.",
+      "scene": "Close-up: a giant simple SIM-card icon prop with several small phone-silhouette icons multiplying around it, no characters, no legible words."
+    },
+    {
+      "file": "3_32.jpg",
+      "startSec": 212.4,
+      "text": "Se contratan varias líneas con tu identidad. Se usan para fraud y se abandonan. Cuando llega el impago, la operadora no busca al que la contrató. Busca al titular.",
+      "scene": "Wide shot: a shadowy buyer/broker monkey silhouette wearing a BLACK hoodie with the hood UP, eyes glowing faintly, no badge, seen only as a silhouette silhouette walking away from a row of abandoned phone-silhouette icons, the protagonist brown monkey left standing alone next to them looking confused, holding an unpaid-bill icon."
+    },
+    {
+      "file": "3_41.jpg",
+      "startSec": 221.28,
+      "text": "Y de ahí sale el uso más peligroso de todos.",
+      "scene": "Extreme close-up of the protagonist brown monkey's face, eyes narrowing, worried serious expression."
+    },
+    {
+      "file": "3_43.jpg",
+      "startSec": 223.96,
+      "text": "Tres, el SIM Swapping o duplicado fraudulento de tarjeta SIM. Alguien se presenta con tus datos y pide un duplicado de tu número.",
+      "scene": "Extreme close-up: a golden coin medallion with ONLY the numeral 3 engraved. Then wide shot: a shadowy buyer/broker monkey silhouette wearing a BLACK hoodie with the hood UP, eyes glowing faintly, no badge, seen only as a silhouette silhouette handing over a fake ID-card icon at a giant phone-store counter prop, requesting a duplicate SIM-card icon."
+    },
+    {
+      "file": "3_51.jpg",
+      "startSec": 231.28,
+      "text": "Si convence a la operadora, tu móvil se queda sin cobertura de golpe.",
+      "scene": "Medium shot: the protagonist brown monkey holding up a giant phone prop with a crossed-out signal-bars icon on the screen, confused frustrated expression."
+    },
+    {
+      "file": "3_54.jpg",
+      "startSec": 234.94,
+      "text": "Y todos los códigos de verificación por SMS empiezan a llegar a su teléfono. El del banco, el del correo, el de tu exchange de criptomonedas. En España hubo con denas por esta vía con robos de decenas de miles de euros en cuentas bancarias.",
+      "scene": "Wide shot: giant SMS-bubble icons with small numeral codes flying in an arc toward a shadowy buyer/broker monkey silhouette wearing a BLACK hoodie with the hood UP, eyes glowing faintly, no badge, seen only as a silhouette's silhouette holding a phone, none reaching the protagonist brown monkey standing confused nearby, a small plaque with a euro-sign icon and a large drawn amount in the background."
+    },
+    {
+      "file": "4_08.jpg",
+      "startSec": 248.0,
+      "text": "Es de los pocos fraudes donde tu segundo factor de seguridad se convierte en el arma del atacante.",
+      "scene": "Close-up: a giant shield-with-checkmark icon (2FA) cracking in half, one half glowing red in a shadowy buyer/broker monkey silhouette wearing a BLACK hoodie with the hood UP, eyes glowing faintly, no badge, seen only as a silhouette's silhouette hand."
+    },
+    {
+      "file": "4_13.jpg",
+      "startSec": 254.07,
+      "text": "Y cuatro,",
+      "scene": "Extreme close-up: a golden coin medallion with ONLY the numeral 4 engraved on it, nothing else, no characters."
+    },
+    {
+      "file": "4_15.jpg",
+      "startSec": 255.16,
+      "text": "el alquiler de identidad.",
+      "scene": "Close-up: a giant simple ID-card icon with a small 'for rent' key-shaped icon dangling from it, no characters, no legible words."
+    },
+    {
+      "file": "4_16.jpg",
+      "startSec": 256.75,
+      "text": "Tu documento se le presta a otros delitos como fachada.",
+      "scene": "Wide shot: a shadowy buyer/broker monkey silhouette wearing a BLACK hoodie with the hood UP, eyes glowing faintly, no badge, seen only as a silhouette silhouette standing behind a giant blank building-facade icon prop with a small ID-card icon pinned to its front like a sign, sneaky pose."
+    },
+    {
+      "file": "4_20.jpg",
+      "startSec": 260.29,
+      "text": "Empresas pantallas registradas con tu nombre.",
+      "scene": "Medium shot: three giant simple blank building icons in a row, each with a tiny ID-card icon pinned on the door, no characters, no legible words."
+    },
+    {
+      "file": "4_22.jpg",
+      "startSec": 263.07,
+      "text": "Tú no cometes nada, pero tu nombre aparece en el papel.",
+      "scene": "Close-up: the protagonist brown monkey looking at a giant document with a simple ID-card icon printed on it, pointing at it with a confused innocent expression, small question mark floating above."
+    },
+    {
+      "file": "4_26.jpg",
+      "startSec": 267.06,
+      "text": "Ahora la parte que te toca a ti directamente.",
+      "scene": "Medium shot: the protagonist brown monkey turning to face the camera directly, leaning in, serious conspiratorial expression."
+    },
+    {
+      "file": "4_29.jpg",
+      "startSec": 269.92,
+      "text": "Vamos a bajarlo a tu vida concreta porque aquí es donde deja de ser una curiosidad tecnológica.",
+      "scene": "Wide shot: the protagonist brown monkey pointing down toward the ground, giant road signpost changing from a distant abstract icon to a close detailed house icon, grounding visual metaphor."
+    },
+    {
+      "file": "4_35.jpg",
+      "startSec": 275.67,
+      "text": "Tú no notas nada durante meses.",
+      "scene": "Wide shot: the protagonist brown monkey relaxed, going about daily life happily, calendar-free simple clock icon ticking calmly in the background, unaware pose."
+    },
+    {
+      "file": "4_37.jpg",
+      "startSec": 278.02,
+      "text": "Lo notas el día que vas a pedir una hipoteca y te la deniegan sin explicación clara.",
+      "scene": "Medium shot: the protagonist brown monkey standing at a giant bank counter prop with a simple house-icon and a big red X stamped on a paper, shocked confused expression."
+    },
+    {
+      "file": "4_42.jpg",
+      "startSec": 283.3,
+      "text": "Lo notas cuando aparece tu nombre en un fichero de morosos por una deuda de la que no sabes nada.",
+      "scene": "Close-up: the protagonist brown monkey staring at a giant folder labeled with a simple exclamation-mark icon and a small unpaid-bill icon, one eye twitching in disbelief."
+    },
+    {
+      "file": "4_47.jpg",
+      "startSec": 288.47,
+      "text": "En España esos ficheros existen y se llaman a SNES y BadexQ",
+      "scene": "Medium shot: two small simple generic filing-cabinet icons side by side with a tiny Spain-map silhouette above them, plain and unbranded, no characters."
+    },
+    {
+      "file": "4_51.jpg",
+      "startSec": 292.71,
+      "text": "y una anotación ahí te cierra puertas durante años aunque la deuda no sea tuya.",
+      "scene": "Wide shot: the protagonist brown monkey pushing against a giant door with a padlock icon on it that won't open, several other doors behind it also locked, frustrated straining pose."
+    },
+    {
+      "file": "4_57.jpg",
+      "startSec": 298.37,
+      "text": "Y ahora la parte injusta.",
+      "scene": "Extreme close-up of the protagonist brown monkey's face, frowning, indignant expression."
+    },
+    {
+      "file": "4_59.jpg",
+      "startSec": 300.48,
+      "text": "La carga de la prueba cae del lado del que ha sido víctima.",
+      "scene": "Medium shot: the protagonist brown monkey holding a giant heavy scale/balance icon that tips entirely to one side where the monkey stands, unbalanced and straining under the weight."
+    },
+    {
+      "file": "5_02.jpg",
+      "startSec": 304.2,
+      "text": "Tú tienes que denunciar, reclamar a cada entidad,",
+      "scene": "Wide shot: the protagonist brown monkey holding a stack of blank documents, standing before several giant generic building-counter icons in a row, determined tired expression."
+    },
+    {
+      "file": "5_05.jpg",
+      "startSec": 307.16,
+      "text": "aportar documentación y esperar.",
+      "scene": "Close-up: the protagonist brown monkey sitting with a stack of papers, a giant clock icon ticking slowly beside them, patient weary expression."
+    },
+    {
+      "file": "5_07.jpg",
+      "startSec": 309.29,
+      "text": "Puedes tardar meses en limpiar una sola anotación.",
+      "scene": "Medium shot: a giant calendar-page-style plaque with a single hand-drawn numeral for a long stretch of months, used only here since this genuinely is about elapsed days/months, monkey looking tired beside it."
+    },
+    {
+      "file": "5_11.jpg",
+      "startSec": 312.73,
+      "text": "La tarjeta se cancela en un día, ¿te acuerdas?",
+      "scene": "Close-up: a golden coin medallion with ONLY the numeral 1 engraved and a small credit-card icon beside it, nostalgic callback framing, no other text."
+    },
+    {
+      "file": "5_13.jpg",
+      "startSec": 315.16,
+      "text": "Esto no.",
+      "scene": "Extreme close-up of the protagonist brown monkey's face, shaking head slowly, resigned expression."
+    },
+    {
+      "file": "5_15.jpg",
+      "startSec": 316.8,
+      "text": "Vamos a lo que puedes hacer a partir de hoy mismo.",
+      "scene": "Medium shot: the protagonist brown monkey rolling up its sleeves, confident determined stance, white background."
+    },
+    {
+      "file": "5_18.jpg",
+      "startSec": 319.78,
+      "text": "La buena noticia es que casi todo el daño se evita con cuatro hábitos que no cuesta en dinero.",
+      "scene": "Wide comedy shot: four giant blank coin medallions standing in a row, each with a big hand-drawn numeral 1 through 4, the monkey standing proudly in front of them, brightly lit."
+    },
+    {
+      "file": "5_23.jpg",
+      "startSec": 325.47,
+      "text": "Uno,",
+      "scene": "Extreme close-up: a golden coin medallion with ONLY the numeral 1 engraved, clean checklist style, nothing else."
+    },
+    {
+      "file": "5_24.jpg",
+      "startSec": 326.29,
+      "text": "no envies nunca una foto de tu DNA y por chat.",
+      "scene": "Medium shot: the protagonist brown monkey holding a phone showing an ID-card icon, drawing a big red X over a chat-bubble icon beside it, firm refusing gesture."
+    },
+    {
+      "file": "5_27.jpg",
+      "startSec": 329.52,
+      "text": "Ni por WhatsApp, ni por Telegram, ni por correo normal.",
+      "scene": "Wide shot: three simple generic chat/message icon squares in a row (no real logos), each crossed out with a red X, no characters."
+    },
+    {
+      "file": "5_30.jpg",
+      "startSec": 332.85,
+      "text": "Si alguien lo necesita de verdad,",
+      "scene": "Close-up of the protagonist brown monkey raising one finger, about to clarify, thoughtful expression."
+    },
+    {
+      "file": "5_32.jpg",
+      "startSec": 334.69,
+      "text": "que use su plataforma oficial de verificación.",
+      "scene": "Medium shot: a giant simple shield-with-checkmark icon glowing green on a screen prop, presented as the trustworthy option, no characters, no legible words."
+    },
+    {
+      "file": "5_35.jpg",
+      "startSec": 337.64,
+      "text": "Dos,",
+      "scene": "Extreme close-up: a golden coin medallion with ONLY the numeral 2 engraved, clean checklist style, nothing else."
+    },
+    {
+      "file": "5_36.jpg",
+      "startSec": 338.78,
+      "text": "cuando tengas que enviarlo de forma legítima,",
+      "scene": "Medium shot: the protagonist brown monkey holding an ID-card icon and a pen, thoughtful careful expression."
+    },
+    {
+      "file": "5_39.jpg",
+      "startSec": 341.62,
+      "text": "escribe encima con cualquier editor para qué es y con qué fecha.",
+      "scene": "Close-up: the protagonist brown monkey writing diagonal scribble marks across an ID-card icon with a red pen, careful deliberate action."
+    },
+    {
+      "file": "5_43.jpg",
+      "startSec": 345.86,
+      "text": "Copia para contrato de alquiler, marzo de 2026,",
+      "scene": "Extreme close-up: an ID-card icon with a diagonal watermark-style scribble drawn across it and a small house-icon plus a coin medallion with numeral 2026 beside it, no other legible text needed."
+    },
+    {
+      "file": "5_46.jpg",
+      "startSec": 349.19,
+      "text": "cruzando la imagen.",
+      "scene": "Close-up: a giant ID-card icon with a bold diagonal line drawn across its entire surface, plain demonstration, no characters."
+    },
+    {
+      "file": "5_48.jpg",
+      "startSec": 350.75,
+      "text": "Eso no impide técnicamente el robo,",
+      "scene": "Medium shot: the protagonist brown monkey shrugging honestly, open palm gesture, candid expression."
+    },
+    {
+      "file": "5_50.jpg",
+      "startSec": 353.0,
+      "text": "pero le quita casi todo el valor comercial a la copia.",
+      "scene": "Close-up: a scribbled-over ID-card icon with a small price-tag icon showing a crossed-out low price beside it, no characters."
+    },
+    {
+      "file": "5_53.jpg",
+      "startSec": 356.25,
+      "text": "Tres,",
+      "scene": "Extreme close-up: a golden coin medallion with ONLY the numeral 3 engraved, clean checklist style, nothing else."
+    },
+    {
+      "file": "5_55.jpg",
+      "startSec": 357.43,
+      "text": "revisa tu situación una vez al año.",
+      "scene": "Medium shot: the protagonist brown monkey holding a giant magnifying glass over a blank folder labeled with a simple checkmark-calendar icon, investigative pose."
+    },
+    {
+      "file": "5_57.jpg",
+      "startSec": 359.87,
+      "text": "Tienes derecho por ley a preguntar a los ficheros demorosos si apareces en ellos, gratis,",
+      "scene": "Close-up: a giant simple gavel-and-scale icon (legal right) beside a small filing-cabinet icon with a question mark, no characters, no legible words."
+    },
+    {
+      "file": "6_02.jpg",
+      "startSec": 365.02,
+      "text": "y a pedir a cualquier empresa que datos tuyos guarda por el derecho de acceso del reglamento europeo.",
+      "scene": "Medium shot: the protagonist brown monkey holding a giant simple shield-with-EU-stars-style circle icon (generic, no real flag) beside a blank folder, confident empowered expression."
+    },
+    {
+      "file": "6_08.jpg",
+      "startSec": 371.05,
+      "text": "Cuatro,",
+      "scene": "Extreme close-up: a golden coin medallion with ONLY the numeral 4 engraved, clean checklist style, final item highlighted, nothing else."
+    },
+    {
+      "file": "6_09.jpg",
+      "startSec": 372.12,
+      "text": "quítale el SMS y a lo importante.",
+      "scene": "Close-up: a giant SMS-bubble icon with a red X drawn over it, no characters, no legible words."
+    },
+    {
+      "file": "6_11.jpg",
+      "startSec": 374.73,
+      "text": "Cambia los códigos por SMS por una aplicación de autenticación en tu banco, tu correo y tu revés.",
+      "scene": "Wide shot: the protagonist brown monkey pressing a giant simple shield-with-clock icon (authenticator app) glowing green, three small icons beside it (bank-column, envelope, generic app), confident pose."
+    },
+    {
+      "file": "6_17.jpg",
+      "startSec": 380.56,
+      "text": "Así un duplicado de SIM deja de darle acceso a nada.",
+      "scene": "Medium shot: a shadowy buyer/broker monkey silhouette wearing a BLACK hoodie with the hood UP, eyes glowing faintly, no badge, seen only as a silhouette silhouette holding a SIM-card icon uselessly in front of a giant locked-shield icon, frustrated defeated posture."
+    },
+    {
+      "file": "6_21.jpg",
+      "startSec": 384.76,
+      "text": "Y si ya te ha pasado, el orden importa,",
+      "scene": "Close-up of the protagonist brown monkey raising one finger, serious focused expression, about to give steps."
+    },
+    {
+      "file": "6_24.jpg",
+      "startSec": 387.52,
+      "text": "denuncia en policía o guardia civil y guarda el número de la denuncia.",
+      "scene": "Medium shot: a giant simple police-badge icon (generic, no real insignia) beside a small numbered-ticket icon, monkey holding the ticket carefully."
+    },
+    {
+      "file": "6_28.jpg",
+      "startSec": 391.38,
+      "text": "Con esa denuncia reclama por escrito a cada entidad implicada.",
+      "scene": "Wide shot: the protagonist brown monkey holding a numbered-ticket icon, standing before several giant generic building-counter icons in a row, determined pose."
+    },
+    {
+      "file": "6_31.jpg",
+      "startSec": 395.1,
+      "text": "Pide la baja de la notación en los ficheros demorosos aportando la denuncia y avisa a tu operadora de que no autorizas duplicados de SIM sin presencia física.",
+      "scene": "Wide shot: the protagonist brown monkey pressing a giant simple eraser icon against a red exclamation-mark icon on a filing-cabinet, and separately holding up a hand toward a phone-store counter icon with a SIM-card icon crossed out, firm protective pose."
+    },
+    {
+      "file": "6_41.jpg",
+      "startSec": 404.61,
+      "text": "Y para cerrar,",
+      "scene": "Close-up of the protagonist brown monkey taking a breath, calm reflective expression."
+    },
+    {
+      "file": "6_42.jpg",
+      "startSec": 406.04,
+      "text": "lo que de verdad quiero que te lleves.",
+      "scene": "Medium shot: the protagonist brown monkey holding a giant hand-drawn star icon, sincere warm expression."
+    },
+    {
+      "file": "6_44.jpg",
+      "startSec": 408.4,
+      "text": "Volvamos a la frase del principio.",
+      "scene": "Wide shot: the protagonist brown monkey holding up the same ID-card and credit-card props from the very first scene, echoing the opening composition."
+    },
+    {
+      "file": "6_47.jpg",
+      "startSec": 410.77,
+      "text": "Tu DNI vale más que tu tarjeta en el mercado negro.",
+      "scene": "Close-up: an ID-card icon glowing brighter and bigger than a credit-card icon beside it, clear size/value contrast, no characters."
+    },
+    {
+      "file": "6_50.jpg",
+      "startSec": 414.31,
+      "text": "Y ya sabes por qué.",
+      "scene": "Extreme close-up of the protagonist brown monkey's face, calm knowing smile."
+    },
+    {
+      "file": "6_52.jpg",
+      "startSec": 416.05,
+      "text": "La tarjeta caduca en un día y tú puedes existir 50 años más.",
+      "scene": "Medium shot: a golden coin medallion with ONLY the numeral 1 engraved beside a faded credit-card icon, and a separate golden coin medallion with ONLY the numeral 50 engraved beside a glowing steady ID-card icon, side by side contrast, no other text."
+    },
+    {
+      "file": "6_57.jpg",
+      "startSec": 421.46,
+      "text": "Ahora la parte honesta que también toca decirla.",
+      "scene": "Medium shot: the protagonist brown monkey looking directly at camera with a calm, sincere, slightly vulnerable expression, hand on chest."
+    },
+    {
+      "file": "7_00.jpg",
+      "startSec": 424.61,
+      "text": "Nada de esto significa que tu documento ya esté vendido ni que esté escondenado a que te arruinen.",
+      "scene": "Wide shot: the protagonist brown monkey standing calmly, gently pushing away a small worried-thought-bubble icon with one hand, reassuring composed expression."
+    },
+    {
+      "file": "7_06.jpg",
+      "startSec": 430.3,
+      "text": "La mayoría de las filtraciones no acaban en un fraude concreto contra ti.",
+      "scene": "Wide shot: a large grid of many small breach/database icons, only one glowing red among dozens of calm grey ones, statistical reassurance visual, no characters."
+    },
+    {
+      "file": "7_10.jpg",
+      "startSec": 434.45,
+      "text": "Pero el coste de protegerte es casi cero y el coste de limpiarlo después son años.",
+      "scene": "Medium shot: a tiny simple shield icon with a near-zero-sized price tag on the left, versus a giant heavy stack of papers with a long calendar-page plaque on the right, dramatic size contrast, no characters."
+    },
+    {
+      "file": "7_15.jpg",
+      "startSec": 439.85,
+      "text": "Esa asimetría es todo el argumento.",
+      "scene": "Close-up: a giant simple balance-scale icon tipped dramatically to one side, the protagonist brown monkey pointing at it, explanatory pose."
+    },
+    {
+      "file": "7_18.jpg",
+      "startSec": 443.0,
+      "text": "Y que que de claro,",
+      "scene": "Close-up of the protagonist brown monkey raising one hand, about to clarify something important."
+    },
+    {
+      "file": "7_19.jpg",
+      "startSec": 444.17,
+      "text": "esto es divulgación para que sepas defenderte, no un manual para nadie.",
+      "scene": "Medium shot: the protagonist brown monkey holding a giant shield icon protectively, calm reassuring stance, white background."
+    },
+    {
+      "file": "7_24.jpg",
+      "startSec": 448.5,
+      "text": "Todo lo que ha soído está en informes públicos y en sentencias publicadas.",
+      "scene": "Close-up: a giant blank report folder/booklet stack with a simple gavel icon on top, plain presentation, no characters."
+    },
+    {
+      "file": "7_28.jpg",
+      "startSec": 453.12,
+      "text": "Si esto te ha hecho mirar tu galería de fotos con otra cara, suscríbete. Se viene más de este mundo.",
+      "scene": "Wide shot: the protagonist brown monkey smiling warmly at the camera, holding up a phone with a photo-gallery icon, a giant simple bell/subscribe-shaped icon glowing beside it, warm inviting close of the video."
+    }
+  ]
+}

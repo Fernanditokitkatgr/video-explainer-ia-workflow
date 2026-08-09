@@ -1,0 +1,13 @@
+{
+  "video": "que-hacen-con-tu-dni-robado",
+  "steps": {
+    "voice": "pending",
+    "whisper": "pending",
+    "inject": "done",
+    "images": "pending",
+    "sfx": "pending",
+    "validate": "done",
+    "preflight": "done",
+    "render": "pending"
+  }
+}

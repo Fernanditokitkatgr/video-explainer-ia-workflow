@@ -1,0 +1,707 @@
+[
+  {
+    "file": "0_00.jpg",
+    "startSec": 0.0,
+    "text": "Dos personas, mismo examen aprobado, mismo título, la misma habilidad exacta para hackear."
+  },
+  {
+    "file": "0_06.jpg",
+    "startSec": 6.94,
+    "text": "Una vive en Madrid,"
+  },
+  {
+    "file": "0_08.jpg",
+    "startSec": 8.44,
+    "text": "la otra en San Francisco,"
+  },
+  {
+    "file": "0_10.jpg",
+    "startSec": 10.34,
+    "text": "y una de las dos gana casi cuatro veces más que la otra,"
+  },
+  {
+    "file": "0_13.jpg",
+    "startSec": 13.84,
+    "text": "por el mismo trabajo."
+  },
+  {
+    "file": "0_15.jpg",
+    "startSec": 15.54,
+    "text": "Hoy vamos a poner las dos carreras una al lado de la otra, cifra por cifra, y al final vas a entender exactamente por qué pasa esto,"
+  },
+  {
+    "file": "0_22.jpg",
+    "startSec": 22.94,
+    "text": "y qué puedes hacer tú si estás en el lado que pierde."
+  },
+  {
+    "file": "0_26.jpg",
+    "startSec": 26.52,
+    "text": "Capítulo 1,"
+  },
+  {
+    "file": "0_27.jpg",
+    "startSec": 27.68,
+    "text": "el mismo punto de partida. En los dos países el camino empieza exactamente igual,"
+  },
+  {
+    "file": "0_33.jpg",
+    "startSec": 33.18,
+    "text": "aprendes redes,"
+  },
+  {
+    "file": "0_34.jpg",
+    "startSec": 34.04,
+    "text": "aprendes Linux,"
+  },
+  {
+    "file": "0_35.jpg",
+    "startSec": 35.12,
+    "text": "aprendes a leer un escaneo de puertos,"
+  },
+  {
+    "file": "0_37.jpg",
+    "startSec": 37.38,
+    "text": "aprendes qué es una vulnerabilidad y qué es explotar la de verdad, no solo leerla en un informe."
+  },
+  {
+    "file": "0_43.jpg",
+    "startSec": 43.28,
+    "text": "Prácticas en máquinas virtuales pensadas para romperse,"
+  },
+  {
+    "file": "0_46.jpg",
+    "startSec": 46.34,
+    "text": "hack de box,"
+  },
+  {
+    "file": "0_47.jpg",
+    "startSec": 47.18,
+    "text": "try hack me,"
+  },
+  {
+    "file": "0_48.jpg",
+    "startSec": 48.36,
+    "text": "y en algún momento sacas la certificación que de verdad abre puertas. El lo es es qué, 24 horas de examen hackeando máquinas reales sin ayuda,"
+  },
+  {
+    "file": "0_57.jpg",
+    "startSec": 57.32,
+    "text": "sin conexión con nadie."
+  },
+  {
+    "file": "0_59.jpg",
+    "startSec": 59.3,
+    "text": "Ese papel dice exactamente lo mismo en España que en California,"
+  },
+  {
+    "file": "1_03.jpg",
+    "startSec": 63.22,
+    "text": "esta persona sabe entrar donde no debería, con permiso,"
+  },
+  {
+    "file": "1_06.jpg",
+    "startSec": 66.42,
+    "text": "y explicarlo por escrito de forma que una empresa pueda arreglarlo."
+  },
+  {
+    "file": "1_10.jpg",
+    "startSec": 70.5,
+    "text": "Hasta aquí,"
+  },
+  {
+    "file": "1_11.jpg",
+    "startSec": 71.56,
+    "text": "cero diferencia,"
+  },
+  {
+    "file": "1_12.jpg",
+    "startSec": 72.8,
+    "text": "mismo examen, mismo aprobado,"
+  },
+  {
+    "file": "1_14.jpg",
+    "startSec": 74.92,
+    "text": "mismo nivel real."
+  },
+  {
+    "file": "1_16.jpg",
+    "startSec": 76.54,
+    "text": "La diferencia empieza el día que firmas tu primer contrato,"
+  },
+  {
+    "file": "1_20.jpg",
+    "startSec": 80.24,
+    "text": "y no tiene nada que ver con tu talento."
+  },
+  {
+    "file": "1_23.jpg",
+    "startSec": 83.1,
+    "text": "Capítulo 2, la oferta en España."
+  },
+  {
+    "file": "1_26.jpg",
+    "startSec": 86.0,
+    "text": "En España, un pentester junior recién salido con su OECP, firma un contrato."
+  },
+  {
+    "file": "1_31.jpg",
+    "startSec": 91.54,
+    "text": "La cifra ronda los 28 .000 euros brutos al año."
+  },
+  {
+    "file": "1_35.jpg",
+    "startSec": 95.22,
+    "text": "Con 3 o 4 años de experiencia,"
+  },
+  {
+    "file": "1_37.jpg",
+    "startSec": 97.26,
+    "text": "ya como consultor de seguridad ofensiva,"
+  },
+  {
+    "file": "1_39.jpg",
+    "startSec": 99.68,
+    "text": "esa cifra suba 40 .000. Y si llegas a Red Teamer Senior,"
+  },
+  {
+    "file": "1_43.jpg",
+    "startSec": 103.86,
+    "text": "en una consultora grande o dentro de un banco,"
+  },
+  {
+    "file": "1_46.jpg",
+    "startSec": 106.38,
+    "text": "puede superar los 65 .000 euros al año."
+  },
+  {
+    "file": "1_49.jpg",
+    "startSec": 109.5,
+    "text": "Es un buen sueldo para España,"
+  },
+  {
+    "file": "1_51.jpg",
+    "startSec": 111.58,
+    "text": "está claramente por encima de la media nacional con algura."
+  },
+  {
+    "file": "1_55.jpg",
+    "startSec": 115.16,
+    "text": "Pero el techo existe,"
+  },
+  {
+    "file": "1_56.jpg",
+    "startSec": 116.64,
+    "text": "y se nota rápido en cuanto lleva a unos años en el sector."
+  },
+  {
+    "file": "1_59.jpg",
+    "startSec": 119.94,
+    "text": "Muy pocas empresas en España pagan de verdad más de 80 .000 euros a un solo hacker,"
+  },
+  {
+    "file": "2_04.jpg",
+    "startSec": 124.98,
+    "text": "por muy bueno que sea,"
+  },
+  {
+    "file": "2_06.jpg",
+    "startSec": 126.28,
+    "text": "por muy senior que sea. Y no es solo el sueldo bruto,"
+  },
+  {
+    "file": "2_10.jpg",
+    "startSec": 130.46,
+    "text": "encima hay que descontar un tramo de IRPF que en esos niveles ronda el 45%."
+  },
+  {
+    "file": "2_16.jpg",
+    "startSec": 136.6,
+    "text": "El mercado del Bag Bounty ayuda a compensar,"
+  },
+  {
+    "file": "2_19.jpg",
+    "startSec": 139.58,
+    "text": "encontrar un fallo grave en una empresa internacional se paga en dólares,"
+  },
+  {
+    "file": "2_23.jpg",
+    "startSec": 143.26,
+    "text": "no en euros,"
+  },
+  {
+    "file": "2_24.jpg",
+    "startSec": 144.16,
+    "text": "y eso sube bastante la media real."
+  },
+  {
+    "file": "2_26.jpg",
+    "startSec": 146.66,
+    "text": "Pero como sueldo fijo, con nómina española, con contrato indefinido de toda la vida,"
+  },
+  {
+    "file": "2_31.jpg",
+    "startSec": 151.62,
+    "text": "el recorrido tiene un límite bastante claro y bastante bajo."
+  },
+  {
+    "file": "2_35.jpg",
+    "startSec": 155.52,
+    "text": "Capítulo 3."
+  },
+  {
+    "file": "2_36.jpg",
+    "startSec": 156.92,
+    "text": "La oferta en Estados Unidos."
+  },
+  {
+    "file": "2_39.jpg",
+    "startSec": 159.24,
+    "text": "Cruza el charco,"
+  },
+  {
+    "file": "2_40.jpg",
+    "startSec": 160.48,
+    "text": "y el mismo currículum, con el mismo OSCCP,"
+  },
+  {
+    "file": "2_43.jpg",
+    "startSec": 163.48,
+    "text": "entra en otra escala completamente distinta."
+  },
+  {
+    "file": "2_46.jpg",
+    "startSec": 166.66,
+    "text": "Un pentester junior en Estados Unidos empieza cerca de los 90 .000 dólares al año."
+  },
+  {
+    "file": "2_51.jpg",
+    "startSec": 171.78,
+    "text": "Con experiencia real,"
+  },
+  {
+    "file": "2_53.jpg",
+    "startSec": 173.18,
+    "text": "un consultor de seguridad ofensiva supera los 120 .000 dólares sin demasiado esfuerzo. Y un red teamer senior,"
+  },
+  {
+    "file": "3_00.jpg",
+    "startSec": 180.44,
+    "text": "en una empresa tecnológica grande en San Francisco o en Seattle,"
+  },
+  {
+    "file": "3_04.jpg",
+    "startSec": 184.2,
+    "text": "puede firmar por 170 .000 dólares o más,"
+  },
+  {
+    "file": "3_07.jpg",
+    "startSec": 187.14,
+    "text": "solo en salario base."
+  },
+  {
+    "file": "3_09.jpg",
+    "startSec": 189.24,
+    "text": "Y ahí no acaba la cosa,"
+  },
+  {
+    "file": "3_10.jpg",
+    "startSec": 190.94,
+    "text": "sumas el bonus anual y las acciones de la empresa,"
+  },
+  {
+    "file": "3_13.jpg",
+    "startSec": 193.76,
+    "text": "y la cifra total sube todavía más, a veces muy por encima del salario base."
+  },
+  {
+    "file": "3_18.jpg",
+    "startSec": 198.58,
+    "text": "El Bag Bounty en Estados Unidos juega directamente en otra liga, en otro planeta. Encontrar un solo fallo crítico en Google o en Apple puede pagar más de 100 .000 dólares,"
+  },
+  {
+    "file": "3_29.jpg",
+    "startSec": 209.18,
+    "text": "por un solo halladgo, en un solo informe."
+  },
+  {
+    "file": "3_32.jpg",
+    "startSec": 212.1,
+    "text": "En 2019, un chaval argentino de 19 años, Santiago López,"
+  },
+  {
+    "file": "3_36.jpg",
+    "startSec": 216.8,
+    "text": "se convirtió en el primer hackerético millonario del mundo,"
+  },
+  {
+    "file": "3_40.jpg",
+    "startSec": 220.18,
+    "text": "encontrando fallos para hacker one,"
+  },
+  {
+    "file": "3_42.jpg",
+    "startSec": 222.52,
+    "text": "sin pisar Estados Unidos siquiera."
+  },
+  {
+    "file": "3_44.jpg",
+    "startSec": 224.98,
+    "text": "Apple ha llegado a pagar hasta dos millones de dólares por un solo exploit de los grandes,"
+  },
+  {
+    "file": "3_49.jpg",
+    "startSec": 229.76,
+    "text": "acceso remoto completo, sin que la víctima toque nada."
+  },
+  {
+    "file": "3_53.jpg",
+    "startSec": 233.66,
+    "text": "Esa nivel de pago no existe en ningún mercado europeo ni de lejos,"
+  },
+  {
+    "file": "3_57.jpg",
+    "startSec": 237.78,
+    "text": "ni de cerca."
+  },
+  {
+    "file": "3_59.jpg",
+    "startSec": 239.24,
+    "text": "Y hay algo más,"
+  },
+  {
+    "file": "4_00.jpg",
+    "startSec": 240.66,
+    "text": "en Estados Unidos,"
+  },
+  {
+    "file": "4_01.jpg",
+    "startSec": 241.78,
+    "text": "un red teamer con nombre reconocido en el sector puede cobrar por dar charlas, por escribir herramientas, por asesorada start -ups encima de su sueldo fijo."
+  },
+  {
+    "file": "4_11.jpg",
+    "startSec": 251.52,
+    "text": "Capítulo 4."
+  },
+  {
+    "file": "4_12.jpg",
+    "startSec": 252.88,
+    "text": "¿Por qué pasa esto de verdad?"
+  },
+  {
+    "file": "4_15.jpg",
+    "startSec": 255.22,
+    "text": "La pregunta obligada es,"
+  },
+  {
+    "file": "4_17.jpg",
+    "startSec": 257.0,
+    "text": "¿por qué tanta diferencia si el trabajo es literalmente idéntico?"
+  },
+  {
+    "file": "4_21.jpg",
+    "startSec": 261.44,
+    "text": "La primera razón es donde está el dinero de verdad."
+  },
+  {
+    "file": "4_24.jpg",
+    "startSec": 264.98,
+    "text": "Silicón vale y concentra las empresas que más pagan por seguridad,"
+  },
+  {
+    "file": "4_28.jpg",
+    "startSec": 268.74,
+    "text": "porque un fallo hay cuesta miles de millones,"
+  },
+  {
+    "file": "4_31.jpg",
+    "startSec": 271.18,
+    "text": "no miles de euros."
+  },
+  {
+    "file": "4_32.jpg",
+    "startSec": 272.7,
+    "text": "La segunda razón es el coste de vida, y aquí hay que ser honestos, no solo repetir la cifra grande. Un alquiler en San Francisco puede costar el triple que uno en Madrid,"
+  },
+  {
+    "file": "4_42.jpg",
+    "startSec": 282.02,
+    "text": "y la sanidad allí no es gratuita como aquí."
+  },
+  {
+    "file": "4_45.jpg",
+    "startSec": 285.32,
+    "text": "Ajustando por poder adquisitivo real,"
+  },
+  {
+    "file": "4_47.jpg",
+    "startSec": 287.64,
+    "text": "la diferencia se reduce bastante,"
+  },
+  {
+    "file": "4_49.jpg",
+    "startSec": 289.52,
+    "text": "pero sigue siendo enorme."
+  },
+  {
+    "file": "4_51.jpg",
+    "startSec": 291.12,
+    "text": "Sigue quedando un sueldo casi el doble de bueno en términos reales, no solo en el número que ves en la oferta."
+  },
+  {
+    "file": "4_57.jpg",
+    "startSec": 297.42,
+    "text": "Y la tercera razón es la más incómoda de las tres."
+  },
+  {
+    "file": "5_01.jpg",
+    "startSec": 301.26,
+    "text": "En España todavía se paga la seguridad informática como un coste que hay que minimizar,"
+  },
+  {
+    "file": "5_05.jpg",
+    "startSec": 305.88,
+    "text": "no como un seguro que hay que reforzar."
+  },
+  {
+    "file": "5_08.jpg",
+    "startSec": 308.4,
+    "text": "En Estados Unidos,"
+  },
+  {
+    "file": "5_09.jpg",
+    "startSec": 309.78,
+    "text": "tras más de una de cada de brechas que han costado miles de millones a empresas que cotizan en bolsa,"
+  },
+  {
+    "file": "5_15.jpg",
+    "startSec": 315.24,
+    "text": "pagar bien a quien te protege se entiende como inversión,"
+  },
+  {
+    "file": "5_18.jpg",
+    "startSec": 318.4,
+    "text": "no como gasto que recortar en la próxima crisis."
+  },
+  {
+    "file": "5_21.jpg",
+    "startSec": 321.7,
+    "text": "Mismo examen,"
+  },
+  {
+    "file": "5_23.jpg",
+    "startSec": 323.24,
+    "text": "mismas manos,"
+  },
+  {
+    "file": "5_24.jpg",
+    "startSec": 324.34,
+    "text": "mismo talento exacto."
+  },
+  {
+    "file": "5_26.jpg",
+    "startSec": 326.12,
+    "text": "¿El mercado que hay detrás de cada uno?"
+  },
+  {
+    "file": "5_28.jpg",
+    "startSec": 328.56,
+    "text": "No."
+  },
+  {
+    "file": "5_29.jpg",
+    "startSec": 329.58,
+    "text": "Y esa diferencia de cultura empresarial pesa más, a largo plazo,"
+  },
+  {
+    "file": "5_33.jpg",
+    "startSec": 333.64,
+    "text": "que cualquier tabla de sueldos."
+  },
+  {
+    "file": "5_36.jpg",
+    "startSec": 336.44,
+    "text": "Capítulo 5,"
+  },
+  {
+    "file": "5_37.jpg",
+    "startSec": 337.9,
+    "text": "cara a cara, con matices,"
+  },
+  {
+    "file": "5_39.jpg",
+    "startSec": 339.62,
+    "text": "sin trampas."
+  },
+  {
+    "file": "5_41.jpg",
+    "startSec": 341.06,
+    "text": "Pongamos las tifras una al lado de la otra sin exagerar ninguna de las dos."
+  },
+  {
+    "file": "5_45.jpg",
+    "startSec": 345.42,
+    "text": "España,"
+  },
+  {
+    "file": "5_46.jpg",
+    "startSec": 346.34,
+    "text": "entre 28 .000 y 65 .000 euros de sueldo fijo,"
+  },
+  {
+    "file": "5_50.jpg",
+    "startSec": 350.02,
+    "text": "techo bajo,"
+  },
+  {
+    "file": "5_50_b.jpg",
+    "startSec": 350.88,
+    "text": "pero coste de vida también bajo y sanidad pública incluida."
+  },
+  {
+    "file": "5_54.jpg",
+    "startSec": 354.46,
+    "text": "Estados Unidos,"
+  },
+  {
+    "file": "5_55.jpg",
+    "startSec": 355.64,
+    "text": "entre 90 .000 y 170 .000 dólares de sueldo fijo,"
+  },
+  {
+    "file": "5_59.jpg",
+    "startSec": 359.32,
+    "text": "techo altísimo,"
+  },
+  {
+    "file": "6_00.jpg",
+    "startSec": 360.56,
+    "text": "pero alquiler y seguro médico privado que se comen una parte real de esa ventaja cada mes."
+  },
+  {
+    "file": "6_05.jpg",
+    "startSec": 365.66,
+    "text": "Y aquí está el dato que casi nadie cuenta cuando compara estas dos tifras."
+  },
+  {
+    "file": "6_10.jpg",
+    "startSec": 370.16,
+    "text": "Hoy, en 2026,"
+  },
+  {
+    "file": "6_12.jpg",
+    "startSec": 372.12,
+    "text": "no hace falta mudarte de país para cobrar en dólares."
+  },
+  {
+    "file": "6_15.jpg",
+    "startSec": 375.22,
+    "text": "Cada vez más empresas estadounidenses contratan seguridad ofensiva en remoto puro sin pedir que vivas allí."
+  },
+  {
+    "file": "6_21.jpg",
+    "startSec": 381.62,
+    "text": "Y el Bag Bounty se cobra desde cualquier país del mundo, sin visado, sin permiso de trabajo,"
+  },
+  {
+    "file": "6_26.jpg",
+    "startSec": 386.8,
+    "text": "con solo una cuenta y una cuenta bancaria que reciba transferencias."
+  },
+  {
+    "file": "6_30.jpg",
+    "startSec": 390.78,
+    "text": "Hay hackers españoles que nunca han pisado Estados Unidos y facturan en dólares cada mes desde su casa en Valencia o en Bilbao."
+  },
+  {
+    "file": "6_38.jpg",
+    "startSec": 398.44,
+    "text": "La frontera que de verdad importa hoy ya no es el pasaporte que llevas en el cajón."
+  },
+  {
+    "file": "6_43.jpg",
+    "startSec": 403.42,
+    "text": "Es el idioma en el que escribes tus informes,"
+  },
+  {
+    "file": "6_46.jpg",
+    "startSec": 406.22,
+    "text": "la reputación que construyes en plataformas como hacker one y el nivel real de tu habilidad, medido contra el resto del mundo,"
+  },
+  {
+    "file": "6_53.jpg",
+    "startSec": 413.2,
+    "text": "no solo contra tu ciudad."
+  },
+  {
+    "file": "6_56.jpg",
+    "startSec": 416.1,
+    "text": "Capítulo 6."
+  },
+  {
+    "file": "6_57.jpg",
+    "startSec": 417.3,
+    "text": "El cierre"
+  },
+  {
+    "file": "6_58.jpg",
+    "startSec": 418.66,
+    "text": "Así que si tienes esta habilidad hoy mismo,"
+  },
+  {
+    "file": "7_01.jpg",
+    "startSec": 421.38,
+    "text": "la pregunta ya no es España o Estados Unidos."
+  },
+  {
+    "file": "7_04.jpg",
+    "startSec": 424.42,
+    "text": "La pregunta real es si vas a competir solo en el mercado local o si te atreves a competir en el mercado global desde el primer día."
+  },
+  {
+    "file": "7_12.jpg",
+    "startSec": 432.52,
+    "text": "La puerta de entrada es exactamente la misma para los dos caminos y además es gratis,"
+  },
+  {
+    "file": "7_17.jpg",
+    "startSec": 437.62,
+    "text": "hack de box,"
+  },
+  {
+    "file": "7_18.jpg",
+    "startSec": 438.5,
+    "text": "try hack me y después el OSCP cuando estés listo."
+  },
+  {
+    "file": "7_22.jpg",
+    "startSec": 442.88,
+    "text": "La diferencia de sueldo no está escrita en el pasaporte que tienes guardado en un cajón."
+  },
+  {
+    "file": "7_27.jpg",
+    "startSec": 447.64,
+    "text": "Está en para qué mercado decides trabajar en qué idioma escribes tus informes y en sitio animas a subir tu primera yadgo a una plataforma internacional en vez de guardártelo."
+  },
+  {
+    "file": "7_38.jpg",
+    "startSec": 458.3,
+    "text": "El talento, ya lo hemos visto,"
+  },
+  {
+    "file": "7_40.jpg",
+    "startSec": 460.54,
+    "text": "es exactamente el mismo a los dos lados del océano."
+  },
+  {
+    "file": "7_44.jpg",
+    "startSec": 464.18,
+    "text": "Si esta comparación te has sorprendido, suscríbete,"
+  },
+  {
+    "file": "7_47.jpg",
+    "startSec": 467.36,
+    "text": "se viene más de este mundo."
+  }
+]

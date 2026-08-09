@@ -129,98 +129,98 @@
     },
     {
       "file": "count_4.mp3",
-      "startSec": 253.94,
+      "startSec": 254.07,
       "duration": 1.0,
       "volume": 0.15,
       "prompt": "single counting tick, list item, no music"
     },
     {
       "file": "personal_turn.mp3",
-      "startSec": 266.64,
+      "startSec": 267.06,
       "duration": 1.5,
       "volume": 0.15,
       "prompt": "tonal shift making it personal, no music"
     },
     {
       "file": "rejection_stamp.mp3",
-      "startSec": 277.36,
+      "startSec": 278.02,
       "duration": 1.4,
       "volume": 0.16,
       "prompt": "heavy rejection stamp thud, denied, no music"
     },
     {
       "file": "file_drop.mp3",
-      "startSec": 287.58,
+      "startSec": 288.47,
       "duration": 1.4,
       "volume": 0.15,
       "prompt": "heavy file dropping into a registry, bureaucratic, no music"
     },
     {
       "file": "unfair_sting.mp3",
-      "startSec": 297.26,
+      "startSec": 298.37,
       "duration": 1.5,
       "volume": 0.15,
       "prompt": "unfair frustrating sting, no music"
     },
     {
       "file": "action_sting.mp3",
-      "startSec": 315.28,
+      "startSec": 316.8,
       "duration": 1.5,
       "volume": 0.16,
       "prompt": "energetic positive call-to-action sting, no music"
     },
     {
       "file": "tick_1.mp3",
-      "startSec": 323.76,
+      "startSec": 325.47,
       "duration": 1.0,
       "volume": 0.15,
       "prompt": "single checklist tick, satisfying, no music"
     },
     {
       "file": "tick_2.mp3",
-      "startSec": 335.66,
+      "startSec": 337.64,
       "duration": 1.0,
       "volume": 0.15,
       "prompt": "single checklist tick, satisfying, no music"
     },
     {
       "file": "tick_3.mp3",
-      "startSec": 353.86,
+      "startSec": 356.25,
       "duration": 1.0,
       "volume": 0.15,
       "prompt": "single checklist tick, satisfying, no music"
     },
     {
       "file": "tick_4.mp3",
-      "startSec": 368.34,
+      "startSec": 371.05,
       "duration": 1.0,
       "volume": 0.15,
       "prompt": "single checklist tick, satisfying, no music"
     },
     {
       "file": "urgent_step.mp3",
-      "startSec": 381.74,
+      "startSec": 384.76,
       "duration": 1.4,
       "volume": 0.15,
       "prompt": "urgent but calm procedural sting, no music"
     },
     {
       "file": "loop_close.mp3",
-      "startSec": 404.86,
+      "startSec": 408.4,
       "duration": 1.5,
       "volume": 0.15,
       "prompt": "warm resolving sting closing a narrative loop, no music"
     },
     {
       "file": "honest_turn.mp3",
-      "startSec": 417.64,
+      "startSec": 421.46,
       "duration": 1.4,
       "volume": 0.14,
       "prompt": "short serious honest tonal shift, no music"
     },
     {
       "file": "subscribe.mp3",
-      "startSec": 448.6,
+      "startSec": 453.12,
       "duration": 1.6,
       "volume": 0.17,
       "prompt": "friendly subscribe notification chime, upbeat, no music"

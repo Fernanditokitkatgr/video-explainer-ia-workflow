@@ -1,0 +1,43 @@
+{
+  "video": "hacker-espana-vs-eeuu",
+  "music": {
+    "file": "musica-canal.mp3",
+    "prompt": "subtle dark electronic loop, steady pulsing bassline, loopable, no vocals",
+    "duration": 30,
+    "volume": 0.3
+  },
+  "sfx": [
+    { "file": "intro_drone.mp3", "prompt": "dark tense cinematic drone, digital ambience, no music", "startSec": 0.0, "duration": 2.0, "volume": 0.13 },
+    { "file": "scale_tip.mp3", "prompt": "short metallic scale/balance tipping sound, single clean clink", "startSec": 10.34, "duration": 1.2, "volume": 0.15 },
+    { "file": "count_1.mp3", "prompt": "short soft chime marking a chapter number, single clean tone", "startSec": 26.52, "duration": 1.0, "volume": 0.15 },
+    { "file": "keyboard_type.mp3", "prompt": "quick mechanical keyboard typing burst, short", "startSec": 33.18, "duration": 1.5, "volume": 0.13 },
+    { "file": "terminal_beep.mp3", "prompt": "short retro terminal beep, single digital blip", "startSec": 46.34, "duration": 0.8, "volume": 0.14 },
+    { "file": "clock_ticking.mp3", "prompt": "tense ticking clock loop, short", "startSec": 48.36, "duration": 3.0, "volume": 0.14 },
+    { "file": "stamp_approve.mp3", "prompt": "single satisfying rubber stamp thud", "startSec": 63.22, "duration": 0.8, "volume": 0.16 },
+    { "file": "equal_ding.mp3", "prompt": "clean bright single bell ding, neutral positive", "startSec": 71.56, "duration": 0.7, "volume": 0.15 },
+    { "file": "pen_sign.mp3", "prompt": "short pen scratching on paper sound", "startSec": 76.54, "duration": 1.2, "volume": 0.13 },
+    { "file": "count_2.mp3", "prompt": "short soft chime marking a chapter number, single clean tone", "startSec": 83.1, "duration": 1.0, "volume": 0.15 },
+    { "file": "cash_small.mp3", "prompt": "short modest coin jingle, small amount, no music", "startSec": 91.54, "duration": 1.3, "volume": 0.15 },
+    { "file": "cash_medium.mp3", "prompt": "medium coin jingle, a bit richer than a small one, no music", "startSec": 99.68, "duration": 1.3, "volume": 0.15 },
+    { "file": "cash_bigger.mp3", "prompt": "fuller coin jingle with a small metallic shine, no music", "startSec": 106.38, "duration": 1.4, "volume": 0.16 },
+    { "file": "ceiling_thud.mp3", "prompt": "single soft thud like hitting a low ceiling, muffled", "startSec": 115.16, "duration": 0.8, "volume": 0.15 },
+    { "file": "scissors_snip.mp3", "prompt": "single sharp scissors snip sound, short", "startSec": 130.46, "duration": 0.7, "volume": 0.15 },
+    { "file": "bug_ping.mp3", "prompt": "short quirky digital ping, insect-like playful tone", "startSec": 139.58, "duration": 0.9, "volume": 0.15 },
+    { "file": "count_3.mp3", "prompt": "short soft chime marking a chapter number, single clean tone", "startSec": 155.52, "duration": 1.0, "volume": 0.15 },
+    { "file": "whoosh_jump.mp3", "prompt": "quick whoosh transition sound, short air movement", "startSec": 159.24, "duration": 1.0, "volume": 0.16 },
+    { "file": "cash_big.mp3", "prompt": "rich confident coin jingle, bigger amount, no music", "startSec": 166.66, "duration": 1.4, "volume": 0.16 },
+    { "file": "cash_bigger2.mp3", "prompt": "fuller richer coin jingle, growing bigger, no music", "startSec": 173.18, "duration": 1.4, "volume": 0.16 },
+    { "file": "cash_huge.mp3", "prompt": "big satisfying coin cascade, large amount, no music", "startSec": 184.2, "duration": 1.6, "volume": 0.17 },
+    { "file": "sparkle_bonus.mp3", "prompt": "short magical sparkle chime, bonus reveal, playful", "startSec": 190.94, "duration": 1.2, "volume": 0.16 },
+    { "file": "cosmic_reveal.mp3", "prompt": "short cosmic whoosh with a shimmering rising tone, dramatic reveal", "startSec": 198.58, "duration": 2.0, "volume": 0.17 },
+    { "file": "million_hit.mp3", "prompt": "big triumphant coin cascade with a metallic shine, jackpot feeling", "startSec": 216.8, "duration": 1.8, "volume": 0.17 },
+    { "file": "million_hit2.mp3", "prompt": "even bigger triumphant coin cascade, jackpot feeling, richer", "startSec": 224.98, "duration": 1.8, "volume": 0.17 },
+    { "file": "count_4.mp3", "prompt": "short soft chime marking a chapter number, single clean tone", "startSec": 251.52, "duration": 1.0, "volume": 0.15 },
+    { "file": "bite_chunk.mp3", "prompt": "short crunchy bite sound, something being taken away", "startSec": 360.56, "duration": 1.0, "volume": 0.15 },
+    { "file": "count_5.mp3", "prompt": "short soft chime marking a chapter number, single clean tone", "startSec": 336.44, "duration": 1.0, "volume": 0.15 },
+    { "file": "laptop_connect.mp3", "prompt": "short digital connection chime, modem-like but modern and clean", "startSec": 375.22, "duration": 1.2, "volume": 0.15 },
+    { "file": "count_6.mp3", "prompt": "short soft chime marking a chapter number, single clean tone", "startSec": 416.1, "duration": 1.0, "volume": 0.15 },
+    { "file": "door_open.mp3", "prompt": "short creaky door opening sound, inviting not scary", "startSec": 432.52, "duration": 1.2, "volume": 0.15 },
+    { "file": "subscribe.mp3", "prompt": "cheerful upbeat bell/notification chime, subscribe moment", "startSec": 464.18, "duration": 1.3, "volume": 0.17 }
+  ]
+}

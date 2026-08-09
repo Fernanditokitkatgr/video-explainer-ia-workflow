@@ -359,7 +359,12 @@
     "fps": 30,
     "width": 1920,
     "height": 1080,
-    "background": "#ffffff"
+    "background": "#ffffff",
+    "published": {
+      "youtube_id": "C5AwsfjQKHA",
+      "privacy": "public",
+      "date": "2026-08-05"
+    }
   },
   "que-hacen-con-tu-dni-robado": {
     "composition": "DniRobado",
@@ -370,10 +375,35 @@
     "images_subpath": "que-hacen-con-tu-dni-robado",
     "naming": "timestamp",
     "ext": "jpg",
-    "playback_rate": 1.1,
+    "playback_rate": 1.2,
     "fps": 30,
     "width": 1920,
     "height": 1080,
-    "background": "#ffffff"
+    "background": "#ffffff",
+    "published": {
+      "youtube_id": "2jJT9oCcHm8",
+      "privacy": "public",
+      "date": "2026-08-06"
+    }
+  },
+  "hacker-espana-vs-eeuu": {
+    "composition": "HackerEspanaVsEeuu",
+    "tsx": "remotion/src/HackerEspanaVsEeuu.tsx",
+    "manifest_dir": "channel/tecno/videos/hacker-espana-vs-eeuu",
+    "script": "channel/tecno/videos/hacker-espana-vs-eeuu/script.md",
+    "audio_static": "hacker-espana-vs-eeuu.mp3",
+    "images_subpath": "hacker-espana-vs-eeuu",
+    "naming": "timestamp",
+    "ext": "jpg",
+    "playback_rate": 1.2,
+    "fps": 30,
+    "width": 1920,
+    "height": 1080,
+    "background": "#ffffff",
+    "published": {
+      "youtube_id": "37yKl5CCkcU",
+      "privacy": "public",
+      "date": "2026-08-07"
+    }
   }
 }

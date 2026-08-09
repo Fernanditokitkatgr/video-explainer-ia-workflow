@@ -5,3 +5,29 @@
 [20:14:02]   FALTA  sfx
 [20:14:02]   FALTA  preflight
 [20:14:02]   FALTA  render
+[2026-08-05] Imagenes: 161/161 generadas. 144 via Higgsfield MCP (estilo ganador ago-2026,
+media_id cdcd8a21-c212-4c92-8002-097f3ed687db) + 17 via Vertex/Gemini flash (144-160), tras
+detectar y corregir bug: el style_base inicial incluia el ejemplo literal '258'/'DIAS' del
+estilo de referencia y el modelo lo repetia en todas las escenas -- reescrito en abstracto y
+regeneradas esas 17 limpio. Preflight: PASS (0 fallos, 0 avisos). SFX (32 cues) + musica
+inyectados en TeHanHackeado.tsx. Render lanzado. Miniaturas: 2 variantes generadas via Vertex
+(thumb_A_susto.jpg, thumb_C_sombra.jpg) -- se descarto thumb_B por typo 'DIAS' mal acentuado
+('DIÁS'). Politica confirmada por el usuario: Higgsfield MCP SOLO para pruebas de estilo,
+produccion real siempre con credito de Google Cloud (documentado en CLAUDE.md).
+[2026-08-05 13:40] Ronda de fixes tras feedback del usuario viendo el render:
+1) Musica: MUSIC_VOLUME 0.17 -> 0.3 (no se oia lo suficiente).
+2) 5 imagenes con texto alucinado (DIAS/FIN DE JUEGO en numerales sueltos) corregidas
+   a medallon dorado limpio, sin calendario/madera (ese patron dispara la alucinacion).
+3) 17 imagenes de la cola (Vertex sin imagen de referencia) tenian deriva de personaje
+   (camiseta azul, cara distinta) -- regeneradas con imagen de referencia real adjunta
+   (types.Part.from_bytes) para anclar el diseno exacto del mono.
+4) Voz: el guion se partio en 2 llamadas ElevenLabs (chunk_text, limite 4800 chars); el
+   chunk 2 (ultimos ~3.5 min) salio con acento distinto por aleatoriedad del modelo a
+   stability=0.1. Regenerado solo ese chunk y empalmado en el punto de corte de texto
+   exacto ("Tu correo es el llavero maestro."). Duracion nueva vs vieja: +0.73s en 215s
+   -> timestamps posteriores al corte reescalados proporcionalmente (scale=1.0034) en
+   frames.json, .frames.timing.json y sfx.json en vez de re-whisperear entero.
+5) 6 imagenes mas (0_11, 0_44, 6_07, 6_32, 6_51 + las 17 de la cola) regeneradas con
+   imagen de referencia adjunta para igualar el estilo plano/nitido del segundo 8.
+Preflight: PASS (0 fallos). Render final: remotion/output/te-han-hackeado-y-no-lo-sabes.mp4
+(438.3s). Pendiente: confirmacion del usuario tras volver a ver el render.

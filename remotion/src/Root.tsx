@@ -18,6 +18,7 @@ import { Pegasus } from "./Pegasus";
 import { Lazarus } from "./Lazarus";
 import { TeHanHackeado } from "./TeHanHackeado";
 import { DniRobado } from "./DniRobado";
+import { HackerEspanaVsEeuu } from "./HackerEspanaVsEeuu";
 import { HackearLaIA } from "./HackearLaIA";
 import { DosCaminosHacker } from "./DosCaminosHacker";
 import { RedTeamVsBlueTeam } from "./RedTeamVsBlueTeam";
@@ -37,7 +38,15 @@ export const RemotionRoot: React.FC = () => {
       <Composition
         id="DniRobado"
         component={DniRobado}
-        durationInFrames={12412}
+        durationInFrames={11485}
+        fps={30}
+        width={1920}
+        height={1080}
+      />
+      <Composition
+        id="HackerEspanaVsEeuu"
+        component={HackerEspanaVsEeuu}
+        durationInFrames={11745}
         fps={30}
         width={1920}
         height={1080}

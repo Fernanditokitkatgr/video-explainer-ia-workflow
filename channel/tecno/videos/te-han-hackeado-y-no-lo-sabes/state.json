@@ -1,0 +1,13 @@
+{
+  "video": "te-han-hackeado-y-no-lo-sabes",
+  "steps": {
+    "voice": "pending",
+    "whisper": "pending",
+    "inject": "done",
+    "images": "pending",
+    "sfx": "pending",
+    "validate": "done",
+    "preflight": "done",
+    "render": "pending"
+  }
+}

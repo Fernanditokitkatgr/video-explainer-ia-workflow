@@ -20,6 +20,14 @@ Lee la RECETA de imágenes desde el manifest del vídeo:
     <manifest_dir>/frames.json  →  { "style_base": "...", "frames": [ { "file", "scene" }, ... ] }
 Reanudable: salta las imágenes que ya existen.
 
+COHERENCIA (ago-2026): antes de generar corre scripts/scene_diversity_check.py como gate
+(igual que preflight.py, no es opcional — se puede saltar con --skip-diversity-check pero
+hay que decir por qué). Además, SIEMPRE adjunta como imagen de entrada la referencia
+canónica del personaje (channel/tecno/style-bible.json → personaje_protagonista.
+imagen_referencia_canonica) en cada llamada de generación — describir el diseño solo en
+texto deriva con el tiempo (ver memoria: "Fix deriva de personaje en Vertex"). Usa --no-ref
+solo si de verdad no quieres anclar el personaje (p.ej. escenas sin ningún personaje).
+
 Uso:
     python scripts/generate_images_gemini.py --video red-neuronal-retropropagacion --model flash
     python scripts/generate_images_gemini.py --video red-neuronal-retropropagacion --model pro --test 5
@@ -62,17 +70,37 @@ def load_frames(cfg: dict) -> tuple[str, list[dict]]:
     return style_base, frames
 
 
-def generate_frame(client, model: str, prompt: str, out_path: Path, retries: int = 5) -> bool:
+def load_reference_part():
+    """Imagen de referencia canonica del personaje (style-bible.json). Se adjunta
+    como input multimodal en cada generacion para anclar el diseno exacto — describirlo
+    solo en texto deriva con el tiempo (camiseta que no toca, cara distinta, etc.)."""
+    bible_path = config.REPO_ROOT / "channel" / "tecno" / "style-bible.json"
+    if not bible_path.exists():
+        return None
+    bible = json.loads(bible_path.read_text(encoding="utf-8"))
+    ref_rel = bible.get("personaje_protagonista", {}).get("imagen_referencia_canonica")
+    if not ref_rel:
+        return None
+    ref_path = config.REPO_ROOT / ref_rel
+    if not ref_path.exists():
+        print(f"  ⚠️  Referencia canonica no encontrada en {ref_path}, generando sin anclaje de personaje")
+        return None
+    mime = "image/png" if ref_path.suffix.lower() == ".png" else "image/jpeg"
+    return types.Part.from_bytes(data=ref_path.read_bytes(), mime_type=mime)
+
+
+def generate_frame(client, model: str, prompt: str, out_path: Path, ref_part=None, retries: int = 5) -> bool:
     if out_path.exists():
         print(f"  SKIP {out_path.name} (ya existe)")
         return True
 
+    contents = [ref_part, prompt] if ref_part is not None else prompt
     last_err = ""
     for attempt in range(1, retries + 1):
         try:
             resp = client.models.generate_content(
                 model=model,
-                contents=prompt,
+                contents=contents,
                 config=types.GenerateContentConfig(
                     response_modalities=["IMAGE"],
                     image_config=types.ImageConfig(aspect_ratio=config.GEMINI_ASPECT_RATIO),
@@ -123,7 +151,19 @@ def main() -> None:
                          help="pro = gemini-3-pro-image (aún 404 en Vertex, jul-2026), flash = gemini-2.5-flash-image (funciona)")
     parser.add_argument("--start", type=int, default=0, help="Empieza en este índice (reanudar)")
     parser.add_argument("--test", type=int, help="Solo genera las primeras N imágenes (comparar calidad)")
+    parser.add_argument("--no-ref", action="store_true", help="No adjuntar la imagen de referencia canónica (por defecto SÍ se adjunta)")
+    parser.add_argument("--skip-diversity-check", action="store_true", help="Salta el gate de scene_diversity_check.py (documenta por qué si lo usas)")
     args = parser.parse_args()
+
+    if not args.skip_diversity_check:
+        from scene_diversity_check import run_check, print_report
+        rep = run_check(args.video)
+        if rep["fallos"]:
+            print_report(rep)
+            sys.exit(
+                "\nscene_diversity_check FALLÓ — reescribe las escenas señaladas antes de generar, "
+                "o vuelve a llamar con --skip-diversity-check si de verdad quieres seguir así."
+            )
 
     if args.model == "pro":
         model = config.GEMINI_IMAGE_MODEL_PRO
@@ -138,6 +178,9 @@ def main() -> None:
     out_dir = config.PUBLIC_DIR / cfg["images_subpath"]
     out_dir.mkdir(parents=True, exist_ok=True)
 
+    ref_part = None if args.no_ref else load_reference_part()
+    print(f"Referencia de personaje: {'NO adjunta (--no-ref)' if args.no_ref else ('adjunta' if ref_part else 'no encontrada, generando sin anclaje')}")
+
     end = args.start + args.test if args.test else len(frames)
     subset = frames[args.start:end]
     total = len(subset)
@@ -146,7 +189,7 @@ def main() -> None:
     for i, fr in enumerate(subset, start=1):
         print(f"[{i}/{total}] {fr['file']}")
         prompt = f"{style_base} {fr['scene']}"
-        generate_frame(client, model, prompt, out_dir / fr["file"])
+        generate_frame(client, model, prompt, out_dir / fr["file"], ref_part=ref_part)
         time.sleep(1.5)  # ritmo para no disparar la cuota de peticiones/minuto de Vertex AI
 
     have = sum(1 for fr in frames if (out_dir / fr["file"]).exists())

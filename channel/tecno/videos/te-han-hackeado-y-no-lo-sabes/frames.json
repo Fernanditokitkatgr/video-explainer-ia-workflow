@@ -1,0 +1,972 @@
+{
+  "video": "te-han-hackeado-y-no-lo-sabes",
+  "style_base": "Crude hand-drawn cartoon in the style of the 'Ecomonos' YouTube channel. PURE WHITE background as the default. Thick bold black ink outlines, flat solid colors, NO gradients, NO blur, NO depth of field, NO glow effects, NO soft shading — everything sharp, crisp and clean like a marker drawing. A recurring brown cartoon monkey character with VERY LARGE round white eyes and small black pupils, and a hugely exaggerated expressive face (wide toothy grin, shocked open mouth, half-lidded smug look, or furrowed angry brow depending on the moment). The monkey is BIG in frame, occupying roughly 40-60% of the image — never a tiny figure lost in a wide empty scene. Props and objects are drawn in bright saturated colors (yellow, orange, red, green, blue) that pop against the white background. The image must contain NO text at all: no words, no letters, no numbers, no captions, no signs and no labels. Every poster, plaque, shield, price tag, badge, calendar, screen and sheet of paper is drawn completely BLANK. The Spanish captions are added afterwards in the edit, so drawing them here would duplicate them and misspell them. Tell the whole idea with drawing, gesture and facial expression alone. Characters have exactly two arms and two hands. Only use a dark or moody background when the scene itself is explicitly at night, in a dark room, or lit by police lights — otherwise the background stays white. Variante limpia del estilo Ecomonos: fondo blanco puro, contorno negro grueso, colores planos, mono marron con ojos enormes blancos. Cuando la escena lo pida, dibuja DENTRO de la imagen (nunca superpuesto) una cifra grande y, como mucho, una palabra corta en espanol relacionada con ESA escena concreta — nunca reutilices cifras ni palabras de otras escenas, cada imagen lleva solo el numero/texto que su propia descripcion de escena pide, y si la escena no pide ninguna cifra no dibujes ninguna.",
+  "frames": [
+    {
+      "file": "0_00.jpg",
+      "startSec": 0.0,
+      "text": "Ahora mismo, mientras ves esto,",
+      "scene": "Medium shot, the protagonist brown monkey (the viewer's own account) sitting relaxed on a sofa looking at a big smartphone, calm neutral expression, everyday living room props, white background."
+    },
+    {
+      "file": "0_02.jpg",
+      "startSec": 2.3,
+      "text": "puede haber alguien dentro de una de tus cuentas.",
+      "scene": "Over-the-shoulder shot: the protagonist brown monkey (the viewer's own account) still looking at the phone, but on the phone's screen a tiny faint silhouette of a shadowy intruder monkey wearing a BLACK hoodie with the hood UP casting a shadow over its face (eyes glowing faintly), no badge, seen only as a silhouette or partial reflection, never fully lit is visible peeking from inside the screen glow."
+    },
+    {
+      "file": "0_04.jpg",
+      "startSec": 4.88,
+      "text": "Y lo peor no es eso,",
+      "scene": "Extreme close-up of the protagonist brown monkey (the viewer's own account)'s face, eyes widening, eyebrow raised in growing worry."
+    },
+    {
+      "file": "0_06.jpg",
+      "startSec": 6.3,
+      "text": "lo peores que llevaría ahí semanas,",
+      "scene": "Wide shot: a giant hand-drawn calendar plaque with many torn-off sheets piled at its feet, huge numeral '21' and word 'DIAS' on the top sheet, the monkey small in the corner staring at it."
+    },
+    {
+      "file": "0_08.jpg",
+      "startSec": 8.56,
+      "text": "y tú no habrías notado absolutamente nada.",
+      "scene": "Close-up, the protagonist brown monkey (the viewer's own account) shrugging with a blank confused face, empty thought bubble above its head, white background."
+    },
+    {
+      "file": "0_11.jpg",
+      "startSec": 11.62,
+      "text": "Al final de este vídeo vas a saber las cinco señales exactas que delatan a un intruso,",
+      "scene": "Wide comedy shot: the protagonist brown monkey pointing directly at a round coin-shaped medallion floating beside it with ONLY the numeral 5 engraved on it, nothing else engraved, no other text or word anywhere in the image."
+    },
+    {
+      "file": "0_16.jpg",
+      "startSec": 16.38,
+      "text": "y vas a poder comprobar en cinco minutos si tú eres una de las víctimas.",
+      "scene": "Medium shot: a giant hand-drawn stopwatch/clock prop showing '5' and word 'MIN', the monkey checking it with a determined face."
+    },
+    {
+      "file": "0_20.jpg",
+      "startSec": 20.54,
+      "text": "Porque el otro día contamos la historia del hacker,",
+      "scene": "Side profile: the protagonist brown monkey (the viewer's own account) sitting in front of an old-fashioned TV/screen prop showing a small paused image of a hooded figure, arms crossed, remembering."
+    },
+    {
+      "file": "0_23.jpg",
+      "startSec": 23.18,
+      "text": "hoy le damos la vuelta a la cámara,",
+      "scene": "Wide shot: a giant hand-drawn old film camera prop physically rotating on a stand, arrow drawn showing the rotation, no text."
+    },
+    {
+      "file": "0_25.jpg",
+      "startSec": 25.1,
+      "text": "hoy la víctima eres tú.",
+      "scene": "Extreme close-up of the protagonist brown monkey (the viewer's own account)'s face pointing at itself with both hands, shocked wide-eyed expression."
+    },
+    {
+      "file": "0_27.jpg",
+      "startSec": 27.02,
+      "text": "Y lo primero que tienes que entender es el silencio.",
+      "scene": "Medium shot: the protagonist brown monkey (the viewer's own account) standing alone in an empty white room, one finger to its lips in a 'shh' gesture."
+    },
+    {
+      "file": "0_30.jpg",
+      "startSec": 30.0,
+      "text": "En las películas cuando te jakean, la pantalla se pone roja y suena una alarma.",
+      "scene": "Wide shot: the protagonist brown monkey (the viewer's own account) looking at a giant screen prop glowing bright red with a big cartoon bell/alarm symbol on top, exaggerated shocked pose."
+    },
+    {
+      "file": "0_34.jpg",
+      "startSec": 34.82,
+      "text": "En la vida real no suena nada,",
+      "scene": "Same screen prop now plain white and blank, the protagonist brown monkey (the viewer's own account) standing calmly next to it, contrast with previous scene, relaxed pose."
+    },
+    {
+      "file": "0_36.jpg",
+      "startSec": 36.62,
+      "text": "no hay humo, no hay ruido,",
+      "scene": "Close-up on a giant blank alarm bell prop, completely still, drawn with motion-lines crossed out to show silence."
+    },
+    {
+      "file": "0_38.jpg",
+      "startSec": 38.3,
+      "text": "no hay aviso.",
+      "scene": "Medium shot: the protagonist brown monkey (the viewer's own account) shrugging in an empty white room, single empty speech bubble."
+    },
+    {
+      "file": "0_39.jpg",
+      "startSec": 39.98,
+      "text": "IBM publica cada año su informe sobre el coste de una brecha de datos.",
+      "scene": "Medium shot: the protagonist brown monkey (the viewer's own account) holding open a giant blank report folder/booklet with a generic bar-chart icon drawn on the cover, curious expression."
+    },
+    {
+      "file": "0_44.jpg",
+      "startSec": 44.12,
+      "text": "En la edición de 2024,",
+      "scene": "Close-up of a round coin-shaped medallion with ONLY the numeral 2024 engraved on it, nothing else engraved, no other text or word anywhere, no calendar, no torn paper."
+    },
+    {
+      "file": "0_46.jpg",
+      "startSec": 46.0,
+      "text": "la media para identificar y contener una brecha fue de 258 días.",
+      "scene": "the protagonist brown monkey (the viewer's own account) pointing at a giant torn calendar plaque with huge numeral '258' and word 'DIAS' beneath, shocked open-mouth expression."
+    },
+    {
+      "file": "0_51.jpg",
+      "startSec": 51.92,
+      "text": "258 días,",
+      "scene": "Extreme close-up, only the giant calendar plaque filling the frame, numeral '258' huge and bold, word 'DIAS' below."
+    },
+    {
+      "file": "0_53.jpg",
+      "startSec": 53.34,
+      "text": "casi nueve meses,",
+      "scene": "Wide shot: nine simple hand-drawn calendar pages fanned out in a row on white background, no monkey, no other text."
+    },
+    {
+      "file": "0_54.jpg",
+      "startSec": 54.8,
+      "text": "es el tiempo que alguien puede pasar leyendo tu correo antes de que alguien se de cuenta.",
+      "scene": "Over-the-shoulder shot: a shadowy intruder monkey wearing a BLACK hoodie with the hood UP casting a shadow over its face (eyes glowing faintly), no badge, seen only as a silhouette or partial reflection, never fully lit silhouette reading a giant open letter/envelope prop, the protagonist brown monkey (the viewer's own account) unaware in the background."
+    },
+    {
+      "file": "0_59.jpg",
+      "startSec": 59.76,
+      "text": "Mandiant la empresa que investiga intrusiones reales midi otra cosa,",
+      "scene": "Medium shot: the protagonist brown monkey (the viewer's own account) holding a magnifying glass over a giant blank folder labeled with a simple magnifying-glass icon, investigative pose."
+    },
+    {
+      "file": "1_04.jpg",
+      "startSec": 64.02,
+      "text": "el tiempo de permanencia,",
+      "scene": "Close-up: a giant hand-drawn hourglass prop with sand falling, no text."
+    },
+    {
+      "file": "1_05.jpg",
+      "startSec": 65.56,
+      "text": "es decir, cuánto tarda el atacante desde que entra hasta que lo pillan.",
+      "scene": "Wide shot: a shadowy intruder monkey wearing a BLACK hoodie with the hood UP casting a shadow over its face (eyes glowing faintly), no badge, seen only as a silhouette or partial reflection, never fully lit silhouette sneaking in through a giant open door on the left, the protagonist brown monkey (the viewer's own account) pointing and catching them on the right, motion arrow connecting both."
+    },
+    {
+      "file": "1_09.jpg",
+      "startSec": 69.44,
+      "text": "La mediana global ha bajado a unos diez días y eso suena bien,",
+      "scene": "Medium shot: a giant torn calendar plaque with huge numeral '10' and word 'DIAS', the monkey giving a cautious thumbs-up."
+    },
+    {
+      "file": "1_13.jpg",
+      "startSec": 73.16,
+      "text": "pero es una mediana y la mediana esconde los casos largos.",
+      "scene": "Wide shot: a simple hand-drawn bar chart of very short bars except one huge tall bar hidden behind a curtain prop, monkey pulling the curtain aside with a suspicious look."
+    },
+    {
+      "file": "1_16.jpg",
+      "startSec": 76.88,
+      "text": "En Mario, los investigadores descubrieron que los intrusos llevaban dentro desde 2014.",
+      "scene": "Medium shot: the protagonist brown monkey (the viewer's own account) looking at a giant plaque with numeral '2014', magnifying glass in hand, surprised expression, generic hotel-building silhouette icon beside it (no brand name)."
+    },
+    {
+      "file": "1_22.jpg",
+      "startSec": 82.58,
+      "text": "La brecha se anunció en 2018,",
+      "scene": "Close-up of a second giant plaque with numeral '2018' right next to the '2014' plaque, monkey comparing both with wide eyes."
+    },
+    {
+      "file": "1_24.jpg",
+      "startSec": 84.74,
+      "text": "cuatro años dentro.",
+      "scene": "Extreme close-up of the protagonist brown monkey (the viewer's own account)'s shocked face with a giant numeral '4' floating beside it and short word 'AÑOS'."
+    },
+    {
+      "file": "1_26.jpg",
+      "startSec": 86.74,
+      "text": "Ya jú tardó años en admitir una brecha que afectó a 3 .000 millones de cuentas.",
+      "scene": "Wide shot: the protagonist brown monkey (the viewer's own account) dwarfed by a towering pile of tiny drawn envelope icons, a giant plaque reading '3.000 MILLONES' beside the pile."
+    },
+    {
+      "file": "1_31.jpg",
+      "startSec": 91.3,
+      "text": "Y si empresas con equipos de seguridad entero tardan meses en verlo, dime una cosa.",
+      "scene": "Medium shot: the protagonist brown monkey (the viewer's own account) with hands on hips, raised eyebrow, addressing camera directly, questioning expression."
+    },
+    {
+      "file": "1_36.jpg",
+      "startSec": 96.28,
+      "text": "¿Cuánto crees que tardarías tú,",
+      "scene": "Extreme close-up of the protagonist brown monkey (the viewer's own account)'s face pointing straight at the camera, single raised eyebrow, questioning."
+    },
+    {
+      "file": "1_38.jpg",
+      "startSec": 98.06,
+      "text": "solo, sin herramientas, sin logs,",
+      "scene": "Wide shot: the protagonist brown monkey (the viewer's own account) standing alone in a big empty white room, arms open, no props around at all, isolated pose."
+    },
+    {
+      "file": "1_40.jpg",
+      "startSec": 100.48,
+      "text": "sin nadie mirando?",
+      "scene": "Medium shot: the protagonist brown monkey (the viewer's own account) looking around an empty room over both shoulders, worried expression."
+    },
+    {
+      "file": "1_42.jpg",
+      "startSec": 102.18,
+      "text": "Hay cinco señales,",
+      "scene": "Wide comedy shot: five giant blank plaques standing in a row, each with a big hand-drawn numeral 1 through 5, monkey small beside them pointing."
+    },
+    {
+      "file": "1_43.jpg",
+      "startSec": 103.52,
+      "text": "todas fáciles de pasar por alto.",
+      "scene": "Close-up: the protagonist brown monkey (the viewer's own account) squinting hard at one of the plaques, comically failing to notice it, exaggerated confusion."
+    },
+    {
+      "file": "1_45.jpg",
+      "startSec": 105.38,
+      "text": "Vale,",
+      "scene": "Close-up of the protagonist brown monkey (the viewer's own account) nodding once with a determined face, ready-to-act expression."
+    },
+    {
+      "file": "1_46.jpg",
+      "startSec": 106.1,
+      "text": "vamos a lo práctico.",
+      "scene": "Medium shot: the protagonist brown monkey (the viewer's own account) rolling up its sleeves, confident stance, white background."
+    },
+    {
+      "file": "1_47.jpg",
+      "startSec": 107.36,
+      "text": "Estas son las señales reales.",
+      "scene": "Wide shot: the five giant numbered plaques again, now brightly lit and highlighted, monkey standing proudly in front of them."
+    },
+    {
+      "file": "1_49.jpg",
+      "startSec": 109.78,
+      "text": "Señal número uno,",
+      "scene": "Extreme close-up: a giant plaque with a huge hand-drawn numeral '1', nothing else in frame."
+    },
+    {
+      "file": "1_51.jpg",
+      "startSec": 111.02,
+      "text": "sesiones activas que no reconoces.",
+      "scene": "Medium shot: the protagonist brown monkey (the viewer's own account) staring at a giant screen prop full of simple generic device icons (phone, laptop, tablet silhouettes), one icon glowing red, confused pointing gesture."
+    },
+    {
+      "file": "1_53.jpg",
+      "startSec": 113.22,
+      "text": "Google, Instagram, WhatsApp o tu banco,",
+      "scene": "Wide shot: four simple generic app-icon shaped blank squares in a row (no real logos), monkey glancing between them."
+    },
+    {
+      "file": "1_55.jpg",
+      "startSec": 115.82,
+      "text": "te dejan verdes de que dispositivos hay sesión abierta.",
+      "scene": "Medium shot: the protagonist brown monkey (the viewer's own account) scrolling through a giant screen prop listing simple device silhouette icons stacked vertically, curious expression."
+    },
+    {
+      "file": "1_58.jpg",
+      "startSec": 118.96,
+      "text": "Si ahí aparece un móvil Andro y de en Vietnam y tú tienes un iPhone en Murcia,",
+      "scene": "Wide shot: a simple world-map-shaped blank prop with two pins far apart, one glowing red, the protagonist brown monkey (the viewer's own account) pointing between them with alarmed face."
+    },
+    {
+      "file": "2_02.jpg",
+      "startSec": 122.92,
+      "text": "ya lo sabes.",
+      "scene": "Extreme close-up of the protagonist brown monkey (the viewer's own account)'s face, eyes narrowed, knowing serious expression."
+    },
+    {
+      "file": "2_04.jpg",
+      "startSec": 124.66,
+      "text": "Señal número dos,",
+      "scene": "Extreme close-up: a giant plaque with a huge hand-drawn numeral '2', nothing else in frame."
+    },
+    {
+      "file": "2_05.jpg",
+      "startSec": 125.78,
+      "text": "un correo de tu contraseña ha cambiado que tú no pediste.",
+      "scene": "Medium shot: the protagonist brown monkey (the viewer's own account) holding a giant envelope prop with a simple padlock icon drawn on it, surprised open-mouth expression."
+    },
+    {
+      "file": "2_09.jpg",
+      "startSec": 129.84,
+      "text": "No lo gorres.",
+      "scene": "Close-up: the protagonist brown monkey (the viewer's own account) shaking its head firmly, one hand raised in a 'stop' gesture."
+    },
+    {
+      "file": "2_11.jpg",
+      "startSec": 131.05,
+      "text": "Ese correo suele ser el último viso antes de perder la cuenta.",
+      "scene": "Wide shot: the protagonist brown monkey (the viewer's own account) standing at the edge of a giant hand-drawn cliff-shaped prop, the envelope with padlock icon floating right at the edge, dramatic tension pose."
+    },
+    {
+      "file": "2_14.jpg",
+      "startSec": 134.48,
+      "text": "Y su primo hermano es igual de peligroso,",
+      "scene": "Medium shot: the protagonist brown monkey (the viewer's own account) raising an eyebrow next to a second envelope prop appearing beside the first, side by side comparison pose."
+    },
+    {
+      "file": "2_16.jpg",
+      "startSec": 136.66,
+      "text": "un código de verificación que llega sin que tú lo pidieras.",
+      "scene": "Close-up: a giant phone-shaped prop showing a huge hand-drawn numeral sequence like '4 8 2 1' as a verification code, question marks floating around it."
+    },
+    {
+      "file": "2_20.jpg",
+      "startSec": 140.18,
+      "text": "Si te llega un código que no ha solicitado, alguien está probando tu contraseña.",
+      "scene": "Wide shot: a shadowy intruder monkey wearing a BLACK hoodie with the hood UP casting a shadow over its face (eyes glowing faintly), no badge, seen only as a silhouette or partial reflection, never fully lit silhouette in the background typing on a giant blank keyboard prop, the protagonist brown monkey (the viewer's own account) in foreground staring at the phone with the code, worried."
+    },
+    {
+      "file": "2_24.jpg",
+      "startSec": 144.44,
+      "text": "Y la tiene.",
+      "scene": "Extreme close-up of a shadowy intruder monkey wearing a BLACK hoodie with the hood UP casting a shadow over its face (eyes glowing faintly), no badge, seen only as a silhouette or partial reflection, never fully lit's glowing eyes under the hood, smug and menacing."
+    },
+    {
+      "file": "2_26.jpg",
+      "startSec": 146.22,
+      "text": "Señal número tres,",
+      "scene": "Extreme close-up: a giant plaque with a huge hand-drawn numeral '3', nothing else in frame."
+    },
+    {
+      "file": "2_27.jpg",
+      "startSec": 147.46,
+      "text": "tu móvil se queda sin cobertura de repente.",
+      "scene": "Medium shot: the protagonist brown monkey (the viewer's own account) holding up a giant phone prop with a crossed-out signal bars icon on the screen, confused frustrated expression."
+    },
+    {
+      "file": "2_30.jpg",
+      "startSec": 150.08,
+      "text": "Eso puede ser un sim -swapping.",
+      "scene": "Close-up: a giant simple SIM-card shaped prop being pulled out of a phone by a shadowy hand silhouette."
+    },
+    {
+      "file": "2_32.jpg",
+      "startSec": 152.16,
+      "text": "Alguien ha llamado tu operadora haciéndose pasar por ti y ha portado tu número a su tarjeta. Desde ese segundo,",
+      "scene": "Wide shot: a shadowy intruder monkey wearing a BLACK hoodie with the hood UP casting a shadow over its face (eyes glowing faintly), no badge, seen only as a silhouette or partial reflection, never fully lit silhouette on a giant old-fashioned telephone prop with a speech bubble containing a simple mask icon (impersonation), the protagonist brown monkey (the viewer's own account) unaware in background."
+    },
+    {
+      "file": "2_38.jpg",
+      "startSec": 158.42,
+      "text": "todos tus SMS de verificación llegan a su móvil, no al tuyo.",
+      "scene": "Wide shot: giant envelope icons flying in an arc from a cloud shape toward a shadowy intruder monkey wearing a BLACK hoodie with the hood UP casting a shadow over its face (eyes glowing faintly), no badge, seen only as a silhouette or partial reflection, never fully lit's silhouette holding a phone, none reaching the protagonist brown monkey (the viewer's own account) standing confused nearby."
+    },
+    {
+      "file": "2_42.jpg",
+      "startSec": 162.72,
+      "text": "El SDI recibió 1 .600 denuncias de sim -swapping en 2021,",
+      "scene": "Medium shot: a giant plaque with huge numeral '1.600' and short word 'DENUNCIAS', a small calendar corner showing '2021'."
+    },
+    {
+      "file": "2_47.jpg",
+      "startSec": 167.62,
+      "text": "casi 70 millones de dólares en pérdidas en un solo año.",
+      "scene": "Close-up: a giant plaque with huge numeral '70M' and a simple dollar-sign icon, coins spilling from it in flat cartoon style."
+    },
+    {
+      "file": "2_51.jpg",
+      "startSec": 171.72,
+      "text": "Frente a unas 300 denuncias en los tres años anteriores juntos,",
+      "scene": "Wide shot: a much smaller plaque with numeral '300' beside the huge '1.600' plaque from before, clear size contrast, monkey comparing them."
+    },
+    {
+      "file": "2_55.jpg",
+      "startSec": 175.46,
+      "text": "se multiplicó por 5.",
+      "scene": "Extreme close-up: a giant hand-drawn multiplication symbol 'x5' with the protagonist brown monkey (the viewer's own account)'s shocked face beside it."
+    },
+    {
+      "file": "2_57.jpg",
+      "startSec": 177.84,
+      "text": "Señal número 4 y esta es mi favorita,",
+      "scene": "Extreme close-up: a giant plaque with a huge hand-drawn numeral '4', nothing else, slightly more decorated/highlighted than the previous plaques."
+    },
+    {
+      "file": "3_00.jpg",
+      "startSec": 180.56,
+      "text": "porque es la más silenciosa de todas.",
+      "scene": "Medium shot: the protagonist brown monkey (the viewer's own account) tiptoeing exaggeratedly across the frame, one finger to lips, comic silent pose."
+    },
+    {
+      "file": "3_02.jpg",
+      "startSec": 182.58,
+      "text": "Reglas de reenvió automático creadas en tu correo sin que tú lo sepas.",
+      "scene": "Wide shot: a shadowy intruder monkey wearing a BLACK hoodie with the hood UP casting a shadow over its face (eyes glowing faintly), no badge, seen only as a silhouette or partial reflection, never fully lit silhouette quietly attaching a giant arrow-shaped 'redirect' icon to a large envelope prop, the protagonist brown monkey (the viewer's own account) unaware reading a book nearby."
+    },
+    {
+      "file": "3_07.jpg",
+      "startSec": 187.14,
+      "text": "Es una función legítima,",
+      "scene": "Close-up: a giant envelope prop with a simple arrow icon on it, calm neutral lighting, no characters, presented plainly."
+    },
+    {
+      "file": "3_08.jpg",
+      "startSec": 188.7,
+      "text": "sirve para reenviar copias de tus correos a otra dirección.",
+      "scene": "Medium shot: two giant envelope props connected by a curved arrow, one splitting into two identical copies, simple diagram-like staging with monkey watching."
+    },
+    {
+      "file": "3_12.jpg",
+      "startSec": 192.1,
+      "text": "El atacante entra, crea una regla y sale.",
+      "scene": "Sequential wide shot: three small vignette-like poses of a shadowy intruder monkey wearing a BLACK hoodie with the hood UP casting a shadow over its face (eyes glowing faintly), no badge, seen only as a silhouette or partial reflection, never fully lit silhouette walking in, touching the envelope-arrow icon, and walking out, motion arrows between the poses."
+    },
+    {
+      "file": "3_15.jpg",
+      "startSec": 195.42,
+      "text": "Ya no necesita tu contraseña nunca más.",
+      "scene": "Close-up: a shadowy intruder monkey wearing a BLACK hoodie with the hood UP casting a shadow over its face (eyes glowing faintly), no badge, seen only as a silhouette or partial reflection, never fully lit silhouette tossing away a giant padlock/key prop carelessly over its shoulder, confident posture."
+    },
+    {
+      "file": "3_18.jpg",
+      "startSec": 198.26,
+      "text": "Le llega una copia de todo, cada día, para siempre.",
+      "scene": "Wide shot: an endless line of identical giant envelope icons marching toward a shadowy intruder monkey wearing a BLACK hoodie with the hood UP casting a shadow over its face (eyes glowing faintly), no badge, seen only as a silhouette or partial reflection, never fully lit's silhouette, repeating pattern trailing off into the distance."
+    },
+    {
+      "file": "3_21.jpg",
+      "startSec": 201.54,
+      "text": "Y encima suelen añadir un filtro para que los avisos de seguridad se borren solos antes de que los veas.",
+      "scene": "Medium shot: the protagonist brown monkey (the viewer's own account) looking puzzled at an empty inbox tray prop, a single torn scrap of paper (a deleted-alert icon) falling into a trash bin beside it."
+    },
+    {
+      "file": "3_27.jpg",
+      "startSec": 207.58,
+      "text": "Así funciona el fraude del CEO,",
+      "scene": "Wide shot: a giant simple necktie-and-briefcase icon prop (generic 'boss' figure, no face) standing beside a stack of blank documents, presented plainly."
+    },
+    {
+      "file": "3_29.jpg",
+      "startSec": 209.48,
+      "text": "el fraude de la factura falsa.",
+      "scene": "Close-up: a giant blank invoice-shaped paper prop with a big red X drawn across it."
+    },
+    {
+      "file": "3_31.jpg",
+      "startSec": 211.32,
+      "text": "El FBI cifró esas estafas en más de 2 .900 millones de dólares de pérdidas en un solo año.",
+      "scene": "Medium shot: a giant plaque with huge numeral '2.900M' and a simple dollar-sign icon, coins pouring out in flat style."
+    },
+    {
+      "file": "3_38.jpg",
+      "startSec": 218.8,
+      "text": "Señal número 5,",
+      "scene": "Extreme close-up: a giant plaque with a huge hand-drawn numeral '5', nothing else in frame."
+    },
+    {
+      "file": "3_40.jpg",
+      "startSec": 220.3,
+      "text": "dispositivos o aplicaciones vinculadas que no conoces.",
+      "scene": "Medium shot: the protagonist brown monkey (the viewer's own account) scrolling through a giant screen prop showing a vertical list of simple generic app-icon squares, one glowing red and unfamiliar, puzzled expression."
+    },
+    {
+      "file": "3_43.jpg",
+      "startSec": 223.78,
+      "text": "En WhatsApp se llaman dispositivos vinculados,",
+      "scene": "Close-up: a giant phone-shaped prop with three small simple device-silhouette icons linked by a chain-icon beneath it."
+    },
+    {
+      "file": "3_46.jpg",
+      "startSec": 226.4,
+      "text": "en Google aplicaciones con acceso a tu cuenta.",
+      "scene": "Close-up: a giant screen prop showing a simple generic key icon next to a padlock icon, representing granted access, no real logos."
+    },
+    {
+      "file": "3_49.jpg",
+      "startSec": 229.28,
+      "text": "Ahí puede haber un permiso que diste hace cuatro años a una app de filtros de fotos.",
+      "scene": "Wide shot: the protagonist brown monkey (the viewer's own account) looking at an old dusty giant plaque with numeral '4' and short word 'AÑOS', a simple camera/filter icon on it covered in cobwebs, nostalgic surprised face."
+    },
+    {
+      "file": "3_53.jpg",
+      "startSec": 233.84,
+      "text": "Ese permiso sigue vivo y sigue leyendo.",
+      "scene": "Close-up: the same dusty plaque now with a single glowing eye icon drawn on it, still 'watching', unsettling calm."
+    },
+    {
+      "file": "3_57.jpg",
+      "startSec": 237.04,
+      "text": "Ahora la parte que nadie cuenta,",
+      "scene": "Medium shot: the protagonist brown monkey (the viewer's own account) turning to face the camera directly, leaning in, conspiratorial serious expression."
+    },
+    {
+      "file": "3_59.jpg",
+      "startSec": 239.08,
+      "text": "¿por qué no quiere que lo notes?",
+      "scene": "Extreme close-up of the protagonist brown monkey (the viewer's own account)'s face, one eyebrow raised, genuinely curious questioning look."
+    },
+    {
+      "file": "4_01.jpg",
+      "startSec": 241.46,
+      "text": "Aquí está la parte que casi nadie explica bien.",
+      "scene": "Medium shot: the protagonist brown monkey (the viewer's own account) standing beside a giant blank open book prop, pointing at a page, teaching pose."
+    },
+    {
+      "file": "4_04.jpg",
+      "startSec": 244.02,
+      "text": "El atacante medio no quiere hacer ruido.",
+      "scene": "Wide shot: a shadowy intruder monkey wearing a BLACK hoodie with the hood UP casting a shadow over its face (eyes glowing faintly), no badge, seen only as a silhouette or partial reflection, never fully lit silhouette standing very still with a finger to its lips, deliberately calm and quiet pose."
+    },
+    {
+      "file": "4_06.jpg",
+      "startSec": 246.22,
+      "text": "Al revés, hace todo lo posible por no hacerlo.",
+      "scene": "Close-up: a shadowy intruder monkey wearing a BLACK hoodie with the hood UP casting a shadow over its face (eyes glowing faintly), no badge, seen only as a silhouette or partial reflection, never fully lit silhouette carefully stepping around a giant drawn bell prop on the floor, avoiding touching it, exaggerated careful tiptoe."
+    },
+    {
+      "file": "4_09.jpg",
+      "startSec": 249.48,
+      "text": "Porque tu cuenta vale mucho más viva que quemada.",
+      "scene": "Wide shot: two giant simple icons side by side — a glowing healthy padlock icon labeled visually with a small heart shape, versus a cracked broken padlock icon with a small skull shape, clear contrast."
+    },
+    {
+      "file": "4_12.jpg",
+      "startSec": 252.22,
+      "text": "Si cambia tu contraseña y bloquea tu acceso,",
+      "scene": "Medium shot: the protagonist brown monkey (the viewer's own account) pulling on a giant door handle prop that won't open, a padlock icon drawn on the door, frustrated pushing pose."
+    },
+    {
+      "file": "4_14.jpg",
+      "startSec": 254.76,
+      "text": "tu tenteras en horas y llamas a soporte.",
+      "scene": "Close-up: the protagonist brown monkey (the viewer's own account) holding a giant old-fashioned telephone prop to its ear, worried urgent expression."
+    },
+    {
+      "file": "4_17.jpg",
+      "startSec": 257.08,
+      "text": "Si no tocan nada, tiene tu correo, tus facturas, tus contactos y tu identidad durante meses.",
+      "scene": "Wide shot: a shadowy intruder monkey wearing a BLACK hoodie with the hood UP casting a shadow over its face (eyes glowing faintly), no badge, seen only as a silhouette or partial reflection, never fully lit silhouette calmly surrounded by four simple floating icons (envelope, invoice paper, contact-card, ID-card), all glowing faintly, unhurried relaxed posture."
+    },
+    {
+      "file": "4_22.jpg",
+      "startSec": 262.69,
+      "text": "Y con tu correo puede recetear la contraseña de todo lo demás.",
+      "scene": "Medium shot: a shadowy intruder monkey wearing a BLACK hoodie with the hood UP casting a shadow over its face (eyes glowing faintly), no badge, seen only as a silhouette or partial reflection, never fully lit silhouette holding a giant glowing key-shaped envelope icon that unlocks a whole row of small padlock icons in sequence, chain-reaction staging."
+    },
+    {
+      "file": "4_26.jpg",
+      "startSec": 266.48,
+      "text": "Tu correo es el llaverio romáestro. Por eso los ataques buenos son aburridos.",
+      "scene": "Close-up: a giant oversized keyring prop with many small keys hanging from it, one key glowing brighter than the rest, presented plainly on white background."
+    },
+    {
+      "file": "4_30.jpg",
+      "startSec": 270.79,
+      "text": "¿No hay pantallas verdes?",
+      "scene": "Wide shot: a giant screen prop, plain and dim, with a big red X drawn over a small green-glow icon, contradicting the movie cliché."
+    },
+    {
+      "file": "4_32.jpg",
+      "startSec": 272.26,
+      "text": "No hay letras cayendo.",
+      "scene": "Close-up: a few scattered simple letter-shaped props lying flat and still on the ground, crossed out with a red X, static instead of falling."
+    },
+    {
+      "file": "4_33.jpg",
+      "startSec": 273.8,
+      "text": "Hay alguien leyendo tus conversaciones en silencio y esperando el momento adecuado.",
+      "scene": "Medium shot: a shadowy intruder monkey wearing a BLACK hoodie with the hood UP casting a shadow over its face (eyes glowing faintly), no badge, seen only as a silhouette or partial reflection, never fully lit silhouette sitting calmly reading a giant scroll of chat-bubble icons, patient unbothered posture, dim navy background suggesting night."
+    },
+    {
+      "file": "4_38.jpg",
+      "startSec": 278.94,
+      "text": "Por ejemplo,",
+      "scene": "Close-up of the protagonist brown monkey (the viewer's own account) gesturing with one open hand, about to explain, neutral expression."
+    },
+    {
+      "file": "4_39.jpg",
+      "startSec": 279.97,
+      "text": "el día que estás comprando un piso y esperas una transferencia.",
+      "scene": "Wide shot: the protagonist brown monkey (the viewer's own account) standing happily in front of a giant simple house-shaped icon prop with a 'SOLD' style blank plaque, holding a phone waiting."
+    },
+    {
+      "file": "4_43.jpg",
+      "startSec": 283.36,
+      "text": "Ahí aparece un correo perfecto, con tu hilo real citado y un número de cuenta cambiado. Pero lo que de verdad te mata no es ninguna de esas cinco.",
+      "scene": "Medium shot: the protagonist brown monkey (the viewer's own account) staring at a giant envelope prop with a simple bank-card icon on it, a red exclamation mark subtly drawn beside a switched digit, dawning worried realization."
+    },
+    {
+      "file": "4_52.jpg",
+      "startSec": 292.23,
+      "text": "Y ahora la pregunta importante.",
+      "scene": "Extreme close-up of the protagonist brown monkey (the viewer's own account)'s face, serious focused expression, direct eye contact with camera."
+    },
+    {
+      "file": "4_54.jpg",
+      "startSec": 294.41,
+      "text": "¿Cómo llegan a tu contraseña si tú no le has dado nada a nadie?",
+      "scene": "Medium shot: the protagonist brown monkey (the viewer's own account) scratching its head with a giant padlock prop floating with a big question mark above it, puzzled pose."
+    },
+    {
+      "file": "4_58.jpg",
+      "startSec": 298.15,
+      "text": "La mayoría de las veces no te jakean a ti,",
+      "scene": "Wide shot: the protagonist brown monkey (the viewer's own account) standing alone, spotlight-like white void around it, singled out."
+    },
+    {
+      "file": "5_00.jpg",
+      "startSec": 300.72,
+      "text": "te reciclan.",
+      "scene": "Close-up: a giant simple recycling-arrow icon (three arrows in a triangle) drawn plainly, no other elements."
+    },
+    {
+      "file": "5_01.jpg",
+      "startSec": 301.86,
+      "text": "Se llama Credential Stuffing.",
+      "scene": "Close-up: a giant blank plaque with a simple funnel icon stuffed with tiny key-shaped icons pouring into it, plain staging, no English words visible."
+    },
+    {
+      "file": "5_04.jpg",
+      "startSec": 304.31,
+      "text": "Roban una base de datos de una web cualquiera,",
+      "scene": "Wide shot: a shadowy intruder monkey wearing a BLACK hoodie with the hood UP casting a shadow over its face (eyes glowing faintly), no badge, seen only as a silhouette or partial reflection, never fully lit silhouette lifting a giant simple database-cylinder icon prop off a small generic website-window icon, sneaky pose."
+    },
+    {
+      "file": "5_06.jpg",
+      "startSec": 306.76,
+      "text": "una tienda pequeña, un foro viejo de 2012.",
+      "scene": "Medium shot: two small simple icons side by side — a tiny shop-front icon and a dusty forum/speech-bubble icon with a small plaque reading '2012', both plain and unbranded."
+    },
+    {
+      "file": "5_09.jpg",
+      "startSec": 309.93,
+      "text": "Coge en esos millones de correos y contraseñas y los prueban automatizados en Gmail,",
+      "scene": "Wide shot: a shadowy intruder monkey wearing a BLACK hoodie with the hood UP casting a shadow over its face (eyes glowing faintly), no badge, seen only as a silhouette or partial reflection, never fully lit silhouette in front of a giant control-panel prop with rows of small envelope and key icons feeding into it, mechanical automated feel."
+    },
+    {
+      "file": "5_14.jpg",
+      "startSec": 314.66,
+      "text": "en Amazon, en tu banco.",
+      "scene": "Medium shot: three simple generic icons in a row — a shopping-cart icon, a bank-column icon, a padlock icon — each being tried in sequence, small arrows pointing between them."
+    },
+    {
+      "file": "5_16.jpg",
+      "startSec": 316.41,
+      "text": "La tasa de acierto es baja, en torno al 1 por ciento.",
+      "scene": "Close-up: a giant plaque with huge numeral '1%' and a single small padlock icon glowing green among a grid of many dim grey padlock icons."
+    },
+    {
+      "file": "5_19.jpg",
+      "startSec": 319.86,
+      "text": "Pero cuando pruebas 100 millones de combinaciones, el 1 por ciento es un millón de cuentas.",
+      "scene": "Wide shot: an overwhelming grid filling the frame of tiny padlock icons, a giant plaque with numeral '1.000.000' overlaid, scale contrast emphasized."
+    },
+    {
+      "file": "5_24.jpg",
+      "startSec": 325.02,
+      "text": "En 2019 apareció una recopilación llamada Collection Number One,",
+      "scene": "Medium shot: a giant plaque with numeral '2019' beside a large blank folder prop labeled visually with a simple stacked-documents icon and a big numeral '1' badge."
+    },
+    {
+      "file": "5_30.jpg",
+      "startSec": 330.36,
+      "text": "773 millones de correos y 21 millones de contraseñas únicas en un solo archivo.",
+      "scene": "Close-up: a giant plaque split in two showing huge numerals '773M' above a small envelope icon, and '21M' above a small key icon, side by side."
+    },
+    {
+      "file": "5_36.jpg",
+      "startSec": 336.54,
+      "text": "Nada de eso requiere talento,",
+      "scene": "Medium shot: a shadowy intruder monkey wearing a BLACK hoodie with the hood UP casting a shadow over its face (eyes glowing faintly), no badge, seen only as a silhouette or partial reflection, never fully lit silhouette shrugging carelessly, simple relaxed posture, no props, plain background."
+    },
+    {
+      "file": "5_38.jpg",
+      "startSec": 338.66,
+      "text": "requiere que tú reutilices la contraseña.",
+      "scene": "Close-up: the protagonist brown monkey (the viewer's own account) nervously looking at a single key icon that has been copy-pasted into many identical padlock icons in a row, guilty realization."
+    },
+    {
+      "file": "5_41.jpg",
+      "startSec": 341.41,
+      "text": "Y ese es el punto.",
+      "scene": "Extreme close-up of the protagonist brown monkey (the viewer's own account)'s face, eyes narrowing in understanding."
+    },
+    {
+      "file": "5_42.jpg",
+      "startSec": 343.14,
+      "text": "No te pillan porque sea su objetivo.",
+      "scene": "Wide shot: a shadowy intruder monkey wearing a BLACK hoodie with the hood UP casting a shadow over its face (eyes glowing faintly), no badge, seen only as a silhouette or partial reflection, never fully lit silhouette standing among many identical faceless padlock-icon silhouettes, indistinguishable, not specifically aiming at any one."
+    },
+    {
+      "file": "5_45.jpg",
+      "startSec": 345.35,
+      "text": "Te pillan porque eres barato.",
+      "scene": "Close-up: a giant plaque with a simple price-tag icon and a very low drawn price mark, the protagonist brown monkey (the viewer's own account) looking offended/surprised beside it."
+    },
+    {
+      "file": "5_47.jpg",
+      "startSec": 347.43,
+      "text": "Vamos a lo práctico.",
+      "scene": "Medium shot: the protagonist brown monkey (the viewer's own account) rolling up sleeves again, determined confident stance, white background, checklist prop in hand."
+    },
+    {
+      "file": "5_48.jpg",
+      "startSec": 348.94,
+      "text": "10 minutos, ahora mismo, y sales de dudas.",
+      "scene": "Close-up: a giant stopwatch prop with huge numeral '10' and short word 'MIN', ticking hands drawn mid-motion."
+    },
+    {
+      "file": "5_51.jpg",
+      "startSec": 351.93,
+      "text": "Esto es accionable.",
+      "scene": "Medium shot: the protagonist brown monkey (the viewer's own account) holding a giant blank checklist prop with simple empty checkbox icons down the side, pen in hand ready to check them."
+    },
+    {
+      "file": "5_53.jpg",
+      "startSec": 353.33,
+      "text": "Puedes hacerlo al acabar el video y deberías.",
+      "scene": "Close-up: the protagonist brown monkey (the viewer's own account) pointing at the camera with one hand, encouraging determined expression."
+    },
+    {
+      "file": "5_56.jpg",
+      "startSec": 356.36,
+      "text": "Uno,",
+      "scene": "Extreme close-up: a giant plaque with a huge hand-drawn numeral '1', clean and highlighted like a checklist item."
+    },
+    {
+      "file": "5_56_b.jpg",
+      "startSec": 357.21,
+      "text": "entre en la seguridad de tu cuenta de Google y de Instagram y mira las sesiones activas.",
+      "scene": "Medium shot: the protagonist brown monkey (the viewer's own account) tapping on a giant screen prop showing a simple padlock-shield icon and a vertical list of small device-silhouette icons beneath it."
+    },
+    {
+      "file": "6_01.jpg",
+      "startSec": 362.3,
+      "text": "Cierra todas las que no reconozcas y luego cambia la contraseña en ese orden.",
+      "scene": "Wide shot: the protagonist brown monkey (the viewer's own account) pressing giant X-shaped icons over three unfamiliar device silhouettes one by one, then a padlock icon being redrawn/refreshed."
+    },
+    {
+      "file": "6_07.jpg",
+      "startSec": 367.42,
+      "text": "Dos,",
+      "scene": "Extreme close-up: a round coin-shaped medallion with ONLY the numeral 2 engraved on it and a checkmark beside it, nothing else engraved, no other text or word anywhere, no calendar, no torn paper, no wood texture."
+    },
+    {
+      "file": "6_07_b.jpg",
+      "startSec": 368.18,
+      "text": "entre los ajustes de renvío y en los filtros de tu correo.",
+      "scene": "Medium shot: the protagonist brown monkey (the viewer's own account) opening a giant envelope-shaped settings panel prop with a simple arrow-icon and a funnel/filter-icon on two tabs."
+    },
+    {
+      "file": "6_11.jpg",
+      "startSec": 371.72,
+      "text": "Casi nadie ha mirado eso en su vida.",
+      "scene": "Close-up: the protagonist brown monkey (the viewer's own account) looking mildly embarrassed, scratching head, a dusty untouched icon panel in front of it covered in light cobwebs."
+    },
+    {
+      "file": "6_13.jpg",
+      "startSec": 373.86,
+      "text": "Míralo,",
+      "scene": "Extreme close-up of the protagonist brown monkey (the viewer's own account)'s face, eyes wide open, urging directly at camera."
+    },
+    {
+      "file": "6_14.jpg",
+      "startSec": 374.65,
+      "text": "es donde se esconde los intrusos pacientes.",
+      "scene": "Wide shot: a shadowy intruder monkey wearing a BLACK hoodie with the hood UP casting a shadow over its face (eyes glowing faintly), no badge, seen only as a silhouette or partial reflection, never fully lit silhouette curled up small and hidden behind a giant folder-tab prop labeled visually with the arrow-icon, peeking out slightly."
+    },
+    {
+      "file": "6_17.jpg",
+      "startSec": 377.58,
+      "text": "Tres,",
+      "scene": "Extreme close-up: a giant plaque with a huge hand-drawn numeral '3', clean checklist style."
+    },
+    {
+      "file": "6_17_b.jpg",
+      "startSec": 378.3,
+      "text": "comprovas si tu correo está en filtraciones conocidas.",
+      "scene": "Medium shot: the protagonist brown monkey (the viewer's own account) typing on a giant keyboard prop in front of a screen showing a simple magnifying-glass icon over an envelope icon."
+    },
+    {
+      "file": "6_21.jpg",
+      "startSec": 381.47,
+      "text": "La web, Java y WinPound,",
+      "scene": "Close-up: a giant screen prop showing a simple magnifying-glass-over-database icon, plain and unbranded, no real logos or English words."
+    },
+    {
+      "file": "6_23.jpg",
+      "startSec": 383.44,
+      "text": "lo hace gratis y llevan miles de millones de cuentas indexadas.",
+      "scene": "Wide shot: an enormous grid of tiny envelope icons filling the whole frame, a giant plaque with numeral '1.000M+' overlaid."
+    },
+    {
+      "file": "6_26.jpg",
+      "startSec": 387.15,
+      "text": "Si tu correo sale ahí con la contraseña que sigue usando,",
+      "scene": "Medium shot: the protagonist brown monkey (the viewer's own account) looking at a giant screen prop with a red-glowing envelope icon and a red-glowing key icon side by side, alarmed expression."
+    },
+    {
+      "file": "6_30.jpg",
+      "startSec": 390.56,
+      "text": "cambia la antes de seguir viendo esto.",
+      "scene": "Close-up: the protagonist brown monkey (the viewer's own account) urgently redrawing/erasing a key icon and replacing it with a new glowing one, determined action pose."
+    },
+    {
+      "file": "6_32.jpg",
+      "startSec": 393.23,
+      "text": "Cuatro,",
+      "scene": "Extreme close-up: a round coin-shaped medallion with ONLY the numeral 4 engraved on it and a checkmark beside it, nothing else engraved, no other text or word anywhere, no calendar, no torn paper, no wood texture."
+    },
+    {
+      "file": "6_33.jpg",
+      "startSec": 394.09,
+      "text": "quita el SMS como segundo factor donde puedas, porque el SMS depende de tu operadora y tu operadora se pueden cañar por teléfono.",
+      "scene": "Medium shot: the protagonist brown monkey (the viewer's own account) drawing a red X over a small speech-bubble/SMS icon, a giant old-fashioned telephone prop with a suspicious a shadowy intruder monkey wearing a BLACK hoodie with the hood UP casting a shadow over its face (eyes glowing faintly), no badge, seen only as a silhouette or partial reflection, never fully lit silhouette faintly visible behind it."
+    },
+    {
+      "file": "6_41.jpg",
+      "startSec": 402.24,
+      "text": "Usa una app de autenticación o mejor, una llave física.",
+      "scene": "Wide shot: two simple icons side by side — a shield-with-clock icon (authenticator app) and a small physical key-shaped USB icon, both glowing green, presented as better options."
+    },
+    {
+      "file": "6_45.jpg",
+      "startSec": 406.45,
+      "text": "Microsoft calculó que el doble factor bloquea más del 99 % de los ataques de cuenta.",
+      "scene": "Close-up: a giant plaque with huge numeral '99%' and a simple shield icon glowing brightly beside it."
+    },
+    {
+      "file": "6_51.jpg",
+      "startSec": 412.33,
+      "text": "Cinco,",
+      "scene": "Extreme close-up: a round coin-shaped medallion with ONLY the numeral 5 engraved on it and a checkmark beside it, nothing else engraved, no other text or word anywhere, no calendar, no torn paper, no wood texture."
+    },
+    {
+      "file": "6_52.jpg",
+      "startSec": 413.2,
+      "text": "un gestor de contraseñas.",
+      "scene": "Medium shot: the protagonist brown monkey (the viewer's own account) holding a giant simple vault/safe-shaped icon prop with a key icon on its door, presenting it proudly."
+    },
+    {
+      "file": "6_54.jpg",
+      "startSec": 414.9,
+      "text": "No es para Gix,",
+      "scene": "Close-up: the protagonist brown monkey (the viewer's own account) shaking head with a reassuring 'relax' gesture, open palm forward, friendly expression."
+    },
+    {
+      "file": "6_55.jpg",
+      "startSec": 416.09,
+      "text": "es para no reutilizar nunca más.",
+      "scene": "Wide shot: a row of many identical key icons being fed into the vault prop one by one and each coming out different/unique, transformation staged plainly."
+    },
+    {
+      "file": "6_58.jpg",
+      "startSec": 418.58,
+      "text": "Con eso, una brecha en un foro viejo deja de ser una brecha en toda tu vida.",
+      "scene": "Medium shot: the protagonist brown monkey (the viewer's own account) standing confidently in front of a small cracked forum icon on one side and a large intact shield icon protecting many other padlock icons on the other side, clear before/after staging."
+    },
+    {
+      "file": "7_03.jpg",
+      "startSec": 423.61,
+      "text": "Y queda una última cosa,",
+      "scene": "Close-up of the protagonist brown monkey (the viewer's own account) raising one finger, about to make a final important point, serious expression."
+    },
+    {
+      "file": "7_04.jpg",
+      "startSec": 425.32,
+      "text": "la más importante de todas.",
+      "scene": "Extreme close-up: a giant plaque with a hand-drawn star icon, highlighted and glowing, nothing else in frame."
+    },
+    {
+      "file": "7_07.jpg",
+      "startSec": 427.75,
+      "text": "Y aquí toca ser honesto contigo.",
+      "scene": "Medium shot: the protagonist brown monkey (the viewer's own account) looking directly at camera with a calm, sincere, slightly vulnerable expression, hand on chest."
+    },
+    {
+      "file": "7_09.jpg",
+      "startSec": 430.09,
+      "text": "Ninguna de estas señales prueba por sí sola que te hayan jaqueado.",
+      "scene": "Wide shot: the five numbered plaques from earlier lined up again, each with a small question mark floating above it instead of a checkmark."
+    },
+    {
+      "file": "7_13.jpg",
+      "startSec": 434.19,
+      "text": "Una sesión rara puede ser tu propio móvil viejo.",
+      "scene": "Medium shot: the protagonist brown monkey (the viewer's own account) looking relieved, holding up an old dusty phone-silhouette icon prop, a small 'it's just me' gesture."
+    },
+    {
+      "file": "7_16.jpg",
+      "startSec": 437.26,
+      "text": "Una caída de cobertura puede ser solo mala cobertura.",
+      "scene": "Close-up: a giant phone prop with a weak signal-bars icon, a simple cloud/rain icon drawn beside it suggesting ordinary bad weather, not an attack."
+    },
+    {
+      "file": "7_20.jpg",
+      "startSec": 440.73,
+      "text": "La clave no es el pánico,",
+      "scene": "Close-up: the protagonist brown monkey (the viewer's own account) taking a deep calming breath, hand on chest, eyes closed peacefully."
+    },
+    {
+      "file": "7_22.jpg",
+      "startSec": 442.66,
+      "text": "es el patrón. Varias señales a la vez, el mismo día.",
+      "scene": "Wide shot: three of the five numbered plaques glowing together at once on a single giant calendar-day plaque, clustered pattern emphasized with connecting lines."
+    },
+    {
+      "file": "7_26.jpg",
+      "startSec": 446.95,
+      "text": "Y esto es divulgación defensiva.",
+      "scene": "Medium shot: the protagonist brown monkey (the viewer's own account) holding a giant shield icon prop protectively, calm reassuring stance, white background."
+    },
+    {
+      "file": "7_28.jpg",
+      "startSec": 449.2,
+      "text": "Todo lo que has visto son ajustes de tu cuenta.",
+      "scene": "Close-up: the protagonist brown monkey (the viewer's own account) gesturing openly at a giant simple settings-gear icon, transparent honest expression."
+    },
+    {
+      "file": "7_31.jpg",
+      "startSec": 452.19,
+      "text": "Mirar la seguridad de cuentas ajenas no es curiosidad,",
+      "scene": "Medium shot: a shadowy intruder monkey wearing a BLACK hoodie with the hood UP casting a shadow over its face (eyes glowing faintly), no badge, seen only as a silhouette or partial reflection, never fully lit silhouette reaching toward someone else's padlock icon, the protagonist brown monkey (the viewer's own account) in foreground shaking a finger 'no' at it."
+    },
+    {
+      "file": "7_34.jpg",
+      "startSec": 455.42,
+      "text": "es delito.",
+      "scene": "Close-up: a giant plaque with a simple gavel icon and a bold red exclamation mark, serious tone, dim background."
+    },
+    {
+      "file": "7_36.jpg",
+      "startSec": 457.09,
+      "text": "Volvamos al principio.",
+      "scene": "Wide shot: the protagonist brown monkey (the viewer's own account) back on the same sofa from the very first scene, echoing the opening composition, phone in hand."
+    },
+    {
+      "file": "7_38.jpg",
+      "startSec": 458.65,
+      "text": "Te dije que alguien podría llevar semanas dentro de tus cuentas.",
+      "scene": "Medium shot: the torn calendar plaque from earlier again, numeral '21' and word 'DIAS', now slightly faded/greyed to show it's the past."
+    },
+    {
+      "file": "7_41.jpg",
+      "startSec": 462.2,
+      "text": "Ahora ya no depende de que suene una alarma que nunca va a sonar.",
+      "scene": "Close-up: the blank alarm bell prop from earlier, crossed out with a red X, calm confident lighting."
+    },
+    {
+      "file": "7_45.jpg",
+      "startSec": 466.1,
+      "text": "Depende de cinco pantallas de ajustes que puedes abrir en 10 minutos.",
+      "scene": "Wide shot: the protagonist brown monkey (the viewer's own account) standing before five small glowing screen-icon props in a row, stopwatch prop showing '10' beside them, confident ready pose."
+    },
+    {
+      "file": "7_49.jpg",
+      "startSec": 470.43,
+      "text": "Esas la diferencia entre ser una víctima de 258 días y una de 10 minutos.",
+      "scene": "Medium shot: a giant plaque split in two — left side faded showing '258 DIAS', right side bright and bold showing '10 MIN' — clear contrast composition."
+    },
+    {
+      "file": "7_56.jpg",
+      "startSec": 476.91,
+      "text": "Si esto te ha hecho sacar el móvil a mitad del video, suscríbete,",
+      "scene": "Medium shot: the protagonist brown monkey (the viewer's own account) smiling warmly at the camera, holding up a phone, giant simple bell/subscribe-shaped icon glowing beside it (no English letters, just a plain bell icon)."
+    },
+    {
+      "file": "7_59.jpg",
+      "startSec": 480.57,
+      "text": "se viene más de este mundo.",
+      "scene": "Wide shot: the protagonist brown monkey (the viewer's own account) waving goodbye happily at the camera, bright white background, warm inviting close of the video."
+    }
+  ]
+}

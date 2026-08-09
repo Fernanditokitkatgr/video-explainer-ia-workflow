@@ -47,12 +47,12 @@ después son años.
 
 Capítulos:
 0:00 Por qué vale más que tu tarjeta
-0:21 De dónde sale de verdad tu DNI
-1:53 Cuánto vale tu identidad
-2:47 Para qué se usa exactamente
-4:02 Y esto te afecta a ti
-4:46 Qué puedes hacer desde hoy
-6:04 Lo que quiero que te lleves
+0:20 De dónde sale de verdad tu DNI
+1:44 Cuánto vale tu identidad
+2:34 Para qué se usa exactamente
+3:43 Y esto te afecta a ti
+4:24 Qué puedes hacer desde hoy
+5:38 Lo que quiero que te lleves
 
 Si esto te ha hecho mirar tu galería de fotos con otra cara, suscríbete: se viene más de
 este mundo.
@@ -68,15 +68,15 @@ sim swapping,ficheros de morosos,ASNEF,proteccion de datos,RGPD,filtracion de da
 fraude bancario,privacidad,phishing,seguridad documentos
 ```
 
-## Capítulos (timestamps reales, divididos por playback_rate 1.1)
+## Capítulos (timestamps reales, divididos por playback_rate 1.2 — recalculados tras el fix de voz)
 
 - 0:00 Por qué vale más que tu tarjeta
-- 0:21 De dónde sale de verdad tu DNI
-- 1:53 Cuánto vale tu identidad
-- 2:47 Para qué se usa exactamente
-- 4:02 Y esto te afecta a ti
-- 4:46 Qué puedes hacer desde hoy
-- 6:04 Lo que quiero que te lleves
+- 0:20 De dónde sale de verdad tu DNI
+- 1:44 Cuánto vale tu identidad
+- 2:34 Para qué se usa exactamente
+- 3:43 Y esto te afecta a ti
+- 4:24 Qué puedes hacer desde hoy
+- 5:38 Lo que quiero que te lleves
 
 ## Miniatura
 

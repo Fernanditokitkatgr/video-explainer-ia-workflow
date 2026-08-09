@@ -87,7 +87,23 @@ def effective_settings(stability: float = None, style: float = None) -> dict:
     }
 
 
-def _request_tts(text: str, retries: int = 3, stability: float = None, style: float = None) -> bytes:
+def _request_tts(text: str, retries: int = 3, stability: float = None, style: float = None,
+                 previous_request_ids: list[str] = None, previous_text: str = None,
+                 next_text: str = None) -> tuple[bytes, str | None]:
+    """Devuelve (audio_bytes, request_id).
+
+    COSTURA ENTRE FRAGMENTOS (ago-2026, bug real que salió en 2 de 3 vídeos):
+    cuando un guion supera MAX_CHARS_PER_REQUEST se trocea en varias llamadas, y
+    CADA llamada es una generación estocástica independiente. Con stability=0.10
+    (el .env del canal, muy expresivo) eso hacía que un fragmento saliera con otro
+    acento/timbre — el usuario lo detectó como "la voz cambia a mitad de vídeo" en
+    te-han-hackeado y en dni-robado, y hubo que regenerar y re-sincronizar a mano.
+
+    La solución de ElevenLabs para esto es el "request stitching": pasar los
+    request_id de los fragmentos ANTERIORES en `previous_request_ids`, más el
+    texto de contexto (`previous_text`/`next_text`). Así el modelo condiciona la
+    prosodia del fragmento nuevo con lo ya generado, en vez de empezar de cero.
+    """
     url = f"https://api.elevenlabs.io/v1/text-to-speech/{config.ELEVENLABS_VOICE_ID}"
     headers = {"xi-api-key": config.ELEVENLABS_API_KEY, "Content-Type": "application/json"}
     payload = {
@@ -95,11 +111,19 @@ def _request_tts(text: str, retries: int = 3, stability: float = None, style: fl
         "model_id": config.ELEVENLABS_MODEL_ID,
         "voice_settings": effective_settings(stability, style),
     }
+    # La API acepta como máximo 3 request_id previos.
+    if previous_request_ids:
+        payload["previous_request_ids"] = previous_request_ids[-3:]
+    if previous_text:
+        payload["previous_text"] = previous_text
+    if next_text:
+        payload["next_text"] = next_text
+
     last_err = ""
     for attempt in range(1, retries + 1):
         r = requests.post(url, json=payload, headers=headers, timeout=180)
         if r.status_code == 200:
-            return r.content
+            return r.content, r.headers.get("request-id")
         last_err = f"{r.status_code}: {r.text[:300]}"
         if r.status_code >= 500 and attempt < retries:  # error transitorio → reintenta
             wait = 2 ** attempt
@@ -161,20 +185,38 @@ def generate(script_path: Path, out_path: Path, retries: int = 3,
     if len(chunks) == 1:
         print(f"Enviando {len(text)} chars a ElevenLabs ({config.ELEVENLABS_MODEL_ID}, "
               f"voz {config.ELEVENLABS_VOICE_ID})…")
-        out_path.write_bytes(_request_tts(text, retries, stability, style))
+        audio, _ = _request_tts(text, retries, stability, style)
+        out_path.write_bytes(audio)
         _write_sidecar(out_path, vs)
         print(f"✅ Audio guardado en {out_path} ({out_path.stat().st_size // 1024} KB)")
         return
 
     print(f"Guion de {len(text)} chars supera el límite de {MAX_CHARS_PER_REQUEST}/request. "
-          f"Troceando en {len(chunks)} fragmentos…")
+          f"Troceando en {len(chunks)} fragmentos (con costura para que no cambie la voz)…")
     with tempfile.TemporaryDirectory() as tmp:
         tmp_dir = Path(tmp)
         part_paths = []
+        request_ids: list[str] = []
         for i, chunk in enumerate(chunks, start=1):
             print(f"  [{i}/{len(chunks)}] {len(chunk)} chars…")
+            # Contexto de costura: cola del fragmento anterior y cabeza del siguiente.
+            # Con esto + previous_request_ids el modelo continúa la MISMA interpretación
+            # en vez de empezar una nueva desde cero (ver docstring de _request_tts).
+            prev_text = chunks[i - 2][-400:] if i > 1 else None
+            next_text = chunks[i][:400] if i < len(chunks) else None
+            audio, req_id = _request_tts(
+                chunk, retries, stability, style,
+                previous_request_ids=request_ids,
+                previous_text=prev_text,
+                next_text=next_text,
+            )
+            if req_id:
+                request_ids.append(req_id)
+            else:
+                print("  ⚠️  ElevenLabs no devolvió request-id: este fragmento no queda "
+                      "cosido con el anterior, revisa que la voz no cambie en ese punto.")
             part_path = tmp_dir / f"part_{i:02d}.mp3"
-            part_path.write_bytes(_request_tts(chunk, retries, stability, style))
+            part_path.write_bytes(audio)
             part_paths.append(part_path)
         print("Uniendo fragmentos con ffmpeg…")
         _concat_mp3s(part_paths, out_path)

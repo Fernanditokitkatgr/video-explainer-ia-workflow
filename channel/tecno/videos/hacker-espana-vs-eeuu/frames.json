@@ -1,0 +1,852 @@
+{
+  "video": "hacker-espana-vs-eeuu",
+  "style_base": "Crude hand-drawn cartoon in the style of the 'Ecomonos' YouTube channel. PURE WHITE background as the default. Thick bold black ink outlines, flat solid colors, NO gradients, NO blur, NO depth of field, NO glow effects, NO soft shading — everything sharp, crisp and clean like a marker drawing. A recurring brown cartoon monkey character with VERY LARGE round white eyes and small black pupils, and a hugely exaggerated expressive face (wide toothy grin, shocked open mouth, half-lidded smug look, or furrowed angry brow depending on the moment). The monkey is BIG in frame, occupying roughly 40-60% of the image — never a tiny figure lost in a wide empty scene. Props and objects are drawn in bright saturated colors (yellow, orange, red, green, blue) that pop against the white background. The image must contain NO text at all: no words, no letters, no numbers, no captions, no signs and no labels. Every poster, plaque, shield, price tag, badge, calendar, screen and sheet of paper is drawn completely BLANK. The Spanish captions are added afterwards in the edit, so drawing them here would duplicate them and misspell them. Tell the whole idea with drawing, gesture and facial expression alone. Characters have exactly two arms and two hands. Only use a dark or moody background when the scene itself is explicitly at night, in a dark room, or lit by police lights — otherwise the background stays white. ",
+  "frames": [
+    {
+      "file": "0_00.jpg",
+      "startSec": 0.0,
+      "text": "Dos personas, mismo examen aprobado, mismo título, la misma habilidad exacta para hackear.",
+      "scene": "Wide shot: the protagonist monkey and a second identical monkey (same design, twin) standing side by side, both holding an identical certificate/medallion, mirrored confident poses."
+    },
+    {
+      "file": "0_06.jpg",
+      "startSec": 6.94,
+      "text": "Una vive en Madrid,",
+      "scene": "Medium shot: the protagonist monkey standing in front of a simple generic city skyline silhouette with a small Spain flag-striped ribbon on a signpost beside it."
+    },
+    {
+      "file": "0_08.jpg",
+      "startSec": 8.44,
+      "text": "la otra en San Francisco,",
+      "scene": "Medium shot: a second identical monkey (same design, twin) standing in front of a simple generic city skyline silhouette with a small USA flag-striped ribbon on a signpost beside it, a hilly street hinted behind."
+    },
+    {
+      "file": "0_10.jpg",
+      "startSec": 10.34,
+      "text": "y una de las dos gana casi cuatro veces más que la otra,",
+      "scene": "Wide shot: two stacks of coins side by side, one small, one four times taller, no characters, clear scale contrast."
+    },
+    {
+      "file": "0_13.jpg",
+      "startSec": 13.84,
+      "text": "por el mismo trabajo.",
+      "scene": "Close-up: the protagonist monkey and a second identical monkey (same design, twin) both typing on identical laptops, mirrored pose, identical screens."
+    },
+    {
+      "file": "0_15.jpg",
+      "startSec": 15.54,
+      "text": "Hoy vamos a poner las dos carreras una al lado de la otra, cifra por cifra, y al final vas a entender exactamente por qué pasa esto,",
+      "scene": "Wide shot: the protagonist monkey pointing at two blank vertical columns floating side by side like a bar chart, determined explaining pose."
+    },
+    {
+      "file": "0_22.jpg",
+      "startSec": 22.94,
+      "text": "y qué puedes hacer tú si estás en el lado que pierde.",
+      "scene": "Medium shot: the protagonist monkey turning to face the camera directly, encouraging reassuring expression."
+    },
+    {
+      "file": "0_26.jpg",
+      "startSec": 26.52,
+      "text": "Capítulo 1,",
+      "scene": "Extreme close-up: a golden coin medallion with ONLY the numeral 1 engraved, nothing else."
+    },
+    {
+      "file": "0_27.jpg",
+      "startSec": 27.68,
+      "text": "el mismo punto de partida. En los dos países el camino empieza exactamente igual,",
+      "scene": "Wide shot: the protagonist monkey and a second identical monkey (same design, twin) standing at the same starting line painted on the ground, both facing forward, identical stance."
+    },
+    {
+      "file": "0_33.jpg",
+      "startSec": 33.18,
+      "text": "aprendes redes,",
+      "scene": "Close-up: the protagonist monkey looking at a giant screen showing a simple network of connected dots/lines icon."
+    },
+    {
+      "file": "0_34.jpg",
+      "startSec": 34.04,
+      "text": "aprendes Linux,",
+      "scene": "Close-up: a giant simple terminal-window icon with a blinking cursor line, no characters, no real logo."
+    },
+    {
+      "file": "0_35.jpg",
+      "startSec": 35.12,
+      "text": "aprendes a leer un escaneo de puertos,",
+      "scene": "Medium shot: the protagonist monkey squinting at a giant screen showing a simple grid of small numbered squares, some glowing green some red."
+    },
+    {
+      "file": "0_37.jpg",
+      "startSec": 37.38,
+      "text": "aprendes qué es una vulnerabilidad y qué es explotar la de verdad, no solo leerla en un informe.",
+      "scene": "Wide shot: the protagonist monkey pointing at a giant cracked-shield icon on a screen, determined focused expression."
+    },
+    {
+      "file": "0_43.jpg",
+      "startSec": 43.28,
+      "text": "Prácticas en máquinas virtuales pensadas para romperse,",
+      "scene": "Medium shot: the protagonist monkey with both fists raised about to punch a giant computer-tower icon that has a target symbol on it, playful determined pose."
+    },
+    {
+      "file": "0_46.jpg",
+      "startSec": 46.34,
+      "text": "hack de box,",
+      "scene": "Close-up: a giant screen showing a simple crosshair/target icon, plain and unbranded, no characters."
+    },
+    {
+      "file": "0_47.jpg",
+      "startSec": 47.18,
+      "text": "try hack me,",
+      "scene": "Close-up: a giant screen showing a simple flag icon (capture-the-flag style, generic checkered flag), plain and unbranded, no characters."
+    },
+    {
+      "file": "0_48.jpg",
+      "startSec": 48.36,
+      "text": "y en algún momento sacas la certificación que de verdad abre puertas. El lo es es qué, 24 horas de examen hackeando máquinas reales sin ayuda,",
+      "scene": "Wide shot: the protagonist monkey sitting alone at a desk with a giant stopwatch prop showing numeral 24 beside a laptop, intense focused expression, no one else around."
+    },
+    {
+      "file": "0_57.jpg",
+      "startSec": 57.32,
+      "text": "sin conexión con nadie.",
+      "scene": "Close-up: the protagonist monkey alone in an empty white room, unplugged cable lying on the floor beside them, isolated determined pose."
+    },
+    {
+      "file": "0_59.jpg",
+      "startSec": 59.3,
+      "text": "Ese papel dice exactamente lo mismo en España que en California,",
+      "scene": "Wide shot: the protagonist monkey in front of the Spain-flag signpost and a second identical monkey (same design, twin) in front of a California-hills signpost, both holding up an identical medallion/certificate, mirrored."
+    },
+    {
+      "file": "1_03.jpg",
+      "startSec": 63.22,
+      "text": "esta persona sabe entrar donde no debería, con permiso,",
+      "scene": "Medium shot: the protagonist monkey confidently walking through a giant open door with a checkmark icon on it, permission-granted feel."
+    },
+    {
+      "file": "1_06.jpg",
+      "startSec": 66.42,
+      "text": "y explicarlo por escrito de forma que una empresa pueda arreglarlo.",
+      "scene": "Close-up: the protagonist monkey writing on a giant blank report page with a pen, calm professional expression."
+    },
+    {
+      "file": "1_10.jpg",
+      "startSec": 70.5,
+      "text": "Hasta aquí,",
+      "scene": "Extreme close-up of the protagonist monkey's face, neutral confident expression, direct eye contact with camera."
+    },
+    {
+      "file": "1_11.jpg",
+      "startSec": 71.56,
+      "text": "cero diferencia,",
+      "scene": "Close-up: two identical golden medallions side by side, perfectly equal size, no characters."
+    },
+    {
+      "file": "1_12.jpg",
+      "startSec": 72.8,
+      "text": "mismo examen, mismo aprobado,",
+      "scene": "Medium shot: the protagonist monkey and a second identical monkey (same design, twin) both holding up an identical checkmark-stamped paper, mirrored proud pose."
+    },
+    {
+      "file": "1_14.jpg",
+      "startSec": 74.92,
+      "text": "mismo nivel real.",
+      "scene": "Close-up: the protagonist monkey and a second identical monkey (same design, twin) standing back to back, identical height and posture, measuring-tape style line above their heads showing equal height."
+    },
+    {
+      "file": "1_16.jpg",
+      "startSec": 76.54,
+      "text": "La diferencia empieza el día que firmas tu primer contrato,",
+      "scene": "Medium shot: the protagonist monkey signing a giant blank contract paper with a pen, focused expression, a fork in a road visible faintly behind."
+    },
+    {
+      "file": "1_20.jpg",
+      "startSec": 80.24,
+      "text": "y no tiene nada que ver con tu talento.",
+      "scene": "Close-up of the protagonist monkey's face, slightly puzzled, shrugging with one hand."
+    },
+    {
+      "file": "1_23.jpg",
+      "startSec": 83.1,
+      "text": "Capítulo 2, la oferta en España.",
+      "scene": "Extreme close-up: a golden coin medallion with ONLY the numeral 2 engraved, a small Spain flag-striped ribbon beside it, nothing else."
+    },
+    {
+      "file": "1_26.jpg",
+      "startSec": 86.0,
+      "text": "En España, un pentester junior recién salido con su OECP, firma un contrato.",
+      "scene": "Medium shot: the protagonist monkey sitting at a desk in front of the Spain-flag signpost, signing a contract, medallion/certificate on the desk beside them."
+    },
+    {
+      "file": "1_31.jpg",
+      "startSec": 91.54,
+      "text": "La cifra ronda los 28 .000 euros brutos al año.",
+      "scene": "Close-up: a giant plaque with huge numeral '28.000' and a small euro-sign icon beneath, no other text."
+    },
+    {
+      "file": "1_35.jpg",
+      "startSec": 95.22,
+      "text": "Con 3 o 4 años de experiencia,",
+      "scene": "Close-up: a golden coin medallion with ONLY the numeral 4 engraved, a small clock-hand icon beside it."
+    },
+    {
+      "file": "1_37.jpg",
+      "startSec": 97.26,
+      "text": "ya como consultor de seguridad ofensiva,",
+      "scene": "Medium shot: the protagonist monkey standing confidently in a small office cubicle, holding a laptop, junior-to-mid career look."
+    },
+    {
+      "file": "1_39.jpg",
+      "startSec": 99.68,
+      "text": "esa cifra suba 40 .000. Y si llegas a Red Teamer Senior,",
+      "scene": "Close-up: a giant plaque with huge numeral '40.000' and a small euro-sign icon beneath, no other text."
+    },
+    {
+      "file": "1_43.jpg",
+      "startSec": 103.86,
+      "text": "en una consultora grande o dentro de un banco,",
+      "scene": "Wide shot: the protagonist monkey standing before a giant simple bank-column icon building, confident senior posture."
+    },
+    {
+      "file": "1_46.jpg",
+      "startSec": 106.38,
+      "text": "puede superar los 65 .000 euros al año.",
+      "scene": "Close-up: a giant plaque with huge numeral '65.000' and a small euro-sign icon beneath, no other text."
+    },
+    {
+      "file": "1_49.jpg",
+      "startSec": 109.5,
+      "text": "Es un buen sueldo para España,",
+      "scene": "Close-up of the protagonist monkey's face, satisfied confident smile, thumbs up."
+    },
+    {
+      "file": "1_51.jpg",
+      "startSec": 111.58,
+      "text": "está claramente por encima de la media nacional con algura.",
+      "scene": "Wide shot: a simple bar chart of several short grey bars and one taller golden bar standing above the rest, no characters, no text."
+    },
+    {
+      "file": "1_55.jpg",
+      "startSec": 115.16,
+      "text": "Pero el techo existe,",
+      "scene": "Medium shot: the protagonist monkey reaching up with one hand, fingertips just touching a solid ceiling/glass barrier above their head."
+    },
+    {
+      "file": "1_56.jpg",
+      "startSec": 116.64,
+      "text": "y se nota rápido en cuanto lleva a unos años en el sector.",
+      "scene": "Close-up of the protagonist monkey's face pressed slightly against the invisible ceiling barrier, mildly frustrated expression."
+    },
+    {
+      "file": "1_59.jpg",
+      "startSec": 119.94,
+      "text": "Muy pocas empresas en España pagan de verdad más de 80 .000 euros a un solo hacker,",
+      "scene": "Close-up: a giant plaque with huge numeral '80.000' and a euro-sign icon, crossed with a faint red X marking it as rare/unreachable."
+    },
+    {
+      "file": "2_04.jpg",
+      "startSec": 124.98,
+      "text": "por muy bueno que sea,",
+      "scene": "Extreme close-up of the protagonist monkey's face, one eyebrow raised, resigned expression."
+    },
+    {
+      "file": "2_06.jpg",
+      "startSec": 126.28,
+      "text": "por muy senior que sea. Y no es solo el sueldo bruto,",
+      "scene": "Wide shot: the protagonist monkey standing tall and experienced-looking, gesturing at the same ceiling barrier from before, explaining pose."
+    },
+    {
+      "file": "2_10.jpg",
+      "startSec": 130.46,
+      "text": "encima hay que descontar un tramo de IRPF que en esos niveles ronda el 45%.",
+      "scene": "Close-up: a giant plaque with huge numeral '45%' and a simple pair-of-scissors icon cutting into a stack of coins beside it, no other text."
+    },
+    {
+      "file": "2_16.jpg",
+      "startSec": 136.6,
+      "text": "El mercado del Bag Bounty ayuda a compensar,",
+      "scene": "Medium shot: the protagonist monkey holding up a giant simple bug/insect-shaped icon with a small dollar-sign glowing on it, hopeful expression."
+    },
+    {
+      "file": "2_19.jpg",
+      "startSec": 139.58,
+      "text": "encontrar un fallo grave en una empresa internacional se paga en dólares,",
+      "scene": "Close-up: a giant bug-shaped icon with a dollar-sign coin dropping into a jar beside it, no characters."
+    },
+    {
+      "file": "2_23.jpg",
+      "startSec": 143.26,
+      "text": "no en euros,",
+      "scene": "Close-up: a euro-sign icon crossed out with a red X beside a glowing dollar-sign icon, no characters."
+    },
+    {
+      "file": "2_24.jpg",
+      "startSec": 144.16,
+      "text": "y eso sube bastante la media real.",
+      "scene": "Wide shot: the protagonist monkey watching a small bar chart column grow taller with an animated-feeling upward arrow, pleased expression."
+    },
+    {
+      "file": "2_26.jpg",
+      "startSec": 146.66,
+      "text": "Pero como sueldo fijo, con nómina española, con contrato indefinido de toda la vida,",
+      "scene": "Medium shot: the protagonist monkey holding a giant folder labeled visually with a simple briefcase icon and a small infinity-symbol icon, calm resigned expression."
+    },
+    {
+      "file": "2_31.jpg",
+      "startSec": 151.62,
+      "text": "el recorrido tiene un límite bastante claro y bastante bajo.",
+      "scene": "Wide shot: a simple staircase icon that stops abruptly at a low step with a wall right above it, no characters."
+    },
+    {
+      "file": "2_35.jpg",
+      "startSec": 155.52,
+      "text": "Capítulo 3.",
+      "scene": "Extreme close-up: a golden coin medallion with ONLY the numeral 3 engraved, nothing else."
+    },
+    {
+      "file": "2_36.jpg",
+      "startSec": 156.92,
+      "text": "La oferta en Estados Unidos.",
+      "scene": "Close-up: a golden coin medallion with ONLY the numeral 3 engraved, a small USA flag-striped ribbon beside it."
+    },
+    {
+      "file": "2_39.jpg",
+      "startSec": 159.24,
+      "text": "Cruza el charco,",
+      "scene": "Wide shot: the protagonist monkey jumping across a simple blue wavy-line ocean shape drawn between two shores, dynamic leaping pose."
+    },
+    {
+      "file": "2_40.jpg",
+      "startSec": 160.48,
+      "text": "y el mismo currículum, con el mismo OSCCP,",
+      "scene": "Close-up: the protagonist monkey landing on the other shore holding the same medallion/certificate from before, unchanged."
+    },
+    {
+      "file": "2_43.jpg",
+      "startSec": 163.48,
+      "text": "entra en otra escala completamente distinta.",
+      "scene": "Wide shot: a giant simple scale/ruler icon with the Spain-side markings small and cramped, and the USA-side markings huge and spread out, clear contrast, no characters."
+    },
+    {
+      "file": "2_46.jpg",
+      "startSec": 166.66,
+      "text": "Un pentester junior en Estados Unidos empieza cerca de los 90 .000 dólares al año.",
+      "scene": "Close-up: a giant plaque with huge numeral '90.000' and a dollar-sign icon beneath, no other text."
+    },
+    {
+      "file": "2_51.jpg",
+      "startSec": 171.78,
+      "text": "Con experiencia real,",
+      "scene": "Medium shot: the protagonist monkey standing confidently in front of the USA-flag signpost, a few years older/experienced look, laptop in hand."
+    },
+    {
+      "file": "2_53.jpg",
+      "startSec": 173.18,
+      "text": "un consultor de seguridad ofensiva supera los 120 .000 dólares sin demasiado esfuerzo. Y un red teamer senior,",
+      "scene": "Close-up: a giant plaque with huge numeral '120.000' and a dollar-sign icon beneath, no other text."
+    },
+    {
+      "file": "3_00.jpg",
+      "startSec": 180.44,
+      "text": "en una empresa tecnológica grande en San Francisco o en Seattle,",
+      "scene": "Wide shot: the protagonist monkey standing before a giant generic modern tech-office building icon (glass tower silhouette, no real logo), confident senior posture."
+    },
+    {
+      "file": "3_04.jpg",
+      "startSec": 184.2,
+      "text": "puede firmar por 170 .000 dólares o más,",
+      "scene": "Close-up: a giant plaque with huge numeral '170.000+' and a dollar-sign icon beneath, glowing brightly, no other text."
+    },
+    {
+      "file": "3_07.jpg",
+      "startSec": 187.14,
+      "text": "solo en salario base.",
+      "scene": "Close-up of the protagonist monkey's face, eyebrows raised, impressed expression."
+    },
+    {
+      "file": "3_09.jpg",
+      "startSec": 189.24,
+      "text": "Y ahí no acaba la cosa,",
+      "scene": "Medium shot: the protagonist monkey holding up one finger, 'wait there's more' gesture, playful expression."
+    },
+    {
+      "file": "3_10.jpg",
+      "startSec": 190.94,
+      "text": "sumas el bonus anual y las acciones de la empresa,",
+      "scene": "Wide shot: the '170.000+' plaque now with two more smaller glowing plaques stacking on top of it, one with a simple gift-box icon (bonus) and one with a small stock-chart icon (shares), no characters."
+    },
+    {
+      "file": "3_13.jpg",
+      "startSec": 193.76,
+      "text": "y la cifra total sube todavía más, a veces muy por encima del salario base.",
+      "scene": "Wide shot: the protagonist monkey looking up at a very tall stack of glowing coin plaques towering above them, awestruck expression."
+    },
+    {
+      "file": "3_18.jpg",
+      "startSec": 198.58,
+      "text": "El Bag Bounty en Estados Unidos juega directamente en otra liga, en otro planeta. Encontrar un solo fallo crítico en Google o en Apple puede pagar más de 100 .000 dólares,",
+      "scene": "Wide shot: a giant bug-shaped icon glowing intensely with a plaque showing huge numeral '100.000+' and a dollar-sign, set against a starry/cosmic background suggesting 'another planet', no characters, no real company logos."
+    },
+    {
+      "file": "3_29.jpg",
+      "startSec": 209.18,
+      "text": "por un solo halladgo, en un solo informe.",
+      "scene": "Close-up: a single giant blank report page with a small bug icon stamped on it, no characters."
+    },
+    {
+      "file": "3_32.jpg",
+      "startSec": 212.1,
+      "text": "En 2019, un chaval argentino de 19 años, Santiago López,",
+      "scene": "Medium shot: a young monkey character (same design, smaller/younger looking) holding a laptop, a golden coin medallion with numeral 19 floating beside them, proud pose."
+    },
+    {
+      "file": "3_36.jpg",
+      "startSec": 216.8,
+      "text": "se convirtió en el primer hackerético millonario del mundo,",
+      "scene": "Close-up: a giant plaque with huge numeral '1.000.000' and a dollar-sign icon, glowing gold, no other text."
+    },
+    {
+      "file": "3_40.jpg",
+      "startSec": 220.18,
+      "text": "encontrando fallos para hacker one,",
+      "scene": "Close-up: the young monkey character holding up a bug-shaped icon triumphantly, a simple shield-with-checkmark icon glowing behind them (generic platform icon, no real logo)."
+    },
+    {
+      "file": "3_42.jpg",
+      "startSec": 222.52,
+      "text": "sin pisar Estados Unidos siquiera.",
+      "scene": "Wide shot: the young monkey sitting at a laptop far from the USA-flag signpost (visible small in the distance), remote/from-home feel."
+    },
+    {
+      "file": "3_44.jpg",
+      "startSec": 224.98,
+      "text": "Apple ha llegado a pagar hasta dos millones de dólares por un solo exploit de los grandes,",
+      "scene": "Close-up: a giant plaque with huge numeral '2.000.000' and a dollar-sign icon, glowing intensely, a simple generic smartphone-shaped icon beside it (no real logo), no other text."
+    },
+    {
+      "file": "3_49.jpg",
+      "startSec": 229.76,
+      "text": "acceso remoto completo, sin que la víctima toque nada.",
+      "scene": "Close-up: a simple glowing padlock icon opening by itself with no hand touching it, ghost-like remote access visual, no characters."
+    },
+    {
+      "file": "3_53.jpg",
+      "startSec": 233.66,
+      "text": "Esa nivel de pago no existe en ningún mercado europeo ni de lejos,",
+      "scene": "Wide shot: the '2.000.000' plaque towering giant-sized on the USA side, a tiny fraction-sized plaque on the Spain side, dramatic scale contrast, no characters."
+    },
+    {
+      "file": "3_57.jpg",
+      "startSec": 237.78,
+      "text": "ni de cerca.",
+      "scene": "Extreme close-up of the protagonist monkey's face, eyebrows raised high, genuinely stunned expression."
+    },
+    {
+      "file": "3_59.jpg",
+      "startSec": 239.24,
+      "text": "Y hay algo más,",
+      "scene": "Close-up of the protagonist monkey raising one finger, 'one more thing' gesture."
+    },
+    {
+      "file": "4_00.jpg",
+      "startSec": 240.66,
+      "text": "en Estados Unidos,",
+      "scene": "Extreme close-up: a golden coin medallion with a small USA flag-striped ribbon, nothing else."
+    },
+    {
+      "file": "4_01.jpg",
+      "startSec": 241.78,
+      "text": "un red teamer con nombre reconocido en el sector puede cobrar por dar charlas, por escribir herramientas, por asesorada start -ups encima de su sueldo fijo.",
+      "scene": "Wide shot: a second identical monkey (same design, twin) standing confidently on a small stage podium giving a talk, a laptop-with-tool-icon and a small rocket-shaped startup icon floating beside them, extra income streams visualized."
+    },
+    {
+      "file": "4_11.jpg",
+      "startSec": 251.52,
+      "text": "Capítulo 4.",
+      "scene": "Extreme close-up: a golden coin medallion with ONLY the numeral 4 engraved, nothing else."
+    },
+    {
+      "file": "4_12.jpg",
+      "startSec": 252.88,
+      "text": "¿Por qué pasa esto de verdad?",
+      "scene": "Extreme close-up of the protagonist monkey's face, one eyebrow raised, genuinely curious questioning look."
+    },
+    {
+      "file": "4_15.jpg",
+      "startSec": 255.22,
+      "text": "La pregunta obligada es,",
+      "scene": "Medium shot: the protagonist monkey with hands on hips, questioning expression, addressing camera directly."
+    },
+    {
+      "file": "4_17.jpg",
+      "startSec": 257.0,
+      "text": "¿por qué tanta diferencia si el trabajo es literalmente idéntico?",
+      "scene": "Wide shot: two identical medallions on a scale, one side of the scale still weighed down heavily despite them looking the same, puzzling visual, no characters."
+    },
+    {
+      "file": "4_21.jpg",
+      "startSec": 261.44,
+      "text": "La primera razón es donde está el dinero de verdad.",
+      "scene": "Extreme close-up: a golden coin medallion with numeral 1, the protagonist monkey pointing at it."
+    },
+    {
+      "file": "4_24.jpg",
+      "startSec": 264.98,
+      "text": "Silicón vale y concentra las empresas que más pagan por seguridad,",
+      "scene": "Wide shot: a cluster of many giant generic glass-tower office icons packed closely together on the USA side, glowing with tiny dollar-sign icons above each, no real logos, no characters."
+    },
+    {
+      "file": "4_28.jpg",
+      "startSec": 268.74,
+      "text": "porque un fallo hay cuesta miles de millones,",
+      "scene": "Close-up: a giant plaque with huge numeral '1.000M' and a small cracked-shield icon beside it, no other text."
+    },
+    {
+      "file": "4_31.jpg",
+      "startSec": 271.18,
+      "text": "no miles de euros.",
+      "scene": "Close-up: a small euro-sign icon crossed with a faint red X, tiny in scale next to the giant billion plaque, no characters."
+    },
+    {
+      "file": "4_32.jpg",
+      "startSec": 272.7,
+      "text": "La segunda razón es el coste de vida, y aquí hay que ser honestos, no solo repetir la cifra grande. Un alquiler en San Francisco puede costar el triple que uno en Madrid,",
+      "scene": "Wide shot: two simple house-shaped icons side by side, one with a small price tag, the other with a price tag three times taller, the protagonist monkey standing between them looking at both honestly."
+    },
+    {
+      "file": "4_42.jpg",
+      "startSec": 282.02,
+      "text": "y la sanidad allí no es gratuita como aquí.",
+      "scene": "Close-up: a simple hospital-cross icon with a small price-tag icon attached on the USA side, versus the same hospital-cross icon with no price tag on the Spain side, no characters."
+    },
+    {
+      "file": "4_45.jpg",
+      "startSec": 285.32,
+      "text": "Ajustando por poder adquisitivo real,",
+      "scene": "Medium shot: the protagonist monkey holding a giant calculator-shaped prop, focused honest expression."
+    },
+    {
+      "file": "4_47.jpg",
+      "startSec": 287.64,
+      "text": "la diferencia se reduce bastante,",
+      "scene": "Wide shot: the earlier giant/tiny plaque pair from before now shown closer in size, still uneven but less dramatic, no characters."
+    },
+    {
+      "file": "4_49.jpg",
+      "startSec": 289.52,
+      "text": "pero sigue siendo enorme.",
+      "scene": "Wide shot: the same two plaques, one still clearly twice the size of the other, no characters."
+    },
+    {
+      "file": "4_51.jpg",
+      "startSec": 291.12,
+      "text": "Sigue quedando un sueldo casi el doble de bueno en términos reales, no solo en el número que ves en la oferta.",
+      "scene": "Close-up: a golden coin medallion with ONLY the numeral 2 engraved and a small multiplication 'x' symbol beside it, no other text."
+    },
+    {
+      "file": "4_57.jpg",
+      "startSec": 297.42,
+      "text": "Y la tercera razón es la más incómoda de las tres.",
+      "scene": "Extreme close-up of the protagonist monkey's face, uncomfortable grimace, one eye squinting."
+    },
+    {
+      "file": "5_01.jpg",
+      "startSec": 301.26,
+      "text": "En España todavía se paga la seguridad informática como un coste que hay que minimizar,",
+      "scene": "Medium shot: the protagonist monkey on the Spain side holding a shrinking/deflating giant coin-bag icon, a downward arrow beside it, frugal cautious expression."
+    },
+    {
+      "file": "5_05.jpg",
+      "startSec": 305.88,
+      "text": "no como un seguro que hay que reforzar.",
+      "scene": "Close-up: a simple shield icon with cracks in it and a red X over a small 'reinforce' arrow icon, no characters."
+    },
+    {
+      "file": "5_08.jpg",
+      "startSec": 308.4,
+      "text": "En Estados Unidos,",
+      "scene": "Extreme close-up: a golden coin medallion with a small USA flag-striped ribbon, nothing else."
+    },
+    {
+      "file": "5_09.jpg",
+      "startSec": 309.78,
+      "text": "tras más de una de cada de brechas que han costado miles de millones a empresas que cotizan en bolsa,",
+      "scene": "Wide shot: a row of giant generic cracked-shield icons above a simple stock-chart-arrow icon pointing down sharply, no real logos, no characters."
+    },
+    {
+      "file": "5_15.jpg",
+      "startSec": 315.24,
+      "text": "pagar bien a quien te protege se entiende como inversión,",
+      "scene": "Medium shot: a second identical monkey (same design, twin) on the USA side holding a growing/inflating giant coin-bag icon, an upward arrow beside it, confident investing expression."
+    },
+    {
+      "file": "5_18.jpg",
+      "startSec": 318.4,
+      "text": "no como gasto que recortar en la próxima crisis.",
+      "scene": "Close-up: a simple shield icon glowing solid and strong with a small upward arrow beside it, no characters."
+    },
+    {
+      "file": "5_21.jpg",
+      "startSec": 321.7,
+      "text": "Mismo examen,",
+      "scene": "Close-up: the protagonist monkey and a second identical monkey (same design, twin) each holding up an identical medallion, mirrored."
+    },
+    {
+      "file": "5_23.jpg",
+      "startSec": 323.24,
+      "text": "mismas manos,",
+      "scene": "Extreme close-up of the protagonist monkey and a second identical monkey (same design, twin)'s hands side by side, identical shape and gesture."
+    },
+    {
+      "file": "5_24.jpg",
+      "startSec": 324.34,
+      "text": "mismo talento exacto.",
+      "scene": "Close-up of the protagonist monkey and a second identical monkey (same design, twin)'s faces side by side, identical expression."
+    },
+    {
+      "file": "5_26.jpg",
+      "startSec": 326.12,
+      "text": "¿El mercado que hay detrás de cada uno?",
+      "scene": "Wide shot: the protagonist monkey shrugging with a giant blank question-mark icon floating above, puzzled gesture."
+    },
+    {
+      "file": "5_28.jpg",
+      "startSec": 328.56,
+      "text": "No.",
+      "scene": "Close-up of the protagonist monkey shaking head firmly, one hand raised in a 'no' gesture."
+    },
+    {
+      "file": "5_29.jpg",
+      "startSec": 329.58,
+      "text": "Y esa diferencia de cultura empresarial pesa más, a largo plazo,",
+      "scene": "Wide shot: a giant heavy weight/anvil icon labeled visually with a simple building icon, pressing down on one side of a balance scale, no characters."
+    },
+    {
+      "file": "5_33.jpg",
+      "startSec": 333.64,
+      "text": "que cualquier tabla de sueldos.",
+      "scene": "Close-up: a small blank spreadsheet/table icon dwarfed beside the giant weight icon from before, no characters."
+    },
+    {
+      "file": "5_36.jpg",
+      "startSec": 336.44,
+      "text": "Capítulo 5,",
+      "scene": "Extreme close-up: a golden coin medallion with ONLY the numeral 5 engraved, nothing else."
+    },
+    {
+      "file": "5_37.jpg",
+      "startSec": 337.9,
+      "text": "cara a cara, con matices,",
+      "scene": "Wide shot: the protagonist monkey and a second identical monkey (same design, twin) standing face to face, calm honest expressions, no confrontation."
+    },
+    {
+      "file": "5_39.jpg",
+      "startSec": 339.62,
+      "text": "sin trampas.",
+      "scene": "Close-up of the protagonist monkey opening both empty palms outward, transparent honest gesture."
+    },
+    {
+      "file": "5_41.jpg",
+      "startSec": 341.06,
+      "text": "Pongamos las tifras una al lado de la otra sin exagerar ninguna de las dos.",
+      "scene": "Wide shot: the protagonist monkey placing two blank plaques side by side on a table, careful balanced gesture."
+    },
+    {
+      "file": "5_45.jpg",
+      "startSec": 345.42,
+      "text": "España,",
+      "scene": "Extreme close-up: a small Spain flag-striped ribbon on a signpost, nothing else."
+    },
+    {
+      "file": "5_46.jpg",
+      "startSec": 346.34,
+      "text": "entre 28 .000 y 65 .000 euros de sueldo fijo,",
+      "scene": "Close-up: a giant plaque split showing numerals '28.000' and '65.000' with a euro-sign icon between them, no other text."
+    },
+    {
+      "file": "5_50.jpg",
+      "startSec": 350.02,
+      "text": "techo bajo,",
+      "scene": "Close-up: a low ceiling/barrier icon just above a small figure silhouette, no other text."
+    },
+    {
+      "file": "5_50_b.jpg",
+      "startSec": 350.88,
+      "text": "pero coste de vida también bajo y sanidad pública incluida.",
+      "scene": "Close-up: a small house-shaped icon with a small price tag, plus a hospital-cross icon with a small checkmark (free/included), both compact and modest, no characters."
+    },
+    {
+      "file": "5_54.jpg",
+      "startSec": 354.46,
+      "text": "Estados Unidos,",
+      "scene": "Extreme close-up: a small USA flag-striped ribbon on a signpost, nothing else."
+    },
+    {
+      "file": "5_55.jpg",
+      "startSec": 355.64,
+      "text": "entre 90 .000 y 170 .000 dólares de sueldo fijo,",
+      "scene": "Close-up: a giant plaque split showing numerals '90.000' and '170.000' with a dollar-sign icon between them, no other text."
+    },
+    {
+      "file": "5_59.jpg",
+      "startSec": 359.32,
+      "text": "techo altísimo,",
+      "scene": "Close-up: a very tall ceiling far above a small figure silhouette, lots of open space above, no other text."
+    },
+    {
+      "file": "6_00.jpg",
+      "startSec": 360.56,
+      "text": "pero alquiler y seguro médico privado que se comen una parte real de esa ventaja cada mes.",
+      "scene": "Wide shot: a giant coin stack with a large bite/chunk missing from it shaped like a house icon and a hospital-cross icon, no characters."
+    },
+    {
+      "file": "6_05.jpg",
+      "startSec": 365.66,
+      "text": "Y aquí está el dato que casi nadie cuenta cuando compara estas dos tifras.",
+      "scene": "Extreme close-up of the protagonist monkey's face, leaning in conspiratorially, knowing smile."
+    },
+    {
+      "file": "6_10.jpg",
+      "startSec": 370.16,
+      "text": "Hoy, en 2026,",
+      "scene": "Extreme close-up: a golden coin medallion with ONLY the numeral 2026 engraved, nothing else."
+    },
+    {
+      "file": "6_12.jpg",
+      "startSec": 372.12,
+      "text": "no hace falta mudarte de país para cobrar en dólares.",
+      "scene": "Wide shot: the protagonist monkey sitting at home with a laptop, a dollar-sign icon glowing on the screen, a small suitcase crossed out with a red X beside them (no need to travel)."
+    },
+    {
+      "file": "6_15.jpg",
+      "startSec": 375.22,
+      "text": "Cada vez más empresas estadounidenses contratan seguridad ofensiva en remoto puro sin pedir que vivas allí.",
+      "scene": "Wide shot: the protagonist monkey at a laptop at home connected by a glowing dotted line across a simple wavy-line ocean to the giant tech-office building icon from before, remote connection visual."
+    },
+    {
+      "file": "6_21.jpg",
+      "startSec": 381.62,
+      "text": "Y el Bag Bounty se cobra desde cualquier país del mundo, sin visado, sin permiso de trabajo,",
+      "scene": "Wide shot: a simple globe icon with small dollar-sign icons popping up at several different points on it, a passport icon crossed out with a red X beside it, no characters."
+    },
+    {
+      "file": "6_26.jpg",
+      "startSec": 386.8,
+      "text": "con solo una cuenta y una cuenta bancaria que reciba transferencias.",
+      "scene": "Close-up: a simple bank-card icon and a small incoming-transfer arrow icon, plain and unbranded, no characters."
+    },
+    {
+      "file": "6_30.jpg",
+      "startSec": 390.78,
+      "text": "Hay hackers españoles que nunca han pisado Estados Unidos y facturan en dólares cada mes desde su casa en Valencia o en Bilbao.",
+      "scene": "Wide shot: the protagonist monkey relaxed at a laptop on a small home balcony with a hint of Spanish coastal architecture, dollar-sign coins gently falling into a jar beside them, content pose."
+    },
+    {
+      "file": "6_38.jpg",
+      "startSec": 398.44,
+      "text": "La frontera que de verdad importa hoy ya no es el pasaporte que llevas en el cajón.",
+      "scene": "Close-up: a passport icon lying closed and dusty in a drawer, crossed out with a faint red X, no characters."
+    },
+    {
+      "file": "6_43.jpg",
+      "startSec": 403.42,
+      "text": "Es el idioma en el que escribes tus informes,",
+      "scene": "Close-up: the protagonist monkey writing on a giant blank report page, a small speech-bubble icon with simple lines suggesting English text beside it."
+    },
+    {
+      "file": "6_46.jpg",
+      "startSec": 406.22,
+      "text": "la reputación que construyes en plataformas como hacker one y el nivel real de tu habilidad, medido contra el resto del mundo,",
+      "scene": "Wide shot: the protagonist monkey standing on a small podium with a glowing star-rating icon above them and a simple generic shield-platform icon beside it (no real logo), a small globe in the background."
+    },
+    {
+      "file": "6_53.jpg",
+      "startSec": 413.2,
+      "text": "no solo contra tu ciudad.",
+      "scene": "Close-up: a tiny city-skyline icon crossed faintly, versus a glowing globe icon beside it, no characters."
+    },
+    {
+      "file": "6_56.jpg",
+      "startSec": 416.1,
+      "text": "Capítulo 6.",
+      "scene": "Extreme close-up: a golden coin medallion with ONLY the numeral 6 engraved, nothing else."
+    },
+    {
+      "file": "6_57.jpg",
+      "startSec": 417.3,
+      "text": "El cierre",
+      "scene": "Medium shot: the protagonist monkey taking a breath, calm reflective expression, white background."
+    },
+    {
+      "file": "6_58.jpg",
+      "startSec": 418.66,
+      "text": "Así que si tienes esta habilidad hoy mismo,",
+      "scene": "Close-up of the protagonist monkey pointing at the camera, direct engaging expression."
+    },
+    {
+      "file": "7_01.jpg",
+      "startSec": 421.38,
+      "text": "la pregunta ya no es España o Estados Unidos.",
+      "scene": "Wide shot: the Spain-flag and USA-flag signposts from earlier both crossed faintly with red X marks, de-emphasized, no characters."
+    },
+    {
+      "file": "7_04.jpg",
+      "startSec": 424.42,
+      "text": "La pregunta real es si vas a competir solo en el mercado local o si te atreves a competir en el mercado global desde el primer día.",
+      "scene": "Wide shot: the protagonist monkey standing at a crossroads, one small path leading to a tiny city icon, the other path leading to a glowing globe icon, determined stance choosing the global path."
+    },
+    {
+      "file": "7_12.jpg",
+      "startSec": 432.52,
+      "text": "La puerta de entrada es exactamente la misma para los dos caminos y además es gratis,",
+      "scene": "Medium shot: the protagonist monkey standing in front of a giant open door with a small 'free' price-tag icon showing zero, welcoming pose."
+    },
+    {
+      "file": "7_17.jpg",
+      "startSec": 437.62,
+      "text": "hack de box,",
+      "scene": "Close-up: a giant screen showing a simple crosshair/target icon, plain and unbranded, no characters."
+    },
+    {
+      "file": "7_18.jpg",
+      "startSec": 438.5,
+      "text": "try hack me y después el OSCP cuando estés listo.",
+      "scene": "Wide shot: the protagonist monkey walking confidently from the target-icon screen toward a glowing medallion/certificate in the distance, progression visual."
+    },
+    {
+      "file": "7_22.jpg",
+      "startSec": 442.88,
+      "text": "La diferencia de sueldo no está escrita en el pasaporte que tienes guardado en un cajón.",
+      "scene": "Close-up: the closed dusty passport icon in the drawer again, crossed out, no characters."
+    },
+    {
+      "file": "7_27.jpg",
+      "startSec": 447.64,
+      "text": "Está en para qué mercado decides trabajar en qué idioma escribes tus informes y en sitio animas a subir tu primera yadgo a una plataforma internacional en vez de guardártelo.",
+      "scene": "Wide shot: the protagonist monkey confidently uploading a glowing bug-shaped icon report to a giant screen showing a simple globe-platform icon, decisive empowered pose."
+    },
+    {
+      "file": "7_38.jpg",
+      "startSec": 458.3,
+      "text": "El talento, ya lo hemos visto,",
+      "scene": "Close-up of the protagonist monkey and a second identical monkey (same design, twin) standing together, both nodding in agreement."
+    },
+    {
+      "file": "7_40.jpg",
+      "startSec": 460.54,
+      "text": "es exactamente el mismo a los dos lados del océano.",
+      "scene": "Wide shot: the protagonist monkey and a second identical monkey (same design, twin) standing on opposite shores of the same simple wavy-line ocean, both holding up an identical glowing medallion, mirrored triumphant pose."
+    },
+    {
+      "file": "7_44.jpg",
+      "startSec": 464.18,
+      "text": "Si esta comparación te has sorprendido, suscríbete,",
+      "scene": "Medium shot: the protagonist monkey smiling warmly at the camera, holding up a phone, a giant simple bell/subscribe-shaped icon glowing beside it."
+    },
+    {
+      "file": "7_47.jpg",
+      "startSec": 467.36,
+      "text": "se viene más de este mundo.",
+      "scene": "Wide shot: the protagonist monkey waving goodbye happily at the camera, bright white background, warm inviting close of the video."
+    }
+  ]
+}
