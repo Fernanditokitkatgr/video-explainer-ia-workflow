@@ -23,10 +23,19 @@ import { HackearLaIA } from "./HackearLaIA";
 import { DosCaminosHacker } from "./DosCaminosHacker";
 import { RedTeamVsBlueTeam } from "./RedTeamVsBlueTeam";
 import { HackerNovatoADios } from "./HackerNovatoADios";
+import { ComoHackeanUnaWeb } from "./ComoHackeanUnaWeb";
 
 export const RemotionRoot: React.FC = () => {
   return (
     <>
+      <Composition
+        id="ComoHackeanUnaWeb"
+        component={ComoHackeanUnaWeb}
+        durationInFrames={11535}
+        fps={30}
+        width={1920}
+        height={1080}
+      />
       <Composition
         id="TeHanHackeado"
         component={TeHanHackeado}

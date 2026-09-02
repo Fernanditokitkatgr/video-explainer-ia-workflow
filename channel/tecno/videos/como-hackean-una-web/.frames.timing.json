@@ -1,0 +1,752 @@
+[
+  {
+    "file": "0_00.jpg",
+    "startSec": 0.0,
+    "text": "Esta es Sara,"
+  },
+  {
+    "file": "0_01.jpg",
+    "startSec": 1.16,
+    "text": "acaba de lanzar la web de su pequeño negocio de comida a Domicilio."
+  },
+  {
+    "file": "0_04.jpg",
+    "startSec": 4.82,
+    "text": "Un meno,"
+  },
+  {
+    "file": "0_05.jpg",
+    "startSec": 5.86,
+    "text": "un botón de pedir,"
+  },
+  {
+    "file": "0_07.jpg",
+    "startSec": 7.14,
+    "text": "y detrás, un panel de administración para gestionar los platos."
+  },
+  {
+    "file": "0_10.jpg",
+    "startSec": 10.84,
+    "text": "Sara piensa que ese panel no lo va a encontrar nadie,"
+  },
+  {
+    "file": "0_13.jpg",
+    "startSec": 13.94,
+    "text": "porque no hay ningún enlace que lleve a él."
+  },
+  {
+    "file": "0_16.jpg",
+    "startSec": 16.32,
+    "text": "Y ahí es donde se equivoca,"
+  },
+  {
+    "file": "0_18.jpg",
+    "startSec": 18.48,
+    "text": "porque al otro lado está alguien que no la conoce de nada,"
+  },
+  {
+    "file": "0_21.jpg",
+    "startSec": 21.58,
+    "text": "pero que sabe una cosa."
+  },
+  {
+    "file": "0_23.jpg",
+    "startSec": 23.14,
+    "text": "Toda web nueva deja puertas abiertas sin querer."
+  },
+  {
+    "file": "0_26.jpg",
+    "startSec": 26.52,
+    "text": "Hoy vas a ver paso a paso como entra un atacante en una hueva así,"
+  },
+  {
+    "file": "0_31.jpg",
+    "startSec": 31.02,
+    "text": "y al final vas a saber exactamente qué falló,"
+  },
+  {
+    "file": "0_33.jpg",
+    "startSec": 33.78,
+    "text": "y cómo no ser tú la próxima Sara."
+  },
+  {
+    "file": "0_36.jpg",
+    "startSec": 36.68,
+    "text": "Lo primero que tienes que entender es que jaquear no esté crear rápido con la pantalla llena de código verde."
+  },
+  {
+    "file": "0_42.jpg",
+    "startSec": 42.7,
+    "text": "Eso es tiene,"
+  },
+  {
+    "file": "0_43.jpg",
+    "startSec": 43.84,
+    "text": "la realidad es mucho más aburrida y mucho más peligrosa,"
+  },
+  {
+    "file": "0_47.jpg",
+    "startSec": 47.58,
+    "text": "es paciencia, es método,"
+  },
+  {
+    "file": "0_49.jpg",
+    "startSec": 49.7,
+    "text": "es buscar con calma la puerta que alguien olvidó cerrar."
+  },
+  {
+    "file": "0_53.jpg",
+    "startSec": 53.62,
+    "text": "El atacante abre la web de Sara,"
+  },
+  {
+    "file": "0_55.jpg",
+    "startSec": 55.84,
+    "text": "y lo primero solo mira."
+  },
+  {
+    "file": "0_57.jpg",
+    "startSec": 57.62,
+    "text": "Se llama reconocimiento,"
+  },
+  {
+    "file": "0_59.jpg",
+    "startSec": 59.1,
+    "text": "y es la parte más larga de cualquier ataque."
+  },
+  {
+    "file": "1_01.jpg",
+    "startSec": 61.62,
+    "text": "Por fuera solo hay dos páginas, el menú y el botón de pedir."
+  },
+  {
+    "file": "1_05.jpg",
+    "startSec": 65.38,
+    "text": "Ningún enlace al panel de administración,"
+  },
+  {
+    "file": "1_08.jpg",
+    "startSec": 68.04,
+    "text": "nada sospechoso a simple vista."
+  },
+  {
+    "file": "1_10.jpg",
+    "startSec": 70.48,
+    "text": "Alguien pensaría que ahí no hay nada que hacer,"
+  },
+  {
+    "file": "1_13.jpg",
+    "startSec": 73.38,
+    "text": "pero las puertas de una web casi nunca se anuncian,"
+  },
+  {
+    "file": "1_16.jpg",
+    "startSec": 76.4,
+    "text": "simplemente están ahí escondidas,"
+  },
+  {
+    "file": "1_18.jpg",
+    "startSec": 78.54,
+    "text": "esperando."
+  },
+  {
+    "file": "1_19.jpg",
+    "startSec": 79.54,
+    "text": "Y él sabe cómo buscarlas sin que nadie es enteré."
+  },
+  {
+    "file": "1_23.jpg",
+    "startSec": 83.4,
+    "text": "Primero paso, encontrar la dirección real de la web."
+  },
+  {
+    "file": "1_26.jpg",
+    "startSec": 86.92,
+    "text": "Tú escribes un nombre como comida Sara, punto com,"
+  },
+  {
+    "file": "1_30.jpg",
+    "startSec": 90.2,
+    "text": "pero por debajo cada web es en realidad un número, su dirección y p."
+  },
+  {
+    "file": "1_34.jpg",
+    "startSec": 94.24,
+    "text": "Para averiguarlo existe un truco viejo y sencillo, una consulta que le pregunta Internet,"
+  },
+  {
+    "file": "1_39.jpg",
+    "startSec": 99.96,
+    "text": "oye, qué número hay detrás de este nombre."
+  },
+  {
+    "file": "1_42.jpg",
+    "startSec": 102.64,
+    "text": "En segundo, se la atacante tiene la dirección exacta del servidor de Sara."
+  },
+  {
+    "file": "1_47.jpg",
+    "startSec": 107.22,
+    "text": "Saber eso es como saber en qué casa vive alguien."
+  },
+  {
+    "file": "1_50.jpg",
+    "startSec": 110.44,
+    "text": "Ahora quiere ver qué puertas y ventanas tiene esa casa y cuáles están abiertas."
+  },
+  {
+    "file": "1_55.jpg",
+    "startSec": 115.48,
+    "text": "Segundo paso,"
+  },
+  {
+    "file": "1_56.jpg",
+    "startSec": 116.56,
+    "text": "mirar qué está abierto."
+  },
+  {
+    "file": "1_58.jpg",
+    "startSec": 118.46,
+    "text": "Pienso otra vez en la casa,"
+  },
+  {
+    "file": "2_00.jpg",
+    "startSec": 120.02,
+    "text": "ya sabe dónde está."
+  },
+  {
+    "file": "2_01.jpg",
+    "startSec": 121.48,
+    "text": "Ahora rodea el edificio y prueba cada puerta y cada ventana para ver cuál se ve."
+  },
+  {
+    "file": "2_06.jpg",
+    "startSec": 126.4,
+    "text": "En una web esas puertas se llaman puertos y para revisarlos usa una herramienta muy conocida en seguridad que se llama en map."
+  },
+  {
+    "file": "2_14.jpg",
+    "startSec": 134.32,
+    "text": "En map recorre el servidor y comproba uno a uno, que puertos están abiertos y que programa concreto hay funcionando en cada uno."
+  },
+  {
+    "file": "2_22.jpg",
+    "startSec": 142.94,
+    "text": "El resultado le confirma lo que buscaba."
+  },
+  {
+    "file": "2_25.jpg",
+    "startSec": 145.32,
+    "text": "Hay un puerto abierto sirviendo la página web con un programa de servidor normal y corriente."
+  },
+  {
+    "file": "2_30.jpg",
+    "startSec": 150.72,
+    "text": "Pero él no quiere lo que se ve,"
+  },
+  {
+    "file": "2_32.jpg",
+    "startSec": 152.54,
+    "text": "eso lo ve cualquiera,"
+  },
+  {
+    "file": "2_34.jpg",
+    "startSec": 154.18,
+    "text": "quiere lo que está escondido debajo."
+  },
+  {
+    "file": "2_36.jpg",
+    "startSec": 156.76,
+    "text": "Quiere las carpetas y los archivos que existen en el servidor, pero que no aparecen enlazados en ninguna parte de la web."
+  },
+  {
+    "file": "2_43.jpg",
+    "startSec": 163.46,
+    "text": "Y para eso hay una técnica que casi nadie fuera del sector conoce."
+  },
+  {
+    "file": "2_47.jpg",
+    "startSec": 167.56,
+    "text": "Y aquí llega la parte clave."
+  },
+  {
+    "file": "2_49.jpg",
+    "startSec": 169.76,
+    "text": "Usa otra herramienta govester que hace una cosa muy simple pero demoledora."
+  },
+  {
+    "file": "2_55.jpg",
+    "startSec": 175.52,
+    "text": "Coge una lista enorme de nombres típicos de carpetas y archivos,"
+  },
+  {
+    "file": "2_59.jpg",
+    "startSec": 179.26,
+    "text": "admin,"
+  },
+  {
+    "file": "2_59_b.jpg",
+    "startSec": 179.96,
+    "text": "acceso,"
+  },
+  {
+    "file": "3_00.jpg",
+    "startSec": 180.74,
+    "text": "login,"
+  },
+  {
+    "file": "3_01.jpg",
+    "startSec": 181.48,
+    "text": "copia de seguridad,"
+  },
+  {
+    "file": "3_02.jpg",
+    "startSec": 182.58,
+    "text": "configuración,"
+  },
+  {
+    "file": "3_03.jpg",
+    "startSec": 183.78,
+    "text": "y los prueba a todos uno detrás de otro a toda velocidad contra el servidor."
+  },
+  {
+    "file": "3_09.jpg",
+    "startSec": 189.1,
+    "text": "Por cada nombre pregunta,"
+  },
+  {
+    "file": "3_10.jpg",
+    "startSec": 190.84,
+    "text": "¿existe esta página?"
+  },
+  {
+    "file": "3_12.jpg",
+    "startSec": 192.64,
+    "text": "El servidor responde sin querer."
+  },
+  {
+    "file": "3_14.jpg",
+    "startSec": 194.56,
+    "text": "Está no, está tampoco,"
+  },
+  {
+    "file": "3_16.jpg",
+    "startSec": 196.3,
+    "text": "está sí."
+  },
+  {
+    "file": "3_17.jpg",
+    "startSec": 197.62,
+    "text": "Piensa en lo que significa,"
+  },
+  {
+    "file": "3_19.jpg",
+    "startSec": 199.22,
+    "text": "no hace falta divisan,"
+  },
+  {
+    "file": "3_20.jpg",
+    "startSec": 200.78,
+    "text": "simplemente lo prueba todo."
+  },
+  {
+    "file": "3_23.jpg",
+    "startSec": 203.16,
+    "text": "Durante unos minutos no pasa nada."
+  },
+  {
+    "file": "3_25.jpg",
+    "startSec": 205.52,
+    "text": "La mayoría de nombres no existen."
+  },
+  {
+    "file": "3_27.jpg",
+    "startSec": 207.64,
+    "text": "El servidor responde que no, una y otra vez."
+  },
+  {
+    "file": "3_31.jpg",
+    "startSec": 211.02,
+    "text": "Y de repente,"
+  },
+  {
+    "file": "3_32.jpg",
+    "startSec": 212.26,
+    "text": "entre miles de intentos, uno responde distinto. Una página que sí existe pero que no está enlazada en ningún sitio de la web."
+  },
+  {
+    "file": "3_40.jpg",
+    "startSec": 220.86,
+    "text": "El panel de administración desara,"
+  },
+  {
+    "file": "3_43.jpg",
+    "startSec": 223.38,
+    "text": "el que ella creía invisible."
+  },
+  {
+    "file": "3_45.jpg",
+    "startSec": 225.74,
+    "text": "No ha hecho falta ser un genio,"
+  },
+  {
+    "file": "3_47.jpg",
+    "startSec": 227.56,
+    "text": "ha hecho falta una lista y un poco de paciencia. El atacante abre esa dirección en su navegador, a mano, para confirmarlo."
+  },
+  {
+    "file": "3_54.jpg",
+    "startSec": 234.46,
+    "text": "Y ahí está,"
+  },
+  {
+    "file": "3_55.jpg",
+    "startSec": 235.96,
+    "text": "una pantalla de acceso pidiendo usuario y contraseña."
+  },
+  {
+    "file": "3_59.jpg",
+    "startSec": 239.64,
+    "text": "Ahora sólo le falta una cosa."
+  },
+  {
+    "file": "4_02.jpg",
+    "startSec": 242.26,
+    "text": "Entrar."
+  },
+  {
+    "file": "4_03.jpg",
+    "startSec": 243.44,
+    "text": "Pero no lo va a hacer probando a mano. Usa una tercera herramienta, Hydra, que automatiza los intentos de acceso."
+  },
+  {
+    "file": "4_10.jpg",
+    "startSec": 250.16,
+    "text": "Hydra funciona como un manojo con miles de llaves."
+  },
+  {
+    "file": "4_13.jpg",
+    "startSec": 253.42,
+    "text": "Prueba usuario tras usuario y con cada uno, contraseña tras contraseña, cientos por segundo, sin cansarse nunca."
+  },
+  {
+    "file": "4_20.jpg",
+    "startSec": 260.68,
+    "text": "Y aquí está el detalle que lo cambia todo."
+  },
+  {
+    "file": "4_23.jpg",
+    "startSec": 263.44,
+    "text": "Si la web no limita los intentos, Hydra puede probar para siempre."
+  },
+  {
+    "file": "4_27.jpg",
+    "startSec": 267.78,
+    "text": "Y qué usuarios y contraseñas prueba primero?"
+  },
+  {
+    "file": "4_31.jpg",
+    "startSec": 271.04,
+    "text": "Los de siempre."
+  },
+  {
+    "file": "4_32.jpg",
+    "startSec": 272.22,
+    "text": "Y esto es lo que casi nadie sabe."
+  },
+  {
+    "file": "4_34.jpg",
+    "startSec": 274.74,
+    "text": "Existen listas públicas, gigantescas, con los usuarios más comunes,"
+  },
+  {
+    "file": "4_39.jpg",
+    "startSec": 279.0,
+    "text": "admin,"
+  },
+  {
+    "file": "4_39_b.jpg",
+    "startSec": 279.8,
+    "text": "route,"
+  },
+  {
+    "file": "4_40.jpg",
+    "startSec": 280.38,
+    "text": "usuario, administrador."
+  },
+  {
+    "file": "4_42.jpg",
+    "startSec": 282.36,
+    "text": "Y con las contraseñas más usadas del mundo, sacadas de filtraciones reales de millones de cuentas."
+  },
+  {
+    "file": "4_48.jpg",
+    "startSec": 288.22,
+    "text": "No se las inventa, se las descarga."
+  },
+  {
+    "file": "4_51.jpg",
+    "startSec": 291.04,
+    "text": "Contraseñas como 1, 2, 3, 4, 5, 6. O la palabra contraseña, o te quiero."
+  },
+  {
+    "file": "4_56.jpg",
+    "startSec": 296.4,
+    "text": "Las mismas que usa muchísimo más gente de la que crees."
+  },
+  {
+    "file": "5_00.jpg",
+    "startSec": 300.12,
+    "text": "El atacante lanza el ataque y Hydra empieza a probar combinaciones. Usuario administrador contraseña 1, 2, 3. No, usuario administrador contraseña te quiero."
+  },
+  {
+    "file": "5_10.jpg",
+    "startSec": 310.92,
+    "text": "Y de repente,"
+  },
+  {
+    "file": "5_12.jpg",
+    "startSec": 312.12,
+    "text": "para."
+  },
+  {
+    "file": "5_13.jpg",
+    "startSec": 313.0,
+    "text": "Ha encontrado una que funciona."
+  },
+  {
+    "file": "5_15.jpg",
+    "startSec": 315.4,
+    "text": "El usuario era administrador."
+  },
+  {
+    "file": "5_17.jpg",
+    "startSec": 317.22,
+    "text": "La contraseña te quiero."
+  },
+  {
+    "file": "5_19.jpg",
+    "startSec": 319.62,
+    "text": "El atacante escribe esas credenciales en el panel de Sara,"
+  },
+  {
+    "file": "5_22.jpg",
+    "startSec": 322.74,
+    "text": "Pulse a entrar y está dentro."
+  },
+  {
+    "file": "5_25.jpg",
+    "startSec": 325.46,
+    "text": "Y lo que ve no es un juego."
+  },
+  {
+    "file": "5_27.jpg",
+    "startSec": 327.6,
+    "text": "Ve la base de datos de clientes de Sara, nombres, correos, teléfonos,"
+  },
+  {
+    "file": "5_32.jpg",
+    "startSec": 332.12,
+    "text": "datos reales de gente real, protegido solo por una contraseña débil y un panel que ella creía escondido."
+  },
+  {
+    "file": "5_38.jpg",
+    "startSec": 338.86,
+    "text": "Esto no es una demostración del laboratorio,"
+  },
+  {
+    "file": "5_41.jpg",
+    "startSec": 341.54,
+    "text": "es exactamente así como pasa en el mundo real, todos los días."
+  },
+  {
+    "file": "5_46.jpg",
+    "startSec": 346.12,
+    "text": "Y quizás te es pensando,"
+  },
+  {
+    "file": "5_47.jpg",
+    "startSec": 347.74,
+    "text": "pero mi web es pequeña, ¿quién me va a atacar a mi?"
+  },
+  {
+    "file": "5_50.jpg",
+    "startSec": 350.88,
+    "text": "Esa es justo la trampa."
+  },
+  {
+    "file": "5_52.jpg",
+    "startSec": 352.44,
+    "text": "Al atacante le da igual 15as."
+  },
+  {
+    "file": "5_54.jpg",
+    "startSec": 354.68,
+    "text": "No te lige a ti."
+  },
+  {
+    "file": "5_56.jpg",
+    "startSec": 356.1,
+    "text": "Elige a cualquiera que tenga la puerta mal cerrada y lanza el mismo ataque contra miles de webs a la vez de forma automática."
+  },
+  {
+    "file": "6_03.jpg",
+    "startSec": 363.04,
+    "text": "No te pillan porque seas importante."
+  },
+  {
+    "file": "6_05.jpg",
+    "startSec": 365.64,
+    "text": "Te pillan porque eras fácil."
+  },
+  {
+    "file": "6_08.jpg",
+    "startSec": 368.04,
+    "text": "Así que volvamos al principio,"
+  },
+  {
+    "file": "6_09.jpg",
+    "startSec": 369.7,
+    "text": "a lo que de verdad importa."
+  },
+  {
+    "file": "6_11.jpg",
+    "startSec": 371.32,
+    "text": "A ti."
+  },
+  {
+    "file": "6_12.jpg",
+    "startSec": 372.42,
+    "text": "Porque todo este ataque de principio a fin se apoya en tres errores que puede se evitar hoy mismo."
+  },
+  {
+    "file": "6_18.jpg",
+    "startSec": 378.36,
+    "text": "Uno,"
+  },
+  {
+    "file": "6_19.jpg",
+    "startSec": 379.4,
+    "text": "esconder algo no es protegerlo."
+  },
+  {
+    "file": "6_21.jpg",
+    "startSec": 381.4,
+    "text": "Un panel sin enlace no está seguro,"
+  },
+  {
+    "file": "6_23.jpg",
+    "startSec": 383.64,
+    "text": "solo está sin enlazar."
+  },
+  {
+    "file": "6_25.jpg",
+    "startSec": 385.26,
+    "text": "En cuanto gobuster prueban hombres, aparece. Ponle contraseña de verdad y si puedes, doble factor."
+  },
+  {
+    "file": "6_31.jpg",
+    "startSec": 391.38,
+    "text": "Un código que cambia cada poco y que el atacante no tiene."
+  },
+  {
+    "file": "6_35.jpg",
+    "startSec": 395.56,
+    "text": "Dos,"
+  },
+  {
+    "file": "6_36.jpg",
+    "startSec": 396.26,
+    "text": "la contraseña débil es la que abre la puerta."
+  },
+  {
+    "file": "6_38.jpg",
+    "startSec": 398.86,
+    "text": "Te quiero, tu nombre, tu fecha de nacimiento o uno, dos, tres no protegen absolutamente nada porque están todas en esas listas."
+  },
+  {
+    "file": "6_46.jpg",
+    "startSec": 406.92,
+    "text": "Una contraseña larga y única, distinta en cada sitio,"
+  },
+  {
+    "file": "6_50.jpg",
+    "startSec": 410.4,
+    "text": "convierte un ataque de segundos en uno de siglos."
+  },
+  {
+    "file": "6_53.jpg",
+    "startSec": 413.86,
+    "text": "Tres,"
+  },
+  {
+    "file": "6_54.jpg",
+    "startSec": 414.98,
+    "text": "limita los intentos."
+  },
+  {
+    "file": "6_56.jpg",
+    "startSec": 416.5,
+    "text": "Si una web bloquea el acceso tras unos pocos fallos, herramientas como Hydra dejan de servir de golpe."
+  },
+  {
+    "file": "7_02.jpg",
+    "startSec": 422.34,
+    "text": "Sin ese límite, el atacante tiene todo el tiempo del mundo para probar millones de claves."
+  },
+  {
+    "file": "7_07.jpg",
+    "startSec": 427.86,
+    "text": "Fíjate que ninguna de las tres cosas es cara ni complicada."
+  },
+  {
+    "file": "7_11.jpg",
+    "startSec": 431.2,
+    "text": "Son gratis, solo hay que saberlas."
+  },
+  {
+    "file": "7_14.jpg",
+    "startSec": 434.02,
+    "text": "Y una cosa más, la más importante de todas."
+  },
+  {
+    "file": "7_17.jpg",
+    "startSec": 437.32,
+    "text": "Todo lo que has visto aquí son herramientas que usan los profesionales de seguridad para proteger, con permiso, sus propios sistemas."
+  },
+  {
+    "file": "7_24.jpg",
+    "startSec": 444.16,
+    "text": "Hacer esto contra una web que no es tuya, sin autorización,"
+  },
+  {
+    "file": "7_27.jpg",
+    "startSec": 447.78,
+    "text": "no es curiosidad."
+  },
+  {
+    "file": "7_29.jpg",
+    "startSec": 449.32,
+    "text": "Es un delito."
+  },
+  {
+    "file": "7_31.jpg",
+    "startSec": 451.1,
+    "text": "Esto es divulgación para que sepas defenderte,"
+  },
+  {
+    "file": "7_33.jpg",
+    "startSec": 453.78,
+    "text": "no un manual para atacar a nadie."
+  },
+  {
+    "file": "7_36.jpg",
+    "startSec": 456.34,
+    "text": "Si esto te ha hecho mirar tus contraseñas con otra cara, suscríbete."
+  },
+  {
+    "file": "7_40.jpg",
+    "startSec": 460.26,
+    "text": "Seben ocias deis."
+  }
+]

@@ -405,5 +405,21 @@
       "privacy": "public",
       "date": "2026-08-07"
     }
+  },
+  "como-hackean-una-web": {
+    "composition": "ComoHackeanUnaWeb",
+    "tsx": "remotion/src/ComoHackeanUnaWeb.tsx",
+    "manifest_dir": "channel/tecno/videos/como-hackean-una-web",
+    "script": "channel/tecno/videos/como-hackean-una-web/script.md",
+    "audio_static": "como-hackean-una-web.mp3",
+    "images_subpath": "como-hackean-una-web",
+    "naming": "timestamp",
+    "ext": "jpg",
+    "playback_rate": 1.2,
+    "fps": 30,
+    "width": 1920,
+    "height": 1080,
+    "background": "#ffffff",
+    "youtube_id": "2hAJTj8BiWE"
   }
 }

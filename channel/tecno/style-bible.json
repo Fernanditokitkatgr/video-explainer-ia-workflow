@@ -1,37 +1,36 @@
 {
   "_doc": "STYLE BIBLE del canal tecno — fuente de verdad ÚNICA y ESTRUCTURADA del estilo visual. Sustituye a los campos sueltos de style.json (que se mantiene solo como log histórico de decisiones, ver 'historial_decisiones' ahí). Todo script que construya frames.json o genere imágenes DEBE leer este archivo, nunca copiar sus valores a mano. Creado ago-2026 a petición explícita del usuario tras detectar mezcla de estilos, deriva de personaje y repetición excesiva de composición entre videos.",
   "style_id": "ecomonos-flat-blanco-ago2026",
-
   "identidad_visual": "Cartoon tosco a lo 'Ecomonos' (YouTube): trazo grueso negro, colores planos, sin gradientes, sin desenfoque, sin profundidad de campo, sin efectos de brillo/glow, sin sombreado suave — como un dibujo hecho con marcador. Fondo BLANCO PURO por defecto. Este estilo NO se mezcla nunca con otros (nada de 3D, fotorrealismo, acuarela, pixel art, anime, etc.) dentro del mismo vídeo ni entre vídeos del mismo canal, salvo decisión explícita y documentada del usuario.",
-
   "personaje_protagonista": {
     "nombre": "el mono del canal",
-    "diseno_fijo": "Mono marrón, pecho/vientre desnudo color crema SIN ropa ni accesorios salvo que la escena lo pida explícitamente (medalla, gorra puntual, etc. — nunca camiseta/pantalón por defecto). Ojos ENORMES, redondos, blancos, SIMÉTRICOS entre sí (mismo tamaño ambos), con pupila pequeña negra. Cejas normales (dos, finas, expresivas) — NUNCA una sola ceja dominante ni ojos asimétricos: esto se probó en ago-2026 y el usuario lo rechazó explícitamente ('esto que me has hecho es una basura'), revertido y prohibido salvo petición nueva y explícita.",
+    "diseno_fijo": "Mono de pelaje MARRÓN OSCURO y RICO (NO marrón claro, NO cuerpo/vientre color crema — ese fue el error de ago-2026 que derivó a un mono genérico), con una máscara facial plana algo más clara. Ojos redondos blancos de tamaño MEDIO (no gigantes) con pupila pequeña negra que suele MIRAR DE REOJO / de lado (mirada socarrona, deadpan) — NUNCA dos ojos gigantes perfectamente simétricos mirando al frente estilo dibujo genérico. Hocico redondeado definido con nariz pequeña y boca de línea fina; orejas redondeadas con una pequeña espiral interior; línea de ceja fina y sutil. Sin ropa ni accesorios salvo que la escena lo pida. REGLA CRÍTICA (ago-2026): el diseño se ancla SIEMPRE con la imagen de referencia real (mono_protagonista.png = hf_20260804), y el texto NO debe contradecirla — describir 'ojos enormes crema simétricos' hacía que el modelo ignorara la referencia y saliera otro mono. Adjuntar además mono_cara.png como segunda referencia.",
     "proporciones": "Brazos finos, cuerpo redondeado, el mono ocupa 40-60% del encuadre — nunca una figura diminuta perdida en un plano vacío.",
-    "expresiones_permitidas": ["sonrisa amplia con dientes", "boca abierta de shock", "mirada entornada/socarrona", "ceño fruncido de enfado", "cara neutra pensativa"],
-    "imagen_referencia_canonica": "channel/tecno/references/mono_protagonista.png",
+    "expresiones_permitidas": [
+      "sonrisa amplia con dientes",
+      "boca abierta de shock",
+      "mirada entornada/socarrona",
+      "ceño fruncido de enfado",
+      "cara neutra pensativa"
+    ],
+    "imagen_referencia_canonica": "channel/tecno/references/mono_canonico.png",
     "imagen_referencia_cara": "channel/tecno/references/mono_cara.png",
     "nota_referencia": "REFERENCIA DEFINITIVA elegida por el usuario (ago-2026): mono marrón de contorno negro grueso, ojos enormes redondos muy expresivos, cara tierna/pícara, colores planos, fondo blanco. Son generaciones de Higgsfield que el usuario aprobó como 'el mono me encanta, el estilo definitivo'. Adjuntar SIEMPRE mono_protagonista.png como imagen de entrada (Part.from_bytes) en cada generación de producción; usar mono_cara.png como segunda referencia para primeros planos de expresión. La descripción textual sola deriva con el tiempo, por eso la referencia visual es obligatoria."
   },
-
   "personajes_secundarios": {
     "hacker_bueno": "sudadera AZUL CIELO con capucha ABAJO (cara siempre visible), placa/credencial blanca colgando de un cordón. Relajado, confiado. NUNCA capucha arriba, NUNCA negro.",
     "hacker_malo": "el hacker/atacante SOMBRA: silueta completamente NEGRA con capucha arriba, la cara en sombra total de la que solo destacan DOS OJOS AMARILLOS BRILLANTES (a veces sonrisa tenue). Contorno negro grueso, fondo blanco. Referencia canónica: channel/tecno/references/hacker_sombra.png — adjuntarla como referencia cuando salga este personaje. Menos 'mono con sudadera' y más silueta ominosa con ojos amarillos. NUNCA azul, NUNCA con placa.",
     "nota_redundancia": "La diferenciación bueno/malo es DELIBERADAMENTE redundante (color + capucha + placa) porque con una sola señal el modelo se equivocaba de personaje. Si aparecen los dos a la vez, describir SIEMPRE las tres señales de cada uno.",
     "mono_gemelo_generico": "Cuando una escena necesita representar 'la otra persona/país/opción' con el MISMO diseño base (ej. comparativas), usarlo con moderación — ver 'regla_anti_gemelos' en reglas_de_composicion. No es un personaje con nombre propio, es un recurso puntual."
   },
-
   "paleta": {
     "fondo": "blanco puro (#FFFFFF) por defecto. Fondo oscuro/nocturno SOLO si la escena es explícitamente de noche, en una habitación oscura, o iluminada por luces policiales — nunca 'porque el tema es hacking'.",
     "props_y_objetos": "colores planos saturados: amarillo, naranja, rojo, verde, azul — que resalten sobre el blanco.",
     "mono_protagonista": "marrón medio para el pelaje, crema/beige claro para cara-orejas-vientre.",
     "prohibido": "gradientes, degradados, sombreado con volumen, brillo/glow, paletas apagadas o pastel por defecto."
   },
-
   "tipo_de_ilustracion": "Cartoon plano 2D dibujado a mano (estilo 'marcador grueso'), NUNCA 3D render, NUNCA fotorrealista, NUNCA con textura de pincel/acuarela/lápiz.",
-
   "nivel_de_detalle": "Bajo-medio deliberado: formas simples, pocos detalles por objeto, líneas de contorno gruesas y limpias. Un objeto/prop por escena debe ser reconocible de un vistazo, no un dibujo intrincado.",
-
   "reglas_de_composicion": {
     "framing_variety": [
       "extreme close-up de la cara del mono llenando el encuadre",
@@ -50,7 +49,6 @@
     "distribucion_recomendada_por_cada_20_escenas": "máx. 3 extreme close-up, máx. 3 wide-shot-con-objeto-gigante, máx. 2 escenas con dos personajes a la vez, máx. 1 split-screen, el resto repartido entre plano medio / perfil / over-the-shoulder / objeto-solo — ningún tipo de plano por encima del 20% del total del vídeo.",
     "regla_no_repetir_consecutivo": "Nunca repetir el mismo tipo de plano+composición en 2 escenas consecutivas. Si el guion tiene 2 frases seguidas muy parecidas, cambiar AL MENOS el ángulo de cámara o el objeto/prop, aunque el personaje sea el mismo."
   },
-
   "texto_en_imagen_SIEMPRE_ESPANOL": "REGLA DURA (ago-2026, el usuario lo exige): CUALQUIER texto, cartel, botón, rótulo o palabra que aparezca dibujado dentro de la imagen DEBE estar en ESPAÑOL PERFECTO, nunca en inglés. Ejemplos: 'COMIDA DELICIOSA' no 'YUMMY EATS'; 'PEDIR YA' / 'PEDIR' no 'ORDER NOW'; 'MENÚ' no 'MENU'; 'ACCESO' no 'LOGIN'; 'CONTRASEÑA' no 'PASSWORD'. Cada prompt de escena que incluya texto debe escribir EXACTAMENTE las palabras en español, en mayúsculas, tal cual deben salir. Si el modelo no puede garantizar el español correcto en una palabra concreta, mejor un icono que una palabra en inglés. Verificar en la revisión visual que no se ha colado ni una palabra en inglés.",
   "elementos_permitidos": [
     "cifras y palabras CORTAS EN ESPAÑOL dibujadas dentro de la imagen sobre un objeto plano (medallón/moneda circular para números sueltos, plaqueta para cifras con una palabra), nunca superpuestas en edición",
@@ -67,13 +65,21 @@
     "dos personajes idénticos en pose especular como recurso por defecto (ver regla_anti_gemelos)",
     "objetos que deberían llevar información (documento, pantalla, cartel) sin especificar en el prompt qué contienen exactamente — si no se especifica, el modelo improvisa texto roto o los deja vacíos de forma inconsistente"
   ],
-
   "referencias_existentes": [
-    { "video": "hackear-la-ia", "nota": "primer vídeo con el estilo Ecomonos ya estabilizado, buena referencia general de coherencia" },
-    { "video": "te-han-hackeado-y-no-lo-sabes", "archivo": "remotion/public/te-han-hackeado-y-no-lo-sabes/0_08.jpg", "nota": "imagen de referencia canónica del mono protagonista, usar siempre como adjunto" },
-    { "video": "que-hacen-con-tu-dni-robado", "nota": "buena coherencia de estilo, aprobado por el usuario" }
+    {
+      "video": "hackear-la-ia",
+      "nota": "primer vídeo con el estilo Ecomonos ya estabilizado, buena referencia general de coherencia"
+    },
+    {
+      "video": "te-han-hackeado-y-no-lo-sabes",
+      "archivo": "remotion/public/te-han-hackeado-y-no-lo-sabes/0_08.jpg",
+      "nota": "imagen de referencia canónica del mono protagonista, usar siempre como adjunto"
+    },
+    {
+      "video": "que-hacen-con-tu-dni-robado",
+      "nota": "buena coherencia de estilo, aprobado por el usuario"
+    }
   ],
-
   "reglas_de_consistencia_entre_escenas": [
     "Adjuntar SIEMPRE la imagen de referencia canónica (Part.from_bytes) en cada llamada de generación de producción, no confiar solo en la descripción textual.",
     "No cambiar el modelo/engine de generación a media tanda sin decirlo explícitamente en el informe de revisión (ver CLAUDE.md, gotcha de mezclar Pro/Flash).",

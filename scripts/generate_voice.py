@@ -29,19 +29,37 @@ MAX_CHARS_PER_REQUEST = 4800
 
 
 def chunk_text(text: str, max_chars: int = MAX_CHARS_PER_REQUEST) -> list[str]:
-    """Trocea el guion en fragmentos <= max_chars, cortando solo entre líneas
-    (nunca a mitad de frase) para no partir un beat narrativo entre requests."""
+    """Trocea el guion en el MÍNIMO número de fragmentos <= max_chars, y los deja
+    lo más EQUILIBRADOS posible, cortando siempre entre líneas.
+
+    Por qué equilibrado y no 'a lo bruto' (ago-2026): eleven_v3 no puede coser
+    fragmentos, así que cada corte es un punto donde la voz PODRÍA cambiar de tono.
+    Si el corte cae a mitad de una idea, se nota (pasó en 2 vídeos). Partiendo en
+    mitades iguales, el corte cae cerca del centro del guion —normalmente en una
+    transición de sección/pausa— y el salto es imperceptible. Además, dos trozos de
+    ~3900 quedan holgados bajo el límite de 5000, sin riesgo de text_too_long.
+    """
     lines = text.split("\n")
+    total = sum(len(ln) + 1 for ln in lines)
+    # nº mínimo de trozos para que cada uno quepa bajo el límite
+    import math
+    n_chunks = max(1, math.ceil(total / max_chars))
+    target = total / n_chunks  # tamaño ideal de cada trozo (equilibrado)
+
     chunks: list[str] = []
     current: list[str] = []
     current_len = 0
     for line in lines:
-        added_len = len(line) + 1
-        if current and current_len + added_len > max_chars:
+        added = len(line) + 1
+        # cierra el trozo si ya alcanzó el objetivo equilibrado (y aún quedan trozos
+        # por abrir), o si añadir esta línea se pasaría del límite duro.
+        would_exceed = current and current_len + added > max_chars
+        reached_target = current and current_len >= target and len(chunks) < n_chunks - 1
+        if would_exceed or reached_target:
             chunks.append("\n".join(current))
             current, current_len = [], 0
         current.append(line)
-        current_len += added_len
+        current_len += added
     if current:
         chunks.append("\n".join(current))
     return chunks
@@ -112,12 +130,12 @@ def _request_tts(text: str, retries: int = 3, stability: float = None, style: fl
         "voice_settings": effective_settings(stability, style),
     }
     # La API acepta como máximo 3 request_id previos.
+    # NOTA (ago-2026): eleven_v3 NO soporta previous_text/next_text (da 400
+    # unsupported_model). Sí acepta previous_request_ids, que es el encadenado por
+    # ID — suficiente para que la prosodia continúe entre fragmentos sin cambiar la
+    # voz. Por eso solo mandamos los request_ids, no el texto de contexto.
     if previous_request_ids:
         payload["previous_request_ids"] = previous_request_ids[-3:]
-    if previous_text:
-        payload["previous_text"] = previous_text
-    if next_text:
-        payload["next_text"] = next_text
 
     last_err = ""
     for attempt in range(1, retries + 1):
@@ -125,6 +143,14 @@ def _request_tts(text: str, retries: int = 3, stability: float = None, style: fl
         if r.status_code == 200:
             return r.content, r.headers.get("request-id")
         last_err = f"{r.status_code}: {r.text[:300]}"
+        # eleven_v3 no soporta el encadenado (previous_request_ids): si lo rechaza,
+        # reintenta SIN encadenar (chunking normal). El script no debe caerse por esto;
+        # la deriva de voz entre fragmentos, si aparece, se corrige regenerando el
+        # fragmento afectado (ver docstring).
+        if r.status_code == 400 and "unsupported_model" in r.text and "previous_request_ids" in payload:
+            payload.pop("previous_request_ids", None)
+            print("  ⚠️  eleven_v3 no soporta encadenado; genero el fragmento sin costura.")
+            continue
         if r.status_code >= 500 and attempt < retries:  # error transitorio → reintenta
             wait = 2 ** attempt
             print(f"  ⚠️  ElevenLabs {r.status_code}, reintento {attempt}/{retries} en {wait}s…")

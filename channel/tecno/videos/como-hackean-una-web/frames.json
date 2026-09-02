@@ -1,0 +1,1056 @@
+{
+  "video": "como-hackean-una-web",
+  "style_base": "Crude hand-drawn cartoon, Ecomonos style, PURE WHITE background, thick black ink outlines, flat colors. A brown cartoon monkey protagonist, huge white round eyes, exactly like the reference image. Exactly two arms and two hands per character. Any text that appears in the image must be in PERFECT SPANISH, never English. Fill the whole frame, no black bars. SCENE: CRITICAL: never draw the number 258 or the word DIAS/DÍAS or a torn-calendar motif unless the scene explicitly describes days/months elapsed — that content belongs to a different video and must never bleed in from the reference image. CRITICAL about the shadow-hacker attacker: its face must ALWAYS stay completely hidden inside the black hood shadow — never draw visible skin, a nose, a mouth, teeth or any facial features, and never let it look like the brown monkey wearing a hoodie. Only two glowing YELLOW eyes are visible, nothing else. Show emotion only through posture, hands, and the shape/angle of the two eyes.",
+  "frames": [
+    {
+      "file": "0_00.jpg",
+      "startSec": 0.0,
+      "text": "Esta es Sara,",
+      "ref": "mono",
+      "scene": "Medium shot: the dark brown monkey Sara standing confidently, looking directly at the camera with a warm friendly smile, both hands relaxed at her sides, plain white background, simple clean introduction shot."
+    },
+    {
+      "file": "0_01.jpg",
+      "startSec": 1.16,
+      "text": "acaba de lanzar la web de su pequeño negocio de comida a Domicilio.",
+      "ref": "mono",
+      "scene": "Wide: the monkey Sara gesturing at a laptop showing a simple food-delivery website: food icons and a green button labeled exactly PEDIR, no other text."
+    },
+    {
+      "file": "0_04.jpg",
+      "startSec": 4.82,
+      "text": "Un meno,",
+      "ref": "none",
+      "scene": "Close-up of a laptop screen showing a simple food-delivery website: a photo-style burger and pizza icons and a green button, no text, only icons, no monkey."
+    },
+    {
+      "file": "0_05.jpg",
+      "startSec": 5.86,
+      "text": "un botón de pedir,",
+      "ref": "none",
+      "scene": "Medium shot: a finger pressing a green button labeled 'PEDIR' on a screen, no monkey."
+    },
+    {
+      "file": "0_07.jpg",
+      "startSec": 7.14,
+      "text": "y detrás, un panel de administración para gestionar los platos.",
+      "ref": "mono",
+      "scene": "Medium: the monkey Sara sneakily attaching a small extra door to the BACK of a house-shaped website, a plaque 'ADMIN'."
+    },
+    {
+      "file": "0_10.jpg",
+      "startSec": 10.84,
+      "text": "Sara piensa que ese panel no lo va a encontrar nadie,",
+      "ref": "mono",
+      "scene": "Medium shot: the monkey Sara shrugging confidently, sure nobody will find the hidden back door."
+    },
+    {
+      "file": "0_13.jpg",
+      "startSec": 13.94,
+      "text": "porque no hay ningún enlace que lleve a él.",
+      "ref": "none",
+      "scene": "Close-up: a hidden back door on a house-website with NO path leading to it, a crossed-out chain-link icon."
+    },
+    {
+      "file": "0_16.jpg",
+      "startSec": 16.32,
+      "text": "Y ahí es donde se equivoca,",
+      "ref": "mono",
+      "scene": "Extreme close-up of the monkey Sara's face, confident smile turning slightly unsure, one eyebrow up."
+    },
+    {
+      "file": "0_18.jpg",
+      "startSec": 18.48,
+      "text": "porque al otro lado está alguien que no la conoce de nada,",
+      "ref": "sombra",
+      "scene": "Wide: on the right the black hooded shadow-hacker with glowing yellow eyes appears, looking toward the house-website on the left. Tension."
+    },
+    {
+      "file": "0_21.jpg",
+      "startSec": 21.58,
+      "text": "pero que sabe una cosa.",
+      "ref": "sombra",
+      "scene": "Close-up of the shadow-hacker's glowing yellow eyes in the dark hood, a knowing look."
+    },
+    {
+      "file": "0_23.jpg",
+      "startSec": 23.14,
+      "text": "Toda web nueva deja puertas abiertas sin querer.",
+      "ref": "none",
+      "scene": "A big sign reading exactly in Spanish: 'TODA WEB DEJA PUERTAS ABIERTAS', no characters."
+    },
+    {
+      "file": "0_26.jpg",
+      "startSec": 26.52,
+      "text": "Hoy vas a ver paso a paso como entra un atacante en una hueva así,",
+      "ref": "sombra",
+      "scene": "Over-the-shoulder of the shadow-hacker observing the monkey Sara plain website on a screen that shows only two simple buttons and food icons, no text."
+    },
+    {
+      "file": "0_31.jpg",
+      "startSec": 31.02,
+      "text": "y al final vas a saber exactamente qué falló,",
+      "ref": "mono",
+      "scene": "the monkey Sara holding a small checklist, a learning pose, curious."
+    },
+    {
+      "file": "0_33.jpg",
+      "startSec": 33.78,
+      "text": "y cómo no ser tú la próxima Sara.",
+      "ref": "mono",
+      "scene": "Extreme close-up of the monkey Sara's face, determined, direct at camera."
+    },
+    {
+      "file": "0_36.jpg",
+      "startSec": 36.68,
+      "text": "Lo primero que tienes que entender es que jaquear no esté crear rápido con la pantalla llena de código verde.",
+      "ref": "none",
+      "scene": "A plain dark computer screen showing wavy green scribble lines, crossed out with a big red X to mean this cliche is wrong, white background, no text, no characters."
+    },
+    {
+      "file": "0_42.jpg",
+      "startSec": 42.7,
+      "text": "Eso es tiene,",
+      "ref": "none",
+      "scene": "Wide shot of a film clapperboard icon crossed out with a red X, plain on white, no characters."
+    },
+    {
+      "file": "0_43.jpg",
+      "startSec": 43.84,
+      "text": "la realidad es mucho más aburrida y mucho más peligrosa,",
+      "ref": "sombra",
+      "scene": "The shadow-hacker sitting very still and patient at a desk, chin on hand."
+    },
+    {
+      "file": "0_47.jpg",
+      "startSec": 47.58,
+      "text": "es paciencia, es método,",
+      "ref": "sombra",
+      "scene": "Medium shot: the shadow-hacker tapping fingers patiently, methodical and calm."
+    },
+    {
+      "file": "0_49.jpg",
+      "startSec": 49.7,
+      "text": "es buscar con calma la puerta que alguien olvidó cerrar.",
+      "ref": "sombra",
+      "scene": "The shadow-hacker crouched, examining the house-website with a magnifying glass."
+    },
+    {
+      "file": "0_53.jpg",
+      "startSec": 53.62,
+      "text": "El atacante abre la web de Sara,",
+      "ref": "sombra",
+      "scene": "Over-the-shoulder: the shadow-hacker just looking at the plain website, only observing."
+    },
+    {
+      "file": "0_55.jpg",
+      "startSec": 55.84,
+      "text": "y lo primero solo mira.",
+      "ref": "sombra",
+      "scene": "Extreme close-up of the shadow-hacker's glowing eyes reflecting a plain website, watching."
+    },
+    {
+      "file": "0_57.jpg",
+      "startSec": 57.62,
+      "text": "Se llama reconocimiento,",
+      "ref": "none",
+      "scene": "A big sign reading exactly in Spanish: 'RECONOCIMIENTO', with a small magnifying-glass icon, no characters."
+    },
+    {
+      "file": "0_59.jpg",
+      "startSec": 59.1,
+      "text": "y es la parte más larga de cualquier ataque.",
+      "ref": "none",
+      "scene": "Wide shot of a large hourglass full of sand, no characters - the longest part of the attack."
+    },
+    {
+      "file": "1_01.jpg",
+      "startSec": 61.62,
+      "text": "Por fuera solo hay dos páginas, el menú y el botón de pedir.",
+      "ref": "none",
+      "scene": "A simple website with only two page tabs drawn: 'MENU' and 'PEDIR', nothing else, no characters."
+    },
+    {
+      "file": "1_05.jpg",
+      "startSec": 65.38,
+      "text": "Ningún enlace al panel de administración,",
+      "ref": "none",
+      "scene": "Wide shot of a website with no admin link, a small crossed-out chain-link icon, no characters."
+    },
+    {
+      "file": "1_08.jpg",
+      "startSec": 68.04,
+      "text": "nada sospechoso a simple vista.",
+      "ref": "sombra",
+      "scene": "The shadow-hacker shrugging with a sly grin, as if 'nothing here'."
+    },
+    {
+      "file": "1_10.jpg",
+      "startSec": 70.48,
+      "text": "Alguien pensaría que ahí no hay nada que hacer,",
+      "ref": "sombra",
+      "scene": "Medium shot: the shadow-hacker looking unimpressed at the plain website."
+    },
+    {
+      "file": "1_13.jpg",
+      "startSec": 73.38,
+      "text": "pero las puertas de una web casi nunca se anuncian,",
+      "ref": "none",
+      "scene": "A row of plain closed unlabeled doors on a wall, none advertised, no characters."
+    },
+    {
+      "file": "1_16.jpg",
+      "startSec": 76.4,
+      "text": "simplemente están ahí escondidas,",
+      "ref": "none",
+      "scene": "Wide shot of a hidden door faintly glowing behind a curtain on the house-website, no characters."
+    },
+    {
+      "file": "1_18.jpg",
+      "startSec": 78.54,
+      "text": "esperando.",
+      "ref": "none",
+      "scene": "Close-up of the faint hidden door waiting in shadow, no characters."
+    },
+    {
+      "file": "1_19.jpg",
+      "startSec": 79.54,
+      "text": "Y él sabe cómo buscarlas sin que nadie es enteré.",
+      "ref": "sombra",
+      "scene": "The shadow-hacker cracking its knuckles, about to start searching, sly."
+    },
+    {
+      "file": "1_23.jpg",
+      "startSec": 83.4,
+      "text": "Primero paso, encontrar la dirección real de la web.",
+      "ref": "none",
+      "scene": "A big sign reading exactly in Spanish: 'PASO 1: LA DIRECCION', a big numeral 1, no characters."
+    },
+    {
+      "file": "1_26.jpg",
+      "startSec": 86.92,
+      "text": "Tú escribes un nombre como comida Sara, punto com,",
+      "ref": "mono",
+      "scene": "the monkey Sara typing a web name into a browser bar that reads 'COMIDASARA.COM'."
+    },
+    {
+      "file": "1_30.jpg",
+      "startSec": 90.2,
+      "text": "pero por debajo cada web es en realidad un número, su dirección y p.",
+      "ref": "none",
+      "scene": "Close-up: a browser bar 'COMIDASARA.COM' with an arrow turning it into a string of numbers, no characters."
+    },
+    {
+      "file": "1_34.jpg",
+      "startSec": 94.24,
+      "text": "Para averiguarlo existe un truco viejo y sencillo, una consulta que le pregunta Internet,",
+      "ref": "sombra",
+      "scene": "The shadow-hacker at a laptop, a speech bubble from the laptop with a big '?', asking the internet."
+    },
+    {
+      "file": "1_39.jpg",
+      "startSec": 99.96,
+      "text": "oye, qué número hay detrás de este nombre.",
+      "ref": "none",
+      "scene": "A simple diagram: a name tag connected by an arrow to a numbered address plate, like a phonebook, no characters."
+    },
+    {
+      "file": "1_42.jpg",
+      "startSec": 102.64,
+      "text": "En segundo, se la atacante tiene la dirección exacta del servidor de Sara.",
+      "ref": "sombra",
+      "scene": "The shadow-hacker pointing at a server box icon with a glowing number label on it."
+    },
+    {
+      "file": "1_47.jpg",
+      "startSec": 107.22,
+      "text": "Saber eso es como saber en qué casa vive alguien.",
+      "ref": "sombra",
+      "scene": "Medium shot, wide: a house with a big address plaque showing the number 128, the shadow-hacker standing in front knowing exactly which house it is."
+    },
+    {
+      "file": "1_50.jpg",
+      "startSec": 110.44,
+      "text": "Ahora quiere ver qué puertas y ventanas tiene esa casa y cuáles están abiertas.",
+      "ref": "sombra",
+      "scene": "The shadow-hacker studying the house, now wanting to check its doors and windows, hand on chin."
+    },
+    {
+      "file": "1_55.jpg",
+      "startSec": 115.48,
+      "text": "Segundo paso,",
+      "ref": "none",
+      "scene": "A big sign reading exactly in Spanish: 'PASO 2: QUE ESTA ABIERTO', a big numeral 2, no characters."
+    },
+    {
+      "file": "1_56.jpg",
+      "startSec": 116.56,
+      "text": "mirar qué está abierto.",
+      "ref": "sombra",
+      "scene": "The shadow-hacker walking around the house-website trying each door and window handle."
+    },
+    {
+      "file": "1_58.jpg",
+      "startSec": 118.46,
+      "text": "Pienso otra vez en la casa,",
+      "ref": "none",
+      "scene": "A simple house with several doors and windows, no characters."
+    },
+    {
+      "file": "2_00.jpg",
+      "startSec": 120.02,
+      "text": "ya sabe dónde está.",
+      "ref": "sombra",
+      "scene": "The shadow-hacker looking confident, it already knows where the house is."
+    },
+    {
+      "file": "2_01.jpg",
+      "startSec": 121.48,
+      "text": "Ahora rodea el edificio y prueba cada puerta y cada ventana para ver cuál se ve.",
+      "ref": "sombra",
+      "scene": "Close-up: a hand testing a door handle on the house-website."
+    },
+    {
+      "file": "2_06.jpg",
+      "startSec": 126.4,
+      "text": "En una web esas puertas se llaman puertos y para revisarlos usa una herramienta muy conocida en seguridad que se llama en map.",
+      "ref": "none",
+      "scene": "A house-website with several doors labeled as numbered 'PUERTOS', some open some closed, a small label 'NMAP', no characters."
+    },
+    {
+      "file": "2_14.jpg",
+      "startSec": 134.32,
+      "text": "En map recorre el servidor y comproba uno a uno, que puertos están abiertos y que programa concreto hay funcionando en cada uno.",
+      "ref": "sombra",
+      "scene": "The shadow-hacker at a laptop running a scan tool that lists simple open/closed door icons, focused."
+    },
+    {
+      "file": "2_22.jpg",
+      "startSec": 142.94,
+      "text": "El resultado le confirma lo que buscaba.",
+      "ref": "sombra",
+      "scene": "Medium shot: the shadow-hacker nodding, confirming what it was looking for."
+    },
+    {
+      "file": "2_25.jpg",
+      "startSec": 145.32,
+      "text": "Hay un puerto abierto sirviendo la página web con un programa de servidor normal y corriente.",
+      "ref": "none",
+      "scene": "Close-up of a screen: a list of ports drawn as small grey bars with one bar glowing green as open and a small web icon, no text, no characters."
+    },
+    {
+      "file": "2_30.jpg",
+      "startSec": 150.72,
+      "text": "Pero él no quiere lo que se ve,",
+      "ref": "sombra",
+      "scene": "The shadow-hacker waving away the visible front of the website with one hand, unimpressed."
+    },
+    {
+      "file": "2_32.jpg",
+      "startSec": 152.54,
+      "text": "eso lo ve cualquiera,",
+      "ref": "sombra",
+      "scene": "Extreme close-up: the shadow-hacker's eyes narrowing, wanting what is hidden."
+    },
+    {
+      "file": "2_34.jpg",
+      "startSec": 154.18,
+      "text": "quiere lo que está escondido debajo.",
+      "ref": "none",
+      "scene": "A house-website cut open like a dollhouse, showing hidden folders and files inside not visible from outside, no characters."
+    },
+    {
+      "file": "2_36.jpg",
+      "startSec": 156.76,
+      "text": "Quiere las carpetas y los archivos que existen en el servidor, pero que no aparecen enlazados en ninguna parte de la web.",
+      "ref": "sombra",
+      "scene": "The shadow-hacker shining a flashlight into the dark hidden part of the house-website."
+    },
+    {
+      "file": "2_43.jpg",
+      "startSec": 163.46,
+      "text": "Y para eso hay una técnica que casi nadie fuera del sector conoce.",
+      "ref": "none",
+      "scene": "Mysterious hidden files glowing faintly behind a curtain, a technique few know, no characters."
+    },
+    {
+      "file": "2_47.jpg",
+      "startSec": 167.56,
+      "text": "Y aquí llega la parte clave.",
+      "ref": "none",
+      "scene": "Wide shot of a big sign reading exactly in Spanish: 'LA PARTE CLAVE', no characters."
+    },
+    {
+      "file": "2_49.jpg",
+      "startSec": 169.76,
+      "text": "Usa otra herramienta govester que hace una cosa muy simple pero demoledora.",
+      "ref": "sombra",
+      "scene": "The shadow-hacker holding a huge thick book/list of common folder names, a small label 'GOBUSTER', sly."
+    },
+    {
+      "file": "2_55.jpg",
+      "startSec": 175.52,
+      "text": "Coge una lista enorme de nombres típicos de carpetas y archivos,",
+      "ref": "none",
+      "scene": "Close-up of a long list on paper with Spanish words: 'ADMIN, ACCESO, LOGIN, COPIA, CONFIG', no characters."
+    },
+    {
+      "file": "2_59.jpg",
+      "startSec": 179.26,
+      "text": "admin,",
+      "ref": "none",
+      "scene": "A single big sign reading exactly: 'ADMIN', no characters."
+    },
+    {
+      "file": "2_59_b.jpg",
+      "startSec": 179.96,
+      "text": "acceso,",
+      "ref": "none",
+      "scene": "Wide shot of a single big sign reading exactly: 'ACCESO', no characters."
+    },
+    {
+      "file": "3_00.jpg",
+      "startSec": 180.74,
+      "text": "login,",
+      "ref": "none",
+      "scene": "A single big sign reading exactly: 'LOGIN', no characters."
+    },
+    {
+      "file": "3_01.jpg",
+      "startSec": 181.48,
+      "text": "copia de seguridad,",
+      "ref": "none",
+      "scene": "Wide shot of a single big sign reading exactly: 'COPIA DE SEGURIDAD', no characters."
+    },
+    {
+      "file": "3_02.jpg",
+      "startSec": 182.58,
+      "text": "configuración,",
+      "ref": "none",
+      "scene": "A single big sign reading exactly: 'CONFIGURACION', no characters."
+    },
+    {
+      "file": "3_03.jpg",
+      "startSec": 183.78,
+      "text": "y los prueba a todos uno detrás de otro a toda velocidad contra el servidor.",
+      "ref": "sombra",
+      "scene": "The shadow-hacker rapidly firing each name at the house-website like darts, fast motion lines."
+    },
+    {
+      "file": "3_09.jpg",
+      "startSec": 189.1,
+      "text": "Por cada nombre pregunta,",
+      "ref": "sombra",
+      "scene": "Close-up: a hand knocking on many doors of the house-website one after another, motion lines."
+    },
+    {
+      "file": "3_10.jpg",
+      "startSec": 190.84,
+      "text": "¿existe esta página?",
+      "ref": "none",
+      "scene": "A speech bubble at a door asking exactly in Spanish: '¿EXISTES?', no characters."
+    },
+    {
+      "file": "3_12.jpg",
+      "startSec": 192.64,
+      "text": "El servidor responde sin querer.",
+      "ref": "none",
+      "scene": "Wide shot of a house-website answering with small tags on its doors, no characters."
+    },
+    {
+      "file": "3_14.jpg",
+      "startSec": 194.56,
+      "text": "Está no, está tampoco,",
+      "ref": "none",
+      "scene": "Close-up: two doors with a red X, no characters."
+    },
+    {
+      "file": "3_16.jpg",
+      "startSec": 196.3,
+      "text": "está sí.",
+      "ref": "none",
+      "scene": "Wide shot of one door with a green check mark, no characters."
+    },
+    {
+      "file": "3_17.jpg",
+      "startSec": 197.62,
+      "text": "Piensa en lo que significa,",
+      "ref": "sombra",
+      "scene": "The shadow-hacker sly, one finger raised, realizing what this means."
+    },
+    {
+      "file": "3_19.jpg",
+      "startSec": 199.22,
+      "text": "no hace falta divisan,",
+      "ref": "none",
+      "scene": "A big sign reading exactly in Spanish: 'NO HACE FALTA ADIVINAR', no characters."
+    },
+    {
+      "file": "3_20.jpg",
+      "startSec": 200.78,
+      "text": "simplemente lo prueba todo.",
+      "ref": "sombra",
+      "scene": "The shadow-hacker calmly trying everything, relaxed and confident."
+    },
+    {
+      "file": "3_23.jpg",
+      "startSec": 203.16,
+      "text": "Durante unos minutos no pasa nada.",
+      "ref": "none",
+      "scene": "A large hourglass with falling sand, the quiet house-website behind, no characters."
+    },
+    {
+      "file": "3_25.jpg",
+      "startSec": 205.52,
+      "text": "La mayoría de nombres no existen.",
+      "ref": "none",
+      "scene": "Close-up: a screen with many 'NO' responses stacking up in grey, no characters."
+    },
+    {
+      "file": "3_27.jpg",
+      "startSec": 207.64,
+      "text": "El servidor responde que no, una y otra vez.",
+      "ref": "sombra",
+      "scene": "The shadow-hacker waiting, a little bored, tapping fingers."
+    },
+    {
+      "file": "3_31.jpg",
+      "startSec": 211.02,
+      "text": "Y de repente,",
+      "ref": "none",
+      "scene": "Extreme close-up: among many grey 'NO's, one response glows green and different, no characters."
+    },
+    {
+      "file": "3_32.jpg",
+      "startSec": 212.26,
+      "text": "entre miles de intentos, uno responde distinto. Una página que sí existe pero que no está enlazada en ningún sitio de la web.",
+      "ref": "sombra",
+      "scene": "The shadow-hacker's eyes lighting up as a hidden page appears, a sign behind reads 'ADMIN'."
+    },
+    {
+      "file": "3_40.jpg",
+      "startSec": 220.86,
+      "text": "El panel de administración desara,",
+      "ref": "none",
+      "scene": "A hidden admin door on the house-website revealed under a spotlight, a small plaque 'ADMIN', no characters."
+    },
+    {
+      "file": "3_43.jpg",
+      "startSec": 223.38,
+      "text": "el que ella creía invisible.",
+      "ref": "mono",
+      "scene": "The monkey with a worried face and hands on cheeks, looking at a small floating admin panel window that has just been discovered, white background."
+    },
+    {
+      "file": "3_45.jpg",
+      "startSec": 225.74,
+      "text": "No ha hecho falta ser un genio,",
+      "ref": "none",
+      "scene": "A big sign reading exactly in Spanish: 'NO HIZO FALTA UN GENIO', no characters."
+    },
+    {
+      "file": "3_47.jpg",
+      "startSec": 227.56,
+      "text": "ha hecho falta una lista y un poco de paciencia. El atacante abre esa dirección en su navegador, a mano, para confirmarlo.",
+      "ref": "sombra",
+      "scene": "The shadow-hacker holding the list in one hand and an hourglass in the other, opening a browser."
+    },
+    {
+      "file": "3_54.jpg",
+      "startSec": 234.46,
+      "text": "Y ahí está,",
+      "ref": "none",
+      "scene": "A login page appearing on a screen with two empty input boxes and a button, no text yet, no characters."
+    },
+    {
+      "file": "3_55.jpg",
+      "startSec": 235.96,
+      "text": "una pantalla de acceso pidiendo usuario y contraseña.",
+      "ref": "none",
+      "scene": "Close-up of a login screen with fields labeled in Spanish 'USUARIO' and 'CONTRASEÑA' and a button 'ENTRAR', no characters."
+    },
+    {
+      "file": "3_59.jpg",
+      "startSec": 239.64,
+      "text": "Ahora sólo le falta una cosa.",
+      "ref": "sombra",
+      "scene": "The shadow-hacker facing a login screen that shows two empty input boxes and a button, no text."
+    },
+    {
+      "file": "4_02.jpg",
+      "startSec": 242.26,
+      "text": "Entrar.",
+      "ref": "none",
+      "scene": "A single big sign reading exactly in Spanish: 'ENTRAR', bold, no characters."
+    },
+    {
+      "file": "4_03.jpg",
+      "startSec": 243.44,
+      "text": "Pero no lo va a hacer probando a mano. Usa una tercera herramienta, Hydra, que automatiza los intentos de acceso.",
+      "ref": "sombra",
+      "scene": "The shadow-hacker shaking its head, not typing by hand, it has a better tool."
+    },
+    {
+      "file": "4_10.jpg",
+      "startSec": 250.16,
+      "text": "Hydra funciona como un manojo con miles de llaves.",
+      "ref": "sombra",
+      "scene": "Medium shot: the shadow-hacker holding a giant ring with thousands of keys, a small label 'HYDRA', menacing grin."
+    },
+    {
+      "file": "4_13.jpg",
+      "startSec": 253.42,
+      "text": "Prueba usuario tras usuario y con cada uno, contraseña tras contraseña, cientos por segundo, sin cansarse nunca.",
+      "ref": "none",
+      "scene": "Close-up: a huge keyring with countless keys, no characters."
+    },
+    {
+      "file": "4_20.jpg",
+      "startSec": 260.68,
+      "text": "Y aquí está el detalle que lo cambia todo.",
+      "ref": "sombra",
+      "scene": "The shadow-hacker with one finger raised, the key detail that changes everything."
+    },
+    {
+      "file": "4_23.jpg",
+      "startSec": 263.44,
+      "text": "Si la web no limita los intentos, Hydra puede probar para siempre.",
+      "ref": "none",
+      "scene": "A lock being hammered by an endless stream of keys with no guard, a sign 'SIN LIMITE, PARA SIEMPRE', no characters."
+    },
+    {
+      "file": "4_27.jpg",
+      "startSec": 267.78,
+      "text": "Y qué usuarios y contraseñas prueba primero?",
+      "ref": "sombra",
+      "scene": "The shadow-hacker thoughtful, wondering which keys to try first."
+    },
+    {
+      "file": "4_31.jpg",
+      "startSec": 271.04,
+      "text": "Los de siempre.",
+      "ref": "none",
+      "scene": "A big sign reading exactly in Spanish: 'LOS DE SIEMPRE', no characters."
+    },
+    {
+      "file": "4_32.jpg",
+      "startSec": 272.22,
+      "text": "Y esto es lo que casi nadie sabe.",
+      "ref": "sombra",
+      "scene": "The shadow-hacker sly, holding a giant public list of common usernames."
+    },
+    {
+      "file": "4_34.jpg",
+      "startSec": 274.74,
+      "text": "Existen listas públicas, gigantescas, con los usuarios más comunes,",
+      "ref": "none",
+      "scene": "Close-up of a screen list of usernames: 'ADMIN, ROOT, USUARIO, ADMINISTRADOR', no characters."
+    },
+    {
+      "file": "4_39.jpg",
+      "startSec": 279.0,
+      "text": "admin,",
+      "ref": "none",
+      "scene": "A single big sign reading exactly: 'ADMIN', no characters."
+    },
+    {
+      "file": "4_39_b.jpg",
+      "startSec": 279.8,
+      "text": "route,",
+      "ref": "none",
+      "scene": "Wide shot of a single big sign reading exactly: 'ROOT', no characters."
+    },
+    {
+      "file": "4_40.jpg",
+      "startSec": 280.38,
+      "text": "usuario, administrador.",
+      "ref": "none",
+      "scene": "A single big sign reading exactly: 'USUARIO' and below 'ADMINISTRADOR', no characters."
+    },
+    {
+      "file": "4_42.jpg",
+      "startSec": 282.36,
+      "text": "Y con las contraseñas más usadas del mundo, sacadas de filtraciones reales de millones de cuentas.",
+      "ref": "sombra",
+      "scene": "The shadow-hacker collecting millions of tiny password papers spilling from a giant leaked-database icon."
+    },
+    {
+      "file": "4_48.jpg",
+      "startSec": 288.22,
+      "text": "No se las inventa, se las descarga.",
+      "ref": "none",
+      "scene": "A big sign reading exactly in Spanish: 'NO SE LAS INVENTA, SE LAS DESCARGA', no characters."
+    },
+    {
+      "file": "4_51.jpg",
+      "startSec": 291.04,
+      "text": "Contraseñas como 1, 2, 3, 4, 5, 6. O la palabra contraseña, o te quiero.",
+      "ref": "none",
+      "scene": "Close-up of common password cards: '123456', 'CONTRASEÑA', 'TE QUIERO', no characters."
+    },
+    {
+      "file": "4_56.jpg",
+      "startSec": 296.4,
+      "text": "Las mismas que usa muchísimo más gente de la que crees.",
+      "ref": "mono",
+      "scene": "Close-up: the monkey with an embarrassed blushing face, one hand behind its head, a small card beside it reading exactly in Spanish CLAVE: 123456, white background."
+    },
+    {
+      "file": "5_00.jpg",
+      "startSec": 300.12,
+      "text": "El atacante lanza el ataque y Hydra empieza a probar combinaciones. Usuario administrador contraseña 1, 2, 3. No, usuario administrador contraseña te quiero.",
+      "ref": "sombra",
+      "scene": "Medium shot: the shadow-hacker launching the attack, a screen rapidly cycling rows of dots and asterisks like password guesses, no text."
+    },
+    {
+      "file": "5_10.jpg",
+      "startSec": 310.92,
+      "text": "Y de repente,",
+      "ref": "none",
+      "scene": "Close-up of a screen: 'ADMINISTRADOR / 123' with red X, then 'ADMINISTRADOR / TE QUIERO', no characters."
+    },
+    {
+      "file": "5_12.jpg",
+      "startSec": 312.12,
+      "text": "para.",
+      "ref": "sombra",
+      "scene": "Extreme close-up: the shadow-hacker freezes, eyes wide."
+    },
+    {
+      "file": "5_13.jpg",
+      "startSec": 313.0,
+      "text": "Ha encontrado una que funciona.",
+      "ref": "none",
+      "scene": "A screen with one row highlighted green with a check mark meaning match found, the other rows greyed out, no text, no characters."
+    },
+    {
+      "file": "5_15.jpg",
+      "startSec": 315.4,
+      "text": "El usuario era administrador.",
+      "ref": "none",
+      "scene": "Close-up: the monkey pointing at a single simple card that says only ADMINISTRADOR in big letters, nothing else on it, white background."
+    },
+    {
+      "file": "5_17.jpg",
+      "startSec": 317.22,
+      "text": "La contraseña te quiero.",
+      "ref": "none",
+      "scene": "Wide shot of a screen showing the password 'TE QUIERO' revealed, no characters."
+    },
+    {
+      "file": "5_19.jpg",
+      "startSec": 319.62,
+      "text": "El atacante escribe esas credenciales en el panel de Sara,",
+      "ref": "sombra",
+      "scene": "The shadow-hacker typing on a keyboard in front of a screen, the monkey Sara small in the corner looking worried, no readable text on the screen, white background."
+    },
+    {
+      "file": "5_22.jpg",
+      "startSec": 322.74,
+      "text": "Pulse a entrar y está dentro.",
+      "ref": "sombra",
+      "scene": "Medium shot: the shadow-hacker pressing ENTER, a door swings open, glowing yellow eyes triumphant, it is inside."
+    },
+    {
+      "file": "5_25.jpg",
+      "startSec": 325.46,
+      "text": "Y lo que ve no es un juego.",
+      "ref": "sombra",
+      "scene": "Extreme close-up: the shadow-hacker's eyes, serious, this is not a game."
+    },
+    {
+      "file": "5_27.jpg",
+      "startSec": 327.6,
+      "text": "Ve la base de datos de clientes de Sara, nombres, correos, teléfonos,",
+      "ref": "none",
+      "scene": "Close-up of a computer screen showing a simple contact list: rows of small person icons, envelope icons and phone icons, white background, no text, no characters."
+    },
+    {
+      "file": "5_32.jpg",
+      "startSec": 332.12,
+      "text": "datos reales de gente real, protegido solo por una contraseña débil y un panel que ella creía escondido.",
+      "ref": "sombra",
+      "scene": "The shadow-hacker looking at a screen full of little person and phone icons meaning customer data (no text), the monkey Sara small and horrified in a corner."
+    },
+    {
+      "file": "5_38.jpg",
+      "startSec": 338.86,
+      "text": "Esto no es una demostración del laboratorio,",
+      "ref": "none",
+      "scene": "A big sign reading exactly in Spanish: 'ESTO NO ES UN LABORATORIO', no characters."
+    },
+    {
+      "file": "5_41.jpg",
+      "startSec": 341.54,
+      "text": "es exactamente así como pasa en el mundo real, todos los días.",
+      "ref": "none",
+      "scene": "A row of several small identical cartoon houses on white, each with a tiny red warning flag on its roof, meaning it happens to many, no characters."
+    },
+    {
+      "file": "5_46.jpg",
+      "startSec": 346.12,
+      "text": "Y quizás te es pensando,",
+      "ref": "mono",
+      "scene": "Medium shot: the monkey Sara thinking, a thought bubble in Spanish 'MI WEB ES PEQUEÑA...'."
+    },
+    {
+      "file": "5_47.jpg",
+      "startSec": 347.74,
+      "text": "pero mi web es pequeña, ¿quién me va a atacar a mi?",
+      "ref": "mono",
+      "scene": "Close-up of the monkey Sara worried, a speech bubble in Spanish '¿QUIÉN ME VA A ATACAR?'."
+    },
+    {
+      "file": "5_50.jpg",
+      "startSec": 350.88,
+      "text": "Esa es justo la trampa.",
+      "ref": "none",
+      "scene": "A big sign reading exactly in Spanish: 'ESA ES LA TRAMPA', no characters."
+    },
+    {
+      "file": "5_52.jpg",
+      "startSec": 352.44,
+      "text": "Al atacante le da igual 15as.",
+      "ref": "sombra",
+      "scene": "The shadow-hacker shrugging, it does not care who you are."
+    },
+    {
+      "file": "5_54.jpg",
+      "startSec": 354.68,
+      "text": "No te lige a ti.",
+      "ref": "sombra",
+      "scene": "Medium shot: the shadow-hacker in the center with arrows pointing to thousands of tiny house-websites at once."
+    },
+    {
+      "file": "5_56.jpg",
+      "startSec": 356.1,
+      "text": "Elige a cualquiera que tenga la puerta mal cerrada y lanza el mismo ataque contra miles de webs a la vez de forma automática.",
+      "ref": "none",
+      "scene": "A friendly cartoon robot arm reaching out to knock on the doors of many small identical cartoon houses at once, white background, no characters."
+    },
+    {
+      "file": "6_03.jpg",
+      "startSec": 363.04,
+      "text": "No te pillan porque seas importante.",
+      "ref": "none",
+      "scene": "A big sign reading exactly in Spanish: 'NO PORQUE SEAS IMPORTANTE', no characters."
+    },
+    {
+      "file": "6_05.jpg",
+      "startSec": 365.64,
+      "text": "Te pillan porque eras fácil.",
+      "ref": "none",
+      "scene": "Wide shot of a big sign reading exactly in Spanish: 'TE PILLAN PORQUE ERES FACIL', bold, no characters."
+    },
+    {
+      "file": "6_08.jpg",
+      "startSec": 368.04,
+      "text": "Así que volvamos al principio,",
+      "ref": "mono",
+      "scene": "Close-up of the monkey Sara turning back to the camera with a determined look, ready to explain something important, plain white background, no signs or text."
+    },
+    {
+      "file": "6_09.jpg",
+      "startSec": 369.7,
+      "text": "a lo que de verdad importa.",
+      "ref": "mono",
+      "scene": "Close-up of the monkey Sara pointing at the viewer: this is about you."
+    },
+    {
+      "file": "6_11.jpg",
+      "startSec": 371.32,
+      "text": "A ti.",
+      "ref": "mono",
+      "scene": "Extreme close-up of the monkey Sara's face, serious, direct at camera."
+    },
+    {
+      "file": "6_12.jpg",
+      "startSec": 372.42,
+      "text": "Porque todo este ataque de principio a fin se apoya en tres errores que puede se evitar hoy mismo.",
+      "ref": "mono",
+      "scene": "Medium shot: the brown monkey Sara standing beside three big separate cards each showing a large numeral, 1 then 2 then 3, on a white background."
+    },
+    {
+      "file": "6_18.jpg",
+      "startSec": 378.36,
+      "text": "Uno,",
+      "ref": "none",
+      "scene": "A single giant coin medallion with the numeral '1', no characters."
+    },
+    {
+      "file": "6_19.jpg",
+      "startSec": 379.4,
+      "text": "esconder algo no es protegerlo.",
+      "ref": "mono",
+      "scene": "the monkey Sara pointing at a sign in Spanish: 'ESCONDER NO ES PROTEGER'."
+    },
+    {
+      "file": "6_21.jpg",
+      "startSec": 381.4,
+      "text": "Un panel sin enlace no está seguro,",
+      "ref": "none",
+      "scene": "An unlinked admin door still wide open, a small crossed-out chain-link icon, no characters."
+    },
+    {
+      "file": "6_23.jpg",
+      "startSec": 383.64,
+      "text": "solo está sin enlazar.",
+      "ref": "none",
+      "scene": "The monkey looking at a simple open door standing alone with no wall around it, a small crossed-out chain-link icon beside it, white background."
+    },
+    {
+      "file": "6_25.jpg",
+      "startSec": 385.26,
+      "text": "En cuanto gobuster prueban hombres, aparece. Ponle contraseña de verdad y si puedes, doble factor.",
+      "ref": "mono",
+      "scene": "the monkey Sara adding a strong padlock and a 2FA shield to the admin door, protected now."
+    },
+    {
+      "file": "6_31.jpg",
+      "startSec": 391.38,
+      "text": "Un código que cambia cada poco y que el atacante no tiene.",
+      "ref": "none",
+      "scene": "Close-up of a phone showing a changing 6-digit code with a small clock, Spanish label 'CODIGO', no characters."
+    },
+    {
+      "file": "6_35.jpg",
+      "startSec": 395.56,
+      "text": "Dos,",
+      "ref": "none",
+      "scene": "A single giant coin medallion with the numeral '2', no characters."
+    },
+    {
+      "file": "6_36.jpg",
+      "startSec": 396.26,
+      "text": "la contraseña débil es la que abre la puerta.",
+      "ref": "mono",
+      "scene": "the monkey Sara pointing at a sign in Spanish: 'LA CLAVE DEBIL ABRE LA PUERTA'."
+    },
+    {
+      "file": "6_38.jpg",
+      "startSec": 398.86,
+      "text": "Te quiero, tu nombre, tu fecha de nacimiento o uno, dos, tres no protegen absolutamente nada porque están todas en esas listas.",
+      "ref": "none",
+      "scene": "Close-up: weak passwords 'TE QUIERO', a name and '123' all with red X, no characters."
+    },
+    {
+      "file": "6_46.jpg",
+      "startSec": 406.92,
+      "text": "Una contraseña larga y única, distinta en cada sitio,",
+      "ref": "none",
+      "scene": "A strong password shown as a solid steel bar versus a flimsy weak one snapping, no characters."
+    },
+    {
+      "file": "6_50.jpg",
+      "startSec": 410.4,
+      "text": "convierte un ataque de segundos en uno de siglos.",
+      "ref": "none",
+      "scene": "Wide shot of a clock turning from the word 'SEGUNDOS' to 'SIGLOS' in Spanish, no characters."
+    },
+    {
+      "file": "6_53.jpg",
+      "startSec": 413.86,
+      "text": "Tres,",
+      "ref": "none",
+      "scene": "A single giant coin medallion with the numeral '3', no characters."
+    },
+    {
+      "file": "6_54.jpg",
+      "startSec": 414.98,
+      "text": "limita los intentos.",
+      "ref": "mono",
+      "scene": "the monkey Sara pointing at a sign in Spanish: 'LIMITA LOS INTENTOS'."
+    },
+    {
+      "file": "6_56.jpg",
+      "startSec": 416.5,
+      "text": "Si una web bloquea el acceso tras unos pocos fallos, herramientas como Hydra dejan de servir de golpe.",
+      "ref": "none",
+      "scene": "Medium shot: a guard blocking a keyring attacker after a few tries, a red stamp 'BLOQUEADO', no main character."
+    },
+    {
+      "file": "7_02.jpg",
+      "startSec": 422.34,
+      "text": "Sin ese límite, el atacante tiene todo el tiempo del mundo para probar millones de claves.",
+      "ref": "sombra",
+      "scene": "The shadow-hacker stopped by a wall labeled in Spanish 'BLOQUEADO', frustrated."
+    },
+    {
+      "file": "7_07.jpg",
+      "startSec": 427.86,
+      "text": "Fíjate que ninguna de las tres cosas es cara ni complicada.",
+      "ref": "mono",
+      "scene": "Medium shot: the monkey Sara shrugging cheerfully, these fixes are free and simple."
+    },
+    {
+      "file": "7_11.jpg",
+      "startSec": 431.2,
+      "text": "Son gratis, solo hay que saberlas.",
+      "ref": "none",
+      "scene": "A big sign reading exactly in Spanish: 'SON GRATIS', no characters."
+    },
+    {
+      "file": "7_14.jpg",
+      "startSec": 434.02,
+      "text": "Y una cosa más, la más importante de todas.",
+      "ref": "mono",
+      "scene": "the monkey Sara raising one finger: one more important thing."
+    },
+    {
+      "file": "7_17.jpg",
+      "startSec": 437.32,
+      "text": "Todo lo que has visto aquí son herramientas que usan los profesionales de seguridad para proteger, con permiso, sus propios sistemas.",
+      "ref": "mono",
+      "scene": "Medium shot: the monkey Sara holding a shield, explaining these are tools that professionals use with permission."
+    },
+    {
+      "file": "7_24.jpg",
+      "startSec": 444.16,
+      "text": "Hacer esto contra una web que no es tuya, sin autorización,",
+      "ref": "sombra",
+      "scene": "The shadow-hacker attacking someone else's house, the whole scene crossed out with a big red X."
+    },
+    {
+      "file": "7_27.jpg",
+      "startSec": 447.78,
+      "text": "no es curiosidad.",
+      "ref": "none",
+      "scene": "A big sign reading exactly in Spanish: 'NO ES CURIOSIDAD', no characters."
+    },
+    {
+      "file": "7_29.jpg",
+      "startSec": 449.32,
+      "text": "Es un delito.",
+      "ref": "none",
+      "scene": "Wide shot of a gavel and a big sign reading exactly in Spanish: 'ES DELITO', serious, no characters."
+    },
+    {
+      "file": "7_31.jpg",
+      "startSec": 451.1,
+      "text": "Esto es divulgación para que sepas defenderte,",
+      "ref": "mono",
+      "scene": "the monkey Sara holding a shield, calm and reassuring, defensive knowledge."
+    },
+    {
+      "file": "7_33.jpg",
+      "startSec": 453.78,
+      "text": "no un manual para atacar a nadie.",
+      "ref": "none",
+      "scene": "A big sign reading exactly in Spanish: 'PARA DEFENDERTE', no characters."
+    },
+    {
+      "file": "7_36.jpg",
+      "startSec": 456.34,
+      "text": "Si esto te ha hecho mirar tus contraseñas con otra cara, suscríbete.",
+      "ref": "mono",
+      "scene": "the monkey Sara smiling warmly at the camera holding a phone, a glowing bell/subscribe icon beside it."
+    },
+    {
+      "file": "7_40.jpg",
+      "startSec": 460.26,
+      "text": "Seben ocias deis.",
+      "ref": "mono",
+      "scene": "Medium shot: the monkey Sara waving goodbye happily at the camera, no clothes, bright white background, warm close."
+    }
+  ]
+}

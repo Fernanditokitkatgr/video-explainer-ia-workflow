@@ -70,23 +70,37 @@ def load_frames(cfg: dict) -> tuple[str, list[dict]]:
     return style_base, frames
 
 
-def load_reference_part():
-    """Imagen de referencia canonica del personaje (style-bible.json). Se adjunta
-    como input multimodal en cada generacion para anclar el diseno exacto — describirlo
-    solo en texto deriva con el tiempo (camiseta que no toca, cara distinta, etc.)."""
-    bible_path = config.REPO_ROOT / "channel" / "tecno" / "style-bible.json"
-    if not bible_path.exists():
-        return None
-    bible = json.loads(bible_path.read_text(encoding="utf-8"))
-    ref_rel = bible.get("personaje_protagonista", {}).get("imagen_referencia_canonica")
-    if not ref_rel:
-        return None
-    ref_path = config.REPO_ROOT / ref_rel
-    if not ref_path.exists():
-        print(f"  ⚠️  Referencia canonica no encontrada en {ref_path}, generando sin anclaje de personaje")
+def _load_part(ref_path: Path):
+    if not ref_path or not ref_path.exists():
         return None
     mime = "image/png" if ref_path.suffix.lower() == ".png" else "image/jpeg"
     return types.Part.from_bytes(data=ref_path.read_bytes(), mime_type=mime)
+
+
+def load_reference_parts():
+    """Devuelve un dict {clave: Part} con las referencias canonicas del canal.
+    'mono' = protagonista (Sara), 'sombra' = hacker-sombra atacante. Cada escena de
+    frames.json elige cual adjuntar con su campo 'ref' (mono|sombra|none). Anclar el
+    diseno con imagen es obligatorio: describirlo solo en texto deriva con el tiempo."""
+    bible_path = config.REPO_ROOT / "channel" / "tecno" / "style-bible.json"
+    parts = {}
+    if not bible_path.exists():
+        return parts
+    bible = json.loads(bible_path.read_text(encoding="utf-8"))
+    # Cada personaje usa SU PROPIA referencia canónica única — la consistencia viene de
+    # "una sola referencia por personaje + prompt simple", NO de reusar la misma imagen
+    # para todos. Bug real (ago-2026): usar la referencia del mono para 'sombra' hacía
+    # que el atacante derivara (ojos rojos, boca con dientes, capucha azul) porque nunca
+    # se le mostraba al modelo cómo es realmente el hacker-sombra.
+    mono_rel = bible.get("personaje_protagonista", {}).get("imagen_referencia_canonica")
+    mono_ref = _load_part(config.REPO_ROOT / mono_rel) if mono_rel else None
+    sombra_ref = _load_part(config.REPO_ROOT / "channel" / "tecno" / "references" / "hacker_sombra.png")
+    if mono_ref is not None:
+        parts["mono"] = [mono_ref]
+        parts["none"] = [mono_ref]
+    if sombra_ref is not None:
+        parts["sombra"] = [sombra_ref]
+    return parts
 
 
 def generate_frame(client, model: str, prompt: str, out_path: Path, ref_part=None, retries: int = 5) -> bool:
@@ -94,7 +108,8 @@ def generate_frame(client, model: str, prompt: str, out_path: Path, ref_part=Non
         print(f"  SKIP {out_path.name} (ya existe)")
         return True
 
-    contents = [ref_part, prompt] if ref_part is not None else prompt
+    # ref_part puede ser una lista de imágenes de referencia (o None)
+    contents = ([*ref_part, prompt] if ref_part else prompt)
     last_err = ""
     for attempt in range(1, retries + 1):
         try:
@@ -178,8 +193,8 @@ def main() -> None:
     out_dir = config.PUBLIC_DIR / cfg["images_subpath"]
     out_dir.mkdir(parents=True, exist_ok=True)
 
-    ref_part = None if args.no_ref else load_reference_part()
-    print(f"Referencia de personaje: {'NO adjunta (--no-ref)' if args.no_ref else ('adjunta' if ref_part else 'no encontrada, generando sin anclaje')}")
+    ref_parts = {} if args.no_ref else load_reference_parts()
+    print(f"Referencias de personaje: {'NO adjuntas (--no-ref)' if args.no_ref else (', '.join(sorted(ref_parts)) or 'ninguna encontrada')}")
 
     end = args.start + args.test if args.test else len(frames)
     subset = frames[args.start:end]
@@ -189,6 +204,10 @@ def main() -> None:
     for i, fr in enumerate(subset, start=1):
         print(f"[{i}/{total}] {fr['file']}")
         prompt = f"{style_base} {fr['scene']}"
+        # Cada escena elige su referencia con el campo 'ref' (mono|sombra|none). Si no
+        # lo trae (frames antiguos), cae a 'mono' para no perder el anclaje del personaje.
+        ref_key = fr.get("ref", "mono")
+        ref_part = ref_parts.get(ref_key)
         generate_frame(client, model, prompt, out_dir / fr["file"], ref_part=ref_part)
         time.sleep(1.5)  # ritmo para no disparar la cuota de peticiones/minuto de Vertex AI
 

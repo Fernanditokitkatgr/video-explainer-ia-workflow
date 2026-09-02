@@ -1,0 +1,200 @@
+{
+  "video": "como-hackean-una-web",
+  "sfx": [
+    {
+      "file": "intro_curious.mp3",
+      "startSec": 0.0,
+      "duration": 2.0,
+      "volume": 0.12,
+      "prompt": "light playful curious cartoon intro chime, gentle, no music"
+    },
+    {
+      "file": "shadow_enter.mp3",
+      "startSec": 18.48,
+      "duration": 1.8,
+      "volume": 0.15,
+      "prompt": "dark ominous whoosh as a threatening presence appears, no music"
+    },
+    {
+      "file": "sign_pop.mp3",
+      "startSec": 23.14,
+      "duration": 1.0,
+      "volume": 0.15,
+      "prompt": "short comedic pop reveal for a sign appearing, no music"
+    },
+    {
+      "file": "debunk_buzzer.mp3",
+      "startSec": 36.68,
+      "duration": 1.2,
+      "volume": 0.15,
+      "prompt": "short wrong-answer buzzer, playful debunk, no music"
+    },
+    {
+      "file": "recon_search.mp3",
+      "startSec": 57.62,
+      "duration": 1.6,
+      "volume": 0.13,
+      "prompt": "quiet suspenseful searching ambience with a soft magnifier sweep, no music"
+    },
+    {
+      "file": "step_ding1.mp3",
+      "startSec": 83.4,
+      "duration": 1.0,
+      "volume": 0.15,
+      "prompt": "clean single step marker ding number one, no music"
+    },
+    {
+      "file": "step_ding2.mp3",
+      "startSec": 115.48,
+      "duration": 1.0,
+      "volume": 0.15,
+      "prompt": "clean single step marker ding number two, no music"
+    },
+    {
+      "file": "scan_beeps.mp3",
+      "startSec": 126.4,
+      "duration": 2.0,
+      "volume": 0.14,
+      "prompt": "computer port scanning beeps, radar sweep, no music"
+    },
+    {
+      "file": "list_flip.mp3",
+      "startSec": 169.76,
+      "duration": 1.4,
+      "volume": 0.14,
+      "prompt": "fast paper list riffle flipping through names, no music"
+    },
+    {
+      "file": "rapid_try.mp3",
+      "startSec": 183.78,
+      "duration": 2.2,
+      "volume": 0.14,
+      "prompt": "very fast machine-gun typing of many attempts, rapid fire, no music"
+    },
+    {
+      "file": "found_ding.mp3",
+      "startSec": 196.3,
+      "duration": 1.0,
+      "volume": 0.16,
+      "prompt": "positive found-it ding, single bright chime, no music"
+    },
+    {
+      "file": "reveal_dark.mp3",
+      "startSec": 212.26,
+      "duration": 1.8,
+      "volume": 0.16,
+      "prompt": "ominous discovery reveal sting, hidden thing found, no music"
+    },
+    {
+      "file": "door_creak.mp3",
+      "startSec": 242.26,
+      "duration": 1.2,
+      "volume": 0.14,
+      "prompt": "a single tense door about to open creak, no music"
+    },
+    {
+      "file": "keyring_jingle.mp3",
+      "startSec": 250.16,
+      "duration": 1.6,
+      "volume": 0.14,
+      "prompt": "a huge ring of many keys jingling fast, no music"
+    },
+    {
+      "file": "machinegun_try.mp3",
+      "startSec": 300.12,
+      "duration": 2.4,
+      "volume": 0.14,
+      "prompt": "rapid automated password guessing, fast mechanical bursts, no music"
+    },
+    {
+      "file": "freeze_stop.mp3",
+      "startSec": 312.12,
+      "duration": 1.0,
+      "volume": 0.15,
+      "prompt": "sudden stop, everything freezes, tension hit, no music"
+    },
+    {
+      "file": "success_unlock.mp3",
+      "startSec": 313.0,
+      "duration": 1.2,
+      "volume": 0.16,
+      "prompt": "a lock clicks open, success unlock chime dark, no music"
+    },
+    {
+      "file": "door_open_inside.mp3",
+      "startSec": 322.74,
+      "duration": 1.6,
+      "volume": 0.16,
+      "prompt": "a door swings open and someone steps inside, ominous, no music"
+    },
+    {
+      "file": "data_reveal.mp3",
+      "startSec": 327.6,
+      "duration": 1.8,
+      "volume": 0.15,
+      "prompt": "dark data exposed reveal, rows of data uncovered, no music"
+    },
+    {
+      "file": "trap_sting.mp3",
+      "startSec": 350.88,
+      "duration": 1.2,
+      "volume": 0.15,
+      "prompt": "short trap-sprung sting, gotcha, no music"
+    },
+    {
+      "file": "cheap_hit.mp3",
+      "startSec": 365.64,
+      "duration": 1.2,
+      "volume": 0.15,
+      "prompt": "blunt impact hit for a hard truth, no music"
+    },
+    {
+      "file": "tick1.mp3",
+      "startSec": 378.36,
+      "duration": 0.9,
+      "volume": 0.15,
+      "prompt": "single clean tick marker one, no music"
+    },
+    {
+      "file": "tick2.mp3",
+      "startSec": 395.56,
+      "duration": 0.9,
+      "volume": 0.15,
+      "prompt": "single clean tick marker two, no music"
+    },
+    {
+      "file": "tick3.mp3",
+      "startSec": 413.86,
+      "duration": 0.9,
+      "volume": 0.15,
+      "prompt": "single clean tick marker three, no music"
+    },
+    {
+      "file": "blocked_stamp.mp3",
+      "startSec": 416.5,
+      "duration": 1.2,
+      "volume": 0.15,
+      "prompt": "a heavy blocked stamp thud, denied, no music"
+    },
+    {
+      "file": "gavel.mp3",
+      "startSec": 449.32,
+      "duration": 1.2,
+      "volume": 0.16,
+      "prompt": "a single courtroom gavel bang, no music"
+    },
+    {
+      "file": "subscribe_chime.mp3",
+      "startSec": 456.34,
+      "duration": 1.6,
+      "volume": 0.17,
+      "prompt": "warm friendly subscribe bell chime, positive, no music"
+    }
+  ],
+  "music": {
+    "file": "musica-canal.mp3",
+    "duration": 30,
+    "volume": 0.3,
+    "prompt": "light upbeat quirky cartoon background music loop, playful curious tone, no vocals"
+  }
+}
