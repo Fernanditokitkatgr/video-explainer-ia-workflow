@@ -24,10 +24,19 @@ import { DosCaminosHacker } from "./DosCaminosHacker";
 import { RedTeamVsBlueTeam } from "./RedTeamVsBlueTeam";
 import { HackerNovatoADios } from "./HackerNovatoADios";
 import { ComoHackeanUnaWeb } from "./ComoHackeanUnaWeb";
+import { TeClonanLaVoz } from "./TeClonanLaVoz";
 
 export const RemotionRoot: React.FC = () => {
   return (
     <>
+      <Composition
+        id="TeClonanLaVoz"
+        component={TeClonanLaVoz}
+        durationInFrames={4392}
+        fps={30}
+        width={1920}
+        height={1080}
+      />
       <Composition
         id="ComoHackeanUnaWeb"
         component={ComoHackeanUnaWeb}

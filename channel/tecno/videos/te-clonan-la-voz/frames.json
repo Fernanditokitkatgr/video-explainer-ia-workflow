@@ -1,0 +1,447 @@
+{
+  "video": "te-clonan-la-voz",
+  "style_base": "Crude hand-drawn cartoon, Ecomonos style, PURE WHITE background, thick black ink outlines, flat colors. A brown cartoon monkey protagonist, huge white round eyes, exactly like the reference image. Exactly two arms and two hands per character. Any text that appears in the image must be in PERFECT SPANISH, never English. Fill the whole frame, no black bars. SCENE: CRITICAL: never draw the number 258 or the word DIAS/DÍAS or a torn-calendar motif unless the scene explicitly describes days/months elapsed — that content belongs to a different video and must never bleed in from the reference image. CRITICAL about the shadow-hacker attacker: its face must ALWAYS stay completely hidden inside the black hood shadow — never draw visible skin, a nose, a mouth, teeth or any facial features, and never let it look like the brown monkey wearing a hoodie. Only two glowing YELLOW eyes are visible, nothing else. Show emotion only through posture, hands, and the shape/angle of the two eyes.",
+  "frames": [
+    {
+      "file": "0_00.jpg",
+      "startSec": 0.0,
+      "text": "Una tarde cualquiera,",
+      "ref": "mono",
+      "scene": "Medium shot: the monkey Sara relaxed at home on a sofa, a phone next to her lighting up and vibrating, small motion lines, absolutely no text or letters anywhere in the image."
+    },
+    {
+      "file": "0_01.jpg",
+      "startSec": 1.54,
+      "text": "a Jennifer le suena el móvil.",
+      "ref": "mono",
+      "scene": "Close-up: Sara looking at the phone screen ringing, no text, curious expression."
+    },
+    {
+      "file": "0_03.jpg",
+      "startSec": 3.36,
+      "text": "Descuelga y lo primero que hoy es a su hija llorando.",
+      "ref": "mono",
+      "scene": "Close-up: Sara answering the phone, her expression shifting to alarm as she listens."
+    },
+    {
+      "file": "0_06.jpg",
+      "startSec": 6.42,
+      "text": "Mamá, la he cagado.",
+      "ref": "none",
+      "scene": "A speech bubble coming from a phone reading exactly in Spanish: 'MAMA, LA HE CAGADO', no characters."
+    },
+    {
+      "file": "0_08.jpg",
+      "startSec": 8.4,
+      "text": "Su voz.",
+      "ref": "mono",
+      "scene": "Extreme close-up of Sara's face frozen in shock, phone pressed to her ear."
+    },
+    {
+      "file": "0_09.jpg",
+      "startSec": 9.58,
+      "text": "Exacta.",
+      "ref": "mono",
+      "scene": "Extreme close-up of Sara's eyes wide with recognition, still on the phone."
+    },
+    {
+      "file": "0_10.jpg",
+      "startSec": 10.66,
+      "text": "Cada matiz.",
+      "ref": "none",
+      "scene": "A simple sound-wave icon on a phone screen, no characters, no text."
+    },
+    {
+      "file": "0_11.jpg",
+      "startSec": 11.78,
+      "text": "Cada forma de respirar.",
+      "ref": "none",
+      "scene": "Two identical sound-wave icons side by side to show exact matching, no characters, no text."
+    },
+    {
+      "file": "0_13.jpg",
+      "startSec": 13.58,
+      "text": "Entonces, un hombre coge el teléfono.",
+      "ref": "sombra",
+      "scene": "The shadow-hacker holding a phone to where its mouth would be, silhouette only, glowing yellow eyes."
+    },
+    {
+      "file": "0_15.jpg",
+      "startSec": 15.88,
+      "text": "Dice que la tiene secuestrada.",
+      "ref": "none",
+      "scene": "A speech bubble reading exactly in Spanish: 'LA TENGO SECUESTRADA', no characters."
+    },
+    {
+      "file": "0_17.jpg",
+      "startSec": 17.62,
+      "text": "Y pide 100 .000 dólares para no hacerle baño.",
+      "ref": "sombra",
+      "scene": "The shadow-hacker holding a stack of cash bills, silhouette only, glowing yellow eyes, demanding."
+    },
+    {
+      "file": "0_20.jpg",
+      "startSec": 20.7,
+      "text": "Esto pasó de verdad, en Arizona, en 2023.",
+      "ref": "none",
+      "scene": "A big sign reading exactly in Spanish: 'ARIZONA, 2023', no characters."
+    },
+    {
+      "file": "0_24.jpg",
+      "startSec": 24.14,
+      "text": "Y la hija de Jennifer nunca estuvo en peligro.",
+      "ref": "mono",
+      "scene": "Medium shot: Sara relieved, hugging a small young monkey safely, both smiling, white background."
+    },
+    {
+      "file": "0_26.jpg",
+      "startSec": 26.84,
+      "text": "Vamos a ver exactamente cómo se hace esto y por qué te puede pasar a ti con solo tres segundos de tu voz en internet.",
+      "ref": "mono",
+      "scene": "Medium shot: Sara determined, ready to explain, direct at camera."
+    },
+    {
+      "file": "0_33.jpg",
+      "startSec": 33.92,
+      "text": "Jennifer hizo lo que haría cualquier madre.",
+      "ref": "none",
+      "scene": "A big sign reading exactly in Spanish: 'SOLO 3 SEGUNDOS DE VOZ', no characters."
+    },
+    {
+      "file": "0_36.jpg",
+      "startSec": 36.02,
+      "text": "Se puso a gritar el nombre de su hija.",
+      "ref": "mono",
+      "scene": "Wide shot: Sara with both hands cupped around her mouth, shouting."
+    },
+    {
+      "file": "0_38.jpg",
+      "startSec": 38.28,
+      "text": "Y al otro lado,",
+      "ref": "mono",
+      "scene": "Close-up: Sara shouting a name, worried expression."
+    },
+    {
+      "file": "0_39.jpg",
+      "startSec": 39.36,
+      "text": "la voz clonada respondía llorando, con las mismas palabras que usaría un adolescente real.",
+      "ref": "sombra",
+      "scene": "The shadow-hacker on the other side of a phone line, silhouette only, glowing yellow eyes, listening."
+    },
+    {
+      "file": "0_44.jpg",
+      "startSec": 44.84,
+      "text": "Nadia su alrededor dudó ni un segundo de que fuera ella.",
+      "ref": "sombra",
+      "scene": "Close-up of the shadow-hacker's glowing yellow eyes reflecting a small speaker icon, mimicking a young voice."
+    },
+    {
+      "file": "0_48.jpg",
+      "startSec": 48.64,
+      "text": "Para clonar una voz así,",
+      "ref": "mono",
+      "scene": "Close-up: Sara and people around her, none of them doubting, all calm and convinced, white background."
+    },
+    {
+      "file": "0_50.jpg",
+      "startSec": 50.26,
+      "text": "ya no hace falta un estudio de grabación ni horas de audio.",
+      "ref": "mono",
+      "scene": "Medium shot: Sara pointing at a small microphone icon, explaining."
+    },
+    {
+      "file": "0_53.jpg",
+      "startSec": 53.24,
+      "text": "Hace falta un vídeo público, uno solo,",
+      "ref": "none",
+      "scene": "A plain black recording studio icon crossed out with a big red X, no characters."
+    },
+    {
+      "file": "0_55.jpg",
+      "startSec": 55.64,
+      "text": "de unos segundos.",
+      "ref": "none",
+      "scene": "A single small phone camera icon with a short timer showing '3s', no characters."
+    },
+    {
+      "file": "0_57.jpg",
+      "startSec": 57.22,
+      "text": "Una publicación en redes,",
+      "ref": "mono",
+      "scene": "Close-up: Sara looking at her own phone screen showing a small social media icon, no text, realizing something."
+    },
+    {
+      "file": "0_59.jpg",
+      "startSec": 59.08,
+      "text": "una nota de voz reenviada,",
+      "ref": "none",
+      "scene": "A speech bubble icon with a forward arrow, meaning a forwarded voice note, no characters."
+    },
+    {
+      "file": "1_00.jpg",
+      "startSec": 60.64,
+      "text": "un vídeo de un cumpleaños con sonido de fondo.",
+      "ref": "none",
+      "scene": "A birthday cake with candles and a small sound-wave icon nearby, no characters."
+    },
+    {
+      "file": "1_03.jpg",
+      "startSec": 63.66,
+      "text": "La herramienta analiza el tono, el ritmo, los silencios,",
+      "ref": "sombra",
+      "scene": "The shadow-hacker holding a magnifying glass over a small sound-wave icon, silhouette only, glowing yellow eyes, studying it."
+    },
+    {
+      "file": "1_06.jpg",
+      "startSec": 66.94,
+      "text": "y genera un modelo capaz de decir cualquier frase con esa misma voz.",
+      "ref": "none",
+      "scene": "A sound wave turning into a small robot/gear icon, meaning a voice model is generated, no characters."
+    },
+    {
+      "file": "1_10.jpg",
+      "startSec": 70.9,
+      "text": "Escribes el texto que quieras y la máquina lo dice con la voz de la persona que has clonado.",
+      "ref": "none",
+      "scene": "A keyboard with a speech bubble coming out reading exactly in Spanish: 'CUALQUIER FRASE', no characters."
+    },
+    {
+      "file": "1_16.jpg",
+      "startSec": 76.1,
+      "text": "El FBI investigó el caso de Jennifer y no encontró ni un solo cargo que presentar,",
+      "ref": "sombra",
+      "scene": "The shadow-hacker holding a small folder labeled exactly in Spanish 'CASO CERRADO', silhouette only, glowing yellow eyes."
+    },
+    {
+      "file": "1_20.jpg",
+      "startSec": 80.76,
+      "text": "porque técnicamente no hubo secuestro, no hubo extorsión física,",
+      "ref": "none",
+      "scene": "A big sign reading exactly in Spanish: 'SIN SECUESTRO. SIN EXTORSION FISICA.', no characters."
+    },
+    {
+      "file": "1_25.jpg",
+      "startSec": 85.06,
+      "text": "ni siquiera hubo una llamada rastreable a un lugar concreto.",
+      "ref": "none",
+      "scene": "A phone call icon with a crossed-out location pin, meaning untraceable, no characters."
+    },
+    {
+      "file": "1_28.jpg",
+      "startSec": 88.5,
+      "text": "Fue una voz sintética diciendo mentiras por teléfono,",
+      "ref": "sombra",
+      "scene": "The shadow-hacker shrugging casually, silhouette only, glowing yellow eyes, unconcerned."
+    },
+    {
+      "file": "1_31.jpg",
+      "startSec": 91.8,
+      "text": "y eso, en 2023,",
+      "ref": "none",
+      "scene": "A big sign reading exactly in Spanish: '2023', large numeral, no characters."
+    },
+    {
+      "file": "1_34.jpg",
+      "startSec": 94.0,
+      "text": "apenas encajaba en ninguna ley.",
+      "ref": "none",
+      "scene": "An open law book with a big question mark over it, no characters."
+    },
+    {
+      "file": "1_36.jpg",
+      "startSec": 96.56,
+      "text": "El stafador cuelga, borre el número,",
+      "ref": "sombra",
+      "scene": "The shadow-hacker's hand hanging up an old telephone receiver, silhouette only."
+    },
+    {
+      "file": "1_38.jpg",
+      "startSec": 98.72,
+      "text": "y no queda casi nada que perseguir.",
+      "ref": "none",
+      "scene": "A phone number on a screen fading away into nothing, no characters."
+    },
+    {
+      "file": "1_40.jpg",
+      "startSec": 100.82,
+      "text": "Y aquí está el dato que de verdad importa.",
+      "ref": "mono",
+      "scene": "Close-up: Sara looking directly at camera, serious, about to reveal something important."
+    },
+    {
+      "file": "1_43.jpg",
+      "startSec": 103.48,
+      "text": "Según el propio FBI,",
+      "ref": "none",
+      "scene": "A big sign reading exactly in Spanish: 'SEGUN EL FBI', no characters."
+    },
+    {
+      "file": "1_45.jpg",
+      "startSec": 105.26,
+      "text": "las estafas que usan voces o vídeos generados poría se han multiplicado en los últimos años y la mayoría de víctimas son familias normales, no famosos.",
+      "ref": "none",
+      "scene": "A rising bar chart with two bars, the second much taller, no numbers, no characters."
+    },
+    {
+      "file": "1_54.jpg",
+      "startSec": 114.02,
+      "text": "No te ligen a ti en concreto.",
+      "ref": "mono",
+      "scene": "Wide shot: several ordinary monkey families icons small and generic around Sara, none of them famous-looking, white background."
+    },
+    {
+      "file": "1_56.jpg",
+      "startSec": 116.08,
+      "text": "Cualquier persona con un vídeo público en redes es candidata.",
+      "ref": "none",
+      "scene": "A single generic video-camera icon with a red dot, surrounded by faint social media icons, no characters."
+    },
+    {
+      "file": "1_59.jpg",
+      "startSec": 119.64,
+      "text": "Cuantos más audios tuyos haya sueltos por internet más fáciles clonarte.",
+      "ref": "none",
+      "scene": "A pile of small audio-file icons growing taller, no characters."
+    },
+    {
+      "file": "2_04.jpg",
+      "startSec": 124.48,
+      "text": "Así que vamos a lo que puedes hacer hoy mismo gratis en cinco minutos.",
+      "ref": "mono",
+      "scene": "Medium shot: Sara rolling up her sleeves, ready to give practical advice, confident."
+    },
+    {
+      "file": "2_08.jpg",
+      "startSec": 128.66,
+      "text": "Uno,",
+      "ref": "none",
+      "scene": "A single giant coin medallion with the numeral '1', no characters."
+    },
+    {
+      "file": "2_09.jpg",
+      "startSec": 129.84,
+      "text": "pon una palabra clave familiar,",
+      "ref": "mono",
+      "scene": "Close-up: Sara whispering a secret word into her own hand cupped near her mouth, playful, no accessories, no bow, no clothes, a speech bubble reading exactly in Spanish: SECRETO."
+    },
+    {
+      "file": "2_11.jpg",
+      "startSec": 131.72,
+      "text": "algo que sólo conozcais los tuyos si que nadie diría nunca por teléfono en una emergencia real.",
+      "ref": "none",
+      "scene": "A small card reading exactly in Spanish: 'PALABRA CLAVE', held up, no characters."
+    },
+    {
+      "file": "2_16.jpg",
+      "startSec": 136.66,
+      "text": "Si te piden dinero con urgencia y la otra persona no sabe la palabra,",
+      "ref": "mono",
+      "scene": "Medium shot: Sara holding up a hand in a stop gesture, firm expression."
+    },
+    {
+      "file": "2_20.jpg",
+      "startSec": 140.62,
+      "text": "cuelga.",
+      "ref": "mono",
+      "scene": "Close-up: Sara pressing a red hang-up button on a phone screen, no text."
+    },
+    {
+      "file": "2_21.jpg",
+      "startSec": 141.7,
+      "text": "Dos,",
+      "ref": "none",
+      "scene": "A single giant coin medallion with the numeral '2', no characters."
+    },
+    {
+      "file": "2_22.jpg",
+      "startSec": 142.88,
+      "text": "cuelga y llama tú por tu cuenta el número real de esa persona.",
+      "ref": "mono",
+      "scene": "Medium shot: Sara dialing a phone confidently, calm expression."
+    },
+    {
+      "file": "2_26.jpg",
+      "startSec": 146.6,
+      "text": "Un secuestrador de verdad no te va a dejar hacer esa llamada tranquilamente.",
+      "ref": "sombra",
+      "scene": "The shadow-hacker looking frustrated, arms crossed, silhouette only, glowing yellow eyes narrowed."
+    },
+    {
+      "file": "2_30.jpg",
+      "startSec": 150.9,
+      "text": "Tres,",
+      "ref": "none",
+      "scene": "A single giant coin medallion with the numeral '3', no characters."
+    },
+    {
+      "file": "2_31.jpg",
+      "startSec": 151.94,
+      "text": "antes de creer una voz por teléfono,",
+      "ref": "mono",
+      "scene": "Close-up: Sara thinking, a small thought bubble with a question mark above her head."
+    },
+    {
+      "file": "2_34.jpg",
+      "startSec": 154.08,
+      "text": "preguntate si esa persona ha subido vídeos con su voz a internet.",
+      "ref": "mono",
+      "scene": "Medium shot: Sara checking a phone with a small video-camera icon on the screen, no text, curious expression."
+    },
+    {
+      "file": "2_37.jpg",
+      "startSec": 157.62,
+      "text": "Si la respuesta es sí,",
+      "ref": "none",
+      "scene": "A single big sign reading exactly in Spanish: 'SI', bold, no characters."
+    },
+    {
+      "file": "2_39.jpg",
+      "startSec": 159.18,
+      "text": "cualquiera pudo haberla clonado.",
+      "ref": "sombra",
+      "scene": "The shadow-hacker smiling with only its glowing yellow eyes narrowing slyly, silhouette only."
+    },
+    {
+      "file": "2_41.jpg",
+      "startSec": 161.44,
+      "text": "Esto no es un tutorial para clonar voces,",
+      "ref": "mono",
+      "scene": "Medium shot: Sara holding up both hands defensively, explaining calmly, direct at camera."
+    },
+    {
+      "file": "2_44.jpg",
+      "startSec": 164.08,
+      "text": "es un aviso porque la tecnología ya existe,",
+      "ref": "mono",
+      "scene": "Close-up: Sara serious, direct at camera, warning tone."
+    },
+    {
+      "file": "2_46.jpg",
+      "startSec": 166.68,
+      "text": "es barata y las familias normales son el objetivo real.",
+      "ref": "mono",
+      "scene": "Medium shot: Sara shrugging cheerfully, these tips are free and simple."
+    },
+    {
+      "file": "2_50.jpg",
+      "startSec": 170.58,
+      "text": "Si esto te ha hecho pensar en tu palabra clave familiar,",
+      "ref": "mono",
+      "scene": "Close-up: Sara whispering her secret word again, warm smile, white background."
+    },
+    {
+      "file": "2_53.jpg",
+      "startSec": 173.36,
+      "text": "suscríbete.",
+      "ref": "mono",
+      "scene": "Medium shot: Sara smiling warmly at the camera holding a phone, a glowing bell/subscribe icon beside it."
+    },
+    {
+      "file": "2_54.jpg",
+      "startSec": 174.26,
+      "text": "Se viene más de este mundo.",
+      "ref": "mono",
+      "scene": "Medium shot: Sara waving goodbye happily at the camera, bright white background, warm close."
+    }
+  ]
+}

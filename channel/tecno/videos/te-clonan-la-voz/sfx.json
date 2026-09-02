@@ -1,0 +1,95 @@
+{
+  "video": "te-clonan-la-voz",
+  "sfx": [
+    {
+      "file": "phone_ring.mp3",
+      "startSec": 0.0,
+      "duration": 1.6,
+      "volume": 0.13,
+      "prompt": "a phone ringing on a table, quiet everyday, no music"
+    },
+    {
+      "file": "shock_hit.mp3",
+      "startSec": 6.42,
+      "duration": 1.2,
+      "volume": 0.16,
+      "prompt": "a soft dramatic shock hit sting, no music"
+    },
+    {
+      "file": "menacing_low.mp3",
+      "startSec": 13.58,
+      "duration": 1.6,
+      "volume": 0.15,
+      "prompt": "a low ominous tone as a menacing voice enters, no music"
+    },
+    {
+      "file": "cash_dark.mp3",
+      "startSec": 17.62,
+      "duration": 1.4,
+      "volume": 0.16,
+      "prompt": "a dark cash register / money demand sting, no music"
+    },
+    {
+      "file": "voice_echo.mp3",
+      "startSec": 39.36,
+      "duration": 1.6,
+      "volume": 0.13,
+      "prompt": "a slightly synthetic echoing voice effect, no music"
+    },
+    {
+      "file": "reveal_dark.mp3",
+      "startSec": 76.1,
+      "duration": 1.6,
+      "volume": 0.15,
+      "prompt": "an ominous reveal sting, unsettling discovery, no music"
+    },
+    {
+      "file": "phone_hangup.mp3",
+      "startSec": 96.56,
+      "duration": 1.0,
+      "volume": 0.15,
+      "prompt": "a phone call hanging up click, no music"
+    },
+    {
+      "file": "tick1.mp3",
+      "startSec": 128.66,
+      "duration": 0.9,
+      "volume": 0.15,
+      "prompt": "single clean tick marker one, no music"
+    },
+    {
+      "file": "hangup_click.mp3",
+      "startSec": 140.62,
+      "duration": 1.0,
+      "volume": 0.16,
+      "prompt": "a decisive phone hang-up click, no music"
+    },
+    {
+      "file": "serious_turn.mp3",
+      "startSec": 164.08,
+      "duration": 1.4,
+      "volume": 0.14,
+      "prompt": "a serious tone shift sting, no music"
+    },
+    {
+      "file": "warm_sting.mp3",
+      "startSec": 170.58,
+      "duration": 1.2,
+      "volume": 0.15,
+      "prompt": "a warm friendly sting, reassuring, no music"
+    },
+    {
+      "file": "subscribe_chime.mp3",
+      "startSec": 174.26,
+      "duration": 1.6,
+      "volume": 0.17,
+      "prompt": "warm friendly subscribe bell chime, positive, no music"
+    }
+  ],
+  "music": {
+    "file": "musica-canal.mp3",
+    "duration": 30,
+    "volume": 0.3,
+    "prompt": "light upbeat quirky cartoon background music loop, playful curious tone, no vocals"
+  }
+}

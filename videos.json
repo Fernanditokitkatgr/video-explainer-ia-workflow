@@ -421,5 +421,20 @@
     "height": 1080,
     "background": "#ffffff",
     "youtube_id": "2hAJTj8BiWE"
+  },
+  "te-clonan-la-voz": {
+    "composition": "TeClonanLaVoz",
+    "tsx": "remotion/src/TeClonanLaVoz.tsx",
+    "manifest_dir": "channel/tecno/videos/te-clonan-la-voz",
+    "script": "channel/tecno/videos/te-clonan-la-voz/script.md",
+    "audio_static": "te-clonan-la-voz.mp3",
+    "images_subpath": "te-clonan-la-voz",
+    "naming": "timestamp",
+    "ext": "jpg",
+    "playback_rate": 1.2,
+    "fps": 30,
+    "width": 1920,
+    "height": 1080,
+    "background": "#ffffff"
   }
 }
