@@ -420,7 +420,7 @@
     "width": 1920,
     "height": 1080,
     "background": "#ffffff",
-    "youtube_id": "2hAJTj8BiWE"
+    "youtube_id": "kh_Gze9IrdM"
   },
   "te-clonan-la-voz": {
     "composition": "TeClonanLaVoz",
@@ -429,6 +429,22 @@
     "script": "channel/tecno/videos/te-clonan-la-voz/script.md",
     "audio_static": "te-clonan-la-voz.mp3",
     "images_subpath": "te-clonan-la-voz",
+    "naming": "timestamp",
+    "ext": "jpg",
+    "playback_rate": 1.2,
+    "fps": 30,
+    "width": 1920,
+    "height": 1080,
+    "background": "#ffffff",
+    "youtube_id": "3KF1NeJj0RA"
+  },
+  "7-mitos-ciberseguridad": {
+    "composition": "SieteMitosCiberseguridad",
+    "tsx": "remotion/src/SieteMitosCiberseguridad.tsx",
+    "manifest_dir": "channel/tecno/videos/7-mitos-ciberseguridad",
+    "script": "channel/tecno/videos/7-mitos-ciberseguridad/script.md",
+    "audio_static": "7-mitos-ciberseguridad.mp3",
+    "images_subpath": "7-mitos-ciberseguridad",
     "naming": "timestamp",
     "ext": "jpg",
     "playback_rate": 1.2,
