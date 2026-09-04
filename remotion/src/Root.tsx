@@ -25,10 +25,19 @@ import { RedTeamVsBlueTeam } from "./RedTeamVsBlueTeam";
 import { HackerNovatoADios } from "./HackerNovatoADios";
 import { ComoHackeanUnaWeb } from "./ComoHackeanUnaWeb";
 import { TeClonanLaVoz } from "./TeClonanLaVoz";
+import { SieteMitosCiberseguridad } from "./SieteMitosCiberseguridad";
 
 export const RemotionRoot: React.FC = () => {
   return (
     <>
+      <Composition
+        id="SieteMitosCiberseguridad"
+        component={SieteMitosCiberseguridad}
+        durationInFrames={5616}
+        fps={30}
+        width={1920}
+        height={1080}
+      />
       <Composition
         id="TeClonanLaVoz"
         component={TeClonanLaVoz}

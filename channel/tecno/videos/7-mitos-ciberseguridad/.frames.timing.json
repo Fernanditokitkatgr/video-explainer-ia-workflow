@@ -1,0 +1,322 @@
+[
+  {
+    "file": "0_00.jpg",
+    "startSec": 0.0,
+    "text": "Hay siete cosas que casi todo el mundo crees sobre seguridad informática,"
+  },
+  {
+    "file": "0_03.jpg",
+    "startSec": 3.84,
+    "text": "y las siete son mentira, o casi."
+  },
+  {
+    "file": "0_06.jpg",
+    "startSec": 6.76,
+    "text": "Vamos a desmontarlas una por una, y al final vas a hacer al menos una cosa distinta hoy mismo."
+  },
+  {
+    "file": "0_13.jpg",
+    "startSec": 13.12,
+    "text": "Mito uno."
+  },
+  {
+    "file": "0_14.jpg",
+    "startSec": 14.42,
+    "text": "El modo incógnito te esconde de todo Internet."
+  },
+  {
+    "file": "0_17.jpg",
+    "startSec": 17.78,
+    "text": "Lo crees porque el navegador te lo dice literalmente al abrirlo."
+  },
+  {
+    "file": "0_21.jpg",
+    "startSec": 21.32,
+    "text": "Nadie podrá ver tu actividad."
+  },
+  {
+    "file": "0_23.jpg",
+    "startSec": 23.78,
+    "text": "La realidad es que el modo incógnito solo borra tu historial local en tu propio ordenador."
+  },
+  {
+    "file": "0_29.jpg",
+    "startSec": 29.26,
+    "text": "Tu operadora, tu empresa, si usa su wifi,"
+  },
+  {
+    "file": "0_32.jpg",
+    "startSec": 32.18,
+    "text": "y cada web que visitas te siguen viendo exactamente igual."
+  },
+  {
+    "file": "0_35.jpg",
+    "startSec": 35.9,
+    "text": "Lo único que hace de verdad es no guardar cookies ni historial en ese equipo."
+  },
+  {
+    "file": "0_40.jpg",
+    "startSec": 40.7,
+    "text": "Nada más."
+  },
+  {
+    "file": "0_42.jpg",
+    "startSec": 42.38,
+    "text": "Mito dos."
+  },
+  {
+    "file": "0_43.jpg",
+    "startSec": 43.76,
+    "text": "Si la web tiene el candado verde, es una web segura."
+  },
+  {
+    "file": "0_47.jpg",
+    "startSec": 47.48,
+    "text": "Lo crees porque durante años nos dijeron,"
+  },
+  {
+    "file": "0_50.jpg",
+    "startSec": 50.02,
+    "text": "busca el candado antes de meter tu contraseña."
+  },
+  {
+    "file": "0_53.jpg",
+    "startSec": 53.02,
+    "text": "La realidad es que ese candado solo dice que la conexión está cifrada, no que el dueño sea de fiar."
+  },
+  {
+    "file": "0_58.jpg",
+    "startSec": 58.98,
+    "text": "Cualquier página de Fishing echa en una tarde también tiene su candado verde."
+  },
+  {
+    "file": "1_03.jpg",
+    "startSec": 63.74,
+    "text": "Lo que de verdad importa es la dirección exacta, letra por letra, no el candado."
+  },
+  {
+    "file": "1_09.jpg",
+    "startSec": 69.92,
+    "text": "Mito tres."
+  },
+  {
+    "file": "1_11.jpg",
+    "startSec": 71.3,
+    "text": "Un antivirus gratuito te protege igual que uno de pago."
+  },
+  {
+    "file": "1_15.jpg",
+    "startSec": 75.06,
+    "text": "Lo crees porque ambos dicen detecta virus en la portada."
+  },
+  {
+    "file": "1_19.jpg",
+    "startSec": 79.58,
+    "text": "La realidad es que la detección básica sí es parecida, pero las capas extra, como el antifishing o el firewall inteligente,"
+  },
+  {
+    "file": "1_26.jpg",
+    "startSec": 86.88,
+    "text": "suelen ir solo en las versiones de pago."
+  },
+  {
+    "file": "1_29.jpg",
+    "startSec": 89.26,
+    "text": "Si no puedes pagar uno, mejor un gratuito conocido que ninguno, pero no es lo mismo."
+  },
+  {
+    "file": "1_35.jpg",
+    "startSec": 95.5,
+    "text": "Mito cuatro."
+  },
+  {
+    "file": "1_36.jpg",
+    "startSec": 96.92,
+    "text": "Una web pn te hace invisible en internet."
+  },
+  {
+    "file": "1_40.jpg",
+    "startSec": 100.14,
+    "text": "Lo crees porque los anuncios de web pn literalmente usan la palabra invisible."
+  },
+  {
+    "file": "1_45.jpg",
+    "startSec": 105.94,
+    "text": "La realidad es que una web pn solo esconde tu dirección del sitio web que visitas."
+  },
+  {
+    "file": "1_50.jpg",
+    "startSec": 110.96,
+    "text": "La propia empresa de la web pn puede ver todo tu tráfico sin excepción."
+  },
+  {
+    "file": "1_55.jpg",
+    "startSec": 115.94,
+    "text": "Es útil,"
+  },
+  {
+    "file": "1_57.jpg",
+    "startSec": 117.08,
+    "text": "pero es privacidad parcial,"
+  },
+  {
+    "file": "1_58.jpg",
+    "startSec": 118.66,
+    "text": "no una capa mágica de anonimato total."
+  },
+  {
+    "file": "2_01.jpg",
+    "startSec": 121.88,
+    "text": "Mito cinco."
+  },
+  {
+    "file": "2_03.jpg",
+    "startSec": 123.54,
+    "text": "Borrar un archivo lo elimina para siempre."
+  },
+  {
+    "file": "2_06.jpg",
+    "startSec": 126.54,
+    "text": "Lo crees porque el icono desaparece y la papelera se vacía."
+  },
+  {
+    "file": "2_10.jpg",
+    "startSec": 130.48,
+    "text": "La realidad es que solo se borra la referencia al archivo."
+  },
+  {
+    "file": "2_13.jpg",
+    "startSec": 133.84,
+    "text": "El contenido sigue físicamente en el disco. Con software forense barato, cualquiera puede recuperarlo hasta que ese espacio se sobre escribe con datos nuevos."
+  },
+  {
+    "file": "2_23.jpg",
+    "startSec": 143.04,
+    "text": "Si de verdad quieres borrar algo sensible,"
+  },
+  {
+    "file": "2_25.jpg",
+    "startSec": 145.34,
+    "text": "hace falta un borrado seguro."
+  },
+  {
+    "file": "2_26.jpg",
+    "startSec": 146.98,
+    "text": "No la papelera normal."
+  },
+  {
+    "file": "2_29.jpg",
+    "startSec": 149.5,
+    "text": "Mito seis."
+  },
+  {
+    "file": "2_30.jpg",
+    "startSec": 150.84,
+    "text": "Los iPhone y los Mac no les afectan los virus."
+  },
+  {
+    "file": "2_34.jpg",
+    "startSec": 154.34,
+    "text": "Lo crees porque durante años apenas subo casos y Apple lo vendió como ventaja."
+  },
+  {
+    "file": "2_39.jpg",
+    "startSec": 159.84,
+    "text": "La realidad es que tienen menos malware tradicional,"
+  },
+  {
+    "file": "2_42.jpg",
+    "startSec": 162.74,
+    "text": "pero no son inmunes."
+  },
+  {
+    "file": "2_44.jpg",
+    "startSec": 164.3,
+    "text": "Y el Fishing, que es el ataque más común hoy,"
+  },
+  {
+    "file": "2_47.jpg",
+    "startSec": 167.22,
+    "text": "funciona exactamente igual en un iPhone que en cualquier otro móvil."
+  },
+  {
+    "file": "2_51.jpg",
+    "startSec": 171.38,
+    "text": "La marca del aparato no te protege de que tú mismo hagas clic donde no debías."
+  },
+  {
+    "file": "2_56.jpg",
+    "startSec": 176.86,
+    "text": "Mito siete."
+  },
+  {
+    "file": "2_58.jpg",
+    "startSec": 178.06,
+    "text": "Y este sorprende a mucha gente."
+  },
+  {
+    "file": "3_00.jpg",
+    "startSec": 180.22,
+    "text": "Cambiar tu contraseña cada mes te hace más seguro."
+  },
+  {
+    "file": "3_04.jpg",
+    "startSec": 184.14,
+    "text": "Lo crees porque durante años fue la política obligatoria en empresas y universidades."
+  },
+  {
+    "file": "3_09.jpg",
+    "startSec": 189.24,
+    "text": "La realidad,"
+  },
+  {
+    "file": "3_10.jpg",
+    "startSec": 190.64,
+    "text": "según el propio instituto de estándares de Estados Unidos,"
+  },
+  {
+    "file": "3_13.jpg",
+    "startSec": 193.8,
+    "text": "es que forzar cambios frecuentes hace que la gente use contraseñas más débiles y predecibles,"
+  },
+  {
+    "file": "3_18.jpg",
+    "startSec": 198.98,
+    "text": "tipo añadir un número al final."
+  },
+  {
+    "file": "3_21.jpg",
+    "startSec": 201.54,
+    "text": "Es mejor una contraseña larga y única que no cambias porque sí,"
+  },
+  {
+    "file": "3_25.jpg",
+    "startSec": 205.34,
+    "text": "y cambiar las solos si hay una fuga real."
+  },
+  {
+    "file": "3_28.jpg",
+    "startSec": 208.44,
+    "text": "Así que revisa esto hoy."
+  },
+  {
+    "file": "3_30.jpg",
+    "startSec": 210.52,
+    "text": "Una contraseña larga sin rotar porque sí,"
+  },
+  {
+    "file": "3_33.jpg",
+    "startSec": 213.14,
+    "text": "comprobar la dirección exacta antes del candado y recordar que ninguna herramienta te hace invisible del todo."
+  },
+  {
+    "file": "3_39.jpg",
+    "startSec": 219.76,
+    "text": "Si alguno de estos siete te has sorprendido, suscríbete,"
+  },
+  {
+    "file": "3_43.jpg",
+    "startSec": 223.0,
+    "text": "se viene más de este mundo."
+  }
+]

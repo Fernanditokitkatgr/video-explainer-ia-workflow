@@ -1,0 +1,81 @@
+{
+  "video": "7-mitos-ciberseguridad",
+  "sfx": [
+    {
+      "file": "intro_curious.mp3",
+      "startSec": 0.0,
+      "duration": 1.6,
+      "volume": 0.13,
+      "prompt": "light playful curious cartoon intro chime, gentle, no music"
+    },
+    {
+      "file": "myth_ding1.mp3",
+      "startSec": 13.12,
+      "duration": 1.0,
+      "volume": 0.15,
+      "prompt": "clean single myth marker ding number one, no music"
+    },
+    {
+      "file": "myth_ding2.mp3",
+      "startSec": 42.38,
+      "duration": 1.0,
+      "volume": 0.15,
+      "prompt": "clean single myth marker ding number two, no music"
+    },
+    {
+      "file": "myth_ding3.mp3",
+      "startSec": 69.92,
+      "duration": 1.0,
+      "volume": 0.15,
+      "prompt": "clean single myth marker ding number three, no music"
+    },
+    {
+      "file": "myth_ding4.mp3",
+      "startSec": 95.5,
+      "duration": 1.0,
+      "volume": 0.15,
+      "prompt": "clean single myth marker ding number four, no music"
+    },
+    {
+      "file": "myth_ding5.mp3",
+      "startSec": 121.88,
+      "duration": 1.0,
+      "volume": 0.15,
+      "prompt": "clean single myth marker ding number five, no music"
+    },
+    {
+      "file": "myth_ding6.mp3",
+      "startSec": 149.5,
+      "duration": 1.0,
+      "volume": 0.15,
+      "prompt": "clean single myth marker ding number six, no music"
+    },
+    {
+      "file": "myth_ding7.mp3",
+      "startSec": 176.86,
+      "duration": 1.0,
+      "volume": 0.15,
+      "prompt": "clean single myth marker ding number seven, surprising twist, no music"
+    },
+    {
+      "file": "serious_turn.mp3",
+      "startSec": 208.44,
+      "duration": 1.4,
+      "volume": 0.14,
+      "prompt": "a serious tone shift sting, no music"
+    },
+    {
+      "file": "subscribe_chime.mp3",
+      "startSec": 223.0,
+      "duration": 1.6,
+      "volume": 0.17,
+      "prompt": "warm friendly subscribe bell chime, positive, no music"
+    }
+  ],
+  "music": {
+    "file": "musica-canal.mp3",
+    "duration": 30,
+    "volume": 0.3,
+    "prompt": "light upbeat quirky cartoon background music loop, playful curious tone, no vocals"
+  }
+}

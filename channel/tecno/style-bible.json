@@ -13,9 +13,10 @@
       "ceño fruncido de enfado",
       "cara neutra pensativa"
     ],
-    "imagen_referencia_canonica": "channel/tecno/references/mono_canonico.png",
+    "imagen_referencia_canonica": "channel/tecno/references/mono_canonico_limpio.png",
     "imagen_referencia_cara": "channel/tecno/references/mono_cara.png",
-    "nota_referencia": "REFERENCIA DEFINITIVA elegida por el usuario (ago-2026): mono marrón de contorno negro grueso, ojos enormes redondos muy expresivos, cara tierna/pícara, colores planos, fondo blanco. Son generaciones de Higgsfield que el usuario aprobó como 'el mono me encanta, el estilo definitivo'. Adjuntar SIEMPRE mono_protagonista.png como imagen de entrada (Part.from_bytes) en cada generación de producción; usar mono_cara.png como segunda referencia para primeros planos de expresión. La descripción textual sola deriva con el tiempo, por eso la referencia visual es obligatoria."
+    "nota_referencia": "REFERENCIA DEFINITIVA elegida por el usuario (ago-2026): mono marrón de contorno negro grueso, ojos enormes redondos muy expresivos, cara tierna/pícara, colores planos, fondo blanco. Son generaciones de Higgsfield que el usuario aprobó como 'el mono me encanta, el estilo definitivo'. Adjuntar SIEMPRE mono_protagonista.png como imagen de entrada (Part.from_bytes) en cada generación de producción; usar mono_cara.png como segunda referencia para primeros planos de expresión. La descripción textual sola deriva con el tiempo, por eso la referencia visual es obligatoria.",
+    "nota_referencia_fix": "ago-2026: la referencia original mono_canonico.png (cdcd8a21) tenia un calendario con 258 DIAS dibujado a la derecha del mono, causando que el modelo copiara ese motivo literalmente en escenas sin relacion (bug detectado en como-hackean-una-web Y 7-mitos-ciberseguridad). Se recorto a mono_canonico_limpio.png (solo el mono, sin el calendario) para eliminar el problema de raiz."
   },
   "personajes_secundarios": {
     "hacker_bueno": "sudadera AZUL CIELO con capucha ABAJO (cara siempre visible), placa/credencial blanca colgando de un cordón. Relajado, confiado. NUNCA capucha arriba, NUNCA negro.",

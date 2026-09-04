@@ -1,0 +1,454 @@
+{
+  "video": "7-mitos-ciberseguridad",
+  "style_base": "Crude hand-drawn cartoon, Ecomonos style, PURE WHITE background, thick black ink outlines, flat colors. A brown cartoon monkey protagonist, huge white round eyes, exactly like the reference image. Exactly two arms and two hands per character. Any text that appears in the image must be in PERFECT SPANISH, never English. Fill the whole frame, no black bars. SCENE: CRITICAL: NEVER draw a calendar, a torn-calendar page, or any counter of days/DIAS with a number on it (258, 250, or any other number) unless the scene explicitly and specifically asks for a day-counter — this motif does not belong in this video and must never appear as a default way to depict remembering/thinking/time passing. CRITICAL about the shadow-hacker attacker: its face must ALWAYS stay completely hidden inside the black hood shadow — never draw visible skin, a nose, a mouth, teeth or any facial features, and never let it look like the brown monkey wearing a hoodie. Only two glowing YELLOW eyes are visible, nothing else. Show emotion only through posture, hands, and the shape/angle of the two eyes.",
+  "frames": [
+    {
+      "file": "0_00.jpg",
+      "startSec": 0.0,
+      "text": "Hay siete cosas que casi todo el mundo crees sobre seguridad informática,",
+      "ref": "mono",
+      "scene": "Medium shot: the monkey Sara standing next to seven small numbered cards fanned out, curious confident expression."
+    },
+    {
+      "file": "0_03.jpg",
+      "startSec": 3.84,
+      "text": "y las siete son mentira, o casi.",
+      "ref": "mono",
+      "scene": "Close-up: Sara shaking her head with a sly grin, direct at camera. Sara has dark brown FUR like an animal (not human hair), no clothes, no shirt, no accessories, tan/cream face exactly matching the reference image color."
+    },
+    {
+      "file": "0_06.jpg",
+      "startSec": 6.76,
+      "text": "Vamos a desmontarlas una por una, y al final vas a hacer al menos una cosa distinta hoy mismo.",
+      "ref": "mono",
+      "scene": "Wide shot: the brown monkey Sara standing confidently with both hands on her hips, big friendly smile, energetic pose, plain white background, exactly matching the reference monkey design."
+    },
+    {
+      "file": "0_13.jpg",
+      "startSec": 13.12,
+      "text": "Mito uno.",
+      "ref": "none",
+      "scene": "A single giant coin medallion with the numeral '1', no characters."
+    },
+    {
+      "file": "0_14.jpg",
+      "startSec": 14.42,
+      "text": "El modo incógnito te esconde de todo Internet.",
+      "ref": "none",
+      "scene": "A browser window icon with an eye crossed out by a red slash, no characters."
+    },
+    {
+      "file": "0_17.jpg",
+      "startSec": 17.78,
+      "text": "Lo crees porque el navegador te lo dice literalmente al abrirlo.",
+      "ref": "mono",
+      "scene": "Close-up: Sara pointing at a laptop screen showing a plain browser window, no text, curious expression. Sara has dark brown FUR like an animal (not human hair), no clothes, no shirt, no accessories, tan/cream face exactly matching the reference image color."
+    },
+    {
+      "file": "0_21.jpg",
+      "startSec": 21.32,
+      "text": "Nadie podrá ver tu actividad.",
+      "ref": "none",
+      "scene": "A speech bubble on a browser screen reading exactly in Spanish: 'NADIE PODRA VER TU ACTIVIDAD', no characters."
+    },
+    {
+      "file": "0_23.jpg",
+      "startSec": 23.78,
+      "text": "La realidad es que el modo incógnito solo borra tu historial local en tu propio ordenador.",
+      "ref": "mono",
+      "scene": "Medium shot: Sara shrugging with a knowing smirk, about to reveal the truth."
+    },
+    {
+      "file": "0_29.jpg",
+      "startSec": 29.26,
+      "text": "Tu operadora, tu empresa, si usa su wifi,",
+      "ref": "none",
+      "scene": "Two simple icons side by side: a wifi router and an office building, no text, no characters."
+    },
+    {
+      "file": "0_32.jpg",
+      "startSec": 32.18,
+      "text": "y cada web que visitas te siguen viendo exactamente igual.",
+      "ref": "none",
+      "scene": "A row of small website icons all with open eyes watching, no characters."
+    },
+    {
+      "file": "0_35.jpg",
+      "startSec": 35.9,
+      "text": "Lo único que hace de verdad es no guardar cookies ni historial en ese equipo.",
+      "ref": "mono",
+      "scene": "Close-up: Sara holding up a small cookie icon and a blank history scroll, explaining."
+    },
+    {
+      "file": "0_40.jpg",
+      "startSec": 40.7,
+      "text": "Nada más.",
+      "ref": "mono",
+      "scene": "Extreme close-up of Sara's face, deadpan, direct at camera."
+    },
+    {
+      "file": "0_42.jpg",
+      "startSec": 42.38,
+      "text": "Mito dos.",
+      "ref": "none",
+      "scene": "A single giant coin medallion with the numeral '2', no characters."
+    },
+    {
+      "file": "0_43.jpg",
+      "startSec": 43.76,
+      "text": "Si la web tiene el candado verde, es una web segura.",
+      "ref": "none",
+      "scene": "A green padlock icon on a browser bar, large and clean, no characters."
+    },
+    {
+      "file": "0_47.jpg",
+      "startSec": 47.48,
+      "text": "Lo crees porque durante años nos dijeron,",
+      "ref": "mono",
+      "scene": "Medium shot: Sara looking up thoughtfully, remembering an old office poster, a small thought bubble forming above her head showing only a plain rectangular poster shape, no text yet, no calendar, no numbers."
+    },
+    {
+      "file": "0_50.jpg",
+      "startSec": 50.02,
+      "text": "busca el candado antes de meter tu contraseña.",
+      "ref": "none",
+      "scene": "An old-fashioned poster reading exactly in Spanish: 'BUSCA EL CANDADO', no characters."
+    },
+    {
+      "file": "0_53.jpg",
+      "startSec": 53.02,
+      "text": "La realidad es que ese candado solo dice que la conexión está cifrada, no que el dueño sea de fiar.",
+      "ref": "mono",
+      "scene": "Close-up: Sara pointing firmly at a padlock icon, serious expression."
+    },
+    {
+      "file": "0_58.jpg",
+      "startSec": 58.98,
+      "text": "Cualquier página de Fishing echa en una tarde también tiene su candado verde.",
+      "ref": "none",
+      "scene": "A fake website window with a green padlock and a fishing hook icon hidden behind it, no characters."
+    },
+    {
+      "file": "1_03.jpg",
+      "startSec": 63.74,
+      "text": "Lo que de verdad importa es la dirección exacta, letra por letra, no el candado.",
+      "ref": "mono",
+      "scene": "Medium shot: Sara alone pointing at a browser address bar with a magnifying glass, serious, plain address bar with no text on it, only Sara, no other characters, no attacker."
+    },
+    {
+      "file": "1_09.jpg",
+      "startSec": 69.92,
+      "text": "Mito tres.",
+      "ref": "none",
+      "scene": "A single giant coin medallion with the numeral '3', no characters."
+    },
+    {
+      "file": "1_11.jpg",
+      "startSec": 71.3,
+      "text": "Un antivirus gratuito te protege igual que uno de pago.",
+      "ref": "none",
+      "scene": "Two shield icons side by side, one plain grey and one golden with extra small icons around it, no characters."
+    },
+    {
+      "file": "1_15.jpg",
+      "startSec": 75.06,
+      "text": "Lo crees porque ambos dicen detecta virus en la portada.",
+      "ref": "mono",
+      "scene": "Close-up: Sara looking unimpressed at two identical labels, skeptical."
+    },
+    {
+      "file": "1_19.jpg",
+      "startSec": 79.58,
+      "text": "La realidad es que la detección básica sí es parecida, pero las capas extra, como el antifishing o el firewall inteligente,",
+      "ref": "none",
+      "scene": "A golden shield with small icons around it: a padlock and a flame, representing extra layers, no characters."
+    },
+    {
+      "file": "1_26.jpg",
+      "startSec": 86.88,
+      "text": "suelen ir solo en las versiones de pago.",
+      "ref": "none",
+      "scene": "A golden shield glowing, a plain grey shield dim beside it, no characters."
+    },
+    {
+      "file": "1_29.jpg",
+      "startSec": 89.26,
+      "text": "Si no puedes pagar uno, mejor un gratuito conocido que ninguno, pero no es lo mismo.",
+      "ref": "mono",
+      "scene": "Medium shot: Sara shrugging, explaining a fair compromise, calm."
+    },
+    {
+      "file": "1_35.jpg",
+      "startSec": 95.5,
+      "text": "Mito cuatro.",
+      "ref": "none",
+      "scene": "A single giant coin medallion with the numeral '4', no characters."
+    },
+    {
+      "file": "1_36.jpg",
+      "startSec": 96.92,
+      "text": "Una web pn te hace invisible en internet.",
+      "ref": "none",
+      "scene": "A shield icon with a masked eye on it, no characters."
+    },
+    {
+      "file": "1_40.jpg",
+      "startSec": 100.14,
+      "text": "Lo crees porque los anuncios de web pn literalmente usan la palabra invisible.",
+      "ref": "mono",
+      "scene": "Close-up: Sara alone holding up a bright yellow sign reading exactly in Spanish: 'INVISIBLE', skeptical eyebrow raised, only Sara, no other characters, no attacker, no hooded figure. Only Sara alone, absolutely no other characters, no hooded figure, no shadow-hacker, no attacker anywhere in the frame."
+    },
+    {
+      "file": "1_45.jpg",
+      "startSec": 105.94,
+      "text": "La realidad es que una web pn solo esconde tu dirección del sitio web que visitas.",
+      "ref": "none",
+      "scene": "A tunnel icon connecting a laptop to a website, with the laptop's own address hidden by a mask icon, no characters."
+    },
+    {
+      "file": "1_50.jpg",
+      "startSec": 110.96,
+      "text": "La propia empresa de la web pn puede ver todo tu tráfico sin excepción.",
+      "ref": "none",
+      "scene": "A large eye behind the tunnel icon, still watching from the near end, no characters."
+    },
+    {
+      "file": "1_55.jpg",
+      "startSec": 115.94,
+      "text": "Es útil,",
+      "ref": "mono",
+      "scene": "Close-up: Sara holding up one finger, conceding a small point, thoughtful."
+    },
+    {
+      "file": "1_57.jpg",
+      "startSec": 117.08,
+      "text": "pero es privacidad parcial,",
+      "ref": "mono",
+      "scene": "Extreme close-up of Sara the monkey face only, shaking her head slightly, correcting the record, dark brown fur, no hair, no clothes, only one single character in frame."
+    },
+    {
+      "file": "1_58.jpg",
+      "startSec": 118.66,
+      "text": "no una capa mágica de anonimato total.",
+      "ref": "none",
+      "scene": "A single crossed-out magic wand over a shield icon, no characters."
+    },
+    {
+      "file": "2_01.jpg",
+      "startSec": 121.88,
+      "text": "Mito cinco.",
+      "ref": "none",
+      "scene": "Close-up: a giant coin medallion with the numeral '5' held up close to camera, no characters."
+    },
+    {
+      "file": "2_03.jpg",
+      "startSec": 123.54,
+      "text": "Borrar un archivo lo elimina para siempre.",
+      "ref": "none",
+      "scene": "A trash bin icon with a small paper flying into it, no characters."
+    },
+    {
+      "file": "2_06.jpg",
+      "startSec": 126.54,
+      "text": "Lo crees porque el icono desaparece y la papelera se vacía.",
+      "ref": "mono",
+      "scene": "Close-up: Sara watching a screen icon shrink and disappear, no text, curious."
+    },
+    {
+      "file": "2_10.jpg",
+      "startSec": 130.48,
+      "text": "La realidad es que solo se borra la referencia al archivo.",
+      "ref": "none",
+      "scene": "A single folder icon fading to a faint outline only, still slightly visible, no text, no characters."
+    },
+    {
+      "file": "2_13.jpg",
+      "startSec": 133.84,
+      "text": "El contenido sigue físicamente en el disco. Con software forense barato, cualquiera puede recuperarlo hasta que ese espacio se sobre escribe con datos nuevos.",
+      "ref": "none",
+      "scene": "A hard drive icon cut open like a cross-section showing a small file still sitting inside, no characters."
+    },
+    {
+      "file": "2_23.jpg",
+      "startSec": 143.04,
+      "text": "Si de verdad quieres borrar algo sensible,",
+      "ref": "mono",
+      "scene": "Medium shot: Sara alone holding a magnifying glass over a hard drive icon, serious, only Sara, no other characters, no attacker, no hooded figure."
+    },
+    {
+      "file": "2_25.jpg",
+      "startSec": 145.34,
+      "text": "hace falta un borrado seguro.",
+      "ref": "none",
+      "scene": "A padlock icon with a small shredder icon next to it, no characters."
+    },
+    {
+      "file": "2_26.jpg",
+      "startSec": 146.98,
+      "text": "No la papelera normal.",
+      "ref": "mono",
+      "scene": "Close-up: Sara nodding, direct at camera, serious point."
+    },
+    {
+      "file": "2_29.jpg",
+      "startSec": 149.5,
+      "text": "Mito seis.",
+      "ref": "none",
+      "scene": "A single giant coin medallion with the numeral '6', no characters."
+    },
+    {
+      "file": "2_30.jpg",
+      "startSec": 150.84,
+      "text": "Los iPhone y los Mac no les afectan los virus.",
+      "ref": "none",
+      "scene": "Two device icons side by side, a phone and a laptop, both plain and identical in style, no characters."
+    },
+    {
+      "file": "2_34.jpg",
+      "startSec": 154.34,
+      "text": "Lo crees porque durante años apenas subo casos y Apple lo vendió como ventaja.",
+      "ref": "mono",
+      "scene": "Close-up: Sara the monkey smiling wryly, about to correct a common assumption, dark brown FUR not hair, no clothes, no shirt, tan face matching the reference exactly."
+    },
+    {
+      "file": "2_39.jpg",
+      "startSec": 159.84,
+      "text": "La realidad es que tienen menos malware tradicional,",
+      "ref": "none",
+      "scene": "A shield icon over the two device icons, cracking slightly at one corner, no characters."
+    },
+    {
+      "file": "2_42.jpg",
+      "startSec": 162.74,
+      "text": "pero no son inmunes.",
+      "ref": "mono",
+      "scene": "Close-up: Sara shrugging, calm and fair."
+    },
+    {
+      "file": "2_44.jpg",
+      "startSec": 164.3,
+      "text": "Y el Fishing, que es el ataque más común hoy,",
+      "ref": "none",
+      "scene": "A small envelope icon with a fishing hook coming out of it, no characters."
+    },
+    {
+      "file": "2_47.jpg",
+      "startSec": 167.22,
+      "text": "funciona exactamente igual en un iPhone que en cualquier otro móvil.",
+      "ref": "none",
+      "scene": "The same envelope-with-hook icon duplicated identically over both device icons, no characters."
+    },
+    {
+      "file": "2_51.jpg",
+      "startSec": 171.38,
+      "text": "La marca del aparato no te protege de que tú mismo hagas clic donde no debías.",
+      "ref": "mono",
+      "scene": "Extreme close-up of Sara the monkey raising one finger, conceding a small point, thoughtful, clearly visible round monkey ears on both sides, a rounded monkey muzzle, dark brown fur, tan face exactly matching the reference monkey, not a human face."
+    },
+    {
+      "file": "2_56.jpg",
+      "startSec": 176.86,
+      "text": "Mito siete.",
+      "ref": "none",
+      "scene": "A single giant coin medallion with the numeral '7', no characters."
+    },
+    {
+      "file": "2_58.jpg",
+      "startSec": 178.06,
+      "text": "Y este sorprende a mucha gente.",
+      "ref": "mono",
+      "scene": "Close-up: Sara raising both eyebrows, surprised expression, direct at camera."
+    },
+    {
+      "file": "3_00.jpg",
+      "startSec": 180.22,
+      "text": "Cambiar tu contraseña cada mes te hace más seguro.",
+      "ref": "none",
+      "scene": "A calendar page icon with a small padlock on it, no characters, no numbers, no dates."
+    },
+    {
+      "file": "3_04.jpg",
+      "startSec": 184.14,
+      "text": "Lo crees porque durante años fue la política obligatoria en empresas y universidades.",
+      "ref": "mono",
+      "scene": "Medium shot: Sara remembering an old office poster, a thought bubble showing a plain poster reading exactly in Spanish: 'SEGURIDAD PRIMERO', a small monkey figure with a hardhat on the poster, only Sara outside the bubble, no attacker, no hooded figure anywhere in the frame."
+    },
+    {
+      "file": "3_09.jpg",
+      "startSec": 189.24,
+      "text": "La realidad,",
+      "ref": "none",
+      "scene": "An old building icon labeled exactly in Spanish: 'OFICINA', no characters."
+    },
+    {
+      "file": "3_10.jpg",
+      "startSec": 190.64,
+      "text": "según el propio instituto de estándares de Estados Unidos,",
+      "ref": "mono",
+      "scene": "Close-up: Sara looking surprised at a small institutional building icon labeled exactly in Spanish: 'ESTANDARES EEUU', no characters besides the sign."
+    },
+    {
+      "file": "3_13.jpg",
+      "startSec": 193.8,
+      "text": "es que forzar cambios frecuentes hace que la gente use contraseñas más débiles y predecibles,",
+      "ref": "none",
+      "scene": "A row of weak password cards all ending in the same small numeral pattern, no characters."
+    },
+    {
+      "file": "3_18.jpg",
+      "startSec": 198.98,
+      "text": "tipo añadir un número al final.",
+      "ref": "none",
+      "scene": "A single password card with a number stamped at its end, repeated weakly across several cards, no characters."
+    },
+    {
+      "file": "3_21.jpg",
+      "startSec": 201.54,
+      "text": "Es mejor una contraseña larga y única que no cambias porque sí,",
+      "ref": "mono",
+      "scene": "Close-up: Sara holding up a single long password card confidently, calm smile."
+    },
+    {
+      "file": "3_25.jpg",
+      "startSec": 205.34,
+      "text": "y cambiar las solos si hay una fuga real.",
+      "ref": "mono",
+      "scene": "Medium shot: Sara holding up a strong password card reading exactly in Spanish: 'CONTRASEÑA SEGURA' and a small warning card reading exactly in Spanish: 'ALERTA DE FILTRACION', calm, only Sara, no other characters."
+    },
+    {
+      "file": "3_28.jpg",
+      "startSec": 208.44,
+      "text": "Así que revisa esto hoy.",
+      "ref": "mono",
+      "scene": "Wide shot: Sara standing next to a checklist board with three blank check-boxes, confident, ready to summarize."
+    },
+    {
+      "file": "3_30.jpg",
+      "startSec": 210.52,
+      "text": "Una contraseña larga sin rotar porque sí,",
+      "ref": "none",
+      "scene": "A single checklist item card reading exactly in Spanish: 'CONTRASEÑA LARGA SIN ROTAR', no characters."
+    },
+    {
+      "file": "3_33.jpg",
+      "startSec": 213.14,
+      "text": "comprobar la dirección exacta antes del candado y recordar que ninguna herramienta te hace invisible del todo.",
+      "ref": "mono",
+      "scene": "Medium shot: Sara alone pointing at a padlock and a magnifying glass together, calm explaining, only Sara, no other characters, no attacker, no hooded figure."
+    },
+    {
+      "file": "3_39.jpg",
+      "startSec": 219.76,
+      "text": "Si alguno de estos siete te has sorprendido, suscríbete,",
+      "ref": "mono",
+      "scene": "Close-up: Sara smiling warmly at the camera holding a phone, a glowing bell/subscribe icon beside it."
+    },
+    {
+      "file": "3_43.jpg",
+      "startSec": 223.0,
+      "text": "se viene más de este mundo.",
+      "ref": "mono",
+      "scene": "Medium shot: Sara waving goodbye happily at the camera, bright white background, warm close."
+    }
+  ]
+}
