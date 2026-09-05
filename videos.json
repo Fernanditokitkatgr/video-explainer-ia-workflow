@@ -453,5 +453,21 @@
     "height": 1080,
     "background": "#ffffff",
     "youtube_id": "WoCOMoV3VNY"
+  },
+  "por-que-la-ia-se-inventa-cosas": {
+    "composition": "PorQueLaIaSeInventaCosas",
+    "tsx": "remotion/src/PorQueLaIaSeInventaCosas.tsx",
+    "manifest_dir": "channel/tecno/videos/por-que-la-ia-se-inventa-cosas",
+    "script": "channel/tecno/videos/por-que-la-ia-se-inventa-cosas/script.md",
+    "audio_static": "por-que-la-ia-se-inventa-cosas.mp3",
+    "images_subpath": "por-que-la-ia-se-inventa-cosas",
+    "naming": "timestamp",
+    "ext": "jpg",
+    "playback_rate": 1.2,
+    "fps": 30,
+    "width": 1920,
+    "height": 1080,
+    "background": "#ffffff",
+    "youtube_id": "eLCHN1eV36s"
   }
 }

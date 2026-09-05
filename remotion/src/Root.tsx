@@ -26,10 +26,19 @@ import { HackerNovatoADios } from "./HackerNovatoADios";
 import { ComoHackeanUnaWeb } from "./ComoHackeanUnaWeb";
 import { TeClonanLaVoz } from "./TeClonanLaVoz";
 import { SieteMitosCiberseguridad } from "./SieteMitosCiberseguridad";
+import { PorQueLaIaSeInventaCosas } from "./PorQueLaIaSeInventaCosas";
 
 export const RemotionRoot: React.FC = () => {
   return (
     <>
+      <Composition
+        id="PorQueLaIaSeInventaCosas"
+        component={PorQueLaIaSeInventaCosas}
+        durationInFrames={4260}
+        fps={30}
+        width={1920}
+        height={1080}
+      />
       <Composition
         id="SieteMitosCiberseguridad"
         component={SieteMitosCiberseguridad}

@@ -1,0 +1,67 @@
+{
+  "video": "por-que-la-ia-se-inventa-cosas",
+  "sfx": [
+    {
+      "file": "intro_curious.mp3",
+      "startSec": 0.0,
+      "duration": 1.6,
+      "volume": 0.13,
+      "prompt": "light playful curious cartoon intro chime, gentle, no music"
+    },
+    {
+      "file": "chapter_ding1.mp3",
+      "startSec": 29.42,
+      "duration": 1.0,
+      "volume": 0.15,
+      "prompt": "clean single chapter marker ding number one, no music"
+    },
+    {
+      "file": "chapter_ding2.mp3",
+      "startSec": 49.72,
+      "duration": 1.0,
+      "volume": 0.15,
+      "prompt": "clean single chapter marker ding number two, no music"
+    },
+    {
+      "file": "chapter_ding3.mp3",
+      "startSec": 81.14,
+      "duration": 1.0,
+      "volume": 0.15,
+      "prompt": "clean single chapter marker ding number three, no music"
+    },
+    {
+      "file": "chapter_ding4.mp3",
+      "startSec": 101.52,
+      "duration": 1.0,
+      "volume": 0.15,
+      "prompt": "clean single chapter marker ding number four, serious tone, no music"
+    },
+    {
+      "file": "chapter_ding5.mp3",
+      "startSec": 128.74,
+      "duration": 1.0,
+      "volume": 0.15,
+      "prompt": "clean single chapter marker ding number five, no music"
+    },
+    {
+      "file": "serious_turn.mp3",
+      "startSec": 155.84,
+      "duration": 1.4,
+      "volume": 0.14,
+      "prompt": "a serious tone shift sting, no music"
+    },
+    {
+      "file": "subscribe_chime.mp3",
+      "startSec": 168.98,
+      "duration": 1.6,
+      "volume": 0.17,
+      "prompt": "warm friendly subscribe bell chime, positive, no music"
+    }
+  ],
+  "music": {
+    "file": "musica-canal.mp3",
+    "duration": 30,
+    "volume": 0.3,
+    "prompt": "light upbeat quirky cartoon background music loop, playful curious tone, no vocals"
+  }
+}

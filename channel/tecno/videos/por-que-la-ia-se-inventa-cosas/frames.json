@@ -1,0 +1,349 @@
+{
+  "video": "por-que-la-ia-se-inventa-cosas",
+  "style_base": "Crude hand-drawn cartoon, Ecomonos style, PURE WHITE background, thick black ink outlines, flat colors. A brown cartoon monkey protagonist, huge white round eyes, exactly like the reference image. Exactly two arms and two hands per character. Any text that appears in the image must be in PERFECT SPANISH, never English. Fill the whole frame, no black bars. SCENE: CRITICAL: NEVER draw a calendar, a torn-calendar page, or any counter of days/DIAS with a number on it (258, 250, or any other number) unless the scene explicitly and specifically asks for a day-counter — this motif does not belong in this video and must never appear as a default way to depict remembering/thinking/time passing. CRITICAL about the shadow-hacker attacker: its face must ALWAYS stay completely hidden inside the black hood shadow — never draw visible skin, a nose, a mouth, teeth or any facial features, and never let it look like the brown monkey wearing a hoodie. Only two glowing YELLOW eyes are visible, nothing else. Show emotion only through posture, hands, and the shape/angle of the two eyes.",
+  "frames": [
+    {
+      "file": "0_00.jpg",
+      "startSec": 0.0,
+      "text": "Un abogado en Nueva York le pidió ayuda a una Ia para escribir un escrito judicial.",
+      "ref": "mono",
+      "scene": "Medium shot: Sara wearing a simple lawyer collar prop, holding a blank document, curious expression, only Sara, no other characters."
+    },
+    {
+      "file": "0_05.jpg",
+      "startSec": 5.76,
+      "text": "La Ia le dio seis casos judiciales perfectos, con nombres, fechas y citas exactas.",
+      "ref": "none",
+      "scene": "A blank document icon with a small robot/AI chip icon above it, generating six neat lines representing text, no readable words, no characters."
+    },
+    {
+      "file": "0_11.jpg",
+      "startSec": 11.6,
+      "text": "Ninguno de los seis casos existía.",
+      "ref": "mono",
+      "scene": "Close-up: Sara holding up a card with a giant number 6 on it, next to a stack of documents, skeptical expression."
+    },
+    {
+      "file": "0_14.jpg",
+      "startSec": 14.4,
+      "text": "La Ia se los había inventado, de principio a fin.",
+      "ref": "none",
+      "scene": "A blank document with a big red X stamped across it, meaning it never existed, no characters."
+    },
+    {
+      "file": "0_18.jpg",
+      "startSec": 18.08,
+      "text": "Y el abogado los presentó ante un juez real, sin comprobarlo.",
+      "ref": "mono",
+      "scene": "Close-up: Sara holding a blank document toward a small judge gavel icon, worried expression, no other characters."
+    },
+    {
+      "file": "0_22.jpg",
+      "startSec": 22.38,
+      "text": "Hoy vamos a ver capítulo a capítulo, porque la Ia hace esto y cómo detectarlo antes de que te pase a ti.",
+      "ref": "mono",
+      "scene": "Wide shot: Sara standing next to seven numbered chapter cards fanned out, curious confident expression."
+    },
+    {
+      "file": "0_29.jpg",
+      "startSec": 29.42,
+      "text": "Capítulo uno,",
+      "ref": "none",
+      "scene": "A single giant coin medallion with the numeral '1', no characters."
+    },
+    {
+      "file": "0_30.jpg",
+      "startSec": 30.8,
+      "text": "que es exactamente una alucinación.",
+      "ref": "mono",
+      "scene": "Close-up: Sara tilting her head, curious, thinking."
+    },
+    {
+      "file": "0_33.jpg",
+      "startSec": 33.86,
+      "text": "No es un fallo técnico como cuando una apse cierra sola.",
+      "ref": "none",
+      "scene": "A phone icon crashing with a small crack, crossed out with a red X, no characters."
+    },
+    {
+      "file": "0_37.jpg",
+      "startSec": 37.46,
+      "text": "Es la Ia generando texto que suena perfectamente creible, seguro y bien escrito,",
+      "ref": "none",
+      "scene": "A small robot/AI chip icon with a speech bubble full of neat confident lines, no readable words, no characters."
+    },
+    {
+      "file": "0_42.jpg",
+      "startSec": 42.66,
+      "text": "pero que es falso.",
+      "ref": "mono",
+      "scene": "Close-up: Sara looking unimpressed at a fake-looking result, skeptical eyebrow raised."
+    },
+    {
+      "file": "0_44.jpg",
+      "startSec": 44.22,
+      "text": "Y lo dice con la misma confianza que cuando acierta,",
+      "ref": "mono",
+      "scene": "Extreme close-up of Sara's face, confident smile, direct at camera."
+    },
+    {
+      "file": "0_47.jpg",
+      "startSec": 47.22,
+      "text": "esa es la parte peligrosa.",
+      "ref": "mono",
+      "scene": "Close-up: Sara looking serious, direct at camera, warning tone."
+    },
+    {
+      "file": "0_49.jpg",
+      "startSec": 49.72,
+      "text": "Capítulo dos,",
+      "ref": "none",
+      "scene": "A single giant coin medallion with the numeral '2', no characters."
+    },
+    {
+      "file": "0_50.jpg",
+      "startSec": 50.88,
+      "text": "¿por qué pasa esto?",
+      "ref": "mono",
+      "scene": "Close-up: Sara pointing at a magnifying glass over a small database icon, curious."
+    },
+    {
+      "file": "0_52.jpg",
+      "startSec": 52.94,
+      "text": "Una Ia de texto no busca la verdad en una base de datos como un buscador. Predice palabra por palabra cuál es la más probable que venga después según lo que ha leído durante su entrenamiento.",
+      "ref": "none",
+      "scene": "A robot/AI chip icon with many small word-tile icons flowing out of it in a line, no readable words, no characters."
+    },
+    {
+      "file": "1_04.jpg",
+      "startSec": 64.6,
+      "text": "Si le preguntas algo muy específico que casi no aparece en sus datos,",
+      "ref": "mono",
+      "scene": "Medium shot: Sara looking puzzled at a single faint dot on a huge blank map, meaning rare data, curious."
+    },
+    {
+      "file": "1_08.jpg",
+      "startSec": 68.8,
+      "text": "igualmente sigue prediciendo la palabra más probable.",
+      "ref": "none",
+      "scene": "A robot/AI chip icon still confidently producing word-tiles even over the faint dot area, no characters."
+    },
+    {
+      "file": "1_12.jpg",
+      "startSec": 72.18,
+      "text": "El resultado suena fluido y seguro,",
+      "ref": "none",
+      "scene": "A speech bubble with neat flowing lines coming from a robot/AI chip icon, no readable words, no characters."
+    },
+    {
+      "file": "1_14.jpg",
+      "startSec": 74.68,
+      "text": "pero nadie comprobó que fuera verdad,",
+      "ref": "mono",
+      "scene": "Close-up: Sara shrugging, explaining calmly, no other characters."
+    },
+    {
+      "file": "1_16.jpg",
+      "startSec": 76.8,
+      "text": "porque la máquina no comproeba nada, sólo continúa el texto.",
+      "ref": "none",
+      "scene": "A robot/AI chip icon with a small blank magnifying glass beside it, meaning it checks nothing, no characters."
+    },
+    {
+      "file": "1_21.jpg",
+      "startSec": 81.14,
+      "text": "Capítulo tres,",
+      "ref": "none",
+      "scene": "A single giant coin medallion with the numeral '3', no characters."
+    },
+    {
+      "file": "1_22.jpg",
+      "startSec": 82.44,
+      "text": "¿cuándo alucina más?",
+      "ref": "mono",
+      "scene": "Close-up: Sara curious, one eyebrow raised, thinking."
+    },
+    {
+      "file": "1_24.jpg",
+      "startSec": 84.02,
+      "text": "Casi siempre los mismos tres casos,",
+      "ref": "mono",
+      "scene": "Medium shot: Sara counting on three fingers, confident explaining."
+    },
+    {
+      "file": "1_26.jpg",
+      "startSec": 86.76,
+      "text": "fechas y cifras exactas que no recuerda bien,",
+      "ref": "none",
+      "scene": "A simple clock icon and a small numeral counter icon side by side, no dates, no days, no characters."
+    },
+    {
+      "file": "1_29.jpg",
+      "startSec": 89.7,
+      "text": "nombres propios poco comunes y citas textuales de libros, leyes o sentencias.",
+      "ref": "mono",
+      "scene": "Close-up: Sara pointing at a small name-tag icon with a question mark on it, curious."
+    },
+    {
+      "file": "1_35.jpg",
+      "startSec": 95.02,
+      "text": "En esos tres casos rellena el hueco con algo que suena bien, en vez de admitir que no lo sabe.",
+      "ref": "none",
+      "scene": "An open book icon with a speech-quote symbol coming out of it, no characters."
+    },
+    {
+      "file": "1_41.jpg",
+      "startSec": 101.52,
+      "text": "Capítulo cuatro,",
+      "ref": "mono",
+      "scene": "Close-up: Sara nodding, serious point, direct at camera."
+    },
+    {
+      "file": "1_42.jpg",
+      "startSec": 102.64,
+      "text": "¿el caso real que ya pasó?",
+      "ref": "none",
+      "scene": "A single giant coin medallion with the numeral '4', no characters."
+    },
+    {
+      "file": "1_44.jpg",
+      "startSec": 104.94,
+      "text": "En 2023,",
+      "ref": "mono",
+      "scene": "Close-up: Sara wearing the same lawyer collar prop, worried expression, holding a blank document, only Sara, no other characters."
+    },
+    {
+      "file": "1_46.jpg",
+      "startSec": 106.4,
+      "text": "un abogado en Nueva York usó una Ia para preparar un escrito.",
+      "ref": "none",
+      "scene": "A big sign reading exactly in Spanish: 'ESTADOS UNIDOS, 2023', no characters."
+    },
+    {
+      "file": "1_50.jpg",
+      "startSec": 110.18,
+      "text": "La Ia citó seis sentencias judiciales que parecían perfectas,",
+      "ref": "mono",
+      "scene": "Medium shot: Sara presenting a blank document toward an unseen judge, hopeful expression, only Sara."
+    },
+    {
+      "file": "1_54.jpg",
+      "startSec": 114.16,
+      "text": "ninguna existía.",
+      "ref": "none",
+      "scene": "A stack of six official-looking documents, each stamped with a red X, no readable text, no characters."
+    },
+    {
+      "file": "1_56.jpg",
+      "startSec": 116.06,
+      "text": "El juez las buscó, no encontró nada,",
+      "ref": "none",
+      "scene": "Close-up: a single blank document with a big red X stamped, no characters."
+    },
+    {
+      "file": "1_58.jpg",
+      "startSec": 118.74,
+      "text": "y el abogado tuvo que explicar ante el tribunal por qué había citado casos falsos,",
+      "ref": "none",
+      "scene": "A judge's gavel icon striking down with a small magnifying glass beside it finding nothing, no characters."
+    },
+    {
+      "file": "2_03.jpg",
+      "startSec": 123.46,
+      "text": "le sancionaron,",
+      "ref": "mono",
+      "scene": "Close-up: Sara looking nervous, sweat drop, explaining to an unseen judge, only Sara."
+    },
+    {
+      "file": "2_04.jpg",
+      "startSec": 124.68,
+      "text": "y todo por no comprobar seis nombres antes de firmarlo.",
+      "ref": "none",
+      "scene": "A single giant coin medallion with the numeral '5', no characters."
+    },
+    {
+      "file": "2_08.jpg",
+      "startSec": 128.74,
+      "text": "Capítulo cinco,",
+      "ref": "none",
+      "scene": "A red stamp icon reading exactly in Spanish: 'SANCIONADO', no characters."
+    },
+    {
+      "file": "2_10.jpg",
+      "startSec": 130.26,
+      "text": "¿cómo detectarlo tú?",
+      "ref": "mono",
+      "scene": "Medium shot: Sara shrugging with a rueful smile, lesson learned, only Sara."
+    },
+    {
+      "file": "2_12.jpg",
+      "startSec": 132.36,
+      "text": "Si la Ia te da una fecha exacta, un nombre propio raro o una cita textual, no la copias directamente.",
+      "ref": "mono",
+      "scene": "Close-up: Sara pointing at the viewer, giving advice, confident, no clothes, no shirt, dark brown fur exactly matching the reference."
+    },
+    {
+      "file": "2_19.jpg",
+      "startSec": 139.12,
+      "text": "Búscalo por tu cuenta en una fuente real antes de usarlo en algo importante.",
+      "ref": "none",
+      "scene": "A simple clock icon, a name-tag icon with a question mark, and an open book icon lined up together, no dates, no days, no characters."
+    },
+    {
+      "file": "2_23.jpg",
+      "startSec": 143.68,
+      "text": "Y si le preguntas y responde con total seguridad sin dudar nunca,",
+      "ref": "mono",
+      "scene": "Medium shot: Sara holding up a magnifying glass toward a small book icon, confident advice."
+    },
+    {
+      "file": "2_27.jpg",
+      "startSec": 147.78,
+      "text": "eso no es una señal de que acierta,",
+      "ref": "mono",
+      "scene": "The monkey Sara looking unimpressed at a robot/AI chip icon labeled exactly 'IA' in capital letters (not AI in English), the robot speaking confidently, only Sara and the robot, no other characters."
+    },
+    {
+      "file": "2_29.jpg",
+      "startSec": 149.88,
+      "text": "es solo como habla siempre.",
+      "ref": "mono",
+      "scene": "Close-up: Sara shaking her head slightly, correcting a common assumption, no clothes, no shirt, dark brown fur exactly matching the reference."
+    },
+    {
+      "file": "2_32.jpg",
+      "startSec": 152.24,
+      "text": "Así que la próxima vez que una Ia te de un dato muy concreto,",
+      "ref": "mono",
+      "scene": "Wide shot: Sara shrugging matter-of-factly, calm, standing alone."
+    },
+    {
+      "file": "2_35.jpg",
+      "startSec": 155.84,
+      "text": "tú haz una cosa muy simple.",
+      "ref": "mono",
+      "scene": "Medium shot: Sara holding up a blank document with a question mark drawn on it toward the viewer, direct at camera."
+    },
+    {
+      "file": "2_38.jpg",
+      "startSec": 158.18,
+      "text": "Compruebaló antes de creerlo, como harías con cualquier desconocido que te cuenta algo demasiado perfecto.",
+      "ref": "mono",
+      "scene": "Close-up: Sara holding a magnifying glass over a small book, calm and reassuring, direct explaining."
+    },
+    {
+      "file": "2_44.jpg",
+      "startSec": 164.54,
+      "text": "Si esto te ha hecho pensar en algo que copiaste sin comprobar, suscríbete.",
+      "ref": "mono",
+      "scene": "Medium shot: Sara the monkey smiling warmly at the camera holding a phone showing a glowing bell icon and a red button reading exactly in Spanish SUSCRIBETE, dark brown fur, no clothes, only Sara, not a human character."
+    },
+    {
+      "file": "2_48.jpg",
+      "startSec": 168.98,
+      "text": "Se vien más de este mundo.",
+      "ref": "mono",
+      "scene": "Medium shot: Sara waving goodbye happily at the camera, bright white background, warm close."
+    }
+  ]
+}
