@@ -2,11 +2,15 @@
 # -*- coding: utf-8 -*-
 """Corta Shorts verticales (1080x1920, <=59 s) a partir del vídeo largo ya renderizado.
 
-Diseño: fondo oscuro de marca, el vídeo 16:9 centrado, GANCHO grande arriba (fijo todo
-el Short) y subtítulos quemados abajo en bloques de 3-4 palabras. Los subtítulos usan el
-texto del GUION (script.md) alineado con los tiempos de Whisper, así no salen errores de
-transcripción ("Opinaya" en vez de "OpenAI"). Los últimos 3 s muestran el CTA al vídeo
-completo.
+Diseño (oct-2026, basado en qué funciona de verdad en Shorts/Reels/TikTok — ver notas en
+CLAUDE.md "## Shorts"): fondo oscuro de marca, el vídeo 16:9 centrado, GANCHO de intriga
+arriba y subtítulos quemados abajo en bloques de 3-4 palabras, en estilo KARAOKE (la palabra
+ya dicha se pone en dorado, el resto en blanco — los subtítulos palabra a palabra retienen
+más que un bloque estático). Fuente Montserrat ExtraBold (sans-serif de la familia que más
+se usa en subtítulos de Shorts) en vez de Impact (una fuente de meme/cartel, no de subtítulo).
+Los subtítulos usan el texto del GUION (script.md) alineado con los tiempos de Whisper, así
+no salen errores de transcripción ("Opinaya" en vez de "OpenAI"). Los últimos 3 s muestran el
+CTA al vídeo completo.
 
 Qué cortar se define en seo.md, sección "## Shorts" (una línea por Short):
     - titulo: <título del Short, <=60 chars> | gancho: <TEXTO ARRIBA> | desde: 0_00 | hasta: 0_51
@@ -29,7 +33,8 @@ from pathlib import Path
 
 REPO_ROOT = Path(__file__).resolve().parent.parent
 MAX_DUR = 58.5
-FONT = Path(r"C:\Windows\Fonts\impact.ttf")
+FONT = REPO_ROOT / "assets" / "fonts" / "Montserrat-ExtraBold.ttf"
+FONT_NAME = "Montserrat ExtraBold"  # tiene que ser el family name REAL del .ttf (name id 1/16)
 BG = "0x0B1220"
 
 
@@ -110,7 +115,7 @@ def parse_specs(seo_md: Path) -> list[dict]:
     return specs
 
 
-def build_ass(path: Path, gancho: str, caps: list[tuple[float, float, str]], dur: float,
+def build_ass(path: Path, gancho: str, caps: list[tuple[float, float, str, str]], dur: float,
               reveal: str = "", reveal_t0: float | None = None, parte: str = "") -> None:
     hook_lines = [l.strip().upper() for l in gancho.split("/") if l.strip()]
     hook = r"\N".join(ass_escape(l) for l in hook_lines)
@@ -121,15 +126,20 @@ def build_ass(path: Path, gancho: str, caps: list[tuple[float, float, str]], dur
         "Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, "
         "Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, "
         "Shadow, Alignment, MarginL, MarginR, MarginV, Encoding",
-        # colores ASS en &HAABBGGRR
-        "Style: Hook,Impact,104,&H0000D4FF,&H00FFFFFF,&H00000000,&H00000000,0,0,0,0,100,100,1,0,1,7,3,8,50,50,330,1",
-        "Style: Cap,Impact,92,&H00FFFFFF,&H00FFFFFF,&H00000000,&H00000000,0,0,0,0,100,100,1,0,1,7,3,2,60,60,520,1",
-        "Style: Cta,Impact,86,&H0000D4FF,&H00FFFFFF,&H00000000,&H00000000,0,0,0,0,100,100,1,0,1,7,3,5,60,60,0,1",
+        # colores ASS en &HAABBGGRR. Fuente: Montserrat ExtraBold en todos los estilos (ver
+        # FONT_NAME) — sans-serif bien legible en móvil, no una fuente de meme como Impact.
+        f"Style: Hook,{FONT_NAME},104,&H0000D4FF,&H00FFFFFF,&H00000000,&H00000000,0,0,0,0,100,100,1,0,1,7,3,8,50,50,330,1",
+        # Cap (subtítulo karaoke): PrimaryColour = dorado = "ya dicho", SecondaryColour = blanco
+        # = "todavía no". El texto de cada línea lleva tags \k por palabra (ver karaoke_tags) y
+        # libass va pasando cada palabra de blanco a dorado justo cuando se pronuncia —
+        # retiene más que un bloque de texto estático (ver CLAUDE.md "## Shorts").
+        f"Style: Cap,{FONT_NAME},92,&H0000D4FF,&H00FFFFFF,&H00000000,&H00000000,0,0,0,0,100,100,1,0,1,7,3,2,60,60,520,1",
+        f"Style: Cta,{FONT_NAME},86,&H0000D4FF,&H00FFFFFF,&H00000000,&H00000000,0,0,0,0,100,100,1,0,1,7,3,5,60,60,0,1",
         # Reveal: el remate (la cifra/respuesta) aparece con un pop SOLO cuando se dice en el
         # audio, nunca desde el segundo 0 — ver "gancho vs remate" en CLAUDE.md.
-        "Style: Reveal,Impact,110,&H0000D4FF,&H00FFFFFF,&H00000000,&H00000000,0,0,0,0,100,100,1,0,1,8,4,8,50,50,330,1",
+        f"Style: Reveal,{FONT_NAME},110,&H0000D4FF,&H00FFFFFF,&H00000000,&H00000000,0,0,0,0,100,100,1,0,1,8,4,8,50,50,330,1",
         # Parte: insignia pequeña arriba a la izquierda para series de 2+ Shorts del mismo vídeo.
-        "Style: Parte,Impact,52,&H00FFFFFF,&H00FFFFFF,&H00000000,&H00000000,0,0,0,0,100,100,1,0,1,5,3,7,40,40,40,1",
+        f"Style: Parte,{FONT_NAME},52,&H00FFFFFF,&H00FFFFFF,&H00000000,&H00000000,0,0,0,0,100,100,1,0,1,5,3,7,40,40,40,1",
         "", "[Events]",
         "Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text",
     ]
@@ -147,9 +157,9 @@ def build_ass(path: Path, gancho: str, caps: list[tuple[float, float, str]], dur
         lines.append(f"Dialogue: 0,{ass_time(0)},{ass_time(cta_start)},Hook,,0,0,0,,{hook}")
     if parte:
         lines.append(f"Dialogue: 0,{ass_time(0)},{ass_time(dur)},Parte,,0,0,0,,PARTE {ass_escape(parte.upper())}")
-    for a, b, t in caps:
-        if b - a > 0.05 and a < cta_start:
-            lines.append(f"Dialogue: 0,{ass_time(a)},{ass_time(min(b, cta_start))},Cap,,0,0,0,,{ass_escape(t.upper())}")
+    for a, b, _plain, ktext in caps:
+        if b - a > 0.05 and a < cta_start and ktext:
+            lines.append(f"Dialogue: 0,{ass_time(a)},{ass_time(min(b, cta_start))},Cap,,0,0,0,,{ktext}")
     lines.append(f"Dialogue: 1,{ass_time(cta_start)},{ass_time(dur)},Cta,,0,0,0,,VÍDEO COMPLETO\\NEN EL CANAL")
     path.write_text("\n".join(lines) + "\n", encoding="utf-8-sig")
 
@@ -158,7 +168,7 @@ def norm_digits(s: str) -> str:
     return re.sub(r"[^0-9]", "", s)
 
 
-def find_reveal_start(reveal: str, caps: list[tuple[float, float, str]]) -> float | None:
+def find_reveal_start(reveal: str, caps: list[tuple[float, float, str, str]]) -> float | None:
     """Momento en el que el REMATE se dice de verdad en el audio.
 
     Los subtítulos salen del GUION (ver `script_words`), y el guion suele escribir las cifras
@@ -169,7 +179,7 @@ def find_reveal_start(reveal: str, caps: list[tuple[float, float, str]]) -> floa
     None si no se encuentra nada (el caller cae entonces a un margen fijo antes del CTA)."""
     digits = norm_digits(reveal)
     if digits:
-        for a, b, t in caps:
+        for a, b, t, _k in caps:
             if digits in norm_digits(t):
                 return a
     toks = {norm(w) for w in re.split(r"[/\s]+", reveal) if norm(w)}
@@ -179,20 +189,40 @@ def find_reveal_start(reveal: str, caps: list[tuple[float, float, str]]) -> floa
     for want in (anchors, toks) if anchors and anchors != toks else (toks,):
         if not want:
             continue
-        for a, b, t in caps:
+        for a, b, t, _k in caps:
             ctoks = {norm(w) for w in t.split()}
             if want <= ctoks:
                 return a
     return None
 
 
-def chunk_caption(words: list[str], t0: float, t1: float, per: int = 3) -> list[tuple[float, float, str]]:
+def karaoke_tags(words: list[str], dur: float) -> str:
+    """Construye el texto ASS de una línea de subtítulo en estilo karaoke: cada palabra lleva
+    su propio tag `\\k<centisegundos>` (proporcional a su longitud, igual que se reparte la
+    duración entre grupos más abajo) y libass la va pasando de SecondaryColour (blanco, "aún no
+    dicha") a PrimaryColour (dorado, "ya dicha") justo cuando le toca — ver el estilo Cap."""
+    words = [w for w in words if w]
+    if not words:
+        return ""
+    wtotal = sum(len(w) for w in words) or 1
+    parts = []
+    for w in words:
+        cs = max(1, round(100 * dur * len(w) / wtotal))
+        parts.append(f"{{\\k{cs}}}{ass_escape(w.upper())}")
+    return " ".join(parts)
+
+
+def chunk_caption(words: list[str], t0: float, t1: float,
+                   per: int = 3) -> list[tuple[float, float, str, str]]:
+    """Devuelve (inicio, fin, TEXTO_PLANO, TEXTO_CON_TAGS_KARAOKE) por grupo de `per` palabras.
+    El texto plano es el que se usa para buscar/alinear (nunca lleva tags ASS mezclados);
+    el texto con tags es el que de verdad se escribe en el .ass."""
     groups = [words[i:i + per] for i in range(0, len(words), per)] or [[]]
     total = sum(len(" ".join(g)) for g in groups) or 1
     out, t = [], t0
     for g in groups:
         d = (t1 - t0) * len(" ".join(g)) / total
-        out.append((t, t + d, " ".join(g)))
+        out.append((t, t + d, " ".join(g), karaoke_tags(g, d)))
         t += d
     return out
 

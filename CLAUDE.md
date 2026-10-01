@@ -394,6 +394,29 @@ Shorts** (ver "variedad" más abajo). Se definen en `seo.md`:
   (texto del GUION alineado con los tiempos de Whisper → sin errores de transcripción tipo
   "Opinaya"), cierre "VÍDEO COMPLETO EN EL CANAL".
 
+### Estilo de los subtítulos y la fuente (oct-2026)
+
+Fijado tras revisar qué formatos de Short funcionan de verdad (no a ojo):
+
+- **Fuente: Montserrat ExtraBold** (`assets/fonts/Montserrat-ExtraBold.ttf`, instanciada con
+  `fonttools.varLib.instancer --update-name-table` desde la variable de Google Fonts, licencia
+  OFL — así el repo no depende de que esté instalada en el sistema de cada colaborador). Antes
+  se usaba Impact, una fuente de meme/cartel, no de subtítulo: Montserrat es, con diferencia,
+  la familia más usada en subtítulos de Shorts/Reels/TikTok (~61% de una muestra de 2 M de
+  vídeos analizados por Kapwing), y las fuentes sans-serif bold superan a las decorativas en
+  legibilidad móvil. El `.ttf` tiene que traer el family name real en las tablas `name` 1/16
+  (`Montserrat ExtraBold`) o libass no la encuentra por `fontsdir`.
+- **Subtítulos en estilo KARAOKE, palabra a palabra**: la palabra ya dicha se pone en dorado
+  de marca (mismo color que el gancho/remate) y las que faltan por decir en blanco, con
+  `\k<centisegundos>` por palabra (ver `karaoke_tags()` en `make_shorts.py`) — no un bloque de
+  texto estático. Los subtítulos palabra a palabra retienen más que un bloque fijo: el
+  movimiento mantiene la atención y marca el ritmo de lectura solo, sobre todo en contenido
+  educativo/explicativo como este canal. Ir frase a frase en bloques de 3-4 palabras (no
+  palabra suelta en pantalla) mantiene el contexto legible sin que parpadee demasiado.
+  Sources: [OpusClip — Caption & Subtitle Best Practices 2026](https://www.opus.pro/blog/youtube-shorts-caption-subtitle-best-practices),
+  [Kapwing — Best Fonts for Subtitles](https://www.kapwing.com/resources/font-for-subtitles/),
+  [Rendercut — What Is Karaoke Caption Style](https://rendercut.io/what-is-karaoke-caption-style).
+
 ### `gancho` (intriga) vs `reveal` (remate) — regla dura, detectada en QC oct-2026
 
 **El `gancho` es fijo y se ve DESDE EL SEGUNDO 0 durante todo el Short. Por eso NUNCA puede
