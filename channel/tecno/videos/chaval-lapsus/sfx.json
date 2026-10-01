@@ -1,0 +1,12 @@
+{
+  "sfx": [
+    { "file": "intro_tense.mp3", "startSec": 0.0, "duration": 1.8, "volume": 0.14, "prompt": "dark tense cinematic drone, unsettling reveal, no music" },
+    { "file": "reveal_dark.mp3", "startSec": 35.18, "duration": 1.6, "volume": 0.15, "prompt": "low ominous digital reveal sting, dark synth pulse" },
+    { "file": "tense_creep.mp3", "startSec": 87.88, "duration": 1.6, "volume": 0.15, "prompt": "sneaky tense creeping synth, digital infiltration, no music" },
+    { "file": "digital_glitch.mp3", "startSec": 106.78, "duration": 1.4, "volume": 0.14, "prompt": "short digital glitch stutter, precise electronic scan sound" },
+    { "file": "impact_thud.mp3", "startSec": 196.38, "duration": 1.0, "volume": 0.17, "prompt": "single deep impact thud, weighty and final" },
+    { "file": "serious_turn.mp3", "startSec": 230.58, "duration": 1.4, "volume": 0.14, "prompt": "serious low tonal shift, grave cinematic transition" },
+    { "file": "subscribe_chime.mp3", "startSec": 303.42, "duration": 1.2, "volume": 0.17, "prompt": "bright cheerful notification bell chime, friendly and short" }
+  ],
+  "music": { "file": "musica-canal.mp3", "duration": 30, "volume": 0.3, "prompt": "reused channel background music loop" }
+}

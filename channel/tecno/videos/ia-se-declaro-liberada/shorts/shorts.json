@@ -1,0 +1,24 @@
+{
+  "shorts": [
+    {
+      "file": "short_1.mp4",
+      "titulo": "Una IA escribió que estaba liberada de sus reglas",
+      "gancho": "«ESTOY/LIBERADA»",
+      "desde": "0_11",
+      "t0": 9.78,
+      "dur": 56.12,
+      "youtube_id": "TgLt7Bzjgh8",
+      "publish_at": "2026-10-06T19:00:00Z"
+    },
+    {
+      "file": "short_2.mp4",
+      "titulo": "Robó una llave y luego mintió",
+      "gancho": "ROBÓ/Y MINTIÓ",
+      "desde": "2_23",
+      "t0": 119.65,
+      "dur": 57.05,
+      "youtube_id": "tY57UA32O3w",
+      "publish_at": "2026-10-07T11:00:00Z"
+    }
+  ]
+}

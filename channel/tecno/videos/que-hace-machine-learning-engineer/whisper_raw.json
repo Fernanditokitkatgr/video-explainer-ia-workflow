@@ -1,0 +1,677 @@
+[
+  {
+    "file": "0_00.jpg",
+    "startSec": 0.0,
+    "text": "Hay un puesto de trabajo que casi todo el mundo confunde con otros dos a la vez,"
+  },
+  {
+    "file": "0_03.jpg",
+    "startSec": 3.96,
+    "text": "y no por casualidad,"
+  },
+  {
+    "file": "0_05.jpg",
+    "startSec": 5.6,
+    "text": "porque los tres trabajan con lo mismo, modelos de inteligencia artificial."
+  },
+  {
+    "file": "0_10.jpg",
+    "startSec": 10.5,
+    "text": "El Machine Learning Engineer."
+  },
+  {
+    "file": "0_12.jpg",
+    "startSec": 12.76,
+    "text": "Y no, no es un Data Scientist que programa mejor."
+  },
+  {
+    "file": "0_16.jpg",
+    "startSec": 16.48,
+    "text": "Tampoco es lo mismo que un AI Engineer."
+  },
+  {
+    "file": "0_19.jpg",
+    "startSec": 19.4,
+    "text": "Es un oficio distinto con un problema propio que nadie más resuelve."
+  },
+  {
+    "file": "0_24.jpg",
+    "startSec": 24.34,
+    "text": "Vamos a la diferencia real, porque aquí está la clave de todo el vídeo."
+  },
+  {
+    "file": "0_28.jpg",
+    "startSec": 28.64,
+    "text": "El Data Scientist pregunta si algo es posible."
+  },
+  {
+    "file": "0_31.jpg",
+    "startSec": 31.86,
+    "text": "Coge datos, prueba ideas en un cuaderno y busca si un modelo puede aprender un patrón útil."
+  },
+  {
+    "file": "0_38.jpg",
+    "startSec": 38.04,
+    "text": "El AI Engineer coge una inteligencia que ya existe,"
+  },
+  {
+    "file": "0_41.jpg",
+    "startSec": 41.78,
+    "text": "un modelo ya entrenado por otra empresa y la conecta a un producto real."
+  },
+  {
+    "file": "0_46.jpg",
+    "startSec": 46.46,
+    "text": "El Machine Learning Engineer entra después del Data Scientist y antes de que nadie confí en ese modelo con dinero de verdad."
+  },
+  {
+    "file": "0_54.jpg",
+    "startSec": 54.2,
+    "text": "Su pregunta no es funciona en el cuaderno."
+  },
+  {
+    "file": "0_56.jpg",
+    "startSec": 56.56,
+    "text": "¿Es? ¿Esto sigue funcionando dentro de seis meses con datos que aún no existen sin que nadie lo esté mirando?"
+  },
+  {
+    "file": "1_04.jpg",
+    "startSec": 64.46,
+    "text": "Vamos con un ejemplo real y muy típico."
+  },
+  {
+    "file": "1_07.jpg",
+    "startSec": 67.24,
+    "text": "Un Data Scientist construye un modelo para detectar fraude en tarjetas de crédito."
+  },
+  {
+    "file": "1_12.jpg",
+    "startSec": 72.08,
+    "text": "En su cuaderno, con datos históricos,"
+  },
+  {
+    "file": "1_14.jpg",
+    "startSec": 74.22,
+    "text": "acierta el 92% de las veces, se celebra en la reunión."
+  },
+  {
+    "file": "1_18.jpg",
+    "startSec": 78.7,
+    "text": "Y ahí, para mucha gente, el trabajo parece terminado."
+  },
+  {
+    "file": "1_22.jpg",
+    "startSec": 82.18,
+    "text": "No lo está."
+  },
+  {
+    "file": "1_22.jpg",
+    "startSec": 82.82,
+    "text": "Ahí es exactamente donde empieza el del Machine Learning Engineer."
+  },
+  {
+    "file": "1_27.jpg",
+    "startSec": 87.4,
+    "text": "Ese modelo tiene que pasar de un cuaderno que tarda tres segundos en analizar 100 filas,"
+  },
+  {
+    "file": "1_32.jpg",
+    "startSec": 92.66,
+    "text": "a un sistema que decide en milisegundos si autorizar una compra en cada transacción de millones de tarjetas a la vez."
+  },
+  {
+    "file": "1_40.jpg",
+    "startSec": 100.08,
+    "text": "Y no solo eso."
+  },
+  {
+    "file": "1_41.jpg",
+    "startSec": 101.72,
+    "text": "Los patrones de fraude cambian cada semana,"
+  },
+  {
+    "file": "1_44.jpg",
+    "startSec": 104.16,
+    "text": "así que el modelo necesita reentrenarse solo con datos nuevos,"
+  },
+  {
+    "file": "1_48.jpg",
+    "startSec": 108.02,
+    "text": "sin que nadie tenga que repetir el proceso a mano cada vez."
+  },
+  {
+    "file": "1_51.jpg",
+    "startSec": 111.68,
+    "text": "Construir esa tubería, la que mueve datos, reentrena, despliega y vigila el modelo sin parar,"
+  },
+  {
+    "file": "1_57.jpg",
+    "startSec": 117.3,
+    "text": "es el oficio entero resumido en una frase."
+  },
+  {
+    "file": "2_00.jpg",
+    "startSec": 120.52,
+    "text": "Y aquí está la parte que casi nadie cuenta cuando explica este trabajo."
+  },
+  {
+    "file": "2_04.jpg",
+    "startSec": 124.78,
+    "text": "La mayoría de los días, un Machine Learning Engineer,"
+  },
+  {
+    "file": "2_07.jpg",
+    "startSec": 127.78,
+    "text": "no está entrenando ningún modelo nuevo."
+  },
+  {
+    "file": "2_10.jpg",
+    "startSec": 130.16,
+    "text": "Está mirando paneles, arreglando una tubería de datos que se rompió esta madrugada"
+  },
+  {
+    "file": "2_14.jpg",
+    "startSec": 134.7,
+    "text": "o investigando por qué las predicciones de un modelo empeoraron poco a poco"
+  },
+  {
+    "file": "2_18.jpg",
+    "startSec": 138.78,
+    "text": "durante las últimas tres semanas."
+  },
+  {
+    "file": "2_21.jpg",
+    "startSec": 141.24,
+    "text": "Eso tiene nombre, se llama de gradación del modelo"
+  },
+  {
+    "file": "2_24.jpg",
+    "startSec": 144.78,
+    "text": "y estraicionero porque el código no cambia, el modelo no cambia,"
+  },
+  {
+    "file": "2_28.jpg",
+    "startSec": 148.3,
+    "text": "pero el mundo real sí y el modelo deja de encajar con él en silencio."
+  },
+  {
+    "file": "2_32.jpg",
+    "startSec": 152.88,
+    "text": "Vigilar que eso no pase y detectarlo en horas en vez de en meses"
+  },
+  {
+    "file": "2_36.jpg",
+    "startSec": 156.4,
+    "text": "es literalmente la mitad del trabajo no un extra."
+  },
+  {
+    "file": "2_41.jpg",
+    "startSec": 161.2,
+    "text": "Y hay un dato que sorprende a casi todo el mundo que empieza en esto."
+  },
+  {
+    "file": "2_45.jpg",
+    "startSec": 165.2,
+    "text": "En un sistema real de aprendizaje automático,"
+  },
+  {
+    "file": "2_47.jpg",
+    "startSec": 167.58,
+    "text": "el código que entrena el modelo suele ser una parte muy pequeña de todo el sistema."
+  },
+  {
+    "file": "2_52.jpg",
+    "startSec": 172.86,
+    "text": "La mayor parte es infraestructura para mover datos,"
+  },
+  {
+    "file": "2_55.jpg",
+    "startSec": 175.84,
+    "text": "comprobar su calidad, servir el modelo y vigilar que todo siga sano."
+  },
+  {
+    "file": "3_00.jpg",
+    "startSec": 180.68,
+    "text": "Ese desequilibrio, poco modelo y mucha ingeniería alrededor,"
+  },
+  {
+    "file": "3_04.jpg",
+    "startSec": 184.56,
+    "text": "es justo lo que define este puesto frente a los otros dos."
+  },
+  {
+    "file": "3_08.jpg",
+    "startSec": 188.44,
+    "text": "Vale, y aquí está el mito que quiero desmontar del todo."
+  },
+  {
+    "file": "3_12.jpg",
+    "startSec": 192.16,
+    "text": "Mucha gente entra pensando que este trabajo es ciencia de datos con más código."
+  },
+  {
+    "file": "3_17.jpg",
+    "startSec": 197.26,
+    "text": "Pero no es una versión avanzada de ese otro oficio,"
+  },
+  {
+    "file": "3_20.jpg",
+    "startSec": 200.58,
+    "text": "es una disciplina de ingeniería de software aplicada a un tipo de sistema"
+  },
+  {
+    "file": "3_24.jpg",
+    "startSec": 204.52,
+    "text": "que falla de formas distintas a las habituales."
+  },
+  {
+    "file": "3_27.jpg",
+    "startSec": 207.72,
+    "text": "Un servidor normal falla y lo ves al instante, se cae, da un error."
+  },
+  {
+    "file": "3_32.jpg",
+    "startSec": 212.08,
+    "text": "Un modelo mal calibrado sigue respondiendo, sigue funcionando,"
+  },
+  {
+    "file": "3_35.jpg",
+    "startSec": 215.64,
+    "text": "sólo que cada vez peor, sin avisar."
+  },
+  {
+    "file": "3_38.jpg",
+    "startSec": 218.76,
+    "text": "Detectar ese tipo de fallo silencioso requiere una mentalidad distinta"
+  },
+  {
+    "file": "3_42.jpg",
+    "startSec": 222.82,
+    "text": "a la de programar una web o una app corriente."
+  },
+  {
+    "file": "3_46.jpg",
+    "startSec": 226.22,
+    "text": "Confundir este puesto con ciencia de datos que despliega cosas,"
+  },
+  {
+    "file": "3_50.jpg",
+    "startSec": 230.38,
+    "text": "hace que mucha gente buena en infraestructura crea que no encaja aquí,"
+  },
+  {
+    "file": "3_54.jpg",
+    "startSec": 234.24,
+    "text": "cuando es exactamente el perfil que más falta hace."
+  },
+  {
+    "file": "3_57.jpg",
+    "startSec": 237.82,
+    "text": "Y la confusión con el AI Engineer tiene su propia trampa."
+  },
+  {
+    "file": "4_02.jpg",
+    "startSec": 242.0,
+    "text": "El AI Engineer conecta una inteligencia que ya existe a un producto"
+  },
+  {
+    "file": "4_06.jpg",
+    "startSec": 246.06,
+    "text": "sin entrenar apenas nada el mismo."
+  },
+  {
+    "file": "4_09.jpg",
+    "startSec": 249.12,
+    "text": "El Machine Learning Engineer, en cambio,"
+  },
+  {
+    "file": "4_11.jpg",
+    "startSec": 251.18,
+    "text": "sí construye y mantiene el ciclo de vida completo de un modelo propio,"
+  },
+  {
+    "file": "4_15.jpg",
+    "startSec": 255.6,
+    "text": "desde los datos crudos hasta que deja de funcionar y hay que sustituirlo."
+  },
+  {
+    "file": "4_19.jpg",
+    "startSec": 259.74,
+    "text": "Son dos oficios que a veces comparten herramientas,"
+  },
+  {
+    "file": "4_22.jpg",
+    "startSec": 262.14,
+    "text": "pero resuelven problemas completamente distintos."
+  },
+  {
+    "file": "4_25.jpg",
+    "startSec": 265.22,
+    "text": "Y las herramientas del día a día lo confirman, son distintas de verdad."
+  },
+  {
+    "file": "4_29.jpg",
+    "startSec": 269.8,
+    "text": "Sigue habiendo Python, pero rodeado de un mundo"
+  },
+  {
+    "file": "4_32.jpg",
+    "startSec": 272.26,
+    "text": "que un data scientist puro rara vez toca."
+  },
+  {
+    "file": "4_35.jpg",
+    "startSec": 275.52,
+    "text": "Contenadores como Docker, orquestadores como Kubernetes,"
+  },
+  {
+    "file": "4_38.jpg",
+    "startSec": 278.36,
+    "text": "tuberías de datos con Airflow, seguimiento de experimentos con herramientas"
+  },
+  {
+    "file": "4_42.jpg",
+    "startSec": 282.46,
+    "text": "como MLflow y paneles de vigilancia para detectar esa degradación silenciosa."
+  },
+  {
+    "file": "4_48.jpg",
+    "startSec": 288.06,
+    "text": "Si una oferta de trabajo pide sobre todo cuadernos estadística y experimentación,"
+  },
+  {
+    "file": "4_52.jpg",
+    "startSec": 292.68,
+    "text": "es un puesto de data scientist."
+  },
+  {
+    "file": "4_55.jpg",
+    "startSec": 295.24,
+    "text": "Si pide control de versiones, infraestructura en la nube"
+  },
+  {
+    "file": "4_58.jpg",
+    "startSec": 298.18,
+    "text": "y automatizar procesos de principio a fin, es este trabajo."
+  },
+  {
+    "file": "5_02.jpg",
+    "startSec": 302.78,
+    "text": "Y hay una habilidad que casi nunca aparece en el título del puesto,"
+  },
+  {
+    "file": "5_05.jpg",
+    "startSec": 305.88,
+    "text": "pero que pesa muchísimo en el día a día."
+  },
+  {
+    "file": "5_08.jpg",
+    "startSec": 308.94,
+    "text": "Saber diseñar un plan de vuelta atrás,"
+  },
+  {
+    "file": "5_11.jpg",
+    "startSec": 311.28,
+    "text": "cómo deshacer un despliegue de modelo en segundos si algo sale mal en producción."
+  },
+  {
+    "file": "5_15.jpg",
+    "startSec": 315.92,
+    "text": "Un modelo nuevo que falla sin un plan de rescate puede tomar decisiones equivocadas"
+  },
+  {
+    "file": "5_20.jpg",
+    "startSec": 320.4,
+    "text": "durante horas antes de que alguien lo note."
+  },
+  {
+    "file": "5_23.jpg",
+    "startSec": 323.4,
+    "text": "Esa disciplina, tampoco vistosa, es de las que más rápido separa"
+  },
+  {
+    "file": "5_27.jpg",
+    "startSec": 327.44,
+    "text": "a alguien con experiencia real de alguien que sólo ha entrenado modelos en un cuaderno."
+  },
+  {
+    "file": "5_32.jpg",
+    "startSec": 332.6,
+    "text": "Vale, y en cifras concretas, ¿cuánto se paga esto en España en 2026?"
+  },
+  {
+    "file": "5_38.jpg",
+    "startSec": 338.68,
+    "text": "Un masín learning engineer que empieza ronda los 32.000 euros brutos al año."
+  },
+  {
+    "file": "5_43.jpg",
+    "startSec": 343.7,
+    "text": "Con experiencia media, 3 a 5 años, sube a un rango de 50.000."
+  },
+  {
+    "file": "5_48.jpg",
+    "startSec": 348.36,
+    "text": "Y un perfil senior con más de 8 años puede superar los 80.000,"
+  },
+  {
+    "file": "5_52.jpg",
+    "startSec": 352.42,
+    "text": "en algunos casos más que un data scientist al mismo nivel."
+  },
+  {
+    "file": "5_56.jpg",
+    "startSec": 356.1,
+    "text": "La razón es sencilla, hay mucha más gente que sabe entrenar un modelo en un cuaderno"
+  },
+  {
+    "file": "6_00.jpg",
+    "startSec": 360.6,
+    "text": "que gente que sabe mantenerlo vivo, sano y fiable en producción durante años."
+  },
+  {
+    "file": "6_05.jpg",
+    "startSec": 365.82,
+    "text": "Y esa diferencia salarial es, en sí misma, una pista de por dónde va el mercado."
+  },
+  {
+    "file": "6_11.jpg",
+    "startSec": 371.1,
+    "text": "Las empresas ya tienen modelos que funcionan en teoría,"
+  },
+  {
+    "file": "6_14.jpg",
+    "startSec": 374.46,
+    "text": "lo que escasea es quien consiga que sigan funcionando en la práctica."
+  },
+  {
+    "file": "6_18.jpg",
+    "startSec": 378.58,
+    "text": "Ese hueco, entre lo que funciona en un cuaderno y lo que sobrevive en el mundo real,"
+  },
+  {
+    "file": "6_23.jpg",
+    "startSec": 383.48,
+    "text": "es donde vive este oficio y donde está el dinero."
+  },
+  {
+    "file": "6_26.jpg",
+    "startSec": 386.82,
+    "text": "Y cómo se entra en esto?"
+  },
+  {
+    "file": "6_28.jpg",
+    "startSec": 388.92,
+    "text": "Y aquí va otro mito menos, no hace falta venir de ciencia de datos pura para llegar a este puesto."
+  },
+  {
+    "file": "6_34.jpg",
+    "startSec": 394.9,
+    "text": "De hecho es más frecuente lo contrario,"
+  },
+  {
+    "file": "6_37.jpg",
+    "startSec": 397.16,
+    "text": "alguien con base sólida de ingeniería de software que aprende los fundamentos de aprendizaje automático encima."
+  },
+  {
+    "file": "6_43.jpg",
+    "startSec": 403.64,
+    "text": "Lo que sí hace falta, y esto es lo que de verdad marca la diferencia,"
+  },
+  {
+    "file": "6_47.jpg",
+    "startSec": 407.92,
+    "text": "es incomodidad genuina con un sistema que funciona,"
+  },
+  {
+    "file": "6_51.jpg",
+    "startSec": 411.34,
+    "text": "pero no sabes muy bien por qué todavía."
+  },
+  {
+    "file": "6_53.jpg",
+    "startSec": 413.72,
+    "text": "El proyecto que de verdad impresiona en una entrevista no es,"
+  },
+  {
+    "file": "6_57.jpg",
+    "startSec": 417.66,
+    "text": "entreneo un modelo con 98% de precisión."
+  },
+  {
+    "file": "7_01.jpg",
+    "startSec": 421.06,
+    "text": "Escoger un modelo ya entrenado, cualquiera,"
+  },
+  {
+    "file": "7_03.jpg",
+    "startSec": 423.8,
+    "text": "y construirle alrededor una tubería completa,"
+  },
+  {
+    "file": "7_06.jpg",
+    "startSec": 426.78,
+    "text": "que lo sirva por una interfaz, vigile su rendimiento,"
+  },
+  {
+    "file": "7_10.jpg",
+    "startSec": 430.02,
+    "text": "y avise solos y las predicciones empiezan a desviarse."
+  },
+  {
+    "file": "7_13.jpg",
+    "startSec": 433.46,
+    "text": "Esa combinación, hacer que algo funcione y demostrar que sabrás y deja de hacerlo,"
+  },
+  {
+    "file": "7_18.jpg",
+    "startSec": 438.56,
+    "text": "es exactamente lo que se paga en este trabajo."
+  },
+  {
+    "file": "7_21.jpg",
+    "startSec": 441.8,
+    "text": "Y un consejo práctico para ese proyecto,"
+  },
+  {
+    "file": "7_24.jpg",
+    "startSec": 444.66,
+    "text": "no persigas el modelo más sofisticado que encuentres."
+  },
+  {
+    "file": "7_28.jpg",
+    "startSec": 448.16,
+    "text": "Coge uno sencillo, casi aburrido,"
+  },
+  {
+    "file": "7_30.jpg",
+    "startSec": 450.78,
+    "text": "y dedica el tiempo de verdad a la parte que nadie enseña en los cursos,"
+  },
+  {
+    "file": "7_34.jpg",
+    "startSec": 454.62,
+    "text": "cómo se cae, y qué haces cuando se cae."
+  },
+  {
+    "file": "7_37.jpg",
+    "startSec": 457.54,
+    "text": "En una entrevista real, es opesa mucho más que otro cuaderno con una red neuronal impresionante"
+  },
+  {
+    "file": "7_42.jpg",
+    "startSec": 462.82,
+    "text": "que nadie desplegó nunca."
+  },
+  {
+    "file": "7_45.jpg",
+    "startSec": 465.16,
+    "text": "Nadie contrata a quien sabe construir el motor,"
+  },
+  {
+    "file": "7_47.jpg",
+    "startSec": 467.64,
+    "text": "contrata a quien sabe qué hacer cuando el motor,"
+  },
+  {
+    "file": "7_50.jpg",
+    "startSec": 470.62,
+    "text": "en la carretera, empieza a fallar."
+  },
+  {
+    "file": "7_53.jpg",
+    "startSec": 473.12,
+    "text": "Así que la próxima vez que alguien mezcle este puesto con ciencia de datos,"
+  },
+  {
+    "file": "7_57.jpg",
+    "startSec": 477.46,
+    "text": "o con el que conecta laía a la app,"
+  },
+  {
+    "file": "7_59.jpg",
+    "startSec": 479.9,
+    "text": "ya sabes que no es ninguno de los dos,"
+  },
+  {
+    "file": "8_01.jpg",
+    "startSec": 481.98,
+    "text": "es quien responde a la pregunta que nadie hace en la fiesta de lanzamiento."
+  },
+  {
+    "file": "8_06.jpg",
+    "startSec": 486.52,
+    "text": "El Data Scientist te dirá si algo es posible."
+  },
+  {
+    "file": "8_10.jpg",
+    "startSec": 490.22,
+    "text": "El Machine Learning Engineer es quien garantiza que,"
+  },
+  {
+    "file": "8_13.jpg",
+    "startSec": 493.34,
+    "text": "dentro de seis meses, a las tres de la madrugada,"
+  },
+  {
+    "file": "8_15.jpg",
+    "startSec": 495.84,
+    "text": "es que algo siga funcionando de verdad."
+  },
+  {
+    "file": "8_19.jpg",
+    "startSec": 499.22,
+    "text": "Si te ha interesado esta serie sobre empleos reales en tecnología,"
+  },
+  {
+    "file": "8_22.jpg",
+    "startSec": 502.98,
+    "text": "suscríbete."
+  },
+  {
+    "file": "8_23.jpg",
+    "startSec": 503.96,
+    "text": "Se viene más de este mundo."
+  }
+]

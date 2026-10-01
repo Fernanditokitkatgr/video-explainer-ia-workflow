@@ -1,0 +1,643 @@
+{
+  "video": "investigador-anthropic-dimite",
+  "frames": [
+    {
+      "file": "0_00.jpg",
+      "startSec": 0.0,
+      "text": "Hace 12 días, un investigador de 27 años se sentó en un banco de un parque de San Francisco y escribió un mensaje.",
+      "scene": "A plain featureless person-outline pictogram sitting alone on a park bench holding a phone, pictogram only with no face, not Sara, no realistic person, no text.",
+      "ref": "none"
+    },
+    {
+      "file": "0_07.jpg",
+      "startSec": 7.06,
+      "text": "En ese mensaje anunciaba que dejaba su trabajo, y su trabajo era investigar cómo se entrenan los modelos de inteligencia artificial más avanzados del mundo.",
+      "scene": "Medium shot: Sara pointing up at a large glowing brain-circuit icon, explaining, serious.",
+      "ref": "mono"
+    },
+    {
+      "file": "0_16.jpg",
+      "startSec": 16.0,
+      "text": "Lo dejaba dos meses antes de cobrar sus acciones de la empresa.",
+      "scene": "A stack of coin icons locked behind a closed padlock with a crossed-out reaching hand beside it, no characters, no text.",
+      "ref": "none"
+    },
+    {
+      "file": "0_19.jpg",
+      "startSec": 19.38,
+      "text": "Dos meses.",
+      "scene": "Extreme close-up of Sara's face, eyes wide with disbelief, direct at camera.",
+      "ref": "mono"
+    },
+    {
+      "file": "0_20.jpg",
+      "startSec": 20.94,
+      "text": "Y la frase que escribió para explicar por qué se iba fuesta y la cito literal.",
+      "scene": "Close-up: Sara holding up a large quotation-mark icon, serious.",
+      "ref": "mono"
+    },
+    {
+      "file": "0_25.jpg",
+      "startSec": 25.98,
+      "text": "Están corriendo directos hacia una súper inteligencia que se mejora a sí misma y apostando con nuestras vidas.",
+      "scene": "A pair of dice tumbling beside a spiral arrow racing steeply upward, no characters, no text.",
+      "ref": "none"
+    },
+    {
+      "file": "0_33.jpg",
+      "startSec": 33.4,
+      "text": "Hoy te cuento quiénes, ¿qué dijo exactamente y por qué esto no es un berrinche de un empleado descontento?",
+      "scene": "Wide shot: Sara standing beside a blank wooden signpost with no writing on it, holding three plain icons, a question mark, a quotation mark and a magnifying glass, curious. Pure white background, absolutely no ground, no grass, no horizon line, no scenery of any kind.",
+      "ref": "mono"
+    },
+    {
+      "file": "0_40.jpg",
+      "startSec": 40.16,
+      "text": "Se llama Jacob Coxson.",
+      "scene": "A plain name-badge icon with a blank line where a name would go, no characters, no readable text.",
+      "ref": "none"
+    },
+    {
+      "file": "0_42.jpg",
+      "startSec": 42.22,
+      "text": "Y lo primero que hay que entender es de dónde viene, porque cambia completamente cómo hay que leer lo que dice.",
+      "scene": "Close-up: Sara raising one finger, about to give important context, serious.",
+      "ref": "mono"
+    },
+    {
+      "file": "0_48.jpg",
+      "startSec": 48.42,
+      "text": "Coxson no es un crítico externo de la inteligencia artificial.",
+      "scene": "A crossed-out megaphone icon beside a plain featureless person-outline pictogram with no face, not Sara.",
+      "ref": "none"
+    },
+    {
+      "file": "0_51.jpg",
+      "startSec": 51.72,
+      "text": "No es un periodista ni un filósofo ni alguien que opina desde fuera.",
+      "scene": "Medium shot: Sara pushing away a notepad icon, a book icon and a microphone icon, dismissive.",
+      "ref": "mono"
+    },
+    {
+      "file": "0_55.jpg",
+      "startSec": 55.78,
+      "text": "Es de los que lo construyen.",
+      "scene": "A plain featureless person-outline pictogram holding a wrench beside an open machine panel, no face, not Sara.",
+      "ref": "none"
+    },
+    {
+      "file": "0_58.jpg",
+      "startSec": 58.02,
+      "text": "Ha pasado los últimos tres años haciendo investigación de preentrenamiento.",
+      "scene": "Close-up: Sara holding up three fingers, serious.",
+      "ref": "mono"
+    },
+    {
+      "file": "1_02.jpg",
+      "startSec": 62.18,
+      "text": "Y el preentrenamiento es literalmente la fase en la que un modelo aprende, la parte más profunda del proceso.",
+      "scene": "A stack of four flat rectangular blocks filling most of the frame, the bottom block bright yellow and the three above it plain grey. The artwork must FILL THE ENTIRE 16:9 FRAME edge to edge with a pure white background — absolutely NO black bars, NO letterboxing, NO pillarboxing, no borders or frames of any kind. Flat solid colors with thick black ink outlines, no gradients, no glow, no 3D shading. No monkey, no Sara, no person, no text, no letters, no other icons.",
+      "ref": "none"
+    },
+    {
+      "file": "1_08.jpg",
+      "startSec": 68.84,
+      "text": "Primero lo hizo en Open Eye.",
+      "scene": "Medium shot: Sara pointing at a plain rectangular badge with exactly the word 'OPENAI' written on it in plain letters, no logo, explaining.",
+      "ref": "mono"
+    },
+    {
+      "file": "1_10.jpg",
+      "startSec": 70.68,
+      "text": "Después en Anthropic, las dos empresas que están en la primera línea absoluta de esta tecnología.",
+      "scene": "ONLY this and NOTHING ELSE WHATSOEVER: two plain rectangular badges side by side, the left one with exactly the word 'OPENAI' and the right one with exactly the word 'ANTHROPIC', both words fully visible and well inside the frame, never cut off at the edges, no logos. No monkey, no Sara, no animal, no person, no face, no extra icons, no charts, no arrows, no background scenery, Flat solid colors with a thick black ink outline on pure white. No gradients, no 3D shading, no drop shadows.",
+      "ref": "none"
+    },
+    {
+      "file": "1_15.jpg",
+      "startSec": 75.5,
+      "text": "O sea, que este chico ha visto el motor por dentro en los dos laboratorios más punteros del planeta.",
+      "scene": "Medium shot: Sara peering into an open engine hatch icon with a small torch, curious.",
+      "ref": "mono"
+    },
+    {
+      "file": "1_21.jpg",
+      "startSec": 81.26,
+      "text": "Y su conclusión, después de esos tres años, fue que ninguna de las dos está actuando de forma responsable.",
+      "scene": "Two plain blank badges side by side with one large crossed-out checkmark drawn over both, no characters, no readable text.",
+      "ref": "none"
+    },
+    {
+      "file": "1_27.jpg",
+      "startSec": 87.46,
+      "text": "Pero ojo, porque aquí es donde su argumento se pone interesante de verdad.",
+      "scene": "Close-up: Sara leaning toward the camera, intrigued.",
+      "ref": "mono"
+    },
+    {
+      "file": "1_32.jpg",
+      "startSec": 92.0,
+      "text": "Coxson no dice que sus compañeros sean idiotas ni que no vean el peligro.",
+      "scene": "A crossed-out dunce-cap icon, no characters, no text.",
+      "ref": "none"
+    },
+    {
+      "file": "1_36.jpg",
+      "startSec": 96.18,
+      "text": "Dice exactamente lo contrario.",
+      "scene": "Close-up: Sara shaking her head, correcting a misconception, direct at camera.",
+      "ref": "mono"
+    },
+    {
+      "file": "1_38.jpg",
+      "startSec": 98.56,
+      "text": "Escribió que en Anthropic los riesgos entienden perfectamente, que la gente de dentro sabe lo que hay en juego.",
+      "scene": "Medium shot: Sara holding up a wide-open eye icon, explaining.",
+      "ref": "mono"
+    },
+    {
+      "file": "1_44.jpg",
+      "startSec": 104.04,
+      "text": "El problema, según él, es otro. Es que están atrapados en una carrera.",
+      "scene": "A racetrack icon with several marked lanes, no characters, no text.",
+      "ref": "none"
+    },
+    {
+      "file": "1_48.jpg",
+      "startSec": 108.74,
+      "text": "Y la lógica de esa carrera es la siguiente.",
+      "scene": "Close-up: Sara counting off the first point on one finger, explaining.",
+      "ref": "mono"
+    },
+    {
+      "file": "1_51.jpg",
+      "startSec": 111.68,
+      "text": "Nadie más va a actuar con responsabilidad, así que tenemos que llegarnos otros primero, aunque sea peligroso.",
+      "scene": "ONLY this and NOTHING ELSE WHATSOEVER: four plain featureless stick-figure pictograms running toward one glowing target circle. No monkey, no Sara, no animal, no person, no face, no extra icons, no charts, no arrows, no background scenery, and absolutely NO text, letters or words anywhere. Flat solid colors with a thick black ink outline on pure white. No gradients, no 3D shading, no drop shadows.",
+      "ref": "none"
+    },
+    {
+      "file": "1_57.jpg",
+      "startSec": 117.62,
+      "text": "Porque si nos frenamos, el que llegue primero será alguien peor.",
+      "scene": "Medium shot: Sara pressing down hard on a large clearly recognisable car brake pedal with both hands, straining, serious.",
+      "ref": "mono"
+    },
+    {
+      "file": "2_01.jpg",
+      "startSec": 121.18,
+      "text": "Y esa lógica tiene un problema evidente en cuanto la dices en voz alta.",
+      "scene": "Close-up: Sara raising an eyebrow, spotting the flaw, direct at camera.",
+      "ref": "mono"
+    },
+    {
+      "file": "2_05.jpg",
+      "startSec": 125.06,
+      "text": "Que es exactamente el mismo razonamiento que está haciendo el competidor al mismo tiempo.",
+      "scene": "ONLY this and NOTHING ELSE WHATSOEVER: a large hand mirror reflecting an identical oval racetrack back at itself. No monkey, no Sara, no animal, no person, no face, no extra icons, no charts, no arrows, no background scenery, and absolutely NO text, letters or words anywhere. Flat solid colors with a thick black ink outline on pure white. No gradients, no 3D shading, no drop shadows.",
+      "ref": "none"
+    },
+    {
+      "file": "2_09.jpg",
+      "startSec": 129.16,
+      "text": "Todos corren, porque todos creen que los demás corren.",
+      "scene": "A closed circle of arrows all chasing each other in a loop, no characters, no text.",
+      "ref": "none"
+    },
+    {
+      "file": "2_12.jpg",
+      "startSec": 132.74,
+      "text": "Y así nadie puede frenar, aunque absolutamente todos quieran frenar.",
+      "scene": "Close-up: Sara spreading both hands, exasperated, direct at camera.",
+      "ref": "mono"
+    },
+    {
+      "file": "2_17.jpg",
+      "startSec": 137.74,
+      "text": "Coxson tiene una frase para describir eso que a mí me parece la mejor del texto entero.",
+      "scene": "Medium shot: Sara holding a quotation-mark icon up high, impressed.",
+      "ref": "mono"
+    },
+    {
+      "file": "2_22.jpg",
+      "startSec": 142.24,
+      "text": "Dice que aceptar esta carrera y entrar en la fase final es una puesta soberbia que no debería lanzarse desde el slack de una empresa privada.",
+      "scene": "ONLY this and NOTHING ELSE WHATSOEVER: a tipped-over dice cup with dice spilling out next to a completely blank rectangular chat window. No monkey, no Sara, no animal, no person, no face, no extra icons, no charts, no arrows, no background scenery, and absolutely NO text, letters or words anywhere. Flat solid colors with a thick black ink outline on pure white. No gradients, no 3D shading, no drop shadows.",
+      "ref": "none"
+    },
+    {
+      "file": "2_30.jpg",
+      "startSec": 150.02,
+      "text": "Y para te apensar en lo que está diciendo ahí, porque es muy concreto.",
+      "scene": "Close-up: Sara pointing at a completely blank chat-window icon with no writing, serious.",
+      "ref": "mono"
+    },
+    {
+      "file": "2_33.jpg",
+      "startSec": 153.74,
+      "text": "No está diciendo que la tecnología sea mala.",
+      "scene": "A crossed-out bomb icon next to a plain ordinary gear icon, no characters, no text.",
+      "ref": "none"
+    },
+    {
+      "file": "2_35.jpg",
+      "startSec": 155.78,
+      "text": "Está diciendo que una decisión de este tamaño no la puede tomar un grupo de gente en un chat interno de una empresa,",
+      "scene": "Medium shot: Sara gesturing at a tiny boardroom-table icon standing beside a giant globe icon, explaining.",
+      "ref": "mono"
+    },
+    {
+      "file": "2_42.jpg",
+      "startSec": 162.18,
+      "text": "sin votación, sin regulación, sin que nadie de fuera pueda opinar.",
+      "scene": "A crossed-out ballot-box icon, a crossed-out law-book icon and a crossed-out megaphone icon in a row, no characters, no text.",
+      "ref": "none"
+    },
+    {
+      "file": "2_46.jpg",
+      "startSec": 166.76,
+      "text": "Una decisión que afecta a todo el mundo, tomada por unas cuantas personas en una sala.",
+      "scene": "Wide shot: Sara standing beside a giant globe icon with one tiny closed door in front of it, serious.",
+      "ref": "mono"
+    },
+    {
+      "file": "2_51.jpg",
+      "startSec": 171.44,
+      "text": "¿Y qué es lo que devenir exactamente?",
+      "scene": "Close-up: Sara tilting her head, asking a question, curious.",
+      "ref": "mono"
+    },
+    {
+      "file": "2_54.jpg",
+      "startSec": 174.34,
+      "text": "Aquí también fue concreto, y no hablo de robots ni de nada de ciencia ficción.",
+      "scene": "A crossed-out robot icon, no characters, no text.",
+      "ref": "none"
+    },
+    {
+      "file": "2_59.jpg",
+      "startSec": 179.1,
+      "text": "Hablo de tres capacidades.",
+      "scene": "Close-up: Sara holding up three fingers again, counting capabilities, serious.",
+      "ref": "mono"
+    },
+    {
+      "file": "3_01.jpg",
+      "startSec": 181.14,
+      "text": "Sistemas sobre humanos capaces de hackear cualquier cosa.",
+      "scene": "A padlock icon shattering open with a small key beside it, no characters, no text.",
+      "ref": "none"
+    },
+    {
+      "file": "3_04.jpg",
+      "startSec": 184.6,
+      "text": "Capaces de revolucionar cualquier campo científico de la noche a la mañana.",
+      "scene": "A laboratory flask icon with a lightning bolt striking into it, no characters, no text.",
+      "ref": "none"
+    },
+    {
+      "file": "3_08.jpg",
+      "startSec": 188.8,
+      "text": "Y capaces de adquirir poder y recursos reales en el mundo.",
+      "scene": "Medium shot: Sara pointing at a crown icon resting on a pile of coin icons, serious.",
+      "ref": "mono"
+    },
+    {
+      "file": "3_12.jpg",
+      "startSec": 192.34,
+      "text": "Y añadió la parte que más es cuese, que es que el progreso en esas tres direcciones no se está frenando.",
+      "scene": "A steep upward arrow that keeps climbing right off the top of the frame, no characters, no text.",
+      "ref": "none"
+    },
+    {
+      "file": "3_18.jpg",
+      "startSec": 198.8,
+      "text": "Todos lo hemos visto avanzar, dijo, y sigue avanzando.",
+      "scene": "Close-up: Sara nodding slowly, serious, direct at camera.",
+      "ref": "mono"
+    },
+    {
+      "file": "3_23.jpg",
+      "startSec": 203.06,
+      "text": "Y luego soltó la frase que ha dado la vuelta al mundo,",
+      "scene": "Extreme close-up of Sara's face, grave expression, direct at camera.",
+      "ref": "mono"
+    },
+    {
+      "file": "3_25.jpg",
+      "startSec": 205.46,
+      "text": "que la gente que está construyendo esto crees sinceramente que podría matarnos a todos antes de que acabe la década.",
+      "scene": "An hourglass icon with only a few grains left in the top half, no characters, no text.",
+      "ref": "none"
+    },
+    {
+      "file": "3_32.jpg",
+      "startSec": 212.66,
+      "text": "No los críticos, los constructores.",
+      "scene": "Close-up: Sara pointing at a hard-hat icon instead of a notepad icon, serious.",
+      "ref": "mono"
+    },
+    {
+      "file": "3_35.jpg",
+      "startSec": 215.48,
+      "text": "Y ahora vamos al detalle que separa a alguien que se queja de alguien que se juega algo.",
+      "scene": "Medium shot: Sara holding a balance scale with a coin on one side and a warning triangle on the other, serious.",
+      "ref": "mono"
+    },
+    {
+      "file": "3_40.jpg",
+      "startSec": 220.36,
+      "text": "Cox ondimitió dos meses antes de que le vestieran sus acciones.",
+      "scene": "An hourglass icon standing beside a locked treasure chest, no characters, no text.",
+      "ref": "none"
+    },
+    {
+      "file": "3_43.jpg",
+      "startSec": 223.9,
+      "text": "Para el que no esté familiarizado, te lo explico rápido.",
+      "scene": "Close-up: Sara raising one finger, about to explain a concept simply, curious.",
+      "ref": "mono"
+    },
+    {
+      "file": "3_46.jpg",
+      "startSec": 226.74,
+      "text": "En estas empresas, buena parte del sueldo real no es el sueldo.",
+      "scene": "A small payslip icon beside a much larger stack of share certificates, no characters, no readable text.",
+      "ref": "none"
+    },
+    {
+      "file": "3_50.jpg",
+      "startSec": 230.36,
+      "text": "Son acciones que se van consolidando con el tiempo.",
+      "scene": "A progress bar icon filling up gradually toward a padlock at the far end, no characters, no text.",
+      "ref": "none"
+    },
+    {
+      "file": "3_52.jpg",
+      "startSec": 232.58,
+      "text": "Y si te vas antes de la fecha, las pierdes.",
+      "scene": "Close-up: Sara making a sharp cutting gesture with her hand, serious.",
+      "ref": "mono"
+    },
+    {
+      "file": "3_55.jpg",
+      "startSec": 235.64,
+      "text": "En una empresa como antrópica, en un momento como éste,",
+      "scene": "ONLY this and NOTHING ELSE WHATSOEVER: one plain rectangular badge with exactly the word 'ANTHROPIC' fully visible and well inside the frame, never cut off at the edges, and a steep upward arrow beside it, no logo. No monkey, no Sara, no animal, no person, no face, no extra icons, no charts, no arrows, no background scenery, Flat solid colors with a thick black ink outline on pure white. No gradients, no 3D shading, no drop shadows.",
+      "ref": "none"
+    },
+    {
+      "file": "3_58.jpg",
+      "startSec": 238.92,
+      "text": "eso es una cantidad de dinero que cambio en la vida.",
+      "scene": "Medium shot: Sara whistling at an enormous pile of coin icons, impressed.",
+      "ref": "mono"
+    },
+    {
+      "file": "4_01.jpg",
+      "startSec": 241.86,
+      "text": "El dijo que el coste económico apenas influyó en su decisión.",
+      "scene": "Close-up: Sara shrugging, matter-of-fact, direct at camera.",
+      "ref": "mono"
+    },
+    {
+      "file": "4_05.jpg",
+      "startSec": 245.52,
+      "text": "Dada la magnitud de lo que le preocupaba.",
+      "scene": "A tiny coin icon standing beside an enormous globe icon, no characters, no text.",
+      "ref": "none"
+    },
+    {
+      "file": "4_08.jpg",
+      "startSec": 248.26,
+      "text": "Y eso, te lo creas o no te lo creas, es un dato verificable.",
+      "scene": "Close-up: Sara holding a magnifying glass up to a checkmark, curious.",
+      "ref": "mono"
+    },
+    {
+      "file": "4_12.jpg",
+      "startSec": 252.18,
+      "text": "¿Por qué es muy fácil tuitiar que el mundo se acaba?",
+      "scene": "Medium shot: Sara typing carelessly on a phone with a speech bubble full of exclamation marks above it, amused.",
+      "ref": "mono"
+    },
+    {
+      "file": "4_14.jpg",
+      "startSec": 254.72,
+      "text": "Es bastante más difícil hacerlo dejándose dinero encima de la mesa.",
+      "scene": "A treasure chest left behind on the ground beside a dropped phone icon, no characters, no text.",
+      "ref": "none"
+    },
+    {
+      "file": "4_18.jpg",
+      "startSec": 258.84,
+      "text": "Dicho todo esto, toca la parte honesta.",
+      "scene": "Close-up: Sara raising both hands, signalling a pause, serious.",
+      "ref": "mono"
+    },
+    {
+      "file": "4_21.jpg",
+      "startSec": 261.52,
+      "text": "Porque si no, esto es propaganda y no información.",
+      "scene": "ONLY this and NOTHING ELSE WHATSOEVER: a balance scale resting PERFECTLY LEVEL and horizontal, with one identical blank sheet of paper on each pan. No monkey, no Sara, no animal, no person, no face, no extra icons, no charts, no arrows, no background scenery, and absolutely NO text, letters or words anywhere. Flat solid colors with a thick black ink outline on pure white. No gradients, no 3D shading, no drop shadows.",
+      "ref": "none"
+    },
+    {
+      "file": "4_24.jpg",
+      "startSec": 264.86,
+      "text": "Que alguien se vaya dando un portazo, no lo convierte en que tenga razón.",
+      "scene": "Close-up: Sara shaking her head, cautioning, direct at camera.",
+      "ref": "mono"
+    },
+    {
+      "file": "4_28.jpg",
+      "startSec": 268.78,
+      "text": "Cox ond es una persona, con una opinión.",
+      "scene": "One single plain featureless person-outline pictogram standing alone, no face, not Sara, no text.",
+      "ref": "none"
+    },
+    {
+      "file": "4_31.jpg",
+      "startSec": 271.12,
+      "text": "Y dentro de esas mismas empresas hay gente igual de cualificada",
+      "scene": "Medium shot: Sara holding up a small fan of plain pictogram cards, explaining.",
+      "ref": "mono"
+    },
+    {
+      "file": "4_34.jpg",
+      "startSec": 274.18,
+      "text": "que discrepa completamente.",
+      "scene": "A group of plain featureless pictograms, some nodding and some shaking their heads, no faces, not Sara.",
+      "ref": "none"
+    },
+    {
+      "file": "4_36.jpg",
+      "startSec": 276.3,
+      "text": "Hay investigadores de primer nivel que consideran que este riesgo",
+      "scene": "Close-up: Sara pointing off to the side, serious.",
+      "ref": "mono"
+    },
+    {
+      "file": "4_39.jpg",
+      "startSec": 279.42,
+      "text": "está enormemente exagerado.",
+      "scene": "A balloon deflating with air rushing out of it, no characters, no text.",
+      "ref": "none"
+    },
+    {
+      "file": "4_41.jpg",
+      "startSec": 281.62,
+      "text": "Y hay un sesgo que conviene tener presente siempre.",
+      "scene": "Close-up: Sara raising one finger in warning, serious.",
+      "ref": "mono"
+    },
+    {
+      "file": "4_44.jpg",
+      "startSec": 284.4,
+      "text": "Y es que el que se va tiene un incentivo para dramatizar su salida.",
+      "scene": "ONLY this and NOTHING ELSE WHATSOEVER: a single closed wooden door slammed shut, seen straight on, with a bright cone of light shining onto it. No monkey, no Sara, no animal, no person, no face, no extra icons, no charts, no arrows, no background scenery, and absolutely NO text, letters or words anywhere. Flat solid colors with a thick black ink outline on pure white. No gradients, no 3D shading, no drop shadows.",
+      "ref": "none"
+    },
+    {
+      "file": "4_48.jpg",
+      "startSec": 288.04,
+      "text": "Eso es real y hay que decirlo.",
+      "scene": "Medium shot: Sara nodding firmly, acknowledging a fair point, direct at camera.",
+      "ref": "mono"
+    },
+    {
+      "file": "4_50.jpg",
+      "startSec": 290.44,
+      "text": "Pero también hay que decirlo otro.",
+      "scene": "Close-up: Sara turning to the other side, raising the counterpoint, curious.",
+      "ref": "mono"
+    },
+    {
+      "file": "4_52.jpg",
+      "startSec": 292.7,
+      "text": "Y es que Cox ond no es el primero, ni de lejos.",
+      "scene": "ONLY this and NOTHING ELSE WHATSOEVER: a row of six identical plain closed wooden doors receding into the distance. No monkey, no Sara, no animal, no person, no face, no extra icons, no charts, no arrows, no background scenery, and absolutely NO text, letters or words anywhere. Flat solid colors with a thick black ink outline on pure white. No gradients, no 3D shading, no drop shadows.",
+      "ref": "none"
+    },
+    {
+      "file": "4_55.jpg",
+      "startSec": 295.8,
+      "text": "Lleva años pasando lo mismo, con nombres distintos,",
+      "scene": "A long row of small blank name-badge icons beside an hourglass, no characters, no readable text.",
+      "ref": "none"
+    },
+    {
+      "file": "4_58.jpg",
+      "startSec": 298.58,
+      "text": "en las dos empresas y siempre por el mismo motivo.",
+      "scene": "Medium shot: Sara pointing at two plain blank badges side by side, explaining.",
+      "ref": "mono"
+    },
+    {
+      "file": "5_02.jpg",
+      "startSec": 302.08,
+      "text": "Gente que trabaja en seguridad, que se va.",
+      "scene": "A shield icon with a plain featureless person-outline pictogram walking away from it, no face, not Sara.",
+      "ref": "none"
+    },
+    {
+      "file": "5_04.jpg",
+      "startSec": 304.56,
+      "text": "Y que al salir dice que dentro no se está priorizando la seguridad.",
+      "scene": "Close-up: Sara cupping a hand to her ear, listening carefully, serious.",
+      "ref": "mono"
+    },
+    {
+      "file": "5_08.jpg",
+      "startSec": 308.4,
+      "text": "Una persona diciendo eso es una anécdota.",
+      "scene": "ONLY a single small dot on pure white and NOTHING ELSE WHATSOEVER. No monkey, no icons, no words.",
+      "ref": "none"
+    },
+    {
+      "file": "5_11.jpg",
+      "startSec": 311.0,
+      "text": "Un patrón que se repite durante años no lo es.",
+      "scene": "A long row of identical dots forming one clear repeating line, no characters, no text.",
+      "ref": "none"
+    },
+    {
+      "file": "5_14.jpg",
+      "startSec": 314.22,
+      "text": "Así que la próxima vez que leas un titular sobre alguien que avisa",
+      "scene": "Medium shot: Sara pointing at a newspaper headline icon that is completely blank with no writing on it, serious.",
+      "ref": "mono"
+    },
+    {
+      "file": "5_17.jpg",
+      "startSec": 317.22,
+      "text": "de que la inteligencia artificial nos va a matar,",
+      "scene": "Extreme close-up of Sara's face filling the frame, serious expression, direct at camera. Absolutely no text, no letters, no words, no name caption anywhere in the image.",
+      "ref": "mono"
+    },
+    {
+      "file": "5_19.jpg",
+      "startSec": 319.78,
+      "text": "hasta las dos preguntas que de verdad importan.",
+      "scene": "Close-up: Sara holding up two fingers, posing two questions, curious.",
+      "ref": "mono"
+    },
+    {
+      "file": "5_22.jpg",
+      "startSec": 322.7,
+      "text": "La primera, esta persona lo construye o lo comenta desde fuera.",
+      "scene": "A split icon showing a wrench on one side and a microphone on the other, no characters, no text.",
+      "ref": "none"
+    },
+    {
+      "file": "5_26.jpg",
+      "startSec": 326.76,
+      "text": "Y la segunda, que ha dejado de ganar por decirlo.",
+      "scene": "ONLY this and NOTHING ELSE WHATSOEVER: a single price tag with exactly one question mark '?' printed on it and no other text. No monkey, no Sara, no animal, no person, no face, no extra icons, no charts, no arrows, no background scenery, Flat solid colors with a thick black ink outline on pure white. No gradients, no 3D shading, no drop shadows.",
+      "ref": "none"
+    },
+    {
+      "file": "5_29.jpg",
+      "startSec": 329.98,
+      "text": "Porque en este caso concreto, la respuesta a la primera",
+      "scene": "Close-up: Sara raising one finger, answering the first question, confident.",
+      "ref": "mono"
+    },
+    {
+      "file": "5_32.jpg",
+      "startSec": 332.6,
+      "text": "es que lo construían los dos sitios a la vez.",
+      "scene": "Medium shot: Sara pointing at two plain blank badges at the same time, confident.",
+      "ref": "mono"
+    },
+    {
+      "file": "5_35.jpg",
+      "startSec": 335.36,
+      "text": "Y la respuesta a la segunda, que dejó sus acciones",
+      "scene": "A treasure chest sitting closed and unopened, no characters, no text.",
+      "ref": "none"
+    },
+    {
+      "file": "5_37.jpg",
+      "startSec": 337.98,
+      "text": "sin cobrar sentado en un banco de un parque.",
+      "scene": "ONLY this and NOTHING ELSE WHATSOEVER: an empty wooden park bench seen from the side with a closed wooden treasure chest sitting on the ground next to it. No monkey, no Sara, no animal, no person, no face, no extra icons, no background scenery, and absolutely NO text, letters or words anywhere. Flat solid colors with a thick black ink outline on pure white. No gradients, no 3D shading, no drop shadows.",
+      "ref": "none"
+    },
+    {
+      "file": "5_41.jpg",
+      "startSec": 341.16,
+      "text": "Si esto te ha hecho pensar, suscríbete.",
+      "scene": "Medium shot: Sara smiling warmly at the camera holding a phone, a glowing bell icon beside it, and a small rectangular button reading exactly the Spanish word 'SUSCRIBETE' in bold letters — never the English word 'subscribe'.",
+      "ref": "mono"
+    },
+    {
+      "file": "5_43.jpg",
+      "startSec": 343.48,
+      "text": "Se viene más de este mundo.",
+      "scene": "Close-up: Sara waving goodbye with a warm smile, direct at camera.",
+      "ref": "mono"
+    }
+  ],
+  "style_base": "Crude hand-drawn cartoon, Ecomonos style, PURE WHITE background, thick black ink outlines, flat colors. A brown cartoon monkey protagonist named Sara, huge white round eyes with black pupils, exactly like the reference image, NO clothing of any kind, NEVER a human character. Exactly two arms and two hands per character. Any text that appears in the image must be in PERFECT SPANISH, never English, and only when the scene explicitly asks for specific words (company names like OPENAI or ANTHROPIC are allowed as plain written words when the scene asks for them, but NEVER as a real logo or brand mark). Fill the whole frame, no black bars. CRITICAL: this video talks about a real living person. NEVER draw a realistic human, a face, a portrait or anything that could identify a real individual. When the scene asks for a person, draw ONLY a plain featureless outline pictogram, like a bathroom-sign figure, with no face and no distinguishing features. There is NO hooded shadow character in this video at all — never draw one. Never place any character in a scene that says 'no characters' — treat that literally, icon-only, no monkey, no people at all in those frames. Never add a speech bubble, caption or extra label unless the scene explicitly asks for one."
+}

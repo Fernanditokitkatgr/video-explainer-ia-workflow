@@ -1,0 +1,16 @@
+{
+  "sfx": [
+    { "file": "intro_curious.mp3", "startSec": 0.0, "duration": 1.4, "volume": 0.14, "prompt": "light curious playful chime, inquisitive and friendly, no music" },
+    { "file": "reveal_chime.mp3", "startSec": 39.3, "duration": 1.3, "volume": 0.16, "prompt": "short satisfying reveal chime, a piece clicking into place" },
+    { "file": "tense_sting.mp3", "startSec": 73.44, "duration": 1.3, "volume": 0.16, "prompt": "short tense warning sting, overwhelming pressure building" },
+    { "file": "example_transition.mp3", "startSec": 151.5, "duration": 1.3, "volume": 0.14, "prompt": "light neutral transition tone, introducing a concrete example" },
+    { "file": "realization_sting.mp3", "startSec": 177.18, "duration": 1.4, "volume": 0.17, "prompt": "short sharp realization sting, a critical moment, focused" },
+    { "file": "money_chime.mp3", "startSec": 247.82, "duration": 1.3, "volume": 0.17, "prompt": "short coin cash register chime, salary reveal, cheerful" },
+    { "file": "quiet_concern.mp3", "startSec": 276.12, "duration": 1.4, "volume": 0.14, "prompt": "hushed subtle unease tone, a silent problem revealed, no music" },
+    { "file": "twist_shift.mp3", "startSec": 325.54, "duration": 1.3, "volume": 0.16, "prompt": "curious rising sting, short surprising shift, technological change" },
+    { "file": "question_transition.mp3", "startSec": 379.62, "duration": 1.3, "volume": 0.14, "prompt": "light inquisitive transition tone, asking how to get started" },
+    { "file": "closing_turn.mp3", "startSec": 415.86, "duration": 1.4, "volume": 0.14, "prompt": "warm closing transition swell, wrapping up an argument" },
+    { "file": "subscribe_chime.mp3", "startSec": 442.74, "duration": 1.2, "volume": 0.17, "prompt": "bright cheerful notification bell chime, friendly and short" }
+  ],
+  "music": { "file": "musica-canal.mp3", "duration": 30, "volume": 0.3, "prompt": "reused channel background music loop" }
+}

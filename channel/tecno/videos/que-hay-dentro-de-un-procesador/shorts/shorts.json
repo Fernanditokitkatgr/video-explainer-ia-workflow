@@ -1,0 +1,24 @@
+{
+  "shorts": [
+    {
+      "file": "short_1.mp4",
+      "titulo": "Tu móvil tiene 15.000 millones de interruptores",
+      "gancho": "15.000 MILLONES/DE INTERRUPTORES",
+      "desde": "1_20",
+      "t0": 66.67,
+      "dur": 41.87,
+      "youtube_id": "NOf1Lvra-Ug",
+      "publish_at": "2026-10-09T19:00:00Z"
+    },
+    {
+      "file": "short_2.mp4",
+      "titulo": "Por qué la IA usa GPUs y no CPUs",
+      "gancho": "UN EJÉRCITO/DE PINCHES",
+      "desde": "6_48",
+      "t0": 340.35,
+      "dur": 42.15,
+      "youtube_id": "zT3vz7Io7pg",
+      "publish_at": "2026-10-10T11:00:00Z"
+    }
+  ]
+}

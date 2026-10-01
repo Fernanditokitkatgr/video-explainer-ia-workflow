@@ -1,0 +1,129 @@
+{
+  "sfx": [
+    {
+      "file": "alarm_intro.mp3",
+      "startSec": 0.0,
+      "duration": 1.4,
+      "volume": 0.14,
+      "prompt": "short tense digital alarm beeps, hospital computers failing, clean, no music"
+    },
+    {
+      "file": "reveal_chime.mp3",
+      "startSec": 29.7,
+      "duration": 1.3,
+      "volume": 0.15,
+      "prompt": "short dramatic reveal sting, clean"
+    },
+    {
+      "file": "lock_click.mp3",
+      "startSec": 49.6,
+      "duration": 1.0,
+      "volume": 0.16,
+      "prompt": "heavy padlock clicking shut, clean"
+    },
+    {
+      "file": "coin_drop.mp3",
+      "startSec": 81.1,
+      "duration": 1.1,
+      "volume": 0.15,
+      "prompt": "coins dropping, ransom demand, clean"
+    },
+    {
+      "file": "countdown_tick.mp3",
+      "startSec": 95.4,
+      "duration": 1.3,
+      "volume": 0.14,
+      "prompt": "fast tense clock ticking countdown, clean"
+    },
+    {
+      "file": "worm_squish.mp3",
+      "startSec": 123.8,
+      "duration": 1.0,
+      "volume": 0.13,
+      "prompt": "small comedic slimy squish, clean"
+    },
+    {
+      "file": "multiply_pop.mp3",
+      "startSec": 141.8,
+      "duration": 1.2,
+      "volume": 0.14,
+      "prompt": "four quick pops increasing, spreading, clean"
+    },
+    {
+      "file": "door_creak.mp3",
+      "startSec": 172.4,
+      "duration": 1.2,
+      "volume": 0.14,
+      "prompt": "short door creaking open, clean"
+    },
+    {
+      "file": "spy_sting.mp3",
+      "startSec": 181.7,
+      "duration": 1.3,
+      "volume": 0.15,
+      "prompt": "short spy thriller sting, clean"
+    },
+    {
+      "file": "success_chime.mp3",
+      "startSec": 220.8,
+      "duration": 1.2,
+      "volume": 0.14,
+      "prompt": "short soft success chime, clean"
+    },
+    {
+      "file": "siren.mp3",
+      "startSec": 258.2,
+      "duration": 1.4,
+      "volume": 0.13,
+      "prompt": "short distant ambulance siren, clean"
+    },
+    {
+      "file": "hero_sting.mp3",
+      "startSec": 302.6,
+      "duration": 1.4,
+      "volume": 0.16,
+      "prompt": "short heroic hopeful sting, clean"
+    },
+    {
+      "file": "switch_click.mp3",
+      "startSec": 344.5,
+      "duration": 1.0,
+      "volume": 0.16,
+      "prompt": "big switch being flipped off, clean"
+    },
+    {
+      "file": "mystery_tone.mp3",
+      "startSec": 381.8,
+      "duration": 1.3,
+      "volume": 0.14,
+      "prompt": "short dark mystery tone, clean"
+    },
+    {
+      "file": "lesson_ding.mp3",
+      "startSec": 418.6,
+      "duration": 1.0,
+      "volume": 0.15,
+      "prompt": "short bright ding, clean"
+    },
+    {
+      "file": "closing_turn.mp3",
+      "startSec": 460.8,
+      "duration": 1.4,
+      "volume": 0.14,
+      "prompt": "warm closing transition swell, wrapping up"
+    },
+    {
+      "file": "subscribe_chime.mp3",
+      "startSec": 488.0,
+      "duration": 1.2,
+      "volume": 0.17,
+      "prompt": "bright cheerful notification bell chime, friendly and short"
+    }
+  ],
+  "music": {
+    "file": "musica-canal.mp3",
+    "duration": 30,
+    "volume": 0.3,
+    "prompt": "reused channel background music loop"
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "shorts": [
+    {
+      "file": "short_1.mp4",
+      "titulo": "Tu móvil no habla con los satélites (solo escucha)",
+      "gancho": "TU MÓVIL NO HABLA/CON LOS SATÉLITES",
+      "desde": "0_00",
+      "t0": 0.0,
+      "dur": 58.5,
+      "youtube_id": "z4TizvslA3o",
+      "publish_at": "2026-10-13T19:00:00Z"
+    },
+    {
+      "file": "short_2.mp4",
+      "titulo": "Sin Einstein tu GPS fallaría 10 km cada día",
+      "gancho": "SIN EINSTEIN/FALLARÍA 10 KM",
+      "desde": "4_10",
+      "t0": 208.58,
+      "dur": 58.5,
+      "youtube_id": "hVoHgrp5X_s",
+      "publish_at": "2026-10-14T11:00:00Z"
+    }
+  ]
+}

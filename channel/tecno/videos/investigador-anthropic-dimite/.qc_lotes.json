@@ -1,0 +1,414 @@
+{
+  "video": "investigador-anthropic-dimite",
+  "img_dir": "C:\\Users\\ferna\\Desktop\\Untangle\\Claude\\Youtube videos\\video-explainer-ia-workflow\\remotion\\public\\investigador-anthropic-dimite",
+  "checks": "Para CADA imagen, ábrela de verdad y compárala con su frase. Marca FALLO si:\n1. TEMA: la imagen no ilustra lo que dice la frase, o va de otra cosa (el generador\n   tiende a rellenar escenas abstractas con gráficos de negocio, dinero o flechas\n   de crecimiento que nadie pidió).\n2. IDIOMA: hay texto en inglés. En español es 'IA', nunca 'AI'.\n3. ORTOGRAFÍA: alguna palabra española está mal escrita.\n4. INVENTADO: aparecen marcas, nombres o etiquetas que no se pidieron, o que\n   contradicen lo que narra la frase.\n5. FONDO: el fondo es oscuro sin que la escena sea de noche / policía / sala a oscuras.\n6. PERSONAJES: el hacker bueno debe ir de sudadera AZUL con capucha ABAJO y placa;\n   el malo de NEGRO con capucha ARRIBA y sin placa. Si están cambiados, es FALLO.\n7. ANATOMÍA: el dibujo tiene deformidades evidentes (miembros fusionados, caras sin\n   boca, ojos flotando fuera de la cabeza).",
+  "lotes": [
+    [
+      {
+        "file": "0_00.jpg",
+        "text": "Hace 12 días, un investigador de 27 años se sentó en un banco de un parque de San Francisco y escribió un mensaje.",
+        "scene": "A plain featureless person-outline pictogram sitting alone on a park bench holding a phone, pictogram only with no face, not Sara, no realistic person, no text."
+      },
+      {
+        "file": "0_07.jpg",
+        "text": "En ese mensaje anunciaba que dejaba su trabajo, y su trabajo era investigar cómo se entrenan los modelos de inteligencia artificial más avanzados del mundo.",
+        "scene": "Medium shot: Sara pointing up at a large glowing brain-circuit icon, explaining, serious."
+      },
+      {
+        "file": "0_16.jpg",
+        "text": "Lo dejaba dos meses antes de cobrar sus acciones de la empresa.",
+        "scene": "A stack of coin icons locked behind a closed padlock with a crossed-out reaching hand beside it, no characters, no text."
+      },
+      {
+        "file": "0_19.jpg",
+        "text": "Dos meses.",
+        "scene": "Extreme close-up of Sara's face, eyes wide with disbelief, direct at camera."
+      },
+      {
+        "file": "0_20.jpg",
+        "text": "Y la frase que escribió para explicar por qué se iba fuesta y la cito literal.",
+        "scene": "Close-up: Sara holding up a large quotation-mark icon, serious."
+      },
+      {
+        "file": "0_25.jpg",
+        "text": "Están corriendo directos hacia una súper inteligencia que se mejora a sí misma y apostando con nuestras vidas.",
+        "scene": "A pair of dice tumbling beside a spiral arrow racing steeply upward, no characters, no text."
+      },
+      {
+        "file": "0_33.jpg",
+        "text": "Hoy te cuento quiénes, ¿qué dijo exactamente y por qué esto no es un berrinche de un empleado descontento?",
+        "scene": "Wide shot: Sara standing beside a blank wooden signpost with no writing on it, holding three plain icons, a question mark, a quotation mark and a magnifying glass, curious."
+      },
+      {
+        "file": "0_40.jpg",
+        "text": "Se llama Jacob Coxson.",
+        "scene": "A plain name-badge icon with a blank line where a name would go, no characters, no readable text."
+      },
+      {
+        "file": "0_42.jpg",
+        "text": "Y lo primero que hay que entender es de dónde viene, porque cambia completamente cómo hay que leer lo que dice.",
+        "scene": "Close-up: Sara raising one finger, about to give important context, serious."
+      },
+      {
+        "file": "0_48.jpg",
+        "text": "Coxson no es un crítico externo de la inteligencia artificial.",
+        "scene": "A crossed-out megaphone icon beside a plain featureless person-outline pictogram with no face, not Sara."
+      },
+      {
+        "file": "0_51.jpg",
+        "text": "No es un periodista ni un filósofo ni alguien que opina desde fuera.",
+        "scene": "Medium shot: Sara pushing away a notepad icon, a book icon and a microphone icon, dismissive."
+      },
+      {
+        "file": "0_55.jpg",
+        "text": "Es de los que lo construyen.",
+        "scene": "A plain featureless person-outline pictogram holding a wrench beside an open machine panel, no face, not Sara."
+      },
+      {
+        "file": "0_58.jpg",
+        "text": "Ha pasado los últimos tres años haciendo investigación de preentrenamiento.",
+        "scene": "Close-up: Sara holding up three fingers, serious."
+      },
+      {
+        "file": "1_02.jpg",
+        "text": "Y el preentrenamiento es literalmente la fase en la que un modelo aprende, la parte más profunda del proceso.",
+        "scene": "A layered stack of blocks with only the deepest bottom block glowing brightly, no characters, no text."
+      }
+    ],
+    [
+      {
+        "file": "1_08.jpg",
+        "text": "Primero lo hizo en Open Eye.",
+        "scene": "Medium shot: Sara pointing at a plain rectangular badge with exactly the word 'OPENAI' written on it in plain letters, no logo, explaining."
+      },
+      {
+        "file": "1_10.jpg",
+        "text": "Después en Anthropic, las dos empresas que están en la primera línea absoluta de esta tecnología.",
+        "scene": "Two plain rectangular badges side by side with exactly the words 'OPENAI' and 'ANTHROPIC' written on them in plain letters, no logos, no characters."
+      },
+      {
+        "file": "1_15.jpg",
+        "text": "O sea, que este chico ha visto el motor por dentro en los dos laboratorios más punteros del planeta.",
+        "scene": "Medium shot: Sara peering into an open engine hatch icon with a small torch, curious."
+      },
+      {
+        "file": "1_21.jpg",
+        "text": "Y su conclusión, después de esos tres años, fue que ninguna de las dos está actuando de forma responsable.",
+        "scene": "Two plain blank badges side by side with one large crossed-out checkmark drawn over both, no characters, no readable text."
+      },
+      {
+        "file": "1_27.jpg",
+        "text": "Pero ojo, porque aquí es donde su argumento se pone interesante de verdad.",
+        "scene": "Close-up: Sara leaning toward the camera, intrigued."
+      },
+      {
+        "file": "1_32.jpg",
+        "text": "Coxson no dice que sus compañeros sean idiotas ni que no vean el peligro.",
+        "scene": "A crossed-out dunce-cap icon, no characters, no text."
+      },
+      {
+        "file": "1_36.jpg",
+        "text": "Dice exactamente lo contrario.",
+        "scene": "Close-up: Sara shaking her head, correcting a misconception, direct at camera."
+      },
+      {
+        "file": "1_38.jpg",
+        "text": "Escribió que en Anthropic los riesgos entienden perfectamente, que la gente de dentro sabe lo que hay en juego.",
+        "scene": "Medium shot: Sara holding up a wide-open eye icon, explaining."
+      },
+      {
+        "file": "1_44.jpg",
+        "text": "El problema, según él, es otro. Es que están atrapados en una carrera.",
+        "scene": "A racetrack icon with several marked lanes, no characters, no text."
+      },
+      {
+        "file": "1_48.jpg",
+        "text": "Y la lógica de esa carrera es la siguiente.",
+        "scene": "Close-up: Sara counting off the first point on one finger, explaining."
+      },
+      {
+        "file": "1_51.jpg",
+        "text": "Nadie más va a actuar con responsabilidad, así que tenemos que llegarnos otros primero, aunque sea peligroso.",
+        "scene": "Several plain featureless pictogram runners sprinting toward one glowing target, no faces, not Sara."
+      },
+      {
+        "file": "1_57.jpg",
+        "text": "Porque si nos frenamos, el que llegue primero será alguien peor.",
+        "scene": "Medium shot: Sara holding up a brake-pedal icon, serious."
+      },
+      {
+        "file": "2_01.jpg",
+        "text": "Y esa lógica tiene un problema evidente en cuanto la dices en voz alta.",
+        "scene": "Close-up: Sara raising an eyebrow, spotting the flaw, direct at camera."
+      },
+      {
+        "file": "2_05.jpg",
+        "text": "Que es exactamente el mismo razonamiento que está haciendo el competidor al mismo tiempo.",
+        "scene": "A mirror icon reflecting an identical racetrack straight back at itself, no characters, no text."
+      }
+    ],
+    [
+      {
+        "file": "2_09.jpg",
+        "text": "Todos corren, porque todos creen que los demás corren.",
+        "scene": "A closed circle of arrows all chasing each other in a loop, no characters, no text."
+      },
+      {
+        "file": "2_12.jpg",
+        "text": "Y así nadie puede frenar, aunque absolutamente todos quieran frenar.",
+        "scene": "Close-up: Sara spreading both hands, exasperated, direct at camera."
+      },
+      {
+        "file": "2_17.jpg",
+        "text": "Coxson tiene una frase para describir eso que a mí me parece la mejor del texto entero.",
+        "scene": "Medium shot: Sara holding a quotation-mark icon up high, impressed."
+      },
+      {
+        "file": "2_22.jpg",
+        "text": "Dice que aceptar esta carrera y entrar en la fase final es una puesta soberbia que no debería lanzarse desde el slack de una empresa privada.",
+        "scene": "A dice cup tipped over a chat-window icon that is completely blank with no writing on it, no characters."
+      },
+      {
+        "file": "2_30.jpg",
+        "text": "Y para te apensar en lo que está diciendo ahí, porque es muy concreto.",
+        "scene": "Close-up: Sara pointing at a completely blank chat-window icon with no writing, serious."
+      },
+      {
+        "file": "2_33.jpg",
+        "text": "No está diciendo que la tecnología sea mala.",
+        "scene": "A crossed-out bomb icon next to a plain ordinary gear icon, no characters, no text."
+      },
+      {
+        "file": "2_35.jpg",
+        "text": "Está diciendo que una decisión de este tamaño no la puede tomar un grupo de gente en un chat interno de una empresa,",
+        "scene": "Medium shot: Sara gesturing at a tiny boardroom-table icon standing beside a giant globe icon, explaining."
+      },
+      {
+        "file": "2_42.jpg",
+        "text": "sin votación, sin regulación, sin que nadie de fuera pueda opinar.",
+        "scene": "A crossed-out ballot-box icon, a crossed-out law-book icon and a crossed-out megaphone icon in a row, no characters, no text."
+      },
+      {
+        "file": "2_46.jpg",
+        "text": "Una decisión que afecta a todo el mundo, tomada por unas cuantas personas en una sala.",
+        "scene": "Wide shot: Sara standing beside a giant globe icon with one tiny closed door in front of it, serious."
+      },
+      {
+        "file": "2_51.jpg",
+        "text": "¿Y qué es lo que devenir exactamente?",
+        "scene": "Close-up: Sara tilting her head, asking a question, curious."
+      },
+      {
+        "file": "2_54.jpg",
+        "text": "Aquí también fue concreto, y no hablo de robots ni de nada de ciencia ficción.",
+        "scene": "A crossed-out robot icon, no characters, no text."
+      },
+      {
+        "file": "2_59.jpg",
+        "text": "Hablo de tres capacidades.",
+        "scene": "Close-up: Sara holding up three fingers again, counting capabilities, serious."
+      },
+      {
+        "file": "3_01.jpg",
+        "text": "Sistemas sobre humanos capaces de hackear cualquier cosa.",
+        "scene": "A padlock icon shattering open with a small key beside it, no characters, no text."
+      },
+      {
+        "file": "3_04.jpg",
+        "text": "Capaces de revolucionar cualquier campo científico de la noche a la mañana.",
+        "scene": "A laboratory flask icon with a lightning bolt striking into it, no characters, no text."
+      }
+    ],
+    [
+      {
+        "file": "3_08.jpg",
+        "text": "Y capaces de adquirir poder y recursos reales en el mundo.",
+        "scene": "Medium shot: Sara pointing at a crown icon resting on a pile of coin icons, serious."
+      },
+      {
+        "file": "3_12.jpg",
+        "text": "Y añadió la parte que más es cuese, que es que el progreso en esas tres direcciones no se está frenando.",
+        "scene": "A steep upward arrow that keeps climbing right off the top of the frame, no characters, no text."
+      },
+      {
+        "file": "3_18.jpg",
+        "text": "Todos lo hemos visto avanzar, dijo, y sigue avanzando.",
+        "scene": "Close-up: Sara nodding slowly, serious, direct at camera."
+      },
+      {
+        "file": "3_23.jpg",
+        "text": "Y luego soltó la frase que ha dado la vuelta al mundo,",
+        "scene": "Extreme close-up of Sara's face, grave expression, direct at camera."
+      },
+      {
+        "file": "3_25.jpg",
+        "text": "que la gente que está construyendo esto crees sinceramente que podría matarnos a todos antes de que acabe la década.",
+        "scene": "An hourglass icon with only a few grains left in the top half, no characters, no text."
+      },
+      {
+        "file": "3_32.jpg",
+        "text": "No los críticos, los constructores.",
+        "scene": "Close-up: Sara pointing at a hard-hat icon instead of a notepad icon, serious."
+      },
+      {
+        "file": "3_35.jpg",
+        "text": "Y ahora vamos al detalle que separa a alguien que se queja de alguien que se juega algo.",
+        "scene": "Medium shot: Sara holding a balance scale with a coin on one side and a warning triangle on the other, serious."
+      },
+      {
+        "file": "3_40.jpg",
+        "text": "Cox ondimitió dos meses antes de que le vestieran sus acciones.",
+        "scene": "An hourglass icon standing beside a locked treasure chest, no characters, no text."
+      },
+      {
+        "file": "3_43.jpg",
+        "text": "Para el que no esté familiarizado, te lo explico rápido.",
+        "scene": "Close-up: Sara raising one finger, about to explain a concept simply, curious."
+      },
+      {
+        "file": "3_46.jpg",
+        "text": "En estas empresas, buena parte del sueldo real no es el sueldo.",
+        "scene": "A small payslip icon beside a much larger stack of share certificates, no characters, no readable text."
+      },
+      {
+        "file": "3_50.jpg",
+        "text": "Son acciones que se van consolidando con el tiempo.",
+        "scene": "A progress bar icon filling up gradually toward a padlock at the far end, no characters, no text."
+      },
+      {
+        "file": "3_52.jpg",
+        "text": "Y si te vas antes de la fecha, las pierdes.",
+        "scene": "Close-up: Sara making a sharp cutting gesture with her hand, serious."
+      },
+      {
+        "file": "3_55.jpg",
+        "text": "En una empresa como antrópica, en un momento como éste,",
+        "scene": "A plain rectangular badge with exactly the word 'ANTHROPIC' written on it in plain letters and a steep upward arrow beside it, no logo, no characters."
+      },
+      {
+        "file": "3_58.jpg",
+        "text": "eso es una cantidad de dinero que cambio en la vida.",
+        "scene": "Medium shot: Sara whistling at an enormous pile of coin icons, impressed."
+      }
+    ],
+    [
+      {
+        "file": "4_01.jpg",
+        "text": "El dijo que el coste económico apenas influyó en su decisión.",
+        "scene": "Close-up: Sara shrugging, matter-of-fact, direct at camera."
+      },
+      {
+        "file": "4_05.jpg",
+        "text": "Dada la magnitud de lo que le preocupaba.",
+        "scene": "A tiny coin icon standing beside an enormous globe icon, no characters, no text."
+      },
+      {
+        "file": "4_08.jpg",
+        "text": "Y eso, te lo creas o no te lo creas, es un dato verificable.",
+        "scene": "Close-up: Sara holding a magnifying glass up to a checkmark, curious."
+      },
+      {
+        "file": "4_12.jpg",
+        "text": "¿Por qué es muy fácil tuitiar que el mundo se acaba?",
+        "scene": "Medium shot: Sara typing carelessly on a phone with a speech bubble full of exclamation marks above it, amused."
+      },
+      {
+        "file": "4_14.jpg",
+        "text": "Es bastante más difícil hacerlo dejándose dinero encima de la mesa.",
+        "scene": "A treasure chest left behind on the ground beside a dropped phone icon, no characters, no text."
+      },
+      {
+        "file": "4_18.jpg",
+        "text": "Dicho todo esto, toca la parte honesta.",
+        "scene": "Close-up: Sara raising both hands, signalling a pause, serious."
+      },
+      {
+        "file": "4_21.jpg",
+        "text": "Porque si no, esto es propaganda y no información.",
+        "scene": "A balance scale icon resting perfectly level with one blank document on each side, no characters, no readable text."
+      },
+      {
+        "file": "4_24.jpg",
+        "text": "Que alguien se vaya dando un portazo, no lo convierte en que tenga razón.",
+        "scene": "Close-up: Sara shaking her head, cautioning, direct at camera."
+      },
+      {
+        "file": "4_28.jpg",
+        "text": "Cox ond es una persona, con una opinión.",
+        "scene": "One single plain featureless person-outline pictogram standing alone, no face, not Sara, no text."
+      },
+      {
+        "file": "4_31.jpg",
+        "text": "Y dentro de esas mismas empresas hay gente igual de cualificada",
+        "scene": "Medium shot: Sara holding up a small fan of plain pictogram cards, explaining."
+      },
+      {
+        "file": "4_34.jpg",
+        "text": "que discrepa completamente.",
+        "scene": "A group of plain featureless pictograms, some nodding and some shaking their heads, no faces, not Sara."
+      },
+      {
+        "file": "4_36.jpg",
+        "text": "Hay investigadores de primer nivel que consideran que este riesgo",
+        "scene": "Close-up: Sara pointing off to the side, serious."
+      },
+      {
+        "file": "4_39.jpg",
+        "text": "está enormemente exagerado.",
+        "scene": "A balloon deflating with air rushing out of it, no characters, no text."
+      },
+      {
+        "file": "4_41.jpg",
+        "text": "Y hay un sesgo que conviene tener presente siempre.",
+        "scene": "Close-up: Sara raising one finger in warning, serious."
+      }
+    ],
+    [
+      {
+        "file": "4_44.jpg",
+        "text": "Y es que el que se va tiene un incentivo para dramatizar su salida.",
+        "scene": "A slammed door icon with a bright spotlight shining onto it, no characters, no text."
+      },
+      {
+        "file": "4_48.jpg",
+        "text": "Eso es real y hay que decirlo.",
+        "scene": "Medium shot: Sara nodding firmly, acknowledging a fair point, direct at camera."
+      },
+      {
+        "file": "4_50.jpg",
+        "text": "Pero también hay que decirlo otro.",
+        "scene": "Close-up: Sara turning to the other side, raising the counterpoint, curious."
+      },
+      {
+        "file": "4_52.jpg",
+        "text": "Y es que Cox ond no es el primero, ni de lejos.",
+        "scene": "A row of several identical slammed door icons stretching away into the distance, no characters, no text."
+      },
+      {
+        "file": "4_55.jpg",
+        "text": "Lleva años pasando lo mismo, con nombres distintos,",
+        "scene": "A long row of small blank name-badge icons beside an hourglass, no characters, no readable text."
+      },
+      {
+        "file": "4_58.jpg",
+        "text": "en las dos empresas y siempre por el mismo motivo.",
+        "scene": "Medium shot: Sara pointing at two plain blank badges side by side, explaining."
+      },
+      {
+        "file": "5_02.jpg",
+        "text": "Gente que trabaja en seguridad, que se va.",
+        "scene": "A shield icon with a plain featureless person-outline pictogram walking away from it, no face, not Sara."
+      },
+      {
+        "file": "5_04.jpg",
+        "text": "Y que al salir dice que dentro no se está priorizando la seguridad.",
+        "scene": "Close-up: Sara cupping a hand to her ear, listening carefully, serious."
+      },
+      {
+        "file": "5_08.jpg",
+        "text": "Una persona diciendo eso es una anécdota.",
+        "scene": "ONLY a single small dot on pure white and NOTHING ELSE WHATSOEVER. No monkey, no icons, no words."
+      }
+    ]
+  ]
+}

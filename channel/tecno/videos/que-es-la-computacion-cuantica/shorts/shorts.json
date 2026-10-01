@@ -1,0 +1,24 @@
+{
+  "shorts": [
+    {
+      "file": "short_1.mp4",
+      "titulo": "Un ordenador cuántico NO prueba todo a la vez",
+      "gancho": "¿TODO A LA VEZ?/ES UN MITO",
+      "desde": "1_08",
+      "t0": 56.78,
+      "dur": 56.08,
+      "youtube_id": null,
+      "publish_at": null
+    },
+    {
+      "file": "short_2.mp4",
+      "titulo": "Por qué un ordenador cuántico está más frío que el espacio",
+      "gancho": "MÁS FRÍO QUE/EL ESPACIO",
+      "desde": "3_31",
+      "t0": 176.0,
+      "dur": 54.67,
+      "youtube_id": null,
+      "publish_at": null
+    }
+  ]
+}

@@ -49,6 +49,23 @@ Script → ElevenLabs V3 (voice) → [human review] → Whisper (timestamps)
        → SFX + música (OBLIGATORIO)
        → preflight.py (GATE: si falla, NO se renderiza) → Remotion → MP4
        → thumbnail-creator (OBLIGATORIO) → video-seo/channel-setup (OBLIGATORIO) → publish
+       → thumbnail_text.py (texto por código) → make_shorts.py → publish_shorts.py (OBLIGATORIO, sep-2026)
+```
+
+**Antes del guion (desde sep-2026): elegir el TEMA de `channel/tecno/topic_backlog.md`.**
+Datos reales del canal: los explicativos buscables ("Así funciona la IA", 1.009 vistas) son lo
+único que funciona; las noticias de seguridad IA dieron 0-15 vistas. Mezcla semanal: 4 evergreen
+buscables + 2 empleo/sueldo + 1 noticia (solo si es enorme). Cada vídeo debe entenderse SOLO,
+sin "en el vídeo anterior…" (el espectador llega desde búsqueda).
+
+```
+Por vídeo, al publicar:
+  seo.md  ## Título (≤60 chars, keyword primero) · ## Miniatura (texto/resaltar/posicion) · ## Shorts
+  python scripts/thumbnail_text.py --video <slug>          # → thumbnail_final.jpg
+  python scratch-yt/publish_from_recipe.py --video <slug>  # usa thumbnail_final.jpg y sincroniza cola/videos.json/state.json
+  python scripts/make_shorts.py <slug>                     # → shorts/short_N.mp4 (1080x1920, ≤59 s)
+  python scratch-yt/publish_shorts.py --video <slug>       # 13:00 y 21:00 Madrid, nunca antes que el largo
+  python scratch-yt/publish_shorts.py --pending            # cada día: lo que quedó por cuota
 ```
 
 ### Reglas de producción no negociables
@@ -313,6 +330,17 @@ como parte del canal (ver `agentic-channel-analytics/reference/audit-rubric.md`,
   la miniatura debería aportar la imagen/emoción, no repetir las mismas palabras).
 - Genera 2-3 variantes y que la persona que pidió el vídeo elija (HITL) antes de guardarla como
   definitiva — no asumas cuál prefiere.
+- **El TEXTO se pone por código, nunca con la IA de imagen** (Gemini inventa letras):
+  genera la imagen SIN texto dejando un lado libre (Sara al lado contrario) y luego
+  `python scripts/thumbnail_text.py --video <slug>`, que lee de `seo.md`:
+  ```
+  ## Miniatura
+  texto: SE INVENTÓ|UNA PERSONA      ← "|" = salto de línea, 2-4 palabras
+  resaltar: PERSONA                  ← en amarillo; el resto en blanco con contorno negro
+  posicion: left                     ← left | right | top (lado libre)
+  ```
+  Sale `thumbnail_final.jpg`, que es la que usa `publish_from_recipe.py` por defecto.
+  Una cifra concreta ("80.000 €", "3.700 IAs") rinde más que un adjetivo. Fondo de color > blanco.
 
 ## SEO / metadata de YouTube — paso obligatorio tras CADA vídeo
 
@@ -344,6 +372,30 @@ configurados.
 6. **Hashtags**: máximo 3 en la descripción (los que se muestran sobre el título).
 7. Guarda el paquete final en `channel/<canal>/videos/<video>/seo.md` (mismo patrón que
    `script.md`/`notes.md`) para que quede versionado y no se pierda entre sesiones.
+8. **Título ≤60 caracteres** (en móvil se corta a los ~50): palabra buscada primero ("Qué hace
+   un…", "Así funciona…", "Cuánto cobra…") + giro entre paréntesis. Nada de títulos-frase de 90+.
+   `publish_from_recipe.py` usa la línea marcada `← recomendado` (o la primera numerada).
+
+## Shorts — paso obligatorio tras CADA vídeo largo (desde sep-2026)
+
+Los Shorts son la vía de descubrimiento para un canal pequeño: cada vídeo largo da **2 Shorts**.
+Se definen en `seo.md`:
+
+```
+## Shorts
+- titulo: ¿Cuánto cobra un AI Engineer en España? | gancho: 71.000 €/AL AÑO | desde: 4_16
+- titulo: Un AI Engineer casi nunca entrena una IA | gancho: ¿ENTRENA IAs?/NO. | desde: 0_14 | hasta: 0_53
+```
+
+- `desde`/`hasta` = clave de frame de `frames.json` (sin `.jpg`); sin `hasta` corta ≤55 s + 3 s de CTA.
+- Qué cortar: (1) el GANCHO de los primeros segundos si funciona solo; (2) el bloque más
+  jugoso: el **sueldo** en vídeos de empleo, el **giro** en historias. Empieza en frase completa.
+- `make_shorts.py`: vertical 1080x1920, gancho grande arriba, subtítulos quemados abajo en
+  bloques de 3 palabras (texto del GUION alineado con los tiempos de Whisper → sin errores de
+  transcripción tipo "Opinaya"), cierre "VÍDEO COMPLETO EN EL CANAL".
+- `publish_shorts.py`: agenda propia (`scratch-yt/shorts_queue.json`), huecos 13:00 y 21:00
+  Madrid, nunca antes de que salga el largo (+1 h) para que el enlace de la descripción funcione.
+  Si salta `quotaExceeded`, para limpio: `--pending` al día siguiente sube lo que falte.
 
 ## Audio: SFX y música de fondo
 
@@ -384,6 +436,12 @@ Higgsfield NO sirve para esto: `generate_audio` solo hace voz; los modelos de m�
 5. `python scripts/orchestrate.py --video <video>` y deja que el orquestador haga el resto.
 
 ## Critical gotchas
+
+- **OAuth de YouTube caduca cada 7 días** mientras la app siga en modo "Testing" en Google Cloud
+  (`invalid_grant: Token has been expired or revoked`). Renovar con `python scratch-yt/reauth.py`
+  (abre el navegador). Solución definitiva: publicar la app OAuth en producción.
+- **Palabras vetadas por `scene_diversity_check.py`**: `glossy`, `glow` (incluso negadas: "no
+  glossy" también falla). Tienden a producir el estilo pulido/3D que rompe el estilo plano.
 
 - **Whisper SEGMENT timestamps solo sirven si el guion garantiza pausas claras entre frases** (frases cortas, ver "1 frase = 1 imagen" arriba). Si no — frases largas, con comas, ElevenLabs v3 hablando fluido —, whisper fusiona 2-3 frases en un solo segmento y eso desincroniza imagen/diálogo en todo el vídeo aunque el render sea técnicamente correcto. Si no estás seguro de que el guion produce 1 segmento por frase, usa `python scripts/whisper_timestamps.py audio.mp3 --resegment-gap 0.35 --format frames`: ignora el agrupamiento de whisper y recorta por huecos de silencio reales a nivel de palabra. Word-level puro (sin este resegment) sigue dando falsos positivos (`"no"` dentro de `"años"`), por eso no es el default.
 - **Antes de dar por buena una tanda de imágenes, abre una muestra real con `Read`.** El campo `scene` de `frames.json` es una descripción que TÚ escribiste al pedir la imagen, no una prueba de qué salió generado — puede quedar obsoleta tras un remapeo, o directamente no coincidir (se ha colado alguna imagen de otro proyecto). No des por bueno un match solo por el texto guardado.

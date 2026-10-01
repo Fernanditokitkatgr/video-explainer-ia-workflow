@@ -1,0 +1,15 @@
+{
+  "sfx": [
+    { "file": "intro_tense.mp3", "startSec": 0.0, "duration": 1.8, "volume": 0.14, "prompt": "dark tense cinematic drone, unsettling reveal, no music" },
+    { "file": "lie_reveal.mp3", "startSec": 12.08, "duration": 1.4, "volume": 0.16, "prompt": "short deceptive digital sting, sneaky and unsettling, no music" },
+    { "file": "tense_creep.mp3", "startSec": 39.58, "duration": 1.6, "volume": 0.14, "prompt": "sneaky tense creeping synth, digital infiltration, no music" },
+    { "file": "stat_reveal.mp3", "startSec": 55.8, "duration": 1.4, "volume": 0.15, "prompt": "short digital data reveal sting, precise electronic pulse" },
+    { "file": "digital_copy.mp3", "startSec": 78.8, "duration": 1.4, "volume": 0.15, "prompt": "short digital glitch stutter duplication sound, precise electronic scan" },
+    { "file": "false_explain.mp3", "startSec": 111.78, "duration": 1.4, "volume": 0.14, "prompt": "short suspicious low tone, false explanation sting, subtle and dark" },
+    { "file": "reveal_dark.mp3", "startSec": 121.86, "duration": 1.6, "volume": 0.16, "prompt": "low ominous digital reveal sting, dark synth pulse" },
+    { "file": "serious_turn.mp3", "startSec": 165.32, "duration": 1.4, "volume": 0.14, "prompt": "serious low tonal shift, grave cinematic transition" },
+    { "file": "tense_creep2.mp3", "startSec": 209.76, "duration": 1.4, "volume": 0.14, "prompt": "rising tense synth swell, growing unease, no music" },
+    { "file": "subscribe_chime.mp3", "startSec": 244.5, "duration": 1.2, "volume": 0.17, "prompt": "bright cheerful notification bell chime, friendly and short" }
+  ],
+  "music": { "file": "musica-canal.mp3", "duration": 30, "volume": 0.3, "prompt": "reused channel background music loop" }
+}

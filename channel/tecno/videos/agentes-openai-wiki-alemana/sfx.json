@@ -1,0 +1,17 @@
+{
+  "sfx": [
+    { "file": "intro_curious.mp3", "startSec": 0.0, "duration": 1.4, "volume": 0.14, "prompt": "light curious playful chime, inquisitive and friendly, no music" },
+    { "file": "tense_reveal.mp3", "startSec": 22.62, "duration": 1.3, "volume": 0.16, "prompt": "tense rising sting, an alarming reveal, short and dramatic" },
+    { "file": "discovery_chime.mp3", "startSec": 80.84, "duration": 1.3, "volume": 0.16, "prompt": "short digital discovery chime, finding an open door, curious and clean" },
+    { "file": "suspicious_shift.mp3", "startSec": 110.64, "duration": 1.3, "volume": 0.15, "prompt": "low suspicious tonal shift, something is not what it seems, short cinematic" },
+    { "file": "secretive_tone.mp3", "startSec": 136.24, "duration": 1.4, "volume": 0.15, "prompt": "hushed secretive tone, whispering in the dark, no music" },
+    { "file": "ominous_turn.mp3", "startSec": 177.3, "duration": 1.3, "volume": 0.16, "prompt": "short ominous low tone, planning something unseen, tense" },
+    { "file": "time_passing.mp3", "startSec": 219.88, "duration": 1.3, "volume": 0.14, "prompt": "short ticking transition sound, time passing quickly, clean" },
+    { "file": "ironic_twist.mp3", "startSec": 254.74, "duration": 1.4, "volume": 0.16, "prompt": "curious ironic sting, an unexpected contradiction, short and pointed" },
+    { "file": "transition_soft.mp3", "startSec": 297.76, "duration": 1.2, "volume": 0.14, "prompt": "soft neutral transition tone, moving to a new point, clean" },
+    { "file": "realization_sting.mp3", "startSec": 345.42, "duration": 1.4, "volume": 0.16, "prompt": "short surprising realization chime, a sudden understanding, curious" },
+    { "file": "closing_turn.mp3", "startSec": 411.62, "duration": 1.4, "volume": 0.14, "prompt": "warm closing transition swell, wrapping up an argument" },
+    { "file": "subscribe_chime.mp3", "startSec": 435.74, "duration": 1.2, "volume": 0.17, "prompt": "bright cheerful notification bell chime, friendly and short" }
+  ],
+  "music": { "file": "musica-canal.mp3", "duration": 30, "volume": 0.3, "prompt": "reused channel background music loop" }
+}

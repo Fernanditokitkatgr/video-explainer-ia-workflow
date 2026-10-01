@@ -1,0 +1,552 @@
+{
+  "video": "el-robo-del-banco-de-bangladesh",
+  "style_base": "Crude hand-drawn cartoon, Ecomonos style, PURE WHITE background, thick black ink outlines, flat colors. A brown cartoon monkey protagonist, huge white round eyes, exactly like the reference image. Exactly two arms and two hands per character. Any text that appears in the image must be in PERFECT SPANISH, never English. Fill the whole frame, no black bars. SCENE: CRITICAL: NEVER draw a calendar, a torn-calendar page, or any counter of days/DIAS with a number on it (258, 250, or any other number) unless the scene explicitly and specifically asks for a day-counter — this motif does not belong in this video and must never appear as a default way to depict remembering/thinking/time passing. CRITICAL about the shadow-hacker attacker: its face must ALWAYS stay completely hidden inside the black hood shadow — never draw visible skin, a nose, a mouth, teeth or any facial features, and never let it look like the brown monkey wearing a hoodie. Only two glowing YELLOW eyes are visible, nothing else. Show emotion only through posture, hands, and the shape/angle of the two eyes.",
+  "frames": [
+    {
+      "file": "0_00.jpg",
+      "startSec": 0.0,
+      "text": "En febrero de 2016, alguien intentó robar 951 millones de dólares en una sola noche.",
+      "ref": "none",
+      "scene": "A large bank building icon with a giant number '951' and a dollar sign above it, no characters."
+    },
+    {
+      "file": "0_06.jpg",
+      "startSec": 6.58,
+      "text": "Casi lo consigue,",
+      "ref": "sombra",
+      "scene": "The shadow-hacker shrugging, arms crossed, silhouette only, glowing yellow eyes, almost satisfied."
+    },
+    {
+      "file": "0_08.jpg",
+      "startSec": 8.02,
+      "text": "se quedó a 81 millones.",
+      "ref": "none",
+      "scene": "A single giant coin medallion with the numeral '81', no characters."
+    },
+    {
+      "file": "0_10.jpg",
+      "startSec": 10.2,
+      "text": "Y la diferencia entre esas dos cifras la marcó una sola palabra mal escrita.",
+      "ref": "mono",
+      "scene": "Close-up: Sara the brown cartoon monkey looking surprised, eyebrow raised, curious. Must be Sara the monkey exactly like the reference image, never a human character."
+    },
+    {
+      "file": "0_15.jpg",
+      "startSec": 15.4,
+      "text": "Hoy vamos a seguir el rastro completo de ese dinero,",
+      "ref": "none",
+      "scene": "Wide shot: Sara standing next to a winding dotted path on the ground leading toward a distant bank building, curious, ready to follow."
+    },
+    {
+      "file": "0_18.jpg",
+      "startSec": 18.48,
+      "text": "parada por parada,",
+      "ref": "mono",
+      "scene": "Wide shot: Sara standing next to a winding dotted path on the ground leading toward a distant bank building, curious, ready to follow."
+    },
+    {
+      "file": "0_19.jpg",
+      "startSec": 19.66,
+      "text": "desde un banco en DACA hasta un casino en Manila.",
+      "ref": "none",
+      "scene": "A footprint trail icon leading from a bank building toward a casino chip icon, no characters."
+    },
+    {
+      "file": "0_23.jpg",
+      "startSec": 23.2,
+      "text": "Y al final vas a entender por qué el error más caro de la historia del cibercrimen fue,",
+      "ref": "mono",
+      "scene": "Close-up: Sara pointing at a simple map with a dotted line from a bank icon to a casino icon, curious."
+    },
+    {
+      "file": "0_28.jpg",
+      "startSec": 28.76,
+      "text": "literalmente, un error de ortografía.",
+      "ref": "mono",
+      "scene": "A blank torn document with a red X, no text, no characters."
+    },
+    {
+      "file": "0_32.jpg",
+      "startSec": 32.2,
+      "text": "Primera parada, el Banco Central de Bangladesh.",
+      "ref": "mono",
+      "scene": "Close-up: Sara nodding, serious point, direct at camera."
+    },
+    {
+      "file": "0_35.jpg",
+      "startSec": 35.26,
+      "text": "Este banco guarda parte de las reservas del país en una cuenta en la reserva federal de Nueva York.",
+      "ref": "none",
+      "scene": "A single giant bank building icon labeled exactly in Spanish 'BANCO CENTRAL', no characters."
+    },
+    {
+      "file": "0_40.jpg",
+      "startSec": 40.76,
+      "text": "Para mover ese dinero entre bancos usa un sistema llamado Swift,",
+      "ref": "none",
+      "scene": "A bank building connected by a line to a taller building labeled exactly in Spanish 'RESERVA FEDERAL, NUEVA YORK', no characters."
+    },
+    {
+      "file": "0_44.jpg",
+      "startSec": 44.84,
+      "text": "la red de mensajes que conecta a casi todos los bancos del mundo.",
+      "ref": "mono",
+      "scene": "Close-up: Sara looking impressed at a glowing network diagram, curious."
+    },
+    {
+      "file": "0_48.jpg",
+      "startSec": 48.84,
+      "text": "Meses antes de la traco,",
+      "ref": "none",
+      "scene": "A globe with many bank icons connected by lines around it, no characters."
+    },
+    {
+      "file": "0_50.jpg",
+      "startSec": 50.52,
+      "text": "alguien ya estaba dentro de la red interna del banco, sin que nadie lo supiera.",
+      "ref": "none",
+      "scene": "A simple shadow silhouette fading behind an office building icon, no dates, no days, no characters."
+    },
+    {
+      "file": "0_54.jpg",
+      "startSec": 54.74,
+      "text": "Entraron con un malware diseñado para una cosa muy concreta,",
+      "ref": "sombra",
+      "scene": "The shadow-hacker sneaking through a glowing network of lines toward a bank building icon labeled exactly in Spanish 'BANCO' (never in English), silhouette only, glowing yellow eyes. Only the shadow-hacker character appears — no monkey, no other character of any kind."
+    },
+    {
+      "file": "0_58.jpg",
+      "startSec": 58.6,
+      "text": "controlar el sistema Swift del banco desde dentro.",
+      "ref": "none",
+      "scene": "A simple flat icon illustration of a computer monitor with abstract wavy scribble lines on its screen (decoration only, not readable text). This is an icon graphic, not a story scene: no monkey, no hacker, no person, no dialogue, no speech bubbles, no captions anywhere in the frame. Centered on plain white background."
+    },
+    {
+      "file": "1_01.jpg",
+      "startSec": 61.94,
+      "text": "El equipo de seguridad del banco era pequeño y compartía una red con equipos de oficina normales y corrientes,",
+      "ref": "sombra",
+      "scene": "Close-up of the shadow-hacker's glowing yellow eyes reflecting a network diagram, silhouette only, hood and body completely BLACK (never white, never gray)."
+    },
+    {
+      "file": "1_08.jpg",
+      "startSec": 68.24,
+      "text": "ni siquiera tenían un firewall dedicado.",
+      "ref": "none",
+      "scene": "A tiny security shield icon next to a large crowded office icon, sharing the same network line, no characters."
+    },
+    {
+      "file": "1_11.jpg",
+      "startSec": 71.0,
+      "text": "Puertas de ese tamaño no hacen falta forzarlas,",
+      "ref": "mono",
+      "scene": "Close-up: Sara looking concerned at a small shield icon with a crack in it, worried expression."
+    },
+    {
+      "file": "1_13.jpg",
+      "startSec": 73.92,
+      "text": "sólo hay que encontrar la que nadie cerró.",
+      "ref": "none",
+      "scene": "A single large closed door with many small unlocked keyholes around it, no characters."
+    },
+    {
+      "file": "1_17.jpg",
+      "startSec": 77.28,
+      "text": "Siguiente parada, la noche del ataque. Un viernes por la noche, hora de Bangladesh,",
+      "ref": "sombra",
+      "scene": "The shadow-hacker holding a single small key up to one unlocked keyhole, silhouette only, glowing yellow eyes, sly."
+    },
+    {
+      "file": "1_22.jpg",
+      "startSec": 82.1,
+      "text": "que además coincide con fin de semana allí.",
+      "ref": "none",
+      "scene": "A big sign reading exactly in Spanish: 'LA NOCHE DEL ATAQUE', no characters."
+    },
+    {
+      "file": "1_24.jpg",
+      "startSec": 84.58,
+      "text": "Los atacantes enviaron 35 mensajes Swift fraudulentos,",
+      "ref": "none",
+      "scene": "A crescent moon icon over a calm office building, quiet, no characters."
+    },
+    {
+      "file": "1_28.jpg",
+      "startSec": 88.82,
+      "text": "pidiendo transferir en total 951 millones de dólares desde la cuenta de Bangladesh en la reserva federal.",
+      "ref": "sombra",
+      "scene": "The shadow-hacker holding a stack of 35 small message icons, silhouette only, glowing yellow eyes."
+    },
+    {
+      "file": "1_36.jpg",
+      "startSec": 96.3,
+      "text": "Los mensajes parecían legítimos porque técnicamente lo eran,",
+      "ref": "none",
+      "scene": "A stack of documents with a giant dollar sign and the numeral '951' on top, no characters."
+    },
+    {
+      "file": "1_40.jpg",
+      "startSec": 100.1,
+      "text": "estaban firmados con las credenciales reales y robadas del banco. Y para ganar tiempo, el malware hizo algo muy simple y muy efectivo,",
+      "ref": "sombra",
+      "scene": "The shadow-hacker holding a blank stamped document with a green check mark, silhouette only, glowing yellow eyes, confident."
+    },
+    {
+      "file": "1_48.jpg",
+      "startSec": 108.36,
+      "text": "desactivó la impresora que normalmente saca una copia física de cada mensaje Swift.",
+      "ref": "none",
+      "scene": "A blank printer with no paper coming out, no text, no characters."
+    },
+    {
+      "file": "1_53.jpg",
+      "startSec": 113.62,
+      "text": "Sin esa copia en papel,",
+      "ref": "sombra",
+      "scene": "The shadow-hacker pulling a plug out of a small printer icon, silhouette only, glowing yellow eyes."
+    },
+    {
+      "file": "1_55.jpg",
+      "startSec": 115.3,
+      "text": "nadie en la oficina de Bangladesh iba a notar nada hasta que fuera demasiado tarde.",
+      "ref": "none",
+      "scene": "A printer icon powered off, dark and silent, no characters."
+    },
+    {
+      "file": "2_00.jpg",
+      "startSec": 120.36,
+      "text": "Siguiente parada, Nueva York.",
+      "ref": "mono",
+      "scene": "Close-up: Sara looking worried at an empty office desk with no paper on it, curious."
+    },
+    {
+      "file": "2_03.jpg",
+      "startSec": 123.0,
+      "text": "La reserva federal recibió las 35 órdenes y empezó a procesarlas una detrás de otra. Cinco de ellas, por un total de 81 millones de dólares,",
+      "ref": "none",
+      "scene": "A single giant coin medallion with the numeral '2', no characters."
+    },
+    {
+      "file": "2_12.jpg",
+      "startSec": 132.04,
+      "text": "se completaron y el dinero salió hacia cuentas en Filipinas.",
+      "ref": "none",
+      "scene": "A tall building icon labeled exactly in Spanish 'NUEVA YORK', no characters."
+    },
+    {
+      "file": "2_15.jpg",
+      "startSec": 135.78,
+      "text": "El resto, casi 87 millones más,",
+      "ref": "sombra",
+      "scene": "The shadow-hacker watching a stack of documents processing, silhouette only, glowing yellow eyes, confident."
+    },
+    {
+      "file": "2_18.jpg",
+      "startSec": 138.84,
+      "text": "que dobloqueado por un motivo que nadie planeó,",
+      "ref": "none",
+      "scene": "A blank document with a small padlock icon on it, no text, no characters."
+    },
+    {
+      "file": "2_21.jpg",
+      "startSec": 141.6,
+      "text": "la lista de sanciones internacionales.",
+      "ref": "mono",
+      "scene": "Close-up: Sara watching money fly away, worried expression."
+    },
+    {
+      "file": "2_24.jpg",
+      "startSec": 144.7,
+      "text": "Una de las transferencias iba destinada a una entidad que compartía nombre con una empresa sancionada y eso hizo saltar una alarma automática.",
+      "ref": "none",
+      "scene": "A blank document with a matching-name alarm bell icon ringing above it, no text, no characters."
+    },
+    {
+      "file": "2_33.jpg",
+      "startSec": 153.08,
+      "text": "Y aquí llega la parte que de verdad cambió la historia.",
+      "ref": "mono",
+      "scene": "Close-up: Sara looking at a red alert icon, curious, wondering why. Sara's head is bare, no bow. No speech bubble, no text, no words anywhere in the image."
+    },
+    {
+      "file": "2_36.jpg",
+      "startSec": 156.2,
+      "text": "Una transferencia de 20 millones de dólares iba destinada a una organización en Esrilanca llamada Shalika Foundation.",
+      "ref": "none",
+      "scene": "A list icon with a red warning triangle labeled exactly in Spanish 'LISTA DE SANCIONES', no characters."
+    },
+    {
+      "file": "2_43.jpg",
+      "startSec": 163.6,
+      "text": "Los atacantes, al escribir el mensaje a toda prisa, escribieron mal el nombre,",
+      "ref": "none",
+      "scene": "A blank document reading exactly: 'SHALIKA FOUNDATION', a small flag icon of Sri Lanka beside it, no other text, no characters."
+    },
+    {
+      "file": "2_48.jpg",
+      "startSec": 168.48,
+      "text": "pusieron Shalika Foundation con una letra cambiada.",
+      "ref": "mono",
+      "scene": "Medium shot: Sara leaning in closer, intrigued, about to reveal something important."
+    },
+    {
+      "file": "2_52.jpg",
+      "startSec": 172.24,
+      "text": "Un empleado del banco intermediario en esa transferencia, el Deutsche Bank,",
+      "ref": "none",
+      "scene": "A single document with a giant coin medallion showing the numeral '20' and a small building icon, no characters."
+    },
+    {
+      "file": "2_56.jpg",
+      "startSec": 176.88,
+      "text": "vio una palabra mal escrita y, por simple protocolo, pidió confirmación antes de seguir adelante.",
+      "ref": "none",
+      "scene": "A document reading exactly: 'SHALIKA FOUNDATION', a small flag icon of Sri Lanka beside it, no characters."
+    },
+    {
+      "file": "3_02.jpg",
+      "startSec": 182.8,
+      "text": "Esa pregunta de rutina destapó todo,",
+      "ref": "sombra",
+      "scene": "The shadow-hacker typing hastily, silhouette only, glowing yellow eyes, rushed motion lines."
+    },
+    {
+      "file": "3_05.jpg",
+      "startSec": 185.98,
+      "text": "y esa única transferencia de 20 millones se congeló y nunca llegó a salir.",
+      "ref": "none",
+      "scene": "A document reading exactly: 'SHALIKA FANDATION', one letter circled in red, no characters."
+    },
+    {
+      "file": "3_12.jpg",
+      "startSec": 192.14,
+      "text": "Una palabra.",
+      "ref": "mono",
+      "scene": "Close-up: Sara holding a magnifying glass over a document, and through the magnifying glass the text reads exactly and only 'FANDATION' in black letters on white, eyes wide, realizing something. No other word, no gibberish text."
+    },
+    {
+      "file": "3_13.jpg",
+      "startSec": 193.4,
+      "text": "Una sola palabra mal escrita frenó lo que habría sido de lejos el mayor robo bancario de la historia.",
+      "ref": "none",
+      "scene": "A blank document with a big red question mark stamped over it, no other text, no characters."
+    },
+    {
+      "file": "3_21.jpg",
+      "startSec": 201.2,
+      "text": "Siguiente parada, Filipinas.",
+      "ref": "mono",
+      "scene": "Close-up: Sara nodding slowly, impressed, direct at camera."
+    },
+    {
+      "file": "3_23.jpg",
+      "startSec": 203.74,
+      "text": "Los 81 millones que sí llegaron a salir, aterrizaron en cuatro cuentas de un banco en Manila,",
+      "ref": "none",
+      "scene": "A single document with a big red question mark, no other text, no characters."
+    },
+    {
+      "file": "3_29.jpg",
+      "startSec": 209.46,
+      "text": "abiertas meses antes con nombres falsos.",
+      "ref": "none",
+      "scene": "A giant coin medallion with the numeral '20' frozen inside a block of ice, no characters."
+    },
+    {
+      "file": "3_32.jpg",
+      "startSec": 212.22,
+      "text": "En cuestión de días,",
+      "ref": "mono",
+      "scene": "Extreme close-up of Sara's face, eyes wide, emphasizing a single word, direct at camera."
+    },
+    {
+      "file": "3_33.jpg",
+      "startSec": 213.5,
+      "text": "ese dinero se movió a casinos y agencias de cambio de moneda.",
+      "ref": "mono",
+      "scene": "Wide shot: Sara standing proudly next to a giant crossed-out numeral '1000', with a smaller numeral '81' beside it, confident."
+    },
+    {
+      "file": "3_37.jpg",
+      "startSec": 217.34,
+      "text": "Los casinos en Filipinas en aquel momento no estaban obligados por ley a reportar movimientos sospechosos de dinero a diferencia de los bancos normales.",
+      "ref": "none",
+      "scene": "A single giant coin medallion with the numeral '3', no characters."
+    },
+    {
+      "file": "3_46.jpg",
+      "startSec": 226.44,
+      "text": "Es exactamente el tipo de hueco legal que hace que el dinero,",
+      "ref": "none",
+      "scene": "A simple flat icon illustration of a red casino poker chip and a green palm tree, side by side, small and centered on plain white background. This is an icon graphic, not a story scene: no monkey, no hacker, no person, no dialogue, no speech bubbles, no captions anywhere in the frame."
+    },
+    {
+      "file": "3_50.jpg",
+      "startSec": 230.36,
+      "text": "una vez dentro de un casino,",
+      "ref": "none",
+      "scene": "Four small bank account icons glowing green next to a casino chip icon, no characters."
+    },
+    {
+      "file": "3_52.jpg",
+      "startSec": 232.14,
+      "text": "sea casi imposible de rastrear después.",
+      "ref": "mono",
+      "scene": "Close-up: Sara shaking her head, disapproving, serious."
+    },
+    {
+      "file": "3_55.jpg",
+      "startSec": 235.16,
+      "text": "De los 81 millones,",
+      "ref": "none",
+      "scene": "A single giant coin medallion with the numeral '81', no characters."
+    },
+    {
+      "file": "3_57.jpg",
+      "startSec": 237.38,
+      "text": "solo se ha recuperado una fracción pequeña en los años posteriores.",
+      "ref": "none",
+      "scene": "A tiny fraction of coins highlighted among a huge pile of faded coins, no characters."
+    },
+    {
+      "file": "4_01.jpg",
+      "startSec": 241.1,
+      "text": "La mayor parte, sencillamente,",
+      "ref": "none",
+      "scene": "ONLY a large open empty vault/safe icon, doors wide open, completely empty inside, flat line-icon style, and NOTHING ELSE WHATSOEVER. No monkey, no hacker, no silhouette, no characters, no hands, no text, no words."
+    },
+    {
+      "file": "4_03.jpg",
+      "startSec": 243.32,
+      "text": "desapareció.",
+      "ref": "none",
+      "scene": "A vault door wide open and completely empty inside, no characters."
+    },
+    {
+      "file": "4_05.jpg",
+      "startSec": 245.12,
+      "text": "Investigadores de Estados Unidos, incluido el FBI,",
+      "ref": "none",
+      "scene": "A magnifying glass hovering over a simple badge icon labeled exactly in Spanish: 'INVESTIGADORES EEUU', no characters."
+    },
+    {
+      "file": "4_08.jpg",
+      "startSec": 248.46,
+      "text": "atribuyeron el ataque a un grupo vinculado a Corea del Norte conocido como Lazarus.",
+      "ref": "mono",
+      "scene": "Medium shot: Sara looking serious at a distant flag-like silhouette shape, thoughtful."
+    },
+    {
+      "file": "4_13.jpg",
+      "startSec": 253.54,
+      "text": "El mismo tipo de grupo detrás de otros ataques financieros avancos en distintos países en los años siguientes.",
+      "ref": "none",
+      "scene": "A row of small bank building icons connected by a dotted line across a simple world map outline, no text, no characters."
+    },
+    {
+      "file": "4_20.jpg",
+      "startSec": 260.14,
+      "text": "Nunca hubo una condena formal contra individuos concretos, y parte de esa atribución sigue siendo objeto de debate técnico entre expertos.",
+      "ref": "mono",
+      "scene": "Close-up: Sara shrugging, explaining calmly, no other characters."
+    },
+    {
+      "file": "4_28.jpg",
+      "startSec": 268.54,
+      "text": "Pero lo que sí está fuera de toda duda es la ruta exacta que siguió el dinero,",
+      "ref": "none",
+      "scene": "A dotted trail map fully drawn and glowing from a bank icon all the way to a casino icon, complete and clear, no characters."
+    },
+    {
+      "file": "4_33.jpg",
+      "startSec": 273.22,
+      "text": "documentada por investigaciones bancarias y judiciales en varios países.",
+      "ref": "mono",
+      "scene": "Medium shot: Sara turning back to the camera, ready to explain, direct at camera."
+    },
+    {
+      "file": "4_38.jpg",
+      "startSec": 278.0,
+      "text": "Así que volvamos a la pregunta del principio.",
+      "ref": "mono",
+      "scene": "Close-up: Sara raising one eyebrow, posing a question to the viewer, with a speech bubble reading exactly '¿QUÉ HARÍAS TÚ?' in perfect Spanish with correct accent marks — double-check every accent mark before drawing."
+    },
+    {
+      "file": "4_41.jpg",
+      "startSec": 281.0,
+      "text": "¿Por qué una franca de ortografías salvo 870 millones de dólares?",
+      "ref": "none",
+      "scene": "A single giant coin medallion with the numeral '870' and a small shield icon protecting it, no characters."
+    },
+    {
+      "file": "4_46.jpg",
+      "startSec": 286.12,
+      "text": "Porque en un sistema diseñado para mover dinero muy rápido entre bancos, casi todo el proceso está automatizado.",
+      "ref": "none",
+      "scene": "A robot arm icon rapidly stamping many documents in a row, fully automated, no characters."
+    },
+    {
+      "file": "4_53.jpg",
+      "startSec": 293.7,
+      "text": "La única barrera humana real que quedaba era un empleado leyendo un nombre inotando que algo no encajaba.",
+      "ref": "mono",
+      "scene": "Close-up: Sara pointing at a single small magnifying glass icon among many automated robot-arm icons, serious. Sara has NO clothing of any kind, NO hoodie, NO shirt, exactly like the reference image — bare brown monkey only. No text, no words, no labels, no buttons anywhere in the image."
+    },
+    {
+      "file": "5_00.jpg",
+      "startSec": 300.1,
+      "text": "Si esa persona no hubiera parado a comprobar una palabra rara,",
+      "ref": "mono",
+      "scene": "Extreme close-up of Sara's face, serious, direct at camera, making an important point."
+    },
+    {
+      "file": "5_03.jpg",
+      "startSec": 303.92,
+      "text": "hoy estaríamos hablando de un robo de mil millones de dólares,",
+      "ref": "none",
+      "scene": "A giant numeral '1000' crumbling apart, revealing a smaller numeral '81' standing firm beneath it, no characters."
+    },
+    {
+      "file": "5_07.jpg",
+      "startSec": 307.52,
+      "text": "no de 81.",
+      "ref": "mono",
+      "scene": "Wide shot: Sara standing next to a checklist board with a single check mark, confident, ready to summarize."
+    },
+    {
+      "file": "5_09.jpg",
+      "startSec": 309.28,
+      "text": "La lección no es solo para bancos centrales.",
+      "ref": "mono",
+      "scene": "Close-up: Sara nodding firmly, confident, direct at camera."
+    },
+    {
+      "file": "5_12.jpg",
+      "startSec": 312.22,
+      "text": "Cualquier sistema automatizado necesita, en algún punto,",
+      "ref": "none",
+      "scene": "A single magnifying glass icon standing firm among a row of automated gear icons, no characters."
+    },
+    {
+      "file": "5_15.jpg",
+      "startSec": 315.7,
+      "text": "a alguien que se parea comprobar que algo no cuadra.",
+      "ref": "mono",
+      "scene": "Close-up: Sara smiling gently, warm, direct at camera."
+    },
+    {
+      "file": "5_19.jpg",
+      "startSec": 319.48,
+      "text": "Si esto te ha sorprendido suscríbete,",
+      "ref": "mono",
+      "scene": "Medium shot: Sara smiling warmly at the camera holding a phone, a glowing bell/subscribe icon beside it."
+    },
+    {
+      "file": "5_21.jpg",
+      "startSec": 321.84,
+      "text": "se viene más de este mundo.",
+      "ref": "mono",
+      "scene": "Medium shot: Sara waving goodbye happily at the camera, bright white background, warm close."
+    }
+  ]
+}

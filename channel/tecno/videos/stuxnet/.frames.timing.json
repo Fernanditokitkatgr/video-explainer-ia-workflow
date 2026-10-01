@@ -1,0 +1,342 @@
+[
+  {
+    "file": "0_00.jpg",
+    "startSec": 0.0,
+    "text": "En 2010, un virus informático hizo algo que nadie creía posible."
+  },
+  {
+    "file": "0_04.jpg",
+    "startSec": 4.76,
+    "text": "Destruyó máquinas físicas en el mundo real,"
+  },
+  {
+    "file": "0_07.jpg",
+    "startSec": 7.72,
+    "text": "sin que nadie tocara un solo botón dentro del edificio."
+  },
+  {
+    "file": "0_11.jpg",
+    "startSec": 11.36,
+    "text": "No robó datos,"
+  },
+  {
+    "file": "0_12.jpg",
+    "startSec": 12.66,
+    "text": "no pidió un rescate."
+  },
+  {
+    "file": "0_14.jpg",
+    "startSec": 14.7,
+    "text": "Solo tenía una mesión y la cumplió en silencio durante meses."
+  },
+  {
+    "file": "0_19.jpg",
+    "startSec": 19.74,
+    "text": "Hoy vamos a contar cómo se descubrió el arma informática más sofisticada, jamás creada,"
+  },
+  {
+    "file": "0_25.jpg",
+    "startSec": 25.06,
+    "text": "y por qué se descubrió por puro accidente."
+  },
+  {
+    "file": "0_28.jpg",
+    "startSec": 28.46,
+    "text": "Todo empieza en una planta de enriquecimiento de uranio en Natanz, Irán."
+  },
+  {
+    "file": "0_33.jpg",
+    "startSec": 33.72,
+    "text": "Miles de centrifugadoras giraban día y noche a una velocidad altísima,"
+  },
+  {
+    "file": "0_37.jpg",
+    "startSec": 37.7,
+    "text": "separando el uranio que Irán necesitaba para su programa nuclear."
+  },
+  {
+    "file": "0_42.jpg",
+    "startSec": 42.06,
+    "text": "A finales de 2009,"
+  },
+  {
+    "file": "0_43.jpg",
+    "startSec": 43.66,
+    "text": "esas centrifugadoras empezaron a romperse."
+  },
+  {
+    "file": "0_46.jpg",
+    "startSec": 46.56,
+    "text": "Una detrás de otra sin motivo aparente."
+  },
+  {
+    "file": "0_49.jpg",
+    "startSec": 49.66,
+    "text": "Los ingenieros revisaban cada pieza, cada motor,"
+  },
+  {
+    "file": "0_52.jpg",
+    "startSec": 52.86,
+    "text": "cada cable. Todo parecía perfecto, y aún así seguían fallando."
+  },
+  {
+    "file": "0_58.jpg",
+    "startSec": 58.18,
+    "text": "Lo que nadie sabía todavía es que el problema no estaba en las máquinas,"
+  },
+  {
+    "file": "1_02.jpg",
+    "startSec": 62.4,
+    "text": "estaba en el código que las controlaba."
+  },
+  {
+    "file": "1_04.jpg",
+    "startSec": 64.98,
+    "text": "Ese código vivía dentro de un sistema industrial llamado Escada,"
+  },
+  {
+    "file": "1_09.jpg",
+    "startSec": 69.04,
+    "text": "el tipo de software que controlas fábricas, plantas eléctricas y en este caso centrifugadoras nucleares."
+  },
+  {
+    "file": "1_15.jpg",
+    "startSec": 75.84,
+    "text": "Un gusano informático se había colado ahí dentro y hacía dos cosas a la vez con una precisión quirúrgica."
+  },
+  {
+    "file": "1_22.jpg",
+    "startSec": 82.84,
+    "text": "Primero, aceleraba y frenaba las centrifugadoras de forma errática hasta que la fricción las destruía por dentro."
+  },
+  {
+    "file": "1_29.jpg",
+    "startSec": 89.68,
+    "text": "Y segundo, mientras tanto,"
+  },
+  {
+    "file": "1_31.jpg",
+    "startSec": 91.7,
+    "text": "le mostraba a los operarios en sus pantallas de control que todo funcionaba con total normalidad."
+  },
+  {
+    "file": "1_37.jpg",
+    "startSec": 97.68,
+    "text": "Los ingenieros miraban un panel que decía que todo iba bien,"
+  },
+  {
+    "file": "1_41.jpg",
+    "startSec": 101.04,
+    "text": "mientras a pocos metros las máquinas se destrozaban solas."
+  },
+  {
+    "file": "1_45.jpg",
+    "startSec": 105.36,
+    "text": "Para lograr algo así,"
+  },
+  {
+    "file": "1_46.jpg",
+    "startSec": 106.82,
+    "text": "el virus necesitaba entrar en una red que ni siquiera estaba conectada a Internet."
+  },
+  {
+    "file": "1_51.jpg",
+    "startSec": 111.7,
+    "text": "Natanz usaba lo que se llama un ERGAP,"
+  },
+  {
+    "file": "1_54.jpg",
+    "startSec": 114.9,
+    "text": "una separación física total respecto al exterior,"
+  },
+  {
+    "file": "1_57.jpg",
+    "startSec": 117.86,
+    "text": "precisamente para evitar esto."
+  },
+  {
+    "file": "2_00.jpg",
+    "startSec": 120.08,
+    "text": "StaxNet saltó ese muro usando algo tan simple como memoria USB infectadas que alguien conectó dentro de la planta sin saberlo."
+  },
+  {
+    "file": "2_09.jpg",
+    "startSec": 129.62,
+    "text": "Y para moverse sin ser detectado usaba cuatro vulnerabilidades de windows que nadie conocía todavía ni siquiera Microsoft."
+  },
+  {
+    "file": "2_17.jpg",
+    "startSec": 137.2,
+    "text": "Cuatro agujeros de seguridad nunca vistos, gastados de golpe en un solo ataque."
+  },
+  {
+    "file": "2_22.jpg",
+    "startSec": 142.6,
+    "text": "Eso, por sí solo,"
+  },
+  {
+    "file": "2_23.jpg",
+    "startSec": 143.98,
+    "text": "ya era una locura de recursos."
+  },
+  {
+    "file": "2_26.jpg",
+    "startSec": 146.86,
+    "text": "Y aquí está la parte que de verdad demuestra lo quirúrgico que era este código."
+  },
+  {
+    "file": "2_31.jpg",
+    "startSec": 151.82,
+    "text": "StaxNet no atacaba cualquier sistema industrial que encontraba a su paso, comprobaba antes de hacer nada si esa configuración exacta de centrifugadoras coincidía con la de Natanz. Si no coincidía, se quedaba completamente dormido sin hacer absolutamente nada,"
+  },
+  {
+    "file": "2_46.jpg",
+    "startSec": 166.94,
+    "text": "esperando."
+  },
+  {
+    "file": "2_48.jpg",
+    "startSec": 168.08,
+    "text": "Eso significa que quien lo creó no quería causar daño en general,"
+  },
+  {
+    "file": "2_52.jpg",
+    "startSec": 172.32,
+    "text": "quería destruir ese objetivo y solo ese objetivo."
+  },
+  {
+    "file": "2_55.jpg",
+    "startSec": 175.96,
+    "text": "Entonces, ¿cómo se descubrió todo esto?"
+  },
+  {
+    "file": "2_58.jpg",
+    "startSec": 178.72,
+    "text": "Por un error de programación,"
+  },
+  {
+    "file": "3_00.jpg",
+    "startSec": 180.36,
+    "text": "no por ninguna investigación de seguridad."
+  },
+  {
+    "file": "3_02.jpg",
+    "startSec": 182.8,
+    "text": "Una actualización del propio StaxNet hizo que el gusano empezara a propagarse fuera de la planta a ordenadores normales por todo el mundo."
+  },
+  {
+    "file": "3_10.jpg",
+    "startSec": 190.66,
+    "text": "Una empresa Bielorrusa de Antibirus,"
+  },
+  {
+    "file": "3_12.jpg",
+    "startSec": 192.76,
+    "text": "Virus blocada,"
+  },
+  {
+    "file": "3_14.jpg",
+    "startSec": 194.16,
+    "text": "encontró un código extrañísimo en el ordenador de un cliente en Irán en junio de 2010."
+  },
+  {
+    "file": "3_19.jpg",
+    "startSec": 199.76,
+    "text": "Tiraron del hilo y lo que encontraron de jobo que abierta a toda la industria de la ciberseguridad."
+  },
+  {
+    "file": "3_25.jpg",
+    "startSec": 205.4,
+    "text": "Analistas de todo el mundo empezaron a diseccionar el código durante meses."
+  },
+  {
+    "file": "3_29.jpg",
+    "startSec": 209.44,
+    "text": "Y cuanto más miraban,"
+  },
+  {
+    "file": "3_31.jpg",
+    "startSec": 211.06,
+    "text": "menos sentido tenía que esto fuera obra de un ciber criminal cualquiera. La complejidad, los cuatro días cero, el conocimiento específico de equipos industriales de Siemens,"
+  },
+  {
+    "file": "3_40.jpg",
+    "startSec": 220.94,
+    "text": "todo apuntaba a un nivel de recursos propio de un estado."
+  },
+  {
+    "file": "3_44.jpg",
+    "startSec": 224.88,
+    "text": "Investigadores de seguridad con base en el código y en informes periodísticos posteriores apuntaron a una operación conjunta entre Estados Unidos e Israel."
+  },
+  {
+    "file": "3_53.jpg",
+    "startSec": 233.5,
+    "text": "Ni un gobierno ni el otro, lo ha confirmado jamás oficialmente,"
+  },
+  {
+    "file": "3_57.jpg",
+    "startSec": 237.8,
+    "text": "sigue siendo técnicamente un secreto de estado."
+  },
+  {
+    "file": "4_01.jpg",
+    "startSec": 241.36,
+    "text": "El resultado final, según estimaciones de la época,"
+  },
+  {
+    "file": "4_04.jpg",
+    "startSec": 244.6,
+    "text": "fue la destrucción de alrededor de 1000 centrifugadores."
+  },
+  {
+    "file": "4_07.jpg",
+    "startSec": 247.94,
+    "text": "Un golpe real al programa nuclear iraní conseguido sin un solo soldado, sin un solo misil,"
+  },
+  {
+    "file": "4_13.jpg",
+    "startSec": 253.66,
+    "text": "sin cruzar ninguna frontera física."
+  },
+  {
+    "file": "4_16.jpg",
+    "startSec": 256.26,
+    "text": "Por eso a Staxnet se le considera la primera arma puramente digital de la historia con un daño físico confirmado."
+  },
+  {
+    "file": "4_22.jpg",
+    "startSec": 262.6,
+    "text": "Y por eso también habría una puerta que ya no se puede cerrar,"
+  },
+  {
+    "file": "4_26.jpg",
+    "startSec": 266.04,
+    "text": "la de la guerra entre países librada con código en vez de con armas."
+  },
+  {
+    "file": "4_30.jpg",
+    "startSec": 270.2,
+    "text": "Así que la próxima vez que pienses que un virus solo puede robarte datos o pedirte un rescate,"
+  },
+  {
+    "file": "4_35.jpg",
+    "startSec": 275.7,
+    "text": "recuerda Natanz."
+  },
+  {
+    "file": "4_37.jpg",
+    "startSec": 277.34,
+    "text": "Ahí un puñado de líneas de código hizo lo que antes solo lograba un ejército,"
+  },
+  {
+    "file": "4_42.jpg",
+    "startSec": 282.98,
+    "text": "y lo hizo mientras las pantallas de control decían tranquilamente que no pasaban nada."
+  },
+  {
+    "file": "4_48.jpg",
+    "startSec": 288.62,
+    "text": "Si esto te ha volado la cabeza, suscríbete, se viene más de este mundo."
+  }
+]

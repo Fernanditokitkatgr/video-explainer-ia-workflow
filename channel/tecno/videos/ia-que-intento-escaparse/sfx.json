@@ -1,0 +1,19 @@
+{
+  "sfx": [
+    { "file": "intro_dark.mp3", "startSec": 0.0, "duration": 1.8, "volume": 0.14, "prompt": "dark tense cinematic drone, corporate unease, no music" },
+    { "file": "setup_reveal.mp3", "startSec": 56.58, "duration": 1.3, "volume": 0.14, "prompt": "short neutral reveal chime introducing an experimental setup" },
+    { "file": "blackmail_sting.mp3", "startSec": 89.76, "duration": 1.5, "volume": 0.17, "prompt": "sharp menacing sting, a threat being made, dark and abrupt" },
+    { "file": "honest_pause.mp3", "startSec": 125.6, "duration": 1.4, "volume": 0.14, "prompt": "calm tonal reset, stepping back to add nuance, no music" },
+    { "file": "escape_creep.mp3", "startSec": 179.96, "duration": 1.6, "volume": 0.15, "prompt": "sneaky creeping synth suggesting something slipping out, no music" },
+    { "file": "external_audit.mp3", "startSec": 227.02, "duration": 1.4, "volume": 0.14, "prompt": "clean investigative scanning tone, external review, precise" },
+    { "file": "three_count.mp3", "startSec": 258.36, "duration": 1.2, "volume": 0.15, "prompt": "three short crisp ticks counting items, clean" },
+    { "file": "hidden_note.mp3", "startSec": 274.4, "duration": 1.6, "volume": 0.17, "prompt": "eerie whisper-like sting, a hidden message left behind, unsettling" },
+    { "file": "question_turn.mp3", "startSec": 290.94, "duration": 1.3, "volume": 0.14, "prompt": "curious rising question sting, short and inquisitive" },
+    { "file": "response_beat.mp3", "startSec": 343.04, "duration": 1.3, "volume": 0.14, "prompt": "decisive institutional beat, an organisation responding" },
+    { "file": "good_news.mp3", "startSec": 362.18, "duration": 1.4, "volume": 0.15, "prompt": "warm hopeful lift, a piece of good news, short and bright" },
+    { "file": "caution_back.mp3", "startSec": 383.9, "duration": 1.4, "volume": 0.14, "prompt": "sobering low tone pulling back from optimism, serious" },
+    { "file": "closing_turn.mp3", "startSec": 405.38, "duration": 1.4, "volume": 0.14, "prompt": "cinematic closing swell, wrapping up a grave story" },
+    { "file": "subscribe_chime.mp3", "startSec": 428.88, "duration": 1.2, "volume": 0.17, "prompt": "bright cheerful notification bell chime, friendly and short" }
+  ],
+  "music": { "file": "musica-canal.mp3", "duration": 30, "volume": 0.3, "prompt": "reused channel background music loop" }
+}

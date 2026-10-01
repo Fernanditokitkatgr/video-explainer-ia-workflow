@@ -27,10 +27,280 @@ import { ComoHackeanUnaWeb } from "./ComoHackeanUnaWeb";
 import { TeClonanLaVoz } from "./TeClonanLaVoz";
 import { SieteMitosCiberseguridad } from "./SieteMitosCiberseguridad";
 import { PorQueLaIaSeInventaCosas } from "./PorQueLaIaSeInventaCosas";
+import { ElRoboDelBancoDeBangladesh } from "./ElRoboDelBancoDeBangladesh";
+import { Stuxnet } from "./Stuxnet";
+import { MalwareAppIaBitcoin } from "./MalwareAppIaBitcoin";
+import { Exchange22000Servidores } from "./Exchange22000Servidores";
+import { ChavalLapsus } from "./ChavalLapsus";
+import { IaQueMintioO1 } from "./IaQueMintioO1";
+import { QueHaceDataScientist } from "./QueHaceDataScientist";
+import { InvestigadorAnthropicDimite } from "./InvestigadorAnthropicDimite";
+import { LaIaVaAAcabarConNosotros } from "./LaIaVaAAcabarConNosotros";
+import { IaQueIntentoEscaparse } from "./IaQueIntentoEscaparse";
+import { QueHaceRedTeam } from "./QueHaceRedTeam";
+import { QueHacenLosAgentesDeIA } from "./QueHacenLosAgentesDeIA";
+import { QueHaceDataEngineer } from "./QueHaceDataEngineer";
+import { GeminiHackeoTresEmpresas } from "./GeminiHackeoTresEmpresas";
+import { QueHaceAiEngineer } from "./QueHaceAiEngineer";
+import { AgentesOpenaiWikiAlemana } from "./AgentesOpenaiWikiAlemana";
+import { QueHaceAnalistaSoc } from "./QueHaceAnalistaSoc";
+import { QueHaceDataAnalyst } from "./QueHaceDataAnalyst";
+import { IaIdentidadesFalsasDesarrollador } from "./IaIdentidadesFalsasDesarrollador";
+import { QueHaceMachineLearningEngineer } from "./QueHaceMachineLearningEngineer";
+import { IaSeDeclaroLiberada } from "./IaSeDeclaroLiberada";
+import { QueHacePromptEngineer } from "./QueHacePromptEngineer";
+import { AsmlMaquinaMasImportante } from "./AsmlMaquinaMasImportante";
+import { QueHayDentroDeUnProcesador } from "./QueHayDentroDeUnProcesador";
+import { ComoFuncionaInternetCablesSubmarinos } from "./ComoFuncionaInternetCablesSubmarinos";
+import { QuePasaCuandoEscribesEnChatgpt } from "./QuePasaCuandoEscribesEnChatgpt";
+import { AsiAdivinanTuContrasena } from "./AsiAdivinanTuContrasena";
+import { ComoFuncionaElGps } from "./ComoFuncionaElGps";
+import { WannacryElVirusQueTumboMedioMundo } from "./WannacryElVirusQueTumboMedioMundo";
+import { QueEsLaComputacionCuantica } from "./QueEsLaComputacionCuantica";
 
 export const RemotionRoot: React.FC = () => {
   return (
     <>
+      <Composition
+        id="QueEsLaComputacionCuantica"
+        component={QueEsLaComputacionCuantica}
+        durationInFrames={13827}
+        fps={30}
+        width={1920}
+        height={1080}
+      />
+      <Composition
+        id="WannacryElVirusQueTumboMedioMundo"
+        component={WannacryElVirusQueTumboMedioMundo}
+        durationInFrames={12560}
+        fps={30}
+        width={1920}
+        height={1080}
+      />
+      <Composition
+        id="ComoFuncionaElGps"
+        component={ComoFuncionaElGps}
+        durationInFrames={12811}
+        fps={30}
+        width={1920}
+        height={1080}
+      />
+      <Composition
+        id="AsiAdivinanTuContrasena"
+        component={AsiAdivinanTuContrasena}
+        durationInFrames={13885}
+        fps={30}
+        width={1920}
+        height={1080}
+      />
+      <Composition
+        id="QuePasaCuandoEscribesEnChatgpt"
+        component={QuePasaCuandoEscribesEnChatgpt}
+        durationInFrames={12841}
+        fps={30}
+        width={1920}
+        height={1080}
+      />
+      <Composition
+        id="ComoFuncionaInternetCablesSubmarinos"
+        component={ComoFuncionaInternetCablesSubmarinos}
+        durationInFrames={12571}
+        fps={30}
+        width={1920}
+        height={1080}
+      />
+      <Composition
+        id="QueHayDentroDeUnProcesador"
+        component={QueHayDentroDeUnProcesador}
+        durationInFrames={12239}
+        fps={30}
+        width={1920}
+        height={1080}
+      />
+      <Composition
+        id="AsmlMaquinaMasImportante"
+        component={AsmlMaquinaMasImportante}
+        durationInFrames={12299}
+        fps={30}
+        width={1920}
+        height={1080}
+      />
+      <Composition
+        id="QueHacePromptEngineer"
+        component={QueHacePromptEngineer}
+        durationInFrames={11600}
+        fps={30}
+        width={1920}
+        height={1080}
+      />
+      <Composition
+        id="IaSeDeclaroLiberada"
+        component={IaSeDeclaroLiberada}
+        durationInFrames={11185}
+        fps={30}
+        width={1920}
+        height={1080}
+      />
+      <Composition
+        id="QueHaceMachineLearningEngineer"
+        component={QueHaceMachineLearningEngineer}
+        durationInFrames={12669}
+        fps={30}
+        width={1920}
+        height={1080}
+      />
+      <Composition
+        id="IaIdentidadesFalsasDesarrollador"
+        component={IaIdentidadesFalsasDesarrollador}
+        durationInFrames={10790}
+        fps={30}
+        width={1920}
+        height={1080}
+      />
+      <Composition
+        id="QueHaceDataAnalyst"
+        component={QueHaceDataAnalyst}
+        durationInFrames={11228}
+        fps={30}
+        width={1920}
+        height={1080}
+      />
+      <Composition
+        id="QueHaceAnalistaSoc"
+        component={QueHaceAnalistaSoc}
+        durationInFrames={11244}
+        fps={30}
+        width={1920}
+        height={1080}
+      />
+      <Composition
+        id="AgentesOpenaiWikiAlemana"
+        component={AgentesOpenaiWikiAlemana}
+        durationInFrames={11117}
+        fps={30}
+        width={1920}
+        height={1080}
+      />
+      <Composition
+        id="QueHaceAiEngineer"
+        component={QueHaceAiEngineer}
+        durationInFrames={11858}
+        fps={30}
+        width={1920}
+        height={1080}
+      />
+      <Composition
+        id="GeminiHackeoTresEmpresas"
+        component={GeminiHackeoTresEmpresas}
+        durationInFrames={11809}
+        fps={30}
+        width={1920}
+        height={1080}
+      />
+      <Composition
+        id="QueHaceDataEngineer"
+        component={QueHaceDataEngineer}
+        durationInFrames={9782}
+        fps={30}
+        width={1920}
+        height={1080}
+      />
+      <Composition
+        id="QueHacenLosAgentesDeIA"
+        component={QueHacenLosAgentesDeIA}
+        durationInFrames={10494}
+        fps={30}
+        width={1920}
+        height={1080}
+      />
+      <Composition
+        id="IaQueIntentoEscaparse"
+        component={IaQueIntentoEscaparse}
+        durationInFrames={10844}
+        fps={30}
+        width={1920}
+        height={1080}
+      />
+      <Composition
+        id="QueHaceRedTeam"
+        component={QueHaceRedTeam}
+        durationInFrames={10727}
+        fps={30}
+        width={1920}
+        height={1080}
+      />
+      <Composition
+        id="LaIaVaAAcabarConNosotros"
+        component={LaIaVaAAcabarConNosotros}
+        durationInFrames={10481}
+        fps={30}
+        width={1920}
+        height={1080}
+      />
+      <Composition
+        id="InvestigadorAnthropicDimite"
+        component={InvestigadorAnthropicDimite}
+        durationInFrames={8651}
+        fps={30}
+        width={1920}
+        height={1080}
+      />
+      <Composition
+        id="IaQueMintioO1"
+        component={IaQueMintioO1}
+        durationInFrames={6238}
+        fps={30}
+        width={1920}
+        height={1080}
+      />
+      <Composition
+        id="QueHaceDataScientist"
+        component={QueHaceDataScientist}
+        durationInFrames={5950}
+        fps={30}
+        width={1920}
+        height={1080}
+      />
+      <Composition
+        id="ChavalLapsus"
+        component={ChavalLapsus}
+        durationInFrames={7647}
+        fps={30}
+        width={1920}
+        height={1080}
+      />
+      <Composition
+        id="Exchange22000Servidores"
+        component={Exchange22000Servidores}
+        durationInFrames={6578}
+        fps={30}
+        width={1920}
+        height={1080}
+      />
+      <Composition
+        id="MalwareAppIaBitcoin"
+        component={MalwareAppIaBitcoin}
+        durationInFrames={6596}
+        fps={30}
+        width={1920}
+        height={1080}
+      />
+      <Composition
+        id="Stuxnet"
+        component={Stuxnet}
+        durationInFrames={7317}
+        fps={30}
+        width={1920}
+        height={1080}
+      />
+      <Composition
+        id="ElRoboDelBancoDeBangladesh"
+        component={ElRoboDelBancoDeBangladesh}
+        durationInFrames={8079}
+        fps={30}
+        width={1920}
+        height={1080}
+      />
       <Composition
         id="PorQueLaIaSeInventaCosas"
         component={PorQueLaIaSeInventaCosas}

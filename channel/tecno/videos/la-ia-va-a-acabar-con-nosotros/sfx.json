@@ -1,0 +1,20 @@
+{
+  "sfx": [
+    { "file": "cabin_intro.mp3", "startSec": 0.0, "duration": 1.8, "volume": 0.13, "prompt": "muffled airplane cabin ambience with a soft boarding chime, short" },
+    { "file": "stat_drop.mp3", "startSec": 14.38, "duration": 1.3, "volume": 0.16, "prompt": "short serious data reveal sting, a number landing hard" },
+    { "file": "term_reveal.mp3", "startSec": 41.06, "duration": 1.2, "volume": 0.15, "prompt": "clean neutral reveal chime introducing a technical term" },
+    { "file": "survey_tally.mp3", "startSec": 82.9, "duration": 1.4, "volume": 0.14, "prompt": "rapid soft tally clicks like many responses being counted" },
+    { "file": "number_reveal.mp3", "startSec": 97.74, "duration": 1.3, "volume": 0.16, "prompt": "short digital figure reveal sting, precise and clean" },
+    { "file": "chasm_open.mp3", "startSec": 134.38, "duration": 1.6, "volume": 0.15, "prompt": "deep low rumble of ground splitting open, gap widening, no music" },
+    { "file": "clash_contrast.mp3", "startSec": 158.62, "duration": 1.3, "volume": 0.16, "prompt": "two opposing tones clashing sharply, contrast sting" },
+    { "file": "question_turn.mp3", "startSec": 186.82, "duration": 1.3, "volume": 0.14, "prompt": "curious rising question sting, short and inquisitive" },
+    { "file": "dice_three.mp3", "startSec": 204.92, "duration": 1.3, "volume": 0.15, "prompt": "three dice rolling and settling on a table, short" },
+    { "file": "caveat_low.mp3", "startSec": 258.22, "duration": 1.4, "volume": 0.14, "prompt": "low confidential tone, about to reveal an important caveat" },
+    { "file": "the_question.mp3", "startSec": 306.22, "duration": 1.5, "volume": 0.16, "prompt": "serious suspended sting holding an unanswered question, no music" },
+    { "file": "not_zero.mp3", "startSec": 343.16, "duration": 1.3, "volume": 0.16, "prompt": "firm decisive underline sting, a point being established" },
+    { "file": "safety_systems.mp3", "startSec": 371.92, "duration": 1.4, "volume": 0.14, "prompt": "steady mechanical safety-check sequence, reassuring and orderly" },
+    { "file": "closing_turn.mp3", "startSec": 383.62, "duration": 1.4, "volume": 0.14, "prompt": "calm closing transition swell, wrapping up a serious argument" },
+    { "file": "subscribe_chime.mp3", "startSec": 414.0, "duration": 1.2, "volume": 0.17, "prompt": "bright cheerful notification bell chime, friendly and short" }
+  ],
+  "music": { "file": "musica-canal.mp3", "duration": 30, "volume": 0.3, "prompt": "reused channel background music loop" }
+}

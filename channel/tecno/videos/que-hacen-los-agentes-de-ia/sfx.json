@@ -1,0 +1,17 @@
+{
+  "sfx": [
+    { "file": "intro_curious.mp3", "startSec": 0.0, "duration": 1.4, "volume": 0.14, "prompt": "light curious playful chime, inquisitive and friendly, no music" },
+    { "file": "loop_start.mp3", "startSec": 53.26, "duration": 1.3, "volume": 0.15, "prompt": "mechanical whirring loop sound, a cycle beginning, short and clean" },
+    { "file": "myth_bust.mp3", "startSec": 96.72, "duration": 1.2, "volume": 0.16, "prompt": "short comedic buzzer negation sound, myth busted, playful" },
+    { "file": "reveal_twist.mp3", "startSec": 165.96, "duration": 1.4, "volume": 0.16, "prompt": "curious rising sting, short surprising reveal chime" },
+    { "file": "glitch_error.mp3", "startSec": 199.1, "duration": 1.3, "volume": 0.16, "prompt": "short digital glitch stutter, an error occurring, precise electronic scan" },
+    { "file": "serious_turn.mp3", "startSec": 242.54, "duration": 1.4, "volume": 0.14, "prompt": "serious low tonal shift, grave cinematic transition" },
+    { "file": "quiet_drift.mp3", "startSec": 265.82, "duration": 1.4, "volume": 0.14, "prompt": "hushed subtle unease tone, something quietly going wrong, no music" },
+    { "file": "question_check.mp3", "startSec": 301.42, "duration": 1.2, "volume": 0.14, "prompt": "gentle inquisitive checking tone, self-verification, calm" },
+    { "file": "money_chime.mp3", "startSec": 316.5, "duration": 1.3, "volume": 0.17, "prompt": "short coin cash register chime, salary reveal, cheerful" },
+    { "file": "path_question.mp3", "startSec": 347.18, "duration": 1.3, "volume": 0.14, "prompt": "light inquisitive transition, asking how to get somewhere" },
+    { "file": "closing_turn.mp3", "startSec": 389.64, "duration": 1.4, "volume": 0.14, "prompt": "warm closing transition swell, wrapping up an argument" },
+    { "file": "subscribe_chime.mp3", "startSec": 412.58, "duration": 1.2, "volume": 0.17, "prompt": "bright cheerful notification bell chime, friendly and short" }
+  ],
+  "music": { "file": "musica-canal.mp3", "duration": 30, "volume": 0.3, "prompt": "reused channel background music loop" }
+}

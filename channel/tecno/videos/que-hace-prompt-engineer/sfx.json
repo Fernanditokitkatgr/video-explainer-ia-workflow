@@ -1,0 +1,15 @@
+{
+  "sfx": [
+    { "file": "intro_curious.mp3", "startSec": 0.0, "duration": 1.4, "volume": 0.14, "prompt": "light curious playful chime, inquisitive and friendly, no music" },
+    { "file": "example_intro.mp3", "startSec": 67.94, "duration": 1.3, "volume": 0.14, "prompt": "light curious transition tone, introducing a concrete example" },
+    { "file": "hidden_reveal.mp3", "startSec": 122.64, "duration": 1.4, "volume": 0.16, "prompt": "short warm insight chime, a hidden part of the job revealed, satisfying" },
+    { "file": "myth_twist.mp3", "startSec": 191.56, "duration": 1.4, "volume": 0.16, "prompt": "curious rising sting, a myth about to be busted, short and playful" },
+    { "file": "tools_transition.mp3", "startSec": 246.82, "duration": 1.3, "volume": 0.14, "prompt": "light neutral transition tone, moving to tools and techniques" },
+    { "file": "money_question.mp3", "startSec": 310.88, "duration": 1.2, "volume": 0.14, "prompt": "light inquisitive transition tone, asking about numbers" },
+    { "file": "money_chime.mp3", "startSec": 316.3, "duration": 1.3, "volume": 0.17, "prompt": "short coin cash register chime, salary reveal, cheerful" },
+    { "file": "question_transition.mp3", "startSec": 364.16, "duration": 1.3, "volume": 0.14, "prompt": "light inquisitive transition tone, asking how to get started" },
+    { "file": "insight_chime.mp3", "startSec": 414.36, "duration": 1.3, "volume": 0.15, "prompt": "short warm insight chime, finding the root cause, satisfying" },
+    { "file": "subscribe_chime.mp3", "startSec": 456.68, "duration": 1.2, "volume": 0.17, "prompt": "bright cheerful notification bell chime, friendly and short" }
+  ],
+  "music": { "file": "musica-canal.mp3", "duration": 30, "volume": 0.3, "prompt": "reused channel background music loop" }
+}

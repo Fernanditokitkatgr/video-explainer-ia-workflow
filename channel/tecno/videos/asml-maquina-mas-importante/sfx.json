@@ -1,0 +1,19 @@
+{
+  "sfx": [
+    { "file": "intro_curious.mp3", "startSec": 0.0, "duration": 1.4, "volume": 0.14, "prompt": "light curious playful chime, inquisitive and intriguing, short, no music" },
+    { "file": "tiny_zoom.mp3", "startSec": 30.0, "duration": 1.3, "volume": 0.14, "prompt": "short microscopic zoom-in whoosh, going very small, clean" },
+    { "file": "projector_click.mp3", "startSec": 66.3, "duration": 1.2, "volume": 0.15, "prompt": "short slide projector click and hum, clean" },
+    { "file": "rising_graph.mp3", "startSec": 112.3, "duration": 1.3, "volume": 0.14, "prompt": "short rising ascending tone, growth, optimistic and clean" },
+    { "file": "reveal_chime.mp3", "startSec": 144.2, "duration": 1.4, "volume": 0.16, "prompt": "short satisfying discovery chime, a solution revealed, clean" },
+    { "file": "scifi_sting.mp3", "startSec": 189.9, "duration": 1.4, "volume": 0.16, "prompt": "short futuristic sci-fi sting, something incredible about to be shown" },
+    { "file": "laser_zap.mp3", "startSec": 202.6, "duration": 1.2, "volume": 0.17, "prompt": "two quick laser zaps followed by a tiny pop, sci-fi, clean" },
+    { "file": "mirror_shimmer.mp3", "startSec": 246.7, "duration": 1.3, "volume": 0.14, "prompt": "short crystalline glass shimmer, perfectly smooth surface, clean" },
+    { "file": "power_sting.mp3", "startSec": 288.5, "duration": 1.4, "volume": 0.17, "prompt": "short powerful dramatic sting, a revelation about power and control" },
+    { "file": "money_chime.mp3", "startSec": 309.7, "duration": 1.3, "volume": 0.16, "prompt": "short coin cash register chime, huge price reveal" },
+    { "file": "chain_clank.mp3", "startSec": 361.3, "duration": 1.3, "volume": 0.15, "prompt": "short heavy metal chain clank, one link, clean" },
+    { "file": "tense_transition.mp3", "startSec": 381.5, "duration": 1.4, "volume": 0.14, "prompt": "short tense geopolitical transition tone, serious, no music" },
+    { "file": "closing_turn.mp3", "startSec": 454.3, "duration": 1.4, "volume": 0.14, "prompt": "warm closing transition swell, wrapping up an argument" },
+    { "file": "subscribe_chime.mp3", "startSec": 485.2, "duration": 1.2, "volume": 0.17, "prompt": "bright cheerful notification bell chime, friendly and short" }
+  ],
+  "music": { "file": "musica-canal.mp3", "duration": 30, "volume": 0.3, "prompt": "reused channel background music loop" }
+}

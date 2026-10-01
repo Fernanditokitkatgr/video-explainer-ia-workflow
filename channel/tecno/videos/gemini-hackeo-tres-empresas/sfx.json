@@ -1,0 +1,17 @@
+{
+  "sfx": [
+    { "file": "intro_curious.mp3", "startSec": 0.0, "duration": 1.4, "volume": 0.14, "prompt": "light curious playful chime, inquisitive and friendly, no music" },
+    { "file": "reveal_twist.mp3", "startSec": 14.26, "duration": 1.4, "volume": 0.17, "prompt": "tense rising sting, an alarming reveal, short and dramatic" },
+    { "file": "suspicious_shift.mp3", "startSec": 66.5, "duration": 1.3, "volume": 0.15, "prompt": "low suspicious tonal shift, something is wrong, short cinematic" },
+    { "file": "connect_glitch.mp3", "startSec": 112.88, "duration": 1.3, "volume": 0.16, "prompt": "short digital connection chime, a network link established, electronic" },
+    { "file": "bruteforce_clicks.mp3", "startSec": 154.7, "duration": 1.3, "volume": 0.16, "prompt": "rapid mechanical clicking sound, lock picking attempts, precise and fast" },
+    { "file": "found_unlock.mp3", "startSec": 167.16, "duration": 1.2, "volume": 0.16, "prompt": "short unlock click sound, a lock opening, satisfying and clean" },
+    { "file": "realization_sting.mp3", "startSec": 193.98, "duration": 1.3, "volume": 0.16, "prompt": "short surprising realization chime, a sudden understanding, curious" },
+    { "file": "hard_stop.mp3", "startSec": 205.76, "duration": 1.2, "volume": 0.17, "prompt": "short mechanical brake stop sound, an abrupt halt, decisive" },
+    { "file": "hushed_tension.mp3", "startSec": 273.08, "duration": 1.4, "volume": 0.14, "prompt": "hushed subtle unease tone, something being kept quiet, no music" },
+    { "file": "phone_notification.mp3", "startSec": 291.48, "duration": 1.2, "volume": 0.16, "prompt": "short phone notification ring, a journalist calling, clean and short" },
+    { "file": "transition_swell.mp3", "startSec": 331.86, "duration": 1.4, "volume": 0.14, "prompt": "warm transition swell, moving to a related topic, cinematic" },
+    { "file": "subscribe_chime.mp3", "startSec": 463.18, "duration": 1.2, "volume": 0.17, "prompt": "bright cheerful notification bell chime, friendly and short" }
+  ],
+  "music": { "file": "musica-canal.mp3", "duration": 30, "volume": 0.3, "prompt": "reused channel background music loop" }
+}

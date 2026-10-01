@@ -1,0 +1,13 @@
+{
+  "video": "que-hay-dentro-de-un-procesador",
+  "steps": {
+    "voice": "done",
+    "whisper": "done",
+    "inject": "done",
+    "images": "done",
+    "sfx": "done",
+    "validate": "done",
+    "preflight": "done",
+    "render": "done"
+  }
+}

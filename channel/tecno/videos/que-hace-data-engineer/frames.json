@@ -1,0 +1,895 @@
+{
+  "video": "que-hace-data-engineer",
+  "frames": [
+    {
+      "file": "0_00.jpg",
+      "startSec": 0.0,
+      "text": "Hace unos vídeos te conté que hace de verdad un Data Scientist",
+      "scene": "Close-up: Sara scratching her head, remembering, curious.",
+      "ref": "mono"
+    },
+    {
+      "file": "0_03.jpg",
+      "startSec": 3.38,
+      "text": "y en los comentarios la pregunta que más se repetió fue la misma.",
+      "scene": "Medium shot: Sara tilting her head, listening, curious.",
+      "ref": "mono"
+    },
+    {
+      "file": "0_07.jpg",
+      "startSec": 7.58,
+      "text": "Y el Data Engineer no es lo mismo pero con otro nombre?",
+      "scene": "Wide shot: Sara standing with arms crossed, waiting for the answer, curious.",
+      "ref": "mono"
+    },
+    {
+      "file": "0_11.jpg",
+      "startSec": 11.16,
+      "text": "No. Y la diferencia es más grande de lo que crees.",
+      "scene": "Close-up: Sara shaking her head firmly, serious.",
+      "ref": "mono"
+    },
+    {
+      "file": "0_14.jpg",
+      "startSec": 14.96,
+      "text": "Si el Data Scientist es el que analiza el agua,",
+      "scene": "ONLY this and NOTHING ELSE WHATSOEVER: a magnifying glass hovering over a wavy water-drop icon. ABSOLUTELY NO CHARACTERS IN THIS IMAGE unless explicitly stated: no monkey, no Sara, no animal, no person, no face, no hooded figure. Icons only. Flat solid colors with thick black ink outlines on pure white, no gradients, no 3D shading, no drop shadows. The artwork must fill the whole 16:9 frame edge to edge, absolutely NO black bars, NO letterboxing. No invented text, no captions, no labels beyond exactly what this scene asks for, and if a specific word or number is requested, copy it EXACTLY letter by letter.",
+      "ref": "none"
+    },
+    {
+      "file": "0_17.jpg",
+      "startSec": 17.6,
+      "text": "el Data Engineer es el que construye las tuberías por las que esa agua tiene que correr.",
+      "scene": "ONLY this and NOTHING ELSE WHATSOEVER: a pipe icon with a water drop flowing through it toward a tap icon. ABSOLUTELY NO CHARACTERS IN THIS IMAGE unless explicitly stated: no monkey, no Sara, no animal, no person, no face, no hooded figure. Icons only. Flat solid colors with thick black ink outlines on pure white, no gradients, no 3D shading, no drop shadows. The artwork must fill the whole 16:9 frame edge to edge, absolutely NO black bars, NO letterboxing. No invented text, no captions, no labels beyond exactly what this scene asks for, and if a specific word or number is requested, copy it EXACTLY letter by letter.",
+      "ref": "none"
+    },
+    {
+      "file": "0_22.jpg",
+      "startSec": 22.58,
+      "text": "Hoy te cuento qué hace de verdad,",
+      "scene": "ONLY this and NOTHING ELSE WHATSOEVER: Sara standing beside a wooden signpost with two direction-arrow signs on it, one showing a plain pipe icon, one showing a plain wrench icon. The artwork must fill the whole 16:9 frame completely edge to edge with no empty space, absolutely NO black bars, NO letterboxing, NO borders of any color top or bottom or sides — the illustration itself must extend all the way to every edge of the image. No invented text, no captions, no labels, no words of any kind anywhere in the image.",
+      "ref": "mono"
+    },
+    {
+      "file": "0_24.jpg",
+      "startSec": 24.46,
+      "text": "qué pasa cuando esas tuberías se rompen",
+      "scene": "ONLY this and NOTHING ELSE WHATSOEVER: a pipe icon with a small crack in the middle. ABSOLUTELY NO CHARACTERS IN THIS IMAGE unless explicitly stated: no monkey, no Sara, no animal, no person, no face, no hooded figure. Icons only. Flat solid colors with thick black ink outlines on pure white, no gradients, no 3D shading, no drop shadows. The artwork must fill the whole 16:9 frame edge to edge, absolutely NO black bars, NO letterboxing. No invented text, no captions, no labels beyond exactly what this scene asks for, and if a specific word or number is requested, copy it EXACTLY letter by letter.",
+      "ref": "none"
+    },
+    {
+      "file": "0_26.jpg",
+      "startSec": 26.22,
+      "text": "y un dato que te va a sorprender sobre el sueldo.",
+      "scene": "ONLY this and NOTHING ELSE WHATSOEVER: a coin icon with a large question mark beside it. ABSOLUTELY NO CHARACTERS IN THIS IMAGE unless explicitly stated: no monkey, no Sara, no animal, no person, no face, no hooded figure. Icons only. Flat solid colors with thick black ink outlines on pure white, no gradients, no 3D shading, no drop shadows. The artwork must fill the whole 16:9 frame edge to edge, absolutely NO black bars, NO letterboxing. No invented text, no captions, no labels beyond exactly what this scene asks for, and if a specific word or number is requested, copy it EXACTLY letter by letter.",
+      "ref": "none"
+    },
+    {
+      "file": "0_29.jpg",
+      "startSec": 29.54,
+      "text": "Vamos con la diferencia real.",
+      "scene": "Close-up: Sara nodding, serious, explaining.",
+      "ref": "mono"
+    },
+    {
+      "file": "0_31.jpg",
+      "startSec": 31.7,
+      "text": "Un Data Scientist recibe datos más o menos limpios y construye modelos con ellos.",
+      "scene": "Medium shot: Sara holding a magnifying glass over a water-drop icon, curious.",
+      "ref": "mono"
+    },
+    {
+      "file": "0_36.jpg",
+      "startSec": 36.64,
+      "text": "Un Data Engineer es quien se asegura de que esos datos lleguen limpios completos",
+      "scene": "Close-up: Sara pointing at a pipe icon, explaining, serious.",
+      "ref": "mono"
+    },
+    {
+      "file": "0_41.jpg",
+      "startSec": 41.04,
+      "text": "y a tiempo para empezar.",
+      "scene": "ONLY this and NOTHING ELSE WHATSOEVER: a clock icon beside a checkmark icon. ABSOLUTELY NO CHARACTERS IN THIS IMAGE unless explicitly stated: no monkey, no Sara, no animal, no person, no face, no hooded figure. Icons only. Flat solid colors with thick black ink outlines on pure white, no gradients, no 3D shading, no drop shadows. The artwork must fill the whole 16:9 frame edge to edge, absolutely NO black bars, NO letterboxing. No invented text, no captions, no labels beyond exactly what this scene asks for, and if a specific word or number is requested, copy it EXACTLY letter by letter.",
+      "ref": "none"
+    },
+    {
+      "file": "0_42.jpg",
+      "startSec": 42.94,
+      "text": "Sin un Data Engineer detrás,",
+      "scene": "Close-up: Sara shaking her head, worried.",
+      "ref": "mono"
+    },
+    {
+      "file": "0_44.jpg",
+      "startSec": 44.66,
+      "text": "un Data Scientist no tiene con qué trabajar.",
+      "scene": "Close-up: Sara shrugging with empty hands, matter-of-fact.",
+      "ref": "mono"
+    },
+    {
+      "file": "0_47.jpg",
+      "startSec": 47.76,
+      "text": "Es la diferencia entre analizar el agua",
+      "scene": "ONLY this and NOTHING ELSE WHATSOEVER: a magnifying glass over a wavy water-drop icon, alone. ABSOLUTELY NO CHARACTERS IN THIS IMAGE unless explicitly stated: no monkey, no Sara, no animal, no person, no face, no hooded figure. Icons only. Flat solid colors with thick black ink outlines on pure white, no gradients, no 3D shading, no drop shadows. The artwork must fill the whole 16:9 frame edge to edge, absolutely NO black bars, NO letterboxing. No invented text, no captions, no labels beyond exactly what this scene asks for, and if a specific word or number is requested, copy it EXACTLY letter by letter.",
+      "ref": "none"
+    },
+    {
+      "file": "0_49.jpg",
+      "startSec": 49.78,
+      "text": "y construir la tubería que la trae hasta el grifo.",
+      "scene": "ONLY this and NOTHING ELSE WHATSOEVER: a pipe icon carrying a water drop into a tap icon at the end. ABSOLUTELY NO CHARACTERS IN THIS IMAGE unless explicitly stated: no monkey, no Sara, no animal, no person, no face, no hooded figure. Icons only. Flat solid colors with thick black ink outlines on pure white, no gradients, no 3D shading, no drop shadows. The artwork must fill the whole 16:9 frame edge to edge, absolutely NO black bars, NO letterboxing. No invented text, no captions, no labels beyond exactly what this scene asks for, and if a specific word or number is requested, copy it EXACTLY letter by letter.",
+      "ref": "none"
+    },
+    {
+      "file": "0_52.jpg",
+      "startSec": 52.9,
+      "text": "Y construir esa tubería requiere algo que mucha gente no espera,",
+      "scene": "Medium shot: Sara holding a wrench and a gear icon, explaining, curious.",
+      "ref": "mono"
+    },
+    {
+      "file": "0_56.jpg",
+      "startSec": 56.08,
+      "text": "ingeniería de software de verdad.",
+      "scene": "ONLY this and NOTHING ELSE WHATSOEVER: a gear icon connected to a wrench icon by a small line. ABSOLUTELY NO CHARACTERS IN THIS IMAGE unless explicitly stated: no monkey, no Sara, no animal, no person, no face, no hooded figure. Icons only. Flat solid colors with thick black ink outlines on pure white, no gradients, no 3D shading, no drop shadows. The artwork must fill the whole 16:9 frame edge to edge, absolutely NO black bars, NO letterboxing. No invented text, no captions, no labels beyond exactly what this scene asks for, and if a specific word or number is requested, copy it EXACTLY letter by letter.",
+      "ref": "none"
+    },
+    {
+      "file": "0_58.jpg",
+      "startSec": 58.88,
+      "text": "Vamos con un ejemplo real y muy típico.",
+      "scene": "Wide shot: Sara standing beside a giant shopping-cart icon, curious, ready to explain.",
+      "ref": "mono"
+    },
+    {
+      "file": "1_01.jpg",
+      "startSec": 61.9,
+      "text": "Una empresa de comercio electrónico quiere entender el comportamiento de sus clientes.",
+      "scene": "ONLY this and NOTHING ELSE WHATSOEVER: a shopping-cart icon with a small chart icon beside it. ABSOLUTELY NO CHARACTERS IN THIS IMAGE unless explicitly stated: no monkey, no Sara, no animal, no person, no face, no hooded figure. Icons only. Flat solid colors with thick black ink outlines on pure white, no gradients, no 3D shading, no drop shadows. The artwork must fill the whole 16:9 frame edge to edge, absolutely NO black bars, NO letterboxing. No invented text, no captions, no labels beyond exactly what this scene asks for, and if a specific word or number is requested, copy it EXACTLY letter by letter.",
+      "ref": "none"
+    },
+    {
+      "file": "1_06.jpg",
+      "startSec": 66.9,
+      "text": "Para eso necesita juntar tres cosas que viven en sitios completamente distintos.",
+      "scene": "ONLY this and NOTHING ELSE WHATSOEVER: three separate generic icons scattered apart, not connected (a plain gear, a plain database cylinder, a plain folder) — plain flat shapes only, NO text, NO letters, NO words, NO logos, NO brand names, NO labels of any kind on or near the icons. ABSOLUTELY NO CHARACTERS IN THIS IMAGE unless explicitly stated: no monkey, no Sara, no animal, no person, no face, no hooded figure. Icons only. Flat solid colors with thick black ink outlines on pure white, no gradients, no 3D shading, no drop shadows. The artwork must fill the whole 16:9 frame edge to edge, absolutely NO black bars, NO letterboxing.",
+      "ref": "none"
+    },
+    {
+      "file": "1_11.jpg",
+      "startSec": 71.58,
+      "text": "Las transacciones de compra,",
+      "scene": "Close-up: Sara counting the first item on one finger, explaining. ABSOLUTE RULE: no invented text, no captions, no labels, no numbers, no words of any kind anywhere in this image unless a specific word is explicitly quoted in this description — if none is quoted, draw ZERO text, letters, or digits anywhere in the frame.",
+      "ref": "mono"
+    },
+    {
+      "file": "1_13.jpg",
+      "startSec": 73.52,
+      "text": "los clics en la web y los comentarios en redes sociales.",
+      "scene": "ONLY this and NOTHING ELSE WHATSOEVER: a coin icon, a cursor-click icon and a speech-bubble icon in a row. ABSOLUTELY NO CHARACTERS IN THIS IMAGE unless explicitly stated: no monkey, no Sara, no animal, no person, no face, no hooded figure. Icons only. Flat solid colors with thick black ink outlines on pure white, no gradients, no 3D shading, no drop shadows. The artwork must fill the whole 16:9 frame edge to edge, absolutely NO black bars, NO letterboxing. No invented text, no captions, no labels beyond exactly what this scene asks for, and if a specific word or number is requested, copy it EXACTLY letter by letter.",
+      "ref": "none"
+    },
+    {
+      "file": "1_17.jpg",
+      "startSec": 77.58,
+      "text": "Cada una de esas fuentes habla un idioma distinto,",
+      "scene": "ONLY this and NOTHING ELSE WHATSOEVER: three small clock icons showing different times, side by side. ABSOLUTELY NO CHARACTERS IN THIS IMAGE unless explicitly stated: no monkey, no Sara, no animal, no person, no face, no hooded figure. Icons only. Flat solid colors with thick black ink outlines on pure white, no gradients, no 3D shading, no drop shadows. The artwork must fill the whole 16:9 frame edge to edge, absolutely NO black bars, NO letterboxing. No invented text, no captions, no labels beyond exactly what this scene asks for, and if a specific word or number is requested, copy it EXACTLY letter by letter.",
+      "ref": "none"
+    },
+    {
+      "file": "1_20.jpg",
+      "startSec": 80.26,
+      "text": "llega a una velocidad distinta y puede fallar de una forma distinta.",
+      "scene": "ONLY this and NOTHING ELSE WHATSOEVER: three warning-triangle icons in slightly different colors, side by side. ABSOLUTELY NO CHARACTERS IN THIS IMAGE unless explicitly stated: no monkey, no Sara, no animal, no person, no face, no hooded figure. Icons only. Flat solid colors with thick black ink outlines on pure white, no gradients, no 3D shading, no drop shadows. The artwork must fill the whole 16:9 frame edge to edge, absolutely NO black bars, NO letterboxing. No invented text, no captions, no labels beyond exactly what this scene asks for, and if a specific word or number is requested, copy it EXACTLY letter by letter.",
+      "ref": "none"
+    },
+    {
+      "file": "1_24.jpg",
+      "startSec": 84.56,
+      "text": "El Data Engineer construye lo que se llama un pipeline,",
+      "scene": "Medium shot: Sara pointing at a pipe icon, explaining, serious.",
+      "ref": "mono"
+    },
+    {
+      "file": "1_27.jpg",
+      "startSec": 87.76,
+      "text": "una tubería automática que hace tres cosas seguidas sin parar todos los días.",
+      "scene": "ONLY this and NOTHING ELSE WHATSOEVER: a long pipe icon with three small gear-shaped joints along it. ABSOLUTELY NO CHARACTERS IN THIS IMAGE unless explicitly stated: no monkey, no Sara, no animal, no person, no face, no hooded figure. Icons only. Flat solid colors with thick black ink outlines on pure white, no gradients, no 3D shading, no drop shadows. The artwork must fill the whole 16:9 frame edge to edge, absolutely NO black bars, NO letterboxing. No invented text, no captions, no labels beyond exactly what this scene asks for, and if a specific word or number is requested, copy it EXACTLY letter by letter.",
+      "ref": "none"
+    },
+    {
+      "file": "1_32.jpg",
+      "startSec": 92.68,
+      "text": "Extrae los datos de cada fuente,",
+      "scene": "ONLY this and NOTHING ELSE WHATSOEVER: a funnel icon pulling in three small dots from different directions. ABSOLUTELY NO CHARACTERS IN THIS IMAGE unless explicitly stated: no monkey, no Sara, no animal, no person, no face, no hooded figure. Icons only. Flat solid colors with thick black ink outlines on pure white, no gradients, no 3D shading, no drop shadows. The artwork must fill the whole 16:9 frame edge to edge, absolutely NO black bars, NO letterboxing. No invented text, no captions, no labels beyond exactly what this scene asks for, and if a specific word or number is requested, copy it EXACTLY letter by letter.",
+      "ref": "none"
+    },
+    {
+      "file": "1_34.jpg",
+      "startSec": 94.92,
+      "text": "los transforma a un formato como un ilimpio",
+      "scene": "Medium shot: Sara pointing at a transforming gear icon, explaining, curious. ABSOLUTE RULE: no invented text, no captions, no labels, no numbers, no words of any kind anywhere in this image unless a specific word is explicitly quoted in this description — if none is quoted, draw ZERO text, letters, or digits anywhere in the frame.",
+      "ref": "mono"
+    },
+    {
+      "file": "1_37.jpg",
+      "startSec": 97.72,
+      "text": "y los carga en un almacén central donde todo el mundo puede usarlos.",
+      "scene": "Close-up: Sara nodding, serious, explaining.",
+      "ref": "mono"
+    },
+    {
+      "file": "1_41.jpg",
+      "startSec": 101.72,
+      "text": "A eso en el sector se le llama ETL,",
+      "scene": "ONLY this and NOTHING ELSE WHATSOEVER: a plain rectangular label reading exactly 'ETL' in bold black letters, centred on white. ABSOLUTELY NO CHARACTERS IN THIS IMAGE unless explicitly stated: no monkey, no Sara, no animal, no person, no face, no hooded figure. Icons only. Flat solid colors with thick black ink outlines on pure white, no gradients, no 3D shading, no drop shadows. The artwork must fill the whole 16:9 frame edge to edge, absolutely NO black bars, NO letterboxing. No invented text, no captions, no labels beyond exactly what this scene asks for, and if a specific word or number is requested, copy it EXACTLY letter by letter.",
+      "ref": "none"
+    },
+    {
+      "file": "1_44.jpg",
+      "startSec": 104.6,
+      "text": "extraer, transformar y cargar.",
+      "scene": "ONLY this and NOTHING ELSE WHATSOEVER: close-up of Sara raising one finger and curling the others, as if counting or gesturing mid-explanation, serious expression. Only Sara's hand and face are visible in the frame. ABSOLUTE RULE: NO letters, NO text, NO captions, NO numbers, NO symbols anywhere in the image, not next to her hand, not in the background, nowhere — pure white empty background with just Sara.",
+      "ref": "mono"
+    },
+    {
+      "file": "1_47.jpg",
+      "startSec": 107.08,
+      "text": "Y ese pipeline no se ejecuta una vez,",
+      "scene": "ONLY this and NOTHING ELSE WHATSOEVER: a circular loop-arrow icon around a plain pipe icon, generic flat icon style, NO text, NO letters, NO words anywhere in the image. ABSOLUTELY NO CHARACTERS IN THIS IMAGE, NO EXCEPTIONS WHATSOEVER: no monkey, no Sara, no animal, no person, no face, no hooded figure, nothing with eyes, nothing alive. Icons only. Flat solid colors with thick black ink outlines on pure white, no gradients, no 3D shading, no drop shadows. The artwork must fill the whole 16:9 frame edge to edge, absolutely NO black bars, NO letterboxing.",
+      "ref": "none"
+    },
+    {
+      "file": "1_49.jpg",
+      "startSec": 109.82,
+      "text": "se ejecuta cada hora cada día para siempre.",
+      "scene": "ONLY this and NOTHING ELSE WHATSOEVER: a clock icon with a circular loop-arrow icon around it. ABSOLUTELY NO CHARACTERS IN THIS IMAGE unless explicitly stated: no monkey, no Sara, no animal, no person, no face, no hooded figure. Icons only. Flat solid colors with thick black ink outlines on pure white, no gradients, no 3D shading, no drop shadows. The artwork must fill the whole 16:9 frame edge to edge, absolutely NO black bars, NO letterboxing. No invented text, no captions, no labels beyond exactly what this scene asks for, and if a specific word or number is requested, copy it EXACTLY letter by letter.",
+      "ref": "none"
+    },
+    {
+      "file": "1_53.jpg",
+      "startSec": 113.12,
+      "text": "Y aquí está la parte que casi nadie cuenta cuando habla de este trabajo.",
+      "scene": "Close-up: Sara leaning toward the camera, revealing something, curious.",
+      "ref": "mono"
+    },
+    {
+      "file": "1_57.jpg",
+      "startSec": 117.6,
+      "text": "Los pipelines se rompen constantemente.",
+      "scene": "ONLY this and NOTHING ELSE WHATSOEVER: a pipe icon breaking apart in the middle with small crack lines. ABSOLUTELY NO CHARACTERS IN THIS IMAGE unless explicitly stated: no monkey, no Sara, no animal, no person, no face, no hooded figure. Icons only. Flat solid colors with thick black ink outlines on pure white, no gradients, no 3D shading, no drop shadows. The artwork must fill the whole 16:9 frame edge to edge, absolutely NO black bars, NO letterboxing. No invented text, no captions, no labels beyond exactly what this scene asks for, and if a specific word or number is requested, copy it EXACTLY letter by letter.",
+      "ref": "none"
+    },
+    {
+      "file": "2_01.jpg",
+      "startSec": 121.14,
+      "text": "Una fuente cambia el formato de sus datos sin avisar,",
+      "scene": "Medium shot: Sara holding a crossed-out format-symbol document, worried.",
+      "ref": "mono"
+    },
+    {
+      "file": "2_04.jpg",
+      "startSec": 124.28,
+      "text": "un servidor se cae a mitad de la carga,",
+      "scene": "Close-up: Sara looking startled, worried expression.",
+      "ref": "mono"
+    },
+    {
+      "file": "2_06.jpg",
+      "startSec": 126.68,
+      "text": "llega en el doble de datos de golpe un día de rebajas.",
+      "scene": "ONLY this and NOTHING ELSE WHATSOEVER: a pipe icon with double the number of water drops flowing through it at once. ABSOLUTELY NO CHARACTERS IN THIS IMAGE unless explicitly stated: no monkey, no Sara, no animal, no person, no face, no hooded figure. Icons only. Flat solid colors with thick black ink outlines on pure white, no gradients, no 3D shading, no drop shadows. The artwork must fill the whole 16:9 frame edge to edge, absolutely NO black bars, NO letterboxing. No invented text, no captions, no labels beyond exactly what this scene asks for, and if a specific word or number is requested, copy it EXACTLY letter by letter.",
+      "ref": "none"
+    },
+    {
+      "file": "2_10.jpg",
+      "startSec": 130.0,
+      "text": "Y cuando un pipeline se rompe no se entera solo el Data Engineer.",
+      "scene": "Close-up: Sara looking alarmed, worried expression.",
+      "ref": "mono"
+    },
+    {
+      "file": "2_14.jpg",
+      "startSec": 134.28,
+      "text": "Se entera todo el equipo de Data Science",
+      "scene": "Medium shot: Sara pointing at a group of small person-outline pictograms, serious.",
+      "ref": "mono"
+    },
+    {
+      "file": "2_16.jpg",
+      "startSec": 136.26,
+      "text": "que de repente se queda trabajando con datos de ayer",
+      "scene": "ONLY this and NOTHING ELSE WHATSOEVER: a calendar page icon with a small crossed-out clock, meaning outdated. ABSOLUTELY NO CHARACTERS IN THIS IMAGE unless explicitly stated: no monkey, no Sara, no animal, no person, no face, no hooded figure. Icons only. Flat solid colors with thick black ink outlines on pure white, no gradients, no 3D shading, no drop shadows. The artwork must fill the whole 16:9 frame edge to edge, absolutely NO black bars, NO letterboxing. No invented text, no captions, no labels beyond exactly what this scene asks for, and if a specific word or number is requested, copy it EXACTLY letter by letter.",
+      "ref": "none"
+    },
+    {
+      "file": "2_19.jpg",
+      "startSec": 139.0,
+      "text": "o con datos a media sin saberlo.",
+      "scene": "ONLY this and NOTHING ELSE WHATSOEVER: a document icon torn in half, showing incomplete data. ABSOLUTELY NO CHARACTERS IN THIS IMAGE unless explicitly stated: no monkey, no Sara, no animal, no person, no face, no hooded figure. Icons only. Flat solid colors with thick black ink outlines on pure white, no gradients, no 3D shading, no drop shadows. The artwork must fill the whole 16:9 frame edge to edge, absolutely NO black bars, NO letterboxing. No invented text, no captions, no labels beyond exactly what this scene asks for, and if a specific word or number is requested, copy it EXACTLY letter by letter.",
+      "ref": "none"
+    },
+    {
+      "file": "2_21.jpg",
+      "startSec": 141.84,
+      "text": "Por eso una parte enorme del trabajo",
+      "scene": "Close-up: Sara pointing off to the side, serious, revealing something important.",
+      "ref": "mono"
+    },
+    {
+      "file": "2_23.jpg",
+      "startSec": 143.82,
+      "text": "no es construir el pipeline la primera vez, es vigilarlo.",
+      "scene": "Close-up: Sara nodding gravely, direct at camera.",
+      "ref": "mono"
+    },
+    {
+      "file": "2_27.jpg",
+      "startSec": 147.92,
+      "text": "Alertas que avisan en cuanto algo falla,",
+      "scene": "ONLY this and NOTHING ELSE WHATSOEVER: a bell icon ringing beside a warning-triangle icon. ABSOLUTELY NO CHARACTERS IN THIS IMAGE unless explicitly stated: no monkey, no Sara, no animal, no person, no face, no hooded figure. Icons only. Flat solid colors with thick black ink outlines on pure white, no gradients, no 3D shading, no drop shadows. The artwork must fill the whole 16:9 frame edge to edge, absolutely NO black bars, NO letterboxing. No invented text, no captions, no labels beyond exactly what this scene asks for, and if a specific word or number is requested, copy it EXACTLY letter by letter.",
+      "ref": "none"
+    },
+    {
+      "file": "2_30.jpg",
+      "startSec": 150.32,
+      "text": "comprobaciones automáticas de que los datos que llegan tienen sentido",
+      "scene": "Medium shot: Sara looking at a checkmark icon with concern, serious. ABSOLUTE RULE: no invented text, no captions, no labels, no numbers, no words of any kind anywhere in this image unless a specific word is explicitly quoted in this description — if none is quoted, draw ZERO text, letters, or digits anywhere in the frame.",
+      "ref": "mono"
+    },
+    {
+      "file": "2_33.jpg",
+      "startSec": 153.64,
+      "text": "y un plan para cuando, no si,",
+      "scene": "Close-up: Sara nodding, thoughtful.",
+      "ref": "mono"
+    },
+    {
+      "file": "2_36.jpg",
+      "startSec": 156.32,
+      "text": "algo se rompe a las tres de la madrugada.",
+      "scene": "ONLY this and NOTHING ELSE WHATSOEVER: a moon and stars icon beside a warning-triangle icon. ABSOLUTELY NO CHARACTERS IN THIS IMAGE unless explicitly stated: no monkey, no Sara, no animal, no person, no face, no hooded figure. Icons only. Flat solid colors with thick black ink outlines on pure white, no gradients, no 3D shading, no drop shadows. The artwork must fill the whole 16:9 frame edge to edge, absolutely NO black bars, NO letterboxing. No invented text, no captions, no labels beyond exactly what this scene asks for, and if a specific word or number is requested, copy it EXACTLY letter by letter.",
+      "ref": "none"
+    },
+    {
+      "file": "2_38.jpg",
+      "startSec": 158.78,
+      "text": "Y aquí hay un matiz que separa a un pipeline a mater de uno de verdad.",
+      "scene": "Close-up: Sara raising one finger, about to add an important nuance, curious.",
+      "ref": "mono"
+    },
+    {
+      "file": "2_43.jpg",
+      "startSec": 163.38,
+      "text": "Un pipeline a mater falla en silencio.",
+      "scene": "ONLY this and NOTHING ELSE WHATSOEVER: a pipe icon with a crossed-out speaker icon, meaning silent. ABSOLUTELY NO CHARACTERS IN THIS IMAGE unless explicitly stated: no monkey, no Sara, no animal, no person, no face, no hooded figure. Icons only. Flat solid colors with thick black ink outlines on pure white, no gradients, no 3D shading, no drop shadows. The artwork must fill the whole 16:9 frame edge to edge, absolutely NO black bars, NO letterboxing. No invented text, no captions, no labels beyond exactly what this scene asks for, and if a specific word or number is requested, copy it EXACTLY letter by letter.",
+      "ref": "none"
+    },
+    {
+      "file": "2_45.jpg",
+      "startSec": 165.96,
+      "text": "Los datos llegan mal, nadie se entera",
+      "scene": "ONLY this and NOTHING ELSE WHATSOEVER: a document icon quietly slipping past a closed gate without triggering it. ABSOLUTELY NO CHARACTERS IN THIS IMAGE unless explicitly stated: no monkey, no Sara, no animal, no person, no face, no hooded figure. Icons only. Flat solid colors with thick black ink outlines on pure white, no gradients, no 3D shading, no drop shadows. The artwork must fill the whole 16:9 frame edge to edge, absolutely NO black bars, NO letterboxing. No invented text, no captions, no labels beyond exactly what this scene asks for, and if a specific word or number is requested, copy it EXACTLY letter by letter.",
+      "ref": "none"
+    },
+    {
+      "file": "2_48.jpg",
+      "startSec": 168.1,
+      "text": "y una semana después alguien de negocio toma una decisión basada",
+      "scene": "Close-up: Sara shrugging, matter-of-fact.",
+      "ref": "mono"
+    },
+    {
+      "file": "2_51.jpg",
+      "startSec": 171.58,
+      "text": "en un número que estaba corrupto desde el lunes.",
+      "scene": "Medium shot: Sara holding a calendar page with a warning-triangle stamped on it, serious. The calendar page shows BLANK grid lines only — no month name, no year, no numbers, no day-of-week letters, no text of any kind printed on the calendar, just a plain blank grid pattern with the warning triangle stamped on top. ABSOLUTE RULE: no invented text, no captions, no labels, no numbers, no words of any kind anywhere in this image unless a specific word is explicitly quoted in this description — if none is quoted, draw ZERO text, letters, or digits anywhere in the frame.",
+      "ref": "mono"
+    },
+    {
+      "file": "2_54.jpg",
+      "startSec": 174.56,
+      "text": "Un pipeline bien construido falla de forma ruidosa,",
+      "scene": "ONLY this and NOTHING ELSE WHATSOEVER: a giant black numeral with a small crack symbol, representing a corrupted number. ABSOLUTELY NO CHARACTERS IN THIS IMAGE unless explicitly stated: no monkey, no Sara, no animal, no person, no face, no hooded figure. Icons only. Flat solid colors with thick black ink outlines on pure white, no gradients, no 3D shading, no drop shadows. The artwork must fill the whole 16:9 frame edge to edge, absolutely NO black bars, NO letterboxing. No invented text, no captions, no labels beyond exactly what this scene asks for, and if a specific word or number is requested, copy it EXACTLY letter by letter.",
+      "ref": "none"
+    },
+    {
+      "file": "2_58.jpg",
+      "startSec": 178.26,
+      "text": "separa, avisa y no deja que el dato malo siga adelante.",
+      "scene": "ONLY this and NOTHING ELSE WHATSOEVER: a pipe icon with a loud speaker icon and warning light beside it. ABSOLUTELY NO CHARACTERS IN THIS IMAGE unless explicitly stated: no monkey, no Sara, no animal, no person, no face, no hooded figure. Icons only. Flat solid colors with thick black ink outlines on pure white, no gradients, no 3D shading, no drop shadows. The artwork must fill the whole 16:9 frame edge to edge, absolutely NO black bars, NO letterboxing. No invented text, no captions, no labels beyond exactly what this scene asks for, and if a specific word or number is requested, copy it EXACTLY letter by letter.",
+      "ref": "none"
+    },
+    {
+      "file": "3_02.jpg",
+      "startSec": 182.48,
+      "text": "Ese detalle fallar alto y pronto en vez de silencioso y tarde",
+      "scene": "Close-up: Sara holding up a stop-hand icon, firm.",
+      "ref": "mono"
+    },
+    {
+      "file": "3_06.jpg",
+      "startSec": 186.18,
+      "text": "es prácticamente la definición de ingeniería de datos madura.",
+      "scene": "Close-up: Sara nodding, approving, direct at camera.",
+      "ref": "mono"
+    },
+    {
+      "file": "3_10.jpg",
+      "startSec": 190.74,
+      "text": "Por eso las herramientas que se usan hoy en día,",
+      "scene": "ONLY this and NOTHING ELSE WHATSOEVER: a scale balancing a lightning-bolt icon and a clock icon, tilted toward speed. ABSOLUTELY NO CHARACTERS IN THIS IMAGE unless explicitly stated: no monkey, no Sara, no animal, no person, no face, no hooded figure. Icons only. Flat solid colors with thick black ink outlines on pure white, no gradients, no 3D shading, no drop shadows. The artwork must fill the whole 16:9 frame edge to edge, absolutely NO black bars, NO letterboxing. No invented text, no captions, no labels beyond exactly what this scene asks for, and if a specific word or number is requested, copy it EXACTLY letter by letter.",
+      "ref": "none"
+    },
+    {
+      "file": "3_13.jpg",
+      "startSec": 193.14,
+      "text": "como Erflow para organizar las tareas",
+      "scene": "ONLY this and NOTHING ELSE WHATSOEVER: a plain badge icon labeled exactly 'INGENIERIA DE DATOS' in bold letters. ABSOLUTELY NO CHARACTERS IN THIS IMAGE unless explicitly stated: no monkey, no Sara, no animal, no person, no face, no hooded figure. Icons only. Flat solid colors with thick black ink outlines on pure white, no gradients, no 3D shading, no drop shadows. The artwork must fill the whole 16:9 frame edge to edge, absolutely NO black bars, NO letterboxing. No invented text, no captions, no labels beyond exactly what this scene asks for, and if a specific word or number is requested, copy it EXACTLY letter by letter.",
+      "ref": "none"
+    },
+    {
+      "file": "3_15.jpg",
+      "startSec": 195.26,
+      "text": "o dbt para las transformaciones,",
+      "scene": "Medium shot: Sara pointing at three connected wrench icons, explaining.",
+      "ref": "mono"
+    },
+    {
+      "file": "3_17.jpg",
+      "startSec": 197.76,
+      "text": "están construidas alrededor de esa idea",
+      "scene": "ONLY this and NOTHING ELSE WHATSOEVER: a plain rectangular label reading exactly 'AIRFLOW' in bold black letters, centred on white. ABSOLUTELY NO CHARACTERS IN THIS IMAGE unless explicitly stated: no monkey, no Sara, no animal, no person, no face, no hooded figure. Icons only. Flat solid colors with thick black ink outlines on pure white, no gradients, no 3D shading, no drop shadows. The artwork must fill the whole 16:9 frame edge to edge, absolutely NO black bars, NO letterboxing. No invented text, no captions, no labels beyond exactly what this scene asks for, and if a specific word or number is requested, copy it EXACTLY letter by letter.",
+      "ref": "none"
+    },
+    {
+      "file": "3_19.jpg",
+      "startSec": 199.76,
+      "text": "que cada paso se pueda vigilar por separado",
+      "scene": "ONLY this and NOTHING ELSE WHATSOEVER: a checklist icon with several small tasks connected by arrows. ABSOLUTELY NO CHARACTERS IN THIS IMAGE unless explicitly stated: no monkey, no Sara, no animal, no person, no face, no hooded figure. Icons only. Flat solid colors with thick black ink outlines on pure white, no gradients, no 3D shading, no drop shadows. The artwork must fill the whole 16:9 frame edge to edge, absolutely NO black bars, NO letterboxing. No invented text, no captions, no labels beyond exactly what this scene asks for, and if a specific word or number is requested, copy it EXACTLY letter by letter.",
+      "ref": "none"
+    },
+    {
+      "file": "3_22.jpg",
+      "startSec": 202.28,
+      "text": "y aquí viene el giro que te prometía al principio.",
+      "scene": "Close-up: Sara raising one finger, about to reveal a twist, curious.",
+      "ref": "mono"
+    },
+    {
+      "file": "3_25.jpg",
+      "startSec": 205.62,
+      "text": "Durante años, la creencia general era que el Data Scientist",
+      "scene": "ONLY this and NOTHING ELSE WHATSOEVER: a coin icon growing larger step by step. ABSOLUTELY NO CHARACTERS IN THIS IMAGE unless explicitly stated: no monkey, no Sara, no animal, no person, no face, no hooded figure. Icons only. Flat solid colors with thick black ink outlines on pure white, no gradients, no 3D shading, no drop shadows. The artwork must fill the whole 16:9 frame edge to edge, absolutely NO black bars, NO letterboxing. No invented text, no captions, no labels beyond exactly what this scene asks for, and if a specific word or number is requested, copy it EXACTLY letter by letter.",
+      "ref": "none"
+    },
+    {
+      "file": "3_29.jpg",
+      "startSec": 209.14,
+      "text": "cobraba más porque era el perfil de moda,",
+      "scene": "ONLY this and NOTHING ELSE WHATSOEVER: a newspaper headline icon that is completely blank, no writing at all. ABSOLUTELY NO CHARACTERS IN THIS IMAGE unless explicitly stated: no monkey, no Sara, no animal, no person, no face, no hooded figure. Icons only. Flat solid colors with thick black ink outlines on pure white, no gradients, no 3D shading, no drop shadows. The artwork must fill the whole 16:9 frame edge to edge, absolutely NO black bars, NO letterboxing. No invented text, no captions, no labels beyond exactly what this scene asks for, and if a specific word or number is requested, copy it EXACTLY letter by letter.",
+      "ref": "none"
+    },
+    {
+      "file": "3_31.jpg",
+      "startSec": 211.62,
+      "text": "el que salía en las noticias.",
+      "scene": "Close-up: Sara pointing at a crossed-out newspaper-headline icon, serious. ABSOLUTE RULE: no invented text, no captions, no labels, no numbers, no words of any kind anywhere in this image unless a specific word is explicitly quoted in this description — if none is quoted, draw ZERO text, letters, or digits anywhere in the frame.",
+      "ref": "mono"
+    },
+    {
+      "file": "3_33.jpg",
+      "startSec": 213.72,
+      "text": "Eso se ha invertido.",
+      "scene": "ONLY this and NOTHING ELSE WHATSOEVER: a crossed-out coin icon and a plain coin icon side by side. ABSOLUTELY NO CHARACTERS IN THIS IMAGE unless explicitly stated: no monkey, no Sara, no animal, no person, no face, no hooded figure. Icons only. Flat solid colors with thick black ink outlines on pure white, no gradients, no 3D shading, no drop shadows. The artwork must fill the whole 16:9 frame edge to edge, absolutely NO black bars, NO letterboxing. No invented text, no captions, no labels beyond exactly what this scene asks for, and if a specific word or number is requested, copy it EXACTLY letter by letter.",
+      "ref": "none"
+    },
+    {
+      "file": "3_35.jpg",
+      "startSec": 215.48,
+      "text": "En cada nivel de experiencia,",
+      "scene": "Close-up: Sara raising both eyebrows, surprised, direct at camera.",
+      "ref": "mono"
+    },
+    {
+      "file": "3_37.jpg",
+      "startSec": 217.08,
+      "text": "el Data Engineer cobra ahora entre un 8 y un 15% más que el Data Scientist.",
+      "scene": "ONLY this and NOTHING ELSE WHATSOEVER: a staircase icon with a coin icon on every step, rising. ABSOLUTELY NO CHARACTERS IN THIS IMAGE unless explicitly stated: no monkey, no Sara, no animal, no person, no face, no hooded figure. Icons only. Flat solid colors with thick black ink outlines on pure white, no gradients, no 3D shading, no drop shadows. The artwork must fill the whole 16:9 frame edge to edge, absolutely NO black bars, NO letterboxing. No invented text, no captions, no labels beyond exactly what this scene asks for, and if a specific word or number is requested, copy it EXACTLY letter by letter.",
+      "ref": "none"
+    },
+    {
+      "file": "3_42.jpg",
+      "startSec": 222.44,
+      "text": "¿Por qué?",
+      "scene": "Medium shot: Sara holding a coin medallion labeled exactly '8% - 15%' in bold letters, matter-of-fact.",
+      "ref": "mono"
+    },
+    {
+      "file": "3_43.jpg",
+      "startSec": 223.76,
+      "text": "Porque construir y mantener infraestructura de datos en producción",
+      "scene": "Close-up: Sara tilting her head, asking a question, curious.",
+      "ref": "mono"
+    },
+    {
+      "file": "3_46.jpg",
+      "startSec": 226.76,
+      "text": "que no se puede permitir caerse requiere una combinación de habilidades",
+      "scene": "ONLY this and NOTHING ELSE WHATSOEVER: a plain server icon with a shield icon beside it, both static. ABSOLUTELY NO CHARACTERS IN THIS IMAGE unless explicitly stated: no monkey, no Sara, no animal, no person, no face, no hooded figure. Icons only. Flat solid colors with thick black ink outlines on pure white, no gradients, no 3D shading, no drop shadows. The artwork must fill the whole 16:9 frame edge to edge, absolutely NO black bars, NO letterboxing. No invented text, no captions, no labels beyond exactly what this scene asks for, and if a specific word or number is requested, copy it EXACTLY letter by letter.",
+      "ref": "none"
+    },
+    {
+      "file": "3_50.jpg",
+      "startSec": 230.82,
+      "text": "mucho más rara de encontrar.",
+      "scene": "ONLY this and NOTHING ELSE WHATSOEVER: a puzzle icon with several unique differently-shaped pieces. ABSOLUTELY NO CHARACTERS IN THIS IMAGE unless explicitly stated: no monkey, no Sara, no animal, no person, no face, no hooded figure. Icons only. Flat solid colors with thick black ink outlines on pure white, no gradients, no 3D shading, no drop shadows. The artwork must fill the whole 16:9 frame edge to edge, absolutely NO black bars, NO letterboxing. No invented text, no captions, no labels beyond exactly what this scene asks for, and if a specific word or number is requested, copy it EXACTLY letter by letter.",
+      "ref": "none"
+    },
+    {
+      "file": "3_53.jpg",
+      "startSec": 233.3,
+      "text": "Hay muchísima gente que sabe entrenar un modelo siguiendo un tutorial.",
+      "scene": "Close-up: Sara nodding, confident.",
+      "ref": "mono"
+    },
+    {
+      "file": "3_57.jpg",
+      "startSec": 237.32,
+      "text": "Hay muchísima menos que sabe construir un sistema",
+      "scene": "Medium shot: Sara pointing at a crowd of small generic pictograms following a tutorial-book icon, curious. ABSOLUTE RULE: no invented text, no captions, no labels, no numbers, no words of any kind anywhere in this image unless a specific word is explicitly quoted in this description — if none is quoted, draw ZERO text, letters, or digits anywhere in the frame.",
+      "ref": "mono"
+    },
+    {
+      "file": "3_59.jpg",
+      "startSec": 239.72,
+      "text": "que no se caiga con tráfico real.",
+      "scene": "ONLY this and NOTHING ELSE WHATSOEVER: a single small person-outline pictogram standing apart, holding a server icon steady. ABSOLUTELY NO CHARACTERS IN THIS IMAGE unless explicitly stated: no monkey, no Sara, no animal, no person, no face, no hooded figure. Icons only. Flat solid colors with thick black ink outlines on pure white, no gradients, no 3D shading, no drop shadows. The artwork must fill the whole 16:9 frame edge to edge, absolutely NO black bars, NO letterboxing. No invented text, no captions, no labels beyond exactly what this scene asks for, and if a specific word or number is requested, copy it EXACTLY letter by letter.",
+      "ref": "none"
+    },
+    {
+      "file": "4_02.jpg",
+      "startSec": 242.7,
+      "text": "Vale.",
+      "scene": "Close-up: Sara shrugging, curious.",
+      "ref": "mono"
+    },
+    {
+      "file": "4_03.jpg",
+      "startSec": 243.3,
+      "text": "Y en cifras concretas, ¿cuánto se paga en España en 2016?",
+      "scene": "ONLY this and NOTHING ELSE WHATSOEVER: a giant numeral '2026' on pure white, nothing else. ABSOLUTELY NO CHARACTERS IN THIS IMAGE unless explicitly stated: no monkey, no Sara, no animal, no person, no face, no hooded figure. Icons only. Flat solid colors with thick black ink outlines on pure white, no gradients, no 3D shading, no drop shadows. The artwork must fill the whole 16:9 frame edge to edge, absolutely NO black bars, NO letterboxing. No invented text, no captions, no labels beyond exactly what this scene asks for, and if a specific word or number is requested, copy it EXACTLY letter by letter.",
+      "ref": "none"
+    },
+    {
+      "file": "4_08.jpg",
+      "startSec": 248.0,
+      "text": "El rango completo va de 28.000 a 85.000 euros brutos al año,",
+      "scene": "ONLY this and NOTHING ELSE WHATSOEVER: a coin medallion icon labeled exactly '28.000 € - 85.000 €' in bold letters, always the euro symbol, never a dollar sign, never the letter K. ABSOLUTELY NO CHARACTERS IN THIS IMAGE unless explicitly stated: no monkey, no Sara, no animal, no person, no face, no hooded figure. Icons only. Flat solid colors with thick black ink outlines on pure white, no gradients, no 3D shading, no drop shadows. The artwork must fill the whole 16:9 frame edge to edge, absolutely NO black bars, NO letterboxing. No invented text, no captions, no labels beyond exactly what this scene asks for, and if a specific word or number is requested, copy it EXACTLY letter by letter.",
+      "ref": "none"
+    },
+    {
+      "file": "4_12.jpg",
+      "startSec": 252.24,
+      "text": "según la experiencia.",
+      "scene": "Close-up: Sara nodding, matter-of-fact.",
+      "ref": "mono"
+    },
+    {
+      "file": "4_14.jpg",
+      "startSec": 254.28,
+      "text": "La mediana está alrededor de 50.000.",
+      "scene": "ONLY this and NOTHING ELSE WHATSOEVER: a coin medallion icon labeled exactly '50.000 €' in bold letters, always the euro symbol, never a dollar sign, never the letter K. ABSOLUTELY NO CHARACTERS IN THIS IMAGE unless explicitly stated: no monkey, no Sara, no animal, no person, no face, no hooded figure. Icons only. Flat solid colors with thick black ink outlines on pure white, no gradients, no 3D shading, no drop shadows. The artwork must fill the whole 16:9 frame edge to edge, absolutely NO black bars, NO letterboxing. No invented text, no captions, no labels beyond exactly what this scene asks for, and if a specific word or number is requested, copy it EXACTLY letter by letter.",
+      "ref": "none"
+    },
+    {
+      "file": "4_17.jpg",
+      "startSec": 257.24,
+      "text": "Y en sectores donde los datos en tiempo real son críticos,",
+      "scene": "Medium shot: Sara pointing at a bank building, a shield, and a server tower icon, explaining. ABSOLUTE RULE: no invented text, no captions, no labels, no numbers, no words of any kind anywhere in this image unless a specific word is explicitly quoted in this description — if none is quoted, draw ZERO text, letters, or digits anywhere in the frame.",
+      "ref": "mono"
+    },
+    {
+      "file": "4_20.jpg",
+      "startSec": 260.6,
+      "text": "banca, seguros, plataformas grandes,",
+      "scene": "ONLY this and NOTHING ELSE WHATSOEVER: a bank-building icon, a shield icon and a large server-tower icon in a row. ABSOLUTELY NO CHARACTERS IN THIS IMAGE unless explicitly stated: no monkey, no Sara, no animal, no person, no face, no hooded figure. Icons only. Flat solid colors with thick black ink outlines on pure white, no gradients, no 3D shading, no drop shadows. The artwork must fill the whole 16:9 frame edge to edge, absolutely NO black bars, NO letterboxing. No invented text, no captions, no labels beyond exactly what this scene asks for, and if a specific word or number is requested, copy it EXACTLY letter by letter.",
+      "ref": "none"
+    },
+    {
+      "file": "4_23.jpg",
+      "startSec": 263.12,
+      "text": "el sueldo puede igualar o superar claramente al de un Data Scientist",
+      "scene": "ONLY this and NOTHING ELSE WHATSOEVER: two coin medallion icons side by side, roughly the same size, balanced. ABSOLUTELY NO CHARACTERS IN THIS IMAGE unless explicitly stated: no monkey, no Sara, no animal, no person, no face, no hooded figure. Icons only. Flat solid colors with thick black ink outlines on pure white, no gradients, no 3D shading, no drop shadows. The artwork must fill the whole 16:9 frame edge to edge, absolutely NO black bars, NO letterboxing. No invented text, no captions, no labels beyond exactly what this scene asks for, and if a specific word or number is requested, copy it EXACTLY letter by letter.",
+      "ref": "none"
+    },
+    {
+      "file": "4_26.jpg",
+      "startSec": 266.68,
+      "text": "en el mismo nivel.",
+      "scene": "Close-up: Sara nodding thoughtfully, direct at camera.",
+      "ref": "mono"
+    },
+    {
+      "file": "4_28.jpg",
+      "startSec": 268.56,
+      "text": "La diferencia entre esos números,",
+      "scene": "Medium shot: Sara shrugging, matter-of-fact.",
+      "ref": "mono"
+    },
+    {
+      "file": "4_30.jpg",
+      "startSec": 270.44,
+      "text": "otra vez, no es sólo antigüedad.",
+      "scene": "Close-up: Sara shaking her head, correcting, direct at camera.",
+      "ref": "mono"
+    },
+    {
+      "file": "4_32.jpg",
+      "startSec": 272.78,
+      "text": "Es haber visto un pipeline caerse en producción un viernes por la tarde",
+      "scene": "ONLY this and NOTHING ELSE WHATSOEVER: a calendar page icon with a plain clock icon breaking apart, representing a Friday breakdown. ABSOLUTELY NO CHARACTERS IN THIS IMAGE unless explicitly stated: no monkey, no Sara, no animal, no person, no face, no hooded figure. Icons only. Flat solid colors with thick black ink outlines on pure white, no gradients, no 3D shading, no drop shadows. The artwork must fill the whole 16:9 frame edge to edge, absolutely NO black bars, NO letterboxing. No invented text, no captions, no labels beyond exactly what this scene asks for, and if a specific word or number is requested, copy it EXACTLY letter by letter.",
+      "ref": "none"
+    },
+    {
+      "file": "4_36.jpg",
+      "startSec": 276.26,
+      "text": "y saber exactamente qué hacer.",
+      "scene": "Close-up: Sara nodding, confident, direct at camera.",
+      "ref": "mono"
+    },
+    {
+      "file": "4_39.jpg",
+      "startSec": 279.52,
+      "text": "¿Y cómo se entra en esto?",
+      "scene": "Close-up: Sara shrugging, casual, asking a question. ABSOLUTE RULE: no invented text, no captions, no labels, no numbers, no words of any kind anywhere in this image unless a specific word is explicitly quoted in this description — if none is quoted, draw ZERO text, letters, or digits anywhere in the frame.",
+      "ref": "mono"
+    },
+    {
+      "file": "4_41.jpg",
+      "startSec": 281.84,
+      "text": "La base es programación seria,",
+      "scene": "Medium shot: Sara holding a laptop icon with code-brackets, serious.",
+      "ref": "mono"
+    },
+    {
+      "file": "4_43.jpg",
+      "startSec": 283.72,
+      "text": "no sólo script sueltos, sino código que otras personas puedan mantener.",
+      "scene": "ONLY this and NOTHING ELSE WHATSOEVER: a document icon showing a numbered chain of steps down the page, completely blank with no writing on it. ABSOLUTELY NO CHARACTERS IN THIS IMAGE unless explicitly stated: no monkey, no Sara, no animal, no person, no face, no hooded figure. Icons only. Flat solid colors with thick black ink outlines on pure white, no gradients, no 3D shading, no drop shadows. The artwork must fill the whole 16:9 frame edge to edge, absolutely NO black bars, NO letterboxing. No invented text, no captions, no labels beyond exactly what this scene asks for, and if a specific word or number is requested, copy it EXACTLY letter by letter.",
+      "ref": "none"
+    },
+    {
+      "file": "4_48.jpg",
+      "startSec": 288.8,
+      "text": "Después, bases de datos,",
+      "scene": "Close-up: Sara pointing at a database icon, curious.",
+      "ref": "mono"
+    },
+    {
+      "file": "4_50.jpg",
+      "startSec": 290.54,
+      "text": "tanto las clásicas como las que manejan volúmenes enormes",
+      "scene": "ONLY this and NOTHING ELSE WHATSOEVER: a database icon growing larger with more connections branching out. ABSOLUTELY NO CHARACTERS IN THIS IMAGE unless explicitly stated: no monkey, no Sara, no animal, no person, no face, no hooded figure. Icons only. Flat solid colors with thick black ink outlines on pure white, no gradients, no 3D shading, no drop shadows. The artwork must fill the whole 16:9 frame edge to edge, absolutely NO black bars, NO letterboxing. No invented text, no captions, no labels beyond exactly what this scene asks for, and if a specific word or number is requested, copy it EXACTLY letter by letter.",
+      "ref": "none"
+    },
+    {
+      "file": "4_53.jpg",
+      "startSec": 293.3,
+      "text": "y entender bien cómo se organiza la información",
+      "scene": "ONLY this and NOTHING ELSE WHATSOEVER: a magnifying glass over a neatly organised grid of small blank cells. ABSOLUTELY NO CHARACTERS IN THIS IMAGE unless explicitly stated: no monkey, no Sara, no animal, no person, no face, no hooded figure. Icons only. Flat solid colors with thick black ink outlines on pure white, no gradients, no 3D shading, no drop shadows. The artwork must fill the whole 16:9 frame edge to edge, absolutely NO black bars, NO letterboxing. No invented text, no captions, no labels beyond exactly what this scene asks for, and if a specific word or number is requested, copy it EXACTLY letter by letter.",
+      "ref": "none"
+    },
+    {
+      "file": "4_55.jpg",
+      "startSec": 295.88,
+      "text": "para que se pueda consultar rápido.",
+      "scene": "Close-up: Sara nodding, confident, direct at camera.",
+      "ref": "mono"
+    },
+    {
+      "file": "4_58.jpg",
+      "startSec": 298.3,
+      "text": "Y el patrón que hay que aprender es siempre el mismo,",
+      "scene": "Medium shot: Sara holding up a looping-arrow icon, patient, explaining.",
+      "ref": "mono"
+    },
+    {
+      "file": "5_01.jpg",
+      "startSec": 301.5,
+      "text": "extraer, transformar, cargar,",
+      "scene": "ONLY this and NOTHING ELSE WHATSOEVER: a plain rectangular label reading exactly 'ETL' in bold black letters, centred on white. ABSOLUTELY NO CHARACTERS IN THIS IMAGE unless explicitly stated: no monkey, no Sara, no animal, no person, no face, no hooded figure. Icons only. Flat solid colors with thick black ink outlines on pure white, no gradients, no 3D shading, no drop shadows. The artwork must fill the whole 16:9 frame edge to edge, absolutely NO black bars, NO letterboxing. No invented text, no captions, no labels beyond exactly what this scene asks for, and if a specific word or number is requested, copy it EXACTLY letter by letter.",
+      "ref": "none"
+    },
+    {
+      "file": "5_04.jpg",
+      "startSec": 304.06,
+      "text": "aunque cambian las herramientas de moda cada dos años.",
+      "scene": "ONLY this and NOTHING ELSE WHATSOEVER: a gear icon shifting shape into a slightly different gear icon, representing changing tools. ABSOLUTELY NO CHARACTERS IN THIS IMAGE unless explicitly stated: no monkey, no Sara, no animal, no person, no face, no hooded figure. Icons only. Flat solid colors with thick black ink outlines on pure white, no gradients, no 3D shading, no drop shadows. The artwork must fill the whole 16:9 frame edge to edge, absolutely NO black bars, NO letterboxing. No invented text, no captions, no labels beyond exactly what this scene asks for, and if a specific word or number is requested, copy it EXACTLY letter by letter.",
+      "ref": "none"
+    },
+    {
+      "file": "5_07.jpg",
+      "startSec": 307.38,
+      "text": "Las herramientas concretas del momento son Airflow",
+      "scene": "Close-up: Sara pointing off to the side, explaining, curious.",
+      "ref": "mono"
+    },
+    {
+      "file": "5_10.jpg",
+      "startSec": 310.12,
+      "text": "para organizar cuando se ejecuta cada tarea,",
+      "scene": "ONLY this and NOTHING ELSE WHATSOEVER: a plain rectangular label reading exactly 'AIRFLOW' in bold black letters, centred on white. ABSOLUTELY NO CHARACTERS IN THIS IMAGE unless explicitly stated: no monkey, no Sara, no animal, no person, no face, no hooded figure. Icons only. Flat solid colors with thick black ink outlines on pure white, no gradients, no 3D shading, no drop shadows. The artwork must fill the whole 16:9 frame edge to edge, absolutely NO black bars, NO letterboxing. No invented text, no captions, no labels beyond exactly what this scene asks for, and if a specific word or number is requested, copy it EXACTLY letter by letter.",
+      "ref": "none"
+    },
+    {
+      "file": "5_13.jpg",
+      "startSec": 313.34,
+      "text": "Spark para procesar volúmenes enormes de datos en paralelo",
+      "scene": "ONLY this and NOTHING ELSE WHATSOEVER: a plain rectangular label reading exactly 'SPARK' in bold black letters, centred on white. ABSOLUTELY NO CHARACTERS IN THIS IMAGE unless explicitly stated: no monkey, no Sara, no animal, no person, no face, no hooded figure. Icons only. Flat solid colors with thick black ink outlines on pure white, no gradients, no 3D shading, no drop shadows. The artwork must fill the whole 16:9 frame edge to edge, absolutely NO black bars, NO letterboxing. No invented text, no captions, no labels beyond exactly what this scene asks for, and if a specific word or number is requested, copy it EXACTLY letter by letter.",
+      "ref": "none"
+    },
+    {
+      "file": "5_16.jpg",
+      "startSec": 316.66,
+      "text": "y débeté para las transformaciones escritas en SQL.",
+      "scene": "Medium shot: Sara pointing at a plain wrench icon, explaining, curious.",
+      "ref": "mono"
+    },
+    {
+      "file": "5_20.jpg",
+      "startSec": 320.68,
+      "text": "Pero ojo, las herramientas cambian cada pocos años.",
+      "scene": "Close-up: Sara nodding, serious, direct at camera.",
+      "ref": "mono"
+    },
+    {
+      "file": "5_24.jpg",
+      "startSec": 324.2,
+      "text": "El patrón de extraer, transformar y cargar,",
+      "scene": "ONLY this and NOTHING ELSE WHATSOEVER: a plain rectangular label reading exactly 'ETL' in bold black letters, with a small eye icon beside it. ABSOLUTELY NO CHARACTERS IN THIS IMAGE unless explicitly stated: no monkey, no Sara, no animal, no person, no face, no hooded figure. Icons only. Flat solid colors with thick black ink outlines on pure white, no gradients, no 3D shading, no drop shadows. The artwork must fill the whole 16:9 frame edge to edge, absolutely NO black bars, NO letterboxing. No invented text, no captions, no labels beyond exactly what this scene asks for, and if a specific word or number is requested, copy it EXACTLY letter by letter.",
+      "ref": "none"
+    },
+    {
+      "file": "5_27.jpg",
+      "startSec": 327.28,
+      "text": "y, sobre todo, vigilar, lleva década siendo el mismo.",
+      "scene": "Close-up: Sara nodding, serious, direct at camera.",
+      "ref": "mono"
+    },
+    {
+      "file": "5_31.jpg",
+      "startSec": 331.6,
+      "text": "El proyecto que de verdad vale en una entrevista no es montéo modelo.",
+      "scene": "ONLY this and NOTHING ELSE WHATSOEVER: a crossed-out lightbulb icon, plain. ABSOLUTELY NO CHARACTERS IN THIS IMAGE unless explicitly stated: no monkey, no Sara, no animal, no person, no face, no hooded figure. Icons only. Flat solid colors with thick black ink outlines on pure white, no gradients, no 3D shading, no drop shadows. The artwork must fill the whole 16:9 frame edge to edge, absolutely NO black bars, NO letterboxing. No invented text, no captions, no labels beyond exactly what this scene asks for, and if a specific word or number is requested, copy it EXACTLY letter by letter.",
+      "ref": "none"
+    },
+    {
+      "file": "5_36.jpg",
+      "startSec": 336.08,
+      "text": "Es construir un pipeline que coge datos de una fuente real,",
+      "scene": "Medium shot: Sara holding up a small metal industrial pipe fitting — a short segment of plumbing pipe with a joint, like a trophy — proud expression. This is NOT a smoking pipe, NOT tobacco-related, it is plumbing/pipeline hardware. ABSOLUTE RULE: no invented text, no captions, no labels, no numbers, no words of any kind anywhere in this image unless a specific word is explicitly quoted in this description — if none is quoted, draw ZERO text, letters, or digits anywhere in the frame.",
+      "ref": "mono"
+    },
+    {
+      "file": "5_39.jpg",
+      "startSec": 339.54,
+      "text": "los limpia automáticamente y los deja listos para usar",
+      "scene": "ONLY this and NOTHING ELSE WHATSOEVER: a pipe icon flowing from a plain database icon. ABSOLUTELY NO CHARACTERS IN THIS IMAGE unless explicitly stated: no monkey, no Sara, no animal, no person, no face, no hooded figure. Icons only. Flat solid colors with thick black ink outlines on pure white, no gradients, no 3D shading, no drop shadows. The artwork must fill the whole 16:9 frame edge to edge, absolutely NO black bars, NO letterboxing. No invented text, no captions, no labels beyond exactly what this scene asks for, and if a specific word or number is requested, copy it EXACTLY letter by letter.",
+      "ref": "none"
+    },
+    {
+      "file": "5_43.jpg",
+      "startSec": 343.12,
+      "text": "y programé una alerta para cuando algo falle.",
+      "scene": "ONLY this and NOTHING ELSE WHATSOEVER: a bell icon connected by a thin line to a warning-triangle icon. ABSOLUTELY NO CHARACTERS IN THIS IMAGE unless explicitly stated: no monkey, no Sara, no animal, no person, no face, no hooded figure. Icons only. Flat solid colors with thick black ink outlines on pure white, no gradients, no 3D shading, no drop shadows. The artwork must fill the whole 16:9 frame edge to edge, absolutely NO black bars, NO letterboxing. No invented text, no captions, no labels beyond exactly what this scene asks for, and if a specific word or number is requested, copy it EXACTLY letter by letter.",
+      "ref": "none"
+    },
+    {
+      "file": "5_46.jpg",
+      "startSec": 346.72,
+      "text": "Coger un dataset público que se actualiza cada día",
+      "scene": "Medium shot: Sara pointing at a gear icon feeding into a database, explaining. ABSOLUTE RULE: no invented text, no captions, no labels, no numbers, no words of any kind anywhere in this image unless a specific word is explicitly quoted in this description — if none is quoted, draw ZERO text, letters, or digits anywhere in the frame.",
+      "ref": "mono"
+    },
+    {
+      "file": "5_49.jpg",
+      "startSec": 349.38,
+      "text": "y automatizar por completo su descarga, limpieza y almacenamiento",
+      "scene": "Close-up: Sara nodding, confident.",
+      "ref": "mono"
+    },
+    {
+      "file": "5_53.jpg",
+      "startSec": 353.22,
+      "text": "es un proyecto de este mismo fin de semana",
+      "scene": "ONLY this and NOTHING ELSE WHATSOEVER: a simple weekend calendar icon showing a small blank 7-day grid of empty squares with two squares near the end circled in red. NO month name, NO year, NO day-of-week letters, NO numbers inside any square — every square is completely blank except the red circles marking two of them. NO text of any kind, NO invented words, ZERO letters or digits anywhere in the image. ABSOLUTELY NO CHARACTERS IN THIS IMAGE unless explicitly stated: no monkey, no Sara, no animal, no person, no face, no hooded figure. Icons only. Flat solid colors with thick black ink outlines on pure white, no gradients, no 3D shading, no drop shadows. The artwork must fill the whole 16:9 frame edge to edge, absolutely NO black bars, NO letterboxing.",
+      "ref": "none"
+    },
+    {
+      "file": "5_55.jpg",
+      "startSec": 355.82,
+      "text": "y ya te enfrenta al problema real,",
+      "scene": "Close-up: Sara nodding, confident, direct at camera.",
+      "ref": "mono"
+    },
+    {
+      "file": "5_58.jpg",
+      "startSec": 358.44,
+      "text": "que haces cuando la fuente cambia sin avisar.",
+      "scene": "ONLY this and NOTHING ELSE WHATSOEVER: a document icon with a crossed-out format symbol suddenly appearing beside a wrench icon. ABSOLUTELY NO CHARACTERS IN THIS IMAGE unless explicitly stated: no monkey, no Sara, no animal, no person, no face, no hooded figure. Icons only. Flat solid colors with thick black ink outlines on pure white, no gradients, no 3D shading, no drop shadows. The artwork must fill the whole 16:9 frame edge to edge, absolutely NO black bars, NO letterboxing. No invented text, no captions, no labels beyond exactly what this scene asks for, and if a specific word or number is requested, copy it EXACTLY letter by letter.",
+      "ref": "none"
+    },
+    {
+      "file": "6_01.jpg",
+      "startSec": 361.68,
+      "text": "Así que la próxima vez que alguien te diga que un data engineer",
+      "scene": "Close-up: Sara shrugging, amused, direct at camera.",
+      "ref": "mono"
+    },
+    {
+      "file": "6_04.jpg",
+      "startSec": 364.68,
+      "text": "es solo un data scientist con otro nombre,",
+      "scene": "Medium shot: Sara holding a magnifying glass over a pipe icon, serious.",
+      "ref": "mono"
+    },
+    {
+      "file": "6_07.jpg",
+      "startSec": 367.22,
+      "text": "ya sabes que uno analiza el agua",
+      "scene": "Close-up: Sara pointing at a pipe icon, serious.",
+      "ref": "mono"
+    },
+    {
+      "file": "6_09.jpg",
+      "startSec": 369.16,
+      "text": "y el otro construye la tubería",
+      "scene": "ONLY this and NOTHING ELSE WHATSOEVER: a crossed-out pipe icon connected to nothing, meaning without the pipe there is no water. ABSOLUTELY NO CHARACTERS IN THIS IMAGE unless explicitly stated: no monkey, no Sara, no animal, no person, no face, no hooded figure. Icons only. Flat solid colors with thick black ink outlines on pure white, no gradients, no 3D shading, no drop shadows. The artwork must fill the whole 16:9 frame edge to edge, absolutely NO black bars, NO letterboxing. No invented text, no captions, no labels beyond exactly what this scene asks for, and if a specific word or number is requested, copy it EXACTLY letter by letter.",
+      "ref": "none"
+    },
+    {
+      "file": "6_10.jpg",
+      "startSec": 370.94,
+      "text": "y que sin la tubería no hay agua que analizar.",
+      "scene": "Close-up: Sara raising one finger, serious, about to close the thought.",
+      "ref": "mono"
+    },
+    {
+      "file": "6_15.jpg",
+      "startSec": 375.14,
+      "text": "Y ahora también sabes que esa tubería,",
+      "scene": "Close-up: Sara pointing off to the side at a hidden pipe icon, serious. The pipe icon is a plain unlabeled pipe segment only — no wrench, no gear, no other object next to it. ABSOLUTE RULE: no invented text, no captions, no labels, no numbers, no words of any kind anywhere in this image unless a specific word is explicitly quoted in this description — if none is quoted, draw ZERO text, letters, or digits anywhere in the frame.",
+      "ref": "mono"
+    },
+    {
+      "file": "6_17.jpg",
+      "startSec": 377.38,
+      "text": "la que nadie ve hasta que se rompe,",
+      "scene": "Medium shot: Sara holding both palms open, wide, generous gesture, warm.",
+      "ref": "mono"
+    },
+    {
+      "file": "6_19.jpg",
+      "startSec": 379.34,
+      "text": "es la que mejor se está pagando ahora mismo en todo el sector de datos.",
+      "scene": "ONLY this and NOTHING ELSE WHATSOEVER: a coin-stack icon glowing brighter than the icons around it, standing out. ABSOLUTELY NO CHARACTERS IN THIS IMAGE unless explicitly stated: no monkey, no Sara, no animal, no person, no face, no hooded figure. Icons only. Flat solid colors with thick black ink outlines on pure white, no gradients, no 3D shading, no drop shadows. The artwork must fill the whole 16:9 frame edge to edge, absolutely NO black bars, NO letterboxing. No invented text, no captions, no labels beyond exactly what this scene asks for, and if a specific word or number is requested, copy it EXACTLY letter by letter.",
+      "ref": "none"
+    },
+    {
+      "file": "6_24.jpg",
+      "startSec": 384.24,
+      "text": "Si te ha interesado esta serie sobre empleos reales en tecnología,",
+      "scene": "Medium shot: Sara smiling warmly at the camera holding a phone, a glowing bell icon beside it, and a small rectangular button reading exactly the Spanish word 'SUSCRIBETE' in bold letters — never the English word 'subscribe'.",
+      "ref": "mono"
+    },
+    {
+      "file": "6_27.jpg",
+      "startSec": 387.84,
+      "text": "suscríbete, se viene más de este mundo.",
+      "scene": "Close-up: Sara waving goodbye with a warm smile, direct at camera.",
+      "ref": "mono"
+    }
+  ],
+  "style_base": "Crude hand-drawn cartoon, Ecomonos style, PURE WHITE background, thick black ink outlines, flat colors. A brown cartoon monkey protagonist named Sara, huge white round eyes with black pupils, exactly like the reference image, NO clothing of any kind, NEVER a human character. Exactly two arms and two hands per character. Any text that appears in the image must be in PERFECT SPANISH, never English, and only when the scene explicitly asks for specific words or figures (brand-neutral tool names like AIRFLOW, SPARK or DBT are fine when the scene asks for them, they are generic technical terms not company logos). Fill the whole frame, no black bars. CRITICAL: NEVER use any real brand logo. There is NO hooded shadow character in this video at all — never draw one. Never add a speech bubble, caption or extra label unless the scene explicitly asks for one."
+}

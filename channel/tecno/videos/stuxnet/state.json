@@ -1,0 +1,13 @@
+{
+  "video": "stuxnet",
+  "steps": {
+    "voice": "done",
+    "whisper": "done",
+    "inject": "done",
+    "images": "pending",
+    "sfx": "pending",
+    "validate": "pending",
+    "preflight": "pending",
+    "render": "pending"
+  }
+}

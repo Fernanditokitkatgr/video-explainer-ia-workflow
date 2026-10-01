@@ -1,0 +1,24 @@
+{
+  "shorts": [
+    {
+      "file": "short_1.mp4",
+      "titulo": "ChatGPT no sabe cómo termina su propia frase",
+      "gancho": "NO SABE CÓMO/TERMINA SU FRASE",
+      "desde": "2_51",
+      "t0": 143.3,
+      "dur": 52.68,
+      "youtube_id": "2ixFgAPeLpA",
+      "publish_at": "2026-10-11T19:00:00Z"
+    },
+    {
+      "file": "short_2.mp4",
+      "titulo": "Por qué ChatGPT se inventa cosas (con total seguridad)",
+      "gancho": "POR QUÉ/SE INVENTA COSAS",
+      "desde": "5_33",
+      "t0": 277.75,
+      "dur": 37.98,
+      "youtube_id": "bLxIVv6nFiU",
+      "publish_at": "2026-10-12T11:00:00Z"
+    }
+  ]
+}

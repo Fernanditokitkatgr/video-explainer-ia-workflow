@@ -1,0 +1,13 @@
+{
+  "video": "exchange-22000-servidores",
+  "steps": {
+    "voice": "pending",
+    "whisper": "pending",
+    "inject": "done",
+    "images": "pending",
+    "sfx": "pending",
+    "validate": "pending",
+    "preflight": "pending",
+    "render": "pending"
+  }
+}

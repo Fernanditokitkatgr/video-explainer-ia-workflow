@@ -1,0 +1,818 @@
+{
+  "video": "como-funciona-el-gps",
+  "style_base": "Sara, a friendly cartoon monkey mascot with big expressive eyes, brown fur, flat cartoon illustration style, thick black ink outlines, simple flat colors, no gradients, no 3D shading, on a pure white background, drawn like a 2D explainer-video character.",
+  "frames": [
+    {
+      "file": "0_00.jpg",
+      "startSec": 0.0,
+      "text": "Abre el mapa de tu móvil. En un segundo aparece un punto azul justo donde estás, con un margen de pocos metros, aunque este es en mitad del campo.",
+      "scene": "Sara, a friendly cartoon monkey mascot with big expressive eyes, brown fur, flat cartoon illustration style, thick black ink outlines, simple flat colors, no gradients, no 3D shading, on a pure white background, drawn like a 2D explainer-video character. Wide shot, pointing at a smartphone showing a simple map with a blue location dot, off to one side. No invented text, no captions, no labels, no numbers, no words of any kind anywhere in this image unless a specific word or number is explicitly quoted in this description — if none is quoted, draw ZERO text, letters, or digits anywhere in the frame. Sara is NOT holding, touching, or standing near any object, food, or prop of any kind: no bananas, no fruit, no food, no pencils, no lightbulbs, no tools, no boxes, no books, no clothing, no accessories, her hands are empty — UNLESS an object is explicitly named earlier in this exact scene description, in which case ONLY that named object may appear.",
+      "ref": "mono"
+    },
+    {
+      "file": "0_08.jpg",
+      "startSec": 8.72,
+      "text": "Y tu móvil no le ha enviado ni un solo mensaje al espacio. No pregunta a nadie dónde está. No manda tu posición a ningún satélite.",
+      "scene": "ONLY this and NOTHING ELSE WHATSOEVER: a smartphone on the ground with a red prohibition sign over an arrow pointing up to the sky, centered. ABSOLUTELY NO CHARACTERS IN THIS IMAGE: no monkey, no Sara, no animal, no person, no face. Icons only. Flat solid colors with thick black ink outlines on pure white, no gradients, no 3D shading, no drop shadows. The artwork must fill the whole 16:9 frame edge to edge, NO black bars. No invented text, no captions, no labels, no numbers, no words of any kind anywhere in this image unless a specific word or number is explicitly quoted in this description — if none is quoted, draw ZERO text, letters, or digits anywhere in the frame.",
+      "ref": "none"
+    },
+    {
+      "file": "0_16.jpg",
+      "startSec": 16.88,
+      "text": "Tu móvil no pregunta.",
+      "scene": "Sara, a friendly cartoon monkey mascot with big expressive eyes, brown fur, flat cartoon illustration style, thick black ink outlines, simple flat colors, no gradients, no 3D shading, on a pure white background, drawn like a 2D explainer-video character. Close-up shot, pointing at a smartphone with a crossed-out speech bubble, off to one side. No invented text, no captions, no labels, no numbers, no words of any kind anywhere in this image unless a specific word or number is explicitly quoted in this description — if none is quoted, draw ZERO text, letters, or digits anywhere in the frame. Sara is NOT holding, touching, or standing near any object, food, or prop of any kind: no bananas, no fruit, no food, no pencils, no lightbulbs, no tools, no boxes, no books, no clothing, no accessories, her hands are empty — UNLESS an object is explicitly named earlier in this exact scene description, in which case ONLY that named object may appear.",
+      "ref": "mono"
+    },
+    {
+      "file": "0_18.jpg",
+      "startSec": 18.92,
+      "text": "Escucha.",
+      "scene": "Sara, a friendly cartoon monkey mascot with big expressive eyes, brown fur, flat cartoon illustration style, thick black ink outlines, simple flat colors, no gradients, no 3D shading, on a pure white background, drawn like a 2D explainer-video character. Medium shot, hand cupped behind one ear, listening carefully, focused expression. No invented text, no captions, no labels, no numbers, no words of any kind anywhere in this image unless a specific word or number is explicitly quoted in this description — if none is quoted, draw ZERO text, letters, or digits anywhere in the frame. Sara is NOT holding, touching, or standing near any object, food, or prop of any kind: no bananas, no fruit, no food, no pencils, no lightbulbs, no tools, no boxes, no books, no clothing, no accessories, her hands are empty — UNLESS an object is explicitly named earlier in this exact scene description, in which case ONLY that named object may appear.",
+      "ref": "mono"
+    },
+    {
+      "file": "0_20.jpg",
+      "startSec": 20.02,
+      "text": "Y lo más loco es otra cosa. Sin la teoría de la relatividad de Einstein, ese punto azul se equivocaría unos 10 kilómetros cada día.",
+      "scene": "ONLY this and NOTHING ELSE WHATSOEVER: a blue location dot on a simple map drifting away along a dotted line, centered. ABSOLUTELY NO CHARACTERS IN THIS IMAGE: no monkey, no Sara, no animal, no person, no face. Icons only. Flat solid colors with thick black ink outlines on pure white, no gradients, no 3D shading, no drop shadows. The artwork must fill the whole 16:9 frame edge to edge, NO black bars. No invented text, no captions, no labels, no numbers, no words of any kind anywhere in this image unless a specific word or number is explicitly quoted in this description — if none is quoted, draw ZERO text, letters, or digits anywhere in the frame.",
+      "ref": "none"
+    },
+    {
+      "file": "0_27.jpg",
+      "startSec": 27.78,
+      "text": "Hoy vas a ver cómo funciona el GPS de verdad y por qué necesita Einstein.",
+      "scene": "Sara, a friendly cartoon monkey mascot with big expressive eyes, brown fur, flat cartoon illustration style, thick black ink outlines, simple flat colors, no gradients, no 3D shading, on a pure white background, drawn like a 2D explainer-video character. Wide shot, pointing at a satellite next to a light bulb shaped like a brain, off to one side. No invented text, no captions, no labels, no numbers, no words of any kind anywhere in this image unless a specific word or number is explicitly quoted in this description — if none is quoted, draw ZERO text, letters, or digits anywhere in the frame. Sara is NOT holding, touching, or standing near any object, food, or prop of any kind: no bananas, no fruit, no food, no pencils, no lightbulbs, no tools, no boxes, no books, no clothing, no accessories, her hands are empty — UNLESS an object is explicitly named earlier in this exact scene description, in which case ONLY that named object may appear.",
+      "ref": "mono"
+    },
+    {
+      "file": "0_33.jpg",
+      "startSec": 33.44,
+      "text": "Empecemos por lo que hay ahí arriba.",
+      "scene": "Sara, a friendly cartoon monkey mascot with big expressive eyes, brown fur, flat cartoon illustration style, thick black ink outlines, simple flat colors, no gradients, no 3D shading, on a pure white background, drawn like a 2D explainer-video character. Close-up shot, looking up at the sky, curious expression, a small satellite floating to one side. No invented text, no captions, no labels, no numbers, no words of any kind anywhere in this image unless a specific word or number is explicitly quoted in this description — if none is quoted, draw ZERO text, letters, or digits anywhere in the frame. Sara is NOT holding, touching, or standing near any object, food, or prop of any kind: no bananas, no fruit, no food, no pencils, no lightbulbs, no tools, no boxes, no books, no clothing, no accessories, her hands are empty — UNLESS an object is explicitly named earlier in this exact scene description, in which case ONLY that named object may appear.",
+      "ref": "mono"
+    },
+    {
+      "file": "0_35.jpg",
+      "startSec": 35.82,
+      "text": "El GPS es un sistema de Estados Unidos, nació como un proyecto militar. Son unos 30 satélites dando vueltas a la tierra a unos 20.000 kilómetros de altura, y cada satélite hace una sola cosa, una y otra vez, sin parada.",
+      "scene": "ONLY this and NOTHING ELSE WHATSOEVER: the planet Earth surrounded by many small satellites on circular orbits, centered. ABSOLUTELY NO CHARACTERS IN THIS IMAGE: no monkey, no Sara, no animal, no person, no face. Icons only. Flat solid colors with thick black ink outlines on pure white, no gradients, no 3D shading, no drop shadows. The artwork must fill the whole 16:9 frame edge to edge, NO black bars. No invented text, no captions, no labels, no numbers, no words of any kind anywhere in this image unless a specific word or number is explicitly quoted in this description — if none is quoted, draw ZERO text, letters, or digits anywhere in the frame.",
+      "ref": "none"
+    },
+    {
+      "file": "0_49.jpg",
+      "startSec": 49.4,
+      "text": "Grita la hora. Emite una señal de radio que dice algo así.",
+      "scene": "Sara, a friendly cartoon monkey mascot with big expressive eyes, brown fur, flat cartoon illustration style, thick black ink outlines, simple flat colors, no gradients, no 3D shading, on a pure white background, drawn like a 2D explainer-video character. Medium shot, pointing at a small cartoon satellite with two blue solar panels sending out radio waves, off to one side. No invented text, no captions, no labels, no numbers, no words of any kind anywhere in this image unless a specific word or number is explicitly quoted in this description — if none is quoted, draw ZERO text, letters, or digits anywhere in the frame. Sara is NOT holding, touching, or standing near any object, food, or prop of any kind: no bananas, no fruit, no food, no pencils, no lightbulbs, no tools, no boxes, no books, no clothing, no accessories, her hands are empty — UNLESS an object is explicitly named earlier in this exact scene description, in which case ONLY that named object may appear.",
+      "ref": "mono"
+    },
+    {
+      "file": "0_53.jpg",
+      "startSec": 53.78,
+      "text": "Soy tal satélite. Estoy en este punto exacto, y ahora mismo es esta hora.",
+      "scene": "Sara, a friendly cartoon monkey mascot with big expressive eyes, brown fur, flat cartoon illustration style, thick black ink outlines, simple flat colors, no gradients, no 3D shading, on a pure white background, drawn like a 2D explainer-video character. Medium shot, pointing at a small cartoon satellite with two blue solar panels next to a round clock icon, radio waves coming out of it, off to one side. No invented text, no captions, no labels, no numbers, no words of any kind anywhere in this image unless a specific word or number is explicitly quoted in this description — if none is quoted, draw ZERO text, letters, or digits anywhere in the frame. Sara is NOT holding, touching, or standing near any object, food, or prop of any kind: no bananas, no fruit, no food, no pencils, no lightbulbs, no tools, no boxes, no books, no clothing, no accessories, her hands are empty — UNLESS an object is explicitly named earlier in this exact scene description, in which case ONLY that named object may appear.",
+      "ref": "mono"
+    },
+    {
+      "file": "0_58.jpg",
+      "startSec": 58.82,
+      "text": "Tu móvil no contesta. Solo recibe esos mensajes. Por eso da igual que haya 1000 millones de personas usando el GPS a la vez.",
+      "scene": "Sara, a friendly cartoon monkey mascot with big expressive eyes, brown fur, flat cartoon illustration style, thick black ink outlines, simple flat colors, no gradients, no 3D shading, on a pure white background, drawn like a 2D explainer-video character. Wide shot, pointing at a smartphone receiving radio waves from above, off to one side. No invented text, no captions, no labels, no numbers, no words of any kind anywhere in this image unless a specific word or number is explicitly quoted in this description — if none is quoted, draw ZERO text, letters, or digits anywhere in the frame. Sara is NOT holding, touching, or standing near any object, food, or prop of any kind: no bananas, no fruit, no food, no pencils, no lightbulbs, no tools, no boxes, no books, no clothing, no accessories, her hands are empty — UNLESS an object is explicitly named earlier in this exact scene description, in which case ONLY that named object may appear.",
+      "ref": "mono"
+    },
+    {
+      "file": "1_06.jpg",
+      "startSec": 66.24,
+      "text": "Los satélites ni se enteran.",
+      "scene": "Sara, a friendly cartoon monkey mascot with big expressive eyes, brown fur, flat cartoon illustration style, thick black ink outlines, simple flat colors, no gradients, no 3D shading, on a pure white background, drawn like a 2D explainer-video character. Close-up shot, pointing at a small cartoon satellite with two blue solar panels, off to one side. No invented text, no captions, no labels, no numbers, no words of any kind anywhere in this image unless a specific word or number is explicitly quoted in this description — if none is quoted, draw ZERO text, letters, or digits anywhere in the frame. Sara is NOT holding, touching, or standing near any object, food, or prop of any kind: no bananas, no fruit, no food, no pencils, no lightbulbs, no tools, no boxes, no books, no clothing, no accessories, her hands are empty — UNLESS an object is explicitly named earlier in this exact scene description, in which case ONLY that named object may appear.",
+      "ref": "mono"
+    },
+    {
+      "file": "1_08.jpg",
+      "startSec": 68.44,
+      "text": "Tu móvil no pregunta. Escucha.",
+      "scene": "Sara, a friendly cartoon monkey mascot with big expressive eyes, brown fur, flat cartoon illustration style, thick black ink outlines, simple flat colors, no gradients, no 3D shading, on a pure white background, drawn like a 2D explainer-video character. Medium shot, hand cupped behind one ear, listening carefully, a small smartphone floating to one side. No invented text, no captions, no labels, no numbers, no words of any kind anywhere in this image unless a specific word or number is explicitly quoted in this description — if none is quoted, draw ZERO text, letters, or digits anywhere in the frame. Sara is NOT holding, touching, or standing near any object, food, or prop of any kind: no bananas, no fruit, no food, no pencils, no lightbulbs, no tools, no boxes, no books, no clothing, no accessories, her hands are empty — UNLESS an object is explicitly named earlier in this exact scene description, in which case ONLY that named object may appear.",
+      "ref": "mono"
+    },
+    {
+      "file": "1_11.jpg",
+      "startSec": 71.02,
+      "text": "Y cómo saca tu posición de un simple mensaje con la hora?",
+      "scene": "Sara, a friendly cartoon monkey mascot with big expressive eyes, brown fur, flat cartoon illustration style, thick black ink outlines, simple flat colors, no gradients, no 3D shading, on a pure white background, drawn like a 2D explainer-video character. Wide shot, thinking hard, a small question mark floating to one side. No invented text, no captions, no labels, no numbers, no words of any kind anywhere in this image unless a specific word or number is explicitly quoted in this description — if none is quoted, draw ZERO text, letters, or digits anywhere in the frame. Sara is NOT holding, touching, or standing near any object, food, or prop of any kind: no bananas, no fruit, no food, no pencils, no lightbulbs, no tools, no boxes, no books, no clothing, no accessories, her hands are empty — UNLESS an object is explicitly named earlier in this exact scene description, in which case ONLY that named object may appear.",
+      "ref": "mono"
+    },
+    {
+      "file": "1_14.jpg",
+      "startSec": 74.52,
+      "text": "Piense en una tormenta. Vés el rayo, y unos segundos después oyes el trueno.",
+      "scene": "ONLY this and NOTHING ELSE WHATSOEVER: a dark storm cloud with a yellow lightning bolt, centered. ABSOLUTELY NO CHARACTERS IN THIS IMAGE: no monkey, no Sara, no animal, no person, no face. Icons only. Flat solid colors with thick black ink outlines on pure white, no gradients, no 3D shading, no drop shadows. The artwork must fill the whole 16:9 frame edge to edge, NO black bars. No invented text, no captions, no labels, no numbers, no words of any kind anywhere in this image unless a specific word or number is explicitly quoted in this description — if none is quoted, draw ZERO text, letters, or digits anywhere in the frame.",
+      "ref": "none"
+    },
+    {
+      "file": "1_19.jpg",
+      "startSec": 79.7,
+      "text": "Si cuentas los segundos que pasan entre uno y otro, puedes saber a qué distancia cayó, porque el sonido viaja a una velocidad conocida.",
+      "scene": "Sara, a friendly cartoon monkey mascot with big expressive eyes, brown fur, flat cartoon illustration style, thick black ink outlines, simple flat colors, no gradients, no 3D shading, on a pure white background, drawn like a 2D explainer-video character. Close-up shot, pointing at a storm cloud with a lightning bolt and a stopwatch, off to one side. No invented text, no captions, no labels, no numbers, no words of any kind anywhere in this image unless a specific word or number is explicitly quoted in this description — if none is quoted, draw ZERO text, letters, or digits anywhere in the frame. Sara is NOT holding, touching, or standing near any object, food, or prop of any kind: no bananas, no fruit, no food, no pencils, no lightbulbs, no tools, no boxes, no books, no clothing, no accessories, her hands are empty — UNLESS an object is explicitly named earlier in this exact scene description, in which case ONLY that named object may appear.",
+      "ref": "mono"
+    },
+    {
+      "file": "1_27.jpg",
+      "startSec": 87.22,
+      "text": "El GPS hace exactamente lo mismo, pero con ondas de radio.",
+      "scene": "Sara, a friendly cartoon monkey mascot with big expressive eyes, brown fur, flat cartoon illustration style, thick black ink outlines, simple flat colors, no gradients, no 3D shading, on a pure white background, drawn like a 2D explainer-video character. Medium shot, pointing at radio waves traveling from a satellite to a phone, off to one side. No invented text, no captions, no labels, no numbers, no words of any kind anywhere in this image unless a specific word or number is explicitly quoted in this description — if none is quoted, draw ZERO text, letters, or digits anywhere in the frame. Sara is NOT holding, touching, or standing near any object, food, or prop of any kind: no bananas, no fruit, no food, no pencils, no lightbulbs, no tools, no boxes, no books, no clothing, no accessories, her hands are empty — UNLESS an object is explicitly named earlier in this exact scene description, in which case ONLY that named object may appear.",
+      "ref": "mono"
+    },
+    {
+      "file": "1_31.jpg",
+      "startSec": 91.12,
+      "text": "Las ondas de radio viajan a la velocidad de la luz, unos 300.000 kilómetros por segundo.",
+      "scene": "ONLY this and NOTHING ELSE WHATSOEVER: a fast yellow light beam arrow with speed lines, centered. ABSOLUTELY NO CHARACTERS IN THIS IMAGE: no monkey, no Sara, no animal, no person, no face. Icons only. Flat solid colors with thick black ink outlines on pure white, no gradients, no 3D shading, no drop shadows. The artwork must fill the whole 16:9 frame edge to edge, NO black bars. No invented text, no captions, no labels, no numbers, no words of any kind anywhere in this image unless a specific word or number is explicitly quoted in this description — if none is quoted, draw ZERO text, letters, or digits anywhere in the frame.",
+      "ref": "none"
+    },
+    {
+      "file": "1_36.jpg",
+      "startSec": 96.16,
+      "text": "El satélite dice a qué hora salió su mensaje. Tu móvil mira a qué hora le llegó.",
+      "scene": "Sara, a friendly cartoon monkey mascot with big expressive eyes, brown fur, flat cartoon illustration style, thick black ink outlines, simple flat colors, no gradients, no 3D shading, on a pure white background, drawn like a 2D explainer-video character. Wide shot, pointing at two small clocks side by side, one next to a satellite and one next to a phone, off to one side. No invented text, no captions, no labels, no numbers, no words of any kind anywhere in this image unless a specific word or number is explicitly quoted in this description — if none is quoted, draw ZERO text, letters, or digits anywhere in the frame. Sara is NOT holding, touching, or standing near any object, food, or prop of any kind: no bananas, no fruit, no food, no pencils, no lightbulbs, no tools, no boxes, no books, no clothing, no accessories, her hands are empty — UNLESS an object is explicitly named earlier in this exact scene description, in which case ONLY that named object may appear.",
+      "ref": "mono"
+    },
+    {
+      "file": "1_41.jpg",
+      "startSec": 101.82,
+      "text": "La diferencia es el tiempo que tardó en viajar. Una siete centésimas de segundo.",
+      "scene": "Sara, a friendly cartoon monkey mascot with big expressive eyes, brown fur, flat cartoon illustration style, thick black ink outlines, simple flat colors, no gradients, no 3D shading, on a pure white background, drawn like a 2D explainer-video character. Close-up shot, pointing at a stopwatch, off to one side. No invented text, no captions, no labels, no numbers, no words of any kind anywhere in this image unless a specific word or number is explicitly quoted in this description — if none is quoted, draw ZERO text, letters, or digits anywhere in the frame. Sara is NOT holding, touching, or standing near any object, food, or prop of any kind: no bananas, no fruit, no food, no pencils, no lightbulbs, no tools, no boxes, no books, no clothing, no accessories, her hands are empty — UNLESS an object is explicitly named earlier in this exact scene description, in which case ONLY that named object may appear.",
+      "ref": "mono"
+    },
+    {
+      "file": "1_47.jpg",
+      "startSec": 107.08,
+      "text": "Multiplica ese tiempo por la velocidad de la luz y te sale la distancia hasta ese satélite.",
+      "scene": "Sara, a friendly cartoon monkey mascot with big expressive eyes, brown fur, flat cartoon illustration style, thick black ink outlines, simple flat colors, no gradients, no 3D shading, on a pure white background, drawn like a 2D explainer-video character. Wide shot, pointing at a stopwatch, a multiplication sign and a lightning-fast arrow, then an equals sign and a measuring tape, in a row, off to one side. No invented text, no captions, no labels, no numbers, no words of any kind anywhere in this image unless a specific word or number is explicitly quoted in this description — if none is quoted, draw ZERO text, letters, or digits anywhere in the frame. Sara is NOT holding, touching, or standing near any object, food, or prop of any kind: no bananas, no fruit, no food, no pencils, no lightbulbs, no tools, no boxes, no books, no clothing, no accessories, her hands are empty — UNLESS an object is explicitly named earlier in this exact scene description, in which case ONLY that named object may appear.",
+      "ref": "mono"
+    },
+    {
+      "file": "1_52.jpg",
+      "startSec": 112.46,
+      "text": "Tiempo por velocidad. Esa es toda la magia. Tu móvil convierte tiempo en distancia.",
+      "scene": "Sara, a friendly cartoon monkey mascot with big expressive eyes, brown fur, flat cartoon illustration style, thick black ink outlines, simple flat colors, no gradients, no 3D shading, on a pure white background, drawn like a 2D explainer-video character. Medium shot, pointing at a stopwatch turning into a measuring tape with an arrow, off to one side. No invented text, no captions, no labels, no numbers, no words of any kind anywhere in this image unless a specific word or number is explicitly quoted in this description — if none is quoted, draw ZERO text, letters, or digits anywhere in the frame. Sara is NOT holding, touching, or standing near any object, food, or prop of any kind: no bananas, no fruit, no food, no pencils, no lightbulbs, no tools, no boxes, no books, no clothing, no accessories, her hands are empty — UNLESS an object is explicitly named earlier in this exact scene description, in which case ONLY that named object may appear.",
+      "ref": "mono"
+    },
+    {
+      "file": "1_58.jpg",
+      "startSec": 118.12,
+      "text": "Pero saber a qué distancia estás de un satélite todavía no te dice dónde estás.",
+      "scene": "Sara, a friendly cartoon monkey mascot with big expressive eyes, brown fur, flat cartoon illustration style, thick black ink outlines, simple flat colors, no gradients, no 3D shading, on a pure white background, drawn like a 2D explainer-video character. Wide shot, shrugging with both palms up, a small satellite floating to one side. No invented text, no captions, no labels, no numbers, no words of any kind anywhere in this image unless a specific word or number is explicitly quoted in this description — if none is quoted, draw ZERO text, letters, or digits anywhere in the frame. Sara is NOT holding, touching, or standing near any object, food, or prop of any kind: no bananas, no fruit, no food, no pencils, no lightbulbs, no tools, no boxes, no books, no clothing, no accessories, her hands are empty — UNLESS an object is explicitly named earlier in this exact scene description, in which case ONLY that named object may appear.",
+      "ref": "mono"
+    },
+    {
+      "file": "2_02.jpg",
+      "startSec": 122.8,
+      "text": "Imagina que te despiertas en algún lugar de España, sin saber dónde.",
+      "scene": "ONLY this and NOTHING ELSE WHATSOEVER: a simple outline map of the Iberian Peninsula with a big question mark in the middle, centered. ABSOLUTELY NO CHARACTERS IN THIS IMAGE: no monkey, no Sara, no animal, no person, no face. Icons only. Flat solid colors with thick black ink outlines on pure white, no gradients, no 3D shading, no drop shadows. The artwork must fill the whole 16:9 frame edge to edge, NO black bars. No invented text, no captions, no labels, no numbers, no words of any kind anywhere in this image unless a specific word or number is explicitly quoted in this description — if none is quoted, draw ZERO text, letters, or digits anywhere in the frame.",
+      "ref": "none"
+    },
+    {
+      "file": "2_06.jpg",
+      "startSec": 126.86,
+      "text": "Encuentras un cartel que dice estás a 300 kilómetros de Madrid.",
+      "scene": "Sara, a friendly cartoon monkey mascot with big expressive eyes, brown fur, flat cartoon illustration style, thick black ink outlines, simple flat colors, no gradients, no 3D shading, on a pure white background, drawn like a 2D explainer-video character. Close-up shot, pointing at a wooden road sign with an arrow, off to one side. No invented text, no captions, no labels, no numbers, no words of any kind anywhere in this image unless a specific word or number is explicitly quoted in this description — if none is quoted, draw ZERO text, letters, or digits anywhere in the frame. Sara is NOT holding, touching, or standing near any object, food, or prop of any kind: no bananas, no fruit, no food, no pencils, no lightbulbs, no tools, no boxes, no books, no clothing, no accessories, her hands are empty — UNLESS an object is explicitly named earlier in this exact scene description, in which case ONLY that named object may appear.",
+      "ref": "mono"
+    },
+    {
+      "file": "2_11.jpg",
+      "startSec": 131.28,
+      "text": "Eso ya te dice algo, pero puedes estar en cualquier punto de un círculo enorme alrededor de Madrid.",
+      "scene": "ONLY this and NOTHING ELSE WHATSOEVER: a simple outline map of the Iberian Peninsula with one large dotted circle drawn on it, centered. ABSOLUTELY NO CHARACTERS IN THIS IMAGE: no monkey, no Sara, no animal, no person, no face. Icons only. Flat solid colors with thick black ink outlines on pure white, no gradients, no 3D shading, no drop shadows. The artwork must fill the whole 16:9 frame edge to edge, NO black bars. No invented text, no captions, no labels, no numbers, no words of any kind anywhere in this image unless a specific word or number is explicitly quoted in this description — if none is quoted, draw ZERO text, letters, or digits anywhere in the frame.",
+      "ref": "none"
+    },
+    {
+      "file": "2_17.jpg",
+      "startSec": 137.1,
+      "text": "Sigue sandando y encuentras otro cartel. Estás a 100 kilómetros de Valencia.",
+      "scene": "Sara, a friendly cartoon monkey mascot with big expressive eyes, brown fur, flat cartoon illustration style, thick black ink outlines, simple flat colors, no gradients, no 3D shading, on a pure white background, drawn like a 2D explainer-video character. Medium shot, pointing at a second wooden road sign with an arrow, off to one side. No invented text, no captions, no labels, no numbers, no words of any kind anywhere in this image unless a specific word or number is explicitly quoted in this description — if none is quoted, draw ZERO text, letters, or digits anywhere in the frame. Sara is NOT holding, touching, or standing near any object, food, or prop of any kind: no bananas, no fruit, no food, no pencils, no lightbulbs, no tools, no boxes, no books, no clothing, no accessories, her hands are empty — UNLESS an object is explicitly named earlier in this exact scene description, in which case ONLY that named object may appear.",
+      "ref": "mono"
+    },
+    {
+      "file": "2_22.jpg",
+      "startSec": 142.1,
+      "text": "Dibujas ese segundo círculo, y solo se cruza con el primero en dos puntos.",
+      "scene": "Sara, a friendly cartoon monkey mascot with big expressive eyes, brown fur, flat cartoon illustration style, thick black ink outlines, simple flat colors, no gradients, no 3D shading, on a pure white background, drawn like a 2D explainer-video character. Wide shot, pointing at two large dotted circles overlapping and crossing at two points, off to one side. No invented text, no captions, no labels, no numbers, no words of any kind anywhere in this image unless a specific word or number is explicitly quoted in this description — if none is quoted, draw ZERO text, letters, or digits anywhere in the frame. Sara is NOT holding, touching, or standing near any object, food, or prop of any kind: no bananas, no fruit, no food, no pencils, no lightbulbs, no tools, no boxes, no books, no clothing, no accessories, her hands are empty — UNLESS an object is explicitly named earlier in this exact scene description, in which case ONLY that named object may appear.",
+      "ref": "mono"
+    },
+    {
+      "file": "2_26.jpg",
+      "startSec": 146.8,
+      "text": "Ya solo tienes dos sitios posibles.",
+      "scene": "Sara, a friendly cartoon monkey mascot with big expressive eyes, brown fur, flat cartoon illustration style, thick black ink outlines, simple flat colors, no gradients, no 3D shading, on a pure white background, drawn like a 2D explainer-video character. Medium shot, pointing at two large dotted circles overlapping, with their two crossing points marked with red dots, off to one side. No invented text, no captions, no labels, no numbers, no words of any kind anywhere in this image unless a specific word or number is explicitly quoted in this description — if none is quoted, draw ZERO text, letters, or digits anywhere in the frame. Sara is NOT holding, touching, or standing near any object, food, or prop of any kind: no bananas, no fruit, no food, no pencils, no lightbulbs, no tools, no boxes, no books, no clothing, no accessories, her hands are empty — UNLESS an object is explicitly named earlier in this exact scene description, in which case ONLY that named object may appear.",
+      "ref": "mono"
+    },
+    {
+      "file": "2_28.jpg",
+      "startSec": 148.5,
+      "text": "Y entonces aparece un tercer cartel con la distancia a otra ciudad.",
+      "scene": "Sara, a friendly cartoon monkey mascot with big expressive eyes, brown fur, flat cartoon illustration style, thick black ink outlines, simple flat colors, no gradients, no 3D shading, on a pure white background, drawn like a 2D explainer-video character. Close-up shot, pointing at a third wooden road sign, off to one side. No invented text, no captions, no labels, no numbers, no words of any kind anywhere in this image unless a specific word or number is explicitly quoted in this description — if none is quoted, draw ZERO text, letters, or digits anywhere in the frame. Sara is NOT holding, touching, or standing near any object, food, or prop of any kind: no bananas, no fruit, no food, no pencils, no lightbulbs, no tools, no boxes, no books, no clothing, no accessories, her hands are empty — UNLESS an object is explicitly named earlier in this exact scene description, in which case ONLY that named object may appear.",
+      "ref": "mono"
+    },
+    {
+      "file": "2_33.jpg",
+      "startSec": 153.28,
+      "text": "Su círculo solo pasa por uno de esos dos puntos. Ya sabes dónde estás.",
+      "scene": "ONLY this and NOTHING ELSE WHATSOEVER: exactly THREE large dotted circles (one top-left, one top-right, one at the bottom), all three passing through one single red location pin in the middle, only three circles in total, centered. ABSOLUTELY NO CHARACTERS IN THIS IMAGE: no monkey, no Sara, no animal, no person, no face. Icons only. Flat solid colors with thick black ink outlines on pure white, no gradients, no 3D shading, no drop shadows. The artwork must fill the whole 16:9 frame edge to edge, NO black bars. No invented text, no captions, no labels, no numbers, no words of any kind anywhere in this image unless a specific word or number is explicitly quoted in this description — if none is quoted, draw ZERO text, letters, or digits anywhere in the frame.",
+      "ref": "none"
+    },
+    {
+      "file": "2_38.jpg",
+      "startSec": 158.18,
+      "text": "Esto se llama trilateración, localizar algo midiendo distancias.",
+      "scene": "Sara, a friendly cartoon monkey mascot with big expressive eyes, brown fur, flat cartoon illustration style, thick black ink outlines, simple flat colors, no gradients, no 3D shading, on a pure white background, drawn like a 2D explainer-video character. Medium shot, pointing at three dotted circles meeting at one red pin, off to one side. No invented text, no captions, no labels, no numbers, no words of any kind anywhere in this image unless a specific word or number is explicitly quoted in this description — if none is quoted, draw ZERO text, letters, or digits anywhere in the frame. Sara is NOT holding, touching, or standing near any object, food, or prop of any kind: no bananas, no fruit, no food, no pencils, no lightbulbs, no tools, no boxes, no books, no clothing, no accessories, her hands are empty — UNLESS an object is explicitly named earlier in this exact scene description, in which case ONLY that named object may appear.",
+      "ref": "mono"
+    },
+    {
+      "file": "2_42.jpg",
+      "startSec": 162.68,
+      "text": "El GPS hace lo mismo, sólo que en el espacio no son círculos, son esferas.",
+      "scene": "Sara, a friendly cartoon monkey mascot with big expressive eyes, brown fur, flat cartoon illustration style, thick black ink outlines, simple flat colors, no gradients, no 3D shading, on a pure white background, drawn like a 2D explainer-video character. Wide shot, pointing at a large transparent sphere, off to one side. No invented text, no captions, no labels, no numbers, no words of any kind anywhere in this image unless a specific word or number is explicitly quoted in this description — if none is quoted, draw ZERO text, letters, or digits anywhere in the frame. Sara is NOT holding, touching, or standing near any object, food, or prop of any kind: no bananas, no fruit, no food, no pencils, no lightbulbs, no tools, no boxes, no books, no clothing, no accessories, her hands are empty — UNLESS an object is explicitly named earlier in this exact scene description, in which case ONLY that named object may appear.",
+      "ref": "mono"
+    },
+    {
+      "file": "2_47.jpg",
+      "startSec": 167.9,
+      "text": "Cada satélite te dice que estás en algún punto de una gola gigante a su alrededor.",
+      "scene": "ONLY this and NOTHING ELSE WHATSOEVER: a small cartoon satellite with two blue solar panels surrounded by a large transparent bubble sphere, centered. ABSOLUTELY NO CHARACTERS IN THIS IMAGE: no monkey, no Sara, no animal, no person, no face. Icons only. Flat solid colors with thick black ink outlines on pure white, no gradients, no 3D shading, no drop shadows. The artwork must fill the whole 16:9 frame edge to edge, NO black bars. No invented text, no captions, no labels, no numbers, no words of any kind anywhere in this image unless a specific word or number is explicitly quoted in this description — if none is quoted, draw ZERO text, letters, or digits anywhere in the frame.",
+      "ref": "none"
+    },
+    {
+      "file": "2_52.jpg",
+      "startSec": 172.8,
+      "text": "Tres esferas se cruzan en dos puntos. Uno suele estar perdido en el espacio, así que se descarta.",
+      "scene": "Sara, a friendly cartoon monkey mascot with big expressive eyes, brown fur, flat cartoon illustration style, thick black ink outlines, simple flat colors, no gradients, no 3D shading, on a pure white background, drawn like a 2D explainer-video character. Close-up shot, pointing at three overlapping transparent spheres, off to one side. No invented text, no captions, no labels, no numbers, no words of any kind anywhere in this image unless a specific word or number is explicitly quoted in this description — if none is quoted, draw ZERO text, letters, or digits anywhere in the frame. Sara is NOT holding, touching, or standing near any object, food, or prop of any kind: no bananas, no fruit, no food, no pencils, no lightbulbs, no tools, no boxes, no books, no clothing, no accessories, her hands are empty — UNLESS an object is explicitly named earlier in this exact scene description, in which case ONLY that named object may appear.",
+      "ref": "mono"
+    },
+    {
+      "file": "2_59.jpg",
+      "startSec": 179.14,
+      "text": "Con tres satélites debería bastar, pero tu móvil siempre necesita al menos cuatro.",
+      "scene": "Sara, a friendly cartoon monkey mascot with big expressive eyes, brown fur, flat cartoon illustration style, thick black ink outlines, simple flat colors, no gradients, no 3D shading, on a pure white background, drawn like a 2D explainer-video character. Medium shot, pointing at four small satellites in a row, off to one side. No invented text, no captions, no labels, no numbers, no words of any kind anywhere in this image unless a specific word or number is explicitly quoted in this description — if none is quoted, draw ZERO text, letters, or digits anywhere in the frame. Sara is NOT holding, touching, or standing near any object, food, or prop of any kind: no bananas, no fruit, no food, no pencils, no lightbulbs, no tools, no boxes, no books, no clothing, no accessories, her hands are empty — UNLESS an object is explicitly named earlier in this exact scene description, in which case ONLY that named object may appear.",
+      "ref": "mono"
+    },
+    {
+      "file": "3_04.jpg",
+      "startSec": 184.14,
+      "text": "Y el motivo es su reloj.",
+      "scene": "Sara, a friendly cartoon monkey mascot with big expressive eyes, brown fur, flat cartoon illustration style, thick black ink outlines, simple flat colors, no gradients, no 3D shading, on a pure white background, drawn like a 2D explainer-video character. Wide shot, pointing at a round wall clock, off to one side. No invented text, no captions, no labels, no numbers, no words of any kind anywhere in this image unless a specific word or number is explicitly quoted in this description — if none is quoted, draw ZERO text, letters, or digits anywhere in the frame. Sara is NOT holding, touching, or standing near any object, food, or prop of any kind: no bananas, no fruit, no food, no pencils, no lightbulbs, no tools, no boxes, no books, no clothing, no accessories, her hands are empty — UNLESS an object is explicitly named earlier in this exact scene description, in which case ONLY that named object may appear.",
+      "ref": "mono"
+    },
+    {
+      "file": "3_06.jpg",
+      "startSec": 186.34,
+      "text": "Todo este cálculo depende de medir el tiempo con una precisión brutal.",
+      "scene": "Sara, a friendly cartoon monkey mascot with big expressive eyes, brown fur, flat cartoon illustration style, thick black ink outlines, simple flat colors, no gradients, no 3D shading, on a pure white background, drawn like a 2D explainer-video character. Wide shot, pointing at a stopwatch with a magnifying glass over it, off to one side. No invented text, no captions, no labels, no numbers, no words of any kind anywhere in this image unless a specific word or number is explicitly quoted in this description — if none is quoted, draw ZERO text, letters, or digits anywhere in the frame. Sara is NOT holding, touching, or standing near any object, food, or prop of any kind: no bananas, no fruit, no food, no pencils, no lightbulbs, no tools, no boxes, no books, no clothing, no accessories, her hands are empty — UNLESS an object is explicitly named earlier in this exact scene description, in which case ONLY that named object may appear.",
+      "ref": "mono"
+    },
+    {
+      "file": "3_10.jpg",
+      "startSec": 190.54,
+      "text": "Las ondas viajan tan rápido que una millonésima de segundo de error son unos 300 metros.",
+      "scene": "Sara, a friendly cartoon monkey mascot with big expressive eyes, brown fur, flat cartoon illustration style, thick black ink outlines, simple flat colors, no gradients, no 3D shading, on a pure white background, drawn like a 2D explainer-video character. Close-up shot, pointing at a stopwatch next to a long measuring tape, off to one side. No invented text, no captions, no labels, no numbers, no words of any kind anywhere in this image unless a specific word or number is explicitly quoted in this description — if none is quoted, draw ZERO text, letters, or digits anywhere in the frame. Sara is NOT holding, touching, or standing near any object, food, or prop of any kind: no bananas, no fruit, no food, no pencils, no lightbulbs, no tools, no boxes, no books, no clothing, no accessories, her hands are empty — UNLESS an object is explicitly named earlier in this exact scene description, in which case ONLY that named object may appear.",
+      "ref": "mono"
+    },
+    {
+      "file": "3_16.jpg",
+      "startSec": 196.96,
+      "text": "Por eso los satélites llevan relojes atómicos.",
+      "scene": "ONLY this and NOTHING ELSE WHATSOEVER: a cartoon atom symbol next to a clock, centered. ABSOLUTELY NO CHARACTERS IN THIS IMAGE: no monkey, no Sara, no animal, no person, no face. Icons only. Flat solid colors with thick black ink outlines on pure white, no gradients, no 3D shading, no drop shadows. The artwork must fill the whole 16:9 frame edge to edge, NO black bars. No invented text, no captions, no labels, no numbers, no words of any kind anywhere in this image unless a specific word or number is explicitly quoted in this description — if none is quoted, draw ZERO text, letters, or digits anywhere in the frame.",
+      "ref": "none"
+    },
+    {
+      "file": "3_19.jpg",
+      "startSec": 199.22,
+      "text": "Son relojes que miden el tiempo con las vibraciones de los átomos, de los más precisos que existen.",
+      "scene": "Sara, a friendly cartoon monkey mascot with big expressive eyes, brown fur, flat cartoon illustration style, thick black ink outlines, simple flat colors, no gradients, no 3D shading, on a pure white background, drawn like a 2D explainer-video character. Medium shot, pointing at an atom symbol with a clock, off to one side. No invented text, no captions, no labels, no numbers, no words of any kind anywhere in this image unless a specific word or number is explicitly quoted in this description — if none is quoted, draw ZERO text, letters, or digits anywhere in the frame. Sara is NOT holding, touching, or standing near any object, food, or prop of any kind: no bananas, no fruit, no food, no pencils, no lightbulbs, no tools, no boxes, no books, no clothing, no accessories, her hands are empty — UNLESS an object is explicitly named earlier in this exact scene description, in which case ONLY that named object may appear.",
+      "ref": "mono"
+    },
+    {
+      "file": "3_25.jpg",
+      "startSec": 205.48,
+      "text": "Pero tu móvil no lleva un reloj atómico, lleva un reloj normal, de cuarto.",
+      "scene": "Sara, a friendly cartoon monkey mascot with big expressive eyes, brown fur, flat cartoon illustration style, thick black ink outlines, simple flat colors, no gradients, no 3D shading, on a pure white background, drawn like a 2D explainer-video character. Wide shot, pointing at a simple wristwatch, off to one side. No invented text, no captions, no labels, no numbers, no words of any kind anywhere in this image unless a specific word or number is explicitly quoted in this description — if none is quoted, draw ZERO text, letters, or digits anywhere in the frame. Sara is NOT holding, touching, or standing near any object, food, or prop of any kind: no bananas, no fruit, no food, no pencils, no lightbulbs, no tools, no boxes, no books, no clothing, no accessories, her hands are empty — UNLESS an object is explicitly named earlier in this exact scene description, in which case ONLY that named object may appear.",
+      "ref": "mono"
+    },
+    {
+      "file": "3_29.jpg",
+      "startSec": 209.94,
+      "text": "Y ese reloj se adelanta y se atrasa mucho más que una millonésima de segundo.",
+      "scene": "Sara, a friendly cartoon monkey mascot with big expressive eyes, brown fur, flat cartoon illustration style, thick black ink outlines, simple flat colors, no gradients, no 3D shading, on a pure white background, drawn like a 2D explainer-video character. Wide shot, pointing at a wristwatch with small wobbly motion lines around it, off to one side. No invented text, no captions, no labels, no numbers, no words of any kind anywhere in this image unless a specific word or number is explicitly quoted in this description — if none is quoted, draw ZERO text, letters, or digits anywhere in the frame. Sara is NOT holding, touching, or standing near any object, food, or prop of any kind: no bananas, no fruit, no food, no pencils, no lightbulbs, no tools, no boxes, no books, no clothing, no accessories, her hands are empty — UNLESS an object is explicitly named earlier in this exact scene description, in which case ONLY that named object may appear.",
+      "ref": "mono"
+    },
+    {
+      "file": "3_34.jpg",
+      "startSec": 214.88,
+      "text": "Así que hace un truco muy listo, trata su propio error de hora como una incógnita más.",
+      "scene": "Sara, a friendly cartoon monkey mascot with big expressive eyes, brown fur, flat cartoon illustration style, thick black ink outlines, simple flat colors, no gradients, no 3D shading, on a pure white background, drawn like a 2D explainer-video character. Close-up shot, pointing at a wristwatch with a question mark, off to one side. No invented text, no captions, no labels, no numbers, no words of any kind anywhere in this image unless a specific word or number is explicitly quoted in this description — if none is quoted, draw ZERO text, letters, or digits anywhere in the frame. Sara is NOT holding, touching, or standing near any object, food, or prop of any kind: no bananas, no fruit, no food, no pencils, no lightbulbs, no tools, no boxes, no books, no clothing, no accessories, her hands are empty — UNLESS an object is explicitly named earlier in this exact scene description, in which case ONLY that named object may appear.",
+      "ref": "mono"
+    },
+    {
+      "file": "3_40.jpg",
+      "startSec": 220.88,
+      "text": "Tres incógnitas para tu posición, izquierda o derecha, delante o detrás, arriba o abajo.",
+      "scene": "ONLY this and NOTHING ELSE WHATSOEVER: three arrows: left-right, front-back and up-down, like 3D axes, centered. ABSOLUTELY NO CHARACTERS IN THIS IMAGE: no monkey, no Sara, no animal, no person, no face. Icons only. Flat solid colors with thick black ink outlines on pure white, no gradients, no 3D shading, no drop shadows. The artwork must fill the whole 16:9 frame edge to edge, NO black bars. No invented text, no captions, no labels, no numbers, no words of any kind anywhere in this image unless a specific word or number is explicitly quoted in this description — if none is quoted, draw ZERO text, letters, or digits anywhere in the frame.",
+      "ref": "none"
+    },
+    {
+      "file": "3_46.jpg",
+      "startSec": 226.86,
+      "text": "Y una cuarta incógnita para el error de su reloj.",
+      "scene": "Sara, a friendly cartoon monkey mascot with big expressive eyes, brown fur, flat cartoon illustration style, thick black ink outlines, simple flat colors, no gradients, no 3D shading, on a pure white background, drawn like a 2D explainer-video character. Medium shot, pointing at a wristwatch with a question mark, off to one side. No invented text, no captions, no labels, no numbers, no words of any kind anywhere in this image unless a specific word or number is explicitly quoted in this description — if none is quoted, draw ZERO text, letters, or digits anywhere in the frame. Sara is NOT holding, touching, or standing near any object, food, or prop of any kind: no bananas, no fruit, no food, no pencils, no lightbulbs, no tools, no boxes, no books, no clothing, no accessories, her hands are empty — UNLESS an object is explicitly named earlier in this exact scene description, in which case ONLY that named object may appear.",
+      "ref": "mono"
+    },
+    {
+      "file": "3_50.jpg",
+      "startSec": 230.72,
+      "text": "Cuatro incógnitas, cuatro satélites.",
+      "scene": "Sara, a friendly cartoon monkey mascot with big expressive eyes, brown fur, flat cartoon illustration style, thick black ink outlines, simple flat colors, no gradients, no 3D shading, on a pure white background, drawn like a 2D explainer-video character. Wide shot, pointing at four small satellites in a row, off to one side. No invented text, no captions, no labels, no numbers, no words of any kind anywhere in this image unless a specific word or number is explicitly quoted in this description — if none is quoted, draw ZERO text, letters, or digits anywhere in the frame. Sara is NOT holding, touching, or standing near any object, food, or prop of any kind: no bananas, no fruit, no food, no pencils, no lightbulbs, no tools, no boxes, no books, no clothing, no accessories, her hands are empty — UNLESS an object is explicitly named earlier in this exact scene description, in which case ONLY that named object may appear.",
+      "ref": "mono"
+    },
+    {
+      "file": "3_53.jpg",
+      "startSec": 233.6,
+      "text": "El cuarto satélite corrige el reloj de tu móvil.",
+      "scene": "ONLY this and NOTHING ELSE WHATSOEVER: four satellites around a smartphone, one of them with a small wrench icon, centered. ABSOLUTELY NO CHARACTERS IN THIS IMAGE: no monkey, no Sara, no animal, no person, no face. Icons only. Flat solid colors with thick black ink outlines on pure white, no gradients, no 3D shading, no drop shadows. The artwork must fill the whole 16:9 frame edge to edge, NO black bars. No invented text, no captions, no labels, no numbers, no words of any kind anywhere in this image unless a specific word or number is explicitly quoted in this description — if none is quoted, draw ZERO text, letters, or digits anywhere in the frame.",
+      "ref": "none"
+    },
+    {
+      "file": "3_56.jpg",
+      "startSec": 236.44,
+      "text": "Y aquí es donde entra Einstein.",
+      "scene": "Sara, a friendly cartoon monkey mascot with big expressive eyes, brown fur, flat cartoon illustration style, thick black ink outlines, simple flat colors, no gradients, no 3D shading, on a pure white background, drawn like a 2D explainer-video character. Close-up shot, excited expression, a small light bulb floating to one side. No invented text, no captions, no labels, no numbers, no words of any kind anywhere in this image unless a specific word or number is explicitly quoted in this description — if none is quoted, draw ZERO text, letters, or digits anywhere in the frame. Sara is NOT holding, touching, or standing near any object, food, or prop of any kind: no bananas, no fruit, no food, no pencils, no lightbulbs, no tools, no boxes, no books, no clothing, no accessories, her hands are empty — UNLESS an object is explicitly named earlier in this exact scene description, in which case ONLY that named object may appear.",
+      "ref": "mono"
+    },
+    {
+      "file": "3_59.jpg",
+      "startSec": 239.16,
+      "text": "Hace más de 100 años Einstein dijo algo que suena ciencia ficción.",
+      "scene": "ONLY this and NOTHING ELSE WHATSOEVER: a cartoon old-fashioned chalkboard covered with simple scribbled lines and no readable text, centered. ABSOLUTELY NO CHARACTERS IN THIS IMAGE: no monkey, no Sara, no animal, no person, no face. Icons only. Flat solid colors with thick black ink outlines on pure white, no gradients, no 3D shading, no drop shadows. The artwork must fill the whole 16:9 frame edge to edge, NO black bars. No invented text, no captions, no labels, no numbers, no words of any kind anywhere in this image unless a specific word or number is explicitly quoted in this description — if none is quoted, draw ZERO text, letters, or digits anywhere in the frame.",
+      "ref": "none"
+    },
+    {
+      "file": "4_03.jpg",
+      "startSec": 243.46,
+      "text": "El tiempo no pasa igual para todo el mundo.",
+      "scene": "Sara, a friendly cartoon monkey mascot with big expressive eyes, brown fur, flat cartoon illustration style, thick black ink outlines, simple flat colors, no gradients, no 3D shading, on a pure white background, drawn like a 2D explainer-video character. Medium shot, pointing at two clocks showing different times, off to one side. No invented text, no captions, no labels, no numbers, no words of any kind anywhere in this image unless a specific word or number is explicitly quoted in this description — if none is quoted, draw ZERO text, letters, or digits anywhere in the frame. Sara is NOT holding, touching, or standing near any object, food, or prop of any kind: no bananas, no fruit, no food, no pencils, no lightbulbs, no tools, no boxes, no books, no clothing, no accessories, her hands are empty — UNLESS an object is explicitly named earlier in this exact scene description, in which case ONLY that named object may appear.",
+      "ref": "mono"
+    },
+    {
+      "file": "4_05.jpg",
+      "startSec": 245.98,
+      "text": "Depende de lo rápido que te muevas y de la gravedad que tengas cerca.",
+      "scene": "ONLY this and NOTHING ELSE WHATSOEVER: a fast rocket next to a heavy planet, centered. ABSOLUTELY NO CHARACTERS IN THIS IMAGE: no monkey, no Sara, no animal, no person, no face. Icons only. Flat solid colors with thick black ink outlines on pure white, no gradients, no 3D shading, no drop shadows. The artwork must fill the whole 16:9 frame edge to edge, NO black bars. No invented text, no captions, no labels, no numbers, no words of any kind anywhere in this image unless a specific word or number is explicitly quoted in this description — if none is quoted, draw ZERO text, letters, or digits anywhere in the frame.",
+      "ref": "none"
+    },
+    {
+      "file": "4_10.jpg",
+      "startSec": 250.3,
+      "text": "Primero la velocidad, es la relatividad especial.",
+      "scene": "Sara, a friendly cartoon monkey mascot with big expressive eyes, brown fur, flat cartoon illustration style, thick black ink outlines, simple flat colors, no gradients, no 3D shading, on a pure white background, drawn like a 2D explainer-video character. Wide shot, pointing at a fast rocket with speed lines, off to one side. No invented text, no captions, no labels, no numbers, no words of any kind anywhere in this image unless a specific word or number is explicitly quoted in this description — if none is quoted, draw ZERO text, letters, or digits anywhere in the frame. Sara is NOT holding, touching, or standing near any object, food, or prop of any kind: no bananas, no fruit, no food, no pencils, no lightbulbs, no tools, no boxes, no books, no clothing, no accessories, her hands are empty — UNLESS an object is explicitly named earlier in this exact scene description, in which case ONLY that named object may appear.",
+      "ref": "mono"
+    },
+    {
+      "file": "4_12.jpg",
+      "startSec": 252.98,
+      "text": "Cuanto más rápido te mueves, más despacio pasa tu tiempo comparado con alguien que está quieto.",
+      "scene": "Sara, a friendly cartoon monkey mascot with big expressive eyes, brown fur, flat cartoon illustration style, thick black ink outlines, simple flat colors, no gradients, no 3D shading, on a pure white background, drawn like a 2D explainer-video character. Close-up shot, pointing at a slow clock next to a speeding rocket, off to one side. No invented text, no captions, no labels, no numbers, no words of any kind anywhere in this image unless a specific word or number is explicitly quoted in this description — if none is quoted, draw ZERO text, letters, or digits anywhere in the frame. Sara is NOT holding, touching, or standing near any object, food, or prop of any kind: no bananas, no fruit, no food, no pencils, no lightbulbs, no tools, no boxes, no books, no clothing, no accessories, her hands are empty — UNLESS an object is explicitly named earlier in this exact scene description, in which case ONLY that named object may appear.",
+      "ref": "mono"
+    },
+    {
+      "file": "4_19.jpg",
+      "startSec": 259.56,
+      "text": "Los satélites del GPS van a unos 14.000 kilómetros por hora.",
+      "scene": "ONLY this and NOTHING ELSE WHATSOEVER: a small cartoon satellite with two blue solar panels with speed lines behind it moving fast around the Earth, centered. ABSOLUTELY NO CHARACTERS IN THIS IMAGE: no monkey, no Sara, no animal, no person, no face. Icons only. Flat solid colors with thick black ink outlines on pure white, no gradients, no 3D shading, no drop shadows. The artwork must fill the whole 16:9 frame edge to edge, NO black bars. No invented text, no captions, no labels, no numbers, no words of any kind anywhere in this image unless a specific word or number is explicitly quoted in this description — if none is quoted, draw ZERO text, letters, or digits anywhere in the frame.",
+      "ref": "none"
+    },
+    {
+      "file": "4_23.jpg",
+      "startSec": 263.56,
+      "text": "A esa velocidad sus relojes se retrasan unos siete microsegundos cada día.",
+      "scene": "Sara, a friendly cartoon monkey mascot with big expressive eyes, brown fur, flat cartoon illustration style, thick black ink outlines, simple flat colors, no gradients, no 3D shading, on a pure white background, drawn like a 2D explainer-video character. Medium shot, pointing at a clock with a small backwards arrow, off to one side. No invented text, no captions, no labels, no numbers, no words of any kind anywhere in this image unless a specific word or number is explicitly quoted in this description — if none is quoted, draw ZERO text, letters, or digits anywhere in the frame. Sara is NOT holding, touching, or standing near any object, food, or prop of any kind: no bananas, no fruit, no food, no pencils, no lightbulbs, no tools, no boxes, no books, no clothing, no accessories, her hands are empty — UNLESS an object is explicitly named earlier in this exact scene description, in which case ONLY that named object may appear.",
+      "ref": "mono"
+    },
+    {
+      "file": "4_28.jpg",
+      "startSec": 268.16,
+      "text": "Un microsegundo es una millonésima de segundo.",
+      "scene": "Sara, a friendly cartoon monkey mascot with big expressive eyes, brown fur, flat cartoon illustration style, thick black ink outlines, simple flat colors, no gradients, no 3D shading, on a pure white background, drawn like a 2D explainer-video character. Wide shot, pointing at a tiny stopwatch, off to one side. No invented text, no captions, no labels, no numbers, no words of any kind anywhere in this image unless a specific word or number is explicitly quoted in this description — if none is quoted, draw ZERO text, letters, or digits anywhere in the frame. Sara is NOT holding, touching, or standing near any object, food, or prop of any kind: no bananas, no fruit, no food, no pencils, no lightbulbs, no tools, no boxes, no books, no clothing, no accessories, her hands are empty — UNLESS an object is explicitly named earlier in this exact scene description, in which case ONLY that named object may appear.",
+      "ref": "mono"
+    },
+    {
+      "file": "4_31.jpg",
+      "startSec": 271.44,
+      "text": "Ahora la gravedad, es la relatividad general.",
+      "scene": "Sara, a friendly cartoon monkey mascot with big expressive eyes, brown fur, flat cartoon illustration style, thick black ink outlines, simple flat colors, no gradients, no 3D shading, on a pure white background, drawn like a 2D explainer-video character. Close-up shot, pointing at the planet Earth with curved gravity lines around it, off to one side. No invented text, no captions, no labels, no numbers, no words of any kind anywhere in this image unless a specific word or number is explicitly quoted in this description — if none is quoted, draw ZERO text, letters, or digits anywhere in the frame. Sara is NOT holding, touching, or standing near any object, food, or prop of any kind: no bananas, no fruit, no food, no pencils, no lightbulbs, no tools, no boxes, no books, no clothing, no accessories, her hands are empty — UNLESS an object is explicitly named earlier in this exact scene description, in which case ONLY that named object may appear.",
+      "ref": "mono"
+    },
+    {
+      "file": "4_34.jpg",
+      "startSec": 274.66,
+      "text": "Cuanto más fuerte es la gravedad más despacio pasa al tiempo.",
+      "scene": "Sara, a friendly cartoon monkey mascot with big expressive eyes, brown fur, flat cartoon illustration style, thick black ink outlines, simple flat colors, no gradients, no 3D shading, on a pure white background, drawn like a 2D explainer-video character. Close-up shot, pointing at the planet Earth with thick curved gravity lines around it and a slow clock on its surface, off to one side. No invented text, no captions, no labels, no numbers, no words of any kind anywhere in this image unless a specific word or number is explicitly quoted in this description — if none is quoted, draw ZERO text, letters, or digits anywhere in the frame. Sara is NOT holding, touching, or standing near any object, food, or prop of any kind: no bananas, no fruit, no food, no pencils, no lightbulbs, no tools, no boxes, no books, no clothing, no accessories, her hands are empty — UNLESS an object is explicitly named earlier in this exact scene description, in which case ONLY that named object may appear.",
+      "ref": "mono"
+    },
+    {
+      "file": "4_38.jpg",
+      "startSec": 278.32,
+      "text": "Aquí abajo la gravedad de la tierra es más fuerte.",
+      "scene": "Sara, a friendly cartoon monkey mascot with big expressive eyes, brown fur, flat cartoon illustration style, thick black ink outlines, simple flat colors, no gradients, no 3D shading, on a pure white background, drawn like a 2D explainer-video character. Medium shot, pointing at the planet Earth, off to one side. No invented text, no captions, no labels, no numbers, no words of any kind anywhere in this image unless a specific word or number is explicitly quoted in this description — if none is quoted, draw ZERO text, letters, or digits anywhere in the frame. Sara is NOT holding, touching, or standing near any object, food, or prop of any kind: no bananas, no fruit, no food, no pencils, no lightbulbs, no tools, no boxes, no books, no clothing, no accessories, her hands are empty — UNLESS an object is explicitly named earlier in this exact scene description, in which case ONLY that named object may appear.",
+      "ref": "mono"
+    },
+    {
+      "file": "4_40.jpg",
+      "startSec": 280.6,
+      "text": "A 20.000 kilómetros de altura es más débil, así que arriba el tiempo corre más deprisa.",
+      "scene": "Sara, a friendly cartoon monkey mascot with big expressive eyes, brown fur, flat cartoon illustration style, thick black ink outlines, simple flat colors, no gradients, no 3D shading, on a pure white background, drawn like a 2D explainer-video character. Wide shot, pointing at a small cartoon satellite with two blue solar panels high above the Earth next to a fast clock, off to one side. No invented text, no captions, no labels, no numbers, no words of any kind anywhere in this image unless a specific word or number is explicitly quoted in this description — if none is quoted, draw ZERO text, letters, or digits anywhere in the frame. Sara is NOT holding, touching, or standing near any object, food, or prop of any kind: no bananas, no fruit, no food, no pencils, no lightbulbs, no tools, no boxes, no books, no clothing, no accessories, her hands are empty — UNLESS an object is explicitly named earlier in this exact scene description, in which case ONLY that named object may appear.",
+      "ref": "mono"
+    },
+    {
+      "file": "4_46.jpg",
+      "startSec": 286.2,
+      "text": "Unos 45 microsegundos más cada día.",
+      "scene": "Sara, a friendly cartoon monkey mascot with big expressive eyes, brown fur, flat cartoon illustration style, thick black ink outlines, simple flat colors, no gradients, no 3D shading, on a pure white background, drawn like a 2D explainer-video character. Medium shot, pointing at a clock with a small forward arrow, off to one side. No invented text, no captions, no labels, no numbers, no words of any kind anywhere in this image unless a specific word or number is explicitly quoted in this description — if none is quoted, draw ZERO text, letters, or digits anywhere in the frame. Sara is NOT holding, touching, or standing near any object, food, or prop of any kind: no bananas, no fruit, no food, no pencils, no lightbulbs, no tools, no boxes, no books, no clothing, no accessories, her hands are empty — UNLESS an object is explicitly named earlier in this exact scene description, in which case ONLY that named object may appear.",
+      "ref": "mono"
+    },
+    {
+      "file": "4_49.jpg",
+      "startSec": 289.32,
+      "text": "Un efecto los retrasa siete.",
+      "scene": "Sara, a friendly cartoon monkey mascot with big expressive eyes, brown fur, flat cartoon illustration style, thick black ink outlines, simple flat colors, no gradients, no 3D shading, on a pure white background, drawn like a 2D explainer-video character. Close-up shot, pointing at a clock with a small backwards arrow, off to one side. No invented text, no captions, no labels, no numbers, no words of any kind anywhere in this image unless a specific word or number is explicitly quoted in this description — if none is quoted, draw ZERO text, letters, or digits anywhere in the frame. Sara is NOT holding, touching, or standing near any object, food, or prop of any kind: no bananas, no fruit, no food, no pencils, no lightbulbs, no tools, no boxes, no books, no clothing, no accessories, her hands are empty — UNLESS an object is explicitly named earlier in this exact scene description, in which case ONLY that named object may appear.",
+      "ref": "mono"
+    },
+    {
+      "file": "4_51.jpg",
+      "startSec": 291.28,
+      "text": "El otro los adelanta 45.",
+      "scene": "Sara, a friendly cartoon monkey mascot with big expressive eyes, brown fur, flat cartoon illustration style, thick black ink outlines, simple flat colors, no gradients, no 3D shading, on a pure white background, drawn like a 2D explainer-video character. Medium shot, pointing at a clock with a big forward arrow, off to one side. No invented text, no captions, no labels, no numbers, no words of any kind anywhere in this image unless a specific word or number is explicitly quoted in this description — if none is quoted, draw ZERO text, letters, or digits anywhere in the frame. Sara is NOT holding, touching, or standing near any object, food, or prop of any kind: no bananas, no fruit, no food, no pencils, no lightbulbs, no tools, no boxes, no books, no clothing, no accessories, her hands are empty — UNLESS an object is explicitly named earlier in this exact scene description, in which case ONLY that named object may appear.",
+      "ref": "mono"
+    },
+    {
+      "file": "4_53.jpg",
+      "startSec": 293.54,
+      "text": "Resultado, los relojes de los satélites se adelantan unos 38 microsegundos al día.",
+      "scene": "Sara, a friendly cartoon monkey mascot with big expressive eyes, brown fur, flat cartoon illustration style, thick black ink outlines, simple flat colors, no gradients, no 3D shading, on a pure white background, drawn like a 2D explainer-video character. Close-up shot, pointing at a balance scale tipping to one side, with a clock on the heavier side, off to one side. No invented text, no captions, no labels, no numbers, no words of any kind anywhere in this image unless a specific word or number is explicitly quoted in this description — if none is quoted, draw ZERO text, letters, or digits anywhere in the frame. Sara is NOT holding, touching, or standing near any object, food, or prop of any kind: no bananas, no fruit, no food, no pencils, no lightbulbs, no tools, no boxes, no books, no clothing, no accessories, her hands are empty — UNLESS an object is explicitly named earlier in this exact scene description, in which case ONLY that named object may appear.",
+      "ref": "mono"
+    },
+    {
+      "file": "4_59.jpg",
+      "startSec": 299.3,
+      "text": "38 millones y más de segundo parece una tontería,",
+      "scene": "Sara, a friendly cartoon monkey mascot with big expressive eyes, brown fur, flat cartoon illustration style, thick black ink outlines, simple flat colors, no gradients, no 3D shading, on a pure white background, drawn like a 2D explainer-video character. Wide shot, skeptical expression, one eyebrow raised. No invented text, no captions, no labels, no numbers, no words of any kind anywhere in this image unless a specific word or number is explicitly quoted in this description — if none is quoted, draw ZERO text, letters, or digits anywhere in the frame. Sara is NOT holding, touching, or standing near any object, food, or prop of any kind: no bananas, no fruit, no food, no pencils, no lightbulbs, no tools, no boxes, no books, no clothing, no accessories, her hands are empty — UNLESS an object is explicitly named earlier in this exact scene description, in which case ONLY that named object may appear.",
+      "ref": "mono"
+    },
+    {
+      "file": "5_03.jpg",
+      "startSec": 303.06,
+      "text": "pero acuérdate de la cuenta de antes,",
+      "scene": "Sara, a friendly cartoon monkey mascot with big expressive eyes, brown fur, flat cartoon illustration style, thick black ink outlines, simple flat colors, no gradients, no 3D shading, on a pure white background, drawn like a 2D explainer-video character. Close-up shot, pointing at a stopwatch, off to one side. No invented text, no captions, no labels, no numbers, no words of any kind anywhere in this image unless a specific word or number is explicitly quoted in this description — if none is quoted, draw ZERO text, letters, or digits anywhere in the frame. Sara is NOT holding, touching, or standing near any object, food, or prop of any kind: no bananas, no fruit, no food, no pencils, no lightbulbs, no tools, no boxes, no books, no clothing, no accessories, her hands are empty — UNLESS an object is explicitly named earlier in this exact scene description, in which case ONLY that named object may appear.",
+      "ref": "mono"
+    },
+    {
+      "file": "5_05.jpg",
+      "startSec": 305.04,
+      "text": "una millonésima de segundo son 300 metros.",
+      "scene": "Sara, a friendly cartoon monkey mascot with big expressive eyes, brown fur, flat cartoon illustration style, thick black ink outlines, simple flat colors, no gradients, no 3D shading, on a pure white background, drawn like a 2D explainer-video character. Medium shot, pointing at a measuring tape, off to one side. No invented text, no captions, no labels, no numbers, no words of any kind anywhere in this image unless a specific word or number is explicitly quoted in this description — if none is quoted, draw ZERO text, letters, or digits anywhere in the frame. Sara is NOT holding, touching, or standing near any object, food, or prop of any kind: no bananas, no fruit, no food, no pencils, no lightbulbs, no tools, no boxes, no books, no clothing, no accessories, her hands are empty — UNLESS an object is explicitly named earlier in this exact scene description, in which case ONLY that named object may appear.",
+      "ref": "mono"
+    },
+    {
+      "file": "5_08.jpg",
+      "startSec": 308.38,
+      "text": "38 millones y más son más de 10 kilómetros.",
+      "scene": "Sara, a friendly cartoon monkey mascot with big expressive eyes, brown fur, flat cartoon illustration style, thick black ink outlines, simple flat colors, no gradients, no 3D shading, on a pure white background, drawn like a 2D explainer-video character. Medium shot, pointing at a very long measuring tape stretching far into the distance, off to one side. No invented text, no captions, no labels, no numbers, no words of any kind anywhere in this image unless a specific word or number is explicitly quoted in this description — if none is quoted, draw ZERO text, letters, or digits anywhere in the frame. Sara is NOT holding, touching, or standing near any object, food, or prop of any kind: no bananas, no fruit, no food, no pencils, no lightbulbs, no tools, no boxes, no books, no clothing, no accessories, her hands are empty — UNLESS an object is explicitly named earlier in this exact scene description, in which case ONLY that named object may appear.",
+      "ref": "mono"
+    },
+    {
+      "file": "5_11.jpg",
+      "startSec": 311.96,
+      "text": "Si nadie corregiera la relatividad tu posición se desviaría unos 10 kilómetros cada día que pasa.",
+      "scene": "Sara, a friendly cartoon monkey mascot with big expressive eyes, brown fur, flat cartoon illustration style, thick black ink outlines, simple flat colors, no gradients, no 3D shading, on a pure white background, drawn like a 2D explainer-video character. Wide shot, pointing at a blue location dot drifting off a map, off to one side. No invented text, no captions, no labels, no numbers, no words of any kind anywhere in this image unless a specific word or number is explicitly quoted in this description — if none is quoted, draw ZERO text, letters, or digits anywhere in the frame. Sara is NOT holding, touching, or standing near any object, food, or prop of any kind: no bananas, no fruit, no food, no pencils, no lightbulbs, no tools, no boxes, no books, no clothing, no accessories, her hands are empty — UNLESS an object is explicitly named earlier in this exact scene description, in which case ONLY that named object may appear.",
+      "ref": "mono"
+    },
+    {
+      "file": "5_17.jpg",
+      "startSec": 317.7,
+      "text": "En una semana el mapa te pondría en otra ciudad, en un mes, en otra provincia.",
+      "scene": "ONLY this and NOTHING ELSE WHATSOEVER: a simple road map with a blue location dot far away from a red pin, a long dotted line between them, centered. ABSOLUTELY NO CHARACTERS IN THIS IMAGE: no monkey, no Sara, no animal, no person, no face. Icons only. Flat solid colors with thick black ink outlines on pure white, no gradients, no 3D shading, no drop shadows. The artwork must fill the whole 16:9 frame edge to edge, NO black bars. No invented text, no captions, no labels, no numbers, no words of any kind anywhere in this image unless a specific word or number is explicitly quoted in this description — if none is quoted, draw ZERO text, letters, or digits anywhere in the frame.",
+      "ref": "none"
+    },
+    {
+      "file": "5_23.jpg",
+      "startSec": 323.18,
+      "text": "Así que los ingenieros hicieron algo precioso.",
+      "scene": "Sara, a friendly cartoon monkey mascot with big expressive eyes, brown fur, flat cartoon illustration style, thick black ink outlines, simple flat colors, no gradients, no 3D shading, on a pure white background, drawn like a 2D explainer-video character. Close-up shot, amazed expression, both hands on her cheeks. No invented text, no captions, no labels, no numbers, no words of any kind anywhere in this image unless a specific word or number is explicitly quoted in this description — if none is quoted, draw ZERO text, letters, or digits anywhere in the frame. Sara is NOT holding, touching, or standing near any object, food, or prop of any kind: no bananas, no fruit, no food, no pencils, no lightbulbs, no tools, no boxes, no books, no clothing, no accessories, her hands are empty — UNLESS an object is explicitly named earlier in this exact scene description, in which case ONLY that named object may appear.",
+      "ref": "mono"
+    },
+    {
+      "file": "5_26.jpg",
+      "startSec": 326.24,
+      "text": "Antes de lanzar cada satélite ajustan la frecuencia de su reloj.",
+      "scene": "ONLY this and NOTHING ELSE WHATSOEVER: an engineer's wrench next to a satellite on the ground, centered. ABSOLUTELY NO CHARACTERS IN THIS IMAGE: no monkey, no Sara, no animal, no person, no face. Icons only. Flat solid colors with thick black ink outlines on pure white, no gradients, no 3D shading, no drop shadows. The artwork must fill the whole 16:9 frame edge to edge, NO black bars. No invented text, no captions, no labels, no numbers, no words of any kind anywhere in this image unless a specific word or number is explicitly quoted in this description — if none is quoted, draw ZERO text, letters, or digits anywhere in the frame.",
+      "ref": "none"
+    },
+    {
+      "file": "5_29.jpg",
+      "startSec": 329.9,
+      "text": "En tierra lo ponen a funcionar un poquito más lento a propósito.",
+      "scene": "Sara, a friendly cartoon monkey mascot with big expressive eyes, brown fur, flat cartoon illustration style, thick black ink outlines, simple flat colors, no gradients, no 3D shading, on a pure white background, drawn like a 2D explainer-video character. Medium shot, pointing at a satellite on a launch pad with a small clock, off to one side. No invented text, no captions, no labels, no numbers, no words of any kind anywhere in this image unless a specific word or number is explicitly quoted in this description — if none is quoted, draw ZERO text, letters, or digits anywhere in the frame. Sara is NOT holding, touching, or standing near any object, food, or prop of any kind: no bananas, no fruit, no food, no pencils, no lightbulbs, no tools, no boxes, no books, no clothing, no accessories, her hands are empty — UNLESS an object is explicitly named earlier in this exact scene description, in which case ONLY that named object may appear.",
+      "ref": "mono"
+    },
+    {
+      "file": "5_33.jpg",
+      "startSec": 333.0,
+      "text": "Y cuando llega a su órbita y la relatividad lo acelera marca justo el ritmo correcto.",
+      "scene": "Sara, a friendly cartoon monkey mascot with big expressive eyes, brown fur, flat cartoon illustration style, thick black ink outlines, simple flat colors, no gradients, no 3D shading, on a pure white background, drawn like a 2D explainer-video character. Wide shot, pointing at a rocket launching into space, off to one side. No invented text, no captions, no labels, no numbers, no words of any kind anywhere in this image unless a specific word or number is explicitly quoted in this description — if none is quoted, draw ZERO text, letters, or digits anywhere in the frame. Sara is NOT holding, touching, or standing near any object, food, or prop of any kind: no bananas, no fruit, no food, no pencils, no lightbulbs, no tools, no boxes, no books, no clothing, no accessories, her hands are empty — UNLESS an object is explicitly named earlier in this exact scene description, in which case ONLY that named object may appear.",
+      "ref": "mono"
+    },
+    {
+      "file": "5_38.jpg",
+      "startSec": 338.5,
+      "text": "Cada vez que usas el GPS estás comprobando que Einstein tenía razón.",
+      "scene": "Sara, a friendly cartoon monkey mascot with big expressive eyes, brown fur, flat cartoon illustration style, thick black ink outlines, simple flat colors, no gradients, no 3D shading, on a pure white background, drawn like a 2D explainer-video character. Close-up shot, confident half-smile, a small smartphone with a blue location dot floating to one side. No invented text, no captions, no labels, no numbers, no words of any kind anywhere in this image unless a specific word or number is explicitly quoted in this description — if none is quoted, draw ZERO text, letters, or digits anywhere in the frame. Sara is NOT holding, touching, or standing near any object, food, or prop of any kind: no bananas, no fruit, no food, no pencils, no lightbulbs, no tools, no boxes, no books, no clothing, no accessories, her hands are empty — UNLESS an object is explicitly named earlier in this exact scene description, in which case ONLY that named object may appear.",
+      "ref": "mono"
+    },
+    {
+      "file": "5_43.jpg",
+      "startSec": 343.58,
+      "text": "Ahora bien, el GPS no es el único sistema que hay ahí arriba.",
+      "scene": "Sara, a friendly cartoon monkey mascot with big expressive eyes, brown fur, flat cartoon illustration style, thick black ink outlines, simple flat colors, no gradients, no 3D shading, on a pure white background, drawn like a 2D explainer-video character. Medium shot, curious expression, a few small satellites floating to one side. No invented text, no captions, no labels, no numbers, no words of any kind anywhere in this image unless a specific word or number is explicitly quoted in this description — if none is quoted, draw ZERO text, letters, or digits anywhere in the frame. Sara is NOT holding, touching, or standing near any object, food, or prop of any kind: no bananas, no fruit, no food, no pencils, no lightbulbs, no tools, no boxes, no books, no clothing, no accessories, her hands are empty — UNLESS an object is explicitly named earlier in this exact scene description, in which case ONLY that named object may appear.",
+      "ref": "mono"
+    },
+    {
+      "file": "5_47.jpg",
+      "startSec": 347.6,
+      "text": "Europa tiene el suyo, se llama Galileo.",
+      "scene": "ONLY this and NOTHING ELSE WHATSOEVER: a small satellite next to a blue flag with a circle of yellow stars, centered. ABSOLUTELY NO CHARACTERS IN THIS IMAGE: no monkey, no Sara, no animal, no person, no face. Icons only. Flat solid colors with thick black ink outlines on pure white, no gradients, no 3D shading, no drop shadows. The artwork must fill the whole 16:9 frame edge to edge, NO black bars. No invented text, no captions, no labels, no numbers, no words of any kind anywhere in this image unless a specific word or number is explicitly quoted in this description — if none is quoted, draw ZERO text, letters, or digits anywhere in the frame.",
+      "ref": "none"
+    },
+    {
+      "file": "5_50.jpg",
+      "startSec": 350.44,
+      "text": "Rusia tiene glonas y China tiene Beidou.",
+      "scene": "Sara, a friendly cartoon monkey mascot with big expressive eyes, brown fur, flat cartoon illustration style, thick black ink outlines, simple flat colors, no gradients, no 3D shading, on a pure white background, drawn like a 2D explainer-video character. Wide shot, pointing at two small satellites side by side, off to one side. No invented text, no captions, no labels, no numbers, no words of any kind anywhere in this image unless a specific word or number is explicitly quoted in this description — if none is quoted, draw ZERO text, letters, or digits anywhere in the frame. Sara is NOT holding, touching, or standing near any object, food, or prop of any kind: no bananas, no fruit, no food, no pencils, no lightbulbs, no tools, no boxes, no books, no clothing, no accessories, her hands are empty — UNLESS an object is explicitly named earlier in this exact scene description, in which case ONLY that named object may appear.",
+      "ref": "mono"
+    },
+    {
+      "file": "5_53.jpg",
+      "startSec": 353.38,
+      "text": "Todos funcionan con la misma idea, satélites que gritan la hora y receptores que escuchan.",
+      "scene": "ONLY this and NOTHING ELSE WHATSOEVER: many small satellites all sending radio waves down to one smartphone, centered. ABSOLUTELY NO CHARACTERS IN THIS IMAGE: no monkey, no Sara, no animal, no person, no face. Icons only. Flat solid colors with thick black ink outlines on pure white, no gradients, no 3D shading, no drop shadows. The artwork must fill the whole 16:9 frame edge to edge, NO black bars. No invented text, no captions, no labels, no numbers, no words of any kind anywhere in this image unless a specific word or number is explicitly quoted in this description — if none is quoted, draw ZERO text, letters, or digits anywhere in the frame.",
+      "ref": "none"
+    },
+    {
+      "file": "5_58.jpg",
+      "startSec": 358.26,
+      "text": "Y los móviles modernos no se casan con ninguno, escuchan a varios sistemas a la vez.",
+      "scene": "Sara, a friendly cartoon monkey mascot with big expressive eyes, brown fur, flat cartoon illustration style, thick black ink outlines, simple flat colors, no gradients, no 3D shading, on a pure white background, drawn like a 2D explainer-video character. Close-up shot, pointing at a smartphone receiving waves from many satellites at once, off to one side. No invented text, no captions, no labels, no numbers, no words of any kind anywhere in this image unless a specific word or number is explicitly quoted in this description — if none is quoted, draw ZERO text, letters, or digits anywhere in the frame. Sara is NOT holding, touching, or standing near any object, food, or prop of any kind: no bananas, no fruit, no food, no pencils, no lightbulbs, no tools, no boxes, no books, no clothing, no accessories, her hands are empty — UNLESS an object is explicitly named earlier in this exact scene description, in which case ONLY that named object may appear.",
+      "ref": "mono"
+    },
+    {
+      "file": "6_04.jpg",
+      "startSec": 364.04,
+      "text": "Así tienen muchos más satélites a la vista y la posición sale antes y mejor.",
+      "scene": "Sara, a friendly cartoon monkey mascot with big expressive eyes, brown fur, flat cartoon illustration style, thick black ink outlines, simple flat colors, no gradients, no 3D shading, on a pure white background, drawn like a 2D explainer-video character. Medium shot, pointing at a smartphone with a blue location dot and a green check mark, off to one side. No invented text, no captions, no labels, no numbers, no words of any kind anywhere in this image unless a specific word or number is explicitly quoted in this description — if none is quoted, draw ZERO text, letters, or digits anywhere in the frame. Sara is NOT holding, touching, or standing near any object, food, or prop of any kind: no bananas, no fruit, no food, no pencils, no lightbulbs, no tools, no boxes, no books, no clothing, no accessories, her hands are empty — UNLESS an object is explicitly named earlier in this exact scene description, in which case ONLY that named object may appear.",
+      "ref": "mono"
+    },
+    {
+      "file": "6_08.jpg",
+      "startSec": 368.88,
+      "text": "Pero seguro que te ha pasado, entras en un edificio y el punto azul se vuelve loco.",
+      "scene": "Sara, a friendly cartoon monkey mascot with big expressive eyes, brown fur, flat cartoon illustration style, thick black ink outlines, simple flat colors, no gradients, no 3D shading, on a pure white background, drawn like a 2D explainer-video character. Close-up shot, pointing at a building with a smartphone inside showing a blue location dot jumping around, off to one side. No invented text, no captions, no labels, no numbers, no words of any kind anywhere in this image unless a specific word or number is explicitly quoted in this description — if none is quoted, draw ZERO text, letters, or digits anywhere in the frame. Sara is NOT holding, touching, or standing near any object, food, or prop of any kind: no bananas, no fruit, no food, no pencils, no lightbulbs, no tools, no boxes, no books, no clothing, no accessories, her hands are empty — UNLESS an object is explicitly named earlier in this exact scene description, in which case ONLY that named object may appear.",
+      "ref": "mono"
+    },
+    {
+      "file": "6_13.jpg",
+      "startSec": 373.8,
+      "text": "La razón es que la señal de los satélites llega a tu móvil increíblemente débil.",
+      "scene": "Sara, a friendly cartoon monkey mascot with big expressive eyes, brown fur, flat cartoon illustration style, thick black ink outlines, simple flat colors, no gradients, no 3D shading, on a pure white background, drawn like a 2D explainer-video character. Wide shot, pointing at very faint thin radio waves, off to one side. No invented text, no captions, no labels, no numbers, no words of any kind anywhere in this image unless a specific word or number is explicitly quoted in this description — if none is quoted, draw ZERO text, letters, or digits anywhere in the frame. Sara is NOT holding, touching, or standing near any object, food, or prop of any kind: no bananas, no fruit, no food, no pencils, no lightbulbs, no tools, no boxes, no books, no clothing, no accessories, her hands are empty — UNLESS an object is explicitly named earlier in this exact scene description, in which case ONLY that named object may appear.",
+      "ref": "mono"
+    },
+    {
+      "file": "6_18.jpg",
+      "startSec": 378.24,
+      "text": "Viaja 20.000 kilómetros y cuando llega es más débil que el propio ruido de fondo de la radio.",
+      "scene": "Sara, a friendly cartoon monkey mascot with big expressive eyes, brown fur, flat cartoon illustration style, thick black ink outlines, simple flat colors, no gradients, no 3D shading, on a pure white background, drawn like a 2D explainer-video character. Close-up shot, pointing at a faint radio wave lost among messy scribble lines, off to one side. No invented text, no captions, no labels, no numbers, no words of any kind anywhere in this image unless a specific word or number is explicitly quoted in this description — if none is quoted, draw ZERO text, letters, or digits anywhere in the frame. Sara is NOT holding, touching, or standing near any object, food, or prop of any kind: no bananas, no fruit, no food, no pencils, no lightbulbs, no tools, no boxes, no books, no clothing, no accessories, her hands are empty — UNLESS an object is explicitly named earlier in this exact scene description, in which case ONLY that named object may appear.",
+      "ref": "mono"
+    },
+    {
+      "file": "6_23.jpg",
+      "startSec": 383.06,
+      "text": "Tu móvil tiene que sacarla de ese ruido como quien oye un su surro en mitad de un concierto.",
+      "scene": "ONLY this and NOTHING ELSE WHATSOEVER: a noisy concert stage with loudspeakers and tiny musical notes everywhere, centered. ABSOLUTELY NO CHARACTERS IN THIS IMAGE: no monkey, no Sara, no animal, no person, no face. Icons only. Flat solid colors with thick black ink outlines on pure white, no gradients, no 3D shading, no drop shadows. The artwork must fill the whole 16:9 frame edge to edge, NO black bars. No invented text, no captions, no labels, no numbers, no words of any kind anywhere in this image unless a specific word or number is explicitly quoted in this description — if none is quoted, draw ZERO text, letters, or digits anywhere in the frame.",
+      "ref": "none"
+    },
+    {
+      "file": "6_28.jpg",
+      "startSec": 388.44,
+      "text": "Un techo o unas paredes gruesas bastan para taparla casi por completo.",
+      "scene": "Sara, a friendly cartoon monkey mascot with big expressive eyes, brown fur, flat cartoon illustration style, thick black ink outlines, simple flat colors, no gradients, no 3D shading, on a pure white background, drawn like a 2D explainer-video character. Medium shot, pointing at a house roof blocking radio waves from a satellite, off to one side. No invented text, no captions, no labels, no numbers, no words of any kind anywhere in this image unless a specific word or number is explicitly quoted in this description — if none is quoted, draw ZERO text, letters, or digits anywhere in the frame. Sara is NOT holding, touching, or standing near any object, food, or prop of any kind: no bananas, no fruit, no food, no pencils, no lightbulbs, no tools, no boxes, no books, no clothing, no accessories, her hands are empty — UNLESS an object is explicitly named earlier in this exact scene description, in which case ONLY that named object may appear.",
+      "ref": "mono"
+    },
+    {
+      "file": "6_32.jpg",
+      "startSec": 392.76,
+      "text": "Y en las ciudades con edificios altos pasa otra cosa, la señal rebota en las fachadas.",
+      "scene": "ONLY this and NOTHING ELSE WHATSOEVER: tall city buildings with a radio wave bouncing off their walls in a zigzag, centered. ABSOLUTELY NO CHARACTERS IN THIS IMAGE: no monkey, no Sara, no animal, no person, no face. Icons only. Flat solid colors with thick black ink outlines on pure white, no gradients, no 3D shading, no drop shadows. The artwork must fill the whole 16:9 frame edge to edge, NO black bars. No invented text, no captions, no labels, no numbers, no words of any kind anywhere in this image unless a specific word or number is explicitly quoted in this description — if none is quoted, draw ZERO text, letters, or digits anywhere in the frame.",
+      "ref": "none"
+    },
+    {
+      "file": "6_37.jpg",
+      "startSec": 397.82,
+      "text": "Este rebote hace un camino más largo, llega a un pelintarde.",
+      "scene": "Sara, a friendly cartoon monkey mascot with big expressive eyes, brown fur, flat cartoon illustration style, thick black ink outlines, simple flat colors, no gradients, no 3D shading, on a pure white background, drawn like a 2D explainer-video character. Wide shot, pointing at a zigzag radio wave bouncing off a tall building, off to one side. No invented text, no captions, no labels, no numbers, no words of any kind anywhere in this image unless a specific word or number is explicitly quoted in this description — if none is quoted, draw ZERO text, letters, or digits anywhere in the frame. Sara is NOT holding, touching, or standing near any object, food, or prop of any kind: no bananas, no fruit, no food, no pencils, no lightbulbs, no tools, no boxes, no books, no clothing, no accessories, her hands are empty — UNLESS an object is explicitly named earlier in this exact scene description, in which case ONLY that named object may appear.",
+      "ref": "mono"
+    },
+    {
+      "file": "6_41.jpg",
+      "startSec": 401.34,
+      "text": "Y un pelintarde significa más distancia.",
+      "scene": "Sara, a friendly cartoon monkey mascot with big expressive eyes, brown fur, flat cartoon illustration style, thick black ink outlines, simple flat colors, no gradients, no 3D shading, on a pure white background, drawn like a 2D explainer-video character. Close-up shot, pointing at a measuring tape that is too long, off to one side. No invented text, no captions, no labels, no numbers, no words of any kind anywhere in this image unless a specific word or number is explicitly quoted in this description — if none is quoted, draw ZERO text, letters, or digits anywhere in the frame. Sara is NOT holding, touching, or standing near any object, food, or prop of any kind: no bananas, no fruit, no food, no pencils, no lightbulbs, no tools, no boxes, no books, no clothing, no accessories, her hands are empty — UNLESS an object is explicitly named earlier in this exact scene description, in which case ONLY that named object may appear.",
+      "ref": "mono"
+    },
+    {
+      "file": "6_44.jpg",
+      "startSec": 404.04,
+      "text": "Tu móvil cree que estás en la acera de enfrente.",
+      "scene": "ONLY this and NOTHING ELSE WHATSOEVER: a street with a blue location dot on the wrong side of the road, centered. ABSOLUTELY NO CHARACTERS IN THIS IMAGE: no monkey, no Sara, no animal, no person, no face. Icons only. Flat solid colors with thick black ink outlines on pure white, no gradients, no 3D shading, no drop shadows. The artwork must fill the whole 16:9 frame edge to edge, NO black bars. No invented text, no captions, no labels, no numbers, no words of any kind anywhere in this image unless a specific word or number is explicitly quoted in this description — if none is quoted, draw ZERO text, letters, or digits anywhere in the frame.",
+      "ref": "none"
+    },
+    {
+      "file": "6_46.jpg",
+      "startSec": 406.94,
+      "text": "Por eso las aplicaciones de mapas hacen trampa y de las buenas no se fían sólo de los satélites.",
+      "scene": "Sara, a friendly cartoon monkey mascot with big expressive eyes, brown fur, flat cartoon illustration style, thick black ink outlines, simple flat colors, no gradients, no 3D shading, on a pure white background, drawn like a 2D explainer-video character. Medium shot, pointing at a smartphone with a small wink face, off to one side. No invented text, no captions, no labels, no numbers, no words of any kind anywhere in this image unless a specific word or number is explicitly quoted in this description — if none is quoted, draw ZERO text, letters, or digits anywhere in the frame. Sara is NOT holding, touching, or standing near any object, food, or prop of any kind: no bananas, no fruit, no food, no pencils, no lightbulbs, no tools, no boxes, no books, no clothing, no accessories, her hands are empty — UNLESS an object is explicitly named earlier in this exact scene description, in which case ONLY that named object may appear.",
+      "ref": "mono"
+    },
+    {
+      "file": "6_52.jpg",
+      "startSec": 412.0,
+      "text": "Tu móvil también escucha las redes wifi que hay a tu alrededor.",
+      "scene": "Sara, a friendly cartoon monkey mascot with big expressive eyes, brown fur, flat cartoon illustration style, thick black ink outlines, simple flat colors, no gradients, no 3D shading, on a pure white background, drawn like a 2D explainer-video character. Wide shot, pointing at a wifi signal icon, off to one side. No invented text, no captions, no labels, no numbers, no words of any kind anywhere in this image unless a specific word or number is explicitly quoted in this description — if none is quoted, draw ZERO text, letters, or digits anywhere in the frame. Sara is NOT holding, touching, or standing near any object, food, or prop of any kind: no bananas, no fruit, no food, no pencils, no lightbulbs, no tools, no boxes, no books, no clothing, no accessories, her hands are empty — UNLESS an object is explicitly named earlier in this exact scene description, in which case ONLY that named object may appear.",
+      "ref": "mono"
+    },
+    {
+      "file": "6_56.jpg",
+      "startSec": 416.06,
+      "text": "Existen enormes bases de datos que saben dónde está cada red wifi.",
+      "scene": "Sara, a friendly cartoon monkey mascot with big expressive eyes, brown fur, flat cartoon illustration style, thick black ink outlines, simple flat colors, no gradients, no 3D shading, on a pure white background, drawn like a 2D explainer-video character. Wide shot, pointing at a large filing cabinet full of wifi signal icons, off to one side. No invented text, no captions, no labels, no numbers, no words of any kind anywhere in this image unless a specific word or number is explicitly quoted in this description — if none is quoted, draw ZERO text, letters, or digits anywhere in the frame. Sara is NOT holding, touching, or standing near any object, food, or prop of any kind: no bananas, no fruit, no food, no pencils, no lightbulbs, no tools, no boxes, no books, no clothing, no accessories, her hands are empty — UNLESS an object is explicitly named earlier in this exact scene description, in which case ONLY that named object may appear.",
+      "ref": "mono"
+    },
+    {
+      "file": "7_00.jpg",
+      "startSec": 420.36,
+      "text": "Si tu móvil ve tres redes conocidas ya tiene una buena pista de dónde estás, aunque no vean ningún satélite.",
+      "scene": "Sara, a friendly cartoon monkey mascot with big expressive eyes, brown fur, flat cartoon illustration style, thick black ink outlines, simple flat colors, no gradients, no 3D shading, on a pure white background, drawn like a 2D explainer-video character. Close-up shot, pointing at three wifi signal icons around a location pin, off to one side. No invented text, no captions, no labels, no numbers, no words of any kind anywhere in this image unless a specific word or number is explicitly quoted in this description — if none is quoted, draw ZERO text, letters, or digits anywhere in the frame. Sara is NOT holding, touching, or standing near any object, food, or prop of any kind: no bananas, no fruit, no food, no pencils, no lightbulbs, no tools, no boxes, no books, no clothing, no accessories, her hands are empty — UNLESS an object is explicitly named earlier in this exact scene description, in which case ONLY that named object may appear.",
+      "ref": "mono"
+    },
+    {
+      "file": "7_06.jpg",
+      "startSec": 426.58,
+      "text": "Lo mismo pasa con las antenas de telefonía.",
+      "scene": "Sara, a friendly cartoon monkey mascot with big expressive eyes, brown fur, flat cartoon illustration style, thick black ink outlines, simple flat colors, no gradients, no 3D shading, on a pure white background, drawn like a 2D explainer-video character. Medium shot, pointing at a tall phone antenna tower, off to one side. No invented text, no captions, no labels, no numbers, no words of any kind anywhere in this image unless a specific word or number is explicitly quoted in this description — if none is quoted, draw ZERO text, letters, or digits anywhere in the frame. Sara is NOT holding, touching, or standing near any object, food, or prop of any kind: no bananas, no fruit, no food, no pencils, no lightbulbs, no tools, no boxes, no books, no clothing, no accessories, her hands are empty — UNLESS an object is explicitly named earlier in this exact scene description, in which case ONLY that named object may appear.",
+      "ref": "mono"
+    },
+    {
+      "file": "7_09.jpg",
+      "startSec": 429.04,
+      "text": "Son menos precisas, pero funcionan casi en cualquier sitio.",
+      "scene": "ONLY this and NOTHING ELSE WHATSOEVER: a tall phone antenna tower sending waves in a wide circle, centered. ABSOLUTELY NO CHARACTERS IN THIS IMAGE: no monkey, no Sara, no animal, no person, no face. Icons only. Flat solid colors with thick black ink outlines on pure white, no gradients, no 3D shading, no drop shadows. The artwork must fill the whole 16:9 frame edge to edge, NO black bars. No invented text, no captions, no labels, no numbers, no words of any kind anywhere in this image unless a specific word or number is explicitly quoted in this description — if none is quoted, draw ZERO text, letters, or digits anywhere in the frame.",
+      "ref": "none"
+    },
+    {
+      "file": "7_12.jpg",
+      "startSec": 432.74,
+      "text": "Satélites, wifi, antenas, tu móvil mezcla todo y te da el mejor punto azul posible.",
+      "scene": "Sara, a friendly cartoon monkey mascot with big expressive eyes, brown fur, flat cartoon illustration style, thick black ink outlines, simple flat colors, no gradients, no 3D shading, on a pure white background, drawn like a 2D explainer-video character. Wide shot, pointing at a satellite, a wifi icon and an antenna tower combining into a blue location dot, off to one side. No invented text, no captions, no labels, no numbers, no words of any kind anywhere in this image unless a specific word or number is explicitly quoted in this description — if none is quoted, draw ZERO text, letters, or digits anywhere in the frame. Sara is NOT holding, touching, or standing near any object, food, or prop of any kind: no bananas, no fruit, no food, no pencils, no lightbulbs, no tools, no boxes, no books, no clothing, no accessories, her hands are empty — UNLESS an object is explicitly named earlier in this exact scene description, in which case ONLY that named object may appear.",
+      "ref": "mono"
+    },
+    {
+      "file": "7_18.jpg",
+      "startSec": 438.36,
+      "text": "Y esto va mucho más allá de no perderte.",
+      "scene": "Sara, a friendly cartoon monkey mascot with big expressive eyes, brown fur, flat cartoon illustration style, thick black ink outlines, simple flat colors, no gradients, no 3D shading, on a pure white background, drawn like a 2D explainer-video character. Close-up shot, excited expression, arms spread wide. No invented text, no captions, no labels, no numbers, no words of any kind anywhere in this image unless a specific word or number is explicitly quoted in this description — if none is quoted, draw ZERO text, letters, or digits anywhere in the frame. Sara is NOT holding, touching, or standing near any object, food, or prop of any kind: no bananas, no fruit, no food, no pencils, no lightbulbs, no tools, no boxes, no books, no clothing, no accessories, her hands are empty — UNLESS an object is explicitly named earlier in this exact scene description, in which case ONLY that named object may appear.",
+      "ref": "mono"
+    },
+    {
+      "file": "7_20.jpg",
+      "startSec": 440.28,
+      "text": "El coche que pides por una aplicación sabe dónde recogerte gracias al GPS.",
+      "scene": "ONLY this and NOTHING ELSE WHATSOEVER: a small car with a location pin above it, centered. ABSOLUTELY NO CHARACTERS IN THIS IMAGE: no monkey, no Sara, no animal, no person, no face. Icons only. Flat solid colors with thick black ink outlines on pure white, no gradients, no 3D shading, no drop shadows. The artwork must fill the whole 16:9 frame edge to edge, NO black bars. No invented text, no captions, no labels, no numbers, no words of any kind anywhere in this image unless a specific word or number is explicitly quoted in this description — if none is quoted, draw ZERO text, letters, or digits anywhere in the frame.",
+      "ref": "none"
+    },
+    {
+      "file": "7_25.jpg",
+      "startSec": 445.48,
+      "text": "El repartidor que te trae la cena aparece moviéndose por el mapa gracias al GPS.",
+      "scene": "Sara, a friendly cartoon monkey mascot with big expressive eyes, brown fur, flat cartoon illustration style, thick black ink outlines, simple flat colors, no gradients, no 3D shading, on a pure white background, drawn like a 2D explainer-video character. Medium shot, pointing at a delivery scooter with a location pin, off to one side. No invented text, no captions, no labels, no numbers, no words of any kind anywhere in this image unless a specific word or number is explicitly quoted in this description — if none is quoted, draw ZERO text, letters, or digits anywhere in the frame. Sara is NOT holding, touching, or standing near any object, food, or prop of any kind: no bananas, no fruit, no food, no pencils, no lightbulbs, no tools, no boxes, no books, no clothing, no accessories, her hands are empty — UNLESS an object is explicitly named earlier in this exact scene description, in which case ONLY that named object may appear.",
+      "ref": "mono"
+    },
+    {
+      "file": "7_30.jpg",
+      "startSec": 450.42,
+      "text": "Los aviones y los barcos lo usan para navegar.",
+      "scene": "ONLY this and NOTHING ELSE WHATSOEVER: an airplane and a ship side by side, centered. ABSOLUTELY NO CHARACTERS IN THIS IMAGE: no monkey, no Sara, no animal, no person, no face. Icons only. Flat solid colors with thick black ink outlines on pure white, no gradients, no 3D shading, no drop shadows. The artwork must fill the whole 16:9 frame edge to edge, NO black bars. No invented text, no captions, no labels, no numbers, no words of any kind anywhere in this image unless a specific word or number is explicitly quoted in this description — if none is quoted, draw ZERO text, letters, or digits anywhere in the frame.",
+      "ref": "none"
+    },
+    {
+      "file": "7_33.jpg",
+      "startSec": 453.14,
+      "text": "Y hay un uso que casi nadie conoce.",
+      "scene": "Sara, a friendly cartoon monkey mascot with big expressive eyes, brown fur, flat cartoon illustration style, thick black ink outlines, simple flat colors, no gradients, no 3D shading, on a pure white background, drawn like a 2D explainer-video character. Wide shot, leaning in to tell a secret, one hand next to her mouth. No invented text, no captions, no labels, no numbers, no words of any kind anywhere in this image unless a specific word or number is explicitly quoted in this description — if none is quoted, draw ZERO text, letters, or digits anywhere in the frame. Sara is NOT holding, touching, or standing near any object, food, or prop of any kind: no bananas, no fruit, no food, no pencils, no lightbulbs, no tools, no boxes, no books, no clothing, no accessories, her hands are empty — UNLESS an object is explicitly named earlier in this exact scene description, in which case ONLY that named object may appear.",
+      "ref": "mono"
+    },
+    {
+      "file": "7_35.jpg",
+      "startSec": 455.36,
+      "text": "El GPS no sólo da la posición, da la hora exacta.",
+      "scene": "Sara, a friendly cartoon monkey mascot with big expressive eyes, brown fur, flat cartoon illustration style, thick black ink outlines, simple flat colors, no gradients, no 3D shading, on a pure white background, drawn like a 2D explainer-video character. Close-up shot, pointing at a small cartoon satellite with two blue solar panels next to a clock, off to one side. No invented text, no captions, no labels, no numbers, no words of any kind anywhere in this image unless a specific word or number is explicitly quoted in this description — if none is quoted, draw ZERO text, letters, or digits anywhere in the frame. Sara is NOT holding, touching, or standing near any object, food, or prop of any kind: no bananas, no fruit, no food, no pencils, no lightbulbs, no tools, no boxes, no books, no clothing, no accessories, her hands are empty — UNLESS an object is explicitly named earlier in this exact scene description, in which case ONLY that named object may appear.",
+      "ref": "mono"
+    },
+    {
+      "file": "7_39.jpg",
+      "startSec": 459.36,
+      "text": "Muchas redes de telefonías se sincronizan con esa hora.",
+      "scene": "Sara, a friendly cartoon monkey mascot with big expressive eyes, brown fur, flat cartoon illustration style, thick black ink outlines, simple flat colors, no gradients, no 3D shading, on a pure white background, drawn like a 2D explainer-video character. Close-up shot, pointing at several phone antenna towers all connected to one clock, off to one side. No invented text, no captions, no labels, no numbers, no words of any kind anywhere in this image unless a specific word or number is explicitly quoted in this description — if none is quoted, draw ZERO text, letters, or digits anywhere in the frame. Sara is NOT holding, touching, or standing near any object, food, or prop of any kind: no bananas, no fruit, no food, no pencils, no lightbulbs, no tools, no boxes, no books, no clothing, no accessories, her hands are empty — UNLESS an object is explicitly named earlier in this exact scene description, in which case ONLY that named object may appear.",
+      "ref": "mono"
+    },
+    {
+      "file": "7_42.jpg",
+      "startSec": 462.46,
+      "text": "Muchos bancos y bolsas la usan para poner la hora exacta a cada operación.",
+      "scene": "Sara, a friendly cartoon monkey mascot with big expressive eyes, brown fur, flat cartoon illustration style, thick black ink outlines, simple flat colors, no gradients, no 3D shading, on a pure white background, drawn like a 2D explainer-video character. Medium shot, pointing at a bank building next to a clock, off to one side. No invented text, no captions, no labels, no numbers, no words of any kind anywhere in this image unless a specific word or number is explicitly quoted in this description — if none is quoted, draw ZERO text, letters, or digits anywhere in the frame. Sara is NOT holding, touching, or standing near any object, food, or prop of any kind: no bananas, no fruit, no food, no pencils, no lightbulbs, no tools, no boxes, no books, no clothing, no accessories, her hands are empty — UNLESS an object is explicitly named earlier in this exact scene description, in which case ONLY that named object may appear.",
+      "ref": "mono"
+    },
+    {
+      "file": "7_46.jpg",
+      "startSec": 466.32,
+      "text": "Una parte enorme del mundo moderno funciona al ritmo de esos relojes atómicos que dan vueltas ahí arriba.",
+      "scene": "Sara, a friendly cartoon monkey mascot with big expressive eyes, brown fur, flat cartoon illustration style, thick black ink outlines, simple flat colors, no gradients, no 3D shading, on a pure white background, drawn like a 2D explainer-video character. Wide shot, pointing at the Earth with satellites carrying tiny clocks orbiting around it, off to one side. No invented text, no captions, no labels, no numbers, no words of any kind anywhere in this image unless a specific word or number is explicitly quoted in this description — if none is quoted, draw ZERO text, letters, or digits anywhere in the frame. Sara is NOT holding, touching, or standing near any object, food, or prop of any kind: no bananas, no fruit, no food, no pencils, no lightbulbs, no tools, no boxes, no books, no clothing, no accessories, her hands are empty — UNLESS an object is explicitly named earlier in this exact scene description, in which case ONLY that named object may appear.",
+      "ref": "mono"
+    },
+    {
+      "file": "7_53.jpg",
+      "startSec": 473.24,
+      "text": "Así que volvamos al principio a ese punto azul en tu mapa.",
+      "scene": "ONLY this and NOTHING ELSE WHATSOEVER: a smartphone showing a simple map with a blue location dot, centered. ABSOLUTELY NO CHARACTERS IN THIS IMAGE: no monkey, no Sara, no animal, no person, no face. Icons only. Flat solid colors with thick black ink outlines on pure white, no gradients, no 3D shading, no drop shadows. The artwork must fill the whole 16:9 frame edge to edge, NO black bars. No invented text, no captions, no labels, no numbers, no words of any kind anywhere in this image unless a specific word or number is explicitly quoted in this description — if none is quoted, draw ZERO text, letters, or digits anywhere in the frame.",
+      "ref": "none"
+    },
+    {
+      "file": "7_56.jpg",
+      "startSec": 476.88,
+      "text": "Tu móvil no le preguntó a nadie dónde estaba.",
+      "scene": "Sara, a friendly cartoon monkey mascot with big expressive eyes, brown fur, flat cartoon illustration style, thick black ink outlines, simple flat colors, no gradients, no 3D shading, on a pure white background, drawn like a 2D explainer-video character. Close-up shot, pointing at a smartphone with a crossed-out speech bubble, off to one side. No invented text, no captions, no labels, no numbers, no words of any kind anywhere in this image unless a specific word or number is explicitly quoted in this description — if none is quoted, draw ZERO text, letters, or digits anywhere in the frame. Sara is NOT holding, touching, or standing near any object, food, or prop of any kind: no bananas, no fruit, no food, no pencils, no lightbulbs, no tools, no boxes, no books, no clothing, no accessories, her hands are empty — UNLESS an object is explicitly named earlier in this exact scene description, in which case ONLY that named object may appear.",
+      "ref": "mono"
+    },
+    {
+      "file": "7_59.jpg",
+      "startSec": 479.58,
+      "text": "Escuchó a cuatro satélites gritar la hora, convirtió el tiempo en distancia y cruzó las esferas.",
+      "scene": "Sara, a friendly cartoon monkey mascot with big expressive eyes, brown fur, flat cartoon illustration style, thick black ink outlines, simple flat colors, no gradients, no 3D shading, on a pure white background, drawn like a 2D explainer-video character. Medium shot, pointing at four satellites sending waves to one smartphone, off to one side. No invented text, no captions, no labels, no numbers, no words of any kind anywhere in this image unless a specific word or number is explicitly quoted in this description — if none is quoted, draw ZERO text, letters, or digits anywhere in the frame. Sara is NOT holding, touching, or standing near any object, food, or prop of any kind: no bananas, no fruit, no food, no pencils, no lightbulbs, no tools, no boxes, no books, no clothing, no accessories, her hands are empty — UNLESS an object is explicitly named earlier in this exact scene description, in which case ONLY that named object may appear.",
+      "ref": "mono"
+    },
+    {
+      "file": "8_05.jpg",
+      "startSec": 485.9,
+      "text": "Usó el cuarto satélite para corregir su propio reloj.",
+      "scene": "Sara, a friendly cartoon monkey mascot with big expressive eyes, brown fur, flat cartoon illustration style, thick black ink outlines, simple flat colors, no gradients, no 3D shading, on a pure white background, drawn like a 2D explainer-video character. Wide shot, pointing at a satellite with a small wrench, off to one side. No invented text, no captions, no labels, no numbers, no words of any kind anywhere in this image unless a specific word or number is explicitly quoted in this description — if none is quoted, draw ZERO text, letters, or digits anywhere in the frame. Sara is NOT holding, touching, or standing near any object, food, or prop of any kind: no bananas, no fruit, no food, no pencils, no lightbulbs, no tools, no boxes, no books, no clothing, no accessories, her hands are empty — UNLESS an object is explicitly named earlier in this exact scene description, in which case ONLY that named object may appear.",
+      "ref": "mono"
+    },
+    {
+      "file": "8_08.jpg",
+      "startSec": 488.96,
+      "text": "Y todo eso sólo funciona porque alguien corregió los relojes antes del lanzamiento.",
+      "scene": "ONLY this and NOTHING ELSE WHATSOEVER: a satellite on a launch pad next to a clock and a wrench, centered. ABSOLUTELY NO CHARACTERS IN THIS IMAGE: no monkey, no Sara, no animal, no person, no face. Icons only. Flat solid colors with thick black ink outlines on pure white, no gradients, no 3D shading, no drop shadows. The artwork must fill the whole 16:9 frame edge to edge, NO black bars. No invented text, no captions, no labels, no numbers, no words of any kind anywhere in this image unless a specific word or number is explicitly quoted in this description — if none is quoted, draw ZERO text, letters, or digits anywhere in the frame.",
+      "ref": "none"
+    },
+    {
+      "file": "8_13.jpg",
+      "startSec": 493.02,
+      "text": "Si no, el punto se iría unos 10 kilómetros cada día.",
+      "scene": "Sara, a friendly cartoon monkey mascot with big expressive eyes, brown fur, flat cartoon illustration style, thick black ink outlines, simple flat colors, no gradients, no 3D shading, on a pure white background, drawn like a 2D explainer-video character. Close-up shot, pointing at a blue location dot drifting away, off to one side. No invented text, no captions, no labels, no numbers, no words of any kind anywhere in this image unless a specific word or number is explicitly quoted in this description — if none is quoted, draw ZERO text, letters, or digits anywhere in the frame. Sara is NOT holding, touching, or standing near any object, food, or prop of any kind: no bananas, no fruit, no food, no pencils, no lightbulbs, no tools, no boxes, no books, no clothing, no accessories, her hands are empty — UNLESS an object is explicitly named earlier in this exact scene description, in which case ONLY that named object may appear.",
+      "ref": "mono"
+    },
+    {
+      "file": "8_17.jpg",
+      "startSec": 497.02,
+      "text": "Tu móvil no pregunta, escucha y lo que escucha viene con la firma de Einstein.",
+      "scene": "Sara, a friendly cartoon monkey mascot with big expressive eyes, brown fur, flat cartoon illustration style, thick black ink outlines, simple flat colors, no gradients, no 3D shading, on a pure white background, drawn like a 2D explainer-video character. Medium shot, hand cupped behind one ear, warm confident smile. No invented text, no captions, no labels, no numbers, no words of any kind anywhere in this image unless a specific word or number is explicitly quoted in this description — if none is quoted, draw ZERO text, letters, or digits anywhere in the frame. Sara is NOT holding, touching, or standing near any object, food, or prop of any kind: no bananas, no fruit, no food, no pencils, no lightbulbs, no tools, no boxes, no books, no clothing, no accessories, her hands are empty — UNLESS an object is explicitly named earlier in this exact scene description, in which case ONLY that named object may appear.",
+      "ref": "mono"
+    },
+    {
+      "file": "8_22.jpg",
+      "startSec": 502.24,
+      "text": "Si te gusta entender cómo funciona de verdad la tecnología que usas cada día, suscríbete.",
+      "scene": "Sara, a friendly cartoon monkey mascot with big expressive eyes, brown fur, flat cartoon illustration style, thick black ink outlines, simple flat colors, no gradients, no 3D shading, on a pure white background, drawn like a 2D explainer-video character. Wide shot, warm friendly smile, waving hello with one hand. No invented text, no captions, no labels, no numbers, no words of any kind anywhere in this image unless a specific word or number is explicitly quoted in this description — if none is quoted, draw ZERO text, letters, or digits anywhere in the frame. Sara is NOT holding, touching, or standing near any object, food, or prop of any kind: no bananas, no fruit, no food, no pencils, no lightbulbs, no tools, no boxes, no books, no clothing, no accessories, her hands are empty — UNLESS an object is explicitly named earlier in this exact scene description, in which case ONLY that named object may appear.",
+      "ref": "mono"
+    },
+    {
+      "file": "8_27.jpg",
+      "startSec": 507.24,
+      "text": "Cada semana una máquina, un invento o una idea explicada fácil.",
+      "scene": "ONLY this and NOTHING ELSE WHATSOEVER: a bright yellow notification bell icon with small motion lines, centered. ABSOLUTELY NO CHARACTERS IN THIS IMAGE: no monkey, no Sara, no animal, no person, no face. Icons only. Flat solid colors with thick black ink outlines on pure white, no gradients, no 3D shading, no drop shadows. The artwork must fill the whole 16:9 frame edge to edge, NO black bars. No invented text, no captions, no labels, no numbers, no words of any kind anywhere in this image unless a specific word or number is explicitly quoted in this description — if none is quoted, draw ZERO text, letters, or digits anywhere in the frame.",
+      "ref": "none"
+    }
+  ]
+}

@@ -1,0 +1,846 @@
+{
+  "video": "que-hace-red-team",
+  "frames": [
+    {
+      "file": "0_00.jpg",
+      "startSec": 0.0,
+      "text": "Cuando alguien dice que trabaje en un red team,",
+      "scene": "Close-up: Sara raising one eyebrow, curious, direct at camera.",
+      "ref": "mono"
+    },
+    {
+      "file": "0_02.jpg",
+      "startSec": 2.58,
+      "text": "la gente se imagina un tío encapuchado",
+      "scene": "Medium shot: The shadow-figure standing in a dramatic hooded pose, silhouette only, glowing yellow eyes, flat black hood interior.",
+      "ref": "sombra"
+    },
+    {
+      "file": "0_04.jpg",
+      "startSec": 4.52,
+      "text": "entrando en sistemas ajenos a las tres de la mañana.",
+      "scene": "Wide shot: The shadow-figure hunched over a glowing screen icon in an otherwise empty room, silhouette only, glowing yellow eyes.",
+      "ref": "sombra"
+    },
+    {
+      "file": "0_07.jpg",
+      "startSec": 7.72,
+      "text": "Y sí, eso pasa,",
+      "scene": "Close-up: Sara nodding, conceding a point, direct at camera.",
+      "ref": "mono"
+    },
+    {
+      "file": "0_09.jpg",
+      "startSec": 9.36,
+      "text": "pero es la parte más pequeña del trabajo.",
+      "scene": "A large pie-chart icon with one very tiny slice highlighted, no characters, no text. ABSOLUTELY NO CHARACTERS IN THIS IMAGE: no monkey, no Sara, no animal, no person, no face, no hooded figure. Icons only. Flat solid colors with thick black ink outlines on pure white, no gradients, no 3D shading, no drop shadows. The artwork must fill the whole 16:9 frame with no black bars. No invented text, no captions, no labels beyond exactly what this scene asks for.",
+      "ref": "none"
+    },
+    {
+      "file": "0_12.jpg",
+      "startSec": 12.26,
+      "text": "La mayoría del tiempo de un red team no se dedica a atacar nada,",
+      "scene": "Close-up: Sara shaking her head, matter-of-fact.",
+      "ref": "mono"
+    },
+    {
+      "file": "0_16.jpg",
+      "startSec": 16.08,
+      "text": "se dedica a mirar, a esperar y a escribir.",
+      "scene": "Three small icons in a row, an eye, an hourglass and a pencil, no characters, no text. ABSOLUTELY NO CHARACTERS IN THIS IMAGE: no monkey, no Sara, no animal, no person, no face, no hooded figure. Icons only. Flat solid colors with thick black ink outlines on pure white, no gradients, no 3D shading, no drop shadows. The artwork must fill the whole 16:9 frame with no black bars. No invented text, no captions, no labels beyond exactly what this scene asks for.",
+      "ref": "none"
+    },
+    {
+      "file": "0_19.jpg",
+      "startSec": 19.4,
+      "text": "Y lo más importante de todo,",
+      "scene": "Close-up: Sara raising one finger, about to say the important part, serious.",
+      "ref": "mono"
+    },
+    {
+      "file": "0_21.jpg",
+      "startSec": 21.3,
+      "text": "el objetivo real de un red team no es entrar,",
+      "scene": "A crossed-out doorway icon with a key lying beside it, no characters, no text. ABSOLUTELY NO CHARACTERS IN THIS IMAGE: no monkey, no Sara, no animal, no person, no face, no hooded figure. Icons only. Flat solid colors with thick black ink outlines on pure white, no gradients, no 3D shading, no drop shadows. The artwork must fill the whole 16:9 frame with no black bars. No invented text, no captions, no labels beyond exactly what this scene asks for.",
+      "ref": "none"
+    },
+    {
+      "file": "0_24.jpg",
+      "startSec": 24.7,
+      "text": "es medir cuánto tarda el equipo de enfrente",
+      "scene": "Medium shot: The shadow-figure standing still while a stopwatch icon ticks beside it, silhouette only, glowing yellow eyes.",
+      "ref": "sombra"
+    },
+    {
+      "file": "0_27.jpg",
+      "startSec": 27.22,
+      "text": "en darse cuenta de que has entrado.",
+      "scene": "A stopwatch icon with its hand running fast, no characters, no text. ABSOLUTELY NO CHARACTERS IN THIS IMAGE: no monkey, no Sara, no animal, no person, no face, no hooded figure. Icons only. Flat solid colors with thick black ink outlines on pure white, no gradients, no 3D shading, no drop shadows. The artwork must fill the whole 16:9 frame with no black bars. No invented text, no captions, no labels beyond exactly what this scene asks for.",
+      "ref": "none"
+    },
+    {
+      "file": "0_29.jpg",
+      "startSec": 29.96,
+      "text": "Hoy te cuento qué hace de verdad,",
+      "scene": "Wide shot: Sara standing beside a blank wooden signpost with no writing on it, holding three plain icons, a clipboard, a coin and a doorway, curious.",
+      "ref": "mono"
+    },
+    {
+      "file": "0_32.jpg",
+      "startSec": 32.04,
+      "text": "cuánto se cobra en España y cómo se llega ahí.",
+      "scene": "Close-up: Sara counting on her fingers, explaining, curious.",
+      "ref": "mono"
+    },
+    {
+      "file": "0_34.jpg",
+      "startSec": 34.88,
+      "text": "Y hay que empezar por la confusión más común de todas,",
+      "scene": "Close-up: Sara holding up a warning-triangle icon, serious.",
+      "ref": "mono"
+    },
+    {
+      "file": "0_37.jpg",
+      "startSec": 37.92,
+      "text": "porque la vas a oír constantemente.",
+      "scene": "A speech-bubble icon repeating itself in a row of identical copies, no characters, no text. ABSOLUTELY NO CHARACTERS IN THIS IMAGE: no monkey, no Sara, no animal, no person, no face, no hooded figure. Icons only. Flat solid colors with thick black ink outlines on pure white, no gradients, no 3D shading, no drop shadows. The artwork must fill the whole 16:9 frame with no black bars. No invented text, no captions, no labels beyond exactly what this scene asks for.",
+      "ref": "none"
+    },
+    {
+      "file": "0_40.jpg",
+      "startSec": 40.72,
+      "text": "Red team y pentesting no son lo mismo.",
+      "scene": "Two plain labels side by side reading exactly 'RED TEAM' and 'PENTEST' with a large X drawn between them, no characters. ABSOLUTELY NO CHARACTERS IN THIS IMAGE: no monkey, no Sara, no animal, no person, no face, no hooded figure. Icons only. Flat solid colors with thick black ink outlines on pure white, no gradients, no 3D shading, no drop shadows. The artwork must fill the whole 16:9 frame with no black bars. No invented text, no captions, no labels beyond exactly what this scene asks for.",
+      "ref": "none"
+    },
+    {
+      "file": "0_44.jpg",
+      "startSec": 44.1,
+      "text": "No es una diferencia de nombre,",
+      "scene": "Close-up: Sara waving one hand dismissively, serious.",
+      "ref": "mono"
+    },
+    {
+      "file": "0_45.jpg",
+      "startSec": 45.9,
+      "text": "es una diferencia de trabajo entero.",
+      "scene": "Medium shot: Sara holding two separate blank folder icons apart with no labels on them, one in each hand, explaining.",
+      "ref": "mono"
+    },
+    {
+      "file": "0_48.jpg",
+      "startSec": 48.54,
+      "text": "Un pentest tiene un alcance técnico cerrado desde el principio,",
+      "scene": "A rectangular fenced perimeter icon with a single target inside it, no characters, no text. ABSOLUTELY NO CHARACTERS IN THIS IMAGE: no monkey, no Sara, no animal, no person, no face, no hooded figure. Icons only. Flat solid colors with thick black ink outlines on pure white, no gradients, no 3D shading, no drop shadows. The artwork must fill the whole 16:9 frame with no black bars. No invented text, no captions, no labels beyond exactly what this scene asks for.",
+      "ref": "none"
+    },
+    {
+      "file": "0_52.jpg",
+      "startSec": 52.38,
+      "text": "una aplicación web concreta, una red concreta,",
+      "scene": "Medium shot: Sara pointing at a plain browser-window icon and a small network-node icon side by side, explaining.",
+      "ref": "mono"
+    },
+    {
+      "file": "0_55.jpg",
+      "startSec": 55.14,
+      "text": "un directorio activo concreto.",
+      "scene": "A tree-shaped directory diagram icon, no characters, no text. ABSOLUTELY NO CHARACTERS IN THIS IMAGE: no monkey, no Sara, no animal, no person, no face, no hooded figure. Icons only. Flat solid colors with thick black ink outlines on pure white, no gradients, no 3D shading, no drop shadows. The artwork must fill the whole 16:9 frame with no black bars. No invented text, no captions, no labels beyond exactly what this scene asks for.",
+      "ref": "none"
+    },
+    {
+      "file": "0_57.jpg",
+      "startSec": 57.72,
+      "text": "Y el encargo es encontrar el máximo número de vulnerabilidades",
+      "scene": "Close-up: Sara pointing at a long checklist icon, curious.",
+      "ref": "mono"
+    },
+    {
+      "file": "1_00.jpg",
+      "startSec": 60.92,
+      "text": "dentro de ese perímetro.",
+      "scene": "A checklist icon completely filled with checkmarks inside a fenced boundary, no characters, no text. ABSOLUTELY NO CHARACTERS IN THIS IMAGE: no monkey, no Sara, no animal, no person, no face, no hooded figure. Icons only. Flat solid colors with thick black ink outlines on pure white, no gradients, no 3D shading, no drop shadows. The artwork must fill the whole 16:9 frame with no black bars. No invented text, no captions, no labels beyond exactly what this scene asks for.",
+      "ref": "none"
+    },
+    {
+      "file": "1_02.jpg",
+      "startSec": 62.88,
+      "text": "Dura entre una y cuatro semanas y todo el mundo sabe que se está haciendo.",
+      "scene": "Medium shot: Sara tapping an hourglass icon beside a short horizontal timeline bar, explaining.",
+      "ref": "mono"
+    },
+    {
+      "file": "1_07.jpg",
+      "startSec": 67.56,
+      "text": "El equipo de fensor está avisado, no es ningún secreto.",
+      "scene": "A megaphone icon announcing openly toward a group of small generic person-outline icons, icons only, not Sara and not the shadow figure. ABSOLUTELY NO CHARACTERS IN THIS IMAGE: no monkey, no Sara, no animal, no person, no face, no hooded figure. Icons only. Flat solid colors with thick black ink outlines on pure white, no gradients, no 3D shading, no drop shadows. The artwork must fill the whole 16:9 frame with no black bars. No invented text, no captions, no labels beyond exactly what this scene asks for.",
+      "ref": "none"
+    },
+    {
+      "file": "1_11.jpg",
+      "startSec": 71.14,
+      "text": "Un red team funciona al revés,",
+      "scene": "Close-up: Sara flipping her hand over to show the reverse side, curious.",
+      "ref": "mono"
+    },
+    {
+      "file": "1_13.jpg",
+      "startSec": 73.2,
+      "text": "no te dan un alcance técnico,",
+      "scene": "A crossed-out fenced perimeter icon, no characters, no text. ABSOLUTELY NO CHARACTERS IN THIS IMAGE: no monkey, no Sara, no animal, no person, no face, no hooded figure. Icons only. Flat solid colors with thick black ink outlines on pure white, no gradients, no 3D shading, no drop shadows. The artwork must fill the whole 16:9 frame with no black bars. No invented text, no captions, no labels beyond exactly what this scene asks for.",
+      "ref": "none"
+    },
+    {
+      "file": "1_14.jpg",
+      "startSec": 74.88,
+      "text": "te dan un objetivo de negocio.",
+      "scene": "A plain goal-flag icon planted on a small hill, no characters, no text. ABSOLUTELY NO CHARACTERS IN THIS IMAGE: no monkey, no Sara, no animal, no person, no face, no hooded figure. Icons only. Flat solid colors with thick black ink outlines on pure white, no gradients, no 3D shading, no drop shadows. The artwork must fill the whole 16:9 frame with no black bars. No invented text, no captions, no labels beyond exactly what this scene asks for.",
+      "ref": "none"
+    },
+    {
+      "file": "1_17.jpg",
+      "startSec": 77.2,
+      "text": "Entra en el sistema que gestiona los pedidos,",
+      "scene": "Medium shot: The shadow-figure reaching toward a plain box-and-cart order icon, silhouette only, glowing yellow eyes.",
+      "ref": "sombra"
+    },
+    {
+      "file": "1_19.jpg",
+      "startSec": 79.72,
+      "text": "saca datos de clientes, llega al ERP.",
+      "scene": "A database icon with small blank record cards spilling out of it, no characters, no text. ABSOLUTELY NO CHARACTERS IN THIS IMAGE: no monkey, no Sara, no animal, no person, no face, no hooded figure. Icons only. Flat solid colors with thick black ink outlines on pure white, no gradients, no 3D shading, no drop shadows. The artwork must fill the whole 16:9 frame with no black bars. No invented text, no captions, no labels beyond exactly what this scene asks for.",
+      "ref": "none"
+    },
+    {
+      "file": "1_22.jpg",
+      "startSec": 82.84,
+      "text": "Y como llegues hasta ahí, es cosa a tuya.",
+      "scene": "Close-up: Sara shrugging, curious, leaving the choice open.",
+      "ref": "mono"
+    },
+    {
+      "file": "1_25.jpg",
+      "startSec": 85.6,
+      "text": "Puede decir por la web, por un empleado,",
+      "scene": "A branching road icon with four different paths all leading to one target, no characters, no text. ABSOLUTELY NO CHARACTERS IN THIS IMAGE: no monkey, no Sara, no animal, no person, no face, no hooded figure. Icons only. Flat solid colors with thick black ink outlines on pure white, no gradients, no 3D shading, no drop shadows. The artwork must fill the whole 16:9 frame with no black bars. No invented text, no captions, no labels beyond exactly what this scene asks for.",
+      "ref": "none"
+    },
+    {
+      "file": "1_27.jpg",
+      "startSec": 87.7,
+      "text": "por un proveedor, por una cuenta olvidada,",
+      "scene": "A small delivery-van icon and a forgotten rusty key icon side by side, no characters, no text. ABSOLUTELY NO CHARACTERS IN THIS IMAGE: no monkey, no Sara, no animal, no person, no face, no hooded figure. Icons only. Flat solid colors with thick black ink outlines on pure white, no gradients, no 3D shading, no drop shadows. The artwork must fill the whole 16:9 frame with no black bars. No invented text, no captions, no labels beyond exactly what this scene asks for.",
+      "ref": "none"
+    },
+    {
+      "file": "1_30.jpg",
+      "startSec": 90.12,
+      "text": "exactamente igual que haría un atacante real,",
+      "scene": "Close-up: The shadow-figure studying a folded map icon, silhouette only, glowing yellow eyes, flat black hood interior.",
+      "ref": "sombra"
+    },
+    {
+      "file": "1_32.jpg",
+      "startSec": 92.74,
+      "text": "que tampoco pide permiso para elegir camino.",
+      "scene": "A crossed-out permission-stamp icon, no characters, no text. ABSOLUTELY NO CHARACTERS IN THIS IMAGE: no monkey, no Sara, no animal, no person, no face, no hooded figure. Icons only. Flat solid colors with thick black ink outlines on pure white, no gradients, no 3D shading, no drop shadows. The artwork must fill the whole 16:9 frame with no black bars. No invented text, no captions, no labels beyond exactly what this scene asks for.",
+      "ref": "none"
+    },
+    {
+      "file": "1_35.jpg",
+      "startSec": 95.64,
+      "text": "Y no dura semanas.",
+      "scene": "Close-up: Sara shaking her head, correcting a misconception.",
+      "ref": "mono"
+    },
+    {
+      "file": "1_37.jpg",
+      "startSec": 97.26,
+      "text": "Un ejercicio de red team dura entre cuatro y dieciséis semanas.",
+      "scene": "An hourglass icon beside a very long horizontal timeline bar, no characters, no text. ABSOLUTELY NO CHARACTERS IN THIS IMAGE: no monkey, no Sara, no animal, no person, no face, no hooded figure. Icons only. Flat solid colors with thick black ink outlines on pure white, no gradients, no 3D shading, no drop shadows. The artwork must fill the whole 16:9 frame with no black bars. No invented text, no captions, no labels beyond exactly what this scene asks for.",
+      "ref": "none"
+    },
+    {
+      "file": "1_41.jpg",
+      "startSec": 101.2,
+      "text": "Y en los ejercicios más serios,",
+      "scene": "Medium shot: Sara pointing up at a plain bank-building icon, serious.",
+      "ref": "mono"
+    },
+    {
+      "file": "1_43.jpg",
+      "startSec": 103.0,
+      "text": "los que hacen los bancos bajo el marco europeo Tiber se alargan meses.",
+      "scene": "A plain bank-building icon with a small shield beside it, no characters, no text. ABSOLUTELY NO CHARACTERS IN THIS IMAGE: no monkey, no Sara, no animal, no person, no face, no hooded figure. Icons only. Flat solid colors with thick black ink outlines on pure white, no gradients, no 3D shading, no drop shadows. The artwork must fill the whole 16:9 frame with no black bars. No invented text, no captions, no labels beyond exactly what this scene asks for.",
+      "ref": "none"
+    },
+    {
+      "file": "1_47.jpg",
+      "startSec": 107.84,
+      "text": "Entonces, si dura meses,",
+      "scene": "Close-up: Sara tilting her head, asking a question, curious.",
+      "ref": "mono"
+    },
+    {
+      "file": "1_49.jpg",
+      "startSec": 109.38,
+      "text": "¿qué hace exactamente esa persona todos esos días?",
+      "scene": "Extreme close-up of Sara's face, eyes wide, curious, direct at camera.",
+      "ref": "mono"
+    },
+    {
+      "file": "1_53.jpg",
+      "startSec": 113.4,
+      "text": "Pues la mayor parte del tiempo, reconocimiento,",
+      "scene": "A magnifying glass icon resting on top of a closed folder, no characters, no text. ABSOLUTELY NO CHARACTERS IN THIS IMAGE: no monkey, no Sara, no animal, no person, no face, no hooded figure. Icons only. Flat solid colors with thick black ink outlines on pure white, no gradients, no 3D shading, no drop shadows. The artwork must fill the whole 16:9 frame with no black bars. No invented text, no captions, no labels beyond exactly what this scene asks for.",
+      "ref": "none"
+    },
+    {
+      "file": "1_56.jpg",
+      "startSec": 116.38,
+      "text": "que es la palabra elegante para decir investigar a la empresa sin tocarla.",
+      "scene": "Medium shot: The shadow-figure watching a building icon from a distance without touching it, silhouette only, glowing yellow eyes.",
+      "ref": "sombra"
+    },
+    {
+      "file": "2_00.jpg",
+      "startSec": 120.9,
+      "text": "Se llama reconocimiento pasivo",
+      "scene": "ONLY this and NOTHING ELSE WHATSOEVER: a plain rectangular label containing this exact Spanish text, copied character by character with no changes: 'RECONOCIMIENTO PASIVO' (R-E-C-O-N-O-C-I-M-I-E-N-T-O, then P-A-S-I-V-O). No monkey, no Sara, no shadow figure, no person, no icons, no other text, no black bars, flat solid colors on pure white with thick black outline.",
+      "ref": "none"
+    },
+    {
+      "file": "2_02.jpg",
+      "startSec": 122.6,
+      "text": "y consiste en recopilar todo lo que la empresa ha dejado a la vista sin darse cuenta.",
+      "scene": "Wide shot: The shadow-figure picking scattered paper icons up off the ground, silhouette only, glowing yellow eyes.",
+      "ref": "sombra"
+    },
+    {
+      "file": "2_08.jpg",
+      "startSec": 128.0,
+      "text": "Y te sorprendería la cantidad de cosas que una empresa deja a la vista.",
+      "scene": "Close-up: Sara raising both eyebrows, surprised, direct at camera. The artwork must FILL THE ENTIRE 16:9 FRAME edge to edge on a pure white background — absolutely NO black bars, NO letterboxing, NO pillarboxing, no borders of any kind. Absolutely NO text, NO letters, NO words, NO caption, NO labels anywhere in the image.",
+      "ref": "mono"
+    },
+    {
+      "file": "2_12.jpg",
+      "startSec": 132.54,
+      "text": "Buckets de almacenamiento en la nube abiertos al público.",
+      "scene": "A cloud-shaped storage bucket icon tipped over and wide open, no characters, no text. ABSOLUTELY NO CHARACTERS IN THIS IMAGE: no monkey, no Sara, no animal, no person, no face, no hooded figure. Icons only. Flat solid colors with thick black ink outlines on pure white, no gradients, no 3D shading, no drop shadows. The artwork must fill the whole 16:9 frame with no black bars. No invented text, no captions, no labels beyond exactly what this scene asks for.",
+      "ref": "none"
+    },
+    {
+      "file": "2_15.jpg",
+      "startSec": 135.98,
+      "text": "Paneles de administración accesibles desde Internet,",
+      "scene": "Close-up: The shadow-figure peering into a control-panel icon whose little door hangs open, silhouette only, glowing yellow eyes.",
+      "ref": "sombra"
+    },
+    {
+      "file": "2_18.jpg",
+      "startSec": 138.52,
+      "text": "escritorio remotos expuestos que alguien levantó para tele trabajar en 2020",
+      "scene": "A remote-desktop screen icon with an open padlock dangling from it, no characters, no text. ABSOLUTELY NO CHARACTERS IN THIS IMAGE: no monkey, no Sara, no animal, no person, no face, no hooded figure. Icons only. Flat solid colors with thick black ink outlines on pure white, no gradients, no 3D shading, no drop shadows. The artwork must fill the whole 16:9 frame with no black bars. No invented text, no captions, no labels beyond exactly what this scene asks for.",
+      "ref": "none"
+    },
+    {
+      "file": "2_23.jpg",
+      "startSec": 143.14,
+      "text": "y nadie volvió a cerrar.",
+      "scene": "Close-up: Sara shaking her head in disbelief, direct at camera.",
+      "ref": "mono"
+    },
+    {
+      "file": "2_25.jpg",
+      "startSec": 145.7,
+      "text": "Y repositorios de código en GitHub de empleados con credenciales dentro.",
+      "scene": "A code-repository folder icon with a key poking out of it, no characters, no text. ABSOLUTELY NO CHARACTERS IN THIS IMAGE: no monkey, no Sara, no animal, no person, no face, no hooded figure. Icons only. Flat solid colors with thick black ink outlines on pure white, no gradients, no 3D shading, no drop shadows. The artwork must fill the whole 16:9 frame with no black bars. No invented text, no captions, no labels beyond exactly what this scene asks for.",
+      "ref": "none"
+    },
+    {
+      "file": "2_30.jpg",
+      "startSec": 150.64,
+      "text": "Todo eso está y fuera gratis sin necesidad de atacar a nadie todavía.",
+      "scene": "Medium shot: Sara gesturing at a pile of open blank folder icons with no labels, matter-of-fact.",
+      "ref": "mono"
+    },
+    {
+      "file": "2_35.jpg",
+      "startSec": 155.26,
+      "text": "Y cuanto más tiempo dedicas a esta fase,",
+      "scene": "Close-up: Sara pointing at an hourglass icon, serious.",
+      "ref": "mono"
+    },
+    {
+      "file": "2_37.jpg",
+      "startSec": 157.76,
+      "text": "más caminos de entrada encuentras.",
+      "scene": "A map icon gradually gaining more and more marked routes across it, no characters, no text. ABSOLUTELY NO CHARACTERS IN THIS IMAGE: no monkey, no Sara, no animal, no person, no face, no hooded figure. Icons only. Flat solid colors with thick black ink outlines on pure white, no gradients, no 3D shading, no drop shadows. The artwork must fill the whole 16:9 frame with no black bars. No invented text, no captions, no labels beyond exactly what this scene asks for.",
+      "ref": "none"
+    },
+    {
+      "file": "2_40.jpg",
+      "startSec": 160.18,
+      "text": "Por eso, un red team bueno parece que no hace nada durante semanas.",
+      "scene": "Close-up: Sara shrugging, amused, direct at camera.",
+      "ref": "mono"
+    },
+    {
+      "file": "2_44.jpg",
+      "startSec": 164.18,
+      "text": "Está construyendo el mapa antes de dar el primer paso.",
+      "scene": "Medium shot: The shadow-figure drawing routes onto a large map icon, silhouette only, glowing yellow eyes.",
+      "ref": "sombra"
+    },
+    {
+      "file": "2_47.jpg",
+      "startSec": 167.72,
+      "text": "Y luego está la condición que lo cambia absolutamente todo.",
+      "scene": "Close-up: Sara raising one finger, about to state a hard condition, serious.",
+      "ref": "mono"
+    },
+    {
+      "file": "2_52.jpg",
+      "startSec": 172.02,
+      "text": "El sigilo no es opcional, es el requisito.",
+      "scene": "A speaker-mute icon beside a plain label reading exactly in Spanish 'SIGILO OBLIGATORIO' (double-check the spelling: O-B-L-I-G-A-T-O-R-I-O, never OBLATORIO), no characters. The artwork must FILL THE ENTIRE 16:9 FRAME edge to edge on a pure white background — absolutely NO black bars, NO letterboxing, NO pillarboxing, no borders of any kind.",
+      "ref": "none"
+    },
+    {
+      "file": "2_55.jpg",
+      "startSec": 175.78,
+      "text": "En un red team, el equipo de fensor no sabe que el ejercicio se está ejecutando.",
+      "scene": "Wide shot: The shadow-figure moving silently past a sleeping alarm-bell icon, silhouette only, glowing yellow eyes.",
+      "ref": "sombra"
+    },
+    {
+      "file": "3_00.jpg",
+      "startSec": 180.98,
+      "text": "Solo lo sabe un grupo minúsculo de personas,",
+      "scene": "Three small generic person-outline icons standing apart from a much larger crowd icon, icons only, not Sara and not the shadow figure. ABSOLUTELY NO CHARACTERS IN THIS IMAGE: no monkey, no Sara, no animal, no person, no face, no hooded figure. Icons only. Flat solid colors with thick black ink outlines on pure white, no gradients, no 3D shading, no drop shadows. The artwork must fill the whole 16:9 frame with no black bars. No invented text, no captions, no labels beyond exactly what this scene asks for.",
+      "ref": "none"
+    },
+    {
+      "file": "3_03.jpg",
+      "startSec": 183.62,
+      "text": "normalmente dirección y poco más, que se llama el equipo blanco.",
+      "scene": "Medium shot: Sara standing beside a small closed boardroom door with a plain white flag hanging on it, pointing at it, serious. Only Sara, no other characters.",
+      "ref": "mono"
+    },
+    {
+      "file": "3_07.jpg",
+      "startSec": 187.7,
+      "text": "Los que están en el centro de operaciones de seguridad viendo las alertas no tienen ni idea.",
+      "scene": "A wall of screen icons all showing calm flat lines, no characters, no text. ABSOLUTELY NO CHARACTERS IN THIS IMAGE: no monkey, no Sara, no animal, no person, no face, no hooded figure. Icons only. Flat solid colors with thick black ink outlines on pure white, no gradients, no 3D shading, no drop shadows. The artwork must fill the whole 16:9 frame with no black bars. No invented text, no captions, no labels beyond exactly what this scene asks for.",
+      "ref": "none"
+    },
+    {
+      "file": "3_13.jpg",
+      "startSec": 193.18,
+      "text": "Y eso es justo lo que hace que el ejercicio valga para algo.",
+      "scene": "Close-up: Sara nodding firmly, confident.",
+      "ref": "mono"
+    },
+    {
+      "file": "3_16.jpg",
+      "startSec": 196.98,
+      "text": "Porque si les avisas, están mirando.",
+      "scene": "Medium shot: Sara pointing at a wide-open eye icon, explaining.",
+      "ref": "mono"
+    },
+    {
+      "file": "3_19.jpg",
+      "startSec": 199.28,
+      "text": "Y si están mirando, no estás midiendo la realidad.",
+      "scene": "A magnifying glass hovering over scattered data-point icons, no characters. The artwork must FILL THE ENTIRE 16:9 FRAME edge to edge on a pure white background — absolutely NO black bars, NO letterboxing, NO pillarboxing, no borders of any kind. Absolutely NO text, NO letters, NO words, NO caption, NO labels anywhere in the image.",
+      "ref": "none"
+    },
+    {
+      "file": "3_22.jpg",
+      "startSec": 202.74,
+      "text": "Estás midiendo cómo se comportan cuando saben que hay exámen.",
+      "scene": "Close-up: Sara raising an eyebrow, skeptical, direct at camera.",
+      "ref": "mono"
+    },
+    {
+      "file": "3_27.jpg",
+      "startSec": 207.0,
+      "text": "Lo cual nos lleva a la pregunta buena.",
+      "scene": "Close-up: Sara leaning toward the camera, intrigued.",
+      "ref": "mono"
+    },
+    {
+      "file": "3_29.jpg",
+      "startSec": 209.32,
+      "text": "¿Qué se mide realmente al final de un red team?",
+      "scene": "A question-mark icon hovering over a measuring-tape icon, no characters, no text. ABSOLUTELY NO CHARACTERS IN THIS IMAGE: no monkey, no Sara, no animal, no person, no face, no hooded figure. Icons only. Flat solid colors with thick black ink outlines on pure white, no gradients, no 3D shading, no drop shadows. The artwork must fill the whole 16:9 frame with no black bars. No invented text, no captions, no labels beyond exactly what this scene asks for.",
+      "ref": "none"
+    },
+    {
+      "file": "3_32.jpg",
+      "startSec": 212.52,
+      "text": "Y aquí es donde casi todo el mundo se equivoca.",
+      "scene": "Extreme close-up of Sara's face, serious, direct at camera.",
+      "ref": "mono"
+    },
+    {
+      "file": "3_35.jpg",
+      "startSec": 215.56,
+      "text": "No se mide cuántas vulnerabilidades hay.",
+      "scene": "A crossed-out bug-list icon, no characters, no text. ABSOLUTELY NO CHARACTERS IN THIS IMAGE: no monkey, no Sara, no animal, no person, no face, no hooded figure. Icons only. Flat solid colors with thick black ink outlines on pure white, no gradients, no 3D shading, no drop shadows. The artwork must fill the whole 16:9 frame with no black bars. No invented text, no captions, no labels beyond exactly what this scene asks for.",
+      "ref": "none"
+    },
+    {
+      "file": "3_38.jpg",
+      "startSec": 218.12,
+      "text": "Eso es lo que mide un pentest.",
+      "scene": "A checklist icon labeled exactly in Spanish 'PENTEST', no characters. ABSOLUTELY NO CHARACTERS IN THIS IMAGE: no monkey, no Sara, no animal, no person, no face, no hooded figure. Icons only. Flat solid colors with thick black ink outlines on pure white, no gradients, no 3D shading, no drop shadows. The artwork must fill the whole 16:9 frame with no black bars. No invented text, no captions, no labels beyond exactly what this scene asks for.",
+      "ref": "none"
+    },
+    {
+      "file": "3_40.jpg",
+      "startSec": 220.18,
+      "text": "Un red team media el equipo de fensor.",
+      "scene": "Close-up: Sara pointing off to the side at a shield icon, serious.",
+      "ref": "mono"
+    },
+    {
+      "file": "3_42.jpg",
+      "startSec": 222.6,
+      "text": "Mide cuánto tardaron en detectar la intrusión.",
+      "scene": "A stopwatch icon next to an alarm-bell icon, no characters, no text. ABSOLUTELY NO CHARACTERS IN THIS IMAGE: no monkey, no Sara, no animal, no person, no face, no hooded figure. Icons only. Flat solid colors with thick black ink outlines on pure white, no gradients, no 3D shading, no drop shadows. The artwork must fill the whole 16:9 frame with no black bars. No invented text, no captions, no labels beyond exactly what this scene asks for.",
+      "ref": "none"
+    },
+    {
+      "file": "3_45.jpg",
+      "startSec": 225.28,
+      "text": "Lo que en el sector se llama tiempo medio de detección.",
+      "scene": "Medium shot: Sara pointing at a plain label reading exactly in Spanish 'TIEMPO DE DETECCION', explaining.",
+      "ref": "mono"
+    },
+    {
+      "file": "3_48.jpg",
+      "startSec": 228.46,
+      "text": "Mide cuánto tardaron en contenerla una vez detectada.",
+      "scene": "A stopwatch icon next to a fire-extinguisher icon, no characters, no text. ABSOLUTELY NO CHARACTERS IN THIS IMAGE: no monkey, no Sara, no animal, no person, no face, no hooded figure. Icons only. Flat solid colors with thick black ink outlines on pure white, no gradients, no 3D shading, no drop shadows. The artwork must fill the whole 16:9 frame with no black bars. No invented text, no captions, no labels beyond exactly what this scene asks for.",
+      "ref": "none"
+    },
+    {
+      "file": "3_51.jpg",
+      "startSec": 231.76,
+      "text": "Y mide qué alertas saltaron, cuáles nos saltaron y cuáles saltaron pero nadie miró.",
+      "scene": "Close-up: Sara counting three points on her fingers, serious.",
+      "ref": "mono"
+    },
+    {
+      "file": "3_56.jpg",
+      "startSec": 236.76,
+      "text": "Piénsalo como un simulacro de incendio.",
+      "scene": "Medium shot: Sara pointing up at a fire-alarm icon mounted on a wall, explaining.",
+      "ref": "mono"
+    },
+    {
+      "file": "3_59.jpg",
+      "startSec": 239.26,
+      "text": "Un simulacro de incendio no se hace para demostrar que el fuego quema.",
+      "scene": "A fire-drill sign icon beside a small flame icon, no characters, no text. ABSOLUTELY NO CHARACTERS IN THIS IMAGE: no monkey, no Sara, no animal, no person, no face, no hooded figure. Icons only. Flat solid colors with thick black ink outlines on pure white, no gradients, no 3D shading, no drop shadows. The artwork must fill the whole 16:9 frame with no black bars. No invented text, no captions, no labels beyond exactly what this scene asks for.",
+      "ref": "none"
+    },
+    {
+      "file": "4_02.jpg",
+      "startSec": 242.98,
+      "text": "Eso ya lo sabemos.",
+      "scene": "Close-up: Sara shrugging, stating the obvious, amused. The artwork must FILL THE ENTIRE 16:9 FRAME edge to edge on a pure white background — absolutely NO black bars, NO letterboxing, NO pillarboxing, no borders of any kind. Absolutely NO text, NO letters, NO words, NO caption, NO labels anywhere in the image.",
+      "ref": "mono"
+    },
+    {
+      "file": "4_04.jpg",
+      "startSec": 244.58,
+      "text": "Se hace para cronometrar cuánto tarda la gente en salir del edificio.",
+      "scene": "A stopwatch icon beside an exit-door sign icon, no characters, no text. ABSOLUTELY NO CHARACTERS IN THIS IMAGE: no monkey, no Sara, no animal, no person, no face, no hooded figure. Icons only. Flat solid colors with thick black ink outlines on pure white, no gradients, no 3D shading, no drop shadows. The artwork must fill the whole 16:9 frame with no black bars. No invented text, no captions, no labels beyond exactly what this scene asks for.",
+      "ref": "none"
+    },
+    {
+      "file": "4_08.jpg",
+      "startSec": 248.58,
+      "text": "El red team es exactamente eso pero con un atacante en vez de con humo.",
+      "scene": "Medium shot: The shadow-figure standing where a small smoke cloud icon would be, beside a silent alarm bell, silhouette only, glowing yellow eyes.",
+      "ref": "sombra"
+    },
+    {
+      "file": "4_12.jpg",
+      "startSec": 252.82,
+      "text": "Y si el red team entra hasta la cocina y nadie se entera en tres semanas,",
+      "scene": "Wide shot: The shadow-figure standing deep inside a building icon while every alarm-bell icon stays silent, silhouette only, glowing yellow eyes.",
+      "ref": "sombra"
+    },
+    {
+      "file": "4_16.jpg",
+      "startSec": 256.9,
+      "text": "el ejercicio ha sido un éxito rotundo.",
+      "scene": "A checkmark icon stamped onto a completely blank report page with no writing on it, no characters. ABSOLUTELY NO CHARACTERS IN THIS IMAGE: no monkey, no Sara, no animal, no person, no face, no hooded figure. Icons only. Flat solid colors with thick black ink outlines on pure white, no gradients, no 3D shading, no drop shadows. The artwork must fill the whole 16:9 frame with no black bars. No invented text, no captions, no labels beyond exactly what this scene asks for.",
+      "ref": "none"
+    },
+    {
+      "file": "4_19.jpg",
+      "startSec": 259.3,
+      "text": "Un éxito horrible para la empresa pero un éxito.",
+      "scene": "Close-up: Sara grimacing with an awkward expression, mouth in a simple closed wavy line, direct at camera. The mouth must be a single clean simple line, never a deformed shape, never a floating object.",
+      "ref": "mono"
+    },
+    {
+      "file": "4_22.jpg",
+      "startSec": 262.82,
+      "text": "Y al final de todo eso viene la parte que nadie enseña en los vídeos de hackers.",
+      "scene": "Close-up: Sara raising one finger, revealing the unglamorous part, serious.",
+      "ref": "mono"
+    },
+    {
+      "file": "4_27.jpg",
+      "startSec": 267.54,
+      "text": "El informe.",
+      "scene": "ONLY a single plain document icon on pure white and NOTHING ELSE WHATSOEVER. No monkey, no other icons, no charts, no extra words.",
+      "ref": "none"
+    },
+    {
+      "file": "4_28.jpg",
+      "startSec": 268.98,
+      "text": "Porque el entrecable de un red team no es la intrusión, es el documento.",
+      "scene": "Medium shot: Sara holding up a thick bound report with completely blank pages and no writing, matter-of-fact.",
+      "ref": "mono"
+    },
+    {
+      "file": "4_33.jpg",
+      "startSec": 273.56,
+      "text": "Un documento que explica la cadena entera, paso a paso, con evidencias de cada movimiento.",
+      "scene": "ONLY this and NOTHING ELSE WHATSOEVER: a single blank white document page with four short horizontal grey rectangle bars stacked vertically down the middle, representing steps, completely blank with NO numbers, NO numerals, NO letters, NO text of any kind on or near them. No monkey, no Sara, no person, no staircase, no black bars, flat solid colors on pure white with thick black outline.",
+      "ref": "none"
+    },
+    {
+      "file": "4_38.jpg",
+      "startSec": 278.78,
+      "text": "Que se hizo, cuándo se hizo, que lo detectó y que lo dejó pasar.",
+      "scene": "A timeline icon with marked points along it, some flagged and some crossed out, no characters, no text. ABSOLUTELY NO CHARACTERS IN THIS IMAGE: no monkey, no Sara, no animal, no person, no face, no hooded figure. Icons only. Flat solid colors with thick black ink outlines on pure white, no gradients, no 3D shading, no drop shadows. The artwork must fill the whole 16:9 frame with no black bars. No invented text, no captions, no labels beyond exactly what this scene asks for.",
+      "ref": "none"
+    },
+    {
+      "file": "4_43.jpg",
+      "startSec": 283.16,
+      "text": "Y escrito de forma que lo entienda a alguien de dirección que no sabe lo que es un directorio activo.",
+      "scene": "Close-up: Sara explaining with both hands open, patient, direct at camera.",
+      "ref": "mono"
+    },
+    {
+      "file": "4_48.jpg",
+      "startSec": 288.48,
+      "text": "Un red team que entra pero no sabe explicar cómo entró, no sirve para nada.",
+      "scene": "Close-up: The shadow-figure shrugging with empty hands beside a blank document icon, silhouette only, glowing yellow eyes.",
+      "ref": "sombra"
+    },
+    {
+      "file": "4_53.jpg",
+      "startSec": 293.3,
+      "text": "Porque la empresa no te paga por la azáña, te paga por poder arreglarlo después.",
+      "scene": "A coin icon resting on top of a repair-toolbox icon, no characters, no text. ABSOLUTELY NO CHARACTERS IN THIS IMAGE: no monkey, no Sara, no animal, no person, no face, no hooded figure. Icons only. Flat solid colors with thick black ink outlines on pure white, no gradients, no 3D shading, no drop shadows. The artwork must fill the whole 16:9 frame with no black bars. No invented text, no captions, no labels beyond exactly what this scene asks for.",
+      "ref": "none"
+    },
+    {
+      "file": "4_58.jpg",
+      "startSec": 298.32,
+      "text": "Vale y todo esto, cuánto se paga en España en 2026?",
+      "scene": "Close-up: Sara rubbing her fingers together in a money gesture, curious.",
+      "ref": "mono"
+    },
+    {
+      "file": "5_02.jpg",
+      "startSec": 302.4,
+      "text": "Un perfil junior, con menos de dos años, se mueve entre 24.000 y 35.000 euros brutos al año.",
+      "scene": "A coin medallion icon labeled exactly '24.000 € - 35.000 €' in bold letters, always the euro symbol, never a dollar sign, never the letter K, no characters. ABSOLUTELY NO CHARACTERS IN THIS IMAGE: no monkey, no Sara, no animal, no person, no face, no hooded figure. Icons only. Flat solid colors with thick black ink outlines on pure white, no gradients, no 3D shading, no drop shadows. The artwork must fill the whole 16:9 frame with no black bars. No invented text, no captions, no labels beyond exactly what this scene asks for.",
+      "ref": "none"
+    },
+    {
+      "file": "5_09.jpg",
+      "startSec": 309.28,
+      "text": "Un perfil medio, con 3 a 6 años, está entre 35.000 y 50.000.",
+      "scene": "A coin medallion icon labeled exactly '35.000 € - 50.000 €' in bold letters, always the euro symbol, never a dollar sign, never the letter K, no characters. ABSOLUTELY NO CHARACTERS IN THIS IMAGE: no monkey, no Sara, no animal, no person, no face, no hooded figure. Icons only. Flat solid colors with thick black ink outlines on pure white, no gradients, no 3D shading, no drop shadows. The artwork must fill the whole 16:9 frame with no black bars. No invented text, no captions, no labels beyond exactly what this scene asks for.",
+      "ref": "none"
+    },
+    {
+      "file": "5_14.jpg",
+      "startSec": 314.52,
+      "text": "Y un senior, o alguien ya metido en red team de verdad, va de 50.000 a 75.000 y por encima en algunos casos.",
+      "scene": "Medium shot: Sara holding up a large coin medallion labeled exactly '50.000 € - 75.000 €' in bold letters, euro symbol only, never a dollar sign, impressed expression.",
+      "ref": "mono"
+    },
+    {
+      "file": "5_22.jpg",
+      "startSec": 322.22,
+      "text": "Barcelona paga bastante por encima de la media nacional y en remoto para empresas extranjeras se paga más todavía.",
+      "scene": "A plain map outline of Spain with one city marker glowing brighter than the others, no characters, no text. ABSOLUTELY NO CHARACTERS IN THIS IMAGE: no monkey, no Sara, no animal, no person, no face, no hooded figure. Icons only. Flat solid colors with thick black ink outlines on pure white, no gradients, no 3D shading, no drop shadows. The artwork must fill the whole 16:9 frame with no black bars. No invented text, no captions, no labels beyond exactly what this scene asks for.",
+      "ref": "none"
+    },
+    {
+      "file": "5_28.jpg",
+      "startSec": 328.72,
+      "text": "Y ojo con un detalle porque se mezcla constantemente.",
+      "scene": "Close-up: Sara raising one finger in warning, serious.",
+      "ref": "mono"
+    },
+    {
+      "file": "5_32.jpg",
+      "startSec": 332.26,
+      "text": "Eso es sueldo de nómina, el book bounty, cazar fallos por recompensa, es otra cosa distinta y es ingreso variable.",
+      "scene": "A steady payslip icon beside a jagged fluctuating zig-zag line icon, no characters, no text. ABSOLUTELY NO CHARACTERS IN THIS IMAGE: no monkey, no Sara, no animal, no person, no face, no hooded figure. Icons only. Flat solid colors with thick black ink outlines on pure white, no gradients, no 3D shading, no drop shadows. The artwork must fill the whole 16:9 frame with no black bars. No invented text, no captions, no labels beyond exactly what this scene asks for.",
+      "ref": "none"
+    },
+    {
+      "file": "5_39.jpg",
+      "startSec": 339.84,
+      "text": "Hay gente que vive de ello, pero no es un sueldo, es una comisión sin garantía ninguna.",
+      "scene": "Close-up: Sara shaking her head, cautioning, direct at camera.",
+      "ref": "mono"
+    },
+    {
+      "file": "5_45.jpg",
+      "startSec": 345.24,
+      "text": "¿Y cómo se entra en esto?",
+      "scene": "Wide shot: Sara standing beside a large doorway icon with a question mark floating above it, curious.",
+      "ref": "mono"
+    },
+    {
+      "file": "5_47.jpg",
+      "startSec": 347.5,
+      "text": "Aquí viene la respuesta que a mucha gente le fastidia.",
+      "scene": "Close-up: Sara wincing slightly, delivering unwelcome news.",
+      "ref": "mono"
+    },
+    {
+      "file": "5_50.jpg",
+      "startSec": 350.44,
+      "text": "Casi nadie entra directamente en un red team.",
+      "scene": "A crossed-out arrow pointing straight at a target icon, no characters, no text. ABSOLUTELY NO CHARACTERS IN THIS IMAGE: no monkey, no Sara, no animal, no person, no face, no hooded figure. Icons only. Flat solid colors with thick black ink outlines on pure white, no gradients, no 3D shading, no drop shadows. The artwork must fill the whole 16:9 frame with no black bars. No invented text, no captions, no labels beyond exactly what this scene asks for.",
+      "ref": "none"
+    },
+    {
+      "file": "5_53.jpg",
+      "startSec": 353.46,
+      "text": "Se llega después desde otro sitio.",
+      "scene": "ONLY this and NOTHING ELSE WHATSOEVER: Sara the brown monkey, medium shot, pointing one hand at a small plain black staircase icon with an upward arrow floating beside her. NO shadow figure, NO second character, NO document, NO text, NO letters, NO words anywhere in the image, NO black bars. Pure white background, flat solid colors, thick black ink outline.",
+      "ref": "mono"
+    },
+    {
+      "file": "5_56.jpg",
+      "startSec": 356.06,
+      "text": "Desde Pentestin, desde Administración de Sistemas o desde el equipo Defensor, el Centro de Operaciones de Seguridad.",
+      "scene": "Three plain doorway icons in a row, each with a different simple symbol above it, no characters, no text. ABSOLUTELY NO CHARACTERS IN THIS IMAGE: no monkey, no Sara, no animal, no person, no face, no hooded figure. Icons only. Flat solid colors with thick black ink outlines on pure white, no gradients, no 3D shading, no drop shadows. The artwork must fill the whole 16:9 frame with no black bars. No invented text, no captions, no labels beyond exactly what this scene asks for.",
+      "ref": "none"
+    },
+    {
+      "file": "6_02.jpg",
+      "startSec": 362.96,
+      "text": "Y tiene todo el sentido del mundo porque para saber esconderte de un sistema de detección, primero tienes que haber trabajado con uno.",
+      "scene": "ONLY this and NOTHING ELSE WHATSOEVER: Sara the brown monkey, medium shot, pointing one hand toward a plain shield icon and gesturing her other hand toward a plain mask icon beside it. NO text, NO letters, NO words, NO labels anywhere in the image, NO black bars. Pure white background, flat solid colors, thick black ink outline.",
+      "ref": "mono"
+    },
+    {
+      "file": "6_10.jpg",
+      "startSec": 370.24,
+      "text": "Para evadir a un Defensor hay que entender cómo piensa el Defensor.",
+      "scene": "Close-up: The shadow-figure examining a shield icon closely, silhouette only, glowing yellow eyes.",
+      "ref": "sombra"
+    },
+    {
+      "file": "6_14.jpg",
+      "startSec": 374.42,
+      "text": "Por eso los mejores atacantes suelen venir de haber defendido antes.",
+      "scene": "Close-up: Sara nodding, confident, direct at camera.",
+      "ref": "mono"
+    },
+    {
+      "file": "6_18.jpg",
+      "startSec": 378.48,
+      "text": "Y la base técnica es casi siempre la misma, redes, sistemas operativos y sobre todo directorio activo,",
+      "scene": "Three stacked block icons labeled exactly in Spanish 'REDES', 'SISTEMAS' and 'DIRECTORIO ACTIVO', no characters. ABSOLUTELY NO CHARACTERS IN THIS IMAGE: no monkey, no Sara, no animal, no person, no face, no hooded figure. Icons only. Flat solid colors with thick black ink outlines on pure white, no gradients, no 3D shading, no drop shadows. The artwork must fill the whole 16:9 frame with no black bars. No invented text, no captions, no labels beyond exactly what this scene asks for.",
+      "ref": "none"
+    },
+    {
+      "file": "6_23.jpg",
+      "startSec": 383.96,
+      "text": "que es donde se juega la partida en la mayoría de empresas.",
+      "scene": "A chessboard icon with a single piece placed in the centre, no characters, no text. ABSOLUTELY NO CHARACTERS IN THIS IMAGE: no monkey, no Sara, no animal, no person, no face, no hooded figure. Icons only. Flat solid colors with thick black ink outlines on pure white, no gradients, no 3D shading, no drop shadows. The artwork must fill the whole 16:9 frame with no black bars. No invented text, no captions, no labels beyond exactly what this scene asks for.",
+      "ref": "none"
+    },
+    {
+      "file": "6_27.jpg",
+      "startSec": 387.4,
+      "text": "Este mismo fin de semana puedes montarte un laboratorio en casa con dos máquinas virtuales y un dominio de pruebas.",
+      "scene": "Wide shot: Sara sitting at a desk with two small computer icons connected by a cable, determined.",
+      "ref": "mono"
+    },
+    {
+      "file": "6_34.jpg",
+      "startSec": 394.04,
+      "text": "Gratis, legal y en tu propio ordenador.",
+      "scene": "A price-tag icon showing a zero with a small checkmark beside it, no characters, no other text. ABSOLUTELY NO CHARACTERS IN THIS IMAGE: no monkey, no Sara, no animal, no person, no face, no hooded figure. Icons only. Flat solid colors with thick black ink outlines on pure white, no gradients, no 3D shading, no drop shadows. The artwork must fill the whole 16:9 frame with no black bars. No invented text, no captions, no labels beyond exactly what this scene asks for.",
+      "ref": "none"
+    },
+    {
+      "file": "6_36.jpg",
+      "startSec": 396.96,
+      "text": "Y eso ya vale más en una entrevista que cualquier curso sin práctica detrás.",
+      "scene": "Close-up: Sara holding up a small blank project folder icon with no label on it, proud expression.",
+      "ref": "mono"
+    },
+    {
+      "file": "6_41.jpg",
+      "startSec": 401.58,
+      "text": "Así que la próxima vez que veas a alguien decir que en un red team se pasa el día hackeando,",
+      "scene": "Close-up: Sara rolling her eyes slightly, amused, direct at camera.",
+      "ref": "mono"
+    },
+    {
+      "file": "6_46.jpg",
+      "startSec": 406.28,
+      "text": "ya sabes que la mayor parte del trabajo es mirar sin tocar,",
+      "scene": "An eye icon beside a crossed-out reaching hand icon, no characters, no text. ABSOLUTELY NO CHARACTERS IN THIS IMAGE: no monkey, no Sara, no animal, no person, no face, no hooded figure. Icons only. Flat solid colors with thick black ink outlines on pure white, no gradients, no 3D shading, no drop shadows. The artwork must fill the whole 16:9 frame with no black bars. No invented text, no captions, no labels beyond exactly what this scene asks for.",
+      "ref": "none"
+    },
+    {
+      "file": "6_49.jpg",
+      "startSec": 409.12,
+      "text": "entrar sin que salte una alerta y escribir un informe que alguien de dirección pueda entender.",
+      "scene": "Medium shot: The shadow-figure slipping past a silent alarm bell while writing in a notebook icon, silhouette only, glowing yellow eyes.",
+      "ref": "sombra"
+    },
+    {
+      "file": "6_55.jpg",
+      "startSec": 415.08,
+      "text": "Y que el objetivo nunca fue demostrar que se puede entrar.",
+      "scene": "A crossed-out trophy icon, no characters, no text. ABSOLUTELY NO CHARACTERS IN THIS IMAGE: no monkey, no Sara, no animal, no person, no face, no hooded figure. Icons only. Flat solid colors with thick black ink outlines on pure white, no gradients, no 3D shading, no drop shadows. The artwork must fill the whole 16:9 frame with no black bars. No invented text, no captions, no labels beyond exactly what this scene asks for.",
+      "ref": "none"
+    },
+    {
+      "file": "6_58.jpg",
+      "startSec": 418.02,
+      "text": "El objetivo era cronometrar cuánto tardan en darse cuenta.",
+      "scene": "A large stopwatch icon with its hand frozen at a marked point, no characters, no text. ABSOLUTELY NO CHARACTERS IN THIS IMAGE: no monkey, no Sara, no animal, no person, no face, no hooded figure. Icons only. Flat solid colors with thick black ink outlines on pure white, no gradients, no 3D shading, no drop shadows. The artwork must fill the whole 16:9 frame with no black bars. No invented text, no captions, no labels beyond exactly what this scene asks for.",
+      "ref": "none"
+    },
+    {
+      "file": "7_02.jpg",
+      "startSec": 422.22,
+      "text": "Si te ha interesado esta serie sobre empleos reales en tecnología, suscríbete.",
+      "scene": "Medium shot: Sara smiling warmly at the camera holding a phone, a glowing bell icon beside it, and a small rectangular button reading exactly the Spanish word 'SUSCRIBETE' in bold letters — never the English word 'subscribe'.",
+      "ref": "mono"
+    },
+    {
+      "file": "7_06.jpg",
+      "startSec": 426.38,
+      "text": "Se viene más de este mundo.",
+      "scene": "Close-up: Sara waving goodbye with a warm smile, direct at camera.",
+      "ref": "mono"
+    }
+  ],
+  "style_base": "Crude hand-drawn cartoon, Ecomonos style, PURE WHITE background, thick black ink outlines, flat colors. A brown cartoon monkey protagonist named Sara, huge white round eyes with black pupils, exactly like the reference image, NO clothing of any kind, NEVER a human character. Exactly two arms and two hands per character. Any text that appears in the image must be in PERFECT SPANISH, never English, and only when the scene explicitly asks for specific words (generic technical words like PENTEST or RED TEAM are fine when the scene asks for them). Fill the whole frame, no black bars. CRITICAL: NEVER use any real brand name or logo (no GitHub logo, no cloud provider logos, no company logos of any kind) — use generic icons only. CRITICAL about the shadow figure: in this video it represents the red team operator working in stealth — its entire body and hood are always solid BLACK, never brown, white or gray, only two glowing YELLOW eyes visible, the hood interior is a flat solid black void, no visible mouth, nose, teeth or skin ever. Never place any character in a scene that says 'no characters' — treat that literally, icon-only, no monkey, no shadow figure, no people at all in those frames. Never add a speech bubble, caption or extra label unless the scene explicitly asks for one. Never depict a real named person — use generic outline icons instead."
+}

@@ -1,0 +1,496 @@
+{
+  "video": "chaval-lapsus",
+  "style_base": "Crude hand-drawn cartoon, Ecomonos style, PURE WHITE background, thick black ink outlines, flat colors. A brown cartoon monkey protagonist named Sara, huge white round eyes, exactly like the reference image, NO clothing of any kind, NEVER a human character. Exactly two arms and two hands per character. Any text that appears in the image must be in PERFECT SPANISH, never English, and only when the scene explicitly asks for specific words — double-check every accent mark. Fill the whole frame, no black bars. CRITICAL: NEVER draw a calendar, a torn-calendar page, or any day-counter with a number on it unless the scene explicitly asks for one. CRITICAL about the shadow figure representing the real-life hacker: this is a symbolic anonymous silhouette, NEVER a realistic depiction of a real person — its face must ALWAYS stay completely hidden inside a black hood silhouette, never draw visible skin, a nose, a mouth, teeth, or any facial features, and its entire body/hood is always solid BLACK, never brown, white or gray. Only two glowing YELLOW eyes are visible, nothing else. Never place two characters in a scene that says 'no characters' — treat that literally, icon-only, no monkey, no hacker, no people at all in those frames. Never add a speech bubble, caption, or extra label unless the scene explicitly asks for one.",
+  "frames": [
+    {
+      "file": "0_00.jpg",
+      "startSec": 0.0,
+      "text": "En 2022,",
+      "ref": "none",
+      "scene": "A simple hotel room icon with a laptop glowing on the bed, no characters."
+    },
+    {
+      "file": "0_01.jpg",
+      "startSec": 1.36,
+      "text": "un chaval de 17 años desde la habitación de un hotel en Inglaterra,",
+      "ref": "sombra",
+      "scene": "The shadow-hacker sitting cross-legged on a hotel bed with a laptop, silhouette only, glowing yellow eyes."
+    },
+    {
+      "file": "0_05.jpg",
+      "startSec": 5.04,
+      "text": "Hakeo Auber ha envidia y filtró el próximo gran Teft Auto antes de que nadie lo hubiera visto.",
+      "ref": "sombra",
+      "scene": "The shadow-hacker holding three glowing icons: a car icon, a computer-chip icon, and a game controller icon, silhouette only, glowing yellow eyes."
+    },
+    {
+      "file": "0_11.jpg",
+      "startSec": 11.64,
+      "text": "No tenía un equipo de hackers profesionales detrás,",
+      "ref": "none",
+      "scene": "A crossed-out briefcase icon with a red X, no characters, no text."
+    },
+    {
+      "file": "0_14.jpg",
+      "startSec": 14.64,
+      "text": "no tenía financiación de ningún gobierno.",
+      "ref": "none",
+      "scene": "A crossed-out flag-like silhouette shape with a red X over it, no characters, no text."
+    },
+    {
+      "file": "0_17.jpg",
+      "startSec": 17.24,
+      "text": "Tenía un portátil, una conexión a Internet y un grupo de adolescentes con el mismo objetivo que se hacían llamar Lapsus.",
+      "ref": "sombra",
+      "scene": "The shadow-hacker sitting with a laptop, surrounded by several smaller identical shadow silhouettes, glowing yellow eyes, group energy."
+    },
+    {
+      "file": "0_25.jpg",
+      "startSec": 25.0,
+      "text": "Esta es la historia de cómo un grupo sin estructura, sin dinero y sin experiencia profesional,",
+      "ref": "mono",
+      "scene": "Wide shot: Sara standing next to a tangled messy scribble icon representing chaos, curious, ready to explain."
+    },
+    {
+      "file": "0_30.jpg",
+      "startSec": 30.42,
+      "text": "humilló algunas de las empresas de tecnología más grandes del mundo.",
+      "ref": "mono",
+      "scene": "Close-up: Sara looking impressed, eyebrow raised, curious."
+    },
+    {
+      "file": "0_35.jpg",
+      "startSec": 35.18,
+      "text": "Lapsus apareció de la nada a finales de 2021.",
+      "ref": "none",
+      "scene": "A single door icon creaking open on its own, no characters, no text."
+    },
+    {
+      "file": "0_38.jpg",
+      "startSec": 38.66,
+      "text": "No era un grupo de cibercrime enorganizado al estilo tradicional con jerarquía y reparto de beneficios.",
+      "ref": "none",
+      "scene": "A crossed-out pyramid organization-chart icon, no characters, no text."
+    },
+    {
+      "file": "0_44.jpg",
+      "startSec": 44.06,
+      "text": "Era más parecido a un chat de adolescentes obsesionados con Hakear,",
+      "ref": "sombra",
+      "scene": "Several small shadow-hacker silhouettes gathered around a glowing chat-bubble icon, glowing yellow eyes, playful energy."
+    },
+    {
+      "file": "0_47.jpg",
+      "startSec": 47.76,
+      "text": "compitiendo entre ellos por ver quién conseguía el objetivo más grande.",
+      "ref": "sombra",
+      "scene": "Two shadow-hacker silhouettes racing toward a glowing trophy icon, glowing yellow eyes, competitive."
+    },
+    {
+      "file": "0_51.jpg",
+      "startSec": 51.76,
+      "text": "Y uno de los nombres que más se repetía dentro de ese grupo,",
+      "ref": "mono",
+      "scene": "Close-up: Sara leaning in, intrigued, about to reveal something important."
+    },
+    {
+      "file": "0_55.jpg",
+      "startSec": 55.46,
+      "text": "era el de un usuario conocido como White.",
+      "ref": "sombra",
+      "scene": "The shadow-hacker standing confidently, arms crossed, glowing yellow eyes, a small tag icon reading exactly 'WHITE' floating beside it."
+    },
+    {
+      "file": "0_59.jpg",
+      "startSec": 59.0,
+      "text": "Mises despuéses habría que detrás de ese nombre había un chaval de 17 años llamado Arian Courthag.",
+      "ref": "sombra",
+      "scene": "The shadow-hacker standing still, both black gloved hands pressed against the sides of its own black hood, glowing yellow eyes, mysterious. Entire body and hands are solid BLACK, this is NOT Sara the monkey, no brown skin visible anywhere."
+    },
+    {
+      "file": "1_05.jpg",
+      "startSec": 65.8,
+      "text": "La táctica de Lapsus no dependía de malgoer sofisticado ni de vulnerabilidades secretas de día cero.",
+      "ref": "none",
+      "scene": "A crossed-out complex padlock-and-gears icon, no characters, no text."
+    },
+    {
+      "file": "1_11.jpg",
+      "startSec": 71.76,
+      "text": "Dependía de algo mucho más simple y por eso mismo mucho más difícil de bloquear del todo,",
+      "ref": "mono",
+      "scene": "Close-up: Sara raising one finger, about to explain, curious."
+    },
+    {
+      "file": "1_17.jpg",
+      "startSec": 77.0,
+      "text": "la ingeniería social.",
+      "ref": "mono",
+      "scene": "Medium shot: Sara pointing at a glowing icon of two speech bubbles talking, explaining, serious."
+    },
+    {
+      "file": "1_19.jpg",
+      "startSec": 79.06,
+      "text": "Compraban credenciales robadas en foros,",
+      "ref": "none",
+      "scene": "A folder icon labeled exactly in Spanish 'CREDENCIALES' with a small coin icon beside it, no characters."
+    },
+    {
+      "file": "1_21.jpg",
+      "startSec": 81.72,
+      "text": "sobornábanos convencían a empleados internos y saturaban a base de intentos hasta que alguien picaba.",
+      "ref": "sombra",
+      "scene": "The shadow-hacker bombarding a phone icon with multiple glowing notification bubbles, silhouette only, glowing yellow eyes."
+    },
+    {
+      "file": "1_27.jpg",
+      "startSec": 87.88,
+      "text": "Uno de sus trucos favoritos era el llamado MFA Fatigue,",
+      "ref": "none",
+      "scene": "A phone screen icon showing a single notification bell ringing, no characters, no readable text."
+    },
+    {
+      "file": "1_31.jpg",
+      "startSec": 91.9,
+      "text": "bombardear a un empleado con notificaciones de verificación en dos pasos hasta que agotado pulsaba aceptarse en pensar.",
+      "ref": "sombra",
+      "scene": "The shadow-hacker sitting back, satisfied, surrounded by glowing notification bells, silhouette only, glowing yellow eyes."
+    },
+    {
+      "file": "1_39.jpg",
+      "startSec": 99.84,
+      "text": "La puerta de entrada no era un agujero técnico,",
+      "ref": "none",
+      "scene": "A single door icon with a simple keyhole, no characters, no text."
+    },
+    {
+      "file": "1_42.jpg",
+      "startSec": 102.6,
+      "text": "era el cansancio de una persona real a las tres de la madrugada.",
+      "ref": "mono",
+      "scene": "Close-up: Sara looking sympathetic, tired expression, direct at camera."
+    },
+    {
+      "file": "1_46.jpg",
+      "startSec": 106.78,
+      "text": "En febrero de 2022 le tocó el turno Nvidia,",
+      "ref": "none",
+      "scene": "A large computer-chip icon labeled exactly in Spanish 'NVIDIA', no characters."
+    },
+    {
+      "file": "1_50.jpg",
+      "startSec": 110.64,
+      "text": "uno de los fabricantes de chips más importantes del planeta.",
+      "ref": "none",
+      "scene": "A large chip icon with tiny detailed circuit lines, no characters, no text."
+    },
+    {
+      "file": "1_54.jpg",
+      "startSec": 114.54,
+      "text": "Lapsus rogó código fuente interno y credenciales de empleados y amenazó con publicarlo todo si Nvidia no cumplía sus exigencias.",
+      "ref": "sombra",
+      "scene": "The shadow-hacker holding a glowing folder icon labeled exactly in Spanish 'CODIGO FUENTE', silhouette only, glowing yellow eyes."
+    },
+    {
+      "file": "2_02.jpg",
+      "startSec": 122.3,
+      "text": "Entre esas exigencias había una particularmente extraña para un ataque de este tipo,",
+      "ref": "mono",
+      "scene": "Close-up: Sara raising an eyebrow, surprised, curious."
+    },
+    {
+      "file": "2_07.jpg",
+      "startSec": 127.08,
+      "text": "pedían que Nvidia quitar a los límites dominado de criptomonedas de sus tarjetas gráficas.",
+      "ref": "none",
+      "scene": "A graphics-card icon with a padlock breaking open on top of it, no characters, no text."
+    },
+    {
+      "file": "2_12.jpg",
+      "startSec": 132.5,
+      "text": "Nvidia se negó a pagar,",
+      "ref": "mono",
+      "scene": "Close-up: Sara shaking her head, disapproving, serious."
+    },
+    {
+      "file": "2_14.jpg",
+      "startSec": 134.38,
+      "text": "parte del código acabó filtrado igualmente.",
+      "ref": "none",
+      "scene": "A folder icon spilling glowing abstract code lines onto the floor, no characters, no readable text."
+    },
+    {
+      "file": "2_17.jpg",
+      "startSec": 137.34,
+      "text": "Ese mismo mes, el objetivo fue Uber.",
+      "ref": "none",
+      "scene": "A large building icon labeled exactly in Spanish 'UBER', no characters."
+    },
+    {
+      "file": "2_20.jpg",
+      "startSec": 140.6,
+      "text": "Un empleado de Uber recibió una lubión de solicitudes de doble factor de autenticación,",
+      "ref": "sombra",
+      "scene": "The shadow-hacker sending dozens of glowing notification icons toward a single phone icon, silhouette only, glowing yellow eyes."
+    },
+    {
+      "file": "2_25.jpg",
+      "startSec": 145.32,
+      "text": "una detrás de otra, sin parar.",
+      "ref": "none",
+      "scene": "A stack of identical notification bell icons piling up, no characters, no text."
+    },
+    {
+      "file": "2_27.jpg",
+      "startSec": 147.78,
+      "text": "Agotado terminó aceptando una de ellas,",
+      "ref": "mono",
+      "scene": "Close-up: Sara covering her eyes with both hands, exhausted expression."
+    },
+    {
+      "file": "2_30.jpg",
+      "startSec": 150.68,
+      "text": "con eso bastó para que el atacante entrara en la red interna de la empresa. Una vez dentro, accedió a sistemas internos, incluido el panel de Hacker One, la plataforma donde Uber gestiona los reportes de sus propios fallos de seguridad.",
+      "ref": "sombra",
+      "scene": "The shadow-hacker walking through an open door into a glowing network of screen icons, silhouette only, glowing yellow eyes."
+    },
+    {
+      "file": "2_44.jpg",
+      "startSec": 164.08,
+      "text": "El atacante, presentamente el mismo chaval de 17 años,",
+      "ref": "sombra",
+      "scene": "The shadow-hacker standing confidently in front of many small screen icons, glowing yellow eyes, satisfied."
+    },
+    {
+      "file": "2_48.jpg",
+      "startSec": 168.04,
+      "text": "publicó capturas de pantalla del interior de los sistemas de Uber directamente en canales públicos de Slack de la empresa.",
+      "ref": "none",
+      "scene": "A chat-app icon with several blank screenshot thumbnails posted inside it, no characters, no readable text."
+    },
+    {
+      "file": "2_55.jpg",
+      "startSec": 175.34,
+      "text": "Pero el golpe que más titulares generó fue otro muy distinto.",
+      "ref": "mono",
+      "scene": "Close-up: Sara looking surprised, eyebrow raised, curious."
+    },
+    {
+      "file": "2_59.jpg",
+      "startSec": 179.48,
+      "text": "Curtaj, desde una habitación de hotel en Oxfordshire, donde la policía lo había puesto bajo vigilancia tras una detención previa, volvió a conectarse Internet.",
+      "ref": "sombra",
+      "scene": "The shadow-hacker sitting with a laptop inside a small hotel-room icon, silhouette only, glowing yellow eyes, a tiny police-badge icon visible outside the window."
+    },
+    {
+      "file": "3_08.jpg",
+      "startSec": 188.96,
+      "text": "Considió acceso a los sistemas internos de Rockstar Games y filtro más de 90 vídeos de una versión temprana, sin terminar,",
+      "ref": "sombra",
+      "scene": "The shadow-hacker holding a folder icon labeled exactly in Spanish 'ROCKSTAR GAMES', silhouette only, glowing yellow eyes."
+    },
+    {
+      "file": "3_16.jpg",
+      "startSec": 196.38,
+      "text": "de Grand Theft Auto 6.",
+      "ref": "none",
+      "scene": "A stack of video-reel icons spilling out of a folder, no characters, no text."
+    },
+    {
+      "file": "3_18.jpg",
+      "startSec": 198.48,
+      "text": "Uno de los lanzamientos más esperados de la historia de los videojuegos,",
+      "ref": "none",
+      "scene": "A giant glowing game-controller icon with a spotlight on it, no characters, no text."
+    },
+    {
+      "file": "3_22.jpg",
+      "startSec": 202.1,
+      "text": "filtrado meses antes de cualquier anuncio oficial por un adolescente bajo supervisión policial.",
+      "ref": "mono",
+      "scene": "Close-up: Sara looking shocked, hand over her open mouth."
+    },
+    {
+      "file": "3_28.jpg",
+      "startSec": 208.3,
+      "text": "Exigió un rescate de 4 millones de dólares.",
+      "ref": "none",
+      "scene": "A single giant coin medallion with a dollar sign on it, no characters, no numbers."
+    },
+    {
+      "file": "3_31.jpg",
+      "startSec": 211.16,
+      "text": "Rockstar tampoco pagó.",
+      "ref": "mono",
+      "scene": "Close-up: Sara shrugging, unfazed, direct at camera."
+    },
+    {
+      "file": "3_33.jpg",
+      "startSec": 213.19,
+      "text": "Al final la policía británica identificó y de tubo a varios miembros del grupo,",
+      "ref": "none",
+      "scene": "A police-badge icon next to several small identical shadow-silhouette icons in a row, no readable text, no characters."
+    },
+    {
+      "file": "3_37.jpg",
+      "startSec": 217.32,
+      "text": "incluidos Curtaj y otro adolescente de 17 años.",
+      "ref": "sombra",
+      "scene": "Two shadow-hacker silhouettes standing side by side, glowing yellow eyes, both the same size."
+    },
+    {
+      "file": "3_41.jpg",
+      "startSec": 221.28,
+      "text": "En el juicio en 2023,",
+      "ref": "none",
+      "scene": "A courtroom gavel icon standing upright, no characters, no text."
+    },
+    {
+      "file": "3_43.jpg",
+      "startSec": 223.26,
+      "text": "un jurado los declaró responsables de varios de estos ataques.",
+      "ref": "none",
+      "scene": "A blank document icon stamped with a red word reading exactly 'CULPABLE', no other text, no characters."
+    },
+    {
+      "file": "3_47.jpg",
+      "startSec": 227.42,
+      "text": "Pero el caso de Curtaj tuvo un giro que pocos esperaban,",
+      "ref": "mono",
+      "scene": "Close-up: Sara looking surprised, eyebrow raised, curious."
+    },
+    {
+      "file": "3_50.jpg",
+      "startSec": 230.58,
+      "text": "fue diagnosticado con autismo severo y considerado no apto para ser juzgado de forma convencional.",
+      "ref": "none",
+      "scene": "A medical folder icon with a small heart-and-brain icon on it, no characters, no other text."
+    },
+    {
+      "file": "3_56.jpg",
+      "startSec": 236.4,
+      "text": "En lugar de una condena de prisión tradicional, un tribunal ordenó su ingreso indefinido en un hospital psiquiátrico de seguridad.",
+      "ref": "mono",
+      "scene": "Close-up: Sara looking somber, quiet expression."
+    },
+    {
+      "file": "4_03.jpg",
+      "startSec": 243.54,
+      "text": "Seguirá allí hasta que los médicos certificuen que ya no representa un riesgo sin fecha de salida fijada.",
+      "ref": "none",
+      "scene": "A single closed door icon with no exit sign, crossed out, no characters, no text."
+    },
+    {
+      "file": "4_10.jpg",
+      "startSec": 250.28,
+      "text": "Lo más inquietante de todo este caso,",
+      "ref": "mono",
+      "scene": "Close-up: Sara looking thoughtful, one eyebrow raised."
+    },
+    {
+      "file": "4_12.jpg",
+      "startSec": 252.5,
+      "text": "no es la sofisticación técnica porque apenas la hubo.",
+      "ref": "none",
+      "scene": "A crossed-out complex gear-and-code icon meaning low sophistication, no characters, no text."
+    },
+    {
+      "file": "4_15.jpg",
+      "startSec": 255.82,
+      "text": "Es justo lo contrario,",
+      "ref": "mono",
+      "scene": "Close-up: Sara shaking her head, correcting a misconception, serious."
+    },
+    {
+      "file": "4_17.jpg",
+      "startSec": 257.42,
+      "text": "lo poco que hacía falta para tumbar agigantes como Nvidia,",
+      "ref": "none",
+      "scene": "Two giant company-building icons wobbling off balance, no characters, no text."
+    },
+    {
+      "file": "4_20.jpg",
+      "startSec": 260.7,
+      "text": "Uber y Rockstar Games.",
+      "ref": "mono",
+      "scene": "Close-up: Sara counting on her fingers, third finger, explaining."
+    },
+    {
+      "file": "4_22.jpg",
+      "startSec": 262.96,
+      "text": "Ni exploit secretos, ni herramientas de un estado,",
+      "ref": "none",
+      "scene": "A crossed-out flag-like silhouette shape and a crossed-out magic-wand icon, no characters, no text."
+    },
+    {
+      "file": "4_26.jpg",
+      "startSec": 266.38,
+      "text": "solo constancia,",
+      "ref": "mono",
+      "scene": "Close-up: Sara nodding slowly, serious, direct at camera."
+    },
+    {
+      "file": "4_27.jpg",
+      "startSec": 267.66,
+      "text": "paciencia y la certeza de que tarde temprano alguien agotado iba a cometer un error.",
+      "ref": "mono",
+      "scene": "Wide shot: Sara standing next to a large hourglass icon, patient, waiting expression."
+    },
+    {
+      "file": "4_33.jpg",
+      "startSec": 273.92,
+      "text": "Las empresas más grandes del mundo no cayeron ante una super arma digital,",
+      "ref": "none",
+      "scene": "Giant building icons cracking apart, no characters, no text."
+    },
+    {
+      "file": "4_38.jpg",
+      "startSec": 278.4,
+      "text": "cayeron ante una del estente con Wi -Fi y mucho tiempo libre.",
+      "ref": "sombra",
+      "scene": "The shadow-hacker sitting casually with a laptop and a small wifi-signal icon glowing above, silhouette only, glowing yellow eyes, relaxed."
+    },
+    {
+      "file": "4_42.jpg",
+      "startSec": 282.92,
+      "text": "Y esa es probablemente la lección más incómoda de toda esta historia.",
+      "ref": "mono",
+      "scene": "Extreme close-up of Sara's face, serious, direct at camera, making an important point."
+    },
+    {
+      "file": "4_47.jpg",
+      "startSec": 287.74,
+      "text": "Así que la próxima vez que pienses que la ciberseguridad de una gran empresa es inquebrantable,",
+      "ref": "mono",
+      "scene": "Close-up: Sara raising one eyebrow, posing a question to the viewer."
+    },
+    {
+      "file": "4_53.jpg",
+      "startSec": 293.36,
+      "text": "recuerda que a veces todo lo que hace falta para entrar es cansar a la persona correcta en el momento correcto.",
+      "ref": "none",
+      "scene": "A single wifi-signal icon glowing next to a laptop icon, calm and quiet, no characters."
+    },
+    {
+      "file": "5_00.jpg",
+      "startSec": 300.62,
+      "text": "Si esta historia te ha dejado con la boca abierta,",
+      "ref": "mono",
+      "scene": "Close-up: Sara looking amazed, mouth open, direct at camera."
+    },
+    {
+      "file": "5_03.jpg",
+      "startSec": 303.42,
+      "text": "suscríbete,",
+      "ref": "mono",
+      "scene": "Medium shot: Sara smiling warmly at the camera holding a phone showing a glowing bell icon and the word 'SUSCRIBETE' in Spanish (never English, never the word Subscribe), a glowing bell icon beside it."
+    },
+    {
+      "file": "5_04.jpg",
+      "startSec": 304.34,
+      "text": "se viene más de este mundo.",
+      "ref": "mono",
+      "scene": "Medium shot: Sara waving goodbye happily at the camera, bright white background, warm close."
+    }
+  ]
+}

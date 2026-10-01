@@ -1,0 +1,13 @@
+{
+  "video": "wannacry-el-virus-que-tumbo-medio-mundo",
+  "steps": {
+    "voice": "done",
+    "whisper": "done",
+    "inject": "pending",
+    "images": "pending",
+    "sfx": "pending",
+    "validate": "pending",
+    "preflight": "pending",
+    "render": "pending"
+  }
+}

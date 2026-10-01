@@ -1,0 +1,13 @@
+{
+  "video": "agentes-openai-wiki-alemana",
+  "steps": {
+    "voice": "done",
+    "whisper": "done",
+    "inject": "done",
+    "images": "done",
+    "sfx": "done",
+    "validate": "done",
+    "preflight": "done",
+    "render": "done"
+  }
+}

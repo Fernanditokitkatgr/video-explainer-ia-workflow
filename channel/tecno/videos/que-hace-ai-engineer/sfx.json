@@ -1,0 +1,17 @@
+{
+  "sfx": [
+    { "file": "intro_curious.mp3", "startSec": 0.0, "duration": 1.4, "volume": 0.14, "prompt": "light curious playful chime, inquisitive and friendly, no music" },
+    { "file": "reveal_chime.mp3", "startSec": 53.56, "duration": 1.3, "volume": 0.16, "prompt": "short satisfying reveal chime, a piece clicking into place" },
+    { "file": "concept_ping.mp3", "startSec": 87.5, "duration": 1.2, "volume": 0.15, "prompt": "short technical notification ping, introducing a new concept, clean" },
+    { "file": "warning_sting.mp3", "startSec": 104.8, "duration": 1.3, "volume": 0.16, "prompt": "short tense warning sting, something could go wrong, cautionary" },
+    { "file": "agent_shift.mp3", "startSec": 165.16, "duration": 1.3, "volume": 0.15, "prompt": "short mechanical whirring shift, an autonomous action starting" },
+    { "file": "curious_twist.mp3", "startSec": 198.44, "duration": 1.4, "volume": 0.16, "prompt": "curious rising sting, short surprising reveal chime" },
+    { "file": "money_chime.mp3", "startSec": 261.66, "duration": 1.3, "volume": 0.17, "prompt": "short coin cash register chime, salary reveal, cheerful" },
+    { "file": "question_transition.mp3", "startSec": 301.74, "duration": 1.3, "volume": 0.14, "prompt": "light inquisitive transition tone, asking why now" },
+    { "file": "analytical_tone.mp3", "startSec": 355.6, "duration": 1.3, "volume": 0.15, "prompt": "focused analytical tone, careful measurement, precise and calm" },
+    { "file": "confident_swell.mp3", "startSec": 407.3, "duration": 1.4, "volume": 0.14, "prompt": "confident transition swell, a strong point being made" },
+    { "file": "closing_turn.mp3", "startSec": 442.26, "duration": 1.4, "volume": 0.14, "prompt": "warm closing transition swell, wrapping up an argument" },
+    { "file": "subscribe_chime.mp3", "startSec": 470.48, "duration": 1.2, "volume": 0.17, "prompt": "bright cheerful notification bell chime, friendly and short" }
+  ],
+  "music": { "file": "musica-canal.mp3", "duration": 30, "volume": 0.3, "prompt": "reused channel background music loop" }
+}

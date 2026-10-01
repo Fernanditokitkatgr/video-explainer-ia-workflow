@@ -1,0 +1,81 @@
+{
+  "video": "el-robo-del-banco-de-bangladesh",
+  "sfx": [
+    {
+      "file": "intro_tense.mp3",
+      "startSec": 0.0,
+      "duration": 1.8,
+      "volume": 0.14,
+      "prompt": "dark tense cinematic drone, unsettling reveal, no music"
+    },
+    {
+      "file": "stop_ding1.mp3",
+      "startSec": 32.2,
+      "duration": 1.0,
+      "volume": 0.15,
+      "prompt": "clean single stop marker ding one, no music"
+    },
+    {
+      "file": "menacing_low.mp3",
+      "startSec": 77.28,
+      "duration": 1.6,
+      "volume": 0.15,
+      "prompt": "a low ominous tone as a menacing event begins, no music"
+    },
+    {
+      "file": "stop_ding2.mp3",
+      "startSec": 120.36,
+      "duration": 1.0,
+      "volume": 0.15,
+      "prompt": "clean single stop marker ding two, no music"
+    },
+    {
+      "file": "reveal_dark.mp3",
+      "startSec": 153.08,
+      "duration": 1.8,
+      "volume": 0.16,
+      "prompt": "a dramatic reveal sting, important twist, no music"
+    },
+    {
+      "file": "stop_ding3.mp3",
+      "startSec": 201.2,
+      "duration": 1.0,
+      "volume": 0.15,
+      "prompt": "clean single stop marker ding three, no music"
+    },
+    {
+      "file": "serious_turn.mp3",
+      "startSec": 245.12,
+      "duration": 1.4,
+      "volume": 0.14,
+      "prompt": "a serious tone shift sting, no music"
+    },
+    {
+      "file": "question_sting.mp3",
+      "startSec": 278.0,
+      "duration": 1.2,
+      "volume": 0.15,
+      "prompt": "a curious question sting, intriguing, no music"
+    },
+    {
+      "file": "impact_thud.mp3",
+      "startSec": 309.28,
+      "duration": 1.4,
+      "volume": 0.16,
+      "prompt": "a solid impact thud, emphasis, no music"
+    },
+    {
+      "file": "subscribe_chime.mp3",
+      "startSec": 319.48,
+      "duration": 1.6,
+      "volume": 0.17,
+      "prompt": "warm friendly subscribe bell chime, positive, no music"
+    }
+  ],
+  "music": {
+    "file": "musica-canal.mp3",
+    "duration": 30,
+    "volume": 0.3,
+    "prompt": "light upbeat quirky cartoon background music loop, playful curious tone, no vocals"
+  }
+}

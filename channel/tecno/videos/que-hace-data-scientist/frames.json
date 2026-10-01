@@ -1,0 +1,363 @@
+{
+  "video": "que-hace-data-scientist",
+  "style_base": "Crude hand-drawn cartoon, Ecomonos style, PURE WHITE background, thick black ink outlines, flat colors. A brown cartoon monkey protagonist named Sara, huge white round eyes, exactly like the reference image, NO clothing of any kind, NEVER a human character. Exactly two arms and two hands per character. Any text that appears in the image must be in PERFECT SPANISH, never English, and only when the scene explicitly asks for specific words (except brand-neutral tool names like PYTHON/SQL which are generic language names, not company logos). Fill the whole frame, no black bars. CRITICAL: NEVER draw a calendar, a torn-calendar page, or any day-counter with a number on it unless the scene explicitly asks for one. Never place two characters in a scene that says 'no characters' — treat that literally, icon-only, no monkey, no people at all in those frames. Never add a speech bubble, caption, or extra label unless the scene explicitly asks for one.",
+  "frames": [
+    {
+      "file": "0_00.jpg",
+      "startSec": 0.0,
+      "text": "Si le preguntas a la mayoría de la gente que hace un data scientist,",
+      "ref": "mono",
+      "scene": "Close-up: Sara shrugging, curious."
+    },
+    {
+      "file": "0_03.jpg",
+      "startSec": 3.82,
+      "text": "te van a decir algo como «entrena inteligencia artificial es todo el día». Es mentira.",
+      "ref": "none",
+      "scene": "A speech-bubble icon with the words exactly in Spanish 'ENTRENA IA TODO EL DIA' crossed out with a red X, no characters."
+    },
+    {
+      "file": "0_09.jpg",
+      "startSec": 9.34,
+      "text": "O más bien,",
+      "ref": "mono",
+      "scene": "Close-up: Sara raising one eyebrow, amused."
+    },
+    {
+      "file": "0_10.jpg",
+      "startSec": 10.36,
+      "text": "es solo una parte muy pequeña de la verdad.",
+      "ref": "mono",
+      "scene": "Close-up: Sara holding up a tiny sliver of a pie-chart icon, curious."
+    },
+    {
+      "file": "0_12.jpg",
+      "startSec": 12.92,
+      "text": "Un data scientist se pasa la mayor parte de su tiempo haciendo algo mucho menos glamuroso,",
+      "ref": "none",
+      "scene": "A giant clock icon mostly colored in one dull shade, no characters, no dates."
+    },
+    {
+      "file": "0_18.jpg",
+      "startSec": 18.1,
+      "text": "limpiar datos sucios.",
+      "ref": "none",
+      "scene": "A messy pile of scattered document icons with smudge marks, no characters, no text."
+    },
+    {
+      "file": "0_20.jpg",
+      "startSec": 20.22,
+      "text": "Hoy te cuento qué hace de verdad, cuánto se gana en España y cómo se entra en esto sin morir en el intento.",
+      "ref": "mono",
+      "scene": "Wide shot: Sara standing next to a signpost with three icons, a coin, a graduation cap, and a gear, curious, ready to explain."
+    },
+    {
+      "file": "0_27.jpg",
+      "startSec": 27.06,
+      "text": "Empecemos por el mito.",
+      "ref": "mono",
+      "scene": "Close-up: Sara pointing at a plain crossed-out speech-bubble icon representing a busted myth. ABSOLUTELY NO brand logos, no company names, no crypto symbols, no lions, no wings, no real or fictional logos of any kind — the icon must be a completely plain generic shape with no text and no emblem."
+    },
+    {
+      "file": "0_28.jpg",
+      "startSec": 28.83,
+      "text": "La imagen típica es alguien delante de una pantalla llena de código entrenando redes neuronales gigantes.",
+      "ref": "none",
+      "scene": "A computer screen icon filled with abstract code lines and a glowing brain-circuit icon above it, no characters, no readable text."
+    },
+    {
+      "file": "0_35.jpg",
+      "startSec": 35.7,
+      "text": "La realidad,",
+      "ref": "mono",
+      "scene": "Close-up: Sara nodding, serious."
+    },
+    {
+      "file": "0_36.jpg",
+      "startSec": 36.76,
+      "text": "según encuestas del propio sector,",
+      "ref": "none",
+      "scene": "A magnifying glass over a small clipboard-survey icon, no characters, no text."
+    },
+    {
+      "file": "0_38.jpg",
+      "startSec": 38.78,
+      "text": "es que ese tipo de trabajo, entrenar modelos, ocupa una fracción pequeña del tiempo real.",
+      "ref": "none",
+      "scene": "A pie-chart icon with one tiny sliver highlighted, no characters, no text."
+    },
+    {
+      "file": "0_44.jpg",
+      "startSec": 44.62,
+      "text": "La mayor parte del día se va en algo mucho más aburrido y mucho más importante,",
+      "ref": "mono",
+      "scene": "Close-up: Sara looking unimpressed, matter-of-fact expression."
+    },
+    {
+      "file": "0_49.jpg",
+      "startSec": 49.42,
+      "text": "encontrar los datos,",
+      "ref": "none",
+      "scene": "A magnifying glass hovering over scattered data-point icons, no characters, no text."
+    },
+    {
+      "file": "0_50.jpg",
+      "startSec": 50.84,
+      "text": "limpiarlos y entenderlos antes de tocar ningún modelo.",
+      "ref": "none",
+      "scene": "A messy pile of document icons transforming into a neat stack, no characters, no text."
+    },
+    {
+      "file": "0_54.jpg",
+      "startSec": 54.74,
+      "text": "Si los datos de entrada están mal,",
+      "ref": "mono",
+      "scene": "Close-up: Sara looking worried, serious."
+    },
+    {
+      "file": "0_56.jpg",
+      "startSec": 56.66,
+      "text": "no importa lo bueno que sea el modelo, la respuesta va a estar mal igual.",
+      "ref": "none",
+      "scene": "A broken gear icon connected to a warning triangle, no characters."
+    },
+    {
+      "file": "1_01.jpg",
+      "startSec": 61.06,
+      "text": "Vamos con un ejemplo real y muy típico,",
+      "ref": "mono",
+      "scene": "Medium shot: Sara leaning toward the camera, about to give a concrete example, curious."
+    },
+    {
+      "file": "1_03.jpg",
+      "startSec": 63.6,
+      "text": "una empresa de suscripción que quiere saber qué clientes van a darse de baja el mes que viene.",
+      "ref": "none",
+      "scene": "A folder icon labeled exactly in Spanish 'EMPRESA DE SUSCRIPCION', no characters."
+    },
+    {
+      "file": "1_08.jpg",
+      "startSec": 68.7,
+      "text": "El data scientist no empieza programando, empieza haciendo una pregunta de negocio muy concreta,",
+      "ref": "mono",
+      "scene": "Close-up: Sara holding a question-mark icon, curious, thinking."
+    },
+    {
+      "file": "1_14.jpg",
+      "startSec": 74.68,
+      "text": "¿qué comportamiento antes de irse tienen los clientes que se acaban dando de baja?",
+      "ref": "none",
+      "scene": "A simple generic outline icon of a person walking out of a door, icon only, not Sara or the shadow figure, no other characters."
+    },
+    {
+      "file": "1_20.jpg",
+      "startSec": 80.24,
+      "text": "Después va a buscar esos datos en bases de datos internas, en registros de uso,",
+      "ref": "mono",
+      "scene": "Close-up: Sara looking at a database icon, curious."
+    },
+    {
+      "file": "1_25.jpg",
+      "startSec": 85.36,
+      "text": "a veces en hojas de cálculos sueltas que nadie ha limpiado en meses.",
+      "ref": "none",
+      "scene": "A messy spreadsheet icon with scribbled cells, no characters, no readable text."
+    },
+    {
+      "file": "1_29.jpg",
+      "startSec": 89.2,
+      "text": "Esa parte, juntar y limpiar datos de fuentes distintas que no hablan el mismo idioma entre ellas es la que de verdad ocupa la mayoría de las horas.",
+      "ref": "mono",
+      "scene": "Close-up: Sara wiping her brow, tired expression, direct at camera."
+    },
+    {
+      "file": "1_38.jpg",
+      "startSec": 98.06,
+      "text": "Solo cuando los datos están limpios, entra la parte que todo el mundo imagina, construir un modelo que prediga quién se va a ir, usando herramientas como Python y librerías como Scikit -Learn.",
+      "ref": "none",
+      "scene": "A glowing gear-brain icon labeled exactly in Spanish 'MODELO', no characters."
+    },
+    {
+      "file": "1_49.jpg",
+      "startSec": 109.78,
+      "text": "Y aquí viene algo que casi nadie cuenta,",
+      "ref": "mono",
+      "scene": "Close-up: Sara raising one finger, about to reveal something important."
+    },
+    {
+      "file": "1_52.jpg",
+      "startSec": 112.5,
+      "text": "el modelo no es el final del trabajo, es solo la mitad.",
+      "ref": "none",
+      "scene": "A puzzle icon with one half glowing and the other half dim, no characters."
+    },
+    {
+      "file": "1_56.jpg",
+      "startSec": 116.42,
+      "text": "La otra mitad es explicarle a alguien de marketing o de dirección que no sabe programar porque el modelo dice lo que dice y que se puede hacer con eso.",
+      "ref": "none",
+      "scene": "A speech-bubble icon connecting a brain-circuit icon to a simple briefcase icon, no characters, no text."
+    },
+    {
+      "file": "2_05.jpg",
+      "startSec": 125.46,
+      "text": "Un data scientist que no sabe comunicar sus resultados agentes no técnica por muy bueno que sea programando, no está haciendo bien la mitad del trabajo. Es, literalmente,",
+      "ref": "mono",
+      "scene": "Close-up: Sara explaining with both hands open, serious."
+    },
+    {
+      "file": "2_15.jpg",
+      "startSec": 135.84,
+      "text": "un puente entre los datos en Bruto y una decisión de negocio real.",
+      "ref": "none",
+      "scene": "A bridge-shaped icon connecting two platforms, no characters."
+    },
+    {
+      "file": "2_20.jpg",
+      "startSec": 140.52,
+      "text": "Vale, y todo esto,",
+      "ref": "mono",
+      "scene": "Close-up: Sara shrugging, curious about numbers."
+    },
+    {
+      "file": "2_22.jpg",
+      "startSec": 142.28,
+      "text": "cuánto se paga en España en 2016.",
+      "ref": "none",
+      "scene": "A giant coin-medallion icon with a small simple map outline of Spain beside it, no characters, no numbers."
+    },
+    {
+      "file": "2_25.jpg",
+      "startSec": 145.7,
+      "text": "Un perfil junior con 0 a 2 años de experiencia se mueve entre 35 .000 y 45 .000 euros grutos al año.",
+      "ref": "mono",
+      "scene": "Close-up: Sara holding up a coin medallion labeled exactly '35.000 € - 45.000 €' in bold letters, curious. Always the euro symbol '€', never a dollar sign, never English abbreviations like 'K' for thousands — write the full numbers with a period as thousands separator, exactly as shown."
+    },
+    {
+      "file": "2_33.jpg",
+      "startSec": 153.76,
+      "text": "Un perfil senior puede llegar a 60 .000, 85 .000 con picos por encima de 90 .000 en puestos de liderazgo de equipo.",
+      "ref": "none",
+      "scene": "A giant numeral '85.000' next to a small crown icon representing leadership, no characters."
+    },
+    {
+      "file": "2_42.jpg",
+      "startSec": 162.18,
+      "text": "La diferencia entre esos dos números no es solo experiencia,",
+      "ref": "mono",
+      "scene": "Close-up: Sara looking thoughtful, direct at camera."
+    },
+    {
+      "file": "2_46.jpg",
+      "startSec": 166.14,
+      "text": "es sobre todo la capacidad de conectar un modelo técnico con un resultado de negocio real.",
+      "ref": "none",
+      "scene": "A bridge icon connecting a gear icon and a briefcase icon, no characters."
+    },
+    {
+      "file": "2_51.jpg",
+      "startSec": 171.66,
+      "text": "Y cómo se entra en esto sin una carrera específica de ciencia de datos?",
+      "ref": "mono",
+      "scene": "Close-up: Sara raising an eyebrow, posing a question to the viewer."
+    },
+    {
+      "file": "2_56.jpg",
+      "startSec": 176.4,
+      "text": "La ruta más habitual hoy en día empieza con Python y SQL,",
+      "ref": "none",
+      "scene": "Two icons side by side, one labeled exactly 'PYTHON' and one labeled exactly 'SQL', no characters."
+    },
+    {
+      "file": "3_00.jpg",
+      "startSec": 180.54,
+      "text": "las dos herramientas base que aparecen en prácticamente cualquier oferta del sector.",
+      "ref": "none",
+      "scene": "A toolbox icon open with a few simple tool icons inside, no characters, no text."
+    },
+    {
+      "file": "3_05.jpg",
+      "startSec": 185.72,
+      "text": "Después,",
+      "ref": "mono",
+      "scene": "Close-up: Sara nodding, confident."
+    },
+    {
+      "file": "3_06.jpg",
+      "startSec": 186.44,
+      "text": "un proyecto propio y pequeño, algo tan simple como analizar datos abiertos de alquileres de una ciudad y encontrar qué variables explican mejor el precio.",
+      "ref": "none",
+      "scene": "A small house-building icon with a coin symbol and a simple bar-chart icon beside it, no characters, no text."
+    },
+    {
+      "file": "3_15.jpg",
+      "startSec": 195.66,
+      "text": "Es ese tipo de proyecto, hecho de principio a fin,",
+      "ref": "mono",
+      "scene": "Close-up: Sara holding a small project-folder icon, proud expression."
+    },
+    {
+      "file": "3_18.jpg",
+      "startSec": 198.66,
+      "text": "vale más en una entrevista que un título sin nada que enseñar detrás.",
+      "ref": "none",
+      "scene": "A graduation-cap icon crossed out next to a glowing folder icon, no characters."
+    },
+    {
+      "file": "3_23.jpg",
+      "startSec": 203.06,
+      "text": "Este mismo fin de semana podría escoger un dataset público, gratis y hacer tu primera versión de algo así.",
+      "ref": "mono",
+      "scene": "Wide shot: Sara sitting at a desk with a laptop icon, determined expression, ready to start."
+    },
+    {
+      "file": "3_29.jpg",
+      "startSec": 209.9,
+      "text": "Así que la próxima vez que alguien te diga que ser Data Scientist es hablar conías todo el día,",
+      "ref": "mono",
+      "scene": "Close-up: Sara shaking her head, amused, direct at camera."
+    },
+    {
+      "file": "3_35.jpg",
+      "startSec": 215.88,
+      "text": "ya sabes que la realidad es mucho más parecida a ser detective de datos sucios que hacer mago de la inteligencia artificial.",
+      "ref": "none",
+      "scene": "A magnifying glass over a messy document icon, no characters."
+    },
+    {
+      "file": "3_43.jpg",
+      "startSec": 223.68,
+      "text": "Y esa parte aburrida, la del impiar y entender los datos,",
+      "ref": "mono",
+      "scene": "Close-up: Sara nodding, satisfied, watching the mess become organized."
+    },
+    {
+      "file": "3_47.jpg",
+      "startSec": 227.14,
+      "text": "es exactamente la que más se paga cuando se hace bien.",
+      "ref": "none",
+      "scene": "A messy document icon slowly becoming clean and organized, no characters, no text."
+    },
+    {
+      "file": "3_51.jpg",
+      "startSec": 231.02,
+      "text": "Si te ha interesado esta serie sobre empleo reales en tecnología,",
+      "ref": "none",
+      "scene": "A giant coin-medallion icon glowing brightly, no characters, no numbers."
+    },
+    {
+      "file": "3_54.jpg",
+      "startSec": 234.52,
+      "text": "suscríbete,",
+      "ref": "mono",
+      "scene": "Close-up: Sara smiling, warm expression."
+    },
+    {
+      "file": "3_55.jpg",
+      "startSec": 235.4,
+      "text": "se viene más de este mundo.",
+      "ref": "mono",
+      "scene": "Medium shot: Sara smiling warmly at the camera holding a phone, a glowing bell/subscribe icon beside it."
+    }
+  ]
+}

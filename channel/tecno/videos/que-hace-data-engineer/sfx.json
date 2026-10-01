@@ -1,0 +1,17 @@
+{
+  "sfx": [
+    { "file": "intro_curious.mp3", "startSec": 0.0, "duration": 1.4, "volume": 0.14, "prompt": "light curious playful chime, inquisitive and friendly, no music" },
+    { "file": "pipeline_build.mp3", "startSec": 87.76, "duration": 1.3, "volume": 0.15, "prompt": "mechanical whirring construction sound, pipes clicking together, short and clean" },
+    { "file": "etl_stamp.mp3", "startSec": 101.72, "duration": 1.1, "volume": 0.15, "prompt": "short mechanical stamp click, a process step locking into place, precise" },
+    { "file": "pipelines_break.mp3", "startSec": 117.6, "duration": 1.3, "volume": 0.17, "prompt": "short digital glitch crack, something breaking, tense electronic stutter" },
+    { "file": "alert_ping.mp3", "startSec": 147.92, "duration": 1.2, "volume": 0.16, "prompt": "short alert notification ping, monitoring system warning, clean and urgent" },
+    { "file": "fail_loud.mp3", "startSec": 178.26, "duration": 1.3, "volume": 0.16, "prompt": "assertive short alarm buzz, a system stopping itself loudly, decisive" },
+    { "file": "twist_reveal.mp3", "startSec": 202.28, "duration": 1.4, "volume": 0.16, "prompt": "curious rising sting, short surprising reveal chime" },
+    { "file": "money_chime.mp3", "startSec": 217.08, "duration": 1.3, "volume": 0.17, "prompt": "short coin cash register chime, salary reveal, cheerful" },
+    { "file": "salary_reveal.mp3", "startSec": 248.0, "duration": 1.3, "volume": 0.17, "prompt": "bright coin stack chime, a number appearing, satisfying and short" },
+    { "file": "question_path.mp3", "startSec": 279.52, "duration": 1.3, "volume": 0.14, "prompt": "light inquisitive transition tone, asking how to get somewhere" },
+    { "file": "closing_turn.mp3", "startSec": 367.22, "duration": 1.4, "volume": 0.14, "prompt": "warm closing transition swell, wrapping up an argument" },
+    { "file": "subscribe_chime.mp3", "startSec": 384.24, "duration": 1.2, "volume": 0.17, "prompt": "bright cheerful notification bell chime, friendly and short" }
+  ],
+  "music": { "file": "musica-canal.mp3", "duration": 30, "volume": 0.3, "prompt": "reused channel background music loop" }
+}

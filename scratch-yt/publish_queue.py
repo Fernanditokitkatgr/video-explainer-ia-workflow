@@ -35,11 +35,18 @@ def save_queue(queue: list[dict]) -> None:
 
 
 def next_slot(queue: list[dict]) -> datetime:
-    """Próximo día (a partir de mañana) sin ningún slot 'scheduled' ya ocupado, a las 19:00 Madrid."""
+    """Próximo día (a partir de mañana) sin ningún slot ya ocupado, a las 19:00 Madrid.
+
+    Bug real (sept-2026): antes solo miraba status == 'scheduled', así que en cuanto un
+    vídeo se marcaba 'published' (mark-published, tras confirmar que YouTube ya lo soltó
+    o que el hueco quedó reservado) su día se consideraba libre otra vez y el siguiente
+    'reserve' chocaba en el mismo día — dos vídeos programados a la vez 19:00 Madrid.
+    'published' ocupa su día tanto como 'scheduled': solo 'cancelled' libera un hueco.
+    """
     taken_dates = {
         datetime.fromisoformat(e["scheduled_at_utc"].replace("Z", "+00:00")).astimezone(TZ).date()
         for e in queue
-        if e.get("status") == "scheduled"
+        if e.get("status") in ("scheduled", "published")
     }
     day = datetime.now(TZ).date() + timedelta(days=1)
     while day in taken_dates:

@@ -1,0 +1,777 @@
+[
+  {
+    "file": "0_00.jpg",
+    "startSec": 0.0,
+    "text": "viernes por la mañana,"
+  },
+  {
+    "file": "0_01.jpg",
+    "startSec": 1.34,
+    "text": "un hospital de Londres,"
+  },
+  {
+    "file": "0_02.jpg",
+    "startSec": 2.78,
+    "text": "las pantallas de los ordenadores se vuelven rojas de golpe."
+  },
+  {
+    "file": "0_05.jpg",
+    "startSec": 5.98,
+    "text": "Un mensaje dice que todos los archivos están bloqueados,"
+  },
+  {
+    "file": "0_09.jpg",
+    "startSec": 9.48,
+    "text": "y que para recuperarlos hay que pagar."
+  },
+  {
+    "file": "0_12.jpg",
+    "startSec": 12.16,
+    "text": "En pocas horas pasa lo mismo en fábricas de coches,"
+  },
+  {
+    "file": "0_14.jpg",
+    "startSec": 14.82,
+    "text": "en estaciones de tren,"
+  },
+  {
+    "file": "0_16.jpg",
+    "startSec": 16.14,
+    "text": "en grandes empresas de España,"
+  },
+  {
+    "file": "0_18.jpg",
+    "startSec": 18.24,
+    "text": "más de 200 .000 ordenadores en unos 150 países,"
+  },
+  {
+    "file": "0_22.jpg",
+    "startSec": 22.14,
+    "text": "en un solo fin de semana."
+  },
+  {
+    "file": "0_24.jpg",
+    "startSec": 24.12,
+    "text": "Y lo más loco es que todo eso se podía haber evitado con un botón que casi todo el mundo ignora."
+  },
+  {
+    "file": "0_29.jpg",
+    "startSec": 29.66,
+    "text": "El parche ya existía."
+  },
+  {
+    "file": "0_32.jpg",
+    "startSec": 32.02,
+    "text": "Y al final a este monstruo, lo frenó un chaval de 22 años,"
+  },
+  {
+    "file": "0_36.jpg",
+    "startSec": 36.0,
+    "text": "con unos 10 dólares."
+  },
+  {
+    "file": "0_38.jpg",
+    "startSec": 38.08,
+    "text": "Hoy vas a ver qué fue Guanacrae, cómo funcionaba,"
+  },
+  {
+    "file": "0_41.jpg",
+    "startSec": 41.12,
+    "text": "y qué tiene que ver contigo."
+  },
+  {
+    "file": "0_43.jpg",
+    "startSec": 43.0,
+    "text": "Empecemos por el nombre,"
+  },
+  {
+    "file": "0_44.jpg",
+    "startSec": 44.46,
+    "text": "Guanacrae es un ransomware."
+  },
+  {
+    "file": "0_46.jpg",
+    "startSec": 46.32,
+    "text": "Un ransomware es un programa que se cuestra a tus archivos."
+  },
+  {
+    "file": "0_49.jpg",
+    "startSec": 49.64,
+    "text": "No los roba, no los borra,"
+  },
+  {
+    "file": "0_51.jpg",
+    "startSec": 51.56,
+    "text": "los cifra."
+  },
+  {
+    "file": "0_52.jpg",
+    "startSec": 52.96,
+    "text": "Cifrar es convertir tus fotos y tus documentos en un revoltijo que no se puede leer."
+  },
+  {
+    "file": "0_57.jpg",
+    "startSec": 57.78,
+    "text": "Para devolverlos a la normalidad hace falta una llave, una clave secreta."
+  },
+  {
+    "file": "1_02.jpg",
+    "startSec": 62.08,
+    "text": "Y esa llave solo la tienen los atacantes."
+  },
+  {
+    "file": "1_04.jpg",
+    "startSec": 64.76,
+    "text": "Es como si alguien entrar a en tu casa y cambiar a la cerradura de todos los armarios."
+  },
+  {
+    "file": "1_09.jpg",
+    "startSec": 69.16,
+    "text": "Tus cosas siguen ahí,"
+  },
+  {
+    "file": "1_10.jpg",
+    "startSec": 70.64,
+    "text": "las ves a través del cristal, pero no puedes abrir nada."
+  },
+  {
+    "file": "1_14.jpg",
+    "startSec": 74.06,
+    "text": "Y en la puerta te deja una nota,"
+  },
+  {
+    "file": "1_15.jpg",
+    "startSec": 75.84,
+    "text": "si quieres la llave,"
+  },
+  {
+    "file": "1_17.jpg",
+    "startSec": 77.0,
+    "text": "paga."
+  },
+  {
+    "file": "1_17.jpg",
+    "startSec": 77.88,
+    "text": "Eso es un ransomware, un secuestro digital."
+  },
+  {
+    "file": "1_21.jpg",
+    "startSec": 81.06,
+    "text": "La nota de Guanacrae era muy clara."
+  },
+  {
+    "file": "1_23.jpg",
+    "startSec": 83.08,
+    "text": "Pedía unos 300 dólares y los quería en Bitcoin."
+  },
+  {
+    "file": "1_26.jpg",
+    "startSec": 86.7,
+    "text": "¿Por qué Bitcoin?"
+  },
+  {
+    "file": "1_28.jpg",
+    "startSec": 88.1,
+    "text": "¿Por qué es dinero digital que se puede mover sin pasar por un banco?"
+  },
+  {
+    "file": "1_31.jpg",
+    "startSec": 91.62,
+    "text": "Y eso hace mucho más difícil seguir la pista de quién lo cobra."
+  },
+  {
+    "file": "1_35.jpg",
+    "startSec": 95.42,
+    "text": "Además había una cuenta atrás en la pantalla."
+  },
+  {
+    "file": "1_37.jpg",
+    "startSec": 97.88,
+    "text": "Si no pagabas en tres días, el precio subía 600 dólares."
+  },
+  {
+    "file": "1_41.jpg",
+    "startSec": 101.84,
+    "text": "Y si pasaba una semana, la amenaza era que tus archivos se perderían para siempre."
+  },
+  {
+    "file": "1_46.jpg",
+    "startSec": 106.42,
+    "text": "Hasta aquí es un ransomware bastante normal."
+  },
+  {
+    "file": "1_48.jpg",
+    "startSec": 108.9,
+    "text": "Había muchos antes que él."
+  },
+  {
+    "file": "1_50.jpg",
+    "startSec": 110.74,
+    "text": "Pero Guanacrae tenía algo que lo hacían muchísimo más peligroso."
+  },
+  {
+    "file": "1_54.jpg",
+    "startSec": 114.82,
+    "text": "No necesitaba que nadie hiciera click en nada."
+  },
+  {
+    "file": "1_57.jpg",
+    "startSec": 117.68,
+    "text": "La mayoría de virus necesitan tu ayuda,"
+  },
+  {
+    "file": "2_00.jpg",
+    "startSec": 120.14,
+    "text": "abres un archivo raro, pinchas en un enlace y entran."
+  },
+  {
+    "file": "2_03.jpg",
+    "startSec": 123.8,
+    "text": "Guanacrae era un gusano,"
+  },
+  {
+    "file": "2_05.jpg",
+    "startSec": 125.58,
+    "text": "saltaba solo de un ordenador a otro."
+  },
+  {
+    "file": "2_07.jpg",
+    "startSec": 127.76,
+    "text": "En cuanto infectaba un equipo, se ponía a buscar otros ordenadores cercanos en la misma red."
+  },
+  {
+    "file": "2_12.jpg",
+    "startSec": 132.72,
+    "text": "Y también probaba con ordenadores al azar de todo Internet."
+  },
+  {
+    "file": "2_16.jpg",
+    "startSec": 136.16,
+    "text": "Si encontraba un ogulnerable, se colaba dentro."
+  },
+  {
+    "file": "2_19.jpg",
+    "startSec": 139.02,
+    "text": "Y ese nuevo equipo empezaba a buscar otros."
+  },
+  {
+    "file": "2_21.jpg",
+    "startSec": 141.84,
+    "text": "Uno infecta a dos."
+  },
+  {
+    "file": "2_23.jpg",
+    "startSec": 143.22,
+    "text": "Dos infectan a cuatro."
+  },
+  {
+    "file": "2_24.jpg",
+    "startSec": 144.76,
+    "text": "Cuatro infectan a ocho."
+  },
+  {
+    "file": "2_26.jpg",
+    "startSec": 146.58,
+    "text": "Por eso, en una oficina bastaba un solo ordenador para que cayera la planta entera."
+  },
+  {
+    "file": "2_31.jpg",
+    "startSec": 151.28,
+    "text": "Y cómo conseguía colarse sin que nadie hiciera nada?"
+  },
+  {
+    "file": "2_34.jpg",
+    "startSec": 154.48,
+    "text": "Por una puerta trasera de Windows."
+  },
+  {
+    "file": "2_36.jpg",
+    "startSec": 156.68,
+    "text": "Windows tiene un sistema para compartir archivos e impresoras entre ordenadores de una misma red."
+  },
+  {
+    "file": "2_41.jpg",
+    "startSec": 161.72,
+    "text": "Es como una puerta de servicio que usan los equipos para hablar entre ellos."
+  },
+  {
+    "file": "2_45.jpg",
+    "startSec": 165.86,
+    "text": "Y esa puerta tenía un fallo, con un mensaje preparado de una forma muy concreta alguien de fuera podía entrar."
+  },
+  {
+    "file": "2_52.jpg",
+    "startSec": 172.44,
+    "text": "Ese fallo tenía nombre,"
+  },
+  {
+    "file": "2_54.jpg",
+    "startSec": 174.02,
+    "text": "lo llamaban Eternal Blue."
+  },
+  {
+    "file": "2_56.jpg",
+    "startSec": 176.04,
+    "text": "Y aquí la historia se pone todavía más rara."
+  },
+  {
+    "file": "2_58.jpg",
+    "startSec": 178.98,
+    "text": "Eternal Blue no lo inventaron unos delincuentes."
+  },
+  {
+    "file": "3_01.jpg",
+    "startSec": 181.72,
+    "text": "Lo había desarrollado la NSA,"
+  },
+  {
+    "file": "3_03.jpg",
+    "startSec": 183.98,
+    "text": "la agencia de espionaje de Estados Unidos."
+  },
+  {
+    "file": "3_06.jpg",
+    "startSec": 186.88,
+    "text": "La NSA guardaba fallos como este en secreto, como herramientas para espiar."
+  },
+  {
+    "file": "3_11.jpg",
+    "startSec": 191.64,
+    "text": "Pero en 2017 un grupo que se hacía llamar De Shadow Brokers publicó en internet un montón de esas herramientas."
+  },
+  {
+    "file": "3_18.jpg",
+    "startSec": 198.42,
+    "text": "Nadie sabe con certeza quién estaba detrás de ese grupo."
+  },
+  {
+    "file": "3_22.jpg",
+    "startSec": 202.04,
+    "text": "De repente, cualquiera podía descargar un arma que había diseñado una agencia de espionaje."
+  },
+  {
+    "file": "3_27.jpg",
+    "startSec": 207.36,
+    "text": "Ahora viene la parte más importante de toda la historia."
+  },
+  {
+    "file": "3_30.jpg",
+    "startSec": 210.52,
+    "text": "En marzo de 2017,"
+  },
+  {
+    "file": "3_32.jpg",
+    "startSec": 212.16,
+    "text": "Microsoft ya había publicado un parche que cerraba esa puerta."
+  },
+  {
+    "file": "3_35.jpg",
+    "startSec": 215.52,
+    "text": "Se llamaba MES 17 -010."
+  },
+  {
+    "file": "3_38.jpg",
+    "startSec": 218.3,
+    "text": "Era una actualización normal de Windows."
+  },
+  {
+    "file": "3_40.jpg",
+    "startSec": 220.82,
+    "text": "Llegó dos meses antes del ataque. El parche ya existía."
+  },
+  {
+    "file": "3_44.jpg",
+    "startSec": 224.78,
+    "text": "Los ordenadores que habían instalado esa actualización estaban a salvo,"
+  },
+  {
+    "file": "3_48.jpg",
+    "startSec": 228.66,
+    "text": "Guanacra y rebotaba contra ellos."
+  },
+  {
+    "file": "3_50.jpg",
+    "startSec": 230.94,
+    "text": "Las víctimas fueron los equipos que no se habían actualizado."
+  },
+  {
+    "file": "3_54.jpg",
+    "startSec": 234.32,
+    "text": "La mayoría eran ordenadores con Windows 7 que no se habían actualizado."
+  },
+  {
+    "file": "3_58.jpg",
+    "startSec": 238.4,
+    "text": "Y había otros todavía peores,"
+  },
+  {
+    "file": "4_00.jpg",
+    "startSec": 240.5,
+    "text": "ordenadores con Windows XP."
+  },
+  {
+    "file": "4_02.jpg",
+    "startSec": 242.72,
+    "text": "Windows XP era tan viejo que Microsoft ya ni siquiera le daba soporte,"
+  },
+  {
+    "file": "4_06.jpg",
+    "startSec": 246.94,
+    "text": "no recibía parches."
+  },
+  {
+    "file": "4_08.jpg",
+    "startSec": 248.62,
+    "text": "Así que el fin de semana del ataque, Microsoft hizo algo muy poco habitual. Publicó un parche de emergencia también para Windows XP, un sistema que ya había dado por muerto."
+  },
+  {
+    "file": "4_18.jpg",
+    "startSec": 258.18,
+    "text": "Vamos a ver qué pasó a que el viernes 12 de mayo de 2017."
+  },
+  {
+    "file": "4_22.jpg",
+    "startSec": 262.44,
+    "text": "En España, Telefónica fue de las primeras víctimas conocidas."
+  },
+  {
+    "file": "4_25.jpg",
+    "startSec": 265.94,
+    "text": "Por la mañana en sus oficinas se pidió a los empleados que apagaran los ordenadores."
+  },
+  {
+    "file": "4_29.jpg",
+    "startSec": 269.98,
+    "text": "Y la noticia corrió enseguida."
+  },
+  {
+    "file": "4_32.jpg",
+    "startSec": 272.08,
+    "text": "Si le pasaba una empresa,"
+  },
+  {
+    "file": "4_33.jpg",
+    "startSec": 273.46,
+    "text": "así le podía pasar a cualquiera."
+  },
+  {
+    "file": "4_35.jpg",
+    "startSec": 275.68,
+    "text": "En Reino Unido el golpe fue mucho más duro. Cayeron ordenadores de muchos hospitales de la sanidad pública,"
+  },
+  {
+    "file": "4_41.jpg",
+    "startSec": 281.7,
+    "text": "se cancelaron miles de citas, se aplazaron operaciones."
+  },
+  {
+    "file": "4_45.jpg",
+    "startSec": 285.36,
+    "text": "Algunas urgencias tuvieron que desviar ambulancias a otros hospitales."
+  },
+  {
+    "file": "4_49.jpg",
+    "startSec": 289.32,
+    "text": "En Francia separaba una fábrica de renoll en Reino Unido, una de Nissan."
+  },
+  {
+    "file": "4_53.jpg",
+    "startSec": 293.86,
+    "text": "Hubo empresas de mensajería, estaciones de tren, universidades ministerios."
+  },
+  {
+    "file": "4_58.jpg",
+    "startSec": 298.78,
+    "text": "En pocas horas, el mapa del mundo se llenó de punto rojos."
+  },
+  {
+    "file": "5_02.jpg",
+    "startSec": 302.56,
+    "text": "Y parecía que nada podía pararlo,"
+  },
+  {
+    "file": "5_04.jpg",
+    "startSec": 304.9,
+    "text": "hasta que apareció un chaval de 22 años."
+  },
+  {
+    "file": "5_07.jpg",
+    "startSec": 307.5,
+    "text": "Se llamaba Marcos Hachins,"
+  },
+  {
+    "file": "5_09.jpg",
+    "startSec": 309.44,
+    "text": "un investigador de seguridad británico que en internet se hacía llamar Malguerteche."
+  },
+  {
+    "file": "5_14.jpg",
+    "startSec": 314.42,
+    "text": "Aquel día estaba de vacaciones, pero se puso a mirar una copia del virus."
+  },
+  {
+    "file": "5_18.jpg",
+    "startSec": 318.32,
+    "text": "Dentro del código encontró algo muy raro,"
+  },
+  {
+    "file": "5_20.jpg",
+    "startSec": 320.76,
+    "text": "una dirección web larguísima, una ristra de letras incentido."
+  },
+  {
+    "file": "5_24.jpg",
+    "startSec": 324.76,
+    "text": "El virus intentaba conectarse a esa dirección antes de hacer nada."
+  },
+  {
+    "file": "5_28.jpg",
+    "startSec": 328.4,
+    "text": "Y esa dirección no existía, nadie la había registrado."
+  },
+  {
+    "file": "5_32.jpg",
+    "startSec": 332.36,
+    "text": "Hachins la compró,"
+  },
+  {
+    "file": "5_33.jpg",
+    "startSec": 333.62,
+    "text": "le costó unos 10 dólares."
+  },
+  {
+    "file": "5_35.jpg",
+    "startSec": 335.32,
+    "text": "En realidad no quería parar nada, solo quería medir cuántos ordenadores estaban infectados,"
+  },
+  {
+    "file": "5_40.jpg",
+    "startSec": 340.4,
+    "text": "pero en cuanto esa web empezó a funcionar, el virus dejó de propagarse."
+  },
+  {
+    "file": "5_44.jpg",
+    "startSec": 344.54,
+    "text": "Resulta que Guanacrae tenía un interruptor de apagado escondido."
+  },
+  {
+    "file": "5_48.jpg",
+    "startSec": 348.24,
+    "text": "Si la web respondía, el virus se quedaba quieto, si no respondía, atacaba."
+  },
+  {
+    "file": "5_52.jpg",
+    "startSec": 352.74,
+    "text": "Al registrarla, Hachins había pulsado ese interruptor para todo el mundo."
+  },
+  {
+    "file": "5_56.jpg",
+    "startSec": 356.84,
+    "text": "10 dólares frenaron un ataque que ya estaba costando millones."
+  },
+  {
+    "file": "6_00.jpg",
+    "startSec": 360.84,
+    "text": "Ojo, eso no lo arregló todo."
+  },
+  {
+    "file": "6_03.jpg",
+    "startSec": 363.12,
+    "text": "Los ordenadores que ya estaban cifrados siguieron cifrados,"
+  },
+  {
+    "file": "6_06.jpg",
+    "startSec": 366.3,
+    "text": "y el interruptor solo servía para esa versión del virus."
+  },
+  {
+    "file": "6_09.jpg",
+    "startSec": 369.38,
+    "text": "Pronto aparecieron copia sin él,"
+  },
+  {
+    "file": "6_11.jpg",
+    "startSec": 371.42,
+    "text": "pero le dio al mundo algo que necesitaba muchísimo."
+  },
+  {
+    "file": "6_14.jpg",
+    "startSec": 374.22,
+    "text": "Tiempo."
+  },
+  {
+    "file": "6_15.jpg",
+    "startSec": 375.18,
+    "text": "Tiempo para que millones de ordenadores instalaran el parche,"
+  },
+  {
+    "file": "6_18.jpg",
+    "startSec": 378.54,
+    "text": "el mismo parche que ya existía desde hacía dos meses."
+  },
+  {
+    "file": "6_21.jpg",
+    "startSec": 381.8,
+    "text": "Y quién estaba detrás de todo esto?"
+  },
+  {
+    "file": "6_24.jpg",
+    "startSec": 384.18,
+    "text": "Meses después, Estados inutos y Reino Unidos señalaron al mismo responsable,"
+  },
+  {
+    "file": "6_28.jpg",
+    "startSec": 388.4,
+    "text": "Corea del Norte."
+  },
+  {
+    "file": "6_29.jpg",
+    "startSec": 389.8,
+    "text": "En concreto, a un grupo de hackers conocido como Lazarus."
+  },
+  {
+    "file": "6_33.jpg",
+    "startSec": 393.08,
+    "text": "Los daños se calcularon en miles de millones de dólares por ordenadores parados, por trabajo perdido, por hospitales colapsados."
+  },
+  {
+    "file": "6_40.jpg",
+    "startSec": 400.32,
+    "text": "Y aquí va el giro final."
+  },
+  {
+    "file": "6_42.jpg",
+    "startSec": 402.36,
+    "text": "Con los rescates, los atacantes ganaron muy poco,"
+  },
+  {
+    "file": "6_45.jpg",
+    "startSec": 405.16,
+    "text": "pagó muy poca gente y muchos de los que pagaron ni siquiera recuperaron sus archivos."
+  },
+  {
+    "file": "6_50.jpg",
+    "startSec": 410.0,
+    "text": "Un ataque que costó una fortuna al mundo y casi no dio dinero a quien lo lanzó."
+  },
+  {
+    "file": "6_54.jpg",
+    "startSec": 414.52,
+    "text": "Ahora la pregunta que importa,"
+  },
+  {
+    "file": "6_56.jpg",
+    "startSec": 416.22,
+    "text": "que tiene que ver todo esto contigo."
+  },
+  {
+    "file": "6_58.jpg",
+    "startSec": 418.56,
+    "text": "Primera lección."
+  },
+  {
+    "file": "6_59.jpg",
+    "startSec": 419.74,
+    "text": "Actualiza tus dispositivos."
+  },
+  {
+    "file": "7_01.jpg",
+    "startSec": 421.66,
+    "text": "Esa viso de actualización que siempre dejas para mañana muchas veces cierra una puerta como la de Eternal Blue."
+  },
+  {
+    "file": "7_07.jpg",
+    "startSec": 427.72,
+    "text": "El parche ya existía, sólo había que instalarlo."
+  },
+  {
+    "file": "7_11.jpg",
+    "startSec": 431.02,
+    "text": "Segunda lección. Haz copias de seguridad."
+  },
+  {
+    "file": "7_14.jpg",
+    "startSec": 434.02,
+    "text": "Guarda tus archivos importantes también fuera del ordenador, en un disco externo o en la nube."
+  },
+  {
+    "file": "7_19.jpg",
+    "startSec": 439.34,
+    "text": "Si un razon huerte cifra todo y tienes una copia, no hay secuestro. Borras y recuperas."
+  },
+  {
+    "file": "7_25.jpg",
+    "startSec": 445.24,
+    "text": "Tercera lección."
+  },
+  {
+    "file": "7_26.jpg",
+    "startSec": 446.48,
+    "text": "Notecíes de los sistemas viejos."
+  },
+  {
+    "file": "7_28.jpg",
+    "startSec": 448.58,
+    "text": "Un ordenador o un móvil que ya no recibe actualizaciones es una casa con una puerta que nadie va a volver a cerrar."
+  },
+  {
+    "file": "7_34.jpg",
+    "startSec": 454.94,
+    "text": "Y una última cosa."
+  },
+  {
+    "file": "7_36.jpg",
+    "startSec": 456.38,
+    "text": "Pagar no te garantiza nada y además financia al siguiente ataque."
+  },
+  {
+    "file": "7_40.jpg",
+    "startSec": 460.78,
+    "text": "Así que volvamos a aquel viernes a esas pantallas rojas."
+  },
+  {
+    "file": "7_44.jpg",
+    "startSec": 464.54,
+    "text": "Un fallo guardado en secreto por una agencia de espionaje,"
+  },
+  {
+    "file": "7_47.jpg",
+    "startSec": 467.78,
+    "text": "robado, publicado en internet. Un gusano que saltaba sólo de ordenador en ordenador, hospitales, fábricas,"
+  },
+  {
+    "file": "7_54.jpg",
+    "startSec": 474.32,
+    "text": "empresas enteras paradas."
+  },
+  {
+    "file": "7_56.jpg",
+    "startSec": 476.24,
+    "text": "Y un chaval de 22 años que con 10 dólares pulso el botón de apagado."
+  },
+  {
+    "file": "8_00.jpg",
+    "startSec": 480.84,
+    "text": "Pero el botón que de verdad lo habría evitado era mucho más sencillo."
+  },
+  {
+    "file": "8_05.jpg",
+    "startSec": 485.04,
+    "text": "Actualizar."
+  },
+  {
+    "file": "8_06.jpg",
+    "startSec": 486.38,
+    "text": "El parche ya existía."
+  },
+  {
+    "file": "8_08.jpg",
+    "startSec": 488.04,
+    "text": "La próxima vez que tu móvil te pida actualizar ya sabes lo que te juegas. Si te gusta entender cómo funciona de verdad la tecnología que usas cada día, suscríbete."
+  },
+  {
+    "file": "8_17.jpg",
+    "startSec": 497.04,
+    "text": "Cada semana una máquina, un invento o una idea explicada fácil."
+  }
+]

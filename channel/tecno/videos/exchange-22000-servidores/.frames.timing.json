@@ -1,0 +1,337 @@
+[
+  {
+    "file": "0_00.jpg",
+    "startSec": 0.0,
+    "text": "Ahora mismo, mientras escuchas esto, hay casi 22 .000 servidores de correo en el mundo con la puerta de entrada a abierta de par en par."
+  },
+  {
+    "file": "0_07.jpg",
+    "startSec": 7.74,
+    "text": "No hace falta robar ninguna contraseña,"
+  },
+  {
+    "file": "0_10.jpg",
+    "startSec": 10.02,
+    "text": "no hace falta engañar a nadie,"
+  },
+  {
+    "file": "0_11.jpg",
+    "startSec": 11.82,
+    "text": "sólo hace falta saber que esa puerta existe."
+  },
+  {
+    "file": "0_14.jpg",
+    "startSec": 14.88,
+    "text": "Y lo más inquietante es que el código para abrirla ya es público,"
+  },
+  {
+    "file": "0_18.jpg",
+    "startSec": 18.26,
+    "text": "cualquiera puede usarlo."
+  },
+  {
+    "file": "0_19.jpg",
+    "startSec": 19.9,
+    "text": "Esto es real,"
+  },
+  {
+    "file": "0_21.jpg",
+    "startSec": 21.14,
+    "text": "está pasando en septiembre de 2016 y probablemente afecta empresas que usas o con las que trabajas."
+  },
+  {
+    "file": "0_27.jpg",
+    "startSec": 27.7,
+    "text": "El problema tiene nombre y apellido técnico, se llama CBW -2026 -62 -9 -11."
+  },
+  {
+    "file": "0_34.jpg",
+    "startSec": 34.36,
+    "text": "Es una vulnerabilidad en Microsoft Exchange Server,"
+  },
+  {
+    "file": "0_37.jpg",
+    "startSec": 37.52,
+    "text": "el programa que usan miles de empresas en todo el mundo para gestionar su correo interno."
+  },
+  {
+    "file": "0_42.jpg",
+    "startSec": 42.54,
+    "text": "Microsoft la reconoció oficialmente a mediados de agosto de 2016 y sacó un parche ese mismo mes para solucionarla."
+  },
+  {
+    "file": "0_50.jpg",
+    "startSec": 50.1,
+    "text": "El problema no es que no exista solución,"
+  },
+  {
+    "file": "0_52.jpg",
+    "startSec": 52.56,
+    "text": "el problema es que miles de empresas todavía no la han instalado."
+  },
+  {
+    "file": "0_56.jpg",
+    "startSec": 56.46,
+    "text": "Y cada día que pasa sin ese parche,"
+  },
+  {
+    "file": "0_58.jpg",
+    "startSec": 58.74,
+    "text": "esa empresa sigue con la puerta abierta."
+  },
+  {
+    "file": "1_01.jpg",
+    "startSec": 61.6,
+    "text": "Para entender el fallo, hace falta entender un concepto muy simple,"
+  },
+  {
+    "file": "1_05.jpg",
+    "startSec": 65.42,
+    "text": "el de capturar y repetir."
+  },
+  {
+    "file": "1_07.jpg",
+    "startSec": 67.78,
+    "text": "Cuando te conectas a tu correo, tu ordenador y el servidor se intercambian una especie de sello que demuestra quién eres."
+  },
+  {
+    "file": "1_14.jpg",
+    "startSec": 74.1,
+    "text": "Este fallo permite a un atacante capturar ese sello mientras viaja por la red y reutilizarlo después para hacerse pasar por ti."
+  },
+  {
+    "file": "1_21.jpg",
+    "startSec": 81.5,
+    "text": "No necesita adivinar tu contraseña ni robártela,"
+  },
+  {
+    "file": "1_24.jpg",
+    "startSec": 84.88,
+    "text": "sólo necesita interceptar ese sello una vez."
+  },
+  {
+    "file": "1_27.jpg",
+    "startSec": 87.9,
+    "text": "Y con eso, puede entrar en el sistema con los mismos permisos que tú,"
+  },
+  {
+    "file": "1_31.jpg",
+    "startSec": 91.74,
+    "text": "sin que tú hagas nada mal."
+  },
+  {
+    "file": "1_34.jpg",
+    "startSec": 94.18,
+    "text": "Lo que se puede hacer una vez dentro es lo verdaderamente grave."
+  },
+  {
+    "file": "1_37.jpg",
+    "startSec": 97.62,
+    "text": "Una atacante que explota este fallo puede tomar control de los buzones de correo de toda la empresa. Leer correos internos, enviar mensajes haciendo se pasar por cualquier empleado y descargar archivos adjuntos con información sensible."
+  },
+  {
+    "file": "1_51.jpg",
+    "startSec": 111.08,
+    "text": "Y según los investigadores que lo analizaron, el fallo se puede encadenar hasta conseguir el control total del servidor,"
+  },
+  {
+    "file": "1_57.jpg",
+    "startSec": 117.5,
+    "text": "con los permisos más altos posibles."
+  },
+  {
+    "file": "2_00.jpg",
+    "startSec": 120.14,
+    "text": "Todo eso, sin necesitar ni una sola credencia al válida de partida."
+  },
+  {
+    "file": "2_05.jpg",
+    "startSec": 125.0,
+    "text": "Según los últimos escaneos públicos de la Organización Sado Server,"
+  },
+  {
+    "file": "2_08.jpg",
+    "startSec": 128.7,
+    "text": "a finales de agosto había casi 22 .000 servidores expuestos en todo el mundo."
+  },
+  {
+    "file": "2_13.jpg",
+    "startSec": 133.5,
+    "text": "Estados Unidos encabeza la lista,"
+  },
+  {
+    "file": "2_15.jpg",
+    "startSec": 135.78,
+    "text": "con más de 6 .000 servidores vulnerables."
+  },
+  {
+    "file": "2_18.jpg",
+    "startSec": 138.32,
+    "text": "Alemania le sigue de cerca, con más de 5 .000."
+  },
+  {
+    "file": "2_21.jpg",
+    "startSec": 141.66,
+    "text": "Estos no son números de un informe cualquiera,"
+  },
+  {
+    "file": "2_24.jpg",
+    "startSec": 144.22,
+    "text": "son escaneos reales de internet, hechos día a día."
+  },
+  {
+    "file": "2_27.jpg",
+    "startSec": 147.82,
+    "text": "Y lo más preocupante es que el exploit, el programa que aprovecha este fallo, ya está circulando públicamente."
+  },
+  {
+    "file": "2_34.jpg",
+    "startSec": 154.76,
+    "text": "Eso significa que no hace falta ser un atacante sofisticado para usarlo,"
+  },
+  {
+    "file": "2_38.jpg",
+    "startSec": 158.86,
+    "text": "sólo hace falta saber que el fallo existe."
+  },
+  {
+    "file": "2_42.jpg",
+    "startSec": 162.08,
+    "text": "Aquí viene la parte que de verdad importa,"
+  },
+  {
+    "file": "2_44.jpg",
+    "startSec": 164.68,
+    "text": "que puedes hacer tus y gestionas o trabajas cerca de un servidor exchange."
+  },
+  {
+    "file": "2_49.jpg",
+    "startSec": 169.28,
+    "text": "Primero, y más importante,"
+  },
+  {
+    "file": "2_51.jpg",
+    "startSec": 171.24,
+    "text": "instala el parche de seguridad de agosto de 2026 si todavía no lo has hecho."
+  },
+  {
+    "file": "2_56.jpg",
+    "startSec": 176.36,
+    "text": "Microsoft ya publicó la solución,"
+  },
+  {
+    "file": "2_58.jpg",
+    "startSec": 178.68,
+    "text": "el problema en la mayoría de los casos no es la falta de parche,"
+  },
+  {
+    "file": "3_02.jpg",
+    "startSec": 182.34,
+    "text": "es la falta de tiempo para aplicarlo."
+  },
+  {
+    "file": "3_04.jpg",
+    "startSec": 184.88,
+    "text": "Segundo,"
+  },
+  {
+    "file": "3_05.jpg",
+    "startSec": 185.9,
+    "text": "si administras un servidor exchange,"
+  },
+  {
+    "file": "3_08.jpg",
+    "startSec": 188.16,
+    "text": "revisa los registros de acceso en busca de patrones de autenticación repetidos o extraños."
+  },
+  {
+    "file": "3_13.jpg",
+    "startSec": 193.5,
+    "text": "Tercero, y esto vale para cualquier sistema crítico,"
+  },
+  {
+    "file": "3_16.jpg",
+    "startSec": 196.8,
+    "text": "nunca asumas que porque algo lleva años funcionando,"
+  },
+  {
+    "file": "3_19.jpg",
+    "startSec": 199.74,
+    "text": "sigue siendo seguro hoy."
+  },
+  {
+    "file": "3_21.jpg",
+    "startSec": 201.68,
+    "text": "Las vulnerabilidades no avisan antes de aparecer,"
+  },
+  {
+    "file": "3_24.jpg",
+    "startSec": 204.5,
+    "text": "y los parches no se instalan solos."
+  },
+  {
+    "file": "3_27.jpg",
+    "startSec": 207.56,
+    "text": "Lo interesante de este caso no es solo la vulnerabilidad en sí,"
+  },
+  {
+    "file": "3_31.jpg",
+    "startSec": 211.16,
+    "text": "cada mes aparece en decenas como esta. Es la brecha de tiempo entre que existe una solución y que esa solución se aplica de verdad."
+  },
+  {
+    "file": "3_39.jpg",
+    "startSec": 219.12,
+    "text": "Un parche publicado no protege a nadie hasta que se instala,"
+  },
+  {
+    "file": "3_42.jpg",
+    "startSec": 222.52,
+    "text": "y ese hueco entre el aviso y la acción es donde viven la mayoría de los ataques reales."
+  },
+  {
+    "file": "3_48.jpg",
+    "startSec": 228.3,
+    "text": "22 .000 servidores no cayeron por falta de aviso,"
+  },
+  {
+    "file": "3_51.jpg",
+    "startSec": 231.64,
+    "text": "cayeron por falta de tiempo, de personal o simplemente de prioridad."
+  },
+  {
+    "file": "3_56.jpg",
+    "startSec": 236.42,
+    "text": "Y ese es un problema mucho más humano que técnico."
+  },
+  {
+    "file": "3_59.jpg",
+    "startSec": 239.66,
+    "text": "Así que si trabajas cerca de sistemas de correo empresarial o simplemente conoces a alguien que lo hace,"
+  },
+  {
+    "file": "4_05.jpg",
+    "startSec": 245.44,
+    "text": "este es el tipo de aviso que vale la pena compartir hoy mismo, no la semana que viene."
+  },
+  {
+    "file": "4_10.jpg",
+    "startSec": 250.74,
+    "text": "Porque el exploit ya está ahí fuera,"
+  },
+  {
+    "file": "4_13.jpg",
+    "startSec": 253.22,
+    "text": "y la única diferencia entre estar protegido y no estarlo es haber aplicado el parche a tiempo."
+  },
+  {
+    "file": "4_19.jpg",
+    "startSec": 259.16,
+    "text": "Si esto te ha parecido útil, suscríbete,"
+  },
+  {
+    "file": "4_21.jpg",
+    "startSec": 261.82,
+    "text": "se viene más de este mundo."
+  }
+]

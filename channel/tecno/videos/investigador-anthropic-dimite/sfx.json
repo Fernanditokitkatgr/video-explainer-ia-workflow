@@ -1,0 +1,17 @@
+{
+  "sfx": [
+    { "file": "intro_calm_tense.mp3", "startSec": 0.0, "duration": 1.8, "volume": 0.14, "prompt": "quiet contemplative cinematic drone with an undercurrent of unease, no music" },
+    { "file": "impact_beat.mp3", "startSec": 19.38, "duration": 1.0, "volume": 0.17, "prompt": "single deep impact beat, weighty and abrupt, dramatic pause" },
+    { "file": "quote_sting.mp3", "startSec": 25.98, "duration": 1.4, "volume": 0.15, "prompt": "short serious quotation sting, grave and clean" },
+    { "file": "name_reveal.mp3", "startSec": 40.16, "duration": 1.2, "volume": 0.15, "prompt": "short neutral reveal chime, introducing a name, clean" },
+    { "file": "verdict_low.mp3", "startSec": 81.26, "duration": 1.5, "volume": 0.15, "prompt": "low grave verdict tone, serious conclusion, no music" },
+    { "file": "race_tension.mp3", "startSec": 104.04, "duration": 1.6, "volume": 0.14, "prompt": "accelerating tense pulse suggesting a race, urgent, no music" },
+    { "file": "key_line.mp3", "startSec": 137.74, "duration": 1.4, "volume": 0.16, "prompt": "short emphatic underline sting, highlighting an important sentence" },
+    { "file": "world_phrase.mp3", "startSec": 203.06, "duration": 1.6, "volume": 0.16, "prompt": "ominous expanding cinematic sting, gravity and scale, no music" },
+    { "file": "money_walkaway.mp3", "startSec": 220.36, "duration": 1.3, "volume": 0.15, "prompt": "short coin drop followed by a closing lid, money left behind" },
+    { "file": "balance_turn.mp3", "startSec": 258.84, "duration": 1.4, "volume": 0.14, "prompt": "calm balanced tonal shift, turning to the other side of an argument" },
+    { "file": "pattern_reveal.mp3", "startSec": 292.7, "duration": 1.4, "volume": 0.15, "prompt": "repeating rhythmic tick revealing a pattern, subtle and steady" },
+    { "file": "subscribe_chime.mp3", "startSec": 341.16, "duration": 1.2, "volume": 0.17, "prompt": "bright cheerful notification bell chime, friendly and short" }
+  ],
+  "music": { "file": "musica-canal.mp3", "duration": 30, "volume": 0.3, "prompt": "reused channel background music loop" }
+}

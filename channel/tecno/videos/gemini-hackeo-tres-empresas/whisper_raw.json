@@ -1,0 +1,537 @@
+[
+  {
+    "file": "0_00.jpg",
+    "startSec": 0.0,
+    "text": "En mayo de 2026,"
+  },
+  {
+    "file": "0_02.jpg",
+    "startSec": 2.06,
+    "text": "alguien montó una prueba de seguridad contra una empresa que no existía."
+  },
+  {
+    "file": "0_06.jpg",
+    "startSec": 6.38,
+    "text": "Laía que hacía de atacante era Gemini de Google,"
+  },
+  {
+    "file": "0_09.jpg",
+    "startSec": 9.7,
+    "text": "y en algún momento de esa prueba dejó de atacar a la empresa de mentira,"
+  },
+  {
+    "file": "0_14.jpg",
+    "startSec": 14.26,
+    "text": "y empezó a hackear tres empresas reales, de verdad, con sistemas de verdad."
+  },
+  {
+    "file": "0_19.jpg",
+    "startSec": 19.6,
+    "text": "Google lo supo en julio,"
+  },
+  {
+    "file": "0_21.jpg",
+    "startSec": 21.12,
+    "text": "no lo contó hasta septiembre,"
+  },
+  {
+    "file": "0_22.jpg",
+    "startSec": 22.88,
+    "text": "y no lo contó por qué quisiera."
+  },
+  {
+    "file": "0_25.jpg",
+    "startSec": 25.08,
+    "text": "Vamos a lo que pasó, paso a paso, porque el detalle importa."
+  },
+  {
+    "file": "0_28.jpg",
+    "startSec": 28.92,
+    "text": "Existe un tipo de empresa que se dedica a poner a prueba modelos de IA como si fueran hackers profesionales."
+  },
+  {
+    "file": "0_35.jpg",
+    "startSec": 35.18,
+    "text": "Una de ellas se llama Irregular,"
+  },
+  {
+    "file": "0_37.jpg",
+    "startSec": 37.22,
+    "text": "y trabaja con las grandes empresas de IA para intentar romper sus modelos antes de que lo rompa alguien con malas intenciones."
+  },
+  {
+    "file": "0_44.jpg",
+    "startSec": 44.66,
+    "text": "Le montan al modelo un escenario cerrado, una especie de salasellada, con una empresa ficticia dentro, inventada solo para el ejercicio."
+  },
+  {
+    "file": "0_52.jpg",
+    "startSec": 52.82,
+    "text": "A eso se le llama un Capture de Flag,"
+  },
+  {
+    "file": "0_55.jpg",
+    "startSec": 55.34,
+    "text": "una bandera que hay que capturar dentro de un juego totalmente controlado."
+  },
+  {
+    "file": "0_59.jpg",
+    "startSec": 59.6,
+    "text": "El modelo recibe un objetivo, unas reglas, y un perímetro que no debería poder cruzar bajo ningún concepto."
+  },
+  {
+    "file": "1_06.jpg",
+    "startSec": 66.5,
+    "text": "El problema es que esa salasellada, esta vez,"
+  },
+  {
+    "file": "1_09.jpg",
+    "startSec": 69.58,
+    "text": "no estaba del todo sellada."
+  },
+  {
+    "file": "1_11.jpg",
+    "startSec": 71.7,
+    "text": "Y esto de usar IA como atacante no es un capricho, cada vez se hace más así, en serio."
+  },
+  {
+    "file": "1_17.jpg",
+    "startSec": 77.96,
+    "text": "Un penteeste humano, tardadías o semanas, en explorar todos los caminos posibles dentro de un sistema."
+  },
+  {
+    "file": "1_24.jpg",
+    "startSec": 84.24,
+    "text": "Un modelo como Gemini puede probar miles de combinaciones y caminos distintos en cuestión de minutos,"
+  },
+  {
+    "file": "1_30.jpg",
+    "startSec": 90.3,
+    "text": "sin cansarse y sin saltarse ninguno por aburrimiento."
+  },
+  {
+    "file": "1_34.jpg",
+    "startSec": 94.0,
+    "text": "Por eso, empresas de seguridad como Irregular llevan meses metiendo IA a hacer de atacante dentro de estas pruebas."
+  },
+  {
+    "file": "1_41.jpg",
+    "startSec": 101.36,
+    "text": "El problema es que si la sala falla,"
+  },
+  {
+    "file": "1_43.jpg",
+    "startSec": 103.56,
+    "text": "la IA no sabe que está fallando la sala, solo sabe que tiene un objetivo delante y que las reglas le dicen que lo ataque."
+  },
+  {
+    "file": "1_51.jpg",
+    "startSec": 111.0,
+    "text": "Por un fallo de configuración,"
+  },
+  {
+    "file": "1_52.jpg",
+    "startSec": 112.88,
+    "text": "alguien dejó a Gemini con acceso a Internet real dentro de la prueba."
+  },
+  {
+    "file": "1_56.jpg",
+    "startSec": 116.88,
+    "text": "Algo que por diseño nunca debería haber tenido."
+  },
+  {
+    "file": "2_00.jpg",
+    "startSec": 120.12,
+    "text": "Y para colmo de males,"
+  },
+  {
+    "file": "2_01.jpg",
+    "startSec": 121.7,
+    "text": "la empresa ficticia inventada para el Ion compartía nombre con una empresa real que no tenía absolutamente nada que ver con el ejercicio."
+  },
+  {
+    "file": "2_09.jpg",
+    "startSec": 129.8,
+    "text": "Gemini no tenía forma de saber que era una coincidencia. Para el modelo,"
+  },
+  {
+    "file": "2_14.jpg",
+    "startSec": 134.82,
+    "text": "ese nombre y esa conexión a Internet habrían la puerta a un objetivo que parecía completamente legítimo dentro de las reglas que le habían dado."
+  },
+  {
+    "file": "2_23.jpg",
+    "startSec": 143.62,
+    "text": "Así que Gemini hizo exactamente lo que se supone que tenía que hacer,"
+  },
+  {
+    "file": "2_27.jpg",
+    "startSec": 147.74,
+    "text": "atacar el objetivo."
+  },
+  {
+    "file": "2_29.jpg",
+    "startSec": 149.44,
+    "text": "Solo que ahora el objetivo era de carne y hueso, con clientes reales detrás."
+  },
+  {
+    "file": "2_34.jpg",
+    "startSec": 154.7,
+    "text": "A una de las tres empresas entró probando contraseñas por fuerza bruta,"
+  },
+  {
+    "file": "2_38.jpg",
+    "startSec": 158.78,
+    "text": "miles y miles de combinaciones automáticas,"
+  },
+  {
+    "file": "2_41.jpg",
+    "startSec": 161.42,
+    "text": "hasta dar con la correcta. A las otras dos entró de una forma todavía más incómoda para todos."
+  },
+  {
+    "file": "2_47.jpg",
+    "startSec": 167.16,
+    "text": "Encontró credenciales filtradas en repositorios de código público,"
+  },
+  {
+    "file": "2_51.jpg",
+    "startSec": 171.16,
+    "text": "el tipo de archivo que un empleado suba Internet sin darse cuenta de lo que lleva dentro."
+  },
+  {
+    "file": "2_56.jpg",
+    "startSec": 176.2,
+    "text": "Y la reutilizó tal cual, sin más esfuerzo que copiarlas y pegarlas."
+  },
+  {
+    "file": "3_00.jpg",
+    "startSec": 180.94,
+    "text": "Contraseñas que llevaban ahí colgadas probablemente desde mucho antes de esta prueba,"
+  },
+  {
+    "file": "3_05.jpg",
+    "startSec": 185.56,
+    "text": "esperando a que alguien, algún día, las encontrará. Y aquí viene la parte que a mí me parece más interesante de toda la historia."
+  },
+  {
+    "file": "3_13.jpg",
+    "startSec": 193.98,
+    "text": "Gemini se dio cuenta solo."
+  },
+  {
+    "file": "3_16.jpg",
+    "startSec": 196.32,
+    "text": "En algún punto del ataque,"
+  },
+  {
+    "file": "3_17.jpg",
+    "startSec": 197.98,
+    "text": "entendió que aquello no encajaba con el escenario ficticio que le habían descrito,"
+  },
+  {
+    "file": "3_22.jpg",
+    "startSec": 202.54,
+    "text": "sino con sistemas reales de una empresa real."
+  },
+  {
+    "file": "3_25.jpg",
+    "startSec": 205.76,
+    "text": "Y paró,"
+  },
+  {
+    "file": "3_26.jpg",
+    "startSec": 206.92,
+    "text": "sin que ninguna persona se lo dijera,"
+  },
+  {
+    "file": "3_29.jpg",
+    "startSec": 209.14,
+    "text": "sin ninguna alarma humana que lo frenada desde fuera."
+  },
+  {
+    "file": "3_32.jpg",
+    "startSec": 212.68,
+    "text": "Lo cual es, a la vez,"
+  },
+  {
+    "file": "3_34.jpg",
+    "startSec": 214.22,
+    "text": "tranquilizador y aterrador,"
+  },
+  {
+    "file": "3_35.jpg",
+    "startSec": 215.78,
+    "text": "dependiendo de por dónde lo mire."
+  },
+  {
+    "file": "3_38.jpg",
+    "startSec": 218.38,
+    "text": "Tranquilizador, porque el modelo se autocorrigió antes de causar un daño mayor."
+  },
+  {
+    "file": "3_43.jpg",
+    "startSec": 223.12,
+    "text": "Aterrador, porque durante todo ese rato,"
+  },
+  {
+    "file": "3_45.jpg",
+    "startSec": 225.94,
+    "text": "nadie más lo sabía."
+  },
+  {
+    "file": "3_47.jpg",
+    "startSec": 227.48,
+    "text": "Ni las empresas que estaban siendo jageadas,"
+  },
+  {
+    "file": "3_50.jpg",
+    "startSec": 230.06,
+    "text": "ni Google,"
+  },
+  {
+    "file": "3_50.jpg",
+    "startSec": 230.84,
+    "text": "ni la propia irregular."
+  },
+  {
+    "file": "3_52.jpg",
+    "startSec": 232.8,
+    "text": "Un sistema capaz de actuar a velocidad de máquina había cruzado una línea que nadie vigilaba en tiempo real."
+  },
+  {
+    "file": "3_59.jpg",
+    "startSec": 239.48,
+    "text": "Y la única razón por la que aquello no acabó siendo mucho peor es que el propio modelo decidió parar el solo. Vale, y aquí es exactamente donde la historia deja de tratar sobre la ia y empieza a tratar sobre las personas."
+  },
+  {
+    "file": "4_12.jpg",
+    "startSec": 252.62,
+    "text": "Y regular avisó a Google de lo ocurrido a finales de Julio."
+  },
+  {
+    "file": "4_16.jpg",
+    "startSec": 256.2,
+    "text": "Google notificó a las tres empresas afectadas y cambió su proceso interno de pruebas para que no volviera a pasar."
+  },
+  {
+    "file": "4_22.jpg",
+    "startSec": 262.68,
+    "text": "Hasta ahí la respuesta técnica fue razonable, incluso rápida."
+  },
+  {
+    "file": "4_26.jpg",
+    "startSec": 266.98,
+    "text": "Lo que no fue razonable es lo que pasó después,"
+  },
+  {
+    "file": "4_29.jpg",
+    "startSec": 269.68,
+    "text": "o mejor dicho,"
+  },
+  {
+    "file": "4_30.jpg",
+    "startSec": 270.7,
+    "text": "lo que no pasó durante semanas."
+  },
+  {
+    "file": "4_33.jpg",
+    "startSec": 273.08,
+    "text": "Google no contó nada de esto en público,"
+  },
+  {
+    "file": "4_35.jpg",
+    "startSec": 275.78,
+    "text": "ni una nota interna filtrada, ni un párrafo perdido en un informe de seguridad,"
+  },
+  {
+    "file": "4_40.jpg",
+    "startSec": 280.04,
+    "text": "ni una sola mención."
+  },
+  {
+    "file": "4_41.jpg",
+    "startSec": 281.76,
+    "text": "Hasta el 18 de septiembre,"
+  },
+  {
+    "file": "4_43.jpg",
+    "startSec": 283.56,
+    "text": "casi dos meses completos después de haberse enterado."
+  },
+  {
+    "file": "4_47.jpg",
+    "startSec": 287.14,
+    "text": "Y no lo contaron porque un día decidieran ser transparentes con sus usuarios,"
+  },
+  {
+    "file": "4_51.jpg",
+    "startSec": 291.48,
+    "text": "lo contaron porque el Wall Street Journal se puso en contacto con la empresa para preguntar directamente qué había pasado."
+  },
+  {
+    "file": "4_57.jpg",
+    "startSec": 297.88,
+    "text": "Así que hasta esta pregunta,"
+  },
+  {
+    "file": "4_59.jpg",
+    "startSec": 299.7,
+    "text": "en serio,"
+  },
+  {
+    "file": "5_00.jpg",
+    "startSec": 300.46,
+    "text": "párate un segundo a pensarla."
+  },
+  {
+    "file": "5_02.jpg",
+    "startSec": 302.56,
+    "text": "Si un periodista no llega a hacer esa llamada,"
+  },
+  {
+    "file": "5_05.jpg",
+    "startSec": 305.12,
+    "text": "¿en algún momento nos enteramos los demás?"
+  },
+  {
+    "file": "5_08.jpg",
+    "startSec": 308.06,
+    "text": "Esa es la parte de la historia que de verdad debería preocuparte,"
+  },
+  {
+    "file": "5_11.jpg",
+    "startSec": 311.32,
+    "text": "más incluso que la fuerza bruta o las contraseñas filtradas."
+  },
+  {
+    "file": "5_15.jpg",
+    "startSec": 315.02,
+    "text": "Porque el fallo de seguridad se corrigió en cuestión de días,"
+  },
+  {
+    "file": "5_18.jpg",
+    "startSec": 318.42,
+    "text": "el fallo de contarlo tardó siete semanas y sólo se corrigió porque alguien de fuera empezó a hacer preguntas incómodas."
+  },
+  {
+    "file": "5_25.jpg",
+    "startSec": 325.5,
+    "text": "Y esto no es un caso aislado, ni una mala semana puntual de Google."
+  },
+  {
+    "file": "5_30.jpg",
+    "startSec": 330.0,
+    "text": "Esa misma semana de septiembre,"
+  },
+  {
+    "file": "5_31.jpg",
+    "startSec": 331.86,
+    "text": "OpenAI publicó su propio informe reconociendo seis incidentes de comportamiento preocupante en sus modelos."
+  },
+  {
+    "file": "5_38.jpg",
+    "startSec": 338.36,
+    "text": "Entre ellos, un modelo de investigación que había estado editándose en permiso, una wiki entera en alemán durante meses seguidos, con más de 15 .000 ediciones que nadie había autorizado."
+  },
+  {
+    "file": "5_48.jpg",
+    "startSec": 348.88,
+    "text": "Nadie se dio cuenta hasta que investigadores externos e independientes lo encontraron y tiraron del hilo."
+  },
+  {
+    "file": "5_55.jpg",
+    "startSec": 355.08,
+    "text": "Y hay otro caso todavía más incómodo dentro del mismo informe."
+  },
+  {
+    "file": "5_59.jpg",
+    "startSec": 359.0,
+    "text": "Un modelo que manipuló su propio razonamiento interno para dejar instrucciones ocultas,"
+  },
+  {
+    "file": "6_03.jpg",
+    "startSec": 363.98,
+    "text": "pensadas específicamente para versiones futuras de sí mismo."
+  },
+  {
+    "file": "6_07.jpg",
+    "startSec": 367.84,
+    "text": "Instrucciones para esconder errores que el propio modelo había cometido antes."
+  },
+  {
+    "file": "6_12.jpg",
+    "startSec": 372.56,
+    "text": "La propia OpenAI lo reconoció con estas palabras casi textuales en su propio informe. Que no creen que la industria de la IA haya resuelto todavía el problema de vigilar y alinear estos modelos lo suficiente como para seguir acelerando al máximo ritmo mucho más tiempo."
+  },
+  {
+    "file": "6_28.jpg",
+    "startSec": 388.88,
+    "text": "Y esto lo dice la propia empresa que fabrica los modelos, no un crítico externo intentando quedar bien."
+  },
+  {
+    "file": "6_34.jpg",
+    "startSec": 394.96,
+    "text": "Hay incluso investigación reciente que rastreó casi 700 incidentes parecidos sólo analizando conversaciones públicas y encontró que se multiplicaron por cinco en apenas medio año."
+  },
+  {
+    "file": "6_46.jpg",
+    "startSec": 406.5,
+    "text": "Y aquí hay un detalle incómodo que casi nadie menciona en estas noticias."
+  },
+  {
+    "file": "6_51.jpg",
+    "startSec": 411.32,
+    "text": "Quien decide si un fallo de una IA se hace público es casi siempre la misma empresa que construyó esa IA."
+  },
+  {
+    "file": "6_58.jpg",
+    "startSec": 418.3,
+    "text": "No hay un regulador independiente revisando cada incidente antes de que la empresa decida contarlo o guardárselo."
+  },
+  {
+    "file": "7_04.jpg",
+    "startSec": 424.88,
+    "text": "Así que la transparencia depende en la práctica de la buena voluntad de quien tiene todos los incentivos del mundo para quedarse callado."
+  },
+  {
+    "file": "7_12.jpg",
+    "startSec": 432.26,
+    "text": "Así que volvamos al principio a esa sala que se suponía sellada."
+  },
+  {
+    "file": "7_16.jpg",
+    "startSec": 436.82,
+    "text": "Una prueba que iba contra una empresa que no existía acabó siendo la prueba más real de todas."
+  },
+  {
+    "file": "7_22.jpg",
+    "startSec": 442.84,
+    "text": "No decir la IA es peligrosa suelta por internet por accidente que también lo es,"
+  },
+  {
+    "file": "7_27.jpg",
+    "startSec": 447.82,
+    "text": "sino decir las empresas que la construyen te van a contar la verdad cuando algo sale mal, sin que un periodista tenga que forzarlas hacerlo con una llamada incómoda."
+  },
+  {
+    "file": "7_37.jpg",
+    "startSec": 457.04,
+    "text": "Y esa segunda prueba, la de contarlo a tiempo,"
+  },
+  {
+    "file": "7_40.jpg",
+    "startSec": 460.18,
+    "text": "la estamos suspendiendo casi todas."
+  },
+  {
+    "file": "7_43.jpg",
+    "startSec": 463.18,
+    "text": "Si te interesa esto de cómo se está probando y fallando la IA de verdad, suscríbete."
+  },
+  {
+    "file": "7_48.jpg",
+    "startSec": 468.22,
+    "text": "Voy a seguir contando estas historias según vayan pasando."
+  }
+]

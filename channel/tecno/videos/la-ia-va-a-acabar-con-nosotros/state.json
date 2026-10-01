@@ -1,0 +1,13 @@
+{
+  "video": "la-ia-va-a-acabar-con-nosotros",
+  "steps": {
+    "voice": "pending",
+    "whisper": "done",
+    "inject": "pending",
+    "images": "pending",
+    "sfx": "pending",
+    "validate": "pending",
+    "preflight": "pending",
+    "render": "pending"
+  }
+}

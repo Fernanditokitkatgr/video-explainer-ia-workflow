@@ -1,0 +1,475 @@
+{
+  "video": "exchange-22000-servidores",
+  "style_base": "Crude hand-drawn cartoon, Ecomonos style, PURE WHITE background, thick black ink outlines, flat colors. A brown cartoon monkey protagonist named Sara, huge white round eyes, exactly like the reference image, NO clothing of any kind, NEVER a human character. Exactly two arms and two hands per character. Any text that appears in the image must be in PERFECT SPANISH, never English, and only when the scene explicitly asks for specific words. Fill the whole frame, no black bars. CRITICAL: NEVER draw a calendar, a torn-calendar page, or any day-counter with a number on it unless the scene explicitly asks for one. CRITICAL: NEVER use any real brand name or logo (no Microsoft logo, no Windows logo, no Outlook logo) — use generic icons only (a plain server tower, a plain envelope, a plain shield). CRITICAL about the shadow figure representing the anonymous attacker: its face must ALWAYS stay completely hidden inside a black hood silhouette, its entire body/hood is always solid BLACK, never brown/white/gray, only two glowing YELLOW eyes visible. Never place two characters in a scene that says 'no characters' — treat that literally, icon-only, no monkey, no hacker, no people at all in those frames. Never add a speech bubble, caption, or extra label unless the scene explicitly asks for one.",
+  "frames": [
+    {
+      "file": "0_00.jpg",
+      "startSec": 0.0,
+      "text": "Ahora mismo, mientras escuchas esto, hay casi 22 .000 servidores de correo en el mundo con la puerta de entrada a abierta de par en par.",
+      "ref": "none",
+      "scene": "A giant door icon standing wide open, no characters, no text."
+    },
+    {
+      "file": "0_07.jpg",
+      "startSec": 7.74,
+      "text": "No hace falta robar ninguna contraseña,",
+      "ref": "mono",
+      "scene": "Close-up: Sara shaking her head, serious, direct at camera."
+    },
+    {
+      "file": "0_10.jpg",
+      "startSec": 10.02,
+      "text": "no hace falta engañar a nadie,",
+      "ref": "mono",
+      "scene": "Close-up: Sara shrugging, casual, direct at camera."
+    },
+    {
+      "file": "0_11.jpg",
+      "startSec": 11.82,
+      "text": "sólo hace falta saber que esa puerta existe.",
+      "ref": "none",
+      "scene": "A single glowing keyhole icon with no lock around it, no characters, no text."
+    },
+    {
+      "file": "0_14.jpg",
+      "startSec": 14.88,
+      "text": "Y lo más inquietante es que el código para abrirla ya es público,",
+      "ref": "sombra",
+      "scene": "The shadow-hacker holding a glowing scroll icon, silhouette only, glowing yellow eyes."
+    },
+    {
+      "file": "0_18.jpg",
+      "startSec": 18.26,
+      "text": "cualquiera puede usarlo.",
+      "ref": "none",
+      "scene": "A crossed-out padlock icon with a red X, no characters, no text."
+    },
+    {
+      "file": "0_19.jpg",
+      "startSec": 19.9,
+      "text": "Esto es real,",
+      "ref": "mono",
+      "scene": "Close-up: Sara nodding, serious, confirming."
+    },
+    {
+      "file": "0_21.jpg",
+      "startSec": 21.14,
+      "text": "está pasando en septiembre de 2016 y probablemente afecta empresas que usas o con las que trabajas.",
+      "ref": "none",
+      "scene": "A simple globe icon with several small server-tower icons scattered on it, no characters, no dates."
+    },
+    {
+      "file": "0_27.jpg",
+      "startSec": 27.7,
+      "text": "El problema tiene nombre y apellido técnico, se llama CBW -2026 -62 -9 -11.",
+      "ref": "mono",
+      "scene": "Close-up: Sara looking at a distant warning triangle icon, curious, uneasy."
+    },
+    {
+      "file": "0_34.jpg",
+      "startSec": 34.36,
+      "text": "Es una vulnerabilidad en Microsoft Exchange Server,",
+      "ref": "none",
+      "scene": "A large server-tower icon with an envelope icon on top of it, no characters, no text."
+    },
+    {
+      "file": "0_37.jpg",
+      "startSec": 37.52,
+      "text": "el programa que usan miles de empresas en todo el mundo para gestionar su correo interno.",
+      "ref": "mono",
+      "scene": "Wide shot: Sara standing next to several small building icons connected to one large server-tower icon, explaining, serious."
+    },
+    {
+      "file": "0_42.jpg",
+      "startSec": 42.54,
+      "text": "Microsoft la reconoció oficialmente a mediados de agosto de 2016 y sacó un parche ese mismo mes para solucionarla.",
+      "ref": "mono",
+      "scene": "Close-up: Sara holding a shield icon, explaining, serious."
+    },
+    {
+      "file": "0_50.jpg",
+      "startSec": 50.1,
+      "text": "El problema no es que no exista solución,",
+      "ref": "mono",
+      "scene": "Close-up: Sara pointing at a glowing checkmark icon, serious."
+    },
+    {
+      "file": "0_52.jpg",
+      "startSec": 52.56,
+      "text": "el problema es que miles de empresas todavía no la han instalado.",
+      "ref": "none",
+      "scene": "A stack of server-tower icons, most of them cracked, no characters, no text."
+    },
+    {
+      "file": "0_56.jpg",
+      "startSec": 56.46,
+      "text": "Y cada día que pasa sin ese parche,",
+      "ref": "mono",
+      "scene": "Close-up: Sara watching an hourglass with sand falling, patient, waiting expression."
+    },
+    {
+      "file": "0_58.jpg",
+      "startSec": 58.74,
+      "text": "esa empresa sigue con la puerta abierta.",
+      "ref": "none",
+      "scene": "A single door icon still wide open, no characters, no text."
+    },
+    {
+      "file": "1_01.jpg",
+      "startSec": 61.6,
+      "text": "Para entender el fallo, hace falta entender un concepto muy simple,",
+      "ref": "mono",
+      "scene": "Close-up: Sara raising one finger, about to explain, curious."
+    },
+    {
+      "file": "1_05.jpg",
+      "startSec": 65.42,
+      "text": "el de capturar y repetir.",
+      "ref": "none",
+      "scene": "A single glowing stamp/seal icon, no characters, no text."
+    },
+    {
+      "file": "1_07.jpg",
+      "startSec": 67.78,
+      "text": "Cuando te conectas a tu correo, tu ordenador y el servidor se intercambian una especie de sello que demuestra quién eres.",
+      "ref": "none",
+      "scene": "A glowing stamp/seal icon passing between a small computer icon and a server-tower icon, no characters, no text."
+    },
+    {
+      "file": "1_14.jpg",
+      "startSec": 74.1,
+      "text": "Este fallo permite a un atacante capturar ese sello mientras viaja por la red y reutilizarlo después para hacerse pasar por ti.",
+      "ref": "sombra",
+      "scene": "The shadow-hacker catching a glowing stamp/seal icon in mid-air, silhouette only, glowing yellow eyes."
+    },
+    {
+      "file": "1_21.jpg",
+      "startSec": 81.5,
+      "text": "No necesita adivinar tu contraseña ni robártela,",
+      "ref": "mono",
+      "scene": "Close-up: Sara shaking her head, serious, direct at camera."
+    },
+    {
+      "file": "1_24.jpg",
+      "startSec": 84.88,
+      "text": "sólo necesita interceptar ese sello una vez.",
+      "ref": "sombra",
+      "scene": "The shadow-hacker holding a single glowing stamp/seal icon, satisfied, silhouette only, glowing yellow eyes."
+    },
+    {
+      "file": "1_27.jpg",
+      "startSec": 87.9,
+      "text": "Y con eso, puede entrar en el sistema con los mismos permisos que tú,",
+      "ref": "sombra",
+      "scene": "The shadow-hacker walking through an open server-tower icon door, silhouette only, glowing yellow eyes."
+    },
+    {
+      "file": "1_31.jpg",
+      "startSec": 91.74,
+      "text": "sin que tú hagas nada mal.",
+      "ref": "mono",
+      "scene": "Close-up: Sara looking concerned, worried expression."
+    },
+    {
+      "file": "1_34.jpg",
+      "startSec": 94.18,
+      "text": "Lo que se puede hacer una vez dentro es lo verdaderamente grave.",
+      "ref": "mono",
+      "scene": "Close-up: Sara covering her mouth with both hands, shocked."
+    },
+    {
+      "file": "1_37.jpg",
+      "startSec": 97.62,
+      "text": "Una atacante que explota este fallo puede tomar control de los buzones de correo de toda la empresa. Leer correos internos, enviar mensajes haciendo se pasar por cualquier empleado y descargar archivos adjuntos con información sensible.",
+      "ref": "sombra",
+      "scene": "The shadow-hacker holding a glowing envelope icon and a folder icon at once, silhouette only, glowing yellow eyes."
+    },
+    {
+      "file": "1_51.jpg",
+      "startSec": 111.08,
+      "text": "Y según los investigadores que lo analizaron, el fallo se puede encadenar hasta conseguir el control total del servidor,",
+      "ref": "sombra",
+      "scene": "The shadow-hacker standing on top of a large server-tower icon, arms raised, silhouette only, glowing yellow eyes."
+    },
+    {
+      "file": "1_57.jpg",
+      "startSec": 117.5,
+      "text": "con los permisos más altos posibles.",
+      "ref": "none",
+      "scene": "A crown icon glowing on top of a server-tower icon, no characters, no text."
+    },
+    {
+      "file": "2_00.jpg",
+      "startSec": 120.14,
+      "text": "Todo eso, sin necesitar ni una sola credencia al válida de partida.",
+      "ref": "sombra",
+      "scene": "The shadow-hacker holding a crossed-out key icon, unimpressed, silhouette only, glowing yellow eyes."
+    },
+    {
+      "file": "2_05.jpg",
+      "startSec": 125.0,
+      "text": "Según los últimos escaneos públicos de la Organización Sado Server,",
+      "ref": "none",
+      "scene": "A magnifying glass icon scanning a simple world map outline, no characters, no text."
+    },
+    {
+      "file": "2_08.jpg",
+      "startSec": 128.7,
+      "text": "a finales de agosto había casi 22 .000 servidores expuestos en todo el mundo.",
+      "ref": "mono",
+      "scene": "Close-up: Sara looking at a world map outline with many small red dots, worried expression."
+    },
+    {
+      "file": "2_13.jpg",
+      "startSec": 133.5,
+      "text": "Estados Unidos encabeza la lista,",
+      "ref": "none",
+      "scene": "A single large star icon over a simple outline shape representing a country, no characters, no flag, no text."
+    },
+    {
+      "file": "2_15.jpg",
+      "startSec": 135.78,
+      "text": "con más de 6 .000 servidores vulnerables.",
+      "ref": "mono",
+      "scene": "Close-up: Sara pointing at a cluster of red dots, explaining, serious."
+    },
+    {
+      "file": "2_18.jpg",
+      "startSec": 138.32,
+      "text": "Alemania le sigue de cerca, con más de 5 .000.",
+      "ref": "none",
+      "scene": "A smaller cluster of red dots grouped together, no characters, no numbers."
+    },
+    {
+      "file": "2_21.jpg",
+      "startSec": 141.66,
+      "text": "Estos no son números de un informe cualquiera,",
+      "ref": "mono",
+      "scene": "Close-up: Sara looking serious, making a point."
+    },
+    {
+      "file": "2_24.jpg",
+      "startSec": 144.22,
+      "text": "son escaneos reales de internet, hechos día a día.",
+      "ref": "none",
+      "scene": "A magnifying glass icon scanning rows of small server-tower icons, no characters, no text."
+    },
+    {
+      "file": "2_27.jpg",
+      "startSec": 147.82,
+      "text": "Y lo más preocupante es que el exploit, el programa que aprovecha este fallo, ya está circulando públicamente.",
+      "ref": "sombra",
+      "scene": "The shadow-hacker holding a glowing exploit-code icon up high, silhouette only, glowing yellow eyes, confident."
+    },
+    {
+      "file": "2_34.jpg",
+      "startSec": 154.76,
+      "text": "Eso significa que no hace falta ser un atacante sofisticado para usarlo,",
+      "ref": "mono",
+      "scene": "Close-up: Sara shrugging, matter-of-fact expression."
+    },
+    {
+      "file": "2_38.jpg",
+      "startSec": 158.86,
+      "text": "sólo hace falta saber que el fallo existe.",
+      "ref": "mono",
+      "scene": "Close-up: Sara nodding, serious, confirming a simple point."
+    },
+    {
+      "file": "2_42.jpg",
+      "startSec": 162.08,
+      "text": "Aquí viene la parte que de verdad importa,",
+      "ref": "mono",
+      "scene": "Medium shot: Sara leaning toward the camera, about to give practical advice, serious."
+    },
+    {
+      "file": "2_44.jpg",
+      "startSec": 164.68,
+      "text": "que puedes hacer tus y gestionas o trabajas cerca de un servidor exchange.",
+      "ref": "mono",
+      "scene": "Close-up: Sara raising one eyebrow, posing a question to the viewer."
+    },
+    {
+      "file": "2_49.jpg",
+      "startSec": 169.28,
+      "text": "Primero, y más importante,",
+      "ref": "mono",
+      "scene": "Close-up: Sara holding up one finger, counting, explaining."
+    },
+    {
+      "file": "2_51.jpg",
+      "startSec": 171.24,
+      "text": "instala el parche de seguridad de agosto de 2026 si todavía no lo has hecho.",
+      "ref": "none",
+      "scene": "A server-tower icon with a glowing shield patch being applied on top of it, no characters, no text."
+    },
+    {
+      "file": "2_56.jpg",
+      "startSec": 176.36,
+      "text": "Microsoft ya publicó la solución,",
+      "ref": "mono",
+      "scene": "Close-up: Sara nodding, relieved, direct at camera."
+    },
+    {
+      "file": "2_58.jpg",
+      "startSec": 178.68,
+      "text": "el problema en la mayoría de los casos no es la falta de parche,",
+      "ref": "none",
+      "scene": "A crossed-out clock icon, no characters, no dates."
+    },
+    {
+      "file": "3_02.jpg",
+      "startSec": 182.34,
+      "text": "es la falta de tiempo para aplicarlo.",
+      "ref": "mono",
+      "scene": "Close-up: Sara looking tired, sympathetic expression."
+    },
+    {
+      "file": "3_04.jpg",
+      "startSec": 184.88,
+      "text": "Segundo,",
+      "ref": "mono",
+      "scene": "Close-up: Sara holding up two fingers, counting, explaining."
+    },
+    {
+      "file": "3_05.jpg",
+      "startSec": 185.9,
+      "text": "si administras un servidor exchange,",
+      "ref": "none",
+      "scene": "A server-tower icon with a small gear icon representing administration, no characters, no text."
+    },
+    {
+      "file": "3_08.jpg",
+      "startSec": 188.16,
+      "text": "revisa los registros de acceso en busca de patrones de autenticación repetidos o extraños.",
+      "ref": "none",
+      "scene": "A magnifying glass icon scanning a list of glowing log-entry lines, no characters, no readable text."
+    },
+    {
+      "file": "3_13.jpg",
+      "startSec": 193.5,
+      "text": "Tercero, y esto vale para cualquier sistema crítico,",
+      "ref": "mono",
+      "scene": "Close-up: Sara holding up three fingers, counting, confident."
+    },
+    {
+      "file": "3_16.jpg",
+      "startSec": 196.8,
+      "text": "nunca asumas que porque algo lleva años funcionando,",
+      "ref": "none",
+      "scene": "A crossed-out clock icon beside an old server-tower icon, no characters, no dates."
+    },
+    {
+      "file": "3_19.jpg",
+      "startSec": 199.74,
+      "text": "sigue siendo seguro hoy.",
+      "ref": "mono",
+      "scene": "Close-up: Sara raising an eyebrow, skeptical, direct at camera."
+    },
+    {
+      "file": "3_21.jpg",
+      "startSec": 201.68,
+      "text": "Las vulnerabilidades no avisan antes de aparecer,",
+      "ref": "none",
+      "scene": "A single warning triangle icon appearing suddenly, no characters, no text."
+    },
+    {
+      "file": "3_24.jpg",
+      "startSec": 204.5,
+      "text": "y los parches no se instalan solos.",
+      "ref": "none",
+      "scene": "A crossed-out robot-arm icon, no characters, no text."
+    },
+    {
+      "file": "3_27.jpg",
+      "startSec": 207.56,
+      "text": "Lo interesante de este caso no es solo la vulnerabilidad en sí,",
+      "ref": "mono",
+      "scene": "Close-up: Sara leaning in, intrigued, about to explain something deeper."
+    },
+    {
+      "file": "3_31.jpg",
+      "startSec": 211.16,
+      "text": "cada mes aparece en decenas como esta. Es la brecha de tiempo entre que existe una solución y que esa solución se aplica de verdad.",
+      "ref": "none",
+      "scene": "A row of several identical warning triangle icons next to a gap icon leading toward a shield icon, no characters, no text."
+    },
+    {
+      "file": "3_39.jpg",
+      "startSec": 219.12,
+      "text": "Un parche publicado no protege a nadie hasta que se instala,",
+      "ref": "mono",
+      "scene": "Close-up: Sara looking at an inactive shield icon lying flat, concerned expression."
+    },
+    {
+      "file": "3_42.jpg",
+      "startSec": 222.52,
+      "text": "y ese hueco entre el aviso y la acción es donde viven la mayoría de los ataques reales.",
+      "ref": "none",
+      "scene": "A gap icon between a warning triangle and a shield icon, no characters, no text."
+    },
+    {
+      "file": "3_48.jpg",
+      "startSec": 228.3,
+      "text": "22 .000 servidores no cayeron por falta de aviso,",
+      "ref": "mono",
+      "scene": "Wide shot: Sara standing next to a stack of server-tower icons cracking apart, serious."
+    },
+    {
+      "file": "3_51.jpg",
+      "startSec": 231.64,
+      "text": "cayeron por falta de tiempo, de personal o simplemente de prioridad.",
+      "ref": "none",
+      "scene": "A single hourglass icon with the sand almost empty next to a crossed-out briefcase icon, no characters, no dates."
+    },
+    {
+      "file": "3_56.jpg",
+      "startSec": 236.42,
+      "text": "Y ese es un problema mucho más humano que técnico.",
+      "ref": "mono",
+      "scene": "Close-up: Sara nodding slowly, understanding, serious."
+    },
+    {
+      "file": "3_59.jpg",
+      "startSec": 239.66,
+      "text": "Así que si trabajas cerca de sistemas de correo empresarial o simplemente conoces a alguien que lo hace,",
+      "ref": "mono",
+      "scene": "Wide shot: Sara standing next to a glowing envelope icon, explaining, serious. Crude flat-color cartoon style, thick black outlines, no soft shading or gradient rendering, exactly matching the reference image style."
+    },
+    {
+      "file": "4_05.jpg",
+      "startSec": 245.44,
+      "text": "este es el tipo de aviso que vale la pena compartir hoy mismo, no la semana que viene.",
+      "ref": "mono",
+      "scene": "Close-up: Sara looking directly at camera, urgent expression."
+    },
+    {
+      "file": "4_10.jpg",
+      "startSec": 250.74,
+      "text": "Porque el exploit ya está ahí fuera,",
+      "ref": "none",
+      "scene": "A single warning triangle icon glowing steadily, no characters, no text."
+    },
+    {
+      "file": "4_13.jpg",
+      "startSec": 253.22,
+      "text": "y la única diferencia entre estar protegido y no estarlo es haber aplicado el parche a tiempo.",
+      "ref": "mono",
+      "scene": "Extreme close-up of Sara's face, serious, direct at camera, making an important point."
+    },
+    {
+      "file": "4_19.jpg",
+      "startSec": 259.16,
+      "text": "Si esto te ha parecido útil, suscríbete,",
+      "ref": "mono",
+      "scene": "Medium shot: Sara smiling warmly at the camera holding a phone showing a glowing bell icon and the word 'SUSCRIBETE' in Spanish (never English, never the word Subscribe), a glowing bell icon beside it."
+    },
+    {
+      "file": "4_21.jpg",
+      "startSec": 261.82,
+      "text": "se viene más de este mundo.",
+      "ref": "mono",
+      "scene": "Medium shot: Sara waving goodbye happily at the camera, bright white background, warm close."
+    }
+  ]
+}

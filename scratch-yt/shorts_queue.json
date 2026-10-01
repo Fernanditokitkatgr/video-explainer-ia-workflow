@@ -1,0 +1,214 @@
+{
+  "shorts": [
+    {
+      "video": "que-hace-ai-engineer",
+      "file": "short_1.mp4",
+      "youtube_id": "nqk48swipf0",
+      "publish_at": "2026-09-30T19:00:00Z",
+      "long_id": "o1TZdNLJdgU"
+    },
+    {
+      "video": "que-hace-ai-engineer",
+      "file": "short_2.mp4",
+      "youtube_id": "MzCmt787Djo",
+      "publish_at": "2026-10-01T11:00:00Z",
+      "long_id": "o1TZdNLJdgU"
+    },
+    {
+      "video": "gemini-hackeo-tres-empresas",
+      "file": "short_1.mp4",
+      "youtube_id": "Jjr8wezFRLQ",
+      "publish_at": "2026-09-29T19:00:00Z",
+      "long_id": "5JDaLrApFpg"
+    },
+    {
+      "video": "gemini-hackeo-tres-empresas",
+      "file": "short_2.mp4",
+      "youtube_id": "LuAg1R-ja7Q",
+      "publish_at": "2026-09-30T11:00:00Z",
+      "long_id": "5JDaLrApFpg"
+    },
+    {
+      "video": "agentes-openai-wiki-alemana",
+      "file": "short_1.mp4",
+      "youtube_id": "XfCh4W_RGVU",
+      "publish_at": "2026-10-01T19:00:00Z",
+      "long_id": "Hr72evJ4es0"
+    },
+    {
+      "video": "agentes-openai-wiki-alemana",
+      "file": "short_2.mp4",
+      "youtube_id": "ehOSHuFSOd8",
+      "publish_at": "2026-10-02T11:00:00Z",
+      "long_id": "Hr72evJ4es0"
+    },
+    {
+      "video": "que-hace-analista-soc",
+      "file": "short_1.mp4",
+      "youtube_id": "MhupsYOg7ww",
+      "publish_at": "2026-10-02T19:00:00Z",
+      "long_id": "CkhdXOBQbwE"
+    },
+    {
+      "video": "que-hace-analista-soc",
+      "file": "short_2.mp4",
+      "youtube_id": "WntlMjEeDog",
+      "publish_at": "2026-10-03T11:00:00Z",
+      "long_id": "CkhdXOBQbwE"
+    },
+    {
+      "video": "que-hace-data-analyst",
+      "file": "short_1.mp4",
+      "youtube_id": "DxMWOaNqhEQ",
+      "publish_at": "2026-10-03T19:00:00Z",
+      "long_id": "G02OgGNDI48"
+    },
+    {
+      "video": "que-hace-data-analyst",
+      "file": "short_2.mp4",
+      "youtube_id": "g0q2W0YmAh4",
+      "publish_at": "2026-10-04T11:00:00Z",
+      "long_id": "G02OgGNDI48"
+    },
+    {
+      "video": "ia-identidades-falsas-desarrollador",
+      "file": "short_1.mp4",
+      "youtube_id": "j2Zz-r518Hk",
+      "publish_at": "2026-10-04T19:00:00Z",
+      "long_id": "_NCZ4cyac2g"
+    },
+    {
+      "video": "ia-identidades-falsas-desarrollador",
+      "file": "short_2.mp4",
+      "youtube_id": "lSN0ODYpK3E",
+      "publish_at": "2026-10-05T11:00:00Z",
+      "long_id": "_NCZ4cyac2g"
+    },
+    {
+      "video": "que-hace-machine-learning-engineer",
+      "file": "short_1.mp4",
+      "youtube_id": "Yhozik_kwck",
+      "publish_at": "2026-10-05T19:00:00Z",
+      "long_id": "k3daD745mvs"
+    },
+    {
+      "video": "que-hace-machine-learning-engineer",
+      "file": "short_2.mp4",
+      "youtube_id": "Q18bUKhLRMs",
+      "publish_at": "2026-10-06T11:00:00Z",
+      "long_id": "k3daD745mvs"
+    },
+    {
+      "video": "ia-se-declaro-liberada",
+      "file": "short_1.mp4",
+      "youtube_id": "TgLt7Bzjgh8",
+      "publish_at": "2026-10-06T19:00:00Z",
+      "long_id": "Ytsh4bESqow"
+    },
+    {
+      "video": "ia-se-declaro-liberada",
+      "file": "short_2.mp4",
+      "youtube_id": "tY57UA32O3w",
+      "publish_at": "2026-10-07T11:00:00Z",
+      "long_id": "Ytsh4bESqow"
+    },
+    {
+      "video": "que-hace-prompt-engineer",
+      "file": "short_1.mp4",
+      "youtube_id": "SKZT2FFilpQ",
+      "publish_at": "2026-10-07T19:00:00Z",
+      "long_id": "xZF7rOQw2yA"
+    },
+    {
+      "video": "que-hace-prompt-engineer",
+      "file": "short_2.mp4",
+      "youtube_id": "Qe1HHGu9c1c",
+      "publish_at": "2026-10-08T11:00:00Z",
+      "long_id": "xZF7rOQw2yA"
+    },
+    {
+      "video": "asml-maquina-mas-importante",
+      "file": "short_1.mp4",
+      "youtube_id": "e7nx7urCNF0",
+      "publish_at": "2026-10-08T19:00:00Z",
+      "long_id": "OSP7p4Aw7FI"
+    },
+    {
+      "video": "asml-maquina-mas-importante",
+      "file": "short_2.mp4",
+      "youtube_id": "16zA25WtYRg",
+      "publish_at": "2026-10-09T11:00:00Z",
+      "long_id": "OSP7p4Aw7FI"
+    },
+    {
+      "video": "que-hay-dentro-de-un-procesador",
+      "file": "short_1.mp4",
+      "youtube_id": "NOf1Lvra-Ug",
+      "publish_at": "2026-10-09T19:00:00Z",
+      "long_id": "eGtu0pOTrz4"
+    },
+    {
+      "video": "que-hay-dentro-de-un-procesador",
+      "file": "short_2.mp4",
+      "youtube_id": "zT3vz7Io7pg",
+      "publish_at": "2026-10-10T11:00:00Z",
+      "long_id": "eGtu0pOTrz4"
+    },
+    {
+      "video": "como-funciona-internet-cables-submarinos",
+      "file": "short_1.mp4",
+      "youtube_id": "SFnHBYTZLrc",
+      "publish_at": "2026-10-10T19:00:00Z",
+      "long_id": "ovZSKlfh_9k"
+    },
+    {
+      "video": "como-funciona-internet-cables-submarinos",
+      "file": "short_2.mp4",
+      "youtube_id": "fN3alB7w8vg",
+      "publish_at": "2026-10-11T11:00:00Z",
+      "long_id": "ovZSKlfh_9k"
+    },
+    {
+      "video": "que-pasa-cuando-escribes-en-chatgpt",
+      "file": "short_1.mp4",
+      "youtube_id": "2ixFgAPeLpA",
+      "publish_at": "2026-10-11T19:00:00Z",
+      "long_id": "YHxEW_TZ2ik"
+    },
+    {
+      "video": "que-pasa-cuando-escribes-en-chatgpt",
+      "file": "short_2.mp4",
+      "youtube_id": "bLxIVv6nFiU",
+      "publish_at": "2026-10-12T11:00:00Z",
+      "long_id": "YHxEW_TZ2ik"
+    },
+    {
+      "video": "asi-adivinan-tu-contrasena",
+      "file": "short_1.mp4",
+      "youtube_id": "8JSGR4Ym6bc",
+      "publish_at": "2026-10-12T19:00:00Z",
+      "long_id": "SjU7TvgSGFg"
+    },
+    {
+      "video": "asi-adivinan-tu-contrasena",
+      "file": "short_2.mp4",
+      "youtube_id": "i1aPsuKSOqc",
+      "publish_at": "2026-10-13T11:00:00Z",
+      "long_id": "SjU7TvgSGFg"
+    },
+    {
+      "video": "como-funciona-el-gps",
+      "file": "short_1.mp4",
+      "youtube_id": "z4TizvslA3o",
+      "publish_at": "2026-10-13T19:00:00Z",
+      "long_id": "aCc7_j0UskU"
+    },
+    {
+      "video": "como-funciona-el-gps",
+      "file": "short_2.mp4",
+      "youtube_id": "hVoHgrp5X_s",
+      "publish_at": "2026-10-14T11:00:00Z",
+      "long_id": "aCc7_j0UskU"
+    }
+  ]
+}

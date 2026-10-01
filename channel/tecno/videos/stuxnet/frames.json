@@ -1,0 +1,482 @@
+{
+  "video": "stuxnet",
+  "style_base": "Crude hand-drawn cartoon, Ecomonos style, PURE WHITE background, thick black ink outlines, flat colors. A brown cartoon monkey protagonist, huge white round eyes, exactly like the reference image, NO clothing of any kind. Exactly two arms and two hands per character. Any text that appears in the image must be in PERFECT SPANISH, never English, and only when the scene explicitly asks for specific words. Fill the whole frame, no black bars. CRITICAL: NEVER draw a calendar, a torn-calendar page, or any day-counter with a number on it unless the scene explicitly asks for one. CRITICAL about the shadow figure representing the anonymous attacker/nation-state actor: its face must ALWAYS stay completely hidden inside a black hood silhouette — never draw visible skin, a nose, a mouth, or any facial features. Only two glowing YELLOW eyes are visible, nothing else, and its body/hood is always solid BLACK, never white or gray. Never place two characters in a scene that says 'no characters' — treat that literally, icon-only, no monkey, no hacker, no people at all in those frames. Never add a speech bubble, caption, or extra label unless the scene explicitly asks for one.",
+  "frames": [
+    {
+      "file": "0_00.jpg",
+      "startSec": 0.0,
+      "text": "En 2010, un virus informático hizo algo que nadie creía posible.",
+      "ref": "none",
+      "scene": "A large industrial plant icon cracking apart with jagged lines, no characters, no text."
+    },
+    {
+      "file": "0_04.jpg",
+      "startSec": 4.76,
+      "text": "Destruyó máquinas físicas en el mundo real,",
+      "ref": "none",
+      "scene": "A single gear icon breaking into pieces, no characters."
+    },
+    {
+      "file": "0_07.jpg",
+      "startSec": 7.72,
+      "text": "sin que nadie tocara un solo botón dentro del edificio.",
+      "ref": "mono",
+      "scene": "Close-up: Sara looking around, puzzled, curious, no one else in frame."
+    },
+    {
+      "file": "0_11.jpg",
+      "startSec": 11.36,
+      "text": "No robó datos,",
+      "ref": "none",
+      "scene": "A blank folder icon with a red X over a dollar sign, no characters, no text."
+    },
+    {
+      "file": "0_12.jpg",
+      "startSec": 12.66,
+      "text": "no pidió un rescate.",
+      "ref": "none",
+      "scene": "A blank ransom note icon with a red X over it, no characters, no readable text."
+    },
+    {
+      "file": "0_14.jpg",
+      "startSec": 14.7,
+      "text": "Solo tenía una mesión y la cumplió en silencio durante meses.",
+      "ref": "sombra",
+      "scene": "The shadow-hacker standing still and patient, arms at sides, entire body and hood solid BLACK silhouette (never brown, never a monkey shape), glowing yellow eyes, calm and waiting."
+    },
+    {
+      "file": "0_19.jpg",
+      "startSec": 19.74,
+      "text": "Hoy vamos a contar cómo se descubrió el arma informática más sofisticada, jamás creada,",
+      "ref": "mono",
+      "scene": "Wide shot: Sara standing next to a glowing padlock icon, curious, ready to explain."
+    },
+    {
+      "file": "0_25.jpg",
+      "startSec": 25.06,
+      "text": "y por qué se descubrió por puro accidente.",
+      "ref": "mono",
+      "scene": "Close-up: Sara smiling and shrugging with both hands up, playful, direct at camera. Sara is the brown cartoon monkey exactly like the reference image, NEVER a human character."
+    },
+    {
+      "file": "0_28.jpg",
+      "startSec": 28.46,
+      "text": "Todo empieza en una planta de enriquecimiento de uranio en Natanz, Irán.",
+      "ref": "none",
+      "scene": "A single large industrial building icon labeled exactly in Spanish 'NATANZ, IRAN', no characters."
+    },
+    {
+      "file": "0_33.jpg",
+      "startSec": 33.72,
+      "text": "Miles de centrifugadoras giraban día y noche a una velocidad altísima,",
+      "ref": "none",
+      "scene": "Rows of tall spinning cylinder icons representing centrifuges, motion lines showing fast rotation, no characters."
+    },
+    {
+      "file": "0_37.jpg",
+      "startSec": 37.7,
+      "text": "separando el uranio que Irán necesitaba para su programa nuclear.",
+      "ref": "mono",
+      "scene": "Wide shot: Sara standing next to a giant spinning cylinder icon, impressed, curious. Sara is the brown cartoon monkey exactly like the reference image, NEVER a human character."
+    },
+    {
+      "file": "0_42.jpg",
+      "startSec": 42.06,
+      "text": "A finales de 2009,",
+      "ref": "none",
+      "scene": "A single gear icon slightly cracked, quiet scene, no characters, no dates, no calendar."
+    },
+    {
+      "file": "0_43.jpg",
+      "startSec": 43.66,
+      "text": "esas centrifugadoras empezaron a romperse.",
+      "ref": "none",
+      "scene": "A single spinning cylinder icon with a crack forming down the middle, no characters."
+    },
+    {
+      "file": "0_46.jpg",
+      "startSec": 46.56,
+      "text": "Una detrás de otra sin motivo aparente.",
+      "ref": "mono",
+      "scene": "Close-up: Sara watching, worried, counting on her fingers, curious."
+    },
+    {
+      "file": "0_49.jpg",
+      "startSec": 49.66,
+      "text": "Los ingenieros revisaban cada pieza, cada motor,",
+      "ref": "mono",
+      "scene": "Close-up: Sara inspecting a small gear and screw with a magnifying glass, focused, curious."
+    },
+    {
+      "file": "0_52.jpg",
+      "startSec": 52.86,
+      "text": "cada cable. Todo parecía perfecto, y aún así seguían fallando.",
+      "ref": "mono",
+      "scene": "Wide shot: Sara standing back, arms crossed, puzzled at a row of machines, everything looks fine expression."
+    },
+    {
+      "file": "0_58.jpg",
+      "startSec": 58.18,
+      "text": "Lo que nadie sabía todavía es que el problema no estaba en las máquinas,",
+      "ref": "mono",
+      "scene": "Close-up: Sara pointing away from a machine icon and toward a small screen icon instead, realizing something, curious."
+    },
+    {
+      "file": "1_02.jpg",
+      "startSec": 62.4,
+      "text": "estaba en el código que las controlaba.",
+      "ref": "none",
+      "scene": "A screen icon with abstract wavy scribble lines representing code (not readable text), no characters."
+    },
+    {
+      "file": "1_04.jpg",
+      "startSec": 64.98,
+      "text": "Ese código vivía dentro de un sistema industrial llamado Escada,",
+      "ref": "mono",
+      "scene": "Close-up: Sara pointing at a screen icon labeled exactly in Spanish 'SISTEMA SCADA', explaining, serious. Sara is the brown cartoon monkey exactly like the reference image, NEVER a human character. Only Sara appears, no other character."
+    },
+    {
+      "file": "1_09.jpg",
+      "startSec": 69.04,
+      "text": "el tipo de software que controlas fábricas, plantas eléctricas y en este caso centrifugadoras nucleares.",
+      "ref": "none",
+      "scene": "Three icons in a row: a factory, a power-plant tower, and a spinning cylinder, all connected to one control-screen icon, no characters."
+    },
+    {
+      "file": "1_15.jpg",
+      "startSec": 75.84,
+      "text": "Un gusano informático se había colado ahí dentro y hacía dos cosas a la vez con una precisión quirúrgica.",
+      "ref": "sombra",
+      "scene": "The shadow-hacker holding two glowing threads, one in each hand, silhouette only, glowing yellow eyes, focused, doing two things at once."
+    },
+    {
+      "file": "1_22.jpg",
+      "startSec": 82.84,
+      "text": "Primero, aceleraba y frenaba las centrifugadoras de forma errática hasta que la fricción las destruía por dentro.",
+      "ref": "none",
+      "scene": "A spinning cylinder icon speeding up and slowing down erratically, jagged motion lines, cracking apart, no characters."
+    },
+    {
+      "file": "1_29.jpg",
+      "startSec": 89.68,
+      "text": "Y segundo, mientras tanto,",
+      "ref": "sombra",
+      "scene": "The shadow-hacker with one hand pointing at a control-screen icon showing a green checkmark, silhouette only, glowing yellow eyes, no visible mouth or smile, face completely hidden in shadow."
+    },
+    {
+      "file": "1_31.jpg",
+      "startSec": 91.7,
+      "text": "le mostraba a los operarios en sus pantallas de control que todo funcionaba con total normalidad.",
+      "ref": "none",
+      "scene": "A control-screen icon glowing green with a checkmark, calm and normal-looking, no characters."
+    },
+    {
+      "file": "1_37.jpg",
+      "startSec": 97.68,
+      "text": "Los ingenieros miraban un panel que decía que todo iba bien,",
+      "ref": "mono",
+      "scene": "Close-up: Sara looking at a calm green screen icon, relieved but slightly puzzled, curious."
+    },
+    {
+      "file": "1_41.jpg",
+      "startSec": 101.04,
+      "text": "mientras a pocos metros las máquinas se destrozaban solas.",
+      "ref": "none",
+      "scene": "Behind a calm green screen icon, a small spinning cylinder icon cracking apart in contrast, no characters."
+    },
+    {
+      "file": "1_45.jpg",
+      "startSec": 105.36,
+      "text": "Para lograr algo así,",
+      "ref": "mono",
+      "scene": "Close-up: Sara raising one finger, about to explain, curious."
+    },
+    {
+      "file": "1_46.jpg",
+      "startSec": 106.82,
+      "text": "el virus necesitaba entrar en una red que ni siquiera estaba conectada a Internet.",
+      "ref": "none",
+      "scene": "A network of glowing lines completely disconnected from a small globe icon, a visible gap between them, no characters."
+    },
+    {
+      "file": "1_51.jpg",
+      "startSec": 111.7,
+      "text": "Natanz usaba lo que se llama un ERGAP,",
+      "ref": "sombra",
+      "scene": "The shadow-hacker standing at the edge of a large gap between two platforms labeled exactly in Spanish 'RED INTERNA' and 'INTERNET', silhouette only, glowing yellow eyes, studying the gap."
+    },
+    {
+      "file": "1_54.jpg",
+      "startSec": 114.9,
+      "text": "una separación física total respecto al exterior,",
+      "ref": "none",
+      "scene": "A thick wall icon standing between two glowing network zones, no characters, no text."
+    },
+    {
+      "file": "1_57.jpg",
+      "startSec": 117.86,
+      "text": "precisamente para evitar esto.",
+      "ref": "mono",
+      "scene": "Close-up: Sara nodding, understanding, serious, direct at camera."
+    },
+    {
+      "file": "2_00.jpg",
+      "startSec": 120.08,
+      "text": "StaxNet saltó ese muro usando algo tan simple como memoria USB infectadas que alguien conectó dentro de la planta sin saberlo.",
+      "ref": "sombra",
+      "scene": "The shadow-hacker holding a small USB drive icon, offering it forward, silhouette only, glowing yellow eyes, sly."
+    },
+    {
+      "file": "2_09.jpg",
+      "startSec": 129.62,
+      "text": "Y para moverse sin ser detectado usaba cuatro vulnerabilidades de windows que nadie conocía todavía ni siquiera Microsoft.",
+      "ref": "none",
+      "scene": "Four small padlock icons breaking open in a row, each cracking one after another, no characters."
+    },
+    {
+      "file": "2_17.jpg",
+      "startSec": 137.2,
+      "text": "Cuatro agujeros de seguridad nunca vistos, gastados de golpe en un solo ataque.",
+      "ref": "none",
+      "scene": "Four keyhole icons glowing red, arranged in a row, no characters, no text."
+    },
+    {
+      "file": "2_22.jpg",
+      "startSec": 142.6,
+      "text": "Eso, por sí solo,",
+      "ref": "mono",
+      "scene": "Close-up: Sara raising both eyebrows, impressed, direct at camera."
+    },
+    {
+      "file": "2_23.jpg",
+      "startSec": 143.98,
+      "text": "ya era una locura de recursos.",
+      "ref": "mono",
+      "scene": "Wide shot: Sara standing next to a tall stack of coins and gears representing huge resources, impressed. Sara is the brown cartoon monkey exactly like the reference image, NEVER a human character."
+    },
+    {
+      "file": "2_26.jpg",
+      "startSec": 146.86,
+      "text": "Y aquí está la parte que de verdad demuestra lo quirúrgico que era este código.",
+      "ref": "mono",
+      "scene": "Close-up: Sara leaning toward the camera with wide curious eyes, about to share a secret."
+    },
+    {
+      "file": "2_31.jpg",
+      "startSec": 151.82,
+      "text": "StaxNet no atacaba cualquier sistema industrial que encontraba a su paso, comprobaba antes de hacer nada si esa configuración exacta de centrifugadoras coincidía con la de Natanz. Si no coincidía, se quedaba completamente dormido sin hacer absolutamente nada,",
+      "ref": "none",
+      "scene": "A single spinning cylinder icon fading into a dormant sleep symbol 'zzz' above it, no characters, no other text."
+    },
+    {
+      "file": "2_46.jpg",
+      "startSec": 166.94,
+      "text": "esperando.",
+      "ref": "none",
+      "scene": "A single dormant gear icon, still and quiet, small sleep 'zzz' symbol above it, no characters, no other text."
+    },
+    {
+      "file": "2_48.jpg",
+      "startSec": 168.08,
+      "text": "Eso significa que quien lo creó no quería causar daño en general,",
+      "ref": "mono",
+      "scene": "Close-up: Sara shaking her head, serious, explaining calmly, direct at camera."
+    },
+    {
+      "file": "2_52.jpg",
+      "startSec": 172.32,
+      "text": "quería destruir ese objetivo y solo ese objetivo.",
+      "ref": "none",
+      "scene": "A single glowing bullseye target icon with one spinning cylinder icon at its center, nothing else around it, no characters."
+    },
+    {
+      "file": "2_55.jpg",
+      "startSec": 175.96,
+      "text": "Entonces, ¿cómo se descubrió todo esto?",
+      "ref": "mono",
+      "scene": "Close-up: Sara raising one eyebrow, posing a question to the viewer."
+    },
+    {
+      "file": "2_58.jpg",
+      "startSec": 178.72,
+      "text": "Por un error de programación,",
+      "ref": "none",
+      "scene": "A small bug icon crawling out of a line of abstract scribble code, no readable text, no characters."
+    },
+    {
+      "file": "3_00.jpg",
+      "startSec": 180.36,
+      "text": "no por ninguna investigación de seguridad.",
+      "ref": "mono",
+      "scene": "Close-up: Sara grinning and shrugging with palms open, playful expression, direct at camera. Sara is the brown cartoon monkey exactly like the reference image, NEVER a human character."
+    },
+    {
+      "file": "3_02.jpg",
+      "startSec": 182.8,
+      "text": "Una actualización del propio StaxNet hizo que el gusano empezara a propagarse fuera de la planta a ordenadores normales por todo el mundo.",
+      "ref": "none",
+      "scene": "A worm icon spreading outward from a factory icon toward a simple world map outline, no characters, no text."
+    },
+    {
+      "file": "3_10.jpg",
+      "startSec": 190.66,
+      "text": "Una empresa Bielorrusa de Antibirus,",
+      "ref": "mono",
+      "scene": "Medium shot: Sara holding a shield icon labeled exactly in Spanish 'ANTIVIRUS', curious, examining it."
+    },
+    {
+      "file": "3_12.jpg",
+      "startSec": 192.76,
+      "text": "Virus blocada,",
+      "ref": "none",
+      "scene": "A computer screen icon with a magnifying glass over abstract scribble code, no readable text, no characters."
+    },
+    {
+      "file": "3_14.jpg",
+      "startSec": 194.16,
+      "text": "encontró un código extrañísimo en el ordenador de un cliente en Irán en junio de 2010.",
+      "ref": "mono",
+      "scene": "Close-up: Sara looking surprised, eyebrow raised, curious. Sara is the brown cartoon monkey exactly like the reference image, NEVER a human character."
+    },
+    {
+      "file": "3_19.jpg",
+      "startSec": 199.76,
+      "text": "Tiraron del hilo y lo que encontraron de jobo que abierta a toda la industria de la ciberseguridad.",
+      "ref": "mono",
+      "scene": "Extreme close-up of Sara's face, eyes wide, emphasizing shock, direct at camera."
+    },
+    {
+      "file": "3_25.jpg",
+      "startSec": 205.4,
+      "text": "Analistas de todo el mundo empezaron a diseccionar el código durante meses.",
+      "ref": "none",
+      "scene": "A stack of documents being examined one by one under a magnifying glass, no characters, no text."
+    },
+    {
+      "file": "3_29.jpg",
+      "startSec": 209.44,
+      "text": "Y cuanto más miraban,",
+      "ref": "mono",
+      "scene": "Medium shot: Sara turning back to the camera, ready to explain, direct at camera."
+    },
+    {
+      "file": "3_31.jpg",
+      "startSec": 211.06,
+      "text": "menos sentido tenía que esto fuera obra de un ciber criminal cualquiera. La complejidad, los cuatro días cero, el conocimiento específico de equipos industriales de Siemens,",
+      "ref": "none",
+      "scene": "Four glowing keyhole icons and a small factory-gear icon labeled exactly in Spanish 'SIEMENS', arranged together, no characters."
+    },
+    {
+      "file": "3_40.jpg",
+      "startSec": 220.94,
+      "text": "todo apuntaba a un nivel de recursos propio de un estado.",
+      "ref": "none",
+      "scene": "A large flag-like silhouette shape looming behind a small factory icon, representing a nation, no characters, no text."
+    },
+    {
+      "file": "3_44.jpg",
+      "startSec": 224.88,
+      "text": "Investigadores de seguridad con base en el código y en informes periodísticos posteriores apuntaron a una operación conjunta entre Estados Unidos e Israel.",
+      "ref": "sombra",
+      "scene": "The shadow-hacker standing between two flag-like silhouette shapes, silhouette only, glowing yellow eyes, unreadable expression."
+    },
+    {
+      "file": "3_53.jpg",
+      "startSec": 233.5,
+      "text": "Ni un gobierno ni el otro, lo ha confirmado jamás oficialmente,",
+      "ref": "none",
+      "scene": "A courtroom gavel icon crossed out with a red X, a small question mark beside it, no characters."
+    },
+    {
+      "file": "3_57.jpg",
+      "startSec": 237.8,
+      "text": "sigue siendo técnicamente un secreto de estado.",
+      "ref": "none",
+      "scene": "A locked folder icon labeled exactly in Spanish 'SECRETO DE ESTADO', no characters."
+    },
+    {
+      "file": "4_01.jpg",
+      "startSec": 241.36,
+      "text": "El resultado final, según estimaciones de la época,",
+      "ref": "mono",
+      "scene": "Wide shot: Sara standing next to a checklist board with a single check mark, confident, ready to summarize."
+    },
+    {
+      "file": "4_04.jpg",
+      "startSec": 244.6,
+      "text": "fue la destrucción de alrededor de 1000 centrifugadores.",
+      "ref": "none",
+      "scene": "A giant coin medallion with the numeral '1000' and a small cracked cylinder icon beside it, no characters."
+    },
+    {
+      "file": "4_07.jpg",
+      "startSec": 247.94,
+      "text": "Un golpe real al programa nuclear iraní conseguido sin un solo soldado, sin un solo misil,",
+      "ref": "mono",
+      "scene": "Close-up: Sara nodding, serious, direct at camera. Sara is the brown cartoon monkey exactly like the reference image, NEVER a human character."
+    },
+    {
+      "file": "4_13.jpg",
+      "startSec": 253.66,
+      "text": "sin cruzar ninguna frontera física.",
+      "ref": "none",
+      "scene": "A crossed-out border-line icon, meaning no border was crossed, no characters, no text."
+    },
+    {
+      "file": "4_16.jpg",
+      "startSec": 256.26,
+      "text": "Por eso a Staxnet se le considera la primera arma puramente digital de la historia con un daño físico confirmado.",
+      "ref": "mono",
+      "scene": "Extreme close-up of Sara's face, one eyebrow raised, serious, direct at camera. Sara is the brown cartoon monkey exactly like the reference image, NEVER a human character, and never a realistic/anime art style — same crude cartoon style as every other frame."
+    },
+    {
+      "file": "4_22.jpg",
+      "startSec": 262.6,
+      "text": "Y por eso también habría una puerta que ya no se puede cerrar,",
+      "ref": "none",
+      "scene": "A single door icon opening onto a glowing abstract network pattern, no characters, no text."
+    },
+    {
+      "file": "4_26.jpg",
+      "startSec": 266.04,
+      "text": "la de la guerra entre países librada con código en vez de con armas.",
+      "ref": "none",
+      "scene": "Two flag-like silhouette shapes facing each other, connected by a glowing code line instead of a sword, no characters."
+    },
+    {
+      "file": "4_30.jpg",
+      "startSec": 270.2,
+      "text": "Así que la próxima vez que pienses que un virus solo puede robarte datos o pedirte un rescate,",
+      "ref": "mono",
+      "scene": "Close-up: Sara looking at the viewer, thoughtful, posing the idea calmly."
+    },
+    {
+      "file": "4_35.jpg",
+      "startSec": 275.7,
+      "text": "recuerda Natanz.",
+      "ref": "none",
+      "scene": "A single large industrial building icon labeled exactly in Spanish 'NATANZ', quiet and still, no characters."
+    },
+    {
+      "file": "4_37.jpg",
+      "startSec": 277.34,
+      "text": "Ahí un puñado de líneas de código hizo lo que antes solo lograba un ejército,",
+      "ref": "mono",
+      "scene": "Close-up: Sara nodding firmly, confident, direct at camera."
+    },
+    {
+      "file": "4_42.jpg",
+      "startSec": 282.98,
+      "text": "y lo hizo mientras las pantallas de control decían tranquilamente que no pasaban nada.",
+      "ref": "none",
+      "scene": "A calm green control-screen icon in the foreground, small cracked cylinder icons fading in the background, no characters."
+    },
+    {
+      "file": "4_48.jpg",
+      "startSec": 288.62,
+      "text": "Si esto te ha volado la cabeza, suscríbete, se viene más de este mundo.",
+      "ref": "mono",
+      "scene": "Medium shot: Sara smiling warmly at the camera holding a phone, a glowing bell/subscribe icon beside it. Sara is the brown cartoon monkey exactly like the reference image, NEVER a human character."
+    }
+  ]
+}

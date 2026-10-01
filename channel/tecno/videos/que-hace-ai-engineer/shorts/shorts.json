@@ -1,0 +1,24 @@
+{
+  "shorts": [
+    {
+      "file": "short_1.mp4",
+      "titulo": "Un AI Engineer casi nunca entrena una IA",
+      "gancho": "¿ENTRENA IAs?/NO.",
+      "desde": "0_14",
+      "t0": 11.7,
+      "dur": 56.42,
+      "youtube_id": "nqk48swipf0",
+      "publish_at": "2026-09-30T19:00:00Z"
+    },
+    {
+      "file": "short_2.mp4",
+      "titulo": "¿Cuánto cobra un AI Engineer en España?",
+      "gancho": "71.000 €/AL AÑO",
+      "desde": "4_16",
+      "t0": 214.1,
+      "dur": 48.95,
+      "youtube_id": "MzCmt787Djo",
+      "publish_at": "2026-10-01T11:00:00Z"
+    }
+  ]
+}

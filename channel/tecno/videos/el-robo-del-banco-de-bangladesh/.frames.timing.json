@@ -1,0 +1,392 @@
+[
+  {
+    "file": "0_00.jpg",
+    "startSec": 0.0,
+    "text": "En febrero de 2016, alguien intentó robar 951 millones de dólares en una sola noche."
+  },
+  {
+    "file": "0_06.jpg",
+    "startSec": 6.58,
+    "text": "Casi lo consigue,"
+  },
+  {
+    "file": "0_08.jpg",
+    "startSec": 8.02,
+    "text": "se quedó a 81 millones."
+  },
+  {
+    "file": "0_10.jpg",
+    "startSec": 10.2,
+    "text": "Y la diferencia entre esas dos cifras la marcó una sola palabra mal escrita."
+  },
+  {
+    "file": "0_15.jpg",
+    "startSec": 15.4,
+    "text": "Hoy vamos a seguir el rastro completo de ese dinero,"
+  },
+  {
+    "file": "0_18.jpg",
+    "startSec": 18.48,
+    "text": "parada por parada,"
+  },
+  {
+    "file": "0_19.jpg",
+    "startSec": 19.66,
+    "text": "desde un banco en DACA hasta un casino en Manila."
+  },
+  {
+    "file": "0_23.jpg",
+    "startSec": 23.2,
+    "text": "Y al final vas a entender por qué el error más caro de la historia del cibercrimen fue,"
+  },
+  {
+    "file": "0_28.jpg",
+    "startSec": 28.76,
+    "text": "literalmente, un error de ortografía."
+  },
+  {
+    "file": "0_32.jpg",
+    "startSec": 32.2,
+    "text": "Primera parada, el Banco Central de Bangladesh."
+  },
+  {
+    "file": "0_35.jpg",
+    "startSec": 35.26,
+    "text": "Este banco guarda parte de las reservas del país en una cuenta en la reserva federal de Nueva York."
+  },
+  {
+    "file": "0_40.jpg",
+    "startSec": 40.76,
+    "text": "Para mover ese dinero entre bancos usa un sistema llamado Swift,"
+  },
+  {
+    "file": "0_44.jpg",
+    "startSec": 44.84,
+    "text": "la red de mensajes que conecta a casi todos los bancos del mundo."
+  },
+  {
+    "file": "0_48.jpg",
+    "startSec": 48.84,
+    "text": "Meses antes de la traco,"
+  },
+  {
+    "file": "0_50.jpg",
+    "startSec": 50.52,
+    "text": "alguien ya estaba dentro de la red interna del banco, sin que nadie lo supiera."
+  },
+  {
+    "file": "0_54.jpg",
+    "startSec": 54.74,
+    "text": "Entraron con un malware diseñado para una cosa muy concreta,"
+  },
+  {
+    "file": "0_58.jpg",
+    "startSec": 58.6,
+    "text": "controlar el sistema Swift del banco desde dentro."
+  },
+  {
+    "file": "1_01.jpg",
+    "startSec": 61.94,
+    "text": "El equipo de seguridad del banco era pequeño y compartía una red con equipos de oficina normales y corrientes,"
+  },
+  {
+    "file": "1_08.jpg",
+    "startSec": 68.24,
+    "text": "ni siquiera tenían un firewall dedicado."
+  },
+  {
+    "file": "1_11.jpg",
+    "startSec": 71.0,
+    "text": "Puertas de ese tamaño no hacen falta forzarlas,"
+  },
+  {
+    "file": "1_13.jpg",
+    "startSec": 73.92,
+    "text": "sólo hay que encontrar la que nadie cerró."
+  },
+  {
+    "file": "1_17.jpg",
+    "startSec": 77.28,
+    "text": "Siguiente parada, la noche del ataque. Un viernes por la noche, hora de Bangladesh,"
+  },
+  {
+    "file": "1_22.jpg",
+    "startSec": 82.1,
+    "text": "que además coincide con fin de semana allí."
+  },
+  {
+    "file": "1_24.jpg",
+    "startSec": 84.58,
+    "text": "Los atacantes enviaron 35 mensajes Swift fraudulentos,"
+  },
+  {
+    "file": "1_28.jpg",
+    "startSec": 88.82,
+    "text": "pidiendo transferir en total 951 millones de dólares desde la cuenta de Bangladesh en la reserva federal."
+  },
+  {
+    "file": "1_36.jpg",
+    "startSec": 96.3,
+    "text": "Los mensajes parecían legítimos porque técnicamente lo eran,"
+  },
+  {
+    "file": "1_40.jpg",
+    "startSec": 100.1,
+    "text": "estaban firmados con las credenciales reales y robadas del banco. Y para ganar tiempo, el malware hizo algo muy simple y muy efectivo,"
+  },
+  {
+    "file": "1_48.jpg",
+    "startSec": 108.36,
+    "text": "desactivó la impresora que normalmente saca una copia física de cada mensaje Swift."
+  },
+  {
+    "file": "1_53.jpg",
+    "startSec": 113.62,
+    "text": "Sin esa copia en papel,"
+  },
+  {
+    "file": "1_55.jpg",
+    "startSec": 115.3,
+    "text": "nadie en la oficina de Bangladesh iba a notar nada hasta que fuera demasiado tarde."
+  },
+  {
+    "file": "2_00.jpg",
+    "startSec": 120.36,
+    "text": "Siguiente parada, Nueva York."
+  },
+  {
+    "file": "2_03.jpg",
+    "startSec": 123.0,
+    "text": "La reserva federal recibió las 35 órdenes y empezó a procesarlas una detrás de otra. Cinco de ellas, por un total de 81 millones de dólares,"
+  },
+  {
+    "file": "2_12.jpg",
+    "startSec": 132.04,
+    "text": "se completaron y el dinero salió hacia cuentas en Filipinas."
+  },
+  {
+    "file": "2_15.jpg",
+    "startSec": 135.78,
+    "text": "El resto, casi 87 millones más,"
+  },
+  {
+    "file": "2_18.jpg",
+    "startSec": 138.84,
+    "text": "que dobloqueado por un motivo que nadie planeó,"
+  },
+  {
+    "file": "2_21.jpg",
+    "startSec": 141.6,
+    "text": "la lista de sanciones internacionales."
+  },
+  {
+    "file": "2_24.jpg",
+    "startSec": 144.7,
+    "text": "Una de las transferencias iba destinada a una entidad que compartía nombre con una empresa sancionada y eso hizo saltar una alarma automática."
+  },
+  {
+    "file": "2_33.jpg",
+    "startSec": 153.08,
+    "text": "Y aquí llega la parte que de verdad cambió la historia."
+  },
+  {
+    "file": "2_36.jpg",
+    "startSec": 156.2,
+    "text": "Una transferencia de 20 millones de dólares iba destinada a una organización en Esrilanca llamada Shalika Foundation."
+  },
+  {
+    "file": "2_43.jpg",
+    "startSec": 163.6,
+    "text": "Los atacantes, al escribir el mensaje a toda prisa, escribieron mal el nombre,"
+  },
+  {
+    "file": "2_48.jpg",
+    "startSec": 168.48,
+    "text": "pusieron Shalika Foundation con una letra cambiada."
+  },
+  {
+    "file": "2_52.jpg",
+    "startSec": 172.24,
+    "text": "Un empleado del banco intermediario en esa transferencia, el Deutsche Bank,"
+  },
+  {
+    "file": "2_56.jpg",
+    "startSec": 176.88,
+    "text": "vio una palabra mal escrita y, por simple protocolo, pidió confirmación antes de seguir adelante."
+  },
+  {
+    "file": "3_02.jpg",
+    "startSec": 182.8,
+    "text": "Esa pregunta de rutina destapó todo,"
+  },
+  {
+    "file": "3_05.jpg",
+    "startSec": 185.98,
+    "text": "y esa única transferencia de 20 millones se congeló y nunca llegó a salir."
+  },
+  {
+    "file": "3_12.jpg",
+    "startSec": 192.14,
+    "text": "Una palabra."
+  },
+  {
+    "file": "3_13.jpg",
+    "startSec": 193.4,
+    "text": "Una sola palabra mal escrita frenó lo que habría sido de lejos el mayor robo bancario de la historia."
+  },
+  {
+    "file": "3_21.jpg",
+    "startSec": 201.2,
+    "text": "Siguiente parada, Filipinas."
+  },
+  {
+    "file": "3_23.jpg",
+    "startSec": 203.74,
+    "text": "Los 81 millones que sí llegaron a salir, aterrizaron en cuatro cuentas de un banco en Manila,"
+  },
+  {
+    "file": "3_29.jpg",
+    "startSec": 209.46,
+    "text": "abiertas meses antes con nombres falsos."
+  },
+  {
+    "file": "3_32.jpg",
+    "startSec": 212.22,
+    "text": "En cuestión de días,"
+  },
+  {
+    "file": "3_33.jpg",
+    "startSec": 213.5,
+    "text": "ese dinero se movió a casinos y agencias de cambio de moneda."
+  },
+  {
+    "file": "3_37.jpg",
+    "startSec": 217.34,
+    "text": "Los casinos en Filipinas en aquel momento no estaban obligados por ley a reportar movimientos sospechosos de dinero a diferencia de los bancos normales."
+  },
+  {
+    "file": "3_46.jpg",
+    "startSec": 226.44,
+    "text": "Es exactamente el tipo de hueco legal que hace que el dinero,"
+  },
+  {
+    "file": "3_50.jpg",
+    "startSec": 230.36,
+    "text": "una vez dentro de un casino,"
+  },
+  {
+    "file": "3_52.jpg",
+    "startSec": 232.14,
+    "text": "sea casi imposible de rastrear después."
+  },
+  {
+    "file": "3_55.jpg",
+    "startSec": 235.16,
+    "text": "De los 81 millones,"
+  },
+  {
+    "file": "3_57.jpg",
+    "startSec": 237.38,
+    "text": "solo se ha recuperado una fracción pequeña en los años posteriores."
+  },
+  {
+    "file": "4_01.jpg",
+    "startSec": 241.1,
+    "text": "La mayor parte, sencillamente,"
+  },
+  {
+    "file": "4_03.jpg",
+    "startSec": 243.32,
+    "text": "desapareció."
+  },
+  {
+    "file": "4_05.jpg",
+    "startSec": 245.12,
+    "text": "Investigadores de Estados Unidos, incluido el FBI,"
+  },
+  {
+    "file": "4_08.jpg",
+    "startSec": 248.46,
+    "text": "atribuyeron el ataque a un grupo vinculado a Corea del Norte conocido como Lazarus."
+  },
+  {
+    "file": "4_13.jpg",
+    "startSec": 253.54,
+    "text": "El mismo tipo de grupo detrás de otros ataques financieros avancos en distintos países en los años siguientes."
+  },
+  {
+    "file": "4_20.jpg",
+    "startSec": 260.14,
+    "text": "Nunca hubo una condena formal contra individuos concretos, y parte de esa atribución sigue siendo objeto de debate técnico entre expertos."
+  },
+  {
+    "file": "4_28.jpg",
+    "startSec": 268.54,
+    "text": "Pero lo que sí está fuera de toda duda es la ruta exacta que siguió el dinero,"
+  },
+  {
+    "file": "4_33.jpg",
+    "startSec": 273.22,
+    "text": "documentada por investigaciones bancarias y judiciales en varios países."
+  },
+  {
+    "file": "4_38.jpg",
+    "startSec": 278.0,
+    "text": "Así que volvamos a la pregunta del principio."
+  },
+  {
+    "file": "4_41.jpg",
+    "startSec": 281.0,
+    "text": "¿Por qué una franca de ortografías salvo 870 millones de dólares?"
+  },
+  {
+    "file": "4_46.jpg",
+    "startSec": 286.12,
+    "text": "Porque en un sistema diseñado para mover dinero muy rápido entre bancos, casi todo el proceso está automatizado."
+  },
+  {
+    "file": "4_53.jpg",
+    "startSec": 293.7,
+    "text": "La única barrera humana real que quedaba era un empleado leyendo un nombre inotando que algo no encajaba."
+  },
+  {
+    "file": "5_00.jpg",
+    "startSec": 300.1,
+    "text": "Si esa persona no hubiera parado a comprobar una palabra rara,"
+  },
+  {
+    "file": "5_03.jpg",
+    "startSec": 303.92,
+    "text": "hoy estaríamos hablando de un robo de mil millones de dólares,"
+  },
+  {
+    "file": "5_07.jpg",
+    "startSec": 307.52,
+    "text": "no de 81."
+  },
+  {
+    "file": "5_09.jpg",
+    "startSec": 309.28,
+    "text": "La lección no es solo para bancos centrales."
+  },
+  {
+    "file": "5_12.jpg",
+    "startSec": 312.22,
+    "text": "Cualquier sistema automatizado necesita, en algún punto,"
+  },
+  {
+    "file": "5_15.jpg",
+    "startSec": 315.7,
+    "text": "a alguien que se parea comprobar que algo no cuadra."
+  },
+  {
+    "file": "5_19.jpg",
+    "startSec": 319.48,
+    "text": "Si esto te ha sorprendido suscríbete,"
+  },
+  {
+    "file": "5_21.jpg",
+    "startSec": 321.84,
+    "text": "se viene más de este mundo."
+  }
+]

@@ -1,0 +1,699 @@
+{
+  "video": "que-hace-data-analyst",
+  "frames": [
+    {
+      "file": "0_00.jpg",
+      "startSec": 0.0,
+      "text": "Hay un puesto de trabajo del que casi todo el mundo se hace una idea equivocada, y no es por lo que hace.",
+      "scene": "Medium shot: Sara pointing at a plain road icon with a signpost showing two arrows pointing in opposite directions, curious expression. No invented text, no captions, no labels, no numbers, no words of any kind anywhere in this image unless a specific word is explicitly quoted in this description — if none is quoted, draw ZERO text, letters, or digits anywhere in the frame. ONLY Sara and the described object are visible — no extra floating icon unless explicitly part of this description.",
+      "ref": "mono"
+    },
+    {
+      "file": "0_05.jpg",
+      "startSec": 5.82,
+      "text": "Es por lo que la gente cree que es un escalón,",
+      "scene": "Close-up: Sara pointing at a plain staircase icon with one step highlighted, confident expression. No invented text, no captions, no labels, no numbers, no words of any kind anywhere in this image unless a specific word is explicitly quoted in this description — if none is quoted, draw ZERO text, letters, or digits anywhere in the frame. ONLY Sara and the described object are visible — no extra floating icon unless explicitly part of this description.",
+      "ref": "mono"
+    },
+    {
+      "file": "0_08.jpg",
+      "startSec": 8.88,
+      "text": "algo temporal.",
+      "scene": "ONLY this and NOTHING ELSE WHATSOEVER: a plain hourglass icon, small and plain. ABSOLUTELY NO CHARACTERS IN THIS IMAGE unless explicitly stated: no monkey, no Sara, no animal, no person, no face, no hooded figure. Icons only. Flat solid colors with thick black ink outlines on pure white, no gradients, no 3D shading, no drop shadows. The artwork must fill the whole 16:9 frame edge to edge, absolutely NO black bars, NO letterboxing. No invented text, no captions, no labels beyond exactly what this scene asks for, and if a specific word or number is requested, copy it EXACTLY letter by letter.",
+      "ref": "none"
+    },
+    {
+      "file": "0_10.jpg",
+      "startSec": 10.7,
+      "text": "El data analista.",
+      "scene": "Over-the-shoulder shot: Sara pointing at a plain magnifying glass icon over a simple bar-chart icon, serious expression. No invented text, no captions, no labels, no numbers, no words of any kind anywhere in this image unless a specific word is explicitly quoted in this description — if none is quoted, draw ZERO text, letters, or digits anywhere in the frame. ONLY Sara and the described object are visible — no extra floating icon unless explicitly part of this description.",
+      "ref": "mono"
+    },
+    {
+      "file": "0_12.jpg",
+      "startSec": 12.76,
+      "text": "Casi todo el mundo asume que es el peldaño junior de camino a convertirte en Data Scientist. No lo es.",
+      "scene": "Side profile: Sara pointing at a plain crossed-out staircase icon, emphatic expression. No invented text, no captions, no labels, no numbers, no words of any kind anywhere in this image unless a specific word is explicitly quoted in this description — if none is quoted, draw ZERO text, letters, or digits anywhere in the frame. ONLY Sara and the described object are visible — no extra floating icon unless explicitly part of this description.",
+      "ref": "mono"
+    },
+    {
+      "file": "0_19.jpg",
+      "startSec": 19.26,
+      "text": "Vamos a la diferencia real, porque aquí está la clave de todo el vídeo.",
+      "scene": "Medium shot: Sara pointing at a plain compass icon pointing forward and a plain compass icon pointing backward, side by side, surprised expression. No invented text, no captions, no labels, no numbers, no words of any kind anywhere in this image unless a specific word is explicitly quoted in this description — if none is quoted, draw ZERO text, letters, or digits anywhere in the frame. ONLY Sara and the described object are visible — no extra floating icon unless explicitly part of this description.",
+      "ref": "mono"
+    },
+    {
+      "file": "0_23.jpg",
+      "startSec": 23.64,
+      "text": "El Data Scientist mira hacia adelante.",
+      "scene": "Close-up: Sara pointing at a plain telescope icon pointed forward, curious expression. No invented text, no captions, no labels, no numbers, no words of any kind anywhere in this image unless a specific word is explicitly quoted in this description — if none is quoted, draw ZERO text, letters, or digits anywhere in the frame. ONLY Sara and the described object are visible — no extra floating icon unless explicitly part of this description.",
+      "ref": "mono"
+    },
+    {
+      "file": "0_26.jpg",
+      "startSec": 26.48,
+      "text": "Construye modelos que predicen qué va a pasar.",
+      "scene": "ONLY this and NOTHING ELSE WHATSOEVER: a simple bar-chart icon with an upward arrow, plain and generic. ABSOLUTELY NO CHARACTERS IN THIS IMAGE unless explicitly stated: no monkey, no Sara, no animal, no person, no face, no hooded figure. Icons only. Flat solid colors with thick black ink outlines on pure white, no gradients, no 3D shading, no drop shadows. The artwork must fill the whole 16:9 frame edge to edge, absolutely NO black bars, NO letterboxing. No invented text, no captions, no labels beyond exactly what this scene asks for, and if a specific word or number is requested, copy it EXACTLY letter by letter.",
+      "ref": "none"
+    },
+    {
+      "file": "0_29.jpg",
+      "startSec": 29.86,
+      "text": "El Data Analist mira hacia atrás.",
+      "scene": "Over-the-shoulder shot: Sara pointing at a plain rearview-mirror icon, tense expression. No invented text, no captions, no labels, no numbers, no words of any kind anywhere in this image unless a specific word is explicitly quoted in this description — if none is quoted, draw ZERO text, letters, or digits anywhere in the frame. ONLY Sara and the described object are visible — no extra floating icon unless explicitly part of this description.",
+      "ref": "mono"
+    },
+    {
+      "file": "0_32.jpg",
+      "startSec": 32.54,
+      "text": "Analiza lo que ya pasó y lo cuenta de forma que alguien pueda decidir algo con ello.",
+      "scene": "Side profile: Sara pointing at a plain magnifying glass icon over a stack of blank document icons, serious expression. No invented text, no captions, no labels, no numbers, no words of any kind anywhere in this image unless a specific word is explicitly quoted in this description — if none is quoted, draw ZERO text, letters, or digits anywhere in the frame. ONLY Sara and the described object are visible — no extra floating icon unless explicitly part of this description.",
+      "ref": "mono"
+    },
+    {
+      "file": "0_37.jpg",
+      "startSec": 37.82,
+      "text": "Si el Data Scientist predice que tiempo hará mañana,",
+      "scene": "Medium shot: Sara pointing at a plain cloud icon with a small question mark beside it, emphatic expression. No invented text, no captions, no labels, no numbers, no words of any kind anywhere in this image unless a specific word is explicitly quoted in this description — if none is quoted, draw ZERO text, letters, or digits anywhere in the frame. ONLY Sara and the described object are visible — no extra floating icon unless explicitly part of this description.",
+      "ref": "mono"
+    },
+    {
+      "file": "0_40.jpg",
+      "startSec": 40.98,
+      "text": "el Data Analist es quien te dice que ha habido todos los martes de los últimos seis meses.",
+      "scene": "Close-up: Sara pointing at a plain calendar icon with a small rain-cloud icon over it, representing recurring rain on the same day, no numbers, no text, surprised expression. No invented text, no captions, no labels, no numbers, no words of any kind anywhere in this image unless a specific word is explicitly quoted in this description — if none is quoted, draw ZERO text, letters, or digits anywhere in the frame. ONLY Sara and the described object are visible — no extra floating icon unless explicitly part of this description.",
+      "ref": "mono"
+    },
+    {
+      "file": "0_46.jpg",
+      "startSec": 46.22,
+      "text": "Y saber eso, lo de los martes,",
+      "scene": "ONLY this and NOTHING ELSE WHATSOEVER: a plain calendar page icon with a small rain-cloud icon, no numbers, no text. ABSOLUTELY NO CHARACTERS IN THIS IMAGE unless explicitly stated: no monkey, no Sara, no animal, no person, no face, no hooded figure. Icons only. Flat solid colors with thick black ink outlines on pure white, no gradients, no 3D shading, no drop shadows. The artwork must fill the whole 16:9 frame edge to edge, absolutely NO black bars, NO letterboxing. No invented text, no captions, no labels beyond exactly what this scene asks for, and if a specific word or number is requested, copy it EXACTLY letter by letter.",
+      "ref": "none"
+    },
+    {
+      "file": "0_48.jpg",
+      "startSec": 48.36,
+      "text": "puede valer tanto como predecir el tiempo de mañana.",
+      "scene": "Over-the-shoulder shot: Sara pointing at a plain scale/balance icon, both sides level, confident expression. No invented text, no captions, no labels, no numbers, no words of any kind anywhere in this image unless a specific word is explicitly quoted in this description — if none is quoted, draw ZERO text, letters, or digits anywhere in the frame. ONLY Sara and the described object are visible — no extra floating icon unless explicitly part of this description.",
+      "ref": "mono"
+    },
+    {
+      "file": "0_51.jpg",
+      "startSec": 51.1,
+      "text": "A veces más.",
+      "scene": "Side profile: Sara pointing at a plain trophy icon, small and plain, tense expression. No invented text, no captions, no labels, no numbers, no words of any kind anywhere in this image unless a specific word is explicitly quoted in this description — if none is quoted, draw ZERO text, letters, or digits anywhere in the frame. ONLY Sara and the described object are visible — no extra floating icon unless explicitly part of this description.",
+      "ref": "mono"
+    },
+    {
+      "file": "0_52.jpg",
+      "startSec": 52.98,
+      "text": "Vamos con un ejemplo real y muy típico. Una tienda online nota que las ventas del último trimestre bajaron un poco, sin motivo aparente.",
+      "scene": "Medium shot: Sara pointing at a plain shopping-cart icon with a small downward arrow beside it, serious expression. No invented text, no captions, no labels, no numbers, no words of any kind anywhere in this image unless a specific word is explicitly quoted in this description — if none is quoted, draw ZERO text, letters, or digits anywhere in the frame. ONLY Sara and the described object are visible — no extra floating icon unless explicitly part of this description.",
+      "ref": "mono"
+    },
+    {
+      "file": "1_01.jpg",
+      "startSec": 61.38,
+      "text": "El Data Analist no construye un modelo para predecir ventas futuras.",
+      "scene": "ONLY this and NOTHING ELSE WHATSOEVER: a plain gear icon crossed out with a red diagonal line, representing no model being built. ABSOLUTELY NO CHARACTERS IN THIS IMAGE unless explicitly stated: no monkey, no Sara, no animal, no person, no face, no hooded figure. Icons only. Flat solid colors with thick black ink outlines on pure white, no gradients, no 3D shading, no drop shadows. The artwork must fill the whole 16:9 frame edge to edge, absolutely NO black bars, NO letterboxing. No invented text, no captions, no labels beyond exactly what this scene asks for.",
+      "ref": "none"
+    },
+    {
+      "file": "1_05.jpg",
+      "startSec": 65.66,
+      "text": "Eso no es su trabajo aquí.",
+      "scene": "Close-up: Sara pointing at a plain door icon crossed out with a red line, representing this is not the right path, serious expression. No invented text, no captions, no labels, no numbers, no words of any kind anywhere in this image unless a specific word is explicitly quoted in this description — if none is quoted, draw ZERO text, letters, or digits anywhere in the frame. ONLY Sara and the described object are visible — no extra floating icon unless explicitly part of this description.",
+      "ref": "mono"
+    },
+    {
+      "file": "1_07.jpg",
+      "startSec": 67.8,
+      "text": "Se mete en los datos que ya existen, pedidos, visitas, carritos abandonados y busca el patrón.",
+      "scene": "ONLY this and NOTHING ELSE WHATSOEVER: a small blank receipt icon (no text, no numbers on it), a footprint icon, and a shopping-cart icon grouped together, no letters anywhere. ABSOLUTELY NO CHARACTERS IN THIS IMAGE unless explicitly stated: no monkey, no Sara, no animal, no person, no face, no hooded figure. Icons only. Flat solid colors with thick black ink outlines on pure white, no gradients, no 3D shading, no drop shadows. The artwork must fill the whole 16:9 frame edge to edge, absolutely NO black bars, NO letterboxing.",
+      "ref": "none"
+    },
+    {
+      "file": "1_14.jpg",
+      "startSec": 74.3,
+      "text": "Y encuentra algo muy concreto.",
+      "scene": "Side profile: Sara pointing at a plain magnifying glass icon over three connected document icons, no text on the documents, confident expression. No invented text, no captions, no labels, no numbers, no words of any kind anywhere in this image unless a specific word is explicitly quoted in this description — if none is quoted, draw ZERO text, letters, or digits anywhere in the frame. ONLY Sara and the described object are visible — no extra floating icon unless explicitly part of this description.",
+      "ref": "mono"
+    },
+    {
+      "file": "1_16.jpg",
+      "startSec": 76.44,
+      "text": "Los carritos se abandonan sobre todo los jueves por la tarde,",
+      "scene": "Medium shot: Sara pointing at a plain shopping-cart icon with a small clock icon beside it, curious expression. No invented text, no captions, no labels, no numbers, no words of any kind anywhere in this image unless a specific word is explicitly quoted in this description — if none is quoted, draw ZERO text, letters, or digits anywhere in the frame. ONLY Sara and the described object are visible — no extra floating icon unless explicitly part of this description.",
+      "ref": "mono"
+    },
+    {
+      "file": "1_19.jpg",
+      "startSec": 79.7,
+      "text": "justo cuando se activa un cargo de envío que los otros días no aparece hasta el último paso.",
+      "scene": "Close-up: Sara pointing at a plain shopping-cart icon with a small price-tag icon appearing beside it, serious expression. No invented text, no captions, no labels, no numbers, no words of any kind anywhere in this image unless a specific word is explicitly quoted in this description — if none is quoted, draw ZERO text, letters, or digits anywhere in the frame. ONLY Sara and the described object are visible — no extra floating icon unless explicitly part of this description.",
+      "ref": "mono"
+    },
+    {
+      "file": "1_25.jpg",
+      "startSec": 85.04,
+      "text": "Nadie predijo nada,",
+      "scene": "ONLY this and NOTHING ELSE WHATSOEVER: a plain crystal-ball icon crossed out with a red line, representing no prediction was made. ABSOLUTELY NO CHARACTERS IN THIS IMAGE unless explicitly stated: no monkey, no Sara, no animal, no person, no face, no hooded figure. Icons only. Flat solid colors with thick black ink outlines on pure white, no gradients, no 3D shading, no drop shadows. The artwork must fill the whole 16:9 frame edge to edge, absolutely NO black bars, NO letterboxing. No invented text, no captions, no labels beyond exactly what this scene asks for.",
+      "ref": "none"
+    },
+    {
+      "file": "1_26.jpg",
+      "startSec": 86.82,
+      "text": "alguien miró con cuidado lo que ya había pasado y encontró la causa.",
+      "scene": "Over-the-shoulder shot: Sara pointing at a plain magnifying glass icon over a single footprint, focused expression. No invented text, no captions, no labels, no numbers, no words of any kind anywhere in this image unless a specific word is explicitly quoted in this description — if none is quoted, draw ZERO text, letters, or digits anywhere in the frame. ONLY Sara and the described object are visible — no extra floating icon unless explicitly part of this description.",
+      "ref": "mono"
+    },
+    {
+      "file": "1_31.jpg",
+      "startSec": 91.42,
+      "text": "Y fíjate en el tipo de trabajo que fue eso.",
+      "scene": "Side profile: Sara pointing at a plain lightbulb icon, thoughtful expression. No invented text, no captions, no labels, no numbers, no words of any kind anywhere in this image unless a specific word is explicitly quoted in this description — if none is quoted, draw ZERO text, letters, or digits anywhere in the frame. ONLY Sara and the described object are visible — no extra floating icon unless explicitly part of this description.",
+      "ref": "mono"
+    },
+    {
+      "file": "1_34.jpg",
+      "startSec": 94.38,
+      "text": "No hizo falta entrenar ningún modelo,",
+      "scene": "Medium shot: Sara pointing at a plain gear icon crossed out with a red line, confident expression. No invented text, no captions, no labels, no numbers, no words of any kind anywhere in this image unless a specific word is explicitly quoted in this description — if none is quoted, draw ZERO text, letters, or digits anywhere in the frame. ONLY Sara and the described object are visible — no extra floating icon unless explicitly part of this description.",
+      "ref": "mono"
+    },
+    {
+      "file": "1_36.jpg",
+      "startSec": 96.82,
+      "text": "hizo falta cruzar tres tablas de datos que ya existían y hacer las preguntas correctas en el orden correcto.",
+      "scene": "Close-up: Sara pointing at three blank document icons connected by thin lines, tense expression. No invented text, no captions, no labels, no numbers, no words of any kind anywhere in this image unless a specific word is explicitly quoted in this description — if none is quoted, draw ZERO text, letters, or digits anywhere in the frame. ONLY Sara and the described object are visible — no extra floating icon unless explicitly part of this description.",
+      "ref": "mono"
+    },
+    {
+      "file": "1_43.jpg",
+      "startSec": 103.44,
+      "text": "Cuando se abandona el carrito,",
+      "scene": "ONLY this and NOTHING ELSE WHATSOEVER: a plain shopping-cart icon, plain and simple, nothing else. ABSOLUTELY NO CHARACTERS IN THIS IMAGE unless explicitly stated: no monkey, no Sara, no animal, no person, no face, no hooded figure. Icons only. Flat solid colors with thick black ink outlines on pure white, no gradients, no 3D shading, no drop shadows. The artwork must fill the whole 16:9 frame edge to edge, absolutely NO black bars, NO letterboxing. No invented text, no captions, no labels beyond exactly what this scene asks for.",
+      "ref": "none"
+    },
+    {
+      "file": "1_45.jpg",
+      "startSec": 105.72,
+      "text": "coincide con algo que cambia en la hueve ese mismo día.",
+      "scene": "Over-the-shoulder shot: Sara pointing at a plain calendar page icon with a small gear/settings icon beside it, no numbers, no text, curious expression. No invented text, no captions, no labels, no numbers, no words of any kind anywhere in this image unless a specific word is explicitly quoted in this description — if none is quoted, draw ZERO text, letters, or digits anywhere in the frame. ONLY Sara and the described object are visible — no extra floating icon unless explicitly part of this description.",
+      "ref": "mono"
+    },
+    {
+      "file": "1_48.jpg",
+      "startSec": 108.98,
+      "text": "Pasa en todos los dispositivos o solo en uno.",
+      "scene": "Side profile: Sara pointing at a plain smartphone icon and a plain laptop icon side by side, serious expression. No invented text, no captions, no labels, no numbers, no words of any kind anywhere in this image unless a specific word is explicitly quoted in this description — if none is quoted, draw ZERO text, letters, or digits anywhere in the frame. ONLY Sara and the described object are visible — no extra floating icon unless explicitly part of this description.",
+      "ref": "mono"
+    },
+    {
+      "file": "1_51.jpg",
+      "startSec": 111.82,
+      "text": "Cada pregunta descarta una hipótesis y deja una más probable.",
+      "scene": "Medium shot: Sara pointing at a checklist icon with two items crossed out and one item checked, confident expression. No invented text, no captions, no labels, no numbers, no words of any kind anywhere in this image unless a specific word is explicitly quoted in this description — if none is quoted, draw ZERO text, letters, or digits anywhere in the frame. ONLY Sara and the described object are visible — no extra floating icon unless explicitly part of this description.",
+      "ref": "mono"
+    },
+    {
+      "file": "1_55.jpg",
+      "startSec": 115.72,
+      "text": "Eso, ir descartando con cuidado,",
+      "scene": "Close-up: Sara pointing at a plain strainer/sieve icon filtering out small items, careful expression. No invented text, no captions, no labels, no numbers, no words of any kind anywhere in this image unless a specific word is explicitly quoted in this description — if none is quoted, draw ZERO text, letters, or digits anywhere in the frame. ONLY Sara and the described object are visible — no extra floating icon unless explicitly part of this description.",
+      "ref": "mono"
+    },
+    {
+      "file": "1_57.jpg",
+      "startSec": 117.88,
+      "text": "es el oficio entero resumido en una frase.",
+      "scene": "ONLY this and NOTHING ELSE WHATSOEVER: a plain checklist icon with three blank boxes, one checked. ABSOLUTELY NO CHARACTERS IN THIS IMAGE unless explicitly stated: no monkey, no Sara, no animal, no person, no face, no hooded figure. Icons only. Flat solid colors with thick black ink outlines on pure white, no gradients, no 3D shading, no drop shadows. The artwork must fill the whole 16:9 frame edge to edge, absolutely NO black bars, NO letterboxing. No invented text, no captions, no labels beyond exactly what this scene asks for, and if a specific word or number is requested, copy it EXACTLY letter by letter.",
+      "ref": "none"
+    },
+    {
+      "file": "2_00.jpg",
+      "startSec": 120.84,
+      "text": "Y ese hallazgo no vale nada si se queda en una hoja de cálculo que nadie entiende.",
+      "scene": "Over-the-shoulder shot: Sara pointing at a plain checklist icon with three blank boxes, two checked, serious expression. No invented text, no captions, no labels, no numbers, no words of any kind anywhere in this image unless a specific word is explicitly quoted in this description — if none is quoted, draw ZERO text, letters, or digits anywhere in the frame. ONLY Sara and the described object are visible — no extra floating icon unless explicitly part of this description.",
+      "ref": "mono"
+    },
+    {
+      "file": "2_05.jpg",
+      "startSec": 125.54,
+      "text": "Por eso la otra mitad del trabajo, la que menos se cuenta,",
+      "scene": "Side profile: Sara pointing at a plain scroll/note icon with a magnifying glass, summarizing findings, emphatic expression. No invented text, no captions, no labels, no numbers, no words of any kind anywhere in this image unless a specific word is explicitly quoted in this description — if none is quoted, draw ZERO text, letters, or digits anywhere in the frame. ONLY Sara and the described object are visible — no extra floating icon unless explicitly part of this description.",
+      "ref": "mono"
+    },
+    {
+      "file": "2_08.jpg",
+      "startSec": 128.68,
+      "text": "es contarlo bien.",
+      "scene": "Medium shot: Sara pointing at a plain document icon crossed out, representing a report nobody reads, surprised expression. No invented text, no captions, no labels, no numbers, no words of any kind anywhere in this image unless a specific word is explicitly quoted in this description — if none is quoted, draw ZERO text, letters, or digits anywhere in the frame. ONLY Sara and the described object are visible — no extra floating icon unless explicitly part of this description.",
+      "ref": "mono"
+    },
+    {
+      "file": "2_10.jpg",
+      "startSec": 130.64,
+      "text": "Un dashboard en Power BI o tablo, un informe claro, una reunión donde explicas a alguien de negocio sin jerga técnica,",
+      "scene": "Close-up: Sara pointing at a plain speech-bubble icon, plain and empty, curious expression. No invented text, no captions, no labels, no numbers, no words of any kind anywhere in this image unless a specific word is explicitly quoted in this description — if none is quoted, draw ZERO text, letters, or digits anywhere in the frame. ONLY Sara and the described object are visible — no extra floating icon unless explicitly part of this description.",
+      "ref": "mono"
+    },
+    {
+      "file": "2_18.jpg",
+      "startSec": 138.2,
+      "text": "¿por qué está pasando esto?",
+      "scene": "ONLY this and NOTHING ELSE WHATSOEVER: a plain speech-bubble icon with a simple bar-chart icon inside it, no text. ABSOLUTELY NO CHARACTERS IN THIS IMAGE unless explicitly stated: no monkey, no Sara, no animal, no person, no face, no hooded figure. Icons only. Flat solid colors with thick black ink outlines on pure white, no gradients, no 3D shading, no drop shadows. The artwork must fill the whole 16:9 frame edge to edge, absolutely NO black bars, NO letterboxing. No invented text, no captions, no labels beyond exactly what this scene asks for, and if a specific word or number is requested, copy it EXACTLY letter by letter.",
+      "ref": "none"
+    },
+    {
+      "file": "2_20.jpg",
+      "startSec": 140.18,
+      "text": "Un data analist brillante con datos, pero que no sabe explicarlos,",
+      "scene": "Over-the-shoulder shot: Sara pointing at a plain presentation-screen icon with a simple bar-chart on it, a small person-silhouette icon presenting, no text, tense expression. No invented text, no captions, no labels, no numbers, no words of any kind anywhere in this image unless a specific word is explicitly quoted in this description — if none is quoted, draw ZERO text, letters, or digits anywhere in the frame. ONLY Sara and the described object are visible — no extra floating icon unless explicitly part of this description.",
+      "ref": "mono"
+    },
+    {
+      "file": "2_24.jpg",
+      "startSec": 144.34,
+      "text": "no cambian ninguna decisión en la empresa.",
+      "scene": "Side profile: Sara pointing at a plain speech-bubble icon crossed out, representing a message that failed to land, serious expression. No invented text, no captions, no labels, no numbers, no words of any kind anywhere in this image unless a specific word is explicitly quoted in this description — if none is quoted, draw ZERO text, letters, or digits anywhere in the frame. ONLY Sara and the described object are visible — no extra floating icon unless explicitly part of this description.",
+      "ref": "mono"
+    },
+    {
+      "file": "2_27.jpg",
+      "startSec": 147.22,
+      "text": "Comunicar el hallazgo es, literalmente,",
+      "scene": "Medium shot: Sara pointing at a plain speech-bubble icon with a small warning triangle beside it, emphatic expression. No invented text, no captions, no labels, no numbers, no words of any kind anywhere in this image unless a specific word is explicitly quoted in this description — if none is quoted, draw ZERO text, letters, or digits anywhere in the frame. ONLY Sara and the described object are visible — no extra floating icon unless explicitly part of this description.",
+      "ref": "mono"
+    },
+    {
+      "file": "2_29.jpg",
+      "startSec": 149.76,
+      "text": "la mitad del trabajo, no un extra.",
+      "scene": "Close-up: Sara pointing at a plain speech-bubble icon with many small bar-chart icons crowded inside it, overwhelming, surprised expression. No invented text, no captions, no labels, no numbers, no words of any kind anywhere in this image unless a specific word is explicitly quoted in this description — if none is quoted, draw ZERO text, letters, or digits anywhere in the frame. ONLY Sara and the described object are visible — no extra floating icon unless explicitly part of this description.",
+      "ref": "mono"
+    },
+    {
+      "file": "2_32.jpg",
+      "startSec": 152.9,
+      "text": "Y esa reunión tiene un riesgo que casi nadie te cuenta cuando empiezas.",
+      "scene": "ONLY this and NOTHING ELSE WHATSOEVER: a plain single speech-bubble icon, small and clean, plain and simple. ABSOLUTELY NO CHARACTERS IN THIS IMAGE unless explicitly stated: no monkey, no Sara, no animal, no person, no face, no hooded figure. Icons only. Flat solid colors with thick black ink outlines on pure white, no gradients, no 3D shading, no drop shadows. The artwork must fill the whole 16:9 frame edge to edge, absolutely NO black bars, NO letterboxing. No invented text, no captions, no labels beyond exactly what this scene asks for, and if a specific word or number is requested, copy it EXACTLY letter by letter.",
+      "ref": "none"
+    },
+    {
+      "file": "2_37.jpg",
+      "startSec": 157.24,
+      "text": "La persona de negocio no quiere quince gráficos ni una explicación técnica del cruce de tablas.",
+      "scene": "Over-the-shoulder shot: Sara pointing at a plain question-mark icon inside a speech bubble, confident expression. No invented text, no captions, no labels, no numbers, no words of any kind anywhere in this image unless a specific word is explicitly quoted in this description — if none is quoted, draw ZERO text, letters, or digits anywhere in the frame. ONLY Sara and the described object are visible — no extra floating icon unless explicitly part of this description.",
+      "ref": "mono"
+    },
+    {
+      "file": "2_42.jpg",
+      "startSec": 162.94,
+      "text": "Quiere una frase,",
+      "scene": "Side profile: Sara pointing at a plain arrow pointing from a question mark to a lightbulb, quick, tense expression. No invented text, no captions, no labels, no numbers, no words of any kind anywhere in this image unless a specific word is explicitly quoted in this description — if none is quoted, draw ZERO text, letters, or digits anywhere in the frame. ONLY Sara and the described object are visible — no extra floating icon unless explicitly part of this description.",
+      "ref": "mono"
+    },
+    {
+      "file": "2_44.jpg",
+      "startSec": 164.44,
+      "text": "la respuesta,",
+      "scene": "Medium shot: Sara pointing at a plain stopwatch icon showing a short time, quick, serious expression. No invented text, no captions, no labels, no numbers, no words of any kind anywhere in this image unless a specific word is explicitly quoted in this description — if none is quoted, draw ZERO text, letters, or digits anywhere in the frame. ONLY Sara and the described object are visible — no extra floating icon unless explicitly part of this description.",
+      "ref": "mono"
+    },
+    {
+      "file": "2_45.jpg",
+      "startSec": 165.36,
+      "text": "y entonces qué hago yo con esto,",
+      "scene": "Close-up: Sara pointing at a plain document icon shrinking down into a single small speech-bubble icon, emphatic expression. No invented text, no captions, no labels, no numbers, no words of any kind anywhere in this image unless a specific word is explicitly quoted in this description — if none is quoted, draw ZERO text, letters, or digits anywhere in the frame. ONLY Sara and the described object are visible — no extra floating icon unless explicitly part of this description.",
+      "ref": "mono"
+    },
+    {
+      "file": "2_47.jpg",
+      "startSec": 167.62,
+      "text": "en menos de un minuto.",
+      "scene": "ONLY this and NOTHING ELSE WHATSOEVER: a plain trophy icon with a small speech-bubble on it. ABSOLUTELY NO CHARACTERS IN THIS IMAGE unless explicitly stated: no monkey, no Sara, no animal, no person, no face, no hooded figure. Icons only. Flat solid colors with thick black ink outlines on pure white, no gradients, no 3D shading, no drop shadows. The artwork must fill the whole 16:9 frame edge to edge, absolutely NO black bars, NO letterboxing. No invented text, no captions, no labels beyond exactly what this scene asks for, and if a specific word or number is requested, copy it EXACTLY letter by letter.",
+      "ref": "none"
+    },
+    {
+      "file": "2_49.jpg",
+      "startSec": 169.52,
+      "text": "Saber resumir un análisis de tres días de trabajo en una sola frase accionable es, para mucha gente,",
+      "scene": "Over-the-shoulder shot: Sara pointing at a plain waiting-room icon: a simple bench with a clock above it, curious expression. No invented text, no captions, no labels, no numbers, no words of any kind anywhere in this image unless a specific word is explicitly quoted in this description — if none is quoted, draw ZERO text, letters, or digits anywhere in the frame. ONLY Sara and the described object are visible — no extra floating icon unless explicitly part of this description.",
+      "ref": "mono"
+    },
+    {
+      "file": "2_55.jpg",
+      "startSec": 175.44,
+      "text": "la parte más difícil de todo el oficio.",
+      "scene": "Side profile: Sara pointing at a plain door icon with a waiting bench in front of it, confident expression. No invented text, no captions, no labels, no numbers, no words of any kind anywhere in this image unless a specific word is explicitly quoted in this description — if none is quoted, draw ZERO text, letters, or digits anywhere in the frame. ONLY Sara and the described object are visible — no extra floating icon unless explicitly part of this description.",
+      "ref": "mono"
+    },
+    {
+      "file": "2_58.jpg",
+      "startSec": 178.58,
+      "text": "Vale, y aquí está el mito que quiero desmontar del todo.",
+      "scene": "Medium shot: Sara pointing at a plain upward staircase icon with a small clock beside it, one year, tense expression. No invented text, no captions, no labels, no numbers, no words of any kind anywhere in this image unless a specific word is explicitly quoted in this description — if none is quoted, draw ZERO text, letters, or digits anywhere in the frame. ONLY Sara and the described object are visible — no extra floating icon unless explicitly part of this description.",
+      "ref": "mono"
+    },
+    {
+      "file": "3_02.jpg",
+      "startSec": 182.12,
+      "text": "Mucha gente entra en este puesto pensando en él como una sala de espera.",
+      "scene": "Close-up: Sara pointing at a plain waiting-room bench icon with a clock above it, unimpressed expression. No invented text, no captions, no labels, no numbers, no words of any kind anywhere in this image unless a specific word is explicitly quoted in this description — if none is quoted, draw ZERO text, letters, or digits anywhere in the frame. ONLY Sara and the described object are visible — no extra floating icon unless explicitly part of this description.",
+      "ref": "mono"
+    },
+    {
+      "file": "3_06.jpg",
+      "startSec": 186.28,
+      "text": "Como si en un año dos si trabajas bien,",
+      "scene": "ONLY this and NOTHING ELSE WHATSOEVER: a plain puzzle-piece icon shaped differently from a matching hexagon puzzle-piece, not fitting. ABSOLUTELY NO CHARACTERS IN THIS IMAGE unless explicitly stated: no monkey, no Sara, no animal, no person, no face, no hooded figure. Icons only. Flat solid colors with thick black ink outlines on pure white, no gradients, no 3D shading, no drop shadows. The artwork must fill the whole 16:9 frame edge to edge, absolutely NO black bars, NO letterboxing. No invented text, no captions, no labels beyond exactly what this scene asks for, and if a specific word or number is requested, copy it EXACTLY letter by letter.",
+      "ref": "none"
+    },
+    {
+      "file": "3_08.jpg",
+      "startSec": 188.88,
+      "text": "ascendieras automáticamente a datas scientists.",
+      "scene": "Over-the-shoulder shot: Sara pointing at a plain diploma/certificate icon, plain and generic, surprised expression. No invented text, no captions, no labels, no numbers, no words of any kind anywhere in this image unless a specific word is explicitly quoted in this description — if none is quoted, draw ZERO text, letters, or digits anywhere in the frame. ONLY Sara and the described object are visible — no extra floating icon unless explicitly part of this description.",
+      "ref": "mono"
+    },
+    {
+      "file": "3_12.jpg",
+      "startSec": 192.28,
+      "text": "Pero no es una versión reducida de ese otro trabajo, es una disciplina distinta con su propia carrera completa.",
+      "scene": "Side profile: Sara pointing at three plain trophy icons of different sizes in a row, curious expression. No invented text, no captions, no labels, no numbers, no words of any kind anywhere in this image unless a specific word is explicitly quoted in this description — if none is quoted, draw ZERO text, letters, or digits anywhere in the frame. ONLY Sara and the described object are visible — no extra floating icon unless explicitly part of this description.",
+      "ref": "mono"
+    },
+    {
+      "file": "3_19.jpg",
+      "startSec": 199.28,
+      "text": "Hay analistas de datos senior,",
+      "scene": "Medium shot: Sara pointing at three plain shield/crown icons representing seniority in a row, confident expression. No invented text, no captions, no labels, no numbers, no words of any kind anywhere in this image unless a specific word is explicitly quoted in this description — if none is quoted, draw ZERO text, letters, or digits anywhere in the frame. ONLY Sara and the described object are visible — no extra floating icon unless explicitly part of this description.",
+      "ref": "mono"
+    },
+    {
+      "file": "3_21.jpg",
+      "startSec": 201.36,
+      "text": "analistas líderes de equipo,",
+      "scene": "Close-up: Sara pointing at a plain head-silhouette icon with a small star/crown icon above it, confident expression. No invented text, no captions, no labels, no numbers, no words of any kind anywhere in this image unless a specific word is explicitly quoted in this description — if none is quoted, draw ZERO text, letters, or digits anywhere in the frame. ONLY Sara and the described object are visible — no extra floating icon unless explicitly part of this description.",
+      "ref": "mono"
+    },
+    {
+      "file": "3_23.jpg",
+      "startSec": 203.3,
+      "text": "gente con 15 años de experiencia que nunca ha querido ni necesitado tocar un modelo de machine learning.",
+      "scene": "ONLY this and NOTHING ELSE WHATSOEVER: a plain head-silhouette icon with a small gear icon crossed out beside it, representing no interest in a particular tool. ABSOLUTELY NO CHARACTERS IN THIS IMAGE unless explicitly stated: no monkey, no Sara, no animal, no person, no face, no hooded figure. Icons only. Flat solid colors with thick black ink outlines on pure white, no gradients, no 3D shading, no drop shadows. The artwork must fill the whole 16:9 frame edge to edge, absolutely NO black bars, NO letterboxing. No invented text, no captions, no labels beyond exactly what this scene asks for.",
+      "ref": "none"
+    },
+    {
+      "file": "3_29.jpg",
+      "startSec": 209.76,
+      "text": "Confundir los dos puestos hace que mucha gente buenísima en esto se sienta como si estuviera fallando por no avanzar hacia otra cosa.",
+      "scene": "Over-the-shoulder shot: Sara pointing at a plain sad face icon beside a plain staircase icon, emphatic expression. No invented text, no captions, no labels, no numbers, no words of any kind anywhere in this image unless a specific word is explicitly quoted in this description — if none is quoted, draw ZERO text, letters, or digits anywhere in the frame. ONLY Sara and the described object are visible — no extra floating icon unless explicitly part of this description.",
+      "ref": "mono"
+    },
+    {
+      "file": "3_37.jpg",
+      "startSec": 217.64,
+      "text": "Y ese malentendido tiene un coste real, no solo emocional.",
+      "scene": "Side profile: Sara pointing at a plain broken heart icon combined with a briefcase icon, surprised expression. No invented text, no captions, no labels, no numbers, no words of any kind anywhere in this image unless a specific word is explicitly quoted in this description — if none is quoted, draw ZERO text, letters, or digits anywhere in the frame. ONLY Sara and the described object are visible — no extra floating icon unless explicitly part of this description.",
+      "ref": "mono"
+    },
+    {
+      "file": "3_41.jpg",
+      "startSec": 221.92,
+      "text": "Empresas que tratan el puesto como una sala de espera,",
+      "scene": "Medium shot: Sara pointing at a plain waiting-room bench icon with a person-silhouette icon sitting alone, curious expression. No invented text, no captions, no labels, no numbers, no words of any kind anywhere in this image unless a specific word is explicitly quoted in this description — if none is quoted, draw ZERO text, letters, or digits anywhere in the frame. ONLY Sara and the described object are visible — no extra floating icon unless explicitly part of this description.",
+      "ref": "mono"
+    },
+    {
+      "file": "3_44.jpg",
+      "startSec": 224.8,
+      "text": "lo rotan cada año y pierden justo lo que más vale de una analista bueno.",
+      "scene": "Close-up: Sara pointing at a plain revolving-door icon, representing high turnover, confident expression. No invented text, no captions, no labels, no numbers, no words of any kind anywhere in this image unless a specific word is explicitly quoted in this description — if none is quoted, draw ZERO text, letters, or digits anywhere in the frame. ONLY Sara and the described object are visible — no extra floating icon unless explicitly part of this description.",
+      "ref": "mono"
+    },
+    {
+      "file": "3_49.jpg",
+      "startSec": 229.1,
+      "text": "El conocimiento acumulado de cómo se comporta esa empresa en concreto. Una analista con tres años en la misma empresa detecta un patrón raro en segundos porque conoce el ritmo normal del negocio, uno nuevo cada vez, no.",
+      "scene": "ONLY this and NOTHING ELSE WHATSOEVER: a plain brain icon leaving through a door, fading away. ABSOLUTELY NO CHARACTERS IN THIS IMAGE unless explicitly stated: no monkey, no Sara, no animal, no person, no face, no hooded figure. Icons only. Flat solid colors with thick black ink outlines on pure white, no gradients, no 3D shading, no drop shadows. The artwork must fill the whole 16:9 frame edge to edge, absolutely NO black bars, NO letterboxing. No invented text, no captions, no labels beyond exactly what this scene asks for, and if a specific word or number is requested, copy it EXACTLY letter by letter.",
+      "ref": "none"
+    },
+    {
+      "file": "4_01.jpg",
+      "startSec": 241.5,
+      "text": "Y las herramientas del día a día lo confirman son distintas de verdad.",
+      "scene": "Over-the-shoulder shot: Sara pointing at a plain brain icon glowing brightly inside a building icon, representing accumulated knowledge, serious expression. No invented text, no captions, no labels, no numbers, no words of any kind anywhere in this image unless a specific word is explicitly quoted in this description — if none is quoted, draw ZERO text, letters, or digits anywhere in the frame. ONLY Sara and the described object are visible — no extra floating icon unless explicitly part of this description.",
+      "ref": "mono"
+    },
+    {
+      "file": "4_05.jpg",
+      "startSec": 245.76,
+      "text": "El datas scientists vive en Python, en librerías de machine learning, en estadística inferencial compleja.",
+      "scene": "Side profile: Sara pointing at a plain bell-curve statistics graph icon with a small gear icon beside it, curious expression. No invented text, no captions, no labels, no numbers, no words of any kind anywhere in this image unless a specific word is explicitly quoted in this description — if none is quoted, draw ZERO text, letters, or digits anywhere in the frame. ONLY Sara and the described object are visible — no extra floating icon unless explicitly part of this description.",
+      "ref": "mono"
+    },
+    {
+      "file": "4_12.jpg",
+      "startSec": 252.08,
+      "text": "El data analista vive en SQL para sacar los datos, en excel avanzado y en herramientas de visualización como Power BI y Otablo para contarlo.",
+      "scene": "Medium shot: Sara pointing at a plain toolbox icon with two different tools, clearly distinct from each other, surprised expression. No invented text, no captions, no labels, no numbers, no words of any kind anywhere in this image unless a specific word is explicitly quoted in this description — if none is quoted, draw ZERO text, letters, or digits anywhere in the frame. ONLY Sara and the described object are visible — no extra floating icon unless explicitly part of this description.",
+      "ref": "mono"
+    },
+    {
+      "file": "4_21.jpg",
+      "startSec": 261.38,
+      "text": "Si uno oferta de trabajo pide sobre todo SQL,",
+      "scene": "Close-up: Sara pointing at a plain database-cylinder icon with a small magnifying glass over it, confident expression. No invented text, no captions, no labels, no numbers, no words of any kind anywhere in this image unless a specific word is explicitly quoted in this description — if none is quoted, draw ZERO text, letters, or digits anywhere in the frame. ONLY Sara and the described object are visible — no extra floating icon unless explicitly part of this description.",
+      "ref": "mono"
+    },
+    {
+      "file": "4_24.jpg",
+      "startSec": 264.34,
+      "text": "excel y comunicación con negocio, es un puesto de analista.",
+      "scene": "ONLY this and NOTHING ELSE WHATSOEVER: a plain database-cylinder icon next to a bar-chart icon and a spreadsheet-grid icon. ABSOLUTELY NO CHARACTERS IN THIS IMAGE unless explicitly stated: no monkey, no Sara, no animal, no person, no face, no hooded figure. Icons only. Flat solid colors with thick black ink outlines on pure white, no gradients, no 3D shading, no drop shadows. The artwork must fill the whole 16:9 frame edge to edge, absolutely NO black bars, NO letterboxing. No invented text, no captions, no labels beyond exactly what this scene asks for, and if a specific word or number is requested, copy it EXACTLY letter by letter.",
+      "ref": "none"
+    },
+    {
+      "file": "4_28.jpg",
+      "startSec": 268.2,
+      "text": "Si pide Python, librerías de aprendizaje automático y estadística avanzada es otra cosa completamente distinta.",
+      "scene": "Over-the-shoulder shot: Sara pointing at a plain bell-curve statistics graph icon with a small gear icon beside it, serious expression. No invented text, no captions, no labels, no numbers, no words of any kind anywhere in this image unless a specific word is explicitly quoted in this description — if none is quoted, draw ZERO text, letters, or digits anywhere in the frame. ONLY Sara and the described object are visible — no extra floating icon unless explicitly part of this description.",
+      "ref": "mono"
+    },
+    {
+      "file": "4_35.jpg",
+      "startSec": 275.36,
+      "text": "Y hay una herramienta que casi nunca sin honbra en estas comparativas y que en el día a día pesa muchísimo.",
+      "scene": "Side profile: Sara pointing at a single plain database-cylinder icon, spotlighted alone, curious expression. No invented text, no captions, no labels, no numbers, no words of any kind anywhere in this image unless a specific word is explicitly quoted in this description — if none is quoted, draw ZERO text, letters, or digits anywhere in the frame. ONLY Sara and the described object are visible — no extra floating icon unless explicitly part of this description.",
+      "ref": "mono"
+    },
+    {
+      "file": "4_41.jpg",
+      "startSec": 281.82,
+      "text": "El propio SQL no es solo sacar datos, es saber escribir la pregunta exacta para no traerte 10 millones de filas cuando necesitabas 100.",
+      "scene": "Medium shot: Sara pointing at a plain database-cylinder icon with a small magnifying glass over it, focused expression. No invented text, no captions, no labels, no numbers, no words of any kind anywhere in this image unless a specific word is explicitly quoted in this description — if none is quoted, draw ZERO text, letters, or digits anywhere in the frame. ONLY Sara and the described object are visible — no extra floating icon unless explicitly part of this description.",
+      "ref": "mono"
+    },
+    {
+      "file": "4_50.jpg",
+      "startSec": 290.7,
+      "text": "Una consulta mal escrita puede tardar horas y bloquear el sistema para todo el equipo, una bien escrita tardas segundos.",
+      "scene": "Close-up: Sara pointing at a plain database-cylinder icon with a warning triangle and a long clock beside it, tense expression. No invented text, no captions, no labels, no numbers, no words of any kind anywhere in this image unless a specific word is explicitly quoted in this description — if none is quoted, draw ZERO text, letters, or digits anywhere in the frame. ONLY Sara and the described object are visible — no extra floating icon unless explicitly part of this description.",
+      "ref": "mono"
+    },
+    {
+      "file": "4_57.jpg",
+      "startSec": 297.88,
+      "text": "Esa habilidad tampoco vistosa es de las que más rápido separa una analista con experiencia de uno que acaba de empezar.",
+      "scene": "ONLY this and NOTHING ELSE WHATSOEVER: a plain scale/balance icon comparing a small junior badge and a larger senior badge. ABSOLUTELY NO CHARACTERS IN THIS IMAGE unless explicitly stated: no monkey, no Sara, no animal, no person, no face, no hooded figure. Icons only. Flat solid colors with thick black ink outlines on pure white, no gradients, no 3D shading, no drop shadows. The artwork must fill the whole 16:9 frame edge to edge, absolutely NO black bars, NO letterboxing. No invented text, no captions, no labels beyond exactly what this scene asks for.",
+      "ref": "none"
+    },
+    {
+      "file": "5_05.jpg",
+      "startSec": 305.54,
+      "text": "Vale, y en cifras concretas, cuando se paga esto en España en 2026.",
+      "scene": "Over-the-shoulder shot: Sara pointing at a single small coin icon, curious expression. No invented text, no captions, no labels, no numbers, no words of any kind anywhere in this image unless a specific word is explicitly quoted in this description — if none is quoted, draw ZERO text, letters, or digits anywhere in the frame. ONLY Sara and the described object are visible — no extra floating icon unless explicitly part of this description.",
+      "ref": "mono"
+    },
+    {
+      "file": "5_10.jpg",
+      "startSec": 310.68,
+      "text": "Un data analista que empieza ronda los 26 .000 euros brutos al año.",
+      "scene": "Side profile: Sara pointing at a small coin-stack icon, confident expression. No invented text, no captions, no labels, no numbers, no words of any kind anywhere in this image unless a specific word is explicitly quoted in this description — if none is quoted, draw ZERO text, letters, or digits anywhere in the frame. ONLY Sara and the described object are visible — no extra floating icon unless explicitly part of this description.",
+      "ref": "mono"
+    },
+    {
+      "file": "5_14.jpg",
+      "startSec": 314.96,
+      "text": "Con experiencia media, 3 a 5 años, sube a un rango de 35 .000.",
+      "scene": "Medium shot: Sara pointing at a medium coin-stack icon, taller than before, confident expression. No invented text, no captions, no labels, no numbers, no words of any kind anywhere in this image unless a specific word is explicitly quoted in this description — if none is quoted, draw ZERO text, letters, or digits anywhere in the frame. ONLY Sara and the described object are visible — no extra floating icon unless explicitly part of this description.",
+      "ref": "mono"
+    },
+    {
+      "file": "5_19.jpg",
+      "startSec": 319.96,
+      "text": "Y un perfil senior, con más de 10 años, puede superarlo 60 .000.",
+      "scene": "Close-up: Sara pointing at a tall coin-stack icon with a small senior badge on top, proud expression. No invented text, no captions, no labels, no numbers, no words of any kind anywhere in this image unless a specific word is explicitly quoted in this description — if none is quoted, draw ZERO text, letters, or digits anywhere in the frame. ONLY Sara and the described object are visible — no extra floating icon unless explicitly part of this description.",
+      "ref": "mono"
+    },
+    {
+      "file": "5_24.jpg",
+      "startSec": 324.74,
+      "text": "Cifras muy parecidas, de hecho, a las de un data scientist en los mismos niveles. La diferencia real no está en el sueldo, está en el tipo de problema que resuelve cada día.",
+      "scene": "ONLY this and NOTHING ELSE WHATSOEVER: a plain scale/balance icon perfectly level between two identical coin stacks. ABSOLUTELY NO CHARACTERS IN THIS IMAGE unless explicitly stated: no monkey, no Sara, no animal, no person, no face, no hooded figure. Icons only. Flat solid colors with thick black ink outlines on pure white, no gradients, no 3D shading, no drop shadows. The artwork must fill the whole 16:9 frame edge to edge, absolutely NO black bars, NO letterboxing. No invented text, no captions, no labels beyond exactly what this scene asks for.",
+      "ref": "none"
+    },
+    {
+      "file": "5_35.jpg",
+      "startSec": 335.14,
+      "text": "Y esa cercanía en el sueldo es, en sí misma, otra prueba de que no es un puesto de segunda.",
+      "scene": "Over-the-shoulder shot: Sara pointing at a coin-stack icon with a small checkmark badge on it, confident expression. No invented text, no captions, no labels, no numbers, no words of any kind anywhere in this image unless a specific word is explicitly quoted in this description — if none is quoted, draw ZERO text, letters, or digits anywhere in the frame. ONLY Sara and the described object are visible — no extra floating icon unless explicitly part of this description.",
+      "ref": "mono"
+    },
+    {
+      "file": "5_41.jpg",
+      "startSec": 341.06,
+      "text": "Si de verdad fuera solo el escalón junior de otra profesión, no cobraría casi lo mismo en cada nivel de experiencia.",
+      "scene": "Side profile: Sara pointing at a plain staircase icon crossed out with a coin icon beside it, serious expression. No invented text, no captions, no labels, no numbers, no words of any kind anywhere in this image unless a specific word is explicitly quoted in this description — if none is quoted, draw ZERO text, letters, or digits anywhere in the frame. ONLY Sara and the described object are visible — no extra floating icon unless explicitly part of this description.",
+      "ref": "mono"
+    },
+    {
+      "file": "5_47.jpg",
+      "startSec": 347.6,
+      "text": "El mercado, con sus cifras, ya está diciendo algo que el nombre del puesto no deja ver a simple vista.",
+      "scene": "Medium shot: Sara pointing at a plain magnifying glass icon over a single coin, revealing expression. No invented text, no captions, no labels, no numbers, no words of any kind anywhere in this image unless a specific word is explicitly quoted in this description — if none is quoted, draw ZERO text, letters, or digits anywhere in the frame. ONLY Sara and the described object are visible — no extra floating icon unless explicitly part of this description.",
+      "ref": "mono"
+    },
+    {
+      "file": "5_53.jpg",
+      "startSec": 353.82,
+      "text": "¿Y cómo se entra en esto?",
+      "scene": "Close-up: Sara pointing at a plain open door icon with a question mark above it, curious expression. No invented text, no captions, no labels, no numbers, no words of any kind anywhere in this image unless a specific word is explicitly quoted in this description — if none is quoted, draw ZERO text, letters, or digits anywhere in the frame. ONLY Sara and the described object are visible — no extra floating icon unless explicitly part of this description.",
+      "ref": "mono"
+    },
+    {
+      "file": "5_56.jpg",
+      "startSec": 356.16,
+      "text": "Y aquí va otro mito menos, no hace falta saber programar para entrar.",
+      "scene": "ONLY this and NOTHING ELSE WHATSOEVER: a plain scale/balance icon comparing two equal coin stacks. ABSOLUTELY NO CHARACTERS IN THIS IMAGE unless explicitly stated: no monkey, no Sara, no animal, no person, no face, no hooded figure. Icons only. Flat solid colors with thick black ink outlines on pure white, no gradients, no 3D shading, no drop shadows. The artwork must fill the whole 16:9 frame edge to edge, absolutely NO black bars, NO letterboxing. No invented text, no captions, no labels beyond exactly what this scene asks for, and if a specific word or number is requested, copy it EXACTLY letter by letter.",
+      "ref": "none"
+    },
+    {
+      "file": "6_00.jpg",
+      "startSec": 360.82,
+      "text": "Ese huele ayuda muchísimo, pero muchas ofertas de nivel inicial piden sobre todo excel avanzado y una herramienta de visualización.",
+      "scene": "Over-the-shoulder shot: Sara pointing at a plain scale/balance icon perfectly level between two identical coin stacks, surprised expression. No invented text, no captions, no labels, no numbers, no words of any kind anywhere in this image unless a specific word is explicitly quoted in this description — if none is quoted, draw ZERO text, letters, or digits anywhere in the frame. ONLY Sara and the described object are visible — no extra floating icon unless explicitly part of this description.",
+      "ref": "mono"
+    },
+    {
+      "file": "6_08.jpg",
+      "startSec": 368.46,
+      "text": "Lo que sí hace falta, y esto es lo que de verdad marca la diferencia,",
+      "scene": "Side profile: Sara pointing at a plain magnifying glass icon over a small gap between two puzzle pieces that almost fit, curious expression. No invented text, no captions, no labels, no numbers, no words of any kind anywhere in this image unless a specific word is explicitly quoted in this description — if none is quoted, draw ZERO text, letters, or digits anywhere in the frame. ONLY Sara and the described object are visible — no extra floating icon unless explicitly part of this description.",
+      "ref": "mono"
+    },
+    {
+      "file": "6_12.jpg",
+      "startSec": 372.5,
+      "text": "es curiosidad por el porqué detrás de un número raro.",
+      "scene": "Medium shot: Sara pointing at a plain magnifying glass icon hovering over a single odd-colored bar in a bar-chart, curious expression. No invented text, no captions, no labels, no numbers, no words of any kind anywhere in this image unless a specific word is explicitly quoted in this description — if none is quoted, draw ZERO text, letters, or digits anywhere in the frame. ONLY Sara and the described object are visible — no extra floating icon unless explicitly part of this description.",
+      "ref": "mono"
+    },
+    {
+      "file": "6_16.jpg",
+      "startSec": 376.08,
+      "text": "El proyecto que de verdad impresiona en una entrevista no es, y hace un dashboard bonito.",
+      "scene": "Close-up: Sara pointing at a plain trophy icon crossed out gently with a red line, representing a pretty dashboard is not enough, serious expression. No invented text, no captions, no labels, no numbers, no words of any kind anywhere in this image unless a specific word is explicitly quoted in this description — if none is quoted, draw ZERO text, letters, or digits anywhere in the frame. ONLY Sara and the described object are visible — no extra floating icon unless explicitly part of this description.",
+      "ref": "mono"
+    },
+    {
+      "file": "6_21.jpg",
+      "startSec": 381.22,
+      "text": "Escojero un conjunto de datos público real, encontrar un patrón que no sea obvio a simple vista, y contarlo en tres frases que cualquier persona sin formación técnica pueda entender.",
+      "scene": "ONLY this and NOTHING ELSE WHATSOEVER: a plain spreadsheet-grid icon with a bar-chart icon beside it. ABSOLUTELY NO CHARACTERS IN THIS IMAGE unless explicitly stated: no monkey, no Sara, no animal, no person, no face, no hooded figure. Icons only. Flat solid colors with thick black ink outlines on pure white, no gradients, no 3D shading, no drop shadows. The artwork must fill the whole 16:9 frame edge to edge, absolutely NO black bars, NO letterboxing. No invented text, no captions, no labels beyond exactly what this scene asks for, and if a specific word or number is requested, copy it EXACTLY letter by letter.",
+      "ref": "none"
+    },
+    {
+      "file": "6_31.jpg",
+      "startSec": 391.6,
+      "text": "Esa combinación, encontrar el patrón y saber contarlo, es exactamente lo que se paga en este trabajo.",
+      "scene": "Over-the-shoulder shot: Sara pointing at a plain lightbulb icon with a small question-mark spark inside it, emphatic expression. No invented text, no captions, no labels, no numbers, no words of any kind anywhere in this image unless a specific word is explicitly quoted in this description — if none is quoted, draw ZERO text, letters, or digits anywhere in the frame. ONLY Sara and the described object are visible — no extra floating icon unless explicitly part of this description.",
+      "ref": "mono"
+    },
+    {
+      "file": "6_38.jpg",
+      "startSec": 398.26,
+      "text": "Y un consejo práctico para ese proyecto,",
+      "scene": "Side profile: Sara pointing at a plain magnifying glass icon hovering over a single odd-colored bar in a bar-chart, surprised expression. No invented text, no captions, no labels, no numbers, no words of any kind anywhere in this image unless a specific word is explicitly quoted in this description — if none is quoted, draw ZERO text, letters, or digits anywhere in the frame. ONLY Sara and the described object are visible — no extra floating icon unless explicitly part of this description.",
+      "ref": "mono"
+    },
+    {
+      "file": "6_40.jpg",
+      "startSec": 400.98,
+      "text": "elige un dato que te importe de verdad a ti.",
+      "scene": "Medium shot: Sara pointing at a plain heart icon with a small bar-chart icon inside it, warm expression. No invented text, no captions, no labels, no numbers, no words of any kind anywhere in this image unless a specific word is explicitly quoted in this description — if none is quoted, draw ZERO text, letters, or digits anywhere in the frame. ONLY Sara and the described object are visible — no extra floating icon unless explicitly part of this description.",
+      "ref": "mono"
+    },
+    {
+      "file": "6_43.jpg",
+      "startSec": 403.68,
+      "text": "Tus propias finanzas, los resultados de tu equipo favorito, tus horas de sueño de los últimos meses. La curiosidad real se nota en la entrevista mucho más que un dataset genérico descargado sin ganas.",
+      "scene": "Close-up: Sara pointing at three small icons in a row, a coin-jar, a trophy, and a crescent moon, thoughtful expression. No invented text, no captions, no labels, no numbers, no words of any kind anywhere in this image unless a specific word is explicitly quoted in this description — if none is quoted, draw ZERO text, letters, or digits anywhere in the frame. ONLY Sara and the described object are visible — no extra floating icon unless explicitly part of this description.",
+      "ref": "mono"
+    },
+    {
+      "file": "6_55.jpg",
+      "startSec": 415.62,
+      "text": "Nadie cuenta bien una historia que no le interesaba desde el principio.",
+      "scene": "ONLY this and NOTHING ELSE WHATSOEVER: a plain speech-bubble icon with exactly three short lines inside it, no text. ABSOLUTELY NO CHARACTERS IN THIS IMAGE unless explicitly stated: no monkey, no Sara, no animal, no person, no face, no hooded figure. Icons only. Flat solid colors with thick black ink outlines on pure white, no gradients, no 3D shading, no drop shadows. The artwork must fill the whole 16:9 frame edge to edge, absolutely NO black bars, NO letterboxing. No invented text, no captions, no labels beyond exactly what this scene asks for, and if a specific word or number is requested, copy it EXACTLY letter by letter.",
+      "ref": "none"
+    },
+    {
+      "file": "6_59.jpg",
+      "startSec": 419.98,
+      "text": "Así que la próxima vez que alguien te llame solo analista como si fuera un diminutivo,",
+      "scene": "Over-the-shoulder shot: Sara pointing at a plain shield badge icon shown small and shrunken, unimpressed expression. No invented text, no captions, no labels, no numbers, no words of any kind anywhere in this image unless a specific word is explicitly quoted in this description — if none is quoted, draw ZERO text, letters, or digits anywhere in the frame. ONLY Sara and the described object are visible — no extra floating icon unless explicitly part of this description.",
+      "ref": "mono"
+    },
+    {
+      "file": "7_04.jpg",
+      "startSec": 424.78,
+      "text": "ya sabes que no es una escalona hacia otra cosa, es un oficio completo por sí mismo.",
+      "scene": "Side profile: Sara pointing at a plain shield badge icon shown full-sized and solid, confident expression. No invented text, no captions, no labels, no numbers, no words of any kind anywhere in this image unless a specific word is explicitly quoted in this description — if none is quoted, draw ZERO text, letters, or digits anywhere in the frame. ONLY Sara and the described object are visible — no extra floating icon unless explicitly part of this description.",
+      "ref": "mono"
+    },
+    {
+      "file": "7_10.jpg",
+      "startSec": 430.66,
+      "text": "El Data Scientist te dirá que tiempo hará mañana. El Data Analyst es quien ya sabe con certeza por qué ha llovido todos los martes y qué deberías hacer al respecto.",
+      "scene": "Medium shot: Sara pointing at a plain cloud icon with a question mark beside a plain calendar icon with a small rain-cloud icon, no numbers, no text, confident expression. No invented text, no captions, no labels, no numbers, no words of any kind anywhere in this image unless a specific word is explicitly quoted in this description — if none is quoted, draw ZERO text, letters, or digits anywhere in the frame. ONLY Sara and the described object are visible — no extra floating icon unless explicitly part of this description.",
+      "ref": "mono"
+    },
+    {
+      "file": "7_21.jpg",
+      "startSec": 441.9,
+      "text": "Si te ha interesado esta serie sobre empleos reales en tecnología,",
+      "scene": "Close-up: Sara pointing at a plain open book icon, warm expression. No invented text, no captions, no labels, no numbers, no words of any kind anywhere in this image unless a specific word is explicitly quoted in this description — if none is quoted, draw ZERO text, letters, or digits anywhere in the frame. ONLY Sara and the described object are visible — no extra floating icon unless explicitly part of this description.",
+      "ref": "mono"
+    },
+    {
+      "file": "7_25.jpg",
+      "startSec": 445.36,
+      "text": "suscríbete.",
+      "scene": "ONLY this and NOTHING ELSE WHATSOEVER: a plain bell/notification icon, bright and simple, nothing else. ABSOLUTELY NO CHARACTERS IN THIS IMAGE unless explicitly stated: no monkey, no Sara, no animal, no person, no face, no hooded figure. Icons only. Flat solid colors with thick black ink outlines on pure white, no gradients, no 3D shading, no drop shadows. The artwork must fill the whole 16:9 frame edge to edge, absolutely NO black bars, NO letterboxing. No invented text, no captions, no labels beyond exactly what this scene asks for.",
+      "ref": "none"
+    },
+    {
+      "file": "7_26.jpg",
+      "startSec": 446.28,
+      "text": "Se viene más de este mundo.",
+      "scene": "Over-the-shoulder shot: Sara waving warmly, friendly smile, both hands slightly raised, no other object. No invented text, no captions, no labels, no numbers, no words of any kind anywhere in this image unless a specific word is explicitly quoted in this description — if none is quoted, draw ZERO text, letters, or digits anywhere in the frame. ONLY Sara and the described object are visible — no extra floating icon unless explicitly part of this description.",
+      "ref": "mono"
+    }
+  ],
+  "style_base": "Crude hand-drawn cartoon, Ecomonos style, PURE WHITE background, thick black ink outlines, flat colors. A brown cartoon monkey protagonist named Sara, huge white round eyes with black pupils, exactly like the reference image, NO clothing of any kind, NEVER a human character — if a scene needs a generic secondary figure, use a flat grey line-drawn pictogram (like a restroom-sign icon), never a detailed human. Exactly two arms and two hands for Sara. Any text that appears in the image must be in PERFECT SPANISH, never English, and only when the scene explicitly asks for specific words or figures. Fill the whole frame, no black bars. CRITICAL: NEVER use any real brand logo — no Power BI logo, no Tableau logo, no Excel logo, no SQL logo. When the scene needs to represent 'an AI system', always use the same generic AI-core icon: a blue hexagon outline with a small white spark shape inside, and that hexagon must NEVER contain any letter or text, especially never the letters 'A' or 'I' or the word 'AI' — leave it completely blank except for the spark shape. There is NO hooded shadow character in this video at all — never draw one. Never add a speech bubble, caption or extra label unless the scene explicitly asks for one."
+}

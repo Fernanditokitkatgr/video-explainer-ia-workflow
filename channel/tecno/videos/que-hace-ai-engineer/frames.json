@@ -1,0 +1,699 @@
+{
+  "video": "que-hace-ai-engineer",
+  "frames": [
+    {
+      "file": "0_00.jpg",
+      "startSec": 0.0,
+      "text": "Llevamos dos vídeos hablando de quién analiza el agua y quién construye la tubería.",
+      "scene": "Medium shot: Sara looking back thoughtfully, one hand on chin, recalling something.",
+      "ref": "mono"
+    },
+    {
+      "file": "0_04.jpg",
+      "startSec": 4.92,
+      "text": "Pero falta alguien en esa cadena y es probable que sea el puesto del que más soyes hablar ahora mismo.",
+      "scene": "Medium shot: Sara shrugging, curious, gesturing as if something is missing from a chain.",
+      "ref": "mono"
+    },
+    {
+      "file": "0_11.jpg",
+      "startSec": 11.18,
+      "text": "El AI -Engineer.",
+      "scene": "Extreme close-up: Sara's face, eyes wide, dramatic reveal expression.",
+      "ref": "mono"
+    },
+    {
+      "file": "0_14.jpg",
+      "startSec": 14.04,
+      "text": "Y casi todo el mundo se hace una idea equivocada de qué hace en realidad.",
+      "scene": "Close-up: Sara shaking her head, correcting a misconception, serious.",
+      "ref": "mono"
+    },
+    {
+      "file": "0_18.jpg",
+      "startSec": 18.66,
+      "text": "La mayoría de la gente cree que un AI -Engineer entraena inteligencias artificiales.",
+      "scene": "Medium shot: Sara pointing at a generic AI-core icon (a blue hexagon outline with a small white spark shape inside, no text, no logo, no brand), puzzled expression.",
+      "ref": "mono"
+    },
+    {
+      "file": "0_24.jpg",
+      "startSec": 24.28,
+      "text": "No.",
+      "scene": "Close-up: Sara shaking her head firmly, one finger up in correction.",
+      "ref": "mono"
+    },
+    {
+      "file": "0_25.jpg",
+      "startSec": 25.38,
+      "text": "Casi nunca entren a nada desde cero.",
+      "scene": "ONLY this and NOTHING ELSE WHATSOEVER: a generic AI-core icon (a blue hexagon outline with a small white spark shape inside) crossed out with a red diagonal line, meaning it is not being built from scratch. ABSOLUTE RULE, NO EXCEPTIONS: the blue hexagon is 100% BLANK except for the small white spark/lightning-bolt shape — ZERO letters, ZERO text, and specifically NEVER the letters 'A' or 'I' or the word 'AI' anywhere on or near the hexagon. If you were about to write any letter on the hexagon, do not — leave it perfectly blank with only the spark shape. ABSOLUTELY NO CHARACTERS IN THIS IMAGE: no monkey, no Sara, no animal, no person, no face. Icons only. Flat solid colors with thick black ink outlines on pure white, no gradients, no 3D shading. Fill the whole 16:9 frame edge to edge, absolutely NO black bars, NO letterboxing.",
+      "ref": "none"
+    },
+    {
+      "file": "0_27.jpg",
+      "startSec": 27.84,
+      "text": "Y entender por qué es la clave de todo este vídeo.",
+      "scene": "Medium shot: Sara nodding, thoughtful, explaining.",
+      "ref": "mono"
+    },
+    {
+      "file": "0_32.jpg",
+      "startSec": 32.06,
+      "text": "Volvamos al agua un momento.",
+      "scene": "ONLY this and NOTHING ELSE WHATSOEVER: a plain water drop icon. ABSOLUTELY NO CHARACTERS IN THIS IMAGE unless explicitly stated: no monkey, no Sara, no animal, no person, no face, no hooded figure. Icons only. Flat solid colors with thick black ink outlines on pure white, no gradients, no 3D shading, no drop shadows. The artwork must fill the whole 16:9 frame edge to edge, absolutely NO black bars, NO letterboxing. No invented text, no captions, no labels beyond exactly what this scene asks for, and if a specific word or number is requested, copy it EXACTLY letter by letter.",
+      "ref": "none"
+    },
+    {
+      "file": "0_34.jpg",
+      "startSec": 34.32,
+      "text": "El Data Scientist analiza el agua.",
+      "scene": "Close-up: Sara pointing at a plain water drop icon, explaining, confident.",
+      "ref": "mono"
+    },
+    {
+      "file": "0_37.jpg",
+      "startSec": 37.18,
+      "text": "El DataEngineer construye la tubería que la trae.",
+      "scene": "ONLY this and NOTHING ELSE WHATSOEVER: a plain pipe icon with a water drop moving through it. ABSOLUTELY NO CHARACTERS IN THIS IMAGE unless explicitly stated: no monkey, no Sara, no animal, no person, no face, no hooded figure. Icons only. Flat solid colors with thick black ink outlines on pure white, no gradients, no 3D shading, no drop shadows. The artwork must fill the whole 16:9 frame edge to edge, absolutely NO black bars, NO letterboxing. No invented text, no captions, no labels beyond exactly what this scene asks for, and if a specific word or number is requested, copy it EXACTLY letter by letter.",
+      "ref": "none"
+    },
+    {
+      "file": "0_40.jpg",
+      "startSec": 40.62,
+      "text": "Pero alguien tiene que instalar el grifo en tu cocina.",
+      "scene": "Medium shot: Sara pointing at a plain kitchen faucet/tap icon on a wall, explaining.",
+      "ref": "mono"
+    },
+    {
+      "file": "0_43.jpg",
+      "startSec": 43.98,
+      "text": "Alguien tiene que hacer que cuando tú lo abres salga agua caliente en el momento exacto en que las necesitas sin que tengas ni idea de la tubería que hay detrás.",
+      "scene": "ONLY this and NOTHING ELSE WHATSOEVER: a plain kitchen faucet/tap icon with a small wavy steam line above it, representing hot water, no other objects. ABSOLUTELY NO CHARACTERS IN THIS IMAGE unless explicitly stated: no monkey, no Sara, no animal, no person, no face, no hooded figure. Icons only. Flat solid colors with thick black ink outlines on pure white, no gradients, no 3D shading, no drop shadows. The artwork must fill the whole 16:9 frame edge to edge, absolutely NO black bars, NO letterboxing. No invented text, no captions, no labels beyond exactly what this scene asks for, and if a specific word or number is requested, copy it EXACTLY letter by letter.",
+      "ref": "none"
+    },
+    {
+      "file": "0_53.jpg",
+      "startSec": 53.56,
+      "text": "Ese es el AI -Engineer.",
+      "scene": "Close-up: Sara nodding firmly, pointing at herself, confident.",
+      "ref": "mono"
+    },
+    {
+      "file": "0_56.jpg",
+      "startSec": 56.3,
+      "text": "En la práctica esto significa una cosa muy concreta.",
+      "scene": "Medium shot: Sara explaining with both hands open, serious.",
+      "ref": "mono"
+    },
+    {
+      "file": "1_00.jpg",
+      "startSec": 60.36,
+      "text": "Modelos como los que hacen chat GPT, Cloud o Gemini ya existen.",
+      "scene": "ONLY this and NOTHING ELSE WHATSOEVER: three generic AI-core hexagon icons in a row, evenly spaced, plain and identical. ABSOLUTELY NO CHARACTERS IN THIS IMAGE unless explicitly stated: no monkey, no Sara, no animal, no person, no face, no hooded figure. Icons only. Flat solid colors with thick black ink outlines on pure white, no gradients, no 3D shading, no drop shadows. The artwork must fill the whole 16:9 frame edge to edge, absolutely NO black bars, NO letterboxing. No invented text, no captions, no labels beyond exactly what this scene asks for, and if a specific word or number is requested, copy it EXACTLY letter by letter.",
+      "ref": "none"
+    },
+    {
+      "file": "1_04.jpg",
+      "startSec": 64.82,
+      "text": "Entrenados por equipos enormes con presupuestos de cientos de millones.",
+      "scene": "ONLY this and NOTHING ELSE WHATSOEVER: a stack of coin icons piled very high, representing an enormous budget, no numbers or text. ABSOLUTELY NO CHARACTERS IN THIS IMAGE unless explicitly stated: no monkey, no Sara, no animal, no person, no face, no hooded figure. Icons only. Flat solid colors with thick black ink outlines on pure white, no gradients, no 3D shading, no drop shadows. The artwork must fill the whole 16:9 frame edge to edge, absolutely NO black bars, NO letterboxing. No invented text, no captions, no labels beyond exactly what this scene asks for, and if a specific word or number is requested, copy it EXACTLY letter by letter.",
+      "ref": "none"
+    },
+    {
+      "file": "1_09.jpg",
+      "startSec": 69.26,
+      "text": "El AI -Engineer no compite con eso.",
+      "scene": "Medium shot: Sara shaking her head, arms crossed, unimpressed.",
+      "ref": "mono"
+    },
+    {
+      "file": "1_12.jpg",
+      "startSec": 72.44,
+      "text": "Lo usa a través de una conexión,",
+      "scene": "ONLY this and NOTHING ELSE WHATSOEVER: a generic AI-core icon (a blue hexagon outline with a small white spark shape inside, no text, no logo, no brand) connected by a plain cable/plug icon to a small gear icon. ABSOLUTELY NO CHARACTERS IN THIS IMAGE unless explicitly stated: no monkey, no Sara, no animal, no person, no face, no hooded figure. Icons only. Flat solid colors with thick black ink outlines on pure white, no gradients, no 3D shading, no drop shadows. The artwork must fill the whole 16:9 frame edge to edge, absolutely NO black bars, NO letterboxing. No invented text, no captions, no labels beyond exactly what this scene asks for, and if a specific word or number is requested, copy it EXACTLY letter by letter.",
+      "ref": "none"
+    },
+    {
+      "file": "1_15.jpg",
+      "startSec": 75.02,
+      "text": "como quien usa el agua que ya llega por la tubería.",
+      "scene": "ONLY this and NOTHING ELSE WHATSOEVER: a plain pipe icon with water flowing through it toward a small gear icon. ABSOLUTELY NO CHARACTERS IN THIS IMAGE unless explicitly stated: no monkey, no Sara, no animal, no person, no face, no hooded figure. Icons only. Flat solid colors with thick black ink outlines on pure white, no gradients, no 3D shading, no drop shadows. The artwork must fill the whole 16:9 frame edge to edge, absolutely NO black bars, NO letterboxing. No invented text, no captions, no labels beyond exactly what this scene asks for, and if a specific word or number is requested, copy it EXACTLY letter by letter.",
+      "ref": "none"
+    },
+    {
+      "file": "1_18.jpg",
+      "startSec": 78.14,
+      "text": "Su trabajo es construir el producto encima de ese modelo, no el modelo en sí.",
+      "scene": "Medium shot: Sara building a small block/gear icon on top of a larger hexagon icon, focused expression.",
+      "ref": "mono"
+    },
+    {
+      "file": "1_23.jpg",
+      "startSec": 83.2,
+      "text": "Y aquí es donde entra la palabra que más vas a oír sitemetes en esto.",
+      "scene": "Close-up: Sara pointing at her ear, listening intently, curious.",
+      "ref": "mono"
+    },
+    {
+      "file": "1_27.jpg",
+      "startSec": 87.5,
+      "text": "Ragh.",
+      "scene": "ONLY this and NOTHING ELSE WHATSOEVER: a plain magnifying glass icon over a blank document icon, no text, no lines, nothing written on the document. ABSOLUTELY NO CHARACTERS IN THIS IMAGE: no monkey, no Sara, no animal, no person, no face, no hexagon, no other icon of any kind besides the magnifying glass and the document. Flat solid colors with thick black ink outlines on pure white. Fill the whole 16:9 frame edge to edge, absolutely NO black bars, NO letterboxing.",
+      "ref": "none"
+    },
+    {
+      "file": "1_28.jpg",
+      "startSec": 88.92,
+      "text": "Son las siglas de recuperación aumentada de generación y suena más complicado de lo que es.",
+      "scene": "Medium shot: Sara explaining with open palms, confident.",
+      "ref": "mono"
+    },
+    {
+      "file": "1_34.jpg",
+      "startSec": 94.76,
+      "text": "Es enseñarle a la IA a buscar información concreta, la tuya, la de tu empresa, antes de responder,",
+      "scene": "Close-up: Sara pointing at a magnifying glass icon hovering over a small blank folder icon, curious. No invented text, no captions, no labels, no numbers, no words of any kind anywhere in this image unless a specific word is explicitly quoted in this description — if none is quoted, draw ZERO text, letters, or digits anywhere in the frame.",
+      "ref": "mono"
+    },
+    {
+      "file": "1_40.jpg",
+      "startSec": 100.98,
+      "text": "en vez de fiarse solo de lo que aprendió durante el entrenamiento.",
+      "scene": "Medium shot: Sara shaking her head, correcting, serious.",
+      "ref": "mono"
+    },
+    {
+      "file": "1_44.jpg",
+      "startSec": 104.8,
+      "text": "Sin eso, un modelo puede sonar seguro de sí mismo y estar completamente equivocado sobre tus propios datos.",
+      "scene": "Close-up: Sara with a worried expression, hand near her mouth.",
+      "ref": "mono"
+    },
+    {
+      "file": "1_51.jpg",
+      "startSec": 111.86,
+      "text": "Construir bien ese sistema de búsqueda es buena parte del trabajo real.",
+      "scene": "Medium shot: Sara nodding, satisfied, thumbs up.",
+      "ref": "mono"
+    },
+    {
+      "file": "1_56.jpg",
+      "startSec": 116.46,
+      "text": "Vamos con un ejemplo muy típico y muy concreto.",
+      "scene": "Medium shot: Sara pointing off to the side, introducing an example, curious.",
+      "ref": "mono"
+    },
+    {
+      "file": "2_00.jpg",
+      "startSec": 120.16,
+      "text": "Una aseguradora quiere un asistente que responda dudas sobre polizas a sus clientes.",
+      "scene": "ONLY this and NOTHING ELSE WHATSOEVER: a plain building icon with a shield icon beside it, representing an insurance company, no text. ABSOLUTELY NO CHARACTERS IN THIS IMAGE unless explicitly stated: no monkey, no Sara, no animal, no person, no face, no hooded figure. Icons only. Flat solid colors with thick black ink outlines on pure white, no gradients, no 3D shading, no drop shadows. The artwork must fill the whole 16:9 frame edge to edge, absolutely NO black bars, NO letterboxing. No invented text, no captions, no labels beyond exactly what this scene asks for, and if a specific word or number is requested, copy it EXACTLY letter by letter.",
+      "ref": "none"
+    },
+    {
+      "file": "2_05.jpg",
+      "startSec": 125.46,
+      "text": "El modelo de lenguaje ya sabe hablar perfectamente, eso no hay que enseñárselo.",
+      "scene": "Medium shot: Sara pointing to her side while explaining, confident, open mouth mid-sentence. ONLY Sara is visible in this image, nothing else whatsoever — no icon, no hexagon, no floating object, no background element of any kind, just Sara alone on pure white. No invented text, no captions, no labels, no numbers, no words anywhere in this image.",
+      "ref": "mono"
+    },
+    {
+      "file": "2_10.jpg",
+      "startSec": 130.48,
+      "text": "Lo que no sabe es que dice exactamente la poliza número tal de ese cliente concreto, porque esa información nunca estuvo en su entrenamiento.",
+      "scene": "Close-up: Sara shrugging, palms up, apologetic expression, explaining a limitation. ONLY Sara is visible in this image, nothing else whatsoever — no icon, no hexagon, no floating object, no background element of any kind, just Sara alone on pure white. No invented text, no captions, no labels, no numbers, no words anywhere in this image.",
+      "ref": "mono"
+    },
+    {
+      "file": "2_19.jpg",
+      "startSec": 139.54,
+      "text": "El IA y engineer construye el puente,",
+      "scene": "ONLY this and NOTHING ELSE WHATSOEVER: a plain document icon with a question mark above it, no text on the document. ABSOLUTELY NO CHARACTERS IN THIS IMAGE unless explicitly stated: no monkey, no Sara, no animal, no person, no face, no hooded figure. Icons only. Flat solid colors with thick black ink outlines on pure white, no gradients, no 3D shading, no drop shadows. The artwork must fill the whole 16:9 frame edge to edge, absolutely NO black bars, NO letterboxing. No invented text, no captions, no labels beyond exactly what this scene asks for, and if a specific word or number is requested, copy it EXACTLY letter by letter.",
+      "ref": "none"
+    },
+    {
+      "file": "2_22.jpg",
+      "startSec": 142.46,
+      "text": "el sistema que busca esa poliza exacta se la pasa al modelo como contexto y solo entonces deja que responda.",
+      "scene": "Medium shot: Sara pointing at a bridge icon connecting two platforms, explaining.",
+      "ref": "mono"
+    },
+    {
+      "file": "2_29.jpg",
+      "startSec": 149.7,
+      "text": "Si ese puente está mal construido, el modelo se inventa condiciones que la poliza no dice con total seguridad en el tono.",
+      "scene": "ONLY this and NOTHING ELSE WHATSOEVER: a simple bridge icon connecting a document icon on one side to a generic AI-core icon (a blue hexagon outline with a small white spark shape inside, no text, no logo, no brand) on the other side. ABSOLUTELY NO CHARACTERS IN THIS IMAGE unless explicitly stated: no monkey, no Sara, no animal, no person, no face, no hooded figure. Icons only. Flat solid colors with thick black ink outlines on pure white, no gradients, no 3D shading, no drop shadows. The artwork must fill the whole 16:9 frame edge to edge, absolutely NO black bars, NO letterboxing. No invented text, no captions, no labels beyond exactly what this scene asks for, and if a specific word or number is requested, copy it EXACTLY letter by letter.",
+      "ref": "none"
+    },
+    {
+      "file": "2_37.jpg",
+      "startSec": 157.17,
+      "text": "Y ese fallo tiene nombre,",
+      "scene": "Close-up: Sara with a worried expression, hands raised in warning.",
+      "ref": "mono"
+    },
+    {
+      "file": "2_38.jpg",
+      "startSec": 158.92,
+      "text": "se le llama alucinación y detectarlo antes de que llegue al cliente es gran parte del trabajo.",
+      "scene": "ONLY this and NOTHING ELSE WHATSOEVER: a plain yellow warning triangle icon with an exclamation mark inside it, nothing else, no other icon, no hexagon, no text of any kind anywhere. ABSOLUTELY NO CHARACTERS IN THIS IMAGE: no monkey, no Sara, no animal, no person, no face. Flat solid colors with thick black ink outlines on pure white. Fill the whole 16:9 frame edge to edge, absolutely NO black bars, NO letterboxing.",
+      "ref": "mono"
+    },
+    {
+      "file": "2_45.jpg",
+      "startSec": 165.16,
+      "text": "La otra mitad del trabajo son los agentes.",
+      "scene": "ONLY this and NOTHING ELSE WHATSOEVER: a plain warning triangle icon with a speech-bubble icon inside it, no text. ABSOLUTELY NO CHARACTERS IN THIS IMAGE unless explicitly stated: no monkey, no Sara, no animal, no person, no face, no hooded figure. Icons only. Flat solid colors with thick black ink outlines on pure white, no gradients, no 3D shading, no drop shadows. The artwork must fill the whole 16:9 frame edge to edge, absolutely NO black bars, NO letterboxing. No invented text, no captions, no labels beyond exactly what this scene asks for, and if a specific word or number is requested, copy it EXACTLY letter by letter.",
+      "ref": "none"
+    },
+    {
+      "file": "2_48.jpg",
+      "startSec": 168.56,
+      "text": "Ya lo vimos en otro vídeo,",
+      "scene": "Medium shot: Sara pointing at a small gear icon (representing an agent), explaining, confident.",
+      "ref": "mono"
+    },
+    {
+      "file": "2_50.jpg",
+      "startSec": 170.3,
+      "text": "un chatbot contesta, una gente actúa.",
+      "scene": "Close-up: Sara nodding, recalling something from a past video.",
+      "ref": "mono"
+    },
+    {
+      "file": "2_53.jpg",
+      "startSec": 173.54,
+      "text": "El IA y engineer es quien decide qué herramientas puede usar ese agente,",
+      "scene": "Medium shot: Sara gesturing with one open hand, then the other, contrasting two ideas, curious expression. ONLY Sara is visible in this image, nothing else whatsoever — no icon, no hexagon, no floating object, no background element of any kind, just Sara alone on pure white. No invented text, no captions, no labels, no numbers, no words anywhere in this image.",
+      "ref": "mono"
+    },
+    {
+      "file": "2_58.jpg",
+      "startSec": 178.42,
+      "text": "que instrucciones recibe exactamente y qué pasa cuando decide algo que no debería.",
+      "scene": "Medium shot: Sara pointing at a small gear icon with a wrench and a magnifying glass next to it, explaining. Only these three plain icons appear — no hexagon, no other floating object, no letters, no glyphs, no symbols of any other kind. ONLY Sara is visible in this image, nothing else whatsoever — no icon, no hexagon, no floating object, no background element of any kind, just Sara alone on pure white. No invented text, no captions, no labels, no numbers, no words anywhere in this image.",
+      "ref": "mono"
+    },
+    {
+      "file": "3_04.jpg",
+      "startSec": 184.13,
+      "text": "Porque una gente con acceso real a herramientas puede hacer daño real si nadie ha pensado bien los límites.",
+      "scene": "Close-up: Sara with a serious expression, one finger raised, cautioning.",
+      "ref": "mono"
+    },
+    {
+      "file": "3_11.jpg",
+      "startSec": 191.0,
+      "text": "Esa parte, diseñar los límites,",
+      "scene": "ONLY this and NOTHING ELSE WHATSOEVER: a small gear icon with a warning triangle icon next to a plain building icon, no text. ABSOLUTELY NO CHARACTERS IN THIS IMAGE unless explicitly stated: no monkey, no Sara, no animal, no person, no face, no hooded figure. Icons only. Flat solid colors with thick black ink outlines on pure white, no gradients, no 3D shading, no drop shadows. The artwork must fill the whole 16:9 frame edge to edge, absolutely NO black bars, NO letterboxing. No invented text, no captions, no labels beyond exactly what this scene asks for, and if a specific word or number is requested, copy it EXACTLY letter by letter.",
+      "ref": "none"
+    },
+    {
+      "file": "3_13.jpg",
+      "startSec": 193.5,
+      "text": "es más trabajo de ingeniería de software clásica que de inteligencia artificial.",
+      "scene": "Medium shot: Sara with a tense expression, hands forming a boundary line in the air.",
+      "ref": "mono"
+    },
+    {
+      "file": "3_18.jpg",
+      "startSec": 198.44,
+      "text": "Y aquí está el dato que más sorprende cuando lo comparas con el puesto vecino.",
+      "scene": "Close-up: Sara nodding firmly, eyebrows raised, serious and emphatic expression. No invented text, no captions, no labels, no numbers, no words of any kind anywhere in this image unless a specific word is explicitly quoted in this description — if none is quoted, draw ZERO text, letters, or digits anywhere in the frame.",
+      "ref": "mono"
+    },
+    {
+      "file": "3_23.jpg",
+      "startSec": 203.14,
+      "text": "Existe otro rol, el Machine Learning Engineer y a menudo se confunden.",
+      "scene": "Medium shot: Sara pointing at a wrench icon and a gear icon together, explaining.",
+      "ref": "mono"
+    },
+    {
+      "file": "3_28.jpg",
+      "startSec": 208.1,
+      "text": "El Machine Learning Engineer sí entren a modelos desde cero,",
+      "scene": "Medium shot: Sara with a surprised expression, one eyebrow raised, curious.",
+      "ref": "mono"
+    },
+    {
+      "file": "3_32.jpg",
+      "startSec": 212.34,
+      "text": "cuida los datos de entrenamiento, ajusta la arquitectura,",
+      "scene": "Close-up: Sara pointing at two plain building icons side by side, comparing, curious.",
+      "ref": "mono"
+    },
+    {
+      "file": "3_35.jpg",
+      "startSec": 215.68,
+      "text": "vigila que el modelo no se degrade con el tiempo.",
+      "scene": "ONLY this and NOTHING ELSE WHATSOEVER: a small gear icon with a wrench, labeled with nothing, solid and detailed, representing careful engineering. ABSOLUTELY NO CHARACTERS IN THIS IMAGE unless explicitly stated: no monkey, no Sara, no animal, no person, no face, no hooded figure. Icons only. Flat solid colors with thick black ink outlines on pure white, no gradients, no 3D shading, no drop shadows. The artwork must fill the whole 16:9 frame edge to edge, absolutely NO black bars, NO letterboxing. No invented text, no captions, no labels beyond exactly what this scene asks for, and if a specific word or number is requested, copy it EXACTLY letter by letter.",
+      "ref": "none"
+    },
+    {
+      "file": "3_38.jpg",
+      "startSec": 218.96,
+      "text": "Es el ingeniero de fiabilidad del modelo.",
+      "scene": "ONLY this and NOTHING ELSE WHATSOEVER: a document icon covered in gear icons, no text. ABSOLUTELY NO CHARACTERS IN THIS IMAGE unless explicitly stated: no monkey, no Sara, no animal, no person, no face, no hooded figure. Icons only. Flat solid colors with thick black ink outlines on pure white, no gradients, no 3D shading, no drop shadows. The artwork must fill the whole 16:9 frame edge to edge, absolutely NO black bars, NO letterboxing. No invented text, no captions, no labels beyond exactly what this scene asks for, and if a specific word or number is requested, copy it EXACTLY letter by letter.",
+      "ref": "none"
+    },
+    {
+      "file": "3_42.jpg",
+      "startSec": 222.2,
+      "text": "El IA y engineer es el ingeniero de producto,",
+      "scene": "ONLY this and NOTHING ELSE WHATSOEVER: a small gray gear icon connected by a thin black line to a blue hexagon icon on the right. ABSOLUTE RULE, NO EXCEPTIONS: the blue hexagon is 100% BLANK except for the small white spark/lightning-bolt shape — ZERO letters, ZERO text, and specifically NEVER the letters 'A' or 'I' or the word 'AI' anywhere on or near the hexagon. If you were about to write any letter on the hexagon, do not — leave it perfectly blank with only the spark shape. ABSOLUTELY NO CHARACTERS IN THIS IMAGE: no monkey, no Sara, no animal, no person, no face. Flat solid colors with thick black ink outlines on pure white. Fill the whole 16:9 frame edge to edge, absolutely NO black bars, NO letterboxing.",
+      "ref": "none"
+    },
+    {
+      "file": "3_45.jpg",
+      "startSec": 225.68,
+      "text": "el que construye lo que el usuario final llega a tocar.",
+      "scene": "Medium shot: Sara pointing at a generic AI-core icon (a blue hexagon outline with a small white spark shape inside, no text, no logo, no brand) with a small heart-rate monitor line icon beside it, explaining.",
+      "ref": "mono"
+    },
+    {
+      "file": "3_49.jpg",
+      "startSec": 229.52,
+      "text": "Se parecen mucho sobre el papel, comparten herramientas, pero el día a día es distinto.",
+      "scene": "Close-up: Sara nodding, explaining, confident.",
+      "ref": "mono"
+    },
+    {
+      "file": "3_55.jpg",
+      "startSec": 235.04,
+      "text": "En las ofertas de trabajo reales se nota clarísimo.",
+      "scene": "Medium shot: Sara pointing at herself proudly with both thumbs, confident smile. ONLY Sara is visible in this image, nothing else whatsoever — no icon, no hexagon, no floating object, no background element of any kind, just Sara alone on pure white. No invented text, no captions, no labels, no numbers, no words anywhere in this image.",
+      "ref": "mono"
+    },
+    {
+      "file": "3_58.jpg",
+      "startSec": 238.64,
+      "text": "Raja parece en más de un tercio de las ofertas de IA y engineer y solo en una de cada 6 de Machine Learning Engineer. Y al revés,",
+      "scene": "Close-up: Sara with a thoughtful, comparing expression, one hand weighing something invisible.",
+      "ref": "mono"
+    },
+    {
+      "file": "4_07.jpg",
+      "startSec": 247.1,
+      "text": "entrenar modelos con librerías especializadas aparece el doble de veces en las ofertas de Machine Learning Engineer.",
+      "scene": "Medium shot: Sara shrugging, palms open, casual.",
+      "ref": "mono"
+    },
+    {
+      "file": "4_13.jpg",
+      "startSec": 253.44,
+      "text": "Somprimos muy cercanos pero no son el mismo trabajo.",
+      "scene": "ONLY this and NOTHING ELSE WHATSOEVER: a plain document icon with a magnifying glass over it, no text, and a small letter count symbol nowhere — just the document and magnifying glass. ABSOLUTELY NO CHARACTERS IN THIS IMAGE unless explicitly stated: no monkey, no Sara, no animal, no person, no face, no hooded figure. Icons only. Flat solid colors with thick black ink outlines on pure white, no gradients, no 3D shading, no drop shadows. The artwork must fill the whole 16:9 frame edge to edge, absolutely NO black bars, NO letterboxing. No invented text, no captions, no labels beyond exactly what this scene asks for, and if a specific word or number is requested, copy it EXACTLY letter by letter.",
+      "ref": "none"
+    },
+    {
+      "file": "4_16.jpg",
+      "startSec": 256.92,
+      "text": "Vale y en cifras concretas, ¿cuánto se paga esto en España en 2016?",
+      "scene": "ONLY this and NOTHING ELSE WHATSOEVER: a bar chart icon with two plain bars of different heights, no numbers, no text, generic gray bars. ABSOLUTELY NO CHARACTERS IN THIS IMAGE unless explicitly stated: no monkey, no Sara, no animal, no person, no face, no hooded figure. Icons only. Flat solid colors with thick black ink outlines on pure white, no gradients, no 3D shading, no drop shadows. The artwork must fill the whole 16:9 frame edge to edge, absolutely NO black bars, NO letterboxing. No invented text, no captions, no labels beyond exactly what this scene asks for, and if a specific word or number is requested, copy it EXACTLY letter by letter.",
+      "ref": "none"
+    },
+    {
+      "file": "4_21.jpg",
+      "startSec": 261.66,
+      "text": "El sueldo medio de un IA y engineer ronda los 71 .000 euros brutos al año.",
+      "scene": "Close-up: Sara pointing at a bar chart icon with two bars, unimpressed.",
+      "ref": "mono"
+    },
+    {
+      "file": "4_27.jpg",
+      "startSec": 267.76,
+      "text": "El de un Machine Learning Engineer puede llegar más alto en el rango superior entre 48 .000 y más de 85 .000.",
+      "scene": "Medium shot: Sara nodding firmly, confident.",
+      "ref": "mono"
+    },
+    {
+      "file": "4_35.jpg",
+      "startSec": 275.72,
+      "text": "Así que, al contrario de lo que la mayoría asume,",
+      "scene": "Close-up: Sara counting on her fingers, curious.",
+      "ref": "mono"
+    },
+    {
+      "file": "4_38.jpg",
+      "startSec": 278.76,
+      "text": "entrenar el modelo sigue pagándose algo mejor que construir encima de él al menos por ahora.",
+      "scene": "Medium shot: Sara holding a small coin-stack icon, explaining, confident.",
+      "ref": "mono"
+    },
+    {
+      "file": "4_44.jpg",
+      "startSec": 284.4,
+      "text": "Pero el IA y engineer parte de un sueldo ya muy por encima de la media del sector tecnológico.",
+      "scene": "Close-up: Sara pointing at a slightly taller coin-stack icon beside a shorter one, explaining, no other object. ONLY Sara is visible in this image, nothing else whatsoever — no icon, no hexagon, no floating object, no background element of any kind, just Sara alone on pure white. No invented text, no captions, no labels, no numbers, no words anywhere in this image.",
+      "ref": "mono"
+    },
+    {
+      "file": "4_50.jpg",
+      "startSec": 290.34,
+      "text": "Y esos dos puestos comparten más de la mitad de sus habilidades sobre el papel.",
+      "scene": "Medium shot: Sara with a surprised expression, palms up, contrasting expectation.",
+      "ref": "mono"
+    },
+    {
+      "file": "4_55.jpg",
+      "startSec": 295.08,
+      "text": "Lo que de verdad lo separa en la práctica diaria no es lo que sabes,",
+      "scene": "Close-up: Sara nodding, explaining a nuance, serious.",
+      "ref": "mono"
+    },
+    {
+      "file": "4_59.jpg",
+      "startSec": 299.28,
+      "text": "es en qué pasas las horas.",
+      "scene": "Medium shot: Sara pointing at a small clock icon, explaining, confident, no other object. ONLY Sara is visible in this image, nothing else whatsoever — no icon, no hexagon, no floating object, no background element of any kind, just Sara alone on pure white. No invented text, no captions, no labels, no numbers, no words anywhere in this image.",
+      "ref": "mono"
+    },
+    {
+      "file": "5_01.jpg",
+      "startSec": 301.74,
+      "text": "Y por qué está explotando esta demanda justo ahora?",
+      "scene": "Close-up: Sara raising two fingers, explaining an overlap, curious.",
+      "ref": "mono"
+    },
+    {
+      "file": "5_05.jpg",
+      "startSec": 305.24,
+      "text": "Porque hace tres años casi ninguna empresa tenía un modelo de lenguaje potente al que conectarse por una simple llamada.",
+      "scene": "Medium shot: Sara with a thoughtful expression, hand on chin, serious.",
+      "ref": "mono"
+    },
+    {
+      "file": "5_12.jpg",
+      "startSec": 312.06,
+      "text": "Hoy cualquier empresa puede acceder a un modelo de nivel mundial en minutos. Lo que no tiene es a nadie que sepa conectarlo bien, con los datos correctos, con los límites correctos, sin que alucine o se salga de madre.",
+      "scene": "Close-up: Sara with a curious, questioning expression, one eyebrow raised.",
+      "ref": "mono"
+    },
+    {
+      "file": "5_24.jpg",
+      "startSec": 324.5,
+      "text": "Ese hueco, entre tener acceso a la IA y saber usarla bien de verdad,",
+      "scene": "Medium shot: Sara explaining, gesturing outward, confident.",
+      "ref": "mono"
+    },
+    {
+      "file": "5_28.jpg",
+      "startSec": 328.94,
+      "text": "es exactamente el hueco que ocupa este puesto.",
+      "scene": "ONLY this and NOTHING ELSE WHATSOEVER: a simple open padlock icon, plain and unlabeled, representing an opportunity opening up. ABSOLUTELY NO CHARACTERS IN THIS IMAGE unless explicitly stated: no monkey, no Sara, no animal, no person, no face, no hooded figure. Icons only. Flat solid colors with thick black ink outlines on pure white, no gradients, no 3D shading, no drop shadows. The artwork must fill the whole 16:9 frame edge to edge, absolutely NO black bars, NO letterboxing. No invented text, no captions, no labels.",
+      "ref": "none"
+    },
+    {
+      "file": "5_32.jpg",
+      "startSec": 332.28,
+      "text": "Por eso las ofertas de este perfil se han multiplicado en apenas dos años,",
+      "scene": "Medium shot: Sara pointing at a globe icon with a small connecting line to a generic AI-core icon (a blue hexagon outline with a small white spark shape inside, no text, no logo, no brand), explaining.",
+      "ref": "mono"
+    },
+    {
+      "file": "5_36.jpg",
+      "startSec": 336.48,
+      "text": "mucho más rápido que casi cualquier otro puesto técnico. No porque haga falta gente que sepa más matemáticas que antes,",
+      "scene": "Close-up: Sara with a puzzled expression, shrugging, curious.",
+      "ref": "mono"
+    },
+    {
+      "file": "5_43.jpg",
+      "startSec": 343.34,
+      "text": "sino porque hace falta gente que sepa unir piezas que ya existen, sin que el resultado se caiga a la primera prueba real.",
+      "scene": "Medium shot: Sara pointing at a warning triangle icon crossed out, explaining confidently.",
+      "ref": "mono"
+    },
+    {
+      "file": "5_50.jpg",
+      "startSec": 350.68,
+      "text": "Y hay una parte del trabajo que casi nunca se cuenta y que ocupa muchísimas horas.",
+      "scene": "Close-up: Sara nodding, satisfied, explaining.",
+      "ref": "mono"
+    },
+    {
+      "file": "5_55.jpg",
+      "startSec": 355.6,
+      "text": "Evaluarse las respuestas son buenas no es tan simple como con código tradicional,",
+      "scene": "Medium shot: Sara pointing off to the side at an upward trending arrow icon, surprised.",
+      "ref": "mono"
+    },
+    {
+      "file": "6_00.jpg",
+      "startSec": 360.28,
+      "text": "donde algo funciona o no funciona.",
+      "scene": "Close-up: Sara shaking her head, correcting, serious.",
+      "ref": "mono"
+    },
+    {
+      "file": "6_02.jpg",
+      "startSec": 362.74,
+      "text": "Aquí hay que construir conjuntos de preguntas de prueba,",
+      "scene": "Medium shot: Sara with hands forming puzzle-piece shapes coming together, explaining.",
+      "ref": "mono"
+    },
+    {
+      "file": "6_06.jpg",
+      "startSec": 366.08,
+      "text": "revisar cientos de respuestas y decidir con números si una versión nueva del sistema es mejor que la anterior.",
+      "scene": "Medium shot: Sara with a serious expression, hand raised as if introducing a hidden topic.",
+      "ref": "mono"
+    },
+    {
+      "file": "6_12.jpg",
+      "startSec": 372.98,
+      "text": "Sin esa evaluación constante, cualquier cambio pequeño en el diseño puede romper algo en silencio y nadie se entera hasta que un cliente se queja.",
+      "scene": "ONLY this and NOTHING ELSE WHATSOEVER: a plain scale/balance icon, both sides level, no text. ABSOLUTELY NO CHARACTERS IN THIS IMAGE unless explicitly stated: no monkey, no Sara, no animal, no person, no face, no hooded figure. Icons only. Flat solid colors with thick black ink outlines on pure white, no gradients, no 3D shading, no drop shadows. The artwork must fill the whole 16:9 frame edge to edge, absolutely NO black bars, NO letterboxing. No invented text, no captions, no labels beyond exactly what this scene asks for, and if a specific word or number is requested, copy it EXACTLY letter by letter.",
+      "ref": "none"
+    },
+    {
+      "file": "6_21.jpg",
+      "startSec": 381.42,
+      "text": "Por eso una parte grande del día a día se parece más a hacer de científico de datos sobre el propio producto que a programar sin más.",
+      "scene": "Close-up: Sara with a thoughtful expression, comparing two things with her hands.",
+      "ref": "mono"
+    },
+    {
+      "file": "6_28.jpg",
+      "startSec": 388.84,
+      "text": "¿Y cómo se entra en esto?",
+      "scene": "Medium shot: Sara pointing at a checklist icon with three blank empty check-boxes next to three blank horizontal lines, curious expression. ONLY Sara and the checklist are visible in this image, nothing else whatsoever — no icon, no hexagon, no floating object of any kind. No invented text, no captions, no labels, no numbers, no words anywhere in this image.",
+      "ref": "mono"
+    },
+    {
+      "file": "6_31.jpg",
+      "startSec": 391.3,
+      "text": "La base es programación seria, sobre todo Python y entender bien cómo funcionan las APIs.",
+      "scene": "Close-up: Sara looking at a stack of plain blank document icons, focused. No invented text, no captions, no labels, no numbers, no words of any kind anywhere in this image unless a specific word is explicitly quoted in this description — if none is quoted, draw ZERO text, letters, or digits anywhere in the frame.",
+      "ref": "mono"
+    },
+    {
+      "file": "6_37.jpg",
+      "startSec": 397.18,
+      "text": "Después hay que entender los conceptos de arriba,",
+      "scene": "Medium shot: Sara pointing at a scale/balance icon comparing two stacks of blank document icons, explaining. No hexagon, no other floating object besides the scale and the two document stacks. ONLY Sara is visible in this image, nothing else whatsoever — no icon, no hexagon, no floating object, no background element of any kind, just Sara alone on pure white. No invented text, no captions, no labels, no numbers, no words anywhere in this image.",
+      "ref": "mono"
+    },
+    {
+      "file": "6_39.jpg",
+      "startSec": 399.9,
+      "text": "RAG, agentes, evaluación de calidad de las respuestas sin necesidad de saber entrenar una red neuronal desde cero.",
+      "scene": "Close-up: Sara with a tense expression, hand near her mouth, worried.",
+      "ref": "mono"
+    },
+    {
+      "file": "6_47.jpg",
+      "startSec": 407.3,
+      "text": "Y el proyecto que de verdad impresiona en una entrevista no es conecté la API de un modelo.",
+      "scene": "Medium shot: Sara with a worried expression, gesturing as if something broke quietly.",
+      "ref": "mono"
+    },
+    {
+      "file": "6_52.jpg",
+      "startSec": 412.86,
+      "text": "Es construir un asistente que busque información real en un conjunto de documentos tuyo y que puedas medir con datos cuántas veces acierta y cuántas veces se inventa cosas.",
+      "scene": "Close-up: Sara nodding, serious, explaining.",
+      "ref": "mono"
+    },
+    {
+      "file": "7_03.jpg",
+      "startSec": 423.88,
+      "text": "Eso, medir cuando falla, es lo que separa un proyecto de fin de semana de algo que una empresa se atrevería a poner en producción.",
+      "scene": "Medium shot: Sara pointing off to the side, curious, introducing next topic.",
+      "ref": "mono"
+    },
+    {
+      "file": "7_11.jpg",
+      "startSec": 431.96,
+      "text": "Así que la próxima vez que alguien te diga que un AI Engineer entrena la inteligencia artificial,",
+      "scene": "Close-up: Sara counting on her fingers, explaining, confident.",
+      "ref": "mono"
+    },
+    {
+      "file": "7_17.jpg",
+      "startSec": 437.86,
+      "text": "ya sabes que no, que su trabajo empieza justo donde termina el entrenamiento.",
+      "scene": "Medium shot: Sara pointing upward at a small gear-and-hexagon icon combo, explaining.",
+      "ref": "mono"
+    },
+    {
+      "file": "7_22.jpg",
+      "startSec": 442.26,
+      "text": "Es quien instala el grifo, quien decide que sale por él y quien se asegura de que lo que sale sea agua de verdad y no algo que solo lo parece.",
+      "scene": "Close-up: Sara shaking her head, correcting, unimpressed.",
+      "ref": "mono"
+    },
+    {
+      "file": "7_31.jpg",
+      "startSec": 451.46,
+      "text": "Con el agua analizada,",
+      "scene": "Medium shot: Sara pointing at a magnifying glass over a blank folder icon, holding a scale/balance icon in the other hand, explaining. No invented text, no captions, no labels, no numbers, no words of any kind anywhere in this image unless a specific word is explicitly quoted in this description — if none is quoted, draw ZERO text, letters, or digits anywhere in the frame.",
+      "ref": "mono"
+    },
+    {
+      "file": "7_32.jpg",
+      "startSec": 452.94,
+      "text": "la tubería construida y el grifo instalado,",
+      "scene": "Close-up: Sara nodding, serious, emphasizing.",
+      "ref": "mono"
+    },
+    {
+      "file": "7_35.jpg",
+      "startSec": 455.44,
+      "text": "la cadena completa por fin tiene sentido.",
+      "scene": "Medium shot: Sara with a knowing, confident smile, arms crossed.",
+      "ref": "mono"
+    },
+    {
+      "file": "7_38.jpg",
+      "startSec": 458.38,
+      "text": "Y si algún día ese grifo suelta agua fría cuando deberías salir caliente o directamente no sale nada,",
+      "scene": "Close-up: Sara shaking her head, correcting, firm.",
+      "ref": "mono"
+    },
+    {
+      "file": "7_44.jpg",
+      "startSec": 464.34,
+      "text": "ya sabes exactamente a quién buscar. Si te ha interesado esta serie sobre empleos reales en tecnología,",
+      "scene": "Medium shot: Sara pointing at a plain kitchen faucet/tap icon with a small water drop coming out, explaining, confident.",
+      "ref": "mono"
+    },
+    {
+      "file": "7_50.jpg",
+      "startSec": 470.48,
+      "text": "suscríbete.",
+      "scene": "Close-up: Sara nodding, satisfied, closing a thought.",
+      "ref": "mono"
+    },
+    {
+      "file": "7_51.jpg",
+      "startSec": 471.48,
+      "text": "Se viene más de este mundo.",
+      "scene": "Medium shot: Sara raising three fingers one by one, closing the thought, confident.",
+      "ref": "mono"
+    }
+  ],
+  "style_base": "Crude hand-drawn cartoon, Ecomonos style, PURE WHITE background, thick black ink outlines, flat colors. A brown cartoon monkey protagonist named Sara, huge white round eyes with black pupils, exactly like the reference image, NO clothing of any kind, NEVER a human character. Exactly two arms and two hands per character. Any text that appears in the image must be in PERFECT SPANISH, never English, and only when the scene explicitly asks for specific words or figures. Fill the whole frame, no black bars. CRITICAL: NEVER use any real brand logo — no OpenAI logo, no ChatGPT logo, no Google Gemini logo, no Claude/Anthropic logo, no Python logo. When the scene needs to represent 'the AI' or a foundation model, always use the same generic AI-core icon: a blue hexagon outline with a small white spark shape inside, never a robot with a face, never a real company logo, and NEVER write the letters 'AI' or any text inside it. There is NO hooded shadow character in this video at all — never draw one. Never add a speech bubble, caption or extra label unless the scene explicitly asks for one."
+}

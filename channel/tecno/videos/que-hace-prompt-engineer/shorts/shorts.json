@@ -1,0 +1,24 @@
+{
+  "shorts": [
+    {
+      "file": "short_1.mp4",
+      "titulo": "No, un Prompt Engineer no escribe preguntas bonitas",
+      "gancho": "¿PREGUNTAS/BONITAS?",
+      "desde": "0_00",
+      "t0": 0.0,
+      "dur": 54.77,
+      "youtube_id": "SKZT2FFilpQ",
+      "publish_at": "2026-10-07T19:00:00Z"
+    },
+    {
+      "file": "short_2.mp4",
+      "titulo": "¿Cuánto cobra un Prompt Engineer en España?",
+      "gancho": "¿CUÁNTO/COBRA?",
+      "desde": "5_10",
+      "t0": 259.07,
+      "dur": 56.17,
+      "youtube_id": "Qe1HHGu9c1c",
+      "publish_at": "2026-10-08T11:00:00Z"
+    }
+  ]
+}

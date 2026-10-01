@@ -1,0 +1,17 @@
+{
+  "sfx": [
+    { "file": "intro_curious.mp3", "startSec": 0.0, "duration": 1.4, "volume": 0.14, "prompt": "light curious playful chime, inquisitive and friendly, no music" },
+    { "file": "key_transition.mp3", "startSec": 19.26, "duration": 1.3, "volume": 0.15, "prompt": "short neutral transition tone, moving to the key point, clean" },
+    { "file": "example_intro.mp3", "startSec": 52.98, "duration": 1.3, "volume": 0.14, "prompt": "light curious transition tone, introducing a concrete example" },
+    { "file": "reveal_chime.mp3", "startSec": 86.82, "duration": 1.4, "volume": 0.16, "prompt": "short satisfying reveal chime, a mystery solved, curious and clean" },
+    { "file": "emphasis_sting.mp3", "startSec": 149.76, "duration": 1.3, "volume": 0.16, "prompt": "short emphatic sting, underlining an important point, confident" },
+    { "file": "myth_twist.mp3", "startSec": 178.58, "duration": 1.4, "volume": 0.16, "prompt": "curious rising sting, a myth about to be busted, short and playful" },
+    { "file": "tools_transition.mp3", "startSec": 241.5, "duration": 1.3, "volume": 0.14, "prompt": "light neutral transition tone, moving to tools and techniques" },
+    { "file": "money_question.mp3", "startSec": 305.54, "duration": 1.2, "volume": 0.14, "prompt": "light inquisitive transition tone, asking about numbers" },
+    { "file": "money_chime.mp3", "startSec": 310.68, "duration": 1.3, "volume": 0.17, "prompt": "short coin cash register chime, salary reveal, cheerful" },
+    { "file": "question_transition.mp3", "startSec": 353.82, "duration": 1.3, "volume": 0.14, "prompt": "light inquisitive transition tone, asking how to get started" },
+    { "file": "closing_turn.mp3", "startSec": 424.78, "duration": 1.4, "volume": 0.14, "prompt": "warm closing transition swell, wrapping up an argument" },
+    { "file": "subscribe_chime.mp3", "startSec": 445.36, "duration": 1.2, "volume": 0.17, "prompt": "bright cheerful notification bell chime, friendly and short" }
+  ],
+  "music": { "file": "musica-canal.mp3", "duration": 30, "volume": 0.3, "prompt": "reused channel background music loop" }
+}

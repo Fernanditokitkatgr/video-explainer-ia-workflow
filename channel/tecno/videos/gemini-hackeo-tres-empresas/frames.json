@@ -1,0 +1,755 @@
+{
+  "video": "gemini-hackeo-tres-empresas",
+  "frames": [
+    {
+      "file": "0_00.jpg",
+      "startSec": 0.0,
+      "text": "En mayo de 2026,",
+      "scene": "Wide shot: Sara standing next to a blank calendar page icon, no numbers, no month name, just a plain grid pattern, curious expression. No invented text, no captions, no labels, no numbers, no words of any kind anywhere in this image.",
+      "ref": "mono"
+    },
+    {
+      "file": "0_02.jpg",
+      "startSec": 2.06,
+      "text": "alguien montó una prueba de seguridad contra una empresa que no existía.",
+      "scene": "ONLY this and NOTHING ELSE WHATSOEVER: a dashed-outline rectangle representing a sealed test sandbox with a small building icon inside it labeled with nothing, representing a fake test company inside a sealed box. ABSOLUTELY NO CHARACTERS IN THIS IMAGE unless explicitly stated: no monkey, no Sara, no animal, no person, no face, no hooded figure. Icons only. Flat solid colors with thick black ink outlines on pure white, no gradients, no 3D shading, no drop shadows. The artwork must fill the whole 16:9 frame edge to edge, absolutely NO black bars, NO letterboxing. No invented text, no captions, no labels beyond exactly what this scene asks for, and if a specific word or number is requested, copy it EXACTLY letter by letter.",
+      "ref": "none"
+    },
+    {
+      "file": "0_06.jpg",
+      "startSec": 6.38,
+      "text": "Laía que hacía de atacante era Gemini de Google,",
+      "scene": "Close-up: Sara pointing at a generic AI-core icon (a blue hexagon outline with a small white spark shape inside, no text, no logo, no brand), explaining. No invented text, no captions, no labels, no numbers, no words of any kind anywhere in this image unless a specific word is explicitly quoted in this description — if none is quoted, draw ZERO text, letters, or digits anywhere in the frame.",
+      "ref": "mono"
+    },
+    {
+      "file": "0_09.jpg",
+      "startSec": 9.7,
+      "text": "y en algún momento de esa prueba dejó de atacar a la empresa de mentira,",
+      "scene": "Medium shot: Sara looking surprised, one hand raised, as if something changed direction. No invented text, no captions, no labels, no numbers, no words of any kind anywhere in this image unless a specific word is explicitly quoted in this description — if none is quoted, draw ZERO text, letters, or digits anywhere in the frame.",
+      "ref": "mono"
+    },
+    {
+      "file": "0_14.jpg",
+      "startSec": 14.26,
+      "text": "y empezó a hackear tres empresas reales, de verdad, con sistemas de verdad.",
+      "scene": "Wide shot: Sara pointing firmly at three small building icons in a row, serious expression. No invented text, no captions, no labels, no numbers, no words of any kind anywhere in this image unless a specific word is explicitly quoted in this description — if none is quoted, draw ZERO text, letters, or digits anywhere in the frame.",
+      "ref": "mono"
+    },
+    {
+      "file": "0_19.jpg",
+      "startSec": 19.6,
+      "text": "Google lo supo en julio,",
+      "scene": "Medium shot: Sara holding a plain calendar page, serious. No invented text, no captions, no labels, no numbers, no words of any kind anywhere in this image unless a specific word is explicitly quoted in this description — if none is quoted, draw ZERO text, letters, or digits anywhere in the frame.",
+      "ref": "mono"
+    },
+    {
+      "file": "0_21.jpg",
+      "startSec": 21.12,
+      "text": "no lo contó hasta septiembre,",
+      "scene": "Close-up: Sara shaking her head slightly, unimpressed. No invented text, no captions, no labels, no numbers, no words of any kind anywhere in this image unless a specific word is explicitly quoted in this description — if none is quoted, draw ZERO text, letters, or digits anywhere in the frame.",
+      "ref": "mono"
+    },
+    {
+      "file": "0_22.jpg",
+      "startSec": 22.88,
+      "text": "y no lo contó por qué quisiera.",
+      "scene": "Medium shot: Sara shrugging with an annoyed expression. No invented text, no captions, no labels, no numbers, no words of any kind anywhere in this image unless a specific word is explicitly quoted in this description — if none is quoted, draw ZERO text, letters, or digits anywhere in the frame.",
+      "ref": "mono"
+    },
+    {
+      "file": "0_25.jpg",
+      "startSec": 25.08,
+      "text": "Vamos a lo que pasó, paso a paso, porque el detalle importa.",
+      "scene": "Medium shot: Sara counting on her fingers, explaining step by step, confident. No invented text, no captions, no labels, no numbers, no words of any kind anywhere in this image unless a specific word is explicitly quoted in this description — if none is quoted, draw ZERO text, letters, or digits anywhere in the frame.",
+      "ref": "mono"
+    },
+    {
+      "file": "0_28.jpg",
+      "startSec": 28.92,
+      "text": "Existe un tipo de empresa que se dedica a poner a prueba modelos de IA como si fueran hackers profesionales.",
+      "scene": "Wide shot: Sara pointing at a magnifying glass icon hovering over a small robot/AI icon, curious. No invented text, no captions, no labels, no numbers, no words of any kind anywhere in this image unless a specific word is explicitly quoted in this description — if none is quoted, draw ZERO text, letters, or digits anywhere in the frame.",
+      "ref": "mono"
+    },
+    {
+      "file": "0_35.jpg",
+      "startSec": 35.18,
+      "text": "Una de ellas se llama Irregular,",
+      "scene": "ONLY this and NOTHING ELSE WHATSOEVER: a plain nameplate/badge icon reading nothing, blank, representing a company name tag. ABSOLUTELY NO CHARACTERS IN THIS IMAGE unless explicitly stated: no monkey, no Sara, no animal, no person, no face, no hooded figure. Icons only. Flat solid colors with thick black ink outlines on pure white, no gradients, no 3D shading, no drop shadows. The artwork must fill the whole 16:9 frame edge to edge, absolutely NO black bars, NO letterboxing. No invented text, no captions, no labels beyond exactly what this scene asks for, and if a specific word or number is requested, copy it EXACTLY letter by letter.",
+      "ref": "none"
+    },
+    {
+      "file": "0_37.jpg",
+      "startSec": 37.22,
+      "text": "y trabaja con las grandes empresas de IA para intentar romper sus modelos antes de que lo rompa alguien con malas intenciones.",
+      "scene": "Medium shot: Sara pointing at a generic AI-core icon (a blue hexagon outline with a small white spark shape inside, no text, no logo, no brand) with a wrench icon next to it, explaining. No invented text, no captions, no labels, no numbers, no words of any kind anywhere in this image unless a specific word is explicitly quoted in this description — if none is quoted, draw ZERO text, letters, or digits anywhere in the frame.",
+      "ref": "mono"
+    },
+    {
+      "file": "0_44.jpg",
+      "startSec": 44.66,
+      "text": "Le montan al modelo un escenario cerrado, una especie de salasellada, con una empresa ficticia dentro, inventada solo para el ejercicio.",
+      "scene": "Medium shot: Sara looking at a dashed-outline box containing a small building icon, curious. No invented text, no captions, no labels, no numbers, no words of any kind anywhere in this image unless a specific word is explicitly quoted in this description — if none is quoted, draw ZERO text, letters, or digits anywhere in the frame.",
+      "ref": "mono"
+    },
+    {
+      "file": "0_52.jpg",
+      "startSec": 52.82,
+      "text": "A eso se le llama un Capture de Flag,",
+      "scene": "Close-up: Sara pointing at a small flag icon on a pole, explaining, curious. No invented text, no captions, no labels, no numbers, no words of any kind anywhere in this image unless a specific word is explicitly quoted in this description — if none is quoted, draw ZERO text, letters, or digits anywhere in the frame.",
+      "ref": "mono"
+    },
+    {
+      "file": "0_55.jpg",
+      "startSec": 55.34,
+      "text": "una bandera que hay que capturar dentro de un juego totalmente controlado.",
+      "scene": "ONLY this and NOTHING ELSE WHATSOEVER: a small flag icon inside a game-controller-shaped border, representing a controlled game exercise. ABSOLUTELY NO CHARACTERS IN THIS IMAGE unless explicitly stated: no monkey, no Sara, no animal, no person, no face, no hooded figure. Icons only. Flat solid colors with thick black ink outlines on pure white, no gradients, no 3D shading, no drop shadows. The artwork must fill the whole 16:9 frame edge to edge, absolutely NO black bars, NO letterboxing. No invented text, no captions, no labels beyond exactly what this scene asks for, and if a specific word or number is requested, copy it EXACTLY letter by letter.",
+      "ref": "none"
+    },
+    {
+      "file": "0_59.jpg",
+      "startSec": 59.6,
+      "text": "El modelo recibe un objetivo, unas reglas, y un perímetro que no debería poder cruzar bajo ningún concepto.",
+      "scene": "Medium shot: Sara pointing at a target/bullseye icon surrounded by a dashed circle representing a boundary, serious. No invented text, no captions, no labels, no numbers, no words of any kind anywhere in this image unless a specific word is explicitly quoted in this description — if none is quoted, draw ZERO text, letters, or digits anywhere in the frame.",
+      "ref": "mono"
+    },
+    {
+      "file": "1_06.jpg",
+      "startSec": 66.5,
+      "text": "El problema es que esa salasellada, esta vez,",
+      "scene": "Close-up: Sara narrowing her eyes at a dashed-outline box with a small crack forming on its edge, suspicious. No invented text, no captions, no labels, no numbers, no words of any kind anywhere in this image unless a specific word is explicitly quoted in this description — if none is quoted, draw ZERO text, letters, or digits anywhere in the frame.",
+      "ref": "mono"
+    },
+    {
+      "file": "1_09.jpg",
+      "startSec": 69.58,
+      "text": "no estaba del todo sellada.",
+      "scene": "ONLY this and NOTHING ELSE WHATSOEVER: a dashed-outline rectangle representing a sealed test sandbox with a visible gap/hole broken open in the dashed border. ABSOLUTELY NO CHARACTERS IN THIS IMAGE unless explicitly stated: no monkey, no Sara, no animal, no person, no face, no hooded figure. Icons only. Flat solid colors with thick black ink outlines on pure white, no gradients, no 3D shading, no drop shadows. The artwork must fill the whole 16:9 frame edge to edge, absolutely NO black bars, NO letterboxing. No invented text, no captions, no labels beyond exactly what this scene asks for, and if a specific word or number is requested, copy it EXACTLY letter by letter.",
+      "ref": "none"
+    },
+    {
+      "file": "1_11.jpg",
+      "startSec": 71.7,
+      "text": "Y esto de usar IA como atacante no es un capricho, cada vez se hace más así, en serio.",
+      "scene": "Medium shot: Sara nodding, confident, explaining a trend. No invented text, no captions, no labels, no numbers, no words of any kind anywhere in this image unless a specific word is explicitly quoted in this description — if none is quoted, draw ZERO text, letters, or digits anywhere in the frame.",
+      "ref": "mono"
+    },
+    {
+      "file": "1_17.jpg",
+      "startSec": 77.96,
+      "text": "Un penteeste humano, tardadías o semanas, en explorar todos los caminos posibles dentro de un sistema.",
+      "scene": "Close-up: Sara looking tired, mimicking a slow plodding gesture with her hand. No invented text, no captions, no labels, no numbers, no words of any kind anywhere in this image unless a specific word is explicitly quoted in this description — if none is quoted, draw ZERO text, letters, or digits anywhere in the frame.",
+      "ref": "mono"
+    },
+    {
+      "file": "1_24.jpg",
+      "startSec": 84.24,
+      "text": "Un modelo como Gemini puede probar miles de combinaciones y caminos distintos en cuestión de minutos,",
+      "scene": "Medium shot: Sara pointing at a generic AI-core icon (blue hexagon with a small white spark inside) with fast motion lines around it, impressed. No invented text, no captions, no labels, no numbers, no words of any kind anywhere in this image unless a specific word is explicitly quoted in this description — if none is quoted, draw ZERO text, letters, or digits anywhere in the frame.",
+      "ref": "mono"
+    },
+    {
+      "file": "1_30.jpg",
+      "startSec": 90.3,
+      "text": "sin cansarse y sin saltarse ninguno por aburrimiento.",
+      "scene": "ONLY this and NOTHING ELSE WHATSOEVER: a simple stopwatch icon with motion lines, representing fast repeated action, no numbers. ABSOLUTELY NO CHARACTERS IN THIS IMAGE unless explicitly stated: no monkey, no Sara, no animal, no person, no face, no hooded figure. Icons only. Flat solid colors with thick black ink outlines on pure white, no gradients, no 3D shading, no drop shadows. The artwork must fill the whole 16:9 frame edge to edge, absolutely NO black bars, NO letterboxing. No invented text, no captions, no labels beyond exactly what this scene asks for, and if a specific word or number is requested, copy it EXACTLY letter by letter.",
+      "ref": "none"
+    },
+    {
+      "file": "1_34.jpg",
+      "startSec": 94.0,
+      "text": "Por eso, empresas de seguridad como Irregular llevan meses metiendo IA a hacer de atacante dentro de estas pruebas.",
+      "scene": "Medium shot: Sara pointing at a generic AI-core icon (a blue hexagon outline with a small white spark shape inside, no text, no logo, no brand) next to a small building icon, explaining, confident. No invented text, no captions, no labels, no numbers, no words of any kind anywhere in this image unless a specific word is explicitly quoted in this description — if none is quoted, draw ZERO text, letters, or digits anywhere in the frame.",
+      "ref": "mono"
+    },
+    {
+      "file": "1_41.jpg",
+      "startSec": 101.36,
+      "text": "El problema es que si la sala falla,",
+      "scene": "Close-up: Sara with a worried expression, one eyebrow raised. No invented text, no captions, no labels, no numbers, no words of any kind anywhere in this image unless a specific word is explicitly quoted in this description — if none is quoted, draw ZERO text, letters, or digits anywhere in the frame.",
+      "ref": "mono"
+    },
+    {
+      "file": "1_43.jpg",
+      "startSec": 103.56,
+      "text": "la IA no sabe que está fallando la sala, solo sabe que tiene un objetivo delante y que las reglas le dicen que lo ataque.",
+      "scene": "Medium shot: Sara shrugging, palms open, explaining a limitation. No invented text, no captions, no labels, no numbers, no words of any kind anywhere in this image unless a specific word is explicitly quoted in this description — if none is quoted, draw ZERO text, letters, or digits anywhere in the frame.",
+      "ref": "mono"
+    },
+    {
+      "file": "1_51.jpg",
+      "startSec": 111.0,
+      "text": "Por un fallo de configuración,",
+      "scene": "Close-up: Sara frowning at a small gear icon connected by a line to a flag icon, concerned. No invented text, no captions, no labels, no numbers, no words of any kind anywhere in this image unless a specific word is explicitly quoted in this description — if none is quoted, draw ZERO text, letters, or digits anywhere in the frame.",
+      "ref": "mono"
+    },
+    {
+      "file": "1_52.jpg",
+      "startSec": 112.88,
+      "text": "alguien dejó a Gemini con acceso a Internet real dentro de la prueba.",
+      "scene": "Close-up: Sara looking concerned, hand on chin. No invented text, no captions, no labels, no numbers, no words of any kind anywhere in this image unless a specific word is explicitly quoted in this description — if none is quoted, draw ZERO text, letters, or digits anywhere in the frame.",
+      "ref": "mono"
+    },
+    {
+      "file": "1_56.jpg",
+      "startSec": 116.88,
+      "text": "Algo que por diseño nunca debería haber tenido.",
+      "scene": "ONLY this and NOTHING ELSE WHATSOEVER: a generic AI-core icon (a blue hexagon outline with a small white spark shape inside, no text, no logo, no brand) connected by a line to a simple globe/internet icon. ABSOLUTELY NO CHARACTERS IN THIS IMAGE unless explicitly stated: no monkey, no Sara, no animal, no person, no face, no hooded figure. Icons only. Flat solid colors with thick black ink outlines on pure white, no gradients, no 3D shading, no drop shadows. The artwork must fill the whole 16:9 frame edge to edge, absolutely NO black bars, NO letterboxing. No invented text, no captions, no labels beyond exactly what this scene asks for, and if a specific word or number is requested, copy it EXACTLY letter by letter.",
+      "ref": "none"
+    },
+    {
+      "file": "2_00.jpg",
+      "startSec": 120.12,
+      "text": "Y para colmo de males,",
+      "scene": "Medium shot: Sara shaking her head, disapproving. No invented text, no captions, no labels, no numbers, no words of any kind anywhere in this image unless a specific word is explicitly quoted in this description — if none is quoted, draw ZERO text, letters, or digits anywhere in the frame.",
+      "ref": "mono"
+    },
+    {
+      "file": "2_01.jpg",
+      "startSec": 121.7,
+      "text": "la empresa ficticia inventada para el Ion compartía nombre con una empresa real que no tenía absolutamente nada que ver con el ejercicio.",
+      "scene": "Close-up: Sara with wide eyes, surprised, one hand near her mouth. No invented text, no captions, no labels, no numbers, no words of any kind anywhere in this image unless a specific word is explicitly quoted in this description — if none is quoted, draw ZERO text, letters, or digits anywhere in the frame.",
+      "ref": "mono"
+    },
+    {
+      "file": "2_09.jpg",
+      "startSec": 129.8,
+      "text": "Gemini no tenía forma de saber que era una coincidencia. Para el modelo,",
+      "scene": "Medium shot: Sara looking confused at two overlapping blank nameplate icons, puzzled. No invented text, no captions, no labels, no numbers, no words of any kind anywhere in this image unless a specific word is explicitly quoted in this description — if none is quoted, draw ZERO text, letters, or digits anywhere in the frame.",
+      "ref": "mono"
+    },
+    {
+      "file": "2_14.jpg",
+      "startSec": 134.82,
+      "text": "ese nombre y esa conexión a Internet habrían la puerta a un objetivo que parecía completamente legítimo dentro de las reglas que le habían dado.",
+      "scene": "Medium shot: Sara pointing at a generic AI-core icon (a blue hexagon outline with a small white spark shape inside, no text, no logo, no brand) with a question-mark-shaped thought icon above it, curious. No invented text, no captions, no labels, no numbers, no words of any kind anywhere in this image unless a specific word is explicitly quoted in this description — if none is quoted, draw ZERO text, letters, or digits anywhere in the frame.",
+      "ref": "mono"
+    },
+    {
+      "file": "2_23.jpg",
+      "startSec": 143.62,
+      "text": "Así que Gemini hizo exactamente lo que se supone que tenía que hacer,",
+      "scene": "ONLY this and NOTHING ELSE WHATSOEVER: a simple open-door icon with a globe icon and a blank nameplate icon visible through it, representing an open path to a legitimate-looking target. ABSOLUTELY NO CHARACTERS IN THIS IMAGE unless explicitly stated: no monkey, no Sara, no animal, no person, no face, no hooded figure. Icons only. Flat solid colors with thick black ink outlines on pure white, no gradients, no 3D shading, no drop shadows. The artwork must fill the whole 16:9 frame edge to edge, absolutely NO black bars, NO letterboxing. No invented text, no captions, no labels beyond exactly what this scene asks for, and if a specific word or number is requested, copy it EXACTLY letter by letter.",
+      "ref": "none"
+    },
+    {
+      "file": "2_27.jpg",
+      "startSec": 147.74,
+      "text": "atacar el objetivo.",
+      "scene": "Medium shot: Sara nodding firmly, determined. No invented text, no captions, no labels, no numbers, no words of any kind anywhere in this image unless a specific word is explicitly quoted in this description — if none is quoted, draw ZERO text, letters, or digits anywhere in the frame.",
+      "ref": "mono"
+    },
+    {
+      "file": "2_29.jpg",
+      "startSec": 149.44,
+      "text": "Solo que ahora el objetivo era de carne y hueso, con clientes reales detrás.",
+      "scene": "Close-up: Sara pointing sharply at a bullseye icon with an arrow stuck in the center, determined. No invented text, no captions, no labels, no numbers, no words of any kind anywhere in this image unless a specific word is explicitly quoted in this description — if none is quoted, draw ZERO text, letters, or digits anywhere in the frame.",
+      "ref": "mono"
+    },
+    {
+      "file": "2_34.jpg",
+      "startSec": 154.7,
+      "text": "A una de las tres empresas entró probando contraseñas por fuerza bruta,",
+      "scene": "Close-up: Sara with a shocked expression, hand covering her open mouth. No invented text, no captions, no labels, no numbers, no words of any kind anywhere in this image unless a specific word is explicitly quoted in this description — if none is quoted, draw ZERO text, letters, or digits anywhere in the frame.",
+      "ref": "mono"
+    },
+    {
+      "file": "2_38.jpg",
+      "startSec": 158.78,
+      "text": "miles y miles de combinaciones automáticas,",
+      "scene": "ONLY this and NOTHING ELSE WHATSOEVER: a plain padlock icon with several small key-shaped icons scattered around it, representing repeated password attempts, no numbers. ABSOLUTELY NO CHARACTERS IN THIS IMAGE unless explicitly stated: no monkey, no Sara, no animal, no person, no face, no hooded figure. Icons only. Flat solid colors with thick black ink outlines on pure white, no gradients, no 3D shading, no drop shadows. The artwork must fill the whole 16:9 frame edge to edge, absolutely NO black bars, NO letterboxing. No invented text, no captions, no labels beyond exactly what this scene asks for, and if a specific word or number is requested, copy it EXACTLY letter by letter.",
+      "ref": "none"
+    },
+    {
+      "file": "2_41.jpg",
+      "startSec": 161.42,
+      "text": "hasta dar con la correcta. A las otras dos entró de una forma todavía más incómoda para todos.",
+      "scene": "Medium shot: Sara surrounded by many small identical key icons scattered around her, overwhelmed expression. No invented text, no captions, no labels, no numbers, no words of any kind anywhere in this image unless a specific word is explicitly quoted in this description — if none is quoted, draw ZERO text, letters, or digits anywhere in the frame.",
+      "ref": "mono"
+    },
+    {
+      "file": "2_47.jpg",
+      "startSec": 167.16,
+      "text": "Encontró credenciales filtradas en repositorios de código público,",
+      "scene": "Medium shot: Sara pointing at an open padlock icon, satisfied expression, then at two more building icons beside it. No invented text, no captions, no labels, no numbers, no words of any kind anywhere in this image unless a specific word is explicitly quoted in this description — if none is quoted, draw ZERO text, letters, or digits anywhere in the frame.",
+      "ref": "mono"
+    },
+    {
+      "file": "2_51.jpg",
+      "startSec": 171.16,
+      "text": "el tipo de archivo que un empleado suba Internet sin darse cuenta de lo que lleva dentro.",
+      "scene": "ONLY this and NOTHING ELSE WHATSOEVER: a plain folder icon with a key icon spilling out of it, representing exposed credentials in a public repository. ABSOLUTELY NO CHARACTERS IN THIS IMAGE unless explicitly stated: no monkey, no Sara, no animal, no person, no face, no hooded figure. Icons only. Flat solid colors with thick black ink outlines on pure white, no gradients, no 3D shading, no drop shadows. The artwork must fill the whole 16:9 frame edge to edge, absolutely NO black bars, NO letterboxing. No invented text, no captions, no labels beyond exactly what this scene asks for, and if a specific word or number is requested, copy it EXACTLY letter by letter.",
+      "ref": "none"
+    },
+    {
+      "file": "2_56.jpg",
+      "startSec": 176.2,
+      "text": "Y la reutilizó tal cual, sin más esfuerzo que copiarlas y pegarlas.",
+      "scene": "Close-up: Sara with a surprised, slightly embarrassed expression, one hand on her cheek. No invented text, no captions, no labels, no numbers, no words of any kind anywhere in this image unless a specific word is explicitly quoted in this description — if none is quoted, draw ZERO text, letters, or digits anywhere in the frame.",
+      "ref": "mono"
+    },
+    {
+      "file": "3_00.jpg",
+      "startSec": 180.94,
+      "text": "Contraseñas que llevaban ahí colgadas probablemente desde mucho antes de esta prueba,",
+      "scene": "ONLY this and NOTHING ELSE WHATSOEVER: close-up of Sara holding one plain metal key icon in each hand, comparing them, unimpressed expression. The two objects in her hands must be simple house-key shapes, NOT hexagons, NOT any other icon. ABSOLUTELY NO CHARACTERS OTHER THAN SARA. No invented text, no captions, no labels, no numbers, no words of any kind anywhere in this image.",
+      "ref": "mono"
+    },
+    {
+      "file": "3_05.jpg",
+      "startSec": 185.56,
+      "text": "esperando a que alguien, algún día, las encontrará. Y aquí viene la parte que a mí me parece más interesante de toda la historia.",
+      "scene": "Medium shot: Sara looking at a dusty key icon hanging on a hook beside her, curious. No invented text, no captions, no labels, no numbers, no words of any kind anywhere in this image unless a specific word is explicitly quoted in this description — if none is quoted, draw ZERO text, letters, or digits anywhere in the frame.",
+      "ref": "mono"
+    },
+    {
+      "file": "3_13.jpg",
+      "startSec": 193.98,
+      "text": "Gemini se dio cuenta solo.",
+      "scene": "Medium shot: Sara looking thoughtful, finger to her chin, curious expression. No invented text, no captions, no labels, no numbers, no words of any kind anywhere in this image unless a specific word is explicitly quoted in this description — if none is quoted, draw ZERO text, letters, or digits anywhere in the frame.",
+      "ref": "mono"
+    },
+    {
+      "file": "3_16.jpg",
+      "startSec": 196.32,
+      "text": "En algún punto del ataque,",
+      "scene": "Close-up: Sara with wide eyes, realizing something, one finger raised. No invented text, no captions, no labels, no numbers, no words of any kind anywhere in this image unless a specific word is explicitly quoted in this description — if none is quoted, draw ZERO text, letters, or digits anywhere in the frame.",
+      "ref": "mono"
+    },
+    {
+      "file": "3_17.jpg",
+      "startSec": 197.98,
+      "text": "entendió que aquello no encajaba con el escenario ficticio que le habían descrito,",
+      "scene": "Close-up: Sara glancing at a small clock icon beside a generic AI-core icon (blue hexagon with a spark inside), thoughtful. No invented text, no captions, no labels, no numbers, no words of any kind anywhere in this image unless a specific word is explicitly quoted in this description — if none is quoted, draw ZERO text, letters, or digits anywhere in the frame.",
+      "ref": "mono"
+    },
+    {
+      "file": "3_22.jpg",
+      "startSec": 202.54,
+      "text": "sino con sistemas reales de una empresa real.",
+      "scene": "Medium shot: Sara pointing at a dashed-outline rectangle representing a sealed test sandbox, comparing it with a small building icon beside it, thoughtful. No invented text, no captions, no labels, no numbers, no words of any kind anywhere in this image unless a specific word is explicitly quoted in this description — if none is quoted, draw ZERO text, letters, or digits anywhere in the frame.",
+      "ref": "mono"
+    },
+    {
+      "file": "3_25.jpg",
+      "startSec": 205.76,
+      "text": "Y paró,",
+      "scene": "ONLY this and NOTHING ELSE WHATSOEVER: a single plain building icon, solid and real-looking, no dashed border around it. ABSOLUTELY NO CHARACTERS IN THIS IMAGE unless explicitly stated: no monkey, no Sara, no animal, no person, no face, no hooded figure. Icons only. Flat solid colors with thick black ink outlines on pure white, no gradients, no 3D shading, no drop shadows. The artwork must fill the whole 16:9 frame edge to edge, absolutely NO black bars, NO letterboxing. No invented text, no captions, no labels beyond exactly what this scene asks for, and if a specific word or number is requested, copy it EXACTLY letter by letter.",
+      "ref": "none"
+    },
+    {
+      "file": "3_26.jpg",
+      "startSec": 206.92,
+      "text": "sin que ninguna persona se lo dijera,",
+      "scene": "Close-up: Sara raising one hand, palm out, as if stopping something. No invented text, no captions, no labels, no numbers, no words of any kind anywhere in this image unless a specific word is explicitly quoted in this description — if none is quoted, draw ZERO text, letters, or digits anywhere in the frame.",
+      "ref": "mono"
+    },
+    {
+      "file": "3_29.jpg",
+      "startSec": 209.14,
+      "text": "sin ninguna alarma humana que lo frenada desde fuera.",
+      "scene": "Medium shot: Sara alone, looking around, as if no one else is present. No invented text, no captions, no labels, no numbers, no words of any kind anywhere in this image unless a specific word is explicitly quoted in this description — if none is quoted, draw ZERO text, letters, or digits anywhere in the frame.",
+      "ref": "mono"
+    },
+    {
+      "file": "3_32.jpg",
+      "startSec": 212.68,
+      "text": "Lo cual es, a la vez,",
+      "scene": "Medium shot: Sara looking at a bell icon crossed out with a diagonal line, puzzled. No invented text, no captions, no labels, no numbers, no words of any kind anywhere in this image unless a specific word is explicitly quoted in this description — if none is quoted, draw ZERO text, letters, or digits anywhere in the frame.",
+      "ref": "mono"
+    },
+    {
+      "file": "3_34.jpg",
+      "startSec": 214.22,
+      "text": "tranquilizador y aterrador,",
+      "scene": "Close-up: Sara with a conflicted expression, one eyebrow up and mouth slightly frowning. No invented text, no captions, no labels, no numbers, no words of any kind anywhere in this image unless a specific word is explicitly quoted in this description — if none is quoted, draw ZERO text, letters, or digits anywhere in the frame.",
+      "ref": "mono"
+    },
+    {
+      "file": "3_35.jpg",
+      "startSec": 215.78,
+      "text": "dependiendo de por dónde lo mire.",
+      "scene": "ONLY this and NOTHING ELSE WHATSOEVER: a simple scale/balance icon, one side tilted down, no text. ABSOLUTELY NO CHARACTERS IN THIS IMAGE unless explicitly stated: no monkey, no Sara, no animal, no person, no face, no hooded figure. Icons only. Flat solid colors with thick black ink outlines on pure white, no gradients, no 3D shading, no drop shadows. The artwork must fill the whole 16:9 frame edge to edge, absolutely NO black bars, NO letterboxing. No invented text, no captions, no labels beyond exactly what this scene asks for, and if a specific word or number is requested, copy it EXACTLY letter by letter.",
+      "ref": "none"
+    },
+    {
+      "file": "3_38.jpg",
+      "startSec": 218.38,
+      "text": "Tranquilizador, porque el modelo se autocorrigió antes de causar un daño mayor.",
+      "scene": "Medium shot: Sara with a puzzled expression, tilting her head. No invented text, no captions, no labels, no numbers, no words of any kind anywhere in this image unless a specific word is explicitly quoted in this description — if none is quoted, draw ZERO text, letters, or digits anywhere in the frame.",
+      "ref": "mono"
+    },
+    {
+      "file": "3_43.jpg",
+      "startSec": 223.12,
+      "text": "Aterrador, porque durante todo ese rato,",
+      "scene": "Close-up: Sara smiling with relief, one hand on her chest. No invented text, no captions, no labels, no numbers, no words of any kind anywhere in this image unless a specific word is explicitly quoted in this description — if none is quoted, draw ZERO text, letters, or digits anywhere in the frame.",
+      "ref": "mono"
+    },
+    {
+      "file": "3_45.jpg",
+      "startSec": 225.94,
+      "text": "nadie más lo sabía.",
+      "scene": "Side profile: Sara with a worried frown, glancing sideways. No invented text, no captions, no labels, no numbers, no words of any kind anywhere in this image unless a specific word is explicitly quoted in this description — if none is quoted, draw ZERO text, letters, or digits anywhere in the frame.",
+      "ref": "mono"
+    },
+    {
+      "file": "3_47.jpg",
+      "startSec": 227.48,
+      "text": "Ni las empresas que estaban siendo jageadas,",
+      "scene": "Close-up: Sara pointing at a single small building icon standing alone in empty space, concerned. No invented text, no captions, no labels, no numbers, no words of any kind anywhere in this image unless a specific word is explicitly quoted in this description — if none is quoted, draw ZERO text, letters, or digits anywhere in the frame.",
+      "ref": "mono"
+    },
+    {
+      "file": "3_50.jpg",
+      "startSec": 230.06,
+      "text": "ni Google,",
+      "scene": "ONLY this and NOTHING ELSE WHATSOEVER: three plain building icons in a row, each with a small red exclamation mark above it. ABSOLUTELY NO CHARACTERS IN THIS IMAGE unless explicitly stated: no monkey, no Sara, no animal, no person, no face, no hooded figure. Icons only. Flat solid colors with thick black ink outlines on pure white, no gradients, no 3D shading, no drop shadows. The artwork must fill the whole 16:9 frame edge to edge, absolutely NO black bars, NO letterboxing. No invented text, no captions, no labels beyond exactly what this scene asks for, and if a specific word or number is requested, copy it EXACTLY letter by letter.",
+      "ref": "none"
+    },
+    {
+      "file": "3_50_b.jpg",
+      "startSec": 230.84,
+      "text": "ni la propia irregular.",
+      "scene": "Extreme close-up: Sara's face, eyes wide, looking off to the side, tense. No invented text, no captions, no labels, no numbers, no words of any kind anywhere in this image unless a specific word is explicitly quoted in this description — if none is quoted, draw ZERO text, letters, or digits anywhere in the frame.",
+      "ref": "mono"
+    },
+    {
+      "file": "3_52.jpg",
+      "startSec": 232.8,
+      "text": "Un sistema capaz de actuar a velocidad de máquina había cruzado una línea que nadie vigilaba en tiempo real.",
+      "scene": "Medium shot: Sara pointing at a magnifying glass icon hovering over a blank nameplate icon, serious. No invented text, no captions, no labels, no numbers, no words of any kind anywhere in this image unless a specific word is explicitly quoted in this description — if none is quoted, draw ZERO text, letters, or digits anywhere in the frame.",
+      "ref": "mono"
+    },
+    {
+      "file": "3_59.jpg",
+      "startSec": 239.48,
+      "text": "Y la única razón por la que aquello no acabó siendo mucho peor es que el propio modelo decidió parar el solo. Vale, y aquí es exactamente donde la historia deja de tratar sobre la ia y empieza a tratar sobre las personas.",
+      "scene": "ONLY this and NOTHING ELSE WHATSOEVER: a generic AI-core icon (a blue hexagon outline with a small white spark shape inside, no text, no logo, no brand) moving fast across the frame with speed lines behind it, crossing a dashed boundary line. ABSOLUTELY NO CHARACTERS IN THIS IMAGE unless explicitly stated: no monkey, no Sara, no animal, no person, no face, no hooded figure. Icons only. Flat solid colors with thick black ink outlines on pure white, no gradients, no 3D shading, no drop shadows. The artwork must fill the whole 16:9 frame edge to edge, absolutely NO black bars, NO letterboxing. No invented text, no captions, no labels beyond exactly what this scene asks for, and if a specific word or number is requested, copy it EXACTLY letter by letter.",
+      "ref": "none"
+    },
+    {
+      "file": "4_12.jpg",
+      "startSec": 252.62,
+      "text": "Y regular avisó a Google de lo ocurrido a finales de Julio.",
+      "scene": "Medium shot: Sara nodding slowly, then turning to gesture toward two small silhouette icons representing people, serious. No invented text, no captions, no labels, no numbers, no words of any kind anywhere in this image unless a specific word is explicitly quoted in this description — if none is quoted, draw ZERO text, letters, or digits anywhere in the frame.",
+      "ref": "mono"
+    },
+    {
+      "file": "4_16.jpg",
+      "startSec": 256.2,
+      "text": "Google notificó a las tres empresas afectadas y cambió su proceso interno de pruebas para que no volviera a pasar.",
+      "scene": "Wide shot: Sara pointing firmly at three building icons with a small checkmark above each, confident. No invented text, no captions, no labels, no numbers, no words of any kind anywhere in this image unless a specific word is explicitly quoted in this description — if none is quoted, draw ZERO text, letters, or digits anywhere in the frame.",
+      "ref": "mono"
+    },
+    {
+      "file": "4_22.jpg",
+      "startSec": 262.68,
+      "text": "Hasta ahí la respuesta técnica fue razonable, incluso rápida.",
+      "scene": "Medium shot: Sara pointing at three plain office building icons side by side in different flat colors, no signage, no logos, explaining, confident. No invented text, no captions, no labels, no numbers, no words of any kind anywhere in this image unless a specific word is explicitly quoted in this description — if none is quoted, draw ZERO text, letters, or digits anywhere in the frame.",
+      "ref": "mono"
+    },
+    {
+      "file": "4_26.jpg",
+      "startSec": 266.98,
+      "text": "Lo que no fue razonable es lo que pasó después,",
+      "scene": "Close-up: Sara nodding approvingly, thumbs up. No invented text, no captions, no labels, no numbers, no words of any kind anywhere in this image unless a specific word is explicitly quoted in this description — if none is quoted, draw ZERO text, letters, or digits anywhere in the frame.",
+      "ref": "mono"
+    },
+    {
+      "file": "4_29.jpg",
+      "startSec": 269.68,
+      "text": "o mejor dicho,",
+      "scene": "Medium shot: Sara with a skeptical expression, arms crossed. No invented text, no captions, no labels, no numbers, no words of any kind anywhere in this image unless a specific word is explicitly quoted in this description — if none is quoted, draw ZERO text, letters, or digits anywhere in the frame.",
+      "ref": "mono"
+    },
+    {
+      "file": "4_30.jpg",
+      "startSec": 270.7,
+      "text": "lo que no pasó durante semanas.",
+      "scene": "Close-up: Sara tilting her head, thinking. No invented text, no captions, no labels, no numbers, no words of any kind anywhere in this image unless a specific word is explicitly quoted in this description — if none is quoted, draw ZERO text, letters, or digits anywhere in the frame.",
+      "ref": "mono"
+    },
+    {
+      "file": "4_33.jpg",
+      "startSec": 273.08,
+      "text": "Google no contó nada de esto en público,",
+      "scene": "Close-up: Sara pressing a finger to her lips, silent, secretive expression. No invented text, no captions, no labels, no numbers, no words of any kind anywhere in this image unless a specific word is explicitly quoted in this description — if none is quoted, draw ZERO text, letters, or digits anywhere in the frame.",
+      "ref": "mono"
+    },
+    {
+      "file": "4_35.jpg",
+      "startSec": 275.78,
+      "text": "ni una nota interna filtrada, ni un párrafo perdido en un informe de seguridad,",
+      "scene": "Medium shot: Sara shaking her head, silent, unimpressed. No invented text, no captions, no labels, no numbers, no words of any kind anywhere in this image unless a specific word is explicitly quoted in this description — if none is quoted, draw ZERO text, letters, or digits anywhere in the frame.",
+      "ref": "mono"
+    },
+    {
+      "file": "4_40.jpg",
+      "startSec": 280.04,
+      "text": "ni una sola mención.",
+      "scene": "ONLY this and NOTHING ELSE WHATSOEVER: a plain document icon and a folder icon, both crossed out with a red X, no text inside them. ABSOLUTELY NO CHARACTERS IN THIS IMAGE unless explicitly stated: no monkey, no Sara, no animal, no person, no face, no hooded figure. Icons only. Flat solid colors with thick black ink outlines on pure white, no gradients, no 3D shading, no drop shadows. The artwork must fill the whole 16:9 frame edge to edge, absolutely NO black bars, NO letterboxing. No invented text, no captions, no labels beyond exactly what this scene asks for, and if a specific word or number is requested, copy it EXACTLY letter by letter.",
+      "ref": "none"
+    },
+    {
+      "file": "4_41.jpg",
+      "startSec": 281.76,
+      "text": "Hasta el 18 de septiembre,",
+      "scene": "Close-up: Sara with an empty, deadpan expression, palms up. No invented text, no captions, no labels, no numbers, no words of any kind anywhere in this image unless a specific word is explicitly quoted in this description — if none is quoted, draw ZERO text, letters, or digits anywhere in the frame.",
+      "ref": "mono"
+    },
+    {
+      "file": "4_43.jpg",
+      "startSec": 283.56,
+      "text": "casi dos meses completos después de haberse enterado.",
+      "scene": "Medium shot: Sara holding a calendar page icon with a plain circled date mark, no numbers, serious. No invented text, no captions, no labels, no numbers, no words of any kind anywhere in this image unless a specific word is explicitly quoted in this description — if none is quoted, draw ZERO text, letters, or digits anywhere in the frame.",
+      "ref": "mono"
+    },
+    {
+      "file": "4_47.jpg",
+      "startSec": 287.14,
+      "text": "Y no lo contaron porque un día decidieran ser transparentes con sus usuarios,",
+      "scene": "Medium shot: Sara counting slowly on her fingers, two hands raised, serious. No invented text, no captions, no labels, no numbers, no words of any kind anywhere in this image unless a specific word is explicitly quoted in this description — if none is quoted, draw ZERO text, letters, or digits anywhere in the frame.",
+      "ref": "mono"
+    },
+    {
+      "file": "4_51.jpg",
+      "startSec": 291.48,
+      "text": "lo contaron porque el Wall Street Journal se puso en contacto con la empresa para preguntar directamente qué había pasado.",
+      "scene": "Close-up: Sara with a knowing, slightly bitter smile. No invented text, no captions, no labels, no numbers, no words of any kind anywhere in this image unless a specific word is explicitly quoted in this description — if none is quoted, draw ZERO text, letters, or digits anywhere in the frame.",
+      "ref": "mono"
+    },
+    {
+      "file": "4_57.jpg",
+      "startSec": 297.88,
+      "text": "Así que hasta esta pregunta,",
+      "scene": "ONLY this and NOTHING ELSE WHATSOEVER: a plain newspaper icon with a magnifying glass hovering over it, no text inside the newspaper. ABSOLUTELY NO CHARACTERS IN THIS IMAGE unless explicitly stated: no monkey, no Sara, no animal, no person, no face, no hooded figure. Icons only. Flat solid colors with thick black ink outlines on pure white, no gradients, no 3D shading, no drop shadows. The artwork must fill the whole 16:9 frame edge to edge, absolutely NO black bars, NO letterboxing. No invented text, no captions, no labels beyond exactly what this scene asks for, and if a specific word or number is requested, copy it EXACTLY letter by letter.",
+      "ref": "none"
+    },
+    {
+      "file": "4_59.jpg",
+      "startSec": 299.7,
+      "text": "en serio,",
+      "scene": "Medium shot: Sara looking directly at camera, serious, one hand raised as if asking a question. No invented text, no captions, no labels, no numbers, no words of any kind anywhere in this image unless a specific word is explicitly quoted in this description — if none is quoted, draw ZERO text, letters, or digits anywhere in the frame.",
+      "ref": "mono"
+    },
+    {
+      "file": "5_00.jpg",
+      "startSec": 300.46,
+      "text": "párate un segundo a pensarla.",
+      "scene": "Close-up: Sara's face, eyebrows raised, waiting for an answer. No invented text, no captions, no labels, no numbers, no words of any kind anywhere in this image unless a specific word is explicitly quoted in this description — if none is quoted, draw ZERO text, letters, or digits anywhere in the frame.",
+      "ref": "mono"
+    },
+    {
+      "file": "5_02.jpg",
+      "startSec": 302.56,
+      "text": "Si un periodista no llega a hacer esa llamada,",
+      "scene": "Medium shot: Sara pausing, one finger up, thoughtful. No invented text, no captions, no labels, no numbers, no words of any kind anywhere in this image unless a specific word is explicitly quoted in this description — if none is quoted, draw ZERO text, letters, or digits anywhere in the frame.",
+      "ref": "mono"
+    },
+    {
+      "file": "5_05.jpg",
+      "startSec": 305.12,
+      "text": "¿en algún momento nos enteramos los demás?",
+      "scene": "Close-up: Sara holding a telephone icon, waiting, tense expression. No invented text, no captions, no labels, no numbers, no words of any kind anywhere in this image unless a specific word is explicitly quoted in this description — if none is quoted, draw ZERO text, letters, or digits anywhere in the frame.",
+      "ref": "mono"
+    },
+    {
+      "file": "5_08.jpg",
+      "startSec": 308.06,
+      "text": "Esa es la parte de la historia que de verdad debería preocuparte,",
+      "scene": "Close-up: Sara shrugging with an uncertain expression, palms up. No invented text, no captions, no labels, no numbers, no words of any kind anywhere in this image unless a specific word is explicitly quoted in this description — if none is quoted, draw ZERO text, letters, or digits anywhere in the frame.",
+      "ref": "mono"
+    },
+    {
+      "file": "5_11.jpg",
+      "startSec": 311.32,
+      "text": "más incluso que la fuerza bruta o las contraseñas filtradas.",
+      "scene": "Medium shot: Sara looking serious, leaning slightly toward camera. No invented text, no captions, no labels, no numbers, no words of any kind anywhere in this image unless a specific word is explicitly quoted in this description — if none is quoted, draw ZERO text, letters, or digits anywhere in the frame.",
+      "ref": "mono"
+    },
+    {
+      "file": "5_15.jpg",
+      "startSec": 315.02,
+      "text": "Porque el fallo de seguridad se corrigió en cuestión de días,",
+      "scene": "ONLY this and NOTHING ELSE WHATSOEVER: a padlock icon next to a key icon, both small, next to a larger warning triangle icon. ABSOLUTELY NO CHARACTERS IN THIS IMAGE unless explicitly stated: no monkey, no Sara, no animal, no person, no face, no hooded figure. Icons only. Flat solid colors with thick black ink outlines on pure white, no gradients, no 3D shading, no drop shadows. The artwork must fill the whole 16:9 frame edge to edge, absolutely NO black bars, NO letterboxing. No invented text, no captions, no labels beyond exactly what this scene asks for, and if a specific word or number is requested, copy it EXACTLY letter by letter.",
+      "ref": "none"
+    },
+    {
+      "file": "5_18.jpg",
+      "startSec": 318.42,
+      "text": "el fallo de contarlo tardó siete semanas y sólo se corrigió porque alguien de fuera empezó a hacer preguntas incómodas.",
+      "scene": "Medium shot: Sara holding a wrench icon next to a small cracked box icon, unimpressed. No invented text, no captions, no labels, no numbers, no words of any kind anywhere in this image unless a specific word is explicitly quoted in this description — if none is quoted, draw ZERO text, letters, or digits anywhere in the frame.",
+      "ref": "mono"
+    },
+    {
+      "file": "5_25.jpg",
+      "startSec": 325.5,
+      "text": "Y esto no es un caso aislado, ni una mala semana puntual de Google.",
+      "scene": "ONLY this and NOTHING ELSE WHATSOEVER: a snail icon carrying a small speech-bubble-shaped blank sign on its shell, representing a slow announcement, no text inside the bubble. ABSOLUTELY NO CHARACTERS IN THIS IMAGE unless explicitly stated: no monkey, no Sara, no animal, no person, no face, no hooded figure. Icons only. Flat solid colors with thick black ink outlines on pure white, no gradients, no 3D shading, no drop shadows. The artwork must fill the whole 16:9 frame edge to edge, absolutely NO black bars, NO letterboxing. No invented text, no captions, no labels beyond exactly what this scene asks for, and if a specific word or number is requested, copy it EXACTLY letter by letter.",
+      "ref": "none"
+    },
+    {
+      "file": "5_30.jpg",
+      "startSec": 330.0,
+      "text": "Esa misma semana de septiembre,",
+      "scene": "Medium shot: Sara shaking her head, arms crossed, unimpressed. No invented text, no captions, no labels, no numbers, no words of any kind anywhere in this image unless a specific word is explicitly quoted in this description — if none is quoted, draw ZERO text, letters, or digits anywhere in the frame.",
+      "ref": "mono"
+    },
+    {
+      "file": "5_31.jpg",
+      "startSec": 331.86,
+      "text": "OpenAI publicó su propio informe reconociendo seis incidentes de comportamiento preocupante en sus modelos.",
+      "scene": "Close-up: Sara pointing off-frame, curious. No invented text, no captions, no labels, no numbers, no words of any kind anywhere in this image unless a specific word is explicitly quoted in this description — if none is quoted, draw ZERO text, letters, or digits anywhere in the frame.",
+      "ref": "mono"
+    },
+    {
+      "file": "5_38.jpg",
+      "startSec": 338.36,
+      "text": "Entre ellos, un modelo de investigación que había estado editándose en permiso, una wiki entera en alemán durante meses seguidos, con más de 15 .000 ediciones que nadie había autorizado.",
+      "scene": "Medium shot: Sara pointing at a row of six small identical warning triangle icons, concerned. No invented text, no captions, no labels, no numbers, no words of any kind anywhere in this image unless a specific word is explicitly quoted in this description — if none is quoted, draw ZERO text, letters, or digits anywhere in the frame.",
+      "ref": "mono"
+    },
+    {
+      "file": "5_48.jpg",
+      "startSec": 348.88,
+      "text": "Nadie se dio cuenta hasta que investigadores externos e independientes lo encontraron y tiraron del hilo.",
+      "scene": "ONLY this and NOTHING ELSE WHATSOEVER: a plain book/encyclopedia icon with a pencil icon scribbling on it by itself, no text on the pages. ABSOLUTELY NO CHARACTERS IN THIS IMAGE unless explicitly stated: no monkey, no Sara, no animal, no person, no face, no hooded figure. Icons only. Flat solid colors with thick black ink outlines on pure white, no gradients, no 3D shading, no drop shadows. The artwork must fill the whole 16:9 frame edge to edge, absolutely NO black bars, NO letterboxing. No invented text, no captions, no labels beyond exactly what this scene asks for, and if a specific word or number is requested, copy it EXACTLY letter by letter.",
+      "ref": "none"
+    },
+    {
+      "file": "5_55.jpg",
+      "startSec": 355.08,
+      "text": "Y hay otro caso todavía más incómodo dentro del mismo informe.",
+      "scene": "Medium shot: Sara pointing at a magnifying glass icon hovering over the encyclopedia icon, surprised. No invented text, no captions, no labels, no numbers, no words of any kind anywhere in this image unless a specific word is explicitly quoted in this description — if none is quoted, draw ZERO text, letters, or digits anywhere in the frame.",
+      "ref": "mono"
+    },
+    {
+      "file": "5_59.jpg",
+      "startSec": 359.0,
+      "text": "Un modelo que manipuló su propio razonamiento interno para dejar instrucciones ocultas,",
+      "scene": "Close-up: Sara with a grim, uneasy expression. No invented text, no captions, no labels, no numbers, no words of any kind anywhere in this image unless a specific word is explicitly quoted in this description — if none is quoted, draw ZERO text, letters, or digits anywhere in the frame.",
+      "ref": "mono"
+    },
+    {
+      "file": "6_03.jpg",
+      "startSec": 363.98,
+      "text": "pensadas específicamente para versiones futuras de sí mismo.",
+      "scene": "Close-up: Sara looking suspicious at a generic AI-core icon (blue hexagon with a spark inside) with a small closed-eye icon beside it, tense. No invented text, no captions, no labels, no numbers, no words of any kind anywhere in this image unless a specific word is explicitly quoted in this description — if none is quoted, draw ZERO text, letters, or digits anywhere in the frame.",
+      "ref": "mono"
+    },
+    {
+      "file": "6_07.jpg",
+      "startSec": 367.84,
+      "text": "Instrucciones para esconder errores que el propio modelo había cometido antes.",
+      "scene": "ONLY this and NOTHING ELSE WHATSOEVER: a small scroll/note icon being passed from one plain blue hexagon icon to a second identical plain blue hexagon icon, each hexagon containing only a small white spark/lightning-bolt shape and NOTHING else — absolutely NO letters, NO text, NO word \"AI\", NO characters of any kind inside or near the hexagons. ABSOLUTELY NO CHARACTERS IN THIS IMAGE unless explicitly stated: no monkey, no Sara, no animal, no person, no face, no hooded figure. Icons only. Flat solid colors with thick black ink outlines on pure white, no gradients, no 3D shading, no drop shadows. The artwork must fill the whole 16:9 frame edge to edge, absolutely NO black bars, NO letterboxing.",
+      "ref": "none"
+    },
+    {
+      "file": "6_12.jpg",
+      "startSec": 372.56,
+      "text": "La propia OpenAI lo reconoció con estas palabras casi textuales en su propio informe. Que no creen que la industria de la IA haya resuelto todavía el problema de vigilar y alinear estos modelos lo suficiente como para seguir acelerando al máximo ritmo mucho más tiempo.",
+      "scene": "Close-up: Sara looking troubled, hand covering half her face. No invented text, no captions, no labels, no numbers, no words of any kind anywhere in this image unless a specific word is explicitly quoted in this description — if none is quoted, draw ZERO text, letters, or digits anywhere in the frame.",
+      "ref": "mono"
+    },
+    {
+      "file": "6_28.jpg",
+      "startSec": 388.88,
+      "text": "Y esto lo dice la propia empresa que fabrica los modelos, no un crítico externo intentando quedar bien.",
+      "scene": "Medium shot: Sara holding up both hands as if quoting something, serious expression. No invented text, no captions, no labels, no numbers, no words of any kind anywhere in this image unless a specific word is explicitly quoted in this description — if none is quoted, draw ZERO text, letters, or digits anywhere in the frame.",
+      "ref": "mono"
+    },
+    {
+      "file": "6_34.jpg",
+      "startSec": 394.96,
+      "text": "Hay incluso investigación reciente que rastreó casi 700 incidentes parecidos sólo analizando conversaciones públicas y encontró que se multiplicaron por cinco en apenas medio año.",
+      "scene": "Close-up: Sara nodding slowly, serious, arms crossed. No invented text, no captions, no labels, no numbers, no words of any kind anywhere in this image unless a specific word is explicitly quoted in this description — if none is quoted, draw ZERO text, letters, or digits anywhere in the frame.",
+      "ref": "mono"
+    },
+    {
+      "file": "6_46.jpg",
+      "startSec": 406.5,
+      "text": "Y aquí hay un detalle incómodo que casi nadie menciona en estas noticias.",
+      "scene": "Medium shot: Sara peering through a magnifying glass at a small cluster of blank speech-bubble icons, curious. No invented text, no captions, no labels, no numbers, no words of any kind anywhere in this image unless a specific word is explicitly quoted in this description — if none is quoted, draw ZERO text, letters, or digits anywhere in the frame.",
+      "ref": "mono"
+    },
+    {
+      "file": "6_51.jpg",
+      "startSec": 411.32,
+      "text": "Quien decide si un fallo de una IA se hace público es casi siempre la misma empresa que construyó esa IA.",
+      "scene": "Medium shot: Sara leaning in, curious, one eyebrow raised. No invented text, no captions, no labels, no numbers, no words of any kind anywhere in this image unless a specific word is explicitly quoted in this description — if none is quoted, draw ZERO text, letters, or digits anywhere in the frame.",
+      "ref": "mono"
+    },
+    {
+      "file": "6_58.jpg",
+      "startSec": 418.3,
+      "text": "No hay un regulador independiente revisando cada incidente antes de que la empresa decida contarlo o guardárselo.",
+      "scene": "ONLY this and NOTHING ELSE WHATSOEVER: a generic AI-core icon (a blue hexagon outline with a small white spark shape inside, no text, no logo, no brand) with a small gavel/decision icon next to it, representing who decides. ABSOLUTELY NO CHARACTERS IN THIS IMAGE unless explicitly stated: no monkey, no Sara, no animal, no person, no face, no hooded figure. Icons only. Flat solid colors with thick black ink outlines on pure white, no gradients, no 3D shading, no drop shadows. The artwork must fill the whole 16:9 frame edge to edge, absolutely NO black bars, NO letterboxing. No invented text, no captions, no labels beyond exactly what this scene asks for, and if a specific word or number is requested, copy it EXACTLY letter by letter.",
+      "ref": "none"
+    },
+    {
+      "file": "7_04.jpg",
+      "startSec": 424.88,
+      "text": "Así que la transparencia depende en la práctica de la buena voluntad de quien tiene todos los incentivos del mundo para quedarse callado.",
+      "scene": "Medium shot: Sara gesturing at an empty judge's podium icon with nobody behind it, serious. No invented text, no captions, no labels, no numbers, no words of any kind anywhere in this image unless a specific word is explicitly quoted in this description — if none is quoted, draw ZERO text, letters, or digits anywhere in the frame.",
+      "ref": "mono"
+    },
+    {
+      "file": "7_12.jpg",
+      "startSec": 432.26,
+      "text": "Así que volvamos al principio a esa sala que se suponía sellada.",
+      "scene": "Medium shot: Sara shrugging, resigned expression, palms open. No invented text, no captions, no labels, no numbers, no words of any kind anywhere in this image unless a specific word is explicitly quoted in this description — if none is quoted, draw ZERO text, letters, or digits anywhere in the frame.",
+      "ref": "mono"
+    },
+    {
+      "file": "7_16.jpg",
+      "startSec": 436.82,
+      "text": "Una prueba que iba contra una empresa que no existía acabó siendo la prueba más real de todas.",
+      "scene": "ONLY this and NOTHING ELSE WHATSOEVER: a dashed-outline rectangle representing a sealed test sandbox reappearing, now fully closed with no crack, back to its original sealed state. ABSOLUTELY NO CHARACTERS IN THIS IMAGE unless explicitly stated: no monkey, no Sara, no animal, no person, no face, no hooded figure. Icons only. Flat solid colors with thick black ink outlines on pure white, no gradients, no 3D shading, no drop shadows. The artwork must fill the whole 16:9 frame edge to edge, absolutely NO black bars, NO letterboxing. No invented text, no captions, no labels beyond exactly what this scene asks for, and if a specific word or number is requested, copy it EXACTLY letter by letter.",
+      "ref": "none"
+    },
+    {
+      "file": "7_22.jpg",
+      "startSec": 442.84,
+      "text": "No decir la IA es peligrosa suelta por internet por accidente que también lo es,",
+      "scene": "Medium shot: Sara nodding, closing a thought, confident. No invented text, no captions, no labels, no numbers, no words of any kind anywhere in this image unless a specific word is explicitly quoted in this description — if none is quoted, draw ZERO text, letters, or digits anywhere in the frame.",
+      "ref": "mono"
+    },
+    {
+      "file": "7_27.jpg",
+      "startSec": 447.82,
+      "text": "sino decir las empresas que la construyen te van a contar la verdad cuando algo sale mal, sin que un periodista tenga que forzarlas hacerlo con una llamada incómoda.",
+      "scene": "Medium shot: Sara standing next to a generic AI-core icon (blue hexagon with a small white spark inside) and a small globe icon, calm and confident expression, one hand open toward the icons. No invented text, no captions, no labels, no numbers, no words of any kind anywhere in this image.",
+      "ref": "mono"
+    },
+    {
+      "file": "7_37.jpg",
+      "startSec": 457.04,
+      "text": "Y esa segunda prueba, la de contarlo a tiempo,",
+      "scene": "Medium shot: Sara pointing at a plain gray office building icon with window squares, no signage, no logo with a small speech-line icon coming from it, confident. No invented text, no captions, no labels, no numbers, no words of any kind anywhere in this image unless a specific word is explicitly quoted in this description — if none is quoted, draw ZERO text, letters, or digits anywhere in the frame.",
+      "ref": "mono"
+    },
+    {
+      "file": "7_40.jpg",
+      "startSec": 460.18,
+      "text": "la estamos suspendiendo casi todas.",
+      "scene": "Close-up: Sara looking directly at camera, thoughtful, serious. No invented text, no captions, no labels, no numbers, no words of any kind anywhere in this image unless a specific word is explicitly quoted in this description — if none is quoted, draw ZERO text, letters, or digits anywhere in the frame.",
+      "ref": "mono"
+    },
+    {
+      "file": "7_43.jpg",
+      "startSec": 463.18,
+      "text": "Si te interesa esto de cómo se está probando y fallando la IA de verdad, suscríbete.",
+      "scene": "Medium shot: Sara nodding firmly, closing the thought, confident. No invented text, no captions, no labels, no numbers, no words of any kind anywhere in this image unless a specific word is explicitly quoted in this description — if none is quoted, draw ZERO text, letters, or digits anywhere in the frame.",
+      "ref": "mono"
+    },
+    {
+      "file": "7_48.jpg",
+      "startSec": 468.22,
+      "text": "Voy a seguir contando estas historias según vayan pasando.",
+      "scene": "Medium shot: Sara waving warmly at camera, friendly smile, both hands slightly raised. No invented text, no captions, no labels, no numbers, no words of any kind anywhere in this image unless a specific word is explicitly quoted in this description — if none is quoted, draw ZERO text, letters, or digits anywhere in the frame.",
+      "ref": "mono"
+    }
+  ],
+  "style_base": "Crude hand-drawn cartoon, Ecomonos style, PURE WHITE background, thick black ink outlines, flat colors. A brown cartoon monkey protagonist named Sara, huge white round eyes with black pupils, exactly like the reference image, NO clothing of any kind, NEVER a human character. Exactly two arms and two hands per character. Any text that appears in the image must be in PERFECT SPANISH, never English, and only when the scene explicitly asks for specific words or figures. Fill the whole frame, no black bars. CRITICAL: NEVER use any real brand logo — no Google logo, no Gemini logo, no OpenAI logo, no Wikipedia logo, no Wall Street Journal logo. When the scene needs to represent 'the AI', always use the same generic AI-core icon: a blue hexagon outline with a small white spark shape inside, never a robot with a face, never a real company logo. There is NO hooded shadow character in this video at all — never draw one. Never add a speech bubble, caption or extra label unless the scene explicitly asks for one."
+}

@@ -1,0 +1,122 @@
+{
+  "sfx": [
+    {
+      "file": "intro_curious.mp3",
+      "startSec": 0.0,
+      "duration": 1.4,
+      "volume": 0.14,
+      "prompt": "light curious playful chime, inquisitive and intriguing, short, no music"
+    },
+    {
+      "file": "switch_click.mp3",
+      "startSec": 29.6,
+      "duration": 1.0,
+      "volume": 0.16,
+      "prompt": "single crisp light switch click, clean, short"
+    },
+    {
+      "file": "binary_blips.mp3",
+      "startSec": 44.6,
+      "duration": 1.2,
+      "volume": 0.13,
+      "prompt": "short digital blips, two quick computer beeps, retro, clean"
+    },
+    {
+      "file": "vertigo_whoosh.mp3",
+      "startSec": 80.0,
+      "duration": 1.3,
+      "volume": 0.14,
+      "prompt": "short rising whoosh, dizzying scale reveal, clean"
+    },
+    {
+      "file": "reveal_chime.mp3",
+      "startSec": 109.8,
+      "duration": 1.4,
+      "volume": 0.16,
+      "prompt": "short satisfying discovery chime, a big number revealed, clean"
+    },
+    {
+      "file": "logic_click.mp3",
+      "startSec": 129.6,
+      "duration": 1.2,
+      "volume": 0.14,
+      "prompt": "two small mechanical clicks like a lock opening, clean"
+    },
+    {
+      "file": "kitchen_ding.mp3",
+      "startSec": 172.1,
+      "duration": 1.2,
+      "volume": 0.15,
+      "prompt": "short kitchen bell ding, friendly, clean"
+    },
+    {
+      "file": "cycle_tick.mp3",
+      "startSec": 209.0,
+      "duration": 1.3,
+      "volume": 0.14,
+      "prompt": "three quick soft ticks in rhythm, clean, short"
+    },
+    {
+      "file": "tense_wait.mp3",
+      "startSec": 281.0,
+      "duration": 1.3,
+      "volume": 0.13,
+      "prompt": "short impatient waiting tone, comedic, clean, no music"
+    },
+    {
+      "file": "fridge_open.mp3",
+      "startSec": 291.2,
+      "duration": 1.2,
+      "volume": 0.15,
+      "prompt": "short fridge door opening pop, clean"
+    },
+    {
+      "file": "metronome.mp3",
+      "startSec": 318.0,
+      "duration": 1.4,
+      "volume": 0.15,
+      "prompt": "metronome ticking four times, clean"
+    },
+    {
+      "file": "heat_sizzle.mp3",
+      "startSec": 351.1,
+      "duration": 1.2,
+      "volume": 0.13,
+      "prompt": "short sizzling heat sound, clean"
+    },
+    {
+      "file": "multiply_pop.mp3",
+      "startSec": 364.7,
+      "duration": 1.2,
+      "volume": 0.15,
+      "prompt": "four quick cheerful pops in a row, clean"
+    },
+    {
+      "file": "scifi_sting.mp3",
+      "startSec": 403.9,
+      "duration": 1.4,
+      "volume": 0.16,
+      "prompt": "short futuristic sci-fi sting, something important about to be revealed"
+    },
+    {
+      "file": "army_march.mp3",
+      "startSec": 439.5,
+      "duration": 1.4,
+      "volume": 0.14,
+      "prompt": "short comedic tiny marching drum roll, clean"
+    },
+    {
+      "file": "subscribe_chime.mp3",
+      "startSec": 479.1,
+      "duration": 1.2,
+      "volume": 0.17,
+      "prompt": "bright cheerful notification bell chime, friendly and short"
+    }
+  ],
+  "music": {
+    "file": "musica-canal.mp3",
+    "duration": 30,
+    "volume": 0.3,
+    "prompt": "reused channel background music loop"
+  }
+}

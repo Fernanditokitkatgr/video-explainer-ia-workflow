@@ -43,6 +43,7 @@ from googleapiclient.http import MediaFileUpload
 SCOPES = [
     "https://www.googleapis.com/auth/youtube",
     "https://www.googleapis.com/auth/youtube.force-ssl",  # requerido por captions.insert
+    "https://www.googleapis.com/auth/yt-analytics.readonly",  # CTR/retención para optimizar
 ]
 HERE = os.path.dirname(os.path.abspath(__file__))
 CLIENT_SECRET = os.path.join(HERE, "client_secret.json")
@@ -125,8 +126,13 @@ def set_thumbnail(youtube, video_id, thumbnail_path):
     ext = os.path.splitext(thumbnail_path)[1].lower()
     mime = "image/png" if ext == ".png" else "image/jpeg"
     media = MediaFileUpload(thumbnail_path, mimetype=mime)
-    youtube.thumbnails().set(videoId=video_id, media_body=media).execute()
-    print(f"🖼️  Thumbnail subido: {thumbnail_path}")
+    # El vídeo ya está subido: un fallo de la miniatura (p. ej. 429 uploadRateLimitExceeded
+    # tras muchas miniaturas en un día) no debe tumbar el proceso ni dejar la cola sin sincronizar.
+    try:
+        youtube.thumbnails().set(videoId=video_id, media_body=media).execute()
+        print(f"🖼️  Thumbnail subido: {thumbnail_path}")
+    except Exception as e:
+        print(f"⚠️  Thumbnail NO subido ({e.__class__.__name__}): reintenta más tarde con thumbnails.set para {video_id}")
 
 
 if __name__ == "__main__":
