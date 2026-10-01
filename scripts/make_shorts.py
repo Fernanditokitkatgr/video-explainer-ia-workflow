@@ -110,9 +110,11 @@ def parse_specs(seo_md: Path) -> list[dict]:
     return specs
 
 
-def build_ass(path: Path, gancho: str, caps: list[tuple[float, float, str]], dur: float) -> None:
+def build_ass(path: Path, gancho: str, caps: list[tuple[float, float, str]], dur: float,
+              reveal: str = "", reveal_t0: float | None = None, parte: str = "") -> None:
     hook_lines = [l.strip().upper() for l in gancho.split("/") if l.strip()]
     hook = r"\N".join(ass_escape(l) for l in hook_lines)
+    cta_start = dur - 3.0
     lines = [
         "[Script Info]", "ScriptType: v4.00+", "PlayResX: 1080", "PlayResY: 1920", "WrapStyle: 0", "",
         "[V4+ Styles]",
@@ -123,15 +125,65 @@ def build_ass(path: Path, gancho: str, caps: list[tuple[float, float, str]], dur
         "Style: Hook,Impact,104,&H0000D4FF,&H00FFFFFF,&H00000000,&H00000000,0,0,0,0,100,100,1,0,1,7,3,8,50,50,330,1",
         "Style: Cap,Impact,92,&H00FFFFFF,&H00FFFFFF,&H00000000,&H00000000,0,0,0,0,100,100,1,0,1,7,3,2,60,60,520,1",
         "Style: Cta,Impact,86,&H0000D4FF,&H00FFFFFF,&H00000000,&H00000000,0,0,0,0,100,100,1,0,1,7,3,5,60,60,0,1",
+        # Reveal: el remate (la cifra/respuesta) aparece con un pop SOLO cuando se dice en el
+        # audio, nunca desde el segundo 0 — ver "gancho vs remate" en CLAUDE.md.
+        "Style: Reveal,Impact,110,&H0000D4FF,&H00FFFFFF,&H00000000,&H00000000,0,0,0,0,100,100,1,0,1,8,4,8,50,50,330,1",
+        # Parte: insignia pequeña arriba a la izquierda para series de 2+ Shorts del mismo vídeo.
+        "Style: Parte,Impact,52,&H00FFFFFF,&H00FFFFFF,&H00000000,&H00000000,0,0,0,0,100,100,1,0,1,5,3,7,40,40,40,1",
         "", "[Events]",
         "Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text",
-        f"Dialogue: 0,{ass_time(0)},{ass_time(dur - 3.0)},Hook,,0,0,0,,{hook}",
     ]
+    if reveal:
+        # El gancho fijo se corta justo cuando entra el remate, para que no convivan
+        # (el remate ocupa la misma zona arriba y la pisaría).
+        hook_end = min(cta_start, reveal_t0 if reveal_t0 is not None else cta_start)
+        lines.append(f"Dialogue: 0,{ass_time(0)},{ass_time(hook_end)},Hook,,0,0,0,,{hook}")
+        reveal_lines = [l.strip().upper() for l in reveal.split("/") if l.strip()]
+        reveal_txt = r"\N".join(ass_escape(l) for l in reveal_lines)
+        rt0 = reveal_t0 if reveal_t0 is not None else max(0.0, cta_start - 2.5)
+        lines.append(f"Dialogue: 0,{ass_time(rt0)},{ass_time(cta_start)},Reveal,,0,0,0,,"
+                     f"{{\\fad(180,0)}}{reveal_txt}")
+    else:
+        lines.append(f"Dialogue: 0,{ass_time(0)},{ass_time(cta_start)},Hook,,0,0,0,,{hook}")
+    if parte:
+        lines.append(f"Dialogue: 0,{ass_time(0)},{ass_time(dur)},Parte,,0,0,0,,PARTE {ass_escape(parte.upper())}")
     for a, b, t in caps:
-        if b - a > 0.05 and a < dur - 3.0:
-            lines.append(f"Dialogue: 0,{ass_time(a)},{ass_time(min(b, dur - 3.0))},Cap,,0,0,0,,{ass_escape(t.upper())}")
-    lines.append(f"Dialogue: 1,{ass_time(dur - 3.0)},{ass_time(dur)},Cta,,0,0,0,,VÍDEO COMPLETO\\NEN EL CANAL")
+        if b - a > 0.05 and a < cta_start:
+            lines.append(f"Dialogue: 0,{ass_time(a)},{ass_time(min(b, cta_start))},Cap,,0,0,0,,{ass_escape(t.upper())}")
+    lines.append(f"Dialogue: 1,{ass_time(cta_start)},{ass_time(dur)},Cta,,0,0,0,,VÍDEO COMPLETO\\NEN EL CANAL")
     path.write_text("\n".join(lines) + "\n", encoding="utf-8-sig")
+
+
+def norm_digits(s: str) -> str:
+    return re.sub(r"[^0-9]", "", s)
+
+
+def find_reveal_start(reveal: str, caps: list[tuple[float, float, str]]) -> float | None:
+    """Momento en el que el REMATE se dice de verdad en el audio.
+
+    Los subtítulos salen del GUION (ver `script_words`), y el guion suele escribir las cifras
+    con letras para que ElevenLabs las lea bien ("setenta y un mil", no "71.000"). Por eso
+    buscar las cifras del remate tal cual casi nunca encuentra nada: primero se prueba por si
+    el guion SÍ usa dígitos (años, por ejemplo), y si no, se cae a las palabras sin cifras del
+    remate ("EUROS", "AL", "AÑO"), que sirven de ancla aunque el número se diga con letras.
+    None si no se encuentra nada (el caller cae entonces a un margen fijo antes del CTA)."""
+    digits = norm_digits(reveal)
+    if digits:
+        for a, b, t in caps:
+            if digits in norm_digits(t):
+                return a
+    toks = {norm(w) for w in re.split(r"[/\s]+", reveal) if norm(w)}
+    if not toks:
+        return None
+    anchors = {w for w in toks if not w.isdigit()}
+    for want in (anchors, toks) if anchors and anchors != toks else (toks,):
+        if not want:
+            continue
+        for a, b, t in caps:
+            ctoks = {norm(w) for w in t.split()}
+            if want <= ctoks:
+                return a
+    return None
 
 
 def chunk_caption(words: list[str], t0: float, t1: float, per: int = 3) -> list[tuple[float, float, str]]:
@@ -186,11 +238,26 @@ def main() -> None:
             a, b = starts[i] - t0, min(ends[i], t0 + body) - t0
             caps += chunk_caption(caps_words[i], a, b)
 
+        gancho = spec.get("gancho", spec["titulo"])
+        reveal = spec.get("reveal", "")
+        parte = spec.get("parte", "")
+        if not reveal and re.search(r"\d", gancho):
+            print(f"  ⚠️  short_{n}: el gancho lleva una cifra (\"{gancho}\") y se ve desde el "
+                  f"segundo 0 — probablemente revela la respuesta antes de tiempo. Si es el "
+                  f"remate, muévelo a un campo `reveal:` en seo.md para que aparezca solo "
+                  f"cuando se dice en el audio.")
+        reveal_t0 = None
+        if reveal:
+            reveal_t0 = find_reveal_start(reveal, caps)
+            if reveal_t0 is None:
+                print(f"  ⚠️  short_{n}: no encontré \"{reveal}\" en los subtítulos de este tramo; "
+                      f"el remate aparece con un margen fijo antes del CTA en vez de sincronizado.")
+
         fname = f"short_{n}.mp4"
         with tempfile.TemporaryDirectory() as td:
             tdp = Path(td)
             shutil.copy(FONT, tdp / FONT.name)
-            build_ass(tdp / "s.ass", spec.get("gancho", spec["titulo"]), caps, dur)
+            build_ass(tdp / "s.ass", gancho, caps, dur, reveal=reveal, reveal_t0=reveal_t0, parte=parte)
             fc = (f"color=c={BG}:s=1080x1920:r=30:d={dur:.2f}[bg];"
                   f"[0:v]scale=1240:-2,crop=1080:ih,tpad=stop_mode=clone:stop_duration=3[fg];"
                   f"[bg][fg]overlay=0:(H-h)/2-40:shortest=1,ass=s.ass:fontsdir=.[v];"
@@ -203,8 +270,8 @@ def main() -> None:
             if r.returncode != 0:
                 sys.exit(f"ffmpeg falló en {fname}:\n{r.stderr[-2000:]}")
         prev = done.get(fname, {})
-        done[fname] = {"file": fname, "titulo": spec["titulo"], "gancho": spec.get("gancho", ""),
-                       "desde": spec["desde"], "t0": round(t0, 2), "dur": round(dur, 2),
+        done[fname] = {"file": fname, "titulo": spec["titulo"], "gancho": gancho, "reveal": reveal,
+                       "parte": parte, "desde": spec["desde"], "t0": round(t0, 2), "dur": round(dur, 2),
                        "youtube_id": prev.get("youtube_id"), "publish_at": prev.get("publish_at")}
         print(f"OK {fname}  {t0:.1f}s → +{dur:.1f}s  «{spec['titulo']}»")
 

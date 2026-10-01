@@ -378,21 +378,74 @@ configurados.
 
 ## Shorts — paso obligatorio tras CADA vídeo largo (desde sep-2026)
 
-Los Shorts son la vía de descubrimiento para un canal pequeño: cada vídeo largo da **2 Shorts**.
-Se definen en `seo.md`:
+Los Shorts son la vía de descubrimiento para un canal pequeño: cada vídeo largo da **2-4
+Shorts** (ver "variedad" más abajo). Se definen en `seo.md`:
 
 ```
 ## Shorts
-- titulo: ¿Cuánto cobra un AI Engineer en España? | gancho: 71.000 €/AL AÑO | desde: 4_16
 - titulo: Un AI Engineer casi nunca entrena una IA | gancho: ¿ENTRENA IAs?/NO. | desde: 0_14 | hasta: 0_53
+- titulo: ¿Cuánto cobra un AI Engineer en España? | gancho: ¿CUÁNTO COBRA/UN AI ENGINEER? | reveal: 71.000 €/AL AÑO | desde: 4_16
 ```
 
 - `desde`/`hasta` = clave de frame de `frames.json` (sin `.jpg`); sin `hasta` corta ≤55 s + 3 s de CTA.
 - Qué cortar: (1) el GANCHO de los primeros segundos si funciona solo; (2) el bloque más
   jugoso: el **sueldo** en vídeos de empleo, el **giro** en historias. Empieza en frase completa.
-- `make_shorts.py`: vertical 1080x1920, gancho grande arriba, subtítulos quemados abajo en
-  bloques de 3 palabras (texto del GUION alineado con los tiempos de Whisper → sin errores de
-  transcripción tipo "Opinaya"), cierre "VÍDEO COMPLETO EN EL CANAL".
+- `make_shorts.py`: vertical 1080x1920, subtítulos quemados abajo en bloques de 3 palabras
+  (texto del GUION alineado con los tiempos de Whisper → sin errores de transcripción tipo
+  "Opinaya"), cierre "VÍDEO COMPLETO EN EL CANAL".
+
+### `gancho` (intriga) vs `reveal` (remate) — regla dura, detectada en QC oct-2026
+
+**El `gancho` es fijo y se ve DESDE EL SEGUNDO 0 durante todo el Short. Por eso NUNCA puede
+contener la respuesta, la cifra o el remate** — solo la pregunta o la promesa que engancha
+("¿CUÁNTO COBRA UN AI ENGINEER?", no "71.000 €/AL AÑO"). Si el gancho enseña la respuesta
+de golpe, el espectador ya no tiene motivo para seguir viendo y el scroll cae en los primeros
+segundos.
+
+Cuando el Short SÍ tiene un remate (una cifra, un "sí"/"no", un giro) que se dice en algún
+punto del audio, ese texto va en un campo `reveal:` aparte, en el mismo formato `LÍNEA1/LÍNEA2`:
+
+```
+- titulo: ... | gancho: ¿CUÁNTO COBRA/UN AI ENGINEER? | reveal: 71.000 €/AL AÑO | desde: 4_16
+```
+
+`make_shorts.py` busca automáticamente el momento exacto en que el remate se dice de verdad
+en el audio (primero por si el guion usa dígitos, si no por las palabras del remate sin
+cifras — "EUROS", "AL", "AÑO" — porque el guion suele escribir los números con letras para
+que ElevenLabs los lea bien, "setenta y un mil" en vez de "71.000") y hace aparecer el
+`reveal` justo ahí, con un pop, sustituyendo al `gancho` solo desde ese instante. Si no
+encuentra el momento, avisa por consola y usa un margen fijo (2,5 s antes del CTA) — revisa
+el aviso, normalmente significa que `reveal:` no coincide con ninguna palabra del guion en
+ese tramo.
+
+Si generas un `gancho` con una cifra y no hay `reveal:`, el script avisa por consola: revisa
+si esa cifra es el remate y, si lo es, muévela a `reveal:`.
+
+### `parte` — Shorts que son una serie (vídeo partido en varios cortes)
+
+Si dos o más Shorts del mismo vídeo son continuación directa unos de otros (el mismo hilo
+cortado en trozos, no clips independientes), añade `parte: 1/2`, `parte: 2/2`, etc. Se ve
+como una insignia pequeña arriba a la izquierda durante todo el Short, para que quien ve la
+"parte 1" sepa que hay más y la "parte 2" se entienda sin haber visto la 1.
+
+```
+- titulo: ... (parte 1) | gancho: ... | parte: 1/2 | desde: ... | hasta: ...
+- titulo: ... (parte 2) | gancho: ... | parte: 2/2 | desde: ... | hasta: ...
+```
+
+No abuses de esto: solo cuando de verdad es la misma historia partida. Para momentos
+independientes del mismo vídeo (ver siguiente punto), no lleva `parte`.
+
+### Variedad: más allá de partir el vídeo en dos trozos seguidos
+
+No te limites a cortar "el principio" y "el final" como únicos dos Shorts. Al escribir
+`seo.md`, repasa el guion entero buscando **2-4 momentos que funcionen solos**: una cifra
+sorprendente, una frase con gancho propio, un giro, una comparación llamativa — repartidos
+por el vídeo, no solo al principio y al final. Cada uno es un Short independiente (sin
+`parte`), con su propio `gancho` de intriga y, si aplica, su propio `reveal`. Esto da más
+variedad de miniaturas/ganchos en el feed de Shorts y más puertas de entrada al vídeo largo
+que una simple partición en dos.
+
 - `publish_shorts.py`: agenda propia (`scratch-yt/shorts_queue.json`), huecos 13:00 y 21:00
   Madrid, nunca antes de que salga el largo (+1 h) para que el enlace de la descripción funcione.
   Si salta `quotaExceeded`, para limpio: `--pending` al día siguiente sube lo que falte.
