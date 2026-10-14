@@ -20,7 +20,11 @@ scripts/
   orchestrate.py        ← encadena el pipeline + guarda estado (handoff)
   generate_voice.py     ← ElevenLabs (lee de config)
   generate_images.py    ← Higgsfield (lee la receta de frames.json)
-  whisper_timestamps.py ← timestamps de audio (--language/--model/--naming)
+  whisper_timestamps.py ← timestamps de audio (--language/--model/--naming); nombres de frame únicos
+  check_negations.py    ← OBLIGATORIO tras la voz: ¿se comió ElevenLabs algún no/sin/nunca?
+                          Contrasta cada descuadre con whisper large-v3 (el pequeño oye "uno" por "no").
+                          Si falla: cambiar la frase a una negación fuerte ("nunca", "ninguna") y regenerar.
+  competitor_scan.py    ← vídeos de la competencia que se dispararon (multiplicador sobre su mediana)
   validate_assets.py    ← verifica que existen audio + todas las imágenes
   scene_context.py      ← memoria visual AL ESCRIBIR escenas (evita repetir composición)
   scene_diversity_check.py ← GATE de coherencia/variedad ANTES de generar imágenes
@@ -477,6 +481,23 @@ que una simple partición en dos.
 - `publish_shorts.py`: agenda propia (`scratch-yt/shorts_queue.json`), huecos 13:00 y 21:00
   Madrid, nunca antes de que salga el largo (+1 h) para que el enlace de la descripción funcione.
   Si salta `quotaExceeded`, para limpio: `--pending` al día siguiente sube lo que falte.
+
+### Qué Shorts y qué títulos (oct-2026): copiado de lo que se disparó en la competencia
+
+Fuente: `scripts/competitor_scan.py` (20 canales, `channel/tecno/competitor_report.md`;
+repítelo cada 2-3 semanas con `python scripts/competitor_scan.py`) y nuestros datos de Analytics.
+- **Shorts = pregunta de curiosidad** en el `titulo` ("¿Qué pasaría si…?", "¿Qué pasa cuando…?",
+  "¿Sabías que…?"), de 30-60 s. En español es lo que más se dispara (CdeCiencia x13-x17,
+  Homosapiens x21-x29). Nuestros mejores Shorts son historias raras de IA.
+- **Nada de sueldos/profesiones como tema de Short**: retienen 27% y ningún canal tiene éxitos así.
+- **Vídeo largo = "TODOS los X explicados en 5 minutos"** (Tecnotipos, 1,8 K subs: x19) o
+  **comportamiento raro de la IA contado en 5 min con mascota** (Siliconversations: x17), o
+  "cómo funciona X de la IA" (lo que más horas nos da por búsqueda). Duración 5-8 min.
+- **Título de largo con misterio/inquietud** ("Lo preocupante viene ahora"), miniatura de 2-4
+  palabras y un solo elemento central; para listas, cuadrícula de iconos.
+- Cada Short lleva "Vídeo completo: enlace" en la descripción (`publish_shorts.py`). La API de
+  YouTube NO permite fijar el "vídeo relacionado" de un Short (comprobado en la referencia de
+  `videos`): solo se puede a mano en Studio.
 
 ### TikTok (desde oct-2026): los mismos Shorts, con cierre y texto propios
 

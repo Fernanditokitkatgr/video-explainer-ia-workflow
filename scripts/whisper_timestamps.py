@@ -91,12 +91,21 @@ def extract_timestamps_resegmented(audio_path: str, model_name: str, language: s
 
 
 def to_frames(segments: list[dict], naming: str, ext: str) -> list[dict]:
-    """Receta lista para Remotion: {file, startSec, text} por segmento."""
-    return [
-        {"file": config.frame_filename(naming, ext, seg["id"], seg["start"]),
-         "startSec": seg["start"], "text": seg["text"]}
-        for seg in segments
-    ]
+    """Receta lista para Remotion: {file, startSec, text} por segmento.
+
+    El nombre 'timestamp' tiene resolución de 1 s: dos segmentos que empiezan en el mismo
+    segundo ("Ojo," + la frase siguiente, con --resegment-gap) daban el mismo fichero y una
+    imagen pisaba a la otra. Si el nombre ya está cogido se avanza al siguiente segundo libre."""
+    frames, used = [], set()
+    for seg in segments:
+        start = seg["start"]
+        name = config.frame_filename(naming, ext, seg["id"], start)
+        while name in used:
+            start = int(start) + 1
+            name = config.frame_filename(naming, ext, seg["id"], start)
+        used.add(name)
+        frames.append({"file": name, "startSec": seg["start"], "text": seg["text"]})
+    return frames
 
 
 def format_for_remotion(frames: list[dict]) -> str:

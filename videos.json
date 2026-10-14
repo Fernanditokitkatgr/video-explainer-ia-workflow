@@ -1214,5 +1214,35 @@
     "width": 1920,
     "height": 1080,
     "background": "#ffffff"
+  },
+  "todos-los-tipos-de-ia-explicados": {
+    "composition": "TodosLosTiposDeIaExplicados",
+    "tsx": "remotion/src/TodosLosTiposDeIaExplicados.tsx",
+    "manifest_dir": "channel/tecno/videos/todos-los-tipos-de-ia-explicados",
+    "script": "channel/tecno/videos/todos-los-tipos-de-ia-explicados/script.md",
+    "audio_static": "todos-los-tipos-de-ia-explicados.mp3",
+    "images_subpath": "todos-los-tipos-de-ia-explicados",
+    "naming": "timestamp",
+    "ext": "jpg",
+    "playback_rate": 1.2,
+    "fps": 30,
+    "width": 1920,
+    "height": 1080,
+    "background": "#ffffff"
+  },
+  "por-que-chatgpt-se-vuelve-loco-con-el-emoji-del-caballito-de-mar": {
+    "composition": "PorQueChatgptSeVuelveLocoConElEmojiDelCaballitoDeMar",
+    "tsx": "remotion/src/PorQueChatgptSeVuelveLocoConElEmojiDelCaballitoDeMar.tsx",
+    "manifest_dir": "channel/tecno/videos/por-que-chatgpt-se-vuelve-loco-con-el-emoji-del-caballito-de-mar",
+    "script": "channel/tecno/videos/por-que-chatgpt-se-vuelve-loco-con-el-emoji-del-caballito-de-mar/script.md",
+    "audio_static": "por-que-chatgpt-se-vuelve-loco-con-el-emoji-del-caballito-de-mar.mp3",
+    "images_subpath": "por-que-chatgpt-se-vuelve-loco-con-el-emoji-del-caballito-de-mar",
+    "naming": "timestamp",
+    "ext": "jpg",
+    "playback_rate": 1.2,
+    "fps": 30,
+    "width": 1920,
+    "height": 1080,
+    "background": "#ffffff"
   }
 }
