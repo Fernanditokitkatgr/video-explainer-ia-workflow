@@ -35,22 +35,16 @@ Si te ha interesado esta serie sobre empleos reales en tecnología, suscríbete.
 #InteligenciaArtificial #AgentesIA #EmpleosTech
 ```
 
-## Capítulos (timestamps reales, startSec/1.2 desde frames.json)
+## Capítulos
 
-```
-0:00 El mito: "un agente es un chatbot más listo"
-0:21 Un chatbot contesta, un agente actúa
-0:44 El bucle: objetivo, herramienta, observación, replanteamiento
-1:20 Lo que un chatbot con esteroides NO puede hacer
-1:43 Ejemplo real: gestionar devoluciones de un ecommerce
-2:18 Los agentes fallan más de lo que crees
-2:45 La alucinación de herramienta
-3:22 El trabajo real: diseñar los límites
+0:00 Qué es un agente de IA (y qué no)
+0:21 Chatbot vs agente de IA
+0:44 El bucle de un agente: actuar y decidir
+1:43 Ejemplo: un agente que gestiona devoluciones
+2:18 Por qué fallan los agentes de IA
 3:41 La deriva de objetivo
-4:11 Comprobar el objetivo a mitad de camino
-4:49 Cuánto se cobra en España en 2026
-5:24 Cómo se entra en esto
-```
+4:20 Cuánto se cobra en España en 2026
+4:49 Cómo empezar a construir agentes
 
 ## Tags
 

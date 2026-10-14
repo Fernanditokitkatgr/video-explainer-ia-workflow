@@ -18,8 +18,9 @@ Qué cortar se define en seo.md, sección "## Shorts" (una línea por Short):
   `hasta` es opcional: si falta, se corta en el último frame que quepa en 58 s.
 
 Uso:
-    python scripts/make_shorts.py <slug>
-Salida: <manifest_dir>/shorts/short_N.mp4 + <manifest_dir>/shorts/shorts.json
+    python scripts/make_shorts.py <slug>            # YouTube: cierre "VÍDEO COMPLETO EN EL CANAL"
+    python scripts/make_shorts.py <slug> --tiktok   # TikTok: cierre "SÍGUEME PARA MÁS COMO ESTE"
+Salida: <manifest_dir>/shorts/ (o shorts_tiktok/) short_N.mp4 + shorts.json
 """
 import difflib
 import json
@@ -30,6 +31,11 @@ import sys
 import tempfile
 import unicodedata
 from pathlib import Path
+
+# Windows console a veces usa cp1252 por defecto y no puede imprimir flechas/acentos
+# (crashea DESPUÉS de cortar el short con éxito, dejando el resto de la cola sin procesar).
+if hasattr(sys.stdout, "reconfigure"):
+    sys.stdout.reconfigure(encoding="utf-8")
 
 REPO_ROOT = Path(__file__).resolve().parent.parent
 MAX_DUR = 58.5
@@ -116,7 +122,8 @@ def parse_specs(seo_md: Path) -> list[dict]:
 
 
 def build_ass(path: Path, gancho: str, caps: list[tuple[float, float, str, str]], dur: float,
-              reveal: str = "", reveal_t0: float | None = None, parte: str = "") -> None:
+              reveal: str = "", reveal_t0: float | None = None, parte: str = "",
+              cta: str = "VÍDEO COMPLETO\\NEN EL CANAL") -> None:
     hook_lines = [l.strip().upper() for l in gancho.split("/") if l.strip()]
     hook = r"\N".join(ass_escape(l) for l in hook_lines)
     cta_start = dur - 3.0
@@ -160,7 +167,7 @@ def build_ass(path: Path, gancho: str, caps: list[tuple[float, float, str, str]]
     for a, b, _plain, ktext in caps:
         if b - a > 0.05 and a < cta_start and ktext:
             lines.append(f"Dialogue: 0,{ass_time(a)},{ass_time(min(b, cta_start))},Cap,,0,0,0,,{ktext}")
-    lines.append(f"Dialogue: 1,{ass_time(cta_start)},{ass_time(dur)},Cta,,0,0,0,,VÍDEO COMPLETO\\NEN EL CANAL")
+    lines.append(f"Dialogue: 1,{ass_time(cta_start)},{ass_time(dur)},Cta,,0,0,0,,{cta}")
     path.write_text("\n".join(lines) + "\n", encoding="utf-8-sig")
 
 
@@ -189,9 +196,13 @@ def find_reveal_start(reveal: str, caps: list[tuple[float, float, str, str]]) ->
     for want in (anchors, toks) if anchors and anchors != toks else (toks,):
         if not want:
             continue
-        for a, b, t, _k in caps:
-            ctoks = {norm(w) for w in t.split()}
-            if want <= ctoks:
+        # Los subtítulos van en bloques de 3 palabras, así que un remate de varias palabras
+        # ("en solo tres | días de...") suele quedar partido entre dos bloques seguidos: se
+        # busca en cada bloque junto con el siguiente, y el remate entra con el primero.
+        for i, (a, _b, t, _k) in enumerate(caps):
+            here = {norm(w) for w in t.split()}
+            nxt = {norm(w) for w in caps[i + 1][2].split()} if i + 1 < len(caps) else set()
+            if want & here and want <= here | nxt:
                 return a
     return None
 
@@ -231,6 +242,10 @@ def main() -> None:
     if len(sys.argv) < 2:
         sys.exit(__doc__)
     slug = sys.argv[1]
+    # --tiktok: misma pieza, pero el cierre no manda fuera de la plataforma (TikTok reparte
+    # menos alcance a lo que redirige a otra red) y va a su propia carpeta y manifiesto.
+    tiktok = "--tiktok" in sys.argv[2:]
+    cta = "SÍGUEME PARA\\NMÁS COMO ESTE" if tiktok else "VÍDEO COMPLETO\\NEN EL CANAL"
     vids = json.loads((REPO_ROOT / "videos.json").read_text(encoding="utf-8"))
     cfg = vids[slug]
     mdir = REPO_ROOT / cfg["manifest_dir"]
@@ -246,7 +261,7 @@ def main() -> None:
     ends = starts[1:] + [vdur]
     key_idx = {f["file"].rsplit(".", 1)[0]: i for i, f in enumerate(frames)}
 
-    outdir = mdir / "shorts"
+    outdir = mdir / ("shorts_tiktok" if tiktok else "shorts")
     outdir.mkdir(exist_ok=True)
     manifest_path = outdir / "shorts.json"
     manifest = json.loads(manifest_path.read_text(encoding="utf-8")) if manifest_path.exists() else {"shorts": []}
@@ -287,7 +302,8 @@ def main() -> None:
         with tempfile.TemporaryDirectory() as td:
             tdp = Path(td)
             shutil.copy(FONT, tdp / FONT.name)
-            build_ass(tdp / "s.ass", gancho, caps, dur, reveal=reveal, reveal_t0=reveal_t0, parte=parte)
+            build_ass(tdp / "s.ass", gancho, caps, dur, reveal=reveal, reveal_t0=reveal_t0, parte=parte,
+                      cta=cta)
             fc = (f"color=c={BG}:s=1080x1920:r=30:d={dur:.2f}[bg];"
                   f"[0:v]scale=1240:-2,crop=1080:ih,tpad=stop_mode=clone:stop_duration=3[fg];"
                   f"[bg][fg]overlay=0:(H-h)/2-40:shortest=1,ass=s.ass:fontsdir=.[v];"
@@ -302,7 +318,9 @@ def main() -> None:
         prev = done.get(fname, {})
         done[fname] = {"file": fname, "titulo": spec["titulo"], "gancho": gancho, "reveal": reveal,
                        "parte": parte, "desde": spec["desde"], "t0": round(t0, 2), "dur": round(dur, 2),
-                       "youtube_id": prev.get("youtube_id"), "publish_at": prev.get("publish_at")}
+                       "youtube_id": prev.get("youtube_id"), "publish_at": prev.get("publish_at"),
+                       "tiktok_publish_id": prev.get("tiktok_publish_id"),
+                       "tiktok_posted_at": prev.get("tiktok_posted_at")}
         print(f"OK {fname}  {t0:.1f}s → +{dur:.1f}s  «{spec['titulo']}»")
 
     manifest["shorts"] = sorted(done.values(), key=lambda s: s["file"])

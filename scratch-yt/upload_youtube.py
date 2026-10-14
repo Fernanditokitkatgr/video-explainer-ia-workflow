@@ -65,6 +65,24 @@ def get_service():
     return build("youtube", "v3", credentials=creds)
 
 
+def clamp_tags(tags: list[str], budget: int = 460) -> list[str]:
+    """YouTube rechaza snippet.tags con 'invalidTags' bastante antes de los 500 caracteres
+    documentados: en la práctica cuenta +2 por cada tag con espacios (como si fuera entre
+    comillas), así que el corte real cae sobre ~480 "efectivos", no 500 planos. Se descubrió
+    el 2026-10-02 con asi-funciona-el-reconocimiento-facial (20 tags, 462 chars → 502
+    "efectivos" → rechazado). Nos quedamos con un margen de seguridad (460) y recortamos
+    tags por el final en vez de fallar la subida entera.
+    """
+    kept, effective = [], 0
+    for t in tags:
+        cost = len(t) + (2 if " " in t else 0)
+        if effective + cost > budget:
+            break
+        kept.append(t)
+        effective += cost
+    return kept
+
+
 def upload(args):
     if not os.path.exists(args.video):
         sys.exit(f"No existe el vídeo: {args.video}")
@@ -93,7 +111,7 @@ def upload(args):
         "snippet": {
             "title": args.title,
             "description": args.description,
-            "tags": args.tags.split(",") if args.tags else [],
+            "tags": clamp_tags([t.strip() for t in args.tags.split(",") if t.strip()]) if args.tags else [],
             "categoryId": args.category,
         },
         "status": status,

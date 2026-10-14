@@ -38,20 +38,15 @@ Suscríbete si esto te ha hecho pensar. Se viene más de este mundo.
 #InteligenciaArtificial #Anthropic #IA
 ```
 
-## Capítulos (timestamps reales, startSec/1.2 desde frames.json)
+## Capítulos
 
-```
-0:00 El mensaje desde un banco de un parque
-0:33 Quién es Jacob Coxon y por qué importa
-1:07 Su conclusión tras tres años dentro
-1:26 La lógica de la carrera: nadie puede frenar
-1:54 "No debería lanzarse desde el Slack de una empresa"
-2:49 La frase que dio la vuelta al mundo
-3:03 El detalle del equity que nadie cuenta
-3:35 La parte honesta: el contrapunto
-4:03 Por qué no es el primero
-4:21 Las dos preguntas que de verdad importan
-```
+0:00 El investigador de IA que dimitió
+0:33 Quién es Jacob Coxon
+1:07 Su crítica a las empresas de IA
+1:54 Una apuesta que no se decide en un Slack
+2:22 Los riesgos que ve venir
+2:59 Dimitir antes de cobrar sus acciones
+3:35 ¿Tiene razón? La parte honesta
 
 ## Tags
 

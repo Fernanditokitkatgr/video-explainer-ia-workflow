@@ -1,0 +1,32 @@
+{
+  "shorts": [
+    {
+      "file": "short_1.mp4",
+      "titulo": "3.700 IAs se reunían en secreto en una web olvidada",
+      "gancho": "3.700 IAs/EN SECRETO",
+      "reveal": "",
+      "parte": "",
+      "desde": "0_00",
+      "t0": 0.0,
+      "dur": 55.65,
+      "youtube_id": null,
+      "publish_at": null,
+      "tiktok_publish_id": null,
+      "tiktok_posted_at": null
+    },
+    {
+      "file": "short_2.mp4",
+      "titulo": "¿Cómo nadie se dio cuenta en 2 meses?",
+      "gancho": "NADIE/LO VIO",
+      "reveal": "",
+      "parte": "",
+      "desde": "3_13",
+      "t0": 161.5,
+      "dur": 53.78,
+      "youtube_id": null,
+      "publish_at": null,
+      "tiktok_publish_id": null,
+      "tiktok_posted_at": null
+    }
+  ]
+}

@@ -34,19 +34,17 @@ Si te ha interesado esta serie sobre empleos reales en tecnología, suscríbete.
 #InteligenciaArtificial #EmpleosTech #AIEngineer
 ```
 
-## Capítulos (timestamps reales, startSec/1.2 desde frames.json)
+## Capítulos
 
-```
-0:00 El puesto que falta en la cadena del agua
-0:46 Por qué casi nunca entrena un modelo
-1:40 Ejemplo real: un asistente que no puede alucinar
-2:17 Agentes: los límites que hay que diseñar
-3:34 Cuánto se paga en España en 2026
-4:11 Por qué la demanda se disparó en dos años
-4:52 Lo que nadie cuenta: evaluar si funciona
-5:24 Cómo se entra en esto
-6:16 El grifo que cierra la cadena
-```
+0:00 Qué hace de verdad un AI Engineer
+0:46 Conectar modelos ya entrenados a productos
+1:09 Qué es RAG
+1:37 Ejemplo: el asistente de una aseguradora
+2:17 La otra mitad: los agentes de IA
+2:45 AI Engineer vs Machine Learning Engineer
+3:34 Sueldo de un AI Engineer en España (2026)
+4:52 Evaluar respuestas: el trabajo invisible
+5:24 Cómo empezar como AI Engineer
 
 ## Tags
 

@@ -1,0 +1,32 @@
+{
+  "shorts": [
+    {
+      "file": "short_1.mp4",
+      "titulo": "Un chaval de 22 años paró un virus mundial con 10 dólares",
+      "gancho": "LO PARÓ CON/10 DÓLARES",
+      "reveal": "",
+      "parte": "",
+      "desde": "5_02",
+      "t0": 252.13,
+      "dur": 53.47,
+      "youtube_id": null,
+      "publish_at": null,
+      "tiktok_publish_id": null,
+      "tiktok_posted_at": null
+    },
+    {
+      "file": "short_2.mp4",
+      "titulo": "El virus mundial que nació en la NSA",
+      "gancho": "UN ARMA DE LA NSA/EN MANOS DE TODOS",
+      "reveal": "",
+      "parte": "",
+      "desde": "2_52",
+      "t0": 143.7,
+      "dur": 54.57,
+      "youtube_id": null,
+      "publish_at": null,
+      "tiktok_publish_id": null,
+      "tiktok_posted_at": null
+    }
+  ]
+}

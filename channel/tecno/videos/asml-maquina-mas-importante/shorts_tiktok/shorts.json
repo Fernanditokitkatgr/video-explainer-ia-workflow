@@ -1,0 +1,32 @@
+{
+  "shorts": [
+    {
+      "file": "short_1.mp4",
+      "titulo": "Sin esta máquina no existiría ChatGPT",
+      "gancho": "SIN ESTA MÁQUINA/NO HAY IA",
+      "reveal": "",
+      "parte": "",
+      "desde": "0_00",
+      "t0": 0.0,
+      "dur": 58.28,
+      "youtube_id": null,
+      "publish_at": null,
+      "tiktok_publish_id": null,
+      "tiktok_posted_at": null
+    },
+    {
+      "file": "short_2.mp4",
+      "titulo": "50.000 explosiones por segundo para hacer un chip",
+      "gancho": "50.000 GOTAS/POR SEGUNDO",
+      "reveal": "",
+      "parte": "",
+      "desde": "3_09",
+      "t0": 158.22,
+      "dur": 54.37,
+      "youtube_id": null,
+      "publish_at": null,
+      "tiktok_publish_id": null,
+      "tiktok_posted_at": null
+    }
+  ]
+}

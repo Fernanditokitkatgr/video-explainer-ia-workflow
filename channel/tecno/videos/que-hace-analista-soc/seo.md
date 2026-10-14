@@ -34,19 +34,17 @@ Si te ha interesado esta serie sobre empleos reales en tecnología, suscríbete.
 #Ciberseguridad #EmpleosTech #SOC
 ```
 
-## Capítulos (timestamps reales, startSec/1.2 desde frames.json)
+## Capítulos
 
-```
-0:00 El malentendido: no es un trabajo, son tres
-0:16 El cuarto de seguridad con miles de cámaras
-1:06 Nivel dos: reconstruir la historia completa
-2:06 Ejemplo real: la alerta número 41
-3:21 Cuánto se paga en España en 2026
-3:50 El problema silencioso: la rotación
-4:31 El cambio que trae la IA agéntica
-5:16 Cómo se entra en esto
-5:46 Tres trabajos, un mismo nombre
-```
+0:00 Qué hace un analista SOC
+0:16 Qué es un SOC, explicado fácil
+0:37 Los tres niveles de un analista SOC
+2:06 La fatiga de alertas en la práctica
+2:33 El SIEM, el cerebro del SOC
+3:21 Sueldo de un analista SOC en España (2026)
+3:50 El problema de la rotación
+4:31 Cómo la IA está cambiando el SOC
+5:16 Cómo empezar como analista SOC
 
 ## Tags
 

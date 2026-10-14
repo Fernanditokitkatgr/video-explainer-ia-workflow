@@ -1,0 +1,52 @@
+{
+  "shorts": [
+    {
+      "file": "short_1.mp4",
+      "titulo": "Tu cara no es una foto, es un mapa",
+      "gancho": "¿TE HACE UNA FOTO?/NO ES ESO",
+      "reveal": "",
+      "parte": "",
+      "desde": "0_00",
+      "t0": 0.0,
+      "dur": 32.4,
+      "youtube_id": "lNY1MnL6IVM",
+      "publish_at": "2026-10-15T19:00:00Z"
+    },
+    {
+      "file": "short_2.mp4",
+      "titulo": "Así te puede engañar (y así no) el desbloqueo facial",
+      "gancho": "¿UNA MÁSCARA/LO ENGAÑA?",
+      "reveal": "EN PRUEBAS,/SÍ HA PASADO",
+      "parte": "",
+      "desde": "4_19",
+      "t0": 216.18,
+      "dur": 36.6,
+      "youtube_id": "jgMDMKQt4VY",
+      "publish_at": "2026-10-16T11:00:00Z"
+    },
+    {
+      "file": "short_3.mp4",
+      "titulo": "Por qué tu móvil también tiene sensor de huella",
+      "gancho": "¿PARA QUÉ/SIRVE LA HUELLA?",
+      "reveal": "",
+      "parte": "",
+      "desde": "4_56",
+      "t0": 247.45,
+      "dur": 38.67,
+      "youtube_id": "DLZQyAj-Kug",
+      "publish_at": "2026-10-16T19:00:00Z"
+    },
+    {
+      "file": "short_4.mp4",
+      "titulo": "Desbloquear tu móvil no es lo mismo que vigilarte",
+      "gancho": "¿ES LO MISMO/QUE VIGILAR?",
+      "reveal": "",
+      "parte": "",
+      "desde": "6_09",
+      "t0": 308.22,
+      "dur": 45.75,
+      "youtube_id": "DUvdbfNcH8g",
+      "publish_at": "2026-10-17T11:00:00Z"
+    }
+  ]
+}

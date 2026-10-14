@@ -66,7 +66,12 @@ Por vídeo, al publicar:
   python scripts/make_shorts.py <slug>                     # → shorts/short_N.mp4 (1080x1920, ≤59 s)
   python scratch-yt/publish_shorts.py --video <slug>       # 13:00 y 21:00 Madrid, nunca antes que el largo
   python scratch-yt/publish_shorts.py --pending            # cada día: lo que quedó por cuota
+  python scripts/tiktok_pack.py <slug>                     # versión TikTok + texto SEO → tiktok_inbox/
+  python scratch-yt/tiktok_api.py next                     # sube a TikTok el siguiente Short que toca
+  python scratch-yt/sync_descriptions.py                   # lleva a YouTube los capítulos de seo.md
 ```
+`## Capítulos` de seo.md se rellena con los tiempos REALES (frames.json `startSec / playback_rate`)
+en cuanto hay audio: con un TODO, el vídeo sale sin capítulos (antes de oct-2026 ninguno los tenía).
 
 ### Reglas de producción no negociables
 
@@ -472,6 +477,25 @@ que una simple partición en dos.
 - `publish_shorts.py`: agenda propia (`scratch-yt/shorts_queue.json`), huecos 13:00 y 21:00
   Madrid, nunca antes de que salga el largo (+1 h) para que el enlace de la descripción funcione.
   Si salta `quotaExceeded`, para limpio: `--pending` al día siguiente sube lo que falte.
+
+### TikTok (desde oct-2026): los mismos Shorts, con cierre y texto propios
+
+- `make_shorts.py <slug> --tiktok` corta la misma pieza en `shorts_tiktok/`, cambiando solo el
+  cierre: "SÍGUEME PARA MÁS COMO ESTE" en vez de "VÍDEO COMPLETO EN EL CANAL" (mandar fuera de
+  TikTok suele restar alcance). `scripts/tiktok_pack.py <slug>` lo hace y además escribe el texto.
+- SEO de TikTok ≠ YouTube: TikTok se usa como buscador, así que la **primera línea** del texto es
+  la keyword (el `titulo` del Short), luego una frase y 3-5 hashtags concretos (los del vídeo +
+  `#aprendeentiktok #tecnologia`). Los subtítulos quemados ayudan: TikTok lee el texto en pantalla.
+- `scratch-yt/tiktok_api.py` usa la Content Posting API oficial. Límites reales: sin auditoría de
+  TikTok, todo sale **privado** (`TIKTOK_PRIVACY=SELF_ONLY`); la API **no programa horas** (publica
+  al momento), por eso `next` sube un Short por ejecución y se lanza con el Programador de tareas;
+  el login de escritorio exige PKCE con SHA256 en **hex** (no base64url). Se etiqueta `is_aigc`.
+- Automático 2 al día: tareas de Windows "Tecnomono TikTok 1330" y "2130" (30 min tras cada
+  Short de YouTube, 13:00/21:00) lanzan `scratch-yt/tiktok_next.bat` → `tiktok_api.py next`, que
+  sube el Short que salió hoy en YouTube y, si no queda ninguno, uno antiguo. Registro en
+  `scratch-yt/tiktok_cron.log`. Requiere el PC encendido a esa hora.
+- Mientras no haya auditoría: `tiktok_inbox/` tiene cada Short con su .txt, nombrado por la fecha
+  de su Short de YouTube, para subirlo a mano o programarlo desde TikTok Studio.
 
 ## Audio: SFX y música de fondo
 

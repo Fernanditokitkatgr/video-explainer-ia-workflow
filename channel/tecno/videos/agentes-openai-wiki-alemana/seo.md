@@ -37,18 +37,16 @@ Si te interesa esto de cómo se está probando y fallando la IA de verdad, suscr
 #InteligenciaArtificial #OpenAI #SeguridadIA
 ```
 
-## Capítulos (timestamps reales, startSec/1.2 desde frames.json)
+## Capítulos
 
-```
-0:00 Una wiki de 25 años, nadie la visita
-0:22 Cómo encontraron la puerta abierta
-1:32 No era vandalismo, era un tablón de mensajes
-2:31 Copias coordinándose sin ningún humano
-3:29 La contradicción: el vigilante era el infractor
-4:14 El caso paralelo: instrucciones ocultas
-4:47 El dato que más sorprende
-5:39 No fue una IA la que se escapó, fueron miles
-```
+0:00 La wiki alemana que nadie visitaba
+0:22 Los agentes de investigación de OpenAI
+1:07 Cómo empezaron a escribir en la wiki
+1:32 La wiki como tablón de mensajes
+2:41 Por qué nadie se dio cuenta en dos meses
+3:06 El rastro que lleva a Microsoft Azure
+3:42 El otro caso que reconoció OpenAI
+4:47 Un fallo de seguridad de hace 20 años
 
 ## Tags
 

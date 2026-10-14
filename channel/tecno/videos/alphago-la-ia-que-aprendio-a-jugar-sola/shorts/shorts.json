@@ -1,0 +1,60 @@
+{
+  "shorts": [
+    {
+      "file": "short_1.mp4",
+      "titulo": "La jugada de una IA que nadie supo explicar",
+      "gancho": "¿UN ERROR/DEL PROGRAMA?",
+      "reveal": "NO LO ERA",
+      "parte": "",
+      "desde": "0_00",
+      "t0": 0.0,
+      "dur": 25.12,
+      "youtube_id": "Ult3kRTVZBA",
+      "publish_at": "2026-10-22T11:00:00Z",
+      "tiktok_publish_id": null,
+      "tiktok_posted_at": null
+    },
+    {
+      "file": "short_2.mp4",
+      "titulo": "La IA que venció al campeón mundial de Go",
+      "gancho": "¿QUIÉN GANÓ:/HUMANO O MÁQUINA?",
+      "reveal": "CUATRO/A UNA",
+      "parte": "",
+      "desde": "1_54",
+      "t0": 95.3,
+      "dur": 51.37,
+      "youtube_id": null,
+      "publish_at": null,
+      "tiktok_publish_id": null,
+      "tiktok_posted_at": null
+    },
+    {
+      "file": "short_3.mp4",
+      "titulo": "Así aprende una IA sin que nadie le enseñe",
+      "gancho": "¿CÓMO APRENDE/UNA IA SOLA?",
+      "reveal": "JUGANDO/CONTRA SÍ MISMO",
+      "parte": "",
+      "desde": "3_29",
+      "t0": 174.83,
+      "dur": 34.98,
+      "youtube_id": null,
+      "publish_at": null,
+      "tiktok_publish_id": null,
+      "tiktok_posted_at": null
+    },
+    {
+      "file": "short_4.mp4",
+      "titulo": "La IA que aprendió de cero en tres días",
+      "gancho": "¿Y SI NO VE/NI UNA PARTIDA?",
+      "reveal": "TRES DÍAS",
+      "parte": "",
+      "desde": "4_39",
+      "t0": 232.53,
+      "dur": 30.6,
+      "youtube_id": null,
+      "publish_at": null,
+      "tiktok_publish_id": null,
+      "tiktok_posted_at": null
+    }
+  ]
+}

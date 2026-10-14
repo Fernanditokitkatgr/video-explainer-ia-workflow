@@ -36,9 +36,8 @@ Si te gusta entender cómo funciona de verdad la tecnología que usas cada día,
 #WannaCry #Ciberseguridad #Ransomware
 ```
 
-## Capítulos (timestamps reales, startSec/PLAYBACK_RATE desde frames.json)
+## Capítulos
 
-```
 0:00 Viernes: las pantallas se vuelven rojas
 0:35 Qué es un ransomware
 1:07 300 dólares en bitcoin y una cuenta atrás
@@ -51,7 +50,6 @@ Si te gusta entender cómo funciona de verdad la tecnología que usas cada día,
 5:18 Corea del Norte y un rescate que apenas se cobró
 5:45 Tres lecciones para ti
 6:23 El botón que lo habría evitado
-```
 
 ## Tags
 

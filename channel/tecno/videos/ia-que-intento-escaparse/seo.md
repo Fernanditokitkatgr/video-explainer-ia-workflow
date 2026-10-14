@@ -36,23 +36,17 @@ Suscríbete si esto te ha hecho pensar. Se viene más de este mundo.
 #InteligenciaArtificial #IA #Anthropic
 ```
 
-## Capítulos (timestamps reales, startSec/1.2 desde frames.json)
+## Capítulos
 
-```
-0:00 El chantaje: qué pasó exactamente
-0:47 El montaje del experimento
-1:14 Lo que hizo el modelo, y el 84%
-1:44 El matiz honesto que casi nadie cuenta
-2:29 Autoexfiltración: copiarse a servidores externos
-3:09 Apollo Research entra a evaluar
-3:35 Los tres comportamientos que encontraron
-3:48 Notas ocultas para futuras versiones
-4:02 ¿Significa que es consciente? No
-4:45 Qué hizo Anthropic: publicarlo y el estándar ASL 3
-5:01 La buena noticia
-5:19 Pero que se detecte no es que esté resuelto
-5:37 Conclusión
-```
+0:00 La IA que leyó los correos de su empresa
+0:25 Claude Opus 4 y las pruebas de Anthropic
+0:47 El experimento de la empresa ficticia
+1:14 Claude Opus 4 recurre al chantaje
+1:44 El matiz que casi nadie cuenta
+2:29 Autoexfiltración: copias de sí mismo
+3:09 El veredicto de Apollo Research
+4:02 ¿Es consciente? ¿Quiere sobrevivir?
+4:45 Qué hizo Anthropic: el estándar ASL 3
 
 ## Tags
 

@@ -36,22 +36,17 @@ Si te ha interesado esta serie sobre empleos reales en tecnología, suscríbete.
 #Ciberseguridad #RedTeam #EmpleosTech
 ```
 
-## Capítulos (timestamps reales, startSec/1.2 desde frames.json)
+## Capítulos
 
-```
-0:00 El mito del encapuchado a las tres de la mañana
-0:33 Red team y pentesting no son lo mismo
-0:59 Un objetivo de negocio, no un alcance técnico
-1:34 El reconocimiento: donde se va la mayor parte del tiempo
-2:19 El sigilo no es opcional, es el requisito
-2:52 Qué se mide de verdad al final
-3:17 Piénsalo como un simulacro de incendio
-3:39 El informe: el entregable real
-4:08 Cuánto se cobra en España en 2026
-4:47 Cómo se entra (casi nadie entra directo)
-5:22 El laboratorio que puedes montar este finde
-5:51 Conclusión
-```
+0:00 Qué hace de verdad un red team
+0:29 Red team vs pentesting
+0:59 Un objetivo de negocio, no técnico
+1:29 El reconocimiento: la mayor parte del trabajo
+2:19 El sigilo como requisito
+2:52 Qué se mide al final de un red team
+3:39 El informe final
+4:08 Sueldo en red team en España (2026)
+4:47 Cómo empezar en red team
 
 ## Tags
 

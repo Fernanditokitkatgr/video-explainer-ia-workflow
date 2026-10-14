@@ -38,19 +38,16 @@ Suscríbete si esto te ha hecho pensar. Se viene más de este mundo.
 #InteligenciaArtificial #IA #RiesgoExistencial
 ```
 
-## Capítulos (timestamps reales, startSec/1.2 desde frames.json)
+## Capítulos
 
-```
-0:00 El avión con un 10% de estrellarse
-0:34 Qué es p(doom)
-1:09 La encuesta: 700 investigadores, mediana del 10%
-1:51 El abismo: de 0,01% a más del 95%
-2:35 Por qué discrepan tanto: las tres apuestas
-3:35 Estos números no son mediciones
-4:15 La respuesta honesta a la pregunta
-4:45 Basta con que el número no sea cero
-5:19 Conclusión
-```
+0:00 ¿Subirías a un avión con un 10% de riesgo?
+0:31 Qué es la p(doom)
+1:00 La encuesta de AI Impacts a investigadores
+1:45 Más allá de la media: opiniones extremas
+2:35 Cómo interpretar estos números
+3:35 Por qué estos números no son mediciones
+4:11 ¿Va a acabar la IA con nosotros?
+4:38 La conclusión práctica
 
 ## Tags
 

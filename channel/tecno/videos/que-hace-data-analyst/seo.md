@@ -33,19 +33,16 @@ Si te ha interesado esta serie sobre empleos reales en tecnología, suscríbete.
 #DataAnalyst #EmpleosTech #InteligenciaArtificial
 ```
 
-## Capítulos (timestamps reales, startSec/1.2 desde frames.json)
+## Capítulos
 
-```
-0:00 El mito: no es un peldaño temporal
-0:16 La diferencia real: mirar atrás vs mirar adelante
-0:44 Ejemplo real: por qué bajaron las ventas
-1:40 Comunicar el hallazgo es la mitad del trabajo
-2:28 El mito que quiero desmontar del todo
-3:21 Las herramientas: SQL, Excel, Power BI
-4:14 Cuánto se paga en España en 2026
-4:54 Cómo se entra en esto
-5:31 El proyecto que de verdad impresiona
-```
+0:00 Qué hace de verdad un Data Analyst
+0:16 Data Analyst vs Data Scientist
+0:44 Ejemplo: por qué bajaron las ventas
+1:40 Contar los datos: la otra mitad del trabajo
+2:28 El mito del puesto escalón
+3:21 Las herramientas del día a día
+4:14 Sueldo de un Data Analyst en España (2026)
+4:54 Cómo empezar sin saber programar
 
 ## Tags
 

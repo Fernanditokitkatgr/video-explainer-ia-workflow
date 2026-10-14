@@ -27,17 +27,19 @@ venir.
 
 Suscríbete, que se viene más de este mundo.
 
-0:00 Intro: el chaval que humilló a gigantes tecnológicos
-0:29 Cómo apareció Lapsus$
-0:54 La táctica del MFA fatigue
-1:29 El ataque a Nvidia
-1:54 El hackeo a Uber
-2:26 La filtración de GTA 6
-2:57 El juicio y el giro inesperado
-3:28 La lección real
-
 #ciberseguridad #hacking #lapsus
 ```
+
+## Capítulos
+
+0:00 El chaval de 17 años que hackeó a gigantes
+0:29 Qué era Lapsus$
+0:54 Su arma: la ingeniería social
+1:28 El hackeo a Nvidia
+1:54 El hackeo a Uber y el doble factor
+2:26 Rockstar Games y la filtración de GTA 6
+2:57 La detención y el juicio
+3:28 Por qué fue tan fácil hackearlos
 
 ## Tags
 ```

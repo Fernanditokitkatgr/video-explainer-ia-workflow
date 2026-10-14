@@ -245,7 +245,7 @@ python scratch-yt/publish_shorts.py --video <slug>
 | Título corto con la palabra clave al principio | ✅ | ≤60 caracteres, para que no se corte en el móvil |
 | Miniatura con texto grande y legible | ✅ | Texto por código, 2-4 palabras, alto contraste |
 | Descripción con resumen y palabras clave | ✅ | En `seo.md` |
-| Capítulos (marcas de tiempo) | ✅ | Calculados con los tiempos reales del audio |
+| Capítulos (marcas de tiempo) | ✅ | Calculados con los tiempos reales del audio. Ojo: si `## Capítulos` de seo.md se queda en TODO, el vídeo se sube sin capítulos |
 | Etiquetas | ✅ | 15-20 por vídeo |
 | Categoría e idioma correctos | ✅ | Categoría 28 (Ciencia y tecnología) e idioma español en los Shorts |
 | Publicar con constancia | ✅ | 1 al día a la misma hora |

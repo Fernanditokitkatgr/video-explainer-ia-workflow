@@ -32,19 +32,16 @@ Si te ha interesado esta serie sobre empleos reales en tecnología, suscríbete.
 #MachineLearning #EmpleosTech #InteligenciaArtificial
 ```
 
-## Capítulos (timestamps reales, startSec/1.2 desde frames.json)
+## Capítulos
 
-```
-0:00 El puesto que se confunde con otros dos a la vez
-0:20 La diferencia real: preguntar, conectar, o sostener
-0:54 Ejemplo real: qué pasa después de entrenar el modelo
-1:33 Lo que nadie cuenta: la degradación silenciosa del modelo
-2:37 El mito que quiero desmontar del todo
-3:41 Las herramientas: Docker, Kubernetes, Airflow, MLflow
-4:37 Cuánto se paga en España en 2026
-5:22 Cómo se entra en esto
-6:28 El proyecto que de verdad impresiona
-```
+0:00 Qué hace un Machine Learning Engineer
+0:20 ML Engineer vs Data Scientist vs AI Engineer
+0:53 Ejemplo: un modelo de detección de fraude
+1:40 El día a día real: no entrenar modelos
+2:37 El mito de la ciencia de datos con más código
+3:41 Las herramientas del día a día
+4:37 Sueldo de un ML Engineer en España (2026)
+5:22 Cómo empezar como ML Engineer
 
 ## Tags
 

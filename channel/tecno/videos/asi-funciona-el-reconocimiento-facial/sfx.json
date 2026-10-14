@@ -1,0 +1,122 @@
+{
+  "sfx": [
+    {
+      "file": "unlock_chime.mp3",
+      "startSec": 0.0,
+      "duration": 1.1,
+      "volume": 0.15,
+      "prompt": "short phone unlock chime, satisfying, clean"
+    },
+    {
+      "file": "reveal_chime.mp3",
+      "startSec": 25.1,
+      "duration": 1.4,
+      "volume": 0.16,
+      "prompt": "short satisfying discovery chime, clean"
+    },
+    {
+      "file": "keypad_beep.mp3",
+      "startSec": 39.9,
+      "duration": 1.0,
+      "volume": 0.14,
+      "prompt": "four quick keypad beeps, clean"
+    },
+    {
+      "file": "soft_whoosh.mp3",
+      "startSec": 85.0,
+      "duration": 1.3,
+      "volume": 0.14,
+      "prompt": "short soft airy whoosh, invisible light, clean"
+    },
+    {
+      "file": "scan_sweep.mp3",
+      "startSec": 119.3,
+      "duration": 1.3,
+      "volume": 0.14,
+      "prompt": "short digital scanning sweep tone, clean"
+    },
+    {
+      "file": "reveal_chime2.mp3",
+      "startSec": 154.8,
+      "duration": 1.3,
+      "volume": 0.16,
+      "prompt": "short satisfying discovery chime, clean"
+    },
+    {
+      "file": "fail_buzz.mp3",
+      "startSec": 162.1,
+      "duration": 1.0,
+      "volume": 0.15,
+      "prompt": "short soft denial buzz, clean"
+    },
+    {
+      "file": "lock_click.mp3",
+      "startSec": 182.2,
+      "duration": 1.0,
+      "volume": 0.15,
+      "prompt": "small padlock click, clean"
+    },
+    {
+      "file": "heartbeat_soft.mp3",
+      "startSec": 223.3,
+      "duration": 1.2,
+      "volume": 0.13,
+      "prompt": "short soft single heartbeat thump, clean"
+    },
+    {
+      "file": "tense_sting.mp3",
+      "startSec": 237.5,
+      "duration": 1.3,
+      "volume": 0.15,
+      "prompt": "short tense suspense sting, clean"
+    },
+    {
+      "file": "record_scratch.mp3",
+      "startSec": 259.4,
+      "duration": 1.0,
+      "volume": 0.14,
+      "prompt": "short comedic record scratch, honest admission, clean"
+    },
+    {
+      "file": "fingerprint_beep.mp3",
+      "startSec": 296.9,
+      "duration": 1.0,
+      "volume": 0.15,
+      "prompt": "short fingerprint scanner beep, clean"
+    },
+    {
+      "file": "airport_chime.mp3",
+      "startSec": 335.5,
+      "duration": 1.2,
+      "volume": 0.14,
+      "prompt": "short airport announcement ding, clean"
+    },
+    {
+      "file": "scifi_sting.mp3",
+      "startSec": 369.9,
+      "duration": 1.3,
+      "volume": 0.16,
+      "prompt": "short serious important sting, clean"
+    },
+    {
+      "file": "closing_turn.mp3",
+      "startSec": 431.2,
+      "duration": 1.4,
+      "volume": 0.14,
+      "prompt": "warm closing transition swell, wrapping up"
+    },
+    {
+      "file": "subscribe_chime.mp3",
+      "startSec": 460.8,
+      "duration": 1.2,
+      "volume": 0.17,
+      "prompt": "bright cheerful notification bell chime, friendly and short"
+    }
+  ],
+  "music": {
+    "file": "musica-canal.mp3",
+    "duration": 30,
+    "volume": 0.3,
+    "prompt": "reused channel background music loop"
+  }
+}

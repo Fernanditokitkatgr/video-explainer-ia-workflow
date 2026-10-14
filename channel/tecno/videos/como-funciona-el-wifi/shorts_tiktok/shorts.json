@@ -1,0 +1,60 @@
+{
+  "shorts": [
+    {
+      "file": "short_1.mp4",
+      "titulo": "Por qué el wifi del avión no es como el de tu casa",
+      "gancho": "¿POR QUÉ EL WIFI/FALLA EN UN AVIÓN?",
+      "reveal": "UNA SOLA CONEXIÓN/PARA TODOS",
+      "parte": "",
+      "desde": "0_00",
+      "t0": 0.0,
+      "dur": 36.17,
+      "youtube_id": null,
+      "publish_at": null,
+      "tiktok_publish_id": null,
+      "tiktok_posted_at": null
+    },
+    {
+      "file": "short_2.mp4",
+      "titulo": "Por qué más gente conectada ralentiza tu wifi",
+      "gancho": "¿POR QUÉ VA LENTO/CON MÁS GENTE EN CASA?",
+      "reveal": "TODOS COMPARTEN/EL MISMO TURNO",
+      "parte": "",
+      "desde": "2_59",
+      "t0": 149.4,
+      "dur": 53.12,
+      "youtube_id": null,
+      "publish_at": null,
+      "tiktok_publish_id": null,
+      "tiktok_posted_at": null
+    },
+    {
+      "file": "short_3.mp4",
+      "titulo": "Así consigue wifi un avión sin ningún cable",
+      "gancho": "¿CÓMO TIENE WIFI/UN AVIÓN EN EL CIELO?",
+      "reveal": "TORRES O SATÉLITES/APUNTANDO ARRIBA",
+      "parte": "",
+      "desde": "4_28",
+      "t0": 223.38,
+      "dur": 58.5,
+      "youtube_id": null,
+      "publish_at": null,
+      "tiktok_publish_id": null,
+      "tiktok_posted_at": null
+    },
+    {
+      "file": "short_4.mp4",
+      "titulo": "Por qué pagas de más por el wifi del avión",
+      "gancho": "¿POR QUÉ PAGAS/POR EL WIFI DEL AVIÓN?",
+      "reveal": "LO COMPARTES/CON CIENTOS DE PERSONAS",
+      "parte": "",
+      "desde": "6_34",
+      "t0": 328.63,
+      "dur": 58.32,
+      "youtube_id": null,
+      "publish_at": null,
+      "tiktok_publish_id": null,
+      "tiktok_posted_at": null
+    }
+  ]
+}

@@ -1,0 +1,32 @@
+{
+  "shorts": [
+    {
+      "file": "short_1.mp4",
+      "titulo": "El Data Analyst NO es un Data Scientist junior",
+      "gancho": "NO ES/UN PELDAÑO",
+      "reveal": "",
+      "parte": "",
+      "desde": "0_00",
+      "t0": 0.0,
+      "dur": 57.72,
+      "youtube_id": null,
+      "publish_at": null,
+      "tiktok_publish_id": null,
+      "tiktok_posted_at": null
+    },
+    {
+      "file": "short_2.mp4",
+      "titulo": "¿Cuánto cobra un Data Analyst en España?",
+      "gancho": "¿CUÁNTO/COBRA?",
+      "reveal": "",
+      "parte": "",
+      "desde": "5_05",
+      "t0": 254.62,
+      "dur": 55.43,
+      "youtube_id": null,
+      "publish_at": null,
+      "tiktok_publish_id": null,
+      "tiktok_posted_at": null
+    }
+  ]
+}

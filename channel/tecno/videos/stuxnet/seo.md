@@ -28,18 +28,19 @@ ninguno de los dos países.
 
 Si te ha volado la cabeza, suscríbete. Se viene más de este mundo.
 
-0:00 Intro: el virus que rompía máquinas de verdad
-0:28 Natanz, la planta que empezó a fallar sin motivo
-1:05 El sistema SCADA y el malware que controlaba las centrifugadoras
-1:45 Cómo Stuxnet saltó una red sin internet
-2:26 El diseño quirúrgico: solo atacaba un objetivo
-2:55 Cómo se descubrió por accidente
-3:25 Quién lo hizo: la pista hacia EEUU e Israel
-4:01 El resultado: mil centrifugadoras destruidas
-4:30 La lección real
-
 #ciberseguridad #hacking #stuxnet
 ```
+
+## Capítulos
+
+0:00 Stuxnet: el virus que rompía máquinas reales
+0:23 Natanz: las centrifugadoras que fallaban
+0:54 Cómo atacaba el sistema SCADA
+1:27 Cómo saltó el air gap con memorias USB
+2:02 Un ataque quirúrgico a un único objetivo
+2:26 Cómo se descubrió Stuxnet por accidente
+2:51 Quién estaba detrás de Stuxnet
+3:21 El resultado: unas mil centrifugadoras rotas
 
 ## Tags
 ```

@@ -1,0 +1,74 @@
+{
+  "shorts": [
+    {
+      "file": "short_1.mp4",
+      "titulo": "El truco que hace creíble un deepfake",
+      "gancho": "¿CÓMO SE HACE/UN DEEPFAKE?",
+      "reveal": "",
+      "parte": "",
+      "desde": "0_00",
+      "t0": 0.0,
+      "dur": 33.82,
+      "youtube_id": null,
+      "publish_at": null,
+      "tiktok_publish_id": null,
+      "tiktok_posted_at": null
+    },
+    {
+      "file": "short_2.mp4",
+      "titulo": "Dos IAs compitiendo crean la cara falsa",
+      "gancho": "¿CÓMO APRENDE/LA IA A MENTIR?",
+      "reveal": "DOS REDES/NEURONALES",
+      "parte": "",
+      "desde": "1_20",
+      "t0": 66.83,
+      "dur": 52.83,
+      "youtube_id": null,
+      "publish_at": null,
+      "tiktok_publish_id": null,
+      "tiktok_posted_at": null
+    },
+    {
+      "file": "short_3.mp4",
+      "titulo": "Cómo detectar un deepfake: parpadeo, luz y bordes",
+      "gancho": "¿CÓMO SABER/SI ES FALSO?",
+      "reveal": "",
+      "parte": "1/2",
+      "desde": "4_46",
+      "t0": 238.97,
+      "dur": 46.55,
+      "youtube_id": null,
+      "publish_at": null,
+      "tiktok_publish_id": null,
+      "tiktok_posted_at": null
+    },
+    {
+      "file": "short_4.mp4",
+      "titulo": "Cómo detectar un deepfake: labios, piel y reflejos",
+      "gancho": "¿CÓMO SABER/SI ES FALSO?",
+      "reveal": "",
+      "parte": "2/2",
+      "desde": "5_39",
+      "t0": 282.52,
+      "dur": 40.62,
+      "youtube_id": null,
+      "publish_at": null,
+      "tiktok_publish_id": null,
+      "tiktok_posted_at": null
+    },
+    {
+      "file": "short_5.mp4",
+      "titulo": "Por qué nunca debes fiarte de un audio urgente",
+      "gancho": "¿TE LLAMAN/PIDIENDO DINERO?",
+      "reveal": "PUEDE SER/UNA VOZ CLONADA",
+      "parte": "",
+      "desde": "7_02",
+      "t0": 352.38,
+      "dur": 37.1,
+      "youtube_id": null,
+      "publish_at": null,
+      "tiktok_publish_id": null,
+      "tiktok_posted_at": null
+    }
+  ]
+}

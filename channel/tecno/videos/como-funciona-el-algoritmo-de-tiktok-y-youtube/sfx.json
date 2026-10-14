@@ -1,0 +1,143 @@
+{
+  "sfx": [
+    {
+      "file": "swipe_whoosh.mp3",
+      "startSec": 2.08,
+      "duration": 1.0,
+      "volume": 0.14,
+      "prompt": "short quick finger swipe whoosh, clean"
+    },
+    {
+      "file": "clock_tick.mp3",
+      "startSec": 5.68,
+      "duration": 1.0,
+      "volume": 0.14,
+      "prompt": "short fast clock ticking, clean"
+    },
+    {
+      "file": "mystery_sting.mp3",
+      "startSec": 14.84,
+      "duration": 1.2,
+      "volume": 0.15,
+      "prompt": "short mysterious curious sting, clean"
+    },
+    {
+      "file": "dramatic_hit.mp3",
+      "startSec": 40.96,
+      "duration": 1.2,
+      "volume": 0.15,
+      "prompt": "short dramatic percussive hit, clean"
+    },
+    {
+      "file": "data_whirr.mp3",
+      "startSec": 58.72,
+      "duration": 1.2,
+      "volume": 0.14,
+      "prompt": "short digital data processing whirr, clean"
+    },
+    {
+      "file": "chips_clack.mp3",
+      "startSec": 67.44,
+      "duration": 1.0,
+      "volume": 0.13,
+      "prompt": "short clack of a few plastic chips stacked on a table, clean"
+    },
+    {
+      "file": "funnel_whoosh.mp3",
+      "startSec": 87.06,
+      "duration": 1.2,
+      "volume": 0.14,
+      "prompt": "short descending swirling whoosh, clean"
+    },
+    {
+      "file": "whistle_blow.mp3",
+      "startSec": 111.56,
+      "duration": 1.0,
+      "volume": 0.13,
+      "prompt": "short single referee whistle blow, clean"
+    },
+    {
+      "file": "cat_meow.mp3",
+      "startSec": 146.54,
+      "duration": 1.0,
+      "volume": 0.13,
+      "prompt": "short soft cartoon cat meow, clean"
+    },
+    {
+      "file": "rising_whoosh.mp3",
+      "startSec": 213.12,
+      "duration": 1.2,
+      "volume": 0.14,
+      "prompt": "short fast rising rocket whoosh, clean"
+    },
+    {
+      "file": "ripple_expand.mp3",
+      "startSec": 232.56,
+      "duration": 1.2,
+      "volume": 0.14,
+      "prompt": "short expanding water ripple swell, clean"
+    },
+    {
+      "file": "negative_buzz.mp3",
+      "startSec": 263.1,
+      "duration": 1.0,
+      "volume": 0.13,
+      "prompt": "short soft negative error buzz, clean"
+    },
+    {
+      "file": "mouse_click.mp3",
+      "startSec": 288.62,
+      "duration": 1.0,
+      "volume": 0.14,
+      "prompt": "short single computer mouse click, clean"
+    },
+    {
+      "file": "warning_tone.mp3",
+      "startSec": 310.82,
+      "duration": 1.1,
+      "volume": 0.14,
+      "prompt": "short soft warning alert tone, clean"
+    },
+    {
+      "file": "slot_machine.mp3",
+      "startSec": 351.04,
+      "duration": 1.3,
+      "volume": 0.14,
+      "prompt": "short slot machine reels spinning and stopping, clean"
+    },
+    {
+      "file": "bubble_pop.mp3",
+      "startSec": 367.42,
+      "duration": 1.0,
+      "volume": 0.14,
+      "prompt": "short single soap bubble pop, clean"
+    },
+    {
+      "file": "reset_ding.mp3",
+      "startSec": 403.08,
+      "duration": 1.1,
+      "volume": 0.14,
+      "prompt": "short bright reset ding, clean"
+    },
+    {
+      "file": "warm_reveal.mp3",
+      "startSec": 479.98,
+      "duration": 1.3,
+      "volume": 0.14,
+      "prompt": "short warm uplifting reveal tone, clean"
+    },
+    {
+      "file": "subscribe_chime.mp3",
+      "startSec": 487.86,
+      "duration": 1.2,
+      "volume": 0.17,
+      "prompt": "bright cheerful notification bell chime, friendly and short"
+    }
+  ],
+  "music": {
+    "file": "musica-canal.mp3",
+    "duration": 30,
+    "volume": 0.3,
+    "prompt": "reused channel background music loop"
+  }
+}

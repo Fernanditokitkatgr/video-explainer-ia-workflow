@@ -38,9 +38,8 @@ Si te gusta entender cómo funciona de verdad la tecnología que usas cada día,
 #ComputacionCuantica #Qubit #Tecnologia
 ```
 
-## Capítulos (timestamps reales, startSec/PLAYBACK_RATE desde frames.json)
+## Capítulos
 
-```
 0:00 El mito: lo prueba todo a la vez
 0:31 Bits: el interruptor de tu móvil
 0:56 Superposición sin humo
@@ -54,7 +53,6 @@ Si te gusta entender cómo funciona de verdad la tecnología que usas cada día,
 6:24 Para qué es malísimo
 6:46 ¿Cuándo llegará? La respuesta honesta
 7:08 Volvemos al laberinto
-```
 
 ## Tags
 

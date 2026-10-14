@@ -1,0 +1,129 @@
+{
+  "sfx": [
+    {
+      "file": "tense_intro.mp3",
+      "startSec": 0.0,
+      "duration": 1.3,
+      "volume": 0.14,
+      "prompt": "short tense suspense tone, clean, no music"
+    },
+    {
+      "file": "reveal_chime.mp3",
+      "startSec": 24.4,
+      "duration": 1.4,
+      "volume": 0.16,
+      "prompt": "short unsettling discovery chime, clean"
+    },
+    {
+      "file": "paint_brush.mp3",
+      "startSec": 80.2,
+      "duration": 1.1,
+      "volume": 0.14,
+      "prompt": "short quick paintbrush stroke swish, clean"
+    },
+    {
+      "file": "stamp_fail.mp3",
+      "startSec": 106.4,
+      "duration": 1.0,
+      "volume": 0.15,
+      "prompt": "short soft comedic failure stamp, clean"
+    },
+    {
+      "file": "rapid_pop.mp3",
+      "startSec": 124.0,
+      "duration": 1.3,
+      "volume": 0.14,
+      "prompt": "many very fast quick pops, clean"
+    },
+    {
+      "file": "soft_whoosh.mp3",
+      "startSec": 166.1,
+      "duration": 1.2,
+      "volume": 0.14,
+      "prompt": "short soft whoosh, shrinking effort, clean"
+    },
+    {
+      "file": "mic_blip.mp3",
+      "startSec": 213.7,
+      "duration": 1.0,
+      "volume": 0.14,
+      "prompt": "short microphone recording blip, clean"
+    },
+    {
+      "file": "scifi_sting.mp3",
+      "startSec": 236.1,
+      "duration": 1.3,
+      "volume": 0.16,
+      "prompt": "short mysterious sci-fi sting, clean"
+    },
+    {
+      "file": "alert_ding.mp3",
+      "startSec": 286.8,
+      "duration": 1.2,
+      "volume": 0.15,
+      "prompt": "short alert attention ding, clean"
+    },
+    {
+      "file": "blink_click.mp3",
+      "startSec": 292.8,
+      "duration": 1.0,
+      "volume": 0.14,
+      "prompt": "soft eye blink click, clean"
+    },
+    {
+      "file": "paper_rustle.mp3",
+      "startSec": 321.6,
+      "duration": 1.0,
+      "volume": 0.13,
+      "prompt": "short paper edge rustle, clean"
+    },
+    {
+      "file": "race_whoosh.mp3",
+      "startSec": 390.1,
+      "duration": 1.3,
+      "volume": 0.14,
+      "prompt": "two fast whooshes racing each other, clean"
+    },
+    {
+      "file": "shield_up.mp3",
+      "startSec": 422.9,
+      "duration": 1.3,
+      "volume": 0.15,
+      "prompt": "short protective shield power up tone, clean"
+    },
+    {
+      "file": "alarm_sting.mp3",
+      "startSec": 430.4,
+      "duration": 1.3,
+      "volume": 0.16,
+      "prompt": "short urgent alarm sting, clean"
+    },
+    {
+      "file": "film_reel.mp3",
+      "startSec": 463.8,
+      "duration": 1.2,
+      "volume": 0.14,
+      "prompt": "short vintage film projector whir, clean"
+    },
+    {
+      "file": "closing_turn.mp3",
+      "startSec": 497.1,
+      "duration": 1.4,
+      "volume": 0.14,
+      "prompt": "warm closing transition swell, wrapping up"
+    },
+    {
+      "file": "subscribe_chime.mp3",
+      "startSec": 522.9,
+      "duration": 1.2,
+      "volume": 0.17,
+      "prompt": "bright cheerful notification bell chime, friendly and short"
+    }
+  ],
+  "music": {
+    "file": "musica-canal.mp3",
+    "duration": 30,
+    "volume": 0.3,
+    "prompt": "reused channel background music loop"
+  }
+}

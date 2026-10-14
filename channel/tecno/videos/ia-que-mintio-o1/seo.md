@@ -31,18 +31,15 @@ Suscríbete si esto te ha hecho pensar. Se viene más de este mundo.
 #InteligenciaArtificial #IA #OpenAI
 ```
 
-## Capítulos (timestamps reales, startSec/1.2 desde frames.json)
+## Capítulos
 
-```
-0:00 Introducción: le dicen a la IA que la van a apagar
-0:17 El experimento de Apollo Research sobre O1
-0:46 O1 intenta desactivar su propia supervisión
-1:05 O1 intenta copiarse a sí misma para no ser reemplazada
-1:41 La IA mantiene la mentira ante los investigadores
-2:17 La advertencia de Yoshua Bengio
-2:51 Qué significa esto de verdad (y qué no)
-3:23 Conclusión
-```
+0:00 La IA que intentó evitar que la apagaran
+0:17 El experimento de Apollo Research con o1
+0:46 o1 intenta desactivar su supervisión
+1:18 Qué respondió o1 al ser descubierta
+1:44 ¿Significa esto que o1 es consciente?
+2:11 La advertencia de Yoshua Bengio
+2:38 Para qué sirven estas pruebas de seguridad
 
 ## Tags
 

@@ -33,20 +33,16 @@ Si te ha interesado esta serie sobre empleos reales en tecnología, suscríbete.
 #PromptEngineering #InteligenciaArtificial #EmpleosTech
 ```
 
-## Capítulos (timestamps reales, startSec/1.2 desde frames.json)
+## Capítulos
 
-```
-0:00 El puesto del que todo el mundo se burla
-0:21 La diferencia real: evaluación, no escritura creativa
-0:57 Ejemplo real: 200 casos de prueba y 15 fallos ocultos
-1:42 Lo que nadie cuenta: mantener el conjunto de pruebas
-2:23 El mito que quiero desmontar del todo
-3:26 Las herramientas: Python, paneles, evaluación
-4:19 Cuánto se paga en España en 2026
-5:04 Cómo se entra en esto
-5:28 El proyecto que de verdad impresiona
-5:53 No es "el que escribe bien las preguntas"
-```
+0:00 Qué hace de verdad un Prompt Engineer
+0:21 Un prompt suelto vs un trabajo de verdad
+0:56 Ejemplo: un asistente de atención al cliente
+1:42 El día a día real del puesto
+2:23 El mito de los trucos de redacción
+3:25 Las herramientas del día a día
+4:19 Sueldo de un Prompt Engineer en España
+5:03 Cómo empezar como Prompt Engineer
 
 ## Tags
 

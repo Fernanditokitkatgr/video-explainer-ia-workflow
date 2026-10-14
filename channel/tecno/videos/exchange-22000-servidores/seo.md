@@ -24,16 +24,18 @@ servidor de este tipo.
 
 Suscríbete, que se viene más de este mundo.
 
-0:00 Intro: la puerta abierta ahora mismo
-0:23 Qué es la CVE-2026-62911
-0:51 Cómo funciona el fallo de "capturar y repetir"
-1:37 Qué puede hacer un atacante una vez dentro
-2:04 Los números reales de exposición
-2:35 Qué puedes hacer tú (3 pasos)
-3:06 La lección real: el hueco entre aviso y acción
-
 #ciberseguridad #hacking #microsoft
 ```
+
+## Capítulos
+
+0:00 Casi 22.000 servidores de correo expuestos
+0:23 Qué es la vulnerabilidad CVE-2026-62911
+0:51 Cómo funciona el fallo: capturar y repetir
+1:18 Qué puede hacer un atacante una vez dentro
+1:44 Los países más afectados según Shadowserver
+2:15 Cómo proteger un servidor Exchange
+2:52 El problema real: tardar en parchear
 
 ## Tags
 ```

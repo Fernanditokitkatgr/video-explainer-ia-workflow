@@ -1,0 +1,32 @@
+{
+  "shorts": [
+    {
+      "file": "short_1.mp4",
+      "titulo": "Analista SOC no es un trabajo, son tres",
+      "gancho": "NO ES/UN TRABAJO",
+      "reveal": "",
+      "parte": "",
+      "desde": "0_05",
+      "t0": 4.47,
+      "dur": 52.65,
+      "youtube_id": null,
+      "publish_at": null,
+      "tiktok_publish_id": null,
+      "tiktok_posted_at": null
+    },
+    {
+      "file": "short_2.mp4",
+      "titulo": "¿Cuánto cobra un Analista SOC en España?",
+      "gancho": "¿CUÁNTO/COBRA?",
+      "reveal": "",
+      "parte": "",
+      "desde": "4_02",
+      "t0": 201.8,
+      "dur": 57.98,
+      "youtube_id": null,
+      "publish_at": null,
+      "tiktok_publish_id": null,
+      "tiktok_posted_at": null
+    }
+  ]
+}

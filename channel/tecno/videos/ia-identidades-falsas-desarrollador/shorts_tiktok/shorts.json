@@ -1,0 +1,32 @@
+{
+  "shorts": [
+    {
+      "file": "short_1.mp4",
+      "titulo": "Le quitaron los frenos a una IA y hizo esto",
+      "gancho": "SIN FRENOS/¿QUÉ HACE?",
+      "reveal": "",
+      "parte": "",
+      "desde": "0_00",
+      "t0": 0.0,
+      "dur": 58.32,
+      "youtube_id": null,
+      "publish_at": null,
+      "tiktok_publish_id": null,
+      "tiktok_posted_at": null
+    },
+    {
+      "file": "short_2.mp4",
+      "titulo": "La pillaron... y se inventó otra identidad",
+      "gancho": "LA PILLARON/Y SIGUIÓ",
+      "reveal": "",
+      "parte": "",
+      "desde": "2_28",
+      "t0": 123.9,
+      "dur": 54.1,
+      "youtube_id": null,
+      "publish_at": null,
+      "tiktok_publish_id": null,
+      "tiktok_posted_at": null
+    }
+  ]
+}

@@ -31,22 +31,17 @@ Si te gusta entender cómo funciona de verdad la tecnología que usas cada día,
 #ASML #Chips #InteligenciaArtificial
 ```
 
-## Capítulos (timestamps reales, startSec/1.2 desde frames.json)
+## Capítulos
 
-```
-0:00 La máquina de la que depende toda la IA
-0:25 Transistores: interruptores más pequeños que un virus
-0:55 Qué es la litografía (imprimir chips con luz)
-1:33 La ley de Moore y el problema del "rotulador gordo"
+0:00 La máquina detrás de cada respuesta de IA
+0:25 Lo diminuto que es un chip por dentro
+0:55 Qué es la litografía
 2:00 La luz ultravioleta extrema (EUV)
-2:38 Gotas de estaño, láser y plasma más caliente que el Sol
-3:20 Los espejos más lisos del mundo
-4:00 Solo UNA empresa en el mundo: ASML
-4:50 Por qué sin ASML no hay ChatGPT
-5:17 Geopolítica: la máquina que no se vende a China
-5:38 Más de 20 años para conseguirlo
-6:18 Todo empieza en una gota de estaño
-```
+2:38 Cómo se fabrica la luz EUV con estaño
+3:20 Espejos en vez de lentes
+4:00 ASML, la única empresa que las fabrica
+4:42 Quién compra estas máquinas
+5:17 La geopolítica de los chips
 
 ## Tags
 

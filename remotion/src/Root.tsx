@@ -57,10 +57,55 @@ import { AsiAdivinanTuContrasena } from "./AsiAdivinanTuContrasena";
 import { ComoFuncionaElGps } from "./ComoFuncionaElGps";
 import { WannacryElVirusQueTumboMedioMundo } from "./WannacryElVirusQueTumboMedioMundo";
 import { QueEsLaComputacionCuantica } from "./QueEsLaComputacionCuantica";
+import { PorQueNvidiaValeTanto } from "./PorQueNvidiaValeTanto";
+import { AsiFuncionaElReconocimientoFacial } from "./AsiFuncionaElReconocimientoFacial";
+import { ComoFuncionanLosDeepfakes } from "./ComoFuncionanLosDeepfakes";
+import { ComoFuncionaElWifi } from "./ComoFuncionaElWifi";
+import { AlphaGoLaIaQueAprendioAJugarSola } from "./AlphaGoLaIaQueAprendioAJugarSola";
 
 export const RemotionRoot: React.FC = () => {
   return (
     <>
+      <Composition
+        id="AlphaGoLaIaQueAprendioAJugarSola"
+        component={AlphaGoLaIaQueAprendioAJugarSola}
+        durationInFrames={10163}
+        fps={30}
+        width={1920}
+        height={1080}
+      />
+      <Composition
+        id="ComoFuncionaElWifi"
+        component={ComoFuncionaElWifi}
+        durationInFrames={12759}
+        fps={30}
+        width={1920}
+        height={1080}
+      />
+      <Composition
+        id="ComoFuncionanLosDeepfakes"
+        component={ComoFuncionanLosDeepfakes}
+        durationInFrames={13341}
+        fps={30}
+        width={1920}
+        height={1080}
+      />
+      <Composition
+        id="AsiFuncionaElReconocimientoFacial"
+        component={AsiFuncionaElReconocimientoFacial}
+        durationInFrames={11791}
+        fps={30}
+        width={1920}
+        height={1080}
+      />
+      <Composition
+        id="PorQueNvidiaValeTanto"
+        component={PorQueNvidiaValeTanto}
+        durationInFrames={14154}
+        fps={30}
+        width={1920}
+        height={1080}
+      />
       <Composition
         id="QueEsLaComputacionCuantica"
         component={QueEsLaComputacionCuantica}

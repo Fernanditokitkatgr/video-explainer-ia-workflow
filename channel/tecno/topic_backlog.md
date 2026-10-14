@@ -74,3 +74,29 @@ Leyenda de prueba: ✅ verificado con fuente · ≈ tema clásico de canales gra
 - Noticias que nadie busca con nombres propios desconocidos (Mythos 5, AISI…).
 - Series que dependen de haber visto el vídeo anterior ("Llevamos dos vídeos hablando de…"):
   el espectador de búsqueda llega sin contexto. Cada vídeo debe funcionar solo.
+
+## Prioridad oct-2026 — copiado de lo que se disparó en la competencia (competitor_report.md)
+
+Criterio: el multiplicador (vistas / mediana del propio canal) dice qué tema o formato ha disparado
+SU audiencia. Se copia el tema y la forma, no el vídeo. Datos del 14-oct-2026, 20 canales.
+
+1. **"TODOS los X explicados en 5 minutos"** — Tecnotipos (1,8 K subs, nuestro tamaño y nicho)
+   sacó x19 (84 K) con "TODAS las MAFIAS HACKER Explicadas en 5 MINUTOS" y x10,8 con "TODOS los
+   HACKERS…". Miniatura: cuadrícula de iconos (encaja con nuestro estilo plano). Ideas nuestras:
+   "TODOS los tipos de IA explicados en 5 minutos", "TODOS los ciberataques famosos en 5 minutos",
+   "TODAS las partes de un ordenador en 5 minutos".
+2. **Comportamientos raros de la IA, en 5 min con mascota** — Siliconversations (mascota, 5 min,
+   el formato más parecido al nuestro): x17 "Why Does The Seahorse Emoji Drive ChatGPT Insane?",
+   x4,6 "Why Is ChatGPT OBSESSED with Goblins?". Species: x13,8 "An AI Literally Attempted Murder To
+   Avoid Shutdown", x6,1 "1000 AIs Alone in Minecraft Created A Civilization". Y es lo que ya mejor
+   funciona en NUESTROS Shorts. Ideas: "Por qué el emoji del caballito de mar vuelve loca a ChatGPT",
+   "Dejaron 1.000 IAs solas en Minecraft", "La IA que chantajeó para que no la apagaran".
+   OJO: verificar cada caso con fuentes primarias antes de escribir.
+3. **Misterios de internet** — LEMMiNO x12 "Cicada 3301", x8,5 "Flight 370". Idea: "Cicada 3301:
+   el mayor misterio de internet".
+4. **Títulos de misterio/miedo sobre la IA** — QuantumFracture x6,5 "La IA Ha Resuelto un Problema
+   del Milenio. Lo Preocupante Viene Ahora."; Homosapiens "¿Puede una IA guardar un secreto?".
+
+Shorts (lo que se dispara en español): preguntas "¿Qué pasaría si…?" / "¿Qué pasa cuando…?"
+(CdeCiencia x17, x13; Homosapiens x29, x21; Date un Vlog), 30-60 s, título = pregunta de
+curiosidad. Ningún canal tiene éxitos con sueldos/profesiones (nuestros peores Shorts: 27%).

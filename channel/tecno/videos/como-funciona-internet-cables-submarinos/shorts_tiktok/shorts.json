@@ -1,0 +1,32 @@
+{
+  "shorts": [
+    {
+      "file": "short_1.mp4",
+      "titulo": "Internet no está en la nube: está en el fondo del mar",
+      "gancho": "INTERNET ESTÁ/BAJO EL MAR",
+      "reveal": "",
+      "parte": "",
+      "desde": "3_25",
+      "t0": 171.42,
+      "dur": 58.5,
+      "youtube_id": null,
+      "publish_at": null,
+      "tiktok_publish_id": null,
+      "tiktok_posted_at": null
+    },
+    {
+      "file": "short_2.mp4",
+      "titulo": "Los tiburones muerden cables de internet (y no es lo peor)",
+      "gancho": "TIBURONES/VS INTERNET",
+      "reveal": "",
+      "parte": "",
+      "desde": "4_52",
+      "t0": 243.55,
+      "dur": 58.5,
+      "youtube_id": null,
+      "publish_at": null,
+      "tiktok_publish_id": null,
+      "tiktok_posted_at": null
+    }
+  ]
+}

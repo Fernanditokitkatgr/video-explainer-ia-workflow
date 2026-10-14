@@ -59,6 +59,19 @@ def parse_seo(seo_path: Path) -> dict:
         sys.exit("No se encontró el bloque de descripción (```...```) bajo '## Descripción' en seo.md")
     description = desc_section.group(1).strip()
 
+    # Capítulos: YouTube solo los activa si hay ≥3 líneas "M:SS título" empezando en 0:00. Un
+    # TODO o una lista incompleta se ignora en vez de publicar texto basura en la descripción.
+    cap_section = re.search(r"## Capítulos\s*\n(.*?)(?=\n## |\Z)", text, re.S)
+    chapters = [l.strip() for l in (cap_section.group(1).splitlines() if cap_section else [])
+                if re.match(r"^\d{1,2}:\d{2}\s+\S", l.strip())]
+    if len(chapters) >= 3 and chapters[0].startswith("0:00"):
+        block = "Capítulos:\n" + "\n".join(chapters)
+        parts = description.rsplit("\n\n", 1)
+        if len(parts) == 2 and parts[1].lstrip().startswith("#"):
+            description = f"{parts[0]}\n\n{block}\n\n{parts[1]}"
+        else:
+            description = f"{description}\n\n{block}"
+
     # Tags: bloque ```...``` dentro de "## Tags".
     tags_section = re.search(r"## Tags\s*\n```\n(.*?)\n```", text, re.S)
     if not tags_section:

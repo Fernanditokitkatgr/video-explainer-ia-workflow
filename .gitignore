@@ -59,3 +59,11 @@ skills-lock.json
 # Logs de render sueltos de Remotion (basura)
 remotion/*.log
 remotion/.*.log
+
+# Paquetes de Shorts para subir a TikTok a mano (se regeneran con scripts/tiktok_pack.py)
+tiktok_inbox/
+
+# Registro de las subidas automáticas a TikTok
+scratch-yt/tiktok_cron.log
+scratch-yt/daily_publish.log
+scratch-yt/pending_long.txt

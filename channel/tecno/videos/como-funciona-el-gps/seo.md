@@ -35,23 +35,17 @@ Si te gusta entender cómo funciona de verdad la tecnología que usas cada día,
 #GPS #Tecnologia #Einstein
 ```
 
-## Capítulos (timestamps reales, startSec/PLAYBACK_RATE desde frames.json)
+## Capítulos
 
-```
-0:00 El punto azul de tu mapa
-0:27 Los satélites que gritan la hora
-0:59 Tiempo por velocidad: el truco del rayo y el trueno
-1:38 Trilateración: cruzar círculos para saber dónde estás
-2:29 Por qué hacen falta cuatro satélites
-3:17 Einstein: el tiempo no pasa igual para todos
-4:01 38 microsegundos al día = 10 km de error
-4:29 El truco de los ingenieros
-4:46 Galileo, GLONASS y BeiDou
-5:07 Por qué falla dentro de edificios y en ciudades
-5:39 Wifi y antenas: las trampas de los mapas
-6:05 Lo que depende del GPS sin que lo sepas
-6:34 Tu móvil no pregunta: escucha
-```
+0:00 Cómo sabe tu móvil dónde estás
+0:27 Los satélites GPS
+1:02 Medir distancias con el tiempo
+1:42 Cómo se calcula tu posición
+2:35 Por qué el tiempo tiene que ser tan preciso
+3:17 Einstein y la relatividad en el GPS
+4:46 GPS, Galileo y otros sistemas
+5:07 Por qué el GPS falla dentro de edificios
+5:39 El truco del wifi en los mapas
 
 ## Tags
 

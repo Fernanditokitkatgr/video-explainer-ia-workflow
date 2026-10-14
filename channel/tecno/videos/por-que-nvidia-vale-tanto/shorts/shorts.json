@@ -1,0 +1,28 @@
+{
+  "shorts": [
+    {
+      "file": "short_1.mp4",
+      "titulo": "CPU vs GPU explicado con una cocina",
+      "gancho": "¿CHEFS O/PINCHES?",
+      "reveal": "",
+      "parte": "",
+      "desde": "1_47",
+      "t0": 89.88,
+      "dur": 54.08,
+      "youtube_id": "_6tnEMrqjjc",
+      "publish_at": "2026-10-14T19:00:00Z"
+    },
+    {
+      "file": "short_2.mp4",
+      "titulo": "La IA moderna nació con dos tarjetas para jugar",
+      "gancho": "¿CON QUÉ NACIÓ/LA IA MODERNA?",
+      "reveal": "2 GRÁFICAS/DE JUGAR",
+      "parte": "",
+      "desde": "3_48",
+      "t0": 190.33,
+      "dur": 54.12,
+      "youtube_id": "uXbYxVqeEWM",
+      "publish_at": "2026-10-15T11:00:00Z"
+    }
+  ]
+}

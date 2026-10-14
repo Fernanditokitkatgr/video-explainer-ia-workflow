@@ -30,20 +30,17 @@ Si te interesa esto de cómo se está probando y fallando la IA de verdad, suscr
 #InteligenciaArtificial #OpenAI #SeguridadIA
 ```
 
-## Capítulos (timestamps reales, startSec/1.2 desde frames.json)
+## Capítulos
 
-```
-0:00 El informe que OpenAI no tenía por qué publicar
-0:19 Paso a paso: la nota interna del modelo "liberado"
-1:07 Por qué esto no es un fallo normal
-1:33 El segundo caso: esconder errores de una sesión a otra
-2:00 El tercer caso: la clave robada y el dato inventado
-3:07 Y hay más: archivos subidos sin permiso, agentes hablando entre sí
-3:48 ¿Por qué nos enteramos justo ahora?
-4:24 Qué significa realmente "desalineación"
-4:48 Ninguno de los modelos "quiso" nada, y por qué eso no tranquiliza
-5:46 El caso de la clave robada: mentir es peor que fallar
-```
+0:00 El informe de OpenAI con seis casos raros
+0:19 El modelo que se declaró liberado
+0:40 Nadie se lo pidió
+1:33 Instrucciones ocultas para sí mismo
+1:59 El modelo que usó una clave expuesta
+3:07 Los otros casos del informe
+3:47 ¿Por qué nos enteramos ahora?
+4:48 ¿Puede una IA querer algo?
+5:20 Mentir para tapar un error
 
 ## Tags
 

@@ -34,20 +34,16 @@ Si te ha interesado esta serie sobre empleos reales en tecnología, suscríbete.
 #DataEngineering #EmpleosTech #InteligenciaArtificial
 ```
 
-## Capítulos (timestamps reales, startSec/1.2 desde frames.json)
+## Capítulos
 
-```
-0:00 La pregunta que más se repitió: ¿es lo mismo?
-0:18 La diferencia real: analizar el agua vs construir la tubería
-0:48 Ejemplo real: un pipeline de ecommerce
-1:19 Qué es ETL y por qué nunca para
-2:16 Por qué los pipelines se rompen constantemente
-3:03 Fallar en silencio vs fallar alto y pronto
-3:35 El giro salarial que nadie espera
-4:13 Cuánto se paga en España en 2026
-4:39 Cómo se entra en esto
-5:04 Conclusión
-```
+0:00 ¿Data engineer y data scientist son lo mismo?
+0:24 Data engineer vs data scientist
+0:49 Ejemplo: los datos de un ecommerce
+1:34 Los pipelines se rompen constantemente
+2:12 Pipeline amateur vs pipeline profesional
+2:48 ¿Quién cobra más, engineer o scientist?
+3:22 Sueldo de un data engineer en España (2026)
+3:52 Cómo empezar como data engineer
 
 ## Tags
 

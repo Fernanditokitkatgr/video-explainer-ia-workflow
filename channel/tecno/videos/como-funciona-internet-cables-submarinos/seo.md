@@ -34,24 +34,17 @@ Si te gusta entender cómo funciona de verdad la tecnología que usas cada día,
 #Internet #CablesSubmarinos #Tecnologia
 ```
 
-## Capítulos (timestamps reales, startSec/PLAYBACK_RATE desde frames.json)
+## Capítulos
 
-```
-0:00 Internet no está en el aire (ni en la nube)
-0:22 El viaje de un clic: paquetes y sobres
-0:47 Direcciones IP y DNS, la agenda de internet
-1:10 Wifi, routers y saltos por medio planeta
-1:51 Centros de datos: la nube es el ordenador de otro
-2:18 Fibra óptica: datos convertidos en luz
-2:51 Más de 500 cables bajo el mar
-3:35 Cómo se tiende un cable en el océano
-4:03 Tiburones, anclas y averías
-4:43 Tonga: el país que se quedó sin internet
-4:58 Estaciones de amarre y el cable que llega a Bilbao
-5:19 Latencia: por qué a veces internet va lento
-5:56 Qué tiene que ver todo esto con la IA
-6:28 El viaje completo de tu clic
-```
+0:00 Internet no está en el aire
+0:22 Qué pasa cuando tocas un enlace
+0:56 Qué es el DNS
+1:20 Routers: cómo viajan los paquetes
+2:18 Fibra óptica: datos que viajan con luz
+2:51 Los cables submarinos
+3:35 Cómo se instala un cable en el océano
+4:03 Tiburones y averías en los cables
+5:19 Qué es la latencia
 
 ## Tags
 

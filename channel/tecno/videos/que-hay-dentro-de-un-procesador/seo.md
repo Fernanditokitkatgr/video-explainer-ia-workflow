@@ -31,23 +31,17 @@ Si te gusta entender cómo funciona de verdad la tecnología que usas cada día,
 #Procesador #CPU #Tecnologia
 ```
 
-## Capítulos (timestamps reales, startSec/1.2 desde frames.json)
+## Capítulos
 
-```
-0:00 Lo que pasa ahora mismo dentro de tu móvil
-0:23 El transistor: un interruptor sin palanca
-0:37 Unos y ceros: el sistema binario
-1:06 De válvulas de vacío a 15.000 millones de transistores
-1:48 Puertas lógicas: cómo deciden los interruptores
-2:23 El procesador es una cocina: programas e instrucciones
-2:46 Unidad de control: buscar, decodificar, ejecutar
-3:19 La ALU y los registros
-3:49 Memoria RAM y caché
-4:21 El reloj y los gigahercios
-4:59 Núcleos: por qué hay varios cocineros
-5:36 CPU vs GPU: por qué la IA usa tarjetas gráficas
-6:15 Todo son interruptores
-```
+0:00 Qué pasa dentro de un procesador
+0:23 Qué es un transistor
+1:43 Las puertas lógicas
+2:23 La unidad de control, el jefe de cocina
+3:19 La ALU: la que hace las cuentas
+3:49 La memoria RAM y la caché
+4:21 El reloj del procesador
+4:49 Calor y núcleos: el límite de la velocidad
+5:36 CPU vs GPU y la inteligencia artificial
 
 ## Tags
 

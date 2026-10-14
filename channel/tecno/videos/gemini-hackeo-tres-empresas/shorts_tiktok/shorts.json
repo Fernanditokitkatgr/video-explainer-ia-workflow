@@ -1,0 +1,32 @@
+{
+  "shorts": [
+    {
+      "file": "short_1.mp4",
+      "titulo": "La IA de Google hackeó 3 empresas por error",
+      "gancho": "HACKEÓ/3 EMPRESAS REALES",
+      "reveal": "",
+      "parte": "",
+      "desde": "0_00",
+      "t0": 0.0,
+      "dur": 58.42,
+      "youtube_id": null,
+      "publish_at": null,
+      "tiktok_publish_id": null,
+      "tiktok_posted_at": null
+    },
+    {
+      "file": "short_2.mp4",
+      "titulo": "Gemini se dio cuenta... y paró sola",
+      "gancho": "ASÍ ENTRÓ/LA IA",
+      "reveal": "",
+      "parte": "",
+      "desde": "2_34",
+      "t0": 128.92,
+      "dur": 56.07,
+      "youtube_id": null,
+      "publish_at": null,
+      "tiktok_publish_id": null,
+      "tiktok_posted_at": null
+    }
+  ]
+}

@@ -1,0 +1,32 @@
+{
+  "shorts": [
+    {
+      "file": "short_1.mp4",
+      "titulo": "Tu contraseña \"segura\" cae en segundos (y no es por adivinar)",
+      "gancho": "TU CONTRASEÑA/CAE EN SEGUNDOS",
+      "reveal": "",
+      "parte": "",
+      "desde": "4_25",
+      "t0": 221.13,
+      "dur": 57.03,
+      "youtube_id": null,
+      "publish_at": null,
+      "tiktok_publish_id": null,
+      "tiktok_posted_at": null
+    },
+    {
+      "file": "short_2.mp4",
+      "titulo": "El error con tus contraseñas que usa casi todo el mundo",
+      "gancho": "EL ERROR QUE/COMETE TODO EL MUNDO",
+      "reveal": "",
+      "parte": "",
+      "desde": "5_27",
+      "t0": 273.07,
+      "dur": 43.3,
+      "youtube_id": null,
+      "publish_at": null,
+      "tiktok_publish_id": null,
+      "tiktok_posted_at": null
+    }
+  ]
+}

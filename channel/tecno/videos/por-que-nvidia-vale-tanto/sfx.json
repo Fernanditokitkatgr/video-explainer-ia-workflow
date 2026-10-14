@@ -1,0 +1,143 @@
+{
+  "sfx": [
+    {
+      "file": "intro_curious.mp3",
+      "startSec": 0.0,
+      "duration": 1.4,
+      "volume": 0.14,
+      "prompt": "light curious playful chime, inquisitive, clean, no music"
+    },
+    {
+      "file": "coin_chime.mp3",
+      "startSec": 11.9,
+      "duration": 1.3,
+      "volume": 0.16,
+      "prompt": "short coin cash register chime, huge price reveal, clean"
+    },
+    {
+      "file": "diner_bell.mp3",
+      "startSec": 46.2,
+      "duration": 1.0,
+      "volume": 0.15,
+      "prompt": "small diner door bell chime, clean"
+    },
+    {
+      "file": "record_scratch.mp3",
+      "startSec": 78.8,
+      "duration": 1.0,
+      "volume": 0.14,
+      "prompt": "short comedic failure sound, clean"
+    },
+    {
+      "file": "reveal_chime.mp3",
+      "startSec": 86.9,
+      "duration": 1.4,
+      "volume": 0.16,
+      "prompt": "short satisfying discovery chime, clean"
+    },
+    {
+      "file": "chop_chop.mp3",
+      "startSec": 124.0,
+      "duration": 1.2,
+      "volume": 0.14,
+      "prompt": "fast kitchen chopping sounds, several quick chops, clean"
+    },
+    {
+      "file": "pop_multiply.mp3",
+      "startSec": 160.6,
+      "duration": 1.3,
+      "volume": 0.14,
+      "prompt": "many quick small pops increasing, clean"
+    },
+    {
+      "file": "scifi_sting.mp3",
+      "startSec": 183.6,
+      "duration": 1.4,
+      "volume": 0.16,
+      "prompt": "short futuristic sci-fi sting, something important about to be revealed"
+    },
+    {
+      "file": "gate_close.mp3",
+      "startSec": 221.4,
+      "duration": 1.2,
+      "volume": 0.14,
+      "prompt": "heavy castle gate closing, clean"
+    },
+    {
+      "file": "time_travel.mp3",
+      "startSec": 228.4,
+      "duration": 1.3,
+      "volume": 0.14,
+      "prompt": "short airy time travel whoosh, clean"
+    },
+    {
+      "file": "earthquake_rumble.mp3",
+      "startSec": 289.7,
+      "duration": 1.3,
+      "volume": 0.13,
+      "prompt": "short deep rumble, clean"
+    },
+    {
+      "file": "cash_register.mp3",
+      "startSec": 319.0,
+      "duration": 1.2,
+      "volume": 0.16,
+      "prompt": "coin cash register chime, clean"
+    },
+    {
+      "file": "rising_whoosh.mp3",
+      "startSec": 347.0,
+      "duration": 1.3,
+      "volume": 0.14,
+      "prompt": "short rising ascending tone, growth, clean"
+    },
+    {
+      "file": "record_scratch2.mp3",
+      "startSec": 373.4,
+      "duration": 1.0,
+      "volume": 0.14,
+      "prompt": "short comedic record scratch, twist reveal, clean"
+    },
+    {
+      "file": "factory_clank.mp3",
+      "startSec": 419.7,
+      "duration": 1.2,
+      "volume": 0.14,
+      "prompt": "short factory machine clank, clean"
+    },
+    {
+      "file": "tense_sting.mp3",
+      "startSec": 451.2,
+      "duration": 1.3,
+      "volume": 0.15,
+      "prompt": "short tense warning sting, clean"
+    },
+    {
+      "file": "crash_sting.mp3",
+      "startSec": 502.3,
+      "duration": 1.3,
+      "volume": 0.16,
+      "prompt": "short dramatic falling crash sting, clean"
+    },
+    {
+      "file": "closing_turn.mp3",
+      "startSec": 513.1,
+      "duration": 1.4,
+      "volume": 0.14,
+      "prompt": "warm closing transition swell, wrapping up"
+    },
+    {
+      "file": "subscribe_chime.mp3",
+      "startSec": 558.7,
+      "duration": 1.2,
+      "volume": 0.17,
+      "prompt": "bright cheerful notification bell chime, friendly and short"
+    }
+  ],
+  "music": {
+    "file": "musica-canal.mp3",
+    "duration": 30,
+    "volume": 0.3,
+    "prompt": "reused channel background music loop"
+  }
+}

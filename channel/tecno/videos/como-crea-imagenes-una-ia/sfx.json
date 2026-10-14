@@ -1,0 +1,150 @@
+{
+  "sfx": [
+    {
+      "file": "button_click.mp3",
+      "startSec": 7.9,
+      "duration": 1.0,
+      "volume": 0.14,
+      "prompt": "short single soft button click, clean"
+    },
+    {
+      "file": "magic_reveal.mp3",
+      "startSec": 10.6,
+      "duration": 1.2,
+      "volume": 0.15,
+      "prompt": "short magical reveal sparkle tone, clean"
+    },
+    {
+      "file": "mystery_sting.mp3",
+      "startSec": 23.2,
+      "duration": 1.2,
+      "volume": 0.15,
+      "prompt": "short mysterious dramatic sting, clean"
+    },
+    {
+      "file": "tv_static.mp3",
+      "startSec": 46.6,
+      "duration": 1.2,
+      "volume": 0.13,
+      "prompt": "short old television static noise burst, clean"
+    },
+    {
+      "file": "crumble_break.mp3",
+      "startSec": 82.6,
+      "duration": 1.0,
+      "volume": 0.14,
+      "prompt": "short soft crumbling break sound, clean"
+    },
+    {
+      "file": "whoosh_vanish.mp3",
+      "startSec": 96.9,
+      "duration": 1.1,
+      "volume": 0.14,
+      "prompt": "short disappearing whoosh, clean"
+    },
+    {
+      "file": "fast_rewind.mp3",
+      "startSec": 105.4,
+      "duration": 1.2,
+      "volume": 0.14,
+      "prompt": "short fast tape rewind whoosh, clean"
+    },
+    {
+      "file": "error_buzz.mp3",
+      "startSec": 115.7,
+      "duration": 1.0,
+      "volume": 0.14,
+      "prompt": "short soft comedic error buzzer, clean"
+    },
+    {
+      "file": "repeating_loop.mp3",
+      "startSec": 125.9,
+      "duration": 1.2,
+      "volume": 0.13,
+      "prompt": "short fast repeating mechanical loop, clean"
+    },
+    {
+      "file": "water_drop.mp3",
+      "startSec": 132.6,
+      "duration": 1.0,
+      "volume": 0.15,
+      "prompt": "short single water drop plop into a glass, clean"
+    },
+    {
+      "file": "soft_reveal.mp3",
+      "startSec": 176.2,
+      "duration": 1.3,
+      "volume": 0.14,
+      "prompt": "short soft rising reveal tone, clean"
+    },
+    {
+      "file": "chisel_tap.mp3",
+      "startSec": 181.2,
+      "duration": 1.0,
+      "volume": 0.14,
+      "prompt": "short hammer and chisel taps on stone, clean"
+    },
+    {
+      "file": "dice_roll.mp3",
+      "startSec": 197.9,
+      "duration": 1.1,
+      "volume": 0.14,
+      "prompt": "short dice rolling on a table, clean"
+    },
+    {
+      "file": "magnet_pull.mp3",
+      "startSec": 247.1,
+      "duration": 1.2,
+      "volume": 0.14,
+      "prompt": "short magnetic pull hum with a click, clean"
+    },
+    {
+      "file": "comedic_boing.mp3",
+      "startSec": 277.9,
+      "duration": 1.0,
+      "volume": 0.14,
+      "prompt": "short comedic cartoon boing, clean"
+    },
+    {
+      "file": "record_scratch.mp3",
+      "startSec": 335.2,
+      "duration": 1.0,
+      "volume": 0.14,
+      "prompt": "short comedic record scratch, clean"
+    },
+    {
+      "file": "rising_tension.mp3",
+      "startSec": 373.1,
+      "duration": 1.3,
+      "volume": 0.14,
+      "prompt": "short rising tension tone, clean"
+    },
+    {
+      "file": "gavel_bang.mp3",
+      "startSec": 439.9,
+      "duration": 1.0,
+      "volume": 0.15,
+      "prompt": "short single wooden judge gavel bang, clean"
+    },
+    {
+      "file": "closing_turn.mp3",
+      "startSec": 465.2,
+      "duration": 1.4,
+      "volume": 0.14,
+      "prompt": "warm closing transition swell, wrapping up"
+    },
+    {
+      "file": "subscribe_chime.mp3",
+      "startSec": 495.6,
+      "duration": 1.2,
+      "volume": 0.17,
+      "prompt": "bright cheerful notification bell chime, friendly and short"
+    }
+  ],
+  "music": {
+    "file": "musica-canal.mp3",
+    "duration": 30,
+    "volume": 0.3,
+    "prompt": "reused channel background music loop"
+  }
+}

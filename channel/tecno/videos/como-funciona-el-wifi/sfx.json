@@ -1,0 +1,129 @@
+{
+  "sfx": [
+    {
+      "file": "wifi_hum.mp3",
+      "startSec": 0.0,
+      "duration": 1.2,
+      "volume": 0.14,
+      "prompt": "soft wifi ambient hum, clean, no music"
+    },
+    {
+      "file": "alert_chime.mp3",
+      "startSec": 14.9,
+      "duration": 1.2,
+      "volume": 0.15,
+      "prompt": "short alert buzz, clean"
+    },
+    {
+      "file": "radio_static.mp3",
+      "startSec": 43.2,
+      "duration": 1.1,
+      "volume": 0.14,
+      "prompt": "short old radio static tuning, clean"
+    },
+    {
+      "file": "beep_two.mp3",
+      "startSec": 87.5,
+      "duration": 1.0,
+      "volume": 0.14,
+      "prompt": "two distinct short beeps, clean"
+    },
+    {
+      "file": "fade_signal.mp3",
+      "startSec": 141.3,
+      "duration": 1.2,
+      "volume": 0.14,
+      "prompt": "fading radio signal whoosh, clean"
+    },
+    {
+      "file": "hallway_echo.mp3",
+      "startSec": 181.4,
+      "duration": 1.2,
+      "volume": 0.13,
+      "prompt": "short echoey hallway murmur, clean"
+    },
+    {
+      "file": "whoosh_travel.mp3",
+      "startSec": 235.6,
+      "duration": 1.3,
+      "volume": 0.14,
+      "prompt": "short traveling whoosh under a street, clean"
+    },
+    {
+      "file": "record_scratch.mp3",
+      "startSec": 268.1,
+      "duration": 1.0,
+      "volume": 0.14,
+      "prompt": "short comedic record scratch, clean"
+    },
+    {
+      "file": "tower_ping.mp3",
+      "startSec": 295.4,
+      "duration": 1.1,
+      "volume": 0.15,
+      "prompt": "short radio tower ping, clean"
+    },
+    {
+      "file": "space_whoosh.mp3",
+      "startSec": 340.2,
+      "duration": 1.3,
+      "volume": 0.14,
+      "prompt": "short airy space whoosh, clean"
+    },
+    {
+      "file": "slow_wait.mp3",
+      "startSec": 361.2,
+      "duration": 1.2,
+      "volume": 0.13,
+      "prompt": "short old dial-up style waiting tone, clean"
+    },
+    {
+      "file": "speed_whoosh.mp3",
+      "startSec": 375.9,
+      "duration": 1.2,
+      "volume": 0.14,
+      "prompt": "fast speed whoosh, clean"
+    },
+    {
+      "file": "crowd_murmur.mp3",
+      "startSec": 394.4,
+      "duration": 1.2,
+      "volume": 0.13,
+      "prompt": "short crowd murmur, clean"
+    },
+    {
+      "file": "cash_chime.mp3",
+      "startSec": 423.5,
+      "duration": 1.1,
+      "volume": 0.15,
+      "prompt": "short coin cash register chime, clean"
+    },
+    {
+      "file": "rising_hope.mp3",
+      "startSec": 456.6,
+      "duration": 1.3,
+      "volume": 0.14,
+      "prompt": "short optimistic rising tone, clean"
+    },
+    {
+      "file": "closing_turn.mp3",
+      "startSec": 491.9,
+      "duration": 1.4,
+      "volume": 0.14,
+      "prompt": "warm closing transition swell, wrapping up"
+    },
+    {
+      "file": "subscribe_chime.mp3",
+      "startSec": 499.2,
+      "duration": 1.2,
+      "volume": 0.17,
+      "prompt": "bright cheerful notification bell chime, friendly and short"
+    }
+  ],
+  "music": {
+    "file": "musica-canal.mp3",
+    "duration": 30,
+    "volume": 0.3,
+    "prompt": "reused channel background music loop"
+  }
+}

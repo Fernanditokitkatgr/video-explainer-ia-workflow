@@ -36,23 +36,17 @@ Si te gusta entender cómo funciona de verdad la tecnología que usas cada día,
 #ChatGPT #InteligenciaArtificial #Tecnologia
 ```
 
-## Capítulos (timestamps reales, startSec/PLAYBACK_RATE desde frames.json)
+## Capítulos
 
-```
-0:00 Al otro lado no hay nadie
-0:20 El viaje de tu mensaje hasta un centro de datos
-0:45 Tokens: tu mensaje cortado en piezas
-1:29 Números y un mapa de significados
-1:59 El modelo de lenguaje y la atención
-2:23 La siguiente pieza más probable
-3:09 Probabilidades y temperatura
-3:44 La ventana de contexto: por qué se olvida
-4:16 Por qué no tiene memoria entre chats
-4:37 Alucinaciones: por qué se inventa cosas
-5:10 Cómo aprendió: preentrenamiento y notas humanas
-6:00 Tarjetas gráficas, electricidad y agua
-6:36 El viaje completo de tu mensaje
-```
+0:00 Qué pasa cuando escribes en ChatGPT
+0:45 Qué son los tokens
+1:26 Cómo convierte las palabras en números
+2:30 Por qué responde palabra a palabra
+3:09 Cómo elige cada palabra: probabilidades
+3:44 La ventana de contexto
+4:37 Por qué ChatGPT se inventa cosas
+5:10 Cómo aprendió: el preentrenamiento
+6:00 Las tarjetas gráficas detrás de ChatGPT
 
 ## Tags
 

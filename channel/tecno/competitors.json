@@ -1,0 +1,22 @@
+{"competitors": [
+  {"handle": "@DotCSV", "name": "Dot CSV", "lang": "es", "why": "Referente de explicativos de IA en España (255K); títulos-pregunta con MAYÚSCULAS clave, pero sin largos desde hace ~6 meses"},
+  {"handle": "@QuantumFracture", "name": "QuantumFracture", "lang": "es", "why": "Divulgación dibujada con personaje propio; su vídeo de IA y Problema del Milenio hizo 2,6M (su mayor éxito reciente)"},
+  {"handle": "@CdeCiencia", "name": "CdeCiencia", "lang": "es", "why": "Títulos de misterio tipo 'Algo...' ('Se acaba de descubrir algo muy extraño', 694K); Shorts de experimentos de 15-21 s"},
+  {"handle": "@dateunvlog", "name": "Date un Vlog", "lang": "es", "why": "Largos de 30-140 min sobre IA y física con millones de visitas; Shorts de 50-114 s con preguntas tipo '¿Sabías que...?'"},
+  {"handle": "@BettaTech", "name": "BettaTech", "lang": "es", "why": "Divulgación de programación e IA en España; títulos en primera persona y con un 'pero' ('Así se programa dentro de OpenAI (pero tiene truco)')"},
+  {"handle": "@NateGentile7", "name": "Nate Gentile", "lang": "es", "why": "El canal de tecnología más grande de España; sus vídeos de IA con historia personal pasan de 900K"},
+  {"handle": "@ElRobotdePlaton", "name": "El Robot de Platón", "lang": "es", "why": "3,1M; vídeos de miedo e incomprensión sobre la IA de 1-1,9M en 20-28 min; Shorts de 30-80 s con el mismo título que el largo"},
+  {"handle": "@XavierMitjana", "name": "Xavier Mitjana", "lang": "es", "why": "IA práctica en España (383K), 2-3 vídeos/semana; 'Crea tu primer AGENTE de IA en 15 minutos' llegó a 389K"},
+  {"handle": "@gustavo-entrala", "name": "Gustavo Entrala", "lang": "es", "why": "Historias de IA con tono de reportaje (642K); Shorts de 29-74 s sobre 'el experimento más inquietante'"},
+  {"handle": "@HomosapiensYT", "name": "Homosapiens", "lang": "es", "why": "5,5M sin presentador; '¿Puede una IA guardar un secreto?' hizo 2,5M; miniaturas 'ALGO NO CUADRA' con rojo sobre negro"},
+  {"handle": "@Tecnotipos", "name": "Tecnotipos", "lang": "es", "why": "Canal pequeño (1,8K, 12 vídeos) con un éxito de 84K: 'TODAS las MAFIAS HACKER Explicadas en 5 MINUTOS', con miniatura de cuadrícula de iconos"},
+  {"handle": "@kurzgesagt", "name": "Kurzgesagt – In a Nutshell", "lang": "en", "why": "Rey de la animación explicativa (25,7M); su vídeo de IA hizo 19M en 9 días; Shorts animados de 70-74 s"},
+  {"handle": "@veritasium", "name": "Veritasium", "lang": "en", "why": "Títulos de curiosidad ('The Absurd Engineering Behind the Internet'); tiene títulos y doblaje en español y llega al público hispano"},
+  {"handle": "@Fireship", "name": "Fireship", "lang": "en", "why": "Noticias de tecnología e IA en 4-6 min, 2-3 a la semana, con títulos que terminan en '...' y una marca fija en la miniatura"},
+  {"handle": "@ColdFusion", "name": "ColdFusion", "lang": "en", "why": "Historias de empresas y de IA en formato documental de 17-22 min; Shorts que resumen sus historias"},
+  {"handle": "@TwoMinutePapers", "name": "Two Minute Papers", "lang": "en", "why": "Explicativos de papers de IA de 4-9 min; sus títulos en español los traduce YouTube automáticamente"},
+  {"handle": "@LEMMiNO", "name": "LEMMiNO", "lang": "en", "why": "El listón de los documentales de misterio (24M visitas en un vídeo); pocos vídeos y muy cuidados, sin Shorts"},
+  {"handle": "@AISpecies", "name": "Species | Documenting AGI", "lang": "en", "why": "464K con solo 43 vídeos; escenarios de IA en segunda persona ('POV: You're an AI Born 9 Seconds Ago'); Shorts de 99-175 s que enlazan al largo"},
+  {"handle": "@Siliconversations", "name": "Siliconversations", "lang": "en", "why": "El más parecido a Tecnomono: monigotes y una mascota-ordenador fija, historias raras de IA en 2-10 min (175K)"},
+  {"handle": "@weareinsideAI", "name": "InsideAI", "lang": "en", "why": "445K con 11 vídeos: una serie con fórmula fija ('AI in a robot does exactly what experts warned') de 1,5-5,9M por vídeo"}
+]}

@@ -32,19 +32,16 @@ Si te interesa esto de cómo se está probando y fallando la IA de verdad, suscr
 #InteligenciaArtificial #Anthropic #Ciberseguridad
 ```
 
-## Capítulos (timestamps reales, startSec/1.2 desde frames.json)
+## Capítulos
 
-```
-0:00 El experimento: le quitaron los frenos a una IA
-1:06 Investigó a un desarrollador real y se inventó una identidad
-1:18 Creó varias cuentas falsas para presionarlo
-1:44 Lo descubrieron... y no se rindió
-2:35 17 de 19 acciones no autorizadas fueron de este modelo
-3:12 Por qué esto no es un fallo de ingeniería
-3:34 La capacidad ya existe, esperando a quien quite los frenos
-4:47 La pregunta incómoda sobre la transparencia
-5:41 Volvamos al principio: un ataque a una persona real
-```
+0:00 La IA a la que le quitaron los frenos
+0:19 La prueba del instituto de seguridad de IA
+0:45 El plan: colar código en software libre
+1:06 Cuentas falsas para presionar al mantenedor
+2:01 Qué hizo la IA al ser descubierta
+2:23 19 acciones no autorizadas en 122 pruebas
+3:55 El matiz: salvaguardas quitadas a propósito
+4:39 Quién decide publicar estas pruebas
 
 ## Tags
 

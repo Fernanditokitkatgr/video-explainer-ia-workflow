@@ -1,0 +1,143 @@
+{
+  "sfx": [
+    {
+      "file": "tense_silence.mp3",
+      "startSec": 1.6,
+      "duration": 1.2,
+      "volume": 0.14,
+      "prompt": "sudden tense silence sting, clean, no music"
+    },
+    {
+      "file": "gasp_murmur.mp3",
+      "startSec": 6.9,
+      "duration": 1.1,
+      "volume": 0.14,
+      "prompt": "short crowd gasp murmur, clean"
+    },
+    {
+      "file": "record_scratch.mp3",
+      "startSec": 16.6,
+      "duration": 1.0,
+      "volume": 0.14,
+      "prompt": "short comedic record scratch, clean"
+    },
+    {
+      "file": "mystery_sting.mp3",
+      "startSec": 22.3,
+      "duration": 1.2,
+      "volume": 0.15,
+      "prompt": "short mysterious dramatic sting, clean"
+    },
+    {
+      "file": "wood_click.mp3",
+      "startSec": 51.9,
+      "duration": 1.0,
+      "volume": 0.14,
+      "prompt": "short single wooden game piece click on a board, clean"
+    },
+    {
+      "file": "whoosh_expand.mp3",
+      "startSec": 65.1,
+      "duration": 1.2,
+      "volume": 0.14,
+      "prompt": "short expanding whoosh, clean"
+    },
+    {
+      "file": "computer_beep.mp3",
+      "startSec": 84.6,
+      "duration": 1.1,
+      "volume": 0.14,
+      "prompt": "short old computer processing beep, clean"
+    },
+    {
+      "file": "rising_tension.mp3",
+      "startSec": 121.9,
+      "duration": 1.3,
+      "volume": 0.14,
+      "prompt": "short rising tension tone, clean"
+    },
+    {
+      "file": "dramatic_hit.mp3",
+      "startSec": 135.5,
+      "duration": 1.2,
+      "volume": 0.15,
+      "prompt": "short dramatic percussive hit, clean"
+    },
+    {
+      "file": "crowd_murmur.mp3",
+      "startSec": 150.1,
+      "duration": 1.2,
+      "volume": 0.13,
+      "prompt": "short crowd murmur, clean"
+    },
+    {
+      "file": "triumphant_chime.mp3",
+      "startSec": 159.1,
+      "duration": 1.3,
+      "volume": 0.15,
+      "prompt": "short triumphant victory chime, clean"
+    },
+    {
+      "file": "data_whirr.mp3",
+      "startSec": 184.0,
+      "duration": 1.2,
+      "volume": 0.14,
+      "prompt": "short digital data processing whirr, clean"
+    },
+    {
+      "file": "repeating_loop.mp3",
+      "startSec": 213.6,
+      "duration": 1.2,
+      "volume": 0.13,
+      "prompt": "short fast repeating mechanical loop, clean"
+    },
+    {
+      "file": "soft_ping.mp3",
+      "startSec": 248.2,
+      "duration": 1.1,
+      "volume": 0.14,
+      "prompt": "short soft electronic ping, clean"
+    },
+    {
+      "file": "fast_rewind.mp3",
+      "startSec": 284.5,
+      "duration": 1.2,
+      "volume": 0.14,
+      "prompt": "short fast digital rewind whoosh, clean"
+    },
+    {
+      "file": "clock_tick.mp3",
+      "startSec": 302.2,
+      "duration": 1.0,
+      "volume": 0.14,
+      "prompt": "short fast clock ticking, clean"
+    },
+    {
+      "file": "warm_reveal.mp3",
+      "startSec": 325.1,
+      "duration": 1.3,
+      "volume": 0.14,
+      "prompt": "short warm uplifting reveal tone, clean"
+    },
+    {
+      "file": "closing_turn.mp3",
+      "startSec": 383.9,
+      "duration": 1.4,
+      "volume": 0.14,
+      "prompt": "warm closing transition swell, wrapping up"
+    },
+    {
+      "file": "subscribe_chime.mp3",
+      "startSec": 396.6,
+      "duration": 1.2,
+      "volume": 0.17,
+      "prompt": "bright cheerful notification bell chime, friendly and short"
+    }
+  ],
+  "music": {
+    "file": "musica-canal.mp3",
+    "duration": 30,
+    "volume": 0.3,
+    "prompt": "reused channel background music loop"
+  }
+}

@@ -1079,5 +1079,140 @@
     "width": 1920,
     "height": 1080,
     "background": "#ffffff"
+  },
+  "por-que-nvidia-vale-tanto": {
+    "composition": "PorQueNvidiaValeTanto",
+    "tsx": "remotion/src/PorQueNvidiaValeTanto.tsx",
+    "manifest_dir": "channel/tecno/videos/por-que-nvidia-vale-tanto",
+    "script": "channel/tecno/videos/por-que-nvidia-vale-tanto/script.md",
+    "audio_static": "por-que-nvidia-vale-tanto.mp3",
+    "images_subpath": "por-que-nvidia-vale-tanto",
+    "naming": "timestamp",
+    "ext": "jpg",
+    "playback_rate": 1.2,
+    "fps": 30,
+    "width": 1920,
+    "height": 1080,
+    "background": "#ffffff",
+    "published": {
+      "youtube_id": "eQDZmeshOco",
+      "privacy": "private",
+      "publish_at": "2026-10-14T17:00:00Z",
+      "date": "2026-10-14"
+    }
+  },
+  "asi-funciona-el-reconocimiento-facial": {
+    "composition": "AsiFuncionaElReconocimientoFacial",
+    "tsx": "remotion/src/AsiFuncionaElReconocimientoFacial.tsx",
+    "manifest_dir": "channel/tecno/videos/asi-funciona-el-reconocimiento-facial",
+    "script": "channel/tecno/videos/asi-funciona-el-reconocimiento-facial/script.md",
+    "audio_static": "asi-funciona-el-reconocimiento-facial.mp3",
+    "images_subpath": "asi-funciona-el-reconocimiento-facial",
+    "naming": "timestamp",
+    "ext": "jpg",
+    "playback_rate": 1.2,
+    "fps": 30,
+    "width": 1920,
+    "height": 1080,
+    "background": "#ffffff",
+    "published": {
+      "youtube_id": "tqwomH94Sq8",
+      "privacy": "private",
+      "publish_at": "2026-10-15T17:00:00Z",
+      "date": "2026-10-15"
+    }
+  },
+  "como-funcionan-los-deepfakes": {
+    "composition": "ComoFuncionanLosDeepfakes",
+    "tsx": "remotion/src/ComoFuncionanLosDeepfakes.tsx",
+    "manifest_dir": "channel/tecno/videos/como-funcionan-los-deepfakes",
+    "script": "channel/tecno/videos/como-funcionan-los-deepfakes/script.md",
+    "audio_static": "como-funcionan-los-deepfakes.mp3",
+    "images_subpath": "como-funcionan-los-deepfakes",
+    "naming": "timestamp",
+    "ext": "jpg",
+    "playback_rate": 1.2,
+    "fps": 30,
+    "width": 1920,
+    "height": 1080,
+    "background": "#ffffff",
+    "published": {
+      "youtube_id": "vZRie-t-vq4",
+      "privacy": "private",
+      "publish_at": "2026-10-16T17:00:00Z",
+      "date": "2026-10-16"
+    }
+  },
+  "como-funciona-el-wifi": {
+    "composition": "ComoFuncionaElWifi",
+    "tsx": "remotion/src/ComoFuncionaElWifi.tsx",
+    "manifest_dir": "channel/tecno/videos/como-funciona-el-wifi",
+    "script": "channel/tecno/videos/como-funciona-el-wifi/script.md",
+    "audio_static": "como-funciona-el-wifi.mp3",
+    "images_subpath": "como-funciona-el-wifi",
+    "naming": "timestamp",
+    "ext": "jpg",
+    "playback_rate": 1.2,
+    "fps": 30,
+    "width": 1920,
+    "height": 1080,
+    "background": "#ffffff",
+    "published": {
+      "youtube_id": "jqZmMAuMzVI",
+      "privacy": "private",
+      "publish_at": "2026-10-17T17:00:00Z",
+      "date": "2026-10-17"
+    }
+  },
+  "alphago-la-ia-que-aprendio-a-jugar-sola": {
+    "composition": "AlphaGoLaIaQueAprendioAJugarSola",
+    "tsx": "remotion/src/AlphaGoLaIaQueAprendioAJugarSola.tsx",
+    "manifest_dir": "channel/tecno/videos/alphago-la-ia-que-aprendio-a-jugar-sola",
+    "script": "channel/tecno/videos/alphago-la-ia-que-aprendio-a-jugar-sola/script.md",
+    "audio_static": "alphago-la-ia-que-aprendio-a-jugar-sola.mp3",
+    "images_subpath": "alphago-la-ia-que-aprendio-a-jugar-sola",
+    "naming": "timestamp",
+    "ext": "jpg",
+    "playback_rate": 1.2,
+    "fps": 30,
+    "width": 1920,
+    "height": 1080,
+    "background": "#ffffff",
+    "published": {
+      "youtube_id": "B2keVzR9n5k",
+      "privacy": "private",
+      "publish_at": "2026-10-18T17:00:00Z",
+      "date": "2026-10-18"
+    }
+  },
+  "como-crea-imagenes-una-ia": {
+    "composition": "ComoCreaImagenesUnaIa",
+    "tsx": "remotion/src/ComoCreaImagenesUnaIa.tsx",
+    "manifest_dir": "channel/tecno/videos/como-crea-imagenes-una-ia",
+    "script": "channel/tecno/videos/como-crea-imagenes-una-ia/script.md",
+    "audio_static": "como-crea-imagenes-una-ia.mp3",
+    "images_subpath": "como-crea-imagenes-una-ia",
+    "naming": "timestamp",
+    "ext": "jpg",
+    "playback_rate": 1.2,
+    "fps": 30,
+    "width": 1920,
+    "height": 1080,
+    "background": "#ffffff"
+  },
+  "como-funciona-el-algoritmo-de-tiktok-y-youtube": {
+    "composition": "ComoFuncionaElAlgoritmoDeTiktokYYoutube",
+    "tsx": "remotion/src/ComoFuncionaElAlgoritmoDeTiktokYYoutube.tsx",
+    "manifest_dir": "channel/tecno/videos/como-funciona-el-algoritmo-de-tiktok-y-youtube",
+    "script": "channel/tecno/videos/como-funciona-el-algoritmo-de-tiktok-y-youtube/script.md",
+    "audio_static": "como-funciona-el-algoritmo-de-tiktok-y-youtube.mp3",
+    "images_subpath": "como-funciona-el-algoritmo-de-tiktok-y-youtube",
+    "naming": "timestamp",
+    "ext": "jpg",
+    "playback_rate": 1.2,
+    "fps": 30,
+    "width": 1920,
+    "height": 1080,
+    "background": "#ffffff"
   }
 }

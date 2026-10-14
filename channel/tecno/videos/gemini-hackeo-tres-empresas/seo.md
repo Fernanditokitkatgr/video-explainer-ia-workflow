@@ -39,18 +39,17 @@ Si te interesa esto de cómo se está probando y fallando la IA de verdad, suscr
 #InteligenciaArtificial #Ciberseguridad #GoogleGemini
 ```
 
-## Capítulos (timestamps reales, startSec/1.2 desde frames.json)
+## Capítulos
 
-```
-0:00 Una prueba contra una empresa que no existía
-0:11 Empezó a hackear tres empresas reales
-0:55 La sala sellada que no estaba sellada
-2:51 Se dio cuenta sola, y paró
-3:47 Google lo supo y no lo contó
-4:36 El mismo informe de OpenAI, esa semana
-5:38 El detalle que nadie menciona
-6:00 La prueba real era otra
-```
+0:00 La prueba de seguridad que se descontroló
+0:20 Probar modelos de IA como hackers
+0:59 Por qué se usa IA como atacante
+1:32 El fallo: Gemini con internet real
+1:59 Gemini ataca a empresas reales
+2:41 Gemini se da cuenta solo
+3:47 Google no contó nada en público
+4:31 Los seis incidentes que reconoció OpenAI
+5:38 Quién decide qué fallos se hacen públicos
 
 ## Tags
 

@@ -36,24 +36,17 @@ Si te gusta entender cómo funciona de verdad la tecnología que usas cada día,
 #Ciberseguridad #Contraseñas #Tecnologia
 ```
 
-## Capítulos (timestamps reales, startSec/PLAYBACK_RATE desde frames.json)
+## Capítulos
 
-```
 0:00 Sara2024: una contraseña que parece segura
-0:16 El hash: la huella dactilar de tu contraseña
-1:00 Filtraciones: el caso RockYou
-1:48 Fuerza bruta: probar todas las combinaciones
-2:39 Tarjetas gráficas: miles de millones de intentos
-2:55 Fórmulas lentas y sal: cómo se defienden las webs
-3:24 Ataque de diccionario y el eterno 123456
+0:19 Qué es un hash
+1:05 Filtraciones: el caso RockYou
+1:48 Ataque de fuerza bruta
+3:24 Ataque de diccionario
 3:55 Por qué cambiar letras por símbolos no sirve
-4:33 Relleno de credenciales: el peligro de repetir
+4:33 El peligro de repetir contraseña
 5:09 Phishing: no la adivinan, te la piden
-5:43 Cómo protegerte: frases largas y gestor
-6:25 Verificación en dos pasos y llaves de acceso
-6:51 Cómo saber si te han filtrado
-7:07 Por qué cayó Sara2024
-```
+5:43 Cómo proteger tus contraseñas
 
 ## Tags
 
