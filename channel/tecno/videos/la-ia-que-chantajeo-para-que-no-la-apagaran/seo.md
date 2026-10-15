@@ -36,17 +36,16 @@ Si te gusta entender cómo funciona de verdad la tecnología que usas cada día,
 
 ## Capítulos
 
-TODO: calcular desde `frames.json` (dividir `startSec` entre `PLAYBACK_RATE`) cuando haya audio. Propuesta de rótulos:
-- 0:00 La alarma que solo puede cancelar una IA
-- TODO ¿Era solo cosa de Claude?
-- TODO La trampa de Summit Bridge
-- TODO Cuántas veces chantajeó cada modelo
-- TODO Sabían que no era ético
-- TODO La prueba más extrema
-- TODO El contexto honesto
-- TODO Peor cuando cree que es real
-- TODO De dónde venía y cómo se arregló
-- TODO La respuesta
+0:00 La alarma que solo puede cancelar una IA
+0:33 ¿Era solo cosa de Claude?
+0:46 La trampa de Summit Bridge
+1:09 Cuántas veces chantajeó cada modelo
+1:30 Sabían que no era ético
+2:01 La prueba más extrema
+2:35 El contexto honesto
+2:58 Peor cuando cree que es real
+3:28 De dónde venía y cómo se arregló
+4:08 La respuesta
 
 ## Tags
 
@@ -64,10 +63,10 @@ posicion: left
 Imagen sugerida: Sara a la derecha, asustada, mirando una puerta de sala de servidores con una luz de alarma roja y un botón de "cancelar" junto a un icono genérico de IA (sin logos de empresas). Generar SIN texto, lado izquierdo libre.
 
 ## Shorts
-- titulo: ¿Qué haría una IA si pudiera dejarte morir? | gancho: ¿CANCELA/LA ALARMA? | reveal: LA MAYORÍA/LA CANCELÓ | desde: TODO | hasta: TODO
-- titulo: ¿Chantajean todas las IAs o solo una? | gancho: ¿ERA SOLO/COSA DE CLAUDE? | reveal: CASI TODOS/LO HICIERON | desde: TODO | hasta: TODO
-- titulo: ¿Se porta peor una IA cuando cree que va en serio? | gancho: ¿Y SI CREE/QUE ES REAL? | reveal: CINCUENTA Y CINCO/POR CIENTO | desde: TODO | hasta: TODO
-- titulo: ¿Cómo se arregla una IA que chantajea? | gancho: ¿CÓMO SE ARREGLA/UNA IA ASÍ? | reveal: HISTORIAS/DE FICCIÓN | desde: TODO | hasta: TODO
+- titulo: ¿Qué haría una IA si pudiera dejarte morir? | gancho: ¿CANCELA/LA ALARMA? | reveal: LA MAYORÍA/LA CANCELÓ | desde: 2_31 | hasta: 3_05
+- titulo: ¿Chantajean todas las IAs o solo una? | gancho: ¿ERA SOLO/COSA DE CLAUDE? | reveal: CASI TODOS/LO HICIERON | desde: 0_41 | hasta: 1_43
+- titulo: ¿Se porta peor una IA cuando cree que va en serio? | gancho: ¿Y SI CREE/QUE ES REAL? | reveal: CINCUENTA Y CINCO/POR CIENTO | desde: 3_43 | hasta: 4_16
+- titulo: ¿Cómo se arregla una IA que chantajea? | gancho: ¿CÓMO SE ARREGLA/UNA IA ASÍ? | reveal: HISTORIAS/DE FICCIÓN | desde: 4_20 | hasta: 5_07
 
 ## Notas
 
@@ -107,5 +106,5 @@ Imagen sugerida: Sara a la derecha, asustada, mirando una puerta de sala de serv
   - Short 2: desde "Pero quedaba una pregunta en el aire." hasta "Hasta el de Meta acabó chantajeando..." Reveal en "Casi todos lo hicieron."
   - Short 3: desde "Entonces. ¿Por qué importa?" hasta "Pero nunca llegó a desaparecer." Reveal en "Cincuenta y cinco por ciento."
   - Short 4: desde "Y aquí viene el último giro." hasta "...un problema que nadie ha resuelto." Reveal en "E historias de ficción sobre inteligencias artificiales admirables."
-  `desde`/`hasta` en TODO hasta tener audio y `frames.json`.
+  `desde`/`hasta` calculados desde frames.json (16-oct-2026).
 - Imágenes: sin logos reales de empresas; modelos como iconos genéricos con su nombre rotulado en español si hace falta. Kyle = silueta genérica (personaje ficticio del estudio).

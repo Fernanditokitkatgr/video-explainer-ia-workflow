@@ -1,0 +1,143 @@
+{
+  "sfx": [
+    {
+      "file": "pen_scribble.mp3",
+      "startSec": 2.4,
+      "duration": 1.0,
+      "volume": 0.13,
+      "prompt": "short pen scribbling a signature on paper, clean"
+    },
+    {
+      "file": "dramatic_hit.mp3",
+      "startSec": 11.6,
+      "duration": 1.2,
+      "volume": 0.15,
+      "prompt": "short dramatic percussive hit, clean"
+    },
+    {
+      "file": "record_scratch.mp3",
+      "startSec": 25.5,
+      "duration": 0.8,
+      "volume": 0.14,
+      "prompt": "short vinyl record scratch stop, clean"
+    },
+    {
+      "file": "whoosh_list.mp3",
+      "startSec": 71.0,
+      "duration": 1.0,
+      "volume": 0.14,
+      "prompt": "short punchy whoosh transition, clean"
+    },
+    {
+      "file": "coins.mp3",
+      "startSec": 105.5,
+      "duration": 1.2,
+      "volume": 0.14,
+      "prompt": "short handful of coins dropping into a hand, clean"
+    },
+    {
+      "file": "club_thump.mp3",
+      "startSec": 127.2,
+      "duration": 1.2,
+      "volume": 0.13,
+      "prompt": "short muffled nightclub bass thump behind a door, clean"
+    },
+    {
+      "file": "power_down.mp3",
+      "startSec": 136.0,
+      "duration": 1.3,
+      "volume": 0.14,
+      "prompt": "short machine power down whine fading out, clean"
+    },
+    {
+      "file": "whistle.mp3",
+      "startSec": 141.5,
+      "duration": 0.9,
+      "volume": 0.14,
+      "prompt": "short sharp referee whistle blow, clean"
+    },
+    {
+      "file": "angelic_chime.mp3",
+      "startSec": 162.3,
+      "duration": 1.3,
+      "volume": 0.14,
+      "prompt": "short soft angelic choir chime, clean"
+    },
+    {
+      "file": "chains_padlock.mp3",
+      "startSec": 185.8,
+      "duration": 1.2,
+      "volume": 0.15,
+      "prompt": "short heavy chains and padlock clank, clean"
+    },
+    {
+      "file": "glass_crack.mp3",
+      "startSec": 201.0,
+      "duration": 1.0,
+      "volume": 0.15,
+      "prompt": "short glass cracking and shattering, clean"
+    },
+    {
+      "file": "surveillance_zoom.mp3",
+      "startSec": 210.0,
+      "duration": 1.1,
+      "volume": 0.14,
+      "prompt": "short camera lens zoom whir with electronic beep, clean"
+    },
+    {
+      "file": "horse_hooves.mp3",
+      "startSec": 230.0,
+      "duration": 1.4,
+      "volume": 0.14,
+      "prompt": "short horse hooves clip clop on a country road, clean"
+    },
+    {
+      "file": "deep_boom.mp3",
+      "startSec": 258.7,
+      "duration": 1.4,
+      "volume": 0.15,
+      "prompt": "short deep distant explosion boom, clean"
+    },
+    {
+      "file": "applause.mp3",
+      "startSec": 293.1,
+      "duration": 1.4,
+      "volume": 0.13,
+      "prompt": "short warm small group applause, clean"
+    },
+    {
+      "file": "robot_powerup.mp3",
+      "startSec": 306.2,
+      "duration": 1.2,
+      "volume": 0.15,
+      "prompt": "short menacing robot power up whir, clean"
+    },
+    {
+      "file": "cage_clank.mp3",
+      "startSec": 324.6,
+      "duration": 1.1,
+      "volume": 0.14,
+      "prompt": "short metal cage door clanking shut, clean"
+    },
+    {
+      "file": "mystery_sting.mp3",
+      "startSec": 337.6,
+      "duration": 1.2,
+      "volume": 0.14,
+      "prompt": "short mysterious dramatic sting, clean"
+    },
+    {
+      "file": "subscribe_chime.mp3",
+      "startSec": 372.1,
+      "duration": 1.2,
+      "volume": 0.17,
+      "prompt": "bright cheerful notification bell chime, friendly and short"
+    }
+  ],
+  "music": {
+    "file": "musica-canal.mp3",
+    "duration": 30,
+    "volume": 0.3,
+    "prompt": "reused channel background music loop"
+  }
+}

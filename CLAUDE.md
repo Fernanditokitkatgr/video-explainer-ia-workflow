@@ -21,6 +21,9 @@ scripts/
   generate_voice.py     ← ElevenLabs (lee de config)
   generate_images.py    ← Higgsfield (lee la receta de frames.json)
   whisper_timestamps.py ← timestamps de audio (--language/--model/--naming); nombres de frame únicos
+  check_sara_color.py   ← tras generar: marca imágenes con Sara con la cara color melocotón (deriva de
+                          Gemini; 14/103 en el vídeo del chantaje). Da falsos positivos con manos y
+                          arena: sirve para mirar esas a ojo, NO para borrar a ciegas.
   check_negations.py    ← OBLIGATORIO tras la voz: ¿se comió ElevenLabs algún no/sin/nunca?
                           Contrasta cada descuadre con whisper large-v3 (el pequeño oye "uno" por "no").
                           Si falla: cambiar la frase a una negación fuerte ("nunca", "ninguna") y regenerar.

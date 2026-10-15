@@ -66,10 +66,19 @@ import { ComoFuncionaElAlgoritmoDeTiktokYYoutube } from "./ComoFuncionaElAlgorit
 import { TodosLosTiposDeIaExplicados } from "./TodosLosTiposDeIaExplicados";
 import { ComoCreaImagenesUnaIa } from "./ComoCreaImagenesUnaIa";
 import { PorQueChatgptSeVuelveLocoConElEmojiDelCaballitoDeMar } from "./PorQueChatgptSeVuelveLocoConElEmojiDelCaballitoDeMar";
+import { LaIaQueChantajeoParaQueNoLaApagaran } from "./LaIaQueChantajeoParaQueNoLaApagaran";
 
 export const RemotionRoot: React.FC = () => {
   return (
     <>
+      <Composition
+        id="LaIaQueChantajeoParaQueNoLaApagaran"
+        component={LaIaQueChantajeoParaQueNoLaApagaran}
+        durationInFrames={8303}
+        fps={30}
+        width={1920}
+        height={1080}
+      />
       <Composition
         id="ComoCreaImagenesUnaIa"
         component={ComoCreaImagenesUnaIa}

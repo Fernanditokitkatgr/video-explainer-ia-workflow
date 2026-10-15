@@ -1322,5 +1322,35 @@
     "width": 1920,
     "height": 1080,
     "background": "#ffffff"
+  },
+  "todos-los-tipos-de-malware-explicados": {
+    "composition": "TodosLosTiposDeMalwareExplicados",
+    "tsx": "remotion/src/TodosLosTiposDeMalwareExplicados.tsx",
+    "manifest_dir": "channel/tecno/videos/todos-los-tipos-de-malware-explicados",
+    "script": "channel/tecno/videos/todos-los-tipos-de-malware-explicados/script.md",
+    "audio_static": "todos-los-tipos-de-malware-explicados.mp3",
+    "images_subpath": "todos-los-tipos-de-malware-explicados",
+    "naming": "timestamp",
+    "ext": "jpg",
+    "playback_rate": 1.25,
+    "fps": 30,
+    "width": 1920,
+    "height": 1080,
+    "background": "#ffffff"
+  },
+  "los-12-finales-posibles-de-la-ia": {
+    "composition": "Los12FinalesPosiblesDeLaIa",
+    "tsx": "remotion/src/Los12FinalesPosiblesDeLaIa.tsx",
+    "manifest_dir": "channel/tecno/videos/los-12-finales-posibles-de-la-ia",
+    "script": "channel/tecno/videos/los-12-finales-posibles-de-la-ia/script.md",
+    "audio_static": "los-12-finales-posibles-de-la-ia.mp3",
+    "images_subpath": "los-12-finales-posibles-de-la-ia",
+    "naming": "timestamp",
+    "ext": "jpg",
+    "playback_rate": 1.25,
+    "fps": 30,
+    "width": 1920,
+    "height": 1080,
+    "background": "#ffffff"
   }
 }
