@@ -1,0 +1,60 @@
+{
+  "shorts": [
+    {
+      "file": "short_1.mp4",
+      "titulo": "¿Cómo dibuja una IA partiendo de la nada?",
+      "gancho": "¿CÓMO APRENDE/A DIBUJAR UNA IA?",
+      "reveal": "QUITAR/RUIDO",
+      "parte": "",
+      "desde": "1_14",
+      "t0": 59.86,
+      "dur": 49.19,
+      "youtube_id": null,
+      "publish_at": null,
+      "tiktok_publish_id": null,
+      "tiktok_posted_at": null
+    },
+    {
+      "file": "short_2.mp4",
+      "titulo": "¿Por qué la IA dibuja manos con seis dedos?",
+      "gancho": "¿POR QUÉ FALLA/CON LAS MANOS?",
+      "reveal": "NO SABE/CONTAR",
+      "parte": "",
+      "desde": "4_34",
+      "t0": 219.55,
+      "dur": 40.79,
+      "youtube_id": null,
+      "publish_at": null,
+      "tiktok_publish_id": null,
+      "tiktok_posted_at": null
+    },
+    {
+      "file": "short_3.mp4",
+      "titulo": "¿Por qué la IA escribe palabras sin sentido?",
+      "gancho": "¿POR QUÉ ESCRIBE/TAN RARO?",
+      "reveal": "LAS VE/COMO FORMAS",
+      "parte": "",
+      "desde": "5_35",
+      "t0": 268.14,
+      "dur": 33.34,
+      "youtube_id": null,
+      "publish_at": null,
+      "tiktok_publish_id": null,
+      "tiktok_posted_at": null
+    },
+    {
+      "file": "short_4.mp4",
+      "titulo": "¿De dónde saca la IA sus imágenes?",
+      "gancho": "¿DE DÓNDE SACÓ/TODO LO QUE SABE?",
+      "reveal": "SOBRE TODO/DE INTERNET",
+      "parte": "",
+      "desde": "6_13",
+      "t0": 298.48,
+      "dur": 41.82,
+      "youtube_id": null,
+      "publish_at": null,
+      "tiktok_publish_id": null,
+      "tiktok_posted_at": null
+    }
+  ]
+}

@@ -117,7 +117,11 @@ def publish(slugs, dry):
                 vid = upload_one(yt, mdir / "shorts" / s["file"], s["titulo"], desc, tags, iso(slot))
             except HttpError as e:
                 if "quotaExceeded" in str(e) or "uploadLimitExceeded" in str(e):
-                    print("CUOTA diaria de YouTube agotada: lo pendiente queda para mañana (--pending).")
+                    # quotaExceeded = cuota de la API (10.000 puntos); uploadLimitExceeded = límite de
+                    # subidas diarias del CANAL (no se arregla con cuota, sino verificando el canal).
+                    reason = "uploadLimitExceeded (límite de subidas del canal)" if "uploadLimitExceeded" in str(e) \
+                        else "quotaExceeded (cuota de la API)"
+                    print(f"CUOTA diaria de YouTube agotada [{reason}]: lo pendiente queda para mañana (--pending).")
                     return
                 raise
             s["youtube_id"], s["publish_at"] = vid, iso(slot)

@@ -1,0 +1,60 @@
+{
+  "shorts": [
+    {
+      "file": "short_1.mp4",
+      "titulo": "¿Sabías que hoy ya has usado varias IAs sin darte cuenta?",
+      "gancho": "¿CUÁNTAS IAs/HAS USADO HOY?",
+      "reveal": "AL MENOS/CINCO",
+      "parte": "",
+      "desde": "0_00",
+      "t0": 0.0,
+      "dur": 35.38,
+      "youtube_id": null,
+      "publish_at": null,
+      "tiktok_publish_id": null,
+      "tiktok_posted_at": null
+    },
+    {
+      "file": "short_2.mp4",
+      "titulo": "¿Sabías que esta voz no es de una persona?",
+      "gancho": "¿QUIÉN TE ESTÁ/HABLANDO AHORA?",
+      "reveal": "LA HA GENERADO/UNA IA",
+      "parte": "",
+      "desde": "3_31",
+      "t0": 176.42,
+      "dur": 36.58,
+      "youtube_id": null,
+      "publish_at": null,
+      "tiktok_publish_id": null,
+      "tiktok_posted_at": null
+    },
+    {
+      "file": "short_3.mp4",
+      "titulo": "¿Qué pasaría si una IA aprendiera a jugar sola?",
+      "gancho": "¿CÓMO APRENDIÓ/A GANAR?",
+      "reveal": "JUGANDO CONTRA/SÍ MISMA",
+      "parte": "",
+      "desde": "4_12",
+      "t0": 210.0,
+      "dur": 33.77,
+      "youtube_id": null,
+      "publish_at": null,
+      "tiktok_publish_id": null,
+      "tiktok_posted_at": null
+    },
+    {
+      "file": "short_4.mp4",
+      "titulo": "¿Qué pasaría si una IA fuera más lista que todos?",
+      "gancho": "¿Y SI UNA IA/NOS SUPERA EN TODO?",
+      "reveal": "NADIE SABE/SI ES POSIBLE",
+      "parte": "",
+      "desde": "5_57",
+      "t0": 297.68,
+      "dur": 34.5,
+      "youtube_id": null,
+      "publish_at": null,
+      "tiktok_publish_id": null,
+      "tiktok_posted_at": null
+    }
+  ]
+}

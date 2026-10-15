@@ -50,24 +50,15 @@ Si te gusta entender cómo funciona de verdad la tecnología que usas cada día,
 
 ## Capítulos
 
-TODO 0:00 ¿Cuántos tipos de IA has usado hoy?
-TODO Reglas fijas
-TODO Aprendizaje automático
-TODO Redes neuronales
-TODO Visión por ordenador
-TODO Reconocimiento de voz
-TODO Sistemas de recomendación
-TODO IA generativa de texto
-TODO IA generativa de imágenes
-TODO IA generativa de voz
-TODO La IA que juega
-TODO Agentes de IA
-TODO IA estrecha frente a IA general
-TODO Superinteligencia
-TODO Cuenta tus IAs
-
-(Rellenar los tiempos reales desde frames.json cuando haya audio. Ojo con el mínimo de 10 s por
-capítulo: si algún tipo queda por debajo, fusionarlo con el siguiente.)
+0:00 Cuántos tipos de IA usas cada día
+0:32 Reglas fijas y aprendizaje automático
+1:12 Redes neuronales, visión y voz
+2:10 Sistemas de recomendación
+2:37 IA generativa: texto, imágenes y voz
+3:30 La IA que juega y aprende sola
+4:00 Agentes de IA
+4:18 IA estrecha frente a IA general
+4:57 La superinteligencia
 
 ## Tags
 
@@ -83,10 +74,10 @@ resaltar: 13 IAs
 posicion: left
 
 ## Shorts
-- titulo: ¿Sabías que hoy ya has usado varias IAs sin darte cuenta? | gancho: ¿CUÁNTAS IAs/HAS USADO HOY? | reveal: AL MENOS/CINCO | desde: TODO | hasta: TODO
-- titulo: ¿Sabías que esta voz no es de una persona? | gancho: ¿QUIÉN TE ESTÁ/HABLANDO AHORA? | reveal: LA HA GENERADO/UNA IA | desde: TODO | hasta: TODO
-- titulo: ¿Qué pasaría si una IA aprendiera a jugar sola? | gancho: ¿CÓMO APRENDIÓ/A GANAR? | reveal: JUGANDO CONTRA/SÍ MISMA | desde: TODO | hasta: TODO
-- titulo: ¿Qué pasaría si una IA fuera más lista que todos? | gancho: ¿Y SI UNA IA/NOS SUPERA EN TODO? | reveal: NADIE SABE/SI ES POSIBLE | desde: TODO | hasta: TODO
+- titulo: ¿Sabías que hoy ya has usado varias IAs sin darte cuenta? | gancho: ¿CUÁNTAS IAs/HAS USADO HOY? | reveal: AL MENOS/CINCO | desde: 0_00 | hasta: 0_34
+- titulo: ¿Sabías que esta voz no es de una persona? | gancho: ¿QUIÉN TE ESTÁ/HABLANDO AHORA? | reveal: LA HA GENERADO/UNA IA | desde: 3_31 | hasta: 4_08
+- titulo: ¿Qué pasaría si una IA aprendiera a jugar sola? | gancho: ¿CÓMO APRENDIÓ/A GANAR? | reveal: JUGANDO CONTRA/SÍ MISMA | desde: 4_12 | hasta: 4_46
+- titulo: ¿Qué pasaría si una IA fuera más lista que todos? | gancho: ¿Y SI UNA IA/NOS SUPERA EN TODO? | reveal: NADIE SABE/SI ES POSIBLE | desde: 5_57 | hasta: 6_30
 
 ## Notas
 

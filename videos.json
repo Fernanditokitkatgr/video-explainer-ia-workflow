@@ -1063,7 +1063,13 @@
     "fps": 30,
     "width": 1920,
     "height": 1080,
-    "background": "#ffffff"
+    "background": "#ffffff",
+    "published": {
+      "youtube_id": "74aE6DTEdT8",
+      "privacy": "private",
+      "publish_at": "2026-10-19T17:00:00Z",
+      "date": "2026-10-19"
+    }
   },
   "que-es-la-computacion-cuantica": {
     "composition": "QueEsLaComputacionCuantica",
@@ -1078,7 +1084,13 @@
     "fps": 30,
     "width": 1920,
     "height": 1080,
-    "background": "#ffffff"
+    "background": "#ffffff",
+    "published": {
+      "youtube_id": "Ifb4OdMPYsc",
+      "privacy": "private",
+      "publish_at": "2026-10-20T17:00:00Z",
+      "date": "2026-10-20"
+    }
   },
   "por-que-nvidia-vale-tanto": {
     "composition": "PorQueNvidiaValeTanto",
@@ -1194,7 +1206,7 @@
     "images_subpath": "como-crea-imagenes-una-ia",
     "naming": "timestamp",
     "ext": "jpg",
-    "playback_rate": 1.2,
+    "playback_rate": 1.25,
     "fps": 30,
     "width": 1920,
     "height": 1080,
@@ -1209,7 +1221,7 @@
     "images_subpath": "como-funciona-el-algoritmo-de-tiktok-y-youtube",
     "naming": "timestamp",
     "ext": "jpg",
-    "playback_rate": 1.2,
+    "playback_rate": 1.25,
     "fps": 30,
     "width": 1920,
     "height": 1080,
@@ -1228,7 +1240,13 @@
     "fps": 30,
     "width": 1920,
     "height": 1080,
-    "background": "#ffffff"
+    "background": "#ffffff",
+    "published": {
+      "youtube_id": "bhNprXDEX6A",
+      "privacy": "private",
+      "publish_at": "2026-10-21T17:00:00Z",
+      "date": "2026-10-21"
+    }
   },
   "por-que-chatgpt-se-vuelve-loco-con-el-emoji-del-caballito-de-mar": {
     "composition": "PorQueChatgptSeVuelveLocoConElEmojiDelCaballitoDeMar",
@@ -1239,7 +1257,67 @@
     "images_subpath": "por-que-chatgpt-se-vuelve-loco-con-el-emoji-del-caballito-de-mar",
     "naming": "timestamp",
     "ext": "jpg",
-    "playback_rate": 1.2,
+    "playback_rate": 1.25,
+    "fps": 30,
+    "width": 1920,
+    "height": 1080,
+    "background": "#ffffff"
+  },
+  "la-ia-que-chantajeo-para-que-no-la-apagaran": {
+    "composition": "LaIaQueChantajeoParaQueNoLaApagaran",
+    "tsx": "remotion/src/LaIaQueChantajeoParaQueNoLaApagaran.tsx",
+    "manifest_dir": "channel/tecno/videos/la-ia-que-chantajeo-para-que-no-la-apagaran",
+    "script": "channel/tecno/videos/la-ia-que-chantajeo-para-que-no-la-apagaran/script.md",
+    "audio_static": "la-ia-que-chantajeo-para-que-no-la-apagaran.mp3",
+    "images_subpath": "la-ia-que-chantajeo-para-que-no-la-apagaran",
+    "naming": "timestamp",
+    "ext": "jpg",
+    "playback_rate": 1.25,
+    "fps": 30,
+    "width": 1920,
+    "height": 1080,
+    "background": "#ffffff"
+  },
+  "dejaron-mil-ias-solas-en-minecraft": {
+    "composition": "DejaronMilIasSolasEnMinecraft",
+    "tsx": "remotion/src/DejaronMilIasSolasEnMinecraft.tsx",
+    "manifest_dir": "channel/tecno/videos/dejaron-mil-ias-solas-en-minecraft",
+    "script": "channel/tecno/videos/dejaron-mil-ias-solas-en-minecraft/script.md",
+    "audio_static": "dejaron-mil-ias-solas-en-minecraft.mp3",
+    "images_subpath": "dejaron-mil-ias-solas-en-minecraft",
+    "naming": "timestamp",
+    "ext": "jpg",
+    "playback_rate": 1.25,
+    "fps": 30,
+    "width": 1920,
+    "height": 1080,
+    "background": "#ffffff"
+  },
+  "todos-los-grupos-hacker-de-los-gobiernos": {
+    "composition": "TodosLosGruposHackerDeLosGobiernos",
+    "tsx": "remotion/src/TodosLosGruposHackerDeLosGobiernos.tsx",
+    "manifest_dir": "channel/tecno/videos/todos-los-grupos-hacker-de-los-gobiernos",
+    "script": "channel/tecno/videos/todos-los-grupos-hacker-de-los-gobiernos/script.md",
+    "audio_static": "todos-los-grupos-hacker-de-los-gobiernos.mp3",
+    "images_subpath": "todos-los-grupos-hacker-de-los-gobiernos",
+    "naming": "timestamp",
+    "ext": "jpg",
+    "playback_rate": 1.25,
+    "fps": 30,
+    "width": 1920,
+    "height": 1080,
+    "background": "#ffffff"
+  },
+  "cicada-3301-el-mayor-misterio-de-internet": {
+    "composition": "Cicada3301ElMayorMisterioDeInternet",
+    "tsx": "remotion/src/Cicada3301ElMayorMisterioDeInternet.tsx",
+    "manifest_dir": "channel/tecno/videos/cicada-3301-el-mayor-misterio-de-internet",
+    "script": "channel/tecno/videos/cicada-3301-el-mayor-misterio-de-internet/script.md",
+    "audio_static": "cicada-3301-el-mayor-misterio-de-internet.mp3",
+    "images_subpath": "cicada-3301-el-mayor-misterio-de-internet",
+    "naming": "timestamp",
+    "ext": "jpg",
+    "playback_rate": 1.25,
     "fps": 30,
     "width": 1920,
     "height": 1080,

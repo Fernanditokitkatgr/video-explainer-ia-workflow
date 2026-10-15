@@ -73,6 +73,10 @@ Por vídeo, al publicar:
   python scripts/tiktok_pack.py <slug>                     # versión TikTok + texto SEO → tiktok_inbox/
   python scratch-yt/tiktok_api.py next                     # sube a TikTok el siguiente Short que toca
   python scratch-yt/sync_descriptions.py                   # lleva a YouTube los capítulos de seo.md
+  scratch-yt/pending_long.txt + daily_publish.py           # tarea "Tecnomono YouTube 0935": sube hasta 2 largos
+                                                           # (en orden) y luego Shorts pendientes; si la cuota se
+                                                           # agota PARA y conserva lo que falta. Para encolar un
+                                                           # vídeo: renderizarlo, pasar preflight y añadir su slug.
 ```
 `## Capítulos` de seo.md se rellena con los tiempos REALES (frames.json `startSec / playback_rate`)
 en cuanto hay audio: con un TODO, el vídeo sale sin capítulos (antes de oct-2026 ninguno los tenía).
@@ -481,6 +485,33 @@ que una simple partición en dos.
 - `publish_shorts.py`: agenda propia (`scratch-yt/shorts_queue.json`), huecos 13:00 y 21:00
   Madrid, nunca antes de que salga el largo (+1 h) para que el enlace de la descripción funcione.
   Si salta `quotaExceeded`, para limpio: `--pending` al día siguiente sube lo que falte.
+
+### Velocidad y duración (oct-2026)
+
+- `playback_rate` por defecto **1.25** en los vídeos nuevos (antes 1.2). Medido con Whisper: la
+  voz se entiende igual a 1.2-1.35 (97,7-98,4% de palabras), así que se puede subir más.
+- Datos propios: los largos de 4-4,5 min retienen 48-50% y los de 6-7 min 26-35%. Objetivo de
+  4-5 min de vídeo final (~5.300-5.800 caracteres de narración a 1.25).
+- Cambiar la velocidad de un vídeo ya montado (NO subido): `python scripts/set_speed.py <slug> 1.25`
+  recalcula capítulos, regenera el .tsx (`scripts/make_tsx.py`), ajusta Root.tsx y borra los Shorts.
+
+### Reglas de viralidad (oct-2026) — detalle y ejemplos en `channel/tecno/viral_playbook.md`
+
+- **El tema manda más que el formato.** "TODOS los X explicados" solo se dispara con personajes
+  (hackers, mafias, ciberataques: x6-x19); las listas de hardware del mismo canal se hunden (x0,2-x1).
+- **Abre con la escena, no la anuncies.** Nada de "prepárate", "hoy vas a entender" ni
+  presentaciones en las 3 primeras líneas. Antes del segundo 15, una escalada ("¿esto es lo peor? No.").
+- **Un dato con nombre propio cada 20-30 s y un giro cada ~60 s.**
+- **Título con una palabra de tensión** (está en el 41% del top de la competencia frente al 11%
+  de los peores). Los números y las MAYÚSCULAS no marcan diferencia.
+- **Miniatura: o cuadrícula de 8-10 personajes con etiqueta, o un único elemento con 2-3 palabras.**
+  El texto completa el título y NUNCA da la respuesta (mal: "¿EXISTE? NO."). Rotar la emoción de
+  Sara y meterla dentro de la escena, no siempre señalando con cara de susto.
+- Miniatura de cuadrícula: `seo.md` con `plantilla: A`, `etiquetas: A|B|...` y `cols: 5`, más
+  `grid_prompts.json` (un prompt por personaje) → `python scripts/grid_thumbnail.py <slug>`
+  (cada casilla se genera aparte para que las etiquetas cuadren; Gemini no alinea una rejilla).
+- **Shorts de 30-45 s que dicen el título en la primera frase.** Ninguno de los virales hace bucle.
+- **Largos de 4:30-5:30.**
 
 ### Qué Shorts y qué títulos (oct-2026): copiado de lo que se disparó en la competencia
 

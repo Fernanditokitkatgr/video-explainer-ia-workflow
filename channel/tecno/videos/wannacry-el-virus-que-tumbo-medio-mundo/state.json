@@ -3,11 +3,11 @@
   "steps": {
     "voice": "done",
     "whisper": "done",
-    "inject": "pending",
-    "images": "pending",
-    "sfx": "pending",
-    "validate": "pending",
-    "preflight": "pending",
-    "render": "pending"
+    "inject": "done",
+    "images": "done",
+    "sfx": "done",
+    "validate": "done",
+    "preflight": "done",
+    "render": "done"
   }
 }

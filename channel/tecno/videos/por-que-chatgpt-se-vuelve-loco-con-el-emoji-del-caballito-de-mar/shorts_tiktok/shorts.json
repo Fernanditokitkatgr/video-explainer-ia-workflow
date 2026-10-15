@@ -1,0 +1,60 @@
+{
+  "shorts": [
+    {
+      "file": "short_1.mp4",
+      "titulo": "¿Por qué ChatGPT se vuelve loco con un emoji?",
+      "gancho": "¿EXISTE EL EMOJI/DEL CABALLITO DE MAR?",
+      "reveal": "NO/EXISTE",
+      "parte": "",
+      "desde": "0_00",
+      "t0": 0.0,
+      "dur": 46.86,
+      "youtube_id": null,
+      "publish_at": null,
+      "tiktok_publish_id": null,
+      "tiktok_posted_at": null
+    },
+    {
+      "file": "short_2.mp4",
+      "titulo": "¿Qué hace una IA cuando no tiene la palabra que busca?",
+      "gancho": "¿QUÉ PASA SI A LA IA/LE FALTA LA PIEZA?",
+      "reveal": "SALE/OTRA DISTINTA",
+      "parte": "",
+      "desde": "3_27",
+      "t0": 165.78,
+      "dur": 52.62,
+      "youtube_id": null,
+      "publish_at": null,
+      "tiktok_publish_id": null,
+      "tiktok_posted_at": null
+    },
+    {
+      "file": "short_3.mp4",
+      "titulo": "¿Por qué una IA no puede decir que no sabe?",
+      "gancho": "¿POR QUÉ NO SE/CALLA SIN MÁS?",
+      "reveal": "NO TIENE UN/BOTÓN DE SILENCIO",
+      "parte": "",
+      "desde": "5_03",
+      "t0": 243.01,
+      "dur": 38.92,
+      "youtube_id": null,
+      "publish_at": null,
+      "tiktok_publish_id": null,
+      "tiktok_posted_at": null
+    },
+    {
+      "file": "short_4.mp4",
+      "titulo": "¿Puede una IA heredar nuestros recuerdos falsos?",
+      "gancho": "¿PUEDE UNA IA/RECORDAR MAL?",
+      "reveal": "HEREDA NUESTRA/FALSA MEMORIA",
+      "parte": "",
+      "desde": "1_50",
+      "t0": 88.11,
+      "dur": 50.66,
+      "youtube_id": null,
+      "publish_at": null,
+      "tiktok_publish_id": null,
+      "tiktok_posted_at": null
+    }
+  ]
+}

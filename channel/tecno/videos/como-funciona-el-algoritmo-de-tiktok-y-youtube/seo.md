@@ -39,20 +39,15 @@ Si te gusta entender cómo funciona de verdad la tecnología que usas cada día,
 
 ## Capítulos
 
-TODO 0:00 Una hora deslizando: ¿cómo lo sabía?
-TODO Qué es de verdad el algoritmo
-TODO El embudo: de millones de vídeos a uno
-TODO Lo que eligen los ingenieros: el objetivo
-TODO Las señales que TikTok ha confirmado
-TODO Tiempo de visionado, deslizar y volver a ver
-TODO De los clics a la satisfacción en YouTube
-TODO Por qué cuesta tanto parar
-TODO No te conoce: conoce tu comportamiento
-TODO Cómo reiniciar tu feed
-TODO Se lo dijiste tú
-
-(Rellenar los tiempos reales desde frames.json cuando haya audio.)
-
+0:00 Una hora deslizando: ¿cómo lo sabía?
+0:30 Qué es de verdad el algoritmo
+1:00 El embudo y el objetivo del sistema
+2:16 Las señales que TikTok ha confirmado
+3:13 Tiempo de visionado y volver a ver
+3:49 De los clics a la satisfacción en YouTube
+4:19 Por qué cuesta tanto parar
+5:04 No te conoce: conoce tu comportamiento
+5:21 Cómo reiniciar tu feed
 ## Tags
 
 ```
@@ -67,10 +62,10 @@ resaltar: CADA SEGUNDO
 posicion: left
 
 ## Shorts
-- titulo: Tus seguidores importan menos de lo que crees en TikTok | gancho: ¿IMPORTAN/LOS SEGUIDORES? | reveal: NO CUENTA/DIRECTAMENTE | desde: TODO | hasta: TODO
-- titulo: Por qué no puedes dejar de deslizar | gancho: ¿POR QUÉ CUESTA/TANTO PARAR? | reveal: UNA MÁQUINA/TRAGAPERRAS | desde: TODO | hasta: TODO
-- titulo: El algoritmo no sabe quién eres | gancho: ¿TE CONOCE/DE VERDAD? | reveal: CONOCE TU/COMPORTAMIENTO | desde: TODO | hasta: TODO
-- titulo: Cómo reiniciar tu feed de TikTok y YouTube | gancho: ¿SE PUEDE REINICIAR/TU FEED? | reveal: EMPEZAR/DE CERO | desde: TODO | hasta: TODO
+- titulo: ¿Sabías que tus seguidores importan menos de lo que crees en TikTok? | gancho: ¿IMPORTAN/LOS SEGUIDORES? | reveal: NO CUENTA/DIRECTAMENTE | desde: 3_25 | hasta: 3_58
+- titulo: ¿Por qué no puedes dejar de deslizar? | gancho: ¿POR QUÉ CUESTA/TANTO PARAR? | reveal: UNA MÁQUINA/TRAGAPERRAS | desde: 5_25 | hasta: 6_02
+- titulo: ¿Sabías que el algoritmo no sabe quién eres? | gancho: ¿TE CONOCE/DE VERDAD? | reveal: CONOCE TU/COMPORTAMIENTO | desde: 6_07 | hasta: 6_43
+- titulo: ¿Sabías que puedes reiniciar tu feed de TikTok y YouTube? | gancho: ¿SE PUEDE REINICIAR/TU FEED? | reveal: EMPEZAR/DE CERO | desde: 6_44 | hasta: 7_22
 
 ## Notas
 

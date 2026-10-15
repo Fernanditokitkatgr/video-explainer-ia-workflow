@@ -1,0 +1,60 @@
+{
+  "shorts": [
+    {
+      "file": "short_1.mp4",
+      "titulo": "¿Sabías que tus seguidores importan menos de lo que crees en TikTok?",
+      "gancho": "¿IMPORTAN/LOS SEGUIDORES?",
+      "reveal": "NO CUENTA/DIRECTAMENTE",
+      "parte": "",
+      "desde": "3_25",
+      "t0": 164.0,
+      "dur": 32.15,
+      "youtube_id": null,
+      "publish_at": null,
+      "tiktok_publish_id": null,
+      "tiktok_posted_at": null
+    },
+    {
+      "file": "short_2.mp4",
+      "titulo": "¿Por qué no puedes dejar de deslizar?",
+      "gancho": "¿POR QUÉ CUESTA/TANTO PARAR?",
+      "reveal": "UNA MÁQUINA/TRAGAPERRAS",
+      "parte": "",
+      "desde": "5_25",
+      "t0": 260.69,
+      "dur": 36.25,
+      "youtube_id": null,
+      "publish_at": null,
+      "tiktok_publish_id": null,
+      "tiktok_posted_at": null
+    },
+    {
+      "file": "short_3.mp4",
+      "titulo": "¿Sabías que el algoritmo no sabe quién eres?",
+      "gancho": "¿TE CONOCE/DE VERDAD?",
+      "reveal": "CONOCE TU/COMPORTAMIENTO",
+      "parte": "",
+      "desde": "6_07",
+      "t0": 293.94,
+      "dur": 33.05,
+      "youtube_id": null,
+      "publish_at": null,
+      "tiktok_publish_id": null,
+      "tiktok_posted_at": null
+    },
+    {
+      "file": "short_4.mp4",
+      "titulo": "¿Sabías que puedes reiniciar tu feed de TikTok y YouTube?",
+      "gancho": "¿SE PUEDE REINICIAR/TU FEED?",
+      "reveal": "EMPEZAR/DE CERO",
+      "parte": "",
+      "desde": "6_44",
+      "t0": 323.98,
+      "dur": 38.26,
+      "youtube_id": null,
+      "publish_at": null,
+      "tiktok_publish_id": null,
+      "tiktok_posted_at": null
+    }
+  ]
+}

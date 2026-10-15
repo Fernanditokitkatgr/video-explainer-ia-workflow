@@ -1,0 +1,150 @@
+{
+  "sfx": [
+    {
+      "file": "blocky_steps.mp3",
+      "startSec": 0.2,
+      "duration": 1.2,
+      "volume": 0.13,
+      "prompt": "short playful footsteps on gravel, clean"
+    },
+    {
+      "file": "village_chime.mp3",
+      "startSec": 2.8,
+      "duration": 1.2,
+      "volume": 0.14,
+      "prompt": "short cheerful marimba village chime, clean"
+    },
+    {
+      "file": "mystery_sting.mp3",
+      "startSec": 13.96,
+      "duration": 1.2,
+      "volume": 0.15,
+      "prompt": "short mysterious dramatic sting, clean"
+    },
+    {
+      "file": "record_scratch.mp3",
+      "startSec": 23.6,
+      "duration": 1.0,
+      "volume": 0.14,
+      "prompt": "short comedic record scratch, clean"
+    },
+    {
+      "file": "computer_beep.mp3",
+      "startSec": 37.7,
+      "duration": 1.1,
+      "volume": 0.14,
+      "prompt": "short computer processing beep, clean"
+    },
+    {
+      "file": "whoosh_expand.mp3",
+      "startSec": 52.14,
+      "duration": 1.2,
+      "volume": 0.14,
+      "prompt": "short expanding whoosh, clean"
+    },
+    {
+      "file": "pickaxe_clink.mp3",
+      "startSec": 68.8,
+      "duration": 1.0,
+      "volume": 0.14,
+      "prompt": "short pickaxe hitting stone clink, clean"
+    },
+    {
+      "file": "sparkle_ping.mp3",
+      "startSec": 78.5,
+      "duration": 1.1,
+      "volume": 0.14,
+      "prompt": "short bright sparkle ping, clean"
+    },
+    {
+      "file": "crowd_murmur.mp3",
+      "startSec": 83.8,
+      "duration": 1.4,
+      "volume": 0.13,
+      "prompt": "short small crowd murmur, clean"
+    },
+    {
+      "file": "sad_descend.mp3",
+      "startSec": 120.3,
+      "duration": 1.2,
+      "volume": 0.14,
+      "prompt": "short descending sad tone, clean"
+    },
+    {
+      "file": "coin_clink.mp3",
+      "startSec": 142.6,
+      "duration": 1.0,
+      "volume": 0.14,
+      "prompt": "short coins clinking into a wooden chest, clean"
+    },
+    {
+      "file": "warm_reveal.mp3",
+      "startSec": 163.7,
+      "duration": 1.3,
+      "volume": 0.14,
+      "prompt": "short warm uplifting reveal tone, clean"
+    },
+    {
+      "file": "mystery_sting_two.mp3",
+      "startSec": 191.6,
+      "duration": 1.2,
+      "volume": 0.14,
+      "prompt": "short mysterious choir sting, clean"
+    },
+    {
+      "file": "comedic_boing.mp3",
+      "startSec": 195.66,
+      "duration": 1.0,
+      "volume": 0.13,
+      "prompt": "short comedic cartoon boing, clean"
+    },
+    {
+      "file": "record_scratch_two.mp3",
+      "startSec": 216.5,
+      "duration": 1.0,
+      "volume": 0.14,
+      "prompt": "short comedic record scratch, clean, slightly different"
+    },
+    {
+      "file": "static_noise.mp3",
+      "startSec": 238.7,
+      "duration": 1.2,
+      "volume": 0.13,
+      "prompt": "short electronic static glitch burst, clean"
+    },
+    {
+      "file": "dramatic_hit.mp3",
+      "startSec": 279.5,
+      "duration": 1.2,
+      "volume": 0.15,
+      "prompt": "short dramatic percussive hit, clean"
+    },
+    {
+      "file": "soft_ping.mp3",
+      "startSec": 299.8,
+      "duration": 1.1,
+      "volume": 0.14,
+      "prompt": "short soft electronic ping, clean"
+    },
+    {
+      "file": "closing_turn.mp3",
+      "startSec": 319.4,
+      "duration": 1.4,
+      "volume": 0.14,
+      "prompt": "warm closing transition swell, wrapping up"
+    },
+    {
+      "file": "subscribe_chime.mp3",
+      "startSec": 348.3,
+      "duration": 1.2,
+      "volume": 0.17,
+      "prompt": "bright cheerful notification bell chime, friendly and short"
+    }
+  ],
+  "music": {
+    "file": "musica-canal.mp3",
+    "duration": 30,
+    "volume": 0.3,
+    "prompt": "reused channel background music loop"
+  }
+}

@@ -42,19 +42,15 @@ Si te gusta entender cómo funciona de verdad la tecnología que usas cada día,
 
 ## Capítulos
 
-TODO 0:00 ¿De dónde sale una imagen que nunca ha existido?
-TODO La IA no busca tu imagen: la fabrica
-TODO El entrenamiento: destruir imágenes con ruido
-TODO De ruido a gato astronauta, pasada a pasada
-TODO Cómo tus palabras guían la imagen
-TODO Por qué la IA dibuja manos con seis dedos
-TODO Por qué le cuesta escribir texto
-TODO De dónde salen sus imágenes
-TODO El debate de los derechos de autor
-TODO Sale del ruido
-
-(Rellenar los tiempos reales desde frames.json cuando haya audio.)
-
+0:00 ¿De dónde sale una imagen nueva?
+0:41 La IA no busca la imagen: la fabrica
+0:59 El entrenamiento: destruir con ruido
+1:56 De ruido a gato astronauta
+3:03 Cómo tus palabras guían la imagen
+3:39 Por qué dibuja manos con seis dedos
+4:25 Por qué le cuesta escribir texto
+4:58 De dónde salen sus imágenes
+5:23 El debate de los derechos de autor
 ## Tags
 
 ```
@@ -69,10 +65,10 @@ resaltar: RUIDO
 posicion: left
 
 ## Shorts
-- titulo: Así dibuja una IA partiendo de la nada | gancho: ¿CÓMO APRENDE/A DIBUJAR UNA IA? | reveal: QUITAR/RUIDO | desde: TODO | hasta: TODO
-- titulo: Por qué la IA dibuja manos con seis dedos | gancho: ¿POR QUÉ FALLA/CON LAS MANOS? | reveal: NO SABE/CONTAR | desde: TODO | hasta: TODO
-- titulo: Por qué la IA escribe palabras sin sentido | gancho: ¿POR QUÉ ESCRIBE/TAN RARO? | reveal: LAS VE/COMO FORMAS | desde: TODO | hasta: TODO
-- titulo: De dónde saca la IA sus imágenes | gancho: ¿DE DÓNDE SACÓ/TODO LO QUE SABE? | reveal: SOBRE TODO/DE INTERNET | desde: TODO | hasta: TODO
+- titulo: ¿Cómo dibuja una IA partiendo de la nada? | gancho: ¿CÓMO APRENDE/A DIBUJAR UNA IA? | reveal: QUITAR/RUIDO | desde: 1_14 | hasta: 2_11
+- titulo: ¿Por qué la IA dibuja manos con seis dedos? | gancho: ¿POR QUÉ FALLA/CON LAS MANOS? | reveal: NO SABE/CONTAR | desde: 4_34 | hasta: 5_18
+- titulo: ¿Por qué la IA escribe palabras sin sentido? | gancho: ¿POR QUÉ ESCRIBE/TAN RARO? | reveal: LAS VE/COMO FORMAS | desde: 5_35 | hasta: 6_07
+- titulo: ¿De dónde saca la IA sus imágenes? | gancho: ¿DE DÓNDE SACÓ/TODO LO QUE SABE? | reveal: SOBRE TODO/DE INTERNET | desde: 6_13 | hasta: 6_51
 
 ## Notas
 

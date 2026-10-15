@@ -39,19 +39,15 @@ Si te gusta entender cómo funciona de verdad la tecnología que usas cada día,
 
 ## Capítulos
 
-TODO 0:00 ¿Existe el emoji del caballito de mar?
-TODO El emoji que no existe
-TODO El bucle de la IA
-TODO El efecto Mandela
-TODO Cómo escribe un modelo por dentro
-TODO Qué vio la investigadora
-TODO Por qué no puede callarse
-TODO Qué nos enseña este fallo
-TODO La respuesta
-
-(Rellenar con tiempos reales desde frames.json cuando haya audio. Mínimo 10 s por capítulo: si
-alguno queda por debajo, fusionarlo con el siguiente.)
-
+0:00 ¿Existe el emoji del caballito de mar?
+0:43 El bucle de ChatGPT con el emoji
+1:26 El efecto Mandela
+1:57 Qué aprende la IA de nuestros errores
+2:25 Cómo escribe un modelo: tokens
+2:59 Qué vio la investigadora por dentro
+4:03 Por qué no puede callarse
+4:29 Qué nos enseña este fallo
+5:06 La respuesta a la pregunta
 ## Tags
 
 ```
@@ -61,15 +57,15 @@ emoji caballito de mar, existe el emoji de caballito de mar, chatgpt se vuelve l
 (16 tags, suma efectiva 345 contando +2 por cada tag con espacio. Por debajo de 420.)
 
 ## Miniatura
-texto: ¿EXISTE?|NO.
-resaltar: NO.
+texto: ¿EXISTE|ESTE EMOJI?
+resaltar: ESTE EMOJI?
 posicion: left
 
 ## Shorts
-- titulo: ¿Por qué ChatGPT se vuelve loco con un emoji? | gancho: ¿EXISTE EL EMOJI/DEL CABALLITO DE MAR? | reveal: NO/EXISTE | desde: TODO | hasta: TODO
-- titulo: ¿Qué hace una IA cuando no tiene la palabra que busca? | gancho: ¿QUÉ PASA SI A LA IA/LE FALTA LA PIEZA? | reveal: SALE/OTRA DISTINTA | desde: TODO | hasta: TODO
-- titulo: ¿Por qué una IA no puede decir que no sabe? | gancho: ¿POR QUÉ NO SE/CALLA SIN MÁS? | reveal: NO TIENE UN/BOTÓN DE SILENCIO | desde: TODO | hasta: TODO
-- titulo: ¿Puede una IA heredar nuestros recuerdos falsos? | gancho: ¿PUEDE UNA IA/RECORDAR MAL? | reveal: HEREDA NUESTRA/FALSA MEMORIA | desde: TODO | hasta: TODO
+- titulo: ¿Por qué ChatGPT se vuelve loco con un emoji? | gancho: ¿EXISTE EL EMOJI/DEL CABALLITO DE MAR? | reveal: NO/EXISTE | desde: 0_00 | hasta: 0_52
+- titulo: ¿Qué hace una IA cuando no tiene la palabra que busca? | gancho: ¿QUÉ PASA SI A LA IA/LE FALTA LA PIEZA? | reveal: SALE/OTRA DISTINTA | desde: 3_27 | hasta: 4_25
+- titulo: ¿Por qué una IA no puede decir que no sabe? | gancho: ¿POR QUÉ NO SE/CALLA SIN MÁS? | reveal: NO TIENE UN/BOTÓN DE SILENCIO | desde: 5_03 | hasta: 5_46
+- titulo: ¿Puede una IA heredar nuestros recuerdos falsos? | gancho: ¿PUEDE UNA IA/RECORDAR MAL? | reveal: HEREDA NUESTRA/FALSA MEMORIA | desde: 1_50 | hasta: 2_44
 
 ## Notas
 

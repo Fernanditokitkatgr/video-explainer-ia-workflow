@@ -1,0 +1,150 @@
+{
+  "sfx": [
+    {
+      "file": "mystery_drone.mp3",
+      "startSec": 0.3,
+      "duration": 1.5,
+      "volume": 0.14,
+      "prompt": "low mysterious ambient drone, clean"
+    },
+    {
+      "file": "forum_ping.mp3",
+      "startSec": 2.4,
+      "duration": 1.0,
+      "volume": 0.14,
+      "prompt": "short soft computer notification ping, clean"
+    },
+    {
+      "file": "secret_shimmer.mp3",
+      "startSec": 12.9,
+      "duration": 1.2,
+      "volume": 0.14,
+      "prompt": "short mysterious shimmer sting, clean"
+    },
+    {
+      "file": "poster_tape.mp3",
+      "startSec": 20.7,
+      "duration": 1.0,
+      "volume": 0.13,
+      "prompt": "short tape ripping and paper poster being stuck, clean"
+    },
+    {
+      "file": "cicada_buzz.mp3",
+      "startSec": 28.0,
+      "duration": 1.2,
+      "volume": 0.13,
+      "prompt": "short cicada insect buzz chirp, clean"
+    },
+    {
+      "file": "duck_squeak.mp3",
+      "startSec": 74.9,
+      "duration": 1.0,
+      "volume": 0.14,
+      "prompt": "short comedic rubber duck squeak, clean"
+    },
+    {
+      "file": "mystery_sting.mp3",
+      "startSec": 93.2,
+      "duration": 1.2,
+      "volume": 0.14,
+      "prompt": "short mysterious dramatic sting, clean"
+    },
+    {
+      "file": "phone_ring.mp3",
+      "startSec": 107.0,
+      "duration": 1.2,
+      "volume": 0.14,
+      "prompt": "short old telephone ring, clean"
+    },
+    {
+      "file": "answer_beep.mp3",
+      "startSec": 111.8,
+      "duration": 1.0,
+      "volume": 0.14,
+      "prompt": "short answering machine beep, clean"
+    },
+    {
+      "file": "clock_tick.mp3",
+      "startSec": 125.5,
+      "duration": 1.2,
+      "volume": 0.14,
+      "prompt": "short clock ticking countdown, clean"
+    },
+    {
+      "file": "countdown_hit.mp3",
+      "startSec": 140.4,
+      "duration": 1.2,
+      "volume": 0.15,
+      "prompt": "short dramatic percussive hit, clean"
+    },
+    {
+      "file": "whoosh_world.mp3",
+      "startSec": 143.0,
+      "duration": 1.2,
+      "volume": 0.14,
+      "prompt": "short expanding whoosh, clean"
+    },
+    {
+      "file": "door_slam.mp3",
+      "startSec": 174.5,
+      "duration": 1.0,
+      "volume": 0.15,
+      "prompt": "short heavy door slam, clean"
+    },
+    {
+      "file": "email_ping.mp3",
+      "startSec": 188.8,
+      "duration": 1.0,
+      "volume": 0.14,
+      "prompt": "short soft email notification ping, clean"
+    },
+    {
+      "file": "warm_reveal.mp3",
+      "startSec": 209.7,
+      "duration": 1.3,
+      "volume": 0.14,
+      "prompt": "short warm uplifting reveal tone, clean"
+    },
+    {
+      "file": "record_scratch.mp3",
+      "startSec": 242.6,
+      "duration": 1.0,
+      "volume": 0.14,
+      "prompt": "short comedic record scratch, clean"
+    },
+    {
+      "file": "deep_boom.mp3",
+      "startSec": 279.4,
+      "duration": 1.3,
+      "volume": 0.15,
+      "prompt": "short deep ominous boom, clean"
+    },
+    {
+      "file": "rising_tension.mp3",
+      "startSec": 326.2,
+      "duration": 1.3,
+      "volume": 0.14,
+      "prompt": "short rising tension tone, clean"
+    },
+    {
+      "file": "soft_sting.mp3",
+      "startSec": 352.7,
+      "duration": 1.2,
+      "volume": 0.14,
+      "prompt": "sudden tense silence sting, clean, no music"
+    },
+    {
+      "file": "subscribe_chime.mp3",
+      "startSec": 369.3,
+      "duration": 1.2,
+      "volume": 0.17,
+      "prompt": "bright cheerful notification bell chime, friendly and short"
+    }
+  ],
+  "music": {
+    "file": "musica-canal.mp3",
+    "duration": 30,
+    "volume": 0.3,
+    "prompt": "reused channel background music loop"
+  }
+}

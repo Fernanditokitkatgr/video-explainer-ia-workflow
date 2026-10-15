@@ -1,0 +1,150 @@
+{
+  "sfx": [
+    {
+      "file": "power_hum.mp3",
+      "startSec": 0.3,
+      "duration": 1.5,
+      "volume": 0.14,
+      "prompt": "low electrical substation hum drone, clean"
+    },
+    {
+      "file": "switch_clicks.mp3",
+      "startSec": 8.2,
+      "duration": 1.3,
+      "volume": 0.15,
+      "prompt": "series of heavy electrical breaker switches clicking off, clean"
+    },
+    {
+      "file": "power_down.mp3",
+      "startSec": 12.2,
+      "duration": 1.3,
+      "volume": 0.14,
+      "prompt": "short electrical power down whine fading out, clean"
+    },
+    {
+      "file": "dramatic_hit.mp3",
+      "startSec": 17.5,
+      "duration": 1.2,
+      "volume": 0.15,
+      "prompt": "short dramatic percussive hit, clean"
+    },
+    {
+      "file": "whoosh_list.mp3",
+      "startSec": 38.6,
+      "duration": 1.0,
+      "volume": 0.14,
+      "prompt": "short punchy whoosh transition, clean"
+    },
+    {
+      "file": "email_ping.mp3",
+      "startSec": 54.5,
+      "duration": 1.0,
+      "volume": 0.14,
+      "prompt": "short soft email notification ping, clean"
+    },
+    {
+      "file": "tiptoe.mp3",
+      "startSec": 79.9,
+      "duration": 1.2,
+      "volume": 0.13,
+      "prompt": "short quiet sneaky tiptoe footsteps, clean"
+    },
+    {
+      "file": "mystery_sting.mp3",
+      "startSec": 94.0,
+      "duration": 1.2,
+      "volume": 0.14,
+      "prompt": "short mysterious dramatic sting, clean"
+    },
+    {
+      "file": "glitch.mp3",
+      "startSec": 115.1,
+      "duration": 1.0,
+      "volume": 0.14,
+      "prompt": "short digital glitch burst, clean"
+    },
+    {
+      "file": "smash.mp3",
+      "startSec": 134.9,
+      "duration": 1.0,
+      "volume": 0.15,
+      "prompt": "short metal and glass smash crash, clean"
+    },
+    {
+      "file": "sneaky_sting.mp3",
+      "startSec": 165.6,
+      "duration": 1.1,
+      "volume": 0.14,
+      "prompt": "short sneaky pizzicato sting, clean"
+    },
+    {
+      "file": "coins.mp3",
+      "startSec": 181.0,
+      "duration": 1.2,
+      "volume": 0.14,
+      "prompt": "short pile of coins cascading, clean"
+    },
+    {
+      "file": "heartbeat.mp3",
+      "startSec": 221.8,
+      "duration": 1.2,
+      "volume": 0.14,
+      "prompt": "short tense heartbeat thump, clean"
+    },
+    {
+      "file": "fuse_tick.mp3",
+      "startSec": 237.7,
+      "duration": 1.2,
+      "volume": 0.15,
+      "prompt": "short ticking bomb with hissing fuse, clean"
+    },
+    {
+      "file": "phone_static.mp3",
+      "startSec": 252.3,
+      "duration": 1.0,
+      "volume": 0.14,
+      "prompt": "short phone line static crackle, clean"
+    },
+    {
+      "file": "door_creak.mp3",
+      "startSec": 293.0,
+      "duration": 1.1,
+      "volume": 0.14,
+      "prompt": "short door creak opening, clean"
+    },
+    {
+      "file": "deep_boom.mp3",
+      "startSec": 314.0,
+      "duration": 1.3,
+      "volume": 0.15,
+      "prompt": "short deep ominous boom, clean"
+    },
+    {
+      "file": "ghost_whoosh.mp3",
+      "startSec": 326.2,
+      "duration": 1.2,
+      "volume": 0.14,
+      "prompt": "short eerie ghostly whoosh, clean"
+    },
+    {
+      "file": "dramatic_hit_two.mp3",
+      "startSec": 342.5,
+      "duration": 1.2,
+      "volume": 0.15,
+      "prompt": "short dramatic percussive hit, clean, slightly lower"
+    },
+    {
+      "file": "subscribe_chime.mp3",
+      "startSec": 357.6,
+      "duration": 1.2,
+      "volume": 0.17,
+      "prompt": "bright cheerful notification bell chime, friendly and short"
+    }
+  ],
+  "music": {
+    "file": "musica-canal.mp3",
+    "duration": 30,
+    "volume": 0.3,
+    "prompt": "reused channel background music loop"
+  }
+}

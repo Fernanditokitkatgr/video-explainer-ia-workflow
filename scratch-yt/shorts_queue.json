@@ -321,6 +321,55 @@
       "youtube_id": "Ult3kRTVZBA",
       "publish_at": "2026-10-22T11:00:00Z",
       "long_id": "B2keVzR9n5k"
+    },
+    {
+      "video": "alphago-la-ia-que-aprendio-a-jugar-sola",
+      "file": "short_2.mp4",
+      "youtube_id": "orgfVVyJQjM",
+      "publish_at": "2026-10-22T19:00:00Z",
+      "long_id": "B2keVzR9n5k"
+    },
+    {
+      "video": "alphago-la-ia-que-aprendio-a-jugar-sola",
+      "file": "short_3.mp4",
+      "youtube_id": "SP_bzNsXJK0",
+      "publish_at": "2026-10-23T11:00:00Z",
+      "long_id": "B2keVzR9n5k"
+    },
+    {
+      "video": "alphago-la-ia-que-aprendio-a-jugar-sola",
+      "file": "short_4.mp4",
+      "youtube_id": "Lj9L81-IWyI",
+      "publish_at": "2026-10-23T19:00:00Z",
+      "long_id": "B2keVzR9n5k"
+    },
+    {
+      "video": "wannacry-el-virus-que-tumbo-medio-mundo",
+      "file": "short_1.mp4",
+      "youtube_id": "GFpA7MCKMcc",
+      "publish_at": "2026-10-24T11:00:00Z",
+      "long_id": "74aE6DTEdT8"
+    },
+    {
+      "video": "wannacry-el-virus-que-tumbo-medio-mundo",
+      "file": "short_2.mp4",
+      "youtube_id": "qC-uv3uAO-Y",
+      "publish_at": "2026-10-24T19:00:00Z",
+      "long_id": "74aE6DTEdT8"
+    },
+    {
+      "video": "que-es-la-computacion-cuantica",
+      "file": "short_1.mp4",
+      "youtube_id": "SbCrVWx1P1k",
+      "publish_at": "2026-10-25T12:00:00Z",
+      "long_id": "Ifb4OdMPYsc"
+    },
+    {
+      "video": "que-es-la-computacion-cuantica",
+      "file": "short_2.mp4",
+      "youtube_id": "CRx8xup0cuc",
+      "publish_at": "2026-10-25T20:00:00Z",
+      "long_id": "Ifb4OdMPYsc"
     }
   ]
 }
