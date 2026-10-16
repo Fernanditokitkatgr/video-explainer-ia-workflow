@@ -37,18 +37,17 @@ Si te gusta entender cómo funciona de verdad la tecnología que usas cada día,
 
 ## Capítulos
 
-TODO: calcular desde `frames.json` (dividir `startSec` entre `PLAYBACK_RATE`) cuando haya audio. Propuesta de rótulos:
-- 0:00 La imagen de 4chan
-- TODO Marcus y Joel
-- TODO El pato y OutGuess
-- TODO Un cuento galés y un teléfono en Texas
-- TODO Por qué números primos
-- TODO Carteles en medio mundo
-- TODO Bienvenido
-- TODO Qué era Cicada por dentro
-- TODO 2013 y el Liber Primus
-- TODO El último mensaje
-- TODO ¿Quién estaba detrás?
+0:00 La imagen de 4chan
+0:32 Marcus y Joel
+0:48 El pato y OutGuess
+1:15 Un cuento galés y un teléfono en Texas
+1:32 Por qué números primos
+1:52 Carteles en medio mundo
+2:30 Bienvenido
+2:52 Qué era Cicada por dentro
+3:23 2013 y el Liber Primus
+4:07 El último mensaje
+4:17 ¿Quién estaba detrás?
 
 ## Tags
 
@@ -66,10 +65,10 @@ posicion: left
 Imagen sugerida (plantilla B del playbook: foco único + 2-3 palabras): una cigarra negra grande, de frente, sobre fondo negro, con un único acento rojo (los ojos o las venas de las alas brillando en rojo) y, muy pequeño, un código QR pegado como cartel. Sara NO va como espectadora señalando: si sale, diminuta y de espaldas frente a la cigarra, como el buzo de Homosapiens. Generar SIN texto, lado izquierdo libre. Sin el logotipo original de Cicada (usar una cigarra propia, no el emblema exacto). "¿QUIÉN ERA?" no da la respuesta (nadie lo sabe) ni repite el título.
 
 ## Shorts
-- titulo: ¿Qué escondía la imagen más misteriosa de 4chan? | gancho: ¿QUÉ HAY/DENTRO? | reveal: UN PATO/DE MADERA | desde: TODO | hasta: TODO
-- titulo: ¿Por qué el puzle Cicada 3301 estaba lleno de números primos? | gancho: ¿POR QUÉ/PRIMOS? | reveal: TRECE O/DIECISIETE AÑOS | desde: TODO | hasta: TODO
-- titulo: ¿Qué te preguntaba Cicada 3301 si llegabas al final? | gancho: ¿QUÉ TE/PREGUNTABAN? | reveal: PRIVACIDAD/Y AL ANONIMATO | desde: TODO | hasta: TODO
-- titulo: ¿Quién estaba detrás de Cicada 3301? | gancho: ¿LA NSA?/¿LA CIA? | reveal: NADIE/LO SABE | desde: TODO | hasta: TODO
+- titulo: ¿Qué escondía la imagen más misteriosa de 4chan? | gancho: ¿QUÉ HAY/DENTRO? | reveal: UN PATO/DE MADERA | desde: 1_00 | hasta: 1_27
+- titulo: ¿Por qué el puzle Cicada 3301 estaba lleno de números primos? | gancho: ¿POR QUÉ/PRIMOS? | reveal: TRECE O/DIECISIETE AÑOS | desde: 1_54 | hasta: 2_16
+- titulo: ¿Qué te preguntaba Cicada 3301 si llegabas al final? | gancho: ¿QUÉ TE/PREGUNTABAN? | reveal: PRIVACIDAD/Y AL ANONIMATO | desde: 3_07 | hasta: 3_30
+- titulo: ¿Quién estaba detrás de Cicada 3301? | gancho: ¿LA NSA?/¿LA CIA? | reveal: NADIE/LO SABE | desde: 5_21 | hasta: 5_58
 
 ## Notas
 

@@ -38,19 +38,18 @@ Si te gusta entender cómo funciona de verdad la tecnología que usas cada día,
 
 ## Capítulos
 
-TODO: calcular desde `frames.json` (dividir `startSec` entre `PLAYBACK_RATE`) cuando haya audio. Propuesta de rótulos:
-- 0:00 El cursor que se movía solo
-- TODO Fancy Bear
-- TODO Cozy Bear
-- TODO Sandworm
-- TODO Turla
-- TODO Lazarus
-- TODO APT41
-- TODO Volt Typhoon
-- TODO Salt Typhoon
-- TODO Charming Kitten
-- TODO Equation Group
-- TODO ¿Cuál es el más avanzado?
+0:00 El cursor que se movía solo
+0:31 Fancy Bear
+0:58 Cozy Bear
+1:24 Sandworm
+1:49 Turla
+2:15 Lazarus
+2:33 APT41
+2:53 Volt Typhoon
+3:13 Salt Typhoon
+3:32 Charming Kitten
+3:56 Equation Group
+4:24 ¿Cuál es el más avanzado?
 
 ## Tags
 
@@ -67,10 +66,10 @@ etiquetas: FANCY BEAR|COZY BEAR|SANDWORM|TURLA|LAZARUS|APT41|VOLT TYPHOON|SALT T
 cols: 5
 
 ## Shorts
-- titulo: ¿Qué hace un grupo hacker que no roba nada? | gancho: ¿Y QUÉ/QUIERE? | reveal: DEJA LA BOMBA/PUESTA | desde: TODO | hasta: TODO
-- titulo: ¿Qué buscaban los espías rusos en los correos de Microsoft? | gancho: ¿QUÉ/BUSCABAN? | reveal: LO QUE MICROSOFT/SABÍA DE ELLOS | desde: TODO | hasta: TODO
-- titulo: ¿Qué pasa cuando un hacker le roba a otro hacker? | gancho: ¿QUIÉN ROBA/AL LADRÓN? | reveal: HACKEADO A UNOS/HACKERS IRANÍES | desde: TODO | hasta: TODO
-- titulo: ¿Cuál es el grupo hacker más avanzado del mundo? | gancho: ¿DE QUÉ/PAÍS ES? | reveal: LO VINCULAN/CON LA NSA | desde: TODO | hasta: TODO
+- titulo: ¿Qué hace un grupo hacker que no roba nada? | gancho: ¿Y QUÉ/QUIERE? | reveal: DEJA LA BOMBA/PUESTA | desde: 3_33 | hasta: 3_57
+- titulo: ¿Qué buscaban los espías rusos en los correos de Microsoft? | gancho: ¿QUÉ/BUSCABAN? | reveal: LO QUE MICROSOFT/SABÍA DE ELLOS | desde: 1_13 | hasta: 1_42
+- titulo: ¿Qué pasa cuando un hacker le roba a otro hacker? | gancho: ¿QUIÉN ROBA/AL LADRÓN? | reveal: HACKEADO A UNOS/HACKERS IRANÍES | desde: 2_16 | hasta: 2_45
+- titulo: ¿Cuál es el grupo hacker más avanzado del mundo? | gancho: ¿DE QUÉ/PAÍS ES? | reveal: LO VINCULAN/CON LA NSA | desde: 4_54 | hasta: 5_46
 
 ## Notas
 

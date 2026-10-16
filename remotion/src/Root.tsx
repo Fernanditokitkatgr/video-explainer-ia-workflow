@@ -68,10 +68,28 @@ import { ComoCreaImagenesUnaIa } from "./ComoCreaImagenesUnaIa";
 import { PorQueChatgptSeVuelveLocoConElEmojiDelCaballitoDeMar } from "./PorQueChatgptSeVuelveLocoConElEmojiDelCaballitoDeMar";
 import { LaIaQueChantajeoParaQueNoLaApagaran } from "./LaIaQueChantajeoParaQueNoLaApagaran";
 import { DejaronMilIasSolasEnMinecraft } from "./DejaronMilIasSolasEnMinecraft";
+import { TodosLosGruposHackerDeLosGobiernos } from "./TodosLosGruposHackerDeLosGobiernos";
+import { Cicada3301ElMayorMisterioDeInternet } from "./Cicada3301ElMayorMisterioDeInternet";
 
 export const RemotionRoot: React.FC = () => {
   return (
     <>
+      <Composition
+        id="TodosLosGruposHackerDeLosGobiernos"
+        component={TodosLosGruposHackerDeLosGobiernos}
+        durationInFrames={8737}
+        fps={30}
+        width={1920}
+        height={1080}
+      />
+      <Composition
+        id="Cicada3301ElMayorMisterioDeInternet"
+        component={Cicada3301ElMayorMisterioDeInternet}
+        durationInFrames={9000}
+        fps={30}
+        width={1920}
+        height={1080}
+      />
       <Composition
         id="DejaronMilIasSolasEnMinecraft"
         component={DejaronMilIasSolasEnMinecraft}

@@ -1,0 +1,60 @@
+{
+  "shorts": [
+    {
+      "file": "short_1.mp4",
+      "titulo": "¿Qué hace un grupo hacker que no roba nada?",
+      "gancho": "¿Y QUÉ/QUIERE?",
+      "reveal": "DEJA LA BOMBA/PUESTA",
+      "parte": "",
+      "desde": "3_33",
+      "t0": 170.9,
+      "dur": 24.79,
+      "youtube_id": null,
+      "publish_at": null,
+      "tiktok_publish_id": null,
+      "tiktok_posted_at": null
+    },
+    {
+      "file": "short_2.mp4",
+      "titulo": "¿Qué buscaban los espías rusos en los correos de Microsoft?",
+      "gancho": "¿QUÉ/BUSCABAN?",
+      "reveal": "LO QUE MICROSOFT/SABÍA DE ELLOS",
+      "parte": "",
+      "desde": "1_13",
+      "t0": 58.4,
+      "dur": 28.84,
+      "youtube_id": null,
+      "publish_at": null,
+      "tiktok_publish_id": null,
+      "tiktok_posted_at": null
+    },
+    {
+      "file": "short_3.mp4",
+      "titulo": "¿Qué pasa cuando un hacker le roba a otro hacker?",
+      "gancho": "¿QUIÉN ROBA/AL LADRÓN?",
+      "reveal": "HACKEADO A UNOS/HACKERS IRANÍES",
+      "parte": "",
+      "desde": "2_16",
+      "t0": 108.85,
+      "dur": 28.76,
+      "youtube_id": null,
+      "publish_at": null,
+      "tiktok_publish_id": null,
+      "tiktok_posted_at": null
+    },
+    {
+      "file": "short_4.mp4",
+      "titulo": "¿Cuál es el grupo hacker más avanzado del mundo?",
+      "gancho": "¿DE QUÉ/PAÍS ES?",
+      "reveal": "LO VINCULAN/CON LA NSA",
+      "parte": "",
+      "desde": "4_54",
+      "t0": 235.78,
+      "dur": 47.08,
+      "youtube_id": null,
+      "publish_at": null,
+      "tiktok_publish_id": null,
+      "tiktok_posted_at": null
+    }
+  ]
+}
