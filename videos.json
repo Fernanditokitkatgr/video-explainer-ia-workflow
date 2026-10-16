@@ -1352,5 +1352,35 @@
     "width": 1920,
     "height": 1080,
     "background": "#ffffff"
+  },
+  "cada-estafa-que-te-pueden-hacer-en-espana": {
+    "composition": "CadaEstafaQueTePuedenHacerEnEspana",
+    "tsx": "remotion/src/CadaEstafaQueTePuedenHacerEnEspana.tsx",
+    "manifest_dir": "channel/tecno/videos/cada-estafa-que-te-pueden-hacer-en-espana",
+    "script": "channel/tecno/videos/cada-estafa-que-te-pueden-hacer-en-espana/script.md",
+    "audio_static": "cada-estafa-que-te-pueden-hacer-en-espana.mp3",
+    "images_subpath": "cada-estafa-que-te-pueden-hacer-en-espana",
+    "naming": "timestamp",
+    "ext": "jpg",
+    "playback_rate": 1.25,
+    "fps": 30,
+    "width": 1920,
+    "height": 1080,
+    "background": "#ffffff"
+  },
+  "cada-unidad-que-caza-hackers-en-espana": {
+    "composition": "CadaUnidadQueCazaHackersEnEspana",
+    "tsx": "remotion/src/CadaUnidadQueCazaHackersEnEspana.tsx",
+    "manifest_dir": "channel/tecno/videos/cada-unidad-que-caza-hackers-en-espana",
+    "script": "channel/tecno/videos/cada-unidad-que-caza-hackers-en-espana/script.md",
+    "audio_static": "cada-unidad-que-caza-hackers-en-espana.mp3",
+    "images_subpath": "cada-unidad-que-caza-hackers-en-espana",
+    "naming": "timestamp",
+    "ext": "jpg",
+    "playback_rate": 1.25,
+    "fps": 30,
+    "width": 1920,
+    "height": 1080,
+    "background": "#ffffff"
   }
 }

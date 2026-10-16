@@ -70,10 +70,28 @@ import { LaIaQueChantajeoParaQueNoLaApagaran } from "./LaIaQueChantajeoParaQueNo
 import { DejaronMilIasSolasEnMinecraft } from "./DejaronMilIasSolasEnMinecraft";
 import { TodosLosGruposHackerDeLosGobiernos } from "./TodosLosGruposHackerDeLosGobiernos";
 import { Cicada3301ElMayorMisterioDeInternet } from "./Cicada3301ElMayorMisterioDeInternet";
+import { TodosLosTiposDeMalwareExplicados } from "./TodosLosTiposDeMalwareExplicados";
+import { Los12FinalesPosiblesDeLaIa } from "./Los12FinalesPosiblesDeLaIa";
 
 export const RemotionRoot: React.FC = () => {
   return (
     <>
+      <Composition
+        id="TodosLosTiposDeMalwareExplicados"
+        component={TodosLosTiposDeMalwareExplicados}
+        durationInFrames={9656}
+        fps={30}
+        width={1920}
+        height={1080}
+      />
+      <Composition
+        id="Los12FinalesPosiblesDeLaIa"
+        component={Los12FinalesPosiblesDeLaIa}
+        durationInFrames={9182}
+        fps={30}
+        width={1920}
+        height={1080}
+      />
       <Composition
         id="TodosLosGruposHackerDeLosGobiernos"
         component={TodosLosGruposHackerDeLosGobiernos}

@@ -39,6 +39,7 @@ UTC = ZoneInfo("UTC")
 SLOT_HOURS = (13, 21)
 SQ_PATH = HERE / "shorts_queue.json"
 BASE_HASHTAGS = "#shorts #inteligenciaartificial #tecnologia"
+MAX_SHORTS_PER_LONG = 2
 
 
 def load_json(p, default):
@@ -94,7 +95,11 @@ def publish(slugs, dry):
         mdir = REPO_ROOT / cfg["manifest_dir"]
         man_path = mdir / "shorts" / "shorts.json"
         man = load_json(man_path, {"shorts": []})
-        pend = [s for s in man["shorts"] if not s.get("youtube_id")]
+        # Máximo MAX_SHORTS_PER_LONG en YouTube (oct-2026): cada subida gasta el límite del canal y los
+        # Shorts no suman horas para monetizar. Se suben los primeros (los ganchos más fuertes); el
+        # resto sigue yendo a TikTok vía tiktok_pack.py.
+        done = sum(1 for s in man["shorts"] if s.get("youtube_id"))
+        pend = [s for s in man["shorts"] if not s.get("youtube_id")][:max(0, MAX_SHORTS_PER_LONG - done)]
         pub = cfg.get("published", {})
         long_id = pub.get("youtube_id")
         if not long_id:

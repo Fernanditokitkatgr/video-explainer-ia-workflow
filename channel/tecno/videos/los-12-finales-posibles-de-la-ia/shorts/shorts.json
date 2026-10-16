@@ -1,0 +1,60 @@
+{
+  "shorts": [
+    {
+      "file": "short_1.mp4",
+      "titulo": "¿Cuántos finales posibles tiene la inteligencia artificial?",
+      "gancho": "¿SOLO LA/EXTINCIÓN?",
+      "reveal": "CONTÓ/DOCE",
+      "parte": "",
+      "desde": "0_00",
+      "t0": 0.0,
+      "dur": 40.47,
+      "youtube_id": null,
+      "publish_at": null,
+      "tiktok_publish_id": null,
+      "tiktok_posted_at": null
+    },
+    {
+      "file": "short_2.mp4",
+      "titulo": "¿Qué pasaría si una IA nos gobernara sin que lo notáramos?",
+      "gancho": "¿Y POR QUÉ/NO LA VEMOS?",
+      "reveal": "SE ESCONDE/TAN BIEN",
+      "parte": "",
+      "desde": "2_42",
+      "t0": 129.65,
+      "dur": 36.68,
+      "youtube_id": null,
+      "publish_at": null,
+      "tiktok_publish_id": null,
+      "tiktok_posted_at": null
+    },
+    {
+      "file": "short_3.mp4",
+      "titulo": "¿Qué pasaría si prohibiéramos la superinteligencia?",
+      "gancho": "¿Y QUIÉN/MANDA?",
+      "reveal": "MANDAN/HUMANOS",
+      "parte": "",
+      "desde": "3_24",
+      "t0": 163.33,
+      "dur": 39.86,
+      "youtube_id": null,
+      "publish_at": null,
+      "tiktok_publish_id": null,
+      "tiktok_posted_at": null
+    },
+    {
+      "file": "short_4.mp4",
+      "titulo": "¿Cuál es el final más raro que podría traer la IA?",
+      "gancho": "¿QUÉ HACE/CON NOSOTROS?",
+      "reveal": "ANIMALES DE/ZOOLÓGICO",
+      "parte": "",
+      "desde": "4_36",
+      "t0": 221.07,
+      "dur": 51.94,
+      "youtube_id": null,
+      "publish_at": null,
+      "tiktok_publish_id": null,
+      "tiktok_posted_at": null
+    }
+  ]
+}

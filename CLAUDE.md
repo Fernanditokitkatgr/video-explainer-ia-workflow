@@ -497,7 +497,7 @@ que una simple partición en dos.
 - `playback_rate` por defecto **1.25** en los vídeos nuevos (antes 1.2). Medido con Whisper: la
   voz se entiende igual a 1.2-1.35 (97,7-98,4% de palabras), así que se puede subir más.
 - Datos propios: los largos de 4-4,5 min retienen 48-50% y los de 6-7 min 26-35%. Objetivo de
-  4-5 min de vídeo final (~5.300-5.800 caracteres de narración a 1.25).
+  5-7 min de vídeo final (malware: ~6:40 a 1.25 es la referencia de longitud de guion).
 - Cambiar la velocidad de un vídeo ya montado (NO subido): `python scripts/set_speed.py <slug> 1.25`
   recalcula capítulos, regenera el .tsx (`scripts/make_tsx.py`), ajusta Root.tsx y borra los Shorts.
 
@@ -517,7 +517,23 @@ que una simple partición en dos.
   `grid_prompts.json` (un prompt por personaje) → `python scripts/grid_thumbnail.py <slug>`
   (cada casilla se genera aparte para que las etiquetas cuadren; Gemini no alinea una rejilla).
 - **Shorts de 30-45 s que dicen el título en la primera frase.** Ninguno de los virales hace bucle.
-- **Largos de 4:30-5:30.**
+- **Largos de 5-7 min** (decisión del usuario, 16-oct-2026: prefiere corto a 13 min; se compensa
+  con más visionados, no con más duración).
+- **Solo 2 Shorts por largo en YouTube** (`MAX_SHORTS_PER_LONG` en `scratch-yt/publish_shorts.py`):
+  cada subida gasta el límite del canal (`uploadLimitExceeded`) y los Shorts no suman horas. Los 4
+  siguen yendo a TikTok. En `seo.md` de los vídeos nuevos, escribir solo 2.
+
+### Diagnóstico 16-oct-2026 (por qué no crecemos) y giro de temas
+
+- Datos: 52 largos con **mediana de 31 vistas**; retención 30-50% (buena). El problema es el
+  ALCANCE (temas), no el diseño ni la animación. El 89% de las vistas son Shorts, que no dan horas.
+- Tieso Explica (@soytieso, misma liga: monigote estático): 36 vídeos, 1M de vistas, mediana 948.
+  7 aciertos hacen el 95%: curiosidad masiva (terremotos 435k, déjà vu 138k, huracanes 103k) o
+  España (fuerzas especiales 113k, policía 78k). Cuando uno pega, saca la SERIE (3 de policía seguidos).
+- Por tanto: temas que entiende cualquiera ("Cada estafa que te pueden hacer en España", "Cada unidad
+  que caza hackers en España") en formato "Cada X / Todos los X", con ángulo tecnología/ciber y
+  España; noticias de IA y oficios tech, fuera. Si un vídeo supera 10x la mediana, la siguiente
+  tanda son 2-3 más del mismo tema.
 
 ### Qué Shorts y qué títulos (oct-2026): copiado de lo que se disparó en la competencia
 

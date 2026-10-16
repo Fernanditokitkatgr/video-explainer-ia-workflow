@@ -41,21 +41,20 @@ Si te gusta entender cómo funciona de verdad la tecnología que usas cada día,
 
 ## Capítulos
 
-TODO: calcular desde `frames.json` (dividir `startSec` entre `PLAYBACK_RATE`) cuando haya audio. Propuesta de rótulos:
-- 0:00 La frase que firmaron cientos de expertos
-- TODO Utopía libertaria
-- TODO Utopía igualitaria
-- TODO El guardián
-- TODO El dictador benevolente
-- TODO El dios protector
-- TODO El dios esclavizado
-- TODO 1984
-- TODO La vuelta atrás
-- TODO La autodestrucción
-- TODO Los descendientes
-- TODO Los conquistadores
-- TODO El cuidador del zoo
-- TODO ¿Cuál cree Tegmark que pasará?
+0:00 La frase que firmaron cientos de expertos
+0:57 Utopía libertaria
+1:19 Utopía igualitaria
+1:35 El guardián
+1:53 El dictador benevolente
+2:10 El dios protector
+2:26 El dios esclavizado
+2:48 1984
+3:04 La vuelta atrás
+3:20 La autodestrucción
+3:46 Los descendientes
+4:01 Los conquistadores
+4:15 El cuidador del zoo
+4:30 ¿Cuál cree Tegmark que pasará?
 
 ## Tags
 
@@ -72,10 +71,10 @@ etiquetas: LIBERTARIA|IGUALITARIA|GUARDIÁN|DICTADOR|DIOS PROTECTOR|DIOS ESCLAVO
 cols: 6
 
 ## Shorts
-- titulo: ¿Cuántos finales posibles tiene la inteligencia artificial? | gancho: ¿SOLO LA/EXTINCIÓN? | reveal: CONTÓ/DOCE | desde: TODO | hasta: TODO
-- titulo: ¿Qué pasaría si una IA nos gobernara sin que lo notáramos? | gancho: ¿Y POR QUÉ/NO LA VEMOS? | reveal: SE ESCONDE/TAN BIEN | desde: TODO | hasta: TODO
-- titulo: ¿Qué pasaría si prohibiéramos la superinteligencia? | gancho: ¿Y QUIÉN/MANDA? | reveal: MANDAN/HUMANOS | desde: TODO | hasta: TODO
-- titulo: ¿Cuál es el final más raro que podría traer la IA? | gancho: ¿QUÉ HACE/CON NOSOTROS? | reveal: ANIMALES DE/ZOOLÓGICO | desde: TODO | hasta: TODO
+- titulo: ¿Cuántos finales posibles tiene la inteligencia artificial? | gancho: ¿SOLO LA/EXTINCIÓN? | reveal: CONTÓ/DOCE | desde: 0_00 | hasta: 0_43
+- titulo: ¿Qué pasaría si una IA nos gobernara sin que lo notáramos? | gancho: ¿Y POR QUÉ/NO LA VEMOS? | reveal: SE ESCONDE/TAN BIEN | desde: 2_42 | hasta: 3_20
+- titulo: ¿Qué pasaría si prohibiéramos la superinteligencia? | gancho: ¿Y QUIÉN/MANDA? | reveal: MANDAN/HUMANOS | desde: 3_24 | hasta: 4_03
+- titulo: ¿Cuál es el final más raro que podría traer la IA? | gancho: ¿QUÉ HACE/CON NOSOTROS? | reveal: ANIMALES DE/ZOOLÓGICO | desde: 4_36 | hasta: 5_35
 
 ## Notas
 
