@@ -31,7 +31,9 @@ FONT = REPO / "assets" / "fonts" / "Montserrat-ExtraBold.ttf"
 W, H = 1280, 720
 STYLE = ("flat cartoon illustration style, thick black ink outlines, simple flat colors, no gradients, "
          "no 3D shading, one single character centered on a plain white background, filling most of the "
-         "square. No text, no letters, no numbers, no logos, no flags anywhere.")
+         "square. No text, no letters, no numbers, no logos, no flags anywhere. The character is NOT a "
+         "monkey and NOT an ape (Gemini tends to draw the channel mascot): a person is a HUMAN with a "
+         "human face.")
 
 
 def main() -> None:
