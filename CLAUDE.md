@@ -24,6 +24,9 @@ scripts/
   check_sara_color.py   ← tras generar: marca imágenes con Sara con la cara color melocotón (deriva de
                           Gemini; 14/103 en el vídeo del chantaje). Da falsos positivos con manos y
                           arena: sirve para mirar esas a ojo, NO para borrar a ciegas.
+                          Si tras regenerar UNA vez sigue melocotón: `--recolorear <claves>` (pasa la
+                          cara al tostado de Sara conservando sombras; 6/6 bien en Minecraft). Mejor
+                          que regenerar en bucle: los primeros planos alegres recaen casi siempre.
   check_negations.py    ← OBLIGATORIO tras la voz: ¿se comió ElevenLabs algún no/sin/nunca?
                           Contrasta cada descuadre con whisper large-v3 (el pequeño oye "uno" por "no").
                           Si falla: cambiar la frase a una negación fuerte ("nunca", "ninguna") y regenerar.

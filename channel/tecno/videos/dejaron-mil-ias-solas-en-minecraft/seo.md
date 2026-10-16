@@ -37,18 +37,17 @@ Si te gusta entender cómo funciona de verdad la tecnología que usas cada día,
 
 ## Capítulos
 
-TODO: calcular desde `frames.json` (dividir `startSec` entre `PLAYBACK_RATE`) cuando haya audio. Propuesta de rótulos:
-- 0:00 Un pueblo de Minecraft sin humanos
-- TODO Qué es Project Sid
-- TODO Un agente solo
-- TODO Treinta clones se reparten el trabajo
-- TODO El cocinero y los amigos
-- TODO Impuestos y votaciones
-- TODO Modas y religión
-- TODO La letra pequeña
-- TODO Los límites que admiten los autores
-- TODO Para qué sirve
-- TODO La respuesta
+0:00 Un pueblo de Minecraft sin humanos
+0:21 Qué es Project Sid
+0:52 Un agente solo
+1:04 Treinta clones se reparten el trabajo
+1:42 El cocinero y los amigos
+1:54 Impuestos y votaciones
+2:20 Modas y religión
+2:51 La letra pequeña
+3:31 Los límites que admiten los autores
+3:59 Para qué sirve
+4:15 La respuesta
 
 ## Tags
 
@@ -66,10 +65,10 @@ posicion: left
 Imagen sugerida: Sara a la derecha con cara de sospecha y una lupa, frente a un pueblo de bloques de estilo genérico (sin logo ni marca de Minecraft) con muñecos-robot y un sacerdote-robot. Generar SIN texto, lado izquierdo libre.
 
 ## Shorts
-- titulo: ¿Qué pasa si metes a treinta IAs idénticas en un pueblo? | gancho: ¿QUÉ HACEN/TREINTA CLONES? | reveal: SE REPARTIERON/EL TRABAJO | desde: TODO | hasta: TODO
-- titulo: ¿Qué votan unas IAs cuando les pones impuestos? | gancho: ¿QUÉ VOTARON/LAS IAS? | reveal: EL IMPUESTO/BAJÓ | desde: TODO | hasta: TODO
-- titulo: ¿Inventaron una religión las IAs de Minecraft? | gancho: ¿INVENTARON/UNA RELIGIÓN? | reveal: NUNCA SURGIÓ/SOLA | desde: TODO | hasta: TODO
-- titulo: ¿De verdad eran mil IAs en Minecraft? | gancho: ¿ERAN MIL/DE VERDAD? | reveal: EL SERVIDOR/SE SATURÓ | desde: TODO | hasta: TODO
+- titulo: ¿Qué pasa si metes a treinta IAs idénticas en un pueblo? | gancho: ¿QUÉ HACEN/TREINTA CLONES? | reveal: SE REPARTIERON/EL TRABAJO | desde: 1_21 | hasta: 2_05
+- titulo: ¿Qué votan unas IAs cuando les pones impuestos? | gancho: ¿QUÉ VOTARON/LAS IAS? | reveal: EL IMPUESTO/BAJÓ | desde: 2_22 | hasta: 2_52
+- titulo: ¿Inventaron una religión las IAs de Minecraft? | gancho: ¿INVENTARON/UNA RELIGIÓN? | reveal: NUNCA SURGIÓ/SOLA | desde: 3_11 | hasta: 3_41
+- titulo: ¿De verdad eran mil IAs en Minecraft? | gancho: ¿ERAN MIL/DE VERDAD? | reveal: EL SERVIDOR/SE SATURÓ | desde: 3_54 | hasta: 4_19
 
 ## Notas
 

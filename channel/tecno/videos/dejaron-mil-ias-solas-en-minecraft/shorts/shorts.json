@@ -1,0 +1,60 @@
+{
+  "shorts": [
+    {
+      "file": "short_1.mp4",
+      "titulo": "¿Qué pasa si metes a treinta IAs idénticas en un pueblo?",
+      "gancho": "¿QUÉ HACEN/TREINTA CLONES?",
+      "reveal": "SE REPARTIERON/EL TRABAJO",
+      "parte": "",
+      "desde": "1_21",
+      "t0": 64.91,
+      "dur": 40.86,
+      "youtube_id": null,
+      "publish_at": null,
+      "tiktok_publish_id": null,
+      "tiktok_posted_at": null
+    },
+    {
+      "file": "short_2.mp4",
+      "titulo": "¿Qué votan unas IAs cuando les pones impuestos?",
+      "gancho": "¿QUÉ VOTARON/LAS IAS?",
+      "reveal": "EL IMPUESTO/BAJÓ",
+      "parte": "",
+      "desde": "2_22",
+      "t0": 114.1,
+      "dur": 29.66,
+      "youtube_id": null,
+      "publish_at": null,
+      "tiktok_publish_id": null,
+      "tiktok_posted_at": null
+    },
+    {
+      "file": "short_3.mp4",
+      "titulo": "¿Inventaron una religión las IAs de Minecraft?",
+      "gancho": "¿INVENTARON/UNA RELIGIÓN?",
+      "reveal": "NUNCA SURGIÓ/SOLA",
+      "parte": "",
+      "desde": "3_11",
+      "t0": 153.3,
+      "dur": 32.07,
+      "youtube_id": null,
+      "publish_at": null,
+      "tiktok_publish_id": null,
+      "tiktok_posted_at": null
+    },
+    {
+      "file": "short_4.mp4",
+      "titulo": "¿De verdad eran mil IAs en Minecraft?",
+      "gancho": "¿ERAN MIL/DE VERDAD?",
+      "reveal": "EL SERVIDOR/SE SATURÓ",
+      "parte": "",
+      "desde": "3_54",
+      "t0": 187.62,
+      "dur": 26.95,
+      "youtube_id": null,
+      "publish_at": null,
+      "tiktok_publish_id": null,
+      "tiktok_posted_at": null
+    }
+  ]
+}

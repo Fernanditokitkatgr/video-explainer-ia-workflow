@@ -67,10 +67,19 @@ import { TodosLosTiposDeIaExplicados } from "./TodosLosTiposDeIaExplicados";
 import { ComoCreaImagenesUnaIa } from "./ComoCreaImagenesUnaIa";
 import { PorQueChatgptSeVuelveLocoConElEmojiDelCaballitoDeMar } from "./PorQueChatgptSeVuelveLocoConElEmojiDelCaballitoDeMar";
 import { LaIaQueChantajeoParaQueNoLaApagaran } from "./LaIaQueChantajeoParaQueNoLaApagaran";
+import { DejaronMilIasSolasEnMinecraft } from "./DejaronMilIasSolasEnMinecraft";
 
 export const RemotionRoot: React.FC = () => {
   return (
     <>
+      <Composition
+        id="DejaronMilIasSolasEnMinecraft"
+        component={DejaronMilIasSolasEnMinecraft}
+        durationInFrames={8514}
+        fps={30}
+        width={1920}
+        height={1080}
+      />
       <Composition
         id="LaIaQueChantajeoParaQueNoLaApagaran"
         component={LaIaQueChantajeoParaQueNoLaApagaran}

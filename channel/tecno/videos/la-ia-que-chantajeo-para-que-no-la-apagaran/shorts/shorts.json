@@ -1,0 +1,60 @@
+{
+  "shorts": [
+    {
+      "file": "short_1.mp4",
+      "titulo": "¿Qué haría una IA si pudiera dejarte morir?",
+      "gancho": "¿CANCELA/LA ALARMA?",
+      "reveal": "LA MAYORÍA/LA CANCELÓ",
+      "parte": "",
+      "desde": "2_31",
+      "t0": 121.12,
+      "dur": 32.15,
+      "youtube_id": null,
+      "publish_at": null,
+      "tiktok_publish_id": null,
+      "tiktok_posted_at": null
+    },
+    {
+      "file": "short_2.mp4",
+      "titulo": "¿Chantajean todas las IAs o solo una?",
+      "gancho": "¿ERA SOLO/COSA DE CLAUDE?",
+      "reveal": "CASI TODOS/LO HICIERON",
+      "parte": "",
+      "desde": "0_41",
+      "t0": 33.28,
+      "dur": 55.51,
+      "youtube_id": null,
+      "publish_at": null,
+      "tiktok_publish_id": null,
+      "tiktok_posted_at": null
+    },
+    {
+      "file": "short_3.mp4",
+      "titulo": "¿Se porta peor una IA cuando cree que va en serio?",
+      "gancho": "¿Y SI CREE/QUE ES REAL?",
+      "reveal": "CINCUENTA Y CINCO/POR CIENTO",
+      "parte": "",
+      "desde": "3_43",
+      "t0": 178.53,
+      "dur": 32.62,
+      "youtube_id": null,
+      "publish_at": null,
+      "tiktok_publish_id": null,
+      "tiktok_posted_at": null
+    },
+    {
+      "file": "short_4.mp4",
+      "titulo": "¿Cómo se arregla una IA que chantajea?",
+      "gancho": "¿CÓMO SE ARREGLA/UNA IA ASÍ?",
+      "reveal": "HISTORIAS/DE FICCIÓN",
+      "parte": "",
+      "desde": "4_20",
+      "t0": 208.14,
+      "dur": 42.89,
+      "youtube_id": null,
+      "publish_at": null,
+      "tiktok_publish_id": null,
+      "tiktok_posted_at": null
+    }
+  ]
+}
