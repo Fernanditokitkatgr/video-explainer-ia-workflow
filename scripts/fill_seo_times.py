@@ -54,8 +54,8 @@ def main() -> None:
     seo = seo_p.read_text(encoding="utf-8")
 
     m = re.search(r"## Capítulos\n(.*?)(?=\n## )", seo, flags=re.S)
-    labels = re.findall(r"^-?\s*\d+:\d\d\s+(.+)$", m.group(1), flags=re.M) if m else []
-    starts = [0.0] + [f["startSec"] for f in frames if re.match(r"\s*n[úu]mero", f["text"].lower())]
+    labels = re.findall(r"^-?\s*(?:\d+:\d\d|\?:\?\?|TODO)\s+(.+)$", m.group(1), flags=re.M) if m else []
+    starts = [0.0] + [f["startSec"] for f in frames if re.match(r"\s*(n[úu]mero|nivel)\b", f["text"].lower())]
     # Último capítulo: la vuelta a la pregunta. Por defecto "volvamos"; si el guion la formula de
     # otra manera, pasar el texto como segundo argumento (p. ej. "frase del exjefe").
     key = sys.argv[2].lower() if len(sys.argv) > 2 else "volvamos"

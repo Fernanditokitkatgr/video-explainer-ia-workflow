@@ -1448,5 +1448,35 @@
     "width": 1920,
     "height": 1080,
     "background": "#ffffff"
+  },
+  "cada-capa-de-internet-hasta-la-dark-web": {
+    "composition": "CadaCapaDeInternetHastaLaDarkWeb",
+    "tsx": "remotion/src/CadaCapaDeInternetHastaLaDarkWeb.tsx",
+    "manifest_dir": "channel/tecno/videos/cada-capa-de-internet-hasta-la-dark-web",
+    "script": "channel/tecno/videos/cada-capa-de-internet-hasta-la-dark-web/script.md",
+    "audio_static": "cada-capa-de-internet-hasta-la-dark-web.mp3",
+    "images_subpath": "cada-capa-de-internet-hasta-la-dark-web",
+    "naming": "timestamp",
+    "ext": "jpg",
+    "playback_rate": 1.25,
+    "fps": 30,
+    "width": 1920,
+    "height": 1080,
+    "background": "#ffffff"
+  },
+  "cada-gran-ciberataque-que-ha-sufrido-espana": {
+    "composition": "CadaGranCiberataqueQueHaSufridoEspana",
+    "tsx": "remotion/src/CadaGranCiberataqueQueHaSufridoEspana.tsx",
+    "manifest_dir": "channel/tecno/videos/cada-gran-ciberataque-que-ha-sufrido-espana",
+    "script": "channel/tecno/videos/cada-gran-ciberataque-que-ha-sufrido-espana/script.md",
+    "audio_static": "cada-gran-ciberataque-que-ha-sufrido-espana.mp3",
+    "images_subpath": "cada-gran-ciberataque-que-ha-sufrido-espana",
+    "naming": "timestamp",
+    "ext": "jpg",
+    "playback_rate": 1.25,
+    "fps": 30,
+    "width": 1920,
+    "height": 1080,
+    "background": "#ffffff"
   }
 }

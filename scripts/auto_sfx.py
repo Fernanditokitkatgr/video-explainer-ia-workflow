@@ -46,7 +46,7 @@ def main() -> None:
     used, n = set(), 0
     for f in frames:
         t = f["text"].lower()
-        if re.match(r"\s*n[úu]mero", t) and n < len(NUMBER_STINGS):
+        if re.match(r"\s*(n[úu]mero|nivel)\b", t) and n < len(NUMBER_STINGS):
             plan.append((f["startSec"], NUMBER_STINGS[n]))
             n += 1
             continue
