@@ -1,0 +1,157 @@
+{
+  "sfx": [
+    {
+      "file": "keyboard_tension.mp3",
+      "startSec": 0.5,
+      "duration": 1.2,
+      "volume": 0.13,
+      "prompt": "reused from channel SFX library"
+    },
+    {
+      "file": "door_slam.mp3",
+      "startSec": 20,
+      "duration": 1.2,
+      "volume": 0.13,
+      "prompt": "reused from channel SFX library"
+    },
+    {
+      "file": "mystery_sting.mp3",
+      "startSec": 36,
+      "duration": 1.2,
+      "volume": 0.13,
+      "prompt": "reused from channel SFX library"
+    },
+    {
+      "file": "police_sting.mp3",
+      "startSec": 50,
+      "duration": 1.2,
+      "volume": 0.13,
+      "prompt": "reused from channel SFX library"
+    },
+    {
+      "file": "cash_bigger.mp3",
+      "startSec": 61,
+      "duration": 1.2,
+      "volume": 0.13,
+      "prompt": "reused from channel SFX library"
+    },
+    {
+      "file": "digital_glitch.mp3",
+      "startSec": 80,
+      "duration": 1.2,
+      "volume": 0.13,
+      "prompt": "reused from channel SFX library"
+    },
+    {
+      "file": "trap_snap.mp3",
+      "startSec": 103,
+      "duration": 1.2,
+      "volume": 0.13,
+      "prompt": "reused from channel SFX library"
+    },
+    {
+      "file": "door_open.mp3",
+      "startSec": 136,
+      "duration": 1.2,
+      "volume": 0.13,
+      "prompt": "reused from channel SFX library"
+    },
+    {
+      "file": "phone_ring.mp3",
+      "startSec": 158,
+      "duration": 1.2,
+      "volume": 0.13,
+      "prompt": "reused from channel SFX library"
+    },
+    {
+      "file": "scan_sweep.mp3",
+      "startSec": 174,
+      "duration": 1.2,
+      "volume": 0.13,
+      "prompt": "reused from channel SFX library"
+    },
+    {
+      "file": "stamp_thud.mp3",
+      "startSec": 205,
+      "duration": 1.2,
+      "volume": 0.13,
+      "prompt": "reused from channel SFX library"
+    },
+    {
+      "file": "tense_transition.mp3",
+      "startSec": 218,
+      "duration": 1.2,
+      "volume": 0.13,
+      "prompt": "reused from channel SFX library"
+    },
+    {
+      "file": "gavel.mp3",
+      "startSec": 241,
+      "duration": 1.2,
+      "volume": 0.13,
+      "prompt": "reused from channel SFX library"
+    },
+    {
+      "file": "alarm_beep.mp3",
+      "startSec": 264,
+      "duration": 1.2,
+      "volume": 0.13,
+      "prompt": "reused from channel SFX library"
+    },
+    {
+      "file": "chains_padlock.mp3",
+      "startSec": 304,
+      "duration": 1.2,
+      "volume": 0.13,
+      "prompt": "reused from channel SFX library"
+    },
+    {
+      "file": "airport_chime.mp3",
+      "startSec": 317,
+      "duration": 1.2,
+      "volume": 0.13,
+      "prompt": "reused from channel SFX library"
+    },
+    {
+      "file": "secret_tone.mp3",
+      "startSec": 332,
+      "duration": 1.2,
+      "volume": 0.13,
+      "prompt": "reused from channel SFX library"
+    },
+    {
+      "file": "sword_clash.mp3",
+      "startSec": 352,
+      "duration": 1.2,
+      "volume": 0.13,
+      "prompt": "reused from channel SFX library"
+    },
+    {
+      "file": "power_down.mp3",
+      "startSec": 385,
+      "duration": 1.2,
+      "volume": 0.13,
+      "prompt": "reused from channel SFX library"
+    },
+    {
+      "file": "dramatic_hit.mp3",
+      "startSec": 411,
+      "duration": 1.2,
+      "volume": 0.13,
+      "prompt": "reused from channel SFX library"
+    },
+    {
+      "file": "subscribe_chime.mp3",
+      "startSec": 420,
+      "duration": 1.2,
+      "volume": 0.13,
+      "prompt": "reused from channel SFX library"
+    }
+  ],
+  "music": {
+    "file": "musica-canal.mp3",
+    "duration": 30,
+    "volume": 0.3,
+    "prompt": "reused channel background music loop"
+  }
+}

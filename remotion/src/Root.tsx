@@ -72,10 +72,46 @@ import { TodosLosGruposHackerDeLosGobiernos } from "./TodosLosGruposHackerDeLosG
 import { Cicada3301ElMayorMisterioDeInternet } from "./Cicada3301ElMayorMisterioDeInternet";
 import { TodosLosTiposDeMalwareExplicados } from "./TodosLosTiposDeMalwareExplicados";
 import { Los12FinalesPosiblesDeLaIa } from "./Los12FinalesPosiblesDeLaIa";
+import { CadaEstafaQueTePuedenHacerEnEspana } from "./CadaEstafaQueTePuedenHacerEnEspana";
+import { CadaUnidadQueCazaHackersEnEspana } from "./CadaUnidadQueCazaHackersEnEspana";
+import { CadaGranApagonDeLaHistoria } from "./CadaGranApagonDeLaHistoria";
+import { CadaFormaEnQueTuMovilTeEspia } from "./CadaFormaEnQueTuMovilTeEspia";
 
 export const RemotionRoot: React.FC = () => {
   return (
     <>
+      <Composition
+        id="CadaGranApagonDeLaHistoria"
+        component={CadaGranApagonDeLaHistoria}
+        durationInFrames={9936}
+        fps={30}
+        width={1920}
+        height={1080}
+      />
+      <Composition
+        id="CadaFormaEnQueTuMovilTeEspia"
+        component={CadaFormaEnQueTuMovilTeEspia}
+        durationInFrames={10372}
+        fps={30}
+        width={1920}
+        height={1080}
+      />
+      <Composition
+        id="CadaEstafaQueTePuedenHacerEnEspana"
+        component={CadaEstafaQueTePuedenHacerEnEspana}
+        durationInFrames={9609}
+        fps={30}
+        width={1920}
+        height={1080}
+      />
+      <Composition
+        id="CadaUnidadQueCazaHackersEnEspana"
+        component={CadaUnidadQueCazaHackersEnEspana}
+        durationInFrames={10331}
+        fps={30}
+        width={1920}
+        height={1080}
+      />
       <Composition
         id="TodosLosTiposDeMalwareExplicados"
         component={TodosLosTiposDeMalwareExplicados}

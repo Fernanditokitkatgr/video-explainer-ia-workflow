@@ -1,0 +1,13 @@
+{
+  "video": "por-que-chatgpt-se-vuelve-loco-con-el-emoji-del-caballito-de-mar",
+  "steps": {
+    "voice": "done",
+    "whisper": "done",
+    "inject": "done",
+    "images": "done",
+    "sfx": "done",
+    "validate": "done",
+    "preflight": "done",
+    "render": "done"
+  }
+}

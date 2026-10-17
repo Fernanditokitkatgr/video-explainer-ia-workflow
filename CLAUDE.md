@@ -27,6 +27,9 @@ scripts/
                           Si tras regenerar UNA vez sigue melocotón: `--recolorear <claves>` (pasa la
                           cara al tostado de Sara conservando sombras; 6/6 bien en Minecraft). Mejor
                           que regenerar en bucle: los primeros planos alegres recaen casi siempre.
+  fix_letterbox.py      ← quita las bandas negras que Gemini mete a veces (recorta 16:9 y reescala)
+  auto_sfx.py           ← sfx.json mínimo para vídeos-lista con efectos YA generados (0 créditos)
+  fill_seo_times.py     ← capítulos reales ("Número X") y desde/hasta de Shorts en seo.md
   check_negations.py    ← OBLIGATORIO tras la voz: ¿se comió ElevenLabs algún no/sin/nunca?
                           Contrasta cada descuadre con whisper large-v3 (el pequeño oye "uno" por "no").
                           Si falla: cambiar la frase a una negación fuerte ("nunca", "ninguna") y regenerar.

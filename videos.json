@@ -1210,7 +1210,13 @@
     "fps": 30,
     "width": 1920,
     "height": 1080,
-    "background": "#ffffff"
+    "background": "#ffffff",
+    "published": {
+      "youtube_id": "9RnnRgYbOqE",
+      "privacy": "private",
+      "publish_at": "2026-10-27T18:00:00Z",
+      "date": "2026-10-27"
+    }
   },
   "como-funciona-el-algoritmo-de-tiktok-y-youtube": {
     "composition": "ComoFuncionaElAlgoritmoDeTiktokYYoutube",
@@ -1225,7 +1231,13 @@
     "fps": 30,
     "width": 1920,
     "height": 1080,
-    "background": "#ffffff"
+    "background": "#ffffff",
+    "published": {
+      "youtube_id": "4fVeOhf4iuU",
+      "privacy": "private",
+      "publish_at": "2026-10-22T17:00:00Z",
+      "date": "2026-10-22"
+    }
   },
   "todos-los-tipos-de-ia-explicados": {
     "composition": "TodosLosTiposDeIaExplicados",
@@ -1261,7 +1273,13 @@
     "fps": 30,
     "width": 1920,
     "height": 1080,
-    "background": "#ffffff"
+    "background": "#ffffff",
+    "published": {
+      "youtube_id": "IFg6jGqR1Xg",
+      "privacy": "private",
+      "publish_at": "2026-10-25T18:00:00Z",
+      "date": "2026-10-25"
+    }
   },
   "la-ia-que-chantajeo-para-que-no-la-apagaran": {
     "composition": "LaIaQueChantajeoParaQueNoLaApagaran",
@@ -1276,7 +1294,13 @@
     "fps": 30,
     "width": 1920,
     "height": 1080,
-    "background": "#ffffff"
+    "background": "#ffffff",
+    "published": {
+      "youtube_id": "je6M3czJkZc",
+      "privacy": "private",
+      "publish_at": "2026-10-23T17:00:00Z",
+      "date": "2026-10-23"
+    }
   },
   "dejaron-mil-ias-solas-en-minecraft": {
     "composition": "DejaronMilIasSolasEnMinecraft",
@@ -1291,7 +1315,13 @@
     "fps": 30,
     "width": 1920,
     "height": 1080,
-    "background": "#ffffff"
+    "background": "#ffffff",
+    "published": {
+      "youtube_id": "4Su2u6-9ejg",
+      "privacy": "private",
+      "publish_at": "2026-10-24T17:00:00Z",
+      "date": "2026-10-24"
+    }
   },
   "todos-los-grupos-hacker-de-los-gobiernos": {
     "composition": "TodosLosGruposHackerDeLosGobiernos",
@@ -1306,7 +1336,13 @@
     "fps": 30,
     "width": 1920,
     "height": 1080,
-    "background": "#ffffff"
+    "background": "#ffffff",
+    "published": {
+      "youtube_id": "i03-Qzbu7qs",
+      "privacy": "private",
+      "publish_at": "2026-10-26T18:00:00Z",
+      "date": "2026-10-26"
+    }
   },
   "cicada-3301-el-mayor-misterio-de-internet": {
     "composition": "Cicada3301ElMayorMisterioDeInternet",
@@ -1375,6 +1411,36 @@
     "script": "channel/tecno/videos/cada-unidad-que-caza-hackers-en-espana/script.md",
     "audio_static": "cada-unidad-que-caza-hackers-en-espana.mp3",
     "images_subpath": "cada-unidad-que-caza-hackers-en-espana",
+    "naming": "timestamp",
+    "ext": "jpg",
+    "playback_rate": 1.25,
+    "fps": 30,
+    "width": 1920,
+    "height": 1080,
+    "background": "#ffffff"
+  },
+  "cada-gran-apagon-de-la-historia": {
+    "composition": "CadaGranApagonDeLaHistoria",
+    "tsx": "remotion/src/CadaGranApagonDeLaHistoria.tsx",
+    "manifest_dir": "channel/tecno/videos/cada-gran-apagon-de-la-historia",
+    "script": "channel/tecno/videos/cada-gran-apagon-de-la-historia/script.md",
+    "audio_static": "cada-gran-apagon-de-la-historia.mp3",
+    "images_subpath": "cada-gran-apagon-de-la-historia",
+    "naming": "timestamp",
+    "ext": "jpg",
+    "playback_rate": 1.25,
+    "fps": 30,
+    "width": 1920,
+    "height": 1080,
+    "background": "#ffffff"
+  },
+  "cada-forma-en-que-tu-movil-te-espia": {
+    "composition": "CadaFormaEnQueTuMovilTeEspia",
+    "tsx": "remotion/src/CadaFormaEnQueTuMovilTeEspia.tsx",
+    "manifest_dir": "channel/tecno/videos/cada-forma-en-que-tu-movil-te-espia",
+    "script": "channel/tecno/videos/cada-forma-en-que-tu-movil-te-espia/script.md",
+    "audio_static": "cada-forma-en-que-tu-movil-te-espia.mp3",
+    "images_subpath": "cada-forma-en-que-tu-movil-te-espia",
     "naming": "timestamp",
     "ext": "jpg",
     "playback_rate": 1.25,

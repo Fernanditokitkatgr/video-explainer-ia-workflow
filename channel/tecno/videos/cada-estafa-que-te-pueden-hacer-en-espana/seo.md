@@ -39,20 +39,18 @@ Si te gusta entender cómo funciona de verdad la tecnología que usas cada día,
 
 ## Capítulos
 
-Provisionales, estimados por caracteres (unos 14,7 caracteres por segundo a 1,25). **Recalcular desde `frames.json` cuando haya audio.**
-
 0:00 El SMS que parece de tu banco
-0:31 SMS del banco
-1:03 Multa falsa y paquete de Correos
-1:34 Hola mamá
-2:08 Bizum inverso
-2:40 La llamada del banco
-3:13 Falso técnico de Microsoft
-3:44 Alquiler fantasma
-4:22 Famoso falso con IA
-4:58 SIM swapping
-5:34 La estafa del amor
-6:03 ¿De qué actor era la web?
+0:24 SMS del banco
+0:50 Multa falsa y paquete de Correos
+1:14 Hola mamá
+1:41 Bizum inverso
+2:07 La llamada del banco
+2:33 Falso técnico de Microsoft
+2:59 Alquiler fantasma
+3:28 Famoso falso con IA
+3:58 SIM swapping
+4:26 La estafa del amor
+4:48 ¿De qué actor era la web?
 
 ## Tags
 
@@ -69,8 +67,8 @@ etiquetas: SMS DEL BANCO|MULTA FALSA|HOLA MAMÁ|BIZUM INVERSO|LLAMADA FALSA|FALS
 cols: 5
 
 ## Shorts
-- titulo: ¿Por qué aceptar un Bizum te puede vaciar la cuenta? | gancho: ¿QUIÉN LE PAGA/A QUIÉN? | reveal: LE PAGAS/TÚ | desde: TODO | hasta: TODO
-- titulo: ¿Qué actor usaron para estafar 325.000 € en España? | gancho: ¿DE QUÉ ACTOR/ERA LA WEB? | reveal: BRAD/PITT | desde: TODO | hasta: TODO
+- titulo: ¿Por qué aceptar un Bizum te puede vaciar la cuenta? | gancho: ¿QUIÉN LE PAGA/A QUIÉN? | reveal: LE PAGAS/TÚ | desde: 2_07 | hasta: 2_35
+- titulo: ¿Qué actor usaron para estafar 325.000 € en España? | gancho: ¿DE QUÉ ACTOR/ERA LA WEB? | reveal: BRAD/PITT | desde: 5_32 | hasta: 6_10
 
 ## Notas
 

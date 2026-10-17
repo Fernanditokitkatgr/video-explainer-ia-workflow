@@ -1,0 +1,157 @@
+{
+  "sfx": [
+    {
+      "file": "phone_notify.mp3",
+      "startSec": 1.3,
+      "duration": 1.2,
+      "volume": 0.13,
+      "prompt": "reused from channel SFX library"
+    },
+    {
+      "file": "question_sting.mp3",
+      "startSec": 12.5,
+      "duration": 1.2,
+      "volume": 0.13,
+      "prompt": "reused from channel SFX library"
+    },
+    {
+      "file": "hard_no.mp3",
+      "startSec": 13.6,
+      "duration": 1.2,
+      "volume": 0.13,
+      "prompt": "reused from channel SFX library"
+    },
+    {
+      "file": "mystery_sting.mp3",
+      "startSec": 29,
+      "duration": 1.2,
+      "volume": 0.13,
+      "prompt": "reused from channel SFX library"
+    },
+    {
+      "file": "sms_flood.mp3",
+      "startSec": 35,
+      "duration": 1.2,
+      "volume": 0.13,
+      "prompt": "reused from channel SFX library"
+    },
+    {
+      "file": "cash_register.mp3",
+      "startSec": 48,
+      "duration": 1.2,
+      "volume": 0.13,
+      "prompt": "reused from channel SFX library"
+    },
+    {
+      "file": "coin_clink.mp3",
+      "startSec": 73,
+      "duration": 1.2,
+      "volume": 0.13,
+      "prompt": "reused from channel SFX library"
+    },
+    {
+      "file": "chat_ping.mp3",
+      "startSec": 97,
+      "duration": 1.2,
+      "volume": 0.13,
+      "prompt": "reused from channel SFX library"
+    },
+    {
+      "file": "money_whoosh.mp3",
+      "startSec": 139,
+      "duration": 1.2,
+      "volume": 0.13,
+      "prompt": "reused from channel SFX library"
+    },
+    {
+      "file": "stat_reveal.mp3",
+      "startSec": 147,
+      "duration": 1.2,
+      "volume": 0.13,
+      "prompt": "reused from channel SFX library"
+    },
+    {
+      "file": "phone_ring.mp3",
+      "startSec": 163,
+      "duration": 1.2,
+      "volume": 0.13,
+      "prompt": "reused from channel SFX library"
+    },
+    {
+      "file": "phone_hangup.mp3",
+      "startSec": 184,
+      "duration": 1.2,
+      "volume": 0.13,
+      "prompt": "reused from channel SFX library"
+    },
+    {
+      "file": "phone_ring.mp3",
+      "startSec": 196,
+      "duration": 1.2,
+      "volume": 0.13,
+      "prompt": "reused from channel SFX library"
+    },
+    {
+      "file": "tense_transition.mp3",
+      "startSec": 222,
+      "duration": 1.2,
+      "volume": 0.13,
+      "prompt": "reused from channel SFX library"
+    },
+    {
+      "file": "key_jingle.mp3",
+      "startSec": 239,
+      "duration": 1.2,
+      "volume": 0.13,
+      "prompt": "reused from channel SFX library"
+    },
+    {
+      "file": "digital_glitch.mp3",
+      "startSec": 270,
+      "duration": 1.2,
+      "volume": 0.13,
+      "prompt": "reused from channel SFX library"
+    },
+    {
+      "file": "police_sting.mp3",
+      "startSec": 283,
+      "duration": 1.2,
+      "volume": 0.13,
+      "prompt": "reused from channel SFX library"
+    },
+    {
+      "file": "signal_lost.mp3",
+      "startSec": 302,
+      "duration": 1.2,
+      "volume": 0.13,
+      "prompt": "reused from channel SFX library"
+    },
+    {
+      "file": "mystery_drone.mp3",
+      "startSec": 331,
+      "duration": 1.2,
+      "volume": 0.13,
+      "prompt": "reused from channel SFX library"
+    },
+    {
+      "file": "dramatic_hit.mp3",
+      "startSec": 364,
+      "duration": 1.2,
+      "volume": 0.13,
+      "prompt": "reused from channel SFX library"
+    },
+    {
+      "file": "subscribe_chime.mp3",
+      "startSec": 390,
+      "duration": 1.2,
+      "volume": 0.13,
+      "prompt": "reused from channel SFX library"
+    }
+  ],
+  "music": {
+    "file": "musica-canal.mp3",
+    "duration": 30,
+    "volume": 0.3,
+    "prompt": "reused channel background music loop"
+  }
+}

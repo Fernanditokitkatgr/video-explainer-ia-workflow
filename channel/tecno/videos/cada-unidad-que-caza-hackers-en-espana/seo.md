@@ -39,20 +39,18 @@ Si te gusta entender cómo funciona de verdad la tecnología que usas cada día,
 
 ## Capítulos
 
-(Estimados por proporción de caracteres para ~6:20. Recalcular desde `frames.json` dividiendo entre 1,25 cuando haya audio.)
-
 0:00 El chaval de Calpe
-0:31 Policía Nacional: Ciberdelincuencia
-1:05 Guardia Civil: Delitos Telemáticos
-1:37 Mossos d'Esquadra
-2:11 INCIBE y el 017
-2:41 Protección de Datos
-3:09 Comisaría General de Información
-3:45 Guardia Civil contra el ciberterrorismo
-4:19 Europol
-4:54 Mando Conjunto del Ciberespacio
-5:25 Centro Criptológico Nacional (CNI)
-5:53 ¿Quién trabaja con los espías?
+0:30 Policía Nacional: Ciberdelincuencia
+1:00 Guardia Civil: Delitos Telemáticos
+1:30 Mossos d'Esquadra
+1:59 INCIBE y el 017
+2:27 Protección de Datos
+2:55 Comisaría General de Información
+3:24 Guardia Civil contra el ciberterrorismo
+3:55 Europol
+4:27 Mando Conjunto del Ciberespacio
+4:56 Centro Criptológico Nacional (CNI)
+5:19 ¿Quién trabaja con los espías?
 
 ## Tags
 
@@ -69,8 +67,8 @@ etiquetas: POLICÍA|UCO|MOSSOS|INCIBE|DATOS|INFORMACIÓN|ANTITERROR|EUROPOL|EJÉ
 cols: 5
 
 ## Shorts
-- titulo: ¿Cómo pillaron al dueño de trece millones de ordenadores zombis? | gancho: ¿CÓMO LO/PILLARON? | reveal: SE CONECTÓ/DESDE SU CASA | desde: TODO | hasta: TODO
-- titulo: ¿Cómo se roban mil millones a los bancos sin entrar en ninguno? | gancho: ¿CÓMO SACABAN/EL DINERO? | reveal: CAJEROS QUE ESCUPÍAN/BILLETES | desde: TODO | hasta: TODO
+- titulo: ¿Cómo pillaron al dueño de trece millones de ordenadores zombis? | gancho: ¿CÓMO LO/PILLARON? | reveal: SE CONECTÓ/DESDE SU CASA | desde: 1_15 | hasta: 1_49
+- titulo: ¿Cómo se roban mil millones a los bancos sin entrar en ninguno? | gancho: ¿CÓMO SACABAN/EL DINERO? | reveal: ESCUPIR/BILLETES | desde: 0_37 | hasta: 1_12
 
 ## Notas
 

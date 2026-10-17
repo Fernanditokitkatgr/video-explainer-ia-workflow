@@ -1,0 +1,101 @@
+{
+  "sfx": [
+    {
+      "file": "intro_tense.mp3",
+      "startSec": 0.4,
+      "duration": 1.2,
+      "volume": 0.13,
+      "prompt": "reused from channel SFX library (auto_sfx.py)"
+    },
+    {
+      "file": "count_1.mp3",
+      "startSec": 28.5,
+      "duration": 1.2,
+      "volume": 0.13,
+      "prompt": "reused from channel SFX library (auto_sfx.py)"
+    },
+    {
+      "file": "count_2.mp3",
+      "startSec": 60.3,
+      "duration": 1.2,
+      "volume": 0.13,
+      "prompt": "reused from channel SFX library (auto_sfx.py)"
+    },
+    {
+      "file": "count_3.mp3",
+      "startSec": 91.58,
+      "duration": 1.2,
+      "volume": 0.13,
+      "prompt": "reused from channel SFX library (auto_sfx.py)"
+    },
+    {
+      "file": "count_4.mp3",
+      "startSec": 119.94,
+      "duration": 1.2,
+      "volume": 0.13,
+      "prompt": "reused from channel SFX library (auto_sfx.py)"
+    },
+    {
+      "file": "count_5.mp3",
+      "startSec": 150.44,
+      "duration": 1.2,
+      "volume": 0.13,
+      "prompt": "reused from channel SFX library (auto_sfx.py)"
+    },
+    {
+      "file": "count_6.mp3",
+      "startSec": 184.32,
+      "duration": 1.2,
+      "volume": 0.13,
+      "prompt": "reused from channel SFX library (auto_sfx.py)"
+    },
+    {
+      "file": "chapter_sting_1.mp3",
+      "startSec": 215.28,
+      "duration": 1.2,
+      "volume": 0.13,
+      "prompt": "reused from channel SFX library (auto_sfx.py)"
+    },
+    {
+      "file": "chapter_sting_2.mp3",
+      "startSec": 241.06,
+      "duration": 1.2,
+      "volume": 0.13,
+      "prompt": "reused from channel SFX library (auto_sfx.py)"
+    },
+    {
+      "file": "chapter_sting_3.mp3",
+      "startSec": 274.92,
+      "duration": 1.2,
+      "volume": 0.13,
+      "prompt": "reused from channel SFX library (auto_sfx.py)"
+    },
+    {
+      "file": "chapter_sting_final.mp3",
+      "startSec": 303.1,
+      "duration": 1.2,
+      "volume": 0.13,
+      "prompt": "reused from channel SFX library (auto_sfx.py)"
+    },
+    {
+      "file": "dramatic_hit.mp3",
+      "startSec": 347.96,
+      "duration": 1.2,
+      "volume": 0.13,
+      "prompt": "reused from channel SFX library (auto_sfx.py)"
+    },
+    {
+      "file": "subscribe_chime.mp3",
+      "startSec": 403.3,
+      "duration": 1.2,
+      "volume": 0.13,
+      "prompt": "reused from channel SFX library (auto_sfx.py)"
+    }
+  ],
+  "music": {
+    "file": "musica-canal.mp3",
+    "duration": 30,
+    "volume": 0.3,
+    "prompt": "reused channel background music loop"
+  }
+}
