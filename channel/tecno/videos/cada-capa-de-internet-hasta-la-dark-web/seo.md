@@ -69,8 +69,8 @@ etiquetas: SUPERFICIE|SIN INDEXAR|DEEP WEB|RED PRIVADA|DE PAGO|TOR|MERCADOS|I2P|
 cols: 5
 
 ## Shorts
-- titulo: ¿Quién inventó Tor, la red de la dark web? | gancho: ¿QUIÉN/LA INVENTÓ? | reveal: LA MARINA/DE ESTADOS UNIDOS | desde: 3_09 | hasta: 3_43
-- titulo: ¿Qué le pasó al creador de Silk Road? | gancho: ¿Y QUÉ LE/PASÓ DESPUÉS? | reveal: TRUMP LE/INDULTÓ | desde: 3_47 | hasta: 4_16
+- titulo: ¿Quién inventó Tor, la red de la dark web? | gancho: ¿QUIÉN INVENTÓ/LA DARK WEB? | reveal: LA MARINA/DE ESTADOS UNIDOS | desde: 3_09 | hasta: 3_43
+- titulo: ¿Qué le pasó al creador de Silk Road? | gancho: ¿QUÉ LE PASÓ AL REY/DE LA DARK WEB? | reveal: TRUMP LE/INDULTÓ | desde: 3_47 | hasta: 4_16
 
 ## Notas
 

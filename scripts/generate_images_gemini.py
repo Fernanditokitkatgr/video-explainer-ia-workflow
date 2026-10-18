@@ -77,8 +77,11 @@ def _load_part(ref_path: Path):
     return types.Part.from_bytes(data=ref_path.read_bytes(), mime_type=mime)
 
 
-def load_reference_parts():
+def load_reference_parts(override_rel: str | None = None):
     """Devuelve un dict {clave: Part} con las referencias canonicas del canal.
+
+    Si el vídeo trae `ref_image` en videos.json (estilo alternativo, p. ej. el mono stick
+    cutre de oct-2026), esa imagen sustituye a la de Sara para 'mono' y 'none'.
     'mono' = protagonista (Sara), 'sombra' = hacker-sombra atacante. Cada escena de
     frames.json elige cual adjuntar con su campo 'ref' (mono|sombra|none). Anclar el
     diseno con imagen es obligatorio: describirlo solo en texto deriva con el tiempo."""
@@ -92,7 +95,7 @@ def load_reference_parts():
     # para todos. Bug real (ago-2026): usar la referencia del mono para 'sombra' hacía
     # que el atacante derivara (ojos rojos, boca con dientes, capucha azul) porque nunca
     # se le mostraba al modelo cómo es realmente el hacker-sombra.
-    mono_rel = bible.get("personaje_protagonista", {}).get("imagen_referencia_canonica")
+    mono_rel = override_rel or bible.get("personaje_protagonista", {}).get("imagen_referencia_canonica")
     mono_ref = _load_part(config.REPO_ROOT / mono_rel) if mono_rel else None
     sombra_ref = _load_part(config.REPO_ROOT / "channel" / "tecno" / "references" / "hacker_sombra.png")
     if mono_ref is not None:
@@ -193,7 +196,7 @@ def main() -> None:
     out_dir = config.PUBLIC_DIR / cfg["images_subpath"]
     out_dir.mkdir(parents=True, exist_ok=True)
 
-    ref_parts = {} if args.no_ref else load_reference_parts()
+    ref_parts = {} if args.no_ref else load_reference_parts(cfg.get("ref_image"))
     print(f"Referencias de personaje: {'NO adjuntas (--no-ref)' if args.no_ref else (', '.join(sorted(ref_parts)) or 'ninguna encontrada')}")
 
     end = args.start + args.test if args.test else len(frames)

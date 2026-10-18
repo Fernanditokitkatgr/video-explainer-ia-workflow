@@ -1357,7 +1357,13 @@
     "fps": 30,
     "width": 1920,
     "height": 1080,
-    "background": "#ffffff"
+    "background": "#ffffff",
+    "published": {
+      "youtube_id": "CZErN6RNM90",
+      "privacy": "private",
+      "publish_at": "2026-10-28T18:00:00Z",
+      "date": "2026-10-28"
+    }
   },
   "todos-los-tipos-de-malware-explicados": {
     "composition": "TodosLosTiposDeMalwareExplicados",
@@ -1372,7 +1378,13 @@
     "fps": 30,
     "width": 1920,
     "height": 1080,
-    "background": "#ffffff"
+    "background": "#ffffff",
+    "published": {
+      "youtube_id": "OqtVuThByXc",
+      "privacy": "private",
+      "publish_at": "2026-10-29T18:00:00Z",
+      "date": "2026-10-29"
+    }
   },
   "los-12-finales-posibles-de-la-ia": {
     "composition": "Los12FinalesPosiblesDeLaIa",
@@ -1387,7 +1399,13 @@
     "fps": 30,
     "width": 1920,
     "height": 1080,
-    "background": "#ffffff"
+    "background": "#ffffff",
+    "published": {
+      "youtube_id": "4dd5bB1cylk",
+      "privacy": "private",
+      "publish_at": "2026-10-30T18:00:00Z",
+      "date": "2026-10-30"
+    }
   },
   "cada-estafa-que-te-pueden-hacer-en-espana": {
     "composition": "CadaEstafaQueTePuedenHacerEnEspana",
@@ -1417,7 +1435,13 @@
     "fps": 30,
     "width": 1920,
     "height": 1080,
-    "background": "#ffffff"
+    "background": "#ffffff",
+    "published": {
+      "youtube_id": "23sM4OilKsQ",
+      "privacy": "private",
+      "publish_at": "2026-10-31T18:00:00Z",
+      "date": "2026-10-31"
+    }
   },
   "cada-gran-apagon-de-la-historia": {
     "composition": "CadaGranApagonDeLaHistoria",
@@ -1447,7 +1471,9 @@
     "fps": 30,
     "width": 1920,
     "height": 1080,
-    "background": "#ffffff"
+    "background": "#ffffff",
+    "ref_image": "channel/tecno/references/mono_stick_cutre.png",
+    "estilo": "stick_cutre"
   },
   "cada-capa-de-internet-hasta-la-dark-web": {
     "composition": "CadaCapaDeInternetHastaLaDarkWeb",
@@ -1477,6 +1503,8 @@
     "fps": 30,
     "width": 1920,
     "height": 1080,
-    "background": "#ffffff"
+    "background": "#ffffff",
+    "ref_image": "channel/tecno/references/mono_stick_cutre.png",
+    "estilo": "stick_cutre"
   }
 }

@@ -468,6 +468,48 @@
       "youtube_id": "HujSxCoVESs",
       "publish_at": "2026-11-01T20:00:00Z",
       "long_id": "9RnnRgYbOqE"
+    },
+    {
+      "video": "cicada-3301-el-mayor-misterio-de-internet",
+      "file": "short_1.mp4",
+      "youtube_id": "6_BwD99XZ4U",
+      "publish_at": "2026-11-02T12:00:00Z",
+      "long_id": "CZErN6RNM90"
+    },
+    {
+      "video": "cicada-3301-el-mayor-misterio-de-internet",
+      "file": "short_2.mp4",
+      "youtube_id": "TvU-aMuDFZM",
+      "publish_at": "2026-11-02T20:00:00Z",
+      "long_id": "CZErN6RNM90"
+    },
+    {
+      "video": "todos-los-tipos-de-malware-explicados",
+      "file": "short_1.mp4",
+      "youtube_id": "7Yx7kxMDrTE",
+      "publish_at": "2026-11-03T12:00:00Z",
+      "long_id": "OqtVuThByXc"
+    },
+    {
+      "video": "todos-los-tipos-de-malware-explicados",
+      "file": "short_2.mp4",
+      "youtube_id": "lJwTyXzEkRY",
+      "publish_at": "2026-11-03T20:00:00Z",
+      "long_id": "OqtVuThByXc"
+    },
+    {
+      "video": "los-12-finales-posibles-de-la-ia",
+      "file": "short_1.mp4",
+      "youtube_id": "rgGi71n-hYE",
+      "publish_at": "2026-11-04T12:00:00Z",
+      "long_id": "4dd5bB1cylk"
+    },
+    {
+      "video": "los-12-finales-posibles-de-la-ia",
+      "file": "short_2.mp4",
+      "youtube_id": "9dVftCvm9aQ",
+      "publish_at": "2026-11-04T20:00:00Z",
+      "long_id": "4dd5bB1cylk"
     }
   ]
 }

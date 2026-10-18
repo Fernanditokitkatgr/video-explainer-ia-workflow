@@ -68,8 +68,8 @@ etiquetas: NUEVA YORK 1977|EE. UU. 2003|ITALIA 2003|TEXAS 2021|VENEZUELA 2019|CH
 cols: 5
 
 ## Shorts
-- titulo: ¿Qué apagó España el 28 de abril? | gancho: ¿QUÉ APAGÓ/ESPAÑA? | reveal: SU RESPUESTA/SOBRETENSIÓN | desde: 5_47 | hasta: 6_32
-- titulo: ¿Qué pasaría si hoy llegara la tormenta solar de 1859? | gancho: ¿TELÉGRAFOS/SIN PILAS? | reveal: LA CORRIENTE/DE LA AURORA | desde: 5_03 | hasta: 5_28
+- titulo: ¿Qué apagó España el 28 de abril? | gancho: ¿QUÉ CAUSÓ EL/APAGÓN DE ESPAÑA? | reveal: SU RESPUESTA/SOBRETENSIÓN | desde: 5_47 | hasta: 6_32
+- titulo: ¿Qué pasaría si hoy llegara la tormenta solar de 1859? | gancho: ¿Y SI HOY LLEGA/UNA TORMENTA SOLAR? | reveal: LA CORRIENTE/DE LA AURORA | desde: 5_03 | hasta: 5_28
 
 ## Notas
 

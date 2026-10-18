@@ -68,7 +68,7 @@ cols: 5
 
 ## Shorts
 - titulo: ¿Hackearon de verdad a Hacienda en 2024? | gancho: ¿HACKEARON/A HACIENDA? | reveal: UNA GESTORÍA/DE MÁLAGA | desde: 5_00 | hasta: 5_33
-- titulo: ¿Quién espió el móvil de Pedro Sánchez? | gancho: ¿QUIÉN ESPIÓ/AL PRESIDENTE? | reveal: NADIE/LO SABE | desde: 5_39 | hasta: 6_15
+- titulo: ¿Quién espió el móvil de Pedro Sánchez? | gancho: ¿QUIÉN ESPIÓ EL MÓVIL/DEL PRESIDENTE? | reveal: NADIE/LO SABE | desde: 5_39 | hasta: 6_15
 
 ## Notas
 

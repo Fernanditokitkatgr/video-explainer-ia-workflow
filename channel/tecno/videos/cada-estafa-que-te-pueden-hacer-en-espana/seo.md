@@ -67,8 +67,8 @@ etiquetas: SMS DEL BANCO|MULTA FALSA|HOLA MAMÁ|BIZUM INVERSO|LLAMADA FALSA|FALS
 cols: 5
 
 ## Shorts
-- titulo: ¿Por qué aceptar un Bizum te puede vaciar la cuenta? | gancho: ¿QUIÉN LE PAGA/A QUIÉN? | reveal: LE PAGAS/TÚ | desde: 2_07 | hasta: 2_35
-- titulo: ¿Qué actor usaron para estafar 325.000 € en España? | gancho: ¿DE QUÉ ACTOR/ERA LA WEB? | reveal: BRAD/PITT | desde: 5_32 | hasta: 6_10
+- titulo: ¿Por qué aceptar un Bizum te puede vaciar la cuenta? | gancho: ¿TE PUEDE ROBAR/UN BIZUM? | reveal: LE PAGAS/TÚ | desde: 2_07 | hasta: 2_35
+- titulo: ¿Qué actor usaron para estafar 325.000 € en España? | gancho: ¿QUÉ ACTOR USARON/PARA ESTAFAR? | reveal: BRAD/PITT | desde: 5_32 | hasta: 6_10
 
 ## Notas
 

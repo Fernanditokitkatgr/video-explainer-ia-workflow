@@ -67,8 +67,8 @@ etiquetas: UBICACIÓN|ID DE ANUNCIOS|PORTAPAPELES|TECLADO|MICRÓFONO|WIFI APAGAD
 cols: 5
 
 ## Shorts
-- titulo: ¿Sabías que unas papeleras de Londres seguían tu móvil? | gancho: ¿Y SI APAGAS/EL WIFI? | reveal: MÁS DE CIEN MIL/MÓVILES | desde: 3_51 | hasta: 4_21
-- titulo: ¿Qué saben de ti sin escuchar tus llamadas? | gancho: ¿QUÉ SABEN/SIN OÍRTE? | reveal: UNA/ARRITMIA | desde: 6_14 | hasta: 6_54
+- titulo: ¿Sabías que unas papeleras de Londres seguían tu móvil? | gancho: ¿TE SIGUEN CON/EL WIFI APAGADO? | reveal: MÁS DE CIEN MIL/MÓVILES | desde: 3_51 | hasta: 4_21
+- titulo: ¿Qué saben de ti sin escuchar tus llamadas? | gancho: ¿QUÉ SABE TU MÓVIL/SIN ESCUCHARTE? | reveal: UNA/ARRITMIA | desde: 6_14 | hasta: 6_54
 
 ## Notas
 

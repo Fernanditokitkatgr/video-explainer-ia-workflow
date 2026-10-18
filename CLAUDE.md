@@ -520,6 +520,10 @@ que una simple partición en dos.
   `grid_prompts.json` (un prompt por personaje) → `python scripts/grid_thumbnail.py <slug>`
   (cada casilla se genera aparte para que las etiquetas cuadren; Gemini no alinea una rejilla).
 - **Shorts de 30-45 s que dicen el título en la primera frase.** Ninguno de los virales hace bucle.
+- **El `gancho` (texto fijo arriba del Short) se entiende SOLO, sin haber visto el vídeo** (queja del
+  usuario, 18-oct-2026): nombra el tema y no usa pronombres ni analogías internas. Mal: "¿CHEFS O
+  PINCHES?", "¿QUIÉN LA INVENTÓ?", "¿CÓMO LO PILLARON?". Bien: "¿POR QUÉ LA IA NECESITA GPU?",
+  "¿QUIÉN INVENTÓ LA DARK WEB?". Se ve sin sonido: es lo que decide si alguien se queda.
 - **Largos de 5-7 min** (decisión del usuario, 16-oct-2026: prefiere corto a 13 min; se compensa
   con más visionados, no con más duración).
 - **Solo 2 Shorts por largo en YouTube** (`MAX_SHORTS_PER_LONG` en `scratch-yt/publish_shorts.py`):

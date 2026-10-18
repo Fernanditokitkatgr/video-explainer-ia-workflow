@@ -1,0 +1,32 @@
+{
+  "shorts": [
+    {
+      "file": "short_1.mp4",
+      "titulo": "¿Cómo pillaron al dueño de trece millones de ordenadores zombis?",
+      "gancho": "¿CÓMO LO/PILLARON?",
+      "reveal": "SE CONECTÓ/DESDE SU CASA",
+      "parte": "",
+      "desde": "1_15",
+      "t0": 60.26,
+      "dur": 32.97,
+      "youtube_id": null,
+      "publish_at": null,
+      "tiktok_publish_id": null,
+      "tiktok_posted_at": null
+    },
+    {
+      "file": "short_2.mp4",
+      "titulo": "¿Cómo se roban mil millones a los bancos sin entrar en ninguno?",
+      "gancho": "¿CÓMO SACABAN/EL DINERO?",
+      "reveal": "ESCUPIR/BILLETES",
+      "parte": "",
+      "desde": "0_37",
+      "t0": 30.1,
+      "dur": 33.16,
+      "youtube_id": null,
+      "publish_at": null,
+      "tiktok_publish_id": null,
+      "tiktok_posted_at": null
+    }
+  ]
+}
