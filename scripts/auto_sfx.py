@@ -66,7 +66,8 @@ def main() -> None:
         sfx.append({"file": name, "startSec": round(t, 2), "duration": 1.2, "volume": 0.13,
                     "prompt": "reused from channel SFX library (auto_sfx.py)"})
     shutil.copy(lib["musica-canal.mp3"], dst / "musica-canal.mp3")
-    out = {"sfx": sfx, "music": {"file": "musica-canal.mp3", "duration": 30, "volume": 0.3,
+    # Música de fondo QUITADA (oct-2026: a nadie le gustaba). volume 0 = no suena; cambiar aquí si vuelve.
+    out = {"sfx": sfx, "music": {"file": "musica-canal.mp3", "duration": 30, "volume": 0.0,
                                  "prompt": "reused channel background music loop"}}
     (mdir / "sfx.json").write_text(json.dumps(out, ensure_ascii=False, indent=2), encoding="utf-8")
     print(f"{slug}: {len(sfx)} efectos ({n} números)")

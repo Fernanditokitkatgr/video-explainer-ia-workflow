@@ -400,21 +400,80 @@ configurados.
 
 ## Shorts — paso obligatorio tras CADA vídeo largo (desde sep-2026)
 
-Los Shorts son la vía de descubrimiento para un canal pequeño: cada vídeo largo da **2-4
-Shorts** (ver "variedad" más abajo). Se definen en `seo.md`:
+Los Shorts son la vía de descubrimiento para un canal pequeño. **2 por largo en YouTube**
+(`MAX_SHORTS_PER_LONG`). Se definen en `seo.md`, sección `## Shorts`.
+
+### Shorts con guion propio (`tipo: guion`) — formato POR DEFECTO desde 27-oct-2026
+
+Por qué: la gente no entendía los Shorts (recortes sin contexto que empezaban con "Número dos…",
+título que nunca se decía, `gancho` amarillo fijo que daba el contexto por hecho). En los 17
+Shorts ganadores analizados la primera frase ES el título, arriba solo va el NOMBRE del tema y
+nadie cierra con "vídeo completo". Detalle y evidencia: `channel/tecno/shorts_playbook.md`.
 
 ```
 ## Shorts
-- titulo: Un AI Engineer casi nunca entrena una IA | gancho: ¿ENTRENA IAs?/NO. | desde: 0_14 | hasta: 0_53
-- titulo: ¿Cuánto cobra un AI Engineer en España? | gancho: ¿CUÁNTO COBRA/UN AI ENGINEER? | reveal: 71.000 €/AL AÑO | desde: 4_16
+
+### Short 1
+tipo: guion
+titulo: Este robot de casa cuesta 20.000 dólares (y no va solo)
+tema: ROBOT NEO
+reveal: UN/EMPLEADO
+cierre: seco
+L1: [curious] Este robot de casa cuesta veinte mil dólares. Y a veces no va solo. | img: nueva: <escena vertical>
+L2: [serious] Se llama NEO. Lo vende la empresa One X. Y dobla tu ropa. | img: 4_27
+B1: [serious] Promete entregarlo en Estados Unidos en dos mil veintiséis. | rotulo: 20.000 $
+P: [emphatic] Un empleado. Viendo tu casa. | img: 4_50
+F: [serious] El robot de casa ya existe. Lo que le falta es aprender solo. | img: 4_55
 ```
 
-- `desde`/`hasta` = clave de frame de `frames.json` (sin `.jpg`); sin `hasta` corta ≤55 s + 3 s de CTA.
-- Qué cortar: (1) el GANCHO de los primeros segundos si funciona solo; (2) el bloque más
-  jugoso: el **sueldo** en vídeos de empleo, el **giro** en historias. Empieza en frase completa.
-- `make_shorts.py`: vertical 1080x1920, subtítulos quemados abajo en bloques de 3 palabras
-  (texto del GUION alineado con los tiempos de Whisper → sin errores de transcripción tipo
-  "Opinaya"), cierre "VÍDEO COMPLETO EN EL CANAL".
+- Un bloque `### Short N` por Short. Cabecera: `titulo` (≤60, es L1), `tema` (1-4 palabras,
+  ≤22 caracteres, nombre del sujeto: se ve arriba en una etiqueta dorada todo el Short), `reveal`
+  (opcional, LÍNEA1/LÍNEA2, sale cuando se dice; se busca desde la frase `P`), `cierre: seco|bucle`,
+  `parte` y `claves` (palabras que salen solas y en verde en los subtítulos) opcionales.
+- Frases `ETIQUETA: texto | img: … | rotulo: …` (plantilla del playbook §2.2: L1 título dicho,
+  L2 subida de apuesta, B1-B3 golpes con dato, P remate, F cierre seco o bucle). 30-45 s,
+  100-150 palabras. Etiquetas de voz v4 permitidas. Sin `img:` sigue la imagen anterior.
+- `img: <clave>` = imagen del largo (`frames.json`). `img: nueva: <escena>` = imagen VERTICAL nueva
+  (máx. 2 por Short; `vertical_prompt()` le añade el personaje, la regla de no texto y el STYLE
+  de las escenas del largo). Se genera SOLO por `generate_frame` (tope de 250 € de `gasto.py`) con
+  el modelo de `image_model` del vídeo (`lite` = el barato). Va a pantalla completa.
+- Flujo de `make_shorts.py`: voz `generate_voice.py --model eleven_v4` → `shorts_src/short_N.mp3`
+  → whisper por palabra (`whisper_timestamps.extract_words`) → cada frase cambia de imagen
+  cuando empieza a decirse → ffmpeg (zoom lento del 4 %, a `playback_rate`). Voz, tiempos e
+  imágenes nuevas quedan cacheados en `<manifest_dir>/shorts_src/`: TikTok y los re-cortes no
+  vuelven a pagar voz (solo se regenera si cambia el texto del guion). Sin música de fondo.
+- Pantalla (también en modo recorte): fondo BLANCO (no azul marino), imagen del largo como
+  viñeta a 1458 px recortada a 1080 en y=300, `tema` arriba, `titulo` grande SOLO mientras se
+  dice (hasta el fin de L1, máx. 4,5 s; 2,5 s en recorte), subtítulos karaoke de **2 palabras**
+  a ~62 % de la altura, `rotulo` verde bajo los subtítulos, `reveal` arriba con pop.
+  **Sin cierre congelado de 3 s**; en `--tiktok` el "SÍGUEME" va encima de los 2 últimos s.
+- Validación (avisa; `--estricto` aborta): L1 que no se parece al título o que empieza por
+  "Número", "Pero", "Y", "Su", "La siguiente" o un pronombre (Esto, Eso, Lo…; "Este robot…" sí
+  vale); `tema` largo, con interrogación, vago o sin ninguna palabra del título; duración fuera
+  de 20-50 s; ritmo fuera de 2,8-3,9 palabras/s; >2 imágenes nuevas o claves inexistentes = error.
+
+```
+python scripts/make_shorts.py <slug> --dry-run          # valida, plan de imágenes, caracteres de voz y gasto; no gasta
+python scripts/make_shorts.py <slug> [--solo N]         # YouTube → shorts/
+python scripts/make_shorts.py <slug> --tiktok           # TikTok → shorts_tiktok/ (reusa la voz)
+    --estricto (aborta con avisos) · --sin-nuevas (no genera imágenes: usa la del largo de la frase siguiente)
+```
+
+`shorts.json` mantiene los campos de siempre (`file`, `titulo`, `youtube_id`, `publish_at`,
+`tiktok_*`, que se conservan al re-cortar) y añade `tipo`, `tema`, `cierre` y `primera_frase`
+para cruzar con resultados. `publish_shorts.py` y `tiktok_pack.py` funcionan igual. Tras subir
+cada Short, poner a mano el **vídeo relacionado** en Studio (la API no deja; el script lo recuerda).
+
+### Modo recorte (vídeos antiguos; solo si el tramo empieza nombrando el sujeto)
+
+```
+## Shorts
+- titulo: ¿Cuánto cobra un AI Engineer en España? | tema: AI ENGINEER | reveal: 71.000 €/AL AÑO | desde: 4_16
+```
+
+- `desde`/`hasta` = clave de frame de `frames.json` (sin `.jpg`); sin `hasta` corta ≤50 s.
+- Si trae `gancho` y no `tema` (seo.md antiguos), el gancho sale como título 2,5 s y avisa.
+- Subtítulos del GUION alineado con los tiempos de Whisper (sin errores tipo "Opinaya").
 
 ### Estilo de los subtítulos y la fuente (oct-2026)
 
@@ -440,6 +499,9 @@ Fijado tras revisar qué formatos de Short funcionan de verdad (no a ojo):
   [Rendercut — What Is Karaoke Caption Style](https://rendercut.io/what-is-karaoke-caption-style).
 
 ### `gancho` (intriga) vs `reveal` (remate) — regla dura, detectada en QC oct-2026
+
+> 27-oct-2026: el `gancho` fijo YA NO se usa (lo sustituyen `tema` + `titulo` mientras se dice). La
+> regla de `reveal` sigue igual: el remate nunca se ve antes de decirse.
 
 **El `gancho` es fijo y se ve DESDE EL SEGUNDO 0 durante todo el Short. Por eso NUNCA puede
 contener la respuesta, la cifra o el remate** — solo la pregunta o la promesa que engancha
@@ -519,7 +581,8 @@ que una simple partición en dos.
 - Miniatura de cuadrícula: `seo.md` con `plantilla: A`, `etiquetas: A|B|...` y `cols: 5`, más
   `grid_prompts.json` (un prompt por personaje) → `python scripts/grid_thumbnail.py <slug>`
   (cada casilla se genera aparte para que las etiquetas cuadren; Gemini no alinea una rejilla).
-- **Shorts de 30-45 s que dicen el título en la primera frase.** Ninguno de los virales hace bucle.
+- **Shorts de 30-45 s con guion propio que dicen el título en la primera frase** (ver "Shorts con
+  guion propio"). 3 de 17 virales sí hacen bucle (QuantumFracture, MinuteEarth): `cierre: bucle`.
 - **El `gancho` (texto fijo arriba del Short) se entiende SOLO, sin haber visto el vídeo** (queja del
   usuario, 18-oct-2026): nombra el tema y no usa pronombres ni analogías internas. Mal: "¿CHEFS O
   PINCHES?", "¿QUIÉN LA INVENTÓ?", "¿CÓMO LO PILLARON?". Bien: "¿POR QUÉ LA IA NECESITA GPU?",
@@ -529,6 +592,25 @@ que una simple partición en dos.
 - **Solo 2 Shorts por largo en YouTube** (`MAX_SHORTS_PER_LONG` en `scratch-yt/publish_shorts.py`):
   cada subida gasta el límite del canal (`uploadLimitExceeded`) y los Shorts no suman horas. Los 4
   siguen yendo a TikTok. En `seo.md` de los vídeos nuevos, escribir solo 2.
+
+### Voz y música (27-oct-2026, decisión del usuario)
+
+- **Voz SIEMPRE con Eleven v4**: `python scripts/generate_voice.py --video <slug> --model eleven_v4`
+  (el `.env` sigue en eleven_v3 y el agente no puede editarlo). v4 respeta las etiquetas
+  [curious]/[tense]… sin leerlas en voz alta (comprobado con whisper).
+- **SIN música de fondo**: a la audiencia no le gusta. `auto_sfx.py` la deja a volumen 0. Los efectos
+  puntuales (moneda, soplo…) SÍ se quedan. No volver a ponerla hasta que el usuario elija música.
+
+### GASTO DE IMÁGENES: tope duro de 250 € (oct-2026) — NO NEGOCIABLE
+
+- Una cuenta anterior agotó el crédito gratis sin aviso y Google cobró ~100 € en la tarjeta.
+  Cada imagen cuesta dinero: Flash ~0,04 €, Pro ~0,13 € (miniaturas). Un vídeo ≈ 7-8 €.
+- `scripts/gasto.py`: cada imagen se apunta en `gasto_imagenes.jsonl`; al llegar a **250 €** el
+  generador se para solo (`generate_frame` llama a `gasto.comprobar`). NUNCA subir el tope sin que
+  el usuario lo pida por escrito.
+- **Decirle al usuario el gasto en cada conversación** (`python scripts/gasto.py`). Además hay un
+  aviso diario a las 10:00 (tarea "Tecnomono aviso gasto") y un presupuesto en Google con correos.
+- Nada de pruebas de estilo ni regeneraciones masivas sin preguntar antes y decir lo que costará.
 
 ### Diagnóstico 16-oct-2026 (por qué no crecemos) y giro de temas
 

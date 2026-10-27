@@ -52,9 +52,13 @@ client = genai.Client(
     project=config.GEMINI_VERTEX_PROJECT,
     location=config.GEMINI_VERTEX_LOCATION_PRO,
 )
-refs = load_reference_parts()
+# Vídeos con "image_model": "lite" en videos.json: miniatura también con el modelo barato y con su
+# propia referencia de personaje (ref_image). El resto sigue con Pro (más caro, ~0,13 €/imagen).
+_cfg = json.load(open(config.REPO_ROOT / "videos.json", encoding="utf-8")).get(args.video or "", {})
+_model = "gemini-3.1-flash-lite-image" if _cfg.get("image_model") == "lite" else config.GEMINI_IMAGE_MODEL_PRO
+refs = load_reference_parts(_cfg.get("ref_image"))
 ok = generate_frame(
-    client, config.GEMINI_IMAGE_MODEL_PRO, args.prompt, out_path,
+    client, _model, args.prompt, out_path,
     ref_part=refs.get(args.ref),
 )
 print("OK" if ok else "FAILED", out_path)

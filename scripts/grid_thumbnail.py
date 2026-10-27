@@ -34,6 +34,10 @@ STYLE = ("flat cartoon illustration style, thick black ink outlines, simple flat
          "square. No text, no letters, no numbers, no logos, no flags anywhere. The character is NOT a "
          "monkey and NOT an ape (Gemini tends to draw the channel mascot): a person is a HUMAN with a "
          "human face.")
+STYLE_STICK = ("deliberately crude amateur doodle, wobbly uneven black pen lines, flat colors filled carelessly, "
+               "one single simple object or stick-figure character centered on a plain white background, filling "
+               "most of the square, funny and very simple. No text, no letters, no numbers, no logos, no flags "
+               "anywhere. The character is NOT a monkey and NOT an ape.")
 
 
 def main() -> None:
@@ -47,12 +51,14 @@ def main() -> None:
     assert len(prompts) == len(labels), "un prompt por etiqueta"
     tdir = mdir / "grid_tiles"
     tdir.mkdir(exist_ok=True)
+    # Vídeos del mono stick cutre: las casillas también en garabato cutre, a juego con el vídeo.
+    style = STYLE_STICK if vids[slug].get("estilo") == "stick_cutre" else STYLE
     for i, p in enumerate(prompts):
         out = tdir / f"tile_{i:02d}.jpg"
         if out.exists():
             continue
         subprocess.run([sys.executable, str(REPO / "scripts" / "generate_thumbnail.py"), "--video", slug,
-                        "--ref", "none", "--out", str(out), "--prompt", f"{p}. {STYLE}"], check=True)
+                        "--ref", "none", "--out", str(out), "--prompt", f"{p}. {style}"], check=True)
 
     rows = (len(labels) + cols - 1) // cols
     pad, lab_h = 14, 46

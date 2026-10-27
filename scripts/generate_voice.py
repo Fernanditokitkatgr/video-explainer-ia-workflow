@@ -259,7 +259,11 @@ def main() -> None:
                          help="Sobreescribe ELEVENLABS_STABILITY solo para esta llamada (más bajo = más expresivo)")
     parser.add_argument("--style", type=float, default=None,
                          help="Sobreescribe ELEVENLABS_STYLE solo para esta llamada (más alto = más expresivo)")
+    parser.add_argument("--model", default=None,
+                        help="Sobreescribe ELEVENLABS_MODEL_ID (p. ej. eleven_v4, el más expresivo en oct-2026)")
     args = parser.parse_args()
+    if args.model:
+        config.ELEVENLABS_MODEL_ID = args.model
 
     if args.video:
         cfg = config.get_video(args.video)

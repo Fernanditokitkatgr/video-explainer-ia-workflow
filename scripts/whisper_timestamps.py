@@ -62,20 +62,29 @@ def extract_timestamps_faster(audio_path: str, model_name: str, language: str) -
     ]
 
 
+def extract_words(audio_path: str, model_name: str = None, language: str = None) -> list[dict]:
+    """Palabras sueltas con su tiempo: [{word, start, end}]. Requiere faster-whisper.
+    Lo usan --resegment-gap y los Shorts con guion propio (scripts/make_shorts.py)."""
+    from faster_whisper import WhisperModel
+    model_name = model_name or config.WHISPER_MODEL
+    language = language or config.WHISPER_LANGUAGE
+    print(f"Cargando faster-whisper ({model_name})…")
+    model = WhisperModel(model_name, device="cpu", compute_type="int8")
+    print(f"Transcribiendo: {audio_path}")
+    segments_iter, _info = model.transcribe(audio_path, language=language, word_timestamps=True)
+    return [
+        {"word": w.word.strip(), "start": w.start, "end": w.end}
+        for seg in segments_iter for w in (seg.words or [])
+    ]
+
+
 def extract_timestamps_resegmented(audio_path: str, model_name: str, language: str, gap: float) -> list[dict]:
     """Ignora el agrupamiento de segmento de whisper: recorta por huecos de
     silencio reales entre palabras (gap > N segundos = nueva frase). Usar
     cuando el guion no garantiza pausas claras entre cada frase (ver docstring
     del módulo). Requiere faster-whisper (necesita el detalle por palabra)."""
-    from faster_whisper import WhisperModel
-    print(f"Cargando faster-whisper ({model_name}) para re-segmentar por pausas (gap>{gap}s)…")
-    model = WhisperModel(model_name, device="cpu", compute_type="int8")
-    print(f"Transcribiendo: {audio_path}")
-    segments_iter, _info = model.transcribe(audio_path, language=language, word_timestamps=True)
-    words = [
-        {"word": w.word.strip(), "start": w.start, "end": w.end}
-        for seg in segments_iter for w in (seg.words or [])
-    ]
+    print(f"Re-segmentando por pausas (gap>{gap}s)…")
+    words = extract_words(audio_path, model_name, language)
     if not words:
         return []
     groups = [[words[0]]]

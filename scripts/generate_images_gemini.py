@@ -46,6 +46,7 @@ except ImportError:
     sys.exit("Falta google-genai. Instala con: pip install google-genai")
 
 import config
+import gasto  # tope duro de 250 € y contador de gasto (oct-2026)
 
 # Gotcha (jul-2026): gemini-3-pro-image-preview SOLO responde con location="global" en
 # Vertex — con cualquier región concreta (us-central1, us-east5, europe-west4) da 404
@@ -106,11 +107,27 @@ def load_reference_parts(override_rel: str | None = None):
     return parts
 
 
-def generate_frame(client, model: str, prompt: str, out_path: Path, ref_part=None, retries: int = 5) -> bool:
+def pick_model(cfg: dict, fallback: str = "flash") -> tuple[str, str]:
+    """(modelo, location) para un vídeo: "image_model" de videos.json manda sobre `fallback`.
+    "lite" = gemini-3.1-flash-lite-image (el más barato, solo en location global)."""
+    elegido = cfg.get("image_model", fallback)
+    if elegido == "pro":
+        return config.GEMINI_IMAGE_MODEL_PRO, config.GEMINI_VERTEX_LOCATION_PRO
+    if elegido == "lite":
+        return "gemini-3.1-flash-lite-image", "global"
+    return config.GEMINI_IMAGE_MODEL_FLASH, config.GEMINI_VERTEX_LOCATION
+
+
+def generate_frame(client, model: str, prompt: str, out_path: Path, ref_part=None, retries: int = 5,
+                   aspect_ratio: str | None = None) -> bool:
+    """`aspect_ratio` (p. ej. "9:16" para la imagen vertical de un Short) sobreescribe
+    GEMINI_ASPECT_RATIO solo en esta llamada. Va por parámetro, NUNCA en el texto del prompt."""
     if out_path.exists():
         print(f"  SKIP {out_path.name} (ya existe)")
         return True
 
+    # Tope duro de gasto (oct-2026): si la siguiente imagen pasa de 250 €, se para todo.
+    gasto.comprobar(model)
     # ref_part puede ser una lista de imágenes de referencia (o None)
     contents = ([*ref_part, prompt] if ref_part else prompt)
     last_err = ""
@@ -121,7 +138,7 @@ def generate_frame(client, model: str, prompt: str, out_path: Path, ref_part=Non
                 contents=contents,
                 config=types.GenerateContentConfig(
                     response_modalities=["IMAGE"],
-                    image_config=types.ImageConfig(aspect_ratio=config.GEMINI_ASPECT_RATIO),
+                    image_config=types.ImageConfig(aspect_ratio=aspect_ratio or config.GEMINI_ASPECT_RATIO),
                 ),
             )
             # Cuando el modelo BLOQUEA un prompt devuelve candidates con content.parts
@@ -141,6 +158,7 @@ def generate_frame(client, model: str, prompt: str, out_path: Path, ref_part=Non
             img_part = next(p for p in partes if p.inline_data)
             out_path.parent.mkdir(parents=True, exist_ok=True)
             out_path.write_bytes(img_part.inline_data.data)
+            gasto.apuntar(model, out_path.name)
             print(f"  OK {out_path.name} ({len(img_part.inline_data.data) // 1024} KB)")
             return True
         except StopIteration:
@@ -183,15 +201,14 @@ def main() -> None:
                 "o vuelve a llamar con --skip-diversity-check si de verdad quieres seguir así."
             )
 
-    if args.model == "pro":
-        model = config.GEMINI_IMAGE_MODEL_PRO
-        location = config.GEMINI_VERTEX_LOCATION_PRO
-    else:
-        model = config.GEMINI_IMAGE_MODEL_FLASH
-        location = config.GEMINI_VERTEX_LOCATION
+    cfg = config.get_video(args.video)
+    # Modelo por vídeo (oct-2026): "image_model": "lite" en videos.json usa el más barato
+    # (gemini-3.1-flash-lite-image, solo en location global). Comparado con flash y pro en el estilo
+    # mono stick cutre: misma calidad a efectos prácticos.
+    model, location = pick_model(cfg, args.model)
+    print(f"Modelo de imagen: {model}")
     client = genai.Client(vertexai=True, project=config.GEMINI_VERTEX_PROJECT, location=location)
 
-    cfg = config.get_video(args.video)
     style_base, frames = load_frames(cfg)
     out_dir = config.PUBLIC_DIR / cfg["images_subpath"]
     out_dir.mkdir(parents=True, exist_ok=True)

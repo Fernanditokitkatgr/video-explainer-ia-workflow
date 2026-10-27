@@ -136,6 +136,9 @@ def publish(slugs, dry):
             save_json(man_path, man)
             save_json(SQ_PATH, sq)
             print(f"   OK https://youtube.com/shorts/{vid}")
+            # La API no deja fijar el "vídeo relacionado" del Short (el enlace que de verdad se ve):
+            # hay que ponerlo a mano en Studio (shorts_playbook.md §2.7).
+            print(f"   ⚠️  A MANO en Studio: vídeo relacionado → https://youtu.be/{long_id}")
 
 
 def main():

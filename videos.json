@@ -1473,7 +1473,8 @@
     "height": 1080,
     "background": "#ffffff",
     "ref_image": "channel/tecno/references/mono_stick_cutre.png",
-    "estilo": "stick_cutre"
+    "estilo": "stick_cutre",
+    "image_model": "lite"
   },
   "cada-capa-de-internet-hasta-la-dark-web": {
     "composition": "CadaCapaDeInternetHastaLaDarkWeb",
@@ -1505,6 +1506,43 @@
     "height": 1080,
     "background": "#ffffff",
     "ref_image": "channel/tecno/references/mono_stick_cutre.png",
-    "estilo": "stick_cutre"
+    "estilo": "stick_cutre",
+    "image_model": "lite"
+  },
+  "asi-sera-un-dia-normal-en-2035": {
+    "composition": "AsiSeraUnDiaNormalEn2035",
+    "tsx": "remotion/src/AsiSeraUnDiaNormalEn2035.tsx",
+    "manifest_dir": "channel/tecno/videos/asi-sera-un-dia-normal-en-2035",
+    "script": "channel/tecno/videos/asi-sera-un-dia-normal-en-2035/script.md",
+    "audio_static": "asi-sera-un-dia-normal-en-2035.mp3",
+    "images_subpath": "asi-sera-un-dia-normal-en-2035",
+    "naming": "timestamp",
+    "ext": "jpg",
+    "playback_rate": 1.25,
+    "fps": 30,
+    "width": 1920,
+    "height": 1080,
+    "background": "#ffffff",
+    "ref_image": "channel/tecno/references/mono_stick_cutre.png",
+    "estilo": "stick_cutre",
+    "image_model": "lite"
+  },
+  "cada-red-social-y-como-te-engancha": {
+    "composition": "CadaRedSocialYComoTeEngancha",
+    "tsx": "remotion/src/CadaRedSocialYComoTeEngancha.tsx",
+    "manifest_dir": "channel/tecno/videos/cada-red-social-y-como-te-engancha",
+    "script": "channel/tecno/videos/cada-red-social-y-como-te-engancha/script.md",
+    "audio_static": "cada-red-social-y-como-te-engancha.mp3",
+    "images_subpath": "cada-red-social-y-como-te-engancha",
+    "naming": "timestamp",
+    "ext": "jpg",
+    "playback_rate": 1.25,
+    "fps": 30,
+    "width": 1920,
+    "height": 1080,
+    "background": "#ffffff",
+    "ref_image": "channel/tecno/references/mono_stick_cutre.png",
+    "estilo": "stick_cutre",
+    "image_model": "lite"
   }
 }

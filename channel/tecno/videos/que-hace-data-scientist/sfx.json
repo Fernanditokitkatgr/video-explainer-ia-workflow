@@ -1,15 +1,80 @@
 {
   "sfx": [
-    { "file": "intro_curious.mp3", "startSec": 0.0, "duration": 1.4, "volume": 0.14, "prompt": "light curious playful chime, inquisitive and friendly, no music" },
-    { "file": "myth_bust.mp3", "startSec": 3.82, "duration": 1.2, "volume": 0.16, "prompt": "short comedic buzzer negation sound, myth busted, playful" },
-    { "file": "info_reveal.mp3", "startSec": 20.22, "duration": 1.3, "volume": 0.15, "prompt": "bright informative transition ding, upbeat and clear" },
-    { "file": "example_transition.mp3", "startSec": 61.06, "duration": 1.3, "volume": 0.14, "prompt": "friendly whoosh transition, moving to a concrete example" },
-    { "file": "reveal_twist.mp3", "startSec": 109.78, "duration": 1.4, "volume": 0.16, "prompt": "curious rising sting, short surprising reveal chime" },
-    { "file": "money_chime.mp3", "startSec": 142.28, "duration": 1.3, "volume": 0.17, "prompt": "short coin cash register chime, salary reveal, cheerful" },
-    { "file": "tool_pop.mp3", "startSec": 176.4, "duration": 1.1, "volume": 0.15, "prompt": "short playful pop sound, tool icon appearing, light and quick" },
-    { "file": "actionable_ding.mp3", "startSec": 203.06, "duration": 1.2, "volume": 0.15, "prompt": "motivational bright ding, encouraging call to action" },
-    { "file": "closing_transition.mp3", "startSec": 209.9, "duration": 1.3, "volume": 0.14, "prompt": "warm closing transition swell, friendly wrap-up tone" },
-    { "file": "subscribe_chime.mp3", "startSec": 234.52, "duration": 1.2, "volume": 0.17, "prompt": "bright cheerful notification bell chime, friendly and short" }
+    {
+      "file": "intro_curious.mp3",
+      "startSec": 0.0,
+      "duration": 1.4,
+      "volume": 0.14,
+      "prompt": "light curious playful chime, inquisitive and friendly, no music"
+    },
+    {
+      "file": "myth_bust.mp3",
+      "startSec": 3.82,
+      "duration": 1.2,
+      "volume": 0.16,
+      "prompt": "short comedic buzzer negation sound, myth busted, playful"
+    },
+    {
+      "file": "info_reveal.mp3",
+      "startSec": 20.22,
+      "duration": 1.3,
+      "volume": 0.15,
+      "prompt": "bright informative transition ding, upbeat and clear"
+    },
+    {
+      "file": "example_transition.mp3",
+      "startSec": 61.06,
+      "duration": 1.3,
+      "volume": 0.14,
+      "prompt": "friendly whoosh transition, moving to a concrete example"
+    },
+    {
+      "file": "reveal_twist.mp3",
+      "startSec": 109.78,
+      "duration": 1.4,
+      "volume": 0.16,
+      "prompt": "curious rising sting, short surprising reveal chime"
+    },
+    {
+      "file": "money_chime.mp3",
+      "startSec": 142.28,
+      "duration": 1.3,
+      "volume": 0.17,
+      "prompt": "short coin cash register chime, salary reveal, cheerful"
+    },
+    {
+      "file": "tool_pop.mp3",
+      "startSec": 176.4,
+      "duration": 1.1,
+      "volume": 0.15,
+      "prompt": "short playful pop sound, tool icon appearing, light and quick"
+    },
+    {
+      "file": "actionable_ding.mp3",
+      "startSec": 203.06,
+      "duration": 1.2,
+      "volume": 0.15,
+      "prompt": "motivational bright ding, encouraging call to action"
+    },
+    {
+      "file": "closing_transition.mp3",
+      "startSec": 209.9,
+      "duration": 1.3,
+      "volume": 0.14,
+      "prompt": "warm closing transition swell, friendly wrap-up tone"
+    },
+    {
+      "file": "subscribe_chime.mp3",
+      "startSec": 234.52,
+      "duration": 1.2,
+      "volume": 0.17,
+      "prompt": "bright cheerful notification bell chime, friendly and short"
+    }
   ],
-  "music": { "file": "musica-canal.mp3", "duration": 30, "volume": 0.3, "prompt": "reused channel background music loop" }
+  "music": {
+    "file": "musica-canal.mp3",
+    "duration": 30,
+    "volume": 0.0,
+    "prompt": "reused channel background music loop"
+  }
 }

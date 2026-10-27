@@ -78,10 +78,28 @@ import { CadaGranApagonDeLaHistoria } from "./CadaGranApagonDeLaHistoria";
 import { CadaFormaEnQueTuMovilTeEspia } from "./CadaFormaEnQueTuMovilTeEspia";
 import { CadaGranCiberataqueQueHaSufridoEspana } from "./CadaGranCiberataqueQueHaSufridoEspana";
 import { CadaCapaDeInternetHastaLaDarkWeb } from "./CadaCapaDeInternetHastaLaDarkWeb";
+import { AsiSeraUnDiaNormalEn2035 } from "./AsiSeraUnDiaNormalEn2035";
+import { CadaRedSocialYComoTeEngancha } from "./CadaRedSocialYComoTeEngancha";
 
 export const RemotionRoot: React.FC = () => {
   return (
     <>
+      <Composition
+        id="CadaRedSocialYComoTeEngancha"
+        component={CadaRedSocialYComoTeEngancha}
+        durationInFrames={8868}
+        fps={30}
+        width={1920}
+        height={1080}
+      />
+      <Composition
+        id="AsiSeraUnDiaNormalEn2035"
+        component={AsiSeraUnDiaNormalEn2035}
+        durationInFrames={8689}
+        fps={30}
+        width={1920}
+        height={1080}
+      />
       <Composition
         id="CadaGranCiberataqueQueHaSufridoEspana"
         component={CadaGranCiberataqueQueHaSufridoEspana}
