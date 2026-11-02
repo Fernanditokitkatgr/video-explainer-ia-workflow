@@ -28,7 +28,10 @@ scripts/
                           cara al tostado de Sara conservando sombras; 6/6 bien en Minecraft). Mejor
                           que regenerar en bucle: los primeros planos alegres recaen casi siempre.
   fix_letterbox.py      ← quita las bandas negras que Gemini mete a veces (recorta 16:9 y reescala)
-  auto_sfx.py           ← sfx.json mínimo para vídeos-lista con efectos YA generados (0 créditos)
+  auto_sfx.py           ← sfx.json DENSO (~14/min: soplos, pops, golpes, cajas, dings, risers) con
+                          efectos YA generados (0 créditos), tiempos por palabra; --minimal = capa mínima
+  split_segments.py     ← re-trocea los segmentos del largo a ≤2,5 s (más imágenes, por palabra)
+  make_tsx.py           ← genera el .tsx (Ken Burns + transiciones + énfasis + SFX) y ajusta Root.tsx
   fill_seo_times.py     ← capítulos reales ("Número X") y desde/hasta de Shorts en seo.md
   check_negations.py    ← OBLIGATORIO tras la voz: ¿se comió ElevenLabs algún no/sin/nunca?
                           Contrasta cada descuadre con whisper large-v3 (el pequeño oye "uno" por "no").
@@ -427,7 +430,7 @@ F: [serious] El robot de casa ya existe. Lo que le falta es aprender solo. | img
 ```
 
 - Un bloque `### Short N` por Short. Cabecera: `titulo` (≤60, es L1), `tema` (1-4 palabras,
-  ≤22 caracteres, nombre del sujeto: se ve arriba en una etiqueta dorada todo el Short), `reveal`
+  ≤22 caracteres, nombre del sujeto; ya no se enseña: sirve para validar y para los verdes), `reveal`
   (opcional, LÍNEA1/LÍNEA2, sale cuando se dice; se busca desde la frase `P`), `cierre: seco|bucle`,
   `parte` y `claves` (palabras que salen solas y en verde en los subtítulos) opcionales.
 - Frases `ETIQUETA: texto | img: … | rotulo: …` (plantilla del playbook §2.2: L1 título dicho,
@@ -436,17 +439,30 @@ F: [serious] El robot de casa ya existe. Lo que le falta es aprender solo. | img
 - `img: <clave>` = imagen del largo (`frames.json`). `img: nueva: <escena>` = imagen VERTICAL nueva
   (máx. 2 por Short; `vertical_prompt()` le añade el personaje, la regla de no texto y el STYLE
   de las escenas del largo). Se genera SOLO por `generate_frame` (tope de 250 € de `gasto.py`) con
-  el modelo de `image_model` del vídeo (`lite` = el barato). Va a pantalla completa.
+  el modelo de `image_model` del vídeo (`lite` = el barato). Va en la franja central, como las demás.
 - Flujo de `make_shorts.py`: voz `generate_voice.py --model eleven_v4` → `shorts_src/short_N.mp3`
   → whisper por palabra (`whisper_timestamps.extract_words`) → cada frase cambia de imagen
   cuando empieza a decirse → ffmpeg (zoom lento del 4 %, a `playback_rate`). Voz, tiempos e
   imágenes nuevas quedan cacheados en `<manifest_dir>/shorts_src/`: TikTok y los re-cortes no
   vuelven a pagar voz (solo se regenera si cambia el texto del guion). Sin música de fondo.
-- Pantalla (también en modo recorte): fondo BLANCO (no azul marino), imagen del largo como
-  viñeta a 1458 px recortada a 1080 en y=300, `tema` arriba, `titulo` grande SOLO mientras se
-  dice (hasta el fin de L1, máx. 4,5 s; 2,5 s en recorte), subtítulos karaoke de **2 palabras**
-  a ~62 % de la altura, `rotulo` verde bajo los subtítulos, `reveal` arriba con pop.
+- Pantalla (también en modo recorte; rehecha el 28 y 29-oct-2026 con el feedback del dueño):
+  fondo BLANCO entero y **ningún texto arriba** (ni título, ni `tema`, ni caja de `reveal`). La
+  imagen va recortada AL DIBUJO (`image_fit`: nunca corta tinta; escenas de borde a borde pierden
+  ≤20 % de ancho), algo baja y pegada a los subtítulos; la `nueva` vertical va igual. Movimiento:
+  zoom lento ±4 % con paneo, y en cada cambio de imagen una entrada de 0,25 s que alterna empujón
+  de zoom / deslizar / rebote (`segment_chain`). Subtítulos virales de 1-2 palabras (~y 1480):
+  blancos con contorno negro grueso, cada palabra con pop y amarilla mientras se dice; cifras y
+  nombres solos en verde; el `reveal` y los `rotulo` que se DICEN se destacan en los subtítulos
+  (amarillo, +22 %, pop fuerte); un `rotulo` que no se dice avisa y no sale. Últimos 250 px libres.
   **Sin cierre congelado de 3 s**; en `--tiktok` el "SÍGUEME" va encima de los 2 últimos s.
+- Efectos de sonido (modo guion; SIN música): `assets/sfx/shorts/` (copiados de
+  `remotion/public/*-sfx/`): whoosh en cada cambio de imagen, pop en cifras/nombres/rótulos, caja
+  registradora cuando se dice dinero, subida + golpe en el remate. Cada uno se iguala a la voz por
+  LUFS integrados (`SFX` = dB respecto a la voz, de -12 a -18), porque los archivos vienen a
+  niveles muy distintos (pop -50 LUFS, golpe -4). Medido 29-oct: efectos ≈ -14 dB vs voz; la
+  mezcla queda en ≈ -21,7 LUFS. En modo recorte no se añaden (el audio del largo ya los trae).
+  OJO tamaños ASS: libass mide `s` como usWinAscent+usWinDescent (Montserrat 1,562 em), así
+  que `s170` ≈ 109 px de em; medir con `ass_text_w()`, no con el número del estilo.
 - Validación (avisa; `--estricto` aborta): L1 que no se parece al título o que empieza por
   "Número", "Pero", "Y", "Su", "La siguiente" o un pronombre (Esto, Eso, Lo…; "Este robot…" sí
   vale); `tema` largo, con interrogación, vago o sin ninguna palabra del título; duración fuera
@@ -559,11 +575,13 @@ que una simple partición en dos.
 
 ### Velocidad y duración (oct-2026)
 
-- `playback_rate` por defecto **1.25** en los vídeos nuevos (antes 1.2). Medido con Whisper: la
-  voz se entiende igual a 1.2-1.35 (97,7-98,4% de palabras), así que se puede subir más.
+- `playback_rate` por defecto **1.1** en los vídeos nuevos. El dueño lo bajó de 1.25 a 1.1 el
+  **28-oct-2026** ("un pelín más lento"). Historial: 1.2 → 1.25 (Whisper entendía igual a 1.2-1.35,
+  97,7-98,4% de palabras) → 1.1. Que se entienda no significa que guste: manda el oído del dueño.
 - Datos propios: los largos de 4-4,5 min retienen 48-50% y los de 6-7 min 26-35%. Objetivo de
-  5-7 min de vídeo final (malware: ~6:40 a 1.25 es la referencia de longitud de guion).
-- Cambiar la velocidad de un vídeo ya montado (NO subido): `python scripts/set_speed.py <slug> 1.25`
+  5-7 min de vídeo final (a 1.1 salen ~10-15 % más largos que a 1.25 con el mismo guion: ~7.800
+  caracteres ≈ 7 min; recortar guion si se pasa).
+- Cambiar la velocidad de un vídeo ya montado (NO subido): `python scripts/set_speed.py <slug> 1.1`
   recalcula capítulos, regenera el .tsx (`scripts/make_tsx.py`), ajusta Root.tsx y borra los Shorts.
 
 ### Reglas de viralidad (oct-2026) — detalle y ejemplos en `channel/tecno/viral_playbook.md`
@@ -600,6 +618,91 @@ que una simple partición en dos.
   [curious]/[tense]… sin leerlas en voz alta (comprobado con whisper).
 - **SIN música de fondo**: a la audiencia no le gusta. `auto_sfx.py` la deja a volumen 0. Los efectos
   puntuales (moneda, soplo…) SÍ se quedan. No volver a ponerla hasta que el usuario elija música.
+
+### Guion natural (28-oct-2026, queja del usuario: "suena robótico")
+
+Cuéntalo **como si se lo contaras a un amigo**. Los rótulos fijos de plantilla suenan a ficha leída.
+- **PROHIBIDOS los rótulos de sección**: "Lo que puede fallar.", "Veredicto.", "Su estilo.", "Cómo pillarla.",
+  "Lo que nadie te cuenta.", "Cómo arreglarlo.", "Cómo desengancharte.", "Qué significa para ti.". El
+  CONTENIDO de cada uno se queda (la pega, el veredicto, el consejo, la frase de remate); lo que se va es la
+  etiqueta. La plantilla por ítem sigue en el MISMO orden, pero contada.
+  - Mal: `Lo que puede fallar. Italia la prohibió por ley.` → Bien: `El problema es que en Italia ya la han prohibido por ley.`
+  - Mal: `Veredicto. Ya existe.` → Bien: `Allí ya existe. En Europa, lo prometen.`
+  - Mal: `Cómo arreglarlo. Apaga la reproducción automática.` → Bien: `Así que apágala.` / `Mi consejo: …` / `¿El remedio? …`
+  - Mal: `Su estilo. Te paga en puntos.` → Bien: `Twitch te paga en puntos. Y tú le pagas en horas.`
+- **ESTRUCTURA NUMERADA Y CLARA (29-oct-2026, v3)**. La v2 "se siente de IA": el dueño quiere voz de
+  persona real PERO con la lista clara de antes (la v1 y `todos-los-tipos-de-malware-explicados`,
+  `todos-los-grupos-hacker-de-los-gobiernos`: "los guiones antes los hacías muy bien"). Ejemplo suyo:
+  "Estas son las cosas que veremos en 2035. Número uno…".
+  - Tras el gancho, **anuncia la lista en llano**: `Estas son las diez cosas que verás ese día. Te las cuento de
+    una en una, de la mañana a la noche.`
+  - **Cada ítem abre SIEMPRE igual: `[emphatic] Número uno. <nombre>, <apodo>.`** (en un reloj:
+    `Número uno. Las siete de la mañana: te despiertas.`). Plano, sin variar: NADA de "Vamos con la tres",
+    "La siete es…", "Empezamos por la número uno". La repetición aquí es la estructura, no un defecto.
+  - Después, **3-5 frases normales**: qué es o qué pasa → el caso o dato real → por qué te importa / la pega /
+    el consejo → remate (opcional, a menudo pegado a la frase anterior en la misma línea).
+  - Las transiciones de bloque ("Y ahora vienen las raras.", "Y la última, la más sorprendente.") se quedan.
+- **Anti-señales de IA (PROHIBIDO o como mucho UNA vez por guion)**: "¿Y sabes qué?/¿Y sabes cómo?", "Moraleja:",
+  "Eso sí:", "Ojo:", "Y ojo, que…", "Un detalle:", "Y aquí viene lo raro…" con "...", chistes forzados en cada
+  ítem, una etiqueta distinta en cada línea, "..." en cada frase, preguntas retóricas cada dos líneas, "¡…!".
+  Lo natural: "El problema es que…", "Pero…", "Lo raro es que…", "Así que…", "O sea, …", una opinión en
+  primera persona de vez en cuando ("A mí lo que me inquieta es…").
+- **Sigue valiendo todo lo demás**: frases cortas (1 frase = 1 imagen), cifras con letras y CERO dígitos,
+  negaciones con verbo, siglas separadas para el TTS (C N M C, E T F), sin diálogo con atribución, misma
+  estructura gancho (escena → pregunta → ítems → respuesta al final). No se añaden hechos nuevos al reescribir.
+- **Etiquetas v4 moderadas: 8-10 distintas por guion, no 18**. Base: [calm] [serious] [curious] [tense]
+  [surprised] [thoughtful] [amused] [warm] + [emphatic] solo en "Número X." + [friendly] en el CTA. Una por
+  línea. "..." casi nunca (0-2 por guion): las comas y los puntos ya marcan la pausa.
+- **Longitud a 1,1 de velocidad: 5.000-5.600 caracteres de narración sin etiquetas** (≈5-6 min). Medido
+  igual que `generate_voice.read_script` (tras el `---`, sin `[etiquetas]`).
+- **Shorts**: mismo tono llano; L1 = el título dicho en voz alta ("Este robot de casa cuesta veinte mil dólares.
+  Y a veces no va solo."), 30-40 s, sin `rotulo:`, sin "..." ni [whispers]/[mischievously] de relleno.
+- Reescritos así el 28-oct-2026 (con `script_v1.md` / `seo_v1.md` de copia): `asi-sera-un-dia-normal-en-2035`,
+  `cada-red-social-y-como-te-engancha`, `por-que-tu-movil-va-mas-lento-con-los-anos`,
+  `por-que-bitcoin-sube-y-baja`, `cuanto-gana-de-verdad-un-youtuber-en-espana`. Sus Shorts tienen `img: TODO`
+  hasta re-mapear al nuevo `frames.json` (el `--dry-run` da error a propósito mientras haya TODO).
+- **v3 el 29-oct-2026** (copias `script_v2.md` / `seo_v2.md`): los mismos cinco, con "Número X." plano, lista
+  anunciada, 10 etiquetas distintas, 0 "...", 5.470-5.600 caracteres. Al cambiar el texto, la voz, el troceo
+  y las imágenes del largo se regeneran (las `img:` de los Shorts apuntan a claves del `frames.json` v2).
+
+### Largos DINÁMICOS (28-oct-2026, feedback del dueño sobre 2035)
+
+"Faltan muchísimos más efectos de sonido, tiene que ser mucho más dinámico; faltan imágenes, se
+queda muchas veces en un fotograma; un pelín más lento; el mono es perfecto pero un poquito más de
+color y más currado". Cuatro piezas genéricas, para TODOS los vídeos nuevos:
+
+```
+python scripts/split_segments.py <slug> --dry-run         # plan: cuántos segmentos, duración máx.
+python scripts/split_segments.py <slug> --prefix v2_      # segmentos ≤2,5 s → frames.json esqueleto
+python scripts/convert_to_stick.py <slug>                 # STYLE v2 (más color) en cada escena
+python scripts/auto_sfx.py <slug>                         # SFX densos (--minimal = solo la capa fija)
+python scripts/make_tsx.py <slug>                         # .tsx con movimiento + Root.tsx
+```
+
+- **Más imágenes** (`split_segments.py`): parte los segmentos de whisper por PALABRA (caché
+  `words.json` en el manifest_dir, se invalida sola al re-vocear; la primera vez whisper `base`
+  tarda ~9 min en CPU para 6 min de audio, luego es instantáneo) para que ninguna imagen pase de
+  `--max 2.5` s de audio; corta en puntuación/pausas, nunca deja trozos < `--min 0.8` s ni termina en
+  "de/la/y". Escribe `whisper_raw.json`, `raw_frames.json` y `frames.json` (scene=null). Duplica las
+  imágenes (~0,04 € cada una con `lite`). Se niega si `frames.json` ya tiene escenas (`--force`,
+  guarda `frames_presplit.json`) o si algún nombre ya existe como imagen (usa `--prefix vN_`). Se
+  corre ANTES de escribir escenas; luego 1 escena por segmento leyendo SU texto, como siempre.
+- **Movimiento** (`make_tsx.py`): Ken Burns continuo en cada imagen (zoom-in / paneo / zoom-out /
+  paneo, escala ≤1,06), transición de 0,3 s en cada cambio (punch-in / slide / bounce, rotando),
+  temblor tras las frases con giro ("pero", "sin embargo", "¡no!") y pop en preguntas y cifras.
+  Fondo blanco. Máx. 2 `<Img>` a la vez. `make_tsx.py` actualiza también `durationInFrames` en Root.tsx.
+- **SFX densos** (`auto_sfx.py`, modo por defecto): ~14 efectos por minuto de vídeo final
+  (`--per-min`). Soplo en la mayoría de cambios de imagen (5 variantes), pop en cifras y nombres
+  propios, golpe en giros, caja/monedas al decir dinero, ding en años/meses, riser que culmina en
+  "¿adivinas…?"/"volvamos"/"veredicto", stings de "Número X". Solo archivos de la biblioteca
+  (`remotion/public/*-sfx/`), nada de ElevenLabs. Volumen normalizado por sonoridad de cada archivo
+  y limitado a 0,03-0,13 (la voz queda ~20 dB por encima). Música a 0.
+- **Más color** (`convert_to_stick.py`, STYLE v2): mismo mono stick, pero paredes/suelo/cielo de
+  color plano, objetos con colores alegres y fondos sencillos algo más currados; sigue siendo
+  garabato sin sombras. Re-pasar el script sube a v2 las escenas convertidas con el v1. OJO: el
+  bloque STYLE no puede llevar dígitos ni "blank"/"empty"/"no text" (desactivaría el chequeo 5 de
+  `scene_diversity_check.py` en todas las escenas). Cambio de diseño ⇒ 2-3 muestras y OK del dueño
+  antes de la tanda completa (regla de la Style Bible).
 
 ### GASTO DE IMÁGENES: tope duro de 250 € (oct-2026) — NO NEGOCIABLE
 

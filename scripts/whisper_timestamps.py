@@ -62,9 +62,11 @@ def extract_timestamps_faster(audio_path: str, model_name: str, language: str) -
     ]
 
 
-def extract_words(audio_path: str, model_name: str = None, language: str = None) -> list[dict]:
+def extract_words(audio_path: str, model_name: str = None, language: str = None,
+                  with_segments: bool = False) -> list[dict]:
     """Palabras sueltas con su tiempo: [{word, start, end}]. Requiere faster-whisper.
-    Lo usan --resegment-gap y los Shorts con guion propio (scripts/make_shorts.py)."""
+    Lo usan --resegment-gap y los Shorts con guion propio (scripts/make_shorts.py).
+    with_segments=True añade "seg" (índice del segmento de whisper al que pertenece)."""
     from faster_whisper import WhisperModel
     model_name = model_name or config.WHISPER_MODEL
     language = language or config.WHISPER_LANGUAGE
@@ -72,10 +74,39 @@ def extract_words(audio_path: str, model_name: str = None, language: str = None)
     model = WhisperModel(model_name, device="cpu", compute_type="int8")
     print(f"Transcribiendo: {audio_path}")
     segments_iter, _info = model.transcribe(audio_path, language=language, word_timestamps=True)
+    if with_segments:
+        return [
+            {"word": w.word.strip(), "start": w.start, "end": w.end, "seg": i}
+            for i, seg in enumerate(segments_iter) for w in (seg.words or [])
+        ]
     return [
         {"word": w.word.strip(), "start": w.start, "end": w.end}
         for seg in segments_iter for w in (seg.words or [])
     ]
+
+
+def cached_words(audio_path, cache_path, model_name: str = None, language: str = None) -> list[dict]:
+    """extract_words(with_segments=True) con caché en disco (cache_path, JSON).
+
+    La caché se invalida sola si cambia el audio (tamaño + fecha) o el modelo: re-vocear un
+    vídeo no reutiliza tiempos viejos. La usan split_segments.py y auto_sfx.py (largo entero)."""
+    import os
+    from pathlib import Path
+    audio_path, cache_path = Path(audio_path), Path(cache_path)
+    model_name = model_name or config.WHISPER_MODEL
+    st = os.stat(audio_path)
+    key = {"audio": audio_path.name, "size": st.st_size, "mtime": int(st.st_mtime), "model": model_name}
+    if cache_path.exists():
+        try:
+            d = json.loads(cache_path.read_text(encoding="utf-8"))
+            if d.get("key") == key:
+                return d["words"]
+        except (ValueError, KeyError):
+            pass
+    words = extract_words(str(audio_path), model_name, language, with_segments=True)
+    cache_path.write_text(json.dumps({"key": key, "words": words}, ensure_ascii=False),
+                          encoding="utf-8")
+    return words
 
 
 def extract_timestamps_resegmented(audio_path: str, model_name: str, language: str, gap: float) -> list[dict]:

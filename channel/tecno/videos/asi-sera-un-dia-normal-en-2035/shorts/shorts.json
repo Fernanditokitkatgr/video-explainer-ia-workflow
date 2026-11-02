@@ -1,0 +1,40 @@
+{
+  "shorts": [
+    {
+      "file": "short_1.mp4",
+      "tipo": "guion",
+      "titulo": "Este robot de casa cuesta 20.000 dólares (y no va solo)",
+      "tema": "ROBOT NEO",
+      "gancho": "ROBOT NEO",
+      "reveal": "UN/EMPLEADO",
+      "parte": "",
+      "cierre": "bucle",
+      "primera_frase": "Este robot de casa cuesta veinte mil dólares. Y a veces no va solo.",
+      "desde": "",
+      "t0": 0.0,
+      "dur": 36.02,
+      "youtube_id": "KjuL3SzNIHg",
+      "publish_at": "2026-11-08T12:00:00Z",
+      "tiktok_publish_id": null,
+      "tiktok_posted_at": null
+    },
+    {
+      "file": "short_2.mp4",
+      "tipo": "guion",
+      "titulo": "Neuralink ya deja escribir en el móvil solo con pensarlo",
+      "tema": "CHIP NEURALINK",
+      "gancho": "CHIP NEURALINK",
+      "reveal": "YA ES/REAL",
+      "parte": "",
+      "cierre": "seco",
+      "primera_frase": "Neuralink ya deja escribir en el móvil solo con pensarlo.",
+      "desde": "",
+      "t0": 0.0,
+      "dur": 36.16,
+      "youtube_id": "sUYcfiSdRg0",
+      "publish_at": "2026-11-08T20:00:00Z",
+      "tiktok_publish_id": null,
+      "tiktok_posted_at": null
+    }
+  ]
+}

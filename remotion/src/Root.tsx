@@ -80,14 +80,41 @@ import { CadaGranCiberataqueQueHaSufridoEspana } from "./CadaGranCiberataqueQueH
 import { CadaCapaDeInternetHastaLaDarkWeb } from "./CadaCapaDeInternetHastaLaDarkWeb";
 import { AsiSeraUnDiaNormalEn2035 } from "./AsiSeraUnDiaNormalEn2035";
 import { CadaRedSocialYComoTeEngancha } from "./CadaRedSocialYComoTeEngancha";
+import { PorQueTuMovilVaMasLentoConLosAnos } from "./PorQueTuMovilVaMasLentoConLosAnos";
+import { PorQueBitcoinSubeYBaja } from "./PorQueBitcoinSubeYBaja";
+import { CuantoGanaDeVerdadUnYoutuberEnEspana } from "./CuantoGanaDeVerdadUnYoutuberEnEspana";
 
 export const RemotionRoot: React.FC = () => {
   return (
     <>
       <Composition
+        id="CuantoGanaDeVerdadUnYoutuberEnEspana"
+        component={CuantoGanaDeVerdadUnYoutuberEnEspana}
+        durationInFrames={8213}
+        fps={30}
+        width={1920}
+        height={1080}
+      />
+      <Composition
+        id="PorQueBitcoinSubeYBaja"
+        component={PorQueBitcoinSubeYBaja}
+        durationInFrames={8558}
+        fps={30}
+        width={1920}
+        height={1080}
+      />
+      <Composition
+        id="PorQueTuMovilVaMasLentoConLosAnos"
+        component={PorQueTuMovilVaMasLentoConLosAnos}
+        durationInFrames={9682}
+        fps={30}
+        width={1920}
+        height={1080}
+      />
+      <Composition
         id="CadaRedSocialYComoTeEngancha"
         component={CadaRedSocialYComoTeEngancha}
-        durationInFrames={8868}
+        durationInFrames={9852}
         fps={30}
         width={1920}
         height={1080}
@@ -95,7 +122,7 @@ export const RemotionRoot: React.FC = () => {
       <Composition
         id="AsiSeraUnDiaNormalEn2035"
         component={AsiSeraUnDiaNormalEn2035}
-        durationInFrames={8689}
+        durationInFrames={9761}
         fps={30}
         width={1920}
         height={1080}
@@ -119,7 +146,7 @@ export const RemotionRoot: React.FC = () => {
       <Composition
         id="CadaGranApagonDeLaHistoria"
         component={CadaGranApagonDeLaHistoria}
-        durationInFrames={9936}
+        durationInFrames={12413}
         fps={30}
         width={1920}
         height={1080}
@@ -135,7 +162,7 @@ export const RemotionRoot: React.FC = () => {
       <Composition
         id="CadaEstafaQueTePuedenHacerEnEspana"
         component={CadaEstafaQueTePuedenHacerEnEspana}
-        durationInFrames={9609}
+        durationInFrames={12003}
         fps={30}
         width={1920}
         height={1080}

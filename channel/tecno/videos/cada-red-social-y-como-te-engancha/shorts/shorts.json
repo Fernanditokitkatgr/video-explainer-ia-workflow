@@ -1,0 +1,40 @@
+{
+  "shorts": [
+    {
+      "file": "short_1.mp4",
+      "tipo": "guion",
+      "titulo": "TikTok sabe cuántos vídeos bastan para engancharte",
+      "tema": "TIKTOK",
+      "gancho": "TIKTOK",
+      "reveal": "260/VÍDEOS",
+      "parte": "",
+      "cierre": "seco",
+      "primera_frase": "TikTok sabe cuántos vídeos bastan para engancharte.",
+      "desde": "",
+      "t0": 0.0,
+      "dur": 37.38,
+      "youtube_id": "OrkyRtfYkTc",
+      "publish_at": "2026-11-09T12:00:00Z",
+      "tiktok_publish_id": null,
+      "tiktok_posted_at": null
+    },
+    {
+      "file": "short_2.mp4",
+      "tipo": "guion",
+      "titulo": "BeReal nació para que soltaras el móvil (y usó una alarma)",
+      "tema": "BEREAL",
+      "gancho": "BEREAL",
+      "reveal": "UNA NOTIFICACIÓN/AL DÍA",
+      "parte": "",
+      "cierre": "seco",
+      "primera_frase": "BeReal nació para que soltaras el móvil.",
+      "desde": "",
+      "t0": 0.0,
+      "dur": 35.34,
+      "youtube_id": "h8UHRrkdDuE",
+      "publish_at": "2026-11-09T20:00:00Z",
+      "tiktok_publish_id": null,
+      "tiktok_posted_at": null
+    }
+  ]
+}

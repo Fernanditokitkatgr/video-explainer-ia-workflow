@@ -3,93 +3,770 @@
     {
       "file": "intro_tense.mp3",
       "startSec": 0.4,
+      "duration": 1.76,
+      "volume": 0.048,
+      "kind": "intro",
+      "prompt": "reused from channel SFX library (auto_sfx.py) — arranque"
+    },
+    {
+      "file": "soft_whoosh.mp3",
+      "startSec": 4.4,
+      "duration": 1.28,
+      "volume": 0.13,
+      "kind": "whoosh",
+      "prompt": "reused from channel SFX library (auto_sfx.py) — cambio de imagen"
+    },
+    {
+      "file": "bubble_pop.mp3",
+      "startSec": 11.19,
+      "duration": 1.0,
+      "volume": 0.083,
+      "kind": "pop",
+      "prompt": "reused from channel SFX library (auto_sfx.py) — España"
+    },
+    {
+      "file": "whoosh_expand.mp3",
+      "startSec": 14.12,
       "duration": 1.2,
       "volume": 0.13,
-      "prompt": "reused from channel SFX library (auto_sfx.py)"
+      "kind": "whoosh",
+      "prompt": "reused from channel SFX library (auto_sfx.py) — cambio de imagen"
+    },
+    {
+      "file": "swipe_whoosh.mp3",
+      "startSec": 24.18,
+      "duration": 1.0,
+      "volume": 0.072,
+      "kind": "whoosh",
+      "prompt": "reused from channel SFX library (auto_sfx.py) — cambio de imagen"
+    },
+    {
+      "file": "sign_pop.mp3",
+      "startSec": 27.17,
+      "duration": 1.0,
+      "volume": 0.095,
+      "kind": "pop",
+      "prompt": "reused from channel SFX library (auto_sfx.py) — España?"
     },
     {
       "file": "count_1.mp3",
       "startSec": 28.5,
+      "duration": 1.0,
+      "volume": 0.13,
+      "kind": "sting",
+      "prompt": "reused from channel SFX library (auto_sfx.py) — Número uno,"
+    },
+    {
+      "file": "soft_ping.mp3",
+      "startSec": 30.51,
+      "duration": 1.08,
+      "volume": 0.068,
+      "kind": "ding",
+      "prompt": "reused from channel SFX library (auto_sfx.py) — 1977,"
+    },
+    {
+      "file": "speed_whoosh.mp3",
+      "startSec": 36.02,
+      "duration": 1.2,
+      "volume": 0.069,
+      "kind": "whoosh",
+      "prompt": "reused from channel SFX library (auto_sfx.py) — cambio de imagen"
+    },
+    {
+      "file": "cash_register_1.mp3",
+      "startSec": 41.59,
+      "duration": 1.48,
+      "volume": 0.13,
+      "kind": "cash",
+      "prompt": "reused from channel SFX library (auto_sfx.py) — millones"
+    },
+    {
+      "file": "tool_pop.mp3",
+      "startSec": 43.29,
+      "duration": 1.08,
+      "volume": 0.13,
+      "kind": "pop",
+      "prompt": "reused from channel SFX library (auto_sfx.py) — 25"
+    },
+    {
+      "file": "time_whoosh.mp3",
+      "startSec": 45.3,
+      "duration": 1.48,
+      "volume": 0.048,
+      "kind": "whoosh",
+      "prompt": "reused from channel SFX library (auto_sfx.py) — cambio de imagen"
+    },
+    {
+      "file": "multiply_pop.mp3",
+      "startSec": 49.45,
       "duration": 1.2,
       "volume": 0.13,
-      "prompt": "reused from channel SFX library (auto_sfx.py)"
+      "kind": "pop",
+      "prompt": "reused from channel SFX library (auto_sfx.py) — 1"
     },
     {
       "file": "count_2.mp3",
       "startSec": 60.3,
+      "duration": 1.0,
+      "volume": 0.13,
+      "kind": "sting",
+      "prompt": "reused from channel SFX library (auto_sfx.py) — Número dos, Noreste de Estados"
+    },
+    {
+      "file": "bubble_pop.mp3",
+      "startSec": 61.13,
+      "duration": 1.0,
+      "volume": 0.083,
+      "kind": "pop",
+      "prompt": "reused from channel SFX library (auto_sfx.py) — Noreste"
+    },
+    {
+      "file": "good_ding.mp3",
+      "startSec": 62.77,
+      "duration": 1.2,
+      "volume": 0.08,
+      "kind": "ding",
+      "prompt": "reused from channel SFX library (auto_sfx.py) — 2003,"
+    },
+    {
+      "file": "soft_whoosh.mp3",
+      "startSec": 63.84,
+      "duration": 1.28,
+      "volume": 0.13,
+      "kind": "whoosh",
+      "prompt": "reused from channel SFX library (auto_sfx.py) — cambio de imagen"
+    },
+    {
+      "file": "sign_pop.mp3",
+      "startSec": 66.77,
+      "duration": 1.0,
+      "volume": 0.095,
+      "kind": "pop",
+      "prompt": "reused from channel SFX library (auto_sfx.py) — 50"
+    },
+    {
+      "file": "money_chime.mp3",
+      "startSec": 67.27,
+      "duration": 1.28,
+      "volume": 0.13,
+      "kind": "cash",
+      "prompt": "reused from channel SFX library (auto_sfx.py) — millones"
+    },
+    {
+      "file": "impact_thud.mp3",
+      "startSec": 75.59,
+      "duration": 1.0,
+      "volume": 0.13,
+      "kind": "hit",
+      "prompt": "reused from channel SFX library (auto_sfx.py) — pero"
+    },
+    {
+      "file": "whoosh_expand.mp3",
+      "startSec": 80.26,
       "duration": 1.2,
       "volume": 0.13,
-      "prompt": "reused from channel SFX library (auto_sfx.py)"
+      "kind": "whoosh",
+      "prompt": "reused from channel SFX library (auto_sfx.py) — cambio de imagen"
     },
     {
       "file": "count_3.mp3",
       "startSec": 91.58,
+      "duration": 1.0,
+      "volume": 0.13,
+      "kind": "sting",
+      "prompt": "reused from channel SFX library (auto_sfx.py) — Número tres, Italia,"
+    },
+    {
+      "file": "tool_pop.mp3",
+      "startSec": 92.41,
+      "duration": 1.08,
+      "volume": 0.13,
+      "kind": "pop",
+      "prompt": "reused from channel SFX library (auto_sfx.py) — Italia,"
+    },
+    {
+      "file": "ding.mp3",
+      "startSec": 93.17,
+      "duration": 1.2,
+      "volume": 0.105,
+      "kind": "ding",
+      "prompt": "reused from channel SFX library (auto_sfx.py) — 2003,"
+    },
+    {
+      "file": "swipe_whoosh.mp3",
+      "startSec": 94.16,
+      "duration": 1.0,
+      "volume": 0.072,
+      "kind": "whoosh",
+      "prompt": "reused from channel SFX library (auto_sfx.py) — cambio de imagen"
+    },
+    {
+      "file": "multiply_pop.mp3",
+      "startSec": 99.67,
       "duration": 1.2,
       "volume": 0.13,
-      "prompt": "reused from channel SFX library (auto_sfx.py)"
+      "kind": "pop",
+      "prompt": "reused from channel SFX library (auto_sfx.py) — Italia,"
+    },
+    {
+      "file": "bubble_pop.mp3",
+      "startSec": 106.31,
+      "duration": 1.0,
+      "volume": 0.083,
+      "kind": "pop",
+      "prompt": "reused from channel SFX library (auto_sfx.py) — Italia"
+    },
+    {
+      "file": "coin_clink.mp3",
+      "startSec": 108.51,
+      "duration": 1.0,
+      "volume": 0.13,
+      "kind": "cash",
+      "prompt": "reused from channel SFX library (auto_sfx.py) — millones"
+    },
+    {
+      "file": "sign_pop.mp3",
+      "startSec": 112.67,
+      "duration": 1.0,
+      "volume": 0.095,
+      "kind": "pop",
+      "prompt": "reused from channel SFX library (auto_sfx.py) — Roma"
+    },
+    {
+      "file": "speed_whoosh.mp3",
+      "startSec": 115.76,
+      "duration": 1.2,
+      "volume": 0.069,
+      "kind": "whoosh",
+      "prompt": "reused from channel SFX library (auto_sfx.py) — cambio de imagen"
     },
     {
       "file": "count_4.mp3",
       "startSec": 119.94,
+      "duration": 1.0,
+      "volume": 0.13,
+      "kind": "sting",
+      "prompt": "reused from channel SFX library (auto_sfx.py) — Número cuatro,"
+    },
+    {
+      "file": "tool_pop.mp3",
+      "startSec": 121.05,
+      "duration": 1.08,
+      "volume": 0.13,
+      "kind": "pop",
+      "prompt": "reused from channel SFX library (auto_sfx.py) — Texas,"
+    },
+    {
+      "file": "found_ding.mp3",
+      "startSec": 121.77,
+      "duration": 1.0,
+      "volume": 0.13,
+      "kind": "ding",
+      "prompt": "reused from channel SFX library (auto_sfx.py) — 2021,"
+    },
+    {
+      "file": "cash_chime.mp3",
+      "startSec": 127.67,
+      "duration": 1.08,
+      "volume": 0.13,
+      "kind": "cash",
+      "prompt": "reused from channel SFX library (auto_sfx.py) — millones"
+    },
+    {
+      "file": "multiply_pop.mp3",
+      "startSec": 132.51,
       "duration": 1.2,
       "volume": 0.13,
-      "prompt": "reused from channel SFX library (auto_sfx.py)"
+      "kind": "pop",
+      "prompt": "reused from channel SFX library (auto_sfx.py) — 37"
+    },
+    {
+      "file": "time_whoosh.mp3",
+      "startSec": 135.04,
+      "duration": 1.48,
+      "volume": 0.048,
+      "kind": "whoosh",
+      "prompt": "reused from channel SFX library (auto_sfx.py) — cambio de imagen"
+    },
+    {
+      "file": "bubble_pop.mp3",
+      "startSec": 138.35,
+      "duration": 1.0,
+      "volume": 0.083,
+      "kind": "pop",
+      "prompt": "reused from channel SFX library (auto_sfx.py) — 19"
+    },
+    {
+      "file": "soft_whoosh.mp3",
+      "startSec": 145.74,
+      "duration": 1.28,
+      "volume": 0.13,
+      "kind": "whoosh",
+      "prompt": "reused from channel SFX library (auto_sfx.py) — cambio de imagen"
     },
     {
       "file": "count_5.mp3",
       "startSec": 150.44,
+      "duration": 1.0,
+      "volume": 0.13,
+      "kind": "sting",
+      "prompt": "reused from channel SFX library (auto_sfx.py) — Número cinco,"
+    },
+    {
+      "file": "sign_pop.mp3",
+      "startSec": 151.43,
+      "duration": 1.0,
+      "volume": 0.095,
+      "kind": "pop",
+      "prompt": "reused from channel SFX library (auto_sfx.py) — Besnes,"
+    },
+    {
+      "file": "alert_ding.mp3",
+      "startSec": 152.15,
       "duration": 1.2,
       "volume": 0.13,
-      "prompt": "reused from channel SFX library (auto_sfx.py)"
+      "kind": "ding",
+      "prompt": "reused from channel SFX library (auto_sfx.py) — 2019,"
+    },
+    {
+      "file": "whoosh_expand.mp3",
+      "startSec": 156.42,
+      "duration": 1.2,
+      "volume": 0.13,
+      "kind": "whoosh",
+      "prompt": "reused from channel SFX library (auto_sfx.py) — cambio de imagen"
+    },
+    {
+      "file": "tool_pop.mp3",
+      "startSec": 157.71,
+      "duration": 1.08,
+      "volume": 0.13,
+      "kind": "pop",
+      "prompt": "reused from channel SFX library (auto_sfx.py) — 70"
+    },
+    {
+      "file": "multiply_pop.mp3",
+      "startSec": 167.91,
+      "duration": 1.2,
+      "volume": 0.13,
+      "kind": "pop",
+      "prompt": "reused from channel SFX library (auto_sfx.py) — Caracas"
+    },
+    {
+      "file": "swipe_whoosh.mp3",
+      "startSec": 176.5,
+      "duration": 1.0,
+      "volume": 0.072,
+      "kind": "whoosh",
+      "prompt": "reused from channel SFX library (auto_sfx.py) — cambio de imagen"
     },
     {
       "file": "count_6.mp3",
       "startSec": 184.32,
-      "duration": 1.2,
+      "duration": 1.0,
       "volume": 0.13,
-      "prompt": "reused from channel SFX library (auto_sfx.py)"
+      "kind": "sting",
+      "prompt": "reused from channel SFX library (auto_sfx.py) — número seis,"
+    },
+    {
+      "file": "soft_ping.mp3",
+      "startSec": 185.79,
+      "duration": 1.08,
+      "volume": 0.068,
+      "kind": "ding",
+      "prompt": "reused from channel SFX library (auto_sfx.py) — 2025,"
+    },
+    {
+      "file": "speed_whoosh.mp3",
+      "startSec": 187.12,
+      "duration": 1.2,
+      "volume": 0.069,
+      "kind": "whoosh",
+      "prompt": "reused from channel SFX library (auto_sfx.py) — cambio de imagen"
+    },
+    {
+      "file": "bubble_pop.mp3",
+      "startSec": 189.57,
+      "duration": 1.0,
+      "volume": 0.083,
+      "kind": "pop",
+      "prompt": "reused from channel SFX library (auto_sfx.py) — 14"
+    },
+    {
+      "file": "time_whoosh.mp3",
+      "startSec": 205.88,
+      "duration": 1.48,
+      "volume": 0.048,
+      "kind": "whoosh",
+      "prompt": "reused from channel SFX library (auto_sfx.py) — cambio de imagen"
     },
     {
       "file": "chapter_sting_1.mp3",
       "startSec": 215.28,
+      "duration": 1.48,
+      "volume": 0.112,
+      "kind": "sting",
+      "prompt": "reused from channel SFX library (auto_sfx.py) — Número siete,"
+    },
+    {
+      "file": "sign_pop.mp3",
+      "startSec": 216.49,
+      "duration": 1.0,
+      "volume": 0.095,
+      "kind": "pop",
+      "prompt": "reused from channel SFX library (auto_sfx.py) — Pakistan,"
+    },
+    {
+      "file": "good_ding.mp3",
+      "startSec": 217.43,
+      "duration": 1.2,
+      "volume": 0.08,
+      "kind": "ding",
+      "prompt": "reused from channel SFX library (auto_sfx.py) — 2023,"
+    },
+    {
+      "file": "tool_pop.mp3",
+      "startSec": 221.75,
+      "duration": 1.08,
+      "volume": 0.13,
+      "kind": "pop",
+      "prompt": "reused from channel SFX library (auto_sfx.py) — 220"
+    },
+    {
+      "file": "coins.mp3",
+      "startSec": 222.45,
       "duration": 1.2,
       "volume": 0.13,
-      "prompt": "reused from channel SFX library (auto_sfx.py)"
+      "kind": "cash",
+      "prompt": "reused from channel SFX library (auto_sfx.py) — millones"
+    },
+    {
+      "file": "soft_whoosh.mp3",
+      "startSec": 223.98,
+      "duration": 1.28,
+      "volume": 0.13,
+      "kind": "whoosh",
+      "prompt": "reused from channel SFX library (auto_sfx.py) — cambio de imagen"
+    },
+    {
+      "file": "whoosh_expand.mp3",
+      "startSec": 230.32,
+      "duration": 1.2,
+      "volume": 0.13,
+      "kind": "whoosh",
+      "prompt": "reused from channel SFX library (auto_sfx.py) — cambio de imagen"
     },
     {
       "file": "chapter_sting_2.mp3",
       "startSec": 241.06,
+      "duration": 1.48,
+      "volume": 0.059,
+      "kind": "sting",
+      "prompt": "reused from channel SFX library (auto_sfx.py) — Número ocho,"
+    },
+    {
+      "file": "multiply_pop.mp3",
+      "startSec": 242.25,
       "duration": 1.2,
       "volume": 0.13,
-      "prompt": "reused from channel SFX library (auto_sfx.py)"
+      "kind": "pop",
+      "prompt": "reused from channel SFX library (auto_sfx.py) — India,"
+    },
+    {
+      "file": "ding.mp3",
+      "startSec": 242.93,
+      "duration": 1.2,
+      "volume": 0.105,
+      "kind": "ding",
+      "prompt": "reused from channel SFX library (auto_sfx.py) — 2012,"
+    },
+    {
+      "file": "swipe_whoosh.mp3",
+      "startSec": 246.46,
+      "duration": 1.0,
+      "volume": 0.072,
+      "kind": "whoosh",
+      "prompt": "reused from channel SFX library (auto_sfx.py) — cambio de imagen"
+    },
+    {
+      "file": "cash_register_1.mp3",
+      "startSec": 252.53,
+      "duration": 1.48,
+      "volume": 0.13,
+      "kind": "cash",
+      "prompt": "reused from channel SFX library (auto_sfx.py) — millones"
+    },
+    {
+      "file": "speed_whoosh.mp3",
+      "startSec": 257.74,
+      "duration": 1.2,
+      "volume": 0.069,
+      "kind": "whoosh",
+      "prompt": "reused from channel SFX library (auto_sfx.py) — cambio de imagen"
+    },
+    {
+      "file": "money_chime.mp3",
+      "startSec": 266.97,
+      "duration": 1.28,
+      "volume": 0.13,
+      "kind": "cash",
+      "prompt": "reused from channel SFX library (auto_sfx.py) — millones"
+    },
+    {
+      "file": "time_whoosh.mp3",
+      "startSec": 270.5,
+      "duration": 1.48,
+      "volume": 0.048,
+      "kind": "whoosh",
+      "prompt": "reused from channel SFX library (auto_sfx.py) — cambio de imagen"
     },
     {
       "file": "chapter_sting_3.mp3",
       "startSec": 274.92,
-      "duration": 1.2,
+      "duration": 1.48,
+      "volume": 0.059,
+      "kind": "sting",
+      "prompt": "reused from channel SFX library (auto_sfx.py) — Número nueve, Quebec,"
+    },
+    {
+      "file": "bubble_pop.mp3",
+      "startSec": 275.87,
+      "duration": 1.0,
+      "volume": 0.083,
+      "kind": "pop",
+      "prompt": "reused from channel SFX library (auto_sfx.py) — Quebec,"
+    },
+    {
+      "file": "found_ding.mp3",
+      "startSec": 276.77,
+      "duration": 1.0,
       "volume": 0.13,
-      "prompt": "reused from channel SFX library (auto_sfx.py)"
+      "kind": "ding",
+      "prompt": "reused from channel SFX library (auto_sfx.py) — 1989,"
+    },
+    {
+      "file": "soft_whoosh.mp3",
+      "startSec": 285.02,
+      "duration": 1.28,
+      "volume": 0.13,
+      "kind": "whoosh",
+      "prompt": "reused from channel SFX library (auto_sfx.py) — cambio de imagen"
+    },
+    {
+      "file": "sign_pop.mp3",
+      "startSec": 291.77,
+      "duration": 1.0,
+      "volume": 0.095,
+      "kind": "pop",
+      "prompt": "reused from channel SFX library (auto_sfx.py) — 90"
+    },
+    {
+      "file": "coin_clink.mp3",
+      "startSec": 294.23,
+      "duration": 1.0,
+      "volume": 0.13,
+      "kind": "cash",
+      "prompt": "reused from channel SFX library (auto_sfx.py) — millones"
+    },
+    {
+      "file": "tool_pop.mp3",
+      "startSec": 300.09,
+      "duration": 1.08,
+      "volume": 0.13,
+      "kind": "pop",
+      "prompt": "reused from channel SFX library (auto_sfx.py) — 150"
+    },
+    {
+      "file": "cash_chime.mp3",
+      "startSec": 300.71,
+      "duration": 1.08,
+      "volume": 0.13,
+      "kind": "cash",
+      "prompt": "reused from channel SFX library (auto_sfx.py) — millones"
     },
     {
       "file": "chapter_sting_final.mp3",
       "startSec": 303.1,
-      "duration": 1.2,
-      "volume": 0.13,
-      "prompt": "reused from channel SFX library (auto_sfx.py)"
+      "duration": 1.48,
+      "volume": 0.111,
+      "kind": "sting",
+      "prompt": "reused from channel SFX library (auto_sfx.py) — Número diez,"
     },
     {
-      "file": "dramatic_hit.mp3",
-      "startSec": 347.96,
+      "file": "whoosh_expand.mp3",
+      "startSec": 304.1,
       "duration": 1.2,
       "volume": 0.13,
-      "prompt": "reused from channel SFX library (auto_sfx.py)"
+      "kind": "whoosh",
+      "prompt": "reused from channel SFX library (auto_sfx.py) — cambio de imagen"
+    },
+    {
+      "file": "alert_ding.mp3",
+      "startSec": 305.13,
+      "duration": 1.2,
+      "volume": 0.13,
+      "kind": "ding",
+      "prompt": "reused from channel SFX library (auto_sfx.py) — 1859,"
+    },
+    {
+      "file": "swipe_whoosh.mp3",
+      "startSec": 309.12,
+      "duration": 1.0,
+      "volume": 0.072,
+      "kind": "whoosh",
+      "prompt": "reused from channel SFX library (auto_sfx.py) — cambio de imagen"
+    },
+    {
+      "file": "multiply_pop.mp3",
+      "startSec": 313.41,
+      "duration": 1.2,
+      "volume": 0.13,
+      "kind": "pop",
+      "prompt": "reused from channel SFX library (auto_sfx.py) — Cuba."
+    },
+    {
+      "file": "drum_hit.mp3",
+      "startSec": 318.71,
+      "duration": 1.0,
+      "volume": 0.116,
+      "kind": "hit",
+      "prompt": "reused from channel SFX library (auto_sfx.py) — pero"
+    },
+    {
+      "file": "bubble_pop.mp3",
+      "startSec": 320.71,
+      "duration": 1.0,
+      "volume": 0.083,
+      "kind": "pop",
+      "prompt": "reused from channel SFX library (auto_sfx.py) — Boston"
+    },
+    {
+      "file": "speed_whoosh.mp3",
+      "startSec": 326.72,
+      "duration": 1.2,
+      "volume": 0.069,
+      "kind": "whoosh",
+      "prompt": "reused from channel SFX library (auto_sfx.py) — cambio de imagen"
+    },
+    {
+      "file": "sign_pop.mp3",
+      "startSec": 329.87,
+      "duration": 1.0,
+      "volume": 0.095,
+      "kind": "pop",
+      "prompt": "reused from channel SFX library (auto_sfx.py) — Estados"
+    },
+    {
+      "file": "coins.mp3",
+      "startSec": 332.31,
+      "duration": 1.2,
+      "volume": 0.13,
+      "kind": "cash",
+      "prompt": "reused from channel SFX library (auto_sfx.py) — billones"
+    },
+    {
+      "file": "tool_pop.mp3",
+      "startSec": 335.79,
+      "duration": 1.08,
+      "volume": 0.13,
+      "kind": "pop",
+      "prompt": "reused from channel SFX library (auto_sfx.py) — Unión"
+    },
+    {
+      "file": "rising_whoosh.mp3",
+      "startSec": 346.86,
+      "duration": 1.28,
+      "volume": 0.072,
+      "kind": "riser",
+      "prompt": "reused from channel SFX library (auto_sfx.py) — volvamos a la pregunta"
+    },
+    {
+      "file": "time_whoosh.mp3",
+      "startSec": 347.84,
+      "duration": 1.48,
+      "volume": 0.048,
+      "kind": "whoosh",
+      "prompt": "reused from channel SFX library (auto_sfx.py) — cambio de imagen"
+    },
+    {
+      "file": "multiply_pop.mp3",
+      "startSec": 350.13,
+      "duration": 1.2,
+      "volume": 0.13,
+      "kind": "pop",
+      "prompt": "reused from channel SFX library (auto_sfx.py) — España?"
+    },
+    {
+      "file": "bubble_pop.mp3",
+      "startSec": 356.47,
+      "duration": 1.0,
+      "volume": 0.083,
+      "kind": "pop",
+      "prompt": "reused from channel SFX library (auto_sfx.py) — 60"
+    },
+    {
+      "file": "soft_ping.mp3",
+      "startSec": 359.69,
+      "duration": 1.08,
+      "volume": 0.068,
+      "kind": "ding",
+      "prompt": "reused from channel SFX library (auto_sfx.py) — marzo"
+    },
+    {
+      "file": "soft_whoosh.mp3",
+      "startSec": 364.36,
+      "duration": 1.28,
+      "volume": 0.13,
+      "kind": "whoosh",
+      "prompt": "reused from channel SFX library (auto_sfx.py) — cambio de imagen"
+    },
+    {
+      "file": "shock_hit.mp3",
+      "startSec": 375.15,
+      "duration": 1.2,
+      "volume": 0.13,
+      "kind": "hit",
+      "prompt": "reused from channel SFX library (auto_sfx.py) — pero"
+    },
+    {
+      "file": "whoosh_expand.mp3",
+      "startSec": 379.66,
+      "duration": 1.2,
+      "volume": 0.13,
+      "kind": "whoosh",
+      "prompt": "reused from channel SFX library (auto_sfx.py) — cambio de imagen"
+    },
+    {
+      "file": "good_ding.mp3",
+      "startSec": 385.25,
+      "duration": 1.2,
+      "volume": 0.08,
+      "kind": "ding",
+      "prompt": "reused from channel SFX library (auto_sfx.py) — abril"
+    },
+    {
+      "file": "sign_pop.mp3",
+      "startSec": 387.05,
+      "duration": 1.0,
+      "volume": 0.095,
+      "kind": "pop",
+      "prompt": "reused from channel SFX library (auto_sfx.py) — CNMC"
+    },
+    {
+      "file": "swipe_whoosh.mp3",
+      "startSec": 398.16,
+      "duration": 1.0,
+      "volume": 0.072,
+      "kind": "whoosh",
+      "prompt": "reused from channel SFX library (auto_sfx.py) — cambio de imagen"
     },
     {
       "file": "subscribe_chime.mp3",
-      "startSec": 403.3,
-      "duration": 1.2,
+      "startSec": 403.34,
+      "duration": 1.6,
       "volume": 0.13,
-      "prompt": "reused from channel SFX library (auto_sfx.py)"
+      "kind": "subscribe",
+      "prompt": "reused from channel SFX library (auto_sfx.py) — si te gusta entender"
     }
   ],
   "music": {

@@ -90,7 +90,11 @@ def check_recipe(cfg: dict, rep: Report) -> list[dict]:
         return []
     rep.ok("receta con frames", f"{len(frames)} frames")
 
-    if not data.get("style_base"):
+    if (not data.get("style_base") and data.get("estilo") == "stick_cutre"
+            and all("STYLE (applies" in (f.get("scene") or "") for f in frames)):
+        # convert_to_stick.py vacía style_base a propósito: el bloque STYLE va dentro de cada escena
+        rep.ok("style_base definido", "stick_cutre: STYLE dentro de cada escena")
+    elif not data.get("style_base"):
         rep.fail("style_base definido", "sin style_base: usaría el estilo global equivocado")
     else:
         rep.ok("style_base definido")
@@ -258,7 +262,11 @@ def check_audio_layer(cfg: dict, rep: Report) -> None:
             rep.fail("clip de música generado", f"falta {music['file']}")
         else:
             rep.ok("clip de música generado")
-        if "<Loop" not in (config.REPO_ROOT / cfg["tsx"]).read_text(encoding="utf-8"):
+        if not float(music.get("volume", 0) or 0):
+            # 27-oct-2026: SIN música de fondo por decisión del usuario (volume 0). make_tsx.py
+            # ya no cablea el <Loop> en ese caso (no decodifica un audio que no suena).
+            rep.ok("música cableada en el .tsx", "volume 0: sin música por decisión del usuario")
+        elif "<Loop" not in (config.REPO_ROOT / cfg["tsx"]).read_text(encoding="utf-8"):
             rep.fail("música cableada en el .tsx", "no hay <Loop>: definida pero no suena")
         else:
             rep.ok("música cableada en el .tsx")

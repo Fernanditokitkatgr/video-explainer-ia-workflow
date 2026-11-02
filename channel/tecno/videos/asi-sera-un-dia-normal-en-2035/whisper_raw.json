@@ -1,467 +1,952 @@
 [
   {
-    "file": "0_00.jpg",
+    "file": "v3_0_00.jpg",
     "startSec": 0.0,
-    "text": "son las siete de la mañana de un martes de 2035."
+    "text": "son las 7 de la mañana"
   },
   {
-    "file": "0_03.jpg",
-    "startSec": 3.5,
-    "text": "¿Tu casa ya está caliente?"
+    "file": "v3_0_01.jpg",
+    "startSec": 1.16,
+    "text": "de un martes de 2035."
   },
   {
-    "file": "0_05.jpg",
-    "startSec": 5.1,
-    "text": "¡Y ya no tienes caldera! Abajo te espera un taxi,"
+    "file": "v3_0_03.jpg",
+    "startSec": 3.48,
+    "text": "¿Tú casa ya está calentita?"
   },
   {
-    "file": "0_08.jpg",
-    "startSec": 8.24,
+    "file": "v3_0_05.jpg",
+    "startSec": 5.22,
+    "text": "¿Y no tienes caldera?"
+  },
+  {
+    "file": "v3_0_06.jpg",
+    "startSec": 6.62,
+    "text": "Abajo te espera un taxi,"
+  },
+  {
+    "file": "v3_0_08.jpg",
+    "startSec": 8.28,
     "text": "sin nadie al volante."
   },
   {
-    "file": "0_09.jpg",
-    "startSec": 9.62,
-    "text": "¿Ciencia ficción?"
+    "file": "v3_0_09.jpg",
+    "startSec": 9.7,
+    "text": "Parece ciencia ficción,"
   },
   {
-    "file": "0_10.jpg",
-    "startSec": 10.68,
-    "text": "¡No!"
-  },
-  {
-    "file": "0_11.jpg",
+    "file": "v3_0_11.jpg",
     "startSec": 11.3,
-    "text": "Las diez cosas de este día ya se están construyendo."
+    "text": "pero todo lo de este día"
   },
   {
-    "file": "0_14.jpg",
-    "startSec": 14.5,
-    "text": "¿Van a llegar todas?"
+    "file": "v3_0_12.jpg",
+    "startSec": 12.44,
+    "text": "ya se está construyendo hoy."
   },
   {
-    "file": "0_15.jpg",
-    "startSec": 15.82,
-    "text": "¡No! Algunas lo tienen muy difícil."
+    "file": "v3_0_14.jpg",
+    "startSec": 14.3,
+    "text": "Otra cosa es que llegue todo."
   },
   {
-    "file": "0_18.jpg",
-    "startSec": 18.36,
-    "text": "Cada hora lleva a su beré dicto. Y una ya tuvo fecha, para dentro de un año."
+    "file": "v3_0_16.jpg",
+    "startSec": 16.14,
+    "text": "Algunas lo tienen difícil."
   },
   {
-    "file": "0_23.jpg",
-    "startSec": 23.18,
-    "text": "¿Han pasado siete?"
+    "file": "v3_0_17.jpg",
+    "startSec": 17.82,
+    "text": "Y una ya tuvo fecha para dentro de un año."
   },
   {
-    "file": "0_24.jpg",
-    "startSec": 24.46,
+    "file": "v3_0_20.jpg",
+    "startSec": 20.2,
+    "text": "De eso hace 7."
+  },
+  {
+    "file": "v3_0_21.jpg",
+    "startSec": 21.46,
     "text": "¿A divinas cuál?"
   },
   {
-    "file": "0_25.jpg",
-    "startSec": 25.48,
-    "text": "¡La siete de la mañana!"
+    "file": "v3_0_22.jpg",
+    "startSec": 22.44,
+    "text": "Estas son las 10 cosas que verás ese día."
   },
   {
-    "file": "0_26.jpg",
-    "startSec": 26.92,
-    "text": "¡El despertar!"
+    "file": "v3_0_25.jpg",
+    "startSec": 25.24,
+    "text": "Te las cuento de una en una"
   },
   {
-    "file": "0_28.jpg",
-    "startSec": 28.02,
-    "text": "Te calienta una bomba de calor. Y la luz sale de las placas del tejado. Esto ya tiene ley. Según la directiva europea de edificios, desde 2030 todos los edificios nuevos serán de cero emisiones. Y en 2040, Europa quiere dejar de calentar casas con gás y gasolio. Veré dicto. ¡Ya existe!"
+    "file": "v3_0_26.jpg",
+    "startSec": 26.46,
+    "text": "de la mañana a la noche."
   },
   {
-    "file": "0_45.jpg",
-    "startSec": 45.74,
-    "text": "Lo que puede fallar. España debía adaptarla antes de junio. Y en mayo iba por el 60%. La casa de futuro ya se construye. El piso de tu abuela sigue igual."
+    "file": "v3_0_28.jpg",
+    "startSec": 28.22,
+    "text": "Número 1."
   },
   {
-    "file": "0_55.jpg",
-    "startSec": 55.84,
-    "text": "¡La siete y media!"
+    "file": "v3_0_29.jpg",
+    "startSec": 28.9,
+    "text": "La 7 de la mañana."
   },
   {
-    "file": "0_57.jpg",
-    "startSec": 57.1,
-    "text": "¡El desayuno! ¡Un taspate en la tostada! Y ese pato nunca existió. Salió de células cultivadas."
+    "file": "v3_0_30.jpg",
+    "startSec": 30.72,
+    "text": "Te despiertas."
   },
   {
-    "file": "1_03.jpg",
-    "startSec": 63.22,
-    "text": "Esto ya se vende."
+    "file": "v3_0_31.jpg",
+    "startSec": 31.78,
+    "text": "El calor sale de una bomba de calor."
   },
   {
-    "file": "1_04.jpg",
-    "startSec": 64.56,
-    "text": "Singapura provó la carne cultivada en 2020."
+    "file": "v3_0_33.jpg",
+    "startSec": 33.88,
+    "text": "Y la luz de las placas del tejado."
   },
   {
-    "file": "1_07.jpg",
-    "startSec": 67.28,
-    "text": "Estados Unidos en 2023."
+    "file": "v3_0_35.jpg",
+    "startSec": 35.9,
+    "text": "Esto ya es ley."
   },
   {
-    "file": "1_09.jpg",
-    "startSec": 69.5,
-    "text": "Y en San Sebastián Bayotec Futs empezó a construir una planta para mil toneladas al año."
+    "file": "v3_0_37.jpg",
+    "startSec": 37.18,
+    "text": "Según la directiva europea de edificios,"
   },
   {
-    "file": "1_14.jpg",
-    "startSec": 74.58,
-    "text": "Veré dicto. ¡Fuera ya existe!"
+    "file": "v3_0_39.jpg",
+    "startSec": 39.2,
+    "text": "desde 2030 todos los nuevos"
   },
   {
-    "file": "1_16.jpg",
-    "startSec": 76.74,
-    "text": "En España,"
+    "file": "v3_0_40.jpg",
+    "startSec": 40.94,
+    "text": "serán de cero emisiones."
   },
   {
-    "file": "1_17.jpg",
-    "startSec": 77.6,
-    "text": "dudoso."
+    "file": "v3_0_42.jpg",
+    "startSec": 42.62,
+    "text": "Y para 2020,"
   },
   {
-    "file": "1_18.jpg",
-    "startSec": 78.36,
-    "text": "Lo que puede fallar. Italia la prohivió por ley. Y la Unión Europea aún no ha aprobado ninguna."
+    "file": "v3_0_44.jpg",
+    "startSec": 44.06,
+    "text": "Europa quiere dejar de calentar"
   },
   {
-    "file": "1_23.jpg",
-    "startSec": 83.92,
-    "text": "La carne del futuro ya existe. Lo difícil es que te dejen comprarla. ¡Las ocho y cuarto!"
+    "file": "v3_0_45.jpg",
+    "startSec": 45.32,
+    "text": "casas con gas y gasoleo."
   },
   {
-    "file": "1_29.jpg",
-    "startSec": 89.48,
-    "text": "¡El trayecto! Te subes al taxi y el volante gira solo. Esto ya pasa."
+    "file": "v3_0_47.jpg",
+    "startSec": 47.04,
+    "text": "El problema es que España tenía"
   },
   {
-    "file": "1_34.jpg",
-    "startSec": 94.5,
-    "text": "Waymo, la empresa hermana de Google, circula sin conductor en más de 10 ciudades de Estados Unidos."
+    "file": "v3_0_48.jpg",
+    "startSec": 48.6,
+    "text": "que adaptar la ley antes de junio."
   },
   {
-    "file": "1_39.jpg",
-    "startSec": 99.58,
-    "text": "A principios de este año daba unos 500 mil viajes de pago a la semana."
+    "file": "v3_0_50.jpg",
+    "startSec": 50.48,
+    "text": "Y en mayo iba por el 60%."
   },
   {
-    "file": "1_43.jpg",
-    "startSec": 103.52,
-    "text": "Veré dicto. ¡Aye ya existe!"
+    "file": "v3_0_52.jpg",
+    "startSec": 52.78,
+    "text": "La casa del futuro ya se construye."
   },
   {
-    "file": "1_45.jpg",
-    "startSec": 105.6,
-    "text": "En Europa lo prometen. Su primera ciudad será Londres."
+    "file": "v3_0_55.jpg",
+    "startSec": 55.2,
+    "text": "El piso de tu abuela sigue igual."
   },
   {
-    "file": "1_49.jpg",
-    "startSec": 109.04,
-    "text": "Lo que puede fallar. Para España, Waymo no ha dado ninguna fecha. El coche sin conductor ya existe,"
+    "file": "v3_0_57.jpg",
+    "startSec": 57.18,
+    "text": "Número 2."
   },
   {
-    "file": "1_54.jpg",
-    "startSec": 114.98,
-    "text": "solo que vive en otro continente."
+    "file": "v3_0_58.jpg",
+    "startSec": 57.84,
+    "text": "La 7 y media."
   },
   {
-    "file": "1_57.jpg",
-    "startSec": 117.02,
-    "text": "¡Las nueve de la mañana!"
+    "file": "v3_0_59.jpg",
+    "startSec": 59.44,
+    "text": "El desayuno."
   },
   {
-    "file": "1_58.jpg",
-    "startSec": 118.44,
-    "text": "¡El trabajo!"
+    "file": "v3_1_00.jpg",
+    "startSec": 60.44,
+    "text": "Un tas paté en la tostara."
   },
   {
-    "file": "1_59.jpg",
-    "startSec": 119.36,
-    "text": "Tu agente de inteligencia artificial ya ha contestado los correos y ha hecho el informe. Según el laboratorio M -E -T -R, la duración de las tareas que una inteligencia artificial termina sola se duplica cada 7 meses y lleva así 6 años."
+    "file": "v3_1_02.jpg",
+    "startSec": 62.18,
+    "text": "Y ese patón nunca existió,"
   },
   {
-    "file": "2_13.jpg",
-    "startSec": 133.58,
-    "text": "Veré dicto. Lo prometen. Y la tendencia les da la razón."
+    "file": "v3_1_03.jpg",
+    "startSec": 63.9,
+    "text": "salió de células cultivadas."
   },
   {
-    "file": "2_17.jpg",
-    "startSec": 137.5,
-    "text": "Lo que puede fallar. Esas tareas las cierta la mitad de las veces."
+    "file": "v3_1_05.jpg",
+    "startSec": 65.54,
+    "text": "Fue la de Europa ya se vende."
   },
   {
-    "file": "2_21.jpg",
-    "startSec": 141.52,
-    "text": "La otra mitad hay que repasarla. Tu compañero de mesa puede ser un programa y tú, el que le corriga los deberes. La sonce de la mañana."
+    "file": "v3_1_07.jpg",
+    "startSec": 67.26,
+    "text": "Singapura provó la carne cultivada en 2020"
   },
   {
-    "file": "2_29.jpg",
-    "startSec": 149.24,
+    "file": "v3_1_09.jpg",
+    "startSec": 69.34,
+    "text": "y Estados Unidos en 2023."
+  },
+  {
+    "file": "v3_1_11.jpg",
+    "startSec": 71.86,
+    "text": "Y en San Sebastián,"
+  },
+  {
+    "file": "v3_1_13.jpg",
+    "startSec": 73.06,
+    "text": "biotec futs empezó a construir"
+  },
+  {
+    "file": "v3_1_14.jpg",
+    "startSec": 74.64,
+    "text": "una planta para mil toneladas al año."
+  },
+  {
+    "file": "v3_1_16.jpg",
+    "startSec": 76.92,
+    "text": "Pero en Italia la han prohibido"
+  },
+  {
+    "file": "v3_1_18.jpg",
+    "startSec": 78.38,
+    "text": "por ley y la unión"
+  },
+  {
+    "file": "v3_1_19.jpg",
+    "startSec": 79.52,
+    "text": "europea todavía no ha probado ninguna."
+  },
+  {
+    "file": "v3_1_21.jpg",
+    "startSec": 81.9,
+    "text": "La carne del futuro ya existe."
+  },
+  {
+    "file": "v3_1_23.jpg",
+    "startSec": 83.84,
+    "text": "Lo difícil es que te dejen comprarla."
+  },
+  {
+    "file": "v3_1_26.jpg",
+    "startSec": 86.18,
+    "text": "Número 3."
+  },
+  {
+    "file": "v3_1_27.jpg",
+    "startSec": 86.72,
+    "text": "La 8 y 4."
+  },
+  {
+    "file": "v3_1_28.jpg",
+    "startSec": 88.36,
+    "text": "Te vas al curro."
+  },
+  {
+    "file": "v3_1_29.jpg",
+    "startSec": 89.46,
+    "text": "Te subes al taxi y el podante gira solo."
+  },
+  {
+    "file": "v3_1_32.jpg",
+    "startSec": 92.14,
+    "text": "Waymo, la empresa hermana de Google,"
+  },
+  {
+    "file": "v3_1_34.jpg",
+    "startSec": 94.14,
+    "text": "ya circula sin conductor en más de 10"
+  },
+  {
+    "file": "v3_1_35.jpg",
+    "startSec": 95.9,
+    "text": "ciudades de Estados Unidos."
+  },
+  {
+    "file": "v3_1_37.jpg",
+    "startSec": 97.62,
+    "text": "A principios de este año daba unos 500"
+  },
+  {
+    "file": "v3_1_39.jpg",
+    "startSec": 99.48,
+    "text": "mil viajes de pago a la semana."
+  },
+  {
+    "file": "v3_1_41.jpg",
+    "startSec": 101.62,
+    "text": "En Europa quieren empezar por Londres."
+  },
+  {
+    "file": "v3_1_43.jpg",
+    "startSec": 103.6,
+    "text": "Para España no ha dado ninguna fecha."
+  },
+  {
+    "file": "v3_1_45.jpg",
+    "startSec": 105.7,
+    "text": "O sea, el coche sin conductor ya existe."
+  },
+  {
+    "file": "v3_1_48.jpg",
+    "startSec": 108.32,
+    "text": "Solo que vive en otro continente."
+  },
+  {
+    "file": "v3_1_50.jpg",
+    "startSec": 110.28,
+    "text": "Número 4."
+  },
+  {
+    "file": "v3_1_51.jpg",
+    "startSec": 111.38,
+    "text": "Las 9."
+  },
+  {
+    "file": "v3_1_52.jpg",
+    "startSec": 112.34,
+    "text": "Llegas al trabajo."
+  },
+  {
+    "file": "v3_1_53.jpg",
+    "startSec": 113.14,
+    "text": "Tu agente de inteligencia artificial ya ha"
+  },
+  {
+    "file": "v3_1_55.jpg",
+    "startSec": 115.52,
+    "text": "contestado los correos"
+  },
+  {
+    "file": "v3_1_56.jpg",
+    "startSec": 116.62,
+    "text": "y te ha hecho el informe."
+  },
+  {
+    "file": "v3_1_58.jpg",
+    "startSec": 118.28,
+    "text": "Lo ha medido el laboratorio M -E -T -R."
+  },
+  {
+    "file": "v3_2_00.jpg",
+    "startSec": 120.8,
+    "text": "La duración de las tareas que una inteligencia artificial"
+  },
+  {
+    "file": "v3_2_03.jpg",
+    "startSec": 123.26,
+    "text": "termina sola se duplica cada 7 meses"
+  },
+  {
+    "file": "v3_2_05.jpg",
+    "startSec": 125.54,
+    "text": "y lleva así 6 años."
+  },
+  {
+    "file": "v3_2_07.jpg",
+    "startSec": 127.88,
+    "text": "Pero sólo las afierta a la mitad de las veces."
+  },
+  {
+    "file": "v3_2_10.jpg",
+    "startSec": 130.48,
+    "text": "La otra mitad hay que repasarla."
+  },
+  {
+    "file": "v3_2_12.jpg",
+    "startSec": 132.5,
+    "text": "Tu compañero de mesa puede ser un programa"
+  },
+  {
+    "file": "v3_2_14.jpg",
+    "startSec": 134.44,
+    "text": "y tú el que le corrí que los deberés."
+  },
+  {
+    "file": "v3_2_17.jpg",
+    "startSec": 137.08,
+    "text": "Número 5."
+  },
+  {
+    "file": "v3_2_18.jpg",
+    "startSec": 138.24,
+    "text": "La 11."
+  },
+  {
+    "file": "v3_2_19.jpg",
+    "startSec": 139.24,
     "text": "El médico."
   },
   {
-    "file": "2_30.jpg",
-    "startSec": 150.06,
+    "file": "v3_2_20.jpg",
+    "startSec": 140.18,
     "text": "Tu madre se hace una mamografía."
   },
   {
-    "file": "2_32.jpg",
-    "startSec": 152.1,
-    "text": "Antes que el radiólogo, la mira una inteligencia artificial. Esto ya funciona."
+    "file": "v3_2_21.jpg",
+    "startSec": 141.74,
+    "text": "Y antes que el radiólogo"
   },
   {
-    "file": "2_36.jpg",
-    "startSec": 156.68,
-    "text": "En su écie a un ensayo con más de 100 .000 mujeres lo probó. Se encontraron un 29 % más de cánceres y los radiólogos leyeron un 44 % menos."
+    "file": "v3_2_23.jpg",
+    "startSec": 143.24,
+    "text": "la mira una inteligencia artificial."
   },
   {
-    "file": "2_46.jpg",
-    "startSec": 166.16,
-    "text": "Veré dicto. Ya existe. Lo que puede fallar. Encontrar más cánceres aún no demuestra que mueran menos personas."
+    "file": "v3_2_25.jpg",
+    "startSec": 145.44,
+    "text": "En Suecia lo probaron con más de 100 .000 mujeres."
   },
   {
-    "file": "2_53.jpg",
-    "startSec": 173.22,
-    "text": "La máquina ya está en la consulta y el médico sigue firmando. La una del mediodía."
+    "file": "v3_2_28.jpg",
+    "startSec": 148.2,
+    "text": "Encontraron un 29"
   },
   {
-    "file": "2_58.jpg",
-    "startSec": 178.5,
+    "file": "v3_2_29.jpg",
+    "startSec": 149.38,
+    "text": "% más de cánceres"
+  },
+  {
+    "file": "v3_2_30.jpg",
+    "startSec": 150.78,
+    "text": "y los radiólogos leyeron"
+  },
+  {
+    "file": "v3_2_32.jpg",
+    "startSec": 152.18,
+    "text": "un 44 % menos."
+  },
+  {
+    "file": "v3_2_34.jpg",
+    "startSec": 154.18,
+    "text": "Encontrar más cánceres"
+  },
+  {
+    "file": "v3_2_35.jpg",
+    "startSec": 155.44,
+    "text": "todavía no demuestra que mueran"
+  },
+  {
+    "file": "v3_2_36.jpg",
+    "startSec": 156.82,
+    "text": "menos personas y quien firma sigue siendo"
+  },
+  {
+    "file": "v3_2_39.jpg",
+    "startSec": 159.24,
+    "text": "el médico."
+  },
+  {
+    "file": "v3_2_40.jpg",
+    "startSec": 160.2,
+    "text": "Número 6."
+  },
+  {
+    "file": "v3_2_41.jpg",
+    "startSec": 161.36,
+    "text": "La 1."
+  },
+  {
+    "file": "v3_2_42.jpg",
+    "startSec": 162.2,
     "text": "La compra."
   },
   {
-    "file": "2_59.jpg",
-    "startSec": 179.3,
-    "text": "Te falta leche."
+    "file": "v3_2_43.jpg",
+    "startSec": 163.1,
+    "text": "Te has quedado sin leche."
   },
   {
-    "file": "3_00.jpg",
-    "startSec": 180.38,
-    "text": "Y un dron te la dejan el jardín."
+    "file": "v3_2_44.jpg",
+    "startSec": 164.68,
+    "text": "Y un dron te la deja en el jardín."
   },
   {
-    "file": "3_02.jpg",
-    "startSec": 182.22,
-    "text": "Esto ya pasa en Texas."
+    "file": "v3_2_46.jpg",
+    "startSec": 166.8,
+    "text": "Ya pasa en Texas."
   },
   {
-    "file": "3_04.jpg",
-    "startSec": 184.18,
-    "text": "Wing de la familia de Google reparte con drones para los supermercados Walmart."
+    "file": "v3_2_47.jpg",
+    "startSec": 167.62,
+    "text": "Wing, también de Google,"
   },
   {
-    "file": "3_08.jpg",
-    "startSec": 188.5,
-    "text": "En 2027 quieren llegar a más de 40 millones de personas."
+    "file": "v3_2_49.jpg",
+    "startSec": 169.6,
+    "text": "reparte con drones para los supermercados Walmart."
   },
   {
-    "file": "3_12.jpg",
-    "startSec": 192.36,
-    "text": "Veré dicto. Ya existe."
+    "file": "v3_2_52.jpg",
+    "startSec": 172.22,
+    "text": "En 2017 quieren llegar"
   },
   {
-    "file": "3_14.jpg",
-    "startSec": 194.34,
-    "text": "Lo que puede fallar. Cada dron carga poco más de 2 kilos y en un piso de Madrid,"
+    "file": "v3_2_53.jpg",
+    "startSec": 173.78,
+    "text": "a más de 40 millones de personas."
   },
   {
-    "file": "3_19.jpg",
-    "startSec": 199.0,
-    "text": "donde aterrisa."
+    "file": "v3_2_55.jpg",
+    "startSec": 175.92,
+    "text": "El problema es que cada dron carga poco más de 2"
   },
   {
-    "file": "3_20.jpg",
-    "startSec": 200.02,
-    "text": "El repartidor del futuro vuela, pero necesita un patio."
+    "file": "v3_2_58.jpg",
+    "startSec": 178.24,
+    "text": "kilos y en un piso de Madrid, donde"
   },
   {
-    "file": "3_23.jpg",
-    "startSec": 203.66,
-    "text": "Y ahora vienen las que más cuestan. Las 4 de la tarde."
+    "file": "v3_3_00.jpg",
+    "startSec": 180.3,
+    "text": "aterrisa."
   },
   {
-    "file": "3_27.jpg",
-    "startSec": 207.28,
-    "text": "El dinero."
+    "file": "v3_3_01.jpg",
+    "startSec": 181.22,
+    "text": "El repartidor del futuro vuela,"
   },
   {
-    "file": "3_28.jpg",
-    "startSec": 208.18,
-    "text": "Vágas el café con euros digitales desde el móvil y hasta sin cobertura."
+    "file": "v3_3_03.jpg",
+    "startSec": 183.28,
+    "text": "pero necesita un patio."
   },
   {
-    "file": "3_32.jpg",
-    "startSec": 212.48,
-    "text": "Esto tiene fecha. El Banco Central Europeo quiere emitirlo en 2019."
+    "file": "v3_3_04.jpg",
+    "startSec": 184.94,
+    "text": "A partir de aquí vienen las que más cuestan."
   },
   {
-    "file": "3_36.jpg",
-    "startSec": 216.88,
-    "text": "En julio el Parlamento Europeo votó abrir la negociación y el ponente es español."
+    "file": "v3_3_07.jpg",
+    "startSec": 187.52,
+    "text": "Número 7."
   },
   {
-    "file": "3_41.jpg",
-    "startSec": 221.5,
-    "text": "Fernando Navarrete."
+    "file": "v3_3_08.jpg",
+    "startSec": 188.72,
+    "text": "Las 4."
   },
   {
-    "file": "3_42.jpg",
-    "startSec": 222.86,
-    "text": "Veré dicto. Lo prometen. Y con fecha. Lo que puede fallar. Esa fecha exige a probar la ley este año. Si se retrasa, se retrasa todo."
+    "file": "v3_3_09.jpg",
+    "startSec": 189.7,
+    "text": "El café."
   },
   {
-    "file": "3_51.jpg",
-    "startSec": 231.72,
-    "text": "El dinero del futuro ya tiene calendario. Le falta la ley."
+    "file": "v3_3_10.jpg",
+    "startSec": 190.56,
+    "text": "Lo pagas con euros digitales desde el móvil."
   },
   {
-    "file": "3_55.jpg",
-    "startSec": 235.22,
-    "text": "La 6 de la tarde."
+    "file": "v3_3_12.jpg",
+    "startSec": 192.88,
+    "text": "Hasta sin cobertura."
   },
   {
-    "file": "3_56.jpg",
-    "startSec": 236.58,
-    "text": "El ocio."
+    "file": "v3_3_14.jpg",
+    "startSec": 194.18,
+    "text": "Esto ya tiene fecha."
   },
   {
-    "file": "3_57.jpg",
-    "startSec": 237.48,
-    "text": "Llevas gafas con pantalla y contestas mensajes moviendo los dedos. Esto ya se vende. Las gafas reivan con pantalla de meta y llevan una pulsera que lee los gestos de tu mano. En octubre de 2026 llegaron a Alemania, Francia e Italia."
+    "file": "v3_3_15.jpg",
+    "startSec": 195.24,
+    "text": "El Banco Central Europeo"
   },
   {
-    "file": "4_10.jpg",
-    "startSec": 250.5,
-    "text": "Por 899 euros."
+    "file": "v3_3_16.jpg",
+    "startSec": 196.76,
+    "text": "quiere emitirlo en 2019."
   },
   {
-    "file": "4_12.jpg",
-    "startSec": 252.56,
-    "text": "Veré dicto. Ya existe,"
+    "file": "v3_3_18.jpg",
+    "startSec": 198.82,
+    "text": "En julio, el Parlamento Europeo"
   },
   {
-    "file": "4_14.jpg",
-    "startSec": 254.36,
-    "text": "pero en España aún sin fecha. Lo que puede fallar. Una cámara en la cara de cada persona y una lucecita como unico aviso de que te graban. La pantalla del futuro ya va en la nariz."
+    "file": "v3_3_20.jpg",
+    "startSec": 200.62,
+    "text": "votó a abrir la negociación."
   },
   {
-    "file": "4_25.jpg",
-    "startSec": 265.08,
-    "text": "Las 8 de la tarde."
+    "file": "v3_3_22.jpg",
+    "startSec": 202.26,
+    "text": "Y el ponente es español, Fernando Navarrete."
   },
   {
-    "file": "4_26.jpg",
-    "startSec": 266.52,
-    "text": "La casa."
+    "file": "v3_3_25.jpg",
+    "startSec": 205.06,
+    "text": "Pero esa fecha exige a probar la ley este año."
   },
   {
-    "file": "4_27.jpg",
-    "startSec": 267.32,
-    "text": "Un robot con forma de persona te ha doblado la ropa. Esto ya se fabrica. La empresa Wannex vende su robotneo por 20 mil dólares y promete entregarlo en Estados Unidos en 2026."
+    "file": "v3_3_27.jpg",
+    "startSec": 207.64,
+    "text": "Si la ley se retrasa, se retrasa todo."
   },
   {
-    "file": "4_38.jpg",
-    "startSec": 278.08,
-    "text": "Pero aquí viene lo raro. Cuando Neo no sabe hacer algo, lo maneja distancia un empleado, viendo tu casa."
+    "file": "v3_3_30.jpg",
+    "startSec": 210.14,
+    "text": "Número 8."
   },
   {
-    "file": "4_44.jpg",
-    "startSec": 284.58,
-    "text": "Veré dicto. Lo prometen. Que lo haga todo solo es dudoso. Lo que puede fallar. Tu intimidad."
+    "file": "v3_3_31.jpg",
+    "startSec": 211.28,
+    "text": "Las 6."
   },
   {
-    "file": "4_50.jpg",
-    "startSec": 290.98,
-    "text": "Esa robot puede tener a un desconocido detrás. El robot de casa ya existe,"
+    "file": "v3_3_32.jpg",
+    "startSec": 212.3,
+    "text": "Quedas con tus amigos."
   },
   {
-    "file": "4_55.jpg",
-    "startSec": 295.42,
-    "text": "le falta aprender solo."
+    "file": "v3_3_33.jpg",
+    "startSec": 213.8,
+    "text": "Llevas gafas con pantalla."
   },
   {
-    "file": "4_56.jpg",
-    "startSec": 296.94,
+    "file": "v3_3_35.jpg",
+    "startSec": 215.3,
+    "text": "Y contestas los mensajes moviendo los dedos."
+  },
+  {
+    "file": "v3_3_37.jpg",
+    "startSec": 217.76,
+    "text": "Eso ya se vende."
+  },
+  {
+    "file": "v3_3_39.jpg",
+    "startSec": 219.04,
+    "text": "Las gafas raivan con pantalla de meta."
+  },
+  {
+    "file": "v3_3_41.jpg",
+    "startSec": 221.14,
+    "text": "Traen una pulsera que lee los gestos de tu mano."
+  },
+  {
+    "file": "v3_3_43.jpg",
+    "startSec": 223.22,
+    "text": "En octubre de 2026"
+  },
+  {
+    "file": "v3_3_44.jpg",
+    "startSec": 224.94,
+    "text": "llegaron a Alemania,"
+  },
+  {
+    "file": "v3_3_46.jpg",
+    "startSec": 226.26,
+    "text": "Francia y Italia"
+  },
+  {
+    "file": "v3_3_47.jpg",
+    "startSec": 227.06,
+    "text": "por 899 euros."
+  },
+  {
+    "file": "v3_3_49.jpg",
+    "startSec": 229.32,
+    "text": "A España aún sin fecha."
+  },
+  {
+    "file": "v3_3_51.jpg",
+    "startSec": 231.22,
+    "text": "A mí lo que me inquieta es otra cosa."
+  },
+  {
+    "file": "v3_3_53.jpg",
+    "startSec": 233.18,
+    "text": "Una cámara en la cara de cada persona"
+  },
+  {
+    "file": "v3_3_54.jpg",
+    "startSec": 234.94,
+    "text": "y una lucecita"
+  },
+  {
+    "file": "v3_3_56.jpg",
+    "startSec": 236.02,
+    "text": "como unico aviso de que te graban."
+  },
+  {
+    "file": "v3_3_58.jpg",
+    "startSec": 238.14,
+    "text": "Número 9."
+  },
+  {
+    "file": "v3_3_59.jpg",
+    "startSec": 239.24,
+    "text": "Las 8."
+  },
+  {
+    "file": "v3_4_00.jpg",
+    "startSec": 240.28,
+    "text": "Vuelves a casa."
+  },
+  {
+    "file": "v3_4_01.jpg",
+    "startSec": 241.38,
+    "text": "Y un robot con forma de persona"
+  },
+  {
+    "file": "v3_4_02.jpg",
+    "startSec": 242.94,
+    "text": "te ha doblado la ropa."
+  },
+  {
+    "file": "v3_4_04.jpg",
+    "startSec": 244.5,
+    "text": "La empresa OneX vende"
+  },
+  {
+    "file": "v3_4_05.jpg",
+    "startSec": 245.78,
+    "text": "su robotneo por 20 .000 dólares"
+  },
+  {
+    "file": "v3_4_07.jpg",
+    "startSec": 247.68,
+    "text": "y promete entregarlo en Estados"
+  },
+  {
+    "file": "v3_4_09.jpg",
+    "startSec": 249.24,
+    "text": "Unidos en 2026."
+  },
+  {
+    "file": "v3_4_10.jpg",
+    "startSec": 250.72,
+    "text": "Lo raro es"
+  },
+  {
+    "file": "v3_4_11.jpg",
+    "startSec": 251.7,
+    "text": "que cuando Neo no sabe hacer algo,"
+  },
+  {
+    "file": "v3_4_13.jpg",
+    "startSec": 253.82,
+    "text": "lo maneja a distancia"
+  },
+  {
+    "file": "v3_4_14.jpg",
+    "startSec": 254.66,
+    "text": "un empleado, viendo tu casa."
+  },
+  {
+    "file": "v3_4_16.jpg",
+    "startSec": 256.84,
+    "text": "Que lo haga todo solo es dudoso."
+  },
+  {
+    "file": "v3_4_18.jpg",
+    "startSec": 258.68,
+    "text": "El robot de casa ya existe,"
+  },
+  {
+    "file": "v3_4_20.jpg",
+    "startSec": 260.48,
+    "text": "lo que le falta es aprender."
+  },
+  {
+    "file": "v3_4_22.jpg",
+    "startSec": 262.2,
+    "text": "Número 10."
+  },
+  {
+    "file": "v3_4_23.jpg",
+    "startSec": 263.32,
     "text": "La 11 de la noche."
   },
   {
-    "file": "4_58.jpg",
-    "startSec": 298.42,
-    "text": "La cama."
+    "file": "v3_4_24.jpg",
+    "startSec": 264.66,
+    "text": "Ya en la cama."
   },
   {
-    "file": "4_59.jpg",
-    "startSec": 299.22,
-    "text": "Escribes un mensaje sin tocar el móvil. Solo compensarlo. Esto ya pasa en ensayos. Neuralink, la empresa de Elon Musk, implanta un chip en el cerebro de personas con paralisis. En enero de este año ya tenía 21 personas. Mueve en un cursor con la mente."
+    "file": "v3_4_25.jpg",
+    "startSec": 265.7,
+    "text": "Escribes un mensaje sin tocar el móvil."
   },
   {
-    "file": "5_14.jpg",
-    "startSec": 314.36,
-    "text": "Veré dicto. En ensayo existe."
+    "file": "v3_4_28.jpg",
+    "startSec": 268.02,
+    "text": "Solo compensarlo."
   },
   {
-    "file": "5_16.jpg",
-    "startSec": 316.78,
-    "text": "Para alguien sano,"
+    "file": "v3_4_29.jpg",
+    "startSec": 269.34,
+    "text": "Esto ya pasa en ensayos."
   },
   {
-    "file": "5_18.jpg",
-    "startSec": 318.0,
-    "text": "dudoso."
+    "file": "v3_4_31.jpg",
+    "startSec": 271.16,
+    "text": "Neuralink, la empresa de Elon Musk implanta"
   },
   {
-    "file": "5_19.jpg",
-    "startSec": 318.76,
-    "text": "Lo que puede fallar. Al primer paciente se le saltaron parte de los hilos del implante. Escribir con la mente ya es real. Para quien no puede mover las manos."
+    "file": "v3_4_33.jpg",
+    "startSec": 273.6,
+    "text": "un chip en el cerebro de personas con paralisis."
   },
   {
-    "file": "5_27.jpg",
-    "startSec": 327.72,
-    "text": "Volvamos a la pregunta."
+    "file": "v3_4_35.jpg",
+    "startSec": 275.76,
+    "text": "En enero de este año ya eran 21"
   },
   {
-    "file": "5_29.jpg",
-    "startSec": 329.16,
-    "text": "¿Cuál falló su fecha?"
+    "file": "v3_4_37.jpg",
+    "startSec": 277.96,
+    "text": "personas y mueven"
   },
   {
-    "file": "5_30.jpg",
-    "startSec": 330.5,
+    "file": "v3_4_39.jpg",
+    "startSec": 279.46,
+    "text": "un cursor con la mente."
+  },
+  {
+    "file": "v3_4_40.jpg",
+    "startSec": 280.98,
+    "text": "Aunque al primer paciente se les saltaron"
+  },
+  {
+    "file": "v3_4_42.jpg",
+    "startSec": 282.66,
+    "text": "parte de los hilos del implante."
+  },
+  {
+    "file": "v3_4_44.jpg",
+    "startSec": 284.42,
+    "text": "Para alguien sano, todavía es dudoso,"
+  },
+  {
+    "file": "v3_4_46.jpg",
+    "startSec": 286.72,
+    "text": "pero para quien no puede mover las manos,"
+  },
+  {
+    "file": "v3_4_48.jpg",
+    "startSec": 288.9,
+    "text": "escribir con la mente ya es real."
+  },
+  {
+    "file": "v3_4_51.jpg",
+    "startSec": 291.16,
+    "text": "Y ahora la pregunta del principio."
+  },
+  {
+    "file": "v3_4_53.jpg",
+    "startSec": 293.36,
+    "text": "¿Cuál se saltó su fecha?"
+  },
+  {
+    "file": "v3_4_54.jpg",
+    "startSec": 294.9,
     "text": "El taxi sin conductor."
   },
   {
-    "file": "5_32.jpg",
-    "startSec": 332.04,
-    "text": "El detesla. En 2019 Elon Musk prometió más de un millón de robotaxis para el año siguiente. Al acabar 2025 en Austin,"
+    "file": "v3_4_56.jpg",
+    "startSec": 296.58,
+    "text": "¿Pero el de Tesla?"
   },
   {
-    "file": "5_39.jpg",
-    "startSec": 339.96,
-    "text": "circulaban unos 30."
+    "file": "v3_4_57.jpg",
+    "startSec": 297.74,
+    "text": "En 2019,"
   },
   {
-    "file": "5_41.jpg",
-    "startSec": 341.24,
-    "text": "Y aquí está lo curioso. Esa promesa fallida es una de las que ya existen. Voyngo la cumple cada semana."
+    "file": "v3_4_59.jpg",
+    "startSec": 299.02,
+    "text": "Elon Musk prometió más de un millón"
   },
   {
-    "file": "5_47.jpg",
-    "startSec": 347.54,
-    "text": "¿Y tú? ¿Cuál de las 10 crees que llega antes a España?"
+    "file": "v3_5_00.jpg",
+    "startSec": 300.66,
+    "text": "de robotaxis para el año siguiente."
   },
   {
-    "file": "5_50.jpg",
-    "startSec": 350.54,
-    "text": "Teleon los comentarios."
+    "file": "v3_5_02.jpg",
+    "startSec": 302.3,
+    "text": "Al acabar 2025,"
   },
   {
-    "file": "5_51.jpg",
-    "startSec": 351.96,
-    "text": "Si te gusta entender cómo funciona de verdad la tecnología que usas cada día, suscríbete. Cada semana una máquina, un invento o una idea explicada fácil."
+    "file": "v3_5_04.jpg",
+    "startSec": 304.3,
+    "text": "en Austin circulaban unos 30."
+  },
+  {
+    "file": "v3_5_06.jpg",
+    "startSec": 306.24,
+    "text": "Y lo curioso es que esa promesa fallida"
+  },
+  {
+    "file": "v3_5_08.jpg",
+    "startSec": 308.04,
+    "text": "es de las que ya existen."
+  },
+  {
+    "file": "v3_5_09.jpg",
+    "startSec": 309.8,
+    "text": "Weymoo la cumple cada semana."
+  },
+  {
+    "file": "v3_5_11.jpg",
+    "startSec": 311.62,
+    "text": "¿Y tú?"
+  },
+  {
+    "file": "v3_5_12.jpg",
+    "startSec": 312.22,
+    "text": "¿Cuál de las 10 crees que llega antes a España?"
+  },
+  {
+    "file": "v3_5_14.jpg",
+    "startSec": 314.58,
+    "text": "Te leeré en los comentarios."
+  },
+  {
+    "file": "v3_5_15.jpg",
+    "startSec": 315.96,
+    "text": "Si te gusta entender cómo funciona de verdad la tecnología"
+  },
+  {
+    "file": "v3_5_18.jpg",
+    "startSec": 318.36,
+    "text": "que usas cada día, suscríbete."
+  },
+  {
+    "file": "v3_5_20.jpg",
+    "startSec": 320.5,
+    "text": "Cada semana, una máquina,"
+  },
+  {
+    "file": "v3_5_21.jpg",
+    "startSec": 321.96,
+    "text": "un invento o una idea explicada fácil."
   }
 ]

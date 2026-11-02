@@ -1,0 +1,40 @@
+{
+  "shorts": [
+    {
+      "file": "short_1.mp4",
+      "tipo": "guion",
+      "titulo": "¿Qué apagó España entera el 28 de abril?",
+      "tema": "APAGÓN DE ESPAÑA",
+      "gancho": "APAGÓN DE ESPAÑA",
+      "reveal": "SU RESPUESTA/SOBRETENSIÓN",
+      "parte": "",
+      "cierre": "seco",
+      "primera_frase": "¿Qué apagó España entera el veintiocho de abril?",
+      "desde": "",
+      "t0": 0.0,
+      "dur": 44.54,
+      "youtube_id": "Pt-YniF33tU",
+      "publish_at": "2026-11-06T12:00:00Z",
+      "tiktok_publish_id": null,
+      "tiktok_posted_at": null
+    },
+    {
+      "file": "short_2.mp4",
+      "tipo": "guion",
+      "titulo": "¿Qué pasaría si hoy llegara la tormenta solar de 1859?",
+      "tema": "TORMENTA SOLAR 1859",
+      "gancho": "TORMENTA SOLAR 1859",
+      "reveal": "DOS COMA SEIS/BILLONES",
+      "parte": "",
+      "cierre": "seco",
+      "primera_frase": "¿Qué pasaría si hoy llegara la tormenta solar de mil ochocientos cincuenta y nueve?",
+      "desde": "",
+      "t0": 0.0,
+      "dur": 40.02,
+      "youtube_id": "FALf-Py6ECo",
+      "publish_at": "2026-11-06T20:00:00Z",
+      "tiktok_publish_id": null,
+      "tiktok_posted_at": null
+    }
+  ]
+}

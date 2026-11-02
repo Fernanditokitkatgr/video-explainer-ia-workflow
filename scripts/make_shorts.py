@@ -44,10 +44,19 @@ del tema (o el título mientras se dice), subtítulos de 1-2 palabras y nadie ci
    `desde`/`hasta` = claves de frames.json; sin `hasta` corta ≤50 s. Si trae `gancho` y no
    `tema`, el gancho se enseña como título los 2,5 primeros segundos (ya no fijo) y avisa.
 
-Pantalla (los dos modos): fondo BLANCO (nuestras imágenes son de fondo blanco: el borde
-desaparece) con la imagen como viñeta grande arriba, `tema` arriba del todo, `titulo` grande
-solo mientras se dice, subtítulos karaoke de 2 palabras a ~62 % de la altura, `rotulo` por
-golpe y `reveal` con pop. SIN cierre congelado de 3 s. Sin música de fondo.
+Pantalla (los dos modos; rehecha el 28 y el 29-oct-2026 con el feedback del dueño): fondo BLANCO
+entero y NINGÚN texto arriba (ni título, ni `tema`, ni caja de `reveal`: "desalineados, quítalos").
+  - la imagen (IMG_Y/IMG_H) recortada al dibujo (image_fit) y algo baja, pegada a los subtítulos:
+    el dibujo entero lo más grande posible; escenas de borde a borde pierden como mucho un 20 %;
+  - movimiento: zoom lento ±4 % con paneo suave, y en cada cambio de imagen una entrada de 0,25 s
+    que alterna empujón de zoom / deslizar desde la derecha / rebote desde abajo (la 1ª no);
+  - subtítulos (~1480) virales de 1-2 palabras, blancos con contorno negro grueso, cada palabra
+    con pop y en amarillo mientras se dice (cifras/nombres solos y en verde). El `reveal` y los
+    `rotulo` que se DICEN se destacan aquí (todo amarillo, +22 %, pop fuerte); si no se dicen, avisa;
+  - efectos (SFX_DIR, sin música, 12-18 dB por debajo de la voz): whoosh en cada cambio, pop en
+    cifras/nombres/rótulos, caja registradora con el dinero, subida + golpe en el remate;
+  - los últimos 250 px, libres para la interfaz de YouTube/TikTok.
+SIN cierre congelado de 3 s. Sin música de fondo.
 
 Validación (avisa; con --estricto aborta): primera frase que no se parece al título o que
 empieza por "Número", "Pero", "Y", "La siguiente", "Su" o un pronombre; `tema` vago o que no
@@ -82,14 +91,25 @@ FONT = REPO_ROOT / "assets" / "fonts" / "Montserrat-ExtraBold.ttf"
 FONT_NAME = "Montserrat ExtraBold"  # tiene que ser el family name REAL del .ttf (name id 1/16)
 BG = "white"  # antes 0x0B1220 (azul marino): las franjas delataban el recorte (playbook §1.3.8)
 W, H, FPS = 1080, 1920, 30
-PANEL_W, PANEL_H, PANEL_Y = 1458, 814, 300  # viñeta: imagen 16:9 a ~1,35x del ancho, recortada a 1080
+# Maqueta vertical (28/29-oct-2026). 1ª versión: "la edición es fatal" (título ilegible, viñeta
+# pequeña, tercio de abajo vacío). 2ª: "los textos de arriba están desalineados, quítalos":
+# NADA de texto arriba (ni título, ni `tema`, ni caja de `reveal`). De arriba abajo:
+#   IMG_Y-IMG_Y+IMG_H  la imagen, recortada al dibujo (image_fit), algo baja (IMG_BIAS) para
+#                      quedar pegada a los subtítulos; zoom lento + transición en cada cambio
+#   CAP_Y           subtítulos de 1-2 palabras, blancos con contorno negro, palabra actual en
+#                   amarillo con pop; el remate y los rótulos se destacan AQUÍ (más grandes)
+#   SAFE_Y-H        libre: ahí van el título, el canal y los botones de YouTube/TikTok
+IMG_Y, IMG_H = 200, 1150
+IMG_BIAS = 0.7
+CAP_Y, CAP_FS = 1480, 170
+SAFE_Y = 1670
+VID_W = 1560  # modo recorte: el vídeo 16:9 del largo se escala a este ancho y se recorta a 1080
 MAX_DUR = 50.0            # modo recorte sin `hasta`
 DUR_MIN, DUR_MAX = 20.0, 50.0
 WPS_MIN, WPS_MAX = 2.8, 3.9
 WPS_EST = 3.4             # ritmo real a 1,25x, para estimar en --dry-run
 MAX_NUEVAS = 2
 VOICE_MODEL = "eleven_v4"  # decisión del usuario 27-oct-2026: voz SIEMPRE v4
-TITLE_MAX_S = 4.5
 CTA_TIKTOK = "SÍGUEME PARA\\NMÁS COMO ESTE"
 
 # Colores ASS en &HAABBGGRR.
@@ -146,6 +166,34 @@ def slash_lines(s: str) -> str:
 
 def sha(s: str | bytes) -> str:
     return hashlib.sha1(s.encode("utf-8") if isinstance(s, str) else s).hexdigest()
+
+
+_FONTS: dict = {}
+
+
+def pil_font(px: int):
+    from PIL import ImageFont
+    if px not in _FONTS:
+        _FONTS[px] = ImageFont.truetype(str(FONT), px)
+    return _FONTS[px]
+
+
+# libass toma el tamaño ASS como usWinAscent+usWinDescent (tabla OS/2), no como em: en
+# Montserrat (1109+453)/1000 = 1,562, así que \fs128 es un em de 82 px (medido 28-oct-2026).
+# OJO: los tamaños ASS de este script son ~1,56x el tamaño "de diseño" (antes los subtítulos
+# "de 110" medían 70 px de em y se veían pequeños en el móvil).
+ASS_EM = 1000 / (1109 + 453)
+
+
+def ass_text_w(s: str, fs: int, spacing: float = 0) -> float:
+    """Ancho en px de `s` a tamaño ASS `fs` (medido con PIL al em equivalente)."""
+    return pil_font(max(1, round(fs * ASS_EM))).getlength(s) + spacing * len(s)
+
+
+def fit_fs(s: str, fs: int, max_w: float, min_fs: int, spacing: float = 0) -> int:
+    while fs > min_fs and ass_text_w(s, fs, spacing) > max_w:
+        fs -= 2
+    return fs
 
 
 def ffprobe_dur(p: Path) -> float:
@@ -341,36 +389,29 @@ def align_words(script: list[str], whisper: list[dict]) -> list[tuple[float, flo
     return times  # type: ignore[return-value]
 
 
-def karaoke_tags(words: list[str], dur: float, durs: list[float] | None = None) -> str:
-    """Texto ASS karaoke: cada palabra lleva `\\k<centisegundos>` y libass la pasa de blanco
-    (SecondaryColour, "aún no dicha") a dorado (PrimaryColour, "ya dicha") cuando le toca.
-    Con `durs` (tiempos reales de whisper) el paso es exacto; sin ellos, proporcional a la
-    longitud de cada palabra."""
-    words = [w for w in words if w]
-    if not words:
-        return ""
-    if durs is None:
-        wtotal = sum(len(w) for w in words) or 1
-        durs = [dur * len(w) / wtotal for w in words]
-    return " ".join(f"{{\\k{max(1, round(100 * d))}}}{ass_escape(w.upper())}" for w, d in zip(words, durs))
+# Cada subtítulo es (inicio, fin, TEXTO_PLANO, info) con info = {"words", "starts", "key"}:
+# build_ass saca un evento por palabra con la palabra que se está diciendo en amarillo.
 
-
-def chunk_caption(words: list[str], t0: float, t1: float,
-                  per: int = 2) -> list[tuple[float, float, str, str]]:
-    """Modo recorte: (inicio, fin, TEXTO_PLANO, TEXTO_KARAOKE) por grupo de `per` palabras,
-    con el tiempo repartido por longitud (no hay tiempos por palabra del tramo del largo)."""
-    groups = [words[i:i + per] for i in range(0, len(words), per)] or [[]]
+def chunk_caption(words: list[str], t0: float, t1: float, per: int = 2) -> list[tuple]:
+    """Modo recorte: un bloque por grupo de `per` palabras, con el tiempo repartido por longitud
+    (no hay tiempos por palabra del tramo del largo)."""
+    groups = [g for g in (words[i:i + per] for i in range(0, len(words), per)) if g]
     total = sum(len(" ".join(g)) for g in groups) or 1
     out, t = [], t0
     for g in groups:
         d = (t1 - t0) * len(" ".join(g)) / total
-        out.append((t, t + d, " ".join(g), karaoke_tags(g, d)))
+        wt = sum(len(w) for w in g) or 1
+        starts, acc = [], t
+        for w in g:
+            starts.append(acc)
+            acc += d * len(w) / wt
+        out.append((t, t + d, " ".join(g), {"words": g, "starts": starts, "key": False}))
         t += d
     return out
 
 
 def word_captions(words: list[str], times: list[tuple[float, float]], tema_keys: set[str],
-                  claves: set[str] = frozenset(), per: int = 2) -> list[tuple[float, float, str, str]]:
+                  claves: set[str] = frozenset(), per: int = 2) -> list[tuple]:
     """Modo guion: bloques de `per` palabras con tiempos reales. No cruzan un punto final, y las
     palabras clave van SOLAS y en verde (lo que hacen CdeCiencia y Homosapiens con el sujeto y la
     cifra): las del `tema` cuando el guion las escribe con mayúscula (nombre propio: "NEO",
@@ -402,13 +443,8 @@ def word_captions(words: list[str], times: list[tuple[float, float]], tema_keys:
         nxt = times[groups[gi + 1][0]][0] if gi + 1 < len(groups) else last_end + 0.3
         b = nxt if nxt - last_end < 0.6 else last_end + 0.25
         ws = [words[i] for i in g]
-        plain = " ".join(ws)
-        if len(g) == 1 and is_key(ws[0]):
-            text = f"{{\\1c{GREEN}&\\2c{GREEN}&}}{ass_escape(ws[0].upper())}"
-        else:
-            starts = [times[i][0] for i in g] + [b]
-            text = karaoke_tags(ws, b - a, [starts[k + 1] - starts[k] for k in range(len(g))])
-        out.append((a, b, plain, text))
+        out.append((a, b, " ".join(ws), {"words": ws, "starts": [times[i][0] for i in g],
+                                         "key": len(g) == 1 and is_key(ws[0])}))
     return out
 
 
@@ -456,58 +492,261 @@ def ass_header() -> list[str]:
     return [
         "[Script Info]", "ScriptType: v4.00+", f"PlayResX: {W}", f"PlayResY: {H}", "WrapStyle: 0", "",
         "[V4+ Styles]", st,
-        # Tema: etiqueta del sujeto arriba del todo, todo el Short (sustituye al `gancho` fijo).
-        # BorderStyle 3 = caja opaca (dorada) con texto negro, estilo "OWEN HART - WWE".
-        f"Style: Tema,{FONT_NAME},58,{BLACK},{BLACK},{GOLD},{GOLD},0,0,0,0,100,100,2,0,3,16,0,8,60,60,60,1",
-        # Titulo: grande, negro con contorno blanco (se lee sobre el blanco y sobre el dibujo),
-        # SOLO mientras se dice (0 → fin de L1, o 2,5 s en modo recorte). Tamaño por \fs.
-        f"Style: Titulo,{FONT_NAME},84,&H00101010,&H00101010,{WHITE},{BLACK},0,0,0,0,100,100,0,0,1,8,0,8,50,50,170,1",
-        # Cap: karaoke (dorado = ya dicho, blanco = por decir), contorno negro, ~62 % de la altura.
-        f"Style: Cap,{FONT_NAME},110,{GOLD},{WHITE},{BLACK},{BLACK},0,0,0,0,100,100,1,0,1,7,3,2,50,50,680,1",
-        # Rotulo: cambia en cada golpe ("20.000 $", "SCROLL INFINITO"), verde, bajo los subtítulos.
-        f"Style: Rotulo,{FONT_NAME},92,{GREEN},{GREEN},{BLACK},{BLACK},0,0,0,0,100,100,1,0,1,6,2,2,50,50,500,1",
-        # Reveal: el remate aparece con un pop SOLO cuando se dice (ver "gancho vs remate").
-        f"Style: Reveal,{FONT_NAME},110,{GOLD},{WHITE},{BLACK},{BLACK},0,0,0,0,100,100,1,0,1,8,4,8,50,50,170,1",
-        f"Style: Parte,{FONT_NAME},44,{WHITE},{WHITE},{BLACK},{BLACK},0,0,0,0,100,100,1,0,1,5,0,7,30,30,150,1",
-        f"Style: Cta,{FONT_NAME},86,{GOLD},{WHITE},{BLACK},{BLACK},0,0,0,0,100,100,1,0,1,7,3,5,60,60,0,1",
+        # Todo se coloca con \an5\pos (centro del texto). SIN textos arriba (feedback 28-oct-2026:
+        # título, `tema` y `reveal` en caja "desalineados, quítalos"): solo imagen + subtítulos.
+        # Cap: blanco con contorno negro grueso; la palabra que se dice, en amarillo (por \1c).
+        f"Style: Cap,{FONT_NAME},{CAP_FS},{WHITE},{WHITE},{BLACK},&H50000000,0,0,0,0,100,100,1,0,1,12,6,5,40,40,0,1",
+        f"Style: Cta,{FONT_NAME},120,{GOLD},{GOLD},{BLACK},{BLACK},0,0,0,0,100,100,1,0,3,26,0,5,60,60,0,1",
         "", "[Events]",
         "Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text",
     ]
 
 
-def title_fs(titulo: str) -> int:
-    """Que el título quepa en 2 líneas: ~0,56·fs px por carácter, 2 líneas de ~960 px."""
-    return max(56, min(90, int(1900 / (0.56 * max(1, len(titulo))))))
+def image_fit(path: Path, zw: int = W, zh: int = IMG_H) -> tuple[int, int, int, int, int, int]:
+    """Encaje de una imagen en la franja central (zw×zh) para que el DIBUJO, no el blanco, la
+    llene: (cx, cy, cw, ch) = recorte en px de la imagen y (ow, oh) = tamaño final.
+    Busca dónde está la tinta (0,5-99,5 % en cada eje: fuera motas sueltas) y la encaja ENTERA
+    (probado: recortar el dibujo deja al mono o al robot cortados en el borde). Solo si la
+    tinta llega a los dos lados (sofá de pared a pared) recorta hasta un 20 % del ancho, para
+    que una escena 16:9 no se quede en una tira de 600 px de alto."""
+    from PIL import Image
+    im = Image.open(path).convert("L")
+    iw, ih = im.size
+    sm = im.resize((max(1, iw // 4), max(1, ih // 4)))
+    sw, sh = sm.size
+    px = sm.load()
+    cols, rows = [0] * sw, [0] * sh
+    for yy in range(sh):
+        for xx in range(sw):
+            if px[xx, yy] < 225:
+                cols[xx] += 1
+                rows[yy] += 1
+
+    def span(prof, n):
+        tot = sum(prof)
+        if not tot:
+            return 0, n
+        acc, lo, hi = 0, 0, n
+        for i, v in enumerate(prof):
+            acc += v
+            if acc >= 0.005 * tot and lo == 0:
+                lo = i
+            if acc >= 0.995 * tot:
+                hi = i + 1
+                break
+        return lo, hi
+
+    x0, x1 = (v * iw / sw for v in span(cols, sw))
+    y0, y1 = (v * ih / sh for v in span(rows, sh))
+    padx, pady = 0.03 * iw, 0.03 * ih
+    bw, bh = min(iw, x1 - x0 + 2 * padx), min(ih, y1 - y0 + 2 * pady)
+    s = min(zh / bh, zw / bw, 2.0)
+    s = max(s, min(zw / (0.8 * iw), zh / ih))  # como mucho un 20 % de ancho fuera
+    cw, ch = min(iw, zw / s), min(ih, zh / s)
+    cx = min(max(0.0, (x0 + x1) / 2 - cw / 2), iw - cw)
+    cy = min(max(0.0, (y0 + y1) / 2 - ch / 2), ih - ch)
+    ev = lambda v: max(2, int(v) // 2 * 2)
+    return int(cx), int(cy), ev(cw), ev(ch), ev(cw * s), ev(ch * s)
 
 
-def build_ass(path: Path, dur: float, caps: list[tuple[float, float, str, str]], *, tema: str = "",
-              titulo_txt: str = "", titulo_end: float = 2.5, reveal: str = "",
-              reveal_t0: float | None = None, parte: str = "",
-              rotulos: list[tuple[float, float, str]] = (), cta: str = "") -> None:
+def img_y(oh: int) -> int:
+    """Y de la imagen en su franja: algo baja (IMG_BIAS) para que quede pegada a los subtítulos."""
+    return IMG_Y + int((IMG_H - oh) * IMG_BIAS) // 2 * 2
+
+
+def cap_text(w: str) -> str:
+    """Palabra del subtítulo: en mayúscula y sin el punto/coma final (los ganadores no los ponen)."""
+    return ass_escape(re.sub(r"[.,;:…]+$", "", w).upper())
+
+
+def mark_emph(caps: list[tuple], phrase: str, t0: float, kind: str) -> bool:
+    """Marca como destacados (info["emph"] = kind) los bloques que DICEN `phrase` a partir de t0:
+    el `reveal` y los `rotulo` ya no son cajas aparte, se ven en los propios subtítulos."""
+    digits = norm_digits(phrase)
+    tk = {norm(w) for w in re.split(r"[/\s]+", phrase) if norm(w)}
+    start = next((i for i, c in enumerate(caps) if c[0] >= t0 - 0.01), None)
+    if start is None:
+        return False
+    hit = False
+    for c in caps[start:start + 4]:
+        here = {norm(w) for w in c[2].split()}
+        if (here & tk) or (digits and digits in norm_digits(c[2])):
+            c[3]["emph"] = kind
+            hit = True
+        elif hit:
+            break
+    return hit
+
+
+def build_ass(path: Path, dur: float, caps: list[tuple], *, cta: str = "") -> None:
+    """Solo subtítulos (y el SÍGUEME de TikTok). Estilo viral (Hormozi/MrBeast): cada palabra es
+    su propio evento con su \\pos, así la que se dice hace pop (70 → 112 → 100 %) y se pone
+    amarilla sin mover a la otra. Cifras/nombres (`key`): solos y en verde. Remate y rótulos
+    (`emph`): todo amarillo, un 22 % más grande y con un pop más fuerte."""
     ev = []
 
     def add(layer, a, b, style, text):
-        if text and b - a > 0.05:
+        if text and min(b, dur) - a > 0.03:
             ev.append(f"Dialogue: {layer},{ass_time(a)},{ass_time(min(b, dur))},{style},,0,0,0,,{text}")
 
-    if tema:
-        add(2, 0, dur, "Tema", ass_escape(tema.upper()))
-    if titulo_txt:
-        end = min(titulo_end, reveal_t0) if reveal_t0 is not None else titulo_end
-        add(1, 0, end, "Titulo", f"{{\\fs{title_fs(titulo_txt)}\\fad(0,150)}}{ass_escape(titulo_txt)}")
-    if reveal:
-        rt0 = reveal_t0 if reveal_t0 is not None else max(0.0, dur - 2.5)
-        add(1, rt0, dur, "Reveal", f"{{\\fad(180,0)\\t(0,180,\\fscx115\\fscy115)\\t(180,320,\\fscx100\\fscy100)}}"
-                                   f"{slash_lines(reveal)}")
-    if parte:
-        add(2, 0, dur, "Parte", f"PARTE {ass_escape(parte.upper())}")
-    for a, b, txt in rotulos:
-        add(1, a, b, "Rotulo", f"{{\\fad(120,0)}}{ass_escape(txt.upper())}")
-    for a, b, _plain, ktext in caps:
-        add(0, a, b, "Cap", ktext)
+    pop = "\\fscx70\\fscy70\\t(0,80,\\fscx112\\fscy112)\\t(80,150,\\fscx100\\fscy100)"
+    big_pop = "\\fscx55\\fscy55\\t(0,110,\\fscx125\\fscy125)\\t(110,220,\\fscx100\\fscy100)"
+    for a, b, _plain, info in caps:
+        ws = [w for w in (cap_text(w) for w in info["words"]) if w]
+        if not ws:
+            continue
+        if info.get("emph"):
+            fs = fit_fs(" ".join(ws), round(CAP_FS * 1.22), W - 80, 100, 1)
+            add(0, a, b, "Cap", f"{{\\an5\\pos({W // 2},{CAP_Y})\\fs{fs}{big_pop}\\1c{GOLD}&}}{' '.join(ws)}")
+            continue
+        fs = fit_fs(" ".join(ws), CAP_FS, W - 100, 100, 1)
+        if info["key"]:
+            add(0, a, b, "Cap", f"{{\\an5\\pos({W // 2},{CAP_Y})\\fs{fs}{pop}\\1c{GREEN}&}}{' '.join(ws)}")
+            continue
+        wd = [ass_text_w(w, fs, 1) for w in ws]
+        gap = ass_text_w(" ", fs) * 0.8
+        x = (W - (sum(wd) + gap * (len(ws) - 1))) / 2
+        xc = []
+        for d in wd:
+            xc.append(round(x + d / 2))
+            x += d + gap
+        st = [a] + list(info["starts"][1:len(ws)]) + [b]
+        st += [b] * (len(ws) + 1 - len(st))
+        for k in range(len(ws)):
+            for j, w in enumerate(ws):
+                cur = f"{pop}\\1c{GOLD}&" if j == k else f"\\1c{WHITE}&"
+                add(0, st[k], st[k + 1], "Cap", f"{{\\an5\\pos({xc[j]},{CAP_Y})\\fs{fs}{cur}}}{w}")
     if cta:
-        add(3, max(0.0, dur - 2.0), dur, "Cta", cta)
+        add(3, max(0.0, dur - 2.0), dur, "Cta",
+            f"{{\\an5\\pos({W // 2},{IMG_Y + IMG_H // 2})\\fad(150,0)}}{cta}")
     path.write_text("\n".join(ass_header() + ev) + "\n", encoding="utf-8-sig")
+
+
+# ───────────────────────── efectos de sonido ─────────────────────────
+# SIN música. Archivos copiados de la biblioteca remotion/public/*-sfx/ a assets/sfx/shorts/
+# (nombre estable; no dependen de que exista la carpeta de otro vídeo). Cada uno se iguala a la
+# voz por sonoridad integrada (EBU R128): sale a `rel` dB de la voz (-12 a -18), así se oye
+# pero la voz manda, aunque los archivos de origen vengan a niveles muy distintos (pop.mp3 a
+# -50 LUFS, hit.mp3 a -4).
+SFX_DIR = REPO_ROOT / "assets" / "sfx" / "shorts"
+SFX = {  # nombre: (archivo, dB respecto a la voz, duración máx. en s)
+    "whoosh": ("whoosh.mp3", -15, 0.8),        # cambio de imagen (alterna con whoosh2)
+    "whoosh2": ("whoosh_soft.mp3", -16, 0.9),
+    "pop": ("pop.mp3", -14, 0.4),              # cifra / nombre en verde, rótulo dicho
+    "cash": ("cash.mp3", -14, 1.2),            # se dice una cantidad de dinero
+    "riser": ("riser.mp3", -18, 1.28),         # sube hasta el remate
+    "hit": ("hit.mp3", -12, 1.2),              # el remate
+}
+MONEY = {"dolar", "dolares", "euro", "euros"}
+_LUFS: dict = {}
+
+
+def lufs(p: Path, t: float | None = None) -> float:
+    key = (str(p), t)
+    if key not in _LUFS:
+        r = subprocess.run(["ffmpeg", "-nostats", *(["-t", str(t)] if t else []), "-i", str(p),
+                            "-af", "ebur128", "-f", "null", "-"], capture_output=True, text=True)
+        m = re.findall(r"I:\s+(-?[\d.]+) LUFS", r.stderr)
+        _LUFS[key] = float(m[-1]) if m else -23.0
+    return _LUFS[key]
+
+
+def sfx_events(cuts: list[float], caps: list[tuple], reveal_t0: float | None,
+               end: float) -> list[tuple[float, str]]:
+    """(segundo, efecto): whoosh en cada cambio de imagen, pop en cifras/nombres verdes y rótulos,
+    caja registradora cuando se dice dinero, y subida + golpe en el remate. Sin amontonar: un
+    pop/cash a menos de 0,35 s de otro efecto se quita, y la caja suena como mucho cada 3 s."""
+    ev = [(max(0.0, t - 0.10), "whoosh" if k % 2 else "whoosh2") for k, t in enumerate(cuts, 1)]
+    if reveal_t0 is not None:
+        ev.append((reveal_t0, "hit"))
+        if reveal_t0 - SFX["riser"][2] >= 0.5:
+            ev.append((reveal_t0 - SFX["riser"][2] + 0.05, "riser"))
+    for a, _b, _p, info in caps:
+        for w, ws in zip(info["words"], info["starts"]):
+            if norm(w) in MONEY or "$" in w or "€" in w:
+                ev.append((ws, "cash"))
+        if info["key"] or info.get("emph") == "rotulo":
+            ev.append((a, "pop"))
+    out: list[tuple[float, str]] = []
+    last_cash = -9.0
+    for t, name in sorted(ev, key=lambda e: (e[0], e[1] not in ("hit", "whoosh", "whoosh2"))):
+        if t > end - 0.4:  # lo que empieza en el último medio segundo se oiría cortado
+            continue
+        if name.startswith("whoosh") and reveal_t0 is not None and abs(t - reveal_t0) < 0.35:
+            continue  # el golpe del remate ya marca ese corte
+        if name in ("pop", "cash"):
+            if any(abs(t - t2) < 0.35 for t2, n2 in out if n2 != "riser"):
+                continue
+            if name == "cash":
+                if t - last_cash < 3.0:
+                    continue
+                last_cash = t
+        out.append((t, name))
+    return out
+
+
+def mix_audio(mp3: Path, rate: float, dur: float, fade: float, events: list[tuple[float, str]],
+              out_wav: Path, voice: bool = True) -> list[str]:
+    """Voz (a `playback_rate`) + efectos → WAV. Devuelve una línea por efecto con su nivel.
+    voice=False saca solo los efectos (para medir los niveles)."""
+    v_l = lufs(mp3)
+    inputs, fc, info, gains = ["-i", str(mp3)], [], [], {}
+    tempo = f"atempo={rate}," if abs(rate - 1.0) > 1e-3 else ""
+    fc.append(f"[0:a]{tempo}aformat=sample_rates=48000:channel_layouts=stereo,apad,atrim=0:{dur:.3f}"
+              f"{'' if voice else ',volume=0'}[v0]")
+    for i, (t, name) in enumerate(events, 1):
+        fname, rel, maxd = SFX[name]
+        p = SFX_DIR / fname
+        if name not in gains:
+            gains[name] = round(v_l + rel - lufs(p, maxd), 1)
+            info.append(f"{name:<8} {fname:<16} {rel:+d} dB vs voz ({v_l:.1f} LUFS) -> ganancia {gains[name]:+.1f} dB")
+        inputs += ["-i", str(p)]
+        ms = max(0, round(t * 1000))
+        fc.append(f"[{i}:a]atrim=0:{maxd},asetpts=PTS-STARTPTS,aformat=sample_rates=48000:channel_layouts=stereo,"
+                  f"afade=t=out:st={max(0.0, maxd - 0.12):.2f}:d=0.12,volume={gains[name]}dB,"
+                  f"adelay={ms}:all=1[s{i}]")
+    n = len(events) + 1
+    labels = "".join("[v0]" if i == 0 else f"[s{i}]" for i in range(n))
+    fc.append(f"{labels}amix=inputs={n}:normalize=0:duration=first:dropout_transition=0,"
+              f"alimiter=limit=0.95:level=disabled,atrim=0:{dur:.3f},"
+              f"afade=t=out:st={max(0.0, dur - fade):.3f}:d={fade}[a]")
+    cmd = ["ffmpeg", "-y", "-loglevel", "error", *inputs, "-filter_complex", ";".join(fc),
+           "-map", "[a]", "-c:a", "pcm_s16le", str(out_wav)]
+    r = subprocess.run(cmd, capture_output=True, text=True)
+    if r.returncode != 0:
+        sys.exit(f"ffmpeg falló mezclando el audio:\n{r.stderr[-2000:]}")
+    return info
+
+
+# Transición de entrada en cada cambio de imagen (la primera no: el arranque es la miniatura):
+# alterna empujón de zoom, deslizar desde la derecha y rebote desde abajo, en TRANS_S s.
+TRANSITIONS = ("punch", "slide", "bounce")
+TRANS_S = 0.25
+PAN = (0.5, 0.38, 0.62)  # punto hacia el que va el zoom lento: centro, izquierda, derecha
+
+
+def segment_chain(k: int, src_idx: int, path: Path, nf: int) -> str:
+    """Filtro de un plano: recorte al dibujo, zoom lento (±4 % con paneo suave) y su transición
+    de entrada, sobre un lienzo blanco de W×H. Sale [v<k>]."""
+    cx, cy, cw, ch, ow, oh = image_fit(path)
+    tf = max(1, round(TRANS_S * FPS))
+    trans = TRANSITIONS[(k - 1) % 3] if k else None
+    z = f"1+0.04*on/{nf}" if k % 2 == 0 else f"1.04-0.04*on/{nf}"
+    if trans == "punch":
+        z = f"({z})*(1+0.10*pow(max(0,1-on/{tf}),2))"
+    zp = (f"zoompan=z='{z}':x='(iw-iw/zoom)*{PAN[k % 3]}':y='(ih-ih/zoom)/2':d=1:fps={FPS}"
+          f":s={ow}x{oh}")
+    x0, y0 = (W - ow) // 2, img_y(oh)
+    xe, ye = str(x0), str(y0)
+    if trans == "slide":
+        xe = f"{x0}+170*pow(max(0,1-t/{TRANS_S}),3)"
+    elif trans == "bounce":
+        ye = f"{y0}+if(lt(t,0.6),110*exp(-10*t)*cos(20*t),0)"
+    return (f"[{src_idx}:v]crop={cw}:{ch}:{cx}:{cy},scale={2 * ow}:{2 * oh},{zp},trim=end_frame={nf},"
+            f"setsar=1,format=rgba[i{k}];"
+            f"color=c={BG}:s={W}x{H}:r={FPS}:d={nf / FPS + 0.1:.3f}[b{k}];"
+            f"[b{k}][i{k}]overlay=x='{xe}':y='{ye}':eval=frame:shortest=1,trim=end_frame={nf},"
+            f"setsar=1,format=yuv420p[v{k}]")
 
 
 # ───────────────────────── modo guion ─────────────────────────
@@ -698,10 +937,20 @@ def render_guion(spec: dict, n: int, plan: list[dict], cfg: dict, mp3: Path, wor
         reveal_t0 = find_reveal_start(reveal, [c for c in caps if c[0] >= p_t]) \
             or find_reveal_start(reveal, caps)
         if reveal_t0 is None:
-            warns.append(f"no encontré «{reveal}» en lo que se dice: el remate sale 2,5 s antes del final")
-    titulo_end = min(TITLE_MAX_S, line_start[1] if len(lineas) > 1 else 3.0)
+            warns.append(f"no encontré «{reveal}» en lo que se dice: el remate no se destaca")
+        elif not mark_emph(caps, reveal, reveal_t0, "reveal"):
+            warns.append(f"«{reveal}»: no encontré el bloque de subtítulos que lo dice")
     ends = line_start[1:] + [dur]
-    rotulos = [(line_start[i], ends[i], ln["rotulo"]) for i, ln in enumerate(lineas) if ln.get("rotulo")]
+    # `rotulo`: ya no es una caja aparte (salía fuera de contexto: "20.000 $" mientras se hablaba
+    # de 2026). Si su texto se DICE en esa frase, ese subtítulo se destaca (amarillo, grande, pop).
+    for i, ln in enumerate(lineas):
+        if not ln.get("rotulo"):
+            continue
+        en_frase = [c for c in caps if line_start[i] - 0.05 <= c[0] < ends[i]]
+        t = find_reveal_start(ln["rotulo"], en_frase)
+        if t is None or not mark_emph(caps, ln["rotulo"], t, "rotulo"):
+            warns.append(f"{ln['label']}: el rótulo «{ln['rotulo']}» no se dice en su frase: no se destaca "
+                         f"(un rótulo solo resalta lo que el narrador dice; si no, quítalo)")
 
     # Segmentos de imagen: la imagen cambia cuando empieza la frase; frases seguidas con la
     # misma imagen se funden en un solo plano (el zoom no salta).
@@ -714,39 +963,32 @@ def render_guion(spec: dict, n: int, plan: list[dict], cfg: dict, mp3: Path, wor
                          "t0": line_start[i], "t1": ends[i]})
     segs[0]["t0"], segs[-1]["t1"] = 0.0, dur
     bounds = [round(s["t0"] * FPS) for s in segs] + [round(dur * FPS)]
+    events = sfx_events([b / FPS for b in bounds[1:-1]], caps, reveal_t0, dur)
 
     with tempfile.TemporaryDirectory() as td:
         tdp = Path(td)
         shutil.copy(FONT, tdp / FONT.name)
-        build_ass(tdp / "s.ass", dur, caps, tema=tema, titulo_txt=spec["titulo"], titulo_end=titulo_end,
-                  reveal=reveal, reveal_t0=reveal_t0, parte=spec.get("parte", ""), rotulos=rotulos,
-                  cta=CTA_TIKTOK if tiktok else "")
+        build_ass(tdp / "s.ass", dur, caps, cta=CTA_TIKTOK if tiktok else "")
+        sfx_info = mix_audio(mp3, rate, dur, fade, events, tdp / "a.wav")
         inputs, fc = [], []
         for k, s in enumerate(segs):
             nf = max(1, bounds[k + 1] - bounds[k])
             inputs += ["-loop", "1", "-framerate", str(FPS), "-t", f"{nf / FPS + 0.2:.3f}", "-i", str(s["path"])]
-            # zoom lento del 4 %, alternando acercar/alejar para que cada corte se note vivo
-            z = f"1+0.04*on/{nf}" if k % 2 == 0 else f"1.04-0.04*on/{nf}"
-            zp = f"zoompan=z='{z}':x='iw/2-(iw/zoom/2)':y='ih/2-(ih/zoom/2)':d=1:fps={FPS}"
-            if s["kind"] == "nueva":  # vertical a pantalla completa (es la "miniatura" del feed)
-                chain = f"scale={2 * W}:{2 * H},{zp}:s={W}x{H}"
-            else:                     # viñeta grande del largo sobre blanco
-                chain = (f"scale={2 * PANEL_W}:{2 * PANEL_H},{zp}:s={PANEL_W}x{PANEL_H},"
-                         f"crop={W}:{PANEL_H},pad={W}:{H}:0:{PANEL_Y}:color={BG}")
-            fc.append(f"[{k}:v]{chain},trim=end_frame={nf},setsar=1,format=yuv420p[v{k}]")
+            fc.append(segment_chain(k, k, s["path"], nf))
         na = len(segs)
-        inputs += ["-i", str(mp3)]
+        inputs += ["-i", str(tdp / "a.wav")]
         fc.append("".join(f"[v{k}]" for k in range(na)) + f"concat=n={na}:v=1:a=0[vc]")
-        fc.append("[vc]ass=s.ass:fontsdir=.[v]")
-        tempo = f"atempo={rate}," if abs(rate - 1.0) > 1e-3 else ""
-        fc.append(f"[{na}:a]{tempo}apad,atrim=0:{dur:.3f},afade=t=out:st={dur - fade:.3f}:d={fade}[a]")
+        fc.append("[vc]ass=s.ass:fontsdir=.,format=yuv420p[v]")
         cmd = ["ffmpeg", "-y", "-loglevel", "error", *inputs, "-filter_complex", ";".join(fc),
-               "-map", "[v]", "-map", "[a]", "-t", f"{dur:.3f}", "-r", str(FPS),
+               "-map", "[v]", "-map", f"{na}:a", "-t", f"{dur:.3f}", "-r", str(FPS),
                "-c:v", "libx264", "-preset", "medium", "-crf", "20", "-pix_fmt", "yuv420p",
-               "-c:a", "aac", "-b:a", "160k", "-movflags", "+faststart", str(out)]
+               "-c:a", "aac", "-b:a", "192k", "-movflags", "+faststart", str(out)]
         r = subprocess.run(cmd, cwd=td, capture_output=True, text=True)
         if r.returncode != 0:
             sys.exit(f"ffmpeg falló en {out.name}:\n{r.stderr[-2000:]}")
+    print(f"  efectos: {len(events)} ({', '.join(f'{n}@{t:.1f}' for t, n in events)})")
+    for line in sfx_info:
+        print(f"    {line}")
     return {"dur": dur, "warns": warns, "nwords": len(swords),
             "primera_frase": strip_tags(lineas[0]["text"])}
 
@@ -779,18 +1021,14 @@ def render_recorte(spec: dict, n: int, ctx: dict, out: Path, tiktok: bool, dry: 
     warns = titulo_warnings(titulo) + first_line_warnings(" ".join(ctx["caps_words"][i0]), titulo)
     if tema:
         warns += tema_warnings(tema, titulo)
-        titulo_txt = titulo
-    else:
-        warns.append("sin `tema`: el `gancho` se enseña como título 2,5 s (ya no fijo). Añade `tema:`")
-        titulo_txt = gancho.replace("/", " ") if gancho else titulo
     warns += duration_warnings(dur, sum(len(c[2].split()) for c in caps))
-    if not reveal and re.search(r"\d", gancho or ""):
-        warns.append(f"el gancho lleva una cifra («{gancho}»): si es el remate, muévelo a `reveal:`")
     reveal_t0 = None
     if reveal:
         reveal_t0 = find_reveal_start(reveal, caps)
         if reveal_t0 is None:
-            warns.append(f"no encontré «{reveal}» en los subtítulos del tramo; sale 2,5 s antes del final")
+            warns.append(f"no encontré «{reveal}» en los subtítulos del tramo: no se destaca")
+        else:
+            mark_emph(caps, reveal, reveal_t0, "reveal")
     res = {"dur": dur, "t0": t0, "warns": warns, "primera_frase": " ".join(ctx["caps_words"][i0]),
            "gancho": gancho or titulo}
     if dry:
@@ -799,11 +1037,11 @@ def render_recorte(spec: dict, n: int, ctx: dict, out: Path, tiktok: bool, dry: 
     with tempfile.TemporaryDirectory() as td:
         tdp = Path(td)
         shutil.copy(FONT, tdp / FONT.name)
-        build_ass(tdp / "s.ass", dur, caps, tema=tema, titulo_txt=titulo_txt, titulo_end=2.5,
-                  reveal=reveal, reveal_t0=reveal_t0, parte=spec.get("parte", ""),
-                  cta=CTA_TIKTOK if tiktok else "")
-        fc = (f"[0:v]scale={PANEL_W}:-2,crop={W}:ih,pad={W}:{H}:0:{PANEL_Y}:color={BG},setsar=1,"
-              f"ass=s.ass:fontsdir=.[v];"
+        # El audio del largo ya trae sus efectos: aquí no se añaden (ni transiciones: es un tramo seguido).
+        build_ass(tdp / "s.ass", dur, caps, cta=CTA_TIKTOK if tiktok else "")
+        vh = round(VID_W * 9 / 16 / 2) * 2
+        fc = (f"[0:v]scale={VID_W}:{vh},crop={W}:{vh},pad={W}:{H}:0:{img_y(vh)}:color={BG},"
+              f"setsar=1,ass=s.ass:fontsdir=.,format=yuv420p[v];"
               f"[0:a]afade=t=out:st={max(0.0, dur - fade):.2f}:d={fade}[a]")
         cmd = ["ffmpeg", "-y", "-loglevel", "error", "-ss", f"{t0:.2f}", "-t", f"{dur:.2f}", "-i", str(ctx["mp4"]),
                "-filter_complex", fc, "-map", "[v]", "-map", "[a]", "-t", f"{dur:.2f}",

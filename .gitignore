@@ -67,3 +67,10 @@ tiktok_inbox/
 scratch-yt/tiktok_cron.log
 scratch-yt/daily_publish.log
 scratch-yt/pending_long.txt
+
+# Binario de Chrome que descarga Remotion, cachés de voz de Shorts y logs locales
+.remotion/
+**/shorts_src/
+**/shorts_tiktok/
+gasto_avisos.log
+remotion/public-pruebas/

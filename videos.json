@@ -1416,11 +1416,17 @@
     "images_subpath": "cada-estafa-que-te-pueden-hacer-en-espana",
     "naming": "timestamp",
     "ext": "jpg",
-    "playback_rate": 1.25,
+    "playback_rate": 1.0,
     "fps": 30,
     "width": 1920,
     "height": 1080,
-    "background": "#ffffff"
+    "background": "#ffffff",
+    "published": {
+      "youtube_id": "MJjkVBkMjkE",
+      "privacy": "private",
+      "publish_at": "2026-11-02T18:00:00Z",
+      "date": "2026-11-02"
+    }
   },
   "cada-unidad-que-caza-hackers-en-espana": {
     "composition": "CadaUnidadQueCazaHackersEnEspana",
@@ -1452,11 +1458,17 @@
     "images_subpath": "cada-gran-apagon-de-la-historia",
     "naming": "timestamp",
     "ext": "jpg",
-    "playback_rate": 1.25,
+    "playback_rate": 1.0,
     "fps": 30,
     "width": 1920,
     "height": 1080,
-    "background": "#ffffff"
+    "background": "#ffffff",
+    "published": {
+      "youtube_id": "3C57c97YVoQ",
+      "privacy": "private",
+      "publish_at": "2026-11-01T18:00:00Z",
+      "date": "2026-11-01"
+    }
   },
   "cada-forma-en-que-tu-movil-te-espia": {
     "composition": "CadaFormaEnQueTuMovilTeEspia",
@@ -1518,6 +1530,72 @@
     "images_subpath": "asi-sera-un-dia-normal-en-2035",
     "naming": "timestamp",
     "ext": "jpg",
+    "playback_rate": 1.0,
+    "fps": 30,
+    "width": 1920,
+    "height": 1080,
+    "background": "#ffffff",
+    "ref_image": "channel/tecno/references/mono_stick_cutre.png",
+    "estilo": "stick_cutre",
+    "image_model": "lite",
+    "published": {
+      "youtube_id": "M-l9-YOUHws",
+      "privacy": "private",
+      "publish_at": "2026-11-03T18:00:00Z",
+      "date": "2026-11-03"
+    }
+  },
+  "cada-red-social-y-como-te-engancha": {
+    "composition": "CadaRedSocialYComoTeEngancha",
+    "tsx": "remotion/src/CadaRedSocialYComoTeEngancha.tsx",
+    "manifest_dir": "channel/tecno/videos/cada-red-social-y-como-te-engancha",
+    "script": "channel/tecno/videos/cada-red-social-y-como-te-engancha/script.md",
+    "audio_static": "cada-red-social-y-como-te-engancha.mp3",
+    "images_subpath": "cada-red-social-y-como-te-engancha",
+    "naming": "timestamp",
+    "ext": "jpg",
+    "playback_rate": 1.0,
+    "fps": 30,
+    "width": 1920,
+    "height": 1080,
+    "background": "#ffffff",
+    "ref_image": "channel/tecno/references/mono_stick_cutre.png",
+    "estilo": "stick_cutre",
+    "image_model": "lite",
+    "published": {
+      "youtube_id": "jGUWMftqkzQ",
+      "privacy": "private",
+      "publish_at": "2026-11-04T18:00:00Z",
+      "date": "2026-11-04"
+    }
+  },
+  "por-que-tu-movil-va-mas-lento-con-los-anos": {
+    "composition": "PorQueTuMovilVaMasLentoConLosAnos",
+    "tsx": "remotion/src/PorQueTuMovilVaMasLentoConLosAnos.tsx",
+    "manifest_dir": "channel/tecno/videos/por-que-tu-movil-va-mas-lento-con-los-anos",
+    "script": "channel/tecno/videos/por-que-tu-movil-va-mas-lento-con-los-anos/script.md",
+    "audio_static": "por-que-tu-movil-va-mas-lento-con-los-anos.mp3",
+    "images_subpath": "por-que-tu-movil-va-mas-lento-con-los-anos",
+    "naming": "timestamp",
+    "ext": "jpg",
+    "playback_rate": 1.0,
+    "fps": 30,
+    "width": 1920,
+    "height": 1080,
+    "background": "#ffffff",
+    "ref_image": "channel/tecno/references/mono_stick_cutre.png",
+    "estilo": "stick_cutre",
+    "image_model": "lite"
+  },
+  "por-que-bitcoin-sube-y-baja": {
+    "composition": "PorQueBitcoinSubeYBaja",
+    "tsx": "remotion/src/PorQueBitcoinSubeYBaja.tsx",
+    "manifest_dir": "channel/tecno/videos/por-que-bitcoin-sube-y-baja",
+    "script": "channel/tecno/videos/por-que-bitcoin-sube-y-baja/script.md",
+    "audio_static": "por-que-bitcoin-sube-y-baja.mp3",
+    "images_subpath": "por-que-bitcoin-sube-y-baja",
+    "naming": "timestamp",
+    "ext": "jpg",
     "playback_rate": 1.25,
     "fps": 30,
     "width": 1920,
@@ -1527,13 +1605,13 @@
     "estilo": "stick_cutre",
     "image_model": "lite"
   },
-  "cada-red-social-y-como-te-engancha": {
-    "composition": "CadaRedSocialYComoTeEngancha",
-    "tsx": "remotion/src/CadaRedSocialYComoTeEngancha.tsx",
-    "manifest_dir": "channel/tecno/videos/cada-red-social-y-como-te-engancha",
-    "script": "channel/tecno/videos/cada-red-social-y-como-te-engancha/script.md",
-    "audio_static": "cada-red-social-y-como-te-engancha.mp3",
-    "images_subpath": "cada-red-social-y-como-te-engancha",
+  "cuanto-gana-de-verdad-un-youtuber-en-espana": {
+    "composition": "CuantoGanaDeVerdadUnYoutuberEnEspana",
+    "tsx": "remotion/src/CuantoGanaDeVerdadUnYoutuberEnEspana.tsx",
+    "manifest_dir": "channel/tecno/videos/cuanto-gana-de-verdad-un-youtuber-en-espana",
+    "script": "channel/tecno/videos/cuanto-gana-de-verdad-un-youtuber-en-espana/script.md",
+    "audio_static": "cuanto-gana-de-verdad-un-youtuber-en-espana.mp3",
+    "images_subpath": "cuanto-gana-de-verdad-un-youtuber-en-espana",
     "naming": "timestamp",
     "ext": "jpg",
     "playback_rate": 1.25,

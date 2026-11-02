@@ -9,7 +9,7 @@
 Keywords de búsqueda: "cómo será la vida en 2035", "futuro 2035", "tecnología del futuro", "robotaxi Waymo", "euro digital 2029", "carne cultivada España", "robot humanoide NEO", "Neuralink", "gafas Meta Ray-Ban Display", "bomba de calor obligatoria", "drones de reparto".
 Referencia de formato: plantilla fija por ítem de `cada-estafa-que-te-pueden-hacer-en-espana` + formato reloj de Homosapiens (regla S2 del playbook, x21-x29) llevado al vídeo largo. Palabra de tensión: "fallar" (1), "inquietante" (2), (3) sin palabra de tensión, la más floja.
 Ojo con la regla T4 del playbook: esta lista es de tecnologías (objetos), no de personajes del crimen. Lo compensa el ángulo "tú, en España, a cada hora" y el veredicto honesto en cada ítem; si rinde por debajo de la mediana, NO hacer serie.
-Duración: unos 6.040 caracteres de narración (el de estafas tiene 5.888 y dura unas 6:45 a 1,25). Estimado: 6:40-6:55.
+Duración: v2 unos 5.600 caracteres de narración sin etiquetas (v1: 6.040). Pensado para 1,1: unos 5-6 min.
 Búsqueda previa del título (19 oct 2026, WebSearch): ningún resultado con "así será un día normal en 2035" ni "un día en 2035". WebSearch indexa mal YouTube; conviene mirarlo a mano antes de publicar.
 
 ## Descripción
@@ -42,17 +42,17 @@ Si te gusta entender cómo funciona de verdad la tecnología que usas cada día,
 ## Capítulos
 
 0:00 Un martes de 2035
-0:20 Las siete: bomba de calor
-0:44 Las siete y media: carne cultivada
-1:11 Las ocho y cuarto: robotaxi
-1:33 Las nueve: agente de IA
-1:59 Las once: IA en el médico
-2:22 La una: dron de reparto
-2:45 Las cuatro: euro digital
-3:08 Las seis: gafas con pantalla
-3:32 Las ocho: robot en casa
-3:57 Las once de la noche: chip cerebral
-4:22 La promesa que falló
+0:28 Las siete: bomba de calor
+0:57 Las siete y media: carne cultivada
+1:26 Las ocho y cuarto: robotaxi
+1:50 Las nueve: agente de IA
+2:17 Las once: IA en el médico
+2:40 La una: dron de reparto
+3:07 Las cuatro: euro digital
+3:30 Las seis: gafas con pantalla
+3:58 Las ocho: robot en casa
+4:22 Las once de la noche: chip cerebral
+4:51 La promesa que falló
 
 ## Tags
 
@@ -73,33 +73,42 @@ cols: 5
 Formato `tipo: guion` (27-oct-2026, `channel/tecno/shorts_playbook.md` §2 y CLAUDE.md "Shorts con guion propio"): cada Short tiene su propio mini-guion; L1 es el título dicho en voz alta. `img:` = clave de `frames.json` del largo, o `nueva: <escena>` (vertical 9:16, máx. 2 por Short, ~0,04 € cada una). Probar con `python scripts/make_shorts.py asi-sera-un-dia-normal-en-2035 --dry-run`.
 Antes (modo recorte, descartado porque arrancaba con "Las ocho de la tarde. La casa."): `- titulo: ¿Quién maneja de verdad el robot de casa de 20.000 dólares? | gancho: ¿QUIÉN MANEJA/EL ROBOT DE CASA? | reveal: UN/EMPLEADO | desde: 4_25 | hasta: 4_55`
 
+**v2 (28-oct-2026)**: mini-guiones reescritos en tono natural (CLAUDE.md, "Guion natural"), sin `rotulo:`. Los fotogramas del largo se regeneran con el guion v2, así que todas las `img:` del largo están en `img: TODO` (re-mapear a las claves del nuevo `frames.json` antes de `make_shorts.py`; con TODO el `--dry-run` da error a propósito). Las `nueva:` se mantienen. Versión anterior: `seo_v1.md`. **29-oct-2026**: `img:` re-mapeadas a las claves del `frames.json` v2 (185 segmentos).
+
+**31-oct-2026**: `img:` re-mapeadas a las claves `v3_` del `frames.json` v3 (190 segmentos, voz v4 a 1.0); en el Short 1 la B4 pasa a `nueva:` (no hay escena del largo con el desconocido mirando la casa). Copia previa: `seo_v3pre.md`.
+
+**v3 (29-oct-2026)**: mini-guiones retocados en el mismo tono llano del guion v3 (menos "...", menos [whispers]/[mischievously], frases de amigo). `img:` sin tocar. Copia previa: `seo_v2.md`.
+
 ### Short 1 (playbook §2.8 A: mini-historia y objeto)
 tipo: guion
 titulo: Este robot de casa cuesta 20.000 dólares (y no va solo)
 tema: ROBOT NEO
 reveal: UN/EMPLEADO
-cierre: seco
+cierre: bucle
 L1: [curious] Este robot de casa cuesta veinte mil dólares. Y a veces no va solo. | img: nueva: the stick monkey sitting relaxed on her sofa in the evening, amazed, as a friendly white soft-looking humanoid robot with a round head, no logo, no brand, NOT a monkey, NOT an ape, folds a plain T-shirt right next to her; the robot and the monkey both large in the frame, surprised wide-eyed expression, mouth open
-L2: [serious] Se llama NEO. Lo vende la empresa One X. Y dobla tu ropa. | img: 4_27
-B1: [serious] Promete entregarlo en Estados Unidos en dos mil veintiséis. | rotulo: 20.000 $
-B2: [tense] Pero cuando NEO no sabe hacer algo, no se rinde. | img: 4_44 | rotulo: ¿SOLO?
-B3: [ominous] Se conecta a distancia… y alguien se pone a los mandos. | img: 4_38
-P: [emphatic] Un empleado. Viendo tu casa. | img: 4_50
-F: [serious] El robot de casa ya existe. Lo que le falta es aprender solo. | img: 4_55
+L2: [warm] Se llama NEO, lo vende la empresa One X, y te dobla la ropa. | img: v3_4_01
+B1: [serious] Lo puedes reservar por veinte mil dólares, o cuatrocientos noventa y nueve al mes. Y prometen entregarlo en Estados Unidos en dos mil veintiséis. | img: v3_4_05
+B2: [tense] Lo raro viene cuando NEO no sabe hacer algo. Porque no se rinde. | img: v3_4_11
+B3: [serious] Entonces se conecta a distancia, y alguien se pone a los mandos. | img: v3_4_13
+P: [surprised] Un empleado. Viendo tu casa. | img: v3_4_14
+B4: [tense] Alguien que no conoces, mirando tu salón, tu cocina y tu cuarto. | img: nueva: a shadowy gray stranger silhouette, not any real person, holding a tiny doodled house like a toy and peering into its little windows, a living room sofa, a kitchen and a bed visible through the windows, the stick monkey peeking worried from behind the house, uneasy worried expression
+B5: [curious] ¿Tú le dejarías entrar? | img: v3_4_00
+F: [thoughtful] El robot ya existe. Lo que le falta es aprender solo. Y mientras tanto... | img: v3_4_20
 
-### Short 2 (borrador: revisar antes de generar la voz)
+### Short 2 (playbook §2.8: dato que parece imposible)
 tipo: guion
 titulo: Neuralink ya deja escribir en el móvil solo con pensarlo
 tema: CHIP NEURALINK
 reveal: YA ES/REAL
 cierre: seco
-L1: [curious] Neuralink ya deja escribir en el móvil solo con pensarlo. | img: 4_59
-L2: [serious] Es la empresa de Elon Musk. Y pone un chip dentro del cerebro.
-B1: [serious] En enero de dos mil veintiséis ya lo llevaban veintiuna personas. Todas con parálisis. | rotulo: 21 PERSONAS
-B2: [calm] Mueven un cursor con la mente. Y así escriben. | img: 5_14
-B3: [tense] Pero al primer paciente se le soltaron parte de los hilos del implante. | img: 5_19
-P: [emphatic] Aun así, escribir con la mente ya es real. | img: 5_16
-F: [serious] Para quien no puede mover las manos. Para alguien sano, todavía es dudoso. | img: 5_18
+L1: [curious] Neuralink ya deja escribir en el móvil solo con pensarlo. | img: v3_4_28
+L2: [serious] Es la empresa de Elon Musk. Y lo que hace es meter un chip dentro del cerebro. | img: v3_4_22
+B1: [impressed] En enero de dos mil veintiséis ya lo llevaban veintiuna personas. Todas con parálisis. | img: v3_4_35
+B2: [calm] Piensan en mover el cursor, y el cursor se mueve. Así escriben. | img: v3_4_37
+B3: [tense] Pero no todo ha salido bien. Al primer paciente se le soltaron parte de los hilos del implante. | img: v3_4_40
+P: [warm] Y aun así, escribir con la mente ya es real. | img: v3_4_48
+B4: [thoughtful] Imagina que no puedes mover las manos, y mandas un mensaje solo con pensarlo. | img: v3_4_46
+F: [curious] Para quien tiene parálisis, ya funciona. Para alguien sano, todavía es dudoso. ¿Tú te lo pondrías? | img: v3_4_44
 
 ## Notas
 
@@ -207,10 +216,10 @@ Leyenda del veredicto: **[ESTABLECIDO]** hecho comprobado hoy · **[PROMETIDO]**
 
 ### Datos de producción
 
-- Narración: unos 6.040 caracteres sin etiquetas, 84 líneas, ninguna cifra en dígitos.
+- Narración v2 (28-oct-2026): unos 5.600 caracteres sin etiquetas, 80 líneas, ninguna cifra en dígitos (v1: 6.040, en `script_v1.md`).
 - Ojo TTS: "M E T R" (eme e te erre), "Waymo" (uéimo), "Wing", "Walmart", "Ray-Ban", "Meta", "One X" (uan ex), "NEO" (neo), "Neuralink", "Gourmey" ya no sale, "BioTech Foods", "Fernando Navarrete", "Austin", "Elon Musk". Probar antes del render completo.
 - Gancho: escena en la línea 1 (siete de la mañana de 2035), escalada en la línea 5 ("¿Van a llegar todas? No."), pregunta abierta en la línea 6 ("Han pasado siete. ¿Adivinas cuál?"), resuelta al final (Tesla) con giro (Waymo ya existe).
-- Giros: "Y ahora vienen las que más cuestan" (antes del euro digital), "Pero aquí viene lo raro" (NEO teleoperado), "Y aquí está lo curioso" (final).
+- Giros: "Y ahora, las que más cuestan" (antes del euro digital), "Pero aquí viene lo raro" (NEO teleoperado), "Lo curioso:…" (final).
 - Fechas relativas que caducan: "A principios de este año" (Waymo), "En julio" (Parlamento Europeo), "este año" (ley del euro digital), "En enero de este año" (Neuralink), "antes de junio" y "en mayo" (directiva). **Si se publica en 2027, cambiar a fechas absolutas.**
 - Shorts (cada `reveal` se dice tal cual en el guion; `desde`/`hasta` en TODO hasta tener audio y `frames.json`):
   - Short 1: desde "Las ocho de la tarde. La casa." hasta "Le falta aprender solo." (unos 520 caracteres, unos 35 s). Reveal en "lo maneja a distancia un empleado". El `titulo` se dice casi en la primera frase: valorar abrir el Short con la línea "¿Quién maneja de verdad un robot de casa?" grabada aparte si se quiere cumplir S1 al pie de la letra.

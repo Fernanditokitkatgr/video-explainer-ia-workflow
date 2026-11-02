@@ -184,6 +184,7 @@ Prohibido:
 
 ### 2.5 Subtítulos
 
+- **28-oct-2026, sustituido**: la maqueta actual (título grande en caja amarilla arriba, imagen recortada al dibujo en el centro, subtítulos virales con pop por palabra debajo, rótulos solo sincronizados con la voz) está en CLAUDE.md "Shorts" y en el docstring de `make_shorts.py`. Lo de abajo es el razonamiento original.
 - **2 palabras por bloque** (hoy son 3). Karaoke dorado sobre blanco con contorno negro, Montserrat ExtraBold **~110 px**, centrados a **~62 % de la altura** (no pegados abajo: en el feed tapan la interfaz de YouTube) [V para el patrón; I para la cifra exacta].
 - Las palabras clave (el nombre propio y la cifra) salen en una línea propia, de 1 palabra, en verde o dorado. Es lo que hacen CdeCiencia y Homosapiens.
 

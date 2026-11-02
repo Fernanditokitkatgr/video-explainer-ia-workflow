@@ -29,11 +29,36 @@ TOPE_EUR = 250.0
 CREDITO_EUR = 264.0
 # Precio por imagen en euros, al alza (lista de Google: flash ~0,039 $, pro ~0,134 $).
 PRECIO_EUR = {"flash": 0.04, "pro": 0.13, "lite": 0.04}  # lite: provisional, calibrar con la consola
+# Vídeo Veo en Vertex (nov-2026): precio POR SEGUNDO, solo vídeo (generate_audio=False), 1080p.
+# Lista de Google: Veo 3.1 Fast 0,10 $/s · Veo 3.1 Lite 0,05 $/s. Al alza en euros.
+PRECIO_VEO_EUR_S = {"veo": 0.10, "veo_lite": 0.05}
 
 
 def _tipo(model: str) -> str:
     m = model.lower()
     return "lite" if "lite" in m else ("pro" if "pro" in m else "flash")
+
+
+def _tipo_veo(model: str) -> str:
+    return "veo_lite" if "lite" in model.lower() else "veo"
+
+
+def comprobar_video(model: str, segundos: float) -> None:
+    """Como comprobar(), pero para un clip de Veo de `segundos` segundos."""
+    t = total()
+    precio = PRECIO_VEO_EUR_S[_tipo_veo(model)] * segundos
+    if t + precio > TOPE_EUR:
+        print(f"\n⛔ TOPE DE GASTO ALCANZADO: llevamos {t:.2f} € de {TOPE_EUR:.0f} €. "
+              f"Producción PARADA. No se genera ningún vídeo más.", flush=True)
+        raise SystemExit(3)
+
+
+def apuntar_video(model: str, archivo: str, segundos: float) -> None:
+    tipo = _tipo_veo(model)
+    rec = {"ts": datetime.now().isoformat(timespec="seconds"), "tipo": tipo,
+           "eur": round(PRECIO_VEO_EUR_S[tipo] * segundos, 4), "segundos": segundos, "archivo": archivo}
+    with LEDGER.open("a", encoding="utf-8") as fh:
+        fh.write(json.dumps(rec, ensure_ascii=False) + "\n")
 
 
 def total() -> float:
@@ -66,8 +91,8 @@ def resumen() -> str:
     t = sum(r["eur"] for r in filas)
     h = sum(r["eur"] for r in filas if r["ts"].startswith(hoy))
     return (f"Gasto de imágenes (estimado): {t:.2f} € de {TOPE_EUR:.0f} € de tope "
-            f"(crédito {CREDITO_EUR:.0f} €). Hoy: {h:.2f} € ({sum(1 for r in filas if r['ts'].startswith(hoy))} "
-            f"imágenes). Quedan {max(0.0, TOPE_EUR - t):.2f} € hasta el tope.")
+            f"(crédito {CREDITO_EUR:.0f} €). Hoy: {h:.2f} € ({sum(1 for r in filas if r['ts'].startswith(hoy) and not r['tipo'].startswith('veo'))} "
+            f"imágenes, {sum(r.get('segundos', 0) for r in filas if r['ts'].startswith(hoy))} s de vídeo). Quedan {max(0.0, TOPE_EUR - t):.2f} € hasta el tope.")
 
 
 if __name__ == "__main__":

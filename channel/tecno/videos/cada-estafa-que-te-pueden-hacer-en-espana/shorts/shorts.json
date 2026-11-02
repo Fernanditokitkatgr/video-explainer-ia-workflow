@@ -1,0 +1,40 @@
+{
+  "shorts": [
+    {
+      "file": "short_1.mp4",
+      "tipo": "guion",
+      "titulo": "Te pagan por Bizum y el dinero sale de tu cuenta",
+      "tema": "BIZUM INVERSO",
+      "gancho": "BIZUM INVERSO",
+      "reveal": "LE PAGAS/TÚ",
+      "parte": "",
+      "cierre": "seco",
+      "primera_frase": "Te pagan por Bizum... y el dinero sale de tu cuenta.",
+      "desde": "",
+      "t0": 0.0,
+      "dur": 39.14,
+      "youtube_id": "F53EGuzpTT4",
+      "publish_at": "2026-11-07T12:00:00Z",
+      "tiktok_publish_id": null,
+      "tiktok_posted_at": null
+    },
+    {
+      "file": "short_2.mp4",
+      "tipo": "guion",
+      "titulo": "Dos mujeres creían salir con Brad Pitt y perdieron 325.000 €",
+      "tema": "FALSO BRAD PITT",
+      "gancho": "FALSO BRAD PITT",
+      "reveal": "UNA/BANDA",
+      "parte": "",
+      "cierre": "seco",
+      "primera_frase": "Dos mujeres creían salir con Brad Pitt... y perdieron trescientos veinticinco mil euros.",
+      "desde": "",
+      "t0": 0.0,
+      "dur": 37.62,
+      "youtube_id": "Rt8b83feL-c",
+      "publish_at": "2026-11-07T20:00:00Z",
+      "tiktok_publish_id": null,
+      "tiktok_posted_at": null
+    }
+  ]
+}

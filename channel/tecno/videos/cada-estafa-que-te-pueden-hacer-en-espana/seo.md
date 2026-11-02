@@ -40,18 +40,17 @@ Si te gusta entender cómo funciona de verdad la tecnología que usas cada día,
 ## Capítulos
 
 0:00 El SMS que parece de tu banco
-0:24 SMS del banco
-0:50 Multa falsa y paquete de Correos
-1:14 Hola mamá
-1:41 Bizum inverso
-2:07 La llamada del banco
-2:33 Falso técnico de Microsoft
-2:59 Alquiler fantasma
-3:28 Famoso falso con IA
-3:58 SIM swapping
-4:26 La estafa del amor
-4:48 ¿De qué actor era la web?
-
+0:29 SMS del banco
+1:02 Multa falsa y paquete de Correos
+1:33 Hola mamá
+2:07 Bizum inverso
+2:39 La llamada del banco
+3:11 Falso técnico de Microsoft
+3:44 Alquiler fantasma
+4:18 Famoso falso con IA
+4:57 SIM swapping
+5:32 La estafa del amor
+6:00 ¿De qué actor era la web?
 ## Tags
 
 ```
@@ -67,8 +66,40 @@ etiquetas: SMS DEL BANCO|MULTA FALSA|HOLA MAMÁ|BIZUM INVERSO|LLAMADA FALSA|FALS
 cols: 5
 
 ## Shorts
-- titulo: ¿Por qué aceptar un Bizum te puede vaciar la cuenta? | gancho: ¿TE PUEDE ROBAR/UN BIZUM? | reveal: LE PAGAS/TÚ | desde: 2_07 | hasta: 2_35
-- titulo: ¿Qué actor usaron para estafar 325.000 € en España? | gancho: ¿QUÉ ACTOR USARON/PARA ESTAFAR? | reveal: BRAD/PITT | desde: 5_32 | hasta: 6_10
+
+Formato `tipo: guion` (CLAUDE.md, "Shorts con guion propio"): L1 es el gancho y el título dicho en voz alta, tono de contárselo a un amigo, sin `rotulo:`. `img:` = claves del `frames.json` de este vídeo. Todos los datos salen del guion y de las fuentes de "## Notas" (Interior, 9 jun 2025 y 23 sep 2024). Probar con `python scripts/make_shorts.py cada-estafa-que-te-pueden-hacer-en-espana --dry-run`.
+Antes (modo recorte, 29-oct-2026): `¿Por qué aceptar un Bizum te puede vaciar la cuenta?` (desde 2_07, empezaba por "Número cuatro") y `¿Qué actor usaron para estafar 325.000 € en España?` (desde 5_32, "Número diez").
+
+### Short 1 (Bizum inverso)
+tipo: guion
+titulo: Te pagan por Bizum y el dinero sale de tu cuenta
+tema: BIZUM INVERSO
+reveal: LE PAGAS/TÚ
+cierre: seco
+L1: [tense] Te pagan por Bizum... y el dinero sale de tu cuenta. | img: 2_18
+L2: [curious] Se llama Bizum inverso. Y es más fácil de lo que parece. | img: 2_12
+B1: [warm] Vendes algo por internet. Una bici, por ejemplo. Alguien te escribe, la quiere, y te dice que te la paga por Bizum. | img: 2_11
+B2: [curious] Pero con un detalle. Que el pago lo tienes que aceptar tú. Que él opera con banca de empresas y no puede hacerlo de otra forma. | img: 2_14
+B3: [tense] Te llega la solicitud al móvil. Parece un cobro. Y le das a aceptar... | img: 2_33
+P: [emphatic] No estás cobrando nada. Le pagas tú. | img: 2_35
+B4: [serious] En dos mil veinticinco la Policía Nacional desarticuló una red así en Cádiz. Doscientas siete víctimas. | img: 2_21
+F: [serious] Para cobrar un Bizum nunca tienes que aceptar nada. Si aceptas... estás pagando. | img: 2_30
+
+### Short 2 (falso Brad Pitt)
+tipo: guion
+titulo: Dos mujeres creían salir con Brad Pitt y perdieron 325.000 €
+tema: FALSO BRAD PITT
+reveal: UNA/BANDA
+cierre: seco
+L1: [curious] Dos mujeres creían salir con Brad Pitt... y perdieron trescientos veinticinco mil euros. | img: 6_04
+L2: [serious] Y no es una película. Pasó en España. | img: 5_35
+B1: [warm] Una era de Granada y la otra de Vizcaya. Las dos lo habían conocido en la misma web de fans del actor. | img: 5_49
+B2: [warm] Él les prometía un futuro juntos. | img: 5_37
+B3: [tense] Y un día les propuso invertir juntos. | img: 5_39
+B4: [serious] Solo a la de Granada le quitaron ciento setenta y cinco mil euros. | img: 5_45
+P: [emphatic] Detrás no estaba Brad Pitt. Había una banda. Y la Guardia Civil detuvo a cinco personas. | img: 6_05
+B5: [ominous] En un registro apareció una agenda. Con las frases que usaban para engañarlas. | img: 5_57
+F: [serious] Si alguien a quien nunca has visto te pide dinero, es una estafa. Aunque tenga la cara de Brad Pitt. | img: 6_20
 
 ## Notas
 

@@ -11,7 +11,7 @@ startSec / velocidad, y la duración de la composición en Root.tsx también. Es
 No renderiza ni sube nada. NO usar con vídeos ya subidos (YouTube no permite cambiar el archivo).
 
 Uso:
-    python scripts/set_speed.py <slug> <velocidad>      # p. ej. 1.25
+    python scripts/set_speed.py <slug> <velocidad>      # p. ej. 1.1 (defecto desde 28-oct-2026)
 """
 import json
 import re

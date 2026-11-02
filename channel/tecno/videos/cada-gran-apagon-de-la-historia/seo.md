@@ -41,18 +41,17 @@ Si te gusta entender cómo funciona de verdad la tecnología que usas cada día,
 ## Capítulos
 
 0:00 Las 12:33 en España
-0:22 Nueva York 1977
-0:48 Noreste de EE. UU. 2003
-1:13 Italia 2003
-1:35 Texas 2021
-2:00 Venezuela 2019
-2:27 Chile 2025
-2:52 Pakistán 2023
-3:12 India 2012
-3:39 Quebec 1989
-4:02 Carrington 1859
-4:38 ¿Qué apagó España?
-
+0:26 Nueva York 1977
+1:00 Noreste de EE. UU. 2003
+1:31 Italia 2003
+1:58 Texas 2021
+2:30 Venezuela 2019
+3:04 Chile 2025
+3:35 Pakistán 2023
+4:01 India 2012
+4:32 Quebec 1989
+5:03 Carrington 1859
+5:47 ¿Qué apagó España?
 ## Tags
 
 ```
@@ -68,8 +67,40 @@ etiquetas: NUEVA YORK 1977|EE. UU. 2003|ITALIA 2003|TEXAS 2021|VENEZUELA 2019|CH
 cols: 5
 
 ## Shorts
-- titulo: ¿Qué apagó España el 28 de abril? | gancho: ¿QUÉ CAUSÓ EL/APAGÓN DE ESPAÑA? | reveal: SU RESPUESTA/SOBRETENSIÓN | desde: 5_47 | hasta: 6_32
-- titulo: ¿Qué pasaría si hoy llegara la tormenta solar de 1859? | gancho: ¿Y SI HOY LLEGA/UNA TORMENTA SOLAR? | reveal: LA CORRIENTE/DE LA AURORA | desde: 5_03 | hasta: 5_28
+
+Formato `tipo: guion` (CLAUDE.md, "Shorts con guion propio"): L1 es el gancho y el título dicho en voz alta, tono de contárselo a un amigo, sin `rotulo:`. `img:` = claves del `frames.json` de este vídeo. Todos los datos salen del guion y de las fuentes de "## Notas" (Gobierno 28 abr 2025, ENTSO-E mar 2026; Carrington: Wikipedia/NOAA, Lloyd's 2013, Comisión Europea 2025). Probar con `python scripts/make_shorts.py cada-gran-apagon-de-la-historia --dry-run`.
+Antes (modo recorte, 29-oct-2026): `¿Qué apagó España el 28 de abril?` (desde 5_47, empezaba por "Volvamos a la pregunta") y `¿Qué pasaría si hoy llegara la tormenta solar de 1859?` (desde 5_03, "Número diez").
+
+### Short 1 (apagón de España)
+tipo: guion
+titulo: ¿Qué apagó España entera el 28 de abril?
+tema: APAGÓN DE ESPAÑA
+reveal: SU RESPUESTA/SOBRETENSIÓN
+cierre: seco
+L1: [curious] ¿Qué apagó España entera el veintiocho de abril? | img: 0_11
+L2: [tense] Era lunes. Las doce y treinta y tres. Se apaga la nevera, se apaga el router, y el móvil se queda sin datos. Y no solo en tu casa. También en Portugal. | img: 0_00
+B1: [serious] En cinco segundos desaparecieron quince gigavatios. El sesenta por ciento de lo que gastaba el país. | img: 5_51
+B2: [curious] ¿Fue un rayo? ¿Un árbol? ¿Un bug? | img: 6_32
+B3: [serious] En marzo de dos mil veintiséis los expertos europeos publicaron su informe final. | img: 5_59
+P: [emphatic] Su respuesta. Sobretensión. | img: 6_04
+B4: [tense] La tensión de la red subió sin control. Las centrales se desconectaron para protegerse. Y cada desconexión la subía más. | img: 6_09
+B5: [curious] Ojo, que no hay un único culpable. El informe reparte el peso entre Red Eléctrica, las centrales y las normas. | img: 6_15
+F: [serious] Ni rayo ni árbol. Una tensión que nadie supo frenar. | img: 6_07
+
+### Short 2 (tormenta solar de 1859)
+tipo: guion
+titulo: ¿Qué pasaría si hoy llegara la tormenta solar de 1859?
+tema: TORMENTA SOLAR 1859
+reveal: DOS COMA SEIS/BILLONES
+cierre: seco
+L1: [curious] ¿Qué pasaría si hoy llegara la tormenta solar de mil ochocientos cincuenta y nueve? | img: 5_26
+L2: [serious] Pasó de verdad. Se llama evento Carrington. Y es la tormenta solar más fuerte de la que hay registro. | img: 5_04
+B1: [impressed] Hubo auroras hasta en Cuba. | img: 5_09
+B2: [tense] Entonces no había bombillas. Pero sí telégrafos. Y los telégrafos empezaron a echar chispas. | img: 5_14
+B3: [ominous] Algunas estaciones se incendiaron. | img: 5_16
+B4: [curious] Y lo más raro. Entre Boston y Portland desconectaron las baterías... y siguieron mandando mensajes. Con la corriente de la aurora. | img: 5_20
+P: [tense] ¿Y hoy? Lloyd's calculó que solo en Estados Unidos costaría hasta dos coma seis billones de dólares. | img: 5_28
+F: [serious] Por eso la Unión Europea recomienda tener un kit para setenta y dos horas. Agua, comida, linterna y radio a pilas. | img: 5_35
 
 ## Notas
 

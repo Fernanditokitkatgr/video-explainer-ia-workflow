@@ -8,7 +8,7 @@
 
 Keywords de búsqueda: "redes sociales adictivas", "por qué engancha tiktok", "quién creó instagram", "scroll infinito", "doble check azul", "rachas de snapchat", "reproducción automática youtube", "botón me gusta", "pull to refresh", "bereal", "cómo dejar las redes sociales".
 Referencia de formato: Tecnotipos, "TODAS las MAFIAS HACKER" (x19,1) y "TODOS los CIBERATAQUES" (x6,4); ver `channel/tecno/viral_playbook.md`, reglas T1, T4 y M4. Cada red social cuenta como "personaje con identidad" (creador con nombre, apodo y truco propio), no como producto. Palabra de tensión: "ENGANCHA" (1 y 3), "ENGANCHARTE" (2).
-Duración: 6.083 caracteres de narración sin etiquetas, 82 líneas (el modelo de estafas tiene 5.888). Estimado: 6:40-7:00 a 1,25.
+Duración: v2 5.596 caracteres de narración sin etiquetas, 80 líneas (v1: 6.083). Pensado para 1,1: unos 5-6 min.
 Búsqueda previa del título (19 oct 2026, WebSearch): salen artículos sobre adicción a las redes y un vídeo de AsapSCIENCE ("5 formas en que las redes sociales modifican tu cerebro"), pero ningún vídeo con la fórmula "Cada red social explicada" ni red por red con su creador. WebSearch indexa mal YouTube; mirarlo a mano antes de publicar.
 
 ## Descripción
@@ -40,17 +40,17 @@ Si te gusta entender cómo funciona de verdad la tecnología que usas cada día,
 ## Capítulos
 
 0:00 Las dos de la mañana en TikTok
-0:18 WhatsApp: el doble check azul
-0:44 YouTube: la reproducción automática
-1:07 Instagram: el contador de me gusta
-1:30 TikTok: el scroll infinito
-2:04 Facebook: el botón de me gusta
-2:31 X: tirar para actualizar
-3:03 Twitch: los puntos de canal
-3:26 Snapchat: las rachas
-3:50 Reddit: los votos
-4:17 BeReal: la alarma
-4:26 La respuesta: el truco de BeReal
+0:24 WhatsApp: el doble check azul
+0:52 YouTube: la reproducción automática
+1:19 Instagram: el contador de me gusta
+1:45 TikTok: el scroll infinito
+2:20 Facebook: el botón de me gusta
+2:50 X: tirar para actualizar
+3:25 Twitch: los puntos de canal
+3:51 Snapchat: las rachas
+4:16 Reddit: los votos
+4:46 BeReal: la alarma
+4:57 La respuesta: el truco de BeReal
 
 ## Tags
 
@@ -73,32 +73,54 @@ Antes (modo recorte, descartado: arrancaban con "Número cuatro…" / "Número d
 `- titulo: ¿Cuántos vídeos de TikTok bastan para engancharte? | gancho: ¿CUÁNTOS VÍDEOS DE TIKTOK/TE ENGANCHAN? | reveal: 260/VÍDEOS | desde: 1_55 | hasta: 2_20`  
 `- titulo: ¿Qué truco usaba BeReal, la app anti Instagram? | gancho: ¿CÓMO TE ENGANCHABA/BEREAL? | reveal: UNA NOTIFICACIÓN/AL DÍA | desde: 5_22 | hasta: 5_54`  
 
+**v2 (28-oct-2026)**: mini-guiones reescritos en tono natural (CLAUDE.md, "Guion natural"), sin `rotulo:`. Los fotogramas del largo se regeneran con el guion v2, así que todas las `img:` del largo están en `img: TODO` (re-mapear a las claves del nuevo `frames.json` antes de `make_shorts.py`; con TODO el `--dry-run` da error a propósito). Las `nueva:` se mantienen. Versión anterior: `seo_v1.md`.
+
+**v3 (29-oct-2026)**: mini-guiones retocados en el mismo tono llano del guion v3 (menos "...", menos [whispers]/[mischievously], frases de amigo). `img:` sin tocar. Copia previa: `seo_v2.md`.
+
+**v3 largo (31-oct-2026)**: el largo se ha rehecho con el guion v3 (voz v4 a 1.0, 181 imágenes `v3_*`). Las `img:` apuntan ya al `frames.json` v3. Las frases se han partido en trozos de 2-4 s (mismo texto, mismo orden) para que la imagen cambie cada ~3 s, igual que en el largo.
+
 ### Short 1 (playbook §2.8 B: mecanismo y cifra)
 tipo: guion
 titulo: TikTok sabe cuántos vídeos bastan para engancharte
 tema: TIKTOK
 reveal: 260/VÍDEOS
 cierre: seco
-L1: [curious] TikTok sabe cuántos vídeos bastan para engancharte. Lo pone en sus documentos. | img: 1_54
-L2: [ominous] Se filtraron en Kentucky. Y la cifra es pequeña. | img: 2_10
-B1: [serious] Su anzuelo es el scroll infinito. Lo inventó Aza Raskin en dos mil seis. | img: 1_58 | rotulo: SCROLL INFINITO
-B2: [serious] Hoy dice que se arrepiente.
-B3: [serious] Y el feed Para ti aprende de cada segundo que miras. | img: 2_07
-P: [emphatic] Según su propia investigación: doscientos sesenta vídeos. Unos treinta y cinco minutos. | img: 2_15
-F: [serious] Y Bruselas ya ha acusado a su diseño adictivo de saltarse la ley europea. | img: 2_20
+L1: [curious] TikTok sabe cuántos vídeos bastan para engancharte. | img: v3_1_47
+L2: Y lo tiene por escrito. | img: v3_2_01
+L3: [ominous] Son documentos internos que se filtraron en Kentucky. | img: v3_1_31
+L4: Y la cifra es más pequeña de lo que crees. | img: v3_0_07
+B1: [serious] Todo empieza con el scroll infinito. | img: v3_1_53
+B2: Lo inventó Aza Raskin en dos mil seis, | img: v3_1_55
+B3: y hoy dice que se arrepiente. | img: v3_1_56
+B4: [curious] Encima, el feed Para ti aprende de cada segundo que miras. | img: v3_1_58
+B5: [serious] Según su propia investigación, | img: v3_2_04
+P: el hábito puede empezar tras doscientos sesenta vídeos. | img: v3_2_07
+B6: [surprised] Unos treinta y cinco minutos, y ya estás dentro. | img: v3_2_08
+F: [serious] Y en dos mil veintiséis, Bruselas acusó a su diseño adictivo de incumplir la ley europea. | img: v3_2_11
+F2: [calm] Ponte un límite de tiempo en el móvil. Y que el código lo ponga otra persona. | img: v3_2_17
+F3: ¿Tú cuánto llevas hoy? | img: v3_0_01
 
-### Short 2 (borrador: revisar antes de generar la voz)
+### Short 2 (playbook §2.8: la que prometía lo contrario)
 tipo: guion
 titulo: BeReal nació para que soltaras el móvil (y usó una alarma)
 tema: BEREAL
 reveal: UNA NOTIFICACIÓN/AL DÍA
 cierre: seco
-L1: [curious] BeReal nació para que soltaras el móvil. Y acabó usando una alarma. | img: 5_23
-L2: [serious] La creó en Francia Alexis Barreyat en dos mil veinte. Contra Instagram. | img: 5_25
-B1: [calm] Las fotos se subían tal cual. Y solo para tus amigos. | img: 5_30
-P: [emphatic] Su truco: una notificación al día. A una hora que nunca sabes. | img: 5_36 | rotulo: 1 AL DÍA
-B2: [tense] Tienes dos minutos para hacer la foto. Y si llegas tarde, todos lo ven. | img: 5_37 | rotulo: 2 MINUTOS
-F: [serious] Según Platformer, en cinco meses pasó de quince millones de usuarios al mes a seis. | img: 5_44
+L1: [curious] BeReal nació para que soltaras el móvil. | img: v3_5_13
+L2: Y acabó usando una alarma. | img: v3_5_11
+L3: [warm] La creó en Francia Alexis Barreyat en dos mil veinte. | img: v3_4_49
+L4: Y era la anti Instagram. | img: v3_4_50
+B1: [calm] Las fotos se subían tal cual. | img: v3_4_52
+B2: Y solo para tus amigos. | img: v3_4_54
+B3: [curious] Suena sano. Pero mira qué truco usaba. | img: v3_4_55
+P: [surprised] Una notificación al día. | img: v3_4_57
+B4: A una hora que nunca sabes. | img: v3_4_59
+B5: [tense] Y desde ese momento tienes dos minutos para hacer la foto. | img: v3_5_01
+B6: Si llegas tarde, todos lo ven. | img: v3_5_03
+F: [sighs] Según Platformer, en cinco meses pasó de quince millones de usuarios al mes a seis. | img: v3_5_08
+F2: [thoughtful] Ninguna alarma de una app es una emergencia. | img: v3_5_15
+F3: Te prometía soltar el móvil, y te lo hacía sacar corriendo. | img: v3_5_13
+
 ## Notas
 
 ### Miniatura (plantilla A del playbook, reglas M1/M4/M5)
@@ -197,7 +219,7 @@ F: [serious] Según Platformer, en cinco meses pasó de quince millones de usuar
 
 ### Datos de producción
 
-- Narración: 6.083 caracteres sin etiquetas, 82 líneas, ninguna cifra en dígitos.
+- Narración v2 (28-oct-2026, tono natural): 5.596 caracteres sin etiquetas, 80 líneas, ninguna cifra en dígitos (v1: 6.083, en `script_v1.md`). Los consejos y las frases de personalidad ya no llevan rótulo ("Cómo desengancharte.", "Su estilo.").
 - Ojo TTS: "I A B Spain", "N F T", "Musical.ly" (músical li), "ByteDance", "Aza Raskin", "Facemash", "Justin Rosenstein", "Sean Parker", "Loren Brichter", "Justin Kan", "Picaboo", "Platformer", "BeReal" (bi rial), "Alexis Barreyat", "Neal Mohan". Probar antes del render completo.
 - Negaciones: todas con verbo ("Nunca decides seguir", "Nunca te obliga", "Nunca te dice", "Ninguna alarma… es"). Pasar `check_negations.py` tras la voz.
 - Gancho: escena en la línea 1 (las dos de la mañana en TikTok), escalada en la 4 ("Y eso no es lo peor"), pregunta abierta en la 6 ("¿Adivinas qué truco acabó usando?"), resuelta en el bloque 10 ("Una notificación. Una vez al día. A una hora que nunca sabes.").

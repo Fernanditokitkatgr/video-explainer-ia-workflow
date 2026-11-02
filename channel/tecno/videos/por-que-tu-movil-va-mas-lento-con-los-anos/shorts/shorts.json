@@ -1,0 +1,40 @@
+{
+  "shorts": [
+    {
+      "file": "short_1.mp4",
+      "tipo": "guion",
+      "titulo": "Apple frenó iPhones viejos a escondidas (y lo pagó caro)",
+      "tema": "BATTERYGATE APPLE",
+      "gancho": "BATTERYGATE APPLE",
+      "reveal": "500 MILLONES/DE DÓLARES",
+      "parte": "",
+      "cierre": "seco",
+      "primera_frase": "Apple frenó iPhones viejos a escondidas. Y lo pagó caro.",
+      "desde": "",
+      "t0": 0.0,
+      "dur": 38.48,
+      "youtube_id": null,
+      "publish_at": null,
+      "tiktok_publish_id": null,
+      "tiktok_posted_at": null
+    },
+    {
+      "file": "short_2.mp4",
+      "tipo": "guion",
+      "titulo": "Samsung frenaba sus móviles, menos en los test de velocidad",
+      "tema": "SAMSUNG GALAXY",
+      "gancho": "SAMSUNG GALAXY",
+      "reveal": "CUATRO/GENERACIONES",
+      "parte": "",
+      "cierre": "seco",
+      "primera_frase": "Samsung frenaba sus móviles. Menos en los test de velocidad.",
+      "desde": "",
+      "t0": 0.0,
+      "dur": 33.94,
+      "youtube_id": null,
+      "publish_at": null,
+      "tiktok_publish_id": null,
+      "tiktok_posted_at": null
+    }
+  ]
+}
