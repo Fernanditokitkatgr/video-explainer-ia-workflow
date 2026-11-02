@@ -1,0 +1,1083 @@
+{
+ "formato": "9:16",
+ "cola": 0.9,
+ "reparto": {
+  "mono": {
+   "tipo": "protagonista",
+   "narrador": true
+  },
+  "malo": {
+   "tipo": "ciberdelincuente"
+  },
+  "currito": {
+   "tipo": "currito"
+  },
+  "abuelo": {
+   "tipo": "abuelo"
+  }
+ },
+ "tramos": [
+  {
+   "en": "",
+   "color": "rojo",
+   "escenas": [
+    {
+     "tipo": "pantalla",
+     "dispositivo": "movil",
+     "titulo": "Iniciar sesión",
+     "color": "azul",
+     "lineas": [
+      {
+       "texto": "Usuario: tú",
+       "al": "@inicio",
+       "color": "#F1F1F1"
+      },
+      {
+       "texto": "Contraseña: ••••••",
+       "al": "@contraseña"
+      }
+     ]
+    },
+    {
+     "tipo": "sello",
+     "texto": "ROBADA",
+     "al": "@segundos",
+     "tam": 130,
+     "caja": {
+      "x": 540,
+      "y": 640
+     },
+     "tramos": 1
+    }
+   ],
+   "personajes": {
+    "malo": {
+     "x": 0.78,
+     "escala": 0.95,
+     "pose": "señalar",
+     "cara": "chulo",
+     "mira": "izq",
+     "entrada": "cae",
+     "entra": "@hacker",
+     "cambios": [
+      {
+       "al": "@segundos",
+       "pose": "celebrar",
+       "cara": "risa",
+       "salta": true
+      }
+     ]
+    },
+    "mono": {
+     "x": 0.22,
+     "escala": 0.95,
+     "pose": "de_pie",
+     "cara": "normal",
+     "mira": "der",
+     "entrada": "salto",
+     "cambios": [
+      {
+       "al": "@segundos",
+       "pose": "miedo",
+       "cara": "miedo"
+      }
+     ]
+    }
+   },
+   "golpes": [
+    "@segundos"
+   ]
+  },
+  {
+   "en": "Y ni siquiera",
+   "escenas": [],
+   "personajes": {
+    "malo": {
+     "pose": "brazos_cruzados",
+     "cara": "chulo",
+     "dice": [
+      {
+       "texto": "¿Adivinar? Qué va.",
+       "al": "@siquiera",
+       "hasta": "@fin"
+      }
+     ]
+    },
+    "mono": {
+     "pose": "encogerse",
+     "cara": "sorpresa"
+    }
+   }
+  },
+  {
+   "en": "Lo primero que",
+   "color": "amarillo",
+   "escenas": [
+    {
+     "tipo": "pantalla",
+     "dispositivo": "ordenador",
+     "titulo": "Las más usadas del mundo",
+     "color": "rojo",
+     "caja": {
+      "x": 540,
+      "y": 560
+     },
+     "lineas": [
+      {
+       "texto": "1.  123456",
+       "al": "@lista",
+       "tam": 46
+      },
+      {
+       "texto": "2.  admin",
+       "al": "@usadas",
+       "tam": 46
+      },
+      {
+       "texto": "3.  12345678",
+       "al": "@mundo",
+       "tam": 46
+      }
+     ]
+    }
+   ],
+   "personajes": {
+    "malo": {
+     "x": 0.72,
+     "pose": "presentar",
+     "cara": "risa",
+     "mira": "izq",
+     "salta": true,
+     "cambios": [
+      {
+       "al": "@usadas",
+       "pose": "señalar_arriba",
+       "cara": "chulo"
+      }
+     ]
+    },
+    "mono": {
+     "x": 0.25,
+     "pose": "pensar",
+     "cara": "normal",
+     "cambios": [
+      {
+       "al": "@mundo",
+       "pose": "señalar_arriba",
+       "cara": "sorpresa"
+      }
+     ]
+    }
+   },
+   "sfx": [
+    [
+     "teclas",
+     "@probar",
+     0.8
+    ]
+   ]
+  },
+  {
+   "en": "Y la primera",
+   "color": "naranja",
+   "escenas": [
+    {
+     "tipo": "texto",
+     "tam": 150,
+     "caja": {
+      "x": 540,
+      "y": 560
+     },
+     "palabras": [
+      {
+       "texto": "1",
+       "al": "@uno",
+       "caja": true,
+       "color": "amarillo",
+       "x": 190,
+       "y": 560
+      },
+      {
+       "texto": "2",
+       "al": "@dos",
+       "caja": true,
+       "color": "azul",
+       "x": 330,
+       "y": 560
+      },
+      {
+       "texto": "3",
+       "al": "@tres",
+       "caja": true,
+       "color": "rosa",
+       "x": 470,
+       "y": 560
+      },
+      {
+       "texto": "4",
+       "al": "@cuatro",
+       "caja": true,
+       "color": "verde",
+       "x": 610,
+       "y": 560
+      },
+      {
+       "texto": "5",
+       "al": "@cinco",
+       "caja": true,
+       "color": "naranja",
+       "x": 750,
+       "y": 560
+      },
+      {
+       "texto": "6",
+       "al": "@seis",
+       "caja": true,
+       "color": "morado",
+       "x": 890,
+       "y": 560
+      }
+     ]
+    },
+    {
+     "tipo": "texto",
+     "tam": 70,
+     "palabras": [
+      {
+       "texto": "La n.º 1 del mundo",
+       "al": "@primera",
+       "x": 540,
+       "y": 330,
+       "color": "amarillo"
+      }
+     ]
+    }
+   ],
+   "personajes": {
+    "malo": {
+     "pose": "señalar",
+     "cara": "risa",
+     "cambios": [
+      {
+       "al": "@cuatro",
+       "pose": "celebrar",
+       "cara": "risa"
+      }
+     ]
+    },
+    "mono": {
+     "pose": "señalar_arriba",
+     "cara": "sorpresa",
+     "cambios": [
+      {
+       "al": "@seis",
+       "pose": "miedo",
+       "cara": "miedo",
+       "salta": true
+      }
+     ]
+    }
+   }
+  },
+  {
+   "en": "Esa cae al",
+   "escenas": [
+    {
+     "tipo": "texto",
+     "tam": 120,
+     "palabras": [
+      {
+       "texto": "123456",
+       "al": "@inicio",
+       "x": 540,
+       "y": 420,
+       "color": "blanco"
+      }
+     ]
+    },
+    {
+     "tipo": "sello",
+     "texto": "1.er INTENTO",
+     "al": "@primer",
+     "tam": 110,
+     "caja": {
+      "x": 540,
+      "y": 650
+     },
+     "rot": -8
+    }
+   ],
+   "personajes": {
+    "malo": {
+     "x": 0.7,
+     "pose": "celebrar",
+     "cara": "risa",
+     "salta": true
+    },
+    "mono": {
+     "pose": "encogerse",
+     "cara": "triste"
+    }
+   },
+   "golpes": [
+    "@cae"
+   ]
+  },
+  {
+   "en": "Si la tuya",
+   "color": "azul",
+   "escenas": [
+    {
+     "tipo": "pantalla",
+     "dispositivo": "ordenador",
+     "titulo": "Probando…",
+     "color": "morado",
+     "caja": {
+      "x": 540,
+      "y": 560
+     },
+     "lineas": [
+      {
+       "texto": "aaaaaaaa   ✗",
+       "al": "@rara",
+       "tam": 40,
+       "color": "#F1F1F1"
+      },
+      {
+       "texto": "aaaaaaab   ✗",
+       "al": "@corta",
+       "tam": 40,
+       "color": "#F1F1F1"
+      },
+      {
+       "texto": "aaaaaaac   ✗",
+       "al": "@prueba",
+       "tam": 40,
+       "color": "#F1F1F1"
+      },
+      {
+       "texto": "… y así todas",
+       "al": "@combinaciones",
+       "tam": 40
+      }
+     ]
+    }
+   ],
+   "personajes": {
+    "malo": {
+     "x": 0.76,
+     "pose": "empujar",
+     "cara": "enfado",
+     "mira": "izq",
+     "objeto": "movil",
+     "cambios": [
+      {
+       "al": "@combinaciones",
+       "pose": "correr",
+       "cara": "enfado"
+      }
+     ]
+    },
+    "mono": {
+     "x": 0.22,
+     "pose": "pensar",
+     "cara": "normal",
+     "cambios": [
+      {
+       "al": "@corta",
+       "pose": "brazos_cruzados",
+       "cara": "chulo"
+      }
+     ]
+    }
+   },
+   "sfx": [
+    [
+     "teclas",
+     "@rara",
+     0.9
+    ],
+    [
+     "teclas",
+     "@prueba",
+     0.9
+    ]
+   ]
+  },
+  {
+   "en": "Eso es fuerza",
+   "escenas": [
+    {
+     "tipo": "texto",
+     "tam": 120,
+     "palabras": [
+      {
+       "texto": "FUERZA",
+       "al": "@fuerza",
+       "x": 540,
+       "y": 470,
+       "color": "rojo"
+      },
+      {
+       "texto": "BRUTA",
+       "al": "@bruta",
+       "x": 540,
+       "y": 640,
+       "color": "rojo"
+      }
+     ]
+    },
+    {
+     "tipo": "iconos",
+     "items": [
+      {
+       "icono": "gpu",
+       "al": "@fuerza",
+       "dx": -190,
+       "dy": -300
+      },
+      {
+       "icono": "gpu",
+       "al": "@bruta",
+       "dx": 190,
+       "dy": -300
+      }
+     ],
+     "tam": 170
+    }
+   ],
+   "personajes": {
+    "malo": {
+     "x": 0.7,
+     "pose": "brazos_arriba",
+     "cara": "enfado",
+     "salta": true,
+     "objeto": "ninguno"
+    },
+    "mono": {
+     "pose": "señalar",
+     "cara": "sorpresa"
+    }
+   },
+   "golpes": [
+    "@fuerza"
+   ]
+  },
+  {
+   "en": "Aunque la web",
+   "color": "verde",
+   "escenas": [
+    {
+     "tipo": "comparativa",
+     "titulo": "Con 16 gráficas a tope",
+     "color": "amarillo",
+     "a": {
+      "icono": "reloj_arena",
+      "titulo": "8 minúsculas",
+      "valor": "2 semanas",
+      "color": "rojo",
+      "al": "@ocho"
+     },
+     "b": {
+      "titulo": "16 caracteres al azar",
+      "valor": "Miles de millones de años",
+      "color": "verde",
+      "al": "@Dieciséis"
+     },
+     "ganador": "b",
+     "ganador_al": "@años",
+     "tramos": 1
+    }
+   ],
+   "personajes": {
+    "malo": {
+     "x": 0.78,
+     "pose": "jarras",
+     "cara": "chulo",
+     "mira": "izq",
+     "cambios": [
+      {
+       "al": "@semanas",
+       "pose": "celebrar",
+       "cara": "risa"
+      }
+     ]
+    },
+    "mono": {
+     "x": 0.22,
+     "pose": "pensar",
+     "cara": "normal"
+    }
+   }
+  },
+  {
+   "en": "Dieciséis caracteres",
+   "personajes": {
+    "malo": {
+     "pose": "miedo",
+     "cara": "enfado",
+     "cambios": [
+      {
+       "al": "@años",
+       "pose": "encogerse",
+       "cara": "triste"
+      }
+     ]
+    },
+    "mono": {
+     "pose": "señalar",
+     "cara": "sorpresa",
+     "cambios": [
+      {
+       "al": "@millones",
+       "pose": "celebrar",
+       "cara": "risa",
+       "salta": true
+      }
+     ]
+    }
+   }
+  },
+  {
+   "en": "Por eso su",
+   "color": "morado",
+   "escenas": [
+    {
+     "tipo": "texto",
+     "tam": 80,
+     "palabras": [
+      {
+       "texto": "Su truco favorito:",
+       "al": "@truco",
+       "x": 540,
+       "y": 400,
+       "color": "blanco"
+      },
+      {
+       "texto": "QUE REPITAS",
+       "al": "@repitas",
+       "x": 540,
+       "y": 580,
+       "caja": true,
+       "color": "amarillo",
+       "tam": 110
+      },
+      {
+       "texto": "CONTRASEÑA",
+       "al": "@contraseña",
+       "x": 540,
+       "y": 760,
+       "caja": true,
+       "color": "rosa",
+       "tam": 100
+      }
+     ],
+     "tramos": 1
+    }
+   ],
+   "personajes": {
+    "malo": {
+     "x": 0.75,
+     "pose": "saludar",
+     "cara": "guiño",
+     "mira": "izq",
+     "salta": true
+    },
+    "mono": {
+     "x": 0.25,
+     "pose": "pensar",
+     "cara": "sorpresa"
+    }
+   }
+  },
+  {
+   "en": "Que repitas",
+   "personajes": {
+    "malo": {
+     "pose": "señalar",
+     "cara": "chulo",
+     "cambios": [
+      {
+       "al": "@contraseña",
+       "pose": "celebrar",
+       "cara": "risa"
+      }
+     ]
+    },
+    "mono": {
+     "pose": "encogerse",
+     "cara": "miedo"
+    }
+   }
+  },
+  {
+   "en": "Si se filtra",
+   "color": "rosa",
+   "escenas": [
+    {
+     "tipo": "iconos",
+     "titulo": "La misma llave para todo",
+     "color": "amarillo",
+     "items": [
+      {
+       "icono": "sobre",
+       "texto": "Correo",
+       "al": "@correo",
+       "tachar_al": "@correo+0.5"
+      },
+      {
+       "icono": "banco",
+       "texto": "Banco",
+       "al": "@banco",
+       "tachar_al": "@banco+0.5"
+      },
+      {
+       "icono": "movil",
+       "texto": "Redes",
+       "al": "@redes",
+       "tachar_al": "@redes+0.5"
+      }
+     ]
+    },
+    {
+     "tipo": "iconos",
+     "items": [
+      {
+       "icono": "llave",
+       "al": "@filtra"
+      }
+     ],
+     "tam": 200,
+     "caja": {
+      "x": 540,
+      "y": 300
+     },
+     "desaparece": "@correo"
+    }
+   ],
+   "personajes": {
+    "currito": {
+     "x": 0.24,
+     "escala": 0.95,
+     "pose": "de_pie",
+     "cara": "normal",
+     "mira": "der",
+     "objeto": "movil",
+     "entrada": "izq",
+     "cambios": [
+      {
+       "al": "@banco",
+       "pose": "miedo",
+       "cara": "miedo"
+      },
+      {
+       "al": "@redes",
+       "pose": "encogerse",
+       "cara": "triste"
+      }
+     ]
+    },
+    "malo": {
+     "x": 0.76,
+     "pose": "correr",
+     "cara": "risa",
+     "cambios": [
+      {
+       "al": "@correo",
+       "x": 0.68,
+       "pose": "señalar",
+       "cara": "risa"
+      },
+      {
+       "al": "@redes",
+       "pose": "celebrar"
+      }
+     ]
+    }
+   },
+   "sfx": [
+    [
+     "cristal",
+     "@filtra",
+     0.8
+    ]
+   ]
+  },
+  {
+   "en": "Y si no",
+   "color": "naranja",
+   "escenas": [
+    {
+     "tipo": "pantalla",
+     "dispositivo": "movil",
+     "app": "alerta",
+     "titulo": "SMS · Banco",
+     "caja": {
+      "x": 540,
+      "y": 520
+     },
+     "lineas": [
+      {
+       "texto": "Tu cuenta está bloqueada",
+       "al": "@SMS",
+       "color": "#F1F1F1"
+      },
+      {
+       "texto": "Entra aquí: banc0-seguro.com",
+       "al": "@enlace",
+       "color": "amarillo"
+      },
+      {
+       "texto": "Contraseña: ____",
+       "al": "@calcada",
+       "color": "#F1F1F1"
+      }
+     ],
+     "tramos": 1
+    }
+   ],
+   "personajes": {
+    "abuelo": {
+     "x": 0.24,
+     "escala": 0.95,
+     "pose": "de_pie",
+     "cara": "sorpresa",
+     "mira": "der",
+     "objeto": "movil",
+     "entrada": "salto",
+     "cambios": [
+      {
+       "al": "@enlace",
+       "pose": "señalar",
+       "cara": "normal"
+      }
+     ]
+    },
+    "malo": {
+     "x": 0.84,
+     "pose": "presentar",
+     "cara": "guiño",
+     "mira": "izq",
+     "cambios": [
+      {
+       "al": "@pide",
+       "pose": "jarras",
+       "cara": "chulo"
+      }
+     ],
+     "dice": [
+      {
+       "texto": "Soy tu banco",
+       "al": "@pide",
+       "hasta": "@calcada"
+      }
+     ]
+    }
+   },
+   "sfx": [
+    [
+     "notif",
+     "@SMS",
+     1.0
+    ]
+   ]
+  },
+  {
+   "en": "Eso es phishing",
+   "escenas": [
+    {
+     "tipo": "iconos",
+     "items": [
+      {
+       "icono": "anzuelo",
+       "al": "@inicio"
+      }
+     ],
+     "tam": 220,
+     "caja": {
+      "x": 830,
+      "y": 300
+     }
+    },
+    {
+     "tipo": "sello",
+     "texto": "PHISHING",
+     "al": "@phishing",
+     "tam": 120,
+     "caja": {
+      "x": 540,
+      "y": 650
+     }
+    }
+   ],
+   "personajes": {
+    "abuelo": {
+     "pose": "miedo",
+     "cara": "miedo",
+     "salta": true
+    },
+    "malo": {
+     "pose": "celebrar",
+     "cara": "risa"
+    }
+   }
+  },
+  {
+   "en": "Así que usa",
+   "color": "verde",
+   "escenas": [
+    {
+     "tipo": "pantalla",
+     "dispositivo": "movil",
+     "titulo": "Gestor de contraseñas",
+     "color": "verde",
+     "caja": {
+      "x": 540,
+      "y": 560
+     },
+     "tramos": 1,
+     "lineas": [
+      {
+       "texto": "Correo:  Tq8#mZ2!vLp9",
+       "al": "@gestor",
+       "tam": 32
+      },
+      {
+       "texto": "Banco:  w4$Rk7nQ-1xZe",
+       "al": "@larga",
+       "tam": 32,
+       "color": "#F1F1F1"
+      },
+      {
+       "texto": "Redes:  Hz9!pV3@cT6m",
+       "al": "@distinta",
+       "tam": 32
+      },
+      {
+       "texto": "Tú solo recuerdas UNA",
+       "al": "@sitio",
+       "tam": 32,
+       "color": "verde"
+      }
+     ]
+    }
+   ],
+   "personajes": {
+    "mono": {
+     "x": 0.22,
+     "escala": 0.95,
+     "pose": "presentar",
+     "cara": "risa",
+     "mira": "der",
+     "entrada": "salto"
+    },
+    "malo": {
+     "x": 0.8,
+     "pose": "pensar",
+     "cara": "enfado",
+     "mira": "izq"
+    }
+   }
+  },
+  {
+   "en": "Una larga y",
+   "personajes": {
+    "mono": {
+     "pose": "señalar_arriba",
+     "cara": "chulo",
+     "cambios": [
+      {
+       "al": "@sitio",
+       "pose": "celebrar",
+       "cara": "risa"
+      }
+     ]
+    },
+    "malo": {
+     "pose": "brazos_cruzados",
+     "cara": "enfado",
+     "cambios": [
+      {
+       "al": "@distinta",
+       "pose": "encogerse",
+       "cara": "triste"
+      }
+     ]
+    }
+   }
+  },
+  {
+   "en": "Y activa la",
+   "color": "azul",
+   "escenas": [
+    {
+     "tipo": "pantalla",
+     "dispositivo": "movil",
+     "titulo": "Verificación en 2 pasos",
+     "color": "azul",
+     "caja": {
+      "x": 540,
+      "y": 560
+     },
+     "lineas": [
+      {
+       "texto": "Tu código: 482 913",
+       "al": "@verificación",
+       "tam": 40
+      },
+      {
+       "texto": "✓ App de códigos",
+       "al": "@app",
+       "color": "verde"
+      },
+      {
+       "texto": "✗ SMS",
+       "al": "@SMS",
+       "color": "rojo"
+      }
+     ]
+    }
+   ],
+   "personajes": {
+    "mono": {
+     "objeto": "movil",
+     "pose": "señalar",
+     "cara": "normal",
+     "salta": true
+    },
+    "malo": {
+     "pose": "pensar",
+     "cara": "sorpresa"
+    }
+   },
+   "sfx": [
+    [
+     "ding",
+     "@app",
+     0.8
+    ]
+   ]
+  },
+  {
+   "en": "Según Microsoft",
+   "color": "amarillo",
+   "escenas": [
+    {
+     "tipo": "cifra",
+     "antes": "Microsoft:",
+     "desde": 0,
+     "hasta": 99,
+     "prefijo": "+",
+     "sufijo": " %",
+     "al": "@noventa",
+     "dur": 1.2,
+     "color": "verde",
+     "flecha": "sube",
+     "etiqueta": "de ataques automáticos frenados",
+     "etiqueta_al": "@ataques",
+     "caja": {
+      "x": 470,
+      "y": 560
+     }
+    }
+   ],
+   "personajes": {
+    "mono": {
+     "objeto": "ninguno",
+     "pose": "celebrar",
+     "cara": "risa",
+     "cambios": [
+      {
+       "al": "@ataques",
+       "pose": "señalar_arriba",
+       "cara": "chulo"
+      }
+     ]
+    },
+    "malo": {
+     "pose": "miedo",
+     "cara": "miedo",
+     "cambios": [
+      {
+       "al": "@ataques",
+       "x": 0.86,
+       "pose": "encogerse",
+       "cara": "triste"
+      }
+     ]
+    }
+   }
+  },
+  {
+   "en": "Así, aunque tenga",
+   "color": "verde",
+   "escenas": [
+    {
+     "tipo": "iconos",
+     "items": [
+      {
+       "icono": "escudo",
+       "al": "@inicio",
+       "texto": "2 pasos"
+      }
+     ],
+     "tam": 300,
+     "caja": {
+      "x": 540,
+      "y": 470
+     }
+    },
+    {
+     "tipo": "sello",
+     "texto": "BLOQUEADO",
+     "al": "@puerta",
+     "tam": 110,
+     "color": "verde",
+     "caja": {
+      "x": 540,
+      "y": 800
+     }
+    }
+   ],
+   "personajes": {
+    "mono": {
+     "pose": "jarras",
+     "cara": "chulo",
+     "cambios": [
+      {
+       "al": "@puerta",
+       "pose": "celebrar",
+       "cara": "risa",
+       "salta": true
+      }
+     ]
+    },
+    "malo": {
+     "x": 0.72,
+     "pose": "empujar",
+     "cara": "enfado",
+     "mira": "izq",
+     "objeto": "movil",
+     "cambios": [
+      {
+       "al": "@puerta",
+       "pose": "miedo",
+       "cara": "triste",
+       "x": 0.9
+      }
+     ]
+    }
+   },
+   "golpes": [
+    "@puerta"
+   ],
+   "sfx": [
+    [
+     "puerta",
+     "@puerta",
+     1.0
+    ]
+   ]
+  }
+ ]
+}

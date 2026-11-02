@@ -1,0 +1,5117 @@
+[
+{
+"text": "Viernes,",
+"start": 0.0,
+"end": 0.56
+},
+{
+"text": "diez",
+"start": 0.86,
+"end": 1.12
+},
+{
+"text": "de",
+"start": 1.12,
+"end": 1.34
+},
+{
+"text": "octubre",
+"start": 1.34,
+"end": 1.72
+},
+{
+"text": "de",
+"start": 1.72,
+"end": 1.86
+},
+{
+"text": "dos",
+"start": 1.86,
+"end": 2.005
+},
+{
+"text": "mil",
+"start": 2.005,
+"end": 2.149
+},
+{
+"text": "veinticinco.",
+"start": 2.149,
+"end": 2.68
+},
+{
+"text": "Bitcoin",
+"start": 3.34,
+"end": 3.54
+},
+{
+"text": "vale",
+"start": 3.54,
+"end": 3.9
+},
+{
+"text": "más",
+"start": 3.9,
+"end": 4.06
+},
+{
+"text": "de",
+"start": 4.06,
+"end": 4.18
+},
+{
+"text": "ciento",
+"start": 4.18,
+"end": 4.465
+},
+{
+"text": "veintiún",
+"start": 4.465,
+"end": 4.845
+},
+{
+"text": "mil",
+"start": 4.845,
+"end": 4.987
+},
+{
+"text": "dólares.",
+"start": 4.987,
+"end": 5.32
+},
+{
+"text": "Esa",
+"start": 5.92,
+"end": 6.36
+},
+{
+"text": "misma",
+"start": 6.36,
+"end": 6.5
+},
+{
+"text": "tarde,",
+"start": 6.5,
+"end": 6.86
+},
+{
+"text": "baja",
+"start": 7.22,
+"end": 7.38
+},
+{
+"text": "de",
+"start": 7.38,
+"end": 7.54
+},
+{
+"text": "ciento",
+"start": 7.54,
+"end": 7.955
+},
+{
+"text": "seis",
+"start": 7.955,
+"end": 8.232
+},
+{
+"text": "mil.",
+"start": 8.232,
+"end": 8.44
+},
+{
+"text": "¿Quién",
+"start": 8.78,
+"end": 9.0
+},
+{
+"text": "ha",
+"start": 9.0,
+"end": 9.1
+},
+{
+"text": "decidido",
+"start": 9.1,
+"end": 9.52
+},
+{
+"text": "eso?",
+"start": 9.52,
+"end": 9.82
+},
+{
+"text": "¿Un",
+"start": 10.12,
+"end": 10.24
+},
+{
+"text": "banco?",
+"start": 10.24,
+"end": 10.56
+},
+{
+"text": "¿Un",
+"start": 10.86,
+"end": 11.0
+},
+{
+"text": "gobierno?",
+"start": 11.0,
+"end": 11.36
+},
+{
+"text": "Ni",
+"start": 11.76,
+"end": 12.0
+},
+{
+"text": "uno",
+"start": 12.0,
+"end": 12.18
+},
+{
+"text": "ni",
+"start": 12.18,
+"end": 12.4
+},
+{
+"text": "otro.",
+"start": 12.4,
+"end": 12.64
+},
+{
+"text": "Y",
+"start": 13.04,
+"end": 13.12
+},
+{
+"text": "no",
+"start": 13.12,
+"end": 13.28
+},
+{
+"text": "es",
+"start": 13.28,
+"end": 13.52
+},
+{
+"text": "lo",
+"start": 13.52,
+"end": 13.64
+},
+{
+"text": "más",
+"start": 13.64,
+"end": 13.8
+},
+{
+"text": "loco.",
+"start": 13.8,
+"end": 14.14
+},
+{
+"text": "Una",
+"start": 14.5,
+"end": 14.64
+},
+{
+"text": "vez",
+"start": 14.64,
+"end": 14.78
+},
+{
+"text": "cayó",
+"start": 14.78,
+"end": 15.08
+},
+{
+"text": "casi",
+"start": 15.08,
+"end": 15.3
+},
+{
+"text": "un",
+"start": 15.3,
+"end": 15.48
+},
+{
+"text": "noventa",
+"start": 15.48,
+"end": 15.839
+},
+{
+"text": "por",
+"start": 15.839,
+"end": 15.992
+},
+{
+"text": "ciento",
+"start": 15.992,
+"end": 16.3
+},
+{
+"text": "en",
+"start": 16.3,
+"end": 16.58
+},
+{
+"text": "segundos.",
+"start": 16.58,
+"end": 17.04
+},
+{
+"text": "Antes",
+"start": 17.52,
+"end": 17.74
+},
+{
+"text": "de",
+"start": 17.74,
+"end": 17.88
+},
+{
+"text": "empezar,",
+"start": 17.88,
+"end": 18.2
+},
+{
+"text": "una",
+"start": 18.52,
+"end": 18.68
+},
+{
+"text": "cosa.",
+"start": 18.68,
+"end": 18.96
+},
+{
+"text": "Esto",
+"start": 19.34,
+"end": 19.58
+},
+{
+"text": "es",
+"start": 19.58,
+"end": 19.76
+},
+{
+"text": "divulgación,",
+"start": 19.76,
+"end": 20.26
+},
+{
+"text": "no",
+"start": 20.48,
+"end": 20.74
+},
+{
+"text": "un",
+"start": 20.74,
+"end": 20.9
+},
+{
+"text": "consejo",
+"start": 20.9,
+"end": 21.32
+},
+{
+"text": "de",
+"start": 21.32,
+"end": 21.42
+},
+{
+"text": "inversión.",
+"start": 21.42,
+"end": 21.86
+},
+{
+"text": "Estas",
+"start": 22.22,
+"end": 22.48
+},
+{
+"text": "son",
+"start": 22.48,
+"end": 22.7
+},
+{
+"text": "las",
+"start": 22.7,
+"end": 22.88
+},
+{
+"text": "diez",
+"start": 22.88,
+"end": 23.12
+},
+{
+"text": "fuerzas",
+"start": 23.12,
+"end": 23.5
+},
+{
+"text": "que",
+"start": 23.5,
+"end": 23.7
+},
+{
+"text": "mueven",
+"start": 23.7,
+"end": 23.98
+},
+{
+"text": "el",
+"start": 23.98,
+"end": 24.12
+},
+{
+"text": "precio",
+"start": 24.12,
+"end": 24.38
+},
+{
+"text": "de",
+"start": 24.38,
+"end": 24.54
+},
+{
+"text": "Bitcoin.",
+"start": 24.54,
+"end": 24.92
+},
+{
+"text": "Te",
+"start": 25.3,
+"end": 25.38
+},
+{
+"text": "las",
+"start": 25.38,
+"end": 25.5
+},
+{
+"text": "cuento",
+"start": 25.5,
+"end": 25.76
+},
+{
+"text": "de",
+"start": 25.76,
+"end": 25.92
+},
+{
+"text": "una",
+"start": 25.92,
+"end": 26.12
+},
+{
+"text": "en",
+"start": 26.12,
+"end": 26.26
+},
+{
+"text": "una,",
+"start": 26.26,
+"end": 26.46
+},
+{
+"text": "de",
+"start": 26.46,
+"end": 26.7
+},
+{
+"text": "la",
+"start": 26.7,
+"end": 26.82
+},
+{
+"text": "más",
+"start": 26.82,
+"end": 26.98
+},
+{
+"text": "conocida",
+"start": 26.98,
+"end": 27.44
+},
+{
+"text": "a",
+"start": 27.44,
+"end": 27.68
+},
+{
+"text": "la",
+"start": 27.68,
+"end": 27.74
+},
+{
+"text": "más",
+"start": 27.74,
+"end": 27.92
+},
+{
+"text": "sorprendente.",
+"start": 27.92,
+"end": 28.58
+},
+{
+"text": "Y",
+"start": 28.58,
+"end": 28.98
+},
+{
+"text": "al",
+"start": 28.98,
+"end": 29.08
+},
+{
+"text": "final,",
+"start": 29.08,
+"end": 29.34
+},
+{
+"text": "quién",
+"start": 29.54,
+"end": 29.84
+},
+{
+"text": "decide",
+"start": 29.84,
+"end": 30.14
+},
+{
+"text": "el",
+"start": 30.14,
+"end": 30.38
+},
+{
+"text": "precio",
+"start": 30.38,
+"end": 30.66
+},
+{
+"text": "de",
+"start": 30.66,
+"end": 30.82
+},
+{
+"text": "verdad.",
+"start": 30.82,
+"end": 31.1
+},
+{
+"text": "Número",
+"start": 31.58,
+"end": 31.94
+},
+{
+"text": "uno.",
+"start": 31.94,
+"end": 32.22
+},
+{
+"text": "Los",
+"start": 32.6,
+"end": 32.72
+},
+{
+"text": "veintiún",
+"start": 32.72,
+"end": 33.28
+},
+{
+"text": "millones,",
+"start": 33.28,
+"end": 33.68
+},
+{
+"text": "la",
+"start": 34.14,
+"end": 34.28
+},
+{
+"text": "escasez.",
+"start": 34.28,
+"end": 35.04
+},
+{
+"text": "Nunca",
+"start": 35.14,
+"end": 35.5
+},
+{
+"text": "habrá",
+"start": 35.5,
+"end": 35.72
+},
+{
+"text": "más",
+"start": 35.72,
+"end": 35.88
+},
+{
+"text": "de",
+"start": 35.88,
+"end": 36.02
+},
+{
+"text": "veintiún",
+"start": 36.02,
+"end": 36.42
+},
+{
+"text": "millones",
+"start": 36.42,
+"end": 36.66
+},
+{
+"text": "de",
+"start": 36.66,
+"end": 36.9
+},
+{
+"text": "bitcoins.",
+"start": 36.9,
+"end": 37.28
+},
+{
+"text": "Y",
+"start": 37.62,
+"end": 37.7
+},
+{
+"text": "cada",
+"start": 37.7,
+"end": 37.86
+},
+{
+"text": "cuatro",
+"start": 37.86,
+"end": 38.2
+},
+{
+"text": "años",
+"start": 38.2,
+"end": 38.46
+},
+{
+"text": "salen",
+"start": 38.46,
+"end": 38.8
+},
+{
+"text": "la",
+"start": 38.8,
+"end": 38.92
+},
+{
+"text": "mitad",
+"start": 38.92,
+"end": 39.16
+},
+{
+"text": "de",
+"start": 39.16,
+"end": 39.34
+},
+{
+"text": "monedas",
+"start": 39.34,
+"end": 39.66
+},
+{
+"text": "nuevas.",
+"start": 39.66,
+"end": 39.92
+},
+{
+"text": "Es",
+"start": 40.36,
+"end": 40.5
+},
+{
+"text": "lo",
+"start": 40.5,
+"end": 40.62
+},
+{
+"text": "que",
+"start": 40.62,
+"end": 40.74
+},
+{
+"text": "llaman",
+"start": 40.74,
+"end": 40.98
+},
+{
+"text": "el",
+"start": 40.98,
+"end": 41.3
+},
+{
+"text": "halving.",
+"start": 41.3,
+"end": 41.66
+},
+{
+"text": "En",
+"start": 42.08,
+"end": 42.22
+},
+{
+"text": "mayo",
+"start": 42.22,
+"end": 42.46
+},
+{
+"text": "de",
+"start": 42.46,
+"end": 42.62
+},
+{
+"text": "dos",
+"start": 42.62,
+"end": 42.755
+},
+{
+"text": "mil",
+"start": 42.755,
+"end": 42.89
+},
+{
+"text": "veinte",
+"start": 42.89,
+"end": 43.16
+},
+{
+"text": "hubo",
+"start": 43.46,
+"end": 43.6
+},
+{
+"text": "uno.",
+"start": 43.6,
+"end": 43.86
+},
+{
+"text": "Bitcoin",
+"start": 44.18,
+"end": 44.4
+},
+{
+"text": "valía",
+"start": 44.4,
+"end": 44.82
+},
+{
+"text": "unos",
+"start": 44.82,
+"end": 45.04
+},
+{
+"text": "ocho",
+"start": 45.04,
+"end": 45.244
+},
+{
+"text": "mil",
+"start": 45.244,
+"end": 45.398
+},
+{
+"text": "seiscientos",
+"start": 45.398,
+"end": 45.96
+},
+{
+"text": "dólares.",
+"start": 45.96,
+"end": 46.4
+},
+{
+"text": "Año",
+"start": 46.7,
+"end": 46.94
+},
+{
+"text": "y",
+"start": 46.94,
+"end": 47.04
+},
+{
+"text": "medio",
+"start": 47.04,
+"end": 47.22
+},
+{
+"text": "después",
+"start": 47.22,
+"end": 47.62
+},
+{
+"text": "rozaba",
+"start": 47.9,
+"end": 48.2
+},
+{
+"text": "los",
+"start": 48.2,
+"end": 48.36
+},
+{
+"text": "sesenta",
+"start": 48.36,
+"end": 48.736
+},
+{
+"text": "y",
+"start": 48.736,
+"end": 48.79
+},
+{
+"text": "nueve",
+"start": 48.79,
+"end": 49.059
+},
+{
+"text": "mil.",
+"start": 49.059,
+"end": 49.22
+},
+{
+"text": "¿Solo",
+"start": 49.54,
+"end": 49.78
+},
+{
+"text": "por",
+"start": 49.78,
+"end": 50.0
+},
+{
+"text": "eso?",
+"start": 50.0,
+"end": 50.24
+},
+{
+"text": "Nadie",
+"start": 50.5,
+"end": 50.84
+},
+{
+"text": "lo",
+"start": 50.84,
+"end": 51.06
+},
+{
+"text": "puede",
+"start": 51.06,
+"end": 51.26
+},
+{
+"text": "demostrar.",
+"start": 51.26,
+"end": 51.78
+},
+{
+"text": "Porque",
+"start": 52.06,
+"end": 52.36
+},
+{
+"text": "escaso",
+"start": 52.54,
+"end": 52.96
+},
+{
+"text": "no",
+"start": 53.16,
+"end": 53.26
+},
+{
+"text": "quiere",
+"start": 53.26,
+"end": 53.54
+},
+{
+"text": "decir",
+"start": 53.54,
+"end": 53.82
+},
+{
+"text": "que",
+"start": 53.82,
+"end": 54.06
+},
+{
+"text": "suba.",
+"start": 54.06,
+"end": 54.38
+},
+{
+"text": "Alguien",
+"start": 54.68,
+"end": 55.04
+},
+{
+"text": "lo",
+"start": 55.04,
+"end": 55.18
+},
+{
+"text": "tiene",
+"start": 55.18,
+"end": 55.38
+},
+{
+"text": "que",
+"start": 55.38,
+"end": 55.54
+},
+{
+"text": "querer.",
+"start": 55.54,
+"end": 55.76
+},
+{
+"text": "Número",
+"start": 55.76,
+"end": 56.58
+},
+{
+"text": "dos.",
+"start": 56.58,
+"end": 56.92
+},
+{
+"text": "La",
+"start": 57.2,
+"end": 57.32
+},
+{
+"text": "euforia,",
+"start": 57.32,
+"end": 57.94
+},
+{
+"text": "el",
+"start": 58.18,
+"end": 58.36
+},
+{
+"text": "rebaño.",
+"start": 58.36,
+"end": 58.8
+},
+{
+"text": "Cuando",
+"start": 59.16,
+"end": 59.4
+},
+{
+"text": "todo",
+"start": 59.4,
+"end": 59.7
+},
+{
+"text": "el",
+"start": 59.7,
+"end": 59.88
+},
+{
+"text": "mundo",
+"start": 59.88,
+"end": 60.04
+},
+{
+"text": "habla",
+"start": 60.04,
+"end": 60.32
+},
+{
+"text": "de",
+"start": 60.32,
+"end": 60.46
+},
+{
+"text": "Bitcoin,",
+"start": 60.46,
+"end": 60.76
+},
+{
+"text": "entra",
+"start": 60.76,
+"end": 61.3
+},
+{
+"text": "gente",
+"start": 61.3,
+"end": 61.6
+},
+{
+"text": "nueva.",
+"start": 61.6,
+"end": 61.94
+},
+{
+"text": "Y",
+"start": 62.3,
+"end": 62.4
+},
+{
+"text": "sube",
+"start": 62.4,
+"end": 62.7
+},
+{
+"text": "porque",
+"start": 62.7,
+"end": 63.1
+},
+{
+"text": "sube.",
+"start": 63.1,
+"end": 63.5
+},
+{
+"text": "En",
+"start": 63.78,
+"end": 63.9
+},
+{
+"text": "enero",
+"start": 63.9,
+"end": 64.18
+},
+{
+"text": "de",
+"start": 64.18,
+"end": 64.3
+},
+{
+"text": "dos",
+"start": 64.3,
+"end": 64.427
+},
+{
+"text": "mil",
+"start": 64.427,
+"end": 64.555
+},
+{
+"text": "diecisiete",
+"start": 64.555,
+"end": 64.98
+},
+{
+"text": "valía",
+"start": 65.22,
+"end": 65.4
+},
+{
+"text": "unos",
+"start": 65.4,
+"end": 65.6
+},
+{
+"text": "mil",
+"start": 65.6,
+"end": 65.86
+},
+{
+"text": "dólares.",
+"start": 65.86,
+"end": 66.16
+},
+{
+"text": "En",
+"start": 66.58,
+"end": 66.7
+},
+{
+"text": "diciembre",
+"start": 66.7,
+"end": 67.08
+},
+{
+"text": "rozaba",
+"start": 67.18,
+"end": 67.52
+},
+{
+"text": "los",
+"start": 67.52,
+"end": 67.72
+},
+{
+"text": "veinte",
+"start": 67.72,
+"end": 68.093
+},
+{
+"text": "mil.",
+"start": 68.093,
+"end": 68.28
+},
+{
+"text": "Un",
+"start": 68.54,
+"end": 68.68
+},
+{
+"text": "año",
+"start": 68.68,
+"end": 68.84
+},
+{
+"text": "después",
+"start": 68.84,
+"end": 69.2
+},
+{
+"text": "valía",
+"start": 69.42,
+"end": 69.64
+},
+{
+"text": "unos",
+"start": 69.64,
+"end": 69.86
+},
+{
+"text": "tres",
+"start": 69.86,
+"end": 70.124
+},
+{
+"text": "mil",
+"start": 70.124,
+"end": 70.321
+},
+{
+"text": "doscientos.",
+"start": 70.321,
+"end": 70.98
+},
+{
+"text": "Un",
+"start": 71.4,
+"end": 71.54
+},
+{
+"text": "ochenta",
+"start": 71.54,
+"end": 71.73
+},
+{
+"text": "y",
+"start": 71.73,
+"end": 71.757
+},
+{
+"text": "cuatro",
+"start": 71.757,
+"end": 71.92
+},
+{
+"text": "por",
+"start": 71.92,
+"end": 72.52
+},
+{
+"text": "ciento",
+"start": 72.52,
+"end": 72.78
+},
+{
+"text": "menos.",
+"start": 72.78,
+"end": 73.14
+},
+{
+"text": "Si",
+"start": 73.54,
+"end": 73.68
+},
+{
+"text": "hasta",
+"start": 73.68,
+"end": 73.9
+},
+{
+"text": "tu",
+"start": 73.9,
+"end": 74.1
+},
+{
+"text": "cuñado",
+"start": 74.1,
+"end": 74.54
+},
+{
+"text": "te",
+"start": 74.54,
+"end": 74.68
+},
+{
+"text": "lo",
+"start": 74.68,
+"end": 74.78
+},
+{
+"text": "recomienda,",
+"start": 74.78,
+"end": 75.32
+},
+{
+"text": "la",
+"start": 75.62,
+"end": 75.78
+},
+{
+"text": "euforia",
+"start": 75.78,
+"end": 76.24
+},
+{
+"text": "ya",
+"start": 76.24,
+"end": 76.44
+},
+{
+"text": "va",
+"start": 76.44,
+"end": 76.62
+},
+{
+"text": "muy",
+"start": 76.62,
+"end": 76.92
+},
+{
+"text": "avanzada.",
+"start": 76.92,
+"end": 77.46
+},
+{
+"text": "Sube",
+"start": 77.82,
+"end": 78.043
+},
+{
+"text": "en",
+"start": 78.043,
+"end": 78.154
+},
+{
+"text": "ascensor,",
+"start": 78.154,
+"end": 78.6
+},
+{
+"text": "y",
+"start": 78.6,
+"end": 79.06
+},
+{
+"text": "baja",
+"start": 79.06,
+"end": 79.36
+},
+{
+"text": "por",
+"start": 79.36,
+"end": 79.64
+},
+{
+"text": "el",
+"start": 79.64,
+"end": 79.82
+},
+{
+"text": "hueco",
+"start": 79.82,
+"end": 80.12
+},
+{
+"text": "del",
+"start": 80.12,
+"end": 80.28
+},
+{
+"text": "ascensor.",
+"start": 80.28,
+"end": 80.74
+},
+{
+"text": "Número",
+"start": 81.24,
+"end": 81.5
+},
+{
+"text": "tres.",
+"start": 81.5,
+"end": 81.74
+},
+{
+"text": "Elon",
+"start": 82.22,
+"end": 82.36
+},
+{
+"text": "Musk,",
+"start": 82.36,
+"end": 82.72
+},
+{
+"text": "el",
+"start": 83.06,
+"end": 83.16
+},
+{
+"text": "tuitero.",
+"start": 83.16,
+"end": 83.46
+},
+{
+"text": "El",
+"start": 83.46,
+"end": 84.12
+},
+{
+"text": "ocho",
+"start": 84.12,
+"end": 84.3
+},
+{
+"text": "de",
+"start": 84.3,
+"end": 84.44
+},
+{
+"text": "febrero",
+"start": 84.44,
+"end": 84.82
+},
+{
+"text": "de",
+"start": 84.82,
+"end": 84.96
+},
+{
+"text": "dos",
+"start": 84.96,
+"end": 85.1
+},
+{
+"text": "mil",
+"start": 85.1,
+"end": 85.24
+},
+{
+"text": "veintiuno,",
+"start": 85.24,
+"end": 85.66
+},
+{
+"text": "Tesla",
+"start": 86.1,
+"end": 86.3
+},
+{
+"text": "compró",
+"start": 86.3,
+"end": 86.72
+},
+{
+"text": "mil",
+"start": 86.72,
+"end": 86.882
+},
+{
+"text": "quinientos",
+"start": 86.882,
+"end": 87.42
+},
+{
+"text": "millones",
+"start": 87.42,
+"end": 87.86
+},
+{
+"text": "de",
+"start": 87.86,
+"end": 88.06
+},
+{
+"text": "dólares",
+"start": 88.06,
+"end": 88.32
+},
+{
+"text": "en",
+"start": 88.32,
+"end": 88.58
+},
+{
+"text": "bitcoins.",
+"start": 88.58,
+"end": 88.86
+},
+{
+"text": "Ese",
+"start": 89.26,
+"end": 89.56
+},
+{
+"text": "día",
+"start": 89.56,
+"end": 89.74
+},
+{
+"text": "el",
+"start": 89.78,
+"end": 89.92
+},
+{
+"text": "precio",
+"start": 89.92,
+"end": 90.14
+},
+{
+"text": "pasó",
+"start": 90.14,
+"end": 90.48
+},
+{
+"text": "por",
+"start": 90.48,
+"end": 90.72
+},
+{
+"text": "primera",
+"start": 90.72,
+"end": 91.02
+},
+{
+"text": "vez",
+"start": 91.02,
+"end": 91.24
+},
+{
+"text": "de",
+"start": 91.24,
+"end": 91.48
+},
+{
+"text": "cuarenta",
+"start": 91.48,
+"end": 91.889
+},
+{
+"text": "y",
+"start": 91.889,
+"end": 91.94
+},
+{
+"text": "cuatro",
+"start": 91.94,
+"end": 92.247
+},
+{
+"text": "mil.",
+"start": 92.247,
+"end": 92.4
+},
+{
+"text": "Pero",
+"start": 92.64,
+"end": 92.8
+},
+{
+"text": "el",
+"start": 92.8,
+"end": 92.96
+},
+{
+"text": "doce",
+"start": 92.96,
+"end": 93.14
+},
+{
+"text": "de",
+"start": 93.14,
+"end": 93.32
+},
+{
+"text": "mayo,",
+"start": 93.32,
+"end": 93.54
+},
+{
+"text": "Musk",
+"start": 93.94,
+"end": 94.2
+},
+{
+"text": "tuiteó",
+"start": 94.42,
+"end": 94.7
+},
+{
+"text": "que",
+"start": 94.7,
+"end": 94.84
+},
+{
+"text": "Tesla",
+"start": 94.84,
+"end": 95.12
+},
+{
+"text": "dejaba",
+"start": 95.12,
+"end": 95.52
+},
+{
+"text": "de",
+"start": 95.52,
+"end": 95.62
+},
+{
+"text": "aceptarlos,",
+"start": 95.62,
+"end": 96.18
+},
+{
+"text": "por",
+"start": 96.42,
+"end": 96.52
+},
+{
+"text": "lo",
+"start": 96.52,
+"end": 96.66
+},
+{
+"text": "que",
+"start": 96.66,
+"end": 96.8
+},
+{
+"text": "contamina",
+"start": 96.8,
+"end": 97.36
+},
+{
+"text": "minarlos.",
+"start": 97.36,
+"end": 97.88
+},
+{
+"text": "En",
+"start": 98.24,
+"end": 98.38
+},
+{
+"text": "horas",
+"start": 98.38,
+"end": 98.6
+},
+{
+"text": "cayó",
+"start": 98.92,
+"end": 99.12
+},
+{
+"text": "más",
+"start": 99.12,
+"end": 99.3
+},
+{
+"text": "de",
+"start": 99.3,
+"end": 99.5
+},
+{
+"text": "un",
+"start": 99.5,
+"end": 99.62
+},
+{
+"text": "diez",
+"start": 99.62,
+"end": 99.915
+},
+{
+"text": "por",
+"start": 99.915,
+"end": 100.137
+},
+{
+"text": "ciento.",
+"start": 100.137,
+"end": 100.58
+},
+{
+"text": "Lo",
+"start": 100.58,
+"end": 100.98
+},
+{
+"text": "sube",
+"start": 100.98,
+"end": 101.26
+},
+{
+"text": "con",
+"start": 101.26,
+"end": 101.46
+},
+{
+"text": "una",
+"start": 101.46,
+"end": 101.64
+},
+{
+"text": "compra",
+"start": 101.64,
+"end": 101.96
+},
+{
+"text": "y",
+"start": 101.96,
+"end": 102.28
+},
+{
+"text": "lo",
+"start": 102.28,
+"end": 102.4
+},
+{
+"text": "baja",
+"start": 102.4,
+"end": 102.64
+},
+{
+"text": "con",
+"start": 102.64,
+"end": 102.96
+},
+{
+"text": "un",
+"start": 102.96,
+"end": 103.14
+},
+{
+"text": "tuit.",
+"start": 103.14,
+"end": 103.38
+},
+{
+"text": "Y",
+"start": 103.68,
+"end": 103.76
+},
+{
+"text": "si",
+"start": 103.76,
+"end": 103.92
+},
+{
+"text": "un",
+"start": 103.92,
+"end": 104.04
+},
+{
+"text": "tuit",
+"start": 104.04,
+"end": 104.3
+},
+{
+"text": "te",
+"start": 104.3,
+"end": 104.54
+},
+{
+"text": "hace",
+"start": 104.54,
+"end": 104.7
+},
+{
+"text": "comprar",
+"start": 104.7,
+"end": 105.04
+},
+{
+"text": "o",
+"start": 105.04,
+"end": 105.26
+},
+{
+"text": "vender,",
+"start": 105.26,
+"end": 105.5
+},
+{
+"text": "el",
+"start": 105.82,
+"end": 105.92
+},
+{
+"text": "que",
+"start": 105.92,
+"end": 106.06
+},
+{
+"text": "decide",
+"start": 106.06,
+"end": 106.32
+},
+{
+"text": "es",
+"start": 106.32,
+"end": 106.84
+},
+{
+"text": "el",
+"start": 106.84,
+"end": 107.04
+},
+{
+"text": "tuit.",
+"start": 107.04,
+"end": 107.26
+},
+{
+"text": "Número",
+"start": 107.7,
+"end": 107.98
+},
+{
+"text": "cuatro.",
+"start": 107.98,
+"end": 108.28
+},
+{
+"text": "Los",
+"start": 108.74,
+"end": 108.9
+},
+{
+"text": "E",
+"start": 108.9,
+"end": 109.027
+},
+{
+"text": "T",
+"start": 109.027,
+"end": 109.153
+},
+{
+"text": "F,",
+"start": 109.153,
+"end": 109.28
+},
+{
+"text": "la",
+"start": 109.84,
+"end": 110.0
+},
+{
+"text": "puerta",
+"start": 110.0,
+"end": 110.32
+},
+{
+"text": "de",
+"start": 110.32,
+"end": 110.54
+},
+{
+"text": "Wall",
+"start": 110.54,
+"end": 110.74
+},
+{
+"text": "Street.",
+"start": 110.74,
+"end": 111.12
+},
+{
+"text": "Un",
+"start": 111.12,
+"end": 111.62
+},
+{
+"text": "E",
+"start": 111.62,
+"end": 111.7
+},
+{
+"text": "T",
+"start": 111.7,
+"end": 111.78
+},
+{
+"text": "F",
+"start": 111.78,
+"end": 111.86
+},
+{
+"text": "te",
+"start": 111.86,
+"end": 112.24
+},
+{
+"text": "deja",
+"start": 112.24,
+"end": 112.38
+},
+{
+"text": "comprar",
+"start": 112.38,
+"end": 112.76
+},
+{
+"text": "Bitcoin",
+"start": 112.76,
+"end": 113.12
+},
+{
+"text": "en",
+"start": 113.12,
+"end": 113.4
+},
+{
+"text": "bolsa,",
+"start": 113.4,
+"end": 113.74
+},
+{
+"text": "como",
+"start": 113.74,
+"end": 114.1
+},
+{
+"text": "si",
+"start": 114.1,
+"end": 114.32
+},
+{
+"text": "fuera",
+"start": 114.32,
+"end": 114.58
+},
+{
+"text": "una",
+"start": 114.58,
+"end": 114.8
+},
+{
+"text": "acción.",
+"start": 114.8,
+"end": 115.18
+},
+{
+"text": "El",
+"start": 115.48,
+"end": 115.64
+},
+{
+"text": "diez",
+"start": 115.64,
+"end": 115.8
+},
+{
+"text": "de",
+"start": 115.8,
+"end": 116.0
+},
+{
+"text": "enero",
+"start": 116.0,
+"end": 116.26
+},
+{
+"text": "de",
+"start": 116.26,
+"end": 116.4
+},
+{
+"text": "dos",
+"start": 116.4,
+"end": 116.513
+},
+{
+"text": "mil",
+"start": 116.513,
+"end": 116.627
+},
+{
+"text": "veinticuatro,",
+"start": 116.627,
+"end": 117.08
+},
+{
+"text": "Estados",
+"start": 117.58,
+"end": 117.78
+},
+{
+"text": "Unidos",
+"start": 117.78,
+"end": 118.14
+},
+{
+"text": "aprobó",
+"start": 118.14,
+"end": 118.64
+},
+{
+"text": "once",
+"start": 118.64,
+"end": 119.12
+},
+{
+"text": "de",
+"start": 119.12,
+"end": 119.28
+},
+{
+"text": "golpe.",
+"start": 119.28,
+"end": 119.54
+},
+{
+"text": "Y",
+"start": 119.9,
+"end": 120.02
+},
+{
+"text": "lo",
+"start": 120.02,
+"end": 120.14
+},
+{
+"text": "raro",
+"start": 120.14,
+"end": 120.42
+},
+{
+"text": "es",
+"start": 120.42,
+"end": 120.72
+},
+{
+"text": "que",
+"start": 120.72,
+"end": 120.86
+},
+{
+"text": "dos",
+"start": 120.86,
+"end": 121.08
+},
+{
+"text": "semanas",
+"start": 121.08,
+"end": 121.38
+},
+{
+"text": "después",
+"start": 121.38,
+"end": 121.82
+},
+{
+"text": "bajó",
+"start": 121.82,
+"end": 122.36
+},
+{
+"text": "de",
+"start": 122.36,
+"end": 122.48
+},
+{
+"text": "treinta",
+"start": 122.48,
+"end": 122.856
+},
+{
+"text": "y",
+"start": 122.856,
+"end": 122.91
+},
+{
+"text": "nueve",
+"start": 122.91,
+"end": 123.179
+},
+{
+"text": "mil.",
+"start": 123.179,
+"end": 123.34
+},
+{
+"text": "Muchos",
+"start": 123.6,
+"end": 123.98
+},
+{
+"text": "vendieron",
+"start": 123.98,
+"end": 124.54
+},
+{
+"text": "con",
+"start": 124.54,
+"end": 124.74
+},
+{
+"text": "la",
+"start": 124.74,
+"end": 124.88
+},
+{
+"text": "noticia.",
+"start": 124.88,
+"end": 125.28
+},
+{
+"text": "Luego",
+"start": 125.62,
+"end": 125.84
+},
+{
+"text": "entró",
+"start": 125.84,
+"end": 126.28
+},
+{
+"text": "el",
+"start": 126.28,
+"end": 126.4
+},
+{
+"text": "dinero",
+"start": 126.4,
+"end": 126.6
+},
+{
+"text": "de",
+"start": 126.6,
+"end": 126.78
+},
+{
+"text": "los",
+"start": 126.78,
+"end": 126.94
+},
+{
+"text": "fondos,",
+"start": 126.94,
+"end": 127.4
+},
+{
+"text": "y",
+"start": 127.4,
+"end": 127.64
+},
+{
+"text": "en",
+"start": 127.64,
+"end": 127.76
+},
+{
+"text": "marzo",
+"start": 127.76,
+"end": 128.06
+},
+{
+"text": "pasó",
+"start": 128.06,
+"end": 128.34
+},
+{
+"text": "de",
+"start": 128.34,
+"end": 128.52
+},
+{
+"text": "setenta",
+"start": 128.52,
+"end": 128.977
+},
+{
+"text": "y",
+"start": 128.977,
+"end": 129.043
+},
+{
+"text": "tres",
+"start": 129.043,
+"end": 129.304
+},
+{
+"text": "mil.",
+"start": 129.304,
+"end": 129.5
+},
+{
+"text": "Una",
+"start": 129.72,
+"end": 129.92
+},
+{
+"text": "buena",
+"start": 129.92,
+"end": 130.24
+},
+{
+"text": "noticia",
+"start": 130.24,
+"end": 130.68
+},
+{
+"text": "que",
+"start": 130.68,
+"end": 130.9
+},
+{
+"text": "todo",
+"start": 130.9,
+"end": 131.12
+},
+{
+"text": "el",
+"start": 131.12,
+"end": 131.3
+},
+{
+"text": "mundo",
+"start": 131.3,
+"end": 131.42
+},
+{
+"text": "espera",
+"start": 131.42,
+"end": 131.8
+},
+{
+"text": "suele",
+"start": 131.8,
+"end": 132.18
+},
+{
+"text": "estar",
+"start": 132.18,
+"end": 132.44
+},
+{
+"text": "ya",
+"start": 132.44,
+"end": 132.66
+},
+{
+"text": "en",
+"start": 132.66,
+"end": 132.78
+},
+{
+"text": "el",
+"start": 132.78,
+"end": 132.9
+},
+{
+"text": "precio.",
+"start": 132.9,
+"end": 133.2
+},
+{
+"text": "Número",
+"start": 133.78,
+"end": 134.18
+},
+{
+"text": "cinco.",
+"start": 134.18,
+"end": 134.48
+},
+{
+"text": "La",
+"start": 134.94,
+"end": 135.04
+},
+{
+"text": "Reserva",
+"start": 135.04,
+"end": 135.54
+},
+{
+"text": "Federal,",
+"start": 135.54,
+"end": 135.9
+},
+{
+"text": "el",
+"start": 136.3,
+"end": 136.44
+},
+{
+"text": "grifo.",
+"start": 136.44,
+"end": 136.84
+},
+{
+"text": "Si",
+"start": 137.22,
+"end": 137.34
+},
+{
+"text": "suben",
+"start": 137.34,
+"end": 137.68
+},
+{
+"text": "los",
+"start": 137.68,
+"end": 137.82
+},
+{
+"text": "tipos",
+"start": 137.82,
+"end": 138.06
+},
+{
+"text": "de",
+"start": 138.06,
+"end": 138.24
+},
+{
+"text": "interés,",
+"start": 138.24,
+"end": 138.7
+},
+{
+"text": "el",
+"start": 138.88,
+"end": 138.98
+},
+{
+"text": "dinero",
+"start": 138.98,
+"end": 139.22
+},
+{
+"text": "seguro",
+"start": 139.22,
+"end": 139.62
+},
+{
+"text": "paga",
+"start": 139.62,
+"end": 140.06
+},
+{
+"text": "más.",
+"start": 140.06,
+"end": 140.34
+},
+{
+"text": "Y",
+"start": 140.34,
+"end": 140.76
+},
+{
+"text": "el",
+"start": 140.76,
+"end": 140.86
+},
+{
+"text": "que",
+"start": 140.86,
+"end": 140.96
+},
+{
+"text": "buscaba",
+"start": 140.96,
+"end": 141.3
+},
+{
+"text": "riesgo",
+"start": 141.3,
+"end": 141.7
+},
+{
+"text": "se",
+"start": 141.7,
+"end": 142.16
+},
+{
+"text": "va.",
+"start": 142.16,
+"end": 142.26
+},
+{
+"text": "En",
+"start": 142.68,
+"end": 142.78
+},
+{
+"text": "dos",
+"start": 142.78,
+"end": 142.92
+},
+{
+"text": "mil",
+"start": 142.92,
+"end": 143.06
+},
+{
+"text": "veintidós,",
+"start": 143.06,
+"end": 143.48
+},
+{
+"text": "la",
+"start": 143.8,
+"end": 143.92
+},
+{
+"text": "Reserva",
+"start": 143.92,
+"end": 144.28
+},
+{
+"text": "Federal",
+"start": 144.28,
+"end": 144.6
+},
+{
+"text": "los",
+"start": 144.6,
+"end": 144.82
+},
+{
+"text": "subió",
+"start": 144.82,
+"end": 145.12
+},
+{
+"text": "siete",
+"start": 145.12,
+"end": 145.58
+},
+{
+"text": "veces.",
+"start": 145.58,
+"end": 145.9
+},
+{
+"text": "Bitcoin",
+"start": 146.34,
+"end": 146.58
+},
+{
+"text": "empezó",
+"start": 146.58,
+"end": 147.12
+},
+{
+"text": "el",
+"start": 147.12,
+"end": 147.2
+},
+{
+"text": "año",
+"start": 147.2,
+"end": 147.36
+},
+{
+"text": "en",
+"start": 147.36,
+"end": 147.5
+},
+{
+"text": "unos",
+"start": 147.5,
+"end": 147.64
+},
+{
+"text": "cuarenta",
+"start": 147.64,
+"end": 148.045
+},
+{
+"text": "y",
+"start": 148.045,
+"end": 148.095
+},
+{
+"text": "siete",
+"start": 148.095,
+"end": 148.348
+},
+{
+"text": "mil",
+"start": 148.348,
+"end": 148.5
+},
+{
+"text": "dólares,",
+"start": 148.5,
+"end": 148.82
+},
+{
+"text": "y",
+"start": 148.82,
+"end": 149.24
+},
+{
+"text": "lo",
+"start": 149.24,
+"end": 149.34
+},
+{
+"text": "acabó",
+"start": 149.34,
+"end": 149.64
+},
+{
+"text": "en",
+"start": 149.64,
+"end": 149.78
+},
+{
+"text": "unos",
+"start": 149.78,
+"end": 149.94
+},
+{
+"text": "dieciséis",
+"start": 149.94,
+"end": 150.374
+},
+{
+"text": "mil",
+"start": 150.374,
+"end": 150.518
+},
+{
+"text": "quinientos.",
+"start": 150.518,
+"end": 151.0
+},
+{
+"text": "Nunca",
+"start": 151.54,
+"end": 152.0
+},
+{
+"text": "hay",
+"start": 152.0,
+"end": 152.2
+},
+{
+"text": "una",
+"start": 152.2,
+"end": 152.4
+},
+{
+"text": "sola",
+"start": 152.4,
+"end": 152.62
+},
+{
+"text": "causa.",
+"start": 152.62,
+"end": 152.96
+},
+{
+"text": "Pero",
+"start": 153.38,
+"end": 153.52
+},
+{
+"text": "lo",
+"start": 153.52,
+"end": 153.66
+},
+{
+"text": "que",
+"start": 153.66,
+"end": 153.8
+},
+{
+"text": "se",
+"start": 153.8,
+"end": 153.92
+},
+{
+"text": "decide",
+"start": 153.92,
+"end": 154.175
+},
+{
+"text": "en",
+"start": 154.175,
+"end": 154.26
+},
+{
+"text": "Washington",
+"start": 154.26,
+"end": 154.74
+},
+{
+"text": "también",
+"start": 154.74,
+"end": 155.26
+},
+{
+"text": "mueve",
+"start": 155.26,
+"end": 155.68
+},
+{
+"text": "Bitcoin.",
+"start": 155.68,
+"end": 156.02
+},
+{
+"text": "Jamás",
+"start": 156.5,
+"end": 156.84
+},
+{
+"text": "toca",
+"start": 156.84,
+"end": 157.08
+},
+{
+"text": "un",
+"start": 157.08,
+"end": 157.3
+},
+{
+"text": "bitcoin,",
+"start": 157.3,
+"end": 157.64
+},
+{
+"text": "pero",
+"start": 158.0,
+"end": 158.2
+},
+{
+"text": "le",
+"start": 158.2,
+"end": 158.38
+},
+{
+"text": "cierra",
+"start": 158.38,
+"end": 158.74
+},
+{
+"text": "el",
+"start": 158.74,
+"end": 158.86
+},
+{
+"text": "grifo.",
+"start": 158.86,
+"end": 159.18
+},
+{
+"text": "Número",
+"start": 159.64,
+"end": 159.96
+},
+{
+"text": "seis.",
+"start": 159.96,
+"end": 160.28
+},
+{
+"text": "Las",
+"start": 160.68,
+"end": 160.8
+},
+{
+"text": "casas",
+"start": 160.8,
+"end": 161.12
+},
+{
+"text": "de",
+"start": 161.12,
+"end": 161.28
+},
+{
+"text": "cambio",
+"start": 161.28,
+"end": 161.54
+},
+{
+"text": "que",
+"start": 161.54,
+"end": 161.74
+},
+{
+"text": "quiebran,",
+"start": 161.74,
+"end": 162.16
+},
+{
+"text": "el",
+"start": 162.52,
+"end": 162.66
+},
+{
+"text": "agujero.",
+"start": 162.66,
+"end": 163.1
+},
+{
+"text": "Casi",
+"start": 163.44,
+"end": 163.64
+},
+{
+"text": "todo",
+"start": 163.64,
+"end": 163.84
+},
+{
+"text": "el",
+"start": 163.84,
+"end": 164.02
+},
+{
+"text": "mundo",
+"start": 164.02,
+"end": 164.28
+},
+{
+"text": "compra",
+"start": 164.28,
+"end": 164.66
+},
+{
+"text": "en",
+"start": 164.66,
+"end": 164.82
+},
+{
+"text": "una",
+"start": 164.82,
+"end": 164.96
+},
+{
+"text": "casa",
+"start": 164.96,
+"end": 165.16
+},
+{
+"text": "de",
+"start": 165.16,
+"end": 165.3
+},
+{
+"text": "cambio.",
+"start": 165.3,
+"end": 165.62
+},
+{
+"text": "Y",
+"start": 165.62,
+"end": 166.06
+},
+{
+"text": "si",
+"start": 166.06,
+"end": 166.22
+},
+{
+"text": "una",
+"start": 166.22,
+"end": 166.44
+},
+{
+"text": "cae,",
+"start": 166.44,
+"end": 166.8
+},
+{
+"text": "cunde",
+"start": 167.12,
+"end": 167.34
+},
+{
+"text": "el",
+"start": 167.34,
+"end": 167.52
+},
+{
+"text": "pánico.",
+"start": 167.52,
+"end": 167.92
+},
+{
+"text": "Pasó",
+"start": 168.24,
+"end": 168.52
+},
+{
+"text": "con",
+"start": 168.52,
+"end": 168.72
+},
+{
+"text": "Mount",
+"start": 168.72,
+"end": 168.96
+},
+{
+"text": "Gox",
+"start": 168.96,
+"end": 169.34
+},
+{
+"text": "en",
+"start": 169.34,
+"end": 169.46
+},
+{
+"text": "dos",
+"start": 169.46,
+"end": 169.598
+},
+{
+"text": "mil",
+"start": 169.598,
+"end": 169.737
+},
+{
+"text": "catorce.",
+"start": 169.737,
+"end": 170.06
+},
+{
+"text": "Y",
+"start": 170.8,
+"end": 170.88
+},
+{
+"text": "con",
+"start": 170.88,
+"end": 171.04
+},
+{
+"text": "F",
+"start": 171.04,
+"end": 171.227
+},
+{
+"text": "T",
+"start": 171.227,
+"end": 171.413
+},
+{
+"text": "X",
+"start": 171.413,
+"end": 171.6
+},
+{
+"text": "en",
+"start": 171.6,
+"end": 171.82
+},
+{
+"text": "noviembre",
+"start": 171.82,
+"end": 172.22
+},
+{
+"text": "de",
+"start": 172.22,
+"end": 172.36
+},
+{
+"text": "dos",
+"start": 172.36,
+"end": 172.5
+},
+{
+"text": "mil",
+"start": 172.5,
+"end": 172.64
+},
+{
+"text": "veintidós.",
+"start": 172.64,
+"end": 173.06
+},
+{
+"text": "En",
+"start": 173.44,
+"end": 173.58
+},
+{
+"text": "dos",
+"start": 173.58,
+"end": 173.78
+},
+{
+"text": "semanas,",
+"start": 173.78,
+"end": 174.24
+},
+{
+"text": "Bitcoin",
+"start": 174.6,
+"end": 174.78
+},
+{
+"text": "pasó",
+"start": 174.78,
+"end": 175.18
+},
+{
+"text": "de",
+"start": 175.18,
+"end": 175.28
+},
+{
+"text": "unos",
+"start": 175.28,
+"end": 175.42
+},
+{
+"text": "veintiún",
+"start": 175.42,
+"end": 175.915
+},
+{
+"text": "mil",
+"start": 175.915,
+"end": 176.1
+},
+{
+"text": "a",
+"start": 176.1,
+"end": 176.22
+},
+{
+"text": "unos",
+"start": 176.22,
+"end": 176.34
+},
+{
+"text": "quince",
+"start": 176.34,
+"end": 176.624
+},
+{
+"text": "mil",
+"start": 176.624,
+"end": 176.766
+},
+{
+"text": "quinientos.",
+"start": 176.766,
+"end": 177.24
+},
+{
+"text": "Si",
+"start": 177.86,
+"end": 178.04
+},
+{
+"text": "tus",
+"start": 178.04,
+"end": 178.18
+},
+{
+"text": "bitcoins",
+"start": 178.18,
+"end": 178.78
+},
+{
+"text": "están",
+"start": 178.78,
+"end": 179.0
+},
+{
+"text": "en",
+"start": 179.0,
+"end": 179.14
+},
+{
+"text": "una",
+"start": 179.14,
+"end": 179.3
+},
+{
+"text": "casa",
+"start": 179.3,
+"end": 179.48
+},
+{
+"text": "de",
+"start": 179.48,
+"end": 179.64
+},
+{
+"text": "cambio,",
+"start": 179.64,
+"end": 179.94
+},
+{
+"text": "lo",
+"start": 180.28,
+"end": 180.34
+},
+{
+"text": "que",
+"start": 180.34,
+"end": 180.48
+},
+{
+"text": "tienes",
+"start": 180.48,
+"end": 180.76
+},
+{
+"text": "es",
+"start": 180.76,
+"end": 180.96
+},
+{
+"text": "su",
+"start": 180.96,
+"end": 181.14
+},
+{
+"text": "promesa.",
+"start": 181.14,
+"end": 181.54
+},
+{
+"text": "Te",
+"start": 181.96,
+"end": 182.04
+},
+{
+"text": "guarda",
+"start": 182.04,
+"end": 182.36
+},
+{
+"text": "las",
+"start": 182.36,
+"end": 182.52
+},
+{
+"text": "monedas",
+"start": 182.52,
+"end": 182.86
+},
+{
+"text": "hasta",
+"start": 182.86,
+"end": 183.14
+},
+{
+"text": "el",
+"start": 183.14,
+"end": 183.26
+},
+{
+"text": "día",
+"start": 183.26,
+"end": 183.42
+},
+{
+"text": "en",
+"start": 183.42,
+"end": 183.58
+},
+{
+"text": "que",
+"start": 183.58,
+"end": 183.72
+},
+{
+"text": "ya",
+"start": 183.72,
+"end": 183.88
+},
+{
+"text": "no",
+"start": 183.88,
+"end": 183.98
+},
+{
+"text": "están.",
+"start": 183.98,
+"end": 184.22
+},
+{
+"text": "Y",
+"start": 184.7,
+"end": 184.84
+},
+{
+"text": "ahora",
+"start": 184.84,
+"end": 185.1
+},
+{
+"text": "vienen",
+"start": 185.1,
+"end": 185.48
+},
+{
+"text": "las",
+"start": 185.48,
+"end": 185.7
+},
+{
+"text": "raras.",
+"start": 185.7,
+"end": 186.04
+},
+{
+"text": "Número",
+"start": 186.52,
+"end": 186.86
+},
+{
+"text": "siete.",
+"start": 186.86,
+"end": 187.12
+},
+{
+"text": "China,",
+"start": 187.64,
+"end": 187.86
+},
+{
+"text": "el",
+"start": 188.26,
+"end": 188.38
+},
+{
+"text": "apagón.",
+"start": 188.38,
+"end": 188.82
+},
+{
+"text": "Minar",
+"start": 189.2,
+"end": 189.42
+},
+{
+"text": "Bitcoin",
+"start": 189.42,
+"end": 189.76
+},
+{
+"text": "gasta",
+"start": 189.76,
+"end": 190.18
+},
+{
+"text": "muchísima",
+"start": 190.18,
+"end": 190.72
+},
+{
+"text": "luz.",
+"start": 190.72,
+"end": 191.18
+},
+{
+"text": "Y",
+"start": 191.38,
+"end": 191.46
+},
+{
+"text": "en",
+"start": 191.46,
+"end": 191.56
+},
+{
+"text": "abril",
+"start": 191.56,
+"end": 191.76
+},
+{
+"text": "de",
+"start": 191.76,
+"end": 191.92
+},
+{
+"text": "dos",
+"start": 191.92,
+"end": 192.056
+},
+{
+"text": "mil",
+"start": 192.056,
+"end": 192.192
+},
+{
+"text": "veintiuno,",
+"start": 192.192,
+"end": 192.6
+},
+{
+"text": "casi",
+"start": 192.6,
+"end": 193.02
+},
+{
+"text": "la",
+"start": 193.02,
+"end": 193.22
+},
+{
+"text": "mitad",
+"start": 193.22,
+"end": 193.46
+},
+{
+"text": "se",
+"start": 193.46,
+"end": 193.76
+},
+{
+"text": "minaba",
+"start": 193.76,
+"end": 194.02
+},
+{
+"text": "en",
+"start": 194.02,
+"end": 194.2
+},
+{
+"text": "China.",
+"start": 194.2,
+"end": 194.44
+},
+{
+"text": "En",
+"start": 194.44,
+"end": 194.94
+},
+{
+"text": "mayo,",
+"start": 194.94,
+"end": 195.22
+},
+{
+"text": "su",
+"start": 195.52,
+"end": 195.6
+},
+{
+"text": "gobierno",
+"start": 195.6,
+"end": 195.8
+},
+{
+"text": "anunció",
+"start": 195.8,
+"end": 196.38
+},
+{
+"text": "mano",
+"start": 196.38,
+"end": 196.6
+},
+{
+"text": "dura.",
+"start": 196.6,
+"end": 196.88
+},
+{
+"text": "En",
+"start": 197.26,
+"end": 197.34
+},
+{
+"text": "junio,",
+"start": 197.34,
+"end": 197.7
+},
+{
+"text": "Sichuan",
+"start": 197.94,
+"end": 198.28
+},
+{
+"text": "cortó",
+"start": 198.28,
+"end": 198.64
+},
+{
+"text": "la",
+"start": 198.64,
+"end": 198.76
+},
+{
+"text": "luz",
+"start": 198.76,
+"end": 198.9
+},
+{
+"text": "a",
+"start": 198.9,
+"end": 199.04
+},
+{
+"text": "las",
+"start": 199.04,
+"end": 199.18
+},
+{
+"text": "minas.",
+"start": 199.18,
+"end": 199.58
+},
+{
+"text": "El",
+"start": 199.8,
+"end": 199.9
+},
+{
+"text": "veintidós",
+"start": 199.9,
+"end": 200.16
+},
+{
+"text": "de",
+"start": 200.16,
+"end": 200.42
+},
+{
+"text": "junio,",
+"start": 200.42,
+"end": 200.8
+},
+{
+"text": "Bitcoin",
+"start": 201.0,
+"end": 201.18
+},
+{
+"text": "bajó",
+"start": 201.18,
+"end": 201.62
+},
+{
+"text": "de",
+"start": 201.62,
+"end": 201.72
+},
+{
+"text": "treinta",
+"start": 201.72,
+"end": 202.112
+},
+{
+"text": "mil",
+"start": 202.112,
+"end": 202.28
+},
+{
+"text": "dólares",
+"start": 202.28,
+"end": 202.56
+},
+{
+"text": "por",
+"start": 202.56,
+"end": 202.84
+},
+{
+"text": "primera",
+"start": 202.84,
+"end": 203.2
+},
+{
+"text": "vez",
+"start": 203.2,
+"end": 203.4
+},
+{
+"text": "desde",
+"start": 203.4,
+"end": 203.72
+},
+{
+"text": "enero.",
+"start": 203.72,
+"end": 204.08
+},
+{
+"text": "Un",
+"start": 204.32,
+"end": 204.48
+},
+{
+"text": "gobierno",
+"start": 204.48,
+"end": 204.88
+},
+{
+"text": "puede",
+"start": 204.88,
+"end": 205.2
+},
+{
+"text": "prohibirlo",
+"start": 205.2,
+"end": 205.76
+},
+{
+"text": "en",
+"start": 205.76,
+"end": 205.84
+},
+{
+"text": "su",
+"start": 205.84,
+"end": 205.98
+},
+{
+"text": "país.",
+"start": 205.98,
+"end": 206.22
+},
+{
+"text": "Pero",
+"start": 206.6,
+"end": 206.76
+},
+{
+"text": "ninguno",
+"start": 206.76,
+"end": 207.2
+},
+{
+"text": "puede",
+"start": 207.2,
+"end": 207.46
+},
+{
+"text": "apagarlo",
+"start": 207.46,
+"end": 207.92
+},
+{
+"text": "en",
+"start": 207.92,
+"end": 208.02
+},
+{
+"text": "todo",
+"start": 208.02,
+"end": 208.18
+},
+{
+"text": "el",
+"start": 208.18,
+"end": 208.36
+},
+{
+"text": "mundo.",
+"start": 208.36,
+"end": 208.6
+},
+{
+"text": "Le",
+"start": 208.98,
+"end": 209.08
+},
+{
+"text": "cortan",
+"start": 209.08,
+"end": 209.4
+},
+{
+"text": "la",
+"start": 209.4,
+"end": 209.52
+},
+{
+"text": "luz",
+"start": 209.52,
+"end": 209.66
+},
+{
+"text": "en",
+"start": 209.66,
+"end": 209.8
+},
+{
+"text": "un",
+"start": 209.8,
+"end": 209.9
+},
+{
+"text": "sitio,",
+"start": 209.9,
+"end": 210.2
+},
+{
+"text": "y",
+"start": 210.2,
+"end": 210.66
+},
+{
+"text": "se",
+"start": 210.66,
+"end": 210.78
+},
+{
+"text": "enchufa",
+"start": 210.78,
+"end": 211.16
+},
+{
+"text": "en",
+"start": 211.16,
+"end": 211.26
+},
+{
+"text": "otro.",
+"start": 211.26,
+"end": 211.42
+},
+{
+"text": "Número",
+"start": 211.82,
+"end": 212.16
+},
+{
+"text": "ocho.",
+"start": 212.16,
+"end": 212.54
+},
+{
+"text": "Las",
+"start": 212.9,
+"end": 213.04
+},
+{
+"text": "ballenas,",
+"start": 213.04,
+"end": 213.56
+},
+{
+"text": "los",
+"start": 213.96,
+"end": 214.12
+},
+{
+"text": "gigantes.",
+"start": 214.12,
+"end": 214.72
+},
+{
+"text": "Una",
+"start": 215.22,
+"end": 215.38
+},
+{
+"text": "ballena",
+"start": 215.38,
+"end": 215.78
+},
+{
+"text": "tiene",
+"start": 215.78,
+"end": 216.0
+},
+{
+"text": "miles",
+"start": 216.0,
+"end": 216.42
+},
+{
+"text": "de",
+"start": 216.42,
+"end": 216.68
+},
+{
+"text": "bitcoins.",
+"start": 216.68,
+"end": 217.06
+},
+{
+"text": "Si",
+"start": 217.5,
+"end": 217.58
+},
+{
+"text": "vende",
+"start": 217.58,
+"end": 217.82
+},
+{
+"text": "de",
+"start": 217.82,
+"end": 217.96
+},
+{
+"text": "golpe,",
+"start": 217.96,
+"end": 218.14
+},
+{
+"text": "puede",
+"start": 218.5,
+"end": 218.62
+},
+{
+"text": "hundir",
+"start": 218.62,
+"end": 218.94
+},
+{
+"text": "el",
+"start": 218.94,
+"end": 219.1
+},
+{
+"text": "precio.",
+"start": 219.1,
+"end": 219.4
+},
+{
+"text": "En",
+"start": 219.76,
+"end": 219.92
+},
+{
+"text": "julio",
+"start": 219.92,
+"end": 220.22
+},
+{
+"text": "de",
+"start": 220.22,
+"end": 220.34
+},
+{
+"text": "dos",
+"start": 220.34,
+"end": 220.46
+},
+{
+"text": "mil",
+"start": 220.46,
+"end": 220.58
+},
+{
+"text": "veinticinco,",
+"start": 220.58,
+"end": 221.02
+},
+{
+"text": "Galaxy",
+"start": 221.54,
+"end": 221.66
+},
+{
+"text": "vendió",
+"start": 221.66,
+"end": 222.14
+},
+{
+"text": "más",
+"start": 222.14,
+"end": 222.3
+},
+{
+"text": "de",
+"start": 222.3,
+"end": 222.44
+},
+{
+"text": "ochenta",
+"start": 222.44,
+"end": 222.874
+},
+{
+"text": "mil",
+"start": 222.874,
+"end": 223.06
+},
+{
+"text": "bitcoins",
+"start": 223.06,
+"end": 223.44
+},
+{
+"text": "dormidos",
+"start": 223.44,
+"end": 223.94
+},
+{
+"text": "desde",
+"start": 223.94,
+"end": 224.12
+},
+{
+"text": "dos",
+"start": 224.12,
+"end": 224.33
+},
+{
+"text": "mil",
+"start": 224.33,
+"end": 224.54
+},
+{
+"text": "once.",
+"start": 224.54,
+"end": 224.82
+},
+{
+"text": "Más",
+"start": 225.24,
+"end": 225.4
+},
+{
+"text": "de",
+"start": 225.4,
+"end": 225.52
+},
+{
+"text": "nueve",
+"start": 225.52,
+"end": 226.008
+},
+{
+"text": "mil",
+"start": 226.008,
+"end": 226.3
+},
+{
+"text": "millones",
+"start": 226.3,
+"end": 226.64
+},
+{
+"text": "de",
+"start": 226.64,
+"end": 226.84
+},
+{
+"text": "dólares.",
+"start": 226.84,
+"end": 227.12
+},
+{
+"text": "Bitcoin",
+"start": 227.6,
+"end": 227.82
+},
+{
+"text": "bajó",
+"start": 227.82,
+"end": 228.28
+},
+{
+"text": "a",
+"start": 228.28,
+"end": 228.34
+},
+{
+"text": "unos",
+"start": 228.34,
+"end": 228.48
+},
+{
+"text": "ciento",
+"start": 228.48,
+"end": 228.848
+},
+{
+"text": "quince",
+"start": 228.848,
+"end": 229.216
+},
+{
+"text": "mil.",
+"start": 229.216,
+"end": 229.4
+},
+{
+"text": "Pero",
+"start": 229.66,
+"end": 229.8
+},
+{
+"text": "enseguida",
+"start": 229.8,
+"end": 230.2
+},
+{
+"text": "se",
+"start": 230.2,
+"end": 230.34
+},
+{
+"text": "recuperó,",
+"start": 230.34,
+"end": 230.86
+},
+{
+"text": "porque",
+"start": 230.86,
+"end": 231.18
+},
+{
+"text": "había",
+"start": 231.18,
+"end": 231.4
+},
+{
+"text": "compradores",
+"start": 231.4,
+"end": 232.02
+},
+{
+"text": "al",
+"start": 232.02,
+"end": 232.22
+},
+{
+"text": "otro",
+"start": 232.22,
+"end": 232.44
+},
+{
+"text": "lado.",
+"start": 232.44,
+"end": 232.72
+},
+{
+"text": "Lo",
+"start": 233.0,
+"end": 233.12
+},
+{
+"text": "que",
+"start": 233.12,
+"end": 233.24
+},
+{
+"text": "importa",
+"start": 233.24,
+"end": 233.46
+},
+{
+"text": "no",
+"start": 233.46,
+"end": 233.84
+},
+{
+"text": "es",
+"start": 233.84,
+"end": 234.08
+},
+{
+"text": "quién",
+"start": 234.08,
+"end": 234.24
+},
+{
+"text": "vende.",
+"start": 234.24,
+"end": 234.64
+},
+{
+"text": "Es",
+"start": 234.96,
+"end": 235.18
+},
+{
+"text": "si",
+"start": 235.18,
+"end": 235.3
+},
+{
+"text": "hay",
+"start": 235.3,
+"end": 235.44
+},
+{
+"text": "alguien",
+"start": 235.44,
+"end": 235.74
+},
+{
+"text": "para",
+"start": 235.74,
+"end": 236.0
+},
+{
+"text": "comprar.",
+"start": 236.0,
+"end": 236.3
+},
+{
+"text": "Hacen",
+"start": 236.74,
+"end": 237.029
+},
+{
+"text": "olas,",
+"start": 237.029,
+"end": 237.26
+},
+{
+"text": "pero",
+"start": 237.58,
+"end": 237.7
+},
+{
+"text": "el",
+"start": 237.7,
+"end": 237.84
+},
+{
+"text": "mar",
+"start": 237.84,
+"end": 238.02
+},
+{
+"text": "ya",
+"start": 238.02,
+"end": 238.42
+},
+{
+"text": "es",
+"start": 238.42,
+"end": 238.72
+},
+{
+"text": "enorme.",
+"start": 238.72,
+"end": 238.98
+},
+{
+"text": "Número",
+"start": 239.5,
+"end": 239.86
+},
+{
+"text": "nueve.",
+"start": 239.86,
+"end": 240.22
+},
+{
+"text": "El",
+"start": 240.52,
+"end": 240.64
+},
+{
+"text": "apalancamiento,",
+"start": 240.64,
+"end": 241.34
+},
+{
+"text": "el",
+"start": 241.74,
+"end": 241.88
+},
+{
+"text": "dinero",
+"start": 241.88,
+"end": 242.16
+},
+{
+"text": "prestado.",
+"start": 242.16,
+"end": 242.76
+},
+{
+"text": "Mucha",
+"start": 243.08,
+"end": 243.38
+},
+{
+"text": "gente",
+"start": 243.38,
+"end": 243.58
+},
+{
+"text": "apuesta",
+"start": 243.58,
+"end": 243.96
+},
+{
+"text": "con",
+"start": 243.96,
+"end": 244.26
+},
+{
+"text": "dinero",
+"start": 244.26,
+"end": 244.54
+},
+{
+"text": "prestado.",
+"start": 244.54,
+"end": 245.1
+},
+{
+"text": "Con",
+"start": 245.36,
+"end": 245.5
+},
+{
+"text": "diez",
+"start": 245.5,
+"end": 245.68
+},
+{
+"text": "euros",
+"start": 245.68,
+"end": 245.96
+},
+{
+"text": "mueve",
+"start": 245.96,
+"end": 246.36
+},
+{
+"text": "cien.",
+"start": 246.36,
+"end": 246.54
+},
+{
+"text": "Y",
+"start": 246.96,
+"end": 247.06
+},
+{
+"text": "si",
+"start": 247.06,
+"end": 247.16
+},
+{
+"text": "el",
+"start": 247.16,
+"end": 247.28
+},
+{
+"text": "precio",
+"start": 247.28,
+"end": 247.56
+},
+{
+"text": "va",
+"start": 247.56,
+"end": 247.72
+},
+{
+"text": "en",
+"start": 247.72,
+"end": 247.84
+},
+{
+"text": "contra,",
+"start": 247.84,
+"end": 248.14
+},
+{
+"text": "le",
+"start": 248.42,
+"end": 248.48
+},
+{
+"text": "cierran",
+"start": 248.48,
+"end": 248.82
+},
+{
+"text": "la",
+"start": 248.82,
+"end": 248.98
+},
+{
+"text": "apuesta",
+"start": 248.98,
+"end": 249.34
+},
+{
+"text": "y",
+"start": 249.34,
+"end": 249.5
+},
+{
+"text": "venden.",
+"start": 249.5,
+"end": 249.82
+},
+{
+"text": "¿Te",
+"start": 250.14,
+"end": 250.2
+},
+{
+"text": "acuerdas",
+"start": 250.2,
+"end": 250.6
+},
+{
+"text": "del",
+"start": 250.6,
+"end": 250.8
+},
+{
+"text": "viernes",
+"start": 250.8,
+"end": 251.1
+},
+{
+"text": "del",
+"start": 251.1,
+"end": 251.28
+},
+{
+"text": "principio?",
+"start": 251.28,
+"end": 251.66
+},
+{
+"text": "Trump",
+"start": 251.66,
+"end": 252.3
+},
+{
+"text": "anunció",
+"start": 252.3,
+"end": 252.72
+},
+{
+"text": "aranceles",
+"start": 252.72,
+"end": 252.77
+},
+{
+"text": "del",
+"start": 252.77,
+"end": 252.82
+},
+{
+"text": "cien",
+"start": 252.82,
+"end": 252.87
+},
+{
+"text": "por",
+"start": 252.87,
+"end": 252.92
+},
+{
+"text": "cien",
+"start": 252.92,
+"end": 252.97
+},
+{
+"text": "a",
+"start": 252.72,
+"end": 252.8
+},
+{
+"text": "China.",
+"start": 254.4,
+"end": 254.44
+},
+{
+"text": "Bitcoin",
+"start": 254.78,
+"end": 254.96
+},
+{
+"text": "cayó,",
+"start": 254.96,
+"end": 255.48
+},
+{
+"text": "y",
+"start": 255.74,
+"end": 255.82
+},
+{
+"text": "cada",
+"start": 255.82,
+"end": 256.04
+},
+{
+"text": "venta",
+"start": 256.04,
+"end": 256.36
+},
+{
+"text": "forzada",
+"start": 256.36,
+"end": 256.8
+},
+{
+"text": "provocó",
+"start": 256.8,
+"end": 257.32
+},
+{
+"text": "otra.",
+"start": 257.32,
+"end": 257.64
+},
+{
+"text": "Más",
+"start": 258.0,
+"end": 258.18
+},
+{
+"text": "de",
+"start": 258.18,
+"end": 258.32
+},
+{
+"text": "diecinueve",
+"start": 258.32,
+"end": 258.997
+},
+{
+"text": "mil",
+"start": 258.997,
+"end": 259.2
+},
+{
+"text": "millones",
+"start": 259.2,
+"end": 259.54
+},
+{
+"text": "de",
+"start": 259.54,
+"end": 259.76
+},
+{
+"text": "dólares",
+"start": 259.76,
+"end": 260.02
+},
+{
+"text": "liquidados.",
+"start": 260.02,
+"end": 260.78
+},
+{
+"text": "Un",
+"start": 260.98,
+"end": 261.16
+},
+{
+"text": "récord.",
+"start": 261.16,
+"end": 261.54
+},
+{
+"text": "Con",
+"start": 261.88,
+"end": 262.02
+},
+{
+"text": "dinero",
+"start": 262.02,
+"end": 262.28
+},
+{
+"text": "prestado,",
+"start": 262.28,
+"end": 262.8
+},
+{
+"text": "lo",
+"start": 262.8,
+"end": 263.08
+},
+{
+"text": "pierdes",
+"start": 263.08,
+"end": 263.44
+},
+{
+"text": "aunque",
+"start": 263.44,
+"end": 263.66
+},
+{
+"text": "luego",
+"start": 263.66,
+"end": 263.94
+},
+{
+"text": "el",
+"start": 263.94,
+"end": 264.14
+},
+{
+"text": "precio",
+"start": 264.14,
+"end": 264.4
+},
+{
+"text": "se",
+"start": 264.4,
+"end": 264.58
+},
+{
+"text": "recupere.",
+"start": 264.58,
+"end": 265.1
+},
+{
+"text": "Te",
+"start": 265.38,
+"end": 265.48
+},
+{
+"text": "presta",
+"start": 265.48,
+"end": 265.84
+},
+{
+"text": "para",
+"start": 265.84,
+"end": 266.02
+},
+{
+"text": "ganar",
+"start": 266.02,
+"end": 266.3
+},
+{
+"text": "más,",
+"start": 266.3,
+"end": 266.48
+},
+{
+"text": "y",
+"start": 266.48,
+"end": 266.88
+},
+{
+"text": "te",
+"start": 266.88,
+"end": 267.02
+},
+{
+"text": "echa",
+"start": 267.02,
+"end": 267.28
+},
+{
+"text": "a",
+"start": 267.28,
+"end": 267.4
+},
+{
+"text": "la",
+"start": 267.4,
+"end": 267.46
+},
+{
+"text": "primera",
+"start": 267.46,
+"end": 267.72
+},
+{
+"text": "caída.",
+"start": 267.72,
+"end": 268.16
+},
+{
+"text": "Y",
+"start": 268.52,
+"end": 268.58
+},
+{
+"text": "la",
+"start": 268.58,
+"end": 268.7
+},
+{
+"text": "última,",
+"start": 268.7,
+"end": 269.02
+},
+{
+"text": "la",
+"start": 269.46,
+"end": 269.54
+},
+{
+"text": "más",
+"start": 269.54,
+"end": 269.78
+},
+{
+"text": "sorprendente.",
+"start": 269.78,
+"end": 270.54
+},
+{
+"text": "Número",
+"start": 270.92,
+"end": 271.3
+},
+{
+"text": "diez.",
+"start": 271.3,
+"end": 271.48
+},
+{
+"text": "El",
+"start": 271.86,
+"end": 271.98
+},
+{
+"text": "fallo",
+"start": 271.98,
+"end": 272.36
+},
+{
+"text": "de",
+"start": 272.36,
+"end": 272.46
+},
+{
+"text": "un",
+"start": 272.46,
+"end": 272.6
+},
+{
+"text": "robot,",
+"start": 272.6,
+"end": 272.88
+},
+{
+"text": "el",
+"start": 273.26,
+"end": 273.44
+},
+{
+"text": "dedo",
+"start": 273.44,
+"end": 273.72
+},
+{
+"text": "torpe.",
+"start": 273.72,
+"end": 274.08
+},
+{
+"text": "Veintiuno",
+"start": 274.44,
+"end": 274.78
+},
+{
+"text": "de",
+"start": 274.78,
+"end": 275.04
+},
+{
+"text": "octubre",
+"start": 275.04,
+"end": 275.38
+},
+{
+"text": "de",
+"start": 275.38,
+"end": 275.52
+},
+{
+"text": "dos",
+"start": 275.52,
+"end": 275.576
+},
+{
+"text": "mil",
+"start": 275.576,
+"end": 275.632
+},
+{
+"text": "veintiuno.",
+"start": 275.632,
+"end": 275.8
+},
+{
+"text": "Bitcoin",
+"start": 276.64,
+"end": 276.88
+},
+{
+"text": "rondaba",
+"start": 276.88,
+"end": 277.4
+},
+{
+"text": "los",
+"start": 277.4,
+"end": 277.58
+},
+{
+"text": "sesenta",
+"start": 277.58,
+"end": 278.044
+},
+{
+"text": "y",
+"start": 278.044,
+"end": 278.11
+},
+{
+"text": "cinco",
+"start": 278.11,
+"end": 278.441
+},
+{
+"text": "mil.",
+"start": 278.441,
+"end": 278.64
+},
+{
+"text": "Y",
+"start": 278.64,
+"end": 278.98
+},
+{
+"text": "en",
+"start": 278.98,
+"end": 279.1
+},
+{
+"text": "Binance",
+"start": 279.1,
+"end": 279.44
+},
+{
+"text": "punto",
+"start": 279.44,
+"end": 279.954
+},
+{
+"text": "U",
+"start": 279.954,
+"end": 280.057
+},
+{
+"text": "S,",
+"start": 280.057,
+"end": 280.16
+},
+{
+"text": "de",
+"start": 280.16,
+"end": 280.54
+},
+{
+"text": "repente,",
+"start": 280.54,
+"end": 280.92
+},
+{
+"text": "se",
+"start": 280.92,
+"end": 281.32
+},
+{
+"text": "vendió",
+"start": 281.32,
+"end": 281.62
+},
+{
+"text": "a",
+"start": 281.62,
+"end": 281.72
+},
+{
+"text": "ocho",
+"start": 281.72,
+"end": 281.932
+},
+{
+"text": "mil",
+"start": 281.932,
+"end": 282.091
+},
+{
+"text": "doscientos.",
+"start": 282.091,
+"end": 282.62
+},
+{
+"text": "Un",
+"start": 283.06,
+"end": 283.18
+},
+{
+"text": "ochenta",
+"start": 283.18,
+"end": 283.524
+},
+{
+"text": "y",
+"start": 283.524,
+"end": 283.573
+},
+{
+"text": "siete",
+"start": 283.573,
+"end": 283.818
+},
+{
+"text": "por",
+"start": 283.818,
+"end": 283.965
+},
+{
+"text": "ciento",
+"start": 283.965,
+"end": 284.26
+},
+{
+"text": "menos.",
+"start": 284.26,
+"end": 284.8
+},
+{
+"text": "Duró",
+"start": 284.8,
+"end": 285.46
+},
+{
+"text": "segundos.",
+"start": 285.46,
+"end": 285.98
+},
+{
+"text": "Binance",
+"start": 286.42,
+"end": 286.76
+},
+{
+"text": "culpó",
+"start": 286.76,
+"end": 287.12
+},
+{
+"text": "al",
+"start": 287.12,
+"end": 287.28
+},
+{
+"text": "programa",
+"start": 287.28,
+"end": 287.58
+},
+{
+"text": "de",
+"start": 287.58,
+"end": 287.78
+},
+{
+"text": "un",
+"start": 287.78,
+"end": 287.88
+},
+{
+"text": "cliente.",
+"start": 287.88,
+"end": 288.44
+},
+{
+"text": "En",
+"start": 288.66,
+"end": 288.74
+},
+{
+"text": "el",
+"start": 288.74,
+"end": 288.86
+},
+{
+"text": "resto",
+"start": 288.86,
+"end": 289.06
+},
+{
+"text": "del",
+"start": 289.06,
+"end": 289.24
+},
+{
+"text": "mundo,",
+"start": 289.24,
+"end": 289.52
+},
+{
+"text": "apenas",
+"start": 289.52,
+"end": 290.14
+},
+{
+"text": "se",
+"start": 290.14,
+"end": 290.36
+},
+{
+"text": "movió.",
+"start": 290.36,
+"end": 290.66
+},
+{
+"text": "Vender",
+"start": 291.02,
+"end": 291.26
+},
+{
+"text": "sin",
+"start": 291.26,
+"end": 291.46
+},
+{
+"text": "precio",
+"start": 291.46,
+"end": 291.72
+},
+{
+"text": "límite",
+"start": 291.72,
+"end": 292.16
+},
+{
+"text": "es",
+"start": 292.16,
+"end": 292.5
+},
+{
+"text": "aceptar",
+"start": 292.5,
+"end": 292.92
+},
+{
+"text": "cualquier",
+"start": 292.92,
+"end": 293.36
+},
+{
+"text": "precio.",
+"start": 293.36,
+"end": 293.84
+},
+{
+"text": "Aunque",
+"start": 294.22,
+"end": 294.38
+},
+{
+"text": "sea",
+"start": 294.38,
+"end": 294.66
+},
+{
+"text": "absurdo.",
+"start": 294.66,
+"end": 295.12
+},
+{
+"text": "Y",
+"start": 295.54,
+"end": 295.62
+},
+{
+"text": "ahora,",
+"start": 295.62,
+"end": 295.88
+},
+{
+"text": "la",
+"start": 295.88,
+"end": 296.3
+},
+{
+"text": "pregunta",
+"start": 296.3,
+"end": 296.58
+},
+{
+"text": "del",
+"start": 296.58,
+"end": 296.86
+},
+{
+"text": "principio.",
+"start": 296.86,
+"end": 297.3
+},
+{
+"text": "¿Quién",
+"start": 297.84,
+"end": 298.04
+},
+{
+"text": "decide",
+"start": 298.04,
+"end": 298.38
+},
+{
+"text": "el",
+"start": 298.38,
+"end": 298.6
+},
+{
+"text": "precio?",
+"start": 298.6,
+"end": 298.88
+},
+{
+"text": "Nadie.",
+"start": 299.42,
+"end": 299.8
+},
+{
+"text": "Y",
+"start": 300.22,
+"end": 300.34
+},
+{
+"text": "todos.",
+"start": 300.34,
+"end": 300.64
+},
+{
+"text": "El",
+"start": 301.2,
+"end": 301.34
+},
+{
+"text": "precio",
+"start": 301.34,
+"end": 301.66
+},
+{
+"text": "es",
+"start": 301.66,
+"end": 301.86
+},
+{
+"text": "solo",
+"start": 301.86,
+"end": 302.08
+},
+{
+"text": "la",
+"start": 302.08,
+"end": 302.28
+},
+{
+"text": "última",
+"start": 302.28,
+"end": 302.62
+},
+{
+"text": "compra.",
+"start": 302.62,
+"end": 303.0
+},
+{
+"text": "Lo",
+"start": 303.42,
+"end": 303.5
+},
+{
+"text": "que",
+"start": 303.5,
+"end": 303.68
+},
+{
+"text": "alguien",
+"start": 303.68,
+"end": 303.92
+},
+{
+"text": "pagó",
+"start": 303.92,
+"end": 304.32
+},
+{
+"text": "a",
+"start": 304.32,
+"end": 304.46
+},
+{
+"text": "alguien",
+"start": 304.46,
+"end": 304.68
+},
+{
+"text": "que",
+"start": 304.68,
+"end": 304.88
+},
+{
+"text": "vendía,",
+"start": 304.88,
+"end": 305.28
+},
+{
+"text": "en",
+"start": 305.28,
+"end": 305.64
+},
+{
+"text": "ese",
+"start": 305.64,
+"end": 305.84
+},
+{
+"text": "segundo.",
+"start": 305.84,
+"end": 306.28
+},
+{
+"text": "Por",
+"start": 306.28,
+"end": 306.74
+},
+{
+"text": "eso",
+"start": 306.74,
+"end": 306.92
+},
+{
+"text": "en",
+"start": 306.92,
+"end": 307.06
+},
+{
+"text": "Binance",
+"start": 307.06,
+"end": 307.4
+},
+{
+"text": "valió",
+"start": 307.4,
+"end": 307.74
+},
+{
+"text": "ocho",
+"start": 307.74,
+"end": 307.914
+},
+{
+"text": "mil",
+"start": 307.914,
+"end": 308.045
+},
+{
+"text": "doscientos.",
+"start": 308.045,
+"end": 308.48
+},
+{
+"text": "Alguien",
+"start": 309.1,
+"end": 309.46
+},
+{
+"text": "los",
+"start": 309.46,
+"end": 309.62
+},
+{
+"text": "pagó.",
+"start": 309.62,
+"end": 310.0
+},
+{
+"text": "Y",
+"start": 310.42,
+"end": 310.54
+},
+{
+"text": "así",
+"start": 310.54,
+"end": 310.8
+},
+{
+"text": "empezó",
+"start": 310.8,
+"end": 311.22
+},
+{
+"text": "todo.",
+"start": 311.22,
+"end": 311.48
+},
+{
+"text": "En",
+"start": 311.86,
+"end": 311.96
+},
+{
+"text": "dos",
+"start": 311.96,
+"end": 312.122
+},
+{
+"text": "mil",
+"start": 312.122,
+"end": 312.284
+},
+{
+"text": "diez,",
+"start": 312.284,
+"end": 312.5
+},
+{
+"text": "alguien",
+"start": 312.5,
+"end": 313.0
+},
+{
+"text": "pagó",
+"start": 313.0,
+"end": 313.34
+},
+{
+"text": "diez",
+"start": 313.34,
+"end": 313.591
+},
+{
+"text": "mil",
+"start": 313.591,
+"end": 313.78
+},
+{
+"text": "bitcoins",
+"start": 313.78,
+"end": 314.1
+},
+{
+"text": "por",
+"start": 314.1,
+"end": 314.42
+},
+{
+"text": "dos",
+"start": 314.42,
+"end": 314.62
+},
+{
+"text": "pizzas.",
+"start": 314.62,
+"end": 314.96
+},
+{
+"text": "Unos",
+"start": 315.36,
+"end": 315.62
+},
+{
+"text": "cuarenta",
+"start": 315.62,
+"end": 315.96
+},
+{
+"text": "dólares.",
+"start": 315.96,
+"end": 316.4
+},
+{
+"text": "Lo",
+"start": 316.76,
+"end": 316.88
+},
+{
+"text": "decidieron",
+"start": 316.88,
+"end": 317.38
+},
+{
+"text": "dos",
+"start": 317.38,
+"end": 317.66
+},
+{
+"text": "personas.",
+"start": 317.66,
+"end": 318.14
+},
+{
+"text": "¿Y",
+"start": 318.64,
+"end": 318.74
+},
+{
+"text": "tú?",
+"start": 318.74,
+"end": 318.9
+},
+{
+"text": "¿Cuál",
+"start": 319.26,
+"end": 319.44
+},
+{
+"text": "de",
+"start": 319.44,
+"end": 319.52
+},
+{
+"text": "las",
+"start": 319.52,
+"end": 319.64
+},
+{
+"text": "diez",
+"start": 319.64,
+"end": 319.88
+},
+{
+"text": "te",
+"start": 319.88,
+"end": 320.14
+},
+{
+"text": "ha",
+"start": 320.14,
+"end": 320.26
+},
+{
+"text": "sorprendido",
+"start": 320.26,
+"end": 320.74
+},
+{
+"text": "más?",
+"start": 320.74,
+"end": 320.96
+},
+{
+"text": "Te",
+"start": 321.36,
+"end": 321.42
+},
+{
+"text": "leo",
+"start": 321.42,
+"end": 321.64
+},
+{
+"text": "en",
+"start": 321.64,
+"end": 321.72
+},
+{
+"text": "los",
+"start": 321.72,
+"end": 321.82
+},
+{
+"text": "comentarios.",
+"start": 321.82,
+"end": 322.22
+},
+{
+"text": "Si",
+"start": 322.76,
+"end": 322.86
+},
+{
+"text": "te",
+"start": 322.86,
+"end": 322.96
+},
+{
+"text": "gusta",
+"start": 322.96,
+"end": 323.16
+},
+{
+"text": "entender",
+"start": 323.16,
+"end": 323.54
+},
+{
+"text": "cómo",
+"start": 323.54,
+"end": 323.84
+},
+{
+"text": "funciona",
+"start": 323.84,
+"end": 324.26
+},
+{
+"text": "de",
+"start": 324.26,
+"end": 324.4
+},
+{
+"text": "verdad",
+"start": 324.4,
+"end": 324.68
+},
+{
+"text": "la",
+"start": 324.86,
+"end": 324.92
+},
+{
+"text": "tecnología",
+"start": 324.92,
+"end": 325.28
+},
+{
+"text": "que",
+"start": 325.28,
+"end": 325.6
+},
+{
+"text": "usas",
+"start": 325.6,
+"end": 325.86
+},
+{
+"text": "cada",
+"start": 325.86,
+"end": 326.08
+},
+{
+"text": "día,",
+"start": 326.08,
+"end": 326.38
+},
+{
+"text": "suscríbete.",
+"start": 326.62,
+"end": 327.22
+}
+]

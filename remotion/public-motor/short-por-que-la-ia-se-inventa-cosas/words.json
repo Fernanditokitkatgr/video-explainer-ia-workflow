@@ -1,0 +1,917 @@
+[
+{
+"text": "¿Por",
+"start": 0.0,
+"end": 0.2
+},
+{
+"text": "qué",
+"start": 0.2,
+"end": 0.4
+},
+{
+"text": "la",
+"start": 0.4,
+"end": 0.56
+},
+{
+"text": "IA",
+"start": 0.56,
+"end": 0.72
+},
+{
+"text": "se",
+"start": 0.72,
+"end": 0.96
+},
+{
+"text": "inventa",
+"start": 0.96,
+"end": 1.38
+},
+{
+"text": "cosas?",
+"start": 1.38,
+"end": 1.72
+},
+{
+"text": "Porque",
+"start": 2.22,
+"end": 2.52
+},
+{
+"text": "es",
+"start": 2.52,
+"end": 2.72
+},
+{
+"text": "como",
+"start": 2.72,
+"end": 2.92
+},
+{
+"text": "Pinocho.",
+"start": 2.92,
+"end": 3.4
+},
+{
+"text": "Pero",
+"start": 3.82,
+"end": 4.0
+},
+{
+"text": "sin",
+"start": 4.0,
+"end": 4.3
+},
+{
+"text": "nariz",
+"start": 4.3,
+"end": 4.58
+},
+{
+"text": "que",
+"start": 4.58,
+"end": 4.76
+},
+{
+"text": "le",
+"start": 4.76,
+"end": 4.86
+},
+{
+"text": "crezca.",
+"start": 4.86,
+"end": 5.22
+},
+{
+"text": "Un",
+"start": 5.64,
+"end": 5.76
+},
+{
+"text": "chat",
+"start": 5.76,
+"end": 5.94
+},
+{
+"text": "de",
+"start": 5.94,
+"end": 6.15
+},
+{
+"text": "IA",
+"start": 6.15,
+"end": 6.36
+},
+{
+"text": "no",
+"start": 6.36,
+"end": 6.66
+},
+{
+"text": "busca",
+"start": 6.66,
+"end": 6.96
+},
+{
+"text": "la",
+"start": 6.96,
+"end": 7.08
+},
+{
+"text": "respuesta",
+"start": 7.08,
+"end": 7.38
+},
+{
+"text": "en",
+"start": 7.38,
+"end": 7.64
+},
+{
+"text": "una",
+"start": 7.64,
+"end": 7.78
+},
+{
+"text": "base",
+"start": 7.78,
+"end": 7.96
+},
+{
+"text": "de",
+"start": 7.96,
+"end": 8.12
+},
+{
+"text": "datos.",
+"start": 8.12,
+"end": 8.4
+},
+{
+"text": "Predice",
+"start": 8.8,
+"end": 9.22
+},
+{
+"text": "la",
+"start": 9.22,
+"end": 9.36
+},
+{
+"text": "palabra",
+"start": 9.36,
+"end": 9.6
+},
+{
+"text": "más",
+"start": 9.6,
+"end": 9.88
+},
+{
+"text": "probable.",
+"start": 9.88,
+"end": 10.32
+},
+{
+"text": "Y",
+"start": 10.74,
+"end": 10.86
+},
+{
+"text": "luego",
+"start": 10.86,
+"end": 11.08
+},
+{
+"text": "la",
+"start": 11.08,
+"end": 11.26
+},
+{
+"text": "siguiente.",
+"start": 11.26,
+"end": 11.52
+},
+{
+"text": "Si",
+"start": 12.1,
+"end": 12.22
+},
+{
+"text": "conoce",
+"start": 12.22,
+"end": 12.6
+},
+{
+"text": "el",
+"start": 12.6,
+"end": 12.7
+},
+{
+"text": "tema,",
+"start": 12.7,
+"end": 12.94
+},
+{
+"text": "la",
+"start": 13.18,
+"end": 13.24
+},
+{
+"text": "palabra",
+"start": 13.24,
+"end": 13.48
+},
+{
+"text": "más",
+"start": 13.48,
+"end": 13.72
+},
+{
+"text": "probable",
+"start": 13.72,
+"end": 14.14
+},
+{
+"text": "suele",
+"start": 14.14,
+"end": 14.42
+},
+{
+"text": "ser",
+"start": 14.42,
+"end": 14.62
+},
+{
+"text": "la",
+"start": 14.62,
+"end": 14.76
+},
+{
+"text": "correcta.",
+"start": 14.76,
+"end": 15.2
+},
+{
+"text": "Si",
+"start": 15.54,
+"end": 15.68
+},
+{
+"text": "no",
+"start": 15.68,
+"end": 15.86
+},
+{
+"text": "lo",
+"start": 15.86,
+"end": 15.94
+},
+{
+"text": "conoce,",
+"start": 15.94,
+"end": 16.38
+},
+{
+"text": "sigue",
+"start": 16.68,
+"end": 16.84
+},
+{
+"text": "prediciendo",
+"start": 16.84,
+"end": 17.42
+},
+{
+"text": "igual.",
+"start": 17.42,
+"end": 17.76
+},
+{
+"text": "Con",
+"start": 18.1,
+"end": 18.22
+},
+{
+"text": "el",
+"start": 18.22,
+"end": 18.36
+},
+{
+"text": "mismo",
+"start": 18.36,
+"end": 18.72
+},
+{
+"text": "tono",
+"start": 18.72,
+"end": 19.1
+},
+{
+"text": "seguro.",
+"start": 19.1,
+"end": 19.48
+},
+{
+"text": "Nadie",
+"start": 19.98,
+"end": 20.28
+},
+{
+"text": "le",
+"start": 20.28,
+"end": 20.42
+},
+{
+"text": "ha",
+"start": 20.42,
+"end": 20.46
+},
+{
+"text": "enseñado",
+"start": 20.46,
+"end": 20.88
+},
+{
+"text": "a",
+"start": 20.88,
+"end": 20.96
+},
+{
+"text": "decir",
+"start": 20.96,
+"end": 21.16
+},
+{
+"text": "que",
+"start": 21.16,
+"end": 21.38
+},
+{
+"text": "no",
+"start": 21.38,
+"end": 21.54
+},
+{
+"text": "lo",
+"start": 21.54,
+"end": 21.64
+},
+{
+"text": "sabe.",
+"start": 21.64,
+"end": 21.92
+},
+{
+"text": "OpenAI",
+"start": 22.3,
+"end": 22.78
+},
+{
+"text": "lo",
+"start": 22.78,
+"end": 22.98
+},
+{
+"text": "explicó",
+"start": 22.98,
+"end": 23.4
+},
+{
+"text": "en",
+"start": 23.4,
+"end": 23.5
+},
+{
+"text": "dos",
+"start": 23.5,
+"end": 23.613
+},
+{
+"text": "mil",
+"start": 23.613,
+"end": 23.726
+},
+{
+"text": "veinticinco.",
+"start": 23.726,
+"end": 24.14
+},
+{
+"text": "En",
+"start": 24.64,
+"end": 24.74
+},
+{
+"text": "las",
+"start": 24.74,
+"end": 24.86
+},
+{
+"text": "pruebas",
+"start": 24.86,
+"end": 25.2
+},
+{
+"text": "que",
+"start": 25.2,
+"end": 25.36
+},
+{
+"text": "puntúan",
+"start": 25.36,
+"end": 25.76
+},
+{
+"text": "a",
+"start": 25.76,
+"end": 25.9
+},
+{
+"text": "la",
+"start": 25.9,
+"end": 26.04
+},
+{
+"text": "IA,",
+"start": 26.04,
+"end": 26.18
+},
+{
+"text": "dejar",
+"start": 26.44,
+"end": 26.6
+},
+{
+"text": "la",
+"start": 26.6,
+"end": 26.78
+},
+{
+"text": "respuesta",
+"start": 26.78,
+"end": 27.06
+},
+{
+"text": "en",
+"start": 27.06,
+"end": 27.28
+},
+{
+"text": "blanco",
+"start": 27.28,
+"end": 27.62
+},
+{
+"text": "vale",
+"start": 27.62,
+"end": 27.88
+},
+{
+"text": "cero.",
+"start": 27.88,
+"end": 28.3
+},
+{
+"text": "Y",
+"start": 28.3,
+"end": 28.74
+},
+{
+"text": "adivinar,",
+"start": 28.74,
+"end": 29.14
+},
+{
+"text": "a",
+"start": 29.48,
+"end": 29.58
+},
+{
+"text": "veces,",
+"start": 29.58,
+"end": 29.8
+},
+{
+"text": "acierta.",
+"start": 30.22,
+"end": 30.62
+},
+{
+"text": "Así",
+"start": 30.94,
+"end": 31.24
+},
+{
+"text": "que",
+"start": 31.24,
+"end": 31.44
+},
+{
+"text": "hace",
+"start": 31.44,
+"end": 31.62
+},
+{
+"text": "lo",
+"start": 31.62,
+"end": 31.76
+},
+{
+"text": "que",
+"start": 31.76,
+"end": 31.88
+},
+{
+"text": "haría",
+"start": 31.88,
+"end": 32.06
+},
+{
+"text": "cualquiera",
+"start": 32.06,
+"end": 32.48
+},
+{
+"text": "en",
+"start": 32.48,
+"end": 32.68
+},
+{
+"text": "un",
+"start": 32.68,
+"end": 32.76
+},
+{
+"text": "examen",
+"start": 32.76,
+"end": 33.1
+},
+{
+"text": "tipo",
+"start": 33.1,
+"end": 33.32
+},
+{
+"text": "test.",
+"start": 33.32,
+"end": 33.66
+},
+{
+"text": "Contestar",
+"start": 34.02,
+"end": 34.54
+},
+{
+"text": "algo.",
+"start": 34.54,
+"end": 34.82
+},
+{
+"text": "En",
+"start": 35.18,
+"end": 35.28
+},
+{
+"text": "dos",
+"start": 35.28,
+"end": 35.404
+},
+{
+"text": "mil",
+"start": 35.404,
+"end": 35.528
+},
+{
+"text": "veintitrés,",
+"start": 35.528,
+"end": 35.94
+},
+{
+"text": "un",
+"start": 36.38,
+"end": 36.52
+},
+{
+"text": "abogado",
+"start": 36.52,
+"end": 36.84
+},
+{
+"text": "de",
+"start": 36.84,
+"end": 36.96
+},
+{
+"text": "Nueva",
+"start": 36.96,
+"end": 37.2
+},
+{
+"text": "York",
+"start": 37.2,
+"end": 37.4
+},
+{
+"text": "presentó",
+"start": 37.4,
+"end": 37.92
+},
+{
+"text": "un",
+"start": 37.92,
+"end": 38.04
+},
+{
+"text": "escrito",
+"start": 38.04,
+"end": 38.32
+},
+{
+"text": "con",
+"start": 38.32,
+"end": 38.62
+},
+{
+"text": "seis",
+"start": 38.62,
+"end": 38.86
+},
+{
+"text": "sentencias",
+"start": 38.86,
+"end": 39.4
+},
+{
+"text": "que",
+"start": 39.4,
+"end": 39.58
+},
+{
+"text": "se",
+"start": 39.58,
+"end": 39.72
+},
+{
+"text": "había",
+"start": 39.72,
+"end": 39.86
+},
+{
+"text": "inventado",
+"start": 39.86,
+"end": 40.38
+},
+{
+"text": "ChatGPT.",
+"start": 40.38,
+"end": 41.1
+},
+{
+"text": "Le",
+"start": 41.4,
+"end": 41.52
+},
+{
+"text": "preguntó",
+"start": 41.52,
+"end": 42.0
+},
+{
+"text": "si",
+"start": 42.0,
+"end": 42.16
+},
+{
+"text": "eran",
+"start": 42.16,
+"end": 42.36
+},
+{
+"text": "reales.",
+"start": 42.36,
+"end": 42.9
+},
+{
+"text": "Y",
+"start": 43.16,
+"end": 43.26
+},
+{
+"text": "ChatGPT",
+"start": 43.26,
+"end": 43.88
+},
+{
+"text": "le",
+"start": 43.88,
+"end": 44.04
+},
+{
+"text": "dijo",
+"start": 44.04,
+"end": 44.24
+},
+{
+"text": "que",
+"start": 44.24,
+"end": 44.44
+},
+{
+"text": "sí.",
+"start": 44.44,
+"end": 44.62
+},
+{
+"text": "Acabaron",
+"start": 44.88,
+"end": 45.26
+},
+{
+"text": "multados",
+"start": 45.26,
+"end": 45.7
+},
+{
+"text": "con",
+"start": 45.7,
+"end": 45.92
+},
+{
+"text": "cinco",
+"start": 45.92,
+"end": 46.307
+},
+{
+"text": "mil",
+"start": 46.307,
+"end": 46.54
+},
+{
+"text": "dólares.",
+"start": 46.54,
+"end": 46.82
+},
+{
+"text": "Así",
+"start": 47.3,
+"end": 47.52
+},
+{
+"text": "que",
+"start": 47.52,
+"end": 47.7
+},
+{
+"text": "úsala,",
+"start": 47.7,
+"end": 48.1
+},
+{
+"text": "pero",
+"start": 48.3,
+"end": 48.46
+},
+{
+"text": "pídele",
+"start": 48.46,
+"end": 48.88
+},
+{
+"text": "las",
+"start": 48.88,
+"end": 49.08
+},
+{
+"text": "fuentes",
+"start": 49.08,
+"end": 49.44
+},
+{
+"text": "y",
+"start": 49.44,
+"end": 49.62
+},
+{
+"text": "compruébalas.",
+"start": 49.62,
+"end": 50.34
+},
+{
+"text": "Sobre",
+"start": 50.56,
+"end": 50.76
+},
+{
+"text": "todo",
+"start": 50.76,
+"end": 51.06
+},
+{
+"text": "cifras,",
+"start": 51.06,
+"end": 51.56
+},
+{
+"text": "fechas",
+"start": 51.86,
+"end": 52.04
+},
+{
+"text": "y",
+"start": 52.04,
+"end": 52.28
+},
+{
+"text": "nombres.",
+"start": 52.28,
+"end": 52.54
+},
+{
+"text": "A",
+"start": 53.0,
+"end": 53.06
+},
+{
+"text": "Pinocho",
+"start": 53.06,
+"end": 53.48
+},
+{
+"text": "le",
+"start": 53.48,
+"end": 53.64
+},
+{
+"text": "crecía",
+"start": 53.64,
+"end": 53.98
+},
+{
+"text": "la",
+"start": 53.98,
+"end": 54.14
+},
+{
+"text": "nariz.",
+"start": 54.14,
+"end": 54.42
+},
+{
+"text": "A",
+"start": 54.78,
+"end": 54.88
+},
+{
+"text": "la",
+"start": 54.88,
+"end": 55.01
+},
+{
+"text": "IA,",
+"start": 55.01,
+"end": 55.14
+},
+{
+"text": "nada.",
+"start": 55.14,
+"end": 55.76
+},
+{
+"text": "Esa",
+"start": 56.12,
+"end": 56.4
+},
+{
+"text": "nariz",
+"start": 56.4,
+"end": 56.7
+},
+{
+"text": "la",
+"start": 56.7,
+"end": 56.88
+},
+{
+"text": "tienes",
+"start": 56.88,
+"end": 57.12
+},
+{
+"text": "que",
+"start": 57.12,
+"end": 57.3
+},
+{
+"text": "poner",
+"start": 57.3,
+"end": 57.52
+},
+{
+"text": "tú.",
+"start": 57.52,
+"end": 57.76
+}
+]

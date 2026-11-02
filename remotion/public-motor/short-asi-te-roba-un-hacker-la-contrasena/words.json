@@ -1,0 +1,952 @@
+[
+{
+"text": "Así",
+"start": 0.0,
+"end": 0.36
+},
+{
+"text": "te",
+"start": 0.36,
+"end": 0.56
+},
+{
+"text": "roba",
+"start": 0.56,
+"end": 0.84
+},
+{
+"text": "un",
+"start": 0.84,
+"end": 0.94
+},
+{
+"text": "hacker",
+"start": 0.94,
+"end": 1.18
+},
+{
+"text": "la",
+"start": 1.18,
+"end": 1.4
+},
+{
+"text": "contraseña",
+"start": 1.4,
+"end": 1.96
+},
+{
+"text": "en",
+"start": 1.96,
+"end": 2.1
+},
+{
+"text": "segundos.",
+"start": 2.1,
+"end": 2.6
+},
+{
+"text": "Y",
+"start": 3.04,
+"end": 3.16
+},
+{
+"text": "ni",
+"start": 3.16,
+"end": 3.24
+},
+{
+"text": "siquiera",
+"start": 3.24,
+"end": 3.66
+},
+{
+"text": "tiene",
+"start": 3.66,
+"end": 3.94
+},
+{
+"text": "que",
+"start": 3.94,
+"end": 4.1
+},
+{
+"text": "adivinarla.",
+"start": 4.1,
+"end": 4.76
+},
+{
+"text": "Lo",
+"start": 5.04,
+"end": 5.18
+},
+{
+"text": "primero",
+"start": 5.18,
+"end": 5.4
+},
+{
+"text": "que",
+"start": 5.4,
+"end": 5.62
+},
+{
+"text": "hace",
+"start": 5.62,
+"end": 5.84
+},
+{
+"text": "es",
+"start": 5.84,
+"end": 6.06
+},
+{
+"text": "probar",
+"start": 6.06,
+"end": 6.32
+},
+{
+"text": "una",
+"start": 6.32,
+"end": 6.52
+},
+{
+"text": "lista.",
+"start": 6.52,
+"end": 6.78
+},
+{
+"text": "Las",
+"start": 7.2,
+"end": 7.32
+},
+{
+"text": "contraseñas",
+"start": 7.32,
+"end": 7.88
+},
+{
+"text": "más",
+"start": 7.88,
+"end": 8.18
+},
+{
+"text": "usadas",
+"start": 8.18,
+"end": 8.56
+},
+{
+"text": "del",
+"start": 8.56,
+"end": 8.76
+},
+{
+"text": "mundo.",
+"start": 8.76,
+"end": 9.08
+},
+{
+"text": "Y",
+"start": 9.4,
+"end": 9.5
+},
+{
+"text": "la",
+"start": 9.5,
+"end": 9.6
+},
+{
+"text": "primera",
+"start": 9.6,
+"end": 9.86
+},
+{
+"text": "de",
+"start": 9.86,
+"end": 10.04
+},
+{
+"text": "la",
+"start": 10.04,
+"end": 10.14
+},
+{
+"text": "lista",
+"start": 10.14,
+"end": 10.38
+},
+{
+"text": "sigue",
+"start": 10.38,
+"end": 10.66
+},
+{
+"text": "siendo",
+"start": 10.66,
+"end": 10.96
+},
+{
+"text": "uno,",
+"start": 10.96,
+"end": 11.34
+},
+{
+"text": "dos,",
+"start": 11.62,
+"end": 11.62
+},
+{
+"text": "tres,",
+"start": 11.9,
+"end": 12.02
+},
+{
+"text": "cuatro,",
+"start": 12.28,
+"end": 12.44
+},
+{
+"text": "cinco,",
+"start": 12.64,
+"end": 12.84
+},
+{
+"text": "seis.",
+"start": 12.96,
+"end": 13.22
+},
+{
+"text": "Esa",
+"start": 13.52,
+"end": 13.84
+},
+{
+"text": "cae",
+"start": 13.84,
+"end": 14.12
+},
+{
+"text": "al",
+"start": 14.12,
+"end": 14.24
+},
+{
+"text": "primer",
+"start": 14.24,
+"end": 14.56
+},
+{
+"text": "intento.",
+"start": 14.56,
+"end": 15.18
+},
+{
+"text": "Si",
+"start": 15.42,
+"end": 15.54
+},
+{
+"text": "la",
+"start": 15.54,
+"end": 15.64
+},
+{
+"text": "tuya",
+"start": 15.64,
+"end": 15.88
+},
+{
+"text": "es",
+"start": 15.88,
+"end": 16.04
+},
+{
+"text": "rara",
+"start": 16.04,
+"end": 16.32
+},
+{
+"text": "pero",
+"start": 16.56,
+"end": 16.68
+},
+{
+"text": "corta,",
+"start": 16.68,
+"end": 17.06
+},
+{
+"text": "prueba",
+"start": 17.3,
+"end": 17.46
+},
+{
+"text": "todas",
+"start": 17.46,
+"end": 17.8
+},
+{
+"text": "las",
+"start": 17.8,
+"end": 18.12
+},
+{
+"text": "combinaciones.",
+"start": 18.12,
+"end": 18.74
+},
+{
+"text": "Eso",
+"start": 19.1,
+"end": 19.32
+},
+{
+"text": "es",
+"start": 19.32,
+"end": 19.54
+},
+{
+"text": "fuerza",
+"start": 19.54,
+"end": 19.86
+},
+{
+"text": "bruta.",
+"start": 19.86,
+"end": 20.2
+},
+{
+"text": "Aunque",
+"start": 20.56,
+"end": 20.74
+},
+{
+"text": "la",
+"start": 20.74,
+"end": 20.92
+},
+{
+"text": "web",
+"start": 20.92,
+"end": 21.06
+},
+{
+"text": "la",
+"start": 21.06,
+"end": 21.24
+},
+{
+"text": "guarde",
+"start": 21.24,
+"end": 21.54
+},
+{
+"text": "bien",
+"start": 21.54,
+"end": 21.7
+},
+{
+"text": "protegida,",
+"start": 21.7,
+"end": 22.28
+},
+{
+"text": "ocho",
+"start": 22.5,
+"end": 22.72
+},
+{
+"text": "letras",
+"start": 22.72,
+"end": 22.94
+},
+{
+"text": "minúsculas",
+"start": 22.94,
+"end": 23.6
+},
+{
+"text": "caen",
+"start": 23.6,
+"end": 23.82
+},
+{
+"text": "en",
+"start": 23.82,
+"end": 23.98
+},
+{
+"text": "unas",
+"start": 23.98,
+"end": 24.12
+},
+{
+"text": "dos",
+"start": 24.12,
+"end": 24.36
+},
+{
+"text": "semanas.",
+"start": 24.36,
+"end": 24.76
+},
+{
+"text": "Dieciséis",
+"start": 24.76,
+"end": 25.38
+},
+{
+"text": "caracteres",
+"start": 25.38,
+"end": 26.14
+},
+{
+"text": "al",
+"start": 26.14,
+"end": 26.26
+},
+{
+"text": "azar,",
+"start": 26.26,
+"end": 26.58
+},
+{
+"text": "miles",
+"start": 26.8,
+"end": 27.04
+},
+{
+"text": "de",
+"start": 27.04,
+"end": 27.24
+},
+{
+"text": "millones",
+"start": 27.24,
+"end": 27.46
+},
+{
+"text": "de",
+"start": 27.46,
+"end": 27.74
+},
+{
+"text": "años.",
+"start": 27.74,
+"end": 28.0
+},
+{
+"text": "Por",
+"start": 28.3,
+"end": 28.44
+},
+{
+"text": "eso",
+"start": 28.44,
+"end": 28.68
+},
+{
+"text": "su",
+"start": 28.68,
+"end": 28.9
+},
+{
+"text": "truco",
+"start": 28.9,
+"end": 29.18
+},
+{
+"text": "favorito",
+"start": 29.18,
+"end": 29.62
+},
+{
+"text": "es",
+"start": 29.62,
+"end": 29.8
+},
+{
+"text": "otro.",
+"start": 29.8,
+"end": 30.06
+},
+{
+"text": "Que",
+"start": 30.4,
+"end": 30.48
+},
+{
+"text": "repitas",
+"start": 30.48,
+"end": 31.0
+},
+{
+"text": "contraseña.",
+"start": 31.0,
+"end": 31.72
+},
+{
+"text": "Si",
+"start": 32.02,
+"end": 32.12
+},
+{
+"text": "se",
+"start": 32.12,
+"end": 32.26
+},
+{
+"text": "filtra",
+"start": 32.26,
+"end": 32.6
+},
+{
+"text": "la",
+"start": 32.6,
+"end": 32.72
+},
+{
+"text": "de",
+"start": 32.72,
+"end": 32.84
+},
+{
+"text": "una",
+"start": 32.84,
+"end": 33.0
+},
+{
+"text": "web",
+"start": 33.0,
+"end": 33.18
+},
+{
+"text": "cualquiera,",
+"start": 33.18,
+"end": 33.68
+},
+{
+"text": "la",
+"start": 33.92,
+"end": 33.96
+},
+{
+"text": "prueba",
+"start": 33.96,
+"end": 34.2
+},
+{
+"text": "en",
+"start": 34.2,
+"end": 34.36
+},
+{
+"text": "tu",
+"start": 34.36,
+"end": 34.46
+},
+{
+"text": "correo,",
+"start": 34.46,
+"end": 34.9
+},
+{
+"text": "en",
+"start": 35.02,
+"end": 35.08
+},
+{
+"text": "tu",
+"start": 35.08,
+"end": 35.22
+},
+{
+"text": "banco",
+"start": 35.22,
+"end": 35.52
+},
+{
+"text": "y",
+"start": 35.52,
+"end": 35.78
+},
+{
+"text": "en",
+"start": 35.78,
+"end": 35.88
+},
+{
+"text": "tus",
+"start": 35.88,
+"end": 36.1
+},
+{
+"text": "redes.",
+"start": 36.1,
+"end": 36.26
+},
+{
+"text": "Y",
+"start": 36.7,
+"end": 36.78
+},
+{
+"text": "si",
+"start": 36.78,
+"end": 36.9
+},
+{
+"text": "no",
+"start": 36.9,
+"end": 37.06
+},
+{
+"text": "la",
+"start": 37.06,
+"end": 37.14
+},
+{
+"text": "tiene,",
+"start": 37.14,
+"end": 37.4
+},
+{
+"text": "te",
+"start": 37.66,
+"end": 37.74
+},
+{
+"text": "la",
+"start": 37.74,
+"end": 37.86
+},
+{
+"text": "pide.",
+"start": 37.86,
+"end": 38.14
+},
+{
+"text": "Un",
+"start": 38.42,
+"end": 38.58
+},
+{
+"text": "SMS",
+"start": 38.58,
+"end": 38.84
+},
+{
+"text": "del",
+"start": 38.84,
+"end": 39.3
+},
+{
+"text": "banco",
+"start": 39.3,
+"end": 39.62
+},
+{
+"text": "con",
+"start": 39.62,
+"end": 39.86
+},
+{
+"text": "un",
+"start": 39.86,
+"end": 39.98
+},
+{
+"text": "enlace",
+"start": 39.98,
+"end": 40.24
+},
+{
+"text": "a",
+"start": 40.24,
+"end": 40.4
+},
+{
+"text": "una",
+"start": 40.4,
+"end": 40.54
+},
+{
+"text": "web",
+"start": 40.54,
+"end": 40.74
+},
+{
+"text": "calcada.",
+"start": 40.74,
+"end": 41.24
+},
+{
+"text": "Eso",
+"start": 41.52,
+"end": 41.8
+},
+{
+"text": "es",
+"start": 41.8,
+"end": 42.18
+},
+{
+"text": "phishing.",
+"start": 42.18,
+"end": 42.58
+},
+{
+"text": "Así",
+"start": 43.0,
+"end": 43.18
+},
+{
+"text": "que",
+"start": 43.18,
+"end": 43.36
+},
+{
+"text": "usa",
+"start": 43.36,
+"end": 43.58
+},
+{
+"text": "un",
+"start": 43.58,
+"end": 43.78
+},
+{
+"text": "gestor",
+"start": 43.78,
+"end": 44.16
+},
+{
+"text": "de",
+"start": 44.16,
+"end": 44.28
+},
+{
+"text": "contraseñas.",
+"start": 44.28,
+"end": 44.9
+},
+{
+"text": "Una",
+"start": 45.2,
+"end": 45.34
+},
+{
+"text": "larga",
+"start": 45.34,
+"end": 45.74
+},
+{
+"text": "y",
+"start": 45.74,
+"end": 45.88
+},
+{
+"text": "distinta",
+"start": 45.88,
+"end": 46.34
+},
+{
+"text": "en",
+"start": 46.34,
+"end": 46.5
+},
+{
+"text": "cada",
+"start": 46.5,
+"end": 46.72
+},
+{
+"text": "sitio.",
+"start": 46.72,
+"end": 47.04
+},
+{
+"text": "Y",
+"start": 47.36,
+"end": 47.46
+},
+{
+"text": "activa",
+"start": 47.46,
+"end": 47.84
+},
+{
+"text": "la",
+"start": 47.84,
+"end": 47.9
+},
+{
+"text": "verificación",
+"start": 47.9,
+"end": 48.28
+},
+{
+"text": "en",
+"start": 48.28,
+"end": 48.6
+},
+{
+"text": "dos",
+"start": 48.6,
+"end": 48.74
+},
+{
+"text": "pasos,",
+"start": 48.74,
+"end": 49.2
+},
+{
+"text": "mejor",
+"start": 49.38,
+"end": 49.58
+},
+{
+"text": "con",
+"start": 49.58,
+"end": 49.8
+},
+{
+"text": "app",
+"start": 49.8,
+"end": 50.0
+},
+{
+"text": "que",
+"start": 50.0,
+"end": 50.14
+},
+{
+"text": "por",
+"start": 50.14,
+"end": 50.34
+},
+{
+"text": "SMS.",
+"start": 50.34,
+"end": 50.74
+},
+{
+"text": "Según",
+"start": 51.26,
+"end": 51.52
+},
+{
+"text": "Microsoft,",
+"start": 51.52,
+"end": 51.96
+},
+{
+"text": "frena",
+"start": 52.26,
+"end": 52.48
+},
+{
+"text": "más",
+"start": 52.48,
+"end": 52.6
+},
+{
+"text": "del",
+"start": 52.6,
+"end": 52.78
+},
+{
+"text": "noventa",
+"start": 52.78,
+"end": 53.117
+},
+{
+"text": "y",
+"start": 53.117,
+"end": 53.165
+},
+{
+"text": "nueve",
+"start": 53.165,
+"end": 53.406
+},
+{
+"text": "por",
+"start": 53.406,
+"end": 53.551
+},
+{
+"text": "ciento",
+"start": 53.551,
+"end": 53.84
+},
+{
+"text": "de",
+"start": 53.84,
+"end": 54.1
+},
+{
+"text": "los",
+"start": 54.1,
+"end": 54.24
+},
+{
+"text": "ataques",
+"start": 54.24,
+"end": 54.56
+},
+{
+"text": "automáticos.",
+"start": 54.56,
+"end": 55.2
+},
+{
+"text": "Así,",
+"start": 55.46,
+"end": 55.72
+},
+{
+"text": "aunque",
+"start": 55.94,
+"end": 56.14
+},
+{
+"text": "tenga",
+"start": 56.14,
+"end": 56.46
+},
+{
+"text": "tu",
+"start": 56.46,
+"end": 56.62
+},
+{
+"text": "contraseña,",
+"start": 56.62,
+"end": 57.22
+},
+{
+"text": "se",
+"start": 57.42,
+"end": 57.54
+},
+{
+"text": "queda",
+"start": 57.54,
+"end": 57.76
+},
+{
+"text": "en",
+"start": 57.76,
+"end": 57.9
+},
+{
+"text": "la",
+"start": 57.9,
+"end": 58.0
+},
+{
+"text": "puerta.",
+"start": 58.0,
+"end": 58.22
+}
+]

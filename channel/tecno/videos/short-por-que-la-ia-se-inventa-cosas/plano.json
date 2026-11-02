@@ -1,0 +1,1021 @@
+{
+ "formato": "9:16",
+ "cola": 0.9,
+ "reparto": {
+  "ia": {
+   "tipo": "ia"
+  },
+  "mono": {
+   "tipo": "protagonista",
+   "narrador": true
+  },
+  "abogado": {
+   "tipo": "rico"
+  },
+  "juez": {
+   "tipo": "abuelo"
+  }
+ },
+ "tramos": [
+  {
+   "en": "",
+   "color": "morado",
+   "escenas": [
+    {
+     "tipo": "pregunta",
+     "pregunta": "¿Por qué la IA se inventa cosas?",
+     "al": "@inicio",
+     "caja": {
+      "x": 540,
+      "y": 520,
+      "w": 960
+     }
+    }
+   ],
+   "personajes": {
+    "ia": {
+     "x": 0.74,
+     "escala": 0.95,
+     "pose": "presentar",
+     "cara": "chulo",
+     "mira": "izq",
+     "entrada": "cae",
+     "entra": "@IA",
+     "dice": [
+      {
+       "texto": "¡La Luna es de queso!",
+       "al": "@inventa",
+       "hasta": "@fin"
+      }
+     ]
+    },
+    "mono": {
+     "x": 0.24,
+     "escala": 0.95,
+     "pose": "pensar",
+     "cara": "sorpresa",
+     "mira": "der",
+     "entrada": "salto",
+     "cambios": [
+      {
+       "al": "@cosas",
+       "pose": "encogerse",
+       "cara": "sorpresa"
+      }
+     ]
+    }
+   }
+  },
+  {
+   "en": "Porque es como",
+   "color": "naranja",
+   "escenas": [
+    {
+     "tipo": "comparativa",
+     "tramos": 1,
+     "a": {
+      "icono": "pinocho",
+      "titulo": "Pinocho",
+      "valor": "Le crece",
+      "color": "naranja",
+      "al": "@Pinocho"
+     },
+     "b": {
+      "icono": "robot",
+      "titulo": "La IA",
+      "valor": "Nada",
+      "color": "azul",
+      "al": "@sin"
+     }
+    }
+   ],
+   "personajes": {
+    "ia": {
+     "pose": "saludar",
+     "cara": "risa",
+     "salta": true
+    },
+    "mono": {
+     "pose": "señalar",
+     "cara": "normal",
+     "cambios": [
+      {
+       "al": "@Pinocho",
+       "pose": "señalar_arriba",
+       "cara": "risa"
+      }
+     ]
+    }
+   },
+   "sfx": [
+    [
+     "boing",
+     "@Pinocho",
+     0.8
+    ]
+   ]
+  },
+  {
+   "en": "Pero sin nariz",
+   "personajes": {
+    "ia": {
+     "pose": "jarras",
+     "cara": "chulo"
+    },
+    "mono": {
+     "pose": "brazos_cruzados",
+     "cara": "normal",
+     "cambios": [
+      {
+       "al": "@crezca",
+       "pose": "pensar",
+       "cara": "sorpresa"
+      }
+     ]
+    }
+   }
+  },
+  {
+   "en": "Un chat de",
+   "color": "azul",
+   "escenas": [
+    {
+     "tipo": "iconos",
+     "titulo": "¿Busca en una base de datos?",
+     "color": "amarillo",
+     "items": [
+      {
+       "icono": "libro",
+       "texto": "Datos",
+       "al": "@busca",
+       "tachar_al": "@datos"
+      }
+     ],
+     "tam": 280
+    }
+   ],
+   "personajes": {
+    "ia": {
+     "x": 0.76,
+     "pose": "pensar",
+     "cara": "normal",
+     "cambios": [
+      {
+       "al": "@datos",
+       "pose": "brazos_cruzados",
+       "cara": "chulo"
+      }
+     ]
+    },
+    "mono": {
+     "pose": "señalar",
+     "cara": "sorpresa",
+     "salta": true
+    }
+   }
+  },
+  {
+   "en": "Predice la palabra",
+   "color": "amarillo",
+   "escenas": [
+    {
+     "tipo": "grafica",
+     "forma": "barras",
+     "titulo": "«El cielo es…»",
+     "color": "blanco",
+     "sufijo": " %",
+     "ymin": 0,
+     "ymax": 100,
+     "alto": 380,
+     "caja": {
+      "x": 540,
+      "y": 560,
+      "w": 900
+     },
+     "al": "@palabra",
+     "tramos": 1,
+     "puntos": [
+      {
+       "e": "azul",
+       "v": 74,
+       "al": "@probable",
+       "color": "verde"
+      },
+      {
+       "e": "gris",
+       "v": 18,
+       "al": "@probable+0.3"
+      },
+      {
+       "e": "verde",
+       "v": 4,
+       "al": "@probable+0.6"
+      }
+     ]
+    }
+   ],
+   "personajes": {
+    "ia": {
+     "pose": "señalar_arriba",
+     "cara": "normal",
+     "mira": "izq",
+     "cambios": [
+      {
+       "al": "@probable",
+       "pose": "presentar",
+       "cara": "risa"
+      }
+     ]
+    },
+    "mono": {
+     "pose": "pensar",
+     "cara": "normal"
+    }
+   }
+  },
+  {
+   "en": "Y luego la",
+   "personajes": {
+    "ia": {
+     "pose": "celebrar",
+     "cara": "risa",
+     "dice": [
+      {
+       "texto": "azul… y despejado…",
+       "al": "@luego",
+       "hasta": "@fin"
+      }
+     ]
+    },
+    "mono": {
+     "pose": "señalar",
+     "cara": "sorpresa"
+    }
+   }
+  },
+  {
+   "en": "Si conoce el",
+   "color": "verde",
+   "escenas": [
+    {
+     "tipo": "flujo",
+     "titulo": "Si lo sabe",
+     "color": "verde",
+     "caja": {
+      "x": 540,
+      "y": 600,
+      "w": 760
+     },
+     "nodos": [
+      {
+       "texto": "¿Capital de Francia?",
+       "color": "blanco",
+       "icono": "mundo",
+       "al": "@conoce"
+      },
+      {
+       "texto": "París ✓",
+       "color": "verde",
+       "al": "@correcta"
+      }
+     ]
+    }
+   ],
+   "personajes": {
+    "ia": {
+     "pose": "presentar",
+     "cara": "risa"
+    },
+    "mono": {
+     "pose": "celebrar",
+     "cara": "risa",
+     "cambios": [
+      {
+       "al": "@correcta",
+       "salta": true,
+       "pose": "señalar_arriba"
+      }
+     ]
+    }
+   },
+   "sfx": [
+    [
+     "exito",
+     "@correcta",
+     0.8
+    ]
+   ]
+  },
+  {
+   "en": "Si no lo",
+   "color": "rojo",
+   "escenas": [
+    {
+     "tipo": "flujo",
+     "titulo": "Si NO lo sabe",
+     "color": "rojo",
+     "caja": {
+      "x": 540,
+      "y": 600,
+      "w": 760
+     },
+     "tramos": 1,
+     "nodos": [
+      {
+       "texto": "¿Cumpleaños de Paco?",
+       "color": "blanco",
+       "icono": "calendario",
+       "al": "@conoce"
+      },
+      {
+       "texto": "¡El 3 de mayo!",
+       "color": "amarillo",
+       "al": "@prediciendo"
+      }
+     ]
+    },
+    {
+     "tipo": "sello",
+     "texto": "INVENTADO",
+     "al": "@seguro",
+     "tam": 120,
+     "caja": {
+      "x": 540,
+      "y": 640
+     },
+     "tramos": 1
+    }
+   ],
+   "personajes": {
+    "ia": {
+     "pose": "pensar",
+     "cara": "normal",
+     "cambios": [
+      {
+       "al": "@prediciendo",
+       "pose": "brazos_arriba",
+       "cara": "chulo",
+       "salta": true
+      }
+     ]
+    },
+    "mono": {
+     "pose": "pensar",
+     "cara": "sorpresa"
+    }
+   }
+  },
+  {
+   "en": "Con el mismo",
+   "personajes": {
+    "ia": {
+     "pose": "jarras",
+     "cara": "chulo",
+     "dice": [
+      {
+       "texto": "¡Segurísimo!",
+       "al": "@mismo",
+       "hasta": "@fin"
+      }
+     ]
+    },
+    "mono": {
+     "pose": "miedo",
+     "cara": "miedo",
+     "cambios": [
+      {
+       "al": "@seguro",
+       "pose": "encogerse"
+      }
+     ]
+    }
+   },
+   "golpes": [
+    "@seguro"
+   ]
+  },
+  {
+   "en": "Nadie le ha",
+   "color": "naranja",
+   "escenas": [
+    {
+     "tipo": "texto",
+     "tam": 110,
+     "palabras": [
+      {
+       "texto": "«No lo sé»",
+       "al": "@decir",
+       "x": 540,
+       "y": 470,
+       "caja": true,
+       "color": "blanco"
+      }
+     ]
+    },
+    {
+     "tipo": "sello",
+     "texto": "NO INCLUIDO",
+     "al": "@sabe",
+     "tam": 100,
+     "caja": {
+      "x": 540,
+      "y": 690
+     },
+     "rot": -6
+    }
+   ],
+   "personajes": {
+    "ia": {
+     "pose": "encogerse",
+     "cara": "normal",
+     "cambios": [
+      {
+       "al": "@sabe",
+       "pose": "brazos_cruzados",
+       "cara": "chulo"
+      }
+     ]
+    },
+    "mono": {
+     "pose": "señalar",
+     "cara": "enfado"
+    }
+   }
+  },
+  {
+   "en": "OpenAI lo explicó",
+   "color": "azul",
+   "escenas": [
+    {
+     "tipo": "pantalla",
+     "dispositivo": "ordenador",
+     "titulo": "OpenAI · 2025",
+     "color": "azul",
+     "caja": {
+      "x": 540,
+      "y": 560
+     },
+     "lineas": [
+      {
+       "texto": "Por qué alucinan los modelos de lenguaje",
+       "al": "@explicó",
+       "tam": 44
+      }
+     ]
+    }
+   ],
+   "personajes": {
+    "ia": {
+     "pose": "sentado",
+     "cara": "sorpresa"
+    },
+    "mono": {
+     "pose": "presentar",
+     "cara": "normal",
+     "objeto": "puntero"
+    }
+   },
+   "sfx": [
+    [
+     "pagina",
+     "@explicó",
+     0.8
+    ]
+   ]
+  },
+  {
+   "en": "En las pruebas",
+   "color": "amarillo",
+   "escenas": [
+    {
+     "tipo": "comparativa",
+     "titulo": "Examen de la IA",
+     "color": "blanco",
+     "tramos": 1,
+     "a": {
+      "icono": "examen",
+      "titulo": "En blanco",
+      "valor": "0 puntos",
+      "color": "rojo",
+      "al": "@pruebas"
+     },
+     "b": {
+      "icono": "dado",
+      "titulo": "Adivinar",
+      "valor": "A veces sí",
+      "color": "verde",
+      "al": "@adivinar"
+     },
+     "ganador": "b",
+     "ganador_al": "@acierta"
+    }
+   ],
+   "personajes": {
+    "ia": {
+     "pose": "pensar",
+     "cara": "normal",
+     "cambios": [
+      {
+       "al": "@cero",
+       "pose": "encogerse",
+       "cara": "triste"
+      }
+     ]
+    },
+    "mono": {
+     "pose": "señalar_arriba",
+     "cara": "sorpresa",
+     "objeto": "ninguno"
+    }
+   }
+  },
+  {
+   "en": "Y adivinar a",
+   "personajes": {
+    "ia": {
+     "pose": "celebrar",
+     "cara": "risa",
+     "salta": true
+    },
+    "mono": {
+     "pose": "brazos_cruzados",
+     "cara": "chulo"
+    }
+   }
+  },
+  {
+   "en": "Así que hace",
+   "color": "verde",
+   "escenas": [
+    {
+     "tipo": "iconos",
+     "items": [
+      {
+       "icono": "examen",
+       "al": "@hace"
+      }
+     ],
+     "tam": 260,
+     "caja": {
+      "x": 540,
+      "y": 420
+     }
+    },
+    {
+     "tipo": "texto",
+     "tam": 100,
+     "palabras": [
+      {
+       "texto": "¡CONTESTAR",
+       "al": "@Contestar",
+       "x": 540,
+       "y": 720,
+       "color": "amarillo"
+      },
+      {
+       "texto": "ALGO!",
+       "al": "@algo",
+       "x": 540,
+       "y": 850,
+       "color": "amarillo"
+      }
+     ]
+    }
+   ],
+   "personajes": {
+    "ia": {
+     "pose": "pensar",
+     "cara": "guiño",
+     "cambios": [
+      {
+       "al": "@Contestar",
+       "pose": "brazos_arriba",
+       "cara": "risa",
+       "salta": true
+      }
+     ]
+    },
+    "mono": {
+     "pose": "señalar",
+     "cara": "risa"
+    }
+   }
+  },
+  {
+   "en": "En dos mil veintitrés",
+   "color": "rojo",
+   "escenas": [
+    {
+     "tipo": "texto",
+     "tam": 70,
+     "palabras": [
+      {
+       "texto": "Nueva York · 2023",
+       "al": "@inicio",
+       "x": 540,
+       "y": 330,
+       "caja": true,
+       "color": "blanco"
+      }
+     ]
+    },
+    {
+     "tipo": "cifra",
+     "desde": 0,
+     "hasta": 6,
+     "al": "@seis",
+     "dur": 0.6,
+     "color": "rojo",
+     "flecha": false,
+     "tam": 260,
+     "etiqueta": "sentencias inventadas",
+     "etiqueta_al": "@inventado",
+     "caja": {
+      "x": 540,
+      "y": 620
+     },
+     "aparece": "@seis-0.2"
+    }
+   ],
+   "personajes": {
+    "abogado": {
+     "x": 0.5,
+     "escala": 0.95,
+     "pose": "presentar",
+     "cara": "chulo",
+     "mira": "der",
+     "objeto": "movil",
+     "entrada": "izq",
+     "entra": "@abogado"
+    },
+    "ia": {
+     "x": 0.82,
+     "pose": "saludar",
+     "cara": "risa",
+     "mira": "izq",
+     "cambios": [
+      {
+       "al": "@inventado",
+       "pose": "celebrar"
+      }
+     ]
+    },
+    "mono": {
+     "x": 0.15,
+     "pose": "miedo",
+     "cara": "sorpresa"
+    }
+   }
+  },
+  {
+   "en": "Le preguntó si",
+   "escenas": [
+    {
+     "tipo": "chat",
+     "caja": {
+      "x": 540,
+      "y": 600,
+      "w": 960
+     },
+     "mensajes": [
+      {
+       "texto": "¿Son reales?",
+       "lado": "der",
+       "al": "@preguntó"
+      },
+      {
+       "texto": "Sí, son reales.",
+       "lado": "izq",
+       "color": "azul",
+       "al": "@sí"
+      }
+     ]
+    }
+   ],
+   "personajes": {
+    "abogado": {
+     "pose": "pensar",
+     "cara": "normal",
+     "cambios": [
+      {
+       "al": "@sí",
+       "pose": "celebrar",
+       "cara": "risa"
+      }
+     ]
+    },
+    "ia": {
+     "pose": "jarras",
+     "cara": "chulo"
+    },
+    "mono": {
+     "pose": "encogerse",
+     "cara": "miedo"
+    }
+   }
+  },
+  {
+   "en": "Acabaron multados",
+   "color": "rojo",
+   "escenas": [
+    {
+     "tipo": "iconos",
+     "items": [
+      {
+       "icono": "mazo",
+       "al": "@multados"
+      }
+     ],
+     "tam": 240,
+     "caja": {
+      "x": 540,
+      "y": 360
+     }
+    },
+    {
+     "tipo": "cifra",
+     "desde": 0,
+     "hasta": 5000,
+     "sufijo": " $",
+     "al": "@cinco",
+     "dur": 0.9,
+     "color": "rojo",
+     "flecha": false,
+     "tam": 190,
+     "etiqueta": "de multa",
+     "caja": {
+      "x": 540,
+      "y": 700
+     },
+     "aparece": "@cinco-0.2"
+    }
+   ],
+   "personajes": {
+    "juez": {
+     "x": 0.82,
+     "escala": 0.95,
+     "pose": "señalar",
+     "cara": "enfado",
+     "mira": "izq",
+     "entrada": "cae",
+     "entra": "@Acabaron"
+    },
+    "abogado": {
+     "x": 0.45,
+     "pose": "miedo",
+     "cara": "miedo",
+     "salta": true
+    },
+    "mono": {
+     "pose": "encogerse",
+     "cara": "sorpresa"
+    }
+   },
+   "sfx": [
+    [
+     "mazo",
+     "@multados",
+     1.0
+    ],
+    [
+     "caja",
+     "@dólares",
+     0.7
+    ]
+   ],
+   "golpes": [
+    "@multados"
+   ]
+  },
+  {
+   "en": "Así que úsala",
+   "color": "verde",
+   "escenas": [
+    {
+     "tipo": "iconos",
+     "titulo": "Pídele las fuentes",
+     "color": "amarillo",
+     "items": [
+      {
+       "icono": "libro",
+       "texto": "Fuentes",
+       "al": "@fuentes"
+      },
+      {
+       "icono": "escudo",
+       "texto": "Comprueba",
+       "al": "@compruébalas"
+      }
+     ]
+    }
+   ],
+   "personajes": {
+    "mono": {
+     "x": 0.24,
+     "pose": "señalar",
+     "cara": "normal",
+     "objeto": "lupa",
+     "salta": true
+    },
+    "ia": {
+     "x": 0.76,
+     "escala": 0.95,
+     "pose": "de_pie",
+     "cara": "normal",
+     "mira": "izq",
+     "entrada": "salto",
+     "cambios": [
+      {
+       "al": "@compruébalas",
+       "pose": "encogerse",
+       "cara": "sorpresa"
+      }
+     ]
+    }
+   }
+  },
+  {
+   "en": "Sobre todo cifras",
+   "color": "azul",
+   "escenas": [
+    {
+     "tipo": "texto",
+     "tam": 100,
+     "palabras": [
+      {
+       "texto": "Cifras",
+       "al": "@Sobre",
+       "x": 540,
+       "y": 400,
+       "caja": true,
+       "color": "amarillo"
+      },
+      {
+       "texto": "Fechas",
+       "al": "@fechas",
+       "x": 540,
+       "y": 580,
+       "caja": true,
+       "color": "rosa"
+      },
+      {
+       "texto": "Nombres",
+       "al": "@nombres",
+       "x": 540,
+       "y": 760,
+       "caja": true,
+       "color": "verde"
+      }
+     ]
+    }
+   ],
+   "personajes": {
+    "mono": {
+     "pose": "señalar_arriba",
+     "cara": "chulo",
+     "cambios": [
+      {
+       "al": "@nombres",
+       "pose": "señalar",
+       "cara": "risa"
+      }
+     ]
+    },
+    "ia": {
+     "pose": "pensar",
+     "cara": "normal"
+    }
+   }
+  },
+  {
+   "en": "A Pinocho le",
+   "color": "naranja",
+   "escenas": [
+    {
+     "tipo": "iconos",
+     "items": [
+      {
+       "icono": "pinocho",
+       "texto": "Pinocho",
+       "al": "@Pinocho"
+      }
+     ],
+     "tam": 300,
+     "caja": {
+      "x": 540,
+      "y": 520
+     }
+    }
+   ],
+   "personajes": {
+    "mono": {
+     "pose": "presentar",
+     "cara": "risa",
+     "objeto": "ninguno"
+    },
+    "ia": {
+     "pose": "brazos_cruzados",
+     "cara": "chulo"
+    }
+   },
+   "sfx": [
+    [
+     "boing",
+     "@nariz",
+     0.8
+    ]
+   ]
+  },
+  {
+   "en": "A la IA",
+   "color": "morado",
+   "escenas": [
+    {
+     "tipo": "iconos",
+     "items": [
+      {
+       "icono": "robot",
+       "texto": "La IA",
+       "al": "@IA"
+      }
+     ],
+     "tam": 300,
+     "caja": {
+      "x": 540,
+      "y": 520
+     }
+    },
+    {
+     "tipo": "sello",
+     "texto": "NADA",
+     "al": "@nada",
+     "tam": 140,
+     "caja": {
+      "x": 540,
+      "y": 560
+     }
+    }
+   ],
+   "personajes": {
+    "ia": {
+     "pose": "encogerse",
+     "cara": "sorpresa",
+     "salta": true
+    },
+    "mono": {
+     "pose": "señalar",
+     "cara": "normal"
+    }
+   }
+  },
+  {
+   "en": "Esa nariz la",
+   "color": "amarillo",
+   "escenas": [
+    {
+     "tipo": "texto",
+     "tam": 100,
+     "palabras": [
+      {
+       "texto": "LA NARIZ",
+       "al": "@nariz",
+       "x": 540,
+       "y": 470,
+       "color": "blanco"
+      },
+      {
+       "texto": "LA PONES TÚ",
+       "al": "@poner",
+       "x": 540,
+       "y": 650,
+       "caja": true,
+       "color": "amarillo"
+      }
+     ]
+    }
+   ],
+   "personajes": {
+    "mono": {
+     "pose": "señalar",
+     "cara": "chulo",
+     "mira": "der",
+     "cambios": [
+      {
+       "al": "@tú",
+       "pose": "celebrar",
+       "cara": "risa",
+       "salta": true
+      }
+     ]
+    },
+    "ia": {
+     "pose": "saludar",
+     "cara": "guiño"
+    }
+   },
+   "golpes": [
+    "@tú"
+   ]
+  }
+ ]
+}

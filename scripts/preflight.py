@@ -321,6 +321,70 @@ def check_tsx(cfg: dict, frames: list[dict], audio_dur: float | None, rep: Repor
                 rep.ok("duración cubre el audio", f"{declarada} frames")
 
 
+def check_plano(cfg: dict, audio_dur: float | None, rep: Report) -> None:
+    """Vídeos del MOTOR de animación (estilo "motor", nov-2026): no hay frames.json ni imágenes.
+
+    Sustituye a check_recipe/check_images/check_audio_layer/check_tsx con sus equivalentes reales:
+    el plano existe y está resuelto con la voz actual, los tramos van en orden, ninguna escena se
+    repite seguida (relleno), cubre el audio, todos los SFX existen, sin música (regla del canal) y
+    el ritmo no deja huecos largos sin nada nuevo en pantalla."""
+    src = config.REPO_ROOT / cfg["manifest_dir"] / "plano.json"
+    res = config.REMOTION_DIR / "public-motor" / cfg["name"] / "plano.json"
+    if not src.exists():
+        rep.fail("plano existe", f"falta {src.relative_to(config.REPO_ROOT)}")
+        return
+    if not res.exists():
+        rep.fail("plano resuelto", "corre scripts/motor_plano.py <slug>")
+        return
+    audio = config.PUBLIC_DIR / cfg["audio_static"]
+    if audio.exists() and res.stat().st_mtime < audio.stat().st_mtime:
+        rep.fail("plano resuelto con la voz actual", "la voz es más nueva que el plano: vuelve a resolverlo")
+    elif src.stat().st_mtime > res.stat().st_mtime + 1:
+        rep.fail("plano resuelto al día", "plano.json cambió después de resolverlo")
+    else:
+        rep.ok("plano resuelto al día")
+    plano = json.loads(res.read_text(encoding="utf-8"))
+    tramos = plano.get("tramos", [])
+    if not tramos:
+        rep.fail("plano con tramos", "vacío")
+        return
+    rep.ok("plano con tramos", f"{len(tramos)} tramos, {sum(len(t['escenas']) for t in tramos)} escenas")
+    if any(tramos[i + 1]["t0"] <= tramos[i]["t0"] for i in range(len(tramos) - 1)):
+        rep.fail("tramos en orden", "hay tramos que empiezan antes que el anterior")
+    else:
+        rep.ok("tramos en orden")
+    firma = [json.dumps(t["escenas"], sort_keys=True) for t in tramos]
+    repes = sum(1 for i in range(len(firma) - 1) if firma[i] and firma[i] != "[]" and firma[i] == firma[i + 1])
+    if repes:
+        rep.fail("escenas sin relleno", f"{repes} tramos repiten la escena del anterior")
+    else:
+        rep.ok("escenas sin relleno")
+    if audio_dur and plano["duracion"] < audio_dur:
+        rep.fail("plano cubre el audio", f"{plano['duracion']:.1f}s < {audio_dur:.1f}s")
+    elif audio_dur:
+        rep.ok("plano cubre el audio", f"{plano['duracion']:.1f}s")
+    sfx_dir = config.REMOTION_DIR / "public-motor" / "sfx"
+    faltan = [n for n in plano.get("sfx_gain", {}) if not (sfx_dir / f"{n}.mp3").exists()]
+    if faltan or not plano.get("sfx_gain"):
+        rep.fail("SFX del motor presentes", f"faltan {faltan[:5]}")
+    else:
+        rep.ok("SFX del motor presentes", f"{len(plano['sfx_gain'])} efectos (cada escena trae los suyos)")
+    rep.ok("música de fondo", "sin música por decisión del usuario (27-oct-2026)")
+    import motor_plano  # noqa: E402  (mismo cálculo de ritmo que al resolver)
+    _, mx, _ = motor_plano.ritmo(plano)
+    if mx > 5.0:
+        rep.fail("ritmo visual", f"hueco de {mx:.1f}s sin nada nuevo en pantalla (>5 s)")
+    elif mx > 3.5:
+        rep.warn("ritmo visual", f"hueco máximo de {mx:.1f}s")
+    else:
+        rep.ok("ritmo visual", f"hueco máximo de {mx:.1f}s")
+    root = (config.REMOTION_DIR / "src" / "motor" / "Root.tsx")
+    if not root.exists() or "MotorPlano" not in root.read_text(encoding="utf-8"):
+        rep.fail("composición del motor", "falta remotion/src/motor/Root.tsx con MotorPlano")
+    else:
+        rep.ok("composición del motor", "MotorPlano (duración leída del plano)")
+
+
 def check_cta(cfg: dict, rep: Report) -> None:
     """El cierre no puede promocionar un vídeo YA publicado (pasó con Lazarus)."""
     if not cfg.get("script"):
@@ -385,7 +449,8 @@ def check_render(cfg: dict, audio_dur: float | None, rep: Report) -> None:
     # es idéntico a una banda). Solo se inspeccionan si 'contain' las permite.
     if Image is None:
         return
-    if "objectFit: 'contain'" not in (config.REPO_ROOT / cfg["tsx"]).read_text(encoding="utf-8"):
+    tsx_p = config.REPO_ROOT / cfg["tsx"]
+    if not tsx_p.exists() or "objectFit: 'contain'" not in tsx_p.read_text(encoding="utf-8"):
         rep.ok("render sin bandas negras", "objectFit 'cover': imposibles por geometría")
         return
     frame_png = out_dir / f".preflight_{cfg['name']}.png"
@@ -428,6 +493,14 @@ def check_render(cfg: dict, audio_dur: float | None, rep: Report) -> None:
 def run(video: str, stage: str) -> Report:
     cfg = config.get_video(video)
     rep = Report(video)
+    if cfg.get("estilo") == "motor":
+        # Motor de animación por código: sin frames.json, imágenes ni sfx.json (ver check_plano).
+        audio_dur = check_voice(cfg, rep)
+        check_plano(cfg, audio_dur, rep)
+        check_cta(cfg, rep)
+        if stage == "publish":
+            check_render(cfg, audio_dur, rep)
+        return rep
     frames = check_recipe(cfg, rep)
     audio_dur = check_voice(cfg, rep)
     if frames:

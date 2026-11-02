@@ -42,17 +42,17 @@ Si te gusta entender cómo funciona de verdad la tecnología que usas cada día,
 ## Capítulos
 
 0:00 Viernes 10 de octubre de 2025
-0:22 Los 21 millones y el halving
-0:45 La euforia de 2017
-1:06 Elon Musk y Tesla
-1:28 Los ETF de Bitcoin
-1:53 La Reserva Federal
-2:15 Casas de cambio que quiebran
-2:39 China corta la luz
-3:01 Las ballenas
-3:25 El apalancamiento
-3:52 El fallo de un robot
-4:16 ¿Quién decide el precio?
+0:31 Los 21 millones y el halving
+0:55 La euforia de 2017
+1:21 Elon Musk y Tesla
+1:47 Los ETF de Bitcoin
+2:13 La Reserva Federal
+2:39 Casas de cambio que quiebran
+3:06 China corta la luz
+3:31 Las ballenas
+3:59 El apalancamiento
+4:30 El fallo de un robot
+4:55 ¿Quién decide el precio?
 
 ## Tags
 
@@ -63,10 +63,10 @@ por que bitcoin sube y baja, precio de bitcoin, por que baja bitcoin, halving bi
 (18 tags, suma efectiva unos 375 contando +2 por cada tag con espacio y las comas. Por debajo de 420.)
 
 ## Miniatura
-plantilla: A (cuadrícula, ver Notas)
-texto: (ninguno; solo etiquetas bajo cada casilla)
-etiquetas: 21 MILLONES|EUFORIA|ELON MUSK|LOS ETF|RESERVA FEDERAL|QUIEBRAS|CHINA|BALLENAS|APALANCAMIENTO|FALLO ROBOT
-cols: 5
+plantilla: B (un único elemento: fotograma del propio vídeo con el mono rico y la gráfica de 2022 hundiéndose; sin IA de imagen)
+texto: ¿QUIÉN LO|DECIDE?
+resaltar: DECIDE
+posicion: left
 
 ## Shorts
 
@@ -219,3 +219,4 @@ Regla del vídeo: cada precio es el de la fecha del caso. Ninguna frase da el pr
 - Fechas: todas absolutas. No hay "este año" ni "hoy": el guion no caduca.
 - Shorts (guion propio, palabras contadas sin etiquetas): Short 1 unas 108 palabras (≈32 s a 3,4 palabras/s); Short 2 unas 108 palabras (≈32 s). Los dos `reveal` se dicen tal cual (Short 1: "un fallo en el programa"; Short 2: "mil doscientos sesenta millones de dólares", que `make_shorts.py` busca por "MILLONES"/"DÓLARES").
 - Imágenes: sin logos reales y sin caras de personas reales (Musk, Trump, Laszlo Hanyecz). Bitcoin SIEMPRE como moneda dorada genérica sin "B" ni ₿. Para Musk, un móvil con megáfono o un cochecito eléctrico de juguete; para la Reserva Federal, un grifo o un edificio con columnas sin nombre.
+- **v3 con el MOTOR (2-nov-2026)**: primer largo animado entero por código (`remotion/src/motor`, plano en `plano.json`), sin imágenes de Google (facturación cerrada). Voz eleven_v4 nueva (327 s, 1.0×); whisper no lee ninguna etiqueta y `check_negations.py` sale con código 0 (sus dos «PERDIDA» son ventanas desalineadas: large-v3 oye otra frase; la transcripción base sí trae «no quiere decir» y «no es quién vende»). Miniatura = fotograma del vídeo (2:30, mono rico y gráfica de 2022) + `thumbnail_text.py`. Capítulos escritos por `motor_plano.py --capitulos` con los tiempos del plano. Los Shorts de este vídeo NO se suben (`shorts/shorts.json` vacío a propósito).

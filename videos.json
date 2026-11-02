@@ -1588,22 +1588,30 @@
     "image_model": "lite"
   },
   "por-que-bitcoin-sube-y-baja": {
-    "composition": "PorQueBitcoinSubeYBaja",
-    "tsx": "remotion/src/PorQueBitcoinSubeYBaja.tsx",
+    "composition": "MotorPlano",
+    "tsx": "remotion/src/motor/MotorPlano.tsx",
     "manifest_dir": "channel/tecno/videos/por-que-bitcoin-sube-y-baja",
     "script": "channel/tecno/videos/por-que-bitcoin-sube-y-baja/script.md",
     "audio_static": "por-que-bitcoin-sube-y-baja.mp3",
     "images_subpath": "por-que-bitcoin-sube-y-baja",
     "naming": "timestamp",
     "ext": "jpg",
-    "playback_rate": 1.25,
+    "playback_rate": 1.0,
     "fps": 30,
     "width": 1920,
     "height": 1080,
     "background": "#ffffff",
     "ref_image": "channel/tecno/references/mono_stick_cutre.png",
-    "estilo": "stick_cutre",
-    "image_model": "lite"
+    "estilo": "motor",
+    "image_model": "lite",
+    "plano": "channel/tecno/videos/por-que-bitcoin-sube-y-baja/plano.json",
+    "motor_nota": "Animado por código con remotion/src/motor (sin imágenes). Render: python scripts/motor_plano.py por-que-bitcoin-sube-y-baja --render",
+    "published": {
+      "youtube_id": "_EhAnZw5WoY",
+      "privacy": "private",
+      "publish_at": "2026-11-05T18:00:00Z",
+      "date": "2026-11-05"
+    }
   },
   "cuanto-gana-de-verdad-un-youtuber-en-espana": {
     "composition": "CuantoGanaDeVerdadUnYoutuberEnEspana",
@@ -1622,5 +1630,27 @@
     "ref_image": "channel/tecno/references/mono_stick_cutre.png",
     "estilo": "stick_cutre",
     "image_model": "lite"
+  },
+  "short-asi-te-roba-un-hacker-la-contrasena": {
+    "manifest_dir": "channel/tecno/videos/short-asi-te-roba-un-hacker-la-contrasena",
+    "script": "channel/tecno/videos/short-asi-te-roba-un-hacker-la-contrasena/script.md",
+    "audio_static": "short-asi-te-roba-un-hacker-la-contrasena.mp3",
+    "fps": 30,
+    "width": 1080,
+    "height": 1920,
+    "background": "#ffffff",
+    "estilo": "motor",
+    "formato": "9:16"
+  },
+  "short-por-que-la-ia-se-inventa-cosas": {
+    "manifest_dir": "channel/tecno/videos/short-por-que-la-ia-se-inventa-cosas",
+    "script": "channel/tecno/videos/short-por-que-la-ia-se-inventa-cosas/script.md",
+    "audio_static": "short-por-que-la-ia-se-inventa-cosas.mp3",
+    "fps": 30,
+    "width": 1080,
+    "height": 1920,
+    "background": "#ffffff",
+    "estilo": "motor",
+    "formato": "9:16"
   }
 }
