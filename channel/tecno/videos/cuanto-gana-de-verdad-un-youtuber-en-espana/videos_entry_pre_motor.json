@@ -1,0 +1,20 @@
+{
+  "cuanto-gana-de-verdad-un-youtuber-en-espana": {
+    "composition": "CuantoGanaDeVerdadUnYoutuberEnEspana",
+    "tsx": "remotion/src/CuantoGanaDeVerdadUnYoutuberEnEspana.tsx",
+    "manifest_dir": "channel/tecno/videos/cuanto-gana-de-verdad-un-youtuber-en-espana",
+    "script": "channel/tecno/videos/cuanto-gana-de-verdad-un-youtuber-en-espana/script.md",
+    "audio_static": "cuanto-gana-de-verdad-un-youtuber-en-espana.mp3",
+    "images_subpath": "cuanto-gana-de-verdad-un-youtuber-en-espana",
+    "naming": "timestamp",
+    "ext": "jpg",
+    "playback_rate": 1.25,
+    "fps": 30,
+    "width": 1920,
+    "height": 1080,
+    "background": "#ffffff",
+    "ref_image": "channel/tecno/references/mono_stick_cutre.png",
+    "estilo": "stick_cutre",
+    "image_model": "lite"
+  }
+}

@@ -1,5 +1,11 @@
 # Video Explainer IA — Workflow de Producción
 
+> **HEREDADO desde el 3-nov-2026.** Esta guía describe el método antiguo (imágenes generadas +
+> Ken Burns, con música). Los vídeos nuevos, largos y Shorts, se hacen con el **motor de animación
+> por código** (`remotion/src/motor` + `scripts/motor_plano.py`, sin imágenes, sin música y sin
+> subtítulos): ver la sección "FORMA DE TRABAJAR ACTUAL" de [CLAUDE.md](./CLAUDE.md) y "Cómo se hace
+> un vídeo hoy" de [README.md](./README.md). La voz es SIEMPRE eleven_v4 (no V3).
+
 Proceso completo para producir vídeos explainer estilo YouTube con voz sintética e imágenes generadas por IA.
 
 ---

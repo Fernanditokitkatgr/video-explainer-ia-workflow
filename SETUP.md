@@ -1,5 +1,11 @@
 # SETUP — pipeline colaborativo (2 personas, mismas cuentas)
 
+> **Nov-2026:** el método por defecto es el **motor de animación** (sección "FORMA DE TRABAJAR
+> ACTUAL" de [CLAUDE.md](./CLAUDE.md)). Su receta en git es `script.md` + `plano.json` + `seo.md`
+> (sin `frames.json` ni imágenes) y se renderiza con `python scripts/motor_plano.py <slug> --render`,
+> no con `orchestrate.py`. Para el motor solo hace falta `ELEVENLABS_API_KEY`; el orquestador y
+> `HIGGSFIELD_API_KEY` de abajo son del método HEREDADO de imágenes.
+
 Todo lo necesario para producir un vídeo vive en git (scripts, config, **guiones,
 timings y prompts de imagen**). Lo único que no va a git son las **API keys** y los
 **medios pesados** (`.mp3`, `.png`, `.mp4`). Por eso, tras clonar, solo necesitas

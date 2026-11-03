@@ -1,0 +1,13 @@
+{
+  "video": "por-que-tu-movil-va-mas-lento-con-los-anos",
+  "steps": {
+    "voice": "done",
+    "whisper": "done",
+    "inject": "done",
+    "images": "done",
+    "sfx": "done",
+    "validate": "done",
+    "preflight": "done",
+    "render": "done"
+  }
+}

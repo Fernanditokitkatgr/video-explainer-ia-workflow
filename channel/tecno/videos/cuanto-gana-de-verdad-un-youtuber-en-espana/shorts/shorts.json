@@ -1,0 +1,4 @@
+{
+  "shorts": [],
+  "nota": "Largo hecho con el motor de animación (nov-2026). Sus Shorts no se suben; esta lista vacía evita que daily_publish.py lance make_shorts.py, que necesita imágenes de frames.json y Google (bloqueado)."
+}

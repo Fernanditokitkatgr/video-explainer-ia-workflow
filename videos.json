@@ -1570,8 +1570,8 @@
     }
   },
   "por-que-tu-movil-va-mas-lento-con-los-anos": {
-    "composition": "PorQueTuMovilVaMasLentoConLosAnos",
-    "tsx": "remotion/src/PorQueTuMovilVaMasLentoConLosAnos.tsx",
+    "composition": "MotorPlano",
+    "tsx": "remotion/src/motor/MotorPlano.tsx",
     "manifest_dir": "channel/tecno/videos/por-que-tu-movil-va-mas-lento-con-los-anos",
     "script": "channel/tecno/videos/por-que-tu-movil-va-mas-lento-con-los-anos/script.md",
     "audio_static": "por-que-tu-movil-va-mas-lento-con-los-anos.mp3",
@@ -1584,8 +1584,16 @@
     "height": 1080,
     "background": "#ffffff",
     "ref_image": "channel/tecno/references/mono_stick_cutre.png",
-    "estilo": "stick_cutre",
-    "image_model": "lite"
+    "estilo": "motor",
+    "image_model": "lite",
+    "plano": "channel/tecno/videos/por-que-tu-movil-va-mas-lento-con-los-anos/plano.json",
+    "motor_nota": "Animado por código con remotion/src/motor (sin imágenes). Render: python scripts/motor_plano.py por-que-tu-movil-va-mas-lento-con-los-anos --render. Entrada anterior en videos_entry_pre_motor.json",
+    "published": {
+      "youtube_id": "gRR_5ShLxDk",
+      "privacy": "private",
+      "publish_at": "2026-11-07T18:00:00Z",
+      "date": "2026-11-07"
+    }
   },
   "por-que-bitcoin-sube-y-baja": {
     "composition": "MotorPlano",
@@ -1614,22 +1622,30 @@
     }
   },
   "cuanto-gana-de-verdad-un-youtuber-en-espana": {
-    "composition": "CuantoGanaDeVerdadUnYoutuberEnEspana",
-    "tsx": "remotion/src/CuantoGanaDeVerdadUnYoutuberEnEspana.tsx",
+    "composition": "MotorPlano",
+    "tsx": "remotion/src/motor/MotorPlano.tsx",
     "manifest_dir": "channel/tecno/videos/cuanto-gana-de-verdad-un-youtuber-en-espana",
     "script": "channel/tecno/videos/cuanto-gana-de-verdad-un-youtuber-en-espana/script.md",
     "audio_static": "cuanto-gana-de-verdad-un-youtuber-en-espana.mp3",
     "images_subpath": "cuanto-gana-de-verdad-un-youtuber-en-espana",
     "naming": "timestamp",
     "ext": "jpg",
-    "playback_rate": 1.25,
+    "playback_rate": 1.0,
     "fps": 30,
     "width": 1920,
     "height": 1080,
     "background": "#ffffff",
     "ref_image": "channel/tecno/references/mono_stick_cutre.png",
-    "estilo": "stick_cutre",
-    "image_model": "lite"
+    "estilo": "motor",
+    "image_model": "lite",
+    "plano": "channel/tecno/videos/cuanto-gana-de-verdad-un-youtuber-en-espana/plano.json",
+    "motor_nota": "Animado por código con remotion/src/motor (sin imágenes). Render: python scripts/motor_plano.py cuanto-gana-de-verdad-un-youtuber-en-espana --render. Entrada anterior en videos_entry_pre_motor.json",
+    "published": {
+      "youtube_id": "J55j6ZLKom4",
+      "privacy": "private",
+      "publish_at": "2026-11-06T18:00:00Z",
+      "date": "2026-11-06"
+    }
   },
   "short-asi-te-roba-un-hacker-la-contrasena": {
     "manifest_dir": "channel/tecno/videos/short-asi-te-roba-un-hacker-la-contrasena",

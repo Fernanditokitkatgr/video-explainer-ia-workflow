@@ -6,7 +6,8 @@
  *
  * Los tiempos de `d` ya vienen en segundos (scripts/motor_plano.py resuelve "@palabra" con words.json).
  * Tipos: lista · flujo · comparativa · cifra · grafica · chat · por_dentro · mapa · sello · pantalla ·
- *        dinero · pregunta · texto · iconos   (el fondo de rayos y la cortinilla van en MotorPlano).
+ *        dinero · pregunta · texto · iconos · relleno   (el fondo de rayos y la cortinilla van en MotorPlano).
+ * `relleno` lo mete solo scripts/motor_plano.py cuando un tramo deja el centro vacío más de 1,2 s.
  */
 import React from 'react';
 import {random, useVideoConfig} from 'remotion';
@@ -53,6 +54,10 @@ const Lista: React.FC<EscenaProps> = ({d, t, t0}) => {
   const total = d.total ?? 10;
   const p = pop(t, t0, 0.5);
   const b = useBoil();
+  // el título arranca en z.x-70 y crece a la derecha: se encoge si no cabe hasta el borde
+  const {width: VW} = useVideoConfig();
+  const largo = (d.titulo ?? '').length;
+  const tamTitulo = Math.min(largo > 16 ? 70 : 92, (VW - (z.x - 70) - 50) / Math.max(1, largo * 0.74));
   return (
     <>
       {/* tira de progreso 1..total */}
@@ -105,7 +110,7 @@ const Lista: React.FC<EscenaProps> = ({d, t, t0}) => {
       <Grande x={z.x - 330} y={z.y + 20} size={250} color={C.paper} scale={pop(t, t0 + 0.08, 0.45)} rotate={-6}>
         {n}
       </Grande>
-      <Grande x={z.x - 70} y={z.y - 60} size={d.titulo && d.titulo.length > 16 ? 70 : 92} color={C.paper} scale={pop(t, tt, 0.4)} rotate={-2} style={{translate: '0 -50%', transformOrigin: '0% 50%'}}>
+      <Grande x={z.x - 70} y={z.y - 60} size={tamTitulo} color={C.paper} scale={pop(t, tt, 0.4)} rotate={-2} style={{translate: '0 -50%', transformOrigin: '0% 50%'}}>
         {d.titulo}
       </Grande>
       {d.apodo && (
@@ -362,9 +367,20 @@ const Grafica: React.FC<EscenaProps> = ({d, t, t0, t1}) => {
       {!barras && head && prog < n - 0.001 + 1 && (
         <>
           <svg style={{position: 'absolute', left: head[0], top: head[1], overflow: 'visible'}} width={1} height={1}>
-            <g transform={`rotate(${(t * 180) % 360})`}>
-              <MonedaBTC r={28} b={b} id="gh" />
-            </g>
+            {(d.cabeza ?? 'btc') === 'btc' ? (
+              <g transform={`rotate(${(t * 180) % 360})`}>
+                <MonedaBTC r={28} b={b} id="gh" />
+              </g>
+            ) : d.cabeza === 'punto' ? (
+              <circle r={16} fill={C.paper} stroke={C.ink} strokeWidth={6} />
+            ) : (
+              <g transform={`rotate(${Math.sin(t * 6) * 20})`}>
+                <path d={wobEllipse(0, 0, 28, 28, `gh${b}`)} fill={C.gold} stroke={C.ink} strokeWidth={5} />
+                <text y={12} textAnchor="middle" fontFamily={FONT} fontSize={32} fill={C.paper} stroke={C.ink} strokeWidth={2}>
+                  {d.cabeza === 'dolar' ? '$' : '€'}
+                </text>
+              </g>
+            )}
           </svg>
           {d.valor_cabeza !== false && (
             <div
@@ -915,7 +931,9 @@ const Iconos: React.FC<EscenaProps> = ({d, t, t0}) => {
   const items: any[] = d.items ?? [];
   const n = items.length;
   const tam = d.tam ?? (n > 3 ? 190 : 240);
-  const gap = Math.min(z.w / Math.max(1, n), tam * 1.6);
+  // que las etiquetas no se pisen: el hueco crece con el texto más largo (sin salirse de la zona)
+  const etiqueta = Math.max(0, ...items.map((it) => (it.texto ? it.texto.length * 27 + 80 : 0)));
+  const gap = Math.min(z.w / Math.max(1, n), Math.max(tam * 1.6, etiqueta));
   return (
     <>
       {d.titulo && (
@@ -946,6 +964,59 @@ const Iconos: React.FC<EscenaProps> = ({d, t, t0}) => {
           </div>
         );
       })}
+    </>
+  );
+};
+
+// ───────────────────────── relleno automático (tramo que espera a su ancla) ─────────────────────────
+/** Lo pone motor_plano.py desde el inicio del tramo hasta que aparece el contenido: un icono relacionado
+ *  que bota dentro de una nube de pensamiento con puntitos, o una palabra clave en caja. Así el centro
+ *  nunca se queda vacío mientras la voz llega a la palabra ancla. */
+const Relleno: React.FC<EscenaProps> = ({d, t, t0}) => {
+  const z = zona(d);
+  const b = useBoil();
+  const p = pop(t, t0 + 0.05, 0.45);
+  const bote = Math.abs(Math.sin((t - t0) * 5)) * 18;
+  const tam = d.tam ?? 230;
+  return (
+    <>
+      {d.icono ? (
+        <div style={{position: 'absolute', left: z.x, top: z.y - bote, scale: `${p}`, rotate: `${Math.sin((t - t0) * 3) * 6}deg`}}>
+          <svg width={tam * 1.5} height={tam * 1.3} viewBox="-150 -130 300 260" style={{position: 'absolute', left: -tam * 0.75, top: -tam * 0.65, overflow: 'visible'}}>
+            <path
+              d={wobPoly(
+                Array.from({length: 16}, (_, i) => {
+                  const a = (i / 16) * Math.PI * 2;
+                  const r = i % 2 ? 118 : 132;
+                  return [Math.cos(a) * r * 1.12, Math.sin(a) * r * 0.92] as [number, number];
+                }),
+                `rl${b}`,
+                3,
+                true,
+              )}
+              fill="rgba(255,255,255,0.94)"
+              stroke={C.ink}
+              strokeWidth={7}
+            />
+          </svg>
+          <div style={{position: 'absolute', left: -tam * 0.4, top: -tam * 0.4}}>
+            <Icono nombre={d.icono} tam={tam * 0.8} color={d.color ? col(d.color) : undefined} />
+          </div>
+        </div>
+      ) : null}
+      {d.texto && (
+        <Caja x={z.x} y={z.y + (d.icono ? tam * 0.75 : 0) - (d.icono ? 0 : bote)} seed="rlt" bg={col(d.color_texto, C.yellow)} scale={pop(t, t0 + 0.2, 0.4)} rotate={-3} style={{padding: '8px 30px', fontSize: d.icono ? 50 : 78}}>
+          {d.texto}
+        </Caja>
+      )}
+      {!d.icono && !d.texto && (
+        <svg style={{position: 'absolute', left: z.x, top: z.y, overflow: 'visible', scale: `${p}`}} width={1} height={1}>
+          <path d={wobEllipse(0, 0, 190, 110, `rlb${b}`, 0.06, 14)} fill="rgba(255,255,255,0.94)" stroke={C.ink} strokeWidth={7} />
+          {[-1, 0, 1].map((k) => (
+            <circle key={k} cx={k * 70} cy={-Math.max(0, Math.sin((t - t0) * 7 - k * 0.9)) * 26} r={20} fill={CHIP_COLORS[k + 1]} stroke={C.ink} strokeWidth={5} />
+          ))}
+        </svg>
+      )}
     </>
   );
 };
@@ -1093,6 +1164,11 @@ export const ESCENAS: Record<string, DefEscena> = {
     descripcion: 'Tipografía cinética: palabras que saltan en su momento (en caja o con contorno)',
     render: Texto,
     sfx: (d, t0) => (d.palabras ?? []).map((p: any, i: number): Cue => [i % 3 === 2 ? 'pop2' : 'pop', at(p.al, t0 + 0.1 + i * 0.25), 0.7]),
+  },
+  relleno: {
+    descripcion: 'Relleno automático: icono que bota en una nube (o palabra clave) mientras el tramo espera su ancla',
+    render: Relleno,
+    sfx: (d, t0) => [['pop2', t0 + 0.05, 0.6]],
   },
   iconos: {
     descripcion: 'Fila de iconos de garabato con etiqueta; se pueden tachar con ✗',

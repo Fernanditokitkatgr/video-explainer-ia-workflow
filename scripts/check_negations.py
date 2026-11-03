@@ -10,6 +10,7 @@ grande confirma como ausente es un fallo real.
 
 Uso:
     python scripts/check_negations.py <slug> [--modelo large-v3]
+    python scripts/check_negations.py <slug> --palabras <words.json> [--audio voz.mp3]   # vídeos del motor
 Código de salida: 0 = todo bien, 1 = negación realmente perdida (regenerar la voz).
 """
 import argparse
@@ -39,14 +40,21 @@ def main() -> None:
     p = argparse.ArgumentParser()
     p.add_argument("slug")
     p.add_argument("--modelo", default="large-v3")
+    p.add_argument("--palabras", help="words.json de whisper (caché de cached_words): sustituye a whisper_raw/frames.json")
+    p.add_argument("--audio", help="audio a comprobar (por defecto, el de videos.json)")
     a = p.parse_args()
     vids = json.loads((REPO_ROOT / "videos.json").read_text(encoding="utf-8"))
     cfg = vids[a.slug]
     mdir = REPO_ROOT / cfg["manifest_dir"]
     # whisper_raw.json se borra al cerrar el vídeo; frames.json guarda la misma transcripción.
     raw = mdir / "whisper_raw.json"
-    data = json.loads((raw if raw.exists() else mdir / "frames.json").read_text(encoding="utf-8"))
-    frames = data["frames"] if isinstance(data, dict) else data
+    if a.palabras:
+        # words.json del motor: {"key":…, "words":[{"word","start","end"}]} → un "segmento" por palabra
+        wd = json.loads(Path(a.palabras).read_text(encoding="utf-8"))
+        frames = [{"text": w["word"], "startSec": w["start"]} for w in (wd["words"] if isinstance(wd, dict) else wd)]
+    else:
+        data = json.loads((raw if raw.exists() else mdir / "frames.json").read_text(encoding="utf-8"))
+        frames = data["frames"] if isinstance(data, dict) else data
     body = re.sub(r"\[[^\]]*\]", " ", (mdir / "script.md").read_text(encoding="utf-8").split("---", 1)[1])
     sw = [(w, norm(w)) for w in body.split() if norm(w)]
     ww = [(w, norm(w), s["startSec"]) for s in frames for w in s["text"].split() if norm(w)]
@@ -68,7 +76,7 @@ def main() -> None:
         return
 
     from faster_whisper import WhisperModel
-    audio = REPO_ROOT / "remotion" / "public" / cfg["audio_static"]
+    audio = Path(a.audio) if a.audio else REPO_ROOT / "remotion" / "public" / cfg["audio_static"]
     model = WhisperModel(a.modelo, device="cpu", compute_type="int8")
     perdidas = 0
     for t, ctx, core in sospechosas:

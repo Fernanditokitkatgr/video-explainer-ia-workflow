@@ -46,16 +46,16 @@ Si te gusta entender cómo funciona de verdad la tecnología que usas cada día,
 ## Capítulos
 
 0:00 Tu móvil va lento
-0:21 Memoria llena
-0:44 Apps que engordan
-1:06 Apps en segundo plano
-1:27 La batería que envejece
-1:50 El calor
-2:13 Las actualizaciones
-2:40 La sensación de lentitud
-3:10 El batterygate de Apple
-3:48 El fin de las actualizaciones
-4:18 El freno de Samsung
+0:21 1. La memoria llena
+0:44 2. Las apps que engordan
+1:06 3. Las apps en segundo plano
+1:27 4. La batería
+1:50 5. El calor
+2:13 6. Las actualizaciones
+2:40 7. La sensación
+3:10 8. El batterygate
+3:48 9. El fin de las actualizaciones
+4:18 10. El freno selectivo
 4:47 ¿Te lo hacen a propósito?
 
 ## Tags
@@ -67,10 +67,10 @@ por que mi movil va lento, movil lento, movil mas lento con los años, batteryga
 (17 tags, suma efectiva unos 390 contando +2 por cada tag con espacio y las comas. Por debajo de 420.)
 
 ## Miniatura
-plantilla: A (cuadrícula, ver Notas)
-texto: (ninguno; solo etiquetas bajo cada casilla)
-etiquetas: MEMORIA LLENA|APPS GORDAS|SEGUNDO PLANO|BATERÍA VIEJA|CALOR|ACTUALIZACIÓN|SENSACIÓN|BATTERYGATE|CADUCIDAD|FRENO OCULTO
-cols: 5
+plantilla: B (fotograma del propio vídeo, 0:02: el mono enfadado con el móvil y la pantalla «Desbloqueando… Cargando…»; sin IA de imagen)
+texto: ¿TE LO|FRENAN?
+resaltar: FRENAN
+posicion: right
 
 ## Shorts
 
@@ -231,3 +231,4 @@ F: [serious] Samsung pidió perdón. Y en dos mil veintiséis, un tribunal de Se
 - Fechas relativas que caducan: ninguna en el guion (todo con año). En Notas, el juicio de Epson y la KFTC: revisar el día de publicar.
 - Shorts: Short 1: 105 palabras / 603 caracteres; Short 2: 100 palabras / 580 caracteres (≈30-35 s a 3,0-3,5 palabras/s; medir con `--dry-run`). Los `img:` quedan en TODO hasta tener `frames.json`; solo L1 lleva `nueva:` (2 imágenes nuevas en total, ~0,08 €, avisar del gasto).
 - Imágenes: sin logos reales (Apple, Samsung, Google, Facebook, Instagram, Uber, TikTok, WhatsApp, Geekbench) ni caras de personas reales (John Poole, Jong-Hee Han).
+- **v3 con el MOTOR (3-nov-2026)**: pasado al estilo motor (`remotion/src/motor`, plano en `plano.json`) con la misma voz eleven_v4 del 1-nov (323 s, 1.0×) y su words.json. `check_negations.py` OK (con `motor_plano.py --negaciones`). Miniatura = fotograma del vídeo + `thumbnail_text.py`. Capítulos escritos por `motor_plano.py --capitulos`. Reparto: mono, niño, rico, abuelo (la batería) y mono IA (las apps okupa y el servicio de Samsung). Sus Shorts antiguos (`shorts/short_1.mp4`, `short_2.mp4`) se quedan como estaban. Entrada antigua de videos.json en `videos_entry_pre_motor.json`; seo anterior en `seo_pre_motor.md`.

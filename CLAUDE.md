@@ -2,11 +2,261 @@
 
 This file provides guidance to Claude Code (claude.ai/code) when working with code in this repository.
 
+## FORMA DE TRABAJAR ACTUAL (desde 3-nov-2026): MOTOR DE ANIMACIÓN
+
+> **Aprobado por el dueño el 3-nov-2026. Es el método POR DEFECTO para TODOS los vídeos nuevos de
+> Tecnomono, largos y Shorts.** El método antiguo (imágenes generadas con Gemini/Higgsfield +
+> Ken Burns con `make_tsx.py`, `frames.json`, `make_shorts.py`) queda **HEREDADO**: sirve para
+> mantener o entender los vídeos antiguos, no para hacer vídeos nuevos. Las secciones de más abajo
+> marcadas **HEREDADO** son de ese método; lo que diga esta sección manda sobre ellas.
+
+### Qué es
+
+- Todo se **dibuja por código** (SVG/CSS) en `remotion/src/motor/`: personajes (el mono stick
+  cutre y sus amigos), escenas gráficas, fondo de rayos con cortinilla de color y efectos de sonido.
+  **Cero imágenes generadas.** El aspecto "cutre" sale de tres trucos: el trazo hierve cada 4
+  fotogramas, el relleno se pinta algo fuera de la línea y todo se mueve como una marioneta (rebote,
+  respiración, saltito por palabra, pop con aplastamiento).
+- **Un vídeo = guion + voz + `plano.json`.** Ningún vídeo nuevo necesita programar: la composición
+  genérica `MotorPlano` lee el plano resuelto (`remotion/public-motor/<slug>/plano.json`), y de él
+  saca la duración, el tamaño (16:9 o 9:16), las escenas, el reparto y los SFX.
+- Piezas del código:
+
+| Archivo | Qué hace |
+|---|---|
+| `remotion/src/motor/index.ts` · `Root.tsx` | Entrada PROPIA del motor (no toca `remotion/src/Root.tsx`, que reescribe `make_tsx.py`). Registra `MotorPlano` y `HojaPersonajes` |
+| `MotorPlano.tsx` | Composición genérica: fondo de rayos + cortinilla al cambiar de color → escenas → reparto → sonido (voz + SFX de cada escena, entradas y bocadillos). Temblor de cámara en `sello`, `lista` y `golpes` |
+| `Mono.tsx` | Biblioteca de personajes: 7 tipos, 16 poses, 8 caras, 11 objetos; boca sincronizada con la voz por sílabas |
+| `Reparto.tsx` | Mueve a los personajes en el tiempo: entradas, salidas, desplazamientos dando saltitos, cambios de pose y cara, bocadillos (`dice`) |
+| `Escenas.tsx` | Biblioteca de 15 escenas; cada una se parametriza solo con datos y trae sus propios SFX. Zonas 16:9 y zonas verticales (9:16) |
+| `Iconos.tsx` | Iconos de garabato (para `iconos`, `flujo`, `comparativa`, `relleno`…) y el símbolo ₿ |
+| `piezas.tsx` | `Caja` (caja de rotulador), `Grande` (texto gigante con contorno), `Rafaga` (confeti), `Flecha` |
+| `tiempo.tsx` | Contexto con las palabras de la locución: apertura de boca y saltito por palabra |
+| `base.ts` | Paleta, nombres de color en español, fuente Montserrat ExtraBold, curvas de movimiento, trazos temblorosos |
+| `HojaPersonajes.tsx` | Hoja de 13 s con todo el reparto moviéndose (catálogo y prueba visual) |
+| `scripts/motor_plano.py` | Resuelve el plano contra los tiempos de palabra, lo valida, mide el ritmo y renderiza (+ loudnorm) |
+| `scripts/preflight.py` → `check_plano` | El gate para los vídeos con `"estilo": "motor"` |
+
+### Pipeline paso a paso (largo, 16:9)
+
+```
+guion v3 → voz eleven_v4 → whisper (words.json) → plano.json → motor_plano.py (validar + stills)
+  → render con loudnorm → miniatura (still + thumbnail_text.py) → capítulos → preflight
+  → pending_long.txt → daily_publish.py
+```
+
+1. **Tema** de `channel/tecno/topic_backlog.md` y **guion v3** en `channel/tecno/videos/<slug>/script.md`
+   (reglas de "Guion natural" más abajo: lista anunciada, "Número X." plano, 5.000-5.600 caracteres,
+   8-10 etiquetas v4, cifras con letras).
+2. **Entrada en `videos.json`** con `"estilo": "motor"` (copia la de `por-que-bitcoin-sube-y-baja`):
+   `"composition": "MotorPlano"`, `manifest_dir`, `script`, `audio_static`, `"playback_rate": 1.0`,
+   `"plano": "<manifest_dir>/plano.json"`. El motor va a velocidad natural (1.0): no se acelera la voz.
+3. **Voz**: `python scripts/generate_voice.py --video <slug> --model eleven_v4` → `remotion/public/<audio_static>`.
+4. **Whisper → `words.json`**: lo hace `motor_plano.py` la primera vez que se corre (whisper por
+   palabra alineado con el TEXTO del guion, así las cifras salen como en el guion). Caché en
+   `<manifest_dir>/words.json`; se rehace si cambia la voz. OJO: `motor_plano.py` lee `plano.json`
+   antes de todo, así que necesita que exista (basta un primer borrador para sacar los tiempos).
+   **Negaciones**: `python scripts/motor_plano.py <slug> --negaciones` (`check_negations.py` con
+   `words.json`; el motor no tiene `frames.json`). Solo corre si el plano resuelve sin errores.
+5. **Escribir `<manifest_dir>/plano.json`** (formato abajo). Un tramo por frase o idea; algo nuevo cada 2-3 s.
+6. **Resolver y validar**: `python scripts/motor_plano.py <slug>`. Si hay errores (ancla que no
+   aparece, pose o escena desconocida, efecto inexistente) **no escribe nada**. Imprime avisos, el
+   ritmo ("un evento cada X s, hueco máx. Y s") y los huecos > 3 s. Revisar fotogramas:
+   `--stills 3,10,25 --dir <carpeta>` (consejo: stills al 72 % de cada tramo en hojas de 3x3 para cazar solapes).
+7. **Render**: `python scripts/motor_plano.py <slug> --render` → `remotion/output/<slug>.mp4`, ya con
+   **loudnorm** (-14 LUFS, pico -1,5 dB). Unos 10 min para 5,5 min de vídeo en 1080p (concurrency 4).
+8. **Miniatura**: un fotograma del propio vídeo + texto por código.
+   `python scripts/motor_plano.py <slug> --still <segundo> --out <manifest_dir>/thumbnail.png`, pasarlo
+   a `thumbnail.jpg` (p. ej. `ffmpeg -i thumbnail.png thumbnail.jpg`) y
+   `python scripts/thumbnail_text.py --video <slug>` (lee `## Miniatura` de `seo.md` → `thumbnail_final.jpg`).
+   Alternativa sin convertir: `thumbnail_text.py --in thumbnail.png --out thumbnail_final.jpg --text "A|B" --highlight B --pos left`.
+9. **Capítulos**: `python scripts/motor_plano.py <slug> --capitulos` escribe `## Capítulos` de `seo.md`
+   con los tiempos reales, a partir de los tramos que llevan `"capitulo"`.
+10. **Gate**: `python scripts/preflight.py --video <slug> --stage publish` (`check_plano`: plano
+    resuelto con la voz actual, tramos en orden, sin escenas repetidas seguidas, cubre el audio, SFX
+    presentes, sin música, hueco máximo ≤ 5 s (> 3,5 s avisa), composición del motor; más voz, CTA y MP4).
+11. **`<manifest_dir>/shorts/shorts.json` con `"shorts": []`** (ver reglas): los Shorts del motor van aparte.
+12. **Publicar**: añadir el slug a `scratch-yt/pending_long.txt`; `daily_publish.py` (tarea
+    "Tecnomono YouTube 0935") lo sube en orden, privado y programado.
+
+### Shorts con el motor (9:16)
+
+- **Cada Short es su PROPIA entrada en `videos.json`**, no un recorte del largo. Slug `short-<tema>`
+  y carpeta `channel/tecno/videos/short-<tema>/` con `script.md`, `plano.json` y `seo.md` (más
+  `words.json`, que sale solo). Entrada mínima:
+  `{"manifest_dir": …, "script": …, "audio_static": "short-<tema>.mp3", "fps": 30, "width": 1080, "height": 1920, "background": "#ffffff", "estilo": "motor", "formato": "9:16"}`.
+- El plano lleva `"formato": "9:16"` (→ 1080x1920) y suele llevar `"cola": 0.9`. En vertical los
+  gráficos van en la mitad de arriba (y 200-1050), los personajes abajo con escala 0,95 y los
+  bocadillos caen en y≈1030-1130.
+- Guion propio: la primera frase ES el título. **~190 palabras con eleven_v4 ≈ 58,5 s** (+0,9 s de
+  cola: por debajo de 60 s).
+- Mismo flujo: voz → `motor_plano.py <slug>` → `--render` → `preflight.py --video <slug>`.
+- **Subida**: `python scratch-yt/upload_youtube.py remotion/output/<slug>.mp4 --title "…" --description "…" --tags "a,b,c" --thumbnail … --publish-at 2026-11-05T16:00:00Z`
+  (sube privado y YouTube lo publica solo a esa hora). Apuntar fecha e ID en el `seo.md` del Short.
+  `make_shorts.py` y `publish_shorts.py` NO se usan con el motor (necesitan imágenes de `frames.json`).
+- Ejemplos reales: `short-asi-te-roba-un-hacker-la-contrasena` y `short-por-que-la-ia-se-inventa-cosas`.
+
+### Formato del plano (`plano.json`)
+
+```json
+{
+  "formato": "16:9",                       // o "9:16" para Shorts
+  "cola": 1.2,                             // s de cola tras la última palabra (por defecto 1,2)
+  "rayos": {"x": 960, "y": 620},           // opcional: centro de los rayos del fondo
+  "reparto": {"mono": {"tipo": "protagonista", "narrador": true}, "rico": {"tipo": "rico"}},
+  "tramos": [
+    {"en": "Viernes, diez de octubre",     // primeras palabras de la frase donde empieza (el 1º puede ir vacío)
+     "color": "amarillo",                  // color del fondo de rayos (cortinilla + whoosh al cambiar)
+     "capitulo": "Viernes 10 de octubre",  // opcional: abre capítulo de YouTube
+     "escenas": [{"tipo": "cifra", "desde": 0, "hasta": 121000, "prefijo": "$", "al": "@ciento"}],
+     "personajes": {"mono": {"x": 0.2, "pose": "señalar", "cara": "sorpresa",
+                             "cambios": [{"al": "@baja", "pose": "miedo", "cara": "miedo"}],
+                             "dice": [{"texto": "¡¿Qué?!", "al": "@tarde", "hasta": "@fin"}]}},
+     "sfx": [["boom", "@baja", 1.0]],      // [efecto, ancla, volumen relativo]
+     "golpes": ["@baja"],                  // temblor de cámara
+     "relleno": false}                     // opcional: quita (o {"icono": "..."} fija) el relleno automático
+  ]
+}
+```
+
+(El JSON real no admite comentarios: son solo para leerlo aquí.)
+
+**Anclas** — cualquier texto que empiece por `@` se convierte en segundos: `"@baja"` (primera "baja"
+desde el inicio del tramo), `"@seis mil"` (secuencia de palabras), `"@baja#2"` (la segunda),
+`"@baja+0.3"` / `"@baja-0.2"` (desfase), `"@inicio"`, `"@fin"` (inicio/fin del tramo), `"@+1.5"`
+(segundos desde el inicio del tramo). Ojo: `@fin` es especial; para la palabra "fin" usa `"@fin de"`.
+
+**Duración de una escena**: todo su tramo, salvo `"aparece"` / `"desaparece"` (anclas) o `"tramos": N`
+(se queda N tramos más; cuidado con solapes). Campos comunes a todas: `zona` (`centro`, `arriba`,
+`izq`, `der`, `abajo`), `caja` (`{x, y, w}` para recolocar), `color` (nombre o hex), `"sfx": false` (sin sus efectos).
+
+**Escenas** (`tipo` → datos clave; los `…_al` son anclas):
+
+| tipo | Qué es | Datos clave |
+|---|---|---|
+| `lista` | Rótulo "Número X": estrella con número, título, apodo, tira de progreso | `n`, `total`, `titulo`, `apodo`, `titulo_al`, `apodo_al` |
+| `flujo` | Nodos con icono unidos por flechas que se dibujan | `nodos: [{texto, icono, al}]`, `forma: linea\|ciclo`, `titulo`, `cierra_al` |
+| `comparativa` | A contra B con VS; ganador ✓, perdedor tachado | `a`/`b: {titulo, valor, icono, color, al}`, `vs_al`, `ganador: a\|b`, `ganador_al` |
+| `cifra` | Cifra gigante que cuenta de `desde` a `hasta` | `desde`, `hasta`, `prefijo`, `sufijo`, `decimales`, `al`, `dur`, `flecha: sube\|baja`, `etiqueta`, `etiqueta_al`, `tam`, `log`, `antes` |
+| `grafica` | Línea (o barras) que se dibuja punto a punto con cabeza | `puntos: [{v, al, …}]`, `forma: barras`, `cabeza: btc\|punto\|euro\|dolar`, `marcas: [{i, texto, al}]`, `ymin`, `ymax`, `prefijo`, `sufijo`, `ancho`, `alto`, `al`, `hasta_al` |
+| `chat` | Bocadillos de chat o tarjeta de tuit con corazones | `mensajes: [{texto, lado, al}]`, `estilo: tuit`, `autor`, `usuario`, `likes` |
+| `por_dentro` | Lupa que hace zoom a un mecanismo de engranajes | `piezas: [{texto, al}]`, `icono`, `titulo` |
+| `mapa` | Globo que gira, chinchetas con nombre, apagón | `pines: [{nombre, x, y, al}]`, `apagon: {continente, al}`, `rota`, `radio`, `titulo` |
+| `sello` | Sello que se estampa (VERDAD, ESTAFA…) con temblor | `texto`, `al`, `color`, `tam`, `rot` |
+| `pantalla` | Móvil u ordenador con app | `dispositivo: movil\|ordenador`, `app` (p. ej. `alerta`), `titulo`, `lineas: [{texto, al, tam, color}]`, `precio: {desde, hasta, al}` |
+| `dinero` | Monedas y billetes | `modo: lluvia\|sube\|escapa\|explota`, `monedas` (₿ por defecto; `"dolar"` si no es cripto), `billetes`, `cantidad`, `texto`, `texto_al`, `al`, `hasta` |
+| `pregunta` | Pregunta gancho con interrogaciones; respuesta en su palabra | `pregunta`, `al`, `respuesta`, `respuesta_al` |
+| `texto` | Tipografía cinética: palabras que saltan en su momento | `palabras: [{texto, al, caja, color}]`, `tam`, `por_fila` |
+| `iconos` | Fila de iconos con etiqueta; se pueden tachar | `items: [{icono, texto, al, tachar_al}]`, `titulo`, `tam` |
+| `relleno` | Lo mete SOLO `motor_plano.py`: icono en una nube mientras el tramo espera su ancla | (`icono`, `texto`) |
+
+**Relleno automático**: si un tramo deja el centro vacío más de 1,2 s esperando a su ancla, se le
+pone un `relleno` (icono de la escena que espera o, si no tiene, por palabras clave de lo que se
+dice). También avisa si una escena pasa más de 1,5 s enseñando solo su título.
+
+**Iconos** (`Iconos.tsx`): bitcoin, dolar, pizza, cohete, ascensor, oveja, megafono, coche, banco,
+grifo, tienda, rayo, enchufe, pico, ballena, robot, reloj_arena, candado, calendario, dedo,
+grafico_sube, grafico_baja, alerta, mundo, movil, hucha, fuego, libro, bombilla, cadena, balanza,
+gota, ola, escudo, llave, anzuelo, sobre, dado, mazo, examen, pinocho, gpu, calavera, play, bateria
+(color `vacia`), termometro, camiseta, chocolate, micro, trofeo, ojo, tortuga, caja, mochila, puerta,
+avion, casa, chip, ticket.
+
+**Colores** por nombre: amarillo, azul, verde, rojo, rosa, naranja, morado, gris, blanco, negro, oro (o un hex).
+
+### Personajes (API del reparto)
+
+- **Tipos** (`reparto.<id>.tipo`): `protagonista` (el mono), `ciberdelincuente` (capucha y antifaz),
+  `rico` (traje y puro; lleva `bolsa` por defecto), `ia` (cabeza de robot), `abuelo` (gafas y
+  `baston` por defecto), `currito` (camiseta), `nino` (camiseta, más pequeño). `"narrador": true` =
+  habla (boca con la voz) por defecto.
+- **Poses**: `de_pie`, `señalar`, `señalar_arriba`, `brazos_arriba`, `pensar`, `encogerse`, `correr`,
+  `caminar`, `sentado`, `brazos_cruzados`, `saludar`, `jarras`, `miedo`, `presentar`, `celebrar`, `empujar`.
+- **Caras**: `normal`, `sorpresa`, `risa`, `miedo`, `enfado`, `guiño`, `triste`, `chulo`.
+- **Objetos** (en la mano): `ninguno`, `bolsa`, `bitcoin`, `movil`, `baston`, `puntero`, `billete`, `lupa`, `pizza`, `megafono`, `puro`.
+- **Por tramo** (`personajes.<id>`): `x` (fracción del ancho 0-1 o píxeles), `y` (por defecto el suelo,
+  0,93 del alto; son los PIES), `escala` (0,9 por defecto), `pose`, `cara`, `mira` (`der`/`izq`),
+  `objeto`, `habla`, `salta`, `entra` (ancla de entrada), `sale` (ancla de salida), `entrada`
+  (`salto` por defecto, `cae`, `izq`, `der`, `pop`, `nada`), `salida` (`salto`, `izq`, `der`, `pop`,
+  `nada`), `cambios: [{al, pose, cara, x, mira, objeto, salta…}]`, `dice: [{texto, al, hasta, color}]` (bocadillo).
+- Un personaje que sigue en el tramo siguiente **no vuelve a entrar**: solo cambia de pose/cara/sitio
+  (se desplaza dando saltitos; si va lejos, corre). Para que salga, **no lo nombres** en el tramo
+  (con solo `{"salida": …}` sigue en pantalla todo ese tramo). Las entradas suenan solas (boing,
+  pasos), igual que salidas (swoosh), saltos (boing) y bocadillos (pop2).
+- Catálogo visual: `python scripts/motor_plano.py --hoja` → `channel/tecno/pruebas/motor/personajes.mp4`.
+
+### SFX del motor
+
+44 efectos en `assets/sfx/motor/` (copiados una vez de la biblioteca del repo; cada uno igualado
+por sonoridad a -32,6 LUFS con su ganancia en `assets/sfx/motor/sfx_gain.json`). Cada escena trae
+los suyos; en un tramo se añaden más con `"sfx": [["nombre", "@ancla", volumen]]`:
+
+`agua, alerta, apagon, boing, boom, boom_hondo, cadena, caida, caja, click, cristal, ding, ding2,
+engranaje, exito, gente, giro, glitch, golpe, golpe_seco, mazo, moneda, monedas, notif, pagina,
+pasos, pop, pop2, pregunta, puerta, rasgueo, reloj, revelacion, rotulador, sello, subida, swoosh,
+teclas, tension, tick, triunfo, whoosh, whoosh_suave, zap`.
+
+### Reglas aprendidas (obligatorias)
+
+- **SIN subtítulos.** El texto va en los gráficos (cifras, palabras de `texto`, bocadillos, sellos).
+- **Algo nuevo en pantalla cada 2-3 s** (escena, cambio de pose, palabra, bocadillo, golpe). El
+  validador lo mide; preflight falla con huecos > 5 s.
+- **El mono SIEMPRE en movimiento**: cambios de pose y cara con la frase, saltos, desplazamientos. Nunca un muñeco quieto.
+- **Los personajes se turnan**: varios por vídeo (en bitcoin salen 7), que entren y salgan según la
+  historia; no todos a la vez ni siempre el mismo al lado del mono.
+- **Carpeta pública mínima** (`remotion/public-motor`, ~20 MB: fuente, SFX y `voz.mp3` + `plano.json`
+  + `words.json` por vídeo). El render usa `--public-dir=public-motor` porque el bundler copia la
+  carpeta pública a `%TEMP%` en CADA render y `remotion/public` pesa ~7 GB: con ella se llena el disco.
+  `motor_plano.py` la prepara solo; no metas ahí imágenes ni nada más.
+- **No lances dos renders del mismo slug a la vez** (comparten el `_raw.mp4`). `motor_plano.py` lo
+  impide con `remotion/out/<slug>.render.lock` (si el proceso murió, el candado se recoge solo). No
+  lances renders con `&` desde la herramienta Bash: siguen vivos y chocan con el siguiente.
+- **`shorts/shorts.json` vacío en los largos del motor** (`{"shorts": [], "nota": "…"}`): así
+  `daily_publish.py` no lanza `make_shorts.py`, que necesita imágenes y Google.
+- **`"estilo": "motor"` en `videos.json`**: es lo que hace que `preflight.py` use `check_plano` en vez
+  de los chequeos de imágenes/`frames.json`/`sfx.json`.
+- Gotchas del plano: los bocadillos `dice` duran TODA la aparición si no llevan `"hasta"` (usa
+  `"hasta": "@fin"`); el `objeto` se arrastra entre apariciones (pon `"objeto": "ninguno"` al reentrar);
+  `pantalla` con `ordenador` pisa a los personajes de los lados (usa `movil`); barras de `grafica`
+  con `"ancho": 1000`; cifras de millones con `tam` ≤ 150; con el mono en x 0,5, sube el texto
+  (`caja` y 250); `tipo` es el tipo de escena, por eso las barras se piden con `"forma": "barras"`.
+
+### Costes
+
+- **Google: 0 €.** El motor no genera ninguna imagen (la facturación de Google está cerrada; imágenes
+  y Veo, bloqueados). **Solo se paga ElevenLabs** (la voz). Remotion: 0 €.
+- El **tope duro de 250 €** de `scripts/gasto.py` sigue vigente para cualquier generación de imágenes
+  que se haga en el futuro, y sigue sin poder subirse sin que el dueño lo pida por escrito.
+
+### Preferencias del dueño
+
+- **Le encanta la marioneta moviéndose**: es lo que hay que potenciar en cada vídeo.
+- **Quiere más personajes y formatos variados**: ampliar el reparto (`Mono.tsx`) y las escenas
+  (`Escenas.tsx`) es bienvenido, siempre de forma aditiva (no romper los planos que ya existen).
+  Al añadir un tipo, pose, cara, escena o icono, añadirlo también a las listas de validación
+  (`TIPOS`/`POSES`/`CARAS` en `Mono.tsx`, `ESCENAS` en `motor_plano.py`) y a esta sección.
+
+### Reglas que SIGUEN vigentes
+
+- Tope de gasto de **250 €** (ver arriba).
+- **Voz SIEMPRE con eleven_v4** (`--model eleven_v4`).
+- **Sin música de fondo** (solo efectos puntuales).
+- **Guion natural** (reglas v3 de "Guion natural" más abajo): voz de persona real, lista clara.
+- **Ni un día sin subir**, pero **un vídeo al día, nunca en tanda**.
+- Responder siempre en **español**.
+
+### Vídeos hechos con el motor (referencia)
+
+Largos: `por-que-bitcoin-sube-y-baja`, `cuanto-gana-de-verdad-un-youtuber-en-espana`,
+`por-que-tu-movil-va-mas-lento-con-los-anos`. Shorts: `short-asi-te-roba-un-hacker-la-contrasena`,
+`short-por-que-la-ia-se-inventa-cosas`. Sus `plano.json` son los mejores ejemplos para copiar.
+
+---
+
 ## What this is
 
-A production pipeline for YouTube-style explainer videos built with synthetic voice + AI-generated images, assembled in code with Remotion. The repo documents and tooling the workflow; it is not a runtime service.
+A production pipeline for YouTube-style explainer videos built with synthetic voice, assembled in code with Remotion. **Desde el 3-nov-2026 los vídeos se animan por código con el motor (sección de arriba); el método de imágenes generadas por IA + Ken Burns que describe gran parte de este documento es HEREDADO.** The repo documents and tooling the workflow; it is not a runtime service.
 
-Full step-by-step process: [VIDEO_EXPLAINER_WORKFLOW.md](./VIDEO_EXPLAINER_WORKFLOW.md). Conversational replies follow the user's language (Spanish); docs stay in their existing language.
+Full step-by-step process (HEREDADO, método de imágenes): [VIDEO_EXPLAINER_WORKFLOW.md](./VIDEO_EXPLAINER_WORKFLOW.md). El proceso actual es la sección del MOTOR de arriba. Conversational replies follow the user's language (Spanish); docs stay in their existing language.
 
 ## Repo structure
 
@@ -15,9 +265,13 @@ SETUP.md            ← arranque + uso del orquestador (LÉELO PRIMERO)
 .env.example        ← plantilla de claves (copiar a .env, que es local/gitignored)
 videos.json         ← registro de vídeos (composición, naming, playback, rutas)
 remotion/           ← Remotion compositions (video assembly + render)
+  src/motor/            ← MOTOR de animación por código (método actual; entrada propia src/motor/index.ts)
+  public-motor/         ← carpeta pública MÍNIMA del motor (fuente, sfx/, <slug>/voz.mp3 + plano.json + words.json)
+assets/sfx/motor/   ← 44 SFX del motor + sfx_gain.json
 scripts/
   config.py             ← config compartida: lee .env, única fuente de verdad
-  orchestrate.py        ← encadena el pipeline + guarda estado (handoff)
+  motor_plano.py        ← MOTOR: plano.json → validar → stills/capítulos → render + loudnorm (método actual)
+  orchestrate.py        ← encadena el pipeline + guarda estado (handoff) — HEREDADO (método de imágenes)
   generate_voice.py     ← ElevenLabs (lee de config)
   generate_images.py    ← Higgsfield (lee la receta de frames.json)
   whisper_timestamps.py ← timestamps de audio (--language/--model/--naming); nombres de frame únicos
@@ -46,7 +300,8 @@ agentic-channel-analytics/  ← separate vertical: channel DNA, audits, script g
   channels/         ← per-channel profiles (ecomonos.md, stick-to-the-plan.md, …)
   AUTOMATION-RUNBOOK.md
 channel/<canal>/videos/<video>/  ← RECETA por vídeo (va a git):
-  script.md · frames.json (timings + prompts) · state.json (progreso) · notes.md
+  script.md · plano.json (motor) · words.json · seo.md · shorts/shorts.json (vacío en el motor)
+  HEREDADO: frames.json (timings + prompts) · state.json (progreso) · notes.md
 scratch-yt/         ← YouTube Data API upload scripts (Python venv inside)
 ```
 
@@ -56,13 +311,17 @@ scratch-yt/         ← YouTube Data API upload scripts (Python venv inside)
 > sincronizan entre colaboradores y pueden no existir en un clon nuevo. Trátalas
 > como opcionales/locales.
 
-## Pipeline
+## Pipeline HEREDADO (imágenes generadas + Ken Burns)
+
+> **HEREDADO desde el 3-nov-2026.** Para vídeos nuevos usa el pipeline del MOTOR (arriba). Lo de
+> elegir tema, `seo.md`, `thumbnail_text.py`, `pending_long.txt` + `daily_publish.py` y las reglas de
+> guion siguen valiendo; la generación de imágenes, `make_tsx.py`, la música y `make_shorts.py` no.
 
 ```
 Script → ElevenLabs V3 (voice) → [human review] → Whisper (timestamps)
        → escribir escenas 1:1 → scene_diversity_check.py (GATE de coherencia/variedad)
        → generate_images_gemini.py (SIEMPRE con imagen de referencia adjunta) → [human review]
-       → SFX + música (OBLIGATORIO)
+       → SFX (la música ya NO: sin música desde 27-oct-2026)
        → preflight.py (GATE: si falla, NO se renderiza) → Remotion → MP4
        → thumbnail-creator (OBLIGATORIO) → video-seo/channel-setup (OBLIGATORIO) → publish
        → thumbnail_text.py (texto por código) → make_shorts.py → publish_shorts.py (OBLIGATORIO, sep-2026)
@@ -97,18 +356,23 @@ en cuanto hay audio: con un TODO, el vídeo sale sin capítulos (antes de oct-20
 
 - **UN vídeo al día, nunca en tanda.** Si se piden 3 vídeos, son 3 días distintos (uno por día),
   no 3 subidas seguidas. Se publicaron 3 de golpe una vez y hubo que corregirlo a posteriori.
-- **Duración objetivo: 6-7 minutos de vídeo final.** Con `playback_rate` 1.1 eso son ~430-460 s
-  de audio bruto, que salen de **~7.800-8.300 caracteres de narración** (medido: 7.795 chars →
-  461 s). Guiones de ~4.000 chars dan 3,5 min: demasiado corto, no vale.
+- **Duración objetivo: 5-7 minutos de vídeo final.** La cifra vigente de guion es la de "Guion
+  natural" (v3): **5.000-5.600 caracteres de narración** (≈5-6 min; el motor va a 1.0, el largo del
+  youtuber salió en 308 s). La regla antigua de 7.800-8.300 caracteres a 1.1 queda HEREDADA.
 - **`scripts/preflight.py` es un gate, no un consejo.** Corre dentro de `orchestrate.py` antes de
   `render` y `step_render` lo vuelve a invocar por si alguien salta el paso con `--steps`.
-  Comprueba lo objetivable (música presente, 1 escena por frase sin relleno, ajustes de voz
+  Con `"estilo": "motor"` corre `check_plano` (ver sección del MOTOR). En el método heredado
+  comprueba lo objetivable (música a 0 por decisión del dueño, 1 escena por frase sin relleno, ajustes de voz
   coincidentes con `.env`, aspect ratio, FRAMES inyectados, duración, CTA). Si falla, se para.
 - **Lo que el gate NO puede juzgar** (y por tanto sigue necesitando persona o agente): si una
   imagen concreta pega con SU frase, si el estilo tiene variedad real, y **la expresividad de la
   voz** — Claude no puede oír el audio, así que ese punto lo valida siempre una persona.
 
-### Las dos capas de control de calidad
+### Las dos capas de control de calidad (HEREDADO: imágenes generadas)
+
+> En el motor no hay imágenes que revisar con visión: la capa 2 es revisar stills
+> (`motor_plano.py <slug> --stills …`) buscando solapes y textos cortados.
+
 
 | Capa | Herramienta | Qué caza |
 |---|---|---|
@@ -132,7 +396,7 @@ no arrows, no charts, no icons, no extra words."*
 - **Script**: very short sentences (1 sentence = 1 image = 1 visual beat), ~63-70 sentences for 2.5 min. Emotion tags in brackets `[tono cercano]` for ElevenLabs V3.
 - **Whisper**: `scripts/whisper_timestamps.py` produces per-segment start times. Output files named `seg_NN.png` (e.g. `seg_00.png`, `seg_01.png`).
 - **Remotion**: a composition reads a `FRAMES` array mapping `{ file, startSec }` and shows the last image whose `startSec <= currentSec`.
-- **SFX + música de fondo — paso OBLIGATORIO, no opcional.** Ningún vídeo se da por terminado sin esta capa (ver sección [Audio: SFX y música de fondo](#audio-sfx-y-música-de-fondo) más abajo). No forma parte todavía de `orchestrate.py` (se corre a mano entre `images` y `render`), así que no se salta solo porque el orquestador no lo automatice — añádelo siempre antes del render final, igual que la miniatura y el SEO.
+- **(HEREDADO) SFX — paso obligatorio; la música de fondo YA NO (sin música desde 27-oct-2026; en el motor cada escena trae sus SFX).** Ningún vídeo del método heredado se da por terminado sin esta capa (ver sección [Audio: SFX y música de fondo](#audio-sfx-y-música-de-fondo) más abajo). No forma parte todavía de `orchestrate.py` (se corre a mano entre `images` y `render`), así que no se salta solo porque el orquestador no lo automatice — añádelo siempre antes del render final, igual que la miniatura y el SEO.
 
 ### Escribir el guion (storytelling)
 
@@ -158,7 +422,19 @@ Detalle completo en [SETUP.md](./SETUP.md).
 
 ## Commands
 
-Orquestador (repo root) — encadena el pipeline y guarda el progreso en `state.json`:
+Motor (método actual, ver sección del MOTOR):
+```bash
+python scripts/motor_plano.py <slug>                 # resuelve y valida el plano
+python scripts/motor_plano.py <slug> --render        # render + loudnorm → remotion/output/<slug>.mp4
+python scripts/motor_plano.py <slug> --stills 3,10,25 --dir <carpeta>
+python scripts/motor_plano.py <slug> --still 4.5 --out x.png
+python scripts/motor_plano.py <slug> --capitulos     # capítulos reales en seo.md
+python scripts/motor_plano.py <slug> --negaciones    # check_negations.py con words.json
+python scripts/motor_plano.py <slug> --voz otra.mp3  # otra locución (words_<nombre>.json)
+python scripts/motor_plano.py --hoja                 # hoja de personajes
+```
+
+Orquestador (HEREDADO, método de imágenes; repo root) — encadena el pipeline y guarda el progreso en `state.json`:
 ```bash
 python scripts/orchestrate.py --video sueno-stick --status     # ¿dónde se quedó?
 python scripts/orchestrate.py --video sueno-stick              # completo (con gates HITL)
@@ -185,7 +461,11 @@ npx remotion render SuenoStick output/sueno-stick.mp4
 ```
 Render is ~7-10 min for a 2.5-min 1920×1080 video. There are no tests, no lint config, and no `tsconfig.json` checked in.
 
-## Remotion compositions
+## Remotion compositions (HEREDADO)
+
+> Los vídeos del motor usan una sola composición genérica, `MotorPlano`, registrada en
+> `remotion/src/motor/Root.tsx` (no en `remotion/src/Root.tsx`).
+
 
 Three compositions are registered in [Root.tsx](remotion/src/Root.tsx) and present on disk
 (Root.tsx está limpio — solo importa estas tres; cualquier nota antigua sobre "7 imports
@@ -202,7 +482,11 @@ los inyecta automáticamente desde `frames.json` (no editar a mano esa zona).
 
 Image assets live in `remotion/public/<video-name>/` and audio at `remotion/public/<video-name>.mp3`. These are gitignored (`*.mp3`, `*.mp4`, `*.png/jpg`) so a fresh clone has no media; the studio will 404 until you add them. La **receta** (timings + prompts) sí va en git en `frames.json`, así que el medio se regenera/recupera desde las cuentas compartidas (ver SETUP.md).
 
-## Estilo visual: la STYLE BIBLE — `channel/tecno/style-bible.json`
+## Estilo visual: la STYLE BIBLE — `channel/tecno/style-bible.json` (HEREDADO: imágenes generadas)
+
+> En el motor el estilo está en el código (`base.ts`, `Mono.tsx`). La Style Bible sigue siendo la
+> referencia de identidad (mono stick cutre, paleta) pero sus reglas de prompts no aplican.
+
 
 **Fuente de verdad única y estructurada del estilo.** Sustituye a los campos sueltos de
 `style.json` (que queda solo como log histórico de decisiones y de estilos rechazados).
@@ -253,7 +537,7 @@ usuario.** Un cambio de diseño aplicado a 141 imágenes sin validar se rechazó
 medio entre imágenes (<12 = FAIL). Es un proxy tosco pero objetivo de "todas las imágenes son
 iguales", y actúa después; el gate de abajo actúa antes.
 
-## `scene_diversity_check.py` — el gate ANTES de generar imágenes
+## `scene_diversity_check.py` — el gate ANTES de generar imágenes (HEREDADO)
 
 ```bash
 python scripts/scene_diversity_check.py --video <video>          # informe legible
@@ -278,7 +562,7 @@ con las imágenes anteriores, y si la imagen ilustra bien SU frase): eso sigue s
 con visión —agente o persona— sobre las imágenes ya generadas, igual que `preflight.py` no
 puede juzgar la expresividad de la voz. Ver "Las dos capas de control de calidad" arriba.
 
-## `scene_context.py` — memoria visual MIENTRAS se escriben las escenas
+## `scene_context.py` — memoria visual MIENTRAS se escriben las escenas (HEREDADO)
 
 El gate de arriba corre cuando las escenas ya están escritas: dice *"te has repetido"*, pero
 no evita repetirse. `scene_context.py` es la pieza que actúa **antes**, al escribir la escena
@@ -315,7 +599,7 @@ la única señal era el color, el modelo se equivocaba. Bueno = sudadera azul ci
 ABAJO, placa colgando. Malo = sudadera negra, capucha ARRIBA, sin placa. Si salen los dos en
 la misma escena, describe SIEMPRE las tres señales de cada uno.
 
-## Imágenes: el texto que aparezca SIEMPRE en español
+## Imágenes: el texto que aparezca SIEMPRE en español (HEREDADO; en el motor el texto lo escribe el plano, siempre en español)
 
 El texto en las viñetas (carteles, mapas, rótulos, bocadillos) es bienvenido y útil cuando
 ayuda a explicar la escena — **el problema nunca fue el texto en sí, es que `nano_banana_pro`/
@@ -336,6 +620,10 @@ español explícitamente. Pedir "escribe esto en español" a secas no es fiable.
   vídeo antes de cerrar la tanda.
 
 ## Miniatura (thumbnail) — paso obligatorio, no opcional
+
+> **Con el motor** la imagen base es un fotograma del propio vídeo (`motor_plano.py <slug> --still <s>`)
+> y el texto se pone con `thumbnail_text.py`. Generarla con Higgsfield/Gemini es HEREDADO (Google
+> está bloqueado). Las reglas de texto (2-4 palabras, gancho, conectar con el título) siguen vigentes.
 
 Todo vídeo lleva su miniatura antes de considerarse terminado, aunque la skill `/thumbnail-creator`
 no exista en tu clon (vive en `.claude/skills/`, gitignored). Si no está disponible, generarla
@@ -387,7 +675,8 @@ configurados.
    fold" antes de "mostrar más" — ahí va la promesa del vídeo, no relleno. Cuerpo con variaciones
    semánticas de la keyword (no repetir la misma frase muchas veces). Cierra con disclaimer si el
    contenido es especulativo/YMYL (lever L10, aterrizaje creíble) y una CTA.
-4. **Capítulos**: calcula los timestamps REALES desde `frames.json` (los `startSec` ya están en
+4. **Capítulos**: con el motor, `motor_plano.py <slug> --capitulos` (tramos con `"capitulo"`). En el
+   método heredado, calcula los timestamps REALES desde `frames.json` (los `startSec` ya están en
    el timeline original; si la composición usa `PLAYBACK_RATE`, divide cada uno entre ese valor
    para obtener el segundo real en el vídeo renderizado). Mínimo 3 capítulos, ≥10s cada uno,
    empezando en 0:00 — no timestamps aproximados a ojo.
@@ -401,7 +690,13 @@ configurados.
    un…", "Así funciona…", "Cuánto cobra…") + giro entre paréntesis. Nada de títulos-frase de 90+.
    `publish_from_recipe.py` usa la línea marcada `← recomendado` (o la primera numerada).
 
-## Shorts — paso obligatorio tras CADA vídeo largo (desde sep-2026)
+## Shorts — HEREDADO (recortes y guion propio con imágenes del largo, sep-oct 2026)
+
+> **Desde el 3-nov-2026 los Shorts se hacen con el MOTOR** (sección de arriba): cada Short es su
+> propia entrada en `videos.json`, 9:16, **sin subtítulos**, subido con `upload_youtube.py --publish-at`.
+> `make_shorts.py`/`publish_shorts.py` quedan para los vídeos antiguos; en los largos del motor
+> `shorts/shorts.json` va vacío. Lo que sigue (primera frase = título, 30-60 s, curiosidad) vale
+> como criterio editorial; la mecánica de imágenes, subtítulos karaoke y recortes es HEREDADA.
 
 Los Shorts son la vía de descubrimiento para un canal pequeño. **2 por largo en YouTube**
 (`MAX_SHORTS_PER_LONG`). Se definen en `seo.md`, sección `## Shorts`.
@@ -491,7 +786,7 @@ cada Short, poner a mano el **vídeo relacionado** en Studio (la API no deja; el
 - Si trae `gancho` y no `tema` (seo.md antiguos), el gancho sale como título 2,5 s y avisa.
 - Subtítulos del GUION alineado con los tiempos de Whisper (sin errores tipo "Opinaya").
 
-### Estilo de los subtítulos y la fuente (oct-2026)
+### Estilo de los subtítulos y la fuente (oct-2026) — HEREDADO: el motor va SIN subtítulos
 
 Fijado tras revisar qué formatos de Short funcionan de verdad (no a ojo):
 
@@ -575,7 +870,8 @@ que una simple partición en dos.
 
 ### Velocidad y duración (oct-2026)
 
-- `playback_rate` por defecto **1.1** en los vídeos nuevos. El dueño lo bajó de 1.25 a 1.1 el
+- **Motor: `playback_rate` 1.0** (voz a velocidad natural; es lo que llevan los cinco vídeos del motor).
+- (HEREDADO) `playback_rate` por defecto **1.1** en los vídeos de imágenes. El dueño lo bajó de 1.25 a 1.1 el
   **28-oct-2026** ("un pelín más lento"). Historial: 1.2 → 1.25 (Whisper entendía igual a 1.2-1.35,
   97,7-98,4% de palabras) → 1.1. Que se entienda no significa que guste: manda el oído del dueño.
 - Datos propios: los largos de 4-4,5 min retienen 48-50% y los de 6-7 min 26-35%. Objetivo de
@@ -607,7 +903,7 @@ que una simple partición en dos.
   "¿QUIÉN INVENTÓ LA DARK WEB?". Se ve sin sonido: es lo que decide si alguien se queda.
 - **Largos de 5-7 min** (decisión del usuario, 16-oct-2026: prefiere corto a 13 min; se compensa
   con más visionados, no con más duración).
-- **Solo 2 Shorts por largo en YouTube** (`MAX_SHORTS_PER_LONG` en `scratch-yt/publish_shorts.py`):
+- (HEREDADO para los Shorts recortados; con el motor los Shorts son vídeos propios y los largos llevan `shorts.json` vacío) **Solo 2 Shorts por largo en YouTube** (`MAX_SHORTS_PER_LONG` en `scratch-yt/publish_shorts.py`):
   cada subida gasta el límite del canal (`uploadLimitExceeded`) y los Shorts no suman horas. Los 4
   siguen yendo a TikTok. En `seo.md` de los vídeos nuevos, escribir solo 2.
 
@@ -665,7 +961,10 @@ Cuéntalo **como si se lo contaras a un amigo**. Los rótulos fijos de plantilla
   anunciada, 10 etiquetas distintas, 0 "...", 5.470-5.600 caracteres. Al cambiar el texto, la voz, el troceo
   y las imágenes del largo se regeneran (las `img:` de los Shorts apuntan a claves del `frames.json` v2).
 
-### Largos DINÁMICOS (28-oct-2026, feedback del dueño sobre 2035)
+### Largos DINÁMICOS (28-oct-2026, feedback del dueño sobre 2035) — HEREDADO
+
+> El feedback (más SFX, más dinamismo, más color, algo nuevo cada pocos segundos) sigue vigente y
+> es justo lo que hace el motor; las herramientas de abajo son del método de imágenes.
 
 "Faltan muchísimos más efectos de sonido, tiene que ser mucho más dinámico; faltan imágenes, se
 queda muchas veces en un fotograma; un pelín más lento; el mono es perfecto pero un poquito más de
@@ -707,7 +1006,8 @@ python scripts/make_tsx.py <slug>                         # .tsx con movimiento 
 ### GASTO DE IMÁGENES: tope duro de 250 € (oct-2026) — NO NEGOCIABLE
 
 - Una cuenta anterior agotó el crédito gratis sin aviso y Google cobró ~100 € en la tarjeta.
-  Cada imagen cuesta dinero: Flash ~0,04 €, Pro ~0,13 € (miniaturas). Un vídeo ≈ 7-8 €.
+  Cada imagen cuesta dinero: Flash ~0,04 €, Pro ~0,13 € (miniaturas). Un vídeo de imágenes ≈ 7-8 €
+  (HEREDADO). Con el motor el gasto en Google es 0 €; el tope sigue vigente para cualquier imagen futura.
 - `scripts/gasto.py`: cada imagen se apunta en `gasto_imagenes.jsonl`; al llegar a **250 €** el
   generador se para solo (`generate_frame` llama a `gasto.comprobar`). NUNCA subir el tope sin que
   el usuario lo pida por escrito.
@@ -763,7 +1063,7 @@ repítelo cada 2-3 semanas con `python scripts/competitor_scan.py`) y nuestros d
 - Mientras no haya auditoría: `tiktok_inbox/` tiene cada Short con su .txt, nombrado por la fecha
   de su Short de YouTube, para subirlo a mano o programarlo desde TikTok Studio.
 
-## Audio: SFX y música de fondo
+## Audio: SFX y música de fondo (HEREDADO; sin música desde 27-oct-2026; SFX del motor en `assets/sfx/motor/`)
 
 ElevenLabs tiene un endpoint de **Sound Generation** separado del de voz — misma
 `ELEVENLABS_API_KEY`, otro producto (`POST /v1/sound-generation`, body `{text, duration_seconds}`).
@@ -793,7 +1093,10 @@ Higgsfield NO sirve para esto: `generate_audio` solo hace voz; los modelos de m�
   Pásale la duración real del clip (`Math.round(MUSIC_CLIP_SECONDS * fps)`) y Loop repite solo
   hasta rellenar el resto automáticamente.
 
-## Adding a new video
+## Adding a new video (HEREDADO)
+
+> Vídeo nuevo = pipeline del MOTOR (arriba): entrada en `videos.json` con `"estilo": "motor"`,
+> `script.md`, voz, `plano.json` y `motor_plano.py`. Sin `.tsx` ni `frames.json`.
 
 1. Añade la entrada en [videos.json](./videos.json) (composición, naming, playback, rutas).
 2. `channel/<canal>/videos/<video>/script.md` con el guion (1 frase por línea).
@@ -802,6 +1105,9 @@ Higgsfield NO sirve para esto: `generate_audio` solo hace voz; los modelos de m�
 5. `python scripts/orchestrate.py --video <video>` y deja que el orquestador haga el resto.
 
 ## Critical gotchas
+
+> Las de OAuth, `upload_youtube.py`, voz y miniatura siguen vigentes. Las de imágenes, `frames.json`,
+> segmentos de whisper, naming `M_SS.jpg`, Higgsfield/Gemini y música son del método HEREDADO.
 
 - **OAuth de YouTube caduca cada 7 días** mientras la app siga en modo "Testing" en Google Cloud
   (`invalid_grant: Token has been expired or revoked`). Renovar con `python scratch-yt/reauth.py`
@@ -850,7 +1156,7 @@ Skills require a restart to register after first creation. If `/skill-name` isn'
 
 YouTube data input: YouTube blocks scraping behind a consent wall — skills work with pasted data (channel URL, video titles + views, transcripts, optional Studio retention/CTR exports).
 
-## Cost / capacity reference
+## Cost / capacity reference (HEREDADO: imágenes generadas; con el motor Google = 0 €, solo ElevenLabs)
 
 **Regla no negociable (ago-2026): la generación de imágenes de PRODUCCIÓN (la tanda completa
 de un vídeo) SIEMPRE se paga con el crédito de Google Cloud vía `scripts/generate_images_gemini.py`

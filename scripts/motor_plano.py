@@ -11,6 +11,15 @@ y este script lo resuelve contra los tiempos de palabra de la locución y lo ren
     python scripts/motor_plano.py <slug> --stills 3,10,25 --dir carpeta  # varios fotogramas de un solo empaquetado
     python scripts/motor_plano.py <slug> --capitulos        # escribe "## Capítulos" de seo.md con los tiempos reales
     python scripts/motor_plano.py --hoja                    # hoja de personajes → channel/tecno/pruebas/motor/personajes.mp4
+    python scripts/motor_plano.py <slug> --voz otra.mp3     # usa otra locución (sus palabras van a words_<nombre>.json)
+    python scripts/motor_plano.py <slug> --negaciones       # check_negations.py con words.json (no necesita frames.json)
+
+RELLENO AUTOMÁTICO: si un tramo deja el centro vacío más de 1,2 s esperando a su ancla, se le pone
+una escena "relleno" desde el inicio del tramo (icono relacionado en una nube, o puntitos) hasta que
+llega el contenido. Se elige el icono de la propia escena que espera o, si no tiene, por palabras clave
+de lo que se dice. Un tramo lo desactiva con "relleno": false o lo fija con "relleno": {"icono": "..."}.
+El validador avisa también si una escena pasa más de 1,5 s enseñando solo su título.
+Dos renders del mismo slug a la vez no se dejan (bloqueo en remotion/out/<slug>.render.lock).
 
 FORMATO DEL PLANO (fuente, escrito a mano o por un agente):
 
@@ -47,6 +56,8 @@ from pathlib import Path
 
 if hasattr(sys.stdout, "reconfigure"):
     sys.stdout.reconfigure(encoding="utf-8")
+if hasattr(sys.stderr, "reconfigure"):
+    sys.stderr.reconfigure(encoding="utf-8")
 
 REPO = Path(__file__).resolve().parent.parent
 sys.path.insert(0, str(REPO / "scripts"))
@@ -71,8 +82,145 @@ SFX_MAP = {
 SFX_TARGET_LUFS = -32.6  # mismo criterio que el Short de prueba: cada efecto igualado por sonoridad
 
 ESCENAS = {"lista", "flujo", "comparativa", "cifra", "grafica", "chat", "por_dentro", "mapa", "sello", "pantalla",
-           "dinero", "pregunta", "texto", "iconos"}
-TIPOS = {"protagonista", "ciberdelincuente", "rico", "ia", "abuelo", "currito", "nino"}
+           "dinero", "pregunta", "texto", "iconos", "relleno"}
+
+# ───────────────────────── relleno automático ─────────────────────────
+RELLENO_MAX = 1.2   # s de centro vacío que se toleran al empezar un tramo
+TITULO_MAX = 1.5    # s que una escena puede pasar enseñando solo su título (aviso)
+# palabra (sin tildes, por prefijo) → icono de Iconos.tsx; el primero que suene en el hueco gana
+PALABRAS_ICONO = [
+    ("bitcoin", "bitcoin"), ("cripto", "bitcoin"), ("dolar", "dolar"), ("euro", "dolar"), ("dinero", "dolar"),
+    ("pag", "dolar"), ("cobr", "dolar"), ("gana", "dolar"), ("factur", "dolar"), ("ingres", "dolar"), ("precio", "dolar"),
+    ("banco", "banco"), ("hacienda", "balanza"), ("impuest", "balanza"), ("ley", "mazo"), ("multa", "mazo"),
+    ("tribunal", "mazo"), ("juicio", "mazo"), ("delito", "mazo"), ("carcel", "mazo"), ("cnmc", "mazo"),
+    ("movil", "movil"), ("iphone", "movil"), ("samsung", "movil"), ("galaxy", "movil"), ("tablet", "movil"),
+    ("app", "movil"), ("bateri", "bateria"), ("carga", "bateria"), ("calor", "termometro"), ("quema", "fuego"),
+    ("grados", "termometro"), ("chip", "chip"), ("procesador", "chip"), ("memoria", "caja"), ("trastero", "caja"),
+    ("actualiz", "reloj_arena"), ("lento", "tortuga"), ("frena", "tortuga"), ("youtube", "play"), ("video", "play"),
+    ("short", "play"), ("anuncio", "megafono"), ("marca", "megafono"), ("twitch", "micro"), ("directo", "micro"),
+    ("camiseta", "camiseta"), ("chocolate", "chocolate"), ("record", "trofeo"), ("evento", "ticket"),
+    ("entrada", "ticket"), ("estadio", "ticket"), ("andorra", "avion"), ("muda", "avion"), ("casa", "casa"),
+    ("españa", "mundo"), ("espana", "mundo"), ("mundo", "mundo"), ("pais", "mundo"), ("europa", "mundo"),
+    ("francia", "mundo"), ("italia", "mundo"), ("corea", "mundo"), ("google", "ojo"), ("busca", "ojo"),
+    ("secret", "candado"), ("trampa", "candado"), ("idea", "bombilla"), ("año", "calendario"), ("anos", "calendario"),
+    ("mes", "calendario"), ("dias", "calendario"), ("hora", "reloj_arena"), ("fan", "hucha"), ("propina", "hucha"),
+    ("suscri", "hucha"), ("sube", "grafico_sube"), ("crece", "grafico_sube"), ("baja", "grafico_baja"),
+    ("cae", "grafico_baja"), ("examen", "examen"), ("puerta", "puerta"), ("mochila", "mochila"),
+]
+_T = lambda d, k, dflt: d[k] if isinstance(d.get(k), (int, float)) else dflt
+
+
+def _iconos_de(o) -> list[str]:
+    out = []
+    if isinstance(o, dict):
+        for k, v in o.items():
+            if k == "icono" and isinstance(v, str):
+                out.append(v)
+            else:
+                out += _iconos_de(v)
+    elif isinstance(o, list):
+        for v in o:
+            out += _iconos_de(v)
+    return out
+
+
+def tiempos_escena(tipo: str, d: dict, t0: float) -> tuple[float, float]:
+    """(primer momento en que se ve ALGO, primer momento en que se ve su CONTENIDO, no solo el título)
+    con los mismos valores por defecto que Escenas.tsx."""
+    tit = bool(d.get("titulo"))
+    if tipo == "texto":
+        ps = d.get("palabras") or []
+        c = min([_T(x, "al", t0 + 0.1 + i * 0.25) for i, x in enumerate(ps)] or [t0])
+        return c, c
+    if tipo == "cifra":
+        ta = _T(d, "al", t0 + 0.1)
+        c = max(t0, ta - 0.3) if d.get("desde", 0) != d.get("hasta", 0) else t0
+        return (t0 if d.get("antes") else c), c
+    if tipo == "iconos":
+        its = d.get("items") or []
+        c = min([_T(x, "al", t0 + 0.15 + i * 0.4) for i, x in enumerate(its)] or [t0])
+        return (t0 if tit else c), c
+    if tipo == "pregunta":
+        c = _T(d, "al", t0 + 0.05)
+        return c, c
+    if tipo == "sello":
+        c = _T(d, "al", t0 + 0.2) - 0.05
+        return c, c
+    if tipo == "comparativa":
+        c = _T(d.get("a") or {}, "al", t0 + 0.1)
+        return (t0 if tit else c), c
+    if tipo == "flujo":
+        ns = d.get("nodos") or []
+        c = min([_T(x, "al", t0 + 0.2 + i * 0.7) for i, x in enumerate(ns)] or [t0])
+        return (t0 if tit else c), c
+    if tipo == "chat":
+        ms = d.get("mensajes") or []
+        c = min([_T(x, "al", t0 + 0.2 + i * 0.8) for i, x in enumerate(ms)] or [t0])
+        return c, c
+    if tipo == "dinero":
+        c = _T(d, "al", t0)
+        return c, c
+    # lista, grafica, pantalla, mapa, por_dentro, relleno: se ven desde el principio
+    return t0, t0
+
+
+def icono_para(words: list[dict], a: float, b: float) -> str | None:
+    for w in words:
+        if w["start"] < a - 0.05:
+            continue
+        if w["start"] > b + 0.6:
+            break
+        n = norm(w["text"])
+        for pref, ic in PALABRAS_ICONO:
+            if n.startswith(norm(pref)) and len(n) >= len(norm(pref)):
+                return ic
+    return None
+
+
+def rellenar(tramos_src: list[dict], tramos: list[dict], words: list[dict], R) -> int:
+    """Pone una escena "relleno" al principio de los tramos cuyo centro se queda vacío > RELLENO_MAX s y
+    avisa de las escenas que pasan > TITULO_MAX s solo con el título. Devuelve cuántos rellenos puso."""
+    todas = [(e, tiempos_escena(e["tipo"], e["d"], e["t0"])) for tr in tramos for e in tr["escenas"]]
+    for e, (vis, cont) in todas:
+        if e["tipo"] in ("iconos", "flujo", "comparativa") and e["d"].get("titulo") and cont - e["t0"] > TITULO_MAX:
+            R.avisos.append(f"escena {e['tipo']} en {e['t0']:.1f}s: {cont - e['t0']:.1f} s solo con el título «{e['d']['titulo']}»")
+    n = 0
+    for k, (tr_src, tr) in enumerate(zip(tramos_src, tramos)):
+        cfg = tr_src.get("relleno")
+        if cfg is False:
+            continue
+        t0, t1 = tr["t0"], tr["t1"]
+        primero = t1
+        espera = None  # la escena que se está esperando
+        for e, (vis, cont) in todas:
+            if e["t1"] <= t0 + 0.05 or e["t0"] >= t1 or e["tipo"] == "relleno":
+                continue
+            v = max(t0, vis)
+            if v < primero:
+                primero, espera = v, e
+        hueco = primero - t0
+        if hueco <= RELLENO_MAX and not isinstance(cfg, dict):
+            continue
+        d = dict(cfg) if isinstance(cfg, dict) else {}
+        if "icono" not in d and "texto" not in d:
+            ics = _iconos_de(espera["d"]) if espera else []
+            ic = ics[0] if ics else icono_para(words, t0, primero)
+            if ic:
+                d["icono"] = ic
+        if espera:
+            for kk in ("zona", "caja"):
+                if kk in espera["d"] and kk not in d:
+                    d[kk] = espera["d"][kk]
+        tr["escenas"].insert(0, {"tipo": "relleno", "d": d, "t0": t0, "t1": round(min(t1, primero + 0.12), 3)})
+        n += 1
+    return n
+
+TIPOS = {"protagonista", "ciberdelincuente", "rico", "ia", "abuelo", "currito", "nino",
+         # v3 (nov-2026)
+         "mona", "cientifica", "policia", "medico", "alien", "perro", "gato", "influencer", "profe", "cocinero",
+         "astronauta"}
+OBJETOS = {"ninguno", "bolsa", "bitcoin", "movil", "baston", "puntero", "billete", "lupa", "pizza", "megafono", "puro",
+           "bolso", "probeta", "sarten", "aro_luz", "paquete"}
 POSES = {"de_pie", "señalar", "señalar_arriba", "brazos_arriba", "pensar", "encogerse", "correr", "caminar",
          "sentado", "brazos_cruzados", "saludar", "jarras", "miedo", "presentar", "celebrar", "empujar"}
 CARAS = {"normal", "sorpresa", "risa", "miedo", "enfado", "guiño", "triste", "chulo"}
@@ -141,13 +289,16 @@ def preparar_publico(slug: str | None, voz: Path | None) -> dict:
 
 
 # ───────────────────────── palabras ─────────────────────────
-def palabras(slug: str, cfg: dict) -> list[dict]:
-    """Tiempos de whisper alineados con el TEXTO del guion (cifras en letras, sin errores de oído)."""
+def palabras(slug: str, cfg: dict, voz: Path | None = None) -> list[dict]:
+    """Tiempos de whisper alineados con el TEXTO del guion (cifras en letras, sin errores de oído).
+    Con otra voz (--voz), la caché va aparte (words_<nombre>.json) para no pisar la de la voz oficial."""
     from whisper_timestamps import cached_words
     from make_shorts import align_words, script_words
     mdir = REPO / cfg["manifest_dir"]
-    audio = REMOTION / "public" / cfg["audio_static"]
-    ww = cached_words(audio, mdir / "words.json")
+    oficial = REMOTION / "public" / cfg["audio_static"]
+    audio = voz or oficial
+    cache = mdir / "words.json" if audio.resolve() == oficial.resolve() else mdir / f"words_{audio.stem}.json"
+    ww = cached_words(audio, cache)
     sw = script_words(REPO / cfg["script"])
     times = align_words(sw, ww)
     return [{"text": w, "start": round(a, 3), "end": round(b, 3)} for w, (a, b) in zip(sw, times)]
@@ -251,6 +402,10 @@ def resolver_plano(slug: str, cfg: dict, src: dict, words: list[dict], dur_audio
                 R.errores.append(f"{ctx}: efecto desconocido «{s[0]}»")
         tramos.append({"t0": t0, "t1": t1, "color": tr.get("color"), "escenas": escenas, "sfx": sfx,
                        "golpes": R.todo(tr.get("golpes", []), base, t0, t1, ctx)})
+
+    n_rell = rellenar(tramos_src, tramos, words, R)
+    if n_rell:
+        R.avisos.append(f"relleno automático en {n_rell} tramos (centro vacío > {RELLENO_MAX} s al empezar)")
 
     # 3) reparto: apariciones continuas y claves
     reparto_src = src.get("reparto", {})
@@ -365,6 +520,63 @@ def ritmo(plano: dict) -> tuple[float, float, list]:
     return mean, (max(gaps)[0] if gaps else 0), big
 
 
+# ───────────────────────── bloqueo: un solo render por slug ─────────────────────────
+def _pid_vivo(pid: int) -> bool:
+    if pid <= 0:
+        return False
+    if sys.platform == "win32":
+        r = subprocess.run(["tasklist", "/FI", f"PID eq {pid}", "/NH", "/FO", "CSV"], capture_output=True, text=True)
+        return f'"{pid}"' in r.stdout
+    try:
+        import os
+        os.kill(pid, 0)
+        return True
+    except OSError:
+        return False
+
+
+class Bloqueo:
+    """remotion/out/<nombre>.render.lock con el PID: si otro render del mismo slug sigue vivo, se niega.
+    Un candado de un proceso muerto (render cortado) se recoge solo."""
+
+    def __init__(self, nombre: str):
+        self.path = REMOTION / "out" / f"{nombre}.render.lock"
+
+    def __enter__(self):
+        import os
+        self.path.parent.mkdir(parents=True, exist_ok=True)
+        for _ in range(2):
+            try:
+                fd = os.open(str(self.path), os.O_CREAT | os.O_EXCL | os.O_WRONLY)
+                os.write(fd, str(os.getpid()).encode())
+                os.close(fd)
+                return self
+            except FileExistsError:
+                try:
+                    pid = int(self.path.read_text().strip() or 0)
+                except (OSError, ValueError):
+                    pid = 0
+                if _pid_vivo(pid):
+                    sys.exit(f"Ya hay un render de «{self.path.stem.replace('.render', '')}» en marcha (PID {pid}). "
+                             f"Espera a que acabe o, si no existe, borra {self.path}.")
+                self.path.unlink(missing_ok=True)  # candado huérfano
+        sys.exit(f"No puedo crear el bloqueo {self.path}")
+
+    def __exit__(self, *exc):
+        self.path.unlink(missing_ok=True)
+        return False
+
+
+def negaciones(slug: str, cfg: dict, voz: Path) -> int:
+    """check_negations.py con las palabras de whisper de words.json (el motor no tiene frames.json)."""
+    mdir = REPO / cfg["manifest_dir"]
+    oficial = REMOTION / "public" / cfg["audio_static"]
+    cache = mdir / "words.json" if voz.resolve() == oficial.resolve() else mdir / f"words_{voz.stem}.json"
+    cmd = [sys.executable, str(REPO / "scripts" / "check_negations.py"), slug, "--palabras", str(cache), "--audio", str(voz)]
+    print("  " + " ".join(cmd))
+    return subprocess.run(cmd, cwd=REPO).returncode
+
+
 # ───────────────────────── render ─────────────────────────
 def npx() -> str:
     return "npx.cmd" if sys.platform == "win32" else "npx"
@@ -444,15 +656,18 @@ def main() -> None:
     ap.add_argument("--out")
     ap.add_argument("--capitulos", action="store_true")
     ap.add_argument("--hoja", action="store_true", help="renderiza la hoja de personajes")
+    ap.add_argument("--voz", help="otra locución (.mp3) en vez de la de videos.json")
+    ap.add_argument("--negaciones", action="store_true", help="comprueba con check_negations.py que la voz no se comió ningún no/sin/nunca")
     a = ap.parse_args()
 
     if a.hoja:
-        preparar_publico(None, None)
-        raw = REMOTION / "out" / "hoja_personajes_raw.mp4"
-        render("HojaPersonajes", raw, None)
-        final = Path(a.out) if a.out else REPO / "channel" / "tecno" / "pruebas" / "motor" / "personajes.mp4"
-        loudnorm(raw, final)
-        raw.unlink(missing_ok=True)
+        with Bloqueo("hoja"):
+            preparar_publico(None, None)
+            raw = REMOTION / "out" / "hoja_personajes_raw.mp4"
+            render("HojaPersonajes", raw, None)
+            final = Path(a.out) if a.out else REPO / "channel" / "tecno" / "pruebas" / "motor" / "personajes.mp4"
+            loudnorm(raw, final)
+            raw.unlink(missing_ok=True)
         return
     if not a.slug:
         sys.exit("Indica el slug del vídeo (o --hoja)")
@@ -460,9 +675,11 @@ def main() -> None:
     cfg = config.get_video(a.slug)
     mdir = REPO / cfg["manifest_dir"]
     src = json.loads((mdir / "plano.json").read_text(encoding="utf-8"))
-    voz = REMOTION / "public" / cfg["audio_static"]
+    voz = Path(a.voz).resolve() if a.voz else REMOTION / "public" / cfg["audio_static"]
+    if not voz.exists():
+        sys.exit(f"No existe la voz {voz}")
     gains = preparar_publico(a.slug, voz)
-    words = palabras(a.slug, cfg)
+    words = palabras(a.slug, cfg, voz)
     plano, R = resolver_plano(a.slug, cfg, src, words, ffprobe_dur(voz), gains)
     for w in R.avisos:
         print(f"  ⚠ {w}")
@@ -488,11 +705,15 @@ def main() -> None:
         if a.out and a.still is not None:
             shutil.move(str(carpeta / f"t{a.still}.png"), a.out)
             print(f"  still → {a.out}")
+    if a.negaciones:
+        if negaciones(a.slug, cfg, voz):
+            print("  ✗ check_negations: hay alguna negación perdida (regenera la voz)")
     if a.render:
-        raw = REMOTION / "out" / f"{a.slug}_raw.mp4"
-        render("MotorPlano", raw, {"slug": a.slug, "plano": None})
-        loudnorm(raw, REMOTION / "output" / f"{a.slug}.mp4")
-        raw.unlink(missing_ok=True)
+        with Bloqueo(a.slug):
+            raw = REMOTION / "out" / f"{a.slug}_raw.mp4"
+            render("MotorPlano", raw, {"slug": a.slug, "plano": None})
+            loudnorm(raw, REMOTION / "output" / f"{a.slug}.mp4")
+            raw.unlink(missing_ok=True)
 
 
 if __name__ == "__main__":

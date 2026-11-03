@@ -1,0 +1,2961 @@
+{
+ "formato": "16:9",
+ "reparto": {
+  "mono": {
+   "tipo": "protagonista",
+   "narrador": true
+  },
+  "nino": {
+   "tipo": "nino"
+  },
+  "rico": {
+   "tipo": "rico"
+  },
+  "abuelo": {
+   "tipo": "abuelo"
+  },
+  "ia": {
+   "tipo": "ia"
+  }
+ },
+ "tramos": [
+  {
+   "en": "Desbloqueas el móvil",
+   "color": "azul",
+   "capitulo": "Tu móvil va lento",
+   "escenas": [
+    {
+     "tipo": "pantalla",
+     "dispositivo": "movil",
+     "titulo": "DESBLOQUEANDO…",
+     "lineas": [
+      {
+       "texto": "Cargando…",
+       "al": "@tarda",
+       "color": "amarillo"
+      }
+     ]
+    }
+   ],
+   "personajes": {
+    "mono": {
+     "x": 0.11,
+     "y": 0.95,
+     "escala": 0.8,
+     "pose": "de_pie",
+     "cara": "normal",
+     "objeto": "movil",
+     "cambios": [
+      {
+       "al": "@tarda",
+       "pose": "encogerse",
+       "cara": "enfado"
+      }
+     ]
+    }
+   },
+   "sfx": [
+    [
+     "click",
+     "@desbloqueas",
+     0.9
+    ],
+    [
+     "reloj",
+     "@tarda",
+     0.7
+    ]
+   ]
+  },
+  {
+   "en": "Hace dos años volaba",
+   "escenas": [
+    {
+     "tipo": "comparativa",
+     "a": {
+      "titulo": "HACE 2 AÑOS",
+      "icono": "cohete",
+      "al": "@volaba",
+      "color": "verde"
+     },
+     "b": {
+      "titulo": "HOY",
+      "icono": "tortuga",
+      "al": "@nada",
+      "color": "rojo"
+     }
+    }
+   ],
+   "personajes": {
+    "mono": {
+     "pose": "pensar",
+     "cara": "normal",
+     "objeto": "ninguno"
+    },
+    "nino": {
+     "x": 0.89,
+     "y": 0.95,
+     "escala": 0.9,
+     "mira": "izq",
+     "pose": "de_pie",
+     "cara": "triste",
+     "objeto": "movil",
+     "entra": "@volaba",
+     "entrada": "der"
+    }
+   }
+  },
+  {
+   "en": "Se ha estropeado",
+   "color": "rojo",
+   "escenas": [
+    {
+     "tipo": "pregunta",
+     "pregunta": "¿Se ha estropeado?",
+     "al": "@estropeado",
+     "respuesta": "NO",
+     "respuesta_al": "@no",
+     "color": "verde"
+    }
+   ],
+   "personajes": {
+    "mono": {
+     "pose": "pensar",
+     "cara": "normal",
+     "cambios": [
+      {
+       "al": "@no",
+       "pose": "brazos_cruzados",
+       "cara": "chulo",
+       "salta": true
+      }
+     ]
+    },
+    "nino": {
+     "pose": "encogerse",
+     "cara": "sorpresa"
+    }
+   }
+  },
+  {
+   "en": "Hay una explicación",
+   "color": "amarillo",
+   "escenas": [
+    {
+     "tipo": "cifra",
+     "caja": {
+      "y": 380
+     },
+     "desde": 1,
+     "hasta": 10,
+     "al": "@diez",
+     "dur": 0.6,
+     "antes": "HAY UNA EXPLICACIÓN. BUENO…",
+     "etiqueta": "explicaciones",
+     "etiqueta_al": "@diez+0.3",
+     "color": "amarillo",
+     "tam": 250
+    }
+   ],
+   "personajes": {
+    "mono": {
+     "pose": "presentar",
+     "cara": "normal",
+     "cambios": [
+      {
+       "al": "@diez",
+       "pose": "señalar_arriba",
+       "cara": "guiño"
+      }
+     ]
+    },
+    "nino": {
+     "pose": "de_pie",
+     "cara": "sorpresa"
+    }
+   }
+  },
+  {
+   "en": "Y al final, la gran pregunta",
+   "color": "rojo",
+   "escenas": [
+    {
+     "tipo": "pregunta",
+     "pregunta": "¿Te lo hacen a propósito?",
+     "al": "@gran"
+    }
+   ],
+   "personajes": {
+    "mono": {
+     "pose": "pensar",
+     "cara": "normal"
+    },
+    "rico": {
+     "x": 0.89,
+     "y": 0.95,
+     "escala": 0.8,
+     "mira": "izq",
+     "pose": "jarras",
+     "cara": "chulo",
+     "objeto": "ninguno",
+     "entra": "@pregunta",
+     "entrada": "cae",
+     "cambios": [
+      {
+       "al": "@proposito",
+       "pose": "encogerse",
+       "cara": "guiño"
+      }
+     ]
+    }
+   },
+   "golpes": [
+    "@proposito"
+   ]
+  },
+  {
+   "en": "Estas son las diez razones",
+   "color": "amarillo",
+   "escenas": [
+    {
+     "tipo": "iconos",
+     "tam": 260,
+     "items": [
+      {
+       "icono": "tortuga",
+       "texto": "10 RAZONES",
+       "al": "@diez"
+      }
+     ]
+    }
+   ],
+   "personajes": {
+    "mono": {
+     "pose": "presentar",
+     "cara": "risa"
+    },
+    "rico": {
+     "pose": "brazos_cruzados",
+     "cara": "chulo"
+    }
+   }
+  },
+  {
+   "en": "Te las cuento de una en una",
+   "escenas": [
+    {
+     "tipo": "flujo",
+     "nodos": [
+      {
+       "texto": "LA MÁS COMÚN",
+       "icono": "movil",
+       "al": "@comun"
+      },
+      {
+       "texto": "LA MÁS SORPRENDENTE",
+       "icono": "bombilla",
+       "al": "@sorprendente",
+       "color": "rojo"
+      }
+     ]
+    }
+   ],
+   "personajes": {
+    "mono": {
+     "pose": "señalar",
+     "cara": "guiño"
+    }
+   }
+  },
+  {
+   "en": "Número uno",
+   "color": "azul",
+   "capitulo": "1. La memoria llena",
+   "escenas": [
+    {
+     "tipo": "lista",
+     "n": 1,
+     "titulo": "LA MEMORIA LLENA",
+     "apodo": "EL TRASTERO",
+     "titulo_al": "@memoria",
+     "apodo_al": "@trastero",
+     "color": "azul"
+    }
+   ],
+   "personajes": {
+    "mono": {
+     "pose": "jarras",
+     "cara": "normal",
+     "salta": true
+    }
+   }
+  },
+  {
+   "en": "La memoria de tu móvil no escribe",
+   "escenas": [
+    {
+     "tipo": "iconos",
+     "tam": 230,
+     "items": [
+      {
+       "icono": "chip",
+       "texto": "NO ESCRIBE ENCIMA",
+       "al": "@encima"
+      },
+      {
+       "icono": "caja",
+       "texto": "PRIMERO BORRA",
+       "al": "@borrar"
+      }
+     ]
+    }
+   ],
+   "personajes": {
+    "mono": {
+     "pose": "señalar",
+     "cara": "normal"
+    },
+    "nino": {
+     "x": 0.89,
+     "y": 0.95,
+     "escala": 0.9,
+     "mira": "izq",
+     "pose": "pensar",
+     "cara": "normal",
+     "objeto": "movil",
+     "entra": "@movil",
+     "entrada": "salto"
+    }
+   }
+  },
+  {
+   "en": "Si está casi llena",
+   "color": "rojo",
+   "escenas": [
+    {
+     "tipo": "texto",
+     "tam": 110,
+     "palabras": [
+      {
+       "texto": "CADA FOTO…",
+       "al": "@foto"
+      },
+      {
+       "texto": "UN TETRIS",
+       "al": "@tetris",
+       "caja": true,
+       "color": "azul"
+      }
+     ]
+    }
+   ],
+   "personajes": {
+    "mono": {
+     "pose": "encogerse",
+     "cara": "sorpresa"
+    },
+    "nino": {
+     "pose": "de_pie",
+     "cara": "normal",
+     "cambios": [
+      {
+       "al": "@atasca",
+       "pose": "miedo",
+       "cara": "miedo"
+      }
+     ]
+    }
+   },
+   "golpes": [
+    "@atasca"
+   ],
+   "sfx": [
+    [
+     "glitch",
+     "@atasca",
+     0.6
+    ]
+   ],
+   "relleno": {
+    "icono": "caja"
+   }
+  },
+  {
+   "en": "En dos mil trece, la tablet",
+   "escenas": [
+    {
+     "tipo": "iconos",
+     "tam": 230,
+     "items": [
+      {
+       "icono": "movil",
+       "texto": "NEXUS 7 · 2013",
+       "al": "@nexus"
+      },
+      {
+       "icono": "tortuga",
+       "texto": "SE ARRASTRABA",
+       "al": "@arrastraba"
+      }
+     ]
+    }
+   ],
+   "personajes": {
+    "mono": {
+     "pose": "señalar",
+     "cara": "normal"
+    },
+    "nino": {
+     "pose": "pensar",
+     "cara": "triste"
+    }
+   }
+  },
+  {
+   "en": "Lo arregló una actualización",
+   "color": "verde",
+   "escenas": [
+    {
+     "tipo": "sello",
+     "texto": "ARREGLADO",
+     "al": "@arreglo",
+     "color": "verde",
+     "tam": 120
+    }
+   ],
+   "personajes": {
+    "mono": {
+     "pose": "celebrar",
+     "cara": "risa"
+    },
+    "nino": {
+     "pose": "brazos_arriba",
+     "cara": "risa"
+    }
+   }
+  },
+  {
+   "en": "Así que entra en Ajustes",
+   "escenas": [
+    {
+     "tipo": "pantalla",
+     "dispositivo": "movil",
+     "titulo": "AJUSTES",
+     "lineas": [
+      {
+       "texto": "Almacenamiento",
+       "al": "@almacenamiento"
+      },
+      {
+       "texto": "Borra las apps que no usas",
+       "al": "@borra",
+       "color": "rojo"
+      },
+      {
+       "texto": "Deja libre un buen trozo",
+       "al": "@libre",
+       "color": "verde"
+      }
+     ]
+    }
+   ],
+   "personajes": {
+    "mono": {
+     "pose": "presentar",
+     "cara": "normal"
+    },
+    "nino": {
+     "pose": "de_pie",
+     "cara": "normal",
+     "cambios": [
+      {
+       "al": "@libre",
+       "pose": "celebrar",
+       "cara": "risa"
+      }
+     ]
+    }
+   }
+  },
+  {
+   "en": "Número dos",
+   "color": "rosa",
+   "capitulo": "2. Las apps que engordan",
+   "escenas": [
+    {
+     "tipo": "lista",
+     "n": 2,
+     "titulo": "APPS QUE ENGORDAN",
+     "apodo": "LA MOCHILA",
+     "titulo_al": "@apps",
+     "apodo_al": "@mochila",
+     "color": "rosa"
+    }
+   ],
+   "personajes": {
+    "mono": {
+     "pose": "jarras",
+     "cara": "risa",
+     "salta": true
+    }
+   }
+  },
+  {
+   "en": "Cada año tus apps hacen más cosas",
+   "escenas": [
+    {
+     "tipo": "iconos",
+     "tam": 230,
+     "items": [
+      {
+       "icono": "mochila",
+       "texto": "HACEN MÁS COSAS",
+       "al": "@cosas"
+      },
+      {
+       "icono": "caja",
+       "texto": "Y PESAN MÁS",
+       "al": "@pesan"
+      }
+     ]
+    }
+   ],
+   "personajes": {
+    "mono": {
+     "pose": "señalar",
+     "cara": "normal"
+    },
+    "nino": {
+     "x": 0.89,
+     "y": 0.95,
+     "escala": 0.9,
+     "mira": "izq",
+     "pose": "caminar",
+     "cara": "triste",
+     "objeto": "ninguno",
+     "entra": "@apps",
+     "entrada": "der",
+     "cambios": [
+      {
+       "al": "@pesan",
+       "pose": "encogerse",
+       "cara": "triste"
+      }
+     ]
+    }
+   }
+  },
+  {
+   "en": "Sensor Tower midió",
+   "escenas": [
+    {
+     "tipo": "texto",
+     "tam": 84,
+     "palabras": [
+      {
+       "texto": "SENSOR TOWER",
+       "al": "@sensor",
+       "caja": true,
+       "color": "rosa"
+      },
+      {
+       "texto": "LAS 10 APPS MÁS INSTALADAS",
+       "al": "@instaladas"
+      }
+     ],
+     "por_fila": 16
+    }
+   ],
+   "personajes": {
+    "mono": {
+     "pose": "presentar",
+     "cara": "normal"
+    },
+    "nino": {
+     "pose": "pensar",
+     "cara": "normal",
+     "objeto": "movil"
+    }
+   }
+  },
+  {
+   "en": "En dos mil trece ocupaban",
+   "color": "rojo",
+   "escenas": [
+    {
+     "tipo": "comparativa",
+     "a": {
+      "titulo": "2013",
+      "valor": "164 MB",
+      "icono": "movil",
+      "al": "@ocupaban",
+      "color": "verde"
+     },
+     "b": {
+      "titulo": "2017",
+      "valor": "CASI 2 GB",
+      "icono": "mochila",
+      "al": "@diecisiete",
+      "color": "rojo"
+     }
+    },
+    {
+     "tipo": "sello",
+     "texto": "x11",
+     "caja": {
+      "y": 790
+     },
+     "tam": 130,
+     "al": "@once"
+    }
+   ],
+   "personajes": {
+    "mono": {
+     "pose": "señalar",
+     "cara": "sorpresa"
+    },
+    "nino": {
+     "pose": "de_pie",
+     "cara": "normal",
+     "cambios": [
+      {
+       "al": "@once",
+       "pose": "miedo",
+       "cara": "miedo"
+      }
+     ]
+    }
+   }
+  },
+  {
+   "en": "Lo que uses poco",
+   "color": "verde",
+   "escenas": [
+    {
+     "tipo": "iconos",
+     "tam": 230,
+     "items": [
+      {
+       "icono": "mundo",
+       "texto": "ÁBRELO EN LA WEB",
+       "al": "@web"
+      },
+      {
+       "icono": "mochila",
+       "texto": "LA APP PESA MÁS",
+       "al": "@pesa"
+      }
+     ]
+    }
+   ],
+   "personajes": {
+    "mono": {
+     "pose": "presentar",
+     "cara": "guiño"
+    },
+    "nino": {
+     "pose": "celebrar",
+     "cara": "risa",
+     "objeto": "ninguno"
+    }
+   }
+  },
+  {
+   "en": "Número tres",
+   "color": "verde",
+   "capitulo": "3. Las apps en segundo plano",
+   "escenas": [
+    {
+     "tipo": "lista",
+     "n": 3,
+     "titulo": "EN SEGUNDO PLANO",
+     "apodo": "EL OKUPA",
+     "titulo_al": "@segundo",
+     "apodo_al": "@okupa",
+     "color": "verde"
+    }
+   ],
+   "personajes": {
+    "mono": {
+     "pose": "jarras",
+     "cara": "normal",
+     "salta": true
+    }
+   }
+  },
+  {
+   "en": "Cierras una app",
+   "escenas": [
+    {
+     "tipo": "iconos",
+     "tam": 230,
+     "items": [
+      {
+       "icono": "movil",
+       "texto": "LA CIERRAS",
+       "al": "@cierras"
+      },
+      {
+       "icono": "ojo",
+       "texto": "SIGUE DESPIERTA",
+       "al": "@despiertas"
+      }
+     ]
+    }
+   ],
+   "personajes": {
+    "mono": {
+     "pose": "de_pie",
+     "cara": "normal",
+     "cambios": [
+      {
+       "al": "@despiertas",
+       "pose": "señalar",
+       "cara": "sorpresa"
+      }
+     ]
+    },
+    "ia": {
+     "x": 0.89,
+     "y": 0.95,
+     "escala": 0.8,
+     "mira": "izq",
+     "pose": "brazos_cruzados",
+     "cara": "chulo",
+     "entra": "@pero",
+     "entrada": "cae"
+    }
+   }
+  },
+  {
+   "en": "En dos mil quince, Facebook admitió",
+   "escenas": [
+    {
+     "tipo": "pantalla",
+     "dispositivo": "movil",
+     "titulo": "2015 · FACEBOOK",
+     "lineas": [
+      {
+       "texto": "El audio sigue abierto",
+       "al": "@abierto",
+       "color": "rojo"
+      },
+      {
+       "texto": "después de ver un vídeo",
+       "al": "@video"
+      }
+     ]
+    }
+   ],
+   "personajes": {
+    "mono": {
+     "pose": "señalar",
+     "cara": "sorpresa"
+    },
+    "ia": {
+     "pose": "jarras",
+     "cara": "risa"
+    }
+   }
+  },
+  {
+   "en": "Así seguía viva",
+   "color": "rojo",
+   "escenas": [
+    {
+     "tipo": "iconos",
+     "tam": 230,
+     "items": [
+      {
+       "icono": "bateria",
+       "color": "vacia",
+       "texto": "SE COME LA BATERÍA",
+       "al": "@bateria"
+      },
+      {
+       "icono": "chip",
+       "texto": "Y EL PROCESADOR",
+       "al": "@procesador"
+      }
+     ]
+    }
+   ],
+   "personajes": {
+    "mono": {
+     "pose": "jarras",
+     "cara": "enfado"
+    },
+    "ia": {
+     "pose": "celebrar",
+     "cara": "risa",
+     "dice": [
+      {
+       "texto": "Ñam, ñam",
+       "al": "@comiendose",
+       "hasta": "@fin"
+      }
+     ]
+    }
+   }
+  },
+  {
+   "en": "Quítales el permiso",
+   "color": "verde",
+   "escenas": [
+    {
+     "tipo": "pantalla",
+     "dispositivo": "movil",
+     "titulo": "PERMISOS",
+     "lineas": [
+      {
+       "texto": "Segundo plano: NO",
+       "al": "@permiso",
+       "color": "rojo"
+      },
+      {
+       "texto": "Solo las que lo necesitan",
+       "al": "@necesitan",
+       "color": "verde"
+      }
+     ]
+    }
+   ],
+   "personajes": {
+    "mono": {
+     "pose": "presentar",
+     "cara": "normal"
+    },
+    "ia": {
+     "pose": "encogerse",
+     "cara": "sorpresa"
+    }
+   }
+  },
+  {
+   "en": "Les cierras la puerta",
+   "escenas": [
+    {
+     "tipo": "iconos",
+     "tam": 260,
+     "items": [
+      {
+       "icono": "puerta",
+       "texto": "PUERTA CERRADA",
+       "al": "@puerta"
+      }
+     ]
+    }
+   ],
+   "personajes": {
+    "mono": {
+     "pose": "señalar",
+     "cara": "guiño"
+    },
+    "ia": {
+     "pose": "brazos_cruzados",
+     "cara": "chulo",
+     "salta": true
+    }
+   },
+   "sfx": [
+    [
+     "puerta",
+     "@puerta",
+     0.8
+    ]
+   ]
+  },
+  {
+   "en": "Número cuatro",
+   "color": "naranja",
+   "capitulo": "4. La batería",
+   "escenas": [
+    {
+     "tipo": "lista",
+     "n": 4,
+     "titulo": "LA BATERÍA",
+     "apodo": "EL ABUELO",
+     "titulo_al": "@bateria",
+     "apodo_al": "@abuelo",
+     "color": "naranja"
+    }
+   ],
+   "personajes": {
+    "mono": {
+     "pose": "jarras",
+     "cara": "risa",
+     "salta": true
+    },
+    "abuelo": {
+     "x": 0.89,
+     "y": 0.95,
+     "escala": 0.8,
+     "mira": "izq",
+     "pose": "de_pie",
+     "cara": "normal",
+     "entra": "@abuelo",
+     "entrada": "cae"
+    }
+   }
+  },
+  {
+   "en": "Las baterías de litio envejecen",
+   "escenas": [
+    {
+     "tipo": "iconos",
+     "tam": 230,
+     "items": [
+      {
+       "icono": "bateria",
+       "texto": "LITIO",
+       "al": "@litio"
+      },
+      {
+       "icono": "calendario",
+       "texto": "CADA CARGA, MÁS VIEJA",
+       "al": "@carga"
+      }
+     ]
+    }
+   ],
+   "personajes": {
+    "mono": {
+     "pose": "señalar",
+     "cara": "normal"
+    },
+    "abuelo": {
+     "pose": "encogerse",
+     "cara": "triste"
+    }
+   }
+  },
+  {
+   "en": "Según Apple, hasta el iPhone catorce",
+   "escenas": [
+    {
+     "tipo": "comparativa",
+     "titulo": "AL 80 % DE BATERÍA",
+     "a": {
+      "titulo": "HASTA EL IPHONE 14",
+      "valor": "500 CICLOS",
+      "icono": "bateria",
+      "al": "@catorce",
+      "color": "naranja"
+     },
+     "b": {
+      "titulo": "EL IPHONE 15",
+      "valor": "1.000 CICLOS",
+      "icono": "bateria",
+      "al": "@quince",
+      "color": "verde"
+     },
+     "vs_al": "@quince-0.3"
+    }
+   ],
+   "personajes": {
+    "mono": {
+     "pose": "presentar",
+     "cara": "normal"
+    },
+    "abuelo": {
+     "pose": "pensar",
+     "cara": "normal"
+    }
+   }
+  },
+  {
+   "en": "Y una batería vieja da menos fuerza",
+   "color": "rojo",
+   "escenas": [
+    {
+     "tipo": "iconos",
+     "tam": 230,
+     "items": [
+      {
+       "icono": "bateria",
+       "color": "vacia",
+       "texto": "MENOS FUERZA",
+       "al": "@fuerza"
+      },
+      {
+       "icono": "movil",
+       "color": "negro",
+       "texto": "SE APAGA SOLO",
+       "al": "@apagarse"
+      }
+     ]
+    }
+   ],
+   "personajes": {
+    "mono": {
+     "pose": "miedo",
+     "cara": "sorpresa"
+    },
+    "abuelo": {
+     "pose": "de_pie",
+     "cara": "triste",
+     "cambios": [
+      {
+       "al": "@apagarse",
+       "pose": "sentado",
+       "cara": "triste"
+      }
+     ]
+    }
+   },
+   "sfx": [
+    [
+     "apagon",
+     "@apagarse",
+     0.8
+    ]
+   ]
+  },
+  {
+   "en": "Mira su estado en Ajustes",
+   "color": "verde",
+   "escenas": [
+    {
+     "tipo": "pantalla",
+     "dispositivo": "movil",
+     "titulo": "AJUSTES · BATERÍA",
+     "lineas": [
+      {
+       "texto": "Estado de la batería",
+       "al": "@estado"
+      },
+      {
+       "texto": "¿Menos del 80 %? Cámbiala",
+       "al": "@cambiala",
+       "color": "rojo"
+      }
+     ]
+    }
+   ],
+   "personajes": {
+    "mono": {
+     "pose": "presentar",
+     "cara": "normal"
+    },
+    "abuelo": {
+     "pose": "de_pie",
+     "cara": "normal",
+     "dice": [
+      {
+       "texto": "¡Otra arruga!",
+       "al": "@arruga",
+       "hasta": "@fin"
+      }
+     ]
+    }
+   }
+  },
+  {
+   "en": "Número cinco",
+   "color": "rojo",
+   "capitulo": "5. El calor",
+   "escenas": [
+    {
+     "tipo": "lista",
+     "n": 5,
+     "titulo": "EL CALOR",
+     "apodo": "EL DORMILÓN",
+     "titulo_al": "@calor",
+     "apodo_al": "@dormilon",
+     "color": "rojo"
+    }
+   ],
+   "personajes": {
+    "mono": {
+     "pose": "jarras",
+     "cara": "normal",
+     "salta": true
+    }
+   }
+  },
+  {
+   "en": "Si el chip se calienta",
+   "escenas": [
+    {
+     "tipo": "iconos",
+     "tam": 230,
+     "items": [
+      {
+       "icono": "termometro",
+       "texto": "SE CALIENTA",
+       "al": "@calienta"
+      },
+      {
+       "icono": "tortuga",
+       "texto": "SE FRENA SOLO",
+       "al": "@frena"
+      }
+     ]
+    }
+   ],
+   "personajes": {
+    "mono": {
+     "pose": "señalar",
+     "cara": "normal"
+    },
+    "nino": {
+     "x": 0.89,
+     "y": 0.95,
+     "escala": 0.9,
+     "mira": "izq",
+     "pose": "de_pie",
+     "cara": "sorpresa",
+     "objeto": "movil",
+     "entra": "@chip",
+     "entrada": "salto"
+    }
+   }
+  },
+  {
+   "en": "Apple dice que el iPhone está hecho",
+   "escenas": [
+    {
+     "tipo": "cifra",
+     "caja": {
+      "y": 420
+     },
+     "desde": 0,
+     "hasta": 35,
+     "sufijo": " °C",
+     "al": "@cero",
+     "dur": 1.2,
+     "antes": "SE USA ENTRE 0 Y",
+     "etiqueta": "según Apple",
+     "etiqueta_al": "@grados",
+     "color": "naranja"
+    }
+   ],
+   "personajes": {
+    "mono": {
+     "pose": "pensar",
+     "cara": "normal"
+    },
+    "nino": {
+     "pose": "pensar",
+     "cara": "normal"
+    }
+   }
+  },
+  {
+   "en": "En dos mil veintitrés, el iPhone",
+   "color": "naranja",
+   "escenas": [
+    {
+     "tipo": "iconos",
+     "tam": 260,
+     "items": [
+      {
+       "icono": "fuego",
+       "texto": "IPHONE 15 PRO · 2023",
+       "al": "@iphone"
+      }
+     ]
+    }
+   ],
+   "personajes": {
+    "mono": {
+     "pose": "miedo",
+     "cara": "sorpresa"
+    },
+    "nino": {
+     "pose": "miedo",
+     "cara": "miedo"
+    }
+   },
+   "sfx": [
+    [
+     "zap",
+     "@quemando",
+     0.7
+    ]
+   ],
+   "golpes": [
+    "@quemando"
+   ]
+  },
+  {
+   "en": "Apple culpó a un fallo suyo",
+   "escenas": [
+    {
+     "tipo": "iconos",
+     "tam": 230,
+     "items": [
+      {
+       "icono": "chip",
+       "texto": "UN FALLO SUYO",
+       "al": "@fallo"
+      },
+      {
+       "icono": "movil",
+       "texto": "INSTAGRAM Y UBER",
+       "al": "@instagram"
+      }
+     ]
+    }
+   ],
+   "personajes": {
+    "mono": {
+     "pose": "pensar",
+     "cara": "normal"
+    },
+    "rico": {
+     "x": 0.89,
+     "y": 0.95,
+     "escala": 0.8,
+     "mira": "izq",
+     "pose": "señalar",
+     "cara": "chulo",
+     "objeto": "ninguno",
+     "entra": "@apple",
+     "entrada": "cae",
+     "cambios": [
+      {
+       "al": "@instagram",
+       "pose": "encogerse",
+       "cara": "guiño"
+      }
+     ]
+    }
+   }
+  },
+  {
+   "en": "No juegues mientras carga",
+   "color": "azul",
+   "escenas": [
+    {
+     "tipo": "iconos",
+     "tam": 230,
+     "items": [
+      {
+       "icono": "enchufe",
+       "texto": "NO JUEGUES CARGANDO",
+       "al": "@juegues"
+      },
+      {
+       "icono": "fuego",
+       "texto": "NI LO DEJES AL SOL",
+       "al": "@sol"
+      }
+     ]
+    }
+   ],
+   "personajes": {
+    "mono": {
+     "pose": "presentar",
+     "cara": "normal"
+    },
+    "rico": {
+     "pose": "brazos_cruzados",
+     "cara": "chulo"
+    }
+   }
+  },
+  {
+   "en": "Cuando suda, se echa la siesta",
+   "escenas": [
+    {
+     "tipo": "texto",
+     "tam": 110,
+     "palabras": [
+      {
+       "texto": "CUANDO SUDA…",
+       "al": "@suda"
+      },
+      {
+       "texto": "¡SIESTA!",
+       "al": "@siesta",
+       "caja": true,
+       "color": "azul"
+      }
+     ]
+    }
+   ],
+   "personajes": {
+    "mono": {
+     "pose": "de_pie",
+     "cara": "normal",
+     "cambios": [
+      {
+       "al": "@siesta",
+       "pose": "sentado",
+       "cara": "guiño"
+      }
+     ]
+    }
+   },
+   "sfx": [
+    [
+     "boing",
+     "@siesta",
+     0.6
+    ]
+   ]
+  },
+  {
+   "en": "Número seis",
+   "color": "morado",
+   "capitulo": "6. Las actualizaciones",
+   "escenas": [
+    {
+     "tipo": "lista",
+     "n": 6,
+     "titulo": "LAS ACTUALIZACIONES",
+     "apodo": "EL TRAJE DE OTRA TALLA",
+     "titulo_al": "@actualizaciones",
+     "apodo_al": "@traje",
+     "color": "morado"
+    }
+   ],
+   "personajes": {
+    "mono": {
+     "pose": "jarras",
+     "cara": "risa",
+     "salta": true
+    }
+   }
+  },
+  {
+   "en": "Cada sistema nuevo se diseña",
+   "escenas": [
+    {
+     "tipo": "comparativa",
+     "a": {
+      "titulo": "CHIP NUEVO",
+      "icono": "chip",
+      "al": "@potentes",
+      "color": "verde"
+     },
+     "b": {
+      "titulo": "EL TUYO",
+      "valor": "TE QUEDA PEQUEÑO",
+      "icono": "camiseta",
+      "al": "@tuyo",
+      "color": "rojo"
+     }
+    }
+   ],
+   "personajes": {
+    "mono": {
+     "pose": "presentar",
+     "cara": "normal"
+    },
+    "nino": {
+     "x": 0.89,
+     "y": 0.95,
+     "escala": 0.9,
+     "mira": "izq",
+     "pose": "encogerse",
+     "cara": "triste",
+     "objeto": "movil",
+     "entra": "@tuyo",
+     "entrada": "der"
+    }
+   }
+  },
+  {
+   "en": "En dos mil dieciocho, Italia multó",
+   "color": "rojo",
+   "escenas": [
+    {
+     "tipo": "grafica",
+     "forma": "barras",
+     "ancho": 1000,
+     "titulo": "ITALIA, 2018: MULTAS",
+     "sufijo": " M€",
+     "ymin": 0,
+     "ymax": 12,
+     "al": "@italia",
+     "puntos": [
+      {
+       "e": "Apple",
+       "v": 10,
+       "al": "@diez",
+       "color": "rojo"
+      },
+      {
+       "e": "Samsung",
+       "v": 5,
+       "al": "@cinco",
+       "color": "naranja"
+      }
+     ]
+    }
+   ],
+   "personajes": {
+    "mono": {
+     "pose": "señalar",
+     "cara": "sorpresa"
+    },
+    "rico": {
+     "x": 0.89,
+     "y": 0.95,
+     "escala": 0.8,
+     "mira": "izq",
+     "pose": "miedo",
+     "cara": "miedo",
+     "objeto": "ninguno",
+     "entra": "@multo",
+     "entrada": "cae"
+    }
+   },
+   "sfx": [
+    [
+     "mazo",
+     "@multo",
+     0.9
+    ]
+   ],
+   "golpes": [
+    "@multo"
+   ]
+  },
+  {
+   "en": "Por insistir en actualizar",
+   "escenas": [
+    {
+     "tipo": "iconos",
+     "tam": 200,
+     "caja": {
+      "w": 1500
+     },
+     "items": [
+      {
+       "icono": "movil",
+       "texto": "IPHONE 6",
+       "al": "@iphone"
+      },
+      {
+       "icono": "movil",
+       "color": "verde",
+       "texto": "GALAXY NOTE 4",
+       "al": "@galaxy"
+      },
+      {
+       "icono": "alerta",
+       "texto": "SIN AVISAR",
+       "al": "@avisar"
+      }
+     ]
+    }
+   ],
+   "personajes": {
+    "mono": {
+     "pose": "jarras",
+     "cara": "enfado"
+    },
+    "rico": {
+     "pose": "encogerse",
+     "cara": "sorpresa"
+    }
+   }
+  },
+  {
+   "en": "Antes de una actualización grande",
+   "color": "verde",
+   "escenas": [
+    {
+     "tipo": "iconos",
+     "tam": 230,
+     "items": [
+      {
+       "icono": "calendario",
+       "texto": "ESPERA UNOS DÍAS",
+       "al": "@espera"
+      },
+      {
+       "icono": "escudo",
+       "texto": "SEGURIDAD: SIEMPRE",
+       "al": "@seguridad"
+      }
+     ]
+    }
+   ],
+   "personajes": {
+    "mono": {
+     "pose": "presentar",
+     "cara": "guiño"
+    }
+   }
+  },
+  {
+   "en": "Y ahora vienen las sorprendentes",
+   "color": "rojo",
+   "escenas": [
+    {
+     "tipo": "texto",
+     "caja": {
+      "y": 250
+     },
+     "tam": 110,
+     "palabras": [
+      {
+       "texto": "Y AHORA…",
+       "al": "@ahora"
+      },
+      {
+       "texto": "LAS SORPRENDENTES",
+       "al": "@sorprendentes",
+       "caja": true,
+       "color": "rojo"
+      }
+     ]
+    }
+   ],
+   "personajes": {
+    "mono": {
+     "x": 0.5,
+     "escala": 0.95,
+     "pose": "brazos_arriba",
+     "cara": "sorpresa",
+     "salta": true
+    }
+   },
+   "golpes": [
+    "@sorprendentes"
+   ]
+  },
+  {
+   "en": "Número siete",
+   "color": "azul",
+   "capitulo": "7. La sensación",
+   "escenas": [
+    {
+     "tipo": "lista",
+     "n": 7,
+     "titulo": "LA SENSACIÓN",
+     "apodo": "EL ESCAPARATE",
+     "titulo_al": "@sensacion",
+     "apodo_al": "@escaparate",
+     "color": "azul"
+    }
+   ],
+   "personajes": {
+    "mono": {
+     "x": 0.11,
+     "escala": 0.8,
+     "pose": "jarras",
+     "cara": "normal"
+    }
+   }
+  },
+  {
+   "en": "En dos mil catorce, una investigadora",
+   "escenas": [
+    {
+     "tipo": "iconos",
+     "tam": 230,
+     "items": [
+      {
+       "icono": "libro",
+       "texto": "HARVARD · 2014",
+       "al": "@harvard"
+      },
+      {
+       "icono": "ojo",
+       "texto": "LAS BÚSQUEDAS DE GOOGLE",
+       "al": "@busquedas"
+      }
+     ]
+    }
+   ],
+   "personajes": {
+    "mono": {
+     "pose": "señalar",
+     "cara": "normal"
+    },
+    "ia": {
+     "x": 0.89,
+     "y": 0.95,
+     "escala": 0.8,
+     "mira": "izq",
+     "pose": "pensar",
+     "cara": "normal",
+     "objeto": "lupa",
+     "entra": "@investigadora",
+     "entrada": "salto"
+    }
+   }
+  },
+  {
+   "en": "Las de iPhone lento se disparaban",
+   "color": "rojo",
+   "escenas": [
+    {
+     "tipo": "grafica",
+     "ancho": 1000,
+     "titulo": "BÚSQUEDAS DE «IPHONE LENTO»",
+     "cabeza": "punto",
+     "valor_cabeza": false,
+     "ymin": 0,
+     "ymax": 110,
+     "al": "@iphone",
+     "hasta_al": "@nuevo",
+     "puntos": [
+      {
+       "e": "",
+       "v": 18
+      },
+      {
+       "e": "",
+       "v": 22
+      },
+      {
+       "e": "",
+       "v": 20
+      },
+      {
+       "e": "iPhone nuevo",
+       "v": 95,
+       "al": "@nuevo"
+      }
+     ],
+     "marcas": [
+      {
+       "i": 3,
+       "texto": "¡SALE UN IPHONE NUEVO!",
+       "al": "@nuevo",
+       "color": "rojo",
+       "abajo": true
+      }
+     ]
+    }
+   ],
+   "personajes": {
+    "mono": {
+     "pose": "señalar_arriba",
+     "cara": "sorpresa"
+    },
+    "ia": {
+     "pose": "de_pie",
+     "cara": "sorpresa"
+    }
+   }
+  },
+  {
+   "en": "Las de Samsung Galaxy lento",
+   "escenas": [
+    {
+     "tipo": "iconos",
+     "tam": 260,
+     "items": [
+      {
+       "icono": "grafico_baja",
+       "texto": "«GALAXY LENTO»: NO",
+       "al": "@samsung",
+       "color": "verde"
+      }
+     ]
+    }
+   ],
+   "personajes": {
+    "mono": {
+     "pose": "pensar",
+     "cara": "normal"
+    },
+    "ia": {
+     "pose": "pensar",
+     "cara": "normal"
+    }
+   }
+  },
+  {
+   "en": "Coincidir no demuestra trampa",
+   "color": "amarillo",
+   "escenas": [
+    {
+     "tipo": "comparativa",
+     "a": {
+      "titulo": "¿TRAMPA?",
+      "icono": "candado",
+      "al": "@trampa",
+      "color": "rojo"
+     },
+     "b": {
+      "titulo": "¿EL SISTEMA NUEVO?",
+      "icono": "reloj_arena",
+      "al": "@sistema",
+      "color": "azul"
+     }
+    }
+   ],
+   "personajes": {
+    "mono": {
+     "pose": "pensar",
+     "cara": "normal"
+    },
+    "ia": {
+     "pose": "encogerse",
+     "cara": "normal"
+    }
+   }
+  },
+  {
+   "en": "Lo que ayuda es reducir",
+   "color": "verde",
+   "escenas": [
+    {
+     "tipo": "pantalla",
+     "dispositivo": "movil",
+     "titulo": "MENOS ANIMACIONES",
+     "lineas": [
+      {
+       "texto": "iPhone: Accesibilidad, Movimiento",
+       "al": "@accesibilidad",
+       "tam": 34
+      },
+      {
+       "texto": "Android: Opciones de desarrollador",
+       "al": "@desarrollador",
+       "color": "verde",
+       "tam": 34
+      }
+     ]
+    }
+   ],
+   "personajes": {
+    "mono": {
+     "pose": "presentar",
+     "cara": "normal"
+    }
+   }
+  },
+  {
+   "en": "Tu móvil sigue igual",
+   "color": "azul",
+   "escenas": [
+    {
+     "tipo": "comparativa",
+     "a": {
+      "titulo": "TU MÓVIL",
+      "valor": "IGUAL",
+      "icono": "movil",
+      "al": "@movil",
+      "color": "azul"
+     },
+     "b": {
+      "titulo": "EL DEL ESCAPARATE",
+      "valor": "NUEVO",
+      "icono": "tienda",
+      "al": "@escaparate",
+      "color": "amarillo"
+     }
+    }
+   ],
+   "personajes": {
+    "mono": {
+     "pose": "señalar",
+     "cara": "guiño"
+    },
+    "nino": {
+     "x": 0.89,
+     "y": 0.95,
+     "escala": 0.9,
+     "mira": "izq",
+     "pose": "de_pie",
+     "cara": "normal",
+     "objeto": "movil",
+     "entra": "@movil",
+     "entrada": "salto",
+     "cambios": [
+      {
+       "al": "@escaparate",
+       "pose": "señalar",
+       "cara": "sorpresa"
+      }
+     ]
+    }
+   }
+  },
+  {
+   "en": "Pero esa sospecha tenía",
+   "color": "rojo",
+   "escenas": [
+    {
+     "tipo": "texto",
+     "caja": {
+      "y": 250
+     },
+     "tam": 100,
+     "palabras": [
+      {
+       "texto": "ESA SOSPECHA…",
+       "al": "@sospecha"
+      },
+      {
+       "texto": "TENÍA ALGO DE VERDAD",
+       "al": "@verdad",
+       "caja": true,
+       "color": "rojo"
+      }
+     ],
+     "por_fila": 20
+    }
+   ],
+   "personajes": {
+    "mono": {
+     "x": 0.5,
+     "escala": 0.95,
+     "pose": "miedo",
+     "cara": "sorpresa",
+     "salta": true
+    }
+   },
+   "golpes": [
+    "@verdad"
+   ]
+  },
+  {
+   "en": "Número ocho",
+   "color": "rojo",
+   "capitulo": "8. El batterygate",
+   "escenas": [
+    {
+     "tipo": "lista",
+     "n": 8,
+     "titulo": "EL BATTERYGATE",
+     "apodo": "EL FRENO SECRETO",
+     "titulo_al": "@batterygate",
+     "apodo_al": "@freno",
+     "color": "rojo"
+    }
+   ],
+   "personajes": {
+    "mono": {
+     "x": 0.11,
+     "escala": 0.8,
+     "pose": "jarras",
+     "cara": "enfado"
+    }
+   }
+  },
+  {
+   "en": "Dos mil diecisiete. Un usuario",
+   "escenas": [
+    {
+     "tipo": "flujo",
+     "nodos": [
+      {
+       "texto": "2017: IPHONE 6S",
+       "icono": "movil",
+       "al": "@usuario"
+      },
+      {
+       "texto": "BATERÍA NUEVA",
+       "icono": "bateria",
+       "al": "@bateria"
+      },
+      {
+       "texto": "¡VUELA!",
+       "icono": "cohete",
+       "al": "@vuela",
+       "color": "verde"
+      }
+     ]
+    }
+   ],
+   "personajes": {
+    "mono": {
+     "pose": "señalar",
+     "cara": "normal"
+    },
+    "nino": {
+     "x": 0.89,
+     "y": 0.95,
+     "escala": 0.9,
+     "mira": "izq",
+     "pose": "pensar",
+     "cara": "normal",
+     "objeto": "movil",
+     "entra": "@usuario",
+     "entrada": "cae",
+     "cambios": [
+      {
+       "al": "@vuela",
+       "pose": "celebrar",
+       "cara": "risa",
+       "salta": true
+      }
+     ]
+    }
+   }
+  },
+  {
+   "en": "El creador de Geekbench",
+   "escenas": [
+    {
+     "tipo": "grafica",
+     "ancho": 900,
+     "titulo": "GEEKBENCH: VELOCIDAD",
+     "cabeza": "punto",
+     "valor_cabeza": false,
+     "ymin": 0,
+     "ymax": 120,
+     "al": "@datos",
+     "hasta_al": "@lentos",
+     "puntos": [
+      {
+       "e": "nueva",
+       "v": 100
+      },
+      {
+       "e": "actualización",
+       "v": 96,
+       "al": "@actualizacion"
+      },
+      {
+       "e": "gastada",
+       "v": 55,
+       "al": "@gastada"
+      }
+     ],
+     "marcas": [
+      {
+       "i": 2,
+       "texto": "MÁS LENTOS",
+       "al": "@lentos",
+       "color": "rojo"
+      }
+     ]
+    }
+   ],
+   "personajes": {
+    "mono": {
+     "pose": "pensar",
+     "cara": "normal"
+    },
+    "nino": {
+     "pose": "de_pie",
+     "cara": "normal",
+     "cambios": [
+      {
+       "al": "@lentos",
+       "pose": "encogerse",
+       "cara": "sorpresa"
+      }
+     ]
+    }
+   }
+  },
+  {
+   "en": "Apple lo confirmó",
+   "color": "amarillo",
+   "escenas": [
+    {
+     "tipo": "sello",
+     "texto": "CONFIRMADO",
+     "tam": 130,
+     "al": "@confirmo"
+    }
+   ],
+   "personajes": {
+    "mono": {
+     "pose": "brazos_arriba",
+     "cara": "sorpresa"
+    },
+    "rico": {
+     "x": 0.89,
+     "y": 0.95,
+     "escala": 0.8,
+     "mira": "izq",
+     "pose": "encogerse",
+     "cara": "guiño",
+     "objeto": "ninguno",
+     "entra": "@apple",
+     "entrada": "cae"
+    }
+   }
+  },
+  {
+   "en": "Los frenaba para que no",
+   "escenas": [
+    {
+     "tipo": "iconos",
+     "tam": 230,
+     "items": [
+      {
+       "icono": "tortuga",
+       "texto": "LOS FRENABA",
+       "al": "@frenaba"
+      },
+      {
+       "icono": "candado",
+       "texto": "Y NO LO CONTÓ",
+       "al": "@contado"
+      }
+     ]
+    }
+   ],
+   "personajes": {
+    "mono": {
+     "pose": "jarras",
+     "cara": "enfado"
+    },
+    "rico": {
+     "pose": "brazos_cruzados",
+     "cara": "chulo"
+    }
+   }
+  },
+  {
+   "en": "En Estados Unidos aceptó pagar",
+   "color": "rojo",
+   "escenas": [
+    {
+     "tipo": "iconos",
+     "tam": 200,
+     "caja": {
+      "w": 1560
+     },
+     "items": [
+      {
+       "icono": "dolar",
+       "texto": "EE. UU.: 500 M$",
+       "al": "@quinientos"
+      },
+      {
+       "icono": "mazo",
+       "texto": "FRANCIA: 25 M€",
+       "al": "@veinticinco"
+      },
+      {
+       "icono": "balanza",
+       "texto": "ESPAÑA: LA OCU",
+       "al": "@o c u"
+      }
+     ]
+    }
+   ],
+   "personajes": {
+    "mono": {
+     "pose": "señalar",
+     "cara": "sorpresa"
+    },
+    "rico": {
+     "pose": "miedo",
+     "cara": "miedo"
+    }
+   },
+   "sfx": [
+    [
+     "caja",
+     "@quinientos",
+     0.7
+    ],
+    [
+     "mazo",
+     "@multa",
+     0.8
+    ]
+   ]
+  },
+  {
+   "en": "Hoy puedes desactivar ese freno",
+   "color": "verde",
+   "escenas": [
+    {
+     "tipo": "pantalla",
+     "dispositivo": "movil",
+     "titulo": "AJUSTES · BATERÍA",
+     "lineas": [
+      {
+       "texto": "Freno: desactivar",
+       "al": "@desactivar",
+       "color": "verde"
+      },
+      {
+       "texto": "Batería, Estado",
+       "al": "@estado"
+      },
+      {
+       "texto": "O cambia la batería",
+       "al": "@cambiar",
+       "color": "amarillo"
+      }
+     ]
+    }
+   ],
+   "personajes": {
+    "mono": {
+     "pose": "presentar",
+     "cara": "normal"
+    },
+    "rico": {
+     "pose": "encogerse",
+     "cara": "triste"
+    }
+   }
+  },
+  {
+   "en": "Te frenaba por tu bien",
+   "escenas": [
+    {
+     "tipo": "texto",
+     "tam": 96,
+     "palabras": [
+      {
+       "texto": "POR TU BIEN…",
+       "al": "@bien"
+      },
+      {
+       "texto": "PERO NO TE LO DIJO",
+       "al": "@olvido",
+       "caja": true,
+       "color": "rojo"
+      }
+     ],
+     "por_fila": 20,
+     "caja": {
+      "x": 860
+     }
+    }
+   ],
+   "personajes": {
+    "mono": {
+     "pose": "señalar",
+     "cara": "guiño"
+    },
+    "rico": {
+     "pose": "encogerse",
+     "cara": "guiño",
+     "dice": [
+      {
+       "texto": "¡Uy!",
+       "al": "@olvido",
+       "hasta": "@fin"
+      }
+     ]
+    }
+   }
+  },
+  {
+   "en": "Número nueve",
+   "color": "naranja",
+   "capitulo": "9. El fin de las actualizaciones",
+   "escenas": [
+    {
+     "tipo": "lista",
+     "n": 9,
+     "titulo": "SIN ACTUALIZACIONES",
+     "apodo": "LA FECHA DE CADUCIDAD",
+     "titulo_al": "@fin de las",
+     "apodo_al": "@caducidad",
+     "color": "naranja"
+    }
+   ],
+   "personajes": {
+    "mono": {
+     "pose": "jarras",
+     "cara": "normal",
+     "salta": true
+    }
+   }
+  },
+  {
+   "en": "Un día dejan de llegar",
+   "escenas": [
+    {
+     "tipo": "iconos",
+     "tam": 230,
+     "items": [
+      {
+       "icono": "calendario",
+       "texto": "DEJAN DE LLEGAR",
+       "al": "@llegar"
+      },
+      {
+       "icono": "movil",
+       "texto": "LAS APPS PIDEN MÁS",
+       "al": "@piden"
+      }
+     ]
+    }
+   ],
+   "personajes": {
+    "mono": {
+     "pose": "señalar",
+     "cara": "normal"
+    },
+    "abuelo": {
+     "x": 0.89,
+     "y": 0.95,
+     "escala": 0.8,
+     "mira": "izq",
+     "pose": "pensar",
+     "cara": "triste",
+     "objeto": "movil",
+     "entra": "@dia",
+     "entrada": "der"
+    }
+   }
+  },
+  {
+   "en": "En dos mil quince, Francia hizo delito",
+   "color": "azul",
+   "escenas": [
+    {
+     "tipo": "iconos",
+     "tam": 230,
+     "items": [
+      {
+       "icono": "mazo",
+       "texto": "FRANCIA, 2015: DELITO",
+       "al": "@delito"
+      },
+      {
+       "icono": "candado",
+       "texto": "HASTA 2 AÑOS DE CÁRCEL",
+       "al": "@carcel"
+      }
+     ]
+    }
+   ],
+   "personajes": {
+    "mono": {
+     "pose": "señalar",
+     "cara": "sorpresa"
+    },
+    "abuelo": {
+     "pose": "brazos_arriba",
+     "cara": "sorpresa"
+    }
+   },
+   "sfx": [
+    [
+     "mazo",
+     "@delito",
+     0.8
+    ]
+   ]
+  },
+  {
+   "en": "Desde junio de dos mil veinticinco",
+   "color": "verde",
+   "escenas": [
+    {
+     "tipo": "cifra",
+     "caja": {
+      "y": 420
+     },
+     "desde": 0,
+     "hasta": 5,
+     "al": "@cinco",
+     "dur": 0.6,
+     "antes": "UE, JUNIO 2025: AL MENOS",
+     "etiqueta": "años de actualizaciones",
+     "etiqueta_al": "@actualizaciones",
+     "color": "verde",
+     "tam": 230
+    }
+   ],
+   "personajes": {
+    "mono": {
+     "pose": "presentar",
+     "cara": "normal"
+    },
+    "abuelo": {
+     "pose": "de_pie",
+     "cara": "normal",
+     "cambios": [
+      {
+       "al": "@cinco",
+       "pose": "celebrar",
+       "cara": "risa"
+      }
+     ]
+    }
+   }
+  },
+  {
+   "en": "Y en dos mil veintisiete llega",
+   "escenas": [
+    {
+     "tipo": "iconos",
+     "tam": 230,
+     "items": [
+      {
+       "icono": "bateria",
+       "texto": "2027: BATERÍAS CAMBIABLES",
+       "al": "@cambiables"
+      },
+      {
+       "icono": "alerta",
+       "texto": "CON EXCEPCIONES",
+       "al": "@excepciones"
+      }
+     ]
+    }
+   ],
+   "personajes": {
+    "mono": {
+     "pose": "pensar",
+     "cara": "normal"
+    },
+    "abuelo": {
+     "pose": "pensar",
+     "cara": "normal"
+    }
+   }
+  },
+  {
+   "en": "Antes de comprar, mira",
+   "escenas": [
+    {
+     "tipo": "pantalla",
+     "dispositivo": "movil",
+     "titulo": "ANTES DE COMPRAR",
+     "lineas": [
+      {
+       "texto": "¿Cuántos años de actualizaciones?",
+       "al": "@anos"
+      },
+      {
+       "texto": "Lo promete la marca",
+       "al": "@promete",
+       "color": "verde"
+      }
+     ]
+    }
+   ],
+   "personajes": {
+    "mono": {
+     "pose": "presentar",
+     "cara": "guiño"
+    }
+   }
+  },
+  {
+   "en": "Y la última, la más rara",
+   "color": "morado",
+   "escenas": [
+    {
+     "tipo": "texto",
+     "caja": {
+      "y": 250
+     },
+     "tam": 110,
+     "palabras": [
+      {
+       "texto": "LA ÚLTIMA,",
+       "al": "@ultima"
+      },
+      {
+       "texto": "LA MÁS RARA",
+       "al": "@rara",
+       "caja": true,
+       "color": "morado"
+      }
+     ]
+    }
+   ],
+   "personajes": {
+    "mono": {
+     "x": 0.5,
+     "escala": 0.95,
+     "pose": "brazos_arriba",
+     "cara": "sorpresa",
+     "salta": true
+    }
+   },
+   "golpes": [
+    "@rara"
+   ]
+  },
+  {
+   "en": "Número diez",
+   "color": "morado",
+   "capitulo": "10. El freno selectivo",
+   "escenas": [
+    {
+     "tipo": "lista",
+     "n": 10,
+     "titulo": "EL FRENO SELECTIVO",
+     "apodo": "EL EMPOLLÓN DEL EXAMEN",
+     "titulo_al": "@selectivo",
+     "apodo_al": "@empollon",
+     "color": "morado"
+    }
+   ],
+   "personajes": {
+    "mono": {
+     "x": 0.11,
+     "escala": 0.8,
+     "pose": "jarras",
+     "cara": "normal"
+    }
+   }
+  },
+  {
+   "en": "Dos mil veintidós. En Corea",
+   "escenas": [
+    {
+     "tipo": "mapa",
+     "titulo": "UN SERVICIO DE SAMSUNG FRENA SUS GALAXY",
+     "pines": [
+      {
+       "nombre": "COREA, 2022",
+       "x": 0.72,
+       "y": -0.32,
+       "al": "@corea"
+      }
+     ],
+     "caja": {
+      "y": 450
+     }
+    }
+   ],
+   "personajes": {
+    "mono": {
+     "pose": "señalar",
+     "cara": "sorpresa"
+    },
+    "ia": {
+     "x": 0.89,
+     "y": 0.95,
+     "escala": 0.8,
+     "mira": "izq",
+     "pose": "brazos_cruzados",
+     "cara": "chulo",
+     "objeto": "ninguno",
+     "entra": "@servicio",
+     "entrada": "cae"
+    }
+   }
+  },
+  {
+   "en": "En una lista filtrada",
+   "escenas": [
+    {
+     "tipo": "iconos",
+     "tam": 230,
+     "items": [
+      {
+       "icono": "libro",
+       "texto": "+10.000 APPS",
+       "al": "@diez"
+      },
+      {
+       "icono": "movil",
+       "texto": "INSTAGRAM Y TIKTOK",
+       "al": "@instagram"
+      }
+     ]
+    }
+   ],
+   "personajes": {
+    "mono": {
+     "pose": "pensar",
+     "cara": "normal"
+    },
+    "ia": {
+     "pose": "jarras",
+     "cara": "guiño"
+    }
+   }
+  },
+  {
+   "en": "Pero faltaban las apps",
+   "color": "amarillo",
+   "escenas": [
+    {
+     "tipo": "texto",
+     "tam": 96,
+     "palabras": [
+      {
+       "texto": "FALTABAN…",
+       "al": "@faltaban"
+      },
+      {
+       "texto": "LAS QUE MIDEN LA VELOCIDAD",
+       "al": "@velocidad",
+       "caja": true,
+       "color": "amarillo"
+      }
+     ],
+     "por_fila": 26
+    }
+   ],
+   "personajes": {
+    "mono": {
+     "pose": "señalar_arriba",
+     "cara": "sorpresa"
+    },
+    "ia": {
+     "pose": "encogerse",
+     "cara": "guiño"
+    }
+   },
+   "golpes": [
+    "@velocidad"
+   ]
+  },
+  {
+   "en": "Geekbench lo llamó manipulación",
+   "color": "rojo",
+   "escenas": [
+    {
+     "tipo": "sello",
+     "texto": "MANIPULACIÓN",
+     "tam": 120,
+     "al": "@manipulacion"
+    }
+   ],
+   "personajes": {
+    "mono": {
+     "pose": "jarras",
+     "cara": "enfado"
+    },
+    "ia": {
+     "pose": "miedo",
+     "cara": "miedo"
+    }
+   },
+   "relleno": {
+    "icono": "ojo"
+   }
+  },
+  {
+   "en": "Y borró de su ranking",
+   "escenas": [
+    {
+     "tipo": "iconos",
+     "tam": 260,
+     "items": [
+      {
+       "icono": "movil",
+       "texto": "4 GENERACIONES DE GALAXY",
+       "al": "@cuatro",
+       "tachar_al": "@galaxy+0.2"
+      }
+     ]
+    }
+   ],
+   "personajes": {
+    "mono": {
+     "pose": "señalar",
+     "cara": "normal"
+    },
+    "ia": {
+     "pose": "encogerse",
+     "cara": "triste"
+    }
+   },
+   "sfx": [
+    [
+     "rasgueo",
+     "@galaxy",
+     0.6
+    ]
+   ]
+  },
+  {
+   "en": "En dos mil veintiséis, un tribunal",
+   "color": "azul",
+   "escenas": [
+    {
+     "tipo": "cifra",
+     "caja": {
+      "y": 430
+     },
+     "desde": 0,
+     "hasta": 2000,
+     "al": "@casi",
+     "dur": 0.9,
+     "antes": "SEÚL, 2026: COMPENSAR A CASI",
+     "etiqueta": "usuarios",
+     "etiqueta_al": "@usuarios",
+     "color": "azul"
+    }
+   ],
+   "personajes": {
+    "mono": {
+     "pose": "señalar",
+     "cara": "sorpresa"
+    },
+    "ia": {
+     "pose": "encogerse",
+     "cara": "triste"
+    }
+   },
+   "sfx": [
+    [
+     "mazo",
+     "@tribunal",
+     0.9
+    ]
+   ],
+   "golpes": [
+    "@tribunal"
+   ]
+  },
+  {
+   "en": "En el examen saca un diez",
+   "escenas": [
+    {
+     "tipo": "comparativa",
+     "a": {
+      "titulo": "EN EL EXAMEN",
+      "valor": "UN 10",
+      "icono": "examen",
+      "al": "@examen",
+      "color": "verde"
+     },
+     "b": {
+      "titulo": "EN TU DÍA A DÍA",
+      "valor": "TE FRENA",
+      "icono": "tortuga",
+      "al": "@dia",
+      "color": "rojo"
+     }
+    }
+   ],
+   "personajes": {
+    "mono": {
+     "pose": "presentar",
+     "cara": "guiño"
+    },
+    "ia": {
+     "pose": "celebrar",
+     "cara": "chulo",
+     "cambios": [
+      {
+       "al": "@frena",
+       "pose": "encogerse",
+       "cara": "sorpresa"
+      }
+     ]
+    }
+   }
+  },
+  {
+   "en": "Volvamos a la pregunta",
+   "color": "amarillo",
+   "capitulo": "¿Te lo hacen a propósito?",
+   "escenas": [
+    {
+     "tipo": "pregunta",
+     "pregunta": "¿Te lo hacen a propósito?",
+     "al": "@pregunta"
+    }
+   ],
+   "personajes": {
+    "mono": {
+     "pose": "pensar",
+     "cara": "normal"
+    },
+    "rico": {
+     "x": 0.89,
+     "y": 0.95,
+     "escala": 0.8,
+     "mira": "izq",
+     "pose": "jarras",
+     "cara": "chulo",
+     "objeto": "ninguno",
+     "entra": "@pregunta",
+     "entrada": "cae"
+    }
+   }
+  },
+  {
+   "en": "Lo demostrado es esto",
+   "color": "verde",
+   "escenas": [
+    {
+     "tipo": "sello",
+     "texto": "DEMOSTRADO",
+     "tam": 130,
+     "al": "@demostrado",
+     "color": "verde"
+    }
+   ],
+   "personajes": {
+    "mono": {
+     "pose": "señalar",
+     "cara": "normal"
+    },
+    "rico": {
+     "pose": "encogerse",
+     "cara": "sorpresa"
+    }
+   }
+  },
+  {
+   "en": "Apple y Samsung frenaron",
+   "escenas": [
+    {
+     "tipo": "iconos",
+     "tam": 230,
+     "items": [
+      {
+       "icono": "tortuga",
+       "texto": "FRENARON SIN AVISAR",
+       "al": "@frenaron"
+      },
+      {
+       "icono": "dolar",
+       "texto": "Y PAGARON",
+       "al": "@pagaron"
+      }
+     ]
+    }
+   ],
+   "personajes": {
+    "mono": {
+     "pose": "jarras",
+     "cara": "chulo"
+    },
+    "rico": {
+     "pose": "miedo",
+     "cara": "triste"
+    }
+   }
+  },
+  {
+   "en": "Pero hacerlo para que compres",
+   "color": "rojo",
+   "escenas": [
+    {
+     "tipo": "pregunta",
+     "pregunta": "¿Para que compres otro?",
+     "al": "@compres",
+     "respuesta": "DIFÍCIL DE PROBAR",
+     "respuesta_al": "@probar",
+     "color": "amarillo"
+    }
+   ],
+   "personajes": {
+    "mono": {
+     "pose": "pensar",
+     "cara": "normal"
+    },
+    "rico": {
+     "pose": "brazos_cruzados",
+     "cara": "guiño"
+    }
+   }
+  },
+  {
+   "en": "La ley francesa tardó",
+   "color": "azul",
+   "escenas": [
+    {
+     "tipo": "cifra",
+     "caja": {
+      "y": 420
+     },
+     "desde": 0,
+     "hasta": 10,
+     "al": "@diez",
+     "dur": 0.6,
+     "antes": "LA LEY FRANCESA TARDÓ MÁS DE",
+     "etiqueta": "años en su primer juicio",
+     "etiqueta_al": "@juicio",
+     "color": "azul",
+     "tam": 230
+    }
+   ],
+   "personajes": {
+    "mono": {
+     "pose": "señalar",
+     "cara": "sorpresa"
+    },
+    "rico": {
+     "pose": "pensar",
+     "cara": "normal"
+    }
+   }
+  },
+  {
+   "en": "Y fue contra una marca de impresoras",
+   "escenas": [
+    {
+     "tipo": "iconos",
+     "tam": 260,
+     "items": [
+      {
+       "icono": "examen",
+       "texto": "UNA MARCA DE IMPRESORAS",
+       "al": "@impresoras"
+      }
+     ]
+    }
+   ],
+   "personajes": {
+    "mono": {
+     "pose": "encogerse",
+     "cara": "sorpresa"
+    },
+    "rico": {
+     "pose": "encogerse",
+     "cara": "sorpresa"
+    }
+   }
+  },
+  {
+   "en": "Que te lo frenan, está demostrado",
+   "color": "naranja",
+   "escenas": [
+    {
+     "tipo": "comparativa",
+     "a": {
+      "titulo": "QUE TE LO FRENAN",
+      "valor": "PROBADO",
+      "icono": "tortuga",
+      "al": "@frenan",
+      "color": "verde"
+     },
+     "b": {
+      "titulo": "PARA VENDERTE OTRO",
+      "valor": "TODAVÍA NO",
+      "icono": "tienda",
+      "al": "@venderte",
+      "color": "rojo"
+     }
+    }
+   ],
+   "personajes": {
+    "mono": {
+     "pose": "presentar",
+     "cara": "normal"
+    },
+    "rico": {
+     "pose": "brazos_cruzados",
+     "cara": "chulo"
+    }
+   }
+  },
+  {
+   "en": "Y tú",
+   "color": "morado",
+   "escenas": [
+    {
+     "tipo": "pregunta",
+     "pregunta": "¿Cuántos años tiene tu móvil?",
+     "al": "@cuantos"
+    }
+   ],
+   "personajes": {
+    "mono": {
+     "pose": "señalar",
+     "cara": "guiño",
+     "salta": true
+    },
+    "nino": {
+     "x": 0.89,
+     "y": 0.95,
+     "escala": 0.9,
+     "mira": "izq",
+     "pose": "pensar",
+     "cara": "normal",
+     "objeto": "movil",
+     "entra": "@tu",
+     "entrada": "cae"
+    }
+   }
+  },
+  {
+   "en": "Te leo en los comentarios",
+   "escenas": [
+    {
+     "tipo": "chat",
+     "mensajes": [
+      {
+       "texto": "El mío, cinco años",
+       "al": "@leo"
+      },
+      {
+       "texto": "¡El mío, dos!",
+       "al": "@comentarios",
+       "lado": "der"
+      }
+     ]
+    }
+   ],
+   "personajes": {
+    "mono": {
+     "pose": "saludar",
+     "cara": "risa"
+    },
+    "nino": {
+     "pose": "de_pie",
+     "cara": "risa"
+    }
+   }
+  },
+  {
+   "en": "Si te gusta entender",
+   "color": "amarillo",
+   "escenas": [
+    {
+     "tipo": "texto",
+     "tam": 100,
+     "por_fila": 22,
+     "palabras": [
+      {
+       "texto": "¿TE GUSTA ENTENDERLA?",
+       "al": "@entender"
+      },
+      {
+       "texto": "SUSCRÍBETE",
+       "al": "@suscribete",
+       "caja": true,
+       "color": "rojo"
+      }
+     ]
+    }
+   ],
+   "personajes": {
+    "mono": {
+     "pose": "presentar",
+     "cara": "risa"
+    },
+    "nino": {
+     "pose": "saludar",
+     "cara": "risa",
+     "objeto": "ninguno"
+    }
+   }
+  },
+  {
+   "en": "Cada semana, una máquina",
+   "escenas": [
+    {
+     "tipo": "iconos",
+     "tam": 200,
+     "items": [
+      {
+       "icono": "chip",
+       "texto": "UNA MÁQUINA",
+       "al": "@maquina"
+      },
+      {
+       "icono": "bombilla",
+       "texto": "UN INVENTO",
+       "al": "@invento"
+      },
+      {
+       "icono": "libro",
+       "texto": "UNA IDEA",
+       "al": "@idea"
+      }
+     ]
+    }
+   ],
+   "personajes": {
+    "mono": {
+     "pose": "celebrar",
+     "cara": "risa"
+    },
+    "nino": {
+     "pose": "celebrar",
+     "cara": "risa",
+     "salta": true
+    }
+   }
+  }
+ ]
+}

@@ -40,18 +40,18 @@ Si te gusta entender cómo funciona de verdad la tecnología que usas cada día,
 
 ## Capítulos
 
-0:00 Los youtubers se forran (¿o no?)
-0:16 Anuncios de YouTube
-0:39 Programa de Socios
-1:01 Shorts
-1:24 Patrocinios
-1:48 Suscripciones de Twitch
-2:08 Super Chat y propinas
-2:32 Productos con tu nombre
-2:55 Eventos en directo: La Velada
-3:24 Marca propia: MrBeast
-3:46 Hacienda y Andorra
-4:15 ¿Cuánto se queda de verdad?
+0:00 La frase de tu primo
+0:24 1. Los anuncios
+0:50 2. El Programa de Socios
+1:16 3. Los Shorts
+1:39 4. Los patrocinios
+2:08 5. Las suscripciones de Twitch
+2:28 6. Las propinas
+2:56 7. Los productos con tu nombre
+3:18 8. Los eventos en directo
+3:48 9. La marca propia
+4:13 10. Hacienda
+4:31 Cuánto se queda de verdad
 
 ## Tags
 
@@ -62,10 +62,10 @@ cuanto gana un youtuber, cuanto paga youtube, cuanto paga youtube por 1000 visit
 (18 tags, suma efectiva unos 390 contando +2 por cada tag con espacio y las comas. Por debajo de 420.)
 
 ## Miniatura
-plantilla: A (cuadrícula, ver Notas)
-texto: (ninguno; solo etiquetas bajo cada casilla)
-etiquetas: ANUNCIOS|SOCIOS|SHORTS|PATROCINIO|TWITCH|PROPINAS|MERCH|EVENTOS|MARCA PROPIA|HACIENDA
-cols: 5
+plantilla: B (fotograma del propio vídeo, 4:54: lluvia de monedas, el primo celebrando y el mono con los brazos en jarras; sin IA de imagen)
+texto: ¿SE|FORRAN?
+resaltar: FORRAN
+posicion: left
 
 ## Shorts
 
@@ -223,3 +223,4 @@ Q: [curious] ¿Tu canal llegaría a esa cifra?
 - Fechas que caducan: "Ya hay más de tres millones" (cifra de 2024), "Desde febrero de dos mil veintisiete" (si se publica después de esa fecha, cambiar a "Desde febrero de dos mil veintisiete ya solo cobras…").
 - Imágenes: sin logos reales (YouTube, Twitch, Fortnite, Epic, Apple, Netflix, Feastables) y sin caras de personas reales (Ibai, Rubius, MrBeast, TheGrefg, Kai Cenat, Altozano). Para ellos, siluetas genéricas, un micrófono, un ring o una tableta de chocolate sin marca.
 - Shorts: 95 y 103 palabras (≈ 30-34 s a 3,2 palabras/s; dentro de 30-40 s). Si `--dry-run` da menos de 30 s, añadir una frase a B3. `reveal` del Short 1 ("CHOCOLATE/FEASTABLES") y del Short 2 ("10 MILLONES/EN 90 DÍAS", el guion dice "diez millones… noventa días") se dicen tal cual en la frase P.
+- **v3 con el MOTOR (3-nov-2026)**: animado entero por código (`remotion/src/motor`, plano en `plano.json`), sin imágenes de Google (facturación cerrada). Voz eleven_v4 nueva (308 s, 1.0×; la anterior, `remotion/public/cuanto-gana-de-verdad-un-youtuber-en-espana.v1_old.mp3`). `check_negations.py` OK (con `motor_plano.py --negaciones`, que usa words.json). Miniatura = fotograma del vídeo + `thumbnail_text.py`. Capítulos escritos por `motor_plano.py --capitulos`. Reparto: mono, el primo (currito), el rico y el niño. Los Shorts de este vídeo NO se suben (`shorts/shorts.json` vacío a propósito). Entrada antigua de videos.json en `videos_entry_pre_motor.json`; seo anterior en `seo_pre_motor.md`.

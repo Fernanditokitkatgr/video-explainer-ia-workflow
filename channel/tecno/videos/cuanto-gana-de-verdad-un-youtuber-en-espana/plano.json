@@ -1,0 +1,3209 @@
+{
+ "formato": "16:9",
+ "reparto": {
+  "mono": {
+   "tipo": "protagonista",
+   "narrador": true
+  },
+  "primo": {
+   "tipo": "currito"
+  },
+  "rico": {
+   "tipo": "rico"
+  },
+  "nino": {
+   "tipo": "nino"
+  }
+ },
+ "tramos": [
+  {
+   "en": "Comida familiar",
+   "color": "amarillo",
+   "capitulo": "La frase de tu primo",
+   "escenas": [
+    {
+     "tipo": "texto",
+     "zona": "arriba",
+     "caja": {
+      "y": 170
+     },
+     "tam": 80,
+     "palabras": [
+      {
+       "texto": "COMIDA FAMILIAR",
+       "al": "@comida",
+       "caja": true,
+       "color": "amarillo"
+      }
+     ]
+    },
+    {
+     "tipo": "iconos",
+     "caja": {
+      "y": 470
+     },
+     "tam": 230,
+     "items": [
+      {
+       "icono": "pizza",
+       "al": "@familiar"
+      },
+      {
+       "icono": "casa",
+       "al": "@tenedor"
+      }
+     ]
+    }
+   ],
+   "personajes": {
+    "mono": {
+     "x": 0.11,
+     "y": 0.95,
+     "escala": 0.8,
+     "pose": "saludar",
+     "cara": "risa",
+     "cambios": [
+      {
+       "al": "@primo",
+       "pose": "señalar",
+       "cara": "normal"
+      }
+     ]
+    },
+    "primo": {
+     "x": 0.89,
+     "y": 0.95,
+     "escala": 0.8,
+     "mira": "izq",
+     "pose": "sentado",
+     "cara": "chulo",
+     "objeto": "pizza",
+     "entra": "@primo",
+     "entrada": "der",
+     "cambios": [
+      {
+       "al": "@suelta",
+       "pose": "presentar",
+       "cara": "chulo"
+      }
+     ]
+    }
+   }
+  },
+  {
+   "en": "Que los youtubers se forran",
+   "color": "verde",
+   "escenas": [
+    {
+     "tipo": "dinero",
+     "modo": "lluvia",
+     "al": "@forran",
+     "cantidad": 22,
+     "monedas": "dolar"
+    },
+    {
+     "tipo": "texto",
+     "tam": 130,
+     "palabras": [
+      {
+       "texto": "SE FORRAN",
+       "al": "@forran",
+       "caja": true,
+       "color": "verde"
+      }
+     ]
+    }
+   ],
+   "personajes": {
+    "mono": {
+     "pose": "de_pie",
+     "cara": "sorpresa",
+     "cambios": [
+      {
+       "al": "@forran",
+       "pose": "encogerse",
+       "cara": "sorpresa"
+      }
+     ]
+    },
+    "primo": {
+     "pose": "brazos_arriba",
+     "cara": "risa",
+     "salta": true,
+     "dice": [
+      {
+       "texto": "¡Se forran!",
+       "al": "@forran+0.2",
+       "hasta": "@fin"
+      }
+     ]
+    }
+   }
+  },
+  {
+   "en": "Que suben un vídeo",
+   "escenas": [
+    {
+     "tipo": "flujo",
+     "nodos": [
+      {
+       "texto": "SUBES UN VÍDEO",
+       "icono": "play",
+       "al": "@suben"
+      },
+      {
+       "texto": "YOUTUBE PAGA",
+       "icono": "dolar",
+       "al": "@youtube"
+      },
+      {
+       "texto": "CUENTA LLENA",
+       "icono": "hucha",
+       "al": "@llena"
+      }
+     ]
+    }
+   ],
+   "personajes": {
+    "mono": {
+     "pose": "pensar",
+     "cara": "normal"
+    },
+    "primo": {
+     "pose": "celebrar",
+     "cara": "risa",
+     "objeto": "billete"
+    }
+   }
+  },
+  {
+   "en": "Es así",
+   "color": "rojo",
+   "escenas": [
+    {
+     "tipo": "pregunta",
+     "pregunta": "¿Es así?",
+     "al": "@es",
+     "respuesta": "PUES NO",
+     "respuesta_al": "@no",
+     "color": "rojo"
+    }
+   ],
+   "personajes": {
+    "mono": {
+     "pose": "pensar",
+     "cara": "normal",
+     "cambios": [
+      {
+       "al": "@no",
+       "pose": "brazos_cruzados",
+       "cara": "chulo",
+       "salta": true
+      }
+     ]
+    },
+    "primo": {
+     "pose": "de_pie",
+     "cara": "normal",
+     "cambios": [
+      {
+       "al": "@no",
+       "pose": "encogerse",
+       "cara": "sorpresa"
+      }
+     ]
+    }
+   }
+  },
+  {
+   "en": "YouTube es solo una",
+   "color": "amarillo",
+   "escenas": [
+    {
+     "tipo": "iconos",
+     "caja": {
+      "y": 360
+     },
+     "tam": 260,
+     "items": [
+      {
+       "icono": "play",
+       "texto": "SOLO 1 DE 10",
+       "al": "@solo"
+      }
+     ]
+    },
+    {
+     "tipo": "texto",
+     "caja": {
+      "y": 700
+     },
+     "tam": 70,
+     "palabras": [
+      {
+       "texto": "FORMAS DE COBRAR",
+       "al": "@formas",
+       "caja": true,
+       "color": "amarillo"
+      }
+     ],
+     "sfx": false
+    }
+   ],
+   "personajes": {
+    "mono": {
+     "pose": "señalar",
+     "cara": "normal"
+    },
+    "primo": {
+     "pose": "pensar",
+     "cara": "normal"
+    }
+   }
+  },
+  {
+   "en": "Y casi nunca la mejor",
+   "escenas": [
+    {
+     "tipo": "iconos",
+     "tam": 260,
+     "items": [
+      {
+       "icono": "play",
+       "texto": "¿LA MEJOR?",
+       "al": "@casi",
+       "tachar_al": "@mejor"
+      }
+     ]
+    }
+   ],
+   "personajes": {
+    "mono": {
+     "pose": "señalar",
+     "cara": "guiño"
+    },
+    "primo": {
+     "pose": "encogerse",
+     "cara": "triste"
+    }
+   }
+  },
+  {
+   "en": "Al final verás cuánto",
+   "color": "verde",
+   "escenas": [
+    {
+     "tipo": "pregunta",
+     "pregunta": "¿Cuánto se queda de cada euro?",
+     "al": "@cuanto"
+    }
+   ],
+   "personajes": {
+    "mono": {
+     "pose": "pensar",
+     "cara": "normal"
+    },
+    "rico": {
+     "x": 0.89,
+     "y": 0.95,
+     "escala": 0.8,
+     "mira": "izq",
+     "pose": "jarras",
+     "cara": "chulo",
+     "entra": "@famoso",
+     "entrada": "cae"
+    }
+   }
+  },
+  {
+   "en": "Lo adivinas",
+   "escenas": [
+    {
+     "tipo": "texto",
+     "tam": 120,
+     "palabras": [
+      {
+       "texto": "¿LO",
+       "al": "@lo"
+      },
+      {
+       "texto": "ADIVINAS?",
+       "al": "@adivinas",
+       "color": "verde"
+      }
+     ]
+    }
+   ],
+   "personajes": {
+    "mono": {
+     "pose": "encogerse",
+     "cara": "guiño"
+    },
+    "rico": {
+     "pose": "brazos_cruzados",
+     "cara": "guiño"
+    }
+   }
+  },
+  {
+   "en": "Estas son las diez formas",
+   "color": "amarillo",
+   "escenas": [
+    {
+     "tipo": "cifra",
+     "caja": {
+      "y": 380
+     },
+     "desde": 0,
+     "hasta": 10,
+     "al": "@diez",
+     "dur": 0.6,
+     "etiqueta": "formas de ganar dinero",
+     "etiqueta_al": "@dinero",
+     "color": "amarillo",
+     "tam": 260
+    }
+   ],
+   "personajes": {
+    "mono": {
+     "pose": "presentar",
+     "cara": "risa"
+    },
+    "rico": {
+     "pose": "celebrar",
+     "cara": "risa",
+     "cambios": [
+      {
+       "al": "@dinero",
+       "pose": "jarras",
+       "cara": "chulo"
+      }
+     ]
+    }
+   }
+  },
+  {
+   "en": "Te las cuento de una en una",
+   "escenas": [
+    {
+     "tipo": "flujo",
+     "nodos": [
+      {
+       "texto": "LA MÁS CONOCIDA",
+       "icono": "play",
+       "al": "@conocida"
+      },
+      {
+       "texto": "LA MÁS SORPRENDENTE",
+       "icono": "bombilla",
+       "al": "@sorprendente",
+       "color": "rojo"
+      }
+     ]
+    }
+   ],
+   "personajes": {
+    "mono": {
+     "pose": "presentar",
+     "cara": "normal",
+     "cambios": [
+      {
+       "al": "@sorprendente",
+       "pose": "señalar",
+       "cara": "guiño"
+      }
+     ]
+    },
+    "rico": {
+     "pose": "pensar",
+     "cara": "normal"
+    }
+   }
+  },
+  {
+   "en": "Número uno",
+   "color": "azul",
+   "capitulo": "1. Los anuncios",
+   "escenas": [
+    {
+     "tipo": "lista",
+     "n": 1,
+     "titulo": "LOS ANUNCIOS",
+     "apodo": "EL CLÁSICO",
+     "titulo_al": "@anuncios",
+     "apodo_al": "@clasico",
+     "color": "azul"
+    }
+   ],
+   "personajes": {
+    "mono": {
+     "x": 0.11,
+     "pose": "jarras",
+     "cara": "normal",
+     "salta": true
+    }
+   }
+  },
+  {
+   "en": "Antes de tu vídeo sale un anuncio",
+   "escenas": [
+    {
+     "tipo": "pantalla",
+     "dispositivo": "movil",
+     "titulo": "TU VÍDEO",
+     "lineas": [
+      {
+       "texto": "▶ Tu vídeo",
+       "al": "@video",
+       "color": "blanco"
+      },
+      {
+       "texto": "ANUNCIO",
+       "al": "@anuncio",
+       "color": "amarillo",
+       "tam": 56
+      }
+     ]
+    }
+   ],
+   "personajes": {
+    "mono": {
+     "pose": "señalar",
+     "cara": "normal"
+    },
+    "nino": {
+     "x": 0.89,
+     "y": 0.95,
+     "escala": 0.9,
+     "mira": "izq",
+     "pose": "sentado",
+     "cara": "normal",
+     "objeto": "movil",
+     "entra": "@video",
+     "entrada": "salto",
+     "cambios": [
+      {
+       "al": "@anuncio",
+       "pose": "sentado",
+       "cara": "enfado"
+      }
+     ]
+    }
+   }
+  },
+  {
+   "en": "La marca le paga a YouTube",
+   "escenas": [
+    {
+     "tipo": "flujo",
+     "nodos": [
+      {
+       "texto": "LA MARCA",
+       "icono": "megafono",
+       "al": "@marca"
+      },
+      {
+       "texto": "YOUTUBE",
+       "icono": "play",
+       "al": "@youtube"
+      },
+      {
+       "texto": "REPARTE",
+       "icono": "hucha",
+       "al": "@reparte",
+       "color": "verde"
+      }
+     ]
+    }
+   ],
+   "personajes": {
+    "mono": {
+     "pose": "presentar",
+     "cara": "normal"
+    },
+    "nino": {
+     "pose": "pensar",
+     "cara": "normal"
+    }
+   }
+  },
+  {
+   "en": "En los vídeos largos",
+   "color": "verde",
+   "escenas": [
+    {
+     "tipo": "cifra",
+     "caja": {
+      "y": 400
+     },
+     "desde": 0,
+     "hasta": 55,
+     "sufijo": " %",
+     "al": "@cincuenta",
+     "dur": 1.0,
+     "etiqueta": "para el creador",
+     "etiqueta_al": "@creador",
+     "color": "verde",
+     "flecha": "sube",
+     "antes": "EN LOS VÍDEOS LARGOS"
+    }
+   ],
+   "personajes": {
+    "mono": {
+     "pose": "de_pie",
+     "cara": "normal",
+     "cambios": [
+      {
+       "al": "@cincuenta",
+       "pose": "celebrar",
+       "cara": "risa"
+      }
+     ]
+    },
+    "nino": {
+     "pose": "brazos_arriba",
+     "cara": "risa",
+     "salta": true
+    }
+   }
+  },
+  {
+   "en": "Y cuánto es eso",
+   "color": "amarillo",
+   "escenas": [
+    {
+     "tipo": "pregunta",
+     "pregunta": "¿Y cuánto es eso?",
+     "al": "@cuanto"
+    }
+   ],
+   "personajes": {
+    "mono": {
+     "pose": "pensar",
+     "cara": "normal"
+    },
+    "nino": {
+     "pose": "encogerse",
+     "cara": "sorpresa"
+    }
+   }
+  },
+  {
+   "en": "En dos mil veinte, Jaime Altozano",
+   "escenas": [
+    {
+     "tipo": "texto",
+     "caja": {
+      "y": 330
+     },
+     "tam": 84,
+     "palabras": [
+      {
+       "texto": "2020",
+       "al": "@veinte",
+       "caja": true,
+       "color": "blanco"
+      },
+      {
+       "texto": "JAIME ALTOZANO",
+       "al": "@jaime",
+       "caja": true,
+       "color": "azul"
+      }
+     ]
+    },
+    {
+     "tipo": "iconos",
+     "caja": {
+      "y": 560
+     },
+     "tam": 170,
+     "items": [
+      {
+       "icono": "megafono",
+       "texto": "LO CONTÓ EN PÚBLICO",
+       "al": "@publico"
+      }
+     ]
+    }
+   ],
+   "personajes": {
+    "mono": {
+     "pose": "señalar",
+     "cara": "sorpresa"
+    },
+    "primo": {
+     "x": 0.89,
+     "y": 0.95,
+     "escala": 0.8,
+     "mira": "izq",
+     "pose": "presentar",
+     "cara": "risa",
+     "objeto": "megafono",
+     "entra": "@jaime",
+     "entrada": "izq"
+    }
+   }
+  },
+  {
+   "en": "Por cada millón de visitas desde España",
+   "escenas": [
+    {
+     "tipo": "cifra",
+     "caja": {
+      "y": 430
+     },
+     "desde": 600,
+     "hasta": 800,
+     "sufijo": " €",
+     "al": "@seiscientos",
+     "dur": 1.2,
+     "antes": "1 MILLÓN DE VISITAS",
+     "etiqueta": "desde España",
+     "etiqueta_al": "@espana",
+     "color": "verde",
+     "flecha": "sube"
+    }
+   ],
+   "personajes": {
+    "mono": {
+     "pose": "señalar",
+     "cara": "sorpresa"
+    },
+    "primo": {
+     "pose": "celebrar",
+     "cara": "risa",
+     "objeto": "billete"
+    }
+   }
+  },
+  {
+   "en": "Si ese millón venía de Latinoamérica",
+   "escenas": [
+    {
+     "tipo": "grafica",
+     "forma": "barras",
+     "titulo": "POR 1 MILLÓN DE VISITAS",
+     "sufijo": " €",
+     "ymin": 0,
+     "ymax": 900,
+     "al": "@latinoamerica",
+     "puntos": [
+      {
+       "e": "España",
+       "v": 700,
+       "al": "@latinoamerica",
+       "color": "verde"
+      },
+      {
+       "e": "Latinoamérica",
+       "v": 200,
+       "al": "@cien",
+       "color": "rojo"
+      }
+     ],
+     "ancho": 1000
+    }
+   ],
+   "personajes": {
+    "mono": {
+     "pose": "pensar",
+     "cara": "normal"
+    },
+    "primo": {
+     "pose": "de_pie",
+     "cara": "normal",
+     "cambios": [
+      {
+       "al": "@bajaba",
+       "pose": "encogerse",
+       "cara": "triste"
+      }
+     ]
+    }
+   }
+  },
+  {
+   "en": "Un millón de visitas, y menos",
+   "color": "rojo",
+   "escenas": [
+    {
+     "tipo": "sello",
+     "texto": "MENOS DE 1.000 €",
+     "tam": 110,
+     "al": "@menos"
+    }
+   ],
+   "personajes": {
+    "mono": {
+     "pose": "brazos_cruzados",
+     "cara": "chulo"
+    },
+    "primo": {
+     "pose": "miedo",
+     "cara": "miedo"
+    }
+   },
+   "relleno": {
+    "icono": "play"
+   }
+  },
+  {
+   "en": "Número dos",
+   "color": "rosa",
+   "capitulo": "2. El Programa de Socios",
+   "escenas": [
+    {
+     "tipo": "lista",
+     "n": 2,
+     "titulo": "PROGRAMA DE SOCIOS",
+     "apodo": "EL PORTERO",
+     "titulo_al": "@programa",
+     "apodo_al": "@portero",
+     "color": "rosa"
+    }
+   ],
+   "personajes": {
+    "mono": {
+     "pose": "jarras",
+     "cara": "risa",
+     "salta": true
+    }
+   }
+  },
+  {
+   "en": "Para cobrar anuncios, primero",
+   "escenas": [
+    {
+     "tipo": "iconos",
+     "tam": 260,
+     "items": [
+      {
+       "icono": "puerta",
+       "texto": "PRIMERO, ENTRAR",
+       "al": "@entrar"
+      }
+     ]
+    }
+   ],
+   "personajes": {
+    "mono": {
+     "pose": "caminar",
+     "cara": "normal",
+     "cambios": [
+      {
+       "al": "@entrar",
+       "pose": "de_pie",
+       "cara": "sorpresa"
+      }
+     ]
+    },
+    "rico": {
+     "x": 0.89,
+     "y": 0.95,
+     "escala": 0.8,
+     "mira": "izq",
+     "pose": "brazos_cruzados",
+     "cara": "chulo",
+     "entra": "@primero",
+     "entrada": "cae"
+    }
+   }
+  },
+  {
+   "en": "Y la puerta pide mil suscriptores",
+   "escenas": [
+    {
+     "tipo": "cifra",
+     "caja": {
+      "y": 400
+     },
+     "desde": 0,
+     "hasta": 1000,
+     "al": "@mil",
+     "dur": 0.9,
+     "etiqueta": "suscriptores",
+     "etiqueta_al": "@suscriptores",
+     "color": "rosa"
+    }
+   ],
+   "personajes": {
+    "mono": {
+     "pose": "encogerse",
+     "cara": "sorpresa"
+    },
+    "rico": {
+     "pose": "señalar",
+     "cara": "chulo",
+     "dice": [
+      {
+       "texto": "Sin mil, fuera.",
+       "al": "@suscriptores+0.3",
+       "hasta": "@fin"
+      }
+     ]
+    }
+   }
+  },
+  {
+   "en": "Y además cuatro mil horas",
+   "escenas": [
+    {
+     "tipo": "comparativa",
+     "a": {
+      "titulo": "4.000 HORAS EN 1 AÑO",
+      "icono": "reloj_arena",
+      "al": "@cuatro",
+      "color": "azul"
+     },
+     "b": {
+      "titulo": "10 M EN SHORTS",
+      "valor": "90 DÍAS",
+      "icono": "play",
+      "al": "@diez",
+      "color": "rosa"
+     },
+     "vs_al": "@o"
+    }
+   ],
+   "personajes": {
+    "mono": {
+     "pose": "pensar",
+     "cara": "normal"
+    },
+    "rico": {
+     "pose": "jarras",
+     "cara": "chulo"
+    }
+   }
+  },
+  {
+   "en": "Según su jefe",
+   "color": "verde",
+   "escenas": [
+    {
+     "tipo": "cifra",
+     "caja": {
+      "y": 400
+     },
+     "desde": 0,
+     "hasta": 3000000,
+     "al": "@tres",
+     "dur": 1.2,
+     "etiqueta": "canales dentro",
+     "etiqueta_al": "@canales",
+     "color": "verde",
+     "flecha": "sube",
+     "tam": 150
+    }
+   ],
+   "personajes": {
+    "mono": {
+     "pose": "señalar_arriba",
+     "cara": "sorpresa"
+    },
+    "rico": {
+     "pose": "presentar",
+     "cara": "risa"
+    }
+   },
+   "relleno": {
+    "icono": "play"
+   }
+  },
+  {
+   "en": "Con quinientos suscriptores",
+   "color": "rosa",
+   "escenas": [
+    {
+     "tipo": "iconos",
+     "tam": 220,
+     "items": [
+      {
+       "icono": "hucha",
+       "texto": "500: CUOTAS",
+       "al": "@quinientos"
+      },
+      {
+       "icono": "megafono",
+       "texto": "1.000: ANUNCIOS",
+       "al": "@mil"
+      }
+     ]
+    }
+   ],
+   "personajes": {
+    "mono": {
+     "pose": "presentar",
+     "cara": "normal"
+    },
+    "nino": {
+     "x": 0.89,
+     "y": 0.95,
+     "escala": 0.9,
+     "mira": "izq",
+     "pose": "saludar",
+     "cara": "risa",
+     "entra": "@cuotas",
+     "entrada": "der",
+     "objeto": "ninguno"
+    }
+   }
+  },
+  {
+   "en": "Te deja entrar en la fiesta",
+   "escenas": [
+    {
+     "tipo": "texto",
+     "tam": 100,
+     "palabras": [
+      {
+       "texto": "ENTRAS EN LA FIESTA",
+       "al": "@entrar",
+       "caja": true,
+       "color": "rosa"
+      },
+      {
+       "texto": "LA BARRA LIBRE…",
+       "al": "@barra"
+      },
+      {
+       "texto": "DESPUÉS",
+       "al": "@despues",
+       "color": "rojo"
+      }
+     ],
+     "por_fila": 20
+    }
+   ],
+   "personajes": {
+    "mono": {
+     "pose": "celebrar",
+     "cara": "risa",
+     "cambios": [
+      {
+       "al": "@despues",
+       "pose": "encogerse",
+       "cara": "chulo"
+      }
+     ]
+    },
+    "nino": {
+     "pose": "celebrar",
+     "cara": "risa",
+     "cambios": [
+      {
+       "al": "@despues",
+       "pose": "de_pie",
+       "cara": "triste"
+      }
+     ]
+    }
+   }
+  },
+  {
+   "en": "Número tres",
+   "color": "verde",
+   "capitulo": "3. Los Shorts",
+   "escenas": [
+    {
+     "tipo": "lista",
+     "n": 3,
+     "titulo": "LOS SHORTS",
+     "apodo": "LA HUCHA COMÚN",
+     "titulo_al": "@shorts",
+     "apodo_al": "@hucha",
+     "color": "verde"
+    }
+   ],
+   "personajes": {
+    "mono": {
+     "pose": "jarras",
+     "cara": "normal",
+     "salta": true
+    },
+    "nino": {
+     "pose": "brazos_arriba",
+     "cara": "sorpresa"
+    }
+   }
+  },
+  {
+   "en": "Aquí el anuncio sale entre",
+   "escenas": [
+    {
+     "tipo": "pantalla",
+     "dispositivo": "movil",
+     "titulo": "SHORTS",
+     "lineas": [
+      {
+       "texto": "Short 1",
+       "al": "@aqui"
+      },
+      {
+       "texto": "ANUNCIO",
+       "al": "@anuncio",
+       "color": "rojo"
+      },
+      {
+       "texto": "Short 2",
+       "al": "@otro"
+      }
+     ]
+    }
+   ],
+   "personajes": {
+    "mono": {
+     "pose": "señalar",
+     "cara": "normal"
+    },
+    "nino": {
+     "pose": "de_pie",
+     "cara": "normal",
+     "objeto": "movil"
+    }
+   }
+  },
+  {
+   "en": "Así que nadie sabe",
+   "escenas": [
+    {
+     "tipo": "pregunta",
+     "pregunta": "¿Qué vídeo lo ha pagado?",
+     "al": "@nadie"
+    }
+   ],
+   "personajes": {
+    "mono": {
+     "pose": "pensar",
+     "cara": "normal"
+    },
+    "nino": {
+     "pose": "encogerse",
+     "cara": "sorpresa"
+    }
+   }
+  },
+  {
+   "en": "YouTube lo mete todo en una hucha",
+   "escenas": [
+    {
+     "tipo": "flujo",
+     "nodos": [
+      {
+       "texto": "LA HUCHA",
+       "icono": "hucha",
+       "al": "@hucha"
+      },
+      {
+       "texto": "LA MÚSICA",
+       "icono": "micro",
+       "al": "@musica"
+      },
+      {
+       "texto": "TUS VISITAS",
+       "icono": "play",
+       "al": "@visitas",
+       "color": "verde"
+      }
+     ]
+    }
+   ],
+   "personajes": {
+    "mono": {
+     "pose": "presentar",
+     "cara": "normal"
+    },
+    "nino": {
+     "pose": "pensar",
+     "cara": "normal",
+     "objeto": "ninguno"
+    }
+   }
+  },
+  {
+   "en": "De tu parte te quedas",
+   "escenas": [
+    {
+     "tipo": "comparativa",
+     "a": {
+      "titulo": "SHORTS",
+      "valor": "45 %",
+      "icono": "movil",
+      "al": "@cuarenta",
+      "color": "verde"
+     },
+     "b": {
+      "titulo": "VÍDEO LARGO",
+      "valor": "55 %",
+      "icono": "play",
+      "al": "@largo",
+      "color": "azul"
+     },
+     "ganador": "b",
+     "ganador_al": "@largo+0.5"
+    }
+   ],
+   "personajes": {
+    "mono": {
+     "pose": "señalar",
+     "cara": "normal"
+    },
+    "nino": {
+     "pose": "de_pie",
+     "cara": "normal",
+     "cambios": [
+      {
+       "al": "@menos",
+       "pose": "encogerse",
+       "cara": "triste"
+      }
+     ]
+    }
+   }
+  },
+  {
+   "en": "Y desde febrero",
+   "color": "rojo",
+   "escenas": [
+    {
+     "tipo": "texto",
+     "zona": "arriba",
+     "caja": {
+      "y": 170
+     },
+     "tam": 80,
+     "palabras": [
+      {
+       "texto": "FEBRERO 2027",
+       "al": "@febrero",
+       "caja": true,
+       "color": "rojo"
+      }
+     ]
+    },
+    {
+     "tipo": "cifra",
+     "caja": {
+      "y": 470
+     },
+     "desde": 0,
+     "hasta": 10000000,
+     "al": "@diez",
+     "dur": 1.1,
+     "etiqueta": "visitas en 90 días",
+     "etiqueta_al": "@noventa",
+     "color": "rojo",
+     "tam": 150
+    }
+   ],
+   "personajes": {
+    "mono": {
+     "pose": "miedo",
+     "cara": "miedo"
+    },
+    "nino": {
+     "pose": "miedo",
+     "cara": "miedo"
+    }
+   },
+   "golpes": [
+    "@solo"
+   ]
+  },
+  {
+   "en": "Número cuatro",
+   "color": "naranja",
+   "capitulo": "4. Los patrocinios",
+   "escenas": [
+    {
+     "tipo": "lista",
+     "n": 4,
+     "titulo": "LOS PATROCINIOS",
+     "apodo": "EL ANUNCIO DE DENTRO",
+     "titulo_al": "@patrocinios",
+     "apodo_al": "@anuncio",
+     "color": "naranja"
+    }
+   ],
+   "personajes": {
+    "mono": {
+     "pose": "jarras",
+     "cara": "risa",
+     "salta": true
+    }
+   }
+  },
+  {
+   "en": "Una marca te paga",
+   "escenas": [
+    {
+     "tipo": "flujo",
+     "nodos": [
+      {
+       "texto": "LA MARCA",
+       "icono": "megafono",
+       "al": "@marca"
+      },
+      {
+       "texto": "TE PAGA",
+       "icono": "dolar",
+       "al": "@paga",
+       "color": "verde"
+      },
+      {
+       "texto": "HABLAS DE ELLA",
+       "icono": "play",
+       "al": "@hables"
+      }
+     ]
+    }
+   ],
+   "personajes": {
+    "mono": {
+     "pose": "presentar",
+     "cara": "normal"
+    },
+    "rico": {
+     "x": 0.89,
+     "y": 0.95,
+     "escala": 0.8,
+     "mira": "izq",
+     "pose": "presentar",
+     "cara": "risa",
+     "objeto": "billete",
+     "entra": "@marca",
+     "entrada": "der"
+    }
+   }
+  },
+  {
+   "en": "Si ganas más de trescientos mil",
+   "escenas": [
+    {
+     "tipo": "iconos",
+     "tam": 220,
+     "items": [
+      {
+       "icono": "dolar",
+       "texto": "+300.000 € AL AÑO",
+       "al": "@trescientos"
+      },
+      {
+       "icono": "trofeo",
+       "texto": "1 MILLÓN DE SEGUIDORES",
+       "al": "@millon"
+      }
+     ]
+    }
+   ],
+   "personajes": {
+    "mono": {
+     "pose": "pensar",
+     "cara": "normal"
+    },
+    "rico": {
+     "pose": "jarras",
+     "cara": "chulo",
+     "objeto": "bolsa"
+    }
+   }
+  },
+  {
+   "en": "la ley te apunta en un registro",
+   "escenas": [
+    {
+     "tipo": "pantalla",
+     "dispositivo": "movil",
+     "titulo": "REGISTRO DEL ESTADO",
+     "lineas": [
+      {
+       "texto": "Tu canal: apuntado",
+       "al": "@registro"
+      },
+      {
+       "texto": "Como una tele",
+       "al": "@tele",
+       "color": "amarillo"
+      }
+     ]
+    }
+   ],
+   "personajes": {
+    "mono": {
+     "pose": "señalar",
+     "cara": "sorpresa"
+    },
+    "rico": {
+     "pose": "encogerse",
+     "cara": "sorpresa"
+    }
+   }
+  },
+  {
+   "en": "Y si escondes que es publicidad",
+   "color": "rojo",
+   "escenas": [
+    {
+     "tipo": "texto",
+     "zona": "arriba",
+     "caja": {
+      "y": 200
+     },
+     "tam": 80,
+     "palabras": [
+      {
+       "texto": "¿ESCONDES",
+       "al": "@escondes"
+      },
+      {
+       "texto": "LA PUBLI?",
+       "al": "@publicidad",
+       "caja": true,
+       "color": "amarillo"
+      }
+     ]
+    },
+    {
+     "tipo": "sello",
+     "texto": "MULTA",
+     "caja": {
+      "y": 500
+     },
+     "al": "@multar"
+    }
+   ],
+   "personajes": {
+    "mono": {
+     "pose": "jarras",
+     "cara": "enfado"
+    },
+    "rico": {
+     "pose": "de_pie",
+     "cara": "normal",
+     "cambios": [
+      {
+       "al": "@multar",
+       "pose": "miedo",
+       "cara": "miedo"
+      }
+     ]
+    }
+   }
+  },
+  {
+   "en": "En julio de dos mil veintiséis",
+   "escenas": [
+    {
+     "tipo": "cifra",
+     "caja": {
+      "y": 430
+     },
+     "desde": 0,
+     "hasta": 710,
+     "sufijo": " €",
+     "al": "@setecientos",
+     "dur": 0.6,
+     "antes": "JULIO 2026 · LA CNMC",
+     "etiqueta": "de multa a Ibai Llanos",
+     "etiqueta_al": "@ibai",
+     "color": "rojo"
+    }
+   ],
+   "personajes": {
+    "mono": {
+     "pose": "señalar",
+     "cara": "sorpresa"
+    },
+    "rico": {
+     "pose": "encogerse",
+     "cara": "miedo"
+    }
+   },
+   "sfx": [
+    [
+     "mazo",
+     "@multo",
+     0.9
+    ]
+   ],
+   "golpes": [
+    "@multo"
+   ]
+  },
+  {
+   "en": "En unos vídeos salía una marca",
+   "escenas": [
+    {
+     "tipo": "iconos",
+     "tam": 220,
+     "items": [
+      {
+       "icono": "gota",
+       "texto": "UNA BEBIDA",
+       "al": "@bebida"
+      },
+      {
+       "icono": "megafono",
+       "texto": "¿ES UN ANUNCIO?",
+       "al": "@indicaba",
+       "tachar_al": "@anuncio"
+      }
+     ]
+    }
+   ],
+   "personajes": {
+    "mono": {
+     "pose": "pensar",
+     "cara": "normal"
+    },
+    "rico": {
+     "pose": "brazos_cruzados",
+     "cara": "chulo"
+    }
+   }
+  },
+  {
+   "en": "Paga la marca",
+   "color": "naranja",
+   "escenas": [
+    {
+     "tipo": "comparativa",
+     "a": {
+      "titulo": "PAGA LA MARCA",
+      "icono": "megafono",
+      "al": "@paga",
+      "color": "verde"
+     },
+     "b": {
+      "titulo": "SI LO ESCONDES, PAGAS TÚ",
+      "icono": "mazo",
+      "al": "@pagas",
+      "color": "rojo"
+     }
+    }
+   ],
+   "personajes": {
+    "mono": {
+     "pose": "de_pie",
+     "cara": "normal",
+     "cambios": [
+      {
+       "al": "@pagas",
+       "pose": "señalar",
+       "cara": "guiño"
+      }
+     ]
+    },
+    "rico": {
+     "pose": "celebrar",
+     "cara": "risa",
+     "cambios": [
+      {
+       "al": "@pagas",
+       "pose": "encogerse",
+       "cara": "triste"
+      }
+     ]
+    }
+   }
+  },
+  {
+   "en": "Número cinco",
+   "color": "morado",
+   "capitulo": "5. Las suscripciones de Twitch",
+   "escenas": [
+    {
+     "tipo": "lista",
+     "n": 5,
+     "titulo": "LAS SUSCRIPCIONES",
+     "apodo": "LA CUOTA MENSUAL",
+     "titulo_al": "@suscripciones",
+     "apodo_al": "@cuota",
+     "color": "morado"
+    }
+   ],
+   "personajes": {
+    "mono": {
+     "pose": "jarras",
+     "cara": "normal",
+     "salta": true
+    }
+   }
+  },
+  {
+   "en": "Tus fans te pagan cada mes",
+   "escenas": [
+    {
+     "tipo": "iconos",
+     "tam": 220,
+     "items": [
+      {
+       "icono": "calendario",
+       "texto": "CADA MES",
+       "al": "@mes"
+      },
+      {
+       "icono": "micro",
+       "texto": "EN DIRECTO",
+       "al": "@directo"
+      }
+     ]
+    }
+   ],
+   "personajes": {
+    "mono": {
+     "pose": "presentar",
+     "cara": "normal"
+    },
+    "nino": {
+     "x": 0.89,
+     "y": 0.95,
+     "escala": 0.9,
+     "mira": "izq",
+     "pose": "saludar",
+     "cara": "risa",
+     "objeto": "billete",
+     "entra": "@fans",
+     "entrada": "salto"
+    }
+   }
+  },
+  {
+   "en": "Y Twitch se queda la mitad",
+   "escenas": [
+    {
+     "tipo": "cifra",
+     "caja": {
+      "y": 400
+     },
+     "desde": 0,
+     "hasta": 50,
+     "sufijo": " %",
+     "al": "@twitch",
+     "dur": 0.8,
+     "etiqueta": "se lo queda Twitch",
+     "etiqueta_al": "@mitad+0.4",
+     "color": "morado"
+    }
+   ],
+   "personajes": {
+    "mono": {
+     "pose": "jarras",
+     "cara": "enfado"
+    },
+    "nino": {
+     "pose": "encogerse",
+     "cara": "sorpresa"
+    }
+   }
+  },
+  {
+   "en": "En septiembre de dos mil veinticinco",
+   "color": "verde",
+   "escenas": [
+    {
+     "tipo": "cifra",
+     "caja": {
+      "y": 430
+     },
+     "desde": 0,
+     "hasta": 1000000,
+     "al": "@millon",
+     "dur": 1.2,
+     "antes": "KAI CENAT · SEPT. 2025",
+     "etiqueta": "suscriptores activos",
+     "etiqueta_al": "@activos",
+     "color": "verde",
+     "flecha": "sube",
+     "tam": 150
+    }
+   ],
+   "personajes": {
+    "mono": {
+     "pose": "señalar",
+     "cara": "sorpresa"
+    },
+    "nino": {
+     "pose": "celebrar",
+     "cara": "risa"
+    }
+   }
+  },
+  {
+   "en": "Nadie lo había conseguido",
+   "escenas": [
+    {
+     "tipo": "iconos",
+     "tam": 260,
+     "items": [
+      {
+       "icono": "trofeo",
+       "texto": "NUNCA VISTO EN TWITCH",
+       "al": "@nadie"
+      }
+     ]
+    }
+   ],
+   "personajes": {
+    "mono": {
+     "pose": "celebrar",
+     "cara": "risa"
+    },
+    "nino": {
+     "pose": "brazos_arriba",
+     "cara": "sorpresa",
+     "salta": true
+    }
+   }
+  },
+  {
+   "en": "Lo logró con un maratón",
+   "color": "morado",
+   "escenas": [
+    {
+     "tipo": "iconos",
+     "tam": 220,
+     "items": [
+      {
+       "icono": "micro",
+       "texto": "MARATÓN DE DIRECTOS",
+       "al": "@maraton"
+      },
+      {
+       "icono": "reloj_arena",
+       "texto": "UN MES ENTERO",
+       "al": "@entero"
+      }
+     ]
+    }
+   ],
+   "personajes": {
+    "mono": {
+     "pose": "pensar",
+     "cara": "normal"
+    },
+    "nino": {
+     "pose": "sentado",
+     "cara": "normal",
+     "objeto": "movil"
+    }
+   }
+  },
+  {
+   "en": "Te pagan cada mes, mientras",
+   "escenas": [
+    {
+     "tipo": "texto",
+     "tam": 110,
+     "palabras": [
+      {
+       "texto": "TE PAGAN",
+       "al": "@pagan"
+      },
+      {
+       "texto": "MIENTRAS SIGAS",
+       "al": "@mientras",
+       "caja": true,
+       "color": "morado"
+      }
+     ]
+    }
+   ],
+   "personajes": {
+    "mono": {
+     "pose": "señalar",
+     "cara": "guiño"
+    },
+    "nino": {
+     "pose": "de_pie",
+     "cara": "risa",
+     "objeto": "ninguno"
+    }
+   }
+  },
+  {
+   "en": "Número seis",
+   "color": "amarillo",
+   "capitulo": "6. Las propinas",
+   "escenas": [
+    {
+     "tipo": "lista",
+     "n": 6,
+     "titulo": "LAS PROPINAS",
+     "apodo": "EL FAN GENEROSO",
+     "titulo_al": "@propinas",
+     "apodo_al": "@generoso",
+     "color": "amarillo"
+    }
+   ],
+   "personajes": {
+    "mono": {
+     "pose": "jarras",
+     "cara": "risa",
+     "salta": true
+    }
+   }
+  },
+  {
+   "en": "En un directo, un fan paga",
+   "escenas": [
+    {
+     "tipo": "chat",
+     "mensajes": [
+      {
+       "texto": "hola",
+       "al": "@directo"
+      },
+      {
+       "texto": "jaja",
+       "al": "@fan"
+      },
+      {
+       "texto": "SUPER CHAT: ¡Saludos!",
+       "al": "@destacado",
+       "color": "amarillo",
+       "lado": "der"
+      }
+     ]
+    }
+   ],
+   "personajes": {
+    "mono": {
+     "pose": "de_pie",
+     "cara": "normal",
+     "cambios": [
+      {
+       "al": "@destacado",
+       "pose": "señalar",
+       "cara": "sorpresa"
+      }
+     ]
+    },
+    "nino": {
+     "x": 0.89,
+     "y": 0.95,
+     "escala": 0.9,
+     "mira": "izq",
+     "pose": "saludar",
+     "cara": "risa",
+     "objeto": "billete",
+     "entra": "@fan",
+     "entrada": "cae"
+    }
+   }
+  },
+  {
+   "en": "Y desde dos mil veintiuno existe",
+   "escenas": [
+    {
+     "tipo": "cifra",
+     "caja": {
+      "y": 430
+     },
+     "desde": 2,
+     "hasta": 50,
+     "sufijo": " $",
+     "al": "@a cincuenta",
+     "dur": 0.9,
+     "antes": "SUPER THANKS",
+     "etiqueta": "en cualquier vídeo",
+     "etiqueta_al": "@cualquier",
+     "color": "amarillo"
+    }
+   ],
+   "personajes": {
+    "mono": {
+     "pose": "señalar",
+     "cara": "normal"
+    },
+    "nino": {
+     "pose": "celebrar",
+     "cara": "risa"
+    }
+   }
+  },
+  {
+   "en": "Tú te quedas el setenta",
+   "color": "verde",
+   "escenas": [
+    {
+     "tipo": "cifra",
+     "caja": {
+      "y": 400
+     },
+     "desde": 0,
+     "hasta": 70,
+     "sufijo": " %",
+     "al": "@setenta",
+     "dur": 0.9,
+     "etiqueta": "para ti",
+     "etiqueta_al": "@ciento",
+     "color": "verde"
+    }
+   ],
+   "personajes": {
+    "mono": {
+     "pose": "celebrar",
+     "cara": "risa"
+    },
+    "nino": {
+     "pose": "brazos_arriba",
+     "cara": "risa"
+    }
+   }
+  },
+  {
+   "en": "Pero ese setenta se calcula",
+   "color": "rojo",
+   "escenas": [
+    {
+     "tipo": "iconos",
+     "tam": 240,
+     "items": [
+      {
+       "icono": "hucha",
+       "texto": "TU 70 %",
+       "al": "@setenta"
+      },
+      {
+       "icono": "balanza",
+       "texto": "MENOS IMPUESTOS",
+       "al": "@impuestos"
+      }
+     ]
+    }
+   ],
+   "personajes": {
+    "mono": {
+     "pose": "encogerse",
+     "cara": "sorpresa"
+    },
+    "nino": {
+     "pose": "pensar",
+     "cara": "normal"
+    }
+   }
+  },
+  {
+   "en": "Y si el fan paga desde un iPhone",
+   "escenas": [
+    {
+     "tipo": "pantalla",
+     "dispositivo": "movil",
+     "titulo": "PAGO DESDE IPHONE",
+     "lineas": [
+      {
+       "texto": "El fan paga",
+       "al": "@paga"
+      },
+      {
+       "texto": "- comisión de Apple",
+       "al": "@comision",
+       "color": "rojo"
+      }
+     ]
+    }
+   ],
+   "personajes": {
+    "mono": {
+     "pose": "pensar",
+     "cara": "normal"
+    },
+    "nino": {
+     "pose": "de_pie",
+     "cara": "normal",
+     "objeto": "movil"
+    }
+   }
+  },
+  {
+   "en": "El fan paga diez",
+   "escenas": [
+    {
+     "tipo": "comparativa",
+     "a": {
+      "titulo": "EL FAN PAGA",
+      "valor": "10",
+      "icono": "hucha",
+      "al": "@paga",
+      "color": "verde"
+     },
+     "b": {
+      "titulo": "A TI TE LLEGAN",
+      "valor": "MENOS",
+      "icono": "dolar",
+      "al": "@llegan",
+      "color": "rojo"
+     },
+     "ganador": "a",
+     "ganador_al": "@llegan+0.6"
+    }
+   ],
+   "personajes": {
+    "mono": {
+     "pose": "jarras",
+     "cara": "chulo"
+    },
+    "nino": {
+     "pose": "encogerse",
+     "cara": "triste",
+     "objeto": "ninguno"
+    }
+   }
+  },
+  {
+   "en": "Y ahora vienen las sorprendentes",
+   "color": "rojo",
+   "escenas": [
+    {
+     "tipo": "texto",
+     "tam": 110,
+     "palabras": [
+      {
+       "texto": "Y AHORA…",
+       "al": "@ahora"
+      },
+      {
+       "texto": "LAS SORPRENDENTES",
+       "al": "@sorprendentes",
+       "caja": true,
+       "color": "rojo"
+      }
+     ],
+     "caja": {
+      "y": 250
+     }
+    }
+   ],
+   "personajes": {
+    "mono": {
+     "x": 0.5,
+     "escala": 0.95,
+     "pose": "brazos_arriba",
+     "cara": "sorpresa",
+     "salta": true
+    }
+   },
+   "golpes": [
+    "@sorprendentes"
+   ]
+  },
+  {
+   "en": "Número siete",
+   "color": "azul",
+   "capitulo": "7. Los productos con tu nombre",
+   "escenas": [
+    {
+     "tipo": "lista",
+     "n": 7,
+     "titulo": "LOS PRODUCTOS",
+     "apodo": "EL MUÑECO",
+     "titulo_al": "@productos",
+     "apodo_al": "@muneco",
+     "color": "azul"
+    }
+   ],
+   "personajes": {
+    "mono": {
+     "x": 0.11,
+     "escala": 0.8,
+     "pose": "jarras",
+     "cara": "normal"
+    }
+   }
+  },
+  {
+   "en": "Camisetas, peluches",
+   "escenas": [
+    {
+     "tipo": "iconos",
+     "tam": 210,
+     "items": [
+      {
+       "icono": "camiseta",
+       "texto": "CAMISETAS",
+       "al": "@camisetas"
+      },
+      {
+       "icono": "oveja",
+       "texto": "PELUCHES",
+       "al": "@peluches"
+      },
+      {
+       "icono": "robot",
+       "texto": "TU PERSONAJE",
+       "al": "@videojuego"
+      }
+     ]
+    }
+   ],
+   "personajes": {
+    "mono": {
+     "pose": "presentar",
+     "cara": "risa"
+    },
+    "primo": {
+     "x": 0.89,
+     "y": 0.95,
+     "escala": 0.8,
+     "mira": "izq",
+     "pose": "celebrar",
+     "cara": "risa",
+     "entra": "@camisetas",
+     "entrada": "salto",
+     "objeto": "ninguno"
+    }
+   }
+  },
+  {
+   "en": "En enero de dos mil veintiuno, TheGrefg",
+   "escenas": [
+    {
+     "tipo": "pantalla",
+     "dispositivo": "movil",
+     "titulo": "ENERO 2021 · EN DIRECTO",
+     "lineas": [
+      {
+       "texto": "TheGrefg presenta",
+       "al": "@thegrefg"
+      },
+      {
+       "texto": "su skin de Fortnite",
+       "al": "@skin",
+       "color": "azul"
+      }
+     ]
+    }
+   ],
+   "personajes": {
+    "mono": {
+     "pose": "señalar",
+     "cara": "normal"
+    },
+    "primo": {
+     "pose": "pensar",
+     "cara": "normal"
+    }
+   }
+  },
+  {
+   "en": "Le vieron a la vez",
+   "color": "verde",
+   "escenas": [
+    {
+     "tipo": "cifra",
+     "caja": {
+      "y": 400
+     },
+     "desde": 0,
+     "hasta": 2400000,
+     "al": "@dos",
+     "dur": 1.3,
+     "etiqueta": "personas a la vez",
+     "etiqueta_al": "@personas",
+     "color": "verde",
+     "flecha": "sube",
+     "tam": 150
+    }
+   ],
+   "personajes": {
+    "mono": {
+     "pose": "señalar_arriba",
+     "cara": "sorpresa"
+    },
+    "primo": {
+     "pose": "brazos_arriba",
+     "cara": "sorpresa"
+    }
+   }
+  },
+  {
+   "en": "Récord de Twitch",
+   "escenas": [
+    {
+     "tipo": "sello",
+     "texto": "RÉCORD DE TWITCH",
+     "tam": 110,
+     "al": "@record",
+     "color": "azul"
+    }
+   ],
+   "personajes": {
+    "mono": {
+     "pose": "celebrar",
+     "cara": "risa"
+    },
+    "primo": {
+     "pose": "celebrar",
+     "cara": "risa",
+     "salta": true
+    }
+   }
+  },
+  {
+   "en": "Los creadores tienen un código",
+   "escenas": [
+    {
+     "tipo": "flujo",
+     "nodos": [
+      {
+       "texto": "TU CÓDIGO",
+       "icono": "llave",
+       "al": "@codigo"
+      },
+      {
+       "texto": "5 $ PARA TI",
+       "icono": "hucha",
+       "al": "@cinco",
+       "color": "verde"
+      },
+      {
+       "texto": "POR CADA 10.000 PAVOS",
+       "icono": "dolar",
+       "al": "@diez"
+      }
+     ]
+    }
+   ],
+   "personajes": {
+    "mono": {
+     "pose": "pensar",
+     "cara": "normal"
+    },
+    "primo": {
+     "pose": "de_pie",
+     "cara": "normal",
+     "cambios": [
+      {
+       "al": "@cinco",
+       "pose": "encogerse",
+       "cara": "sorpresa"
+      }
+     ]
+    }
+   }
+  },
+  {
+   "en": "Número ocho",
+   "color": "verde",
+   "capitulo": "8. Los eventos en directo",
+   "escenas": [
+    {
+     "tipo": "lista",
+     "n": 8,
+     "titulo": "LOS EVENTOS",
+     "apodo": "EL ESTADIO",
+     "titulo_al": "@eventos",
+     "apodo_al": "@estadio",
+     "color": "verde"
+    }
+   ],
+   "personajes": {
+    "mono": {
+     "pose": "jarras",
+     "cara": "risa",
+     "salta": true
+    }
+   }
+  },
+  {
+   "en": "Creadores famosos en un ring",
+   "escenas": [
+    {
+     "tipo": "iconos",
+     "tam": 210,
+     "items": [
+      {
+       "icono": "ticket",
+       "texto": "ENTRADAS",
+       "al": "@entradas"
+      },
+      {
+       "icono": "megafono",
+       "texto": "PATROCINIOS",
+       "al": "@patrocinios"
+      }
+     ]
+    }
+   ],
+   "personajes": {
+    "mono": {
+     "pose": "empujar",
+     "cara": "enfado"
+    },
+    "primo": {
+     "x": 0.89,
+     "y": 0.95,
+     "escala": 0.8,
+     "mira": "izq",
+     "pose": "empujar",
+     "cara": "enfado",
+     "entra": "@ring",
+     "entrada": "der"
+    }
+   },
+   "sfx": [
+    [
+     "golpe",
+     "@ring+0.4",
+     0.7
+    ]
+   ]
+  },
+  {
+   "en": "En julio de dos mil veinticinco, La Velada",
+   "escenas": [
+    {
+     "tipo": "mapa",
+     "titulo": "LA VELADA DEL AÑO",
+     "pines": [
+      {
+       "nombre": "LA CARTUJA, SEVILLA",
+       "x": -0.06,
+       "y": -0.32,
+       "al": "@cartuja"
+      }
+     ]
+    }
+   ],
+   "personajes": {
+    "mono": {
+     "pose": "señalar",
+     "cara": "normal"
+    },
+    "primo": {
+     "pose": "celebrar",
+     "cara": "risa"
+    }
+   }
+  },
+  {
+   "en": "Unas ochenta mil personas",
+   "escenas": [
+    {
+     "tipo": "cifra",
+     "caja": {
+      "y": 400
+     },
+     "desde": 0,
+     "hasta": 80000,
+     "al": "@ochenta",
+     "dur": 0.9,
+     "etiqueta": "personas",
+     "etiqueta_al": "@personas",
+     "color": "verde"
+    }
+   ],
+   "personajes": {
+    "mono": {
+     "pose": "señalar_arriba",
+     "cara": "sorpresa"
+    },
+    "primo": {
+     "pose": "brazos_arriba",
+     "cara": "risa"
+    }
+   },
+   "sfx": [
+    [
+     "gente",
+     "@ochenta",
+     0.5
+    ]
+   ]
+  },
+  {
+   "en": "Y en Twitch se conectaron",
+   "color": "morado",
+   "escenas": [
+    {
+     "tipo": "cifra",
+     "caja": {
+      "y": 400
+     },
+     "desde": 0,
+     "hasta": 9000000,
+     "al": "@nueve",
+     "dur": 1.2,
+     "etiqueta": "dispositivos a la vez",
+     "etiqueta_al": "@dispositivos",
+     "color": "morado",
+     "flecha": "sube",
+     "tam": 150
+    }
+   ],
+   "personajes": {
+    "mono": {
+     "pose": "miedo",
+     "cara": "sorpresa"
+    },
+    "primo": {
+     "pose": "celebrar",
+     "cara": "sorpresa",
+     "salta": true
+    }
+   }
+  },
+  {
+   "en": "Su empresa facturó",
+   "color": "verde",
+   "escenas": [
+    {
+     "tipo": "grafica",
+     "forma": "barras",
+     "titulo": "SU EMPRESA, ESE AÑO",
+     "sufijo": " M€",
+     "decimales": 1,
+     "ymin": 0,
+     "ymax": 13.5,
+     "al": "@facturo",
+     "puntos": [
+      {
+       "e": "factura",
+       "v": 11.7,
+       "al": "@once",
+       "color": "azul"
+      },
+      {
+       "e": "gana",
+       "v": 1.7,
+       "al": "@gano",
+       "color": "verde"
+      }
+     ],
+     "ancho": 1000
+    }
+   ],
+   "personajes": {
+    "mono": {
+     "pose": "señalar",
+     "cara": "normal"
+    },
+    "rico": {
+     "x": 0.89,
+     "y": 0.95,
+     "escala": 0.8,
+     "mira": "izq",
+     "pose": "jarras",
+     "cara": "chulo",
+     "entra": "@empresa",
+     "entrada": "cae"
+    }
+   }
+  },
+  {
+   "en": "De cada diez euros que entran",
+   "escenas": [
+    {
+     "tipo": "texto",
+     "tam": 100,
+     "palabras": [
+      {
+       "texto": "10 € ENTRAN",
+       "al": "@diez"
+      },
+      {
+       "texto": "1,5 € DE BENEFICIO",
+       "al": "@uno",
+       "caja": true,
+       "color": "verde"
+      }
+     ]
+    }
+   ],
+   "personajes": {
+    "mono": {
+     "pose": "pensar",
+     "cara": "normal",
+     "cambios": [
+      {
+       "al": "@uno",
+       "pose": "encogerse",
+       "cara": "sorpresa"
+      }
+     ]
+    },
+    "rico": {
+     "pose": "pensar",
+     "cara": "normal"
+    }
+   }
+  },
+  {
+   "en": "Y llegamos a las dos últimas",
+   "color": "rojo",
+   "escenas": [
+    {
+     "tipo": "texto",
+     "tam": 120,
+     "palabras": [
+      {
+       "texto": "LAS 2",
+       "al": "@dos"
+      },
+      {
+       "texto": "ÚLTIMAS",
+       "al": "@ultimas",
+       "caja": true,
+       "color": "rojo"
+      }
+     ],
+     "caja": {
+      "y": 250
+     }
+    }
+   ],
+   "personajes": {
+    "mono": {
+     "x": 0.5,
+     "escala": 0.95,
+     "pose": "brazos_arriba",
+     "cara": "sorpresa",
+     "salta": true
+    }
+   },
+   "golpes": [
+    "@sorprenden"
+   ]
+  },
+  {
+   "en": "Número nueve",
+   "color": "naranja",
+   "capitulo": "9. La marca propia",
+   "escenas": [
+    {
+     "tipo": "lista",
+     "n": 9,
+     "titulo": "LA MARCA PROPIA",
+     "apodo": "EL NEGOCIO DE FUERA",
+     "titulo_al": "@marca",
+     "apodo_al": "@negocio",
+     "color": "naranja"
+    }
+   ],
+   "personajes": {
+    "mono": {
+     "x": 0.11,
+     "escala": 0.8,
+     "pose": "jarras",
+     "cara": "normal"
+    }
+   }
+  },
+  {
+   "en": "Montas tu propia empresa",
+   "escenas": [
+    {
+     "tipo": "flujo",
+     "nodos": [
+      {
+       "texto": "TU EMPRESA",
+       "icono": "tienda",
+       "al": "@empresa"
+      },
+      {
+       "texto": "TUS VÍDEOS",
+       "icono": "play",
+       "al": "@videos"
+      },
+      {
+       "texto": "ANUNCIO GRATIS",
+       "icono": "megafono",
+       "al": "@gratis",
+       "color": "verde"
+      }
+     ]
+    }
+   ],
+   "personajes": {
+    "mono": {
+     "pose": "presentar",
+     "cara": "normal"
+    },
+    "rico": {
+     "x": 0.89,
+     "y": 0.95,
+     "escala": 0.8,
+     "mira": "izq",
+     "pose": "presentar",
+     "cara": "risa",
+     "entra": "@empresa",
+     "entrada": "salto"
+    }
+   }
+  },
+  {
+   "en": "Es lo que hace MrBeast",
+   "escenas": [
+    {
+     "tipo": "iconos",
+     "tam": 240,
+     "items": [
+      {
+       "icono": "play",
+       "texto": "MRBEAST",
+       "al": "@mrbeast"
+      },
+      {
+       "icono": "trofeo",
+       "texto": "EL CANAL MÁS GRANDE",
+       "al": "@grande"
+      }
+     ]
+    }
+   ],
+   "personajes": {
+    "mono": {
+     "pose": "señalar",
+     "cara": "sorpresa"
+    },
+    "rico": {
+     "pose": "brazos_cruzados",
+     "cara": "chulo"
+    }
+   }
+  },
+  {
+   "en": "En dos mil veinticuatro, su chocolate",
+   "color": "verde",
+   "escenas": [
+    {
+     "tipo": "grafica",
+     "forma": "barras",
+     "titulo": "FEASTABLES, 2024",
+     "prefijo": "$",
+     "sufijo": " M",
+     "ymin": 0,
+     "ymax": 290,
+     "al": "@chocolate",
+     "puntos": [
+      {
+       "e": "vende",
+       "v": 250,
+       "al": "@doscientos",
+       "color": "naranja"
+      },
+      {
+       "e": "gana",
+       "v": 20,
+       "al": "@veinte",
+       "color": "verde"
+      }
+     ],
+     "ancho": 1000
+    }
+   ],
+   "personajes": {
+    "mono": {
+     "pose": "señalar",
+     "cara": "normal"
+    },
+    "rico": {
+     "pose": "celebrar",
+     "cara": "risa"
+    }
+   }
+  },
+  {
+   "en": "Lo raro es que sus vídeos",
+   "color": "rojo",
+   "escenas": [
+    {
+     "tipo": "comparativa",
+     "a": {
+      "titulo": "CHOCOLATE",
+      "valor": "+20 M$",
+      "icono": "chocolate",
+      "al": "@raro",
+      "color": "verde"
+     },
+     "b": {
+      "titulo": "VÍDEOS",
+      "valor": "-80 M$",
+      "icono": "play",
+      "al": "@perdieron",
+      "color": "rojo"
+     },
+     "ganador": "a",
+     "ganador_al": "@ochenta+0.5"
+    }
+   ],
+   "personajes": {
+    "mono": {
+     "pose": "de_pie",
+     "cara": "sorpresa"
+    },
+    "rico": {
+     "pose": "de_pie",
+     "cara": "normal",
+     "cambios": [
+      {
+       "al": "@perdieron",
+       "pose": "miedo",
+       "cara": "miedo"
+      }
+     ],
+     "objeto": "bolsa"
+    }
+   }
+  },
+  {
+   "en": "Los vídeos cuestan",
+   "color": "naranja",
+   "escenas": [
+    {
+     "tipo": "iconos",
+     "tam": 240,
+     "items": [
+      {
+       "icono": "play",
+       "texto": "CUESTAN",
+       "al": "@cuestan",
+       "color_texto": "rojo"
+      },
+      {
+       "icono": "chocolate",
+       "texto": "PAGA",
+       "al": "@paga",
+       "color_texto": "verde"
+      }
+     ]
+    }
+   ],
+   "personajes": {
+    "mono": {
+     "pose": "señalar",
+     "cara": "guiño"
+    },
+    "rico": {
+     "pose": "encogerse",
+     "cara": "triste",
+     "cambios": [
+      {
+       "al": "@paga",
+       "pose": "celebrar",
+       "cara": "risa"
+      }
+     ]
+    }
+   }
+  },
+  {
+   "en": "Número diez",
+   "color": "rojo",
+   "capitulo": "10. Hacienda",
+   "escenas": [
+    {
+     "tipo": "lista",
+     "n": 10,
+     "titulo": "HACIENDA",
+     "apodo": "EL SOCIO QUE NADIE VE",
+     "titulo_al": "@hacienda",
+     "apodo_al": "@socio",
+     "color": "rojo"
+    }
+   ],
+   "personajes": {
+    "mono": {
+     "pose": "jarras",
+     "cara": "normal",
+     "salta": true
+    }
+   }
+  },
+  {
+   "en": "En enero de dos mil veintiuno, El Rubius",
+   "escenas": [
+    {
+     "tipo": "flujo",
+     "nodos": [
+      {
+       "texto": "ENERO 2021: EL RUBIUS",
+       "icono": "micro",
+       "al": "@rubius"
+      },
+      {
+       "texto": "SE MUDA A ANDORRA",
+       "icono": "avion",
+       "al": "@andorra",
+       "color": "azul"
+      }
+     ]
+    }
+   ],
+   "personajes": {
+    "mono": {
+     "pose": "señalar",
+     "cara": "sorpresa"
+    },
+    "rico": {
+     "pose": "saludar",
+     "cara": "risa",
+     "cambios": [
+      {
+       "al": "@mudaba",
+       "pose": "correr",
+       "cara": "risa"
+      }
+     ],
+     "salida": "der",
+     "sale": "@andorra+0.9",
+     "x": 0.89,
+     "y": 0.95,
+     "escala": 0.8,
+     "mira": "izq",
+     "entra": "@rubius",
+     "entrada": "salto"
+    }
+   }
+  },
+  {
+   "en": "Allí el impuesto sobre la renta",
+   "color": "azul",
+   "escenas": [
+    {
+     "tipo": "cifra",
+     "caja": {
+      "y": 430
+     },
+     "desde": 0,
+     "hasta": 10,
+     "sufijo": " %",
+     "al": "@tope",
+     "dur": 0.7,
+     "antes": "ANDORRA: COMO MUCHO",
+     "etiqueta": "de impuesto sobre la renta",
+     "etiqueta_al": "@tope",
+     "color": "azul"
+    }
+   ],
+   "personajes": {
+    "mono": {
+     "pose": "pensar",
+     "cara": "normal"
+    }
+   }
+  },
+  {
+   "en": "Y en España estalló el debate",
+   "color": "rojo",
+   "escenas": [
+    {
+     "tipo": "iconos",
+     "tam": 260,
+     "items": [
+      {
+       "icono": "fuego",
+       "texto": "DEBATE",
+       "al": "@estallo"
+      }
+     ]
+    }
+   ],
+   "personajes": {
+    "mono": {
+     "pose": "miedo",
+     "cara": "sorpresa"
+    },
+    "primo": {
+     "x": 0.89,
+     "y": 0.95,
+     "escala": 0.8,
+     "mira": "izq",
+     "pose": "jarras",
+     "cara": "enfado",
+     "entra": "@espana",
+     "entrada": "cae",
+     "objeto": "ninguno"
+    }
+   },
+   "golpes": [
+    "@estallo"
+   ]
+  },
+  {
+   "en": "Pero para Hacienda sigues",
+   "color": "amarillo",
+   "escenas": [
+    {
+     "tipo": "cifra",
+     "caja": {
+      "y": 430
+     },
+     "desde": 0,
+     "hasta": 183,
+     "al": "@ciento",
+     "dur": 1.0,
+     "antes": "VIVES EN ESPAÑA SI PASAS AQUÍ",
+     "etiqueta": "días al año",
+     "etiqueta_al": "@dias",
+     "color": "rojo",
+     "flecha": "sube"
+    }
+   ],
+   "personajes": {
+    "mono": {
+     "pose": "señalar_arriba",
+     "cara": "guiño"
+    },
+    "primo": {
+     "pose": "brazos_cruzados",
+     "cara": "chulo"
+    }
+   }
+  },
+  {
+   "en": "Y ahora, volvamos a tu primo",
+   "color": "verde",
+   "capitulo": "Cuánto se queda de verdad",
+   "escenas": [
+    {
+     "tipo": "pregunta",
+     "pregunta": "¿Cuánto se queda de verdad?",
+     "al": "@cuanto"
+    }
+   ],
+   "personajes": {
+    "mono": {
+     "pose": "pensar",
+     "cara": "normal"
+    },
+    "primo": {
+     "pose": "sentado",
+     "cara": "chulo",
+     "objeto": "pizza"
+    }
+   },
+   "relleno": {
+    "icono": "pizza"
+   }
+  },
+  {
+   "en": "La empresa del Rubius hizo públicas",
+   "escenas": [
+    {
+     "tipo": "cifra",
+     "caja": {
+      "y": 430
+     },
+     "desde": 0,
+     "hasta": 2080000,
+     "sufijo": " €",
+     "al": "@dos millones",
+     "dur": 1.3,
+     "antes": "SU EMPRESA EN 2019",
+     "etiqueta": "de ingresos",
+     "etiqueta_al": "@ingreso",
+     "color": "verde",
+     "flecha": "sube",
+     "tam": 150
+    }
+   ],
+   "personajes": {
+    "mono": {
+     "pose": "señalar",
+     "cara": "normal"
+    },
+    "rico": {
+     "x": 0.89,
+     "y": 0.95,
+     "escala": 0.8,
+     "mira": "izq",
+     "pose": "celebrar",
+     "cara": "risa",
+     "entra": "@empresa",
+     "entrada": "salto"
+    }
+   }
+  },
+  {
+   "en": "Más de un millón se fue",
+   "color": "rojo",
+   "escenas": [
+    {
+     "tipo": "cifra",
+     "caja": {
+      "y": 430
+     },
+     "desde": 2080000,
+     "hasta": 867000,
+     "sufijo": " €",
+     "al": "@impuestos",
+     "dur": 1.4,
+     "antes": "MÁS DE 1 MILLÓN, A IMPUESTOS",
+     "etiqueta": "le quedaron",
+     "etiqueta_al": "@quedaron",
+     "color": "rojo",
+     "flecha": "baja",
+     "tam": 140
+    }
+   ],
+   "personajes": {
+    "mono": {
+     "pose": "de_pie",
+     "cara": "sorpresa"
+    },
+    "rico": {
+     "pose": "de_pie",
+     "cara": "normal",
+     "cambios": [
+      {
+       "al": "@impuestos",
+       "pose": "miedo",
+       "cara": "miedo"
+      },
+      {
+       "al": "@quedaron",
+       "pose": "encogerse",
+       "cara": "triste"
+      }
+     ]
+    }
+   }
+  },
+  {
+   "en": "De cada dos euros que gana",
+   "escenas": [
+    {
+     "tipo": "comparativa",
+     "a": {
+      "titulo": "PARA ÉL",
+      "valor": "1 €",
+      "icono": "hucha",
+      "al": "@dos",
+      "color": "verde"
+     },
+     "b": {
+      "titulo": "PARA HACIENDA",
+      "valor": "1 €",
+      "icono": "balanza",
+      "al": "@hacienda",
+      "color": "rojo"
+     }
+    }
+   ],
+   "personajes": {
+    "mono": {
+     "pose": "señalar",
+     "cara": "normal"
+    },
+    "rico": {
+     "pose": "encogerse",
+     "cara": "triste"
+    }
+   }
+  },
+  {
+   "en": "Así que tu primo tiene razón",
+   "color": "naranja",
+   "escenas": [
+    {
+     "tipo": "sello",
+     "texto": "RAZÓN A MEDIAS",
+     "tam": 110,
+     "al": "@medias",
+     "color": "naranja"
+    }
+   ],
+   "personajes": {
+    "mono": {
+     "pose": "presentar",
+     "cara": "guiño"
+    },
+    "primo": {
+     "x": 0.89,
+     "y": 0.95,
+     "escala": 0.8,
+     "mira": "izq",
+     "pose": "celebrar",
+     "cara": "risa",
+     "entra": "@primo",
+     "entrada": "der",
+     "cambios": [
+      {
+       "al": "@medias",
+       "pose": "encogerse",
+       "cara": "sorpresa"
+      }
+     ],
+     "objeto": "ninguno"
+    }
+   },
+   "relleno": {
+    "icono": "pizza"
+   }
+  },
+  {
+   "en": "Algunos se forran",
+   "color": "verde",
+   "escenas": [
+    {
+     "tipo": "dinero",
+     "modo": "sube",
+     "al": "@forran",
+     "cantidad": 18,
+     "monedas": "dolar"
+    },
+    {
+     "tipo": "iconos",
+     "tam": 250,
+     "items": [
+      {
+       "icono": "megafono",
+       "texto": "CON LOS ANUNCIOS",
+       "al": "@anuncios-0.6",
+       "tachar_al": "@anuncios+0.3"
+      }
+     ]
+    }
+   ],
+   "personajes": {
+    "mono": {
+     "pose": "jarras",
+     "cara": "chulo"
+    },
+    "primo": {
+     "pose": "celebrar",
+     "cara": "risa",
+     "cambios": [
+      {
+       "al": "@nunca",
+       "pose": "de_pie",
+       "cara": "triste"
+      }
+     ]
+    }
+   }
+  },
+  {
+   "en": "Y tú",
+   "color": "morado",
+   "escenas": [
+    {
+     "tipo": "pregunta",
+     "pregunta": "¿De cuál de las 10 vivirías?",
+     "al": "@cual"
+    }
+   ],
+   "personajes": {
+    "mono": {
+     "pose": "señalar",
+     "cara": "guiño",
+     "salta": true
+    },
+    "primo": {
+     "pose": "pensar",
+     "cara": "normal"
+    }
+   }
+  },
+  {
+   "en": "Te leo en los comentarios",
+   "escenas": [
+    {
+     "tipo": "chat",
+     "mensajes": [
+      {
+       "texto": "Yo, de la nueve",
+       "al": "@leo"
+      },
+      {
+       "texto": "¡De los Shorts!",
+       "al": "@comentarios",
+       "lado": "der"
+      }
+     ]
+    }
+   ],
+   "personajes": {
+    "mono": {
+     "pose": "saludar",
+     "cara": "risa"
+    },
+    "primo": {
+     "pose": "de_pie",
+     "cara": "risa",
+     "objeto": "movil"
+    }
+   }
+  },
+  {
+   "en": "Si te gusta entender",
+   "color": "amarillo",
+   "escenas": [
+    {
+     "tipo": "texto",
+     "tam": 100,
+     "palabras": [
+      {
+       "texto": "¿TE GUSTA ENTENDERLA?",
+       "al": "@entender"
+      },
+      {
+       "texto": "SUSCRÍBETE",
+       "al": "@suscribete",
+       "caja": true,
+       "color": "rojo"
+      }
+     ],
+     "por_fila": 22
+    }
+   ],
+   "personajes": {
+    "mono": {
+     "pose": "presentar",
+     "cara": "risa"
+    },
+    "nino": {
+     "x": 0.89,
+     "y": 0.95,
+     "escala": 0.9,
+     "mira": "izq",
+     "pose": "saludar",
+     "cara": "risa",
+     "entra": "@tecnologia",
+     "entrada": "cae",
+     "objeto": "ninguno"
+    }
+   }
+  },
+  {
+   "en": "Cada semana, una máquina",
+   "escenas": [
+    {
+     "tipo": "iconos",
+     "tam": 200,
+     "items": [
+      {
+       "icono": "chip",
+       "texto": "UNA MÁQUINA",
+       "al": "@maquina"
+      },
+      {
+       "icono": "bombilla",
+       "texto": "UN INVENTO",
+       "al": "@invento"
+      },
+      {
+       "icono": "libro",
+       "texto": "UNA IDEA",
+       "al": "@idea"
+      }
+     ]
+    }
+   ],
+   "personajes": {
+    "mono": {
+     "pose": "celebrar",
+     "cara": "risa"
+    },
+    "nino": {
+     "pose": "celebrar",
+     "cara": "risa",
+     "salta": true
+    }
+   }
+  }
+ ]
+}

@@ -1,0 +1,20 @@
+{
+  "por-que-tu-movil-va-mas-lento-con-los-anos": {
+    "composition": "PorQueTuMovilVaMasLentoConLosAnos",
+    "tsx": "remotion/src/PorQueTuMovilVaMasLentoConLosAnos.tsx",
+    "manifest_dir": "channel/tecno/videos/por-que-tu-movil-va-mas-lento-con-los-anos",
+    "script": "channel/tecno/videos/por-que-tu-movil-va-mas-lento-con-los-anos/script.md",
+    "audio_static": "por-que-tu-movil-va-mas-lento-con-los-anos.mp3",
+    "images_subpath": "por-que-tu-movil-va-mas-lento-con-los-anos",
+    "naming": "timestamp",
+    "ext": "jpg",
+    "playback_rate": 1.0,
+    "fps": 30,
+    "width": 1920,
+    "height": 1080,
+    "background": "#ffffff",
+    "ref_image": "channel/tecno/references/mono_stick_cutre.png",
+    "estilo": "stick_cutre",
+    "image_model": "lite"
+  }
+}

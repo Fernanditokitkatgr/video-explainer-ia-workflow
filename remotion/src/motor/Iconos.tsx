@@ -12,10 +12,35 @@ export const ICONOS = [
   'alerta', 'mundo', 'movil', 'hucha', 'fuego', 'libro', 'bombilla', 'cadena', 'balanza', 'gota', 'ola', 'escudo',
   // nov-2026 (Shorts de contraseñas y alucinaciones)
   'llave', 'anzuelo', 'sobre', 'dado', 'mazo', 'examen', 'pinocho', 'gpu', 'calavera',
+  // nov-2026 (largos del youtuber y del móvil lento)
+  'play', 'bateria', 'termometro', 'camiseta', 'chocolate', 'micro', 'trofeo', 'ojo', 'tortuga', 'caja', 'mochila',
+  'puerta', 'avion', 'casa', 'chip', 'ticket',
 ] as const;
 export type NombreIcono = (typeof ICONOS)[number];
 
 const S = {stroke: C.ink, strokeWidth: 6, strokeLinejoin: 'round' as const, strokeLinecap: 'round' as const};
+
+/**
+ * Símbolo ₿ dibujado a trazo (no depende de que la fuente tenga el carácter). Centrado en (0,0) y de
+ * `tam` de alto: palo, dos barrigas y las dos rayitas de arriba y de abajo, con contorno de rotulador.
+ */
+export const SimboloBTC: React.FC<{tam?: number; color?: string; seed?: string}> = ({tam = 100, color = C.paper, seed = 'btc'}) => {
+  const b = useBoil();
+  const s = tam / 100;
+  const j = (v: number, k: string) => (v + jit(`${seed}${k}${b}`, 1.4)).toFixed(1);
+  const d = [
+    `M${j(-22, 'a')} -38 L${j(-22, 'b')} 38`,
+    `M-22 -38 L6 -38 Q${j(30, 'c')} -38 ${j(30, 'd')} -20 Q30 -2 6 -2 L-22 -2`,
+    `M-22 -2 L10 -2 Q${j(36, 'e')} -2 ${j(36, 'f')} 18 Q36 38 8 38 L-22 38`,
+    `M-8 -50 L-8 -38 M10 -50 L10 -38 M-8 38 L-8 50 M10 38 L10 50`,
+  ].join(' ');
+  return (
+    <g transform={`scale(${s})`}>
+      <path d={d} fill="none" stroke={C.ink} strokeWidth={22} strokeLinecap="round" strokeLinejoin="round" />
+      <path d={d} fill="none" stroke={color} strokeWidth={12} strokeLinecap="round" strokeLinejoin="round" />
+    </g>
+  );
+};
 
 export const Icono: React.FC<{nombre: string; tam?: number; color?: string}> = ({nombre, tam = 200, color}) => {
   const b = useBoil();
@@ -37,7 +62,7 @@ export const Icono: React.FC<{nombre: string; tam?: number; color?: string}> = (
         <>
           {E(0, 0, 80, 80, color ?? C.gold)}
           <path d={wobEllipse(0, 0, 58, 58, k + 'in')} fill="none" stroke={C.ink} strokeWidth={3} opacity={0.5} />
-          {T(0, 34, '₿', 96, C.paper)}
+          <SimboloBTC tam={100} color={C.paper} seed={k} />
         </>
       );
       break;
@@ -157,7 +182,9 @@ export const Icono: React.FC<{nombre: string; tam?: number; color?: string}> = (
             <path key={i} d={wobPoly([[-96 + i * 32, -60], [-64 + i * 32, -60], [-64 + i * 32, -20], [-96 + i * 32, -20]], k + 'tl' + i, 1.5, true)} fill={i % 2 ? C.paper : color ?? C.red} {...S} strokeWidth={4} />
           ))}
           {R(-25, 20, 50, 70, C.blue, 'd', 4)}
-          {T(0, -72, '₿', 36, C.gold)}
+          <g transform="translate(0 -84)">
+            <SimboloBTC tam={38} color={C.gold} seed={k + 't'} />
+          </g>
         </>
       );
       break;
@@ -480,6 +507,189 @@ export const Icono: React.FC<{nombre: string; tam?: number; color?: string}> = (
           {L([-15, 55], [-15, 80], 'd1', 5)}
           {L([15, 55], [15, 80], 'd2', 5)}
         </>
+      );
+      break;
+    case 'play':
+      body = (
+        <>
+          {R(-100, -70, 200, 140, color ?? C.red, 'p', 40)}
+          {P([[-25, -38], [45, 0], [-25, 38]], C.paper, 'tr')}
+        </>
+      );
+      break;
+    case 'bateria': {
+      // color 'vacia' → casi sin carga y en rojo
+      const nivel = color === 'vacia' ? 0.18 : 0.75;
+      const c = nivel < 0.3 ? C.red : C.green;
+      body = (
+        <>
+          {R(-60, -95, 120, 190, C.paper, 'b', 16)}
+          {R(-22, -112, 44, 20, C.grey, 'pt', 5)}
+          {R(-44, 79 - 158 * nivel, 88, 158 * nivel, c, 'n', 8)}
+          {P([[8, -55], [-22, 5], [2, 5], [-10, 60], [24, -10], [0, -10]], C.yellow, 'r')}
+        </>
+      );
+      break;
+    }
+    case 'termometro': {
+      const h = 60 + Math.sin(t * 3) * 25;
+      body = (
+        <>
+          {R(-22, -105, 44, 160, C.paper, 't', 22)}
+          {R(-10, 40 - h, 20, h + 10, color ?? C.red, 'm', 8)}
+          {E(0, 65, 38, 38, color ?? C.red, 'bu')}
+          {L([22, -70], [42, -70], 'g1', 5)}
+          {L([22, -40], [36, -40], 'g2', 5)}
+          {L([22, -10], [42, -10], 'g3', 5)}
+        </>
+      );
+      break;
+    }
+    case 'camiseta':
+      body = (
+        <>
+          {P([[-40, -85], [-100, -55], [-80, -10], [-55, -25], [-55, 90], [55, 90], [55, -25], [80, -10], [100, -55], [40, -85], [0, -60]], color ?? C.blue, 'c')}
+          {P([[-40, -85], [0, -60], [40, -85]], C.paper, 'cu', false)}
+        </>
+      );
+      break;
+    case 'chocolate':
+      body = (
+        <>
+          {R(-80, -95, 160, 190, color ?? '#6B3E1F', 'c', 10)}
+          {[-50, 0].map((x) => [-65, -10].map((y) => <path key={`${x}${y}`} d={wobRect(x + 5, y, 40, 44, k + 'o' + x + y, 1.5, 6)} fill="#8B5A2B" {...S} strokeWidth={4} />))}
+          {P([[-85, 30], [85, -10], [85, 100], [-85, 100]], C.red, 'env')}
+        </>
+      );
+      break;
+    case 'micro':
+      body = (
+        <>
+          {R(-38, -100, 76, 120, color ?? C.grey, 'c', 38)}
+          {L([-26, -60], [26, -60], 'r1', 4)}
+          {L([-26, -35], [26, -35], 'r2', 4)}
+          <path d={wobPoly([[-60, -10], [-55, 40], [0, 60], [55, 40], [60, -10]], k + 'u', 2)} fill="none" {...S} strokeWidth={8} />
+          {L([0, 60], [0, 95], 'p', 8)}
+          {L([-40, 95], [40, 95], 'b', 8)}
+        </>
+      );
+      break;
+    case 'trofeo':
+      body = (
+        <>
+          <path d={wobPoly([[-60, -60], [-95, -55], [-80, 0], [-45, 10]], k + 'a1', 2)} fill="none" {...S} strokeWidth={9} />
+          <path d={wobPoly([[60, -60], [95, -55], [80, 0], [45, 10]], k + 'a2', 2)} fill="none" {...S} strokeWidth={9} />
+          {P([[-65, -90], [65, -90], [50, 0], [0, 30], [-50, 0]], color ?? C.gold, 'c')}
+          {R(-14, 25, 28, 40, color ?? C.gold, 'p', 4)}
+          {R(-55, 60, 110, 32, '#6B3E1F', 'b', 6)}
+        </>
+      );
+      break;
+    case 'ojo': {
+      const mira = Math.sin(t * 2) * 18;
+      const parp = t % 3 < 0.12;
+      body = parp ? (
+        L([-100, 0], [100, 0], 'c', 8)
+      ) : (
+        <>
+          {P([[-105, 0], [-50, -55], [0, -65], [50, -55], [105, 0], [50, 55], [0, 65], [-50, 55]], C.paper, 'e')}
+          {E(mira, 0, 42, 42, color ?? C.blue, 'i')}
+          {E(mira, 0, 18, 18, C.ink, 'pu')}
+          <circle cx={mira + 10} cy={-12} r={7} fill={C.paper} />
+        </>
+      );
+      break;
+    }
+    case 'tortuga': {
+      const pata = Math.sin(t * 4) * 6;
+      body = (
+        <>
+          {E(95, 10 + pata * 0.3, 28, 24, '#8BD17C', 'cb')}
+          <circle cx={104} cy={2} r={5} fill={C.ink} />
+          {E(-55 + pata, 55, 18, 14, '#8BD17C', 'p1')}
+          {E(45 - pata, 55, 18, 14, '#8BD17C', 'p2')}
+          {P([[-90, 45], [-75, -30], [-30, -70], [30, -70], [75, -30], [90, 45]], color ?? C.green, 'ca')}
+          {L([-40, -40], [-10, 40], 'h1', 4)}
+          {L([40, -40], [10, 40], 'h2', 4)}
+          {L([-80, 10], [80, 10], 'h3', 4)}
+        </>
+      );
+      break;
+    }
+    case 'caja':
+      body = (
+        <>
+          {R(-90, -40, 180, 130, color ?? '#C9A26B', 'c', 6)}
+          {P([[-90, -40], [-60, -85], [60, -85], [90, -40]], '#DDB97F', 't')}
+          {L([0, -40], [0, 90], 'ci', 5)}
+          {R(-30, 0, 60, 26, C.paper, 'et', 4)}
+        </>
+      );
+      break;
+    case 'mochila':
+      body = (
+        <>
+          <path d={wobPoly([[-40, -70], [-40, -100], [40, -100], [40, -70]], k + 'a', 2)} fill="none" {...S} strokeWidth={10} />
+          {R(-75, -75, 150, 175, color ?? C.orange, 'c', 34)}
+          {R(-50, 20, 100, 60, '#D9822B', 'b', 12)}
+          {L([-50, 40], [50, 40], 'cr', 4)}
+        </>
+      );
+      break;
+    case 'puerta':
+      body = (
+        <>
+          {R(-70, -105, 140, 210, color ?? '#B5651D', 'p', 6)}
+          {R(-50, -85, 100, 70, '#9A5216', 'v1', 4)}
+          {R(-50, 0, 100, 80, '#9A5216', 'v2', 4)}
+          {E(45, 5, 9, 9, C.gold, 'po')}
+        </>
+      );
+      break;
+    case 'avion':
+      body = (
+        <g transform={`rotate(-20) translate(0 ${Math.sin(t * 3) * 6})`}>
+          {P([[-30, 0], [-60, -85], [-30, -85], [30, -10]], C.lightGrey, 'a1')}
+          {P([[-30, 10], [-60, 85], [-30, 85], [30, 15]], C.lightGrey, 'a2')}
+          {P([[-110, -12], [90, -18], [115, 0], [90, 18], [-110, 12]], color ?? C.paper, 'f')}
+          {P([[-110, -12], [-125, -50], [-95, -12]], C.red, 'co')}
+          {E(70, -4, 10, 7, C.blue, 'v')}
+        </g>
+      );
+      break;
+    case 'casa':
+      body = (
+        <>
+          {R(-75, -10, 150, 105, color ?? C.paper, 'c', 4)}
+          {P([[-100, -5], [0, -95], [100, -5]], C.red, 't')}
+          {R(-20, 30, 40, 65, '#B5651D', 'pu', 4)}
+          {R(35, 10, 30, 30, C.blue, 'v', 3)}
+        </>
+      );
+      break;
+    case 'chip':
+      body = (
+        <>
+          {[-60, -20, 20, 60].map((v, i) => (
+            <React.Fragment key={i}>
+              {L([v, -100], [v, -70], `pa${i}`, 8)}
+              {L([v, 70], [v, 100], `pb${i}`, 8)}
+              {L([-100, v], [-70, v], `pc${i}`, 8)}
+              {L([70, v], [100, v], `pd${i}`, 8)}
+            </React.Fragment>
+          ))}
+          {R(-75, -75, 150, 150, color ?? C.ink, 'c', 14)}
+          {R(-35, -35, 70, 70, C.grey, 'n', 6)}
+        </>
+      );
+      break;
+    case 'ticket':
+      body = (
+        <g transform="rotate(-10)">
+          {R(-105, -50, 210, 100, color ?? C.yellow, 't', 10)}
+          {L([45, -45], [45, 45], 'c', 4)}
+          {T(-25, 18, 'VIP', 48)}
+        </g>
       );
       break;
     default:
