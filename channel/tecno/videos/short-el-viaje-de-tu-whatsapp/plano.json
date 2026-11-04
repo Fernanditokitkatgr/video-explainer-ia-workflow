@@ -1,0 +1,1100 @@
+{
+ "reparto": {
+  "mono": {
+   "tipo": "protagonista",
+   "narrador": true
+  },
+  "amiga": {
+   "tipo": "mona"
+  },
+  "hacker": {
+   "tipo": "ciberdelincuente"
+  },
+  "poli": {
+   "tipo": "policia"
+  }
+ },
+ "tramos": [
+  {
+   "en": "",
+   "color": "verde",
+   "escenas": [
+    {
+     "tipo": "texto",
+     "tam": 84,
+     "palabras": [
+      {
+       "texto": "10 PARADAS",
+       "al": "@inicio",
+       "color": "amarillo"
+      },
+      {
+       "texto": "EN 1 SEGUNDO",
+       "al": "@+0.12",
+       "caja": true,
+       "color": "rojo"
+      }
+     ],
+     "zona": "arriba",
+     "caja": {
+      "y": 150
+     },
+     "por_fila": 14
+    },
+    {
+     "tipo": "viaje",
+     "viajero": "sobre",
+     "numero_desde": 0,
+     "actual": 0,
+     "al": "@inicio",
+     "paradas": [
+      {
+       "nombre": "Tú",
+       "icono": "movil"
+      },
+      {
+       "nombre": "Candado",
+       "icono": "candado"
+      },
+      {
+       "nombre": "Paquetes",
+       "icono": "caja"
+      },
+      {
+       "nombre": "WiFi",
+       "icono": "wifi"
+      },
+      {
+       "nombre": "Fibra",
+       "icono": "fibra"
+      },
+      {
+       "nombre": "Routers",
+       "icono": "router"
+      },
+      {
+       "nombre": "Servidor",
+       "icono": "servidor"
+      },
+      {
+       "nombre": "Consigna",
+       "icono": "reloj_arena"
+      },
+      {
+       "nombre": "Timbre",
+       "icono": "campana"
+      },
+      {
+       "nombre": "Llave",
+       "icono": "llave"
+      },
+      {
+       "nombre": "Leído",
+       "icono": "check_azul"
+      }
+     ],
+     "caja": {
+      "y": 760
+     },
+     "duracion_tramo": 0.7
+    }
+   ],
+   "personajes": {
+    "mono": {
+     "x": 0.25,
+     "escala": 0.95,
+     "pose": "señalar_arriba",
+     "cara": "sorpresa",
+     "objeto": "movil",
+     "entrada": "nada",
+     "cambios": [
+      {
+       "al": "@+1.1",
+       "pose": "jarras",
+       "cara": "sorpresa"
+      }
+     ]
+    }
+   },
+   "sfx": [
+    [
+     "golpe",
+     0.02,
+     1.0
+    ],
+    [
+     "boom",
+     0.04,
+     0.7
+    ]
+   ],
+   "golpes": [
+    0.05
+   ]
+  },
+  {
+   "en": "Primero, tu móvil",
+   "color": "azul",
+   "escenas": [
+    {
+     "tipo": "viaje",
+     "viajero": "sobre",
+     "numero_desde": 0,
+     "actual": 1,
+     "al": "@cierra",
+     "paradas": [
+      {
+       "nombre": "Tú",
+       "icono": "movil"
+      },
+      {
+       "nombre": "Candado",
+       "icono": "candado"
+      },
+      {
+       "nombre": "Paquetes",
+       "icono": "caja"
+      },
+      {
+       "nombre": "WiFi",
+       "icono": "wifi"
+      },
+      {
+       "nombre": "Fibra",
+       "icono": "fibra"
+      },
+      {
+       "nombre": "Routers",
+       "icono": "router"
+      },
+      {
+       "nombre": "Servidor",
+       "icono": "servidor"
+      },
+      {
+       "nombre": "Consigna",
+       "icono": "reloj_arena"
+      },
+      {
+       "nombre": "Timbre",
+       "icono": "campana"
+      },
+      {
+       "nombre": "Llave",
+       "icono": "llave"
+      },
+      {
+       "nombre": "Leído",
+       "icono": "check_azul"
+      }
+     ],
+     "caja": {
+      "y": 700
+     },
+     "duracion_tramo": 0.7
+    }
+   ],
+   "personajes": {
+    "amiga": {
+     "x": 0.76,
+     "escala": 0.95,
+     "mira": "izq",
+     "pose": "saludar",
+     "cara": "risa",
+     "objeto": "movil",
+     "entra": "@amigo",
+     "entrada": "der"
+    },
+    "mono": {
+     "objeto": "ninguno",
+     "pose": "presentar",
+     "cara": "risa",
+     "cambios": [
+      {
+       "al": "@+1.1",
+       "pose": "señalar_arriba",
+       "cara": "guiño"
+      },
+      {
+       "al": "@+3.3",
+       "pose": "saludar",
+       "cara": "normal"
+      }
+     ]
+    }
+   }
+  },
+  {
+   "en": "Luego lo trocea",
+   "color": "naranja",
+   "escenas": [
+    {
+     "tipo": "viaje",
+     "viajero": "sobre",
+     "numero_desde": 0,
+     "actual": 2,
+     "al": "@trocea",
+     "paradas": [
+      {
+       "nombre": "Tú",
+       "icono": "movil"
+      },
+      {
+       "nombre": "Candado",
+       "icono": "candado"
+      },
+      {
+       "nombre": "Paquetes",
+       "icono": "caja"
+      },
+      {
+       "nombre": "WiFi",
+       "icono": "wifi"
+      },
+      {
+       "nombre": "Fibra",
+       "icono": "fibra"
+      },
+      {
+       "nombre": "Routers",
+       "icono": "router"
+      },
+      {
+       "nombre": "Servidor",
+       "icono": "servidor"
+      },
+      {
+       "nombre": "Consigna",
+       "icono": "reloj_arena"
+      },
+      {
+       "nombre": "Timbre",
+       "icono": "campana"
+      },
+      {
+       "nombre": "Llave",
+       "icono": "llave"
+      },
+      {
+       "nombre": "Leído",
+       "icono": "check_azul"
+      }
+     ],
+     "caja": {
+      "y": 700
+     },
+     "duracion_tramo": 0.7
+    }
+   ],
+   "personajes": {
+    "amiga": {
+     "pose": "pensar",
+     "cara": "normal"
+    },
+    "mono": {
+     "pose": "pensar",
+     "cara": "sorpresa",
+     "cambios": [
+      {
+       "al": "@+1.1",
+       "pose": "brazos_cruzados",
+       "cara": "normal"
+      }
+     ]
+    }
+   }
+  },
+  {
+   "en": "y los lanza",
+   "escenas": [
+    {
+     "tipo": "viaje",
+     "viajero": "sobre",
+     "numero_desde": 0,
+     "actual": 3,
+     "al": "@aire",
+     "paradas": [
+      {
+       "nombre": "Tú",
+       "icono": "movil"
+      },
+      {
+       "nombre": "Candado",
+       "icono": "candado"
+      },
+      {
+       "nombre": "Paquetes",
+       "icono": "caja"
+      },
+      {
+       "nombre": "WiFi",
+       "icono": "wifi"
+      },
+      {
+       "nombre": "Fibra",
+       "icono": "fibra"
+      },
+      {
+       "nombre": "Routers",
+       "icono": "router"
+      },
+      {
+       "nombre": "Servidor",
+       "icono": "servidor"
+      },
+      {
+       "nombre": "Consigna",
+       "icono": "reloj_arena"
+      },
+      {
+       "nombre": "Timbre",
+       "icono": "campana"
+      },
+      {
+       "nombre": "Llave",
+       "icono": "llave"
+      },
+      {
+       "nombre": "Leído",
+       "icono": "check_azul"
+      }
+     ],
+     "caja": {
+      "y": 700
+     },
+     "duracion_tramo": 0.7
+    }
+   ],
+   "personajes": {
+    "amiga": {
+     "pose": "señalar_arriba",
+     "cara": "sorpresa"
+    },
+    "mono": {
+     "pose": "jarras",
+     "cara": "guiño",
+     "cambios": [
+      {
+       "al": "@+1.1",
+       "pose": "saludar",
+       "cara": "chulo"
+      }
+     ]
+    }
+   }
+  },
+  {
+   "en": "De ahí, a la fibra",
+   "color": "amarillo",
+   "escenas": [
+    {
+     "tipo": "viaje",
+     "viajero": "sobre",
+     "numero_desde": 0,
+     "actual": 4,
+     "al": "@fibra",
+     "paradas": [
+      {
+       "nombre": "Tú",
+       "icono": "movil"
+      },
+      {
+       "nombre": "Candado",
+       "icono": "candado"
+      },
+      {
+       "nombre": "Paquetes",
+       "icono": "caja"
+      },
+      {
+       "nombre": "WiFi",
+       "icono": "wifi"
+      },
+      {
+       "nombre": "Fibra",
+       "icono": "fibra"
+      },
+      {
+       "nombre": "Routers",
+       "icono": "router"
+      },
+      {
+       "nombre": "Servidor",
+       "icono": "servidor"
+      },
+      {
+       "nombre": "Consigna",
+       "icono": "reloj_arena"
+      },
+      {
+       "nombre": "Timbre",
+       "icono": "campana"
+      },
+      {
+       "nombre": "Llave",
+       "icono": "llave"
+      },
+      {
+       "nombre": "Leído",
+       "icono": "check_azul"
+      }
+     ],
+     "caja": {
+      "y": 700
+     },
+     "duracion_tramo": 0.7
+    }
+   ],
+   "personajes": {
+    "amiga": {
+     "pose": "brazos_arriba",
+     "cara": "sorpresa",
+     "salida": "der"
+    },
+    "mono": {
+     "pose": "señalar_arriba",
+     "cara": "normal",
+     "cambios": [
+      {
+       "al": "@+1.1",
+       "pose": "presentar",
+       "cara": "risa"
+      },
+      {
+       "al": "@+3.3",
+       "pose": "señalar",
+       "cara": "normal"
+      }
+     ]
+    }
+   }
+  },
+  {
+   "en": "Los routers de las",
+   "color": "morado",
+   "escenas": [
+    {
+     "tipo": "viaje",
+     "viajero": "sobre",
+     "numero_desde": 0,
+     "actual": 5,
+     "al": "@routers",
+     "paradas": [
+      {
+       "nombre": "Tú",
+       "icono": "movil"
+      },
+      {
+       "nombre": "Candado",
+       "icono": "candado"
+      },
+      {
+       "nombre": "Paquetes",
+       "icono": "caja"
+      },
+      {
+       "nombre": "WiFi",
+       "icono": "wifi"
+      },
+      {
+       "nombre": "Fibra",
+       "icono": "fibra"
+      },
+      {
+       "nombre": "Routers",
+       "icono": "router"
+      },
+      {
+       "nombre": "Servidor",
+       "icono": "servidor"
+      },
+      {
+       "nombre": "Consigna",
+       "icono": "reloj_arena"
+      },
+      {
+       "nombre": "Timbre",
+       "icono": "campana"
+      },
+      {
+       "nombre": "Llave",
+       "icono": "llave"
+      },
+      {
+       "nombre": "Leído",
+       "icono": "check_azul"
+      }
+     ],
+     "caja": {
+      "y": 700
+     },
+     "duracion_tramo": 0.7
+    }
+   ],
+   "personajes": {
+    "poli": {
+     "x": 0.76,
+     "escala": 0.95,
+     "mira": "izq",
+     "pose": "señalar",
+     "cara": "chulo",
+     "entra": "@routers",
+     "entrada": "cae"
+    },
+    "mono": {
+     "pose": "brazos_cruzados",
+     "cara": "chulo",
+     "cambios": [
+      {
+       "al": "@+1.1",
+       "pose": "señalar",
+       "cara": "normal"
+      }
+     ]
+    }
+   }
+  },
+  {
+   "en": "hasta los servidores",
+   "escenas": [
+    {
+     "tipo": "viaje",
+     "viajero": "sobre",
+     "numero_desde": 0,
+     "actual": 6,
+     "al": "@servidores",
+     "paradas": [
+      {
+       "nombre": "Tú",
+       "icono": "movil"
+      },
+      {
+       "nombre": "Candado",
+       "icono": "candado"
+      },
+      {
+       "nombre": "Paquetes",
+       "icono": "caja"
+      },
+      {
+       "nombre": "WiFi",
+       "icono": "wifi"
+      },
+      {
+       "nombre": "Fibra",
+       "icono": "fibra"
+      },
+      {
+       "nombre": "Routers",
+       "icono": "router"
+      },
+      {
+       "nombre": "Servidor",
+       "icono": "servidor"
+      },
+      {
+       "nombre": "Consigna",
+       "icono": "reloj_arena"
+      },
+      {
+       "nombre": "Timbre",
+       "icono": "campana"
+      },
+      {
+       "nombre": "Llave",
+       "icono": "llave"
+      },
+      {
+       "nombre": "Leído",
+       "icono": "check_azul"
+      }
+     ],
+     "caja": {
+      "y": 700
+     },
+     "duracion_tramo": 0.7
+    }
+   ],
+   "personajes": {
+    "poli": {
+     "pose": "jarras",
+     "cara": "risa",
+     "salida": "der"
+    },
+    "mono": {
+     "pose": "saludar",
+     "cara": "risa",
+     "cambios": [
+      {
+       "al": "@+1.1",
+       "pose": "señalar",
+       "cara": "risa"
+      }
+     ]
+    }
+   }
+  },
+  {
+   "en": "Primer check gris",
+   "color": "azul",
+   "escenas": [
+    {
+     "tipo": "iconos",
+     "tam": 320,
+     "items": [
+      {
+       "icono": "check",
+       "texto": "UN CHECK: LA OFICINA",
+       "al": "@check"
+      }
+     ],
+     "caja": {
+      "y": 600
+     }
+    }
+   ],
+   "personajes": {
+    "mono": {
+     "pose": "presentar",
+     "cara": "guiño",
+     "cambios": [
+      {
+       "al": "@+1.1",
+       "pose": "presentar",
+       "cara": "sorpresa"
+      }
+     ]
+    }
+   }
+  },
+  {
+   "en": "Si su móvil está apagado",
+   "color": "rosa",
+   "escenas": [
+    {
+     "tipo": "viaje",
+     "viajero": "sobre",
+     "numero_desde": 0,
+     "actual": 7,
+     "al": "@guarda",
+     "paradas": [
+      {
+       "nombre": "Tú",
+       "icono": "movil"
+      },
+      {
+       "nombre": "Candado",
+       "icono": "candado"
+      },
+      {
+       "nombre": "Paquetes",
+       "icono": "caja"
+      },
+      {
+       "nombre": "WiFi",
+       "icono": "wifi"
+      },
+      {
+       "nombre": "Fibra",
+       "icono": "fibra"
+      },
+      {
+       "nombre": "Routers",
+       "icono": "router"
+      },
+      {
+       "nombre": "Servidor",
+       "icono": "servidor"
+      },
+      {
+       "nombre": "Consigna",
+       "icono": "reloj_arena"
+      },
+      {
+       "nombre": "Timbre",
+       "icono": "campana"
+      },
+      {
+       "nombre": "Llave",
+       "icono": "llave"
+      },
+      {
+       "nombre": "Leído",
+       "icono": "check_azul"
+      }
+     ],
+     "caja": {
+      "y": 700
+     },
+     "duracion_tramo": 0.7,
+     "titulo": "HASTA 30 DÍAS"
+    }
+   ],
+   "personajes": {
+    "amiga": {
+     "x": 0.76,
+     "escala": 0.95,
+     "mira": "izq",
+     "pose": "sentado",
+     "cara": "normal",
+     "entra": "@apagado",
+     "entrada": "pop"
+    },
+    "mono": {
+     "pose": "señalar",
+     "cara": "risa",
+     "cambios": [
+      {
+       "al": "@+1.1",
+       "pose": "pensar",
+       "cara": "guiño"
+      },
+      {
+       "al": "@+3.3",
+       "pose": "señalar_arriba",
+       "cara": "normal"
+      }
+     ]
+    }
+   }
+  },
+  {
+   "en": "Cuando se enciende",
+   "color": "naranja",
+   "escenas": [
+    {
+     "tipo": "viaje",
+     "viajero": "sobre",
+     "numero_desde": 0,
+     "actual": 8,
+     "al": "@timbre",
+     "paradas": [
+      {
+       "nombre": "Tú",
+       "icono": "movil"
+      },
+      {
+       "nombre": "Candado",
+       "icono": "candado"
+      },
+      {
+       "nombre": "Paquetes",
+       "icono": "caja"
+      },
+      {
+       "nombre": "WiFi",
+       "icono": "wifi"
+      },
+      {
+       "nombre": "Fibra",
+       "icono": "fibra"
+      },
+      {
+       "nombre": "Routers",
+       "icono": "router"
+      },
+      {
+       "nombre": "Servidor",
+       "icono": "servidor"
+      },
+      {
+       "nombre": "Consigna",
+       "icono": "reloj_arena"
+      },
+      {
+       "nombre": "Timbre",
+       "icono": "campana"
+      },
+      {
+       "nombre": "Llave",
+       "icono": "llave"
+      },
+      {
+       "nombre": "Leído",
+       "icono": "check_azul"
+      }
+     ],
+     "caja": {
+      "y": 700
+     },
+     "duracion_tramo": 0.7
+    }
+   ],
+   "personajes": {
+    "amiga": {
+     "pose": "brazos_arriba",
+     "cara": "sorpresa",
+     "objeto": "movil",
+     "salta": true
+    },
+    "mono": {
+     "pose": "señalar",
+     "cara": "sorpresa",
+     "cambios": [
+      {
+       "al": "@+1.1",
+       "pose": "jarras",
+       "cara": "normal"
+      }
+     ]
+    }
+   }
+  },
+  {
+   "en": "Se descarga, y salen",
+   "escenas": [
+    {
+     "tipo": "iconos",
+     "tam": 320,
+     "items": [
+      {
+       "icono": "check",
+       "texto": "DOS CHECKS: ENTREGADO",
+       "al": "@checks"
+      }
+     ],
+     "caja": {
+      "y": 600
+     }
+    }
+   ],
+   "personajes": {
+    "amiga": {
+     "pose": "de_pie",
+     "cara": "risa"
+    },
+    "mono": {
+     "pose": "presentar",
+     "cara": "guiño",
+     "cambios": [
+      {
+       "al": "@+1.1",
+       "pose": "señalar_arriba",
+       "cara": "chulo"
+      }
+     ]
+    }
+   }
+  },
+  {
+   "en": "Su llave abre",
+   "color": "verde",
+   "escenas": [
+    {
+     "tipo": "viaje",
+     "viajero": "sobre",
+     "numero_desde": 0,
+     "actual": 9,
+     "al": "@abre",
+     "paradas": [
+      {
+       "nombre": "Tú",
+       "icono": "movil"
+      },
+      {
+       "nombre": "Candado",
+       "icono": "candado"
+      },
+      {
+       "nombre": "Paquetes",
+       "icono": "caja"
+      },
+      {
+       "nombre": "WiFi",
+       "icono": "wifi"
+      },
+      {
+       "nombre": "Fibra",
+       "icono": "fibra"
+      },
+      {
+       "nombre": "Routers",
+       "icono": "router"
+      },
+      {
+       "nombre": "Servidor",
+       "icono": "servidor"
+      },
+      {
+       "nombre": "Consigna",
+       "icono": "reloj_arena"
+      },
+      {
+       "nombre": "Timbre",
+       "icono": "campana"
+      },
+      {
+       "nombre": "Llave",
+       "icono": "llave"
+      },
+      {
+       "nombre": "Leído",
+       "icono": "check_azul"
+      }
+     ],
+     "caja": {
+      "y": 700
+     },
+     "duracion_tramo": 0.7
+    }
+   ],
+   "personajes": {
+    "amiga": {
+     "pose": "presentar",
+     "cara": "risa",
+     "salida": "der"
+    },
+    "mono": {
+     "pose": "pensar",
+     "cara": "normal",
+     "cambios": []
+    }
+   }
+  },
+  {
+   "en": "Y si alguien pilló",
+   "color": "rojo",
+   "escenas": [
+    {
+     "tipo": "sello",
+     "texto": "BASURA",
+     "al": "@basura",
+     "color": "rojo",
+     "tam": 150,
+     "caja": {
+      "y": 600
+     }
+    }
+   ],
+   "personajes": {
+    "hacker": {
+     "x": 0.76,
+     "escala": 0.95,
+     "mira": "izq",
+     "pose": "pensar",
+     "cara": "normal",
+     "objeto": "lupa",
+     "entra": "@alguien",
+     "entrada": "der",
+     "cambios": [
+      {
+       "al": "@basura",
+       "pose": "miedo",
+       "cara": "enfado"
+      }
+     ]
+    },
+    "mono": {
+     "pose": "jarras",
+     "cara": "chulo",
+     "cambios": [
+      {
+       "al": "@+1.1",
+       "pose": "saludar",
+       "cara": "normal"
+      }
+     ]
+    }
+   }
+  },
+  {
+   "en": "Así que si ves",
+   "color": "azul",
+   "escenas": [
+    {
+     "tipo": "viaje",
+     "viajero": "sobre",
+     "numero_desde": 0,
+     "actual": 10,
+     "al": "@viaje",
+     "paradas": [
+      {
+       "nombre": "Tú",
+       "icono": "movil"
+      },
+      {
+       "nombre": "Candado",
+       "icono": "candado"
+      },
+      {
+       "nombre": "Paquetes",
+       "icono": "caja"
+      },
+      {
+       "nombre": "WiFi",
+       "icono": "wifi"
+      },
+      {
+       "nombre": "Fibra",
+       "icono": "fibra"
+      },
+      {
+       "nombre": "Routers",
+       "icono": "router"
+      },
+      {
+       "nombre": "Servidor",
+       "icono": "servidor"
+      },
+      {
+       "nombre": "Consigna",
+       "icono": "reloj_arena"
+      },
+      {
+       "nombre": "Timbre",
+       "icono": "campana"
+      },
+      {
+       "nombre": "Llave",
+       "icono": "llave"
+      },
+      {
+       "nombre": "Leído",
+       "icono": "check_azul"
+      }
+     ],
+     "caja": {
+      "y": 700
+     },
+     "duracion_tramo": 0.7,
+     "titulo": "¿UN SOLO CHECK?"
+    }
+   ],
+   "personajes": {
+    "amiga": {
+     "x": 0.76,
+     "escala": 0.95,
+     "mira": "izq",
+     "pose": "encogerse",
+     "cara": "guiño",
+     "objeto": "movil",
+     "entra": "@amigo",
+     "entrada": "pop"
+    },
+    "mono": {
+     "pose": "señalar",
+     "cara": "guiño",
+     "cambios": [
+      {
+       "al": "@+1.1",
+       "pose": "presentar",
+       "cara": "risa"
+      },
+      {
+       "al": "@+3.3",
+       "pose": "señalar",
+       "cara": "sorpresa"
+      },
+      {
+       "al": "@+5.5",
+       "pose": "pensar",
+       "cara": "guiño"
+      }
+     ]
+    }
+   }
+  }
+ ],
+ "cola": 0.9,
+ "formato": "9:16"
+}

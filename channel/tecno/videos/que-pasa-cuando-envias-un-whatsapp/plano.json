@@ -1,0 +1,2968 @@
+{
+ "reparto": {
+  "mono": {
+   "tipo": "protagonista",
+   "narrador": true
+  },
+  "amiga": {
+   "tipo": "mona"
+  },
+  "hacker": {
+   "tipo": "ciberdelincuente"
+  },
+  "poli": {
+   "tipo": "policia"
+  },
+  "cienti": {
+   "tipo": "cientifica"
+  },
+  "perro": {
+   "tipo": "perro"
+  }
+ },
+ "tramos": [
+  {
+   "en": "Son las once de la noche",
+   "color": "azul",
+   "capitulo": "El viaje de tu mensaje",
+   "escenas": [
+    {
+     "tipo": "pantalla",
+     "dispositivo": "movil",
+     "caja": {
+      "y": 600
+     },
+     "titulo": "WhatsApp · 23:00",
+     "color": "verde",
+     "lineas": [
+      {
+       "texto": "¿Estás despierto?",
+       "al": "@despierto",
+       "color": "verde"
+      },
+      {
+       "texto": "Enviando…",
+       "al": "@enviar",
+       "color": "blanco"
+      }
+     ]
+    },
+    {
+     "tipo": "texto",
+     "tam": 96,
+     "palabras": [
+      {
+       "texto": "¿QUIÉN LEE",
+       "al": "@inicio",
+       "color": "amarillo"
+      },
+      {
+       "texto": "TU WHATSAPP?",
+       "al": "@+0.15",
+       "caja": true,
+       "color": "rojo"
+      }
+     ],
+     "zona": "arriba",
+     "caja": {
+      "y": 120
+     },
+     "por_fila": 30
+    }
+   ],
+   "personajes": {
+    "mono": {
+     "objeto": "movil",
+     "pose": "de_pie",
+     "cara": "normal",
+     "cambios": [
+      {
+       "al": "@enviar",
+       "pose": "señalar",
+       "cara": "risa",
+       "salta": true
+      }
+     ],
+     "x": 0.1,
+     "escala": 0.8
+    }
+   },
+   "sfx": [
+    [
+     "golpe",
+     0.02,
+     1.0
+    ],
+    [
+     "boom",
+     0.04,
+     0.7
+    ]
+   ],
+   "golpes": [
+    0.05
+   ]
+  },
+  {
+   "en": "En menos de un segundo",
+   "color": "verde",
+   "escenas": [
+    {
+     "tipo": "cifra",
+     "desde": 0,
+     "hasta": 1,
+     "al": "@segundo",
+     "decimales": 1,
+     "sufijo": " s",
+     "antes": "MENOS DE",
+     "etiqueta": "de tu casa a otro móvil",
+     "etiqueta_al": "@móvil",
+     "color": "verde"
+    }
+   ],
+   "personajes": {
+    "amiga": {
+     "x": 0.9,
+     "escala": 0.8,
+     "mira": "izq",
+     "pose": "saludar",
+     "cara": "risa",
+     "objeto": "movil",
+     "entra": "@llegado",
+     "entrada": "der"
+    },
+    "mono": {
+     "objeto": "ninguno",
+     "pose": "brazos_arriba",
+     "cara": "sorpresa",
+     "cambios": [
+      {
+       "al": "@+1.1",
+       "pose": "señalar_arriba",
+       "cara": "guiño"
+      },
+      {
+       "al": "@+3.3",
+       "pose": "saludar",
+       "cara": "normal"
+      }
+     ]
+    }
+   }
+  },
+  {
+   "en": "¿Por dónde ha pasado?",
+   "color": "morado",
+   "escenas": [
+    {
+     "tipo": "pregunta",
+     "pregunta": "¿Por dónde ha pasado?",
+     "al": "@pasado"
+    }
+   ],
+   "personajes": {
+    "hacker": {
+     "x": 0.88,
+     "escala": 0.8,
+     "mira": "izq",
+     "pose": "jarras",
+     "cara": "risa",
+     "objeto": "lupa",
+     "entra": "@leer",
+     "entrada": "cae"
+    },
+    "mono": {
+     "pose": "pensar",
+     "cara": "normal",
+     "cambios": [
+      {
+       "al": "@+1.1",
+       "pose": "brazos_cruzados",
+       "cara": "normal"
+      }
+     ]
+    }
+   }
+  },
+  {
+   "en": "En dos mil veinte ya",
+   "color": "verde",
+   "escenas": [
+    {
+     "tipo": "cifra",
+     "desde": 0,
+     "hasta": 100000,
+     "al": "@cien",
+     "sufijo": " MILLONES",
+     "antes": "WHATSAPP AL DÍA (2020)",
+     "tam": 150,
+     "color": "verde",
+     "dur": 1.0
+    }
+   ],
+   "personajes": {
+    "mono": {
+     "pose": "señalar_arriba",
+     "cara": "sorpresa",
+     "cambios": [
+      {
+       "al": "@+1.1",
+       "pose": "saludar",
+       "cara": "chulo"
+      },
+      {
+       "al": "@+3.3",
+       "pose": "señalar",
+       "cara": "risa"
+      }
+     ]
+    }
+   }
+  },
+  {
+   "en": "Estas son las diez paradas",
+   "color": "amarillo",
+   "escenas": [
+    {
+     "tipo": "viaje",
+     "viajero": "sobre",
+     "numero_desde": 0,
+     "actual": 0,
+     "al": "@inicio",
+     "paradas": [
+      {
+       "nombre": "Tú",
+       "icono": "movil"
+      },
+      {
+       "nombre": "Candado",
+       "icono": "candado"
+      },
+      {
+       "nombre": "Paquetes",
+       "icono": "caja"
+      },
+      {
+       "nombre": "WiFi",
+       "icono": "wifi"
+      },
+      {
+       "nombre": "Fibra",
+       "icono": "fibra"
+      },
+      {
+       "nombre": "Routers",
+       "icono": "router"
+      },
+      {
+       "nombre": "Servidor",
+       "icono": "servidor"
+      },
+      {
+       "nombre": "Consigna",
+       "icono": "reloj_arena"
+      },
+      {
+       "nombre": "Timbre",
+       "icono": "campana"
+      },
+      {
+       "nombre": "Llave",
+       "icono": "llave"
+      },
+      {
+       "nombre": "Leído",
+       "icono": "check_azul"
+      }
+     ],
+     "titulo": "LAS 10 PARADAS",
+     "nombres_futuras": true
+    }
+   ],
+   "personajes": {
+    "mono": {
+     "x": 0.06,
+     "escala": 0.62,
+     "pose": "presentar",
+     "cara": "risa",
+     "cambios": [
+      {
+       "al": "@+1.1",
+       "pose": "presentar",
+       "cara": "risa"
+      },
+      {
+       "al": "@+3.3",
+       "pose": "señalar",
+       "cara": "normal"
+      },
+      {
+       "al": "@+5.5",
+       "pose": "pensar",
+       "cara": "risa"
+      },
+      {
+       "al": "@+7.7",
+       "pose": "señalar_arriba",
+       "cara": "sorpresa"
+      }
+     ]
+    }
+   }
+  },
+  {
+   "en": "Número uno",
+   "color": "azul",
+   "capitulo": "1. El candado",
+   "escenas": [
+    {
+     "tipo": "lista",
+     "n": 1,
+     "total": 10,
+     "titulo": "TU MÓVIL",
+     "apodo": "EL CANDADO",
+     "color": "azul",
+     "titulo_al": "@móvil",
+     "apodo_al": "@candado"
+    }
+   ],
+   "personajes": {
+    "mono": {
+     "x": 0.1,
+     "escala": 0.8,
+     "pose": "jarras",
+     "salta": true,
+     "cara": "chulo",
+     "cambios": [
+      {
+       "al": "@+1.1",
+       "pose": "señalar",
+       "cara": "normal"
+      }
+     ]
+    }
+   }
+  },
+  {
+   "en": "Antes de salir",
+   "escenas": [
+    {
+     "tipo": "viaje",
+     "viajero": "sobre",
+     "numero_desde": 0,
+     "actual": 1,
+     "al": "@cierra",
+     "paradas": [
+      {
+       "nombre": "Tú",
+       "icono": "movil"
+      },
+      {
+       "nombre": "Candado",
+       "icono": "candado"
+      },
+      {
+       "nombre": "Paquetes",
+       "icono": "caja"
+      },
+      {
+       "nombre": "WiFi",
+       "icono": "wifi"
+      },
+      {
+       "nombre": "Fibra",
+       "icono": "fibra"
+      },
+      {
+       "nombre": "Routers",
+       "icono": "router"
+      },
+      {
+       "nombre": "Servidor",
+       "icono": "servidor"
+      },
+      {
+       "nombre": "Consigna",
+       "icono": "reloj_arena"
+      },
+      {
+       "nombre": "Timbre",
+       "icono": "campana"
+      },
+      {
+       "nombre": "Llave",
+       "icono": "llave"
+      },
+      {
+       "nombre": "Leído",
+       "icono": "check_azul"
+      }
+     ],
+     "titulo": "PARADA 1"
+    }
+   ],
+   "personajes": {
+    "mono": {
+     "x": 0.06,
+     "escala": 0.62,
+     "pose": "saludar",
+     "cara": "risa",
+     "cambios": [
+      {
+       "al": "@+1.1",
+       "pose": "señalar",
+       "cara": "risa"
+      },
+      {
+       "al": "@+3.3",
+       "pose": "pensar",
+       "cara": "sorpresa"
+      }
+     ]
+    }
+   }
+  },
+  {
+   "en": "Es el cifrado de extremo",
+   "escenas": [
+    {
+     "tipo": "iconos",
+     "tam": 230,
+     "items": [
+      {
+       "icono": "candado",
+       "texto": "EXTREMO A EXTREMO",
+       "al": "@cifrado"
+      },
+      {
+       "icono": "calendario",
+       "texto": "ABRIL 2016",
+       "al": "@abril"
+      },
+      {
+       "icono": "llave",
+       "texto": "COMO SIGNAL",
+       "al": "@Signal"
+      }
+     ]
+    }
+   ],
+   "personajes": {
+    "mono": {
+     "x": 0.1,
+     "escala": 0.8,
+     "pose": "presentar",
+     "cara": "normal",
+     "cambios": [
+      {
+       "al": "@+1.1",
+       "pose": "presentar",
+       "cara": "sorpresa"
+      },
+      {
+       "al": "@+3.3",
+       "pose": "jarras",
+       "cara": "guiño"
+      },
+      {
+       "al": "@+5.5",
+       "pose": "brazos_cruzados",
+       "cara": "normal"
+      }
+     ]
+    }
+   }
+  },
+  {
+   "en": "Así que tu mensaje sale",
+   "color": "rosa",
+   "escenas": [
+    {
+     "tipo": "texto",
+     "tam": 90,
+     "palabras": [
+      {
+       "texto": "¿Estás despierto?",
+       "al": "@mensaje",
+       "caja": true,
+       "color": "verde"
+      },
+      {
+       "texto": "x7#kQ9!zP@w&2",
+       "al": "@churro",
+       "caja": true,
+       "color": "rosa"
+      }
+     ],
+     "por_fila": 20
+    }
+   ],
+   "personajes": {
+    "hacker": {
+     "x": 0.88,
+     "escala": 0.8,
+     "mira": "izq",
+     "pose": "pensar",
+     "cara": "normal",
+     "objeto": "lupa",
+     "entra": "@churro",
+     "entrada": "der",
+     "cambios": [
+      {
+       "al": "@ellos",
+       "pose": "encogerse",
+       "cara": "enfado"
+      }
+     ]
+    },
+    "mono": {
+     "pose": "encogerse",
+     "cara": "risa",
+     "cambios": [
+      {
+       "al": "@+1.1",
+       "pose": "pensar",
+       "cara": "guiño"
+      },
+      {
+       "al": "@+3.3",
+       "pose": "señalar_arriba",
+       "cara": "normal"
+      },
+      {
+       "al": "@+5.5",
+       "pose": "saludar",
+       "cara": "chulo"
+      }
+     ]
+    }
+   }
+  },
+  {
+   "en": "Número dos",
+   "color": "naranja",
+   "capitulo": "2. Los paquetes",
+   "escenas": [
+    {
+     "tipo": "lista",
+     "n": 2,
+     "total": 10,
+     "titulo": "LOS PAQUETES",
+     "apodo": "LA MUDANZA",
+     "color": "naranja",
+     "titulo_al": "@paquetes",
+     "apodo_al": "@mudanza"
+    }
+   ],
+   "personajes": {
+    "mono": {
+     "x": 0.1,
+     "escala": 0.8,
+     "salta": true,
+     "pose": "señalar",
+     "cara": "sorpresa",
+     "cambios": [
+      {
+       "al": "@+1.1",
+       "pose": "jarras",
+       "cara": "normal"
+      }
+     ]
+    }
+   }
+  },
+  {
+   "en": "El mensaje no viaja",
+   "escenas": [
+    {
+     "tipo": "viaje",
+     "viajero": "sobre",
+     "numero_desde": 0,
+     "actual": 2,
+     "al": "@trocea",
+     "paradas": [
+      {
+       "nombre": "Tú",
+       "icono": "movil"
+      },
+      {
+       "nombre": "Candado",
+       "icono": "candado"
+      },
+      {
+       "nombre": "Paquetes",
+       "icono": "caja"
+      },
+      {
+       "nombre": "WiFi",
+       "icono": "wifi"
+      },
+      {
+       "nombre": "Fibra",
+       "icono": "fibra"
+      },
+      {
+       "nombre": "Routers",
+       "icono": "router"
+      },
+      {
+       "nombre": "Servidor",
+       "icono": "servidor"
+      },
+      {
+       "nombre": "Consigna",
+       "icono": "reloj_arena"
+      },
+      {
+       "nombre": "Timbre",
+       "icono": "campana"
+      },
+      {
+       "nombre": "Llave",
+       "icono": "llave"
+      },
+      {
+       "nombre": "Leído",
+       "icono": "check_azul"
+      }
+     ],
+     "titulo": "PARADA 2"
+    }
+   ],
+   "personajes": {
+    "mono": {
+     "x": 0.06,
+     "escala": 0.62,
+     "objeto": "paquete",
+     "pose": "presentar",
+     "cara": "guiño",
+     "cambios": [
+      {
+       "al": "@+1.1",
+       "pose": "señalar_arriba",
+       "cara": "chulo"
+      },
+      {
+       "al": "@+3.3",
+       "pose": "saludar",
+       "cara": "risa"
+      },
+      {
+       "al": "@+5.5",
+       "pose": "señalar",
+       "cara": "normal"
+      }
+     ]
+    }
+   }
+  },
+  {
+   "en": "Es como una mudanza",
+   "escenas": [
+    {
+     "tipo": "iconos",
+     "tam": 230,
+     "items": [
+      {
+       "icono": "caja",
+       "texto": "TEXTO: 1 o 2 CAJAS",
+       "al": "@texto"
+      },
+      {
+       "icono": "foto",
+       "texto": "FOTO: CIENTOS",
+       "al": "@foto"
+      }
+     ]
+    }
+   ],
+   "personajes": {
+    "mono": {
+     "x": 0.1,
+     "escala": 0.8,
+     "objeto": "paquete",
+     "pose": "presentar",
+     "cara": "risa",
+     "cambios": [
+      {
+       "al": "@+1.1",
+       "pose": "brazos_cruzados",
+       "cara": "risa"
+      },
+      {
+       "al": "@+3.3",
+       "pose": "presentar",
+       "cara": "normal"
+      }
+     ]
+    }
+   }
+  },
+  {
+   "en": "Y si una caja se pierde",
+   "escenas": [
+    {
+     "tipo": "sello",
+     "texto": "SE REENVÍA",
+     "al": "@vuelve",
+     "color": "verde",
+     "tam": 120
+    }
+   ],
+   "personajes": {
+    "mono": {
+     "objeto": "ninguno",
+     "pose": "brazos_cruzados",
+     "cara": "chulo",
+     "cambios": [
+      {
+       "al": "@+1.1",
+       "pose": "saludar",
+       "cara": "normal"
+      },
+      {
+       "al": "@+3.3",
+       "pose": "señalar",
+       "cara": "risa"
+      }
+     ]
+    }
+   }
+  },
+  {
+   "en": "Número tres",
+   "color": "verde",
+   "capitulo": "3. El WiFi",
+   "escenas": [
+    {
+     "tipo": "lista",
+     "n": 3,
+     "total": 10,
+     "titulo": "EL WIFI",
+     "apodo": "LAS ONDAS",
+     "color": "verde",
+     "titulo_al": "@WiFi",
+     "apodo_al": "@ondas"
+    }
+   ],
+   "personajes": {
+    "mono": {
+     "salta": true,
+     "pose": "señalar_arriba",
+     "cara": "risa",
+     "cambios": [
+      {
+       "al": "@+1.1",
+       "pose": "presentar",
+       "cara": "risa"
+      }
+     ]
+    }
+   }
+  },
+  {
+   "en": "Tu móvil lanza esas cajas",
+   "escenas": [
+    {
+     "tipo": "viaje",
+     "viajero": "sobre",
+     "numero_desde": 0,
+     "actual": 3,
+     "al": "@aire",
+     "paradas": [
+      {
+       "nombre": "Tú",
+       "icono": "movil"
+      },
+      {
+       "nombre": "Candado",
+       "icono": "candado"
+      },
+      {
+       "nombre": "Paquetes",
+       "icono": "caja"
+      },
+      {
+       "nombre": "WiFi",
+       "icono": "wifi"
+      },
+      {
+       "nombre": "Fibra",
+       "icono": "fibra"
+      },
+      {
+       "nombre": "Routers",
+       "icono": "router"
+      },
+      {
+       "nombre": "Servidor",
+       "icono": "servidor"
+      },
+      {
+       "nombre": "Consigna",
+       "icono": "reloj_arena"
+      },
+      {
+       "nombre": "Timbre",
+       "icono": "campana"
+      },
+      {
+       "nombre": "Llave",
+       "icono": "llave"
+      },
+      {
+       "nombre": "Leído",
+       "icono": "check_azul"
+      }
+     ],
+     "titulo": "PARADA 3"
+    }
+   ],
+   "personajes": {
+    "mono": {
+     "x": 0.06,
+     "escala": 0.62,
+     "pose": "brazos_cruzados",
+     "cara": "normal",
+     "cambios": [
+      {
+       "al": "@+1.1",
+       "pose": "señalar",
+       "cara": "sorpresa"
+      },
+      {
+       "al": "@+3.3",
+       "pose": "presentar",
+       "cara": "guiño"
+      },
+      {
+       "al": "@+5.5",
+       "pose": "jarras",
+       "cara": "normal"
+      }
+     ]
+    }
+   }
+  },
+  {
+   "en": "Viajan como ondas",
+   "escenas": [
+    {
+     "tipo": "cifra",
+     "desde": 0,
+     "hasta": 300000,
+     "al": "@ondas",
+     "dur": 0.9,
+     "sufijo": " km/s",
+     "antes": "VELOCIDAD DE LA LUZ",
+     "tam": 150,
+     "color": "amarillo"
+    }
+   ],
+   "personajes": {
+    "mono": {
+     "x": 0.1,
+     "escala": 0.8,
+     "pose": "saludar",
+     "cara": "risa",
+     "cambios": [
+      {
+       "al": "@+1.1",
+       "pose": "señalar",
+       "cara": "guiño"
+      }
+     ]
+    }
+   }
+  },
+  {
+   "en": "Esa parte del viaje",
+   "escenas": [
+    {
+     "tipo": "iconos",
+     "tam": 280,
+     "items": [
+      {
+       "icono": "ojo",
+       "texto": "MENOS QUE UN PARPADEO",
+       "al": "@parpadeo"
+      }
+     ]
+    }
+   ],
+   "personajes": {
+    "mono": {
+     "pose": "brazos_arriba",
+     "cara": "sorpresa",
+     "cambios": [
+      {
+       "al": "@+1.1",
+       "pose": "presentar",
+       "cara": "normal"
+      }
+     ]
+    }
+   }
+  },
+  {
+   "en": "Número cuatro",
+   "color": "amarillo",
+   "capitulo": "4. La fibra",
+   "escenas": [
+    {
+     "tipo": "lista",
+     "n": 4,
+     "total": 10,
+     "titulo": "LA FIBRA",
+     "apodo": "AUTOPISTA DE LUZ",
+     "color": "amarillo",
+     "titulo_al": "@fibra",
+     "apodo_al": "@autopista"
+    }
+   ],
+   "personajes": {
+    "mono": {
+     "salta": true,
+     "pose": "señalar",
+     "cara": "guiño",
+     "cambios": [
+      {
+       "al": "@+1.1",
+       "pose": "pensar",
+       "cara": "chulo"
+      }
+     ]
+    }
+   }
+  },
+  {
+   "en": "Del router, los paquetes",
+   "escenas": [
+    {
+     "tipo": "viaje",
+     "viajero": "sobre",
+     "numero_desde": 0,
+     "actual": 4,
+     "al": "@fibra",
+     "paradas": [
+      {
+       "nombre": "Tú",
+       "icono": "movil"
+      },
+      {
+       "nombre": "Candado",
+       "icono": "candado"
+      },
+      {
+       "nombre": "Paquetes",
+       "icono": "caja"
+      },
+      {
+       "nombre": "WiFi",
+       "icono": "wifi"
+      },
+      {
+       "nombre": "Fibra",
+       "icono": "fibra"
+      },
+      {
+       "nombre": "Routers",
+       "icono": "router"
+      },
+      {
+       "nombre": "Servidor",
+       "icono": "servidor"
+      },
+      {
+       "nombre": "Consigna",
+       "icono": "reloj_arena"
+      },
+      {
+       "nombre": "Timbre",
+       "icono": "campana"
+      },
+      {
+       "nombre": "Llave",
+       "icono": "llave"
+      },
+      {
+       "nombre": "Leído",
+       "icono": "check_azul"
+      }
+     ],
+     "titulo": "PARADA 4"
+    }
+   ],
+   "personajes": {
+    "cienti": {
+     "x": 0.94,
+     "escala": 0.62,
+     "mira": "izq",
+     "pose": "presentar",
+     "cara": "risa",
+     "entra": "@destellos",
+     "entrada": "der"
+    },
+    "mono": {
+     "x": 0.06,
+     "escala": 0.62,
+     "pose": "señalar",
+     "cara": "normal",
+     "cambios": [
+      {
+       "al": "@+1.1",
+       "pose": "jarras",
+       "cara": "risa"
+      },
+      {
+       "al": "@+3.3",
+       "pose": "brazos_cruzados",
+       "cara": "normal"
+      },
+      {
+       "al": "@+5.5",
+       "pose": "presentar",
+       "cara": "risa"
+      },
+      {
+       "al": "@+7.7",
+       "pose": "señalar",
+       "cara": "sorpresa"
+      }
+     ]
+    }
+   }
+  },
+  {
+   "en": "Van a unos doscientos mil",
+   "escenas": [
+    {
+     "tipo": "cifra",
+     "desde": 0,
+     "hasta": 200000,
+     "al": "@unos",
+     "dur": 0.8,
+     "sufijo": " km/s",
+     "antes": "LUZ EN LA FIBRA",
+     "tam": 150,
+     "color": "azul"
+    }
+   ],
+   "personajes": {
+    "cienti": {
+     "x": 0.88,
+     "escala": 0.8,
+     "pose": "señalar_arriba",
+     "cara": "normal"
+    },
+    "mono": {
+     "x": 0.1,
+     "escala": 0.8,
+     "pose": "presentar",
+     "cara": "chulo",
+     "cambios": [
+      {
+       "al": "@+1.1",
+       "pose": "señalar_arriba",
+       "cara": "normal"
+      }
+     ]
+    }
+   }
+  },
+  {
+   "en": "De Madrid a Barcelona",
+   "escenas": [
+    {
+     "tipo": "flujo",
+     "titulo": "3 MILÉSIMAS",
+     "nodos": [
+      {
+       "texto": "MADRID",
+       "icono": "edificio",
+       "al": "@Madrid"
+      },
+      {
+       "texto": "BARCELONA",
+       "icono": "edificio",
+       "al": "@Barcelona",
+       "color": "rosa"
+      }
+     ]
+    }
+   ],
+   "personajes": {
+    "cienti": {
+     "pose": "presentar",
+     "cara": "guiño"
+    },
+    "mono": {
+     "pose": "pensar",
+     "cara": "risa",
+     "cambios": [
+      {
+       "al": "@+1.1",
+       "pose": "brazos_cruzados",
+       "cara": "risa"
+      }
+     ]
+    }
+   }
+  },
+  {
+   "en": "Lo lento nunca es",
+   "color": "rojo",
+   "escenas": [
+    {
+     "tipo": "texto",
+     "tam": 110,
+     "palabras": [
+      {
+       "texto": "LO LENTO",
+       "al": "@lento"
+      },
+      {
+       "texto": "SON LOS CRUCES",
+       "al": "@cruces",
+       "caja": true,
+       "color": "rojo"
+      }
+     ]
+    }
+   ],
+   "personajes": {
+    "cienti": {
+     "pose": "jarras",
+     "cara": "chulo",
+     "salida": "der"
+    },
+    "mono": {
+     "pose": "jarras",
+     "cara": "normal",
+     "cambios": [
+      {
+       "al": "@+1.1",
+       "pose": "saludar",
+       "cara": "sorpresa"
+      }
+     ]
+    }
+   }
+  },
+  {
+   "en": "Número cinco",
+   "color": "morado",
+   "capitulo": "5. Los routers",
+   "escenas": [
+    {
+     "tipo": "lista",
+     "n": 5,
+     "total": 10,
+     "titulo": "LOS ROUTERS",
+     "apodo": "LOS CRUCES",
+     "color": "morado",
+     "titulo_al": "@routers",
+     "apodo_al": "@cruces"
+    }
+   ],
+   "personajes": {
+    "mono": {
+     "salta": true,
+     "pose": "señalar_arriba",
+     "cara": "risa",
+     "cambios": [
+      {
+       "al": "@+1.1",
+       "pose": "presentar",
+       "cara": "guiño"
+      }
+     ]
+    }
+   }
+  },
+  {
+   "en": "Por el camino hay",
+   "escenas": [
+    {
+     "tipo": "viaje",
+     "viajero": "sobre",
+     "numero_desde": 0,
+     "actual": 5,
+     "al": "@routers",
+     "paradas": [
+      {
+       "nombre": "Tú",
+       "icono": "movil"
+      },
+      {
+       "nombre": "Candado",
+       "icono": "candado"
+      },
+      {
+       "nombre": "Paquetes",
+       "icono": "caja"
+      },
+      {
+       "nombre": "WiFi",
+       "icono": "wifi"
+      },
+      {
+       "nombre": "Fibra",
+       "icono": "fibra"
+      },
+      {
+       "nombre": "Routers",
+       "icono": "router"
+      },
+      {
+       "nombre": "Servidor",
+       "icono": "servidor"
+      },
+      {
+       "nombre": "Consigna",
+       "icono": "reloj_arena"
+      },
+      {
+       "nombre": "Timbre",
+       "icono": "campana"
+      },
+      {
+       "nombre": "Llave",
+       "icono": "llave"
+      },
+      {
+       "nombre": "Leído",
+       "icono": "check_azul"
+      }
+     ],
+     "titulo": "PARADA 5"
+    }
+   ],
+   "personajes": {
+    "poli": {
+     "x": 0.94,
+     "escala": 0.62,
+     "mira": "izq",
+     "pose": "señalar",
+     "cara": "chulo",
+     "entra": "@routers",
+     "entrada": "cae"
+    },
+    "mono": {
+     "x": 0.06,
+     "escala": 0.62,
+     "pose": "brazos_cruzados",
+     "cara": "sorpresa",
+     "cambios": [
+      {
+       "al": "@+1.1",
+       "pose": "señalar",
+       "cara": "normal"
+      }
+     ]
+    }
+   }
+  },
+  {
+   "en": "Cada uno mira la etiqueta",
+   "escenas": [
+    {
+     "tipo": "flujo",
+     "nodos": [
+      {
+       "texto": "ETIQUETA",
+       "icono": "ticket",
+       "al": "@etiqueta"
+      },
+      {
+       "texto": "ROUTER",
+       "icono": "router",
+       "al": "@decide"
+      },
+      {
+       "texto": "SIGUIENTE CRUCE",
+       "icono": "mapa",
+       "al": "@GPS",
+       "color": "verde"
+      }
+     ]
+    }
+   ],
+   "personajes": {
+    "poli": {
+     "x": 0.9,
+     "escala": 0.8,
+     "pose": "señalar",
+     "cara": "normal",
+     "cambios": [
+      {
+       "al": "@atasco",
+       "pose": "brazos_arriba",
+       "cara": "enfado"
+      }
+     ]
+    },
+    "mono": {
+     "x": 0.1,
+     "escala": 0.8,
+     "pose": "saludar",
+     "cara": "guiño",
+     "cambios": [
+      {
+       "al": "@+1.1",
+       "pose": "señalar",
+       "cara": "chulo"
+      },
+      {
+       "al": "@+3.3",
+       "pose": "pensar",
+       "cara": "risa"
+      },
+      {
+       "al": "@+5.5",
+       "pose": "señalar_arriba",
+       "cara": "normal"
+      }
+     ]
+    }
+   }
+  },
+  {
+   "en": "Por eso dos paquetes",
+   "escenas": [
+    {
+     "tipo": "texto",
+     "tam": 110,
+     "palabras": [
+      {
+       "texto": "3 · 1 · 2",
+       "al": "@distintos",
+       "caja": true,
+       "color": "rosa"
+      },
+      {
+       "texto": "1 · 2 · 3",
+       "al": "@ordenar",
+       "caja": true,
+       "color": "verde"
+      }
+     ]
+    }
+   ],
+   "personajes": {
+    "poli": {
+     "pose": "jarras",
+     "cara": "risa",
+     "salida": "der"
+    },
+    "mono": {
+     "pose": "presentar",
+     "cara": "normal",
+     "cambios": [
+      {
+       "al": "@+1.1",
+       "pose": "presentar",
+       "cara": "risa"
+      },
+      {
+       "al": "@+3.3",
+       "pose": "jarras",
+       "cara": "normal"
+      },
+      {
+       "al": "@+5.5",
+       "pose": "brazos_cruzados",
+       "cara": "risa"
+      }
+     ]
+    }
+   }
+  },
+  {
+   "en": "Número seis",
+   "color": "azul",
+   "capitulo": "6. El servidor",
+   "escenas": [
+    {
+     "tipo": "lista",
+     "n": 6,
+     "total": 10,
+     "titulo": "EL SERVIDOR",
+     "apodo": "LA OFICINA",
+     "color": "azul",
+     "titulo_al": "@servidor",
+     "apodo_al": "@oficina"
+    }
+   ],
+   "personajes": {
+    "mono": {
+     "salta": true,
+     "pose": "señalar",
+     "cara": "chulo",
+     "cambios": [
+      {
+       "al": "@+1.1",
+       "pose": "pensar",
+       "cara": "normal"
+      }
+     ]
+    }
+   }
+  },
+  {
+   "en": "Tu mensaje no va directo",
+   "escenas": [
+    {
+     "tipo": "viaje",
+     "viajero": "sobre",
+     "numero_desde": 0,
+     "actual": 6,
+     "al": "@servidores",
+     "paradas": [
+      {
+       "nombre": "Tú",
+       "icono": "movil"
+      },
+      {
+       "nombre": "Candado",
+       "icono": "candado"
+      },
+      {
+       "nombre": "Paquetes",
+       "icono": "caja"
+      },
+      {
+       "nombre": "WiFi",
+       "icono": "wifi"
+      },
+      {
+       "nombre": "Fibra",
+       "icono": "fibra"
+      },
+      {
+       "nombre": "Routers",
+       "icono": "router"
+      },
+      {
+       "nombre": "Servidor",
+       "icono": "servidor"
+      },
+      {
+       "nombre": "Consigna",
+       "icono": "reloj_arena"
+      },
+      {
+       "nombre": "Timbre",
+       "icono": "campana"
+      },
+      {
+       "nombre": "Llave",
+       "icono": "llave"
+      },
+      {
+       "nombre": "Leído",
+       "icono": "check_azul"
+      }
+     ],
+     "titulo": "PARADA 6"
+    }
+   ],
+   "personajes": {
+    "mono": {
+     "x": 0.06,
+     "escala": 0.62,
+     "pose": "señalar",
+     "cara": "risa",
+     "cambios": [
+      {
+       "al": "@+1.1",
+       "pose": "jarras",
+       "cara": "risa"
+      },
+      {
+       "al": "@+3.3",
+       "pose": "brazos_cruzados",
+       "cara": "sorpresa"
+      }
+     ]
+    }
+   }
+  },
+  {
+   "en": "Y en ese momento",
+   "escenas": [
+    {
+     "tipo": "iconos",
+     "tam": 250,
+     "items": [
+      {
+       "icono": "check",
+       "texto": "UN CHECK GRIS",
+       "al": "@check"
+      },
+      {
+       "icono": "servidor",
+       "texto": "EN LA OFICINA",
+       "al": "@oficina"
+      }
+     ]
+    }
+   ],
+   "personajes": {
+    "mono": {
+     "x": 0.1,
+     "escala": 0.8,
+     "pose": "presentar",
+     "cara": "normal",
+     "cambios": [
+      {
+       "al": "@+1.1",
+       "pose": "señalar_arriba",
+       "cara": "sorpresa"
+      },
+      {
+       "al": "@+3.3",
+       "pose": "saludar",
+       "cara": "guiño"
+      },
+      {
+       "al": "@+5.5",
+       "pose": "señalar",
+       "cara": "normal"
+      }
+     ]
+    }
+   }
+  },
+  {
+   "en": "Y ahora vienen las paradas",
+   "color": "rojo",
+   "escenas": [
+    {
+     "tipo": "texto",
+     "tam": 110,
+     "palabras": [
+      {
+       "texto": "LAS QUE",
+       "al": "@paradas"
+      },
+      {
+       "texto": "CASI NADIE",
+       "al": "@nadie",
+       "caja": true,
+       "color": "rojo"
+      },
+      {
+       "texto": "CONOCE",
+       "al": "@conoce"
+      }
+     ]
+    }
+   ],
+   "personajes": {
+    "mono": {
+     "pose": "miedo",
+     "cara": "sorpresa",
+     "cambios": [
+      {
+       "al": "@+1.1",
+       "pose": "brazos_cruzados",
+       "cara": "guiño"
+      }
+     ]
+    }
+   }
+  },
+  {
+   "en": "Número siete",
+   "color": "rosa",
+   "capitulo": "7. La espera",
+   "escenas": [
+    {
+     "tipo": "lista",
+     "n": 7,
+     "total": 10,
+     "titulo": "LA ESPERA",
+     "apodo": "LA CONSIGNA",
+     "color": "rosa",
+     "titulo_al": "@espera",
+     "apodo_al": "@consigna"
+    }
+   ],
+   "personajes": {
+    "mono": {
+     "salta": true,
+     "pose": "jarras",
+     "cara": "sorpresa",
+     "cambios": [
+      {
+       "al": "@+1.1",
+       "pose": "saludar",
+       "cara": "normal"
+      }
+     ]
+    }
+   }
+  },
+  {
+   "en": "Si tu amigo tiene",
+   "escenas": [
+    {
+     "tipo": "viaje",
+     "viajero": "sobre",
+     "numero_desde": 0,
+     "actual": 7,
+     "al": "@apagado",
+     "paradas": [
+      {
+       "nombre": "Tú",
+       "icono": "movil"
+      },
+      {
+       "nombre": "Candado",
+       "icono": "candado"
+      },
+      {
+       "nombre": "Paquetes",
+       "icono": "caja"
+      },
+      {
+       "nombre": "WiFi",
+       "icono": "wifi"
+      },
+      {
+       "nombre": "Fibra",
+       "icono": "fibra"
+      },
+      {
+       "nombre": "Routers",
+       "icono": "router"
+      },
+      {
+       "nombre": "Servidor",
+       "icono": "servidor"
+      },
+      {
+       "nombre": "Consigna",
+       "icono": "reloj_arena"
+      },
+      {
+       "nombre": "Timbre",
+       "icono": "campana"
+      },
+      {
+       "nombre": "Llave",
+       "icono": "llave"
+      },
+      {
+       "nombre": "Leído",
+       "icono": "check_azul"
+      }
+     ],
+     "titulo": "PARADA 7"
+    }
+   ],
+   "personajes": {
+    "amiga": {
+     "x": 0.93,
+     "escala": 0.62,
+     "mira": "izq",
+     "pose": "sentado",
+     "cara": "normal",
+     "objeto": "ninguno",
+     "entra": "@apagado",
+     "entrada": "der"
+    },
+    "mono": {
+     "x": 0.06,
+     "escala": 0.62,
+     "pose": "señalar_arriba",
+     "cara": "guiño",
+     "cambios": [
+      {
+       "al": "@+1.1",
+       "pose": "presentar",
+       "cara": "chulo"
+      },
+      {
+       "al": "@+3.3",
+       "pose": "señalar",
+       "cara": "risa"
+      }
+     ]
+    }
+   }
+  },
+  {
+   "en": "Hasta treinta días",
+   "escenas": [
+    {
+     "tipo": "cifra",
+     "desde": 0,
+     "hasta": 30,
+     "al": "@treinta",
+     "sufijo": " DÍAS",
+     "antes": "EL SERVIDOR LO GUARDA",
+     "tam": 220,
+     "color": "naranja",
+     "dur": 0.8
+    }
+   ],
+   "personajes": {
+    "amiga": {
+     "x": 0.88,
+     "escala": 0.8,
+     "pose": "sentado",
+     "cara": "triste"
+    },
+    "mono": {
+     "x": 0.1,
+     "escala": 0.8,
+     "pose": "brazos_cruzados",
+     "cara": "normal",
+     "cambios": []
+    }
+   }
+  },
+  {
+   "en": "Si en ese tiempo",
+   "escenas": [
+    {
+     "tipo": "sello",
+     "texto": "BORRADO",
+     "al": "@borra",
+     "color": "rojo"
+    }
+   ],
+   "personajes": {
+    "amiga": {
+     "pose": "encogerse",
+     "cara": "sorpresa"
+    },
+    "mono": {
+     "pose": "saludar",
+     "cara": "chulo",
+     "cambios": [
+      {
+       "al": "@+1.1",
+       "pose": "señalar",
+       "cara": "normal"
+      }
+     ]
+    }
+   }
+  },
+  {
+   "en": "Así que si ves",
+   "escenas": [
+    {
+     "tipo": "iconos",
+     "tam": 230,
+     "items": [
+      {
+       "icono": "check",
+       "texto": "UN SOLO CHECK",
+       "al": "@check"
+      },
+      {
+       "icono": "bateria",
+       "texto": "MÓVIL APAGADO",
+       "al": "@apagado",
+       "color": "vacia"
+      }
+     ]
+    }
+   ],
+   "personajes": {
+    "amiga": {
+     "pose": "brazos_cruzados",
+     "cara": "chulo"
+    },
+    "perro": {
+     "x": 0.72,
+     "escala": 0.6,
+     "mira": "izq",
+     "pose": "sentado",
+     "cara": "risa",
+     "entra": "@pase",
+     "entrada": "salto"
+    },
+    "mono": {
+     "pose": "señalar",
+     "cara": "guiño",
+     "cambios": [
+      {
+       "al": "@+1.1",
+       "pose": "presentar",
+       "cara": "risa"
+      },
+      {
+       "al": "@+3.3",
+       "pose": "jarras",
+       "cara": "sorpresa"
+      }
+     ]
+    }
+   }
+  },
+  {
+   "en": "Número ocho",
+   "color": "naranja",
+   "capitulo": "8. El timbre",
+   "escenas": [
+    {
+     "tipo": "lista",
+     "n": 8,
+     "total": 10,
+     "titulo": "LA NOTIFICACIÓN",
+     "apodo": "EL TIMBRE",
+     "color": "naranja",
+     "titulo_al": "@notificación",
+     "apodo_al": "@timbre"
+    }
+   ],
+   "personajes": {
+    "mono": {
+     "salta": true,
+     "pose": "señalar",
+     "cara": "normal",
+     "cambios": [
+      {
+       "al": "@+1.1",
+       "pose": "pensar",
+       "cara": "sorpresa"
+      }
+     ]
+    }
+   }
+  },
+  {
+   "en": "Cuando el móvil de tu amigo",
+   "escenas": [
+    {
+     "tipo": "viaje",
+     "viajero": "sobre",
+     "numero_desde": 0,
+     "actual": 8,
+     "al": "@dormido",
+     "paradas": [
+      {
+       "nombre": "Tú",
+       "icono": "movil"
+      },
+      {
+       "nombre": "Candado",
+       "icono": "candado"
+      },
+      {
+       "nombre": "Paquetes",
+       "icono": "caja"
+      },
+      {
+       "nombre": "WiFi",
+       "icono": "wifi"
+      },
+      {
+       "nombre": "Fibra",
+       "icono": "fibra"
+      },
+      {
+       "nombre": "Routers",
+       "icono": "router"
+      },
+      {
+       "nombre": "Servidor",
+       "icono": "servidor"
+      },
+      {
+       "nombre": "Consigna",
+       "icono": "reloj_arena"
+      },
+      {
+       "nombre": "Timbre",
+       "icono": "campana"
+      },
+      {
+       "nombre": "Llave",
+       "icono": "llave"
+      },
+      {
+       "nombre": "Leído",
+       "icono": "check_azul"
+      }
+     ],
+     "titulo": "PARADA 8"
+    }
+   ],
+   "personajes": {
+    "amiga": {
+     "x": 0.93,
+     "escala": 0.62,
+     "pose": "sentado",
+     "cara": "normal",
+     "entra": "@dormido",
+     "entrada": "pop"
+    },
+    "mono": {
+     "x": 0.06,
+     "escala": 0.62,
+     "pose": "señalar",
+     "cara": "risa",
+     "cambios": [
+      {
+       "al": "@+1.1",
+       "pose": "jarras",
+       "cara": "guiño"
+      },
+      {
+       "al": "@+3.3",
+       "pose": "brazos_cruzados",
+       "cara": "normal"
+      },
+      {
+       "al": "@+5.5",
+       "pose": "presentar",
+       "cara": "chulo"
+      }
+     ]
+    }
+   }
+  },
+  {
+   "en": "Sus servicios de avisos",
+   "escenas": [
+    {
+     "tipo": "iconos",
+     "tam": 230,
+     "items": [
+      {
+       "icono": "campana",
+       "texto": "APPLE O GOOGLE",
+       "al": "@avisos"
+      },
+      {
+       "icono": "movil",
+       "texto": "SE DESPIERTA",
+       "al": "@despierta"
+      },
+      {
+       "icono": "check",
+       "texto": "SE DESCARGA",
+       "al": "@descarga"
+      }
+     ]
+    }
+   ],
+   "personajes": {
+    "amiga": {
+     "x": 0.88,
+     "escala": 0.8,
+     "pose": "sentado",
+     "cara": "normal",
+     "cambios": [
+      {
+       "al": "@despierta",
+       "pose": "brazos_arriba",
+       "cara": "sorpresa",
+       "salta": true,
+       "objeto": "movil"
+      }
+     ]
+    },
+    "mono": {
+     "x": 0.1,
+     "escala": 0.8,
+     "pose": "presentar",
+     "cara": "sorpresa",
+     "cambios": [
+      {
+       "al": "@+1.1",
+       "pose": "señalar_arriba",
+       "cara": "normal"
+      },
+      {
+       "al": "@+3.3",
+       "pose": "saludar",
+       "cara": "chulo"
+      }
+     ]
+    }
+   }
+  },
+  {
+   "en": "Y en tu pantalla salen",
+   "escenas": [
+    {
+     "tipo": "iconos",
+     "tam": 280,
+     "items": [
+      {
+       "icono": "check",
+       "texto": "DOS CHECKS: ENTREGADO",
+       "al": "@entregado"
+      }
+     ]
+    }
+   ],
+   "personajes": {
+    "amiga": {
+     "pose": "de_pie",
+     "cara": "risa"
+    },
+    "mono": {
+     "pose": "pensar",
+     "cara": "guiño",
+     "cambios": [
+      {
+       "al": "@+1.1",
+       "pose": "brazos_cruzados",
+       "cara": "chulo"
+      },
+      {
+       "al": "@+3.3",
+       "pose": "presentar",
+       "cara": "risa"
+      }
+     ]
+    }
+   }
+  },
+  {
+   "en": "Número nueve",
+   "color": "verde",
+   "capitulo": "9. La llave",
+   "escenas": [
+    {
+     "tipo": "lista",
+     "n": 9,
+     "total": 10,
+     "titulo": "LA LLAVE",
+     "apodo": "EL DESCIFRADO",
+     "color": "verde",
+     "titulo_al": "@llave",
+     "apodo_al": "@descifrado"
+    }
+   ],
+   "personajes": {
+    "mono": {
+     "salta": true,
+     "pose": "jarras",
+     "cara": "normal",
+     "cambios": [
+      {
+       "al": "@+1.1",
+       "pose": "saludar",
+       "cara": "risa"
+      }
+     ]
+    }
+   }
+  },
+  {
+   "en": "En el móvil de tu amigo, su llave",
+   "escenas": [
+    {
+     "tipo": "viaje",
+     "viajero": "sobre",
+     "numero_desde": 0,
+     "actual": 9,
+     "al": "@abre",
+     "paradas": [
+      {
+       "nombre": "Tú",
+       "icono": "movil"
+      },
+      {
+       "nombre": "Candado",
+       "icono": "candado"
+      },
+      {
+       "nombre": "Paquetes",
+       "icono": "caja"
+      },
+      {
+       "nombre": "WiFi",
+       "icono": "wifi"
+      },
+      {
+       "nombre": "Fibra",
+       "icono": "fibra"
+      },
+      {
+       "nombre": "Routers",
+       "icono": "router"
+      },
+      {
+       "nombre": "Servidor",
+       "icono": "servidor"
+      },
+      {
+       "nombre": "Consigna",
+       "icono": "reloj_arena"
+      },
+      {
+       "nombre": "Timbre",
+       "icono": "campana"
+      },
+      {
+       "nombre": "Llave",
+       "icono": "llave"
+      },
+      {
+       "nombre": "Leído",
+       "icono": "check_azul"
+      }
+     ],
+     "titulo": "PARADA 9"
+    }
+   ],
+   "personajes": {
+    "amiga": {
+     "x": 0.93,
+     "escala": 0.62,
+     "mira": "izq",
+     "pose": "presentar",
+     "cara": "risa",
+     "objeto": "movil"
+    },
+    "mono": {
+     "x": 0.06,
+     "escala": 0.62,
+     "pose": "señalar_arriba",
+     "cara": "chulo",
+     "cambios": [
+      {
+       "al": "@+1.1",
+       "pose": "presentar",
+       "cara": "normal"
+      },
+      {
+       "al": "@+3.3",
+       "pose": "señalar",
+       "cara": "risa"
+      }
+     ]
+    }
+   }
+  },
+  {
+   "en": "Esa llave nunca",
+   "escenas": [
+    {
+     "tipo": "sello",
+     "texto": "BASURA",
+     "al": "@basura",
+     "color": "rojo"
+    }
+   ],
+   "personajes": {
+    "hacker": {
+     "x": 0.88,
+     "escala": 0.8,
+     "mira": "izq",
+     "pose": "pensar",
+     "cara": "normal",
+     "objeto": "lupa",
+     "entra": "@pilló",
+     "entrada": "der",
+     "cambios": [
+      {
+       "al": "@basura",
+       "pose": "miedo",
+       "cara": "enfado"
+      }
+     ]
+    },
+    "mono": {
+     "x": 0.1,
+     "escala": 0.8,
+     "pose": "brazos_cruzados",
+     "cara": "risa",
+     "cambios": [
+      {
+       "al": "@+1.1",
+       "pose": "señalar",
+       "cara": "risa"
+      },
+      {
+       "al": "@+3.3",
+       "pose": "presentar",
+       "cara": "sorpresa"
+      }
+     ]
+    }
+   }
+  },
+  {
+   "en": "Y la última, la que más",
+   "color": "azul",
+   "escenas": [
+    {
+     "tipo": "texto",
+     "tam": 110,
+     "palabras": [
+      {
+       "texto": "LA QUE MÁS",
+       "al": "@más"
+      },
+      {
+       "texto": "DISCUSIONES",
+       "al": "@discusiones",
+       "caja": true,
+       "color": "azul"
+      }
+     ]
+    }
+   ],
+   "personajes": {
+    "mono": {
+     "pose": "encogerse",
+     "cara": "sorpresa",
+     "cambios": [
+      {
+       "al": "@+1.1",
+       "pose": "señalar",
+       "cara": "sorpresa"
+      }
+     ]
+    }
+   }
+  },
+  {
+   "en": "Número diez",
+   "capitulo": "10. Los checks azules",
+   "escenas": [
+    {
+     "tipo": "lista",
+     "n": 10,
+     "total": 10,
+     "titulo": "CHECKS AZULES",
+     "apodo": "EL CHIVATO",
+     "color": "azul",
+     "titulo_al": "@checks",
+     "apodo_al": "@chivato"
+    }
+   ],
+   "personajes": {
+    "mono": {
+     "salta": true,
+     "pose": "presentar",
+     "cara": "risa",
+     "cambios": [
+      {
+       "al": "@+1.1",
+       "pose": "presentar",
+       "cara": "guiño"
+      }
+     ]
+    }
+   }
+  },
+  {
+   "en": "Cuando tu amigo abre",
+   "escenas": [
+    {
+     "tipo": "viaje",
+     "viajero": "sobre",
+     "numero_desde": 0,
+     "actual": 10,
+     "al": "@abre",
+     "paradas": [
+      {
+       "nombre": "Tú",
+       "icono": "movil"
+      },
+      {
+       "nombre": "Candado",
+       "icono": "candado"
+      },
+      {
+       "nombre": "Paquetes",
+       "icono": "caja"
+      },
+      {
+       "nombre": "WiFi",
+       "icono": "wifi"
+      },
+      {
+       "nombre": "Fibra",
+       "icono": "fibra"
+      },
+      {
+       "nombre": "Routers",
+       "icono": "router"
+      },
+      {
+       "nombre": "Servidor",
+       "icono": "servidor"
+      },
+      {
+       "nombre": "Consigna",
+       "icono": "reloj_arena"
+      },
+      {
+       "nombre": "Timbre",
+       "icono": "campana"
+      },
+      {
+       "nombre": "Llave",
+       "icono": "llave"
+      },
+      {
+       "nombre": "Leído",
+       "icono": "check_azul"
+      }
+     ],
+     "titulo": "PARADA 10"
+    }
+   ],
+   "personajes": {
+    "amiga": {
+     "x": 0.93,
+     "escala": 0.62,
+     "mira": "izq",
+     "pose": "de_pie",
+     "cara": "guiño",
+     "objeto": "movil",
+     "entra": "@abre",
+     "entrada": "pop"
+    },
+    "mono": {
+     "x": 0.06,
+     "escala": 0.62,
+     "pose": "señalar",
+     "cara": "sorpresa",
+     "cambios": [
+      {
+       "al": "@+1.1",
+       "pose": "pensar",
+       "cara": "normal"
+      },
+      {
+       "al": "@+3.3",
+       "pose": "señalar_arriba",
+       "cara": "chulo"
+      },
+      {
+       "al": "@+5.5",
+       "pose": "saludar",
+       "cara": "risa"
+      }
+     ]
+    }
+   }
+  },
+  {
+   "en": "Llegaron en noviembre",
+   "escenas": [
+    {
+     "tipo": "linea_tiempo",
+     "titulo": "WHATSAPP",
+     "hitos": [
+      {
+       "fecha": "2009",
+       "texto": "Nace WhatsApp",
+       "icono": "wasap",
+       "al": "@inicio"
+      },
+      {
+       "fecha": "2014",
+       "texto": "Llegan los checks azules",
+       "icono": "check_azul",
+       "al": "@noviembre"
+      },
+      {
+       "fecha": "NOV 2014",
+       "texto": "Medio mundo se enfada",
+       "icono": "fuego",
+       "al": "@enfadó"
+      }
+     ]
+    }
+   ],
+   "personajes": {
+    "amiga": {
+     "x": 0.88,
+     "escala": 0.8,
+     "pose": "jarras",
+     "cara": "enfado"
+    },
+    "mono": {
+     "x": 0.1,
+     "escala": 0.8,
+     "pose": "señalar",
+     "cara": "guiño",
+     "cambios": [
+      {
+       "al": "@+1.1",
+       "pose": "jarras",
+       "cara": "chulo"
+      }
+     ]
+    }
+   }
+  },
+  {
+   "en": "Hoy los puedes quitar",
+   "escenas": [
+    {
+     "tipo": "pantalla",
+     "dispositivo": "movil",
+     "titulo": "PRIVACIDAD",
+     "lineas": [
+      {
+       "texto": "Confirmaciones de lectura: NO",
+       "al": "@quitar",
+       "color": "amarillo"
+      },
+      {
+       "texto": "Tú tampoco ves las de los demás",
+       "al": "@tampoco",
+       "color": "rojo"
+      }
+     ]
+    }
+   ],
+   "personajes": {
+    "amiga": {
+     "pose": "pensar",
+     "cara": "normal",
+     "salida": "der"
+    },
+    "mono": {
+     "pose": "presentar",
+     "cara": "normal",
+     "cambios": [
+      {
+       "al": "@+1.1",
+       "pose": "señalar_arriba",
+       "cara": "risa"
+      },
+      {
+       "al": "@+3.3",
+       "pose": "saludar",
+       "cara": "normal"
+      }
+     ]
+    }
+   }
+  },
+  {
+   "en": "¿Y si un día se rompe",
+   "color": "rojo",
+   "capitulo": "La gran caída de 2021",
+   "escenas": [
+    {
+     "tipo": "pregunta",
+     "pregunta": "¿Y si se rompe el camino?",
+     "al": "@rompe",
+     "respuesta": "4 OCT 2021",
+     "respuesta_al": "@cuatro",
+     "color": "rojo"
+    }
+   ],
+   "personajes": {
+    "mono": {
+     "pose": "pensar",
+     "cara": "miedo",
+     "cambios": [
+      {
+       "al": "@+1.1",
+       "pose": "brazos_cruzados",
+       "cara": "normal"
+      },
+      {
+       "al": "@+3.3",
+       "pose": "presentar",
+       "cara": "risa"
+      }
+     ]
+    }
+   }
+  },
+  {
+   "en": "Un cambio de configuración",
+   "escenas": [
+    {
+     "tipo": "iconos",
+     "tam": 230,
+     "items": [
+      {
+       "icono": "router",
+       "texto": "CAMBIO DE CONFIGURACIÓN",
+       "al": "@configuración",
+       "tachar_al": "@borró"
+      },
+      {
+       "icono": "reloj_arena",
+       "texto": "UNAS 6 HORAS",
+       "al": "@seis"
+      }
+     ]
+    }
+   ],
+   "personajes": {
+    "mono": {
+     "pose": "miedo",
+     "cara": "miedo",
+     "cambios": [
+      {
+       "al": "@+1.1",
+       "pose": "saludar",
+       "cara": "risa"
+      },
+      {
+       "al": "@+3.3",
+       "pose": "señalar",
+       "cara": "sorpresa"
+      },
+      {
+       "al": "@+5.5",
+       "pose": "presentar",
+       "cara": "guiño"
+      }
+     ]
+    }
+   },
+   "sfx": [
+    [
+     "apagon",
+     "@borró",
+     0.8
+    ]
+   ],
+   "golpes": [
+    "@borró"
+   ]
+  },
+  {
+   "en": "Tu mensaje salía de casa",
+   "escenas": [
+    {
+     "tipo": "viaje",
+     "viajero": "sobre",
+     "numero_desde": 0,
+     "actual": 6,
+     "al": "@oficina",
+     "paradas": [
+      {
+       "nombre": "Tú",
+       "icono": "movil"
+      },
+      {
+       "nombre": "Candado",
+       "icono": "candado"
+      },
+      {
+       "nombre": "Paquetes",
+       "icono": "caja"
+      },
+      {
+       "nombre": "WiFi",
+       "icono": "wifi"
+      },
+      {
+       "nombre": "Fibra",
+       "icono": "fibra"
+      },
+      {
+       "nombre": "Routers",
+       "icono": "router"
+      },
+      {
+       "nombre": "Servidor",
+       "icono": "servidor"
+      },
+      {
+       "nombre": "Consigna",
+       "icono": "reloj_arena"
+      },
+      {
+       "nombre": "Timbre",
+       "icono": "campana"
+      },
+      {
+       "nombre": "Llave",
+       "icono": "llave"
+      },
+      {
+       "nombre": "Leído",
+       "icono": "check_azul"
+      }
+     ],
+     "titulo": "¿Y LA OFICINA?",
+     "duracion_tramo": 1.2
+    }
+   ],
+   "personajes": {
+    "mono": {
+     "x": 0.06,
+     "escala": 0.62,
+     "pose": "encogerse",
+     "cara": "triste",
+     "cambios": [
+      {
+       "al": "@+1.1",
+       "pose": "presentar",
+       "cara": "sorpresa"
+      }
+     ]
+    }
+   }
+  },
+  {
+   "en": "Ese día mucha gente",
+   "color": "naranja",
+   "escenas": [
+    {
+     "tipo": "combate",
+     "tramos": 3,
+     "titulo": "VS",
+     "a": {
+      "nombre": "WhatsApp",
+      "icono": "wasap",
+      "color": "verde",
+      "al": "@WhatsApp"
+     },
+     "b": {
+      "nombre": "SMS",
+      "icono": "sobre",
+      "color": "azul",
+      "al": "@SMS"
+     },
+     "asaltos": [
+      {
+       "titulo": "ASALTO 1: SIN INTERNET",
+       "ganador": "b",
+       "al": "@funcionó"
+      },
+      {
+       "titulo": "ASALTO 2: CIFRADO",
+       "ganador": "a",
+       "al": "@cifrado"
+      },
+      {
+       "titulo": "ASALTO 3: 160 CARACTERES",
+       "ganador": "a",
+       "al": "@caracteres"
+      }
+     ],
+     "ganador": "a",
+     "ganador_al": "@Gana WhatsApp"
+    }
+   ],
+   "personajes": {
+    "mono": {
+     "x": 0.06,
+     "escala": 0.7,
+     "pose": "saludar",
+     "cara": "risa",
+     "cambios": [
+      {
+       "al": "@+1.1",
+       "pose": "señalar",
+       "cara": "guiño"
+      },
+      {
+       "al": "@+3.3",
+       "pose": "presentar",
+       "cara": "normal"
+      },
+      {
+       "al": "@+5.5",
+       "pose": "jarras",
+       "cara": "chulo"
+      }
+     ]
+    }
+   }
+  },
+  {
+   "en": "El SMS no necesita",
+   "escenas": [],
+   "personajes": {
+    "mono": {
+     "pose": "señalar",
+     "cara": "sorpresa",
+     "cambios": [
+      {
+       "al": "@+1.1",
+       "pose": "señalar",
+       "cara": "normal"
+      },
+      {
+       "al": "@+3.3",
+       "pose": "pensar",
+       "cara": "chulo"
+      }
+     ]
+    }
+   },
+   "relleno": false
+  },
+  {
+   "en": "Pero no va cifrado",
+   "escenas": [],
+   "personajes": {
+    "mono": {
+     "pose": "jarras",
+     "cara": "chulo",
+     "cambios": [
+      {
+       "al": "@+1.1",
+       "pose": "presentar",
+       "cara": "chulo"
+      }
+     ]
+    }
+   },
+   "relleno": false
+  },
+  {
+   "en": "Gana WhatsApp, por los pelos",
+   "escenas": [],
+   "personajes": {
+    "mono": {
+     "pose": "celebrar",
+     "cara": "risa",
+     "salta": true,
+     "cambios": [
+      {
+       "al": "@+1.1",
+       "pose": "pensar",
+       "cara": "risa"
+      }
+     ]
+    }
+   },
+   "relleno": false
+  },
+  {
+   "en": "Y ahora, las dos preguntas",
+   "color": "verde",
+   "capitulo": "Las dos preguntas",
+   "escenas": [
+    {
+     "tipo": "pregunta",
+     "pregunta": "¿Quién lo ha podido leer?",
+     "al": "@leer",
+     "respuesta": "NADIE",
+     "respuesta_al": "@Nadie",
+     "color": "verde"
+    }
+   ],
+   "personajes": {
+    "mono": {
+     "x": 0.1,
+     "escala": 0.8,
+     "pose": "pensar",
+     "cara": "normal",
+     "cambios": [
+      {
+       "al": "@Nadie",
+       "pose": "brazos_cruzados",
+       "cara": "chulo",
+       "salta": true
+      }
+     ]
+    }
+   }
+  },
+  {
+   "en": "¿Y por qué a veces tarda",
+   "color": "amarillo",
+   "escenas": [
+    {
+     "tipo": "iconos",
+     "tam": 230,
+     "items": [
+      {
+       "icono": "reloj_arena",
+       "texto": "EL VIAJE: < 1 s",
+       "al": "@viaje"
+      },
+      {
+       "icono": "bateria",
+       "texto": "TU AMIGO: HORAS",
+       "al": "@encender",
+       "color": "vacia"
+      }
+     ]
+    }
+   ],
+   "personajes": {
+    "amiga": {
+     "x": 0.88,
+     "escala": 0.8,
+     "mira": "izq",
+     "pose": "encogerse",
+     "cara": "guiño",
+     "objeto": "movil",
+     "entra": "@amigo",
+     "entrada": "der"
+    },
+    "mono": {
+     "pose": "presentar",
+     "cara": "risa",
+     "cambios": [
+      {
+       "al": "@+1.1",
+       "pose": "señalar_arriba",
+       "cara": "risa"
+      },
+      {
+       "al": "@+3.3",
+       "pose": "saludar",
+       "cara": "sorpresa"
+      },
+      {
+       "al": "@+5.5",
+       "pose": "señalar",
+       "cara": "guiño"
+      }
+     ]
+    }
+   }
+  },
+  {
+   "en": "¿Cuál de las diez",
+   "escenas": [
+    {
+     "tipo": "viaje",
+     "viajero": "sobre",
+     "numero_desde": 0,
+     "actual": 10,
+     "al": "@inicio",
+     "paradas": [
+      {
+       "nombre": "Tú",
+       "icono": "movil"
+      },
+      {
+       "nombre": "Candado",
+       "icono": "candado"
+      },
+      {
+       "nombre": "Paquetes",
+       "icono": "caja"
+      },
+      {
+       "nombre": "WiFi",
+       "icono": "wifi"
+      },
+      {
+       "nombre": "Fibra",
+       "icono": "fibra"
+      },
+      {
+       "nombre": "Routers",
+       "icono": "router"
+      },
+      {
+       "nombre": "Servidor",
+       "icono": "servidor"
+      },
+      {
+       "nombre": "Consigna",
+       "icono": "reloj_arena"
+      },
+      {
+       "nombre": "Timbre",
+       "icono": "campana"
+      },
+      {
+       "nombre": "Llave",
+       "icono": "llave"
+      },
+      {
+       "nombre": "Leído",
+       "icono": "check_azul"
+      }
+     ],
+     "titulo": "¿CUÁL NO CONOCÍAS?"
+    }
+   ],
+   "personajes": {
+    "amiga": {
+     "x": 0.93,
+     "escala": 0.62,
+     "pose": "saludar",
+     "cara": "risa"
+    },
+    "mono": {
+     "x": 0.06,
+     "escala": 0.62,
+     "pose": "pensar",
+     "cara": "normal",
+     "cambios": [
+      {
+       "al": "@+1.1",
+       "pose": "brazos_cruzados",
+       "cara": "sorpresa"
+      }
+     ]
+    }
+   }
+  },
+  {
+   "en": "Si te gusta entender",
+   "color": "rojo",
+   "escenas": [
+    {
+     "tipo": "iconos",
+     "tam": 300,
+     "items": [
+      {
+       "icono": "play",
+       "texto": "SUSCRÍBETE",
+       "al": "@suscríbete"
+      }
+     ]
+    }
+   ],
+   "personajes": {
+    "amiga": {
+     "x": 0.88,
+     "escala": 0.8,
+     "pose": "celebrar",
+     "cara": "risa"
+    },
+    "perro": {
+     "x": 0.72,
+     "escala": 0.62,
+     "mira": "izq",
+     "pose": "celebrar",
+     "cara": "risa",
+     "entra": "@tecnología",
+     "entrada": "salto"
+    },
+    "mono": {
+     "x": 0.1,
+     "escala": 0.8,
+     "pose": "celebrar",
+     "cara": "risa",
+     "salta": true,
+     "cambios": [
+      {
+       "al": "@+1.1",
+       "pose": "saludar",
+       "cara": "guiño"
+      },
+      {
+       "al": "@+3.3",
+       "pose": "señalar",
+       "cara": "normal"
+      },
+      {
+       "al": "@+5.5",
+       "pose": "presentar",
+       "cara": "chulo"
+      }
+     ]
+    }
+   }
+  }
+ ],
+ "cola": 1.2,
+ "formato": "16:9"
+}

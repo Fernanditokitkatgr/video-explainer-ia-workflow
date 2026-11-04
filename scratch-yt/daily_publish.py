@@ -61,7 +61,7 @@ def upload_into_reserved(slug: str, publish_at: str) -> str:
     args = _ap.Namespace(video=str(REPO_ROOT / "remotion" / "output" / f"{slug}.mp4"), title=seo["title"],
                          description=seo["description"], tags=seo["tags"],
                          thumbnail=str(thumb if thumb.exists() else mdir / "thumbnail.jpg"),
-                         category="27", privacy="private", publish_at=publish_at)
+                         category="28", privacy="private", publish_at=publish_at)
     vid = uy.upload(args)
     pfr.sync_bookkeeping(slug, vid, publish_at, mdir)
     return vid

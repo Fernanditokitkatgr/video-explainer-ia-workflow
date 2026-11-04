@@ -86,7 +86,7 @@ def main() -> None:
     p.add_argument("--video", required=True, help="slug tal como aparece en videos.json")
     p.add_argument("--thumbnail", default="",
                    help="ruta a la miniatura; por defecto <manifest>/thumbnail_final.jpg (con texto) o thumbnail.jpg")
-    p.add_argument("--category", default="27", help="27=Educación (por defecto)")
+    p.add_argument("--category", default="28", help="28=Ciencia y tecnología (por defecto)")
     p.add_argument("--dry-run", action="store_true", help="muestra qué se subiría, sin llamar a la API")
     args = p.parse_args()
 

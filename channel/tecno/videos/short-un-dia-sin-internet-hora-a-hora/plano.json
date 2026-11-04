@@ -1,0 +1,605 @@
+{
+ "reparto": {
+  "mono": {
+   "tipo": "protagonista",
+   "narrador": true
+  },
+  "mona": {
+   "tipo": "mona"
+  },
+  "astro": {
+   "tipo": "astronauta"
+  },
+  "influ": {
+   "tipo": "influencer"
+  },
+  "rico": {
+   "tipo": "rico"
+  },
+  "abuelo": {
+   "tipo": "abuelo"
+  },
+  "currito": {
+   "tipo": "currito"
+  }
+ },
+ "tramos": [
+  {
+   "en": "",
+   "color": "rojo",
+   "escenas": [
+    {
+     "tipo": "texto",
+     "tam": 84,
+     "palabras": [
+      {
+       "texto": "¿Y SI SE APAGA",
+       "al": "@inicio",
+       "color": "amarillo"
+      },
+      {
+       "texto": "INTERNET?",
+       "al": "@+0.12",
+       "caja": true,
+       "color": "rojo"
+      }
+     ],
+     "zona": "arriba",
+     "caja": {
+      "y": 150
+     },
+     "por_fila": 14
+    },
+    {
+     "tipo": "reloj",
+     "rotulo": "9:00",
+     "subtitulo": "Hora a hora",
+     "desde": 530,
+     "hasta": 540,
+     "al": "@+0.2",
+     "dur": 0.8,
+     "caja": {
+      "y": 760
+     }
+    }
+   ],
+   "personajes": {
+    "mono": {
+     "x": 0.25,
+     "escala": 0.95,
+     "pose": "miedo",
+     "cara": "miedo",
+     "objeto": "movil",
+     "entrada": "nada",
+     "cambios": [
+      {
+       "al": "@+1.1",
+       "pose": "jarras",
+       "cara": "sorpresa"
+      }
+     ]
+    }
+   },
+   "sfx": [
+    [
+     "golpe",
+     0.02,
+     1.0
+    ],
+    [
+     "boom",
+     0.04,
+     0.7
+    ],
+    [
+     "apagon",
+     "@apagara",
+     0.9
+    ]
+   ],
+   "golpes": [
+    0.05,
+    "@apagara"
+   ]
+  },
+  {
+   "en": "Minuto uno",
+   "color": "azul",
+   "escenas": [
+    {
+     "tipo": "reloj",
+     "escenario": "UN DÍA SIN INTERNET",
+     "rotulo": "MINUTO 1",
+     "subtitulo": "Redes mudas",
+     "desde": 540,
+     "hasta": 541,
+     "al": "@inicio",
+     "caos": 15,
+     "dur": 1.0
+    }
+   ],
+   "personajes": {
+    "mona": {
+     "x": 0.76,
+     "escala": 0.95,
+     "mira": "izq",
+     "pose": "miedo",
+     "cara": "miedo",
+     "objeto": "movil",
+     "entra": "@mudos",
+     "entrada": "der"
+    },
+    "mono": {
+     "pose": "encogerse",
+     "cara": "sorpresa",
+     "cambios": [
+      {
+       "al": "@+1.1",
+       "pose": "señalar_arriba",
+       "cara": "guiño"
+      },
+      {
+       "al": "@+3.3",
+       "pose": "saludar",
+       "cara": "normal"
+      }
+     ]
+    }
+   }
+  },
+  {
+   "en": "Minuto diez",
+   "color": "naranja",
+   "escenas": [
+    {
+     "tipo": "reloj",
+     "escenario": "UN DÍA SIN INTERNET",
+     "rotulo": "MINUTO 10",
+     "subtitulo": "Sin tarjetas",
+     "desde": 541,
+     "hasta": 550,
+     "al": "@inicio",
+     "caos": 30,
+     "dur": 1.0
+    }
+   ],
+   "personajes": {
+    "mona": {
+     "pose": "encogerse",
+     "cara": "triste",
+     "salida": "der"
+    },
+    "mono": {
+     "pose": "pensar",
+     "cara": "sorpresa",
+     "cambios": [
+      {
+       "al": "@+1.1",
+       "pose": "brazos_cruzados",
+       "cara": "normal"
+      },
+      {
+       "al": "@+3.3",
+       "pose": "presentar",
+       "cara": "chulo"
+      }
+     ]
+    }
+   }
+  },
+  {
+   "en": "Hora uno",
+   "color": "verde",
+   "escenas": [
+    {
+     "tipo": "reloj",
+     "escenario": "UN DÍA SIN INTERNET",
+     "rotulo": "HORA 1",
+     "subtitulo": "GPS sin mapa",
+     "desde": 550,
+     "hasta": 600,
+     "al": "@inicio",
+     "caos": 40,
+     "dur": 1.0
+    }
+   ],
+   "personajes": {
+    "astro": {
+     "x": 0.76,
+     "escala": 0.95,
+     "mira": "izq",
+     "pose": "saludar",
+     "cara": "risa",
+     "entra": "@GPS",
+     "entrada": "cae"
+    },
+    "mono": {
+     "objeto": "ninguno",
+     "pose": "jarras",
+     "cara": "guiño",
+     "cambios": [
+      {
+       "al": "@+1.1",
+       "pose": "saludar",
+       "cara": "chulo"
+      },
+      {
+       "al": "@+3.3",
+       "pose": "señalar",
+       "cara": "risa"
+      }
+     ]
+    }
+   }
+  },
+  {
+   "en": "Hora dos",
+   "color": "morado",
+   "escenas": [
+    {
+     "tipo": "reloj",
+     "escenario": "UN DÍA SIN INTERNET",
+     "rotulo": "HORA 2",
+     "subtitulo": "Oficinas paradas",
+     "desde": 600,
+     "hasta": 660,
+     "al": "@inicio",
+     "caos": 55,
+     "dur": 1.0
+    }
+   ],
+   "personajes": {
+    "astro": {
+     "pose": "encogerse",
+     "cara": "sorpresa",
+     "salida": "der"
+    },
+    "currito": {
+     "x": 0.76,
+     "escala": 0.95,
+     "mira": "izq",
+     "pose": "jarras",
+     "cara": "enfado",
+     "entra": "@Oficinas",
+     "entrada": "der"
+    },
+    "mono": {
+     "pose": "señalar_arriba",
+     "cara": "normal",
+     "cambios": [
+      {
+       "al": "@+1.1",
+       "pose": "presentar",
+       "cara": "risa"
+      }
+     ]
+    }
+   }
+  },
+  {
+   "en": "En dos mil veinticuatro, un fallo",
+   "color": "rojo",
+   "escenas": [
+    {
+     "tipo": "cifra",
+     "desde": 0,
+     "hasta": 8.5,
+     "al": "@CrowdStrike",
+     "decimales": 1,
+     "sufijo": " MILL.",
+     "antes": "ORDENADORES CAÍDOS",
+     "tam": 150,
+     "color": "rojo",
+     "dur": 0.8
+    }
+   ],
+   "personajes": {
+    "currito": {
+     "pose": "miedo",
+     "cara": "miedo",
+     "salida": "der"
+    },
+    "mono": {
+     "pose": "brazos_cruzados",
+     "cara": "chulo",
+     "cambios": [
+      {
+       "al": "@+1.1",
+       "pose": "señalar",
+       "cara": "normal"
+      },
+      {
+       "al": "@+3.3",
+       "pose": "presentar",
+       "cara": "risa"
+      }
+     ]
+    }
+   }
+  },
+  {
+   "en": "Hora seis",
+   "color": "rosa",
+   "escenas": [
+    {
+     "tipo": "reloj",
+     "escenario": "UN DÍA SIN INTERNET",
+     "rotulo": "HORA 6",
+     "subtitulo": "Caen las redes",
+     "desde": 660,
+     "hasta": 900,
+     "al": "@inicio",
+     "caos": 60,
+     "dur": 1.0
+    }
+   ],
+   "personajes": {
+    "influ": {
+     "x": 0.76,
+     "escala": 0.95,
+     "mira": "izq",
+     "pose": "sentado",
+     "cara": "triste",
+     "entra": "@seis",
+     "entrada": "cae"
+    },
+    "mono": {
+     "pose": "saludar",
+     "cara": "risa",
+     "cambios": [
+      {
+       "al": "@+1.1",
+       "pose": "señalar",
+       "cara": "risa"
+      }
+     ]
+    }
+   }
+  },
+  {
+   "en": "Hora doce",
+   "color": "naranja",
+   "escenas": [
+    {
+     "tipo": "reloj",
+     "escenario": "UN DÍA SIN INTERNET",
+     "rotulo": "HORA 12",
+     "subtitulo": "Cajeros sin billetes",
+     "desde": 900,
+     "hasta": 1260,
+     "al": "@inicio",
+     "caos": 75,
+     "dur": 1.0
+    }
+   ],
+   "personajes": {
+    "influ": {
+     "pose": "encogerse",
+     "cara": "triste",
+     "salida": "der"
+    },
+    "rico": {
+     "x": 0.76,
+     "escala": 0.95,
+     "mira": "izq",
+     "pose": "miedo",
+     "cara": "miedo",
+     "entra": "@cajeros",
+     "entrada": "der"
+    },
+    "mono": {
+     "pose": "presentar",
+     "cara": "normal",
+     "cambios": [
+      {
+       "al": "@+1.1",
+       "pose": "presentar",
+       "cara": "sorpresa"
+      }
+     ]
+    }
+   }
+  },
+  {
+   "en": "Hora veinticuatro",
+   "color": "verde",
+   "escenas": [
+    {
+     "tipo": "reloj",
+     "escenario": "UN DÍA SIN INTERNET",
+     "rotulo": "HORA 24",
+     "subtitulo": "Vuelve la radio",
+     "desde": 1260,
+     "hasta": 1980,
+     "al": "@inicio",
+     "caos": 70,
+     "dur": 1.0
+    }
+   ],
+   "personajes": {
+    "rico": {
+     "pose": "encogerse",
+     "cara": "triste",
+     "salida": "der"
+    },
+    "abuelo": {
+     "x": 0.76,
+     "escala": 0.95,
+     "mira": "izq",
+     "pose": "celebrar",
+     "cara": "risa",
+     "entra": "@radio",
+     "entrada": "salto"
+    },
+    "mono": {
+     "pose": "señalar",
+     "cara": "risa",
+     "cambios": [
+      {
+       "al": "@+1.1",
+       "pose": "pensar",
+       "cara": "guiño"
+      }
+     ]
+    }
+   }
+  },
+  {
+   "en": "Día cinco",
+   "color": "rojo",
+   "escenas": [
+    {
+     "tipo": "reloj",
+     "escenario": "UN DÍA SIN INTERNET",
+     "rotulo": "DÍA 5",
+     "subtitulo": "90 millones $ en Egipto",
+     "desde": 1980,
+     "hasta": 7740,
+     "al": "@inicio",
+     "caos": 95,
+     "dur": 1.0
+    }
+   ],
+   "personajes": {
+    "abuelo": {
+     "pose": "encogerse",
+     "cara": "sorpresa",
+     "salida": "der"
+    },
+    "mono": {
+     "pose": "señalar",
+     "cara": "sorpresa",
+     "cambios": [
+      {
+       "al": "@+1.1",
+       "pose": "jarras",
+       "cara": "normal"
+      },
+      {
+       "al": "@+3.3",
+       "pose": "brazos_cruzados",
+       "cara": "chulo"
+      }
+     ]
+    }
+   }
+  },
+  {
+   "en": "¿Puede pasar?",
+   "color": "verde",
+   "escenas": [
+    {
+     "tipo": "pregunta",
+     "pregunta": "¿Puede pasar?",
+     "al": "@pasar",
+     "respuesta": "CASI IMPOSIBLE",
+     "respuesta_al": "@imposible",
+     "color": "verde"
+    }
+   ],
+   "personajes": {
+    "mono": {
+     "pose": "pensar",
+     "cara": "normal",
+     "cambios": [
+      {
+       "al": "@+1.1",
+       "pose": "señalar_arriba",
+       "cara": "chulo"
+      }
+     ]
+    }
+   }
+  },
+  {
+   "en": "Pero en dos mil veinticuatro hubo",
+   "color": "naranja",
+   "escenas": [
+    {
+     "tipo": "cifra",
+     "desde": 0,
+     "hasta": 296,
+     "al": "@doscientos",
+     "antes": "CORTES EN 2024",
+     "etiqueta": "en 54 países",
+     "etiqueta_al": "@cincuenta",
+     "tam": 220,
+     "color": "naranja",
+     "dur": 0.7
+    }
+   ],
+   "personajes": {
+    "mono": {
+     "pose": "pensar",
+     "cara": "normal",
+     "cambios": [
+      {
+       "al": "@+1.1",
+       "pose": "brazos_cruzados",
+       "cara": "risa"
+      },
+      {
+       "al": "@+3.3",
+       "pose": "presentar",
+       "cara": "normal"
+      }
+     ]
+    }
+   }
+  },
+  {
+   "en": "Así que ten algo",
+   "color": "amarillo",
+   "escenas": [
+    {
+     "tipo": "iconos",
+     "tam": 240,
+     "items": [
+      {
+       "icono": "dolar",
+       "texto": "EFECTIVO",
+       "al": "@efectivo"
+      },
+      {
+       "icono": "radio",
+       "texto": "RADIO",
+       "al": "@efectivo+0.4"
+      }
+     ],
+     "caja": {
+      "y": 620
+     }
+    }
+   ],
+   "personajes": {
+    "mona": {
+     "x": 0.76,
+     "escala": 0.95,
+     "mira": "izq",
+     "pose": "pensar",
+     "cara": "guiño",
+     "entra": "@aguantarías",
+     "entrada": "pop"
+    },
+    "mono": {
+     "pose": "señalar",
+     "cara": "guiño",
+     "cambios": [
+      {
+       "al": "@+1.1",
+       "pose": "saludar",
+       "cara": "normal"
+      },
+      {
+       "al": "@+3.3",
+       "pose": "señalar",
+       "cara": "risa"
+      }
+     ]
+    }
+   }
+  }
+ ],
+ "cola": 0.9,
+ "formato": "9:16"
+}

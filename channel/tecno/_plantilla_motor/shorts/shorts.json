@@ -1,0 +1,4 @@
+{
+  "shorts": [],
+  "nota": "Largo hecho con el motor de animación. Esta lista vacía evita que daily_publish.py lance make_shorts.py, que necesita imágenes de frames.json (método heredado). Los Shorts del motor son vídeos propios (short-<tema>). En un Short, borra esta carpeta shorts/."
+}

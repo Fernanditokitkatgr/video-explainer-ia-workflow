@@ -1,0 +1,722 @@
+[
+{
+"text": "¿Qué",
+"start": 0.0,
+"end": 0.12
+},
+{
+"text": "pasaría",
+"start": 0.12,
+"end": 0.62
+},
+{
+"text": "si",
+"start": 0.62,
+"end": 0.88
+},
+{
+"text": "se",
+"start": 0.88,
+"end": 1.0
+},
+{
+"text": "apagara",
+"start": 1.0,
+"end": 1.34
+},
+{
+"text": "Internet",
+"start": 1.34,
+"end": 1.62
+},
+{
+"text": "un",
+"start": 1.62,
+"end": 1.94
+},
+{
+"text": "día?",
+"start": 1.94,
+"end": 2.18
+},
+{
+"text": "Hora",
+"start": 2.74,
+"end": 3.02
+},
+{
+"text": "a",
+"start": 3.02,
+"end": 3.07
+},
+{
+"text": "hora.",
+"start": 3.02,
+"end": 3.4
+},
+{
+"text": "Minuto",
+"start": 3.78,
+"end": 4.32
+},
+{
+"text": "uno.",
+"start": 4.32,
+"end": 4.64
+},
+{
+"text": "WhatsApp,",
+"start": 5.06,
+"end": 5.38
+},
+{
+"text": "Instagram",
+"start": 5.74,
+"end": 6.14
+},
+{
+"text": "y",
+"start": 6.14,
+"end": 6.32
+},
+{
+"text": "el",
+"start": 6.32,
+"end": 6.4
+},
+{
+"text": "correo",
+"start": 6.4,
+"end": 6.76
+},
+{
+"text": "se",
+"start": 6.76,
+"end": 6.96
+},
+{
+"text": "quedan",
+"start": 6.96,
+"end": 7.2
+},
+{
+"text": "mudos.",
+"start": 7.2,
+"end": 7.62
+},
+{
+"text": "Minuto",
+"start": 8.06,
+"end": 8.36
+},
+{
+"text": "diez.",
+"start": 8.36,
+"end": 8.6
+},
+{
+"text": "Las",
+"start": 9.02,
+"end": 9.14
+},
+{
+"text": "tarjetas",
+"start": 9.14,
+"end": 9.66
+},
+{
+"text": "dejan",
+"start": 9.66,
+"end": 10.02
+},
+{
+"text": "de",
+"start": 10.02,
+"end": 10.16
+},
+{
+"text": "pasar.",
+"start": 10.16,
+"end": 10.5
+},
+{
+"text": "En",
+"start": 10.82,
+"end": 10.92
+},
+{
+"text": "el",
+"start": 10.92,
+"end": 11.04
+},
+{
+"text": "apagón",
+"start": 11.04,
+"end": 11.3
+},
+{
+"text": "de",
+"start": 11.3,
+"end": 11.42
+},
+{
+"text": "España",
+"start": 11.42,
+"end": 11.64
+},
+{
+"text": "de",
+"start": 11.64,
+"end": 11.86
+},
+{
+"text": "dos",
+"start": 11.86,
+"end": 11.962
+},
+{
+"text": "mil",
+"start": 11.962,
+"end": 12.065
+},
+{
+"text": "veinticinco,",
+"start": 12.065,
+"end": 12.44
+},
+{
+"text": "ya",
+"start": 12.98,
+"end": 13.18
+},
+{
+"text": "pasó.",
+"start": 13.18,
+"end": 13.48
+},
+{
+"text": "Hora",
+"start": 13.96,
+"end": 14.16
+},
+{
+"text": "uno.",
+"start": 14.16,
+"end": 14.42
+},
+{
+"text": "El",
+"start": 14.72,
+"end": 14.88
+},
+{
+"text": "GPS",
+"start": 14.88,
+"end": 15.2
+},
+{
+"text": "sigue",
+"start": 15.2,
+"end": 15.66
+},
+{
+"text": "funcionando,",
+"start": 15.66,
+"end": 16.26
+},
+{
+"text": "pero",
+"start": 16.42,
+"end": 16.56
+},
+{
+"text": "sobre",
+"start": 16.56,
+"end": 16.9
+},
+{
+"text": "un",
+"start": 16.9,
+"end": 17.06
+},
+{
+"text": "mapa",
+"start": 17.06,
+"end": 17.26
+},
+{
+"text": "en",
+"start": 17.26,
+"end": 17.42
+},
+{
+"text": "blanco.",
+"start": 17.42,
+"end": 17.74
+},
+{
+"text": "Hora",
+"start": 18.14,
+"end": 18.34
+},
+{
+"text": "dos.",
+"start": 18.34,
+"end": 18.52
+},
+{
+"text": "Oficinas",
+"start": 18.92,
+"end": 19.38
+},
+{
+"text": "paradas.",
+"start": 19.38,
+"end": 19.82
+},
+{
+"text": "En",
+"start": 20.2,
+"end": 20.28
+},
+{
+"text": "dos",
+"start": 20.28,
+"end": 20.367
+},
+{
+"text": "mil",
+"start": 20.367,
+"end": 20.453
+},
+{
+"text": "veinticuatro,",
+"start": 20.453,
+"end": 20.8
+},
+{
+"text": "un",
+"start": 21.1,
+"end": 21.26
+},
+{
+"text": "fallo",
+"start": 21.26,
+"end": 21.5
+},
+{
+"text": "de",
+"start": 21.5,
+"end": 21.6
+},
+{
+"text": "CrowdStrike",
+"start": 21.6,
+"end": 22.1
+},
+{
+"text": "tumbó",
+"start": 22.1,
+"end": 22.52
+},
+{
+"text": "ocho",
+"start": 22.52,
+"end": 22.9
+},
+{
+"text": "millones",
+"start": 22.9,
+"end": 23.22
+},
+{
+"text": "y",
+"start": 23.22,
+"end": 23.46
+},
+{
+"text": "medio",
+"start": 23.46,
+"end": 23.66
+},
+{
+"text": "de",
+"start": 23.66,
+"end": 23.88
+},
+{
+"text": "ordenadores.",
+"start": 23.88,
+"end": 24.36
+},
+{
+"text": "Hora",
+"start": 24.82,
+"end": 24.96
+},
+{
+"text": "seis.",
+"start": 24.96,
+"end": 25.22
+},
+{
+"text": "Lo",
+"start": 25.56,
+"end": 25.68
+},
+{
+"text": "que",
+"start": 25.68,
+"end": 25.82
+},
+{
+"text": "duró",
+"start": 25.82,
+"end": 26.02
+},
+{
+"text": "la",
+"start": 26.02,
+"end": 26.16
+},
+{
+"text": "caída",
+"start": 26.16,
+"end": 26.34
+},
+{
+"text": "de",
+"start": 26.34,
+"end": 26.5
+},
+{
+"text": "WhatsApp",
+"start": 26.5,
+"end": 26.8
+},
+{
+"text": "en",
+"start": 26.8,
+"end": 27.0
+},
+{
+"text": "dos",
+"start": 27.0,
+"end": 27.12
+},
+{
+"text": "mil",
+"start": 27.12,
+"end": 27.24
+},
+{
+"text": "veintiuno.",
+"start": 27.24,
+"end": 27.6
+},
+{
+"text": "Hora",
+"start": 27.6,
+"end": 28.28
+},
+{
+"text": "doce.",
+"start": 28.28,
+"end": 28.56
+},
+{
+"text": "Muchos",
+"start": 29.0,
+"end": 29.24
+},
+{
+"text": "cajeros,",
+"start": 29.24,
+"end": 29.72
+},
+{
+"text": "sin",
+"start": 29.72,
+"end": 30.14
+},
+{
+"text": "billetes.",
+"start": 30.14,
+"end": 30.6
+},
+{
+"text": "Hora",
+"start": 31.02,
+"end": 31.18
+},
+{
+"text": "veinticuatro.",
+"start": 31.18,
+"end": 31.56
+},
+{
+"text": "Vuelve",
+"start": 32.12,
+"end": 32.42
+},
+{
+"text": "la",
+"start": 32.42,
+"end": 32.56
+},
+{
+"text": "radio",
+"start": 32.56,
+"end": 32.78
+},
+{
+"text": "de",
+"start": 32.78,
+"end": 32.96
+},
+{
+"text": "pilas.",
+"start": 32.96,
+"end": 33.26
+},
+{
+"text": "Día",
+"start": 33.68,
+"end": 33.913
+},
+{
+"text": "cinco.",
+"start": 33.913,
+"end": 34.3
+},
+{
+"text": "A",
+"start": 34.56,
+"end": 34.72
+},
+{
+"text": "Egipto,",
+"start": 34.72,
+"end": 35.12
+},
+{
+"text": "cinco",
+"start": 35.3,
+"end": 35.54
+},
+{
+"text": "días",
+"start": 35.54,
+"end": 35.76
+},
+{
+"text": "sin",
+"start": 35.76,
+"end": 35.94
+},
+{
+"text": "Internet",
+"start": 35.94,
+"end": 36.3
+},
+{
+"text": "le",
+"start": 36.3,
+"end": 36.5
+},
+{
+"text": "costaron",
+"start": 36.5,
+"end": 36.86
+},
+{
+"text": "al",
+"start": 36.86,
+"end": 37.02
+},
+{
+"text": "menos",
+"start": 37.02,
+"end": 37.18
+},
+{
+"text": "noventa",
+"start": 37.18,
+"end": 37.82
+},
+{
+"text": "millones",
+"start": 37.82,
+"end": 38.18
+},
+{
+"text": "de",
+"start": 38.18,
+"end": 38.48
+},
+{
+"text": "dólares.",
+"start": 38.48,
+"end": 38.76
+},
+{
+"text": "¿Puede",
+"start": 39.12,
+"end": 39.32
+},
+{
+"text": "pasar?",
+"start": 39.32,
+"end": 39.64
+},
+{
+"text": "Entero,",
+"start": 39.94,
+"end": 40.34
+},
+{
+"text": "casi",
+"start": 40.34,
+"end": 40.78
+},
+{
+"text": "imposible.",
+"start": 40.78,
+"end": 41.46
+},
+{
+"text": "Pero",
+"start": 41.78,
+"end": 41.88
+},
+{
+"text": "en",
+"start": 41.88,
+"end": 41.98
+},
+{
+"text": "dos",
+"start": 41.98,
+"end": 42.077
+},
+{
+"text": "mil",
+"start": 42.077,
+"end": 42.173
+},
+{
+"text": "veinticuatro",
+"start": 42.173,
+"end": 42.56
+},
+{
+"text": "hubo",
+"start": 42.56,
+"end": 43.0
+},
+{
+"text": "doscientos",
+"start": 43.0,
+"end": 43.482
+},
+{
+"text": "noventa",
+"start": 43.482,
+"end": 43.819
+},
+{
+"text": "y",
+"start": 43.819,
+"end": 43.867
+},
+{
+"text": "seis",
+"start": 43.867,
+"end": 44.06
+},
+{
+"text": "cortes,",
+"start": 44.06,
+"end": 44.58
+},
+{
+"text": "en",
+"start": 44.58,
+"end": 44.84
+},
+{
+"text": "cincuenta",
+"start": 44.84,
+"end": 45.2
+},
+{
+"text": "y",
+"start": 45.2,
+"end": 45.24
+},
+{
+"text": "cuatro",
+"start": 45.24,
+"end": 45.48
+},
+{
+"text": "países.",
+"start": 45.48,
+"end": 46.08
+},
+{
+"text": "Así",
+"start": 46.5,
+"end": 46.7
+},
+{
+"text": "que",
+"start": 46.7,
+"end": 46.9
+},
+{
+"text": "ten",
+"start": 47.14,
+"end": 47.22
+},
+{
+"text": "algo",
+"start": 47.22,
+"end": 47.46
+},
+{
+"text": "de",
+"start": 47.46,
+"end": 47.564
+},
+{
+"text": "efectivo",
+"start": 47.564,
+"end": 47.98
+},
+{
+"text": "en",
+"start": 47.98,
+"end": 48.08
+},
+{
+"text": "casa.",
+"start": 48.08,
+"end": 48.36
+},
+{
+"text": "¿Cuánto",
+"start": 48.72,
+"end": 49.02
+},
+{
+"text": "aguantarías",
+"start": 49.02,
+"end": 49.52
+},
+{
+"text": "tú?",
+"start": 49.52,
+"end": 49.72
+}
+]

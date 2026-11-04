@@ -82,7 +82,11 @@ SFX_MAP = {
 SFX_TARGET_LUFS = -32.6  # mismo criterio que el Short de prueba: cada efecto igualado por sonoridad
 
 ESCENAS = {"lista", "flujo", "comparativa", "cifra", "grafica", "chat", "por_dentro", "mapa", "sello", "pantalla",
-           "dinero", "pregunta", "texto", "iconos", "relleno"}
+           "dinero", "pregunta", "texto", "iconos", "relleno",
+           # v3 (nov-2026): formatos explicativos (remotion/src/motor/EscenasFormatos.tsx)
+           "capas", "viaje", "combate", "reloj", "tier_list", "mito_verdad", "linea_tiempo", "experimento",
+           # mundo persistente (remotion/src/motor/EscenasMundo.tsx, se registra desde index.ts)
+           "pueblo"}
 
 # ───────────────────────── relleno automático ─────────────────────────
 RELLENO_MAX = 1.2   # s de centro vacío que se toleran al empezar un tramo
@@ -700,7 +704,7 @@ def main() -> None:
         capitulos(a.slug, cfg, src, plano)
     if a.still is not None or a.stills:
         secs = [a.still] if a.still is not None else [float(x) for x in a.stills.split(",")]
-        carpeta = Path(a.dir) if a.dir else (Path(a.out).parent if a.out else REMOTION / "out" / f"stills_{a.slug}")
+        carpeta = Path(a.dir).resolve() if a.dir else (Path(a.out).resolve().parent if a.out else REMOTION / "out" / f"stills_{a.slug}")  # absoluta: node corre en remotion/
         stills(a.slug, secs, carpeta)
         if a.out and a.still is not None:
             shutil.move(str(carpeta / f"t{a.still}.png"), a.out)

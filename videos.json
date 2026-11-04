@@ -1668,5 +1668,149 @@
     "background": "#ffffff",
     "estilo": "motor",
     "formato": "9:16"
+  },
+  "que-pasa-cuando-envias-un-whatsapp": {
+    "composition": "MotorPlano",
+    "tsx": "remotion/src/motor/MotorPlano.tsx",
+    "manifest_dir": "channel/tecno/videos/que-pasa-cuando-envias-un-whatsapp",
+    "script": "channel/tecno/videos/que-pasa-cuando-envias-un-whatsapp/script.md",
+    "audio_static": "que-pasa-cuando-envias-un-whatsapp.mp3",
+    "images_subpath": "que-pasa-cuando-envias-un-whatsapp",
+    "naming": "timestamp",
+    "ext": "jpg",
+    "playback_rate": 1.0,
+    "fps": 30,
+    "width": 1920,
+    "height": 1080,
+    "background": "#ffffff",
+    "ref_image": "channel/tecno/references/mono_stick_cutre.png",
+    "estilo": "motor",
+    "image_model": "lite",
+    "plano": "channel/tecno/videos/que-pasa-cuando-envias-un-whatsapp/plano.json",
+    "motor_nota": "Animado por código con remotion/src/motor (sin imágenes), formatos v3. Render: python scripts/motor_plano.py que-pasa-cuando-envias-un-whatsapp --render",
+    "published": {
+      "youtube_id": "HWB-oVj5AtU",
+      "privacy": "private",
+      "publish_at": "2026-11-08T18:00:00Z",
+      "date": "2026-11-08"
+    }
+  },
+  "que-pasaria-si-se-apagara-internet": {
+    "composition": "MotorPlano",
+    "tsx": "remotion/src/motor/MotorPlano.tsx",
+    "manifest_dir": "channel/tecno/videos/que-pasaria-si-se-apagara-internet",
+    "script": "channel/tecno/videos/que-pasaria-si-se-apagara-internet/script.md",
+    "audio_static": "que-pasaria-si-se-apagara-internet.mp3",
+    "images_subpath": "que-pasaria-si-se-apagara-internet",
+    "naming": "timestamp",
+    "ext": "jpg",
+    "playback_rate": 1.0,
+    "fps": 30,
+    "width": 1920,
+    "height": 1080,
+    "background": "#ffffff",
+    "ref_image": "channel/tecno/references/mono_stick_cutre.png",
+    "estilo": "motor",
+    "image_model": "lite",
+    "plano": "channel/tecno/videos/que-pasaria-si-se-apagara-internet/plano.json",
+    "motor_nota": "Animado por código con remotion/src/motor (sin imágenes), formatos v3. Render: python scripts/motor_plano.py que-pasaria-si-se-apagara-internet --render",
+    "published": {
+      "youtube_id": "5veUKcIXSaA",
+      "privacy": "private",
+      "publish_at": "2026-11-09T18:00:00Z",
+      "date": "2026-11-09"
+    }
+  },
+  "como-sabe-google-donde-estas": {
+    "composition": "MotorPlano",
+    "tsx": "remotion/src/motor/MotorPlano.tsx",
+    "manifest_dir": "channel/tecno/videos/como-sabe-google-donde-estas",
+    "script": "channel/tecno/videos/como-sabe-google-donde-estas/script.md",
+    "audio_static": "como-sabe-google-donde-estas.mp3",
+    "images_subpath": "como-sabe-google-donde-estas",
+    "naming": "timestamp",
+    "ext": "jpg",
+    "playback_rate": 1.0,
+    "fps": 30,
+    "width": 1920,
+    "height": 1080,
+    "background": "#ffffff",
+    "ref_image": "channel/tecno/references/mono_stick_cutre.png",
+    "estilo": "motor",
+    "image_model": "lite",
+    "plano": "channel/tecno/videos/como-sabe-google-donde-estas/plano.json",
+    "motor_nota": "Animado por código con remotion/src/motor (sin imágenes), formatos v3. Render: python scripts/motor_plano.py como-sabe-google-donde-estas --render",
+    "published": {
+      "youtube_id": "oAv5IgqdakQ",
+      "privacy": "private",
+      "publish_at": "2026-11-10T18:00:00Z",
+      "date": "2026-11-10"
+    }
+  },
+  "short-el-viaje-de-tu-whatsapp": {
+    "manifest_dir": "channel/tecno/videos/short-el-viaje-de-tu-whatsapp",
+    "script": "channel/tecno/videos/short-el-viaje-de-tu-whatsapp/script.md",
+    "audio_static": "short-el-viaje-de-tu-whatsapp.mp3",
+    "fps": 30,
+    "width": 1080,
+    "height": 1920,
+    "background": "#ffffff",
+    "estilo": "motor",
+    "formato": "9:16",
+    "published": {
+      "youtube_id": "AHug89qXEMs",
+      "privacy": "private",
+      "publish_at": "2026-11-06T16:00:00Z",
+      "date": "2026-11-06"
+    }
+  },
+  "short-un-dia-sin-internet-hora-a-hora": {
+    "manifest_dir": "channel/tecno/videos/short-un-dia-sin-internet-hora-a-hora",
+    "script": "channel/tecno/videos/short-un-dia-sin-internet-hora-a-hora/script.md",
+    "audio_static": "short-un-dia-sin-internet-hora-a-hora.mp3",
+    "fps": 30,
+    "width": 1080,
+    "height": 1920,
+    "background": "#ffffff",
+    "estilo": "motor",
+    "formato": "9:16",
+    "published": {
+      "youtube_id": "W4boOPn1kyE",
+      "privacy": "private",
+      "publish_at": "2026-11-07T16:00:00Z",
+      "date": "2026-11-07"
+    }
+  },
+  "short-modo-avion-te-esconde-de-google": {
+    "manifest_dir": "channel/tecno/videos/short-modo-avion-te-esconde-de-google",
+    "script": "channel/tecno/videos/short-modo-avion-te-esconde-de-google/script.md",
+    "audio_static": "short-modo-avion-te-esconde-de-google.mp3",
+    "fps": 30,
+    "width": 1080,
+    "height": 1920,
+    "background": "#ffffff",
+    "estilo": "motor",
+    "formato": "9:16",
+    "published": {
+      "youtube_id": "cmVpzUsfb4o",
+      "privacy": "private",
+      "publish_at": "2026-11-08T16:00:00Z",
+      "date": "2026-11-08"
+    }
+  },
+  "por-que-la-ia-gasta-tanta-energia": {
+    "composition": "MotorPlano",
+    "tsx": "remotion/src/motor/MotorPlano.tsx",
+    "manifest_dir": "channel/tecno/videos/por-que-la-ia-gasta-tanta-energia",
+    "script": "channel/tecno/videos/por-que-la-ia-gasta-tanta-energia/script.md",
+    "audio_static": "por-que-la-ia-gasta-tanta-energia.mp3",
+    "playback_rate": 1.0,
+    "fps": 30,
+    "width": 1920,
+    "height": 1080,
+    "background": "#ffffff",
+    "estilo": "motor",
+    "plano": "channel/tecno/videos/por-que-la-ia-gasta-tanta-energia/plano.json",
+    "motor_nota": "PRUEBA de enfoque narrativo tipo Ecomonos (channel/tecno/pruebas/ecomonos/analisis.md). NO publicar: es para el dueño. Render: python scripts/motor_plano.py por-que-la-ia-gasta-tanta-energia --render"
   }
 }

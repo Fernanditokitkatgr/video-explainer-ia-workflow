@@ -1,5 +1,18 @@
-# Pipeline de producción de vídeos explainer IA
-requests>=2.31
-python-dotenv>=1.0
-faster-whisper>=1.0        # motor por defecto (rápido). Alternativa: openai-whisper
-# openai-whisper>=20231117 # descomenta si prefieres el motor de OpenAI
+# Tecnomono — dependencias de Python (Python 3.13). Instalar con: pip install -r requirements.txt
+# Programas aparte: ffmpeg en el PATH y Node.js (remotion/: npm install).
+
+# --- Motor y pasos comunes (voz, tiempos, miniatura, gate) ---
+requests>=2.31             # ElevenLabs (generate_voice.py) y TikTok (tiktok_api.py)
+python-dotenv>=1.0         # lee el .env (scripts/config.py)
+faster-whisper>=1.0        # tiempos por palabra → words.json (whisper_timestamps.py, check_negations.py)
+Pillow>=10.0               # thumbnail_text.py, preflight.py
+
+# --- Publicación en YouTube (scratch-yt/) ---
+google-api-python-client>=2.100
+google-auth-oauthlib>=1.2
+google-auth-httplib2>=0.2
+
+# --- Método HEREDADO de imágenes (solo para vídeos antiguos) ---
+# google-genai>=1.0        # generate_images_gemini.py, generate_thumbnail.py, make_shorts.py (imágenes nuevas)
+# numpy>=1.26              # check_sara_color.py, fix_letterbox.py
+# openai-whisper>=20231117 # motor alternativo de whisper (WHISPER_ENGINE=openai)

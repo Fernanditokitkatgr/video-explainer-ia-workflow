@@ -75,3 +75,26 @@ scratch-yt/pending_long.txt
 gasto_avisos.log
 remotion/public-pruebas/
 remotion/out/*.log
+
+# --- Limpieza 3-nov-2026 ---
+# Remotion: candados de render, props temporales, cachés y carpetas de pruebas del motor
+remotion/out/*.lock
+remotion/out/*.render.lock
+remotion/.remotion/
+**/node_modules/
+# Logs y temporales en cualquier carpeta (los .log ya versionados siguen versionados
+# hasta que alguien haga git rm --cached)
+*.log
+*.tmp
+*.tmp.*
+*.bak
+# Caché de Python y de tests
+.pytest_cache/
+.mypy_cache/
+# Sistema / editores
+Thumbs.db
+desktop.ini
+.vscode/
+.idea/
+# Token de TikTok (además de *.token.json)
+scratch-yt/tiktok.token.json

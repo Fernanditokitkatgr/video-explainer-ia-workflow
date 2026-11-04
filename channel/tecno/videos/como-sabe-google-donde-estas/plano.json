@@ -1,0 +1,3281 @@
+{
+ "reparto": {
+  "mono": {
+   "tipo": "protagonista",
+   "narrador": true
+  },
+  "influ": {
+   "tipo": "influencer"
+  },
+  "astro": {
+   "tipo": "astronauta"
+  },
+  "gato": {
+   "tipo": "gato"
+  },
+  "mona": {
+   "tipo": "mona"
+  },
+  "poli": {
+   "tipo": "policia"
+  },
+  "profe": {
+   "tipo": "profe"
+  },
+  "ia": {
+   "tipo": "ia"
+  }
+ },
+ "tramos": [
+  {
+   "en": "Entras en un centro comercial",
+   "color": "morado",
+   "capitulo": "El puntito azul",
+   "escenas": [
+    {
+     "tipo": "texto",
+     "tam": 80,
+     "palabras": [
+      {
+       "texto": "¿CÓMO SABE GOOGLE",
+       "al": "@inicio",
+       "color": "amarillo"
+      },
+      {
+       "texto": "DÓNDE ESTÁS?",
+       "al": "@+0.15",
+       "caja": true,
+       "color": "rojo"
+      }
+     ],
+     "zona": "arriba",
+     "caja": {
+      "y": 110
+     },
+     "por_fila": 30
+    },
+    {
+     "tipo": "iconos",
+     "tam": 230,
+     "items": [
+      {
+       "icono": "edificio",
+       "texto": "SIN VENTANAS",
+       "al": "@ventanas"
+      },
+      {
+       "icono": "movil",
+       "texto": "ABRES EL MAPA",
+       "al": "@mapa"
+      }
+     ],
+     "caja": {
+      "y": 520
+     }
+    }
+   ],
+   "personajes": {
+    "influ": {
+     "x": 0.9,
+     "escala": 0.8,
+     "mira": "izq",
+     "pose": "caminar",
+     "cara": "risa",
+     "entra": "@inicio",
+     "entrada": "der"
+    },
+    "mono": {
+     "x": 0.1,
+     "escala": 0.8,
+     "pose": "caminar",
+     "cara": "normal",
+     "objeto": "movil",
+     "cambios": [
+      {
+       "al": "@+1.1",
+       "pose": "jarras",
+       "cara": "sorpresa"
+      },
+      {
+       "al": "@+3.3",
+       "pose": "brazos_cruzados",
+       "cara": "guiño"
+      }
+     ]
+    }
+   },
+   "sfx": [
+    [
+     "golpe",
+     0.02,
+     1.0
+    ],
+    [
+     "boom",
+     0.04,
+     0.7
+    ]
+   ],
+   "golpes": [
+    0.05
+   ]
+  },
+  {
+   "en": "Y el puntito azul",
+   "escenas": [
+    {
+     "tipo": "pantalla",
+     "dispositivo": "movil",
+     "titulo": "MAPAS",
+     "lineas": [
+      {
+       "texto": "Estás aquí: la tienda exacta",
+       "al": "@exacta",
+       "color": "azul"
+      }
+     ]
+    }
+   ],
+   "personajes": {
+    "influ": {
+     "pose": "señalar",
+     "cara": "sorpresa"
+    },
+    "mono": {
+     "pose": "brazos_arriba",
+     "cara": "sorpresa",
+     "objeto": "ninguno",
+     "cambios": [
+      {
+       "al": "@+1.1",
+       "pose": "señalar_arriba",
+       "cara": "guiño"
+      }
+     ]
+    }
+   }
+  },
+  {
+   "en": "¿Cómo lo sabe, si el GPS",
+   "escenas": [
+    {
+     "tipo": "pregunta",
+     "pregunta": "¿Cómo lo sabe, sin GPS?",
+     "al": "@sabe"
+    }
+   ],
+   "personajes": {
+    "influ": {
+     "pose": "pensar",
+     "cara": "normal",
+     "salida": "der"
+    },
+    "mono": {
+     "pose": "pensar",
+     "cara": "sorpresa",
+     "cambios": [
+      {
+       "al": "@+1.1",
+       "pose": "brazos_cruzados",
+       "cara": "normal"
+      }
+     ]
+    }
+   }
+  },
+  {
+   "en": "Porque el GPS es solo",
+   "color": "azul",
+   "escenas": [
+    {
+     "tipo": "texto",
+     "tam": 110,
+     "palabras": [
+      {
+       "texto": "EL GPS ES SOLO",
+       "al": "@GPS"
+      },
+      {
+       "texto": "UNA CAPA",
+       "al": "@capas",
+       "caja": true,
+       "color": "azul"
+      }
+     ]
+    }
+   ],
+   "personajes": {
+    "mono": {
+     "pose": "señalar_arriba",
+     "cara": "guiño",
+     "cambios": [
+      {
+       "al": "@+1.1",
+       "pose": "saludar",
+       "cara": "chulo"
+      },
+      {
+       "al": "@+3.3",
+       "pose": "señalar",
+       "cara": "risa"
+      }
+     ]
+    }
+   }
+  },
+  {
+   "en": "Estas son las diez capas",
+   "color": "amarillo",
+   "escenas": [
+    {
+     "tipo": "flujo",
+     "nodos": [
+      {
+       "texto": "LA MÁS TOSCA",
+       "icono": "ip",
+       "al": "@diez"
+      },
+      {
+       "texto": "LA MÁS FINA",
+       "icono": "pin",
+       "al": "@fina",
+       "color": "verde"
+      },
+      {
+       "texto": "¿Y EL MODO AVIÓN?",
+       "icono": "avion",
+       "al": "@avión",
+       "color": "rojo"
+      }
+     ]
+    }
+   ],
+   "personajes": {
+    "mono": {
+     "pose": "presentar",
+     "cara": "risa",
+     "cambios": [
+      {
+       "al": "@+1.1",
+       "pose": "presentar",
+       "cara": "risa"
+      },
+      {
+       "al": "@+3.3",
+       "pose": "señalar",
+       "cara": "normal"
+      },
+      {
+       "al": "@+5.5",
+       "pose": "pensar",
+       "cara": "risa"
+      },
+      {
+       "al": "@+7.7",
+       "pose": "señalar_arriba",
+       "cara": "sorpresa"
+      }
+     ]
+    }
+   }
+  },
+  {
+   "en": "Número uno",
+   "capitulo": "1. Tu IP",
+   "escenas": [
+    {
+     "tipo": "lista",
+     "n": 1,
+     "total": 10,
+     "titulo": "TU IP",
+     "apodo": "EL CÓDIGO POSTAL",
+     "color": "amarillo",
+     "titulo_al": "@IP",
+     "apodo_al": "@postal"
+    }
+   ],
+   "personajes": {
+    "mono": {
+     "x": 0.1,
+     "escala": 0.8,
+     "salta": true,
+     "pose": "brazos_cruzados",
+     "cara": "chulo",
+     "cambios": [
+      {
+       "al": "@+1.1",
+       "pose": "señalar",
+       "cara": "normal"
+      }
+     ]
+    }
+   }
+  },
+  {
+   "en": "Cada conexión a Internet",
+   "escenas": [
+    {
+     "tipo": "capas",
+     "actual": -1,
+     "capas": [
+      {
+       "titulo": "Tu ciudad",
+       "icono": "ip",
+       "etiqueta": "± kilómetros",
+       "color": "amarillo",
+       "iconos": [
+        "edificio",
+        "mundo"
+       ],
+       "al": "@IP"
+      },
+      {
+       "titulo": "Tu barrio",
+       "icono": "antena",
+       "etiqueta": "± cientos de m",
+       "color": "naranja",
+       "iconos": [
+        "casa",
+        "antena",
+        "casa"
+       ],
+       "al": 999999
+      },
+      {
+       "titulo": "Tu calle",
+       "icono": "wifi",
+       "etiqueta": "± decenas de m",
+       "color": "verde",
+       "iconos": [
+        "router",
+        "router",
+        "casa"
+       ],
+       "al": 999999
+      },
+      {
+       "titulo": "Tu portal",
+       "icono": "satelite",
+       "etiqueta": "± 5 m",
+       "color": "azul",
+       "iconos": [
+        "pin"
+       ],
+       "al": 999999
+      },
+      {
+       "titulo": "Tu planta",
+       "icono": "brujula",
+       "etiqueta": "pasos y giros",
+       "color": "morado",
+       "iconos": [
+        "edificio"
+       ],
+       "al": 999999
+      },
+      {
+       "titulo": "Tu pasillo",
+       "icono": "bluetooth",
+       "etiqueta": "± metros",
+       "color": "azul",
+       "iconos": [
+        "carrito"
+       ],
+       "al": 999999
+      },
+      {
+       "titulo": "Tus viajes",
+       "icono": "foto",
+       "etiqueta": "cada foto, una chincheta",
+       "color": "rosa",
+       "iconos": [
+        "pin",
+        "pin"
+       ],
+       "al": 999999
+      },
+      {
+       "titulo": "Tus planes",
+       "icono": "ojo",
+       "etiqueta": "lo que buscas",
+       "color": "amarillo",
+       "iconos": [
+        "hospital",
+        "carrito"
+       ],
+       "al": 999999
+      },
+      {
+       "titulo": "Tu diario",
+       "icono": "calendario",
+       "etiqueta": "día a día",
+       "color": "verde",
+       "iconos": [
+        "mapa"
+       ],
+       "al": 999999
+      },
+      {
+       "titulo": "El botón",
+       "icono": "mazo",
+       "etiqueta": "391,5 mill. $",
+       "color": "rojo",
+       "iconos": [
+        "balanza"
+       ],
+       "al": 999999
+      }
+     ],
+     "rotulo": "CAPA"
+    }
+   ],
+   "personajes": {
+    "mono": {
+     "x": 0.08,
+     "escala": 0.7,
+     "pose": "saludar",
+     "cara": "risa",
+     "cambios": [
+      {
+       "al": "@+1.1",
+       "pose": "señalar",
+       "cara": "risa"
+      },
+      {
+       "al": "@+3.3",
+       "pose": "pensar",
+       "cara": "sorpresa"
+      },
+      {
+       "al": "@+5.5",
+       "pose": "señalar_arriba",
+       "cara": "guiño"
+      }
+     ]
+    }
+   }
+  },
+  {
+   "en": "Sin pedirte permiso",
+   "escenas": [
+    {
+     "tipo": "sello",
+     "texto": "FALLA MUCHO",
+     "al": "@falla",
+     "color": "naranja",
+     "tam": 120
+    }
+   ],
+   "personajes": {
+    "mono": {
+     "x": 0.1,
+     "escala": 0.8,
+     "pose": "presentar",
+     "cara": "normal",
+     "cambios": [
+      {
+       "al": "@+1.1",
+       "pose": "presentar",
+       "cara": "sorpresa"
+      },
+      {
+       "al": "@+3.3",
+       "pose": "jarras",
+       "cara": "guiño"
+      }
+     ]
+    }
+   }
+  },
+  {
+   "en": "Número dos",
+   "color": "naranja",
+   "capitulo": "2. Las antenas",
+   "escenas": [
+    {
+     "tipo": "lista",
+     "n": 2,
+     "total": 10,
+     "titulo": "LAS ANTENAS",
+     "apodo": "EL TRIÁNGULO",
+     "color": "naranja",
+     "titulo_al": "@antenas",
+     "apodo_al": "@triángulo"
+    }
+   ],
+   "personajes": {
+    "mono": {
+     "salta": true,
+     "pose": "señalar",
+     "cara": "risa",
+     "cambios": [
+      {
+       "al": "@+1.1",
+       "pose": "pensar",
+       "cara": "guiño"
+      }
+     ]
+    }
+   }
+  },
+  {
+   "en": "Tu móvil está siempre",
+   "escenas": [
+    {
+     "tipo": "capas",
+     "actual": 0,
+     "capas": [
+      {
+       "titulo": "Tu ciudad",
+       "icono": "ip",
+       "etiqueta": "± kilómetros",
+       "color": "amarillo",
+       "iconos": [
+        "edificio",
+        "mundo"
+       ],
+       "al": 999999
+      },
+      {
+       "titulo": "Tu barrio",
+       "icono": "antena",
+       "etiqueta": "± cientos de m",
+       "color": "naranja",
+       "iconos": [
+        "casa",
+        "antena",
+        "casa"
+       ],
+       "al": "@antenas"
+      },
+      {
+       "titulo": "Tu calle",
+       "icono": "wifi",
+       "etiqueta": "± decenas de m",
+       "color": "verde",
+       "iconos": [
+        "router",
+        "router",
+        "casa"
+       ],
+       "al": 999999
+      },
+      {
+       "titulo": "Tu portal",
+       "icono": "satelite",
+       "etiqueta": "± 5 m",
+       "color": "azul",
+       "iconos": [
+        "pin"
+       ],
+       "al": 999999
+      },
+      {
+       "titulo": "Tu planta",
+       "icono": "brujula",
+       "etiqueta": "pasos y giros",
+       "color": "morado",
+       "iconos": [
+        "edificio"
+       ],
+       "al": 999999
+      },
+      {
+       "titulo": "Tu pasillo",
+       "icono": "bluetooth",
+       "etiqueta": "± metros",
+       "color": "azul",
+       "iconos": [
+        "carrito"
+       ],
+       "al": 999999
+      },
+      {
+       "titulo": "Tus viajes",
+       "icono": "foto",
+       "etiqueta": "cada foto, una chincheta",
+       "color": "rosa",
+       "iconos": [
+        "pin",
+        "pin"
+       ],
+       "al": 999999
+      },
+      {
+       "titulo": "Tus planes",
+       "icono": "ojo",
+       "etiqueta": "lo que buscas",
+       "color": "amarillo",
+       "iconos": [
+        "hospital",
+        "carrito"
+       ],
+       "al": 999999
+      },
+      {
+       "titulo": "Tu diario",
+       "icono": "calendario",
+       "etiqueta": "día a día",
+       "color": "verde",
+       "iconos": [
+        "mapa"
+       ],
+       "al": 999999
+      },
+      {
+       "titulo": "El botón",
+       "icono": "mazo",
+       "etiqueta": "391,5 mill. $",
+       "color": "rojo",
+       "iconos": [
+        "balanza"
+       ],
+       "al": 999999
+      }
+     ],
+     "rotulo": "CAPA"
+    }
+   ],
+   "personajes": {
+    "mono": {
+     "x": 0.08,
+     "escala": 0.7,
+     "pose": "señalar",
+     "cara": "sorpresa",
+     "cambios": [
+      {
+       "al": "@+1.1",
+       "pose": "jarras",
+       "cara": "normal"
+      }
+     ]
+    }
+   }
+  },
+  {
+   "en": "Con una sola antena",
+   "escenas": [
+    {
+     "tipo": "experimento",
+     "titulo": "TRIANGULAR CON ANTENAS",
+     "visual": "antenas",
+     "controles": [
+      {
+       "nombre": "Antenas",
+       "min": 0,
+       "max": 3,
+       "inicio": 1
+      }
+     ],
+     "resultado": {
+      "nombre": "Error",
+      "sufijo": " m",
+      "inicio": 260
+     },
+     "escala_error": 0.9,
+     "pasos": [
+      {
+       "al": "@tres",
+       "valores": [
+        2
+       ],
+       "resultado": 150,
+       "texto": "Más antenas…"
+      },
+      {
+       "al": "@cruzan",
+       "valores": [
+        3
+       ],
+       "resultado": 35,
+       "texto": "…menos error"
+      }
+     ]
+    }
+   ],
+   "personajes": {
+    "mono": {
+     "x": 0.1,
+     "escala": 0.8,
+     "pose": "presentar",
+     "cara": "guiño",
+     "cambios": [
+      {
+       "al": "@+1.1",
+       "pose": "señalar_arriba",
+       "cara": "chulo"
+      },
+      {
+       "al": "@+3.3",
+       "pose": "saludar",
+       "cara": "risa"
+      },
+      {
+       "al": "@+5.5",
+       "pose": "señalar",
+       "cara": "normal"
+      }
+     ]
+    }
+   }
+  },
+  {
+   "en": "En ciudad, donde hay",
+   "escenas": [
+    {
+     "tipo": "iconos",
+     "tam": 230,
+     "items": [
+      {
+       "icono": "edificio",
+       "texto": "CIUDAD: CIENTOS DE METROS",
+       "al": "@ciudad"
+      },
+      {
+       "icono": "casa",
+       "texto": "CAMPO: KILÓMETROS",
+       "al": "@campo"
+      }
+     ]
+    }
+   ],
+   "personajes": {
+    "mono": {
+     "pose": "pensar",
+     "cara": "normal",
+     "cambios": [
+      {
+       "al": "@+1.1",
+       "pose": "brazos_cruzados",
+       "cara": "risa"
+      },
+      {
+       "al": "@+3.3",
+       "pose": "presentar",
+       "cara": "normal"
+      }
+     ]
+    }
+   }
+  },
+  {
+   "en": "Número tres",
+   "color": "verde",
+   "capitulo": "3. El WiFi de tus vecinos",
+   "escenas": [
+    {
+     "tipo": "lista",
+     "n": 3,
+     "total": 10,
+     "titulo": "EL WIFI DE TUS VECINOS",
+     "apodo": "EL TRUCO",
+     "color": "verde",
+     "titulo_al": "@WiFi",
+     "apodo_al": "@truco"
+    }
+   ],
+   "personajes": {
+    "mono": {
+     "salta": true,
+     "pose": "jarras",
+     "cara": "chulo",
+     "cambios": [
+      {
+       "al": "@+1.1",
+       "pose": "saludar",
+       "cara": "normal"
+      }
+     ]
+    }
+   }
+  },
+  {
+   "en": "Google tiene un mapa gigante",
+   "escenas": [
+    {
+     "tipo": "capas",
+     "actual": 1,
+     "capas": [
+      {
+       "titulo": "Tu ciudad",
+       "icono": "ip",
+       "etiqueta": "± kilómetros",
+       "color": "amarillo",
+       "iconos": [
+        "edificio",
+        "mundo"
+       ],
+       "al": 999999
+      },
+      {
+       "titulo": "Tu barrio",
+       "icono": "antena",
+       "etiqueta": "± cientos de m",
+       "color": "naranja",
+       "iconos": [
+        "casa",
+        "antena",
+        "casa"
+       ],
+       "al": 999999
+      },
+      {
+       "titulo": "Tu calle",
+       "icono": "wifi",
+       "etiqueta": "± decenas de m",
+       "color": "verde",
+       "iconos": [
+        "router",
+        "router",
+        "casa"
+       ],
+       "al": "@mapa"
+      },
+      {
+       "titulo": "Tu portal",
+       "icono": "satelite",
+       "etiqueta": "± 5 m",
+       "color": "azul",
+       "iconos": [
+        "pin"
+       ],
+       "al": 999999
+      },
+      {
+       "titulo": "Tu planta",
+       "icono": "brujula",
+       "etiqueta": "pasos y giros",
+       "color": "morado",
+       "iconos": [
+        "edificio"
+       ],
+       "al": 999999
+      },
+      {
+       "titulo": "Tu pasillo",
+       "icono": "bluetooth",
+       "etiqueta": "± metros",
+       "color": "azul",
+       "iconos": [
+        "carrito"
+       ],
+       "al": 999999
+      },
+      {
+       "titulo": "Tus viajes",
+       "icono": "foto",
+       "etiqueta": "cada foto, una chincheta",
+       "color": "rosa",
+       "iconos": [
+        "pin",
+        "pin"
+       ],
+       "al": 999999
+      },
+      {
+       "titulo": "Tus planes",
+       "icono": "ojo",
+       "etiqueta": "lo que buscas",
+       "color": "amarillo",
+       "iconos": [
+        "hospital",
+        "carrito"
+       ],
+       "al": 999999
+      },
+      {
+       "titulo": "Tu diario",
+       "icono": "calendario",
+       "etiqueta": "día a día",
+       "color": "verde",
+       "iconos": [
+        "mapa"
+       ],
+       "al": 999999
+      },
+      {
+       "titulo": "El botón",
+       "icono": "mazo",
+       "etiqueta": "391,5 mill. $",
+       "color": "rojo",
+       "iconos": [
+        "balanza"
+       ],
+       "al": 999999
+      }
+     ],
+     "rotulo": "CAPA"
+    }
+   ],
+   "personajes": {
+    "mono": {
+     "x": 0.08,
+     "escala": 0.7,
+     "pose": "señalar_arriba",
+     "cara": "risa",
+     "cambios": [
+      {
+       "al": "@+1.1",
+       "pose": "presentar",
+       "cara": "risa"
+      },
+      {
+       "al": "@+3.3",
+       "pose": "señalar",
+       "cara": "sorpresa"
+      },
+      {
+       "al": "@+5.5",
+       "pose": "pensar",
+       "cara": "guiño"
+      }
+     ]
+    }
+   }
+  },
+  {
+   "en": "Parte de ese mapa",
+   "escenas": [
+    {
+     "tipo": "iconos",
+     "tam": 230,
+     "items": [
+      {
+       "icono": "coche",
+       "texto": "COCHES DE STREET VIEW",
+       "al": "@Street"
+      },
+      {
+       "icono": "wifi",
+       "texto": "APUNTABAN LAS REDES",
+       "al": "@redes"
+      }
+     ]
+    }
+   ],
+   "personajes": {
+    "mono": {
+     "x": 0.1,
+     "escala": 0.8,
+     "pose": "brazos_cruzados",
+     "cara": "normal",
+     "cambios": [
+      {
+       "al": "@+1.1",
+       "pose": "señalar",
+       "cara": "sorpresa"
+      },
+      {
+       "al": "@+3.3",
+       "pose": "presentar",
+       "cara": "guiño"
+      },
+      {
+       "al": "@+5.5",
+       "pose": "jarras",
+       "cara": "normal"
+      }
+     ]
+    }
+   }
+  },
+  {
+   "en": "Y que, según ellos",
+   "color": "rojo",
+   "escenas": [
+    {
+     "tipo": "sello",
+     "texto": "DATOS GUARDADOS",
+     "al": "@guardaron",
+     "color": "rojo",
+     "tam": 110
+    }
+   ],
+   "personajes": {
+    "mono": {
+     "pose": "encogerse",
+     "cara": "sorpresa",
+     "cambios": [
+      {
+       "al": "@+1.1",
+       "pose": "señalar",
+       "cara": "guiño"
+      },
+      {
+       "al": "@+3.3",
+       "pose": "pensar",
+       "cara": "normal"
+      }
+     ]
+    }
+   }
+  },
+  {
+   "en": "Con el WiFi, el puntito",
+   "color": "verde",
+   "escenas": [
+    {
+     "tipo": "texto",
+     "tam": 96,
+     "palabras": [
+      {
+       "texto": "± DECENAS DE METROS",
+       "al": "@decenas",
+       "caja": true,
+       "color": "verde"
+      },
+      {
+       "texto": "Y DENTRO DE EDIFICIOS",
+       "al": "@edificios"
+      }
+     ]
+    }
+   ],
+   "personajes": {
+    "mono": {
+     "pose": "presentar",
+     "cara": "sorpresa",
+     "cambios": [
+      {
+       "al": "@+1.1",
+       "pose": "presentar",
+       "cara": "normal"
+      },
+      {
+       "al": "@+3.3",
+       "pose": "jarras",
+       "cara": "chulo"
+      }
+     ]
+    }
+   }
+  },
+  {
+   "en": "Número cuatro",
+   "color": "azul",
+   "capitulo": "4. El GPS",
+   "escenas": [
+    {
+     "tipo": "lista",
+     "n": 4,
+     "total": 10,
+     "titulo": "EL GPS",
+     "apodo": "LOS SATÉLITES",
+     "color": "azul",
+     "titulo_al": "@GPS",
+     "apodo_al": "@satélites"
+    }
+   ],
+   "personajes": {
+    "mono": {
+     "salta": true,
+     "pose": "señalar",
+     "cara": "guiño",
+     "cambios": [
+      {
+       "al": "@+1.1",
+       "pose": "pensar",
+       "cara": "chulo"
+      }
+     ]
+    }
+   }
+  },
+  {
+   "en": "Unos treinta satélites",
+   "escenas": [
+    {
+     "tipo": "capas",
+     "actual": 2,
+     "capas": [
+      {
+       "titulo": "Tu ciudad",
+       "icono": "ip",
+       "etiqueta": "± kilómetros",
+       "color": "amarillo",
+       "iconos": [
+        "edificio",
+        "mundo"
+       ],
+       "al": 999999
+      },
+      {
+       "titulo": "Tu barrio",
+       "icono": "antena",
+       "etiqueta": "± cientos de m",
+       "color": "naranja",
+       "iconos": [
+        "casa",
+        "antena",
+        "casa"
+       ],
+       "al": 999999
+      },
+      {
+       "titulo": "Tu calle",
+       "icono": "wifi",
+       "etiqueta": "± decenas de m",
+       "color": "verde",
+       "iconos": [
+        "router",
+        "router",
+        "casa"
+       ],
+       "al": 999999
+      },
+      {
+       "titulo": "Tu portal",
+       "icono": "satelite",
+       "etiqueta": "± 5 m",
+       "color": "azul",
+       "iconos": [
+        "pin"
+       ],
+       "al": "@satélites"
+      },
+      {
+       "titulo": "Tu planta",
+       "icono": "brujula",
+       "etiqueta": "pasos y giros",
+       "color": "morado",
+       "iconos": [
+        "edificio"
+       ],
+       "al": 999999
+      },
+      {
+       "titulo": "Tu pasillo",
+       "icono": "bluetooth",
+       "etiqueta": "± metros",
+       "color": "azul",
+       "iconos": [
+        "carrito"
+       ],
+       "al": 999999
+      },
+      {
+       "titulo": "Tus viajes",
+       "icono": "foto",
+       "etiqueta": "cada foto, una chincheta",
+       "color": "rosa",
+       "iconos": [
+        "pin",
+        "pin"
+       ],
+       "al": 999999
+      },
+      {
+       "titulo": "Tus planes",
+       "icono": "ojo",
+       "etiqueta": "lo que buscas",
+       "color": "amarillo",
+       "iconos": [
+        "hospital",
+        "carrito"
+       ],
+       "al": 999999
+      },
+      {
+       "titulo": "Tu diario",
+       "icono": "calendario",
+       "etiqueta": "día a día",
+       "color": "verde",
+       "iconos": [
+        "mapa"
+       ],
+       "al": 999999
+      },
+      {
+       "titulo": "El botón",
+       "icono": "mazo",
+       "etiqueta": "391,5 mill. $",
+       "color": "rojo",
+       "iconos": [
+        "balanza"
+       ],
+       "al": 999999
+      }
+     ],
+     "rotulo": "CAPA"
+    }
+   ],
+   "personajes": {
+    "astro": {
+     "x": 0.93,
+     "escala": 0.62,
+     "mira": "izq",
+     "pose": "saludar",
+     "cara": "risa",
+     "entra": "@altura",
+     "entrada": "cae"
+    },
+    "mono": {
+     "x": 0.08,
+     "escala": 0.7,
+     "pose": "señalar",
+     "cara": "normal",
+     "cambios": [
+      {
+       "al": "@+1.1",
+       "pose": "jarras",
+       "cara": "risa"
+      },
+      {
+       "al": "@+3.3",
+       "pose": "brazos_cruzados",
+       "cara": "normal"
+      }
+     ]
+    }
+   }
+  },
+  {
+   "en": "Tu móvil escucha a cuatro",
+   "escenas": [
+    {
+     "tipo": "iconos",
+     "tam": 230,
+     "items": [
+      {
+       "icono": "satelite",
+       "texto": "ESCUCHA 4 O MÁS",
+       "al": "@cuatro"
+      },
+      {
+       "icono": "reloj_arena",
+       "texto": "LO QUE TARDA CADA SEÑAL",
+       "al": "@tarda"
+      }
+     ]
+    }
+   ],
+   "personajes": {
+    "astro": {
+     "x": 0.9,
+     "escala": 0.8,
+     "mira": "izq",
+     "pose": "presentar",
+     "cara": "normal"
+    },
+    "mono": {
+     "x": 0.1,
+     "escala": 0.8,
+     "pose": "presentar",
+     "cara": "chulo",
+     "cambios": [
+      {
+       "al": "@+1.1",
+       "pose": "señalar_arriba",
+       "cara": "normal"
+      },
+      {
+       "al": "@+3.3",
+       "pose": "saludar",
+       "cara": "risa"
+      }
+     ]
+    }
+   }
+  },
+  {
+   "en": "Al aire libre, un móvil",
+   "escenas": [
+    {
+     "tipo": "cifra",
+     "desde": 0,
+     "hasta": 5,
+     "al": "@cinco",
+     "prefijo": "± ",
+     "sufijo": " m",
+     "antes": "AL AIRE LIBRE",
+     "etiqueta": "entre edificios, se pierde",
+     "etiqueta_al": "@edificios",
+     "tam": 240,
+     "color": "azul",
+     "dur": 0.6
+    }
+   ],
+   "personajes": {
+    "astro": {
+     "pose": "encogerse",
+     "cara": "triste",
+     "salida": "der"
+    },
+    "mono": {
+     "pose": "pensar",
+     "cara": "risa",
+     "cambios": [
+      {
+       "al": "@+1.1",
+       "pose": "brazos_cruzados",
+       "cara": "risa"
+      },
+      {
+       "al": "@+3.3",
+       "pose": "presentar",
+       "cara": "sorpresa"
+      }
+     ]
+    }
+   }
+  },
+  {
+   "en": "Número cinco",
+   "color": "morado",
+   "capitulo": "5. Los sensores",
+   "escenas": [
+    {
+     "tipo": "lista",
+     "n": 5,
+     "total": 10,
+     "titulo": "LOS SENSORES",
+     "apodo": "LA BRÚJULA",
+     "color": "morado",
+     "titulo_al": "@sensores",
+     "apodo_al": "@brújula"
+    }
+   ],
+   "personajes": {
+    "mono": {
+     "salta": true,
+     "pose": "jarras",
+     "cara": "normal",
+     "cambios": [
+      {
+       "al": "@+1.1",
+       "pose": "saludar",
+       "cara": "sorpresa"
+      }
+     ]
+    }
+   }
+  },
+  {
+   "en": "Tu móvil lleva brújula",
+   "escenas": [
+    {
+     "tipo": "capas",
+     "actual": 3,
+     "capas": [
+      {
+       "titulo": "Tu ciudad",
+       "icono": "ip",
+       "etiqueta": "± kilómetros",
+       "color": "amarillo",
+       "iconos": [
+        "edificio",
+        "mundo"
+       ],
+       "al": 999999
+      },
+      {
+       "titulo": "Tu barrio",
+       "icono": "antena",
+       "etiqueta": "± cientos de m",
+       "color": "naranja",
+       "iconos": [
+        "casa",
+        "antena",
+        "casa"
+       ],
+       "al": 999999
+      },
+      {
+       "titulo": "Tu calle",
+       "icono": "wifi",
+       "etiqueta": "± decenas de m",
+       "color": "verde",
+       "iconos": [
+        "router",
+        "router",
+        "casa"
+       ],
+       "al": 999999
+      },
+      {
+       "titulo": "Tu portal",
+       "icono": "satelite",
+       "etiqueta": "± 5 m",
+       "color": "azul",
+       "iconos": [
+        "pin"
+       ],
+       "al": 999999
+      },
+      {
+       "titulo": "Tu planta",
+       "icono": "brujula",
+       "etiqueta": "pasos y giros",
+       "color": "morado",
+       "iconos": [
+        "edificio"
+       ],
+       "al": "@brújula"
+      },
+      {
+       "titulo": "Tu pasillo",
+       "icono": "bluetooth",
+       "etiqueta": "± metros",
+       "color": "azul",
+       "iconos": [
+        "carrito"
+       ],
+       "al": 999999
+      },
+      {
+       "titulo": "Tus viajes",
+       "icono": "foto",
+       "etiqueta": "cada foto, una chincheta",
+       "color": "rosa",
+       "iconos": [
+        "pin",
+        "pin"
+       ],
+       "al": 999999
+      },
+      {
+       "titulo": "Tus planes",
+       "icono": "ojo",
+       "etiqueta": "lo que buscas",
+       "color": "amarillo",
+       "iconos": [
+        "hospital",
+        "carrito"
+       ],
+       "al": 999999
+      },
+      {
+       "titulo": "Tu diario",
+       "icono": "calendario",
+       "etiqueta": "día a día",
+       "color": "verde",
+       "iconos": [
+        "mapa"
+       ],
+       "al": 999999
+      },
+      {
+       "titulo": "El botón",
+       "icono": "mazo",
+       "etiqueta": "391,5 mill. $",
+       "color": "rojo",
+       "iconos": [
+        "balanza"
+       ],
+       "al": 999999
+      }
+     ],
+     "rotulo": "CAPA"
+    }
+   ],
+   "personajes": {
+    "gato": {
+     "x": 0.93,
+     "escala": 0.62,
+     "mira": "izq",
+     "pose": "jarras",
+     "cara": "chulo",
+     "entra": "@pasos",
+     "entrada": "salto"
+    },
+    "mono": {
+     "x": 0.08,
+     "escala": 0.7,
+     "pose": "señalar_arriba",
+     "cara": "risa",
+     "cambios": [
+      {
+       "al": "@+1.1",
+       "pose": "presentar",
+       "cara": "guiño"
+      }
+     ]
+    }
+   }
+  },
+  {
+   "en": "Así, cuando el GPS se pierde",
+   "escenas": [
+    {
+     "tipo": "flujo",
+     "nodos": [
+      {
+       "texto": "GPS PERDIDO EN UN TÚNEL",
+       "icono": "satelite",
+       "al": "@túnel"
+      },
+      {
+       "texto": "PASOS Y GIROS",
+       "icono": "brujula",
+       "al": "@calculando",
+       "color": "verde"
+      }
+     ]
+    }
+   ],
+   "personajes": {
+    "gato": {
+     "x": 0.9,
+     "escala": 0.8,
+     "mira": "izq",
+     "pose": "caminar",
+     "cara": "normal"
+    },
+    "mono": {
+     "x": 0.1,
+     "escala": 0.8,
+     "pose": "brazos_cruzados",
+     "cara": "sorpresa",
+     "cambios": [
+      {
+       "al": "@+1.1",
+       "pose": "señalar",
+       "cara": "normal"
+      },
+      {
+       "al": "@+3.3",
+       "pose": "presentar",
+       "cara": "chulo"
+      }
+     ]
+    }
+   }
+  },
+  {
+   "en": "Y algunos tienen hasta",
+   "escenas": [
+    {
+     "tipo": "iconos",
+     "tam": 230,
+     "items": [
+      {
+       "icono": "termometro",
+       "texto": "BARÓMETRO",
+       "al": "@barómetro"
+      },
+      {
+       "icono": "edificio",
+       "texto": "¿EN QUÉ PLANTA?",
+       "al": "@planta"
+      }
+     ]
+    }
+   ],
+   "personajes": {
+    "gato": {
+     "pose": "señalar_arriba",
+     "cara": "sorpresa",
+     "salida": "der"
+    },
+    "mono": {
+     "pose": "saludar",
+     "cara": "guiño",
+     "cambios": [
+      {
+       "al": "@+1.1",
+       "pose": "señalar",
+       "cara": "chulo"
+      },
+      {
+       "al": "@+3.3",
+       "pose": "pensar",
+       "cara": "risa"
+      }
+     ]
+    }
+   }
+  },
+  {
+   "en": "Número seis",
+   "capitulo": "6. El Bluetooth",
+   "escenas": [
+    {
+     "tipo": "lista",
+     "n": 6,
+     "total": 10,
+     "titulo": "EL BLUETOOTH",
+     "apodo": "LAS BALIZAS",
+     "color": "azul",
+     "titulo_al": "@Bluetooth",
+     "apodo_al": "@balizas"
+    }
+   ],
+   "personajes": {
+    "mono": {
+     "salta": true,
+     "pose": "presentar",
+     "cara": "normal",
+     "cambios": [
+      {
+       "al": "@+1.1",
+       "pose": "presentar",
+       "cara": "risa"
+      }
+     ]
+    }
+   }
+  },
+  {
+   "en": "Algunos aeropuertos, museos",
+   "escenas": [
+    {
+     "tipo": "capas",
+     "actual": 4,
+     "capas": [
+      {
+       "titulo": "Tu ciudad",
+       "icono": "ip",
+       "etiqueta": "± kilómetros",
+       "color": "amarillo",
+       "iconos": [
+        "edificio",
+        "mundo"
+       ],
+       "al": 999999
+      },
+      {
+       "titulo": "Tu barrio",
+       "icono": "antena",
+       "etiqueta": "± cientos de m",
+       "color": "naranja",
+       "iconos": [
+        "casa",
+        "antena",
+        "casa"
+       ],
+       "al": 999999
+      },
+      {
+       "titulo": "Tu calle",
+       "icono": "wifi",
+       "etiqueta": "± decenas de m",
+       "color": "verde",
+       "iconos": [
+        "router",
+        "router",
+        "casa"
+       ],
+       "al": 999999
+      },
+      {
+       "titulo": "Tu portal",
+       "icono": "satelite",
+       "etiqueta": "± 5 m",
+       "color": "azul",
+       "iconos": [
+        "pin"
+       ],
+       "al": 999999
+      },
+      {
+       "titulo": "Tu planta",
+       "icono": "brujula",
+       "etiqueta": "pasos y giros",
+       "color": "morado",
+       "iconos": [
+        "edificio"
+       ],
+       "al": 999999
+      },
+      {
+       "titulo": "Tu pasillo",
+       "icono": "bluetooth",
+       "etiqueta": "± metros",
+       "color": "azul",
+       "iconos": [
+        "carrito"
+       ],
+       "al": "@balizas"
+      },
+      {
+       "titulo": "Tus viajes",
+       "icono": "foto",
+       "etiqueta": "cada foto, una chincheta",
+       "color": "rosa",
+       "iconos": [
+        "pin",
+        "pin"
+       ],
+       "al": 999999
+      },
+      {
+       "titulo": "Tus planes",
+       "icono": "ojo",
+       "etiqueta": "lo que buscas",
+       "color": "amarillo",
+       "iconos": [
+        "hospital",
+        "carrito"
+       ],
+       "al": 999999
+      },
+      {
+       "titulo": "Tu diario",
+       "icono": "calendario",
+       "etiqueta": "día a día",
+       "color": "verde",
+       "iconos": [
+        "mapa"
+       ],
+       "al": 999999
+      },
+      {
+       "titulo": "El botón",
+       "icono": "mazo",
+       "etiqueta": "391,5 mill. $",
+       "color": "rojo",
+       "iconos": [
+        "balanza"
+       ],
+       "al": 999999
+      }
+     ],
+     "rotulo": "CAPA"
+    }
+   ],
+   "personajes": {
+    "mono": {
+     "x": 0.08,
+     "escala": 0.7,
+     "pose": "señalar",
+     "cara": "chulo",
+     "cambios": [
+      {
+       "al": "@+1.1",
+       "pose": "pensar",
+       "cara": "normal"
+      },
+      {
+       "al": "@+3.3",
+       "pose": "señalar_arriba",
+       "cara": "risa"
+      },
+      {
+       "al": "@+5.5",
+       "pose": "saludar",
+       "cara": "sorpresa"
+      }
+     ]
+    }
+   }
+  },
+  {
+   "en": "Si tu móvil las oye",
+   "escenas": [
+    {
+     "tipo": "iconos",
+     "tam": 230,
+     "items": [
+      {
+       "icono": "bluetooth",
+       "texto": "LA BALIZA",
+       "al": "@oye"
+      },
+      {
+       "icono": "pin",
+       "texto": "TU PASILLO",
+       "al": "@pasillo"
+      }
+     ]
+    }
+   ],
+   "personajes": {
+    "influ": {
+     "x": 0.9,
+     "escala": 0.8,
+     "mira": "izq",
+     "pose": "saludar",
+     "cara": "risa",
+     "entra": "@comercial",
+     "entrada": "der"
+    },
+    "mono": {
+     "x": 0.1,
+     "escala": 0.8,
+     "pose": "señalar",
+     "cara": "risa",
+     "cambios": [
+      {
+       "al": "@+1.1",
+       "pose": "jarras",
+       "cara": "risa"
+      },
+      {
+       "al": "@+3.3",
+       "pose": "brazos_cruzados",
+       "cara": "sorpresa"
+      },
+      {
+       "al": "@+5.5",
+       "pose": "presentar",
+       "cara": "guiño"
+      }
+     ]
+    }
+   }
+  },
+  {
+   "en": "Y ahora vienen las capas que no",
+   "color": "rojo",
+   "escenas": [
+    {
+     "tipo": "texto",
+     "tam": 110,
+     "palabras": [
+      {
+       "texto": "SIN NINGUNA",
+       "al": "@ninguna"
+      },
+      {
+       "texto": "SEÑAL",
+       "al": "@señal",
+       "caja": true,
+       "color": "rojo"
+      }
+     ]
+    }
+   ],
+   "personajes": {
+    "influ": {
+     "pose": "encogerse",
+     "cara": "sorpresa",
+     "salida": "der"
+    },
+    "mono": {
+     "pose": "miedo",
+     "cara": "sorpresa",
+     "cambios": [
+      {
+       "al": "@+1.1",
+       "pose": "señalar_arriba",
+       "cara": "sorpresa"
+      }
+     ]
+    }
+   }
+  },
+  {
+   "en": "Número siete",
+   "color": "rosa",
+   "capitulo": "7. Tus fotos",
+   "escenas": [
+    {
+     "tipo": "lista",
+     "n": 7,
+     "total": 10,
+     "titulo": "TUS FOTOS",
+     "apodo": "LA CHINCHETA",
+     "color": "rosa",
+     "titulo_al": "@fotos",
+     "apodo_al": "@chincheta"
+    }
+   ],
+   "personajes": {
+    "mono": {
+     "salta": true,
+     "pose": "pensar",
+     "cara": "risa",
+     "cambios": [
+      {
+       "al": "@+1.1",
+       "pose": "brazos_cruzados",
+       "cara": "guiño"
+      }
+     ]
+    }
+   }
+  },
+  {
+   "en": "Cuando haces una foto",
+   "escenas": [
+    {
+     "tipo": "capas",
+     "actual": 5,
+     "capas": [
+      {
+       "titulo": "Tu ciudad",
+       "icono": "ip",
+       "etiqueta": "± kilómetros",
+       "color": "amarillo",
+       "iconos": [
+        "edificio",
+        "mundo"
+       ],
+       "al": 999999
+      },
+      {
+       "titulo": "Tu barrio",
+       "icono": "antena",
+       "etiqueta": "± cientos de m",
+       "color": "naranja",
+       "iconos": [
+        "casa",
+        "antena",
+        "casa"
+       ],
+       "al": 999999
+      },
+      {
+       "titulo": "Tu calle",
+       "icono": "wifi",
+       "etiqueta": "± decenas de m",
+       "color": "verde",
+       "iconos": [
+        "router",
+        "router",
+        "casa"
+       ],
+       "al": 999999
+      },
+      {
+       "titulo": "Tu portal",
+       "icono": "satelite",
+       "etiqueta": "± 5 m",
+       "color": "azul",
+       "iconos": [
+        "pin"
+       ],
+       "al": 999999
+      },
+      {
+       "titulo": "Tu planta",
+       "icono": "brujula",
+       "etiqueta": "pasos y giros",
+       "color": "morado",
+       "iconos": [
+        "edificio"
+       ],
+       "al": 999999
+      },
+      {
+       "titulo": "Tu pasillo",
+       "icono": "bluetooth",
+       "etiqueta": "± metros",
+       "color": "azul",
+       "iconos": [
+        "carrito"
+       ],
+       "al": 999999
+      },
+      {
+       "titulo": "Tus viajes",
+       "icono": "foto",
+       "etiqueta": "cada foto, una chincheta",
+       "color": "rosa",
+       "iconos": [
+        "pin",
+        "pin"
+       ],
+       "al": "@foto"
+      },
+      {
+       "titulo": "Tus planes",
+       "icono": "ojo",
+       "etiqueta": "lo que buscas",
+       "color": "amarillo",
+       "iconos": [
+        "hospital",
+        "carrito"
+       ],
+       "al": 999999
+      },
+      {
+       "titulo": "Tu diario",
+       "icono": "calendario",
+       "etiqueta": "día a día",
+       "color": "verde",
+       "iconos": [
+        "mapa"
+       ],
+       "al": 999999
+      },
+      {
+       "titulo": "El botón",
+       "icono": "mazo",
+       "etiqueta": "391,5 mill. $",
+       "color": "rojo",
+       "iconos": [
+        "balanza"
+       ],
+       "al": 999999
+      }
+     ],
+     "rotulo": "CAPA"
+    }
+   ],
+   "personajes": {
+    "mona": {
+     "x": 0.93,
+     "escala": 0.62,
+     "mira": "izq",
+     "pose": "saludar",
+     "cara": "guiño",
+     "objeto": "movil",
+     "entra": "@foto",
+     "entrada": "pop"
+    },
+    "mono": {
+     "x": 0.08,
+     "escala": 0.7,
+     "pose": "jarras",
+     "cara": "sorpresa",
+     "cambios": [
+      {
+       "al": "@+1.1",
+       "pose": "saludar",
+       "cara": "normal"
+      },
+      {
+       "al": "@+3.3",
+       "pose": "señalar",
+       "cara": "chulo"
+      }
+     ]
+    }
+   }
+  },
+  {
+   "en": "Si las subes a la nube",
+   "escenas": [
+    {
+     "tipo": "iconos",
+     "tam": 230,
+     "items": [
+      {
+       "icono": "nube",
+       "texto": "LA NUBE",
+       "al": "@nube"
+      },
+      {
+       "icono": "pin",
+       "texto": "EL MAPA DE TU VIDA",
+       "al": "@mapa"
+      }
+     ]
+    }
+   ],
+   "personajes": {
+    "mona": {
+     "x": 0.9,
+     "escala": 0.8,
+     "mira": "izq",
+     "pose": "encogerse",
+     "cara": "sorpresa",
+     "salida": "der"
+    },
+    "mono": {
+     "x": 0.1,
+     "escala": 0.8,
+     "pose": "señalar_arriba",
+     "cara": "guiño",
+     "cambios": [
+      {
+       "al": "@+1.1",
+       "pose": "presentar",
+       "cara": "chulo"
+      },
+      {
+       "al": "@+3.3",
+       "pose": "señalar",
+       "cara": "risa"
+      }
+     ]
+    }
+   }
+  },
+  {
+   "en": "Número ocho",
+   "color": "amarillo",
+   "capitulo": "8. Tus búsquedas",
+   "escenas": [
+    {
+     "tipo": "lista",
+     "n": 8,
+     "total": 10,
+     "titulo": "TUS BÚSQUEDAS",
+     "apodo": "EL CHIVATO",
+     "color": "amarillo",
+     "titulo_al": "@búsquedas",
+     "apodo_al": "@chivato"
+    }
+   ],
+   "personajes": {
+    "mono": {
+     "salta": true,
+     "pose": "brazos_cruzados",
+     "cara": "normal",
+     "cambios": [
+      {
+       "al": "@+1.1",
+       "pose": "señalar",
+       "cara": "risa"
+      }
+     ]
+    }
+   }
+  },
+  {
+   "en": "Farmacia de guardia",
+   "escenas": [
+    {
+     "tipo": "pantalla",
+     "dispositivo": "movil",
+     "titulo": "BUSCAR",
+     "lineas": [
+      {
+       "texto": "farmacia de guardia",
+       "al": "@Farmacia"
+      },
+      {
+       "texto": "restaurantes cerca",
+       "al": "@Restaurantes"
+      },
+      {
+       "texto": "horario del súper",
+       "al": "@horario"
+      }
+     ]
+    }
+   ],
+   "personajes": {
+    "mono": {
+     "pose": "pensar",
+     "cara": "normal",
+     "cambios": [
+      {
+       "al": "@+1.1",
+       "pose": "señalar",
+       "cara": "normal"
+      },
+      {
+       "al": "@+3.3",
+       "pose": "pensar",
+       "cara": "risa"
+      }
+     ]
+    }
+   }
+  },
+  {
+   "en": "No hace falta ningún satélite",
+   "escenas": [
+    {
+     "tipo": "capas",
+     "actual": 6,
+     "capas": [
+      {
+       "titulo": "Tu ciudad",
+       "icono": "ip",
+       "etiqueta": "± kilómetros",
+       "color": "amarillo",
+       "iconos": [
+        "edificio",
+        "mundo"
+       ],
+       "al": 999999
+      },
+      {
+       "titulo": "Tu barrio",
+       "icono": "antena",
+       "etiqueta": "± cientos de m",
+       "color": "naranja",
+       "iconos": [
+        "casa",
+        "antena",
+        "casa"
+       ],
+       "al": 999999
+      },
+      {
+       "titulo": "Tu calle",
+       "icono": "wifi",
+       "etiqueta": "± decenas de m",
+       "color": "verde",
+       "iconos": [
+        "router",
+        "router",
+        "casa"
+       ],
+       "al": 999999
+      },
+      {
+       "titulo": "Tu portal",
+       "icono": "satelite",
+       "etiqueta": "± 5 m",
+       "color": "azul",
+       "iconos": [
+        "pin"
+       ],
+       "al": 999999
+      },
+      {
+       "titulo": "Tu planta",
+       "icono": "brujula",
+       "etiqueta": "pasos y giros",
+       "color": "morado",
+       "iconos": [
+        "edificio"
+       ],
+       "al": 999999
+      },
+      {
+       "titulo": "Tu pasillo",
+       "icono": "bluetooth",
+       "etiqueta": "± metros",
+       "color": "azul",
+       "iconos": [
+        "carrito"
+       ],
+       "al": 999999
+      },
+      {
+       "titulo": "Tus viajes",
+       "icono": "foto",
+       "etiqueta": "cada foto, una chincheta",
+       "color": "rosa",
+       "iconos": [
+        "pin",
+        "pin"
+       ],
+       "al": 999999
+      },
+      {
+       "titulo": "Tus planes",
+       "icono": "ojo",
+       "etiqueta": "lo que buscas",
+       "color": "amarillo",
+       "iconos": [
+        "hospital",
+        "carrito"
+       ],
+       "al": "@satélite"
+      },
+      {
+       "titulo": "Tu diario",
+       "icono": "calendario",
+       "etiqueta": "día a día",
+       "color": "verde",
+       "iconos": [
+        "mapa"
+       ],
+       "al": 999999
+      },
+      {
+       "titulo": "El botón",
+       "icono": "mazo",
+       "etiqueta": "391,5 mill. $",
+       "color": "rojo",
+       "iconos": [
+        "balanza"
+       ],
+       "al": 999999
+      }
+     ],
+     "rotulo": "CAPA"
+    }
+   ],
+   "personajes": {
+    "mono": {
+     "x": 0.08,
+     "escala": 0.7,
+     "pose": "presentar",
+     "cara": "risa",
+     "cambios": [
+      {
+       "al": "@+1.1",
+       "pose": "presentar",
+       "cara": "risa"
+      },
+      {
+       "al": "@+3.3",
+       "pose": "jarras",
+       "cara": "sorpresa"
+      }
+     ]
+    }
+   }
+  },
+  {
+   "en": "Número nueve",
+   "color": "verde",
+   "capitulo": "9. El historial",
+   "escenas": [
+    {
+     "tipo": "lista",
+     "n": 9,
+     "total": 10,
+     "titulo": "EL HISTORIAL",
+     "apodo": "EL DIARIO",
+     "color": "verde",
+     "titulo_al": "@historial",
+     "apodo_al": "@diario"
+    }
+   ],
+   "personajes": {
+    "mono": {
+     "x": 0.1,
+     "escala": 0.8,
+     "salta": true,
+     "pose": "señalar",
+     "cara": "normal",
+     "cambios": [
+      {
+       "al": "@+1.1",
+       "pose": "pensar",
+       "cara": "sorpresa"
+      }
+     ]
+    }
+   }
+  },
+  {
+   "en": "Si lo activas, Google Maps",
+   "escenas": [
+    {
+     "tipo": "capas",
+     "actual": 7,
+     "capas": [
+      {
+       "titulo": "Tu ciudad",
+       "icono": "ip",
+       "etiqueta": "± kilómetros",
+       "color": "amarillo",
+       "iconos": [
+        "edificio",
+        "mundo"
+       ],
+       "al": 999999
+      },
+      {
+       "titulo": "Tu barrio",
+       "icono": "antena",
+       "etiqueta": "± cientos de m",
+       "color": "naranja",
+       "iconos": [
+        "casa",
+        "antena",
+        "casa"
+       ],
+       "al": 999999
+      },
+      {
+       "titulo": "Tu calle",
+       "icono": "wifi",
+       "etiqueta": "± decenas de m",
+       "color": "verde",
+       "iconos": [
+        "router",
+        "router",
+        "casa"
+       ],
+       "al": 999999
+      },
+      {
+       "titulo": "Tu portal",
+       "icono": "satelite",
+       "etiqueta": "± 5 m",
+       "color": "azul",
+       "iconos": [
+        "pin"
+       ],
+       "al": 999999
+      },
+      {
+       "titulo": "Tu planta",
+       "icono": "brujula",
+       "etiqueta": "pasos y giros",
+       "color": "morado",
+       "iconos": [
+        "edificio"
+       ],
+       "al": 999999
+      },
+      {
+       "titulo": "Tu pasillo",
+       "icono": "bluetooth",
+       "etiqueta": "± metros",
+       "color": "azul",
+       "iconos": [
+        "carrito"
+       ],
+       "al": 999999
+      },
+      {
+       "titulo": "Tus viajes",
+       "icono": "foto",
+       "etiqueta": "cada foto, una chincheta",
+       "color": "rosa",
+       "iconos": [
+        "pin",
+        "pin"
+       ],
+       "al": 999999
+      },
+      {
+       "titulo": "Tus planes",
+       "icono": "ojo",
+       "etiqueta": "lo que buscas",
+       "color": "amarillo",
+       "iconos": [
+        "hospital",
+        "carrito"
+       ],
+       "al": 999999
+      },
+      {
+       "titulo": "Tu diario",
+       "icono": "calendario",
+       "etiqueta": "día a día",
+       "color": "verde",
+       "iconos": [
+        "mapa"
+       ],
+       "al": "@guarda"
+      },
+      {
+       "titulo": "El botón",
+       "icono": "mazo",
+       "etiqueta": "391,5 mill. $",
+       "color": "rojo",
+       "iconos": [
+        "balanza"
+       ],
+       "al": 999999
+      }
+     ],
+     "rotulo": "CAPA"
+    }
+   ],
+   "personajes": {
+    "mono": {
+     "x": 0.08,
+     "escala": 0.7,
+     "pose": "señalar",
+     "cara": "risa",
+     "cambios": [
+      {
+       "al": "@+1.1",
+       "pose": "jarras",
+       "cara": "guiño"
+      },
+      {
+       "al": "@+3.3",
+       "pose": "brazos_cruzados",
+       "cara": "normal"
+      }
+     ]
+    }
+   }
+  },
+  {
+   "en": "En dos mil veinticuatro, Google",
+   "escenas": [
+    {
+     "tipo": "linea_tiempo",
+     "titulo": "LA CRONOLOGÍA",
+     "hitos": [
+      {
+       "fecha": "ANTES",
+       "texto": "En los servidores de Google",
+       "icono": "servidor",
+       "al": "@inicio"
+      },
+      {
+       "fecha": "2024",
+       "texto": "En tu propio móvil",
+       "icono": "movil",
+       "al": "@móvil"
+      }
+     ]
+    }
+   ],
+   "personajes": {
+    "mono": {
+     "x": 0.1,
+     "escala": 0.8,
+     "pose": "presentar",
+     "cara": "sorpresa",
+     "cambios": [
+      {
+       "al": "@+1.1",
+       "pose": "señalar_arriba",
+       "cara": "normal"
+      },
+      {
+       "al": "@+3.3",
+       "pose": "saludar",
+       "cara": "chulo"
+      }
+     ]
+    }
+   }
+  },
+  {
+   "en": "Es más privado",
+   "escenas": [
+    {
+     "tipo": "iconos",
+     "tam": 230,
+     "items": [
+      {
+       "icono": "candado",
+       "texto": "MÁS PRIVADO",
+       "al": "@privado"
+      },
+      {
+       "icono": "movil",
+       "texto": "SIN COPIA, ADIÓS DIARIO",
+       "al": "@copia",
+       "tachar_al": "@diario"
+      }
+     ]
+    }
+   ],
+   "personajes": {
+    "mono": {
+     "pose": "pensar",
+     "cara": "guiño",
+     "cambios": [
+      {
+       "al": "@+1.1",
+       "pose": "brazos_cruzados",
+       "cara": "chulo"
+      },
+      {
+       "al": "@+3.3",
+       "pose": "presentar",
+       "cara": "risa"
+      }
+     ]
+    }
+   }
+  },
+  {
+   "en": "Y la última, la que acabó",
+   "color": "rojo",
+   "escenas": [
+    {
+     "tipo": "texto",
+     "tam": 110,
+     "palabras": [
+      {
+       "texto": "LA QUE ACABÓ EN",
+       "al": "@acabó"
+      },
+      {
+       "texto": "LOS TRIBUNALES",
+       "al": "@tribunales",
+       "caja": true,
+       "color": "rojo"
+      }
+     ]
+    }
+   ],
+   "personajes": {
+    "mono": {
+     "pose": "encogerse",
+     "cara": "sorpresa",
+     "cambios": [
+      {
+       "al": "@+1.1",
+       "pose": "saludar",
+       "cara": "risa"
+      }
+     ]
+    }
+   }
+  },
+  {
+   "en": "Número diez",
+   "capitulo": "10. El ajuste que no apagaba nada",
+   "escenas": [
+    {
+     "tipo": "lista",
+     "n": 10,
+     "total": 10,
+     "titulo": "EL AJUSTE",
+     "apodo": "QUE NO APAGABA NADA",
+     "color": "rojo",
+     "titulo_al": "@ajuste",
+     "apodo_al": "@nada"
+    }
+   ],
+   "personajes": {
+    "mono": {
+     "salta": true,
+     "pose": "señalar_arriba",
+     "cara": "chulo",
+     "cambios": [
+      {
+       "al": "@+1.1",
+       "pose": "presentar",
+       "cara": "normal"
+      }
+     ]
+    }
+   }
+  },
+  {
+   "en": "En dos mil dieciocho",
+   "escenas": [
+    {
+     "tipo": "capas",
+     "actual": 8,
+     "capas": [
+      {
+       "titulo": "Tu ciudad",
+       "icono": "ip",
+       "etiqueta": "± kilómetros",
+       "color": "amarillo",
+       "iconos": [
+        "edificio",
+        "mundo"
+       ],
+       "al": 999999
+      },
+      {
+       "titulo": "Tu barrio",
+       "icono": "antena",
+       "etiqueta": "± cientos de m",
+       "color": "naranja",
+       "iconos": [
+        "casa",
+        "antena",
+        "casa"
+       ],
+       "al": 999999
+      },
+      {
+       "titulo": "Tu calle",
+       "icono": "wifi",
+       "etiqueta": "± decenas de m",
+       "color": "verde",
+       "iconos": [
+        "router",
+        "router",
+        "casa"
+       ],
+       "al": 999999
+      },
+      {
+       "titulo": "Tu portal",
+       "icono": "satelite",
+       "etiqueta": "± 5 m",
+       "color": "azul",
+       "iconos": [
+        "pin"
+       ],
+       "al": 999999
+      },
+      {
+       "titulo": "Tu planta",
+       "icono": "brujula",
+       "etiqueta": "pasos y giros",
+       "color": "morado",
+       "iconos": [
+        "edificio"
+       ],
+       "al": 999999
+      },
+      {
+       "titulo": "Tu pasillo",
+       "icono": "bluetooth",
+       "etiqueta": "± metros",
+       "color": "azul",
+       "iconos": [
+        "carrito"
+       ],
+       "al": 999999
+      },
+      {
+       "titulo": "Tus viajes",
+       "icono": "foto",
+       "etiqueta": "cada foto, una chincheta",
+       "color": "rosa",
+       "iconos": [
+        "pin",
+        "pin"
+       ],
+       "al": 999999
+      },
+      {
+       "titulo": "Tus planes",
+       "icono": "ojo",
+       "etiqueta": "lo que buscas",
+       "color": "amarillo",
+       "iconos": [
+        "hospital",
+        "carrito"
+       ],
+       "al": 999999
+      },
+      {
+       "titulo": "Tu diario",
+       "icono": "calendario",
+       "etiqueta": "día a día",
+       "color": "verde",
+       "iconos": [
+        "mapa"
+       ],
+       "al": 999999
+      },
+      {
+       "titulo": "El botón",
+       "icono": "mazo",
+       "etiqueta": "391,5 mill. $",
+       "color": "rojo",
+       "iconos": [
+        "balanza"
+       ],
+       "al": "@investigación"
+      }
+     ],
+     "rotulo": "CAPA"
+    }
+   ],
+   "personajes": {
+    "poli": {
+     "x": 0.93,
+     "escala": 0.62,
+     "mira": "izq",
+     "pose": "señalar",
+     "cara": "enfado",
+     "entra": "@investigación",
+     "entrada": "cae"
+    },
+    "mono": {
+     "x": 0.08,
+     "escala": 0.7,
+     "pose": "brazos_cruzados",
+     "cara": "risa",
+     "cambios": [
+      {
+       "al": "@+1.1",
+       "pose": "señalar",
+       "cara": "risa"
+      },
+      {
+       "al": "@+3.3",
+       "pose": "presentar",
+       "cara": "sorpresa"
+      },
+      {
+       "al": "@+5.5",
+       "pose": "jarras",
+       "cara": "guiño"
+      }
+     ]
+    }
+   }
+  },
+  {
+   "en": "En noviembre de dos mil veintidós",
+   "escenas": [
+    {
+     "tipo": "cifra",
+     "desde": 0,
+     "hasta": 391.5,
+     "al": "@trescientos",
+     "decimales": 1,
+     "sufijo": " MILL. $",
+     "antes": "GOOGLE PAGÓ (2022)",
+     "etiqueta": "a 40 estados de EE. UU.",
+     "etiqueta_al": "@cuarenta",
+     "tam": 180,
+     "color": "rojo",
+     "dur": 1.0
+    }
+   ],
+   "personajes": {
+    "poli": {
+     "x": 0.9,
+     "escala": 0.8,
+     "mira": "izq",
+     "pose": "jarras",
+     "cara": "chulo"
+    },
+    "mono": {
+     "x": 0.1,
+     "escala": 0.8,
+     "pose": "saludar",
+     "cara": "normal",
+     "cambios": [
+      {
+       "al": "@+1.1",
+       "pose": "señalar",
+       "cara": "sorpresa"
+      },
+      {
+       "al": "@+3.3",
+       "pose": "pensar",
+       "cara": "guiño"
+      },
+      {
+       "al": "@+5.5",
+       "pose": "señalar_arriba",
+       "cara": "normal"
+      }
+     ]
+    }
+   }
+  },
+  {
+   "en": "Google dijo que eran normas",
+   "escenas": [
+    {
+     "tipo": "texto",
+     "tam": 100,
+     "palabras": [
+      {
+       "texto": "APAGAR UN BOTÓN",
+       "al": "@botón"
+      },
+      {
+       "texto": "NO SIEMPRE APAGA",
+       "al": "@siempre",
+       "caja": true,
+       "color": "amarillo"
+      }
+     ]
+    }
+   ],
+   "personajes": {
+    "poli": {
+     "pose": "brazos_cruzados",
+     "cara": "normal",
+     "salida": "der"
+    },
+    "mono": {
+     "pose": "presentar",
+     "cara": "risa",
+     "cambios": [
+      {
+       "al": "@+1.1",
+       "pose": "presentar",
+       "cara": "guiño"
+      },
+      {
+       "al": "@+3.3",
+       "pose": "jarras",
+       "cara": "normal"
+      },
+      {
+       "al": "@+5.5",
+       "pose": "brazos_cruzados",
+       "cara": "chulo"
+      }
+     ]
+    }
+   }
+  },
+  {
+   "en": "Si las ordenamos por precisión",
+   "color": "morado",
+   "capitulo": "Tier list y modo avión",
+   "escenas": [
+    {
+     "tipo": "tier_list",
+     "titulo": "PRECISIÓN",
+     "items": [
+      {
+       "texto": "GPS",
+       "icono": "satelite",
+       "fila": "S",
+       "al": "@GPS"
+      },
+      {
+       "texto": "Bluetooth",
+       "icono": "bluetooth",
+       "fila": "S",
+       "al": "@Bluetooth"
+      },
+      {
+       "texto": "WiFi",
+       "icono": "wifi",
+       "fila": "A",
+       "al": "@WiFi"
+      },
+      {
+       "texto": "Antenas",
+       "icono": "antena",
+       "fila": "B",
+       "al": "@antenas"
+      },
+      {
+       "texto": "IP",
+       "icono": "ip",
+       "fila": "D",
+       "al": "@IP"
+      }
+     ]
+    }
+   ],
+   "personajes": {
+    "profe": {
+     "x": 0.92,
+     "escala": 0.7,
+     "mira": "izq",
+     "pose": "señalar",
+     "cara": "normal",
+     "entra": "@precisión",
+     "entrada": "der"
+    },
+    "mono": {
+     "x": 0.08,
+     "escala": 0.7,
+     "pose": "presentar",
+     "cara": "risa",
+     "cambios": [
+      {
+       "al": "@+1.1",
+       "pose": "pensar",
+       "cara": "normal"
+      },
+      {
+       "al": "@+3.3",
+       "pose": "señalar_arriba",
+       "cara": "chulo"
+      },
+      {
+       "al": "@+5.5",
+       "pose": "saludar",
+       "cara": "risa"
+      },
+      {
+       "al": "@+7.7",
+       "pose": "señalar",
+       "cara": "normal"
+      }
+     ]
+    }
+   }
+  },
+  {
+   "en": "Y ahora, la pregunta del principio",
+   "color": "amarillo",
+   "escenas": [
+    {
+     "tipo": "mito_verdad",
+     "tramos": 1,
+     "afirmacion": "El modo avión te esconde de Google",
+     "veredicto": "medias",
+     "al": "@medias",
+     "pistas": [
+      {
+       "texto": "El GPS solo escucha",
+       "al": "@escucha"
+      },
+      {
+       "texto": "No lo cuenta hasta que conectas",
+       "al": "@conectarte"
+      }
+     ]
+    }
+   ],
+   "personajes": {
+    "profe": {
+     "pose": "pensar",
+     "cara": "normal",
+     "salida": "der"
+    },
+    "mono": {
+     "x": 0.1,
+     "escala": 0.8,
+     "pose": "pensar",
+     "cara": "normal",
+     "cambios": [
+      {
+       "al": "@+1.1",
+       "pose": "jarras",
+       "cara": "chulo"
+      },
+      {
+       "al": "@+3.3",
+       "pose": "brazos_cruzados",
+       "cara": "risa"
+      }
+     ]
+    }
+   }
+  },
+  {
+   "en": "A medias",
+   "escenas": [],
+   "personajes": {
+    "mono": {
+     "pose": "brazos_cruzados",
+     "cara": "chulo",
+     "salta": true,
+     "cambios": [
+      {
+       "al": "@+1.1",
+       "pose": "señalar_arriba",
+       "cara": "risa"
+      },
+      {
+       "al": "@+3.3",
+       "pose": "saludar",
+       "cara": "normal"
+      },
+      {
+       "al": "@+5.5",
+       "pose": "señalar",
+       "cara": "risa"
+      },
+      {
+       "al": "@+7.7",
+       "pose": "presentar",
+       "cara": "sorpresa"
+      }
+     ]
+    }
+   },
+   "relleno": false
+  },
+  {
+   "en": "Si quieres que no te sigan",
+   "color": "verde",
+   "escenas": [
+    {
+     "tipo": "pantalla",
+     "dispositivo": "movil",
+     "titulo": "AJUSTES",
+     "lineas": [
+      {
+       "texto": "Ubicación de tu cuenta",
+       "al": "@ubicación",
+       "color": "amarillo"
+      },
+      {
+       "texto": "Míralo hoy: 1 minuto",
+       "al": "@minuto",
+       "color": "verde"
+      }
+     ]
+    }
+   ],
+   "personajes": {
+    "mono": {
+     "pose": "señalar",
+     "cara": "guiño",
+     "cambios": [
+      {
+       "al": "@+1.1",
+       "pose": "brazos_cruzados",
+       "cara": "normal"
+      },
+      {
+       "al": "@+3.3",
+       "pose": "presentar",
+       "cara": "risa"
+      },
+      {
+       "al": "@+5.5",
+       "pose": "señalar",
+       "cara": "sorpresa"
+      }
+     ]
+    }
+   }
+  },
+  {
+   "en": "¿Cuál de las diez capas",
+   "escenas": [
+    {
+     "tipo": "capas",
+     "actual": 9,
+     "capas": [
+      {
+       "titulo": "Tu ciudad",
+       "icono": "ip",
+       "etiqueta": "± kilómetros",
+       "color": "amarillo",
+       "iconos": [
+        "edificio",
+        "mundo"
+       ],
+       "al": 999999
+      },
+      {
+       "titulo": "Tu barrio",
+       "icono": "antena",
+       "etiqueta": "± cientos de m",
+       "color": "naranja",
+       "iconos": [
+        "casa",
+        "antena",
+        "casa"
+       ],
+       "al": 999999
+      },
+      {
+       "titulo": "Tu calle",
+       "icono": "wifi",
+       "etiqueta": "± decenas de m",
+       "color": "verde",
+       "iconos": [
+        "router",
+        "router",
+        "casa"
+       ],
+       "al": 999999
+      },
+      {
+       "titulo": "Tu portal",
+       "icono": "satelite",
+       "etiqueta": "± 5 m",
+       "color": "azul",
+       "iconos": [
+        "pin"
+       ],
+       "al": 999999
+      },
+      {
+       "titulo": "Tu planta",
+       "icono": "brujula",
+       "etiqueta": "pasos y giros",
+       "color": "morado",
+       "iconos": [
+        "edificio"
+       ],
+       "al": 999999
+      },
+      {
+       "titulo": "Tu pasillo",
+       "icono": "bluetooth",
+       "etiqueta": "± metros",
+       "color": "azul",
+       "iconos": [
+        "carrito"
+       ],
+       "al": 999999
+      },
+      {
+       "titulo": "Tus viajes",
+       "icono": "foto",
+       "etiqueta": "cada foto, una chincheta",
+       "color": "rosa",
+       "iconos": [
+        "pin",
+        "pin"
+       ],
+       "al": 999999
+      },
+      {
+       "titulo": "Tus planes",
+       "icono": "ojo",
+       "etiqueta": "lo que buscas",
+       "color": "amarillo",
+       "iconos": [
+        "hospital",
+        "carrito"
+       ],
+       "al": 999999
+      },
+      {
+       "titulo": "Tu diario",
+       "icono": "calendario",
+       "etiqueta": "día a día",
+       "color": "verde",
+       "iconos": [
+        "mapa"
+       ],
+       "al": 999999
+      },
+      {
+       "titulo": "El botón",
+       "icono": "mazo",
+       "etiqueta": "391,5 mill. $",
+       "color": "rojo",
+       "iconos": [
+        "balanza"
+       ],
+       "al": 999999
+      }
+     ],
+     "rotulo": "CAPA"
+    }
+   ],
+   "personajes": {
+    "ia": {
+     "x": 0.93,
+     "escala": 0.62,
+     "mira": "izq",
+     "pose": "saludar",
+     "cara": "risa",
+     "entra": "@capas",
+     "entrada": "cae"
+    },
+    "mono": {
+     "x": 0.08,
+     "escala": 0.7,
+     "pose": "pensar",
+     "cara": "normal",
+     "cambios": [
+      {
+       "al": "@+1.1",
+       "pose": "saludar",
+       "cara": "risa"
+      }
+     ]
+    }
+   }
+  },
+  {
+   "en": "Si te gusta entender",
+   "color": "rojo",
+   "escenas": [
+    {
+     "tipo": "iconos",
+     "tam": 300,
+     "items": [
+      {
+       "icono": "play",
+       "texto": "SUSCRÍBETE",
+       "al": "@suscríbete"
+      }
+     ]
+    }
+   ],
+   "personajes": {
+    "ia": {
+     "x": 0.9,
+     "escala": 0.8,
+     "mira": "izq",
+     "pose": "celebrar",
+     "cara": "risa"
+    },
+    "gato": {
+     "x": 0.72,
+     "escala": 0.62,
+     "mira": "izq",
+     "pose": "celebrar",
+     "cara": "risa",
+     "entra": "@tecnología",
+     "entrada": "salto"
+    },
+    "mono": {
+     "x": 0.1,
+     "escala": 0.8,
+     "pose": "celebrar",
+     "cara": "risa",
+     "salta": true,
+     "cambios": [
+      {
+       "al": "@+1.1",
+       "pose": "presentar",
+       "cara": "sorpresa"
+      },
+      {
+       "al": "@+3.3",
+       "pose": "señalar",
+       "cara": "guiño"
+      }
+     ]
+    }
+   }
+  }
+ ],
+ "cola": 1.2,
+ "formato": "16:9"
+}

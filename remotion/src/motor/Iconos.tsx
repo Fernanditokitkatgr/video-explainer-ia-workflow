@@ -15,6 +15,9 @@ export const ICONOS = [
   // nov-2026 (largos del youtuber y del móvil lento)
   'play', 'bateria', 'termometro', 'camiseta', 'chocolate', 'micro', 'trofeo', 'ojo', 'tortuga', 'caja', 'mochila',
   'puerta', 'avion', 'casa', 'chip', 'ticket',
+  // v3 (nov-2026): redes, localización y "un día sin Internet"
+  'router', 'antena', 'satelite', 'servidor', 'wifi', 'nube', 'check', 'check_azul', 'pin', 'radio', 'tarjeta', 'cajero',
+  'foto', 'bluetooth', 'brujula', 'campana', 'hospital', 'fibra', 'wasap', 'edificio', 'carrito', 'ordenador', 'ip', 'mapa',
 ] as const;
 export type NombreIcono = (typeof ICONOS)[number];
 
@@ -690,6 +693,278 @@ export const Icono: React.FC<{nombre: string; tam?: number; color?: string}> = (
           {L([45, -45], [45, 45], 'c', 4)}
           {T(-25, 18, 'VIP', 48)}
         </g>
+      );
+      break;
+    // ── v3 ──
+    case 'router':
+      body = (
+        <>
+          {L([-50, -20], [-70, -100], 'a1', 8)}
+          {L([50, -20], [70, -100], 'a2', 8)}
+          {R(-100, -20, 200, 80, color ?? C.lightGrey, 'r', 14)}
+          {[-55, -20, 15].map((x, i) => (
+            <circle key={i} cx={x} cy={20} r={9} fill={Math.floor(t * 4 + i) % 2 ? C.green : '#1E6B3E'} stroke={C.ink} strokeWidth={3} />
+          ))}
+          {[0, 1].map((i) => {
+            const r = 30 + ((t * 60 + i * 30) % 60);
+            return <path key={i} d={`M${-r * 0.7} ${-110 - r * 0.5} Q0 ${-140 - r} ${r * 0.7} ${-110 - r * 0.5}`} fill="none" stroke={C.blue} strokeWidth={6} opacity={1 - ((t * 60 + i * 30) % 60) / 60} strokeLinecap="round" />;
+          })}
+        </>
+      );
+      break;
+    case 'antena':
+      body = (
+        <>
+          {P([[-50, 100], [0, -60], [50, 100]], 'none', 'to', false)}
+          {L([-28, 40], [28, 40], 'tr', 5)}
+          {L([-15, 0], [15, 0], 'tr2', 5)}
+          {R(-14, -100, 28, 50, color ?? C.lightGrey, 'pa', 6)}
+          {[0, 1, 2].map((i) => {
+            const f = ((t * 1.2 + i / 3) % 1);
+            const r = 30 + f * 70;
+            return (
+              <React.Fragment key={i}>
+                <path d={`M${-r} ${-75 - r * 0.6} Q${-r * 1.2} -75 ${-r} ${-75 + r * 0.6}`} fill="none" stroke={C.red} strokeWidth={6} opacity={1 - f} strokeLinecap="round" />
+                <path d={`M${r} ${-75 - r * 0.6} Q${r * 1.2} -75 ${r} ${-75 + r * 0.6}`} fill="none" stroke={C.red} strokeWidth={6} opacity={1 - f} strokeLinecap="round" />
+              </React.Fragment>
+            );
+          })}
+        </>
+      );
+      break;
+    case 'satelite':
+      body = (
+        <g transform={`rotate(${-20 + Math.sin(t * 2) * 6})`}>
+          {R(-120, -30, 70, 60, color ?? C.blue, 'p1', 4)}
+          {R(50, -30, 70, 60, color ?? C.blue, 'p2', 4)}
+          {L([-50, 0], [-30, 0], 'b1', 6)}
+          {L([30, 0], [50, 0], 'b2', 6)}
+          {R(-30, -40, 60, 80, C.gold, 'c', 8)}
+          {E(0, -62, 20, 12, C.lightGrey, 'an')}
+          {L([0, -50], [0, -40], 'ae', 5)}
+        </g>
+      );
+      break;
+    case 'servidor':
+      body = (
+        <>
+          {[0, 1, 2].map((i) => (
+            <React.Fragment key={i}>
+              {R(-80, -95 + i * 65, 160, 58, color ?? '#3A3D46', `s${i}`, 8)}
+              <circle cx={-50} cy={-66 + i * 65} r={8} fill={Math.floor(t * 5 + i * 2) % 3 ? C.green : C.yellow} stroke={C.ink} strokeWidth={2} />
+              {L([-20, -66 + i * 65], [55, -66 + i * 65], `l${i}`, 5)}
+            </React.Fragment>
+          ))}
+        </>
+      );
+      break;
+    case 'wifi':
+      body = (
+        <>
+          {[90, 60, 30].map((r, i) => (
+            <path key={i} d={wobPoly([[-r, 40 - r * 0.6], [0, 40 - r * 1.25], [r, 40 - r * 0.6]], k + 'w' + i, 1.5)} fill="none" stroke={Math.floor(t * 3) % 4 > i ? C.ink : C.grey} strokeWidth={14} strokeLinecap="round" />
+          ))}
+          {E(0, 55, 16, 16, color ?? C.ink, 'p')}
+        </>
+      );
+      break;
+    case 'nube':
+      body = (
+        <>
+          {[[-45, 10, 50], [10, -20, 60], [55, 15, 45], [0, 30, 55]].map(([x, y, r], i) => (
+            <path key={i} d={wobEllipse(x, y, r, r * 0.85, k + 'n' + i)} fill={color ?? C.paper} {...S} />
+          ))}
+          {R(-90, 20, 190, 50, color ?? C.paper, 'b', 25)}
+        </>
+      );
+      break;
+    case 'check':
+    case 'check_azul': {
+      const c = nombre === 'check_azul' ? C.blue : color ?? C.grey;
+      body = (
+        <>
+          {[0, 1].map((i) => (
+            <path key={i} d={wobPoly([[-80 + i * 50, 0], [-40 + i * 50, 45], [50 + i * 50, -55]], k + 'c' + i, 2)} fill="none" stroke={C.ink} strokeWidth={30} strokeLinecap="round" strokeLinejoin="round" />
+          ))}
+          {[0, 1].map((i) => (
+            <path key={i} d={wobPoly([[-80 + i * 50, 0], [-40 + i * 50, 45], [50 + i * 50, -55]], k + 'c' + i, 2)} fill="none" stroke={c} strokeWidth={16} strokeLinecap="round" strokeLinejoin="round" />
+          ))}
+        </>
+      );
+      break;
+    }
+    case 'pin':
+      body = (
+        <g transform={`translate(0 ${-Math.abs(Math.sin(t * 4)) * 10})`}>
+          <path d="M0 100 C-60 30 -70 -20 -70 -40 C-70 -80 -38 -105 0 -105 C38 -105 70 -80 70 -40 C70 -20 60 30 0 100 Z" fill={color ?? C.red} {...S} />
+          {E(0, -40, 26, 26, C.paper, 'o')}
+        </g>
+      );
+      break;
+    case 'radio':
+      body = (
+        <>
+          {L([40, -60], [90, -115], 'an', 6)}
+          {R(-105, -60, 210, 130, color ?? C.orange, 'r', 16)}
+          {E(-45, 5, 40, 40, C.ink, 'al')}
+          {E(-45, 5, 24, 24, C.grey, 'al2')}
+          {R(15, -35, 70, 30, C.paper, 'd', 4)}
+          <path d={`M${20 + ((t * 30) % 60)} -35 L${20 + ((t * 30) % 60)} -5`} stroke={C.red} strokeWidth={4} />
+          {E(35, 35, 10, 10, C.yellow, 'b1')}
+          {E(65, 35, 10, 10, C.yellow, 'b2')}
+        </>
+      );
+      break;
+    case 'tarjeta':
+      body = (
+        <g transform="rotate(-8)">
+          {R(-110, -70, 220, 140, color ?? C.blue, 't', 16)}
+          {R(-80, -35, 50, 38, C.gold, 'ch', 6)}
+          {L([-85, 30], [85, 30], 'n', 7)}
+          {L([-85, 50], [10, 50], 'n2', 5)}
+        </g>
+      );
+      break;
+    case 'cajero':
+      body = (
+        <>
+          {R(-85, -105, 170, 210, color ?? C.lightGrey, 'c', 10)}
+          {R(-60, -85, 120, 70, C.blue, 'p', 6)}
+          {T(0, -40, '€', 40, C.paper)}
+          {R(-50, 5, 100, 16, C.ink, 'r', 4)}
+          {[0, 1, 2].map((i) => (
+            <rect key={i} x={-40 + i * 30} y={40} width={20} height={14} rx={3} fill={C.paper} stroke={C.ink} strokeWidth={3} />
+          ))}
+        </>
+      );
+      break;
+    case 'foto':
+      body = (
+        <g transform="rotate(6)">
+          {R(-95, -95, 190, 190, C.paper, 'm', 6)}
+          {R(-75, -75, 150, 120, '#9BD4F5', 'f', 4)}
+          {P([[-75, 45], [-20, -15], [20, 25], [45, 0], [75, 45]], C.green, 'mt')}
+          {E(40, -40, 16, 16, C.yellow, 's')}
+          <g transform="translate(55 60) scale(0.45)">
+            <path d="M0 100 C-60 30 -70 -20 -70 -40 C-70 -80 -38 -105 0 -105 C38 -105 70 -80 70 -40 C70 -20 60 30 0 100 Z" fill={C.red} {...S} strokeWidth={12} />
+          </g>
+        </g>
+      );
+      break;
+    case 'bluetooth':
+      body = (
+        <>
+          {E(0, 0, 70, 95, color ?? '#2D6CDF', 'b')}
+          <path d={wobPoly([[-30, -40], [30, 25], [0, 55], [0, -55], [30, -25], [-30, 40]], k + 'bt', 1.5)} fill="none" stroke={C.paper} strokeWidth={12} strokeLinecap="round" strokeLinejoin="round" />
+        </>
+      );
+      break;
+    case 'brujula':
+      body = (
+        <>
+          {E(0, 0, 95, 95, color ?? C.paper, 'b')}
+          {E(0, 0, 75, 75, '#F4EBD0', 'b2')}
+          <g transform={`rotate(${Math.sin(t * 2.5) * 25})`}>
+            {P([[0, -70], [18, 0], [-18, 0]], C.red, 'n')}
+            {P([[0, 70], [18, 0], [-18, 0]], C.lightGrey, 's')}
+          </g>
+          {T(0, -78, 'N', 28)}
+        </>
+      );
+      break;
+    case 'campana':
+      body = (
+        <g transform={`rotate(${Math.sin(t * 14) * 14})`}>
+          <path d={wobPoly([[-70, 50], [-55, -30], [-30, -70], [30, -70], [55, -30], [70, 50]], k + 'c', 2, true)} fill={color ?? C.yellow} {...S} />
+          {R(-85, 45, 170, 24, color ?? C.yellow, 'b', 10)}
+          {E(0, 85, 16, 16, C.ink, 'ba')}
+          {E(0, -82, 12, 12, C.yellow, 'to')}
+        </g>
+      );
+      break;
+    case 'hospital':
+      body = (
+        <>
+          {R(-90, -80, 180, 175, color ?? C.paper, 'h', 6)}
+          {R(-25, -60, 50, 90, C.red, 'cv', 4)}
+          {R(-55, -30, 110, 30, C.red, 'ch', 4)}
+          {R(-20, 50, 40, 45, C.blue, 'p', 4)}
+        </>
+      );
+      break;
+    case 'fibra':
+      body = (
+        <>
+          {[0, 1, 2].map((i) => (
+            <path key={i} d={wobPoly([[-110, -30 + i * 30], [-40, -50 + i * 30], [40, -10 + i * 30], [110, -30 + i * 30]], k + 'f' + i, 2)} fill="none" stroke={C.ink} strokeWidth={16} strokeLinecap="round" />
+          ))}
+          {[0, 1, 2].map((i) => (
+            <path key={`c${i}`} d={wobPoly([[-110, -30 + i * 30], [-40, -50 + i * 30], [40, -10 + i * 30], [110, -30 + i * 30]], k + 'f' + i, 2)} fill="none" stroke={[C.yellow, C.blue, C.pink][i]} strokeWidth={8} strokeLinecap="round" />
+          ))}
+          {[0, 1, 2].map((i) => {
+            const x = -110 + ((t * 300 + i * 80) % 220);
+            return <circle key={`l${i}`} cx={x} cy={-30 + i * 30 + Math.sin(x / 40) * 10} r={9} fill={C.paper} stroke={C.ink} strokeWidth={2} />;
+          })}
+        </>
+      );
+      break;
+    case 'wasap':
+      body = (
+        <>
+          <path d={wobPoly([[-85, -20], [-60, -75], [0, -95], [60, -75], [85, -20], [65, 40], [0, 65], [-40, 55], [-85, 85], [-70, 30]], k + 'w', 3, true)} fill={color ?? '#3BB273'} {...S} />
+          {E(0, -15, 40, 40, C.paper, 'tl')}
+          <path d="M-14 -32 Q-14 0 14 2" fill="none" stroke="#3BB273" strokeWidth={10} strokeLinecap="round" />
+        </>
+      );
+      break;
+    case 'edificio':
+      body = (
+        <>
+          {R(-70, -110, 140, 220, color ?? C.lightGrey, 'e', 6)}
+          {[0, 1, 2, 3].map((f) =>
+            [0, 1, 2].map((c) => <rect key={`${f}${c}`} x={-50 + c * 36} y={-90 + f * 48} width={24} height={28} rx={3} fill={(f + c + Math.floor(t)) % 3 ? '#FFE680' : C.blue} stroke={C.ink} strokeWidth={3} />),
+          )}
+        </>
+      );
+      break;
+    case 'carrito':
+      body = (
+        <>
+          {P([[-110, -70], [-80, -70], [-50, 40], [80, 40], [100, -40], [-70, -40]], color ?? C.paper, 'c')}
+          {E(-35, 70, 18, 18, C.ink, 'r1')}
+          {E(65, 70, 18, 18, C.ink, 'r2')}
+          {E(-10, -60, 18, 18, C.red, 'm')}
+          {E(35, -55, 20, 16, C.green, 'p')}
+        </>
+      );
+      break;
+    case 'ordenador':
+      body = (
+        <>
+          {R(-110, -85, 220, 140, C.ink, 'm', 10)}
+          {R(-95, -72, 190, 112, color ?? C.blue, 'p', 6)}
+          {P([[-40, 55], [40, 55], [55, 90], [-55, 90]], C.lightGrey, 'b')}
+          {L([-60, -40], [40, -40], 'l1', 6)}
+          {L([-60, -10], [70, -10], 'l2', 6)}
+        </>
+      );
+      break;
+    case 'ip':
+      body = (
+        <>
+          {R(-105, -60, 210, 120, color ?? C.yellow, 'i', 14)}
+          {T(0, 30, 'IP', 90)}
+        </>
+      );
+      break;
+    case 'mapa':
+      body = (
+        <>
+          {P([[-110, -70], [-40, -90], [40, -70], [110, -90], [110, 80], [40, 100], [-40, 80], [-110, 100]], color ?? '#E8F4E0', 'm')}
+          {L([-40, -90], [-40, 80], 'p1', 4)}
+          {L([40, -70], [40, 100], 'p2', 4)}
+          <path d={wobPoly([[-90, 60], [-50, 10], [0, 30], [60, -30], [90, -50]], k + 'r', 2)} fill="none" stroke={C.red} strokeWidth={7} strokeDasharray="14 10" />
+        </>
       );
       break;
     default:

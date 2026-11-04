@@ -160,7 +160,7 @@ if __name__ == "__main__":
     p.add_argument("--description", default="")
     p.add_argument("--tags", default="", help="separados por comas")
     p.add_argument("--thumbnail", default="", help="ruta a PNG/JPG (1280×720 mínimo)")
-    p.add_argument("--category", default="27", help="27=Educación")
+    p.add_argument("--category", default="28", help="28=Ciencia y tecnología")
     p.add_argument("--privacy", default="private", choices=["private", "unlisted", "public"])
     p.add_argument("--publish-at", default="", help="ISO 8601 UTC (ej. 2026-07-22T17:00:00Z) — sube privado y YouTube lo publica solo a esa hora")
     upload(p.parse_args())

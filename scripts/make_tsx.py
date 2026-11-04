@@ -186,6 +186,11 @@ export const {comp}: React.FC = () => {{
 }};
 """
 out = os.path.join(BASE, cfg["tsx"])
+# Guardia (3-nov-2026): los vídeos del motor apuntan su "tsx" a remotion/src/motor/MotorPlano.tsx, que es
+# la composición COMPARTIDA de todos los vídeos del motor. Sobrescribirla rompe todos los renders del motor.
+if cfg.get("estilo") == "motor" or os.path.normpath(cfg["tsx"]).replace("\\", "/").startswith("remotion/src/motor/"):
+    sys.exit(f"✗ {slug} es un vídeo del motor (tsx = {cfg['tsx']}): make_tsx.py no lo toca. "
+             f"Usa: python scripts/motor_plano.py {slug} --render")
 open(out, "w", encoding="utf-8").write(tsx)
 n_fx = sum(1 for f in frames if emphasis(f.get("text", "")))
 print(f"OK {cfg['tsx']} | {len(frames)} frames ({n_fx} con énfasis) | {len(sfx['sfx'])} sfx | "

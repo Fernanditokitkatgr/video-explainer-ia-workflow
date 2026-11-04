@@ -1,0 +1,474 @@
+{
+ "reparto": {
+  "mono": {
+   "tipo": "protagonista",
+   "narrador": true
+  },
+  "astro": {
+   "tipo": "astronauta"
+  },
+  "poli": {
+   "tipo": "policia"
+  },
+  "influ": {
+   "tipo": "influencer"
+  },
+  "profe": {
+   "tipo": "profe"
+  }
+ },
+ "tramos": [
+  {
+   "en": "",
+   "color": "amarillo",
+   "escenas": [
+    {
+     "tipo": "mito_verdad",
+     "afirmacion": "El modo avión te esconde de Google",
+     "veredicto": "medias",
+     "al": 999999,
+     "sfx": false
+    }
+   ],
+   "personajes": {
+    "influ": {
+     "x": 0.76,
+     "escala": 0.95,
+     "mira": "izq",
+     "pose": "encogerse",
+     "cara": "sorpresa",
+     "objeto": "aro_luz",
+     "entra": "@Google",
+     "entrada": "der"
+    },
+    "mono": {
+     "x": 0.25,
+     "escala": 0.95,
+     "pose": "pensar",
+     "cara": "sorpresa",
+     "entrada": "nada",
+     "cambios": [
+      {
+       "al": "@+1.1",
+       "pose": "jarras",
+       "cara": "sorpresa"
+      }
+     ]
+    }
+   },
+   "sfx": [
+    [
+     "golpe",
+     0.02,
+     1.0
+    ],
+    [
+     "boom",
+     0.04,
+     0.7
+    ],
+    [
+     "pregunta",
+     0.3,
+     0.8
+    ]
+   ],
+   "golpes": [
+    0.05
+   ]
+  },
+  {
+   "en": "El modo avión corta",
+   "color": "azul",
+   "escenas": [
+    {
+     "tipo": "iconos",
+     "tam": 220,
+     "items": [
+      {
+       "icono": "avion",
+       "texto": "MODO AVIÓN",
+       "al": "@modo"
+      },
+      {
+       "icono": "antena",
+       "texto": "DATOS Y LLAMADAS",
+       "al": "@datos",
+       "tachar_al": "@llamadas"
+      }
+     ],
+     "caja": {
+      "y": 620
+     }
+    }
+   ],
+   "personajes": {
+    "influ": {
+     "pose": "pensar",
+     "cara": "normal",
+     "salida": "der"
+    },
+    "mono": {
+     "pose": "presentar",
+     "cara": "risa",
+     "cambios": [
+      {
+       "al": "@+1.1",
+       "pose": "señalar_arriba",
+       "cara": "guiño"
+      }
+     ]
+    }
+   }
+  },
+  {
+   "en": "Pero el GPS no manda",
+   "color": "verde",
+   "escenas": [
+    {
+     "tipo": "iconos",
+     "tam": 300,
+     "items": [
+      {
+       "icono": "satelite",
+       "texto": "EL GPS SOLO ESCUCHA",
+       "al": "@escucha"
+      }
+     ],
+     "caja": {
+      "y": 600
+     }
+    }
+   ],
+   "personajes": {
+    "astro": {
+     "x": 0.76,
+     "escala": 0.95,
+     "mira": "izq",
+     "pose": "saludar",
+     "cara": "risa",
+     "entra": "@GPS",
+     "entrada": "cae"
+    },
+    "mono": {
+     "pose": "pensar",
+     "cara": "sorpresa",
+     "cambios": [
+      {
+       "al": "@+1.1",
+       "pose": "brazos_cruzados",
+       "cara": "normal"
+      },
+      {
+       "al": "@+3.3",
+       "pose": "presentar",
+       "cara": "chulo"
+      }
+     ]
+    }
+   }
+  },
+  {
+   "en": "Tu móvil sigue sabiendo",
+   "escenas": [
+    {
+     "tipo": "pantalla",
+     "dispositivo": "movil",
+     "titulo": "MAPA DESCARGADO",
+     "lineas": [
+      {
+       "texto": "Puntito azul: SÍ",
+       "al": "@puntito",
+       "color": "azul"
+      }
+     ],
+     "caja": {
+      "y": 560
+     }
+    }
+   ],
+   "personajes": {
+    "astro": {
+     "pose": "presentar",
+     "cara": "normal"
+    },
+    "mono": {
+     "pose": "jarras",
+     "cara": "guiño",
+     "cambios": [
+      {
+       "al": "@+1.1",
+       "pose": "saludar",
+       "cara": "chulo"
+      },
+      {
+       "al": "@+3.3",
+       "pose": "señalar",
+       "cara": "risa"
+      }
+     ]
+    }
+   }
+  },
+  {
+   "en": "Lo que no puede es",
+   "color": "morado",
+   "escenas": [
+    {
+     "tipo": "iconos",
+     "tam": 220,
+     "items": [
+      {
+       "icono": "servidor",
+       "texto": "NO LO CUENTA",
+       "al": "@nadie"
+      },
+      {
+       "icono": "wifi",
+       "texto": "HASTA CONECTAR",
+       "al": "@conectarte"
+      }
+     ],
+     "caja": {
+      "y": 620
+     }
+    }
+   ],
+   "personajes": {
+    "astro": {
+     "pose": "jarras",
+     "cara": "guiño",
+     "salida": "der"
+    },
+    "mono": {
+     "pose": "señalar_arriba",
+     "cara": "normal",
+     "cambios": [
+      {
+       "al": "@+1.1",
+       "pose": "presentar",
+       "cara": "risa"
+      }
+     ]
+    }
+   }
+  },
+  {
+   "en": "Y Google tiene más pistas",
+   "color": "naranja",
+   "escenas": [
+    {
+     "tipo": "iconos",
+     "tam": 170,
+     "items": [
+      {
+       "icono": "ip",
+       "texto": "IP",
+       "al": "@IP"
+      },
+      {
+       "icono": "antena",
+       "texto": "ANTENAS",
+       "al": "@antenas"
+      },
+      {
+       "icono": "wifi",
+       "texto": "WIFI",
+       "al": "@WiFi"
+      },
+      {
+       "icono": "foto",
+       "texto": "FOTOS",
+       "al": "@fotos"
+      }
+     ],
+     "caja": {
+      "y": 620
+     }
+    }
+   ],
+   "personajes": {
+    "mono": {
+     "pose": "señalar_arriba",
+     "cara": "sorpresa",
+     "cambios": [
+      {
+       "al": "@+1.1",
+       "pose": "señalar",
+       "cara": "normal"
+      },
+      {
+       "al": "@+3.3",
+       "pose": "presentar",
+       "cara": "risa"
+      },
+      {
+       "al": "@+5.5",
+       "pose": "jarras",
+       "cara": "sorpresa"
+      }
+     ]
+    }
+   }
+  },
+  {
+   "en": "En dos mil veintidós",
+   "color": "rojo",
+   "escenas": [
+    {
+     "tipo": "cifra",
+     "desde": 0,
+     "hasta": 391.5,
+     "al": "@trescientos",
+     "decimales": 1,
+     "sufijo": " M$",
+     "antes": "GOOGLE PAGÓ",
+     "etiqueta": "a 40 estados",
+     "etiqueta_al": "@cuarenta",
+     "tam": 170,
+     "color": "rojo",
+     "dur": 0.9
+    }
+   ],
+   "personajes": {
+    "poli": {
+     "x": 0.76,
+     "escala": 0.95,
+     "mira": "izq",
+     "pose": "señalar",
+     "cara": "enfado",
+     "entra": "@pagó",
+     "entrada": "cae"
+    },
+    "mono": {
+     "pose": "saludar",
+     "cara": "risa",
+     "cambios": [
+      {
+       "al": "@+1.1",
+       "pose": "señalar",
+       "cara": "risa"
+      },
+      {
+       "al": "@+3.3",
+       "pose": "pensar",
+       "cara": "sorpresa"
+      },
+      {
+       "al": "@+5.5",
+       "pose": "señalar_arriba",
+       "cara": "guiño"
+      },
+      {
+       "al": "@+7.7",
+       "pose": "saludar",
+       "cara": "normal"
+      }
+     ]
+    }
+   }
+  },
+  {
+   "en": "Veredicto",
+   "color": "amarillo",
+   "escenas": [
+    {
+     "tipo": "mito_verdad",
+     "afirmacion": "El modo avión te esconde de Google",
+     "veredicto": "medias",
+     "al": "@medias",
+     "pistas": [
+      {
+       "texto": "No apaga tu ubicación",
+       "al": "@apaga"
+      },
+      {
+       "texto": "Se queda en el móvil",
+       "al": "@conectas"
+      }
+     ]
+    }
+   ],
+   "personajes": {
+    "poli": {
+     "pose": "jarras",
+     "cara": "chulo",
+     "salida": "der"
+    },
+    "mono": {
+     "pose": "brazos_cruzados",
+     "cara": "chulo",
+     "salta": true,
+     "cambios": [
+      {
+       "al": "@+1.1",
+       "pose": "presentar",
+       "cara": "sorpresa"
+      },
+      {
+       "al": "@+3.3",
+       "pose": "jarras",
+       "cara": "guiño"
+      },
+      {
+       "al": "@+5.5",
+       "pose": "brazos_cruzados",
+       "cara": "normal"
+      }
+     ]
+    }
+   }
+  },
+  {
+   "en": "Si quieres que no",
+   "color": "verde",
+   "escenas": [
+    {
+     "tipo": "pantalla",
+     "dispositivo": "movil",
+     "titulo": "AJUSTES",
+     "lineas": [
+      {
+       "texto": "Ubicación de tu cuenta",
+       "al": "@ubicación",
+       "color": "amarillo"
+      }
+     ],
+     "caja": {
+      "y": 560
+     }
+    }
+   ],
+   "personajes": {
+    "profe": {
+     "x": 0.76,
+     "escala": 0.95,
+     "mira": "izq",
+     "pose": "presentar",
+     "cara": "risa",
+     "objeto": "puntero",
+     "entra": "@botón",
+     "entrada": "der"
+    },
+    "mono": {
+     "pose": "señalar",
+     "cara": "guiño",
+     "cambios": [
+      {
+       "al": "@+1.1",
+       "pose": "pensar",
+       "cara": "guiño"
+      },
+      {
+       "al": "@+3.3",
+       "pose": "señalar_arriba",
+       "cara": "normal"
+      }
+     ]
+    }
+   }
+  }
+ ],
+ "cola": 0.9,
+ "formato": "9:16"
+}

@@ -1,0 +1,2309 @@
+{
+ "reparto": {
+  "mono": {
+   "tipo": "protagonista",
+   "narrador": true
+  },
+  "mona": {
+   "tipo": "mona"
+  },
+  "rico": {
+   "tipo": "rico"
+  },
+  "astro": {
+   "tipo": "astronauta"
+  },
+  "currito": {
+   "tipo": "currito"
+  },
+  "influ": {
+   "tipo": "influencer"
+  },
+  "abuelo": {
+   "tipo": "abuelo"
+  },
+  "cocinero": {
+   "tipo": "cocinero"
+  },
+  "medico": {
+   "tipo": "medico"
+  }
+ },
+ "tramos": [
+  {
+   "en": "Lunes, nueve de la mañana",
+   "color": "rojo",
+   "capitulo": "Un día sin Internet",
+   "escenas": [
+    {
+     "tipo": "reloj",
+     "escenario": null,
+     "rotulo": "9:00",
+     "subtitulo": "Internet se apaga",
+     "desde": 530,
+     "hasta": 540,
+     "al": "@+0.2",
+     "caos": 5,
+     "medidor": "CAOS",
+     "dur": 1.3
+    },
+    {
+     "tipo": "texto",
+     "tam": 92,
+     "palabras": [
+      {
+       "texto": "¿Y SI SE APAGA",
+       "al": "@inicio",
+       "color": "amarillo"
+      },
+      {
+       "texto": "INTERNET?",
+       "al": "@+0.15",
+       "caja": true,
+       "color": "rojo"
+      }
+     ],
+     "zona": "arriba",
+     "caja": {
+      "y": 110
+     },
+     "por_fila": 30
+    }
+   ],
+   "personajes": {
+    "mono": {
+     "x": 0.1,
+     "escala": 0.8,
+     "objeto": "movil",
+     "pose": "de_pie",
+     "cara": "normal",
+     "cambios": [
+      {
+       "al": "@apaga",
+       "pose": "miedo",
+       "cara": "miedo",
+       "salta": true
+      }
+     ]
+    }
+   },
+   "sfx": [
+    [
+     "golpe",
+     0.02,
+     1.0
+    ],
+    [
+     "boom",
+     0.04,
+     0.7
+    ],
+    [
+     "apagon",
+     "@apaga",
+     0.9
+    ]
+   ],
+   "golpes": [
+    0.05,
+    "@apaga"
+   ]
+  },
+  {
+   "en": "¿Cuánto aguantaríamos?",
+   "color": "morado",
+   "escenas": [
+    {
+     "tipo": "pregunta",
+     "pregunta": "¿Cuánto aguantaríamos?",
+     "al": "@aguantaríamos"
+    }
+   ],
+   "personajes": {
+    "mona": {
+     "x": 0.89,
+     "escala": 0.8,
+     "mira": "izq",
+     "pose": "encogerse",
+     "cara": "miedo",
+     "objeto": "movil",
+     "entra": "@funcionando",
+     "entrada": "der"
+    },
+    "mono": {
+     "objeto": "ninguno",
+     "pose": "pensar",
+     "cara": "sorpresa",
+     "cambios": [
+      {
+       "al": "@+1.1",
+       "pose": "señalar_arriba",
+       "cara": "guiño"
+      },
+      {
+       "al": "@+3.3",
+       "pose": "saludar",
+       "cara": "normal"
+      }
+     ]
+    }
+   }
+  },
+  {
+   "en": "Es un escenario imaginario",
+   "color": "azul",
+   "escenas": [
+    {
+     "tipo": "sello",
+     "texto": "IMAGINARIO",
+     "al": "@imaginario",
+     "color": "azul",
+     "tam": 130
+    }
+   ],
+   "personajes": {
+    "mona": {
+     "pose": "pensar",
+     "cara": "normal"
+    },
+    "mono": {
+     "pose": "pensar",
+     "cara": "sorpresa",
+     "cambios": []
+    }
+   }
+  },
+  {
+   "en": "Pero cada cosa que",
+   "color": "amarillo",
+   "escenas": [
+    {
+     "tipo": "linea_tiempo",
+     "titulo": "YA HA PASADO, EN PEQUEÑO",
+     "hitos": [
+      {
+       "fecha": "2011",
+       "texto": "Egipto apaga Internet",
+       "icono": "mundo",
+       "al": "@+0.3"
+      },
+      {
+       "fecha": "2021",
+       "texto": "WhatsApp cae 6 horas",
+       "icono": "wasap",
+       "al": "@+1.5"
+      },
+      {
+       "fecha": "2024",
+       "texto": "CrowdStrike tumba Windows",
+       "icono": "ordenador",
+       "al": "@+2.7"
+      },
+      {
+       "fecha": "2025",
+       "texto": "Gran apagón en España",
+       "icono": "rayo",
+       "al": "@+3.9"
+      }
+     ]
+    }
+   ],
+   "personajes": {
+    "mona": {
+     "pose": "señalar",
+     "cara": "sorpresa",
+     "salida": "der"
+    },
+    "mono": {
+     "pose": "jarras",
+     "cara": "guiño",
+     "cambios": [
+      {
+       "al": "@+1.1",
+       "pose": "saludar",
+       "cara": "chulo"
+      },
+      {
+       "al": "@+3.3",
+       "pose": "señalar",
+       "cara": "risa"
+      }
+     ]
+    }
+   }
+  },
+  {
+   "en": "Estas son las diez cosas",
+   "escenas": [
+    {
+     "tipo": "flujo",
+     "titulo": "HORA A HORA",
+     "nodos": [
+      {
+       "texto": "MINUTO 1",
+       "icono": "movil",
+       "al": "@+0.4"
+      },
+      {
+       "texto": "HORA 12",
+       "icono": "cajero",
+       "al": "@+1.4"
+      },
+      {
+       "texto": "DÍA 5",
+       "icono": "calendario",
+       "al": "@+2.4",
+       "color": "rojo"
+      }
+     ]
+    }
+   ],
+   "personajes": {
+    "mono": {
+     "pose": "presentar",
+     "cara": "risa",
+     "cambios": [
+      {
+       "al": "@+1.1",
+       "pose": "presentar",
+       "cara": "risa"
+      },
+      {
+       "al": "@+3.3",
+       "pose": "señalar",
+       "cara": "normal"
+      },
+      {
+       "al": "@+5.5",
+       "pose": "pensar",
+       "cara": "risa"
+      },
+      {
+       "al": "@+7.7",
+       "pose": "señalar_arriba",
+       "cara": "sorpresa"
+      }
+     ]
+    }
+   }
+  },
+  {
+   "en": "Número uno",
+   "color": "azul",
+   "capitulo": "1. Minuto 1: el móvil, mudo",
+   "escenas": [
+    {
+     "tipo": "reloj",
+     "escenario": "UN DÍA SIN INTERNET · 1/10",
+     "rotulo": "MINUTO 1",
+     "subtitulo": "El móvil, mudo",
+     "desde": 540,
+     "hasta": 541,
+     "al": "@inicio",
+     "caos": 15,
+     "medidor": "CAOS",
+     "dur": 1.3
+    }
+   ],
+   "personajes": {
+    "mono": {
+     "objeto": "movil",
+     "salta": true,
+     "pose": "brazos_cruzados",
+     "cara": "chulo",
+     "cambios": [
+      {
+       "al": "@+1.1",
+       "pose": "señalar",
+       "cara": "normal"
+      },
+      {
+       "al": "@+3.3",
+       "pose": "presentar",
+       "cara": "risa"
+      }
+     ]
+    }
+   }
+  },
+  {
+   "en": "WhatsApp, Instagram, el correo",
+   "escenas": [
+    {
+     "tipo": "iconos",
+     "tam": 230,
+     "items": [
+      {
+       "icono": "wasap",
+       "texto": "WHATSAPP",
+       "al": "@WhatsApp",
+       "tachar_al": "@carga"
+      },
+      {
+       "icono": "foto",
+       "texto": "INSTAGRAM",
+       "al": "@Instagram",
+       "tachar_al": "@carga"
+      },
+      {
+       "icono": "sobre",
+       "texto": "CORREO",
+       "al": "@correo",
+       "tachar_al": "@carga"
+      }
+     ]
+    }
+   ],
+   "personajes": {
+    "mono": {
+     "pose": "encogerse",
+     "cara": "sorpresa",
+     "cambios": [
+      {
+       "al": "@+1.1",
+       "pose": "señalar",
+       "cara": "risa"
+      },
+      {
+       "al": "@+3.3",
+       "pose": "pensar",
+       "cara": "sorpresa"
+      }
+     ]
+    }
+   }
+  },
+  {
+   "en": "Las llamadas de toda la vida",
+   "escenas": [
+    {
+     "tipo": "iconos",
+     "tam": 230,
+     "items": [
+      {
+       "icono": "movil",
+       "texto": "LLAMADAS: EN PRINCIPIO SÍ",
+       "al": "@llamadas"
+      },
+      {
+       "icono": "antena",
+       "texto": "RED DE TELEFONÍA",
+       "al": "@telefonía"
+      }
+     ]
+    }
+   ],
+   "personajes": {
+    "mono": {
+     "objeto": "ninguno",
+     "pose": "presentar",
+     "cara": "normal",
+     "cambios": [
+      {
+       "al": "@+1.1",
+       "pose": "presentar",
+       "cara": "sorpresa"
+      },
+      {
+       "al": "@+3.3",
+       "pose": "jarras",
+       "cara": "guiño"
+      }
+     ]
+    }
+   }
+  },
+  {
+   "en": "El problema es que todo",
+   "color": "rojo",
+   "escenas": [
+    {
+     "tipo": "sello",
+     "texto": "SATURADA",
+     "al": "@saturaría",
+     "color": "rojo"
+    }
+   ],
+   "personajes": {
+    "currito": {
+     "x": 0.89,
+     "escala": 0.8,
+     "mira": "izq",
+     "pose": "miedo",
+     "cara": "miedo",
+     "objeto": "movil",
+     "entra": "@mundo",
+     "entrada": "der"
+    },
+    "mono": {
+     "pose": "señalar",
+     "cara": "risa",
+     "cambios": [
+      {
+       "al": "@+1.1",
+       "pose": "pensar",
+       "cara": "guiño"
+      },
+      {
+       "al": "@+3.3",
+       "pose": "señalar_arriba",
+       "cara": "normal"
+      }
+     ]
+    }
+   }
+  },
+  {
+   "en": "Número dos",
+   "color": "naranja",
+   "capitulo": "2. Minuto 10: las tarjetas",
+   "escenas": [
+    {
+     "tipo": "reloj",
+     "escenario": "UN DÍA SIN INTERNET · 2/10",
+     "rotulo": "MINUTO 10",
+     "subtitulo": "Las tarjetas no pasan",
+     "desde": 541,
+     "hasta": 550,
+     "al": "@inicio",
+     "caos": 30,
+     "medidor": "CAOS",
+     "dur": 1.3
+    }
+   ],
+   "personajes": {
+    "currito": {
+     "pose": "pensar",
+     "cara": "normal",
+     "salida": "der"
+    },
+    "mono": {
+     "salta": true,
+     "pose": "señalar",
+     "cara": "sorpresa",
+     "cambios": [
+      {
+       "al": "@+1.1",
+       "pose": "jarras",
+       "cara": "normal"
+      }
+     ]
+    }
+   }
+  },
+  {
+   "en": "El datáfono necesita conexión",
+   "escenas": [
+    {
+     "tipo": "flujo",
+     "nodos": [
+      {
+       "texto": "DATÁFONO",
+       "icono": "tarjeta",
+       "al": "@datáfono"
+      },
+      {
+       "texto": "¿TIENES DINERO?",
+       "icono": "banco",
+       "al": "@banco"
+      },
+      {
+       "texto": "SOLO EFECTIVO",
+       "icono": "dolar",
+       "al": "@efectivo",
+       "color": "rojo"
+      }
+     ]
+    }
+   ],
+   "personajes": {
+    "mono": {
+     "pose": "presentar",
+     "cara": "guiño",
+     "cambios": [
+      {
+       "al": "@+1.1",
+       "pose": "señalar_arriba",
+       "cara": "chulo"
+      },
+      {
+       "al": "@+3.3",
+       "pose": "saludar",
+       "cara": "risa"
+      }
+     ]
+    }
+   }
+  },
+  {
+   "en": "En España ya lo vivimos",
+   "color": "amarillo",
+   "escenas": [
+    {
+     "tipo": "iconos",
+     "tam": 230,
+     "items": [
+      {
+       "icono": "rayo",
+       "texto": "28 DE ABRIL DE 2025",
+       "al": "@veintiocho"
+      },
+      {
+       "icono": "tarjeta",
+       "texto": "TARJETAS",
+       "al": "@tarjeta",
+       "tachar_al": "@dejaron"
+      }
+     ]
+    }
+   ],
+   "personajes": {
+    "mono": {
+     "pose": "pensar",
+     "cara": "normal",
+     "cambios": [
+      {
+       "al": "@+1.1",
+       "pose": "brazos_cruzados",
+       "cara": "risa"
+      },
+      {
+       "al": "@+3.3",
+       "pose": "presentar",
+       "cara": "normal"
+      },
+      {
+       "al": "@+5.5",
+       "pose": "señalar",
+       "cara": "risa"
+      }
+     ]
+    }
+   }
+  },
+  {
+   "en": "CaixaBank calculó",
+   "escenas": [
+    {
+     "tipo": "cifra",
+     "desde": 0,
+     "hasta": 34,
+     "al": "@calculó",
+     "prefijo": "-",
+     "sufijo": " %",
+     "flecha": "baja",
+     "antes": "GASTO DE LOS HOGARES ESE DÍA",
+     "color": "rojo",
+     "tam": 230,
+     "dur": 0.9
+    }
+   ],
+   "personajes": {
+    "mono": {
+     "pose": "jarras",
+     "cara": "chulo",
+     "cambios": [
+      {
+       "al": "@+1.1",
+       "pose": "saludar",
+       "cara": "normal"
+      },
+      {
+       "al": "@+3.3",
+       "pose": "señalar",
+       "cara": "risa"
+      }
+     ]
+    }
+   }
+  },
+  {
+   "en": "El billete arrugado",
+   "color": "verde",
+   "escenas": [
+    {
+     "tipo": "texto",
+     "tam": 110,
+     "palabras": [
+      {
+       "texto": "EL BILLETE DEL CAJÓN",
+       "al": "@billete"
+      },
+      {
+       "texto": "VALE ORO",
+       "al": "@oro",
+       "caja": true,
+       "color": "oro"
+      }
+     ]
+    }
+   ],
+   "personajes": {
+    "rico": {
+     "x": 0.89,
+     "escala": 0.8,
+     "mira": "izq",
+     "pose": "celebrar",
+     "cara": "risa",
+     "entra": "@billete",
+     "entrada": "cae"
+    },
+    "mono": {
+     "pose": "señalar_arriba",
+     "cara": "risa",
+     "cambios": [
+      {
+       "al": "@+1.1",
+       "pose": "presentar",
+       "cara": "risa"
+      }
+     ]
+    }
+   }
+  },
+  {
+   "en": "Número tres",
+   "color": "verde",
+   "capitulo": "3. Hora 1: los mapas",
+   "escenas": [
+    {
+     "tipo": "reloj",
+     "escenario": "UN DÍA SIN INTERNET · 3/10",
+     "rotulo": "HORA 1",
+     "subtitulo": "Los mapas, en blanco",
+     "desde": 550,
+     "hasta": 600,
+     "al": "@inicio",
+     "caos": 40,
+     "medidor": "CAOS",
+     "dur": 1.3
+    }
+   ],
+   "personajes": {
+    "rico": {
+     "pose": "brazos_cruzados",
+     "cara": "chulo",
+     "salida": "der"
+    },
+    "mono": {
+     "salta": true,
+     "pose": "brazos_cruzados",
+     "cara": "normal",
+     "cambios": [
+      {
+       "al": "@+1.1",
+       "pose": "señalar",
+       "cara": "sorpresa"
+      }
+     ]
+    }
+   }
+  },
+  {
+   "en": "El GPS seguiría funcionando",
+   "escenas": [
+    {
+     "tipo": "iconos",
+     "tam": 230,
+     "items": [
+      {
+       "icono": "satelite",
+       "texto": "EL GPS SÍ FUNCIONA",
+       "al": "@GPS"
+      },
+      {
+       "icono": "mundo",
+       "texto": "NO NECESITA INTERNET",
+       "al": "@Internet"
+      }
+     ]
+    }
+   ],
+   "personajes": {
+    "astro": {
+     "x": 0.89,
+     "escala": 0.8,
+     "mira": "izq",
+     "pose": "saludar",
+     "cara": "risa",
+     "entra": "@satélites",
+     "entrada": "cae"
+    },
+    "mono": {
+     "pose": "saludar",
+     "cara": "risa",
+     "cambios": [
+      {
+       "al": "@+1.1",
+       "pose": "señalar",
+       "cara": "guiño"
+      },
+      {
+       "al": "@+3.3",
+       "pose": "pensar",
+       "cara": "normal"
+      }
+     ]
+    }
+   }
+  },
+  {
+   "en": "Pero sabrías dónde estás",
+   "escenas": [
+    {
+     "tipo": "iconos",
+     "tam": 230,
+     "items": [
+      {
+       "icono": "mapa",
+       "texto": "MAPA VACÍO",
+       "al": "@mapa"
+      },
+      {
+       "icono": "pin",
+       "texto": "SOLO UN PUNTITO",
+       "al": "@puntito"
+      }
+     ]
+    }
+   ],
+   "personajes": {
+    "astro": {
+     "pose": "encogerse",
+     "cara": "sorpresa"
+    },
+    "mono": {
+     "pose": "presentar",
+     "cara": "sorpresa",
+     "cambios": [
+      {
+       "al": "@+1.1",
+       "pose": "presentar",
+       "cara": "normal"
+      },
+      {
+       "al": "@+3.3",
+       "pose": "jarras",
+       "cara": "chulo"
+      },
+      {
+       "al": "@+5.5",
+       "pose": "brazos_cruzados",
+       "cara": "risa"
+      }
+     ]
+    }
+   }
+  },
+  {
+   "en": "Salvo que te hubieras",
+   "escenas": [
+    {
+     "tipo": "pantalla",
+     "dispositivo": "movil",
+     "titulo": "MAPAS",
+     "lineas": [
+      {
+       "texto": "Descargar mapa sin conexión",
+       "al": "@descargado",
+       "color": "verde"
+      },
+      {
+       "texto": "Casi nadie lo hace",
+       "al": "@nadie",
+       "color": "rojo"
+      }
+     ]
+    }
+   ],
+   "personajes": {
+    "astro": {
+     "pose": "señalar",
+     "cara": "guiño",
+     "salida": "der"
+    },
+    "mono": {
+     "pose": "señalar",
+     "cara": "guiño",
+     "cambios": [
+      {
+       "al": "@+1.1",
+       "pose": "pensar",
+       "cara": "chulo"
+      }
+     ]
+    }
+   }
+  },
+  {
+   "en": "Número cuatro",
+   "color": "morado",
+   "capitulo": "4. Hora 2: las empresas",
+   "escenas": [
+    {
+     "tipo": "reloj",
+     "escenario": "UN DÍA SIN INTERNET · 4/10",
+     "rotulo": "HORA 2",
+     "subtitulo": "Las empresas, paradas",
+     "desde": 600,
+     "hasta": 660,
+     "al": "@inicio",
+     "caos": 55,
+     "medidor": "CAOS",
+     "dur": 1.3
+    }
+   ],
+   "personajes": {
+    "mono": {
+     "salta": true,
+     "pose": "señalar",
+     "cara": "normal",
+     "cambios": [
+      {
+       "al": "@+1.1",
+       "pose": "jarras",
+       "cara": "risa"
+      }
+     ]
+    }
+   }
+  },
+  {
+   "en": "El correo, los archivos",
+   "escenas": [
+    {
+     "tipo": "iconos",
+     "tam": 230,
+     "items": [
+      {
+       "icono": "sobre",
+       "texto": "CORREO",
+       "al": "@correo",
+       "tachar_al": "@conectadas"
+      },
+      {
+       "icono": "nube",
+       "texto": "LA NUBE",
+       "al": "@nube",
+       "tachar_al": "@conectadas"
+      },
+      {
+       "icono": "ordenador",
+       "texto": "VIDEOLLAMADAS",
+       "al": "@videollamadas",
+       "tachar_al": "@conectadas"
+      }
+     ]
+    }
+   ],
+   "personajes": {
+    "currito": {
+     "x": 0.89,
+     "escala": 0.8,
+     "mira": "izq",
+     "pose": "jarras",
+     "cara": "enfado",
+     "objeto": "ninguno",
+     "entra": "@oficinas",
+     "entrada": "der"
+    },
+    "mono": {
+     "pose": "presentar",
+     "cara": "chulo",
+     "cambios": [
+      {
+       "al": "@+1.1",
+       "pose": "señalar_arriba",
+       "cara": "normal"
+      },
+      {
+       "al": "@+3.3",
+       "pose": "saludar",
+       "cara": "risa"
+      }
+     ]
+    }
+   }
+  },
+  {
+   "en": "Pasó algo parecido",
+   "color": "rojo",
+   "escenas": [
+    {
+     "tipo": "cifra",
+     "desde": 0,
+     "hasta": 8.5,
+     "al": "@CrowdStrike",
+     "decimales": 1,
+     "sufijo": " MILLONES",
+     "antes": "ORDENADORES CAÍDOS · CROWDSTRIKE 2024",
+     "tam": 170,
+     "color": "rojo",
+     "dur": 1.0
+    }
+   ],
+   "personajes": {
+    "currito": {
+     "pose": "miedo",
+     "cara": "miedo"
+    },
+    "mono": {
+     "pose": "pensar",
+     "cara": "risa",
+     "cambios": [
+      {
+       "al": "@+1.1",
+       "pose": "brazos_cruzados",
+       "cara": "risa"
+      },
+      {
+       "al": "@+3.3",
+       "pose": "presentar",
+       "cara": "sorpresa"
+      },
+      {
+       "al": "@+5.5",
+       "pose": "señalar",
+       "cara": "guiño"
+      },
+      {
+       "al": "@+7.7",
+       "pose": "pensar",
+       "cara": "normal"
+      }
+     ]
+    }
+   }
+  },
+  {
+   "en": "Hubo miles de vuelos",
+   "escenas": [
+    {
+     "tipo": "iconos",
+     "tam": 230,
+     "items": [
+      {
+       "icono": "avion",
+       "texto": "VUELOS CANCELADOS",
+       "al": "@vuelos"
+      },
+      {
+       "icono": "hospital",
+       "texto": "HOSPITALES",
+       "al": "@hospitales"
+      },
+      {
+       "icono": "banco",
+       "texto": "BANCOS",
+       "al": "@bancos"
+      }
+     ]
+    }
+   ],
+   "personajes": {
+    "currito": {
+     "pose": "encogerse",
+     "cara": "triste",
+     "salida": "der"
+    },
+    "mono": {
+     "pose": "jarras",
+     "cara": "normal",
+     "cambios": [
+      {
+       "al": "@+1.1",
+       "pose": "saludar",
+       "cara": "sorpresa"
+      },
+      {
+       "al": "@+3.3",
+       "pose": "señalar",
+       "cara": "guiño"
+      },
+      {
+       "al": "@+5.5",
+       "pose": "presentar",
+       "cara": "normal"
+      }
+     ]
+    }
+   }
+  },
+  {
+   "en": "Número cinco",
+   "color": "rosa",
+   "capitulo": "5. Hora 6: las redes",
+   "escenas": [
+    {
+     "tipo": "reloj",
+     "escenario": "UN DÍA SIN INTERNET · 5/10",
+     "rotulo": "HORA 6",
+     "subtitulo": "Silencio en las redes",
+     "desde": 660,
+     "hasta": 900,
+     "al": "@inicio",
+     "caos": 60,
+     "medidor": "CAOS",
+     "dur": 1.3
+    }
+   ],
+   "personajes": {
+    "influ": {
+     "x": 0.89,
+     "escala": 0.8,
+     "mira": "izq",
+     "pose": "miedo",
+     "cara": "miedo",
+     "entra": "@redes",
+     "entrada": "cae"
+    },
+    "mono": {
+     "salta": true,
+     "pose": "señalar_arriba",
+     "cara": "risa",
+     "cambios": [
+      {
+       "al": "@+1.1",
+       "pose": "presentar",
+       "cara": "guiño"
+      }
+     ]
+    }
+   }
+  },
+  {
+   "en": "Seis horas es lo que duró",
+   "escenas": [
+    {
+     "tipo": "iconos",
+     "tam": 230,
+     "items": [
+      {
+       "icono": "wasap",
+       "texto": "CAÍDA DE 2021",
+       "al": "@caída"
+      },
+      {
+       "icono": "reloj_arena",
+       "texto": "SEIS HORAS",
+       "al": "@seis"
+      }
+     ]
+    }
+   ],
+   "personajes": {
+    "influ": {
+     "pose": "encogerse",
+     "cara": "triste"
+    },
+    "mono": {
+     "pose": "brazos_cruzados",
+     "cara": "sorpresa",
+     "cambios": [
+      {
+       "al": "@+1.1",
+       "pose": "señalar",
+       "cara": "normal"
+      },
+      {
+       "al": "@+3.3",
+       "pose": "presentar",
+       "cara": "chulo"
+      }
+     ]
+    }
+   }
+  },
+  {
+   "en": "Ese día, Telegram ganó",
+   "color": "azul",
+   "escenas": [
+    {
+     "tipo": "cifra",
+     "desde": 0,
+     "hasta": 70,
+     "al": "@setenta",
+     "sufijo": " MILLONES",
+     "antes": "USUARIOS NUEVOS DE TELEGRAM",
+     "tam": 190,
+     "color": "azul",
+     "dur": 0.9
+    }
+   ],
+   "personajes": {
+    "influ": {
+     "pose": "correr",
+     "cara": "sorpresa"
+    },
+    "mono": {
+     "pose": "saludar",
+     "cara": "guiño",
+     "cambios": [
+      {
+       "al": "@+1.1",
+       "pose": "señalar",
+       "cara": "chulo"
+      },
+      {
+       "al": "@+3.3",
+       "pose": "pensar",
+       "cara": "risa"
+      },
+      {
+       "al": "@+5.5",
+       "pose": "señalar_arriba",
+       "cara": "normal"
+      }
+     ]
+    }
+   }
+  },
+  {
+   "en": "Pero en nuestro escenario",
+   "escenas": [
+    {
+     "tipo": "sello",
+     "texto": "NINGUNA",
+     "al": "@ninguna",
+     "color": "rojo"
+    }
+   ],
+   "personajes": {
+    "influ": {
+     "pose": "sentado",
+     "cara": "triste",
+     "salida": "der"
+    },
+    "mono": {
+     "pose": "presentar",
+     "cara": "normal",
+     "cambios": [
+      {
+       "al": "@+1.1",
+       "pose": "presentar",
+       "cara": "risa"
+      },
+      {
+       "al": "@+3.3",
+       "pose": "jarras",
+       "cara": "normal"
+      }
+     ]
+    }
+   }
+  },
+  {
+   "en": "Y ahora vienen las horas",
+   "color": "rojo",
+   "escenas": [
+    {
+     "tipo": "texto",
+     "tam": 110,
+     "palabras": [
+      {
+       "texto": "LAS HORAS QUE",
+       "al": "@horas"
+      },
+      {
+       "texto": "DAN MIEDO",
+       "al": "@miedo",
+       "caja": true,
+       "color": "rojo"
+      }
+     ]
+    }
+   ],
+   "personajes": {
+    "mono": {
+     "pose": "miedo",
+     "cara": "miedo",
+     "cambios": [
+      {
+       "al": "@+1.1",
+       "pose": "pensar",
+       "cara": "normal"
+      }
+     ]
+    }
+   }
+  },
+  {
+   "en": "Número seis",
+   "capitulo": "6. Hora 12: los cajeros",
+   "escenas": [
+    {
+     "tipo": "reloj",
+     "escenario": "UN DÍA SIN INTERNET · 6/10",
+     "rotulo": "HORA 12",
+     "subtitulo": "Los cajeros, vacíos",
+     "desde": 900,
+     "hasta": 1260,
+     "al": "@inicio",
+     "caos": 75,
+     "medidor": "CAOS",
+     "dur": 1.3
+    }
+   ],
+   "personajes": {
+    "mono": {
+     "salta": true,
+     "pose": "señalar",
+     "cara": "risa",
+     "cambios": [
+      {
+       "al": "@+1.1",
+       "pose": "jarras",
+       "cara": "risa"
+      }
+     ]
+    }
+   }
+  },
+  {
+   "en": "Si solo vale el efectivo",
+   "color": "naranja",
+   "escenas": [
+    {
+     "tipo": "iconos",
+     "tam": 230,
+     "items": [
+      {
+       "icono": "dolar",
+       "texto": "TODOS A POR EFECTIVO",
+       "al": "@efectivo"
+      },
+      {
+       "icono": "cajero",
+       "texto": "CAJEROS",
+       "al": "@cajeros",
+       "tachar_al": "@billetes"
+      }
+     ]
+    }
+   ],
+   "personajes": {
+    "rico": {
+     "x": 0.89,
+     "escala": 0.8,
+     "mira": "izq",
+     "pose": "correr",
+     "cara": "miedo",
+     "entra": "@todo",
+     "entrada": "der"
+    },
+    "mono": {
+     "pose": "presentar",
+     "cara": "normal",
+     "cambios": [
+      {
+       "al": "@+1.1",
+       "pose": "señalar_arriba",
+       "cara": "sorpresa"
+      },
+      {
+       "al": "@+3.3",
+       "pose": "saludar",
+       "cara": "guiño"
+      }
+     ]
+    }
+   }
+  },
+  {
+   "en": "En el apagón de España, el Banco",
+   "escenas": [
+    {
+     "tipo": "iconos",
+     "tam": 230,
+     "items": [
+      {
+       "icono": "banco",
+       "texto": "BANCO DE ESPAÑA",
+       "al": "@Banco"
+      },
+      {
+       "icono": "cajero",
+       "texto": "SIN BILLETES",
+       "al": "@billetes"
+      }
+     ]
+    }
+   ],
+   "personajes": {
+    "rico": {
+     "pose": "encogerse",
+     "cara": "triste"
+    },
+    "mono": {
+     "pose": "pensar",
+     "cara": "risa",
+     "cambios": [
+      {
+       "al": "@+1.1",
+       "pose": "brazos_cruzados",
+       "cara": "guiño"
+      },
+      {
+       "al": "@+3.3",
+       "pose": "presentar",
+       "cara": "normal"
+      }
+     ]
+    }
+   }
+  },
+  {
+   "en": "Así que el dinero que tienes",
+   "escenas": [
+    {
+     "tipo": "iconos",
+     "tam": 280,
+     "items": [
+      {
+       "icono": "hucha",
+       "texto": "EL ÚNICO QUE TIENES",
+       "al": "@único"
+      }
+     ]
+    }
+   ],
+   "personajes": {
+    "rico": {
+     "pose": "brazos_cruzados",
+     "cara": "enfado",
+     "salida": "der"
+    },
+    "mono": {
+     "pose": "jarras",
+     "cara": "sorpresa",
+     "cambios": [
+      {
+       "al": "@+1.1",
+       "pose": "saludar",
+       "cara": "normal"
+      }
+     ]
+    }
+   }
+  },
+  {
+   "en": "Número siete",
+   "color": "verde",
+   "capitulo": "7. Hora 24: la radio",
+   "escenas": [
+    {
+     "tipo": "reloj",
+     "escenario": "UN DÍA SIN INTERNET · 7/10",
+     "rotulo": "HORA 24",
+     "subtitulo": "Vuelve la radio",
+     "desde": 1260,
+     "hasta": 1980,
+     "al": "@inicio",
+     "caos": 70,
+     "medidor": "CAOS",
+     "dur": 1.3
+    }
+   ],
+   "personajes": {
+    "mono": {
+     "salta": true,
+     "pose": "señalar_arriba",
+     "cara": "guiño",
+     "cambios": [
+      {
+       "al": "@+1.1",
+       "pose": "presentar",
+       "cara": "chulo"
+      }
+     ]
+    }
+   }
+  },
+  {
+   "en": "Sin redes ni webs",
+   "escenas": [
+    {
+     "tipo": "pregunta",
+     "pregunta": "¿Cómo te enteras de lo que pasa?",
+     "al": "@enteras",
+     "respuesta": "RADIO DE PILAS",
+     "respuesta_al": "@radio",
+     "color": "verde"
+    }
+   ],
+   "personajes": {
+    "mono": {
+     "pose": "brazos_cruzados",
+     "cara": "normal",
+     "cambios": [
+      {
+       "al": "@+1.1",
+       "pose": "señalar",
+       "cara": "risa"
+      },
+      {
+       "al": "@+3.3",
+       "pose": "presentar",
+       "cara": "normal"
+      }
+     ]
+    }
+   }
+  },
+  {
+   "en": "En el apagón de abril",
+   "escenas": [
+    {
+     "tipo": "iconos",
+     "tam": 280,
+     "items": [
+      {
+       "icono": "radio",
+       "texto": "LA RADIO DEL ABUELO",
+       "al": "@radio"
+      }
+     ]
+    }
+   ],
+   "personajes": {
+    "abuelo": {
+     "x": 0.89,
+     "escala": 0.8,
+     "mira": "izq",
+     "pose": "saludar",
+     "cara": "risa",
+     "entra": "@abuelo",
+     "entrada": "salto"
+    },
+    "mono": {
+     "pose": "saludar",
+     "cara": "chulo",
+     "cambios": [
+      {
+       "al": "@+1.1",
+       "pose": "señalar",
+       "cara": "normal"
+      },
+      {
+       "al": "@+3.3",
+       "pose": "pensar",
+       "cara": "risa"
+      }
+     ]
+    }
+   }
+  },
+  {
+   "en": "El aparato más viejo",
+   "escenas": [
+    {
+     "tipo": "texto",
+     "tam": 100,
+     "palabras": [
+      {
+       "texto": "EL MÁS VIEJO",
+       "al": "@viejo"
+      },
+      {
+       "texto": "ES EL MÁS MODERNO",
+       "al": "@moderno",
+       "caja": true,
+       "color": "verde"
+      }
+     ]
+    }
+   ],
+   "personajes": {
+    "abuelo": {
+     "pose": "celebrar",
+     "cara": "risa",
+     "salida": "der"
+    },
+    "mono": {
+     "pose": "presentar",
+     "cara": "risa",
+     "cambios": [
+      {
+       "al": "@+1.1",
+       "pose": "presentar",
+       "cara": "risa"
+      }
+     ]
+    }
+   }
+  },
+  {
+   "en": "Número ocho",
+   "color": "naranja",
+   "capitulo": "8. Día 2: las estanterías",
+   "escenas": [
+    {
+     "tipo": "reloj",
+     "escenario": "UN DÍA SIN INTERNET · 8/10",
+     "rotulo": "DÍA 2",
+     "subtitulo": "Estanterías vacías",
+     "desde": 1980,
+     "hasta": 3420,
+     "al": "@inicio",
+     "caos": 85,
+     "medidor": "CAOS",
+     "dur": 1.3
+    }
+   ],
+   "personajes": {
+    "cocinero": {
+     "x": 0.89,
+     "escala": 0.8,
+     "mira": "izq",
+     "pose": "miedo",
+     "cara": "sorpresa",
+     "entra": "@vacías",
+     "entrada": "cae"
+    },
+    "mono": {
+     "salta": true,
+     "pose": "señalar",
+     "cara": "normal",
+     "cambios": [
+      {
+       "al": "@+1.1",
+       "pose": "pensar",
+       "cara": "sorpresa"
+      }
+     ]
+    }
+   }
+  },
+  {
+   "en": "Los supermercados piden",
+   "escenas": [
+    {
+     "tipo": "flujo",
+     "nodos": [
+      {
+       "texto": "SÚPER",
+       "icono": "carrito",
+       "al": "@supermercados"
+      },
+      {
+       "texto": "PEDIDO POR INTERNET",
+       "icono": "ordenador",
+       "al": "@Internet"
+      },
+      {
+       "texto": "RUTA DEL CAMIÓN",
+       "icono": "coche",
+       "al": "@rutas",
+       "color": "azul"
+      }
+     ]
+    }
+   ],
+   "personajes": {
+    "cocinero": {
+     "pose": "pensar",
+     "cara": "normal"
+    },
+    "mono": {
+     "pose": "señalar",
+     "cara": "risa",
+     "cambios": [
+      {
+       "al": "@+1.1",
+       "pose": "jarras",
+       "cara": "guiño"
+      },
+      {
+       "al": "@+3.3",
+       "pose": "brazos_cruzados",
+       "cara": "normal"
+      }
+     ]
+    }
+   }
+  },
+  {
+   "en": "Seguramente habría camiones",
+   "escenas": [
+    {
+     "tipo": "iconos",
+     "tam": 230,
+     "items": [
+      {
+       "icono": "coche",
+       "texto": "CAMIONES: SÍ",
+       "al": "@camiones"
+      },
+      {
+       "icono": "carrito",
+       "texto": "¿QUÉ FALTA?",
+       "al": "@falta"
+      }
+     ]
+    }
+   ],
+   "personajes": {
+    "cocinero": {
+     "pose": "encogerse",
+     "cara": "sorpresa"
+    },
+    "mono": {
+     "pose": "presentar",
+     "cara": "sorpresa",
+     "cambios": [
+      {
+       "al": "@+1.1",
+       "pose": "señalar_arriba",
+       "cara": "normal"
+      },
+      {
+       "al": "@+3.3",
+       "pose": "saludar",
+       "cara": "chulo"
+      }
+     ]
+    }
+   }
+  },
+  {
+   "en": "Las tiendas aguantarían",
+   "escenas": [
+    {
+     "tipo": "iconos",
+     "tam": 230,
+     "items": [
+      {
+       "icono": "caja",
+       "texto": "EL ALMACÉN",
+       "al": "@almacén"
+      },
+      {
+       "icono": "libro",
+       "texto": "A MANO Y CON PAPEL",
+       "al": "@papel"
+      }
+     ]
+    }
+   ],
+   "personajes": {
+    "cocinero": {
+     "pose": "jarras",
+     "cara": "chulo",
+     "salida": "der"
+    },
+    "mono": {
+     "pose": "pensar",
+     "cara": "guiño",
+     "cambios": [
+      {
+       "al": "@+1.1",
+       "pose": "brazos_cruzados",
+       "cara": "chulo"
+      },
+      {
+       "al": "@+3.3",
+       "pose": "presentar",
+       "cara": "risa"
+      }
+     ]
+    }
+   }
+  },
+  {
+   "en": "Número nueve",
+   "color": "azul",
+   "capitulo": "9. Día 3: el papel",
+   "escenas": [
+    {
+     "tipo": "reloj",
+     "escenario": "UN DÍA SIN INTERNET · 9/10",
+     "rotulo": "DÍA 3",
+     "subtitulo": "El papel manda",
+     "desde": 3420,
+     "hasta": 4860,
+     "al": "@inicio",
+     "caos": 80,
+     "medidor": "CAOS",
+     "dur": 1.3
+    }
+   ],
+   "personajes": {
+    "medico": {
+     "x": 0.89,
+     "escala": 0.8,
+     "mira": "izq",
+     "pose": "presentar",
+     "cara": "normal",
+     "entra": "@papel",
+     "entrada": "der"
+    },
+    "mono": {
+     "salta": true,
+     "pose": "jarras",
+     "cara": "normal",
+     "cambios": [
+      {
+       "al": "@+1.1",
+       "pose": "saludar",
+       "cara": "risa"
+      }
+     ]
+    }
+   }
+  },
+  {
+   "en": "Hospitales, bancos y ayuntamientos",
+   "escenas": [
+    {
+     "tipo": "iconos",
+     "tam": 230,
+     "items": [
+      {
+       "icono": "hospital",
+       "texto": "HOSPITALES",
+       "al": "@Hospitales"
+      },
+      {
+       "icono": "banco",
+       "texto": "BANCOS",
+       "al": "@bancos"
+      },
+      {
+       "icono": "libro",
+       "texto": "FICHAS Y LIBRETAS",
+       "al": "@fichas"
+      }
+     ]
+    }
+   ],
+   "personajes": {
+    "medico": {
+     "pose": "señalar",
+     "cara": "normal"
+    },
+    "mono": {
+     "pose": "señalar_arriba",
+     "cara": "chulo",
+     "cambios": [
+      {
+       "al": "@+1.1",
+       "pose": "presentar",
+       "cara": "normal"
+      },
+      {
+       "al": "@+3.3",
+       "pose": "señalar",
+       "cara": "risa"
+      },
+      {
+       "al": "@+5.5",
+       "pose": "pensar",
+       "cara": "sorpresa"
+      }
+     ]
+    }
+   }
+  },
+  {
+   "en": "Funcionaría, pero muy despacio",
+   "escenas": [
+    {
+     "tipo": "iconos",
+     "tam": 230,
+     "items": [
+      {
+       "icono": "tortuga",
+       "texto": "MUY DESPACIO",
+       "al": "@despacio"
+      },
+      {
+       "icono": "calendario",
+       "texto": "COMO EN LOS 80",
+       "al": "@ochenta"
+      }
+     ]
+    }
+   ],
+   "personajes": {
+    "medico": {
+     "pose": "brazos_cruzados",
+     "cara": "triste",
+     "salida": "der"
+    },
+    "mono": {
+     "pose": "brazos_cruzados",
+     "cara": "risa",
+     "cambios": [
+      {
+       "al": "@+1.1",
+       "pose": "señalar",
+       "cara": "risa"
+      },
+      {
+       "al": "@+3.3",
+       "pose": "presentar",
+       "cara": "sorpresa"
+      }
+     ]
+    }
+   }
+  },
+  {
+   "en": "Y la última, la que ya",
+   "color": "rojo",
+   "escenas": [
+    {
+     "tipo": "texto",
+     "tam": 110,
+     "palabras": [
+      {
+       "texto": "LA QUE YA PASÓ",
+       "al": "@pasado"
+      },
+      {
+       "texto": "EN UN PAÍS ENTERO",
+       "al": "@entero",
+       "caja": true,
+       "color": "rojo"
+      }
+     ]
+    }
+   ],
+   "personajes": {
+    "mono": {
+     "pose": "encogerse",
+     "cara": "sorpresa",
+     "cambios": [
+      {
+       "al": "@+1.1",
+       "pose": "señalar",
+       "cara": "sorpresa"
+      }
+     ]
+    }
+   }
+  },
+  {
+   "en": "Número diez",
+   "capitulo": "10. Día 5: la factura",
+   "escenas": [
+    {
+     "tipo": "reloj",
+     "escenario": "UN DÍA SIN INTERNET · 10/10",
+     "rotulo": "DÍA 5",
+     "subtitulo": "La factura",
+     "desde": 4860,
+     "hasta": 7740,
+     "al": "@inicio",
+     "caos": 95,
+     "medidor": "CAOS",
+     "dur": 1.3
+    }
+   ],
+   "personajes": {
+    "mono": {
+     "salta": true,
+     "pose": "presentar",
+     "cara": "risa",
+     "cambios": [
+      {
+       "al": "@+1.1",
+       "pose": "presentar",
+       "cara": "guiño"
+      }
+     ]
+    }
+   }
+  },
+  {
+   "en": "En enero de dos mil once",
+   "color": "naranja",
+   "escenas": [
+    {
+     "tipo": "mapa",
+     "titulo": "EGIPTO · ENERO 2011",
+     "rota": false,
+     "pines": [
+      {
+       "nombre": "EGIPTO",
+       "x": 0.22,
+       "y": -0.2,
+       "al": "@Egipto"
+      }
+     ],
+     "apagon": {
+      "al": "@apagó",
+      "continente": 1
+     }
+    }
+   ],
+   "personajes": {
+    "mono": {
+     "pose": "señalar",
+     "cara": "sorpresa",
+     "cambios": [
+      {
+       "al": "@+1.1",
+       "pose": "pensar",
+       "cara": "normal"
+      },
+      {
+       "al": "@+3.3",
+       "pose": "señalar_arriba",
+       "cara": "chulo"
+      }
+     ]
+    }
+   },
+   "golpes": [
+    "@apagó"
+   ]
+  },
+  {
+   "en": "La O C D E calculó",
+   "escenas": [
+    {
+     "tipo": "cifra",
+     "desde": 0,
+     "hasta": 90,
+     "al": "@noventa",
+     "sufijo": " MILL. $",
+     "antes": "AL MENOS",
+     "etiqueta": "unos 18 millones al día",
+     "etiqueta_al": "@dieciocho",
+     "color": "rojo",
+     "tam": 210,
+     "dur": 0.9
+    }
+   ],
+   "personajes": {
+    "rico": {
+     "x": 0.89,
+     "escala": 0.8,
+     "mira": "izq",
+     "pose": "miedo",
+     "cara": "miedo",
+     "entra": "@costó",
+     "entrada": "der"
+    },
+    "mono": {
+     "pose": "señalar",
+     "cara": "guiño",
+     "cambios": [
+      {
+       "al": "@+1.1",
+       "pose": "jarras",
+       "cara": "chulo"
+      },
+      {
+       "al": "@+3.3",
+       "pose": "brazos_cruzados",
+       "cara": "risa"
+      }
+     ]
+    }
+   }
+  },
+  {
+   "en": "Y eso era un solo país",
+   "escenas": [
+    {
+     "tipo": "texto",
+     "tam": 90,
+     "palabras": [
+      {
+       "texto": "HOY, TODO EL PLANETA",
+       "al": "@Hoy"
+      },
+      {
+       "texto": "NO CABE EN UNA CALCULADORA",
+       "al": "@calculadora",
+       "caja": true,
+       "color": "amarillo"
+      }
+     ]
+    }
+   ],
+   "personajes": {
+    "rico": {
+     "pose": "encogerse",
+     "cara": "triste",
+     "salida": "der"
+    },
+    "mono": {
+     "pose": "presentar",
+     "cara": "normal",
+     "cambios": [
+      {
+       "al": "@+1.1",
+       "pose": "señalar_arriba",
+       "cara": "risa"
+      },
+      {
+       "al": "@+3.3",
+       "pose": "saludar",
+       "cara": "normal"
+      },
+      {
+       "al": "@+5.5",
+       "pose": "señalar",
+       "cara": "risa"
+      }
+     ]
+    }
+   }
+  },
+  {
+   "en": "Y ahora, la pregunta del principio",
+   "color": "verde",
+   "capitulo": "¿Puede pasar de verdad?",
+   "escenas": [
+    {
+     "tipo": "pregunta",
+     "pregunta": "¿Puede apagarse entero?",
+     "al": "@apagarse",
+     "respuesta": "CASI IMPOSIBLE",
+     "respuesta_al": "@imposible",
+     "color": "verde"
+    }
+   ],
+   "personajes": {
+    "mono": {
+     "pose": "pensar",
+     "cara": "normal",
+     "cambios": [
+      {
+       "al": "@imposible",
+       "pose": "brazos_cruzados",
+       "cara": "chulo",
+       "salta": true
+      }
+     ]
+    }
+   }
+  },
+  {
+   "en": "Internet no tiene un botón",
+   "color": "azul",
+   "escenas": [
+    {
+     "tipo": "iconos",
+     "tam": 230,
+     "items": [
+      {
+       "icono": "mundo",
+       "texto": "MILES DE REDES",
+       "al": "@redes"
+      },
+      {
+       "icono": "fibra",
+       "texto": "UNOS 600 CABLES BAJO EL MAR",
+       "al": "@cables"
+      }
+     ]
+    }
+   ],
+   "personajes": {
+    "mono": {
+     "pose": "jarras",
+     "cara": "risa",
+     "cambios": [
+      {
+       "al": "@+1.1",
+       "pose": "saludar",
+       "cara": "risa"
+      },
+      {
+       "al": "@+3.3",
+       "pose": "señalar",
+       "cara": "sorpresa"
+      }
+     ]
+    }
+   }
+  },
+  {
+   "en": "Lo que sí pasa es que",
+   "escenas": [
+    {
+     "tipo": "cifra",
+     "desde": 0,
+     "hasta": 296,
+     "al": "@doscientos",
+     "antes": "CORTES DE INTERNET EN 2024",
+     "etiqueta": "en 54 países",
+     "etiqueta_al": "@cincuenta",
+     "tam": 240,
+     "color": "naranja",
+     "dur": 0.9
+    }
+   ],
+   "personajes": {
+    "mono": {
+     "pose": "señalar_arriba",
+     "cara": "normal",
+     "cambios": [
+      {
+       "al": "@+1.1",
+       "pose": "presentar",
+       "cara": "sorpresa"
+      },
+      {
+       "al": "@+3.3",
+       "pose": "señalar",
+       "cara": "guiño"
+      },
+      {
+       "al": "@+5.5",
+       "pose": "pensar",
+       "cara": "normal"
+      }
+     ]
+    }
+   }
+  },
+  {
+   "en": "Así que no hace falta",
+   "color": "amarillo",
+   "escenas": [
+    {
+     "tipo": "iconos",
+     "tam": 230,
+     "items": [
+      {
+       "icono": "dolar",
+       "texto": "EFECTIVO",
+       "al": "@efectivo"
+      },
+      {
+       "icono": "radio",
+       "texto": "RADIO DE PILAS",
+       "al": "@radio"
+      },
+      {
+       "icono": "mapa",
+       "texto": "MAPA DESCARGADO",
+       "al": "@mapa"
+      }
+     ]
+    }
+   ],
+   "personajes": {
+    "mona": {
+     "x": 0.89,
+     "escala": 0.8,
+     "mira": "izq",
+     "pose": "presentar",
+     "cara": "risa",
+     "entra": "@zona",
+     "entrada": "der"
+    },
+    "mono": {
+     "pose": "brazos_cruzados",
+     "cara": "risa",
+     "cambios": [
+      {
+       "al": "@+1.1",
+       "pose": "señalar",
+       "cara": "guiño"
+      },
+      {
+       "al": "@+3.3",
+       "pose": "presentar",
+       "cara": "normal"
+      },
+      {
+       "al": "@+5.5",
+       "pose": "jarras",
+       "cara": "chulo"
+      }
+     ]
+    }
+   }
+  },
+  {
+   "en": "¿Y tú? ¿Cuánto aguantarías",
+   "color": "morado",
+   "escenas": [
+    {
+     "tipo": "pregunta",
+     "pregunta": "¿Cuánto aguantarías tú?",
+     "al": "@aguantarías"
+    }
+   ],
+   "personajes": {
+    "mona": {
+     "pose": "pensar",
+     "cara": "guiño"
+    },
+    "mono": {
+     "pose": "saludar",
+     "cara": "sorpresa",
+     "cambios": [
+      {
+       "al": "@+1.1",
+       "pose": "señalar",
+       "cara": "normal"
+      }
+     ]
+    }
+   }
+  },
+  {
+   "en": "Si te gusta entender",
+   "color": "rojo",
+   "escenas": [
+    {
+     "tipo": "iconos",
+     "tam": 300,
+     "items": [
+      {
+       "icono": "play",
+       "texto": "SUSCRÍBETE",
+       "al": "@suscríbete"
+      }
+     ]
+    }
+   ],
+   "personajes": {
+    "mona": {
+     "pose": "celebrar",
+     "cara": "risa"
+    },
+    "abuelo": {
+     "x": 0.72,
+     "escala": 0.7,
+     "mira": "izq",
+     "pose": "celebrar",
+     "cara": "risa",
+     "entra": "@tecnología",
+     "entrada": "salto"
+    },
+    "mono": {
+     "pose": "celebrar",
+     "cara": "risa",
+     "salta": true,
+     "cambios": [
+      {
+       "al": "@+1.1",
+       "pose": "presentar",
+       "cara": "chulo"
+      },
+      {
+       "al": "@+3.3",
+       "pose": "jarras",
+       "cara": "risa"
+      },
+      {
+       "al": "@+5.5",
+       "pose": "brazos_cruzados",
+       "cara": "normal"
+      }
+     ]
+    }
+   }
+  }
+ ],
+ "cola": 1.2,
+ "formato": "16:9"
+}

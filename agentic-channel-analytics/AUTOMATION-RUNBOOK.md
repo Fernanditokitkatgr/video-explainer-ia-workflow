@@ -2,7 +2,7 @@
 
 How a `script-forge` output becomes a published bilingual MP4 using this repo's existing
 pipeline. This is the **bridge doc** between the analytics vertical and the generation
-pipeline. For the deep per-step detail see [`../VIDEO_EXPLAINER_WORKFLOW.md`](../VIDEO_EXPLAINER_WORKFLOW.md).
+pipeline. For the deep per-step detail see [`../docs/heredado/workflow-imagenes.md`](../docs/heredado/workflow-imagenes.md) (método heredado de imágenes; el actual es el motor de animación: `../docs/motor.md`).
 
 ```
 script-forge → ElevenLabs V3 (ES voice) → [HITL 1] → Whisper (ES timestamps)

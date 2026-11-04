@@ -1,7 +1,7 @@
 {
   "name": "video-explainer-ia",
   "version": "1.0.0",
-  "description": "Video explainer IA con voz sintética e imágenes generadas",
+  "description": "Tecnomono: motor de animación por código (src/motor) y composiciones heredadas de imágenes (src/Root.tsx)",
   "private": true,
   "dependencies": {
     "@remotion/cli": "4.0.432",
@@ -16,7 +16,9 @@
     "typescript": "5.9.3"
   },
   "scripts": {
-    "dev": "remotion studio",
-    "render": "remotion render InteresCompuesto output/video-final.mp4"
+    "dev": "remotion studio src/motor/index.ts --public-dir=public-motor",
+    "dev:heredado": "remotion studio",
+    "typecheck:motor": "tsc --noEmit --jsx react-jsx --skipLibCheck --esModuleInterop --resolveJsonModule --moduleResolution bundler --module esnext --target es2022 src/motor/index.ts",
+    "render": "echo \"Los renders del motor se lanzan con: python scripts/motor_plano.py <slug> --render (desde la raíz del repo)\""
   }
 }

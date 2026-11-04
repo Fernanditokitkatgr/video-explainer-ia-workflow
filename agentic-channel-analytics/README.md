@@ -20,7 +20,7 @@ Ecomonos is the benchmark; your channel and any other are the auditable subjects
 
 ```
 video-explainer-ia-workflow/
-  remotion/  scripts/  VIDEO_EXPLAINER_WORKFLOW.md   ← generation pipeline (existing)
+  remotion/  scripts/  docs/   ← pipeline de producción (motor: docs/motor.md)
   agentic-channel-analytics/                          ← this vertical
   .claude/skills/                                     ← shared project skills
 ```

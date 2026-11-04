@@ -1,0 +1,32 @@
+{
+  "_nota": "Copia UNA de estas dos entradas en videos.json con la clave <slug> y sustituye <slug>. Borra este archivo de la carpeta del vídeo.",
+  "largo_16x9": {
+    "<slug>": {
+      "composition": "MotorPlano",
+      "tsx": "remotion/src/motor/MotorPlano.tsx",
+      "manifest_dir": "channel/tecno/videos/<slug>",
+      "script": "channel/tecno/videos/<slug>/script.md",
+      "audio_static": "<slug>.mp3",
+      "playback_rate": 1.0,
+      "fps": 30,
+      "width": 1920,
+      "height": 1080,
+      "background": "#ffffff",
+      "estilo": "motor",
+      "plano": "channel/tecno/videos/<slug>/plano.json"
+    }
+  },
+  "short_9x16": {
+    "short-<tema>": {
+      "manifest_dir": "channel/tecno/videos/short-<tema>",
+      "script": "channel/tecno/videos/short-<tema>/script.md",
+      "audio_static": "short-<tema>.mp3",
+      "fps": 30,
+      "width": 1080,
+      "height": 1920,
+      "background": "#ffffff",
+      "estilo": "motor",
+      "formato": "9:16"
+    }
+  }
+}

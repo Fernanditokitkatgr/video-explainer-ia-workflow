@@ -1,0 +1,68 @@
+{
+  "_nota": "PLANTILLA. Las claves que empiezan por _nota las ignora motor_plano.py: sirven solo para explicar; puedes borrarlas. Referencia completa de escenas, poses, caras, objetos, iconos y SFX: CLAUDE.md, sección FORMA DE TRABAJAR ACTUAL. Las anclas \"@palabra\" deben existir en la locución (words.json) a partir del inicio de su tramo.",
+  "formato": "16:9",
+  "_nota_formato": "16:9 para largos (1920x1080); \"9:16\" para Shorts (1080x1920), y entonces suele ir \"cola\": 0.9.",
+  "cola": 1.2,
+  "reparto": {
+    "mono": {"tipo": "protagonista", "narrador": true},
+    "rico": {"tipo": "rico"},
+    "malo": {"tipo": "ciberdelincuente"}
+  },
+  "tramos": [
+    {
+      "_nota": "Tramo 0: \"en\" vacío = empieza en el segundo 0. Gancho con una pregunta y el mono entrando.",
+      "en": "",
+      "color": "amarillo",
+      "capitulo": "El gancho",
+      "escenas": [
+        {"tipo": "pregunta", "pregunta": "¿Quién se queda tu dinero?", "al": "@inicio", "respuesta": "Nadie te lo cuenta", "respuesta_al": "@nadie"}
+      ],
+      "personajes": {
+        "mono": {"x": 0.2, "pose": "pensar", "cara": "sorpresa", "entrada": "salto",
+                 "cambios": [{"al": "@nadie", "pose": "encogerse", "cara": "miedo"}]}
+      },
+      "sfx": [["pregunta", "@inicio", 1.0]]
+    },
+    {
+      "_nota": "Tramo 1: empieza donde la locución dice \"Número uno\". Rótulo de lista + un segundo personaje que entra en su palabra.",
+      "en": "Número uno",
+      "color": "azul",
+      "capitulo": "1. El banco",
+      "escenas": [
+        {"tipo": "lista", "n": 1, "total": 3, "titulo": "El banco", "titulo_al": "@banco", "apodo": "el que nunca pierde", "apodo_al": "@nunca"}
+      ],
+      "personajes": {
+        "mono": {"x": 0.2, "pose": "señalar", "cara": "normal"},
+        "rico": {"x": 0.8, "mira": "izq", "pose": "jarras", "cara": "chulo", "entra": "@banco", "entrada": "der",
+                 "dice": [{"texto": "¡Comisión!", "al": "@comisión", "hasta": "@fin"}]}
+      }
+    },
+    {
+      "_nota": "Tramo 2: cifra que cuenta hacia arriba y golpe de cámara. El rico ya no se nombra, así que sale.",
+      "en": "Cada año",
+      "color": "verde",
+      "escenas": [
+        {"tipo": "cifra", "desde": 0, "hasta": 120, "sufijo": " €", "al": "@cada", "flecha": "sube", "etiqueta": "en comisiones", "etiqueta_al": "@comisiones"}
+      ],
+      "personajes": {
+        "mono": {"pose": "miedo", "cara": "sorpresa", "salta": true}
+      },
+      "golpes": ["@euros"]
+    },
+    {
+      "_nota": "Tramo 3: comparativa A contra B; entra el ciberdelincuente. Cierre con sello.",
+      "en": "Número dos",
+      "color": "rojo",
+      "capitulo": "2. El estafador",
+      "escenas": [
+        {"tipo": "comparativa", "a": {"titulo": "Banco", "icono": "banco", "al": "@banco"}, "b": {"titulo": "Estafador", "icono": "anzuelo", "al": "@estafador"}, "ganador": "a", "ganador_al": "@legal"},
+        {"tipo": "sello", "texto": "ESTAFA", "al": "@estafa", "color": "rojo"}
+      ],
+      "personajes": {
+        "mono": {"x": 0.15, "pose": "brazos_cruzados", "cara": "enfado"},
+        "malo": {"x": 0.85, "mira": "izq", "pose": "caminar", "cara": "risa", "entra": "@estafador", "entrada": "izq"}
+      },
+      "sfx": [["sello", "@estafa", 1.0]]
+    }
+  ]
+}

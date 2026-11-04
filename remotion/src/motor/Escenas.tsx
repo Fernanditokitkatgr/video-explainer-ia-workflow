@@ -15,6 +15,7 @@ import {C, CHIP_COLORS, col, decay, easeInOut, easeOut, fmt, FONT, jit, lerp, ov
 import {Icono} from './Iconos';
 import {MonedaBTC} from './Mono';
 import {Caja, Flecha, Grande, Rafaga} from './piezas';
+import {FORMATOS} from './EscenasFormatos';
 
 export type Cue = [string, number, number?];
 export type EscenaProps = {d: any; t: number; t0: number; t1: number};
@@ -1178,4 +1179,6 @@ export const ESCENAS: Record<string, DefEscena> = {
       ...times(d.items, 'tachar_al').map((x): Cue => ['golpe_seco', x, 0.8]),
     ],
   },
+  // v3 (nov-2026): formatos explicativos completos (EscenasFormatos.tsx)
+  ...FORMATOS,
 };

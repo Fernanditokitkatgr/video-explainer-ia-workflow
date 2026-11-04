@@ -63,7 +63,7 @@ acknowledge the other side or limits of the claim?
 **One idea per sentence.** This is both a style rule (pacing) and a hard requirement of
 the Remotion pipeline in this repo: 1 sentence = 1 image = 1 visual beat. Any script
 produced for this channel family must keep sentences short and atomic so Whisper
-segmentation and the `FRAMES` lookup stay in sync. See `../../VIDEO_EXPLAINER_WORKFLOW.md`.
+segmentation and the `FRAMES` lookup stay in sync. See `../../docs/heredado/workflow-imagenes.md` (método heredado de imágenes; el actual es el motor: `../../docs/motor.md`).
 
 ## Scoring
 
