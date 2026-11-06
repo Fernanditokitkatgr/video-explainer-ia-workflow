@@ -1,0 +1,2125 @@
+{
+ "reparto": {
+  "mono": {
+   "tipo": "protagonista",
+   "narrador": true
+  },
+  "abuelo": {
+   "tipo": "abuelo"
+  },
+  "nieta": {
+   "tipo": "mona"
+  },
+  "panadero": {
+   "tipo": "cocinero"
+  },
+  "ladron": {
+   "tipo": "ciberdelincuente"
+  }
+ },
+ "tramos": [
+  {
+   "en": "",
+   "color": "amarillo",
+   "capitulo": "Mi abuelo pregunta",
+   "escenas": [
+    {
+     "tipo": "texto",
+     "tam": 88,
+     "palabras": [
+      {
+       "texto": "¿PAGAR CON EL MÓVIL",
+       "al": "@-0.5",
+       "color": "amarillo"
+      },
+      {
+       "texto": "ES SEGURO?",
+       "al": "@-0.4",
+       "caja": true,
+       "color": "rojo"
+      }
+     ],
+     "zona": "arriba",
+     "caja": {
+      "y": 110
+     },
+     "por_fila": 30
+    },
+    {
+     "tipo": "imagen",
+     "archivo": "panaderia.png",
+     "prompt": "a cozy bakery counter with bread loaves and a card payment terminal, morning light",
+     "al": "@inicio",
+     "modo": "fondo",
+     "velo": 0.4
+    }
+   ],
+   "personajes": {
+    "abuelo": {
+     "x": 0.9,
+     "escala": 0.8,
+     "mira": "izq",
+     "pose": "brazos_cruzados",
+     "cara": "enfado",
+     "entrada": "nada",
+     "objeto": "billete"
+    },
+    "mono": {
+     "x": 0.1,
+     "escala": 0.8,
+     "pose": "presentar",
+     "cara": "normal",
+     "entrada": "nada",
+     "cambios": [
+      {
+       "al": "@+1.1",
+       "pose": "jarras",
+       "cara": "sorpresa"
+      }
+     ]
+    }
+   },
+   "sfx": [
+    [
+     "golpe",
+     0.02,
+     1.0
+    ],
+    [
+     "boom",
+     0.04,
+     0.7
+    ]
+   ],
+   "golpes": [
+    0.05
+   ]
+  },
+  {
+   "en": "Puso cara de haber visto",
+   "color": "morado",
+   "escenas": [
+    {
+     "tipo": "texto",
+     "tam": 110,
+     "palabras": [
+      {
+       "texto": "¡UN FANTASMA!",
+       "al": "@fantasma",
+       "caja": true,
+       "color": "morado"
+      }
+     ]
+    }
+   ],
+   "personajes": {
+    "abuelo": {
+     "pose": "miedo",
+     "cara": "sorpresa",
+     "objeto": "ninguno"
+    },
+    "nieta": {
+     "x": 0.72,
+     "escala": 0.7,
+     "mira": "izq",
+     "pose": "saludar",
+     "cara": "risa",
+     "objeto": "movil",
+     "entra": "@inicio",
+     "entrada": "der"
+    },
+    "mono": {
+     "pose": "presentar",
+     "cara": "risa",
+     "cambios": [
+      {
+       "al": "@+1.1",
+       "pose": "señalar_arriba",
+       "cara": "guiño"
+      }
+     ]
+    }
+   }
+  },
+  {
+   "en": "¿Eso es seguro?",
+   "color": "rojo",
+   "escenas": [
+    {
+     "tipo": "iconos",
+     "tam": 230,
+     "items": [
+      {
+       "icono": "movil",
+       "texto": "¿SEGURO?",
+       "al": "@seguro"
+      },
+      {
+       "icono": "calavera",
+       "texto": "¿Y SI TE LO ROBAN?",
+       "al": "@roban"
+      },
+      {
+       "icono": "tarjeta",
+       "texto": "¿POR LA CALLE?",
+       "al": "@calle"
+      }
+     ]
+    }
+   ],
+   "personajes": {
+    "abuelo": {
+     "pose": "señalar",
+     "cara": "enfado"
+    },
+    "nieta": {
+     "pose": "encogerse",
+     "cara": "sorpresa",
+     "salida": "der"
+    },
+    "mono": {
+     "pose": "pensar",
+     "cara": "sorpresa",
+     "cambios": [
+      {
+       "al": "@+1.1",
+       "pose": "brazos_cruzados",
+       "cara": "normal"
+      }
+     ]
+    }
+   }
+  },
+  {
+   "en": "Estas son las diez preguntas",
+   "escenas": [
+    {
+     "tipo": "flujo",
+     "nodos": [
+      {
+       "texto": "LA MÁS FÁCIL",
+       "icono": "movil",
+       "al": "@fácil"
+      },
+      {
+       "texto": "LA MÁS RARA",
+       "icono": "bombilla",
+       "al": "@rara",
+       "color": "rojo"
+      },
+      {
+       "texto": "¿MÓVIL O CARTERA?",
+       "icono": "trofeo",
+       "al": "@cartera",
+       "color": "verde"
+      }
+     ]
+    }
+   ],
+   "personajes": {
+    "abuelo": {
+     "pose": "pensar",
+     "cara": "normal"
+    },
+    "mono": {
+     "pose": "presentar",
+     "cara": "risa",
+     "cambios": [
+      {
+       "al": "@+1.1",
+       "pose": "saludar",
+       "cara": "chulo"
+      }
+     ]
+    }
+   }
+  },
+  {
+   "en": "Número uno",
+   "color": "azul",
+   "capitulo": "1. ¿Y si me roban el móvil?",
+   "escenas": [
+    {
+     "tipo": "pregunta",
+     "pregunta": "¿Y si me roban el móvil?",
+     "al": "@inicio",
+     "caja": {
+      "y": 330
+     }
+    },
+    {
+     "tipo": "texto",
+     "palabras": [
+      {
+       "texto": "DUDA 1/10",
+       "al": "@inicio",
+       "caja": true,
+       "color": "amarillo"
+      }
+     ],
+     "tam": 60,
+     "zona": "arriba",
+     "caja": {
+      "y": 90
+     },
+     "sfx": false
+    }
+   ],
+   "personajes": {
+    "abuelo": {
+     "pose": "encogerse",
+     "cara": "miedo",
+     "dice": [
+      {
+       "texto": "¿Y si me lo roban?",
+       "al": "@inicio",
+       "hasta": "@fin"
+      }
+     ]
+    },
+    "mono": {
+     "salta": true,
+     "pose": "señalar_arriba",
+     "cara": "normal",
+     "cambios": [
+      {
+       "al": "@+1.1",
+       "pose": "presentar",
+       "cara": "risa"
+      }
+     ]
+    }
+   }
+  },
+  {
+   "en": "El ladrón no puede pagar",
+   "escenas": [
+    {
+     "tipo": "iconos",
+     "tam": 230,
+     "items": [
+      {
+       "icono": "ojo",
+       "texto": "TU CARA",
+       "al": "@cara"
+      },
+      {
+       "icono": "dedo",
+       "texto": "TU HUELLA",
+       "al": "@huella"
+      },
+      {
+       "icono": "candado",
+       "texto": "TU CÓDIGO",
+       "al": "@código"
+      }
+     ]
+    }
+   ],
+   "personajes": {
+    "abuelo": {
+     "pose": "pensar",
+     "cara": "normal"
+    },
+    "ladron": {
+     "x": 0.7,
+     "escala": 0.7,
+     "mira": "izq",
+     "pose": "encogerse",
+     "cara": "enfado",
+     "objeto": "movil",
+     "entra": "@ladrón",
+     "entrada": "der"
+    },
+    "mono": {
+     "pose": "brazos_cruzados",
+     "cara": "chulo",
+     "cambios": [
+      {
+       "al": "@+1.1",
+       "pose": "señalar",
+       "cara": "normal"
+      }
+     ]
+    }
+   }
+  },
+  {
+   "en": "Con una cartera robada",
+   "escenas": [
+    {
+     "tipo": "cifra",
+     "desde": 0,
+     "hasta": 50,
+     "al": "@cincuenta",
+     "sufijo": " €",
+     "antes": "LA TARJETA ROBADA PAGA SIN PIN HASTA",
+     "tam": 230,
+     "color": "rojo",
+     "dur": 0.7
+    }
+   ],
+   "personajes": {
+    "ladron": {
+     "pose": "celebrar",
+     "cara": "risa",
+     "objeto": "billete"
+    },
+    "mono": {
+     "pose": "saludar",
+     "cara": "risa",
+     "cambios": [
+      {
+       "al": "@+1.1",
+       "pose": "señalar",
+       "cara": "risa"
+      }
+     ]
+    }
+   }
+  },
+  {
+   "en": "Y el móvil lo puedes bloquear",
+   "color": "verde",
+   "escenas": [
+    {
+     "tipo": "iconos",
+     "tam": 280,
+     "items": [
+      {
+       "icono": "candado",
+       "texto": "BLOQUÉALO EN UN MINUTO",
+       "al": "@bloquear"
+      }
+     ]
+    }
+   ],
+   "personajes": {
+    "ladron": {
+     "pose": "miedo",
+     "cara": "miedo",
+     "salida": "der"
+    },
+    "mono": {
+     "pose": "presentar",
+     "cara": "normal",
+     "cambios": [
+      {
+       "al": "@+1.1",
+       "pose": "presentar",
+       "cara": "sorpresa"
+      }
+     ]
+    }
+   }
+  },
+  {
+   "en": "En el iPhone se hace",
+   "escenas": [
+    {
+     "tipo": "iconos",
+     "tam": 230,
+     "items": [
+      {
+       "icono": "movil",
+       "texto": "IPHONE: BUSCAR",
+       "al": "@Buscar"
+      },
+      {
+       "icono": "movil",
+       "texto": "ANDROID: ENCONTRAR MI DISPOSITIVO",
+       "al": "@Encontrar"
+      }
+     ]
+    }
+   ],
+   "personajes": {
+    "abuelo": {
+     "pose": "presentar",
+     "cara": "risa"
+    },
+    "mono": {
+     "pose": "señalar",
+     "cara": "risa",
+     "cambios": [
+      {
+       "al": "@+1.1",
+       "pose": "pensar",
+       "cara": "guiño"
+      }
+     ]
+    }
+   }
+  },
+  {
+   "en": "Número dos",
+   "color": "naranja",
+   "capitulo": "2. ¿La tienda ve mi tarjeta?",
+   "escenas": [
+    {
+     "tipo": "pregunta",
+     "pregunta": "¿La tienda ve mi tarjeta?",
+     "al": "@inicio",
+     "caja": {
+      "y": 330
+     }
+    },
+    {
+     "tipo": "texto",
+     "palabras": [
+      {
+       "texto": "DUDA 2/10",
+       "al": "@inicio",
+       "caja": true,
+       "color": "amarillo"
+      }
+     ],
+     "tam": 60,
+     "zona": "arriba",
+     "caja": {
+      "y": 90
+     },
+     "sfx": false
+    }
+   ],
+   "personajes": {
+    "abuelo": {
+     "pose": "pensar",
+     "cara": "sorpresa",
+     "dice": [
+      {
+       "texto": "¿Ven mi tarjeta?",
+       "al": "@inicio",
+       "hasta": "@fin"
+      }
+     ]
+    },
+    "mono": {
+     "salta": true,
+     "pose": "señalar",
+     "cara": "sorpresa",
+     "cambios": [
+      {
+       "al": "@+1.1",
+       "pose": "jarras",
+       "cara": "normal"
+      }
+     ]
+    }
+   }
+  },
+  {
+   "en": "No. Al guardar la tarjeta",
+   "escenas": [
+    {
+     "tipo": "comparativa",
+     "a": {
+      "titulo": "TU TARJETA",
+      "icono": "tarjeta",
+      "valor": "4532…",
+      "al": "@tarjeta",
+      "color": "azul"
+     },
+     "b": {
+      "titulo": "EL TOKEN",
+      "icono": "movil",
+      "valor": "otro número",
+      "al": "@token",
+      "color": "verde"
+     }
+    }
+   ],
+   "personajes": {
+    "abuelo": {
+     "pose": "pensar",
+     "cara": "normal"
+    },
+    "mono": {
+     "pose": "presentar",
+     "cara": "guiño",
+     "cambios": [
+      {
+       "al": "@+1.1",
+       "pose": "señalar_arriba",
+       "cara": "chulo"
+      }
+     ]
+    }
+   }
+  },
+  {
+   "en": "Y cada pago lleva",
+   "escenas": [
+    {
+     "tipo": "iconos",
+     "tam": 280,
+     "items": [
+      {
+       "icono": "ticket",
+       "texto": "UN CÓDIGO DE UN SOLO USO",
+       "al": "@uso"
+      }
+     ]
+    }
+   ],
+   "personajes": {
+    "abuelo": {
+     "pose": "señalar",
+     "cara": "normal"
+    },
+    "mono": {
+     "pose": "pensar",
+     "cara": "normal",
+     "cambios": [
+      {
+       "al": "@+1.1",
+       "pose": "brazos_cruzados",
+       "cara": "risa"
+      }
+     ]
+    }
+   }
+  },
+  {
+   "en": "La tienda nunca ve",
+   "escenas": [
+    {
+     "tipo": "imagen",
+     "archivo": "datafono.png",
+     "prompt": "a card payment terminal on a shop counter next to a phone, small sparkles, clean",
+     "al": "@nunca",
+     "modo": "marco",
+     "pie": "LA TIENDA NO VE TU NÚMERO"
+    }
+   ],
+   "personajes": {
+    "panadero": {
+     "x": 0.72,
+     "escala": 0.7,
+     "mira": "izq",
+     "pose": "presentar",
+     "cara": "risa",
+     "objeto": "ninguno",
+     "entra": "@tienda",
+     "entrada": "der"
+    },
+    "mono": {
+     "pose": "jarras",
+     "cara": "chulo",
+     "cambios": [
+      {
+       "al": "@+1.1",
+       "pose": "saludar",
+       "cara": "normal"
+      }
+     ]
+    }
+   }
+  },
+  {
+   "en": "Si un día roban los datos",
+   "escenas": [
+    {
+     "tipo": "sello",
+     "texto": "NO VALEN NADA",
+     "al": "@nada",
+     "color": "verde",
+     "tam": 120
+    }
+   ],
+   "personajes": {
+    "panadero": {
+     "pose": "celebrar",
+     "cara": "risa",
+     "salida": "der"
+    },
+    "mono": {
+     "pose": "señalar_arriba",
+     "cara": "risa",
+     "cambios": [
+      {
+       "al": "@+1.1",
+       "pose": "presentar",
+       "cara": "risa"
+      }
+     ]
+    }
+   }
+  },
+  {
+   "en": "Número tres",
+   "color": "rojo",
+   "capitulo": "3. ¿Te cobran por la calle?",
+   "escenas": [
+    {
+     "tipo": "pregunta",
+     "pregunta": "¿Me pueden cobrar por la calle?",
+     "al": "@inicio",
+     "caja": {
+      "y": 330
+     }
+    },
+    {
+     "tipo": "texto",
+     "palabras": [
+      {
+       "texto": "DUDA 3/10",
+       "al": "@inicio",
+       "caja": true,
+       "color": "amarillo"
+      }
+     ],
+     "tam": 60,
+     "zona": "arriba",
+     "caja": {
+      "y": 90
+     },
+     "sfx": false
+    }
+   ],
+   "personajes": {
+    "abuelo": {
+     "pose": "miedo",
+     "cara": "miedo",
+     "dice": [
+      {
+       "texto": "¿Por la calle?",
+       "al": "@inicio",
+       "hasta": "@fin"
+      }
+     ]
+    },
+    "mono": {
+     "salta": true,
+     "pose": "brazos_cruzados",
+     "cara": "normal",
+     "cambios": [
+      {
+       "al": "@+1.1",
+       "pose": "señalar",
+       "cara": "sorpresa"
+      }
+     ]
+    }
+   }
+  },
+  {
+   "en": "Con el móvil, no",
+   "color": "verde",
+   "escenas": [
+    {
+     "tipo": "iconos",
+     "tam": 230,
+     "items": [
+      {
+       "icono": "movil",
+       "texto": "BLOQUEADO",
+       "al": "@bloqueado"
+      },
+      {
+       "icono": "tarjeta",
+       "texto": "EL DATÁFONO NO COBRA",
+       "al": "@cobra"
+      }
+     ]
+    }
+   ],
+   "personajes": {
+    "abuelo": {
+     "pose": "pensar",
+     "cara": "normal"
+    },
+    "mono": {
+     "pose": "saludar",
+     "cara": "risa",
+     "cambios": [
+      {
+       "al": "@+1.1",
+       "pose": "señalar",
+       "cara": "guiño"
+      }
+     ]
+    }
+   }
+  },
+  {
+   "en": "Con la tarjeta de plástico",
+   "escenas": [
+    {
+     "tipo": "imagen",
+     "archivo": "calle.png",
+     "prompt": "a crowded city street sidewalk with shop fronts, people silhouettes not shown, just the street and a bus stop",
+     "al": "@plástico",
+     "modo": "marco",
+     "pie": "A UNOS POCOS CENTÍMETROS",
+     "pie_al": "@centímetros"
+    }
+   ],
+   "personajes": {
+    "ladron": {
+     "x": 0.72,
+     "escala": 0.7,
+     "mira": "izq",
+     "pose": "caminar",
+     "cara": "chulo",
+     "objeto": "movil",
+     "entra": "@pegarse",
+     "entrada": "der",
+     "cambios": [
+      {
+       "al": "@rastro",
+       "pose": "miedo",
+       "cara": "miedo"
+      }
+     ]
+    },
+    "mono": {
+     "pose": "presentar",
+     "cara": "sorpresa",
+     "cambios": [
+      {
+       "al": "@+1.1",
+       "pose": "presentar",
+       "cara": "normal"
+      }
+     ]
+    }
+   }
+  },
+  {
+   "en": "Número cuatro",
+   "color": "morado",
+   "capitulo": "4. ¿Hasta cuánto sin PIN?",
+   "escenas": [
+    {
+     "tipo": "pregunta",
+     "pregunta": "¿Hasta cuánto pago sin PIN?",
+     "al": "@inicio",
+     "caja": {
+      "y": 330
+     }
+    },
+    {
+     "tipo": "texto",
+     "palabras": [
+      {
+       "texto": "DUDA 4/10",
+       "al": "@inicio",
+       "caja": true,
+       "color": "amarillo"
+      }
+     ],
+     "tam": 60,
+     "zona": "arriba",
+     "caja": {
+      "y": 90
+     },
+     "sfx": false
+    }
+   ],
+   "personajes": {
+    "abuelo": {
+     "pose": "jarras",
+     "cara": "normal",
+     "dice": [
+      {
+       "texto": "¿Y sin PIN?",
+       "al": "@inicio",
+       "hasta": "@fin"
+      }
+     ]
+    },
+    "ladron": {
+     "pose": "correr",
+     "cara": "miedo",
+     "salida": "der"
+    },
+    "mono": {
+     "salta": true,
+     "pose": "señalar",
+     "cara": "guiño",
+     "cambios": [
+      {
+       "al": "@+1.1",
+       "pose": "pensar",
+       "cara": "chulo"
+      }
+     ]
+    }
+   }
+  },
+  {
+   "en": "Con la tarjeta, hasta cincuenta",
+   "escenas": [
+    {
+     "tipo": "experimento",
+     "titulo": "EL CONTADOR SIN PIN",
+     "controles": [
+      {
+       "nombre": "Compras seguidas",
+       "min": 0,
+       "max": 5,
+       "inicio": 1
+      },
+      {
+       "nombre": "Gastado",
+       "min": 0,
+       "max": 150,
+       "inicio": 20,
+       "sufijo": " €"
+      }
+     ],
+     "resultado": {
+      "nombre": "PIN obligatorio",
+      "sufijo": " %",
+      "min": 0,
+      "max": 100,
+      "inicio": 0
+     },
+     "pasos": [
+      {
+       "al": "@cinco",
+       "valores": [
+        5,
+        90
+       ],
+       "resultado": 100,
+       "texto": "5 compras: PIN"
+      },
+      {
+       "al": "@ciento",
+       "valores": [
+        3,
+        150
+       ],
+       "resultado": 100,
+       "texto": "150 €: PIN"
+      }
+     ]
+    }
+   ],
+   "personajes": {
+    "abuelo": {
+     "pose": "pensar",
+     "cara": "normal"
+    },
+    "mono": {
+     "pose": "señalar",
+     "cara": "normal",
+     "cambios": [
+      {
+       "al": "@+1.1",
+       "pose": "jarras",
+       "cara": "risa"
+      }
+     ]
+    }
+   }
+  },
+  {
+   "en": "Con el móvil, el PIN es",
+   "color": "verde",
+   "escenas": [
+    {
+     "tipo": "iconos",
+     "tam": 230,
+     "items": [
+      {
+       "icono": "ojo",
+       "texto": "CARA",
+       "al": "@cara"
+      },
+      {
+       "icono": "dedo",
+       "texto": "HUELLA",
+       "al": "@huella"
+      },
+      {
+       "icono": "calendario",
+       "texto": "EN CADA COMPRA",
+       "al": "@cada"
+      }
+     ]
+    }
+   ],
+   "personajes": {
+    "mono": {
+     "pose": "presentar",
+     "cara": "chulo",
+     "cambios": [
+      {
+       "al": "@+1.1",
+       "pose": "señalar_arriba",
+       "cara": "normal"
+      }
+     ]
+    }
+   }
+  },
+  {
+   "en": "Y por encima de cincuenta",
+   "escenas": [
+    {
+     "tipo": "sello",
+     "texto": "+50 €: PIN SIEMPRE",
+     "al": "@siempre",
+     "color": "azul",
+     "tam": 110
+    }
+   ],
+   "personajes": {
+    "abuelo": {
+     "pose": "señalar",
+     "cara": "risa"
+    },
+    "mono": {
+     "pose": "pensar",
+     "cara": "risa",
+     "cambios": [
+      {
+       "al": "@+1.1",
+       "pose": "brazos_cruzados",
+       "cara": "risa"
+      }
+     ]
+    }
+   }
+  },
+  {
+   "en": "Número cinco",
+   "color": "amarillo",
+   "capitulo": "5. ¿Y sin batería?",
+   "escenas": [
+    {
+     "tipo": "pregunta",
+     "pregunta": "¿Y si se me acaba la batería?",
+     "al": "@inicio",
+     "caja": {
+      "y": 330
+     }
+    },
+    {
+     "tipo": "texto",
+     "palabras": [
+      {
+       "texto": "DUDA 5/10",
+       "al": "@inicio",
+       "caja": true,
+       "color": "amarillo"
+      }
+     ],
+     "tam": 60,
+     "zona": "arriba",
+     "caja": {
+      "y": 90
+     },
+     "sfx": false
+    }
+   ],
+   "personajes": {
+    "abuelo": {
+     "pose": "jarras",
+     "cara": "chulo",
+     "dice": [
+      {
+       "texto": "¿Y sin batería?",
+       "al": "@inicio",
+       "hasta": "@fin"
+      }
+     ]
+    },
+    "mono": {
+     "salta": true,
+     "pose": "jarras",
+     "cara": "normal",
+     "cambios": [
+      {
+       "al": "@+1.1",
+       "pose": "saludar",
+       "cara": "sorpresa"
+      }
+     ]
+    }
+   }
+  },
+  {
+   "en": "Pues ese día no pagas",
+   "color": "rojo",
+   "escenas": [
+    {
+     "tipo": "iconos",
+     "tam": 300,
+     "items": [
+      {
+       "icono": "bateria",
+       "texto": "SIN BATERÍA, NO PAGAS",
+       "al": "@pagas",
+       "color": "vacia"
+      }
+     ]
+    }
+   ],
+   "personajes": {
+    "mono": {
+     "pose": "encogerse",
+     "cara": "triste",
+     "cambios": [
+      {
+       "al": "@+1.1",
+       "pose": "presentar",
+       "cara": "guiño"
+      }
+     ]
+    }
+   }
+  },
+  {
+   "en": "Así que lleva siempre",
+   "escenas": [
+    {
+     "tipo": "iconos",
+     "tam": 230,
+     "items": [
+      {
+       "icono": "tarjeta",
+       "texto": "UNA TARJETA",
+       "al": "@tarjeta"
+      },
+      {
+       "icono": "dolar",
+       "texto": "UN BILLETE",
+       "al": "@billete"
+      }
+     ]
+    }
+   ],
+   "personajes": {
+    "abuelo": {
+     "pose": "celebrar",
+     "cara": "risa",
+     "objeto": "billete"
+    },
+    "mono": {
+     "pose": "brazos_cruzados",
+     "cara": "sorpresa",
+     "cambios": [
+      {
+       "al": "@+1.1",
+       "pose": "señalar",
+       "cara": "normal"
+      }
+     ]
+    }
+   }
+  },
+  {
+   "en": "Y ahora vienen las preguntas",
+   "color": "rojo",
+   "escenas": [
+    {
+     "tipo": "texto",
+     "tam": 110,
+     "palabras": [
+      {
+       "texto": "LAS QUE DAN",
+       "al": "@dan"
+      },
+      {
+       "texto": "MÁS MIEDO",
+       "al": "@miedo",
+       "caja": true,
+       "color": "rojo"
+      }
+     ]
+    }
+   ],
+   "personajes": {
+    "abuelo": {
+     "pose": "miedo",
+     "cara": "miedo",
+     "objeto": "ninguno"
+    },
+    "mono": {
+     "pose": "saludar",
+     "cara": "guiño",
+     "cambios": [
+      {
+       "al": "@+1.1",
+       "pose": "señalar",
+       "cara": "chulo"
+      }
+     ]
+    }
+   }
+  },
+  {
+   "en": "Número seis",
+   "color": "azul",
+   "capitulo": "6. ¿Y el WiFi del bar?",
+   "escenas": [
+    {
+     "tipo": "pregunta",
+     "pregunta": "¿Y el WiFi del bar?",
+     "al": "@inicio",
+     "caja": {
+      "y": 330
+     }
+    },
+    {
+     "tipo": "texto",
+     "palabras": [
+      {
+       "texto": "DUDA 6/10",
+       "al": "@inicio",
+       "caja": true,
+       "color": "amarillo"
+      }
+     ],
+     "tam": 60,
+     "zona": "arriba",
+     "caja": {
+      "y": 90
+     },
+     "sfx": false
+    }
+   ],
+   "personajes": {
+    "abuelo": {
+     "pose": "pensar",
+     "cara": "sorpresa",
+     "dice": [
+      {
+       "texto": "¿Y el WiFi del bar?",
+       "al": "@inicio",
+       "hasta": "@fin"
+      }
+     ]
+    },
+    "mono": {
+     "salta": true,
+     "pose": "presentar",
+     "cara": "normal",
+     "cambios": [
+      {
+       "al": "@+1.1",
+       "pose": "presentar",
+       "cara": "risa"
+      }
+     ]
+    }
+   }
+  },
+  {
+   "en": "Para pagar en la tienda, el móvil",
+   "escenas": [
+    {
+     "tipo": "comparativa",
+     "a": {
+      "titulo": "WIFI",
+      "icono": "wifi",
+      "al": "@WiFi",
+      "color": "rojo"
+     },
+     "b": {
+      "titulo": "NFC: CENTÍMETROS",
+      "icono": "movil",
+      "al": "@NFC",
+      "color": "verde"
+     },
+     "ganador": "b",
+     "ganador_al": "@centímetros"
+    }
+   ],
+   "personajes": {
+    "abuelo": {
+     "pose": "pensar",
+     "cara": "normal"
+    },
+    "mono": {
+     "pose": "señalar",
+     "cara": "chulo",
+     "cambios": [
+      {
+       "al": "@+1.1",
+       "pose": "pensar",
+       "cara": "normal"
+      }
+     ]
+    }
+   }
+  },
+  {
+   "en": "El peligro del WiFi público",
+   "escenas": [
+    {
+     "tipo": "imagen",
+     "archivo": "bar.png",
+     "prompt": "a cozy bar counter with a coffee cup and a laptop showing a fake shopping website with a big red warning triangle shape",
+     "al": "@peligro",
+     "modo": "marco",
+     "pie": "LAS WEBS FALSAS",
+     "pie_al": "@falsas"
+    }
+   ],
+   "personajes": {
+    "ladron": {
+     "x": 0.72,
+     "escala": 0.7,
+     "mira": "izq",
+     "pose": "jarras",
+     "cara": "risa",
+     "objeto": "movil",
+     "entra": "@webs",
+     "entrada": "cae"
+    },
+    "mono": {
+     "pose": "señalar",
+     "cara": "risa",
+     "cambios": [
+      {
+       "al": "@+1.1",
+       "pose": "jarras",
+       "cara": "risa"
+      }
+     ]
+    }
+   }
+  },
+  {
+   "en": "Si vas a meter la tarjeta",
+   "color": "verde",
+   "escenas": [
+    {
+     "tipo": "iconos",
+     "tam": 230,
+     "items": [
+      {
+       "icono": "antena",
+       "texto": "TUS DATOS DEL MÓVIL",
+       "al": "@datos"
+      },
+      {
+       "icono": "wifi",
+       "texto": "WIFI GRATIS",
+       "al": "@gratis",
+       "tachar_al": "@gratis+0.4"
+      }
+     ]
+    }
+   ],
+   "personajes": {
+    "ladron": {
+     "pose": "encogerse",
+     "cara": "enfado",
+     "salida": "der"
+    },
+    "mono": {
+     "pose": "presentar",
+     "cara": "normal",
+     "cambios": [
+      {
+       "al": "@+1.1",
+       "pose": "señalar_arriba",
+       "cara": "sorpresa"
+      }
+     ]
+    }
+   }
+  },
+  {
+   "en": "Número siete",
+   "color": "rojo",
+   "capitulo": "7. ¿Y si te llama el banco?",
+   "escenas": [
+    {
+     "tipo": "pregunta",
+     "pregunta": "¿Y si me llaman del banco?",
+     "al": "@inicio",
+     "caja": {
+      "y": 330
+     }
+    },
+    {
+     "tipo": "texto",
+     "palabras": [
+      {
+       "texto": "DUDA 7/10",
+       "al": "@inicio",
+       "caja": true,
+       "color": "amarillo"
+      }
+     ],
+     "tam": 60,
+     "zona": "arriba",
+     "caja": {
+      "y": 90
+     },
+     "sfx": false
+    }
+   ],
+   "personajes": {
+    "abuelo": {
+     "pose": "señalar",
+     "cara": "normal",
+     "dice": [
+      {
+       "texto": "¿Y si me llama el banco?",
+       "al": "@inicio",
+       "hasta": "@fin"
+      }
+     ],
+     "objeto": "movil"
+    },
+    "mono": {
+     "salta": true,
+     "pose": "pensar",
+     "cara": "risa",
+     "cambios": [
+      {
+       "al": "@+1.1",
+       "pose": "brazos_cruzados",
+       "cara": "guiño"
+      }
+     ]
+    }
+   }
+  },
+  {
+   "en": "Aquí está el timo de verdad",
+   "escenas": [
+    {
+     "tipo": "chat",
+     "mensajes": [
+      {
+       "texto": "«Banco»: le llamamos por un cargo raro",
+       "al": "@banco"
+      },
+      {
+       "texto": "Díganos el código del SMS",
+       "al": "@código",
+       "color": "rojo"
+      }
+     ]
+    }
+   ],
+   "personajes": {
+    "ladron": {
+     "x": 0.72,
+     "escala": 0.7,
+     "mira": "izq",
+     "pose": "presentar",
+     "cara": "chulo",
+     "objeto": "movil",
+     "entra": "@llaman",
+     "entrada": "cae"
+    },
+    "mono": {
+     "pose": "jarras",
+     "cara": "sorpresa",
+     "cambios": [
+      {
+       "al": "@+1.1",
+       "pose": "saludar",
+       "cara": "normal"
+      }
+     ]
+    }
+   }
+  },
+  {
+   "en": "Ese código sirve para",
+   "escenas": [
+    {
+     "tipo": "iconos",
+     "tam": 230,
+     "items": [
+      {
+       "icono": "dolar",
+       "texto": "AUTORIZA UN PAGO",
+       "al": "@pago"
+      },
+      {
+       "icono": "movil",
+       "texto": "TU TARJETA EN SU MÓVIL",
+       "al": "@ladrón"
+      }
+     ]
+    }
+   ],
+   "personajes": {
+    "ladron": {
+     "pose": "celebrar",
+     "cara": "risa"
+    },
+    "mono": {
+     "pose": "señalar_arriba",
+     "cara": "guiño",
+     "cambios": [
+      {
+       "al": "@+1.1",
+       "pose": "presentar",
+       "cara": "chulo"
+      }
+     ]
+    }
+   }
+  },
+  {
+   "en": "Tu banco nunca te pide",
+   "escenas": [
+    {
+     "tipo": "sello",
+     "texto": "CUELGA Y LLAMA TÚ",
+     "al": "@Cuelga",
+     "color": "verde",
+     "tam": 110
+    }
+   ],
+   "personajes": {
+    "ladron": {
+     "pose": "miedo",
+     "cara": "miedo",
+     "salida": "der"
+    },
+    "abuelo": {
+     "pose": "celebrar",
+     "cara": "risa",
+     "objeto": "ninguno"
+    },
+    "mono": {
+     "pose": "brazos_cruzados",
+     "cara": "normal",
+     "cambios": [
+      {
+       "al": "@+1.1",
+       "pose": "señalar",
+       "cara": "risa"
+      }
+     ]
+    }
+   },
+   "golpes": [
+    "@Cuelga"
+   ]
+  },
+  {
+   "en": "Y si el SMS dice",
+   "escenas": [
+    {
+     "tipo": "pantalla",
+     "dispositivo": "movil",
+     "titulo": "SMS DEL BANCO",
+     "color": "rojo",
+     "lineas": [
+      {
+       "texto": "Vas a añadir tu tarjeta a un móvil nuevo",
+       "al": "@añadir",
+       "color": "rojo"
+      },
+      {
+       "texto": "Si no eres tú: es otro",
+       "al": "@otro",
+       "color": "amarillo"
+      }
+     ]
+    }
+   ],
+   "personajes": {
+    "mono": {
+     "pose": "saludar",
+     "cara": "chulo",
+     "cambios": [
+      {
+       "al": "@+1.1",
+       "pose": "señalar",
+       "cara": "normal"
+      }
+     ]
+    }
+   }
+  },
+  {
+   "en": "Número ocho",
+   "color": "verde",
+   "capitulo": "8. ¿Y el Bizum?",
+   "escenas": [
+    {
+     "tipo": "pregunta",
+     "pregunta": "¿Es lo mismo que el Bizum?",
+     "al": "@inicio",
+     "caja": {
+      "y": 330
+     }
+    },
+    {
+     "tipo": "texto",
+     "palabras": [
+      {
+       "texto": "DUDA 8/10",
+       "al": "@inicio",
+       "caja": true,
+       "color": "amarillo"
+      }
+     ],
+     "tam": 60,
+     "zona": "arriba",
+     "caja": {
+      "y": 90
+     },
+     "sfx": false
+    }
+   ],
+   "personajes": {
+    "abuelo": {
+     "pose": "pensar",
+     "cara": "normal",
+     "dice": [
+      {
+       "texto": "¿Y el Bizum?",
+       "al": "@inicio",
+       "hasta": "@fin"
+      }
+     ]
+    },
+    "mono": {
+     "salta": true,
+     "pose": "presentar",
+     "cara": "risa",
+     "cambios": [
+      {
+       "al": "@+1.1",
+       "pose": "presentar",
+       "cara": "risa"
+      }
+     ]
+    }
+   }
+  },
+  {
+   "en": "No. Con Bizum mandas",
+   "escenas": [
+    {
+     "tipo": "viaje",
+     "viajero": "dolar",
+     "actual": 1,
+     "al": "@persona",
+     "numero_desde": 0,
+     "duracion_tramo": 1.0,
+     "titulo": "NO SE PUEDE DESHACER",
+     "paradas": [
+      {
+       "nombre": "Tú",
+       "icono": "movil"
+      },
+      {
+       "nombre": "Otra persona",
+       "icono": "movil"
+      }
+     ]
+    }
+   ],
+   "personajes": {
+    "abuelo": {
+     "pose": "señalar",
+     "cara": "sorpresa"
+    },
+    "mono": {
+     "pose": "señalar",
+     "cara": "normal",
+     "cambios": [
+      {
+       "al": "@+1.1",
+       "pose": "pensar",
+       "cara": "sorpresa"
+      }
+     ]
+    }
+   }
+  },
+  {
+   "en": "Así que si alguien te pide",
+   "color": "amarillo",
+   "escenas": [
+    {
+     "tipo": "iconos",
+     "tam": 230,
+     "items": [
+      {
+       "icono": "wasap",
+       "texto": "¿BIZUM URGENTE?",
+       "al": "@urgente"
+      },
+      {
+       "icono": "movil",
+       "texto": "LLÁMALE ANTES",
+       "al": "@llámale"
+      }
+     ]
+    }
+   ],
+   "personajes": {
+    "mono": {
+     "pose": "señalar",
+     "cara": "risa",
+     "cambios": [
+      {
+       "al": "@+1.1",
+       "pose": "jarras",
+       "cara": "guiño"
+      }
+     ]
+    }
+   }
+  },
+  {
+   "en": "Número nueve",
+   "color": "morado",
+   "capitulo": "9. ¿Quién paga si te roban?",
+   "escenas": [
+    {
+     "tipo": "pregunta",
+     "pregunta": "¿Quién paga si me lo roban?",
+     "al": "@inicio",
+     "caja": {
+      "y": 330
+     }
+    },
+    {
+     "tipo": "texto",
+     "palabras": [
+      {
+       "texto": "DUDA 9/10",
+       "al": "@inicio",
+       "caja": true,
+       "color": "amarillo"
+      }
+     ],
+     "tam": 60,
+     "zona": "arriba",
+     "caja": {
+      "y": 90
+     },
+     "sfx": false
+    }
+   ],
+   "personajes": {
+    "abuelo": {
+     "pose": "encogerse",
+     "cara": "triste",
+     "dice": [
+      {
+       "texto": "¿Y quién paga?",
+       "al": "@inicio",
+       "hasta": "@fin"
+      }
+     ]
+    },
+    "mono": {
+     "salta": true,
+     "pose": "presentar",
+     "cara": "sorpresa",
+     "cambios": [
+      {
+       "al": "@+1.1",
+       "pose": "señalar_arriba",
+       "cara": "normal"
+      }
+     ]
+    }
+   }
+  },
+  {
+   "en": "En España, si avisas",
+   "escenas": [
+    {
+     "tipo": "cifra",
+     "desde": 0,
+     "hasta": 50,
+     "al": "@cincuenta",
+     "sufijo": " €",
+     "antes": "COMO MUCHO PIERDES",
+     "etiqueta": "si avisas y no fue un descuido grave",
+     "etiqueta_al": "@descuido",
+     "tam": 230,
+     "color": "verde",
+     "dur": 0.6
+    }
+   ],
+   "personajes": {
+    "abuelo": {
+     "pose": "pensar",
+     "cara": "normal"
+    },
+    "mono": {
+     "pose": "pensar",
+     "cara": "guiño",
+     "cambios": [
+      {
+       "al": "@+1.1",
+       "pose": "brazos_cruzados",
+       "cara": "chulo"
+      }
+     ]
+    }
+   }
+  },
+  {
+   "en": "Por eso, en cuanto notes",
+   "color": "azul",
+   "escenas": [
+    {
+     "tipo": "iconos",
+     "tam": 300,
+     "items": [
+      {
+       "icono": "banco",
+       "texto": "LLAMA AL BANCO",
+       "al": "@banco"
+      }
+     ]
+    }
+   ],
+   "personajes": {
+    "abuelo": {
+     "pose": "señalar",
+     "cara": "risa",
+     "objeto": "movil"
+    },
+    "mono": {
+     "pose": "jarras",
+     "cara": "normal",
+     "cambios": [
+      {
+       "al": "@+1.1",
+       "pose": "saludar",
+       "cara": "risa"
+      }
+     ]
+    }
+   }
+  },
+  {
+   "en": "Y el banco tiene que devolverte",
+   "escenas": [
+    {
+     "tipo": "iconos",
+     "tam": 280,
+     "items": [
+      {
+       "icono": "calendario",
+       "texto": "AL DÍA HÁBIL SIGUIENTE",
+       "al": "@siguiente"
+      }
+     ]
+    }
+   ],
+   "personajes": {
+    "abuelo": {
+     "pose": "celebrar",
+     "cara": "risa",
+     "objeto": "ninguno"
+    },
+    "mono": {
+     "pose": "señalar_arriba",
+     "cara": "chulo",
+     "cambios": [
+      {
+       "al": "@+1.1",
+       "pose": "presentar",
+       "cara": "normal"
+      }
+     ]
+    }
+   }
+  },
+  {
+   "en": "Y la última, la pregunta",
+   "color": "amarillo",
+   "escenas": [
+    {
+     "tipo": "texto",
+     "tam": 110,
+     "palabras": [
+      {
+       "texto": "LA PREGUNTA",
+       "al": "@pregunta"
+      },
+      {
+       "texto": "DEL MILLÓN",
+       "al": "@millón",
+       "caja": true,
+       "color": "oro"
+      }
+     ]
+    }
+   ],
+   "personajes": {
+    "mono": {
+     "pose": "brazos_cruzados",
+     "cara": "risa",
+     "cambios": [
+      {
+       "al": "@+1.1",
+       "pose": "señalar",
+       "cara": "risa"
+      }
+     ]
+    }
+   }
+  },
+  {
+   "en": "Número diez",
+   "capitulo": "10. ¿Móvil o cartera?",
+   "escenas": [
+    {
+     "tipo": "pregunta",
+     "pregunta": "¿Qué es más seguro, entonces?",
+     "al": "@inicio",
+     "caja": {
+      "y": 330
+     }
+    },
+    {
+     "tipo": "texto",
+     "palabras": [
+      {
+       "texto": "DUDA 10/10",
+       "al": "@inicio",
+       "caja": true,
+       "color": "amarillo"
+      }
+     ],
+     "tam": 60,
+     "zona": "arriba",
+     "caja": {
+      "y": 90
+     },
+     "sfx": false
+    }
+   ],
+   "personajes": {
+    "abuelo": {
+     "pose": "jarras",
+     "cara": "chulo",
+     "dice": [
+      {
+       "texto": "¿Y qué es más seguro?",
+       "al": "@inicio",
+       "hasta": "@fin"
+      }
+     ]
+    },
+    "mono": {
+     "salta": true,
+     "pose": "saludar",
+     "cara": "normal",
+     "cambios": [
+      {
+       "al": "@+1.1",
+       "pose": "señalar",
+       "cara": "sorpresa"
+      }
+     ]
+    }
+   }
+  },
+  {
+   "en": "Si te lo roban, gana el móvil",
+   "color": "naranja",
+   "escenas": [
+    {
+     "tipo": "combate",
+     "tramos": 1,
+     "a": {
+      "nombre": "Móvil",
+      "icono": "movil",
+      "color": "azul"
+     },
+     "b": {
+      "nombre": "Cartera",
+      "icono": "hucha",
+      "color": "naranja"
+     },
+     "asaltos": [
+      {
+       "titulo": "SI TE LO ROBAN",
+       "ganador": "a",
+       "al": "@roban"
+      },
+      {
+       "titulo": "SI LA TIENDA TE ESPÍA",
+       "ganador": "a",
+       "al": "@espía"
+      },
+      {
+       "titulo": "SIN BATERÍA",
+       "ganador": "b",
+       "al": "@batería"
+      }
+     ],
+     "ganador": "a",
+     "ganador_al": "@uno"
+    }
+   ],
+   "personajes": {
+    "abuelo": {
+     "x": 0.93,
+     "escala": 0.7,
+     "pose": "pensar",
+     "cara": "normal"
+    },
+    "mono": {
+     "x": 0.07,
+     "escala": 0.7,
+     "pose": "saludar",
+     "cara": "risa",
+     "cambios": [
+      {
+       "al": "@+1.1",
+       "pose": "presentar",
+       "cara": "guiño"
+      }
+     ]
+    }
+   }
+  },
+  {
+   "en": "Pero si te quedas sin batería",
+   "escenas": [],
+   "personajes": {
+    "mono": {
+     "pose": "celebrar",
+     "cara": "risa",
+     "salta": true,
+     "cambios": [
+      {
+       "al": "@+1.1",
+       "pose": "pensar",
+       "cara": "normal"
+      }
+     ]
+    }
+   },
+   "relleno": false
+  },
+  {
+   "en": "Mi abuelo sigue pagando",
+   "color": "verde",
+   "escenas": [
+    {
+     "tipo": "iconos",
+     "tam": 230,
+     "items": [
+      {
+       "icono": "dolar",
+       "texto": "EL PAN, EN EFECTIVO",
+       "al": "@efectivo"
+      },
+      {
+       "icono": "dedo",
+       "texto": "LA TARJETA, CON SU HUELLA",
+       "al": "@huella"
+      }
+     ]
+    }
+   ],
+   "personajes": {
+    "abuelo": {
+     "x": 0.9,
+     "escala": 0.8,
+     "pose": "celebrar",
+     "cara": "risa",
+     "objeto": "movil"
+    },
+    "mono": {
+     "x": 0.1,
+     "escala": 0.8,
+     "pose": "señalar",
+     "cara": "guiño",
+     "cambios": [
+      {
+       "al": "@+1.1",
+       "pose": "jarras",
+       "cara": "chulo"
+      }
+     ]
+    }
+   }
+  },
+  {
+   "en": "¿Y en tu casa",
+   "color": "morado",
+   "escenas": [
+    {
+     "tipo": "pregunta",
+     "pregunta": "¿Quién paga con billetes en tu casa?",
+     "al": "@casa"
+    }
+   ],
+   "personajes": {
+    "abuelo": {
+     "pose": "señalar",
+     "cara": "guiño",
+     "objeto": "billete"
+    },
+    "mono": {
+     "pose": "presentar",
+     "cara": "normal",
+     "cambios": [
+      {
+       "al": "@+1.1",
+       "pose": "señalar_arriba",
+       "cara": "risa"
+      }
+     ]
+    }
+   }
+  },
+  {
+   "en": "Si te gusta entender",
+   "color": "rojo",
+   "escenas": [
+    {
+     "tipo": "iconos",
+     "tam": 300,
+     "items": [
+      {
+       "icono": "play",
+       "texto": "SUSCRÍBETE",
+       "al": "@suscríbete"
+      }
+     ]
+    }
+   ],
+   "personajes": {
+    "abuelo": {
+     "pose": "celebrar",
+     "cara": "risa"
+    },
+    "nieta": {
+     "x": 0.72,
+     "escala": 0.7,
+     "mira": "izq",
+     "pose": "celebrar",
+     "cara": "risa",
+     "entra": "@tecnología",
+     "entrada": "salto"
+    },
+    "mono": {
+     "pose": "celebrar",
+     "cara": "risa",
+     "salta": true,
+     "cambios": [
+      {
+       "al": "@+1.1",
+       "pose": "brazos_cruzados",
+       "cara": "normal"
+      }
+     ]
+    }
+   }
+  }
+ ],
+ "cola": 1.2,
+ "formato": "16:9"
+}

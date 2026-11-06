@@ -5,6 +5,7 @@
 import React from 'react';
 import {random} from 'remotion';
 import {C, CHIP_COLORS, doodleRadius, easeOut, FONT, jit, ramp, useBoil, wobLine, wobPoly} from './base';
+import {useTema} from './tema';
 
 export const Caja: React.FC<{
   x: number;
@@ -21,6 +22,7 @@ export const Caja: React.FC<{
   style?: React.CSSProperties;
 }> = ({x, y, w, h, bg = C.paper, seed = 1, scale = 1, rotate = 0, opacity = 1, border = 6, children, style}) => {
   const b = useBoil();
+  const tema = useTema();
   if (scale <= 0.001 || opacity <= 0.001) return null;
   return (
     <div
@@ -32,17 +34,17 @@ export const Caja: React.FC<{
         height: h,
         translate: '-50% -50%',
         scale: `${scale}`,
-        rotate: `${rotate + jit(`${seed}-${b}`, 0.8)}deg`,
+        rotate: `${rotate + (tema?.quieto ? 0 : jit(`${seed}-${b}`, 0.8))}deg`,
         opacity,
-        background: bg,
-        border: `${border}px solid ${C.ink}`,
-        borderRadius: doodleRadius(`${seed}${b}`),
-        boxShadow: `${6 + jit(`${seed}s${b}`, 1)}px ${8 + jit(`${seed}t${b}`, 1)}px 0 ${C.ink}`,
+        background: tema?.cajaFondo ?? bg,
+        border: `${border}px solid ${tema?.linea ?? C.ink}`,
+        borderRadius: tema ? tema.radio : doodleRadius(`${seed}${b}`),
+        boxShadow: tema ? tema.sombra : `${6 + jit(`${seed}s${b}`, 1)}px ${8 + jit(`${seed}t${b}`, 1)}px 0 ${C.ink}`,
         display: 'flex',
         alignItems: 'center',
         justifyContent: 'center',
-        fontFamily: FONT,
-        color: C.ink,
+        fontFamily: tema?.fuente ?? FONT,
+        color: tema?.cajaTexto ?? C.ink,
         whiteSpace: 'nowrap',
         boxSizing: 'border-box',
         ...style,
@@ -65,6 +67,7 @@ export const Grande: React.FC<{
   style?: React.CSSProperties;
 }> = ({x, y, size, color = C.yellow, scale = 1, rotate = 0, opacity = 1, children, style}) => {
   const b = useBoil();
+  const tema = useTema();
   if (scale <= 0.001 || opacity <= 0.001) return null;
   return (
     <div
@@ -74,17 +77,17 @@ export const Grande: React.FC<{
         top: y,
         translate: '-50% -50%',
         scale: `${scale}`,
-        rotate: `${rotate + jit(`big${b}${size}`, 0.7)}deg`,
+        rotate: `${rotate + (tema?.quieto ? 0 : jit(`big${b}${size}`, 0.7))}deg`,
         opacity,
-        fontFamily: FONT,
+        fontFamily: tema?.fuenteTitulo ?? FONT,
         fontSize: size,
         lineHeight: 1,
         color,
         whiteSpace: 'nowrap',
         textAlign: 'center',
-        WebkitTextStroke: `${Math.round(size * 0.07)}px ${C.ink}`,
+        WebkitTextStroke: `${Math.round(size * 0.07)}px ${tema?.contornoTitulo ?? C.ink}`,
         paintOrder: 'stroke fill',
-        textShadow: `${size * 0.05}px ${size * 0.07}px 0 ${C.ink}`,
+        textShadow: `${size * 0.05}px ${size * 0.07}px 0 ${tema?.contornoTitulo ?? C.ink}`,
         ...style,
       }}
     >

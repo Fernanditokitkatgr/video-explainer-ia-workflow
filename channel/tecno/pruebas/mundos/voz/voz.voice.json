@@ -1,0 +1,8 @@
+{
+  "voice_id": "ZSWlW01JDqJRQML1cHGs",
+  "model_id": "eleven_v4",
+  "stability": 0.1,
+  "similarity_boost": 0.8,
+  "style": 0.85,
+  "use_speaker_boost": true
+}

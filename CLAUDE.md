@@ -275,6 +275,14 @@ Largos: `por-que-bitcoin-sube-y-baja`, `cuanto-gana-de-verdad-un-youtuber-en-esp
 
 ---
 
+## Guiones y revisión (desde 6-nov-2026)
+
+- **Temas:** solo lo que el dueño clicaría: cosas cotidianas de tecnología, profesiones y roles, el día a día de cada profesión, tier lists, errores más cometidos, tops y utilidad. Nada de conceptos abstractos de ciberseguridad.
+- **Guion:** ninguno pasa a voz sin superar el filtro de [channel/tecno/GUIONES_HOOKS.md](channel/tecno/GUIONES_HOOKS.md). Formatos en [channel/tecno/FORMATOS.md](channel/tecno/FORMATOS.md).
+- **Shorts:** solo del motor. Los del formato antiguo se retiraron de la cola y quedan privados en YouTube.
+- **Revisión:** tras cada vídeo, `python scripts/revision.py`. Enlaza los MP4 de `channel/tecno/pruebas/` en `channel/tecno/REVISION/` y regenera `REVISION.html` con el calendario real de YouTube. El plan y lo descartado van en `channel/tecno/REVISION/notas.json`.
+- **Diseños:** las pruebas de diseño se quedan en `channel/tecno/pruebas/` hasta que el dueño decida.
+
 ## Reglas editoriales vigentes
 
 Valen para el motor y salieron de datos reales del canal y de la competencia.

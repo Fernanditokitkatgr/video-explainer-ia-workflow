@@ -1,0 +1,90 @@
+<!doctype html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Revisión Tecnomono</title>
+<style>
+  :root { --papel:#f6f3ec; --tinta:#1d1b18; --suave:#6d675d; --linea:#d9d3c7; --acento:#c8401f; --caja:#fff; }
+  @media (prefers-color-scheme: dark) {
+    :root { --papel:#171614; --tinta:#efebe3; --suave:#a29b8e; --linea:#37342f; --acento:#ef7a57; --caja:#211f1c; }
+  }
+  * { box-sizing:border-box; }
+  body { margin:0 auto; max-width:1200px; padding:24px 16px 80px; background:var(--papel); color:var(--tinta);
+         font:16px/1.5 system-ui,"Segoe UI",sans-serif; }
+  h1 { margin:0; font-size:28px; }
+  h2 { margin:40px 0 12px; font-size:20px; border-bottom:2px solid var(--tinta); padding-bottom:6px; }
+  h3 { margin:10px 12px 0; font-size:15px; }
+  a { color:var(--acento); }
+  .meta { margin:0 12px; color:var(--suave); font-size:13px; }
+  .resumen { display:flex; flex-wrap:wrap; gap:12px; margin:20px 0; }
+  .resumen div { flex:1 1 200px; background:var(--caja); border:1px solid var(--linea); border-radius:8px; padding:12px 16px; }
+  .resumen b { display:block; font-size:24px; }
+  table { width:100%; border-collapse:collapse; background:var(--caja); font-size:14px; }
+  td { padding:7px 10px; border-bottom:1px solid var(--linea); vertical-align:top; }
+  td:first-child { white-space:nowrap; }
+  .rejilla { display:grid; grid-template-columns:repeat(auto-fill,minmax(260px,1fr)); gap:16px; }
+  article { background:var(--caja); border:1px solid var(--linea); border-radius:8px; overflow:hidden; padding-bottom:12px; }
+  video { width:100%; max-height:420px; background:#000; display:block; }
+  .notas { display:flex; gap:8px; margin:10px 12px 8px; }
+  button { font:inherit; font-size:14px; padding:5px 12px; border:1px solid var(--linea); border-radius:6px;
+           background:transparent; color:var(--tinta); cursor:pointer; }
+  button.activo { background:var(--acento); border-color:var(--acento); color:#fff; }
+  textarea { display:block; width:calc(100% - 24px); margin:0 12px; min-height:60px; padding:8px; font:inherit; font-size:14px;
+             color:var(--tinta); background:transparent; border:1px solid var(--linea); border-radius:6px; }
+  #copiar { position:fixed; right:16px; bottom:16px; background:var(--acento); border-color:var(--acento); color:#fff; padding:10px 16px; }
+</style>
+</head>
+<body>
+<h1>Revisión Tecnomono</h1>
+<p class="meta" style="margin:4px 0 0">Actualizado el {{ACTUALIZADO}}</p>
+
+<div class="resumen">
+  <div><b>{{ULTIMO_LARGO}}</b>Último largo programado</div>
+  <div><b>{{ULTIMO_SHORT}}</b>Último Short programado</div>
+</div>
+
+{{NOTAS}}
+
+<h2>Lo que se va a publicar</h2>
+<table>{{CALENDARIO}}</table>
+
+{{VIDEOS}}
+
+<button id="copiar">Copiar mi feedback</button>
+
+<script>
+  var CLAVE = 'revision-tecnomono';
+  var datos = {};
+  try { datos = JSON.parse(localStorage.getItem(CLAVE)) || {}; } catch (e) {}
+  function guardar() { try { localStorage.setItem(CLAVE, JSON.stringify(datos)); } catch (e) {} }
+
+  document.querySelectorAll('article').forEach(function (a) {
+    var caja = a.querySelector('textarea');
+    var clave = caja.dataset.clave;
+    var d = datos[clave] = datos[clave] || {};
+    caja.value = d.texto || '';
+    caja.addEventListener('input', function () { d.texto = caja.value; guardar(); });
+    var botones = a.querySelectorAll('button');
+    botones.forEach(function (b) {
+      b.classList.toggle('activo', d.voto === b.dataset.v);
+      b.addEventListener('click', function () {
+        d.voto = d.voto === b.dataset.v ? '' : b.dataset.v;
+        botones.forEach(function (x) { x.classList.toggle('activo', d.voto === x.dataset.v); });
+        guardar();
+      });
+    });
+  });
+
+  document.getElementById('copiar').addEventListener('click', function () {
+    var lineas = Object.keys(datos).filter(function (k) { return datos[k].voto || datos[k].texto; })
+      .map(function (k) { return '- ' + k + ': ' + (datos[k].voto || '') + ' ' + (datos[k].texto || ''); });
+    var boton = this;
+    navigator.clipboard.writeText(lineas.join('\n')).then(function () {
+      boton.textContent = 'Copiado: pégalo en el chat';
+      setTimeout(function () { boton.textContent = 'Copiar mi feedback'; }, 2500);
+    });
+  });
+</script>
+</body>
+</html>

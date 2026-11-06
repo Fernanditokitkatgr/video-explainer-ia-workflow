@@ -64,6 +64,9 @@ Paso a paso con lo que hay que revisar en cada punto: [docs/checklist-produccion
 | Instalarlo en un ordenador nuevo | [docs/instalacion.md](docs/instalacion.md) |
 | Entender el motor de animación | [docs/motor.md](docs/motor.md) |
 | Producir un vídeo | [docs/checklist-produccion.md](docs/checklist-produccion.md) |
+| Escribir hooks y guiones | [channel/tecno/GUIONES_HOOKS.md](channel/tecno/GUIONES_HOOKS.md) |
+| Elegir formato | [channel/tecno/FORMATOS.md](channel/tecno/FORMATOS.md) |
+| Revisar lo producido y el calendario | `python scripts/revision.py --abrir` (genera `channel/tecno/REVISION/REVISION.html`) |
 | Saber cómo se publica y qué corre solo | [docs/publicacion.md](docs/publicacion.md) |
 | Hacer Shorts y subir a TikTok | [docs/shorts-y-tiktok.md](docs/shorts-y-tiktok.md) |
 | Controlar el gasto | [docs/gasto-y-costes.md](docs/gasto-y-costes.md) |

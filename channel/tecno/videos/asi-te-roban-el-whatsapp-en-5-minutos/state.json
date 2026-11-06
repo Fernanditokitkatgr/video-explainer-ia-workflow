@@ -1,0 +1,13 @@
+{
+  "video": "asi-te-roban-el-whatsapp-en-5-minutos",
+  "steps": {
+    "voice": "done",
+    "whisper": "done",
+    "inject": "done",
+    "images": "done",
+    "sfx": "done",
+    "validate": "done",
+    "preflight": "done",
+    "render": "done"
+  }
+}

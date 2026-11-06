@@ -36,7 +36,10 @@ export type Personaje = {tipo: TipoMono; apariciones: Aparicion[]};
 const ENTRA = 0.45;
 const SALE = 0.32;
 
-const PersonajeEnEscena: React.FC<{id: string; p: Personaje; ap: Aparicion; t: number}> = ({id, p, ap, t}) => {
+/** Qué pinta el Reparto: todo (por defecto), o por separado para que el filtro de un mundo no toque los bocadillos. */
+export type CapaPintada = 'monos' | 'bocadillos';
+
+const PersonajeEnEscena: React.FC<{id: string; p: Personaje; ap: Aparicion; t: number; capa?: CapaPintada}> = ({id, p, ap, t, capa}) => {
   const VW = useVideoConfig().width; // 1920 en 16:9 (igual que antes); 1080 en vertical
   const ks = ap.claves;
   let i = 0;
@@ -144,7 +147,7 @@ const PersonajeEnEscena: React.FC<{id: string; p: Personaje; ap: Aparicion; t: n
   const head = 640 * escala * (p.tipo === 'nino' ? 0.85 : 1);
   return (
     <>
-      <Mono
+      {capa !== 'bocadillos' && <Mono
         id={id}
         tipo={p.tipo}
         pose={pose}
@@ -160,8 +163,8 @@ const PersonajeEnEscena: React.FC<{id: string; p: Personaje; ap: Aparicion; t: n
         cambioCara={cambioCara}
         salto={salto}
         aplasta={aplasta}
-      />
-      {dice.map((d, j) => {
+      />}
+      {capa !== 'monos' && dice.map((d, j) => {
         const pp = pop(t, d.al, 0.35) * (1 - ramp(t, (d.hasta ?? ap.t1) - 0.2, 0.15));
         const bx = Math.min(VW - 220, Math.max(220, x + dx + (mira === 'izq' ? -1 : 1) * 160 * escala));
         const by = Math.max(150, y + dy - head - 50 - salto * escala);
@@ -182,7 +185,7 @@ const PersonajeEnEscena: React.FC<{id: string; p: Personaje; ap: Aparicion; t: n
   );
 };
 
-export const Reparto: React.FC<{reparto: Record<string, Personaje>; t: number}> = ({reparto, t}) => {
+export const Reparto: React.FC<{reparto: Record<string, Personaje>; t: number; capa?: CapaPintada}> = ({reparto, t, capa}) => {
   const vivos: {id: string; p: Personaje; ap: Aparicion; y: number}[] = [];
   for (const [id, p] of Object.entries(reparto)) {
     for (const ap of p.apariciones) {
@@ -197,7 +200,7 @@ export const Reparto: React.FC<{reparto: Record<string, Personaje>; t: number}> 
   return (
     <>
       {vivos.map(({id, p, ap}) => (
-        <PersonajeEnEscena key={id} id={id} p={p} ap={ap} t={t} />
+        <PersonajeEnEscena key={id} id={id} p={p} ap={ap} t={t} capa={capa} />
       ))}
     </>
   );

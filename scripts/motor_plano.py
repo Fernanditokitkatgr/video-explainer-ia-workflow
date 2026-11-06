@@ -86,7 +86,12 @@ ESCENAS = {"lista", "flujo", "comparativa", "cifra", "grafica", "chat", "por_den
            # v3 (nov-2026): formatos explicativos (remotion/src/motor/EscenasFormatos.tsx)
            "capas", "viaje", "combate", "reloj", "tier_list", "mito_verdad", "linea_tiempo", "experimento",
            # mundo persistente (remotion/src/motor/EscenasMundo.tsx, se registra desde index.ts)
-           "pueblo"}
+           "pueblo",
+           # v3b: imagen generada de apoyo (scripts/motor_imagenes.py la crea en <manifest_dir>/img_motor/)
+           "imagen", "juicio", "partida", "mundo",
+           # mundos temáticos (remotion/src/motor/Mundos.tsx): solo tienen sentido con "mundo" en el plano
+           "m_rotulo", "m_paso", "m_visual"}
+MUNDOS = {"hacking", "ia", "periodico", "comic", "collage", "pegatina"}  # campo opcional "mundo" del plano; sin él, el vídeo se pinta como siempre
 
 # ───────────────────────── relleno automático ─────────────────────────
 RELLENO_MAX = 1.2   # s de centro vacío que se toleran al empezar un tramo
@@ -161,7 +166,7 @@ def tiempos_escena(tipo: str, d: dict, t0: float) -> tuple[float, float]:
         ms = d.get("mensajes") or []
         c = min([_T(x, "al", t0 + 0.2 + i * 0.8) for i, x in enumerate(ms)] or [t0])
         return c, c
-    if tipo == "dinero":
+    if tipo in ("dinero", "imagen"):
         c = _T(d, "al", t0)
         return c, c
     # lista, grafica, pantalla, mapa, por_dentro, relleno: se ven desde el principio
@@ -397,6 +402,17 @@ def resolver_plano(slug: str, cfg: dict, src: dict, words: list[dict], dur_audio
                 continue
             e_t1 = ends[min(len(ends) - 1, k + int(e.pop("tramos", 0)))]
             d = R.todo(e, base, t0, e_t1, ctx)
+            if tipo == "imagen":
+                arch = d.get("archivo", "")
+                if not (REPO / cfg["manifest_dir"] / "img_motor" / arch).exists():
+                    R.errores.append(f"{ctx}: falta la imagen img_motor/{arch} (genérala con scripts/motor_imagenes.py {slug})")
+                d["src"] = f"{slug}/img/{arch}"
+            if tipo == "mundo":
+                for es in d.get("estaciones", []):
+                    if es.get("archivo"):
+                        if not (REPO / cfg["manifest_dir"] / "img_motor" / es["archivo"]).exists():
+                            R.errores.append(f"{ctx}: falta la imagen img_motor/{es['archivo']}")
+                        es["src"] = f"{slug}/img/{es['archivo']}"
             et0 = d.pop("aparece", t0)
             et1 = d.pop("desaparece", e_t1)
             escenas.append({"tipo": tipo, "d": d, "t0": et0, "t1": et1})
@@ -490,6 +506,10 @@ def resolver_plano(slug: str, cfg: dict, src: dict, words: list[dict], dur_audio
              "palabras": words, "tramos": tramos, "reparto": reparto, "sfx_gain": gains}
     if src.get("rayos"):
         plano["rayos"] = src["rayos"]
+    if src.get("mundo"):
+        if src["mundo"] not in MUNDOS:
+            R.errores.append(f"mundo desconocido «{src['mundo']}» (válidos: {sorted(MUNDOS)})")
+        plano["mundo"] = src["mundo"]
     return plano, R
 
 
@@ -683,6 +703,14 @@ def main() -> None:
     if not voz.exists():
         sys.exit(f"No existe la voz {voz}")
     gains = preparar_publico(a.slug, voz)
+    # imágenes de apoyo (escena "imagen"): <manifest_dir>/img_motor/* → public-motor/<slug>/img/
+    img_src = mdir / "img_motor"
+    if img_src.exists():
+        (PUB / a.slug / "img").mkdir(parents=True, exist_ok=True)
+        for f in img_src.iterdir():
+            dst = PUB / a.slug / "img" / f.name
+            if f.is_file() and (not dst.exists() or dst.stat().st_size != f.stat().st_size):
+                shutil.copy2(f, dst)
     words = palabras(a.slug, cfg, voz)
     plano, R = resolver_plano(a.slug, cfg, src, words, ffprobe_dur(voz), gains)
     for w in R.avisos:

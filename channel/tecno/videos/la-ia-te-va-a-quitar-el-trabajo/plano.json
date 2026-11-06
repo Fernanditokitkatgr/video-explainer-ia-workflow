@@ -1,0 +1,2120 @@
+{
+ "reparto": {
+  "mono": {
+   "tipo": "protagonista",
+   "narrador": true
+  },
+  "ia": {
+   "tipo": "ia"
+  },
+  "juez": {
+   "tipo": "abuelo"
+  },
+  "fiscal": {
+   "tipo": "policia"
+  },
+  "abogado": {
+   "tipo": "rico"
+  },
+  "testigo": {
+   "tipo": "currito"
+  }
+ },
+ "tramos": [
+  {
+   "en": "",
+   "color": "rojo",
+   "capitulo": "Se abre la sesión",
+   "escenas": [
+    {
+     "tipo": "imagen",
+     "archivo": "juzgado.png",
+     "prompt": "an empty courtroom with a wooden judge bench, a witness stand and benches, warm light",
+     "al": "@inicio",
+     "modo": "fondo",
+     "velo": 0.3
+    },
+    {
+     "tipo": "texto",
+     "tam": 88,
+     "palabras": [
+      {
+       "texto": "LA IA, ACUSADA",
+       "al": "@-0.5",
+       "color": "amarillo"
+      },
+      {
+       "texto": "DE QUITARTE EL CURRO",
+       "al": "@-0.4",
+       "caja": true,
+       "color": "rojo"
+      }
+     ],
+     "zona": "arriba",
+     "caja": {
+      "y": 110
+     },
+     "por_fila": 30
+    }
+   ],
+   "personajes": {
+    "ia": {
+     "x": 0.9,
+     "escala": 0.8,
+     "mira": "izq",
+     "pose": "encogerse",
+     "cara": "miedo",
+     "entrada": "nada"
+    },
+    "mono": {
+     "x": 0.1,
+     "escala": 0.8,
+     "pose": "señalar",
+     "cara": "sorpresa",
+     "entrada": "nada",
+     "cambios": [
+      {
+       "al": "@+1.1",
+       "pose": "jarras",
+       "cara": "sorpresa"
+      }
+     ]
+    }
+   },
+   "sfx": [
+    [
+     "golpe",
+     0.02,
+     1.0
+    ],
+    [
+     "boom",
+     0.04,
+     0.7
+    ],
+    [
+     "mazo",
+     0.6,
+     1.1
+    ]
+   ],
+   "golpes": [
+    0.05,
+    0.6
+   ]
+  },
+  {
+   "en": "La acusación es muy grave",
+   "escenas": [
+    {
+     "tipo": "sello",
+     "texto": "ACUSADA",
+     "al": "@acusación",
+     "color": "rojo"
+    }
+   ],
+   "personajes": {
+    "ia": {
+     "pose": "miedo",
+     "cara": "miedo"
+    },
+    "fiscal": {
+     "x": 0.72,
+     "escala": 0.75,
+     "mira": "izq",
+     "pose": "señalar",
+     "cara": "enfado",
+     "entra": "@acusación",
+     "entrada": "cae"
+    },
+    "mono": {
+     "pose": "presentar",
+     "cara": "risa",
+     "cambios": [
+      {
+       "al": "@+1.1",
+       "pose": "señalar_arriba",
+       "cara": "guiño"
+      }
+     ]
+    }
+   },
+   "golpes": [
+    "@acusación"
+   ]
+  },
+  {
+   "en": "¿Culpable o inocente?",
+   "color": "morado",
+   "escenas": [
+    {
+     "tipo": "comparativa",
+     "a": {
+      "titulo": "CULPABLE",
+      "icono": "mazo",
+      "al": "@Culpable",
+      "color": "rojo"
+     },
+     "b": {
+      "titulo": "INOCENTE",
+      "icono": "escudo",
+      "al": "@inocente",
+      "color": "verde"
+     }
+    }
+   ],
+   "personajes": {
+    "ia": {
+     "pose": "pensar",
+     "cara": "normal"
+    },
+    "fiscal": {
+     "pose": "brazos_cruzados",
+     "cara": "chulo",
+     "salida": "der"
+    },
+    "mono": {
+     "pose": "pensar",
+     "cara": "sorpresa",
+     "cambios": [
+      {
+       "al": "@+1.1",
+       "pose": "brazos_cruzados",
+       "cara": "normal"
+      }
+     ]
+    }
+   }
+  },
+  {
+   "en": "Estas son las diez pruebas",
+   "color": "amarillo",
+   "escenas": [
+    {
+     "tipo": "juicio",
+     "pruebas": []
+    }
+   ],
+   "personajes": {
+    "juez": {
+     "x": 0.72,
+     "escala": 0.75,
+     "mira": "izq",
+     "pose": "jarras",
+     "cara": "normal",
+     "entra": "@juicio",
+     "entrada": "salto"
+    },
+    "ia": {
+     "pose": "de_pie",
+     "cara": "normal"
+    },
+    "mono": {
+     "pose": "presentar",
+     "cara": "risa",
+     "cambios": [
+      {
+       "al": "@+1.1",
+       "pose": "saludar",
+       "cara": "chulo"
+      }
+     ]
+    }
+   }
+  },
+  {
+   "en": "Número uno",
+   "color": "rojo",
+   "capitulo": "La acusación",
+   "escenas": [
+    {
+     "tipo": "lista",
+     "n": 1,
+     "total": 10,
+     "titulo": "KLARNA",
+     "apodo": "EL DESPIDO",
+     "color": "rojo",
+     "titulo_al": "@Klarna",
+     "apodo_al": "@despido"
+    }
+   ],
+   "personajes": {
+    "juez": {
+     "pose": "brazos_cruzados",
+     "cara": "normal",
+     "salida": "der"
+    },
+    "mono": {
+     "salta": true,
+     "pose": "señalar_arriba",
+     "cara": "normal",
+     "cambios": [
+      {
+       "al": "@+1.1",
+       "pose": "presentar",
+       "cara": "risa"
+      }
+     ]
+    }
+   }
+  },
+  {
+   "en": "En dos mil veinticuatro, la empresa sueca",
+   "escenas": [
+    {
+     "tipo": "imagen",
+     "archivo": "callcenter.png",
+     "prompt": "a customer service office with rows of desks, headsets and computer screens, half of the chairs empty",
+     "al": "@Klarna",
+     "modo": "marco",
+     "pie": "700 AGENTES",
+     "pie_al": "@setecientos"
+    }
+   ],
+   "personajes": {
+    "fiscal": {
+     "x": 0.9,
+     "escala": 0.8,
+     "mira": "izq",
+     "pose": "señalar",
+     "cara": "enfado",
+     "entra": "@sueca",
+     "entrada": "der"
+    },
+    "mono": {
+     "pose": "brazos_cruzados",
+     "cara": "chulo",
+     "cambios": [
+      {
+       "al": "@+1.1",
+       "pose": "señalar",
+       "cara": "normal"
+      }
+     ]
+    }
+   }
+  },
+  {
+   "en": "Resolvía en dos minutos",
+   "escenas": [
+    {
+     "tipo": "comparativa",
+     "a": {
+      "titulo": "ANTES",
+      "icono": "reloj_arena",
+      "valor": "11 min",
+      "al": "@once-1.0",
+      "color": "naranja"
+     },
+     "b": {
+      "titulo": "CON IA",
+      "icono": "robot",
+      "valor": "2 min",
+      "al": "@once",
+      "color": "azul"
+     }
+    }
+   ],
+   "personajes": {
+    "fiscal": {
+     "pose": "jarras",
+     "cara": "chulo"
+    },
+    "mono": {
+     "pose": "saludar",
+     "cara": "risa",
+     "cambios": [
+      {
+       "al": "@+1.1",
+       "pose": "señalar",
+       "cara": "risa"
+      }
+     ]
+    }
+   }
+  },
+  {
+   "en": "Para la acusación, es la prueba",
+   "escenas": [
+    {
+     "tipo": "juicio",
+     "pruebas": [
+      {
+       "texto": "Klarna: «la IA hace el trabajo de 700»",
+       "lado": "acusacion",
+       "peso": 1,
+       "al": "@reina"
+      }
+     ]
+    }
+   ],
+   "personajes": {
+    "fiscal": {
+     "pose": "brazos_arriba",
+     "cara": "risa",
+     "salida": "der"
+    },
+    "ia": {
+     "x": 0.9,
+     "escala": 0.8,
+     "mira": "izq",
+     "pose": "encogerse",
+     "cara": "triste"
+    },
+    "mono": {
+     "pose": "presentar",
+     "cara": "normal",
+     "cambios": [
+      {
+       "al": "@+1.1",
+       "pose": "presentar",
+       "cara": "sorpresa"
+      }
+     ]
+    }
+   },
+   "golpes": [
+    "@reina"
+   ]
+  },
+  {
+   "en": "Número dos",
+   "color": "naranja",
+   "escenas": [
+    {
+     "tipo": "lista",
+     "n": 2,
+     "total": 10,
+     "titulo": "EL 40 %",
+     "apodo": "EL FMI",
+     "color": "naranja",
+     "titulo_al": "@cuarenta"
+    }
+   ],
+   "personajes": {
+    "mono": {
+     "salta": true,
+     "pose": "señalar",
+     "cara": "risa",
+     "cambios": [
+      {
+       "al": "@+1.1",
+       "pose": "pensar",
+       "cara": "guiño"
+      }
+     ]
+    }
+   }
+  },
+  {
+   "en": "En enero de dos mil veinticuatro, el Fondo",
+   "escenas": [
+    {
+     "tipo": "cifra",
+     "desde": 0,
+     "hasta": 40,
+     "al": "@cuarenta",
+     "sufijo": " %",
+     "antes": "EMPLEOS DEL MUNDO EXPUESTOS A LA IA",
+     "tam": 240,
+     "color": "naranja",
+     "dur": 0.8
+    }
+   ],
+   "personajes": {
+    "mono": {
+     "pose": "señalar",
+     "cara": "sorpresa",
+     "cambios": [
+      {
+       "al": "@+1.1",
+       "pose": "jarras",
+       "cara": "normal"
+      }
+     ]
+    }
+   }
+  },
+  {
+   "en": "En los países ricos",
+   "escenas": [
+    {
+     "tipo": "cifra",
+     "desde": 40,
+     "hasta": 60,
+     "al": "@sesenta",
+     "sufijo": " %",
+     "antes": "EN LOS PAÍSES RICOS",
+     "tam": 240,
+     "color": "rojo",
+     "dur": 0.6
+    }
+   ],
+   "personajes": {
+    "mono": {
+     "pose": "presentar",
+     "cara": "guiño",
+     "cambios": [
+      {
+       "al": "@+1.1",
+       "pose": "señalar_arriba",
+       "cara": "chulo"
+      }
+     ]
+    }
+   }
+  },
+  {
+   "en": "Porque aquí hay más trabajos",
+   "escenas": [
+    {
+     "tipo": "juicio",
+     "pruebas": [
+      {
+       "texto": "Klarna: «la IA hace el trabajo de 700»",
+       "lado": "acusacion",
+       "peso": 1,
+       "al": 0
+      },
+      {
+       "texto": "FMI: el 40 % de los empleos, expuestos",
+       "lado": "acusacion",
+       "peso": 1,
+       "al": "@oficina"
+      }
+     ]
+    }
+   ],
+   "personajes": {
+    "testigo": {
+     "x": 0.72,
+     "escala": 0.75,
+     "mira": "izq",
+     "pose": "encogerse",
+     "cara": "miedo",
+     "objeto": "ninguno",
+     "entra": "@trabajos",
+     "entrada": "der"
+    },
+    "mono": {
+     "pose": "pensar",
+     "cara": "normal",
+     "cambios": [
+      {
+       "al": "@+1.1",
+       "pose": "brazos_cruzados",
+       "cara": "risa"
+      }
+     ]
+    }
+   }
+  },
+  {
+   "en": "Número tres",
+   "color": "verde",
+   "escenas": [
+    {
+     "tipo": "lista",
+     "n": 3,
+     "total": 10,
+     "titulo": "DUOLINGO",
+     "apodo": "LOS TRADUCTORES",
+     "color": "verde",
+     "titulo_al": "@Duolingo"
+    }
+   ],
+   "personajes": {
+    "testigo": {
+     "pose": "pensar",
+     "cara": "triste",
+     "salida": "der"
+    },
+    "mono": {
+     "salta": true,
+     "pose": "jarras",
+     "cara": "chulo",
+     "cambios": [
+      {
+       "al": "@+1.1",
+       "pose": "saludar",
+       "cara": "normal"
+      }
+     ]
+    }
+   }
+  },
+  {
+   "en": "A finales de dos mil veintitrés",
+   "escenas": [
+    {
+     "tipo": "cifra",
+     "desde": 0,
+     "hasta": 10,
+     "al": "@diez",
+     "sufijo": " %",
+     "antes": "COLABORADORES EXTERNOS DE MENOS",
+     "tam": 240,
+     "color": "rojo",
+     "dur": 0.6
+    }
+   ],
+   "personajes": {
+    "mono": {
+     "pose": "señalar_arriba",
+     "cara": "risa",
+     "cambios": [
+      {
+       "al": "@+1.1",
+       "pose": "presentar",
+       "cara": "risa"
+      }
+     ]
+    }
+   }
+  },
+  {
+   "en": "La empresa reconoció",
+   "escenas": [
+    {
+     "tipo": "juicio",
+     "pruebas": [
+      {
+       "texto": "Klarna: «la IA hace el trabajo de 700»",
+       "lado": "acusacion",
+       "peso": 1,
+       "al": 0
+      },
+      {
+       "texto": "FMI: el 40 % de los empleos, expuestos",
+       "lado": "acusacion",
+       "peso": 1,
+       "al": 0
+      },
+      {
+       "texto": "Duolingo: un 10 % menos de colaboradores",
+       "lado": "acusacion",
+       "peso": 1,
+       "al": "@IA"
+      }
+     ]
+    }
+   ],
+   "personajes": {
+    "mono": {
+     "pose": "brazos_cruzados",
+     "cara": "normal",
+     "cambios": [
+      {
+       "al": "@+1.1",
+       "pose": "señalar",
+       "cara": "sorpresa"
+      }
+     ]
+    }
+   }
+  },
+  {
+   "en": "Eran sobre todo traductores",
+   "escenas": [
+    {
+     "tipo": "imagen",
+     "archivo": "traductor.png",
+     "prompt": "a desk with open dictionaries, papers with handwriting-like scribbles and a laptop, a coffee cup, nobody there",
+     "al": "@traductores",
+     "modo": "marco",
+     "pie": "TRADUCTORES Y LECCIONES"
+    }
+   ],
+   "personajes": {
+    "mono": {
+     "pose": "saludar",
+     "cara": "risa",
+     "cambios": [
+      {
+       "al": "@+1.1",
+       "pose": "señalar",
+       "cara": "guiño"
+      }
+     ]
+    }
+   }
+  },
+  {
+   "en": "Número cuatro",
+   "color": "morado",
+   "escenas": [
+    {
+     "tipo": "lista",
+     "n": 4,
+     "total": 10,
+     "titulo": "LOS JÓVENES",
+     "apodo": "LA PUERTA CERRADA",
+     "color": "morado",
+     "titulo_al": "@jóvenes",
+     "apodo_al": "@puerta"
+    }
+   ],
+   "personajes": {
+    "mono": {
+     "salta": true,
+     "pose": "presentar",
+     "cara": "sorpresa",
+     "cambios": [
+      {
+       "al": "@+1.1",
+       "pose": "presentar",
+       "cara": "normal"
+      }
+     ]
+    }
+   }
+  },
+  {
+   "en": "En dos mil veinticinco, un estudio",
+   "escenas": [
+    {
+     "tipo": "imagen",
+     "archivo": "nominas.png",
+     "prompt": "a huge pile of payroll papers and folders on a university desk, a magnifying glass on top",
+     "al": "@Stanford",
+     "modo": "marco",
+     "pie": "STANFORD · 2025"
+    }
+   ],
+   "personajes": {
+    "testigo": {
+     "x": 0.9,
+     "escala": 0.8,
+     "mira": "izq",
+     "pose": "encogerse",
+     "cara": "triste",
+     "entra": "@trabajadores",
+     "entrada": "der"
+    },
+    "mono": {
+     "pose": "señalar",
+     "cara": "guiño",
+     "cambios": [
+      {
+       "al": "@+1.1",
+       "pose": "pensar",
+       "cara": "chulo"
+      }
+     ]
+    }
+   }
+  },
+  {
+   "en": "En los empleos más expuestos",
+   "escenas": [
+    {
+     "tipo": "cifra",
+     "desde": 0,
+     "hasta": 13,
+     "al": "@trece",
+     "prefijo": "−",
+     "sufijo": " %",
+     "antes": "EMPLEO DE 22 A 25 AÑOS",
+     "tam": 240,
+     "color": "rojo",
+     "dur": 0.6,
+     "flecha": "baja"
+    }
+   ],
+   "personajes": {
+    "testigo": {
+     "pose": "miedo",
+     "cara": "miedo"
+    },
+    "mono": {
+     "pose": "señalar",
+     "cara": "normal",
+     "cambios": [
+      {
+       "al": "@+1.1",
+       "pose": "jarras",
+       "cara": "risa"
+      }
+     ]
+    }
+   }
+  },
+  {
+   "en": "No despiden a los veteranos",
+   "escenas": [
+    {
+     "tipo": "juicio",
+     "pruebas": [
+      {
+       "texto": "Klarna: «la IA hace el trabajo de 700»",
+       "lado": "acusacion",
+       "peso": 1,
+       "al": 0
+      },
+      {
+       "texto": "FMI: el 40 % de los empleos, expuestos",
+       "lado": "acusacion",
+       "peso": 1,
+       "al": 0
+      },
+      {
+       "texto": "Duolingo: un 10 % menos de colaboradores",
+       "lado": "acusacion",
+       "peso": 1,
+       "al": 0
+      },
+      {
+       "texto": "Stanford: −13 % de empleo joven",
+       "lado": "acusacion",
+       "peso": 1,
+       "al": "@empiezan"
+      }
+     ]
+    }
+   ],
+   "personajes": {
+    "testigo": {
+     "pose": "sentado",
+     "cara": "triste",
+     "salida": "der"
+    },
+    "mono": {
+     "pose": "presentar",
+     "cara": "chulo",
+     "cambios": [
+      {
+       "al": "@+1.1",
+       "pose": "señalar_arriba",
+       "cara": "normal"
+      }
+     ]
+    }
+   }
+  },
+  {
+   "en": "Número cinco",
+   "color": "azul",
+   "escenas": [
+    {
+     "tipo": "lista",
+     "n": 5,
+     "total": 10,
+     "titulo": "LA VELOCIDAD",
+     "apodo": "EL COHETE",
+     "color": "azul",
+     "titulo_al": "@velocidad"
+    }
+   ],
+   "personajes": {
+    "mono": {
+     "salta": true,
+     "pose": "pensar",
+     "cara": "risa",
+     "cambios": [
+      {
+       "al": "@+1.1",
+       "pose": "brazos_cruzados",
+       "cara": "risa"
+      }
+     ]
+    }
+   }
+  },
+  {
+   "en": "ChatGPT llegó a cien millones",
+   "escenas": [
+    {
+     "tipo": "cifra",
+     "desde": 0,
+     "hasta": 100,
+     "al": "@cien",
+     "sufijo": " MILLONES",
+     "antes": "USUARIOS DE CHATGPT EN UNOS 2 MESES",
+     "tam": 200,
+     "color": "azul",
+     "dur": 0.8
+    }
+   ],
+   "personajes": {
+    "mono": {
+     "pose": "jarras",
+     "cara": "normal",
+     "cambios": [
+      {
+       "al": "@+1.1",
+       "pose": "saludar",
+       "cara": "sorpresa"
+      }
+     ]
+    }
+   }
+  },
+  {
+   "en": "Y un cambio tan rápido",
+   "escenas": [
+    {
+     "tipo": "iconos",
+     "tam": 230,
+     "items": [
+      {
+       "icono": "cohete",
+       "texto": "TAN RÁPIDO",
+       "al": "@rápido"
+      },
+      {
+       "icono": "libro",
+       "texto": "MENOS TIEMPO PARA RECICLARSE",
+       "al": "@reciclarse"
+      }
+     ]
+    }
+   ],
+   "personajes": {
+    "mono": {
+     "pose": "señalar_arriba",
+     "cara": "risa",
+     "cambios": [
+      {
+       "al": "@+1.1",
+       "pose": "presentar",
+       "cara": "guiño"
+      }
+     ]
+    }
+   }
+  },
+  {
+   "en": "La acusación termina aquí",
+   "color": "rojo",
+   "escenas": [
+    {
+     "tipo": "juicio",
+     "pruebas": [
+      {
+       "texto": "Klarna: «la IA hace el trabajo de 700»",
+       "lado": "acusacion",
+       "peso": 1,
+       "al": 0
+      },
+      {
+       "texto": "FMI: el 40 % de los empleos, expuestos",
+       "lado": "acusacion",
+       "peso": 1,
+       "al": 0
+      },
+      {
+       "texto": "Duolingo: un 10 % menos de colaboradores",
+       "lado": "acusacion",
+       "peso": 1,
+       "al": 0
+      },
+      {
+       "texto": "Stanford: −13 % de empleo joven",
+       "lado": "acusacion",
+       "peso": 1,
+       "al": 0
+      },
+      {
+       "texto": "ChatGPT: 100 millones en 2 meses",
+       "lado": "acusacion",
+       "peso": 1,
+       "al": "@aquí"
+      }
+     ]
+    }
+   ],
+   "personajes": {
+    "ia": {
+     "x": 0.9,
+     "escala": 0.8,
+     "mira": "izq",
+     "pose": "miedo",
+     "cara": "miedo"
+    },
+    "mono": {
+     "pose": "brazos_cruzados",
+     "cara": "sorpresa",
+     "cambios": [
+      {
+       "al": "@+1.1",
+       "pose": "señalar",
+       "cara": "normal"
+      }
+     ]
+    }
+   }
+  },
+  {
+   "en": "Y ahora le toca hablar",
+   "color": "azul",
+   "capitulo": "La defensa",
+   "escenas": [
+    {
+     "tipo": "texto",
+     "tam": 110,
+     "palabras": [
+      {
+       "texto": "HABLA",
+       "al": "@hablar"
+      },
+      {
+       "texto": "LA DEFENSA",
+       "al": "@defensa",
+       "caja": true,
+       "color": "azul"
+      }
+     ]
+    }
+   ],
+   "personajes": {
+    "abogado": {
+     "x": 0.72,
+     "escala": 0.75,
+     "mira": "izq",
+     "pose": "presentar",
+     "cara": "chulo",
+     "objeto": "ninguno",
+     "entra": "@defensa",
+     "entrada": "cae"
+    },
+    "ia": {
+     "pose": "saludar",
+     "cara": "risa"
+    },
+    "mono": {
+     "pose": "saludar",
+     "cara": "guiño",
+     "cambios": [
+      {
+       "al": "@+1.1",
+       "pose": "señalar",
+       "cara": "chulo"
+      }
+     ]
+    }
+   }
+  },
+  {
+   "en": "Número seis",
+   "color": "verde",
+   "escenas": [
+    {
+     "tipo": "lista",
+     "n": 6,
+     "total": 10,
+     "titulo": "EL SALDO",
+     "apodo": "LAS CUENTAS",
+     "color": "verde",
+     "titulo_al": "@saldo"
+    }
+   ],
+   "personajes": {
+    "abogado": {
+     "pose": "jarras",
+     "cara": "chulo"
+    },
+    "mono": {
+     "salta": true,
+     "pose": "presentar",
+     "cara": "normal",
+     "cambios": [
+      {
+       "al": "@+1.1",
+       "pose": "presentar",
+       "cara": "risa"
+      }
+     ]
+    }
+   }
+  },
+  {
+   "en": "El Foro Económico Mundial",
+   "escenas": [
+    {
+     "tipo": "grafica",
+     "forma": "barras",
+     "titulo": "EMPLEOS HASTA 2030 (FORO ECONÓMICO MUNDIAL)",
+     "ancho": 1000,
+     "sufijo": " M",
+     "ymin": 0,
+     "ymax": 190,
+     "puntos": [
+      {
+       "e": "Destruidos",
+       "v": 92,
+       "al": "@noventa",
+       "color": "rojo"
+      },
+      {
+       "e": "Creados",
+       "v": 170,
+       "al": "@ciento",
+       "color": "verde"
+      }
+     ]
+    }
+   ],
+   "personajes": {
+    "mono": {
+     "pose": "señalar",
+     "cara": "chulo",
+     "cambios": [
+      {
+       "al": "@+1.1",
+       "pose": "pensar",
+       "cara": "normal"
+      }
+     ]
+    }
+   }
+  },
+  {
+   "en": "Pero se crearán ciento setenta",
+   "escenas": [
+    {
+     "tipo": "juicio",
+     "pruebas": [
+      {
+       "texto": "Klarna: «la IA hace el trabajo de 700»",
+       "lado": "acusacion",
+       "peso": 1,
+       "al": 0
+      },
+      {
+       "texto": "FMI: el 40 % de los empleos, expuestos",
+       "lado": "acusacion",
+       "peso": 1,
+       "al": 0
+      },
+      {
+       "texto": "Duolingo: un 10 % menos de colaboradores",
+       "lado": "acusacion",
+       "peso": 1,
+       "al": 0
+      },
+      {
+       "texto": "Stanford: −13 % de empleo joven",
+       "lado": "acusacion",
+       "peso": 1,
+       "al": 0
+      },
+      {
+       "texto": "ChatGPT: 100 millones en 2 meses",
+       "lado": "acusacion",
+       "peso": 1,
+       "al": 0
+      },
+      {
+       "texto": "Foro Económico: +78 millones de empleos",
+       "lado": "defensa",
+       "peso": 1.5,
+       "al": "@setenta y ocho"
+      }
+     ]
+    }
+   ],
+   "personajes": {
+    "abogado": {
+     "pose": "celebrar",
+     "cara": "risa"
+    },
+    "mono": {
+     "pose": "señalar",
+     "cara": "risa",
+     "cambios": [
+      {
+       "al": "@+1.1",
+       "pose": "jarras",
+       "cara": "risa"
+      }
+     ]
+    }
+   }
+  },
+  {
+   "en": "Los que más crecen",
+   "escenas": [
+    {
+     "tipo": "iconos",
+     "tam": 230,
+     "items": [
+      {
+       "icono": "chip",
+       "texto": "TECNOLOGÍA",
+       "al": "@tecnología"
+      },
+      {
+       "icono": "hospital",
+       "texto": "CUIDADOS",
+       "al": "@cuidados"
+      },
+      {
+       "icono": "carrito",
+       "texto": "REPARTO",
+       "al": "@reparto"
+      }
+     ]
+    }
+   ],
+   "personajes": {
+    "abogado": {
+     "pose": "señalar",
+     "cara": "normal",
+     "salida": "der"
+    },
+    "mono": {
+     "pose": "presentar",
+     "cara": "normal",
+     "cambios": [
+      {
+       "al": "@+1.1",
+       "pose": "señalar_arriba",
+       "cara": "sorpresa"
+      }
+     ]
+    }
+   }
+  },
+  {
+   "en": "Número siete",
+   "escenas": [
+    {
+     "tipo": "lista",
+     "n": 7,
+     "total": 10,
+     "titulo": "KLARNA",
+     "apodo": "LA MARCHA ATRÁS",
+     "color": "azul",
+     "titulo_al": "@Klarna"
+    }
+   ],
+   "personajes": {
+    "mono": {
+     "salta": true,
+     "pose": "pensar",
+     "cara": "risa",
+     "cambios": [
+      {
+       "al": "@+1.1",
+       "pose": "brazos_cruzados",
+       "cara": "guiño"
+      }
+     ]
+    }
+   }
+  },
+  {
+   "en": "En dos mil veinticinco, el jefe de Klarna",
+   "escenas": [
+    {
+     "tipo": "sello",
+     "texto": "BAJÓ LA CALIDAD",
+     "al": "@calidad",
+     "color": "naranja",
+     "tam": 120
+    }
+   ],
+   "personajes": {
+    "mono": {
+     "pose": "jarras",
+     "cara": "sorpresa",
+     "cambios": [
+      {
+       "al": "@+1.1",
+       "pose": "saludar",
+       "cara": "normal"
+      }
+     ]
+    }
+   }
+  },
+  {
+   "en": "Y volvieron a contratar",
+   "escenas": [
+    {
+     "tipo": "imagen",
+     "archivo": "humanos.png",
+     "prompt": "a customer service desk with a friendly headset and a fresh flower pot, the chair ready, bright morning light",
+     "al": "@contratar",
+     "modo": "marco",
+     "pie": "VUELVEN LAS PERSONAS"
+    }
+   ],
+   "personajes": {
+    "abogado": {
+     "x": 0.9,
+     "escala": 0.8,
+     "mira": "izq",
+     "pose": "presentar",
+     "cara": "risa",
+     "entra": "@personas",
+     "entrada": "der"
+    },
+    "mono": {
+     "pose": "señalar_arriba",
+     "cara": "guiño",
+     "cambios": [
+      {
+       "al": "@+1.1",
+       "pose": "presentar",
+       "cara": "chulo"
+      }
+     ]
+    }
+   }
+  },
+  {
+   "en": "La prueba reina de la acusación",
+   "escenas": [
+    {
+     "tipo": "juicio",
+     "pruebas": [
+      {
+       "texto": "Klarna: «la IA hace el trabajo de 700»",
+       "lado": "acusacion",
+       "peso": 1,
+       "al": 0
+      },
+      {
+       "texto": "FMI: el 40 % de los empleos, expuestos",
+       "lado": "acusacion",
+       "peso": 1,
+       "al": 0
+      },
+      {
+       "texto": "Duolingo: un 10 % menos de colaboradores",
+       "lado": "acusacion",
+       "peso": 1,
+       "al": 0
+      },
+      {
+       "texto": "Stanford: −13 % de empleo joven",
+       "lado": "acusacion",
+       "peso": 1,
+       "al": 0
+      },
+      {
+       "texto": "ChatGPT: 100 millones en 2 meses",
+       "lado": "acusacion",
+       "peso": 1,
+       "al": 0
+      },
+      {
+       "texto": "Foro Económico: +78 millones de empleos",
+       "lado": "defensa",
+       "peso": 1.5,
+       "al": 0
+      },
+      {
+       "texto": "Klarna da marcha atrás",
+       "lado": "defensa",
+       "peso": 1.5,
+       "al": "@defensa"
+      }
+     ]
+    }
+   ],
+   "personajes": {
+    "abogado": {
+     "pose": "celebrar",
+     "cara": "risa",
+     "salida": "der"
+    },
+    "ia": {
+     "pose": "celebrar",
+     "cara": "risa"
+    },
+    "mono": {
+     "pose": "brazos_cruzados",
+     "cara": "normal",
+     "cambios": [
+      {
+       "al": "@+1.1",
+       "pose": "señalar",
+       "cara": "risa"
+      }
+     ]
+    }
+   },
+   "golpes": [
+    "@defensa"
+   ]
+  },
+  {
+   "en": "Número ocho",
+   "color": "amarillo",
+   "escenas": [
+    {
+     "tipo": "lista",
+     "n": 8,
+     "total": 10,
+     "titulo": "LOS CAJEROS",
+     "apodo": "AUTOMÁTICOS",
+     "color": "amarillo",
+     "titulo_al": "@cajeros"
+    }
+   ],
+   "personajes": {
+    "mono": {
+     "salta": true,
+     "pose": "saludar",
+     "cara": "chulo",
+     "cambios": [
+      {
+       "al": "@+1.1",
+       "pose": "señalar",
+       "cara": "normal"
+      }
+     ]
+    }
+   }
+  },
+  {
+   "en": "Cuando llegaron los cajeros",
+   "escenas": [
+    {
+     "tipo": "imagen",
+     "archivo": "cajero.png",
+     "prompt": "a bank branch street corner with an ATM machine in the wall and a bank door, old-fashioned",
+     "al": "@cajeros",
+     "modo": "marco",
+     "pie": "¿ADIÓS A LOS EMPLEADOS?",
+     "pie_al": "@muertos"
+    }
+   ],
+   "personajes": {
+    "mono": {
+     "pose": "presentar",
+     "cara": "risa",
+     "cambios": [
+      {
+       "al": "@+1.1",
+       "pose": "presentar",
+       "cara": "risa"
+      }
+     ]
+    }
+   }
+  },
+  {
+   "en": "Pero en Estados Unidos",
+   "escenas": [
+    {
+     "tipo": "grafica",
+     "titulo": "EMPLEADOS DE BANCO (EE. UU., IDEA)",
+     "cabeza": "punto",
+     "valor_cabeza": false,
+     "ancho": 1000,
+     "puntos": [
+      {
+       "v": 10,
+       "e": "Llegan los cajeros",
+       "al": "@Estados"
+      },
+      {
+       "v": 12
+      },
+      {
+       "v": 14,
+       "e": "Más oficinas",
+       "al": "@oficinas"
+      }
+     ]
+    }
+   ],
+   "personajes": {
+    "mono": {
+     "pose": "señalar",
+     "cara": "normal",
+     "cambios": [
+      {
+       "al": "@+1.1",
+       "pose": "pensar",
+       "cara": "sorpresa"
+      }
+     ]
+    }
+   }
+  },
+  {
+   "en": "El trabajo cambió",
+   "escenas": [
+    {
+     "tipo": "juicio",
+     "pruebas": [
+      {
+       "texto": "Klarna: «la IA hace el trabajo de 700»",
+       "lado": "acusacion",
+       "peso": 1,
+       "al": 0
+      },
+      {
+       "texto": "FMI: el 40 % de los empleos, expuestos",
+       "lado": "acusacion",
+       "peso": 1,
+       "al": 0
+      },
+      {
+       "texto": "Duolingo: un 10 % menos de colaboradores",
+       "lado": "acusacion",
+       "peso": 1,
+       "al": 0
+      },
+      {
+       "texto": "Stanford: −13 % de empleo joven",
+       "lado": "acusacion",
+       "peso": 1,
+       "al": 0
+      },
+      {
+       "texto": "ChatGPT: 100 millones en 2 meses",
+       "lado": "acusacion",
+       "peso": 1,
+       "al": 0
+      },
+      {
+       "texto": "Foro Económico: +78 millones de empleos",
+       "lado": "defensa",
+       "peso": 1.5,
+       "al": 0
+      },
+      {
+       "texto": "Klarna da marcha atrás",
+       "lado": "defensa",
+       "peso": 1.5,
+       "al": 0
+      },
+      {
+       "texto": "Los cajeros automáticos",
+       "lado": "defensa",
+       "peso": 1,
+       "al": "@gente"
+      }
+     ]
+    }
+   ],
+   "personajes": {
+    "mono": {
+     "pose": "señalar",
+     "cara": "risa",
+     "cambios": [
+      {
+       "al": "@+1.1",
+       "pose": "jarras",
+       "cara": "guiño"
+      }
+     ]
+    }
+   }
+  },
+  {
+   "en": "Número nueve",
+   "color": "verde",
+   "escenas": [
+    {
+     "tipo": "lista",
+     "n": 9,
+     "total": 10,
+     "titulo": "EXPUESTO",
+     "apodo": "NO ES DESPEDIDO",
+     "color": "verde",
+     "titulo_al": "@Expuesto"
+    }
+   ],
+   "personajes": {
+    "mono": {
+     "salta": true,
+     "pose": "presentar",
+     "cara": "sorpresa",
+     "cambios": [
+      {
+       "al": "@+1.1",
+       "pose": "señalar_arriba",
+       "cara": "normal"
+      }
+     ]
+    }
+   }
+  },
+  {
+   "en": "El mismo informe del Fondo",
+   "escenas": [
+    {
+     "tipo": "comparativa",
+     "a": {
+      "titulo": "LA MITAD: SALE GANANDO",
+      "icono": "grafico_sube",
+      "al": "@ganando",
+      "color": "verde"
+     },
+     "b": {
+      "titulo": "LA OTRA MITAD: CAMBIA",
+      "icono": "reloj_arena",
+      "al": "@más",
+      "color": "naranja"
+     }
+    }
+   ],
+   "personajes": {
+    "mono": {
+     "pose": "pensar",
+     "cara": "guiño",
+     "cambios": [
+      {
+       "al": "@+1.1",
+       "pose": "brazos_cruzados",
+       "cara": "chulo"
+      }
+     ]
+    }
+   }
+  },
+  {
+   "en": "Estar expuesto es que",
+   "escenas": [
+    {
+     "tipo": "juicio",
+     "pruebas": [
+      {
+       "texto": "Klarna: «la IA hace el trabajo de 700»",
+       "lado": "acusacion",
+       "peso": 1,
+       "al": 0
+      },
+      {
+       "texto": "FMI: el 40 % de los empleos, expuestos",
+       "lado": "acusacion",
+       "peso": 1,
+       "al": 0
+      },
+      {
+       "texto": "Duolingo: un 10 % menos de colaboradores",
+       "lado": "acusacion",
+       "peso": 1,
+       "al": 0
+      },
+      {
+       "texto": "Stanford: −13 % de empleo joven",
+       "lado": "acusacion",
+       "peso": 1,
+       "al": 0
+      },
+      {
+       "texto": "ChatGPT: 100 millones en 2 meses",
+       "lado": "acusacion",
+       "peso": 1,
+       "al": 0
+      },
+      {
+       "texto": "Foro Económico: +78 millones de empleos",
+       "lado": "defensa",
+       "peso": 1.5,
+       "al": 0
+      },
+      {
+       "texto": "Klarna da marcha atrás",
+       "lado": "defensa",
+       "peso": 1.5,
+       "al": 0
+      },
+      {
+       "texto": "Los cajeros automáticos",
+       "lado": "defensa",
+       "peso": 1,
+       "al": 0
+      },
+      {
+       "texto": "Expuesto no es despedido",
+       "lado": "defensa",
+       "peso": 1,
+       "al": "@desaparecer"
+      }
+     ]
+    }
+   ],
+   "personajes": {
+    "mono": {
+     "pose": "jarras",
+     "cara": "normal",
+     "cambios": [
+      {
+       "al": "@+1.1",
+       "pose": "saludar",
+       "cara": "risa"
+      }
+     ]
+    }
+   }
+  },
+  {
+   "en": "Y la última, el testigo",
+   "color": "morado",
+   "escenas": [
+    {
+     "tipo": "texto",
+     "tam": 110,
+     "palabras": [
+      {
+       "texto": "EL TESTIGO",
+       "al": "@testigo"
+      },
+      {
+       "texto": "SORPRESA",
+       "al": "@sorpresa",
+       "caja": true,
+       "color": "morado"
+      }
+     ]
+    }
+   ],
+   "personajes": {
+    "testigo": {
+     "x": 0.9,
+     "escala": 0.8,
+     "mira": "izq",
+     "pose": "saludar",
+     "cara": "risa",
+     "entra": "@sorpresa",
+     "entrada": "cae"
+    },
+    "mono": {
+     "pose": "señalar_arriba",
+     "cara": "chulo",
+     "cambios": [
+      {
+       "al": "@+1.1",
+       "pose": "presentar",
+       "cara": "normal"
+      }
+     ]
+    }
+   }
+  },
+  {
+   "en": "Número diez",
+   "escenas": [
+    {
+     "tipo": "lista",
+     "n": 10,
+     "total": 10,
+     "titulo": "TAREAS",
+     "apodo": "NO TRABAJOS",
+     "color": "morado",
+     "titulo_al": "@tareas"
+    }
+   ],
+   "personajes": {
+    "testigo": {
+     "pose": "presentar",
+     "cara": "normal"
+    },
+    "mono": {
+     "salta": true,
+     "pose": "brazos_cruzados",
+     "cara": "risa",
+     "cambios": [
+      {
+       "al": "@+1.1",
+       "pose": "señalar",
+       "cara": "risa"
+      }
+     ]
+    }
+   }
+  },
+  {
+   "en": "La IA no hace trabajos enteros",
+   "escenas": [
+    {
+     "tipo": "iconos",
+     "tam": 230,
+     "items": [
+      {
+       "icono": "libro",
+       "texto": "RESUMIR",
+       "al": "@Resumir"
+      },
+      {
+       "icono": "mundo",
+       "texto": "TRADUCIR",
+       "al": "@traducir"
+      },
+      {
+       "icono": "sobre",
+       "texto": "CONTESTAR LO DE SIEMPRE",
+       "al": "@contestar"
+      }
+     ]
+    }
+   ],
+   "personajes": {
+    "testigo": {
+     "pose": "pensar",
+     "cara": "normal"
+    },
+    "mono": {
+     "pose": "saludar",
+     "cara": "normal",
+     "cambios": [
+      {
+       "al": "@+1.1",
+       "pose": "señalar",
+       "cara": "sorpresa"
+      }
+     ]
+    }
+   }
+  },
+  {
+   "en": "Así que la pregunta de verdad",
+   "escenas": [
+    {
+     "tipo": "pregunta",
+     "pregunta": "¿Cuánto de tu trabajo son tareas?",
+     "al": "@cuánto"
+    }
+   ],
+   "personajes": {
+    "testigo": {
+     "pose": "señalar_arriba",
+     "cara": "sorpresa"
+    },
+    "mono": {
+     "pose": "presentar",
+     "cara": "risa",
+     "cambios": [
+      {
+       "al": "@+1.1",
+       "pose": "presentar",
+       "cara": "guiño"
+      }
+     ]
+    }
+   }
+  },
+  {
+   "en": "Y cuánto es lo que solo haces tú",
+   "escenas": [
+    {
+     "tipo": "juicio",
+     "pruebas": [
+      {
+       "texto": "Klarna: «la IA hace el trabajo de 700»",
+       "lado": "acusacion",
+       "peso": 1,
+       "al": 0
+      },
+      {
+       "texto": "FMI: el 40 % de los empleos, expuestos",
+       "lado": "acusacion",
+       "peso": 1,
+       "al": 0
+      },
+      {
+       "texto": "Duolingo: un 10 % menos de colaboradores",
+       "lado": "acusacion",
+       "peso": 1,
+       "al": 0
+      },
+      {
+       "texto": "Stanford: −13 % de empleo joven",
+       "lado": "acusacion",
+       "peso": 1,
+       "al": 0
+      },
+      {
+       "texto": "ChatGPT: 100 millones en 2 meses",
+       "lado": "acusacion",
+       "peso": 1,
+       "al": 0
+      },
+      {
+       "texto": "Foro Económico: +78 millones de empleos",
+       "lado": "defensa",
+       "peso": 1.5,
+       "al": 0
+      },
+      {
+       "texto": "Klarna da marcha atrás",
+       "lado": "defensa",
+       "peso": 1.5,
+       "al": 0
+      },
+      {
+       "texto": "Los cajeros automáticos",
+       "lado": "defensa",
+       "peso": 1,
+       "al": 0
+      },
+      {
+       "texto": "Expuesto no es despedido",
+       "lado": "defensa",
+       "peso": 1,
+       "al": 0
+      },
+      {
+       "texto": "Tareas, no trabajos",
+       "lado": "defensa",
+       "peso": 1.2,
+       "al": "@mal"
+      }
+     ]
+    }
+   ],
+   "personajes": {
+    "testigo": {
+     "pose": "jarras",
+     "cara": "chulo",
+     "salida": "der"
+    },
+    "mono": {
+     "pose": "señalar",
+     "cara": "sorpresa",
+     "cambios": [
+      {
+       "al": "@+1.1",
+       "pose": "pensar",
+       "cara": "normal"
+      }
+     ]
+    }
+   }
+  },
+  {
+   "en": "El jurado ha deliberado",
+   "color": "naranja",
+   "capitulo": "El veredicto",
+   "escenas": [
+    {
+     "tipo": "juicio",
+     "tramos": 1,
+     "pruebas": [
+      {
+       "texto": "Klarna: «la IA hace el trabajo de 700»",
+       "lado": "acusacion",
+       "peso": 1,
+       "al": 0
+      },
+      {
+       "texto": "FMI: el 40 % de los empleos, expuestos",
+       "lado": "acusacion",
+       "peso": 1,
+       "al": 0
+      },
+      {
+       "texto": "Duolingo: un 10 % menos de colaboradores",
+       "lado": "acusacion",
+       "peso": 1,
+       "al": 0
+      },
+      {
+       "texto": "Stanford: −13 % de empleo joven",
+       "lado": "acusacion",
+       "peso": 1,
+       "al": 0
+      },
+      {
+       "texto": "ChatGPT: 100 millones en 2 meses",
+       "lado": "acusacion",
+       "peso": 1,
+       "al": 0
+      },
+      {
+       "texto": "Foro Económico: +78 millones de empleos",
+       "lado": "defensa",
+       "peso": 1.5,
+       "al": 0
+      },
+      {
+       "texto": "Klarna da marcha atrás",
+       "lado": "defensa",
+       "peso": 1.5,
+       "al": 0
+      },
+      {
+       "texto": "Los cajeros automáticos",
+       "lado": "defensa",
+       "peso": 1,
+       "al": 0
+      },
+      {
+       "texto": "Expuesto no es despedido",
+       "lado": "defensa",
+       "peso": 1,
+       "al": 0
+      },
+      {
+       "texto": "Tareas, no trabajos",
+       "lado": "defensa",
+       "peso": 1.2,
+       "al": 0
+      }
+     ],
+     "veredicto": "CAMBIA, NO QUITA",
+     "veredicto_al": "@Culpable",
+     "color_veredicto": "naranja"
+    }
+   ],
+   "personajes": {
+    "juez": {
+     "x": 0.72,
+     "escala": 0.75,
+     "mira": "izq",
+     "pose": "señalar_arriba",
+     "cara": "enfado",
+     "entra": "@jurado",
+     "entrada": "cae"
+    },
+    "ia": {
+     "x": 0.9,
+     "escala": 0.8,
+     "mira": "izq",
+     "pose": "encogerse",
+     "cara": "miedo"
+    },
+    "mono": {
+     "pose": "señalar",
+     "cara": "guiño",
+     "cambios": [
+      {
+       "al": "@+1.1",
+       "pose": "jarras",
+       "cara": "chulo"
+      }
+     ]
+    }
+   }
+  },
+  {
+   "en": "Culpable de cambiarte",
+   "escenas": [],
+   "personajes": {
+    "juez": {
+     "pose": "jarras",
+     "cara": "normal"
+    },
+    "ia": {
+     "pose": "celebrar",
+     "cara": "risa"
+    },
+    "mono": {
+     "pose": "brazos_cruzados",
+     "cara": "chulo",
+     "cambios": [
+      {
+       "al": "@+1.1",
+       "pose": "señalar_arriba",
+       "cara": "risa"
+      }
+     ]
+    }
+   },
+   "relleno": false
+  },
+  {
+   "en": "La condena, para todos",
+   "color": "verde",
+   "escenas": [
+    {
+     "tipo": "sello",
+     "texto": "APRENDE A USARLA",
+     "al": "@aprender",
+     "color": "verde",
+     "tam": 110
+    }
+   ],
+   "personajes": {
+    "juez": {
+     "pose": "señalar",
+     "cara": "risa",
+     "salida": "der"
+    },
+    "mono": {
+     "pose": "pensar",
+     "cara": "chulo",
+     "cambios": [
+      {
+       "al": "@+1.1",
+       "pose": "brazos_cruzados",
+       "cara": "normal"
+      }
+     ]
+    }
+   }
+  },
+  {
+   "en": "¿Y tú? ¿Culpable",
+   "color": "morado",
+   "escenas": [
+    {
+     "tipo": "pregunta",
+     "pregunta": "¿Culpable o inocente?",
+     "al": "@Culpable"
+    }
+   ],
+   "personajes": {
+    "ia": {
+     "pose": "pensar",
+     "cara": "normal"
+    },
+    "mono": {
+     "pose": "jarras",
+     "cara": "risa",
+     "cambios": [
+      {
+       "al": "@+1.1",
+       "pose": "saludar",
+       "cara": "risa"
+      }
+     ]
+    }
+   }
+  },
+  {
+   "en": "Si te gusta entender",
+   "color": "rojo",
+   "escenas": [
+    {
+     "tipo": "iconos",
+     "tam": 300,
+     "items": [
+      {
+       "icono": "play",
+       "texto": "SUSCRÍBETE",
+       "al": "@suscríbete"
+      }
+     ]
+    }
+   ],
+   "personajes": {
+    "ia": {
+     "pose": "celebrar",
+     "cara": "risa"
+    },
+    "abogado": {
+     "x": 0.72,
+     "escala": 0.7,
+     "mira": "izq",
+     "pose": "celebrar",
+     "cara": "risa",
+     "entra": "@tecnología",
+     "entrada": "salto"
+    },
+    "mono": {
+     "pose": "celebrar",
+     "cara": "risa",
+     "salta": true,
+     "cambios": [
+      {
+       "al": "@+1.1",
+       "pose": "presentar",
+       "cara": "sorpresa"
+      }
+     ]
+    }
+   }
+  }
+ ],
+ "cola": 1.2,
+ "formato": "16:9"
+}

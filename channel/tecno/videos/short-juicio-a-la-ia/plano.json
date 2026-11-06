@@ -1,0 +1,447 @@
+{
+ "reparto": {
+  "mono": {
+   "tipo": "protagonista",
+   "narrador": true
+  },
+  "ia": {
+   "tipo": "ia"
+  },
+  "juez": {
+   "tipo": "abuelo"
+  }
+ },
+ "tramos": [
+  {
+   "en": "",
+   "color": "rojo",
+   "escenas": [
+    {
+     "tipo": "texto",
+     "tam": 88,
+     "palabras": [
+      {
+       "texto": "JUICIO",
+       "al": "@-0.5",
+       "color": "amarillo"
+      },
+      {
+       "texto": "A LA IA",
+       "al": "@-0.4",
+       "caja": true,
+       "color": "rojo"
+      }
+     ],
+     "zona": "arriba",
+     "caja": {
+      "y": 150
+     },
+     "por_fila": 14
+    },
+    {
+     "tipo": "juicio",
+     "pruebas": [],
+     "caja": {
+      "y": 600
+     },
+     "aparece": "@-0.6"
+    }
+   ],
+   "personajes": {
+    "ia": {
+     "x": 0.76,
+     "escala": 0.95,
+     "mira": "izq",
+     "pose": "miedo",
+     "cara": "miedo",
+     "entrada": "nada"
+    },
+    "mono": {
+     "x": 0.25,
+     "escala": 0.95,
+     "pose": "señalar",
+     "cara": "sorpresa",
+     "entrada": "nada",
+     "cambios": [
+      {
+       "al": "@+1.1",
+       "pose": "jarras",
+       "cara": "sorpresa"
+      }
+     ]
+    }
+   },
+   "sfx": [
+    [
+     "golpe",
+     0.02,
+     1.0
+    ],
+    [
+     "boom",
+     0.04,
+     0.7
+    ],
+    [
+     "mazo",
+     0.5,
+     1.1
+    ]
+   ],
+   "golpes": [
+    0.05,
+    0.5
+   ]
+  },
+  {
+   "en": "Prueba de la acusación",
+   "color": "rojo",
+   "escenas": [
+    {
+     "tipo": "juicio",
+     "pruebas": [
+      {
+       "texto": "Klarna: «la IA hace el trabajo de 700»",
+       "lado": "acusacion",
+       "peso": 1,
+       "al": "@setecientas"
+      }
+     ],
+     "caja": {
+      "y": 600
+     }
+    }
+   ],
+   "personajes": {
+    "ia": {
+     "pose": "encogerse",
+     "cara": "triste"
+    },
+    "mono": {
+     "pose": "presentar",
+     "cara": "risa",
+     "cambios": [
+      {
+       "al": "@+1.1",
+       "pose": "señalar_arriba",
+       "cara": "guiño"
+      }
+     ]
+    }
+   }
+  },
+  {
+   "en": "Y el Fondo Monetario",
+   "escenas": [
+    {
+     "tipo": "juicio",
+     "pruebas": [
+      {
+       "texto": "Klarna: «la IA hace el trabajo de 700»",
+       "lado": "acusacion",
+       "peso": 1,
+       "al": 0
+      },
+      {
+       "texto": "FMI: el 40 % de los empleos, expuestos",
+       "lado": "acusacion",
+       "peso": 1,
+       "al": "@cuarenta"
+      }
+     ],
+     "caja": {
+      "y": 600
+     }
+    }
+   ],
+   "personajes": {
+    "ia": {
+     "pose": "miedo",
+     "cara": "miedo"
+    },
+    "mono": {
+     "pose": "pensar",
+     "cara": "sorpresa",
+     "cambios": [
+      {
+       "al": "@+1.1",
+       "pose": "brazos_cruzados",
+       "cara": "normal"
+      }
+     ]
+    }
+   }
+  },
+  {
+   "en": "Habla la defensa",
+   "color": "azul",
+   "escenas": [
+    {
+     "tipo": "juicio",
+     "pruebas": [
+      {
+       "texto": "Klarna: «la IA hace el trabajo de 700»",
+       "lado": "acusacion",
+       "peso": 1,
+       "al": 0
+      },
+      {
+       "texto": "FMI: el 40 % de los empleos, expuestos",
+       "lado": "acusacion",
+       "peso": 1,
+       "al": 0
+      },
+      {
+       "texto": "Klarna vuelve a contratar personas",
+       "lado": "defensa",
+       "peso": 1.5,
+       "al": "@contratar"
+      }
+     ],
+     "caja": {
+      "y": 600
+     }
+    }
+   ],
+   "personajes": {
+    "ia": {
+     "pose": "saludar",
+     "cara": "risa"
+    },
+    "mono": {
+     "pose": "jarras",
+     "cara": "guiño",
+     "cambios": [
+      {
+       "al": "@+1.1",
+       "pose": "saludar",
+       "cara": "chulo"
+      }
+     ]
+    }
+   }
+  },
+  {
+   "en": "Y el Foro Económico",
+   "escenas": [
+    {
+     "tipo": "juicio",
+     "pruebas": [
+      {
+       "texto": "Klarna: «la IA hace el trabajo de 700»",
+       "lado": "acusacion",
+       "peso": 1,
+       "al": 0
+      },
+      {
+       "texto": "FMI: el 40 % de los empleos, expuestos",
+       "lado": "acusacion",
+       "peso": 1,
+       "al": 0
+      },
+      {
+       "texto": "Klarna vuelve a contratar personas",
+       "lado": "defensa",
+       "peso": 1.5,
+       "al": 0
+      },
+      {
+       "texto": "Foro Económico: 170 M nuevos, 92 M menos",
+       "lado": "defensa",
+       "peso": 1.5,
+       "al": "@ciento"
+      }
+     ],
+     "caja": {
+      "y": 600
+     }
+    }
+   ],
+   "personajes": {
+    "ia": {
+     "pose": "celebrar",
+     "cara": "risa"
+    },
+    "mono": {
+     "pose": "señalar_arriba",
+     "cara": "normal",
+     "cambios": [
+      {
+       "al": "@+1.1",
+       "pose": "presentar",
+       "cara": "risa"
+      }
+     ]
+    }
+   }
+  },
+  {
+   "en": "La IA no hace trabajos",
+   "color": "morado",
+   "escenas": [
+    {
+     "tipo": "juicio",
+     "pruebas": [
+      {
+       "texto": "Klarna: «la IA hace el trabajo de 700»",
+       "lado": "acusacion",
+       "peso": 1,
+       "al": 0
+      },
+      {
+       "texto": "FMI: el 40 % de los empleos, expuestos",
+       "lado": "acusacion",
+       "peso": 1,
+       "al": 0
+      },
+      {
+       "texto": "Klarna vuelve a contratar personas",
+       "lado": "defensa",
+       "peso": 1.5,
+       "al": 0
+      },
+      {
+       "texto": "Foro Económico: 170 M nuevos, 92 M menos",
+       "lado": "defensa",
+       "peso": 1.5,
+       "al": 0
+      },
+      {
+       "texto": "Tareas, no trabajos",
+       "lado": "defensa",
+       "peso": 1,
+       "al": "@tareas"
+      }
+     ],
+     "caja": {
+      "y": 600
+     }
+    }
+   ],
+   "personajes": {
+    "ia": {
+     "pose": "presentar",
+     "cara": "normal"
+    },
+    "mono": {
+     "pose": "brazos_cruzados",
+     "cara": "chulo",
+     "cambios": [
+      {
+       "al": "@+1.1",
+       "pose": "señalar",
+       "cara": "normal"
+      }
+     ]
+    }
+   }
+  },
+  {
+   "en": "El veredicto",
+   "color": "naranja",
+   "escenas": [
+    {
+     "tipo": "juicio",
+     "caja": {
+      "y": 600
+     },
+     "pruebas": [
+      {
+       "texto": "Klarna: «la IA hace el trabajo de 700»",
+       "lado": "acusacion",
+       "peso": 1,
+       "al": 0
+      },
+      {
+       "texto": "FMI: el 40 % de los empleos, expuestos",
+       "lado": "acusacion",
+       "peso": 1,
+       "al": 0
+      },
+      {
+       "texto": "Klarna vuelve a contratar personas",
+       "lado": "defensa",
+       "peso": 1.5,
+       "al": 0
+      },
+      {
+       "texto": "Foro Económico: 170 M nuevos, 92 M menos",
+       "lado": "defensa",
+       "peso": 1.5,
+       "al": 0
+      },
+      {
+       "texto": "Tareas, no trabajos",
+       "lado": "defensa",
+       "peso": 1,
+       "al": 0
+      }
+     ],
+     "veredicto": "CAMBIA, NO QUITA",
+     "veredicto_al": "@Culpable",
+     "color_veredicto": "naranja"
+    }
+   ],
+   "personajes": {
+    "juez": {
+     "x": 0.76,
+     "escala": 0.95,
+     "mira": "izq",
+     "pose": "señalar_arriba",
+     "cara": "enfado",
+     "entra": "@veredicto",
+     "entrada": "cae"
+    },
+    "ia": {
+     "pose": "encogerse",
+     "cara": "miedo",
+     "salida": "izq"
+    },
+    "mono": {
+     "pose": "saludar",
+     "cara": "risa",
+     "cambios": [
+      {
+       "al": "@+1.1",
+       "pose": "señalar",
+       "cara": "risa"
+      }
+     ]
+    }
+   }
+  },
+  {
+   "en": "¿Tú qué dices?",
+   "color": "morado",
+   "escenas": [
+    {
+     "tipo": "pregunta",
+     "pregunta": "¿Culpable o inocente?",
+     "al": "@dices",
+     "caja": {
+      "y": 600
+     }
+    }
+   ],
+   "personajes": {
+    "juez": {
+     "pose": "jarras",
+     "cara": "normal"
+    },
+    "mono": {
+     "pose": "presentar",
+     "cara": "normal",
+     "cambios": [
+      {
+       "al": "@+1.1",
+       "pose": "presentar",
+       "cara": "sorpresa"
+      }
+     ]
+    }
+   }
+  }
+ ],
+ "cola": 0.9,
+ "formato": "9:16"
+}

@@ -1,0 +1,2145 @@
+{
+ "reparto": {
+  "mono": {
+   "tipo": "protagonista",
+   "narrador": false
+  },
+  "hacker": {
+   "tipo": "ciberdelincuente"
+  },
+  "prima": {
+   "tipo": "mona"
+  },
+  "poli": {
+   "tipo": "policia"
+  },
+  "madre": {
+   "tipo": "abuelo"
+  }
+ },
+ "tramos": [
+  {
+   "en": "",
+   "color": "azul",
+   "capitulo": "La simulación",
+   "escenas": [
+    {
+     "tipo": "imagen",
+     "archivo": "cocina.png",
+     "prompt": "a smartphone lying on a kitchen table at night, warm lamp light, a cup of coffee, cozy home",
+     "al": "@-0.5",
+     "modo": "fondo",
+     "velo": 0.35,
+     "aparece": "@-0.6"
+    },
+    {
+     "tipo": "texto",
+     "tam": 88,
+     "palabras": [
+      {
+       "texto": "¿TE PIDEN",
+       "al": "@-0.5",
+       "color": "amarillo"
+      },
+      {
+       "texto": "UN CÓDIGO?",
+       "al": "@-0.4",
+       "caja": true,
+       "color": "rojo"
+      }
+     ],
+     "zona": "arriba",
+     "caja": {
+      "y": 110
+     },
+     "por_fila": 30
+    },
+    {
+     "tipo": "pantalla",
+     "dispositivo": "movil",
+     "titulo": "SMS",
+     "color": "azul",
+     "lineas": [
+      {
+       "texto": "Tu código de WhatsApp: 482 913",
+       "al": "@código"
+      }
+     ],
+     "caja": {
+      "y": 560
+     },
+     "aparece": "@-0.6"
+    }
+   ],
+   "personajes": {
+    "mono": {
+     "x": 0.1,
+     "escala": 0.8,
+     "pose": "de_pie",
+     "cara": "sorpresa",
+     "objeto": "movil",
+     "entrada": "nada",
+     "cambios": [
+      {
+       "al": "@+1.1",
+       "pose": "jarras",
+       "cara": "sorpresa"
+      },
+      {
+       "al": "@+3.3",
+       "pose": "brazos_cruzados",
+       "cara": "guiño"
+      }
+     ]
+    }
+   },
+   "sfx": [
+    [
+     "golpe",
+     0.02,
+     1.0
+    ],
+    [
+     "boom",
+     0.04,
+     0.7
+    ],
+    [
+     "notif",
+     "@SMS",
+     0.9
+    ]
+   ],
+   "golpes": [
+    0.05
+   ]
+  },
+  {
+   "en": "Un segundo después",
+   "color": "verde",
+   "escenas": [
+    {
+     "tipo": "chat",
+     "mensajes": [
+      {
+       "texto": "Prima: perdona, te he mandado un código por error",
+       "al": "@Perdona"
+      },
+      {
+       "texto": "¿Me lo pasas?",
+       "al": "@pasas"
+      }
+     ]
+    }
+   ],
+   "personajes": {
+    "prima": {
+     "x": 0.9,
+     "escala": 0.8,
+     "mira": "izq",
+     "pose": "saludar",
+     "cara": "risa",
+     "objeto": "movil",
+     "entra": "@prima",
+     "entrada": "der"
+    },
+    "mono": {
+     "pose": "pensar",
+     "cara": "normal",
+     "cambios": [
+      {
+       "al": "@+1.1",
+       "pose": "señalar_arriba",
+       "cara": "guiño"
+      },
+      {
+       "al": "@+3.3",
+       "pose": "saludar",
+       "cara": "normal"
+      }
+     ]
+    }
+   }
+  },
+  {
+   "en": "Si se lo manda",
+   "color": "rojo",
+   "escenas": [
+    {
+     "tipo": "cifra",
+     "desde": 0,
+     "hasta": 5,
+     "al": "@cinco",
+     "sufijo": " MINUTOS",
+     "antes": "LO QUE TARDA EN PERDERLO",
+     "tam": 200,
+     "color": "rojo",
+     "dur": 0.7
+    }
+   ],
+   "personajes": {
+    "prima": {
+     "pose": "encogerse",
+     "cara": "triste",
+     "salida": "der"
+    },
+    "mono": {
+     "pose": "miedo",
+     "cara": "miedo",
+     "cambios": [
+      {
+       "al": "@+1.1",
+       "pose": "brazos_cruzados",
+       "cara": "normal"
+      },
+      {
+       "al": "@+3.3",
+       "pose": "presentar",
+       "cara": "chulo"
+      }
+     ]
+    }
+   }
+  },
+  {
+   "en": "Es una simulación",
+   "color": "amarillo",
+   "escenas": [
+    {
+     "tipo": "sello",
+     "texto": "EL TIMO ES REAL",
+     "al": "@real",
+     "color": "rojo",
+     "tam": 110
+    }
+   ],
+   "personajes": {
+    "poli": {
+     "x": 0.9,
+     "escala": 0.8,
+     "mira": "izq",
+     "pose": "señalar",
+     "cara": "enfado",
+     "entra": "@Policía",
+     "entrada": "cae"
+    },
+    "mono": {
+     "pose": "jarras",
+     "cara": "guiño",
+     "cambios": [
+      {
+       "al": "@+1.1",
+       "pose": "saludar",
+       "cara": "chulo"
+      },
+      {
+       "al": "@+3.3",
+       "pose": "señalar",
+       "cara": "risa"
+      }
+     ]
+    }
+   }
+  },
+  {
+   "en": "Estos son los diez pasos",
+   "escenas": [
+    {
+     "tipo": "linea_tiempo",
+     "titulo": "MINUTO A MINUTO",
+     "hitos": [
+      {
+       "fecha": "MIN 0",
+       "texto": "El anzuelo",
+       "icono": "anzuelo",
+       "al": "@+0.3"
+      },
+      {
+       "fecha": "MIN 3",
+       "texto": "Te quedas fuera",
+       "icono": "candado",
+       "al": "@+1.5"
+      },
+      {
+       "fecha": "MIN 5",
+       "texto": "El Bizum",
+       "icono": "dolar",
+       "al": "@+2.7"
+      },
+      {
+       "fecha": "FIN",
+       "texto": "Recuperarla",
+       "icono": "escudo",
+       "al": "@final"
+      }
+     ]
+    }
+   ],
+   "personajes": {
+    "poli": {
+     "pose": "brazos_cruzados",
+     "cara": "normal",
+     "salida": "der"
+    },
+    "mono": {
+     "pose": "señalar_arriba",
+     "cara": "normal",
+     "cambios": [
+      {
+       "al": "@+1.1",
+       "pose": "presentar",
+       "cara": "risa"
+      },
+      {
+       "al": "@+3.3",
+       "pose": "señalar",
+       "cara": "normal"
+      },
+      {
+       "al": "@+5.5",
+       "pose": "pensar",
+       "cara": "risa"
+      },
+      {
+       "al": "@+7.7",
+       "pose": "señalar_arriba",
+       "cara": "sorpresa"
+      }
+     ]
+    }
+   }
+  },
+  {
+   "en": "Número uno",
+   "color": "azul",
+   "capitulo": "1. Minuto 0: el anzuelo",
+   "escenas": [
+    {
+     "tipo": "reloj",
+     "escenario": "SIMULACIÓN DE ATAQUE · PASO 1/10",
+     "rotulo": "MINUTO 0",
+     "subtitulo": "El anzuelo",
+     "desde": 1170,
+     "hasta": 1170,
+     "al": "@inicio",
+     "caos": 10,
+     "medidor": "PELIGRO",
+     "dur": 0.9
+    }
+   ],
+   "personajes": {
+    "mono": {
+     "objeto": "movil",
+     "salta": true,
+     "pose": "brazos_cruzados",
+     "cara": "chulo",
+     "cambios": [
+      {
+       "al": "@+1.1",
+       "pose": "señalar",
+       "cara": "normal"
+      }
+     ]
+    }
+   }
+  },
+  {
+   "en": "El mensaje no viene",
+   "escenas": [
+    {
+     "tipo": "iconos",
+     "tam": 230,
+     "items": [
+      {
+       "icono": "wasap",
+       "texto": "DE TU PRIMA",
+       "al": "@prima"
+      },
+      {
+       "icono": "escudo",
+       "texto": "DA CONFIANZA",
+       "al": "@confianza"
+      }
+     ]
+    }
+   ],
+   "personajes": {
+    "mono": {
+     "pose": "saludar",
+     "cara": "risa",
+     "cambios": [
+      {
+       "al": "@+1.1",
+       "pose": "señalar",
+       "cara": "risa"
+      },
+      {
+       "al": "@+3.3",
+       "pose": "pensar",
+       "cara": "sorpresa"
+      }
+     ]
+    }
+   }
+  },
+  {
+   "en": "Pero no lo escribe ella",
+   "color": "morado",
+   "escenas": [
+    {
+     "tipo": "imagen",
+     "archivo": "guarida.png",
+     "prompt": "a dark messy desk at night with two smartphones and a laptop glowing, energy drink cans, hoodie on the chair",
+     "al": "@ciberdelincuente",
+     "modo": "marco",
+     "pie": "EL QUE ESCRIBE DE VERDAD",
+     "pie_al": "@robó"
+    }
+   ],
+   "personajes": {
+    "hacker": {
+     "x": 0.9,
+     "escala": 0.8,
+     "mira": "izq",
+     "pose": "jarras",
+     "cara": "risa",
+     "objeto": "movil",
+     "entra": "@ciberdelincuente",
+     "entrada": "cae"
+    },
+    "mono": {
+     "pose": "presentar",
+     "cara": "normal",
+     "cambios": [
+      {
+       "al": "@+1.1",
+       "pose": "presentar",
+       "cara": "sorpresa"
+      },
+      {
+       "al": "@+3.3",
+       "pose": "jarras",
+       "cara": "guiño"
+      }
+     ]
+    }
+   }
+  },
+  {
+   "en": "Por eso este timo",
+   "escenas": [
+    {
+     "tipo": "flujo",
+     "forma": "ciclo",
+     "nodos": [
+      {
+       "texto": "PRIMA",
+       "icono": "movil",
+       "al": "@cadena"
+      },
+      {
+       "texto": "LUIS",
+       "icono": "movil",
+       "al": "@víctima"
+      },
+      {
+       "texto": "SU MADRE",
+       "icono": "movil",
+       "al": "@siguiente",
+       "color": "rojo"
+      }
+     ]
+    }
+   ],
+   "personajes": {
+    "hacker": {
+     "pose": "señalar",
+     "cara": "chulo"
+    },
+    "mono": {
+     "pose": "señalar",
+     "cara": "risa",
+     "cambios": [
+      {
+       "al": "@+1.1",
+       "pose": "pensar",
+       "cara": "guiño"
+      },
+      {
+       "al": "@+3.3",
+       "pose": "señalar_arriba",
+       "cara": "normal"
+      }
+     ]
+    }
+   }
+  },
+  {
+   "en": "Y el ladrón no elige",
+   "escenas": [
+    {
+     "tipo": "iconos",
+     "tam": 230,
+     "items": [
+      {
+       "icono": "ojo",
+       "texto": "LEE TUS CHATS",
+       "al": "@chats"
+      },
+      {
+       "icono": "wasap",
+       "texto": "ELIGE TU CONTACTO DE CONFIANZA",
+       "al": "@confías"
+      }
+     ]
+    }
+   ],
+   "personajes": {
+    "hacker": {
+     "pose": "pensar",
+     "cara": "risa",
+     "salida": "der"
+    },
+    "mono": {
+     "pose": "señalar",
+     "cara": "sorpresa",
+     "cambios": [
+      {
+       "al": "@+1.1",
+       "pose": "jarras",
+       "cara": "normal"
+      },
+      {
+       "al": "@+3.3",
+       "pose": "brazos_cruzados",
+       "cara": "chulo"
+      },
+      {
+       "al": "@+5.5",
+       "pose": "presentar",
+       "cara": "risa"
+      }
+     ]
+    }
+   }
+  },
+  {
+   "en": "Número dos",
+   "color": "naranja",
+   "capitulo": "2. Minuto 1: el código",
+   "escenas": [
+    {
+     "tipo": "reloj",
+     "escenario": "SIMULACIÓN DE ATAQUE · PASO 2/10",
+     "rotulo": "MINUTO 1",
+     "subtitulo": "El código",
+     "desde": 1170,
+     "hasta": 1171,
+     "al": "@inicio",
+     "caos": 25,
+     "medidor": "PELIGRO",
+     "dur": 0.9
+    }
+   ],
+   "personajes": {
+    "mono": {
+     "salta": true,
+     "pose": "presentar",
+     "cara": "guiño",
+     "cambios": [
+      {
+       "al": "@+1.1",
+       "pose": "señalar_arriba",
+       "cara": "chulo"
+      }
+     ]
+    }
+   }
+  },
+  {
+   "en": "Ese SMS de seis números",
+   "escenas": [
+    {
+     "tipo": "pantalla",
+     "dispositivo": "movil",
+     "titulo": "SMS DE WHATSAPP",
+     "color": "verde",
+     "lineas": [
+      {
+       "texto": "Código: 482 913",
+       "al": "@seis",
+       "color": "azul"
+      },
+      {
+       "texto": "No lo compartas con nadie",
+       "al": "@WhatsApp",
+       "color": "rojo"
+      }
+     ]
+    }
+   ],
+   "personajes": {
+    "mono": {
+     "pose": "pensar",
+     "cara": "normal",
+     "cambios": [
+      {
+       "al": "@+1.1",
+       "pose": "brazos_cruzados",
+       "cara": "risa"
+      },
+      {
+       "al": "@+3.3",
+       "pose": "presentar",
+       "cara": "normal"
+      }
+     ]
+    }
+   }
+  },
+  {
+   "en": "Alguien acaba de pedir",
+   "escenas": [
+    {
+     "tipo": "imagen",
+     "archivo": "otro-movil.png",
+     "prompt": "a second smartphone on a dark desk showing a big green loading circle, ominous purple light",
+     "al": "@otro",
+     "modo": "marco",
+     "pie": "TU CUENTA, EN OTRO MÓVIL"
+    }
+   ],
+   "personajes": {
+    "hacker": {
+     "x": 0.9,
+     "escala": 0.8,
+     "mira": "izq",
+     "pose": "presentar",
+     "cara": "chulo",
+     "objeto": "movil",
+     "entra": "@instalar",
+     "entrada": "der"
+    },
+    "mono": {
+     "pose": "jarras",
+     "cara": "chulo",
+     "cambios": [
+      {
+       "al": "@+1.1",
+       "pose": "saludar",
+       "cara": "normal"
+      },
+      {
+       "al": "@+3.3",
+       "pose": "señalar",
+       "cara": "risa"
+      },
+      {
+       "al": "@+5.5",
+       "pose": "presentar",
+       "cara": "sorpresa"
+      }
+     ]
+    }
+   }
+  },
+  {
+   "en": "El propio mensaje dice",
+   "escenas": [
+    {
+     "tipo": "texto",
+     "tam": 96,
+     "palabras": [
+      {
+       "texto": "«NO LO COMPARTAS»",
+       "al": "@compartas",
+       "caja": true,
+       "color": "rojo"
+      },
+      {
+       "texto": "CASI NADIE LO LEE",
+       "al": "@lee"
+      }
+     ]
+    }
+   ],
+   "personajes": {
+    "hacker": {
+     "pose": "brazos_cruzados",
+     "cara": "risa"
+    },
+    "mono": {
+     "pose": "señalar_arriba",
+     "cara": "risa",
+     "cambios": [
+      {
+       "al": "@+1.1",
+       "pose": "presentar",
+       "cara": "risa"
+      },
+      {
+       "al": "@+3.3",
+       "pose": "señalar",
+       "cara": "sorpresa"
+      }
+     ]
+    }
+   }
+  },
+  {
+   "en": "Ese código es la llave",
+   "color": "amarillo",
+   "escenas": [
+    {
+     "tipo": "iconos",
+     "tam": 300,
+     "items": [
+      {
+       "icono": "llave",
+       "texto": "EL CÓDIGO ES LA LLAVE",
+       "al": "@llave"
+      }
+     ]
+    }
+   ],
+   "personajes": {
+    "hacker": {
+     "pose": "celebrar",
+     "cara": "risa",
+     "salida": "der"
+    },
+    "mono": {
+     "pose": "brazos_cruzados",
+     "cara": "normal",
+     "cambios": [
+      {
+       "al": "@+1.1",
+       "pose": "señalar",
+       "cara": "sorpresa"
+      }
+     ]
+    }
+   }
+  },
+  {
+   "en": "Número tres",
+   "color": "rojo",
+   "capitulo": "3. Minuto 2: la prisa",
+   "escenas": [
+    {
+     "tipo": "reloj",
+     "escenario": "SIMULACIÓN DE ATAQUE · PASO 3/10",
+     "rotulo": "MINUTO 2",
+     "subtitulo": "La prisa",
+     "desde": 1171,
+     "hasta": 1172,
+     "al": "@inicio",
+     "caos": 40,
+     "medidor": "PELIGRO",
+     "dur": 0.9
+    }
+   ],
+   "personajes": {
+    "mono": {
+     "salta": true,
+     "pose": "saludar",
+     "cara": "risa",
+     "cambios": [
+      {
+       "al": "@+1.1",
+       "pose": "señalar",
+       "cara": "guiño"
+      }
+     ]
+    }
+   }
+  },
+  {
+   "en": "\"Porfa, rápido",
+   "escenas": [
+    {
+     "tipo": "chat",
+     "mensajes": [
+      {
+       "texto": "Porfa, rápido, que se me bloquea",
+       "al": "@Porfa"
+      }
+     ]
+    }
+   ],
+   "personajes": {
+    "mono": {
+     "pose": "encogerse",
+     "cara": "sorpresa",
+     "cambios": [
+      {
+       "al": "@+1.1",
+       "pose": "presentar",
+       "cara": "normal"
+      }
+     ]
+    }
+   }
+  },
+  {
+   "en": "Con prisa no se piensa",
+   "escenas": [
+    {
+     "tipo": "pantalla",
+     "dispositivo": "movil",
+     "titulo": "WHATSAPP",
+     "color": "verde",
+     "lineas": [
+      {
+       "texto": "Luis: 482 913",
+       "al": "@manda",
+       "color": "verde"
+      }
+     ]
+    }
+   ],
+   "personajes": {
+    "mono": {
+     "pose": "presentar",
+     "cara": "normal",
+     "objeto": "movil",
+     "cambios": [
+      {
+       "al": "@+1.1",
+       "pose": "pensar",
+       "cara": "chulo"
+      },
+      {
+       "al": "@+3.3",
+       "pose": "señalar_arriba",
+       "cara": "risa"
+      }
+     ]
+    }
+   }
+  },
+  {
+   "en": "Ha tardado diez segundos",
+   "escenas": [
+    {
+     "tipo": "sello",
+     "texto": "ENVIADO",
+     "al": "@deshacerlo",
+     "color": "rojo"
+    }
+   ],
+   "personajes": {
+    "mono": {
+     "pose": "miedo",
+     "cara": "miedo",
+     "cambios": [
+      {
+       "al": "@+1.1",
+       "pose": "jarras",
+       "cara": "risa"
+      }
+     ]
+    }
+   },
+   "golpes": [
+    "@deshacerlo"
+   ]
+  },
+  {
+   "en": "Número cuatro",
+   "color": "morado",
+   "capitulo": "4. Minuto 3: el salto",
+   "escenas": [
+    {
+     "tipo": "reloj",
+     "escenario": "SIMULACIÓN DE ATAQUE · PASO 4/10",
+     "rotulo": "MINUTO 3",
+     "subtitulo": "El salto",
+     "desde": 1172,
+     "hasta": 1173,
+     "al": "@inicio",
+     "caos": 60,
+     "medidor": "PELIGRO",
+     "dur": 0.9
+    }
+   ],
+   "personajes": {
+    "mono": {
+     "salta": true,
+     "pose": "presentar",
+     "cara": "chulo",
+     "cambios": [
+      {
+       "al": "@+1.1",
+       "pose": "señalar_arriba",
+       "cara": "normal"
+      }
+     ]
+    }
+   }
+  },
+  {
+   "en": "Con ese código, el ciberdelincuente",
+   "escenas": [
+    {
+     "tipo": "viaje",
+     "viajero": "wasap",
+     "actual": 1,
+     "al": "@activa",
+     "numero_desde": 0,
+     "duracion_tramo": 1.0,
+     "paradas": [
+      {
+       "nombre": "Móvil de Luis",
+       "icono": "movil"
+      },
+      {
+       "nombre": "Móvil del ladrón",
+       "icono": "calavera"
+      }
+     ],
+     "titulo": "TU CUENTA SALTA"
+    }
+   ],
+   "personajes": {
+    "hacker": {
+     "x": 0.9,
+     "escala": 0.8,
+     "mira": "izq",
+     "pose": "celebrar",
+     "cara": "risa",
+     "objeto": "movil",
+     "entra": "@activa",
+     "entrada": "cae"
+    },
+    "mono": {
+     "pose": "pensar",
+     "cara": "risa",
+     "cambios": [
+      {
+       "al": "@+1.1",
+       "pose": "brazos_cruzados",
+       "cara": "risa"
+      },
+      {
+       "al": "@+3.3",
+       "pose": "presentar",
+       "cara": "sorpresa"
+      }
+     ]
+    }
+   }
+  },
+  {
+   "en": "Y en el móvil de Luis salta",
+   "escenas": [
+    {
+     "tipo": "pantalla",
+     "dispositivo": "movil",
+     "titulo": "WHATSAPP",
+     "color": "rojo",
+     "lineas": [
+      {
+       "texto": "Tu número ya no está registrado en este teléfono",
+       "al": "@aviso",
+       "color": "rojo"
+      }
+     ],
+     "app": "alerta"
+    }
+   ],
+   "personajes": {
+    "mono": {
+     "pose": "miedo",
+     "cara": "miedo",
+     "objeto": "movil",
+     "cambios": [
+      {
+       "al": "@+1.1",
+       "pose": "saludar",
+       "cara": "sorpresa"
+      },
+      {
+       "al": "@+3.3",
+       "pose": "señalar",
+       "cara": "guiño"
+      }
+     ]
+    }
+   },
+   "sfx": [
+    [
+     "alerta",
+     "@aviso",
+     0.8
+    ]
+   ]
+  },
+  {
+   "en": "Luis se queda fuera",
+   "escenas": [
+    {
+     "tipo": "sello",
+     "texto": "FUERA",
+     "al": "@fuera",
+     "color": "rojo"
+    }
+   ],
+   "personajes": {
+    "mono": {
+     "pose": "encogerse",
+     "cara": "triste",
+     "cambios": [
+      {
+       "al": "@+1.1",
+       "pose": "presentar",
+       "cara": "guiño"
+      }
+     ]
+    }
+   },
+   "golpes": [
+    "@fuera"
+   ]
+  },
+  {
+   "en": "Su móvil no tiene ningún virus",
+   "escenas": [
+    {
+     "tipo": "iconos",
+     "tam": 230,
+     "items": [
+      {
+       "icono": "movil",
+       "texto": "SIN VIRUS",
+       "al": "@virus",
+       "tachar_al": "@virus+0.5"
+      },
+      {
+       "icono": "candado",
+       "texto": "LE ROBAN LA CUENTA",
+       "al": "@cuenta"
+      }
+     ]
+    }
+   ],
+   "personajes": {
+    "hacker": {
+     "pose": "jarras",
+     "cara": "chulo",
+     "salida": "der"
+    },
+    "mono": {
+     "pose": "brazos_cruzados",
+     "cara": "sorpresa",
+     "cambios": [
+      {
+       "al": "@+1.1",
+       "pose": "señalar",
+       "cara": "normal"
+      },
+      {
+       "al": "@+3.3",
+       "pose": "presentar",
+       "cara": "chulo"
+      }
+     ]
+    }
+   }
+  },
+  {
+   "en": "Número cinco",
+   "color": "rojo",
+   "capitulo": "5. Minuto 4: el candado al revés",
+   "escenas": [
+    {
+     "tipo": "reloj",
+     "escenario": "SIMULACIÓN DE ATAQUE · PASO 5/10",
+     "rotulo": "MINUTO 4",
+     "subtitulo": "El candado al revés",
+     "desde": 1173,
+     "hasta": 1174,
+     "al": "@inicio",
+     "caos": 70,
+     "medidor": "PELIGRO",
+     "dur": 0.9
+    }
+   ],
+   "personajes": {
+    "mono": {
+     "salta": true,
+     "pose": "saludar",
+     "cara": "guiño",
+     "cambios": [
+      {
+       "al": "@+1.1",
+       "pose": "señalar",
+       "cara": "chulo"
+      },
+      {
+       "al": "@+3.3",
+       "pose": "pensar",
+       "cara": "risa"
+      }
+     ]
+    }
+   }
+  },
+  {
+   "en": "Lo primero que hace el ladrón",
+   "escenas": [
+    {
+     "tipo": "imagen",
+     "archivo": "candado.png",
+     "prompt": "a big shiny padlock with a heavy chain wrapped around a smartphone, dramatic",
+     "al": "@PIN",
+     "modo": "marco",
+     "pie": "UN PIN QUE SOLO SABE ÉL"
+    }
+   ],
+   "personajes": {
+    "hacker": {
+     "x": 0.9,
+     "escala": 0.8,
+     "mira": "izq",
+     "pose": "brazos_cruzados",
+     "cara": "chulo",
+     "entra": "@ladrón",
+     "entrada": "der"
+    },
+    "mono": {
+     "pose": "presentar",
+     "cara": "normal",
+     "cambios": [
+      {
+       "al": "@+1.1",
+       "pose": "presentar",
+       "cara": "risa"
+      },
+      {
+       "al": "@+3.3",
+       "pose": "jarras",
+       "cara": "normal"
+      }
+     ]
+    }
+   }
+  },
+  {
+   "en": "Así, si Luis intenta",
+   "escenas": [
+    {
+     "tipo": "cifra",
+     "desde": 0,
+     "hasta": 7,
+     "al": "@siete",
+     "sufijo": " DÍAS",
+     "antes": "LA ESPERA SIN EL PIN",
+     "tam": 220,
+     "color": "naranja",
+     "dur": 0.6
+    }
+   ],
+   "personajes": {
+    "hacker": {
+     "pose": "celebrar",
+     "cara": "risa",
+     "salida": "der"
+    },
+    "mono": {
+     "pose": "señalar",
+     "cara": "chulo",
+     "cambios": [
+      {
+       "al": "@+1.1",
+       "pose": "pensar",
+       "cara": "normal"
+      },
+      {
+       "al": "@+3.3",
+       "pose": "señalar_arriba",
+       "cara": "risa"
+      },
+      {
+       "al": "@+5.5",
+       "pose": "saludar",
+       "cara": "sorpresa"
+      }
+     ]
+    }
+   }
+  },
+  {
+   "en": "Y ahora vienen los pasos",
+   "color": "rojo",
+   "escenas": [
+    {
+     "tipo": "texto",
+     "tam": 110,
+     "palabras": [
+      {
+       "texto": "LOS PASOS QUE",
+       "al": "@pasos"
+      },
+      {
+       "texto": "HACEN DAÑO",
+       "al": "@daño",
+       "caja": true,
+       "color": "rojo"
+      }
+     ]
+    }
+   ],
+   "personajes": {
+    "mono": {
+     "pose": "miedo",
+     "cara": "sorpresa",
+     "cambios": [
+      {
+       "al": "@+1.1",
+       "pose": "jarras",
+       "cara": "risa"
+      }
+     ]
+    }
+   }
+  },
+  {
+   "en": "Número seis",
+   "capitulo": "6. Minuto 5: el Bizum",
+   "escenas": [
+    {
+     "tipo": "reloj",
+     "escenario": "SIMULACIÓN DE ATAQUE · PASO 6/10",
+     "rotulo": "MINUTO 5",
+     "subtitulo": "El Bizum",
+     "desde": 1174,
+     "hasta": 1175,
+     "al": "@inicio",
+     "caos": 85,
+     "medidor": "PELIGRO",
+     "dur": 0.9
+    }
+   ],
+   "personajes": {
+    "mono": {
+     "salta": true,
+     "pose": "presentar",
+     "cara": "normal",
+     "cambios": [
+      {
+       "al": "@+1.1",
+       "pose": "señalar_arriba",
+       "cara": "sorpresa"
+      }
+     ]
+    }
+   }
+  },
+  {
+   "en": "El ladrón escribe a los contactos",
+   "color": "naranja",
+   "escenas": [
+    {
+     "tipo": "chat",
+     "mensajes": [
+      {
+       "texto": "«Luis»: estoy en un apuro",
+       "al": "@apuro"
+      },
+      {
+       "texto": "¿Me haces un Bizum? Mañana te lo devuelvo",
+       "al": "@Bizum"
+      }
+     ]
+    }
+   ],
+   "personajes": {
+    "madre": {
+     "x": 0.9,
+     "escala": 0.8,
+     "mira": "izq",
+     "pose": "pensar",
+     "cara": "normal",
+     "objeto": "movil",
+     "entra": "@contactos",
+     "entrada": "der"
+    },
+    "mono": {
+     "pose": "pensar",
+     "cara": "risa",
+     "cambios": [
+      {
+       "al": "@+1.1",
+       "pose": "brazos_cruzados",
+       "cara": "guiño"
+      },
+      {
+       "al": "@+3.3",
+       "pose": "presentar",
+       "cara": "normal"
+      },
+      {
+       "al": "@+5.5",
+       "pose": "señalar",
+       "cara": "chulo"
+      }
+     ]
+    }
+   }
+  },
+  {
+   "en": "Escribe como un amigo",
+   "escenas": [
+    {
+     "tipo": "iconos",
+     "tam": 230,
+     "items": [
+      {
+       "icono": "reloj_arena",
+       "texto": "CON PRISA",
+       "al": "@prisa"
+      },
+      {
+       "icono": "hucha",
+       "texto": "CON CARIÑO",
+       "al": "@cariño"
+      },
+      {
+       "icono": "dolar",
+       "texto": "ALGUNO PICA",
+       "al": "@pica"
+      }
+     ]
+    }
+   ],
+   "personajes": {
+    "madre": {
+     "pose": "presentar",
+     "cara": "risa",
+     "objeto": "movil"
+    },
+    "mono": {
+     "pose": "jarras",
+     "cara": "sorpresa",
+     "cambios": [
+      {
+       "al": "@+1.1",
+       "pose": "saludar",
+       "cara": "normal"
+      },
+      {
+       "al": "@+3.3",
+       "pose": "señalar",
+       "cara": "chulo"
+      }
+     ]
+    }
+   }
+  },
+  {
+   "en": "Y el Bizum, una vez enviado",
+   "escenas": [
+    {
+     "tipo": "imagen",
+     "archivo": "billetes.png",
+     "prompt": "banknotes and coins flying out of an open wallet into the air, motion lines",
+     "al": "@enviado",
+     "modo": "marco",
+     "pie": "NO SE PUEDE DESHACER",
+     "pie_al": "@deshacer"
+    }
+   ],
+   "personajes": {
+    "madre": {
+     "pose": "miedo",
+     "cara": "miedo",
+     "salida": "der"
+    },
+    "mono": {
+     "pose": "señalar_arriba",
+     "cara": "guiño",
+     "cambios": [
+      {
+       "al": "@+1.1",
+       "pose": "presentar",
+       "cara": "chulo"
+      },
+      {
+       "al": "@+3.3",
+       "pose": "señalar",
+       "cara": "risa"
+      }
+     ]
+    }
+   }
+  },
+  {
+   "en": "Número siete",
+   "color": "morado",
+   "capitulo": "7. Minuto 6: la cadena",
+   "escenas": [
+    {
+     "tipo": "reloj",
+     "escenario": "SIMULACIÓN DE ATAQUE · PASO 7/10",
+     "rotulo": "MINUTO 6",
+     "subtitulo": "La cadena",
+     "desde": 1175,
+     "hasta": 1176,
+     "al": "@inicio",
+     "caos": 90,
+     "medidor": "PELIGRO",
+     "dur": 0.9
+    }
+   ],
+   "personajes": {
+    "mono": {
+     "salta": true,
+     "pose": "brazos_cruzados",
+     "cara": "normal",
+     "cambios": [
+      {
+       "al": "@+1.1",
+       "pose": "señalar",
+       "cara": "risa"
+      }
+     ]
+    }
+   }
+  },
+  {
+   "en": "A otros contactos",
+   "escenas": [
+    {
+     "tipo": "chat",
+     "mensajes": [
+      {
+       "texto": "Te he enviado un código por error",
+       "al": "@código"
+      }
+     ]
+    }
+   ],
+   "personajes": {
+    "hacker": {
+     "x": 0.9,
+     "escala": 0.8,
+     "mira": "izq",
+     "pose": "saludar",
+     "cara": "risa",
+     "objeto": "movil",
+     "entra": "@contactos",
+     "entrada": "cae"
+    },
+    "mono": {
+     "pose": "saludar",
+     "cara": "chulo",
+     "cambios": [
+      {
+       "al": "@+1.1",
+       "pose": "señalar",
+       "cara": "normal"
+      },
+      {
+       "al": "@+3.3",
+       "pose": "pensar",
+       "cara": "risa"
+      }
+     ]
+    }
+   }
+  },
+  {
+   "en": "Cada cuenta robada",
+   "escenas": [
+    {
+     "tipo": "cifra",
+     "desde": 0,
+     "hasta": 10,
+     "al": "@diez",
+     "prefijo": "×",
+     "antes": "CADA CUENTA ROBADA ABRE",
+     "tam": 230,
+     "color": "rojo",
+     "dur": 0.6
+    }
+   ],
+   "personajes": {
+    "hacker": {
+     "pose": "celebrar",
+     "cara": "risa",
+     "salida": "der"
+    },
+    "mono": {
+     "pose": "presentar",
+     "cara": "risa",
+     "cambios": [
+      {
+       "al": "@+1.1",
+       "pose": "presentar",
+       "cara": "risa"
+      },
+      {
+       "al": "@+3.3",
+       "pose": "jarras",
+       "cara": "sorpresa"
+      }
+     ]
+    }
+   }
+  },
+  {
+   "en": "Número ocho",
+   "color": "azul",
+   "capitulo": "8. Minuto 7: los grupos",
+   "escenas": [
+    {
+     "tipo": "reloj",
+     "escenario": "SIMULACIÓN DE ATAQUE · PASO 8/10",
+     "rotulo": "MINUTO 7",
+     "subtitulo": "Los grupos",
+     "desde": 1176,
+     "hasta": 1177,
+     "al": "@inicio",
+     "caos": 80,
+     "medidor": "PELIGRO",
+     "dur": 0.9
+    }
+   ],
+   "personajes": {
+    "mono": {
+     "salta": true,
+     "pose": "señalar",
+     "cara": "normal",
+     "cambios": [
+      {
+       "al": "@+1.1",
+       "pose": "pensar",
+       "cara": "sorpresa"
+      }
+     ]
+    }
+   }
+  },
+  {
+   "en": "En los grupos de la familia",
+   "escenas": [
+    {
+     "tipo": "iconos",
+     "tam": 230,
+     "items": [
+      {
+       "icono": "casa",
+       "texto": "GRUPO DE LA FAMILIA",
+       "al": "@familia"
+      },
+      {
+       "icono": "edificio",
+       "texto": "GRUPO DEL TRABAJO",
+       "al": "@trabajo"
+      }
+     ]
+    }
+   ],
+   "personajes": {
+    "hacker": {
+     "x": 0.9,
+     "escala": 0.8,
+     "mira": "izq",
+     "pose": "pensar",
+     "cara": "normal",
+     "objeto": "lupa",
+     "entra": "@lee",
+     "entrada": "der"
+    },
+    "mono": {
+     "pose": "señalar",
+     "cara": "risa",
+     "cambios": [
+      {
+       "al": "@+1.1",
+       "pose": "jarras",
+       "cara": "guiño"
+      },
+      {
+       "al": "@+3.3",
+       "pose": "brazos_cruzados",
+       "cara": "normal"
+      }
+     ]
+    }
+   }
+  },
+  {
+   "en": "Lo bueno es que los chats",
+   "color": "verde",
+   "escenas": [
+    {
+     "tipo": "iconos",
+     "tam": 280,
+     "items": [
+      {
+       "icono": "movil",
+       "texto": "LOS CHATS VIEJOS SE QUEDAN EN TU MÓVIL",
+       "al": "@antiguos"
+      }
+     ]
+    }
+   ],
+   "personajes": {
+    "hacker": {
+     "pose": "encogerse",
+     "cara": "enfado"
+    },
+    "mono": {
+     "pose": "presentar",
+     "cara": "sorpresa",
+     "cambios": [
+      {
+       "al": "@+1.1",
+       "pose": "señalar_arriba",
+       "cara": "normal"
+      },
+      {
+       "al": "@+3.3",
+       "pose": "saludar",
+       "cara": "chulo"
+      }
+     ]
+    }
+   }
+  },
+  {
+   "en": "Lo malo es que ve",
+   "color": "rojo",
+   "escenas": [
+    {
+     "tipo": "iconos",
+     "tam": 230,
+     "items": [
+      {
+       "icono": "foto",
+       "texto": "FOTOS",
+       "al": "@fotos"
+      },
+      {
+       "icono": "micro",
+       "texto": "AUDIOS",
+       "al": "@audios"
+      },
+      {
+       "icono": "pin",
+       "texto": "DIRECCIONES",
+       "al": "@direcciones"
+      }
+     ]
+    }
+   ],
+   "personajes": {
+    "hacker": {
+     "pose": "jarras",
+     "cara": "risa",
+     "salida": "der"
+    },
+    "mono": {
+     "pose": "pensar",
+     "cara": "guiño",
+     "cambios": [
+      {
+       "al": "@+1.1",
+       "pose": "brazos_cruzados",
+       "cara": "chulo"
+      },
+      {
+       "al": "@+3.3",
+       "pose": "presentar",
+       "cara": "risa"
+      }
+     ]
+    }
+   }
+  },
+  {
+   "en": "Número nueve",
+   "color": "verde",
+   "capitulo": "9. La recuperación",
+   "escenas": [
+    {
+     "tipo": "reloj",
+     "escenario": "SIMULACIÓN DE ATAQUE · PASO 9/10",
+     "rotulo": "A RECUPERARLA",
+     "subtitulo": "Luis contraataca",
+     "desde": 1177,
+     "hasta": 1190,
+     "al": "@inicio",
+     "caos": 40,
+     "medidor": "PELIGRO",
+     "dur": 0.9,
+     "tam": 96
+    }
+   ],
+   "personajes": {
+    "mono": {
+     "salta": true,
+     "pose": "jarras",
+     "cara": "chulo",
+     "cambios": [
+      {
+       "al": "@+1.1",
+       "pose": "saludar",
+       "cara": "risa"
+      }
+     ]
+    }
+   }
+  },
+  {
+   "en": "Luis abre WhatsApp y vuelve",
+   "escenas": [
+    {
+     "tipo": "pantalla",
+     "dispositivo": "movil",
+     "titulo": "VERIFICAR NÚMERO",
+     "color": "verde",
+     "lineas": [
+      {
+       "texto": "Nuevo código: a Luis",
+       "al": "@código",
+       "color": "verde"
+      }
+     ]
+    }
+   ],
+   "personajes": {
+    "mono": {
+     "pose": "señalar",
+     "cara": "risa",
+     "objeto": "movil",
+     "cambios": [
+      {
+       "al": "@+1.1",
+       "pose": "presentar",
+       "cara": "normal"
+      },
+      {
+       "al": "@+3.3",
+       "pose": "señalar",
+       "cara": "risa"
+      },
+      {
+       "al": "@+5.5",
+       "pose": "pensar",
+       "cara": "sorpresa"
+      }
+     ]
+    }
+   }
+  },
+  {
+   "en": "Si el ladrón no puso PIN",
+   "escenas": [
+    {
+     "tipo": "combate",
+     "tramos": 1,
+     "a": {
+      "nombre": "Luis",
+      "icono": "movil",
+      "color": "verde"
+     },
+     "b": {
+      "nombre": "Ladrón",
+      "icono": "calavera",
+      "color": "rojo"
+     },
+     "asaltos": [
+      {
+       "titulo": "SIN PIN: LUIS ENTRA",
+       "ganador": "a",
+       "al": "@entra"
+      },
+      {
+       "titulo": "CON PIN: A ESPERAR",
+       "ganador": "b",
+       "al": "@esperar"
+      }
+     ],
+     "ganador": "a",
+     "ganador_al": "@avisa",
+     "texto_ganador": "¡LUIS RECUPERA SU CUENTA!"
+    }
+   ],
+   "personajes": {
+    "mono": {
+     "x": 0.08,
+     "escala": 0.7,
+     "pose": "celebrar",
+     "cara": "risa",
+     "cambios": [
+      {
+       "al": "@+1.1",
+       "pose": "señalar",
+       "cara": "risa"
+      },
+      {
+       "al": "@+3.3",
+       "pose": "presentar",
+       "cara": "sorpresa"
+      }
+     ]
+    }
+   }
+  },
+  {
+   "en": "Mientras, Luis avisa",
+   "escenas": [],
+   "personajes": {
+    "poli": {
+     "x": 0.9,
+     "escala": 0.8,
+     "mira": "izq",
+     "pose": "presentar",
+     "cara": "risa",
+     "entra": "@diecisiete",
+     "entrada": "cae"
+    },
+    "mono": {
+     "pose": "saludar",
+     "cara": "normal",
+     "cambios": [
+      {
+       "al": "@+1.1",
+       "pose": "señalar",
+       "cara": "sorpresa"
+      },
+      {
+       "al": "@+3.3",
+       "pose": "pensar",
+       "cara": "guiño"
+      },
+      {
+       "al": "@+5.5",
+       "pose": "señalar_arriba",
+       "cara": "normal"
+      }
+     ]
+    }
+   },
+   "relleno": false
+  },
+  {
+   "en": "Y la última, la que lo habría",
+   "color": "verde",
+   "escenas": [
+    {
+     "tipo": "texto",
+     "tam": 110,
+     "palabras": [
+      {
+       "texto": "LA QUE LO HABRÍA",
+       "al": "@habría"
+      },
+      {
+       "texto": "PARADO TODO",
+       "al": "@todo",
+       "caja": true,
+       "color": "verde"
+      }
+     ]
+    }
+   ],
+   "personajes": {
+    "poli": {
+     "pose": "señalar",
+     "cara": "normal",
+     "salida": "der"
+    },
+    "mono": {
+     "pose": "presentar",
+     "cara": "risa",
+     "cambios": [
+      {
+       "al": "@+1.1",
+       "pose": "presentar",
+       "cara": "guiño"
+      }
+     ]
+    }
+   }
+  },
+  {
+   "en": "Número diez",
+   "capitulo": "10. El PIN de verdad",
+   "escenas": [
+    {
+     "tipo": "lista",
+     "n": 10,
+     "total": 10,
+     "titulo": "EL PIN DE VERDAD",
+     "apodo": "TU PROPIO CANDADO",
+     "color": "verde",
+     "titulo_al": "@PIN"
+    }
+   ],
+   "personajes": {
+    "mono": {
+     "salta": true,
+     "pose": "señalar",
+     "cara": "sorpresa",
+     "cambios": [
+      {
+       "al": "@+1.1",
+       "pose": "pensar",
+       "cara": "normal"
+      }
+     ]
+    }
+   }
+  },
+  {
+   "en": "Si Luis hubiera puesto",
+   "escenas": [
+    {
+     "tipo": "imagen",
+     "archivo": "escudo.png",
+     "prompt": "a smartphone protected by a big green shield with a checkmark-like curve, bright and safe, sparkles",
+     "al": "@propio",
+     "modo": "marco",
+     "pie": "VERIFICACIÓN EN DOS PASOS",
+     "pie_al": "@verificación"
+    }
+   ],
+   "personajes": {
+    "hacker": {
+     "x": 0.9,
+     "escala": 0.8,
+     "mira": "izq",
+     "pose": "miedo",
+     "cara": "enfado",
+     "entra": "@ladrón",
+     "entrada": "der"
+    },
+    "mono": {
+     "pose": "señalar",
+     "cara": "guiño",
+     "cambios": [
+      {
+       "al": "@+1.1",
+       "pose": "jarras",
+       "cara": "chulo"
+      },
+      {
+       "al": "@+3.3",
+       "pose": "brazos_cruzados",
+       "cara": "risa"
+      }
+     ]
+    }
+   }
+  },
+  {
+   "en": "Está en Ajustes",
+   "escenas": [
+    {
+     "tipo": "pantalla",
+     "dispositivo": "movil",
+     "titulo": "AJUSTES",
+     "color": "azul",
+     "lineas": [
+      {
+       "texto": "Cuenta",
+       "al": "@Cuenta",
+       "color": "blanco"
+      },
+      {
+       "texto": "Verificación en dos pasos",
+       "al": "@Verificación",
+       "color": "verde"
+      },
+      {
+       "texto": "Tarda un minuto",
+       "al": "@minuto",
+       "color": "amarillo"
+      }
+     ]
+    }
+   ],
+   "personajes": {
+    "hacker": {
+     "pose": "encogerse",
+     "cara": "triste",
+     "salida": "der"
+    },
+    "mono": {
+     "pose": "presentar",
+     "cara": "normal",
+     "cambios": [
+      {
+       "al": "@+1.1",
+       "pose": "señalar_arriba",
+       "cara": "risa"
+      },
+      {
+       "al": "@+3.3",
+       "pose": "saludar",
+       "cara": "normal"
+      }
+     ]
+    }
+   }
+  },
+  {
+   "en": "Ponle también un correo",
+   "escenas": [
+    {
+     "tipo": "iconos",
+     "tam": 280,
+     "items": [
+      {
+       "icono": "sobre",
+       "texto": "CORREO DE RECUPERACIÓN",
+       "al": "@correo"
+      }
+     ]
+    }
+   ],
+   "personajes": {
+    "mono": {
+     "pose": "pensar",
+     "cara": "chulo",
+     "cambios": [
+      {
+       "al": "@+1.1",
+       "pose": "brazos_cruzados",
+       "cara": "normal"
+      },
+      {
+       "al": "@+3.3",
+       "pose": "presentar",
+       "cara": "risa"
+      }
+     ]
+    }
+   }
+  },
+  {
+   "en": "Y la regla de oro",
+   "color": "amarillo",
+   "escenas": [
+    {
+     "tipo": "sello",
+     "texto": "NI A TU PRIMA",
+     "al": "@prima",
+     "color": "rojo",
+     "tam": 120
+    }
+   ],
+   "personajes": {
+    "prima": {
+     "x": 0.9,
+     "escala": 0.8,
+     "mira": "izq",
+     "pose": "saludar",
+     "cara": "guiño",
+     "objeto": "movil",
+     "entra": "@nadie",
+     "entrada": "der"
+    },
+    "mono": {
+     "pose": "jarras",
+     "cara": "risa",
+     "cambios": [
+      {
+       "al": "@+1.1",
+       "pose": "saludar",
+       "cara": "risa"
+      },
+      {
+       "al": "@+3.3",
+       "pose": "señalar",
+       "cara": "sorpresa"
+      }
+     ]
+    }
+   }
+  },
+  {
+   "en": "¿A ti te ha llegado",
+   "color": "morado",
+   "escenas": [
+    {
+     "tipo": "pregunta",
+     "pregunta": "¿Te ha llegado este mensaje?",
+     "al": "@llegado"
+    }
+   ],
+   "personajes": {
+    "prima": {
+     "pose": "pensar",
+     "cara": "normal"
+    },
+    "mono": {
+     "pose": "señalar_arriba",
+     "cara": "normal",
+     "cambios": [
+      {
+       "al": "@+1.1",
+       "pose": "presentar",
+       "cara": "sorpresa"
+      }
+     ]
+    }
+   }
+  },
+  {
+   "en": "Si te gusta entender",
+   "color": "rojo",
+   "escenas": [
+    {
+     "tipo": "iconos",
+     "tam": 300,
+     "items": [
+      {
+       "icono": "play",
+       "texto": "SUSCRÍBETE",
+       "al": "@suscríbete"
+      }
+     ]
+    }
+   ],
+   "personajes": {
+    "prima": {
+     "pose": "celebrar",
+     "cara": "risa"
+    },
+    "poli": {
+     "x": 0.72,
+     "escala": 0.7,
+     "mira": "izq",
+     "pose": "celebrar",
+     "cara": "risa",
+     "entra": "@tecnología",
+     "entrada": "salto"
+    },
+    "mono": {
+     "pose": "celebrar",
+     "cara": "risa",
+     "salta": true,
+     "cambios": [
+      {
+       "al": "@+1.1",
+       "pose": "señalar",
+       "cara": "guiño"
+      },
+      {
+       "al": "@+3.3",
+       "pose": "presentar",
+       "cara": "normal"
+      }
+     ]
+    }
+   }
+  }
+ ],
+ "cola": 1.2,
+ "formato": "16:9"
+}

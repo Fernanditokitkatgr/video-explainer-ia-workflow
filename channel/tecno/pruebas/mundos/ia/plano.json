@@ -1,0 +1,244 @@
+{
+ "formato": "9:16",
+ "mundo": "ia",
+ "cola": 1.2,
+ "reparto": {
+  "mono": {
+   "tipo": "protagonista",
+   "narrador": true
+  },
+  "ia": {
+   "tipo": "ia"
+  }
+ },
+ "tramos": [
+  {
+   "en": "",
+   "relleno": false,
+   "escenas": [
+    {
+     "tipo": "m_rotulo",
+     "texto": "LA IA\nTE ESTÁ\nENGANCHANDO",
+     "kicker": "FIG. 01 · ANÁLISIS",
+     "tam": 124,
+     "al": "@-0.5",
+     "zona": {
+      "y": 400
+     }
+    },
+    {
+     "tipo": "m_visual",
+     "icono": "chip",
+     "etiqueta": "MODELO DE LENGUAJE",
+     "alerta_texto": "BUCLE DE USO DETECTADO",
+     "al": "@-0.5",
+     "y": 860,
+     "tam": 220,
+     "alerta_al": "@casi",
+     "tramos": 1
+    }
+   ],
+   "personajes": {
+    "mono": {
+     "x": 0.27,
+     "entrada": "nada",
+     "pose": "señalar",
+     "cara": "sorpresa",
+     "cambios": [
+      {
+       "al": "@pasando",
+       "pose": "brazos_arriba",
+       "salta": true
+      },
+      {
+       "al": "@casi",
+       "pose": "miedo",
+       "cara": "miedo"
+      }
+     ]
+    },
+    "ia": {
+     "x": 0.74,
+     "entrada": "nada",
+     "pose": "brazos_cruzados",
+     "cara": "chulo",
+     "mira": "izq",
+     "cambios": [
+      {
+       "al": "@casi",
+       "pose": "jarras",
+       "cara": "risa"
+      }
+     ]
+    }
+   },
+   "sfx": [
+    [
+     "golpe",
+     0.02,
+     1.0
+    ],
+    [
+     "boom",
+     0.04,
+     0.7
+    ]
+   ],
+   "golpes": [
+    0.05
+   ]
+  },
+  {
+   "en": "Funciona siempre",
+   "relleno": false,
+   "escenas": [
+    {
+     "tipo": "m_rotulo",
+     "texto": "ESQUEMA EN 3 FASES",
+     "kicker": "FIG. 02 · FUNCIONAMIENTO",
+     "tam": 92,
+     "al": "@inicio",
+     "zona": {
+      "y": 300
+     },
+     "tramos": 3
+    }
+   ],
+   "personajes": {
+    "mono": {
+     "pose": "pensar",
+     "cara": "normal",
+     "cambios": [
+      {
+       "al": "@igual",
+       "pose": "señalar_arriba",
+       "cara": "sorpresa"
+      }
+     ]
+    },
+    "ia": {
+     "pose": "saludar",
+     "cara": "guiño"
+    }
+   }
+  },
+  {
+   "en": "Primero te",
+   "relleno": false,
+   "escenas": [
+    {
+     "tipo": "m_paso",
+     "n": 1,
+     "titulo": "TE DA RESPUESTAS",
+     "detalle": "Gratis y al instante",
+     "icono": "bombilla",
+     "al": "@Primero",
+     "y": 560,
+     "tramos": 2
+    }
+   ],
+   "personajes": {
+    "mono": {
+     "pose": "presentar",
+     "cara": "risa"
+    },
+    "ia": {
+     "pose": "presentar",
+     "cara": "risa",
+     "dice": [
+      {
+       "texto": "¡Pregúntame!",
+       "al": "@da",
+       "hasta": "@da+1.2"
+      }
+     ]
+    }
+   }
+  },
+  {
+   "en": "Luego te",
+   "relleno": false,
+   "escenas": [
+    {
+     "tipo": "m_paso",
+     "n": 2,
+     "titulo": "TE PIDE TUS DATOS",
+     "detalle": "Solo un poco más",
+     "icono": "ojo",
+     "al": "@Luego",
+     "y": 770,
+     "tramos": 1
+    }
+   ],
+   "personajes": {
+    "mono": {
+     "pose": "pensar",
+     "cara": "normal"
+    },
+    "ia": {
+     "pose": "señalar",
+     "cara": "chulo",
+     "dice": [
+      {
+       "texto": "¿Y tus datos?",
+       "al": "@pide"
+      }
+     ]
+    }
+   }
+  },
+  {
+   "en": "Y cuando",
+   "relleno": false,
+   "escenas": [
+    {
+     "tipo": "m_paso",
+     "n": 3,
+     "titulo": "YA DEPENDES DE ELLA",
+     "detalle": "Y te cuesta salir",
+     "icono": "cadena",
+     "al": "@quieres",
+     "y": 980,
+     "color": "alerta"
+    },
+    {
+     "tipo": "sello",
+     "texto": "ENGANCHADO",
+     "al": "@ya",
+     "caja": {
+      "x": 540,
+      "y": 770
+     },
+     "tam": 112,
+     "color": "rojo"
+    }
+   ],
+   "personajes": {
+    "mono": {
+     "pose": "miedo",
+     "cara": "miedo",
+     "cambios": [
+      {
+       "al": "@ya",
+       "pose": "encogerse",
+       "cara": "triste"
+      }
+     ]
+    },
+    "ia": {
+     "pose": "celebrar",
+     "cara": "risa",
+     "cambios": [
+      {
+       "al": "@ya",
+       "salta": true
+      }
+     ]
+    }
+   },
+   "golpes": [
+    "@ya"
+   ]
+  }
+ ]
+}

@@ -1,0 +1,401 @@
+{
+ "reparto": {
+  "mono": {
+   "tipo": "protagonista",
+   "narrador": true
+  },
+  "azul": {
+   "tipo": "policia"
+  },
+  "conta": {
+   "tipo": "currito"
+  },
+  "sheriff": {
+   "tipo": "rico"
+  }
+ },
+ "tramos": [
+  {
+   "en": "",
+   "color": "rojo",
+   "escenas": [
+    {
+     "tipo": "imagen",
+     "archivo": "oficina.png",
+     "prompt": "x",
+     "al": "@-0.5",
+     "modo": "fondo",
+     "velo": 0.62,
+     "aparece": "@-0.6",
+     "tramos": 5
+    },
+    {
+     "tipo": "texto",
+     "tam": 88,
+     "palabras": [
+      {
+       "texto": "LES PAGAN",
+       "al": "@-0.5",
+       "color": "amarillo"
+      },
+      {
+       "texto": "POR HACKEAR",
+       "al": "@-0.4",
+       "caja": true,
+       "color": "rojo"
+      }
+     ],
+     "zona": "arriba",
+     "caja": {
+      "y": 200
+     },
+     "por_fila": 30
+    }
+   ],
+   "personajes": {
+    "mono": {
+     "x": 0.88,
+     "escala": 0.7,
+     "mira": "izq",
+     "pose": "señalar",
+     "cara": "chulo",
+     "entrada": "nada",
+     "cambios": [
+      {
+       "al": "@+1.1",
+       "pose": "jarras",
+       "cara": "sorpresa"
+      }
+     ]
+    }
+   },
+   "sfx": [
+    [
+     "golpe",
+     0.02,
+     1.0
+    ],
+    [
+     "boom",
+     0.04,
+     0.7
+    ]
+   ],
+   "golpes": [
+    0.05
+   ],
+   "relleno": false
+  },
+  {
+   "en": "Nueve de la mañana",
+   "color": "rojo",
+   "escenas": [
+    {
+     "tipo": "reloj",
+     "escenario": "UN DÍA EN EL RED TEAM",
+     "rotulo": "09:00",
+     "subtitulo": "Permiso para colarse",
+     "desde": 530,
+     "hasta": 540,
+     "al": "@+0.1",
+     "caos": 10,
+     "medidor": "TENSIÓN",
+     "dur": 0.9,
+     "continua": true
+    }
+   ],
+   "personajes": {
+    "azul": {
+     "x": 0.66,
+     "escala": 0.6,
+     "mira": "izq",
+     "pose": "brazos_cruzados",
+     "cara": "normal",
+     "entra": "@Blue",
+     "entrada": "pop",
+     "salida": "pop"
+    },
+    "mono": {
+     "pose": "sentado",
+     "cara": "chulo",
+     "objeto": "movil",
+     "cambios": [
+      {
+       "al": "@+1.1",
+       "pose": "señalar_arriba",
+       "cara": "guiño"
+      }
+     ]
+    }
+   },
+   "relleno": false
+  },
+  {
+   "en": "Once",
+   "color": "naranja",
+   "escenas": [
+    {
+     "tipo": "reloj",
+     "escenario": "UN DÍA EN EL RED TEAM",
+     "rotulo": "11:00",
+     "subtitulo": "Correo trampa a contabilidad",
+     "desde": 540,
+     "hasta": 660,
+     "al": "@inicio",
+     "caos": 35,
+     "medidor": "TENSIÓN",
+     "dur": 0.9,
+     "continua": true
+    }
+   ],
+   "personajes": {
+    "mono": {
+     "pose": "presentar",
+     "cara": "risa",
+     "salta": true,
+     "objeto": "ninguno",
+     "cambios": [
+      {
+       "al": "@+1.1",
+       "pose": "brazos_cruzados",
+       "cara": "normal"
+      }
+     ]
+    }
+   },
+   "relleno": false
+  },
+  {
+   "en": "Una de la tarde",
+   "color": "rojo",
+   "escenas": [
+    {
+     "tipo": "reloj",
+     "escenario": "UN DÍA EN EL RED TEAM",
+     "rotulo": "13:00",
+     "subtitulo": "Alguien pica: ¡dentro!",
+     "desde": 660,
+     "hasta": 780,
+     "al": "@inicio",
+     "caos": 70,
+     "medidor": "TENSIÓN",
+     "dur": 0.9,
+     "continua": true
+    }
+   ],
+   "personajes": {
+    "conta": {
+     "x": 0.66,
+     "escala": 0.6,
+     "mira": "izq",
+     "pose": "miedo",
+     "cara": "miedo",
+     "entra": "@pica",
+     "entrada": "cae",
+     "salida": "pop"
+    },
+    "mono": {
+     "pose": "celebrar",
+     "cara": "risa",
+     "cambios": [
+      {
+       "al": "@+1.1",
+       "pose": "saludar",
+       "cara": "chulo"
+      }
+     ]
+    }
+   },
+   "golpes": [
+    "@pica"
+   ],
+   "relleno": false
+  },
+  {
+   "en": "Cuatro",
+   "color": "azul",
+   "escenas": [
+    {
+     "tipo": "reloj",
+     "escenario": "UN DÍA EN EL RED TEAM",
+     "rotulo": "16:00",
+     "subtitulo": "El azul lo caza",
+     "desde": 780,
+     "hasta": 960,
+     "al": "@inicio",
+     "caos": 90,
+     "medidor": "TENSIÓN",
+     "dur": 0.9,
+     "continua": true
+    }
+   ],
+   "personajes": {
+    "azul": {
+     "x": 0.66,
+     "escala": 0.6,
+     "mira": "izq",
+     "pose": "señalar",
+     "cara": "enfado",
+     "entra": "@azul",
+     "entrada": "cae",
+     "salida": "pop"
+    },
+    "mono": {
+     "pose": "miedo",
+     "cara": "sorpresa",
+     "cambios": [
+      {
+       "al": "@+1.1",
+       "pose": "presentar",
+       "cara": "risa"
+      }
+     ]
+    }
+   },
+   "golpes": [
+    "@caza"
+   ],
+   "relleno": false
+  },
+  {
+   "en": "Seis",
+   "color": "verde",
+   "escenas": [
+    {
+     "tipo": "reloj",
+     "escenario": "UN DÍA EN EL RED TEAM",
+     "rotulo": "18:00",
+     "subtitulo": "Café y cuentas claras",
+     "desde": 960,
+     "hasta": 1080,
+     "al": "@inicio",
+     "caos": 20,
+     "medidor": "TENSIÓN",
+     "dur": 0.9,
+     "continua": true
+    }
+   ],
+   "personajes": {
+    "azul": {
+     "x": 0.66,
+     "escala": 0.6,
+     "mira": "izq",
+     "pose": "saludar",
+     "cara": "risa",
+     "entra": "@Café",
+     "entrada": "pop",
+     "salida": "pop"
+    },
+    "mono": {
+     "pose": "saludar",
+     "cara": "risa",
+     "cambios": [
+      {
+       "al": "@+1.1",
+       "pose": "señalar",
+       "cara": "normal"
+      }
+     ]
+    }
+   },
+   "relleno": false
+  },
+  {
+   "en": "¿Cuánto cobran?",
+   "color": "amarillo",
+   "escenas": [
+    {
+     "tipo": "grafica",
+     "forma": "barras",
+     "titulo": "CUÁNTO COBRAN (ESPAÑA, BRUTO AL AÑO)",
+     "ancho": 900,
+     "sufijo": " mil €",
+     "ymin": 0,
+     "ymax": 85,
+     "puntos": [
+      {
+       "e": "Junior",
+       "v": 30,
+       "al": "@junior",
+       "color": "azul"
+      },
+      {
+       "e": "Senior Red Team",
+       "v": 70,
+       "al": "@senior",
+       "color": "rojo"
+      }
+     ]
+    }
+   ],
+   "personajes": {
+    "mono": {
+     "pose": "presentar",
+     "cara": "risa",
+     "salta": true,
+     "cambios": [
+      {
+       "al": "@+1.1",
+       "pose": "señalar",
+       "cara": "risa"
+      }
+     ]
+    }
+   },
+   "relleno": false
+  },
+  {
+   "en": "¿Lo más loco?",
+   "color": "morado",
+   "escenas": [
+    {
+     "tipo": "imagen",
+     "archivo": "juzgado.png",
+     "prompt": "a small old American county courthouse building at night with stone columns and steps, moonlight, a flashlight beam on a side door, police car lights glowing in the distance",
+     "al": "@juzgado",
+     "modo": "marco",
+     "pie": "IOWA, 2019: CON AUTORIZACIÓN",
+     "pie_al": "@autorización"
+    },
+    {
+     "tipo": "sello",
+     "texto": "DETENIDOS",
+     "al": "@detenidos",
+     "color": "rojo",
+     "tam": 120,
+     "caja": {
+      "y": 660
+     }
+    }
+   ],
+   "personajes": {
+    "sheriff": {
+     "x": 0.12,
+     "escala": 0.7,
+     "pose": "señalar",
+     "cara": "enfado",
+     "objeto": "ninguno",
+     "entra": "@detenidos",
+     "entrada": "cae"
+    },
+    "mono": {
+     "pose": "miedo",
+     "cara": "sorpresa",
+     "cambios": [
+      {
+       "al": "@+1.1",
+       "pose": "presentar",
+       "cara": "sorpresa"
+      }
+     ]
+    }
+   },
+   "golpes": [
+    "@detenidos"
+   ],
+   "relleno": false
+  }
+ ],
+ "cola": 0.8,
+ "formato": "16:9"
+}

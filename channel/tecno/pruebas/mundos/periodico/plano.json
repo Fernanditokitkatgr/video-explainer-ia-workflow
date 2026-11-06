@@ -1,0 +1,244 @@
+{
+ "formato": "9:16",
+ "mundo": "periodico",
+ "cola": 1.2,
+ "reparto": {
+  "mono": {
+   "tipo": "protagonista",
+   "narrador": true
+  },
+  "rico": {
+   "tipo": "rico"
+  }
+ },
+ "tramos": [
+  {
+   "en": "",
+   "relleno": false,
+   "escenas": [
+    {
+     "tipo": "m_rotulo",
+     "texto": "LA ESTAFA\nQUE SIGUE\nFUNCIONANDO",
+     "kicker": "ÚLTIMA HORA · BOSTON, 1920",
+     "tam": 112,
+     "al": "@-0.5",
+     "zona": {
+      "y": 450
+     }
+    },
+    {
+     "tipo": "m_visual",
+     "icono": "banco",
+     "etiqueta": "Fig. 1: La oficina de Ponzi",
+     "alerta_texto": "Fig. 2: Colas para cobrar",
+     "al": "@-0.5",
+     "y": 860,
+     "tam": 220,
+     "alerta_al": "@casi",
+     "tramos": 1
+    }
+   ],
+   "personajes": {
+    "mono": {
+     "x": 0.27,
+     "entrada": "nada",
+     "pose": "señalar",
+     "cara": "sorpresa",
+     "cambios": [
+      {
+       "al": "@pasando",
+       "pose": "brazos_arriba",
+       "salta": true
+      },
+      {
+       "al": "@casi",
+       "pose": "miedo",
+       "cara": "miedo"
+      }
+     ]
+    },
+    "rico": {
+     "x": 0.74,
+     "entrada": "nada",
+     "pose": "brazos_cruzados",
+     "cara": "chulo",
+     "mira": "izq",
+     "cambios": [
+      {
+       "al": "@casi",
+       "pose": "jarras",
+       "cara": "risa"
+      }
+     ]
+    }
+   },
+   "sfx": [
+    [
+     "golpe",
+     0.02,
+     1.0
+    ],
+    [
+     "boom",
+     0.04,
+     0.7
+    ]
+   ],
+   "golpes": [
+    0.05
+   ]
+  },
+  {
+   "en": "Funciona siempre",
+   "relleno": false,
+   "escenas": [
+    {
+     "tipo": "m_rotulo",
+     "texto": "EL TIMO PONZI",
+     "kicker": "ASÍ FUNCIONA",
+     "tam": 96,
+     "al": "@inicio",
+     "zona": {
+      "y": 335
+     },
+     "tramos": 3
+    }
+   ],
+   "personajes": {
+    "mono": {
+     "pose": "pensar",
+     "cara": "normal",
+     "cambios": [
+      {
+       "al": "@igual",
+       "pose": "señalar_arriba",
+       "cara": "sorpresa"
+      }
+     ]
+    },
+    "rico": {
+     "pose": "saludar",
+     "cara": "guiño"
+    }
+   }
+  },
+  {
+   "en": "Primero te",
+   "relleno": false,
+   "escenas": [
+    {
+     "tipo": "m_paso",
+     "n": 1,
+     "titulo": "PAGA A LOS PRIMEROS",
+     "detalle": "Con el dinero de los nuevos",
+     "icono": "dolar",
+     "al": "@Primero",
+     "y": 560,
+     "tramos": 2
+    }
+   ],
+   "personajes": {
+    "mono": {
+     "pose": "presentar",
+     "cara": "risa"
+    },
+    "rico": {
+     "pose": "presentar",
+     "cara": "risa",
+     "dice": [
+      {
+       "texto": "¡Un 50 %!",
+       "al": "@da",
+       "hasta": "@da+1.2"
+      }
+     ]
+    }
+   }
+  },
+  {
+   "en": "Luego te",
+   "relleno": false,
+   "escenas": [
+    {
+     "tipo": "m_paso",
+     "n": 2,
+     "titulo": "PIDE TUS AHORROS",
+     "detalle": "Y promete un 50 %",
+     "icono": "hucha",
+     "al": "@Luego",
+     "y": 770,
+     "tramos": 1
+    }
+   ],
+   "personajes": {
+    "mono": {
+     "pose": "pensar",
+     "cara": "normal"
+    },
+    "rico": {
+     "pose": "señalar",
+     "cara": "chulo",
+     "dice": [
+      {
+       "texto": "¡Confíe en mí!",
+       "al": "@pide"
+      }
+     ]
+    }
+   }
+  },
+  {
+   "en": "Y cuando",
+   "relleno": false,
+   "escenas": [
+    {
+     "tipo": "m_paso",
+     "n": 3,
+     "titulo": "QUIEBRA",
+     "detalle": "Agosto de 1920",
+     "icono": "grafico_baja",
+     "al": "@quieres",
+     "y": 980,
+     "color": "alerta"
+    },
+    {
+     "tipo": "sello",
+     "texto": "QUIEBRA",
+     "al": "@ya",
+     "caja": {
+      "x": 540,
+      "y": 770
+     },
+     "tam": 130,
+     "color": "rojo"
+    }
+   ],
+   "personajes": {
+    "mono": {
+     "pose": "miedo",
+     "cara": "miedo",
+     "cambios": [
+      {
+       "al": "@ya",
+       "pose": "encogerse",
+       "cara": "triste"
+      }
+     ]
+    },
+    "rico": {
+     "pose": "celebrar",
+     "cara": "risa",
+     "cambios": [
+      {
+       "al": "@ya",
+       "salta": true
+      }
+     ]
+    }
+   },
+   "golpes": [
+    "@ya"
+   ]
+  }
+ ]
+}

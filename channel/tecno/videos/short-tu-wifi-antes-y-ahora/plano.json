@@ -1,0 +1,335 @@
+{
+ "reparto": {
+  "mono": {
+   "tipo": "protagonista",
+   "narrador": true
+  },
+  "hacker": {
+   "tipo": "ciberdelincuente"
+  },
+  "nino": {
+   "tipo": "nino"
+  }
+ },
+ "tramos": [
+  {
+   "en": "",
+   "color": "azul",
+   "escenas": [
+    {
+     "tipo": "texto",
+     "tam": 88,
+     "palabras": [
+      {
+       "texto": "TU WIFI:",
+       "al": "@-0.5",
+       "color": "amarillo"
+      },
+      {
+       "texto": "ANTES VS AHORA",
+       "al": "@-0.4",
+       "caja": true,
+       "color": "rojo"
+      }
+     ],
+     "zona": "arriba",
+     "caja": {
+      "y": 150
+     },
+     "por_fila": 14
+    },
+    {
+     "tipo": "imagen",
+     "archivo": "trastero.png",
+     "prompt": "an old dusty wifi router with antennas sitting on a box in a cluttered storage room, still with a small green light",
+     "al": "@-0.5",
+     "modo": "marco",
+     "caja": {
+      "y": 650
+     }
+    }
+   ],
+   "personajes": {
+    "mono": {
+     "x": 0.25,
+     "escala": 0.95,
+     "pose": "señalar",
+     "cara": "sorpresa",
+     "entrada": "nada",
+     "cambios": [
+      {
+       "al": "@+1.1",
+       "pose": "jarras",
+       "cara": "sorpresa"
+      }
+     ]
+    }
+   },
+   "sfx": [
+    [
+     "golpe",
+     0.02,
+     1.0
+    ],
+    [
+     "boom",
+     0.04,
+     0.7
+    ]
+   ],
+   "golpes": [
+    0.05
+   ]
+  },
+  {
+   "en": "Antes, el cifrado era WEP",
+   "color": "rojo",
+   "escenas": [
+    {
+     "tipo": "comparativa",
+     "titulo": "ANTES VS AHORA",
+     "caja": {
+      "y": 620
+     },
+     "a": {
+      "titulo": "WEP: < 1 MIN",
+      "icono": "candado",
+      "al": "@WEP",
+      "color": "rojo"
+     },
+     "b": {
+      "titulo": "WPA3: AÑOS",
+      "icono": "escudo",
+      "al": "@WPA",
+      "color": "verde"
+     },
+     "ganador": "b",
+     "ganador_al": "@WPA+0.5",
+     "tramos": 1
+    }
+   ],
+   "personajes": {
+    "hacker": {
+     "x": 0.76,
+     "escala": 0.95,
+     "mira": "izq",
+     "pose": "celebrar",
+     "cara": "risa",
+     "entra": "@WEP",
+     "entrada": "cae"
+    },
+    "mono": {
+     "pose": "presentar",
+     "cara": "risa",
+     "cambios": [
+      {
+       "al": "@+1.1",
+       "pose": "señalar_arriba",
+       "cara": "guiño"
+      }
+     ]
+    }
+   }
+  },
+  {
+   "en": "Ahora se usa WPA",
+   "escenas": [],
+   "personajes": {
+    "hacker": {
+     "pose": "encogerse",
+     "cara": "enfado",
+     "salida": "der"
+    },
+    "mono": {
+     "pose": "pensar",
+     "cara": "sorpresa",
+     "cambios": [
+      {
+       "al": "@+1.1",
+       "pose": "brazos_cruzados",
+       "cara": "normal"
+      }
+     ]
+    }
+   },
+   "relleno": false
+  },
+  {
+   "en": "Antes, el router traía",
+   "color": "naranja",
+   "escenas": [
+    {
+     "tipo": "comparativa",
+     "titulo": "ANTES VS AHORA",
+     "caja": {
+      "y": 620
+     },
+     "a": {
+      "titulo": "LA PEGATINA",
+      "icono": "router",
+      "al": "@pegatina",
+      "color": "rojo"
+     },
+     "b": {
+      "titulo": "TU CLAVE",
+      "icono": "llave",
+      "al": "@cámbiala",
+      "color": "verde"
+     },
+     "ganador": "b",
+     "ganador_al": "@cámbiala+0.5"
+    }
+   ],
+   "personajes": {
+    "mono": {
+     "pose": "jarras",
+     "cara": "guiño",
+     "cambios": [
+      {
+       "al": "@+1.1",
+       "pose": "saludar",
+       "cara": "chulo"
+      }
+     ]
+    }
+   }
+  },
+  {
+   "en": "Antes, el botón WPS",
+   "color": "morado",
+   "escenas": [
+    {
+     "tipo": "comparativa",
+     "titulo": "ANTES VS AHORA",
+     "caja": {
+      "y": 620
+     },
+     "a": {
+      "titulo": "WPS: 11.000 INTENTOS",
+      "icono": "router",
+      "al": "@once",
+      "color": "rojo"
+     },
+     "b": {
+      "titulo": "WPS APAGADO",
+      "icono": "candado",
+      "al": "@apagarlo",
+      "color": "verde"
+     },
+     "ganador": "b",
+     "ganador_al": "@apagarlo+0.5"
+    }
+   ],
+   "personajes": {
+    "mono": {
+     "pose": "señalar_arriba",
+     "cara": "normal",
+     "cambios": [
+      {
+       "al": "@+1.1",
+       "pose": "presentar",
+       "cara": "risa"
+      }
+     ]
+    }
+   }
+  },
+  {
+   "en": "Antes, solo conectabas",
+   "color": "amarillo",
+   "escenas": [
+    {
+     "tipo": "iconos",
+     "tam": 220,
+     "items": [
+      {
+       "icono": "ordenador",
+       "texto": "ANTES",
+       "al": "@ordenador"
+      },
+      {
+       "icono": "bombilla",
+       "texto": "AHORA",
+       "al": "@bombilla"
+      }
+     ],
+     "caja": {
+      "y": 620
+     }
+    }
+   ],
+   "personajes": {
+    "nino": {
+     "x": 0.76,
+     "escala": 1.05,
+     "mira": "izq",
+     "pose": "saludar",
+     "cara": "risa",
+     "objeto": "movil",
+     "entra": "@tele",
+     "entrada": "der"
+    },
+    "mono": {
+     "pose": "brazos_cruzados",
+     "cara": "chulo",
+     "cambios": [
+      {
+       "al": "@+1.1",
+       "pose": "señalar",
+       "cara": "normal"
+      }
+     ]
+    }
+   }
+  },
+  {
+   "en": "Así que cambia la clave",
+   "color": "verde",
+   "escenas": [
+    {
+     "tipo": "iconos",
+     "tam": 180,
+     "items": [
+      {
+       "icono": "llave",
+       "texto": "FRASE LARGA",
+       "al": "@frase"
+      },
+      {
+       "icono": "router",
+       "texto": "SIN WPS",
+       "al": "@WPS"
+      },
+      {
+       "icono": "wifi",
+       "texto": "INVITADOS",
+       "al": "@invitados"
+      }
+     ],
+     "caja": {
+      "y": 620
+     }
+    }
+   ],
+   "personajes": {
+    "nino": {
+     "pose": "celebrar",
+     "cara": "risa"
+    },
+    "mono": {
+     "pose": "celebrar",
+     "cara": "risa",
+     "cambios": [
+      {
+       "al": "@+1.1",
+       "pose": "señalar",
+       "cara": "risa"
+      }
+     ]
+    }
+   }
+  }
+ ],
+ "cola": 0.9,
+ "formato": "9:16"
+}

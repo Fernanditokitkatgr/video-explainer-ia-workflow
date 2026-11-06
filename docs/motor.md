@@ -76,3 +76,69 @@ planos existentes sigan funcionando). Al añadir algo:
 Largos: `por-que-bitcoin-sube-y-baja`, `cuanto-gana-de-verdad-un-youtuber-en-espana`,
 `por-que-tu-movil-va-mas-lento-con-los-anos`. Shorts: `short-asi-te-roba-un-hacker-la-contrasena`,
 `short-por-que-la-ia-se-inventa-cosas`. Sus `plano.json` están en `channel/tecno/videos/<slug>/`.
+
+## Formatos v3 e imágenes de apoyo (nov-2026)
+
+- **Formatos** (`remotion/src/motor/EscenasFormatos.tsx`): `capas`, `viaje`, `combate`, `reloj`, `tier_list`,
+  `mito_verdad`, `linea_tiempo`, `experimento` e `imagen`. Catálogo con estructura, plantilla de hook y ejemplos en
+  [channel/tecno/FORMATOS.md](../channel/tecno/FORMATOS.md).
+- **Escena `imagen`** (aditiva): una imagen generada con Gemini como APOYO en un momento clave (un lugar, un objeto o
+  un fondo que el código no dibuja bien). El mono y los gráficos siguen siendo de código.
+
+  ```json
+  {"tipo": "imagen", "archivo": "router.png", "prompt": "an old home wifi router with a sticker on its side",
+   "al": "@pegatina", "pie": "LA CLAVE DE FÁBRICA", "modo": "marco", "aspecto": "16:9"}
+  ```
+
+  - `modo: "marco"` (por defecto) la pega como una foto con celo en la zona; `modo: "fondo"` la pone a pantalla completa
+    con un velo blanco (`velo`, 0,18 por defecto). `aspecto`: `16:9`, `1:1` o `9:16`. `pie` y `pie_al`: rótulo debajo.
+  - `python scripts/motor_imagenes.py <slug> [--dry-run]` genera las que falten en `<manifest_dir>/img_motor/`. Pasa por
+    `gasto.py` en cada imagen (tope duro de 250 €), usa el `image_model` del vídeo (lite o flash, nunca pro) y se niega
+    si el plano pide más de 15 imágenes en un largo o más de 5 en un Short. El estilo (rotulador sobre papel blanco,
+    paleta del canal, sin texto ni personas) lo añade el script.
+  - `motor_plano.py` copia `img_motor/` a `public-motor/<slug>/img/` y da error si falta alguna imagen del plano.
+- **Más escenas** (mismo archivo): `juicio` (balanza con pruebas de acusación y defensa, marcador y veredicto con sello),
+  `partida` (pantalla partida: dos bandos a la misma hora, reloj común y choques) y `mundo` (habitaciones continuas hechas
+  con imágenes de apoyo; la cámara viaja de una a otra mientras el personaje camina). `reloj` admite `continua: true` para
+  no repetir la entrada del reloj entre tramos seguidos.
+- **Hook en el fotograma 0**: las palabras del rótulo del hook llevan `"al": "@-0.5"` (medio segundo antes del inicio),
+  así ya están completas en el primer fotograma, sin la animación de entrada. Para que una escena entera ya esté montada (móvil, imagen de fondo, balanza) se le añade `"aparece": "@-0.6"`. El orden importa: la imagen de fondo va ANTES del rótulo en `escenas`, o lo tapa. El golpe va en el `sfx` del tramo:
+  `[["golpe", 0.02, 1.0], ["boom", 0.04, 0.7]]`.
+- **Guardia**: `make_tsx.py` ya no toca vídeos con `estilo: motor` (antes podía sobrescribir `MotorPlano.tsx`).
+
+## Mundos temáticos y estilos de dibujo (nov-2026, en prueba)
+
+Campo opcional `"mundo"` en `plano.json`, a la altura de `"reparto"` y `"tramos"`. **Sin el campo, el vídeo se pinta
+exactamente igual que antes.** Código: `remotion/src/motor/Mundos.tsx` (catálogo, fondos, filtros y escenas) y
+`remotion/src/motor/tema.ts` (tema de `Caja` y `Grande`).
+
+```json
+{"formato": "9:16", "mundo": "hacking", "reparto": {...}, "tramos": [...]}
+```
+
+| `mundo` | Qué cambia | Mono |
+|---|---|---|
+| `hacking` | Terminal oscuro, verde y rojo, volcado hexadecimal, barrido de escaneo | El mismo, con contorno blanco recortado |
+| `ia` | Plano técnico azul, retícula, circuitos, cotas y cajetín | El mismo, con contorno blanco recortado |
+| `periodico` | Periódico antiguo: papel, tinta, cabecera gótica, columnas | El mismo, sin contorno |
+| `comic` | Bendé y rayos, color por tramo, rótulos en viñeta | Rotulador grueso, tinta plana, sombra a trama |
+| `collage` | Cartón y papeles, rótulos de letras recortadas | Recorte de papel, animación a saltos (`paso`: 4 fotogramas) |
+| `pegatina` | Colores saturados, pegatinas de fondo | Saturado, troquel blanco grueso y sombra dura |
+
+Cada mundo trae fondo, cortinilla (se dispara al empezar cada tramo; el `color` del tramo no se usa), tema de cajas y
+títulos, estilo de iconos (duotono SVG sobre los dibujos de `Iconos.tsx`), filtro del reparto, ambiente sonoro en bucle y
+equivalencias de efectos (`sonidos`: p. ej. `whoosh` → `glitch`). Todo son bordes duros: **ningún filtro desenfoca**.
+
+Escenas propias de los mundos (solo pintan bien dentro de uno; no llevan relleno automático si el tramo pone `"relleno": false`):
+
+- `m_rotulo`: `texto` ("
+" parte líneas), `kicker`, `al`, `tam`, `color` (`"alerta"` o un color), `zona: {x, y, w}`, `barra`. Con `al` negativo ya está completo en el fotograma 0.
+- `m_paso`: `n`, `titulo`, `detalle`, `icono`, `al`, `y`, `color: "alerta"`.
+- `m_visual`: `icono`, `al`, `y`, `tam`, `etiqueta`, `alerta_al`, `alerta_texto`.
+
+**Limitaciones:** de las escenas clásicas, `texto`, `lista`, `sello` y los bocadillos usan `Caja`/`Grande` y heredan el
+tema; las que dibujan con tinta negra directa (`flujo`, `grafica`, `mapa`, `pantalla`…) no están adaptadas y en los mundos
+oscuros perderán sus líneas. Las fuentes de los mundos son del sistema (Consolas, Bahnschrift, Georgia Pro, Old English,
+Impact, Rockwell Nova): el render depende de que estén instaladas.
+
+Prueba comparativa con la misma voz: `channel/tecno/pruebas/mundos/` (`hacer_mundos.py` y un `plano.json` por mundo).

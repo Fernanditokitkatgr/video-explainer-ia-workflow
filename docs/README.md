@@ -7,6 +7,7 @@ Empieza por el [README de la raíz](../README.md) (qué es y cómo se hace un v�
 | [instalacion.md](./instalacion.md) | Programas, dependencias, `.env` y login de YouTube en un ordenador nuevo |
 | [motor.md](./motor.md) | Cómo funciona el motor de animación y dónde vive cada pieza |
 | [checklist-produccion.md](./checklist-produccion.md) | Lista paso a paso de un vídeo, con comandos |
+| [../channel/tecno/GUIONES_HOOKS.md](../channel/tecno/GUIONES_HOOKS.md) | Reglas de hooks y guiones: filtro obligatorio antes de pasar a voz |
 | [publicacion.md](./publicacion.md) | Cola diaria, subidas a YouTube y tareas programadas |
 | [shorts-y-tiktok.md](./shorts-y-tiktok.md) | Shorts con el motor y automatización de TikTok |
 | [gasto-y-costes.md](./gasto-y-costes.md) | Qué se paga y el tope de 250 € |

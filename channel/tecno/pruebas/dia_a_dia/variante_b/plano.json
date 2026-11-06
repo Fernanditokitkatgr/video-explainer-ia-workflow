@@ -1,0 +1,416 @@
+{
+ "reparto": {
+  "mono": {
+   "tipo": "protagonista",
+   "narrador": true
+  },
+  "azul": {
+   "tipo": "policia"
+  },
+  "conta": {
+   "tipo": "currito"
+  },
+  "sheriff": {
+   "tipo": "rico"
+  }
+ },
+ "tramos": [
+  {
+   "en": "",
+   "color": "amarillo",
+   "escenas": [
+    {
+     "tipo": "partida",
+     "tramos": 6,
+     "aparece": "@-0.6",
+     "izq": {
+      "nombre": "RED TEAM",
+      "color": "rojo"
+     },
+     "der": {
+      "nombre": "BLUE TEAM",
+      "color": "azul"
+     },
+     "horas": [
+      {
+       "hora": "09:00",
+       "al": "@Nueve"
+      },
+      {
+       "hora": "11:00",
+       "al": "@Once"
+      },
+      {
+       "hora": "13:00",
+       "al": "@Una"
+      },
+      {
+       "hora": "16:00",
+       "al": "@Cuatro"
+      },
+      {
+       "hora": "18:00",
+       "al": "@Seis"
+      }
+     ],
+     "eventos": [
+      {
+       "lado": "izq",
+       "texto": "Permiso para colarse",
+       "icono": "llave",
+       "al": "@permiso"
+      },
+      {
+       "lado": "der",
+       "texto": "No sabe cuándo: vigila las alarmas",
+       "icono": "alerta",
+       "al": "@alarmas-0.8"
+      },
+      {
+       "lado": "izq",
+       "texto": "Correo trampa a contabilidad",
+       "icono": "anzuelo",
+       "al": "@correo"
+      },
+      {
+       "lado": "der",
+       "texto": "Todo tranquilo… de momento",
+       "icono": "ojo",
+       "al": "@correo+0.4"
+      },
+      {
+       "lado": "izq",
+       "texto": "Alguien pica: ¡dentro!",
+       "icono": "calavera",
+       "al": "@pica"
+      },
+      {
+       "lado": "der",
+       "texto": "Algo raro en un servidor",
+       "icono": "servidor",
+       "al": "@servidor-0.8"
+      },
+      {
+       "lado": "izq",
+       "texto": "Cuenta por dónde entró",
+       "icono": "libro",
+       "al": "@Seis+0.5"
+      },
+      {
+       "lado": "der",
+       "texto": "Apunta cómo taparlo",
+       "icono": "escudo",
+       "al": "@Seis+0.8"
+      },
+      {
+       "lado": "izq",
+       "texto": "Junior: unos 30.000 €",
+       "icono": "dolar",
+       "al": "@junior"
+      },
+      {
+       "lado": "der",
+       "texto": "¿Y el senior del rojo?",
+       "icono": "hucha",
+       "al": "@junior+0.5"
+      },
+      {
+       "lado": "izq",
+       "texto": "Senior: más de 70.000 €",
+       "icono": "trofeo",
+       "al": "@senior"
+      }
+     ],
+     "choques": [
+      {
+       "al": "@entra",
+       "texto": "¡DENTRO!"
+      },
+      {
+       "al": "@caza",
+       "texto": "¡PILLADO!"
+      }
+     ]
+    },
+    {
+     "tipo": "texto",
+     "tam": 88,
+     "palabras": [
+      {
+       "texto": "LES PAGAN",
+       "al": "@-0.5",
+       "color": "amarillo"
+      },
+      {
+       "texto": "POR HACKEAR",
+       "al": "@-0.4",
+       "caja": true,
+       "color": "rojo"
+      }
+     ],
+     "zona": "arriba",
+     "caja": {
+      "y": 200
+     },
+     "por_fila": 30
+    }
+   ],
+   "personajes": {
+    "azul": {
+     "x": 0.76,
+     "escala": 0.72,
+     "mira": "izq",
+     "pose": "brazos_cruzados",
+     "cara": "enfado",
+     "entrada": "nada"
+    },
+    "mono": {
+     "x": 0.24,
+     "escala": 0.72,
+     "pose": "señalar",
+     "cara": "chulo",
+     "entrada": "nada",
+     "cambios": [
+      {
+       "al": "@+1.1",
+       "pose": "jarras",
+       "cara": "sorpresa"
+      }
+     ]
+    }
+   },
+   "sfx": [
+    [
+     "golpe",
+     0.02,
+     1.0
+    ],
+    [
+     "boom",
+     0.04,
+     0.7
+    ]
+   ],
+   "golpes": [
+    0.05
+   ],
+   "relleno": false
+  },
+  {
+   "en": "Nueve de la mañana",
+   "escenas": [],
+   "personajes": {
+    "azul": {
+     "x": 0.76,
+     "escala": 0.72,
+     "mira": "izq",
+     "pose": "pensar",
+     "cara": "normal"
+    },
+    "mono": {
+     "pose": "presentar",
+     "cara": "risa",
+     "cambios": [
+      {
+       "al": "@+1.1",
+       "pose": "señalar_arriba",
+       "cara": "guiño"
+      }
+     ]
+    }
+   },
+   "relleno": false
+  },
+  {
+   "en": "Once",
+   "escenas": [],
+   "personajes": {
+    "azul": {
+     "x": 0.76,
+     "escala": 0.72,
+     "mira": "izq",
+     "pose": "jarras",
+     "cara": "normal"
+    },
+    "mono": {
+     "pose": "presentar",
+     "cara": "risa",
+     "salta": true,
+     "cambios": [
+      {
+       "al": "@+1.1",
+       "pose": "brazos_cruzados",
+       "cara": "normal"
+      }
+     ]
+    }
+   },
+   "relleno": false
+  },
+  {
+   "en": "Una de la tarde",
+   "escenas": [],
+   "personajes": {
+    "azul": {
+     "x": 0.76,
+     "escala": 0.72,
+     "mira": "izq",
+     "pose": "pensar",
+     "cara": "sorpresa"
+    },
+    "mono": {
+     "pose": "celebrar",
+     "cara": "risa",
+     "cambios": [
+      {
+       "al": "@+1.1",
+       "pose": "saludar",
+       "cara": "chulo"
+      }
+     ]
+    }
+   },
+   "golpes": [
+    "@entra"
+   ],
+   "relleno": false
+  },
+  {
+   "en": "Cuatro",
+   "escenas": [],
+   "personajes": {
+    "azul": {
+     "x": 0.76,
+     "escala": 0.72,
+     "mira": "izq",
+     "pose": "señalar",
+     "cara": "enfado",
+     "salta": true
+    },
+    "mono": {
+     "pose": "miedo",
+     "cara": "miedo",
+     "cambios": [
+      {
+       "al": "@+1.1",
+       "pose": "presentar",
+       "cara": "risa"
+      }
+     ]
+    }
+   },
+   "golpes": [
+    "@caza"
+   ],
+   "relleno": false
+  },
+  {
+   "en": "Seis",
+   "escenas": [],
+   "personajes": {
+    "azul": {
+     "x": 0.58,
+     "escala": 0.72,
+     "mira": "izq",
+     "pose": "saludar",
+     "cara": "risa"
+    },
+    "mono": {
+     "x": 0.42,
+     "pose": "saludar",
+     "cara": "risa",
+     "cambios": [
+      {
+       "al": "@+1.1",
+       "pose": "señalar",
+       "cara": "normal"
+      }
+     ]
+    }
+   },
+   "relleno": false
+  },
+  {
+   "en": "¿Cuánto cobran?",
+   "escenas": [],
+   "personajes": {
+    "azul": {
+     "x": 0.76,
+     "escala": 0.72,
+     "mira": "izq",
+     "pose": "encogerse",
+     "cara": "sorpresa",
+     "salida": "der"
+    },
+    "mono": {
+     "x": 0.24,
+     "pose": "celebrar",
+     "cara": "risa",
+     "cambios": [
+      {
+       "al": "@+1.1",
+       "pose": "señalar",
+       "cara": "risa"
+      }
+     ]
+    }
+   },
+   "relleno": false
+  },
+  {
+   "en": "¿Lo más loco?",
+   "color": "morado",
+   "escenas": [
+    {
+     "tipo": "imagen",
+     "archivo": "juzgado.png",
+     "prompt": "a small old American county courthouse building at night with stone columns and steps, moonlight, a flashlight beam on a side door, police car lights glowing in the distance",
+     "al": "@juzgado",
+     "modo": "marco",
+     "pie": "IOWA, 2019: CON AUTORIZACIÓN",
+     "pie_al": "@autorización"
+    },
+    {
+     "tipo": "sello",
+     "texto": "DETENIDOS",
+     "al": "@detenidos",
+     "color": "rojo",
+     "tam": 120,
+     "caja": {
+      "y": 660
+     }
+    }
+   ],
+   "personajes": {
+    "sheriff": {
+     "x": 0.9,
+     "escala": 0.72,
+     "mira": "izq",
+     "pose": "señalar",
+     "cara": "enfado",
+     "objeto": "ninguno",
+     "entra": "@detenidos",
+     "entrada": "cae"
+    },
+    "mono": {
+     "x": 0.1,
+     "pose": "miedo",
+     "cara": "sorpresa",
+     "cambios": [
+      {
+       "al": "@+1.1",
+       "pose": "presentar",
+       "cara": "sorpresa"
+      }
+     ]
+    }
+   },
+   "golpes": [
+    "@detenidos"
+   ],
+   "relleno": false
+  }
+ ],
+ "cola": 0.8,
+ "formato": "16:9"
+}

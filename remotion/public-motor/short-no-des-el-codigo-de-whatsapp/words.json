@@ -1,0 +1,742 @@
+[
+{
+"text": "Si",
+"start": 0.0,
+"end": 0.2
+},
+{
+"text": "te",
+"start": 0.2,
+"end": 0.34
+},
+{
+"text": "piden",
+"start": 0.34,
+"end": 0.6
+},
+{
+"text": "un",
+"start": 0.6,
+"end": 0.84
+},
+{
+"text": "código",
+"start": 0.84,
+"end": 0.98
+},
+{
+"text": "por",
+"start": 0.98,
+"end": 1.3
+},
+{
+"text": "WhatsApp,",
+"start": 1.3,
+"end": 1.74
+},
+{
+"text": "no",
+"start": 1.98,
+"end": 2.28
+},
+{
+"text": "lo",
+"start": 2.28,
+"end": 2.42
+},
+{
+"text": "des.",
+"start": 2.42,
+"end": 2.54
+},
+{
+"text": "Mira",
+"start": 3.14,
+"end": 3.3
+},
+{
+"text": "lo",
+"start": 3.3,
+"end": 3.44
+},
+{
+"text": "que",
+"start": 3.44,
+"end": 3.56
+},
+{
+"text": "pasa",
+"start": 3.56,
+"end": 3.74
+},
+{
+"text": "en",
+"start": 3.74,
+"end": 3.9
+},
+{
+"text": "cinco",
+"start": 3.9,
+"end": 4.24
+},
+{
+"text": "minutos.",
+"start": 4.24,
+"end": 4.5
+},
+{
+"text": "Minuto",
+"start": 5.12,
+"end": 5.54
+},
+{
+"text": "cero.",
+"start": 5.54,
+"end": 5.86
+},
+{
+"text": "Te",
+"start": 6.2,
+"end": 6.38
+},
+{
+"text": "llega",
+"start": 6.38,
+"end": 6.52
+},
+{
+"text": "un",
+"start": 6.52,
+"end": 6.8
+},
+{
+"text": "SMS",
+"start": 6.8,
+"end": 7.1
+},
+{
+"text": "con",
+"start": 7.1,
+"end": 7.54
+},
+{
+"text": "seis",
+"start": 7.54,
+"end": 7.78
+},
+{
+"text": "números.",
+"start": 7.78,
+"end": 8.1
+},
+{
+"text": "Y",
+"start": 8.1,
+"end": 8.64
+},
+{
+"text": "un",
+"start": 8.64,
+"end": 8.76
+},
+{
+"text": "mensaje",
+"start": 8.76,
+"end": 9.1
+},
+{
+"text": "de",
+"start": 9.1,
+"end": 9.22
+},
+{
+"text": "tu",
+"start": 9.22,
+"end": 9.34
+},
+{
+"text": "prima:",
+"start": 9.34,
+"end": 9.56
+},
+{
+"text": "te",
+"start": 9.96,
+"end": 10.04
+},
+{
+"text": "lo",
+"start": 10.04,
+"end": 10.14
+},
+{
+"text": "he",
+"start": 10.14,
+"end": 10.16
+},
+{
+"text": "mandado",
+"start": 10.16,
+"end": 10.42
+},
+{
+"text": "por",
+"start": 10.42,
+"end": 10.64
+},
+{
+"text": "error,",
+"start": 10.64,
+"end": 10.84
+},
+{
+"text": "¿me",
+"start": 11.06,
+"end": 11.1
+},
+{
+"text": "lo",
+"start": 11.1,
+"end": 11.18
+},
+{
+"text": "pasas?",
+"start": 11.18,
+"end": 11.46
+},
+{
+"text": "Pero",
+"start": 11.76,
+"end": 11.94
+},
+{
+"text": "no",
+"start": 11.94,
+"end": 12.24
+},
+{
+"text": "es",
+"start": 12.24,
+"end": 12.5
+},
+{
+"text": "tu",
+"start": 12.5,
+"end": 12.62
+},
+{
+"text": "prima.",
+"start": 12.62,
+"end": 12.86
+},
+{
+"text": "Es",
+"start": 13.24,
+"end": 13.38
+},
+{
+"text": "el",
+"start": 13.38,
+"end": 13.5
+},
+{
+"text": "ladrón,",
+"start": 13.5,
+"end": 13.88
+},
+{
+"text": "que",
+"start": 13.88,
+"end": 14.2
+},
+{
+"text": "ya",
+"start": 14.2,
+"end": 14.4
+},
+{
+"text": "le",
+"start": 14.4,
+"end": 14.52
+},
+{
+"text": "robó",
+"start": 14.52,
+"end": 14.76
+},
+{
+"text": "la",
+"start": 14.76,
+"end": 14.88
+},
+{
+"text": "cuenta",
+"start": 14.88,
+"end": 15.08
+},
+{
+"text": "a",
+"start": 15.08,
+"end": 15.3
+},
+{
+"text": "ella.",
+"start": 15.3,
+"end": 15.44
+},
+{
+"text": "Minuto",
+"start": 15.92,
+"end": 16.22
+},
+{
+"text": "uno.",
+"start": 16.22,
+"end": 16.46
+},
+{
+"text": "Ese",
+"start": 16.9,
+"end": 17.08
+},
+{
+"text": "código",
+"start": 17.08,
+"end": 17.3
+},
+{
+"text": "es",
+"start": 17.3,
+"end": 17.56
+},
+{
+"text": "de",
+"start": 17.56,
+"end": 17.66
+},
+{
+"text": "WhatsApp.",
+"start": 17.66,
+"end": 18.14
+},
+{
+"text": "Alguien",
+"start": 18.4,
+"end": 18.74
+},
+{
+"text": "está",
+"start": 18.74,
+"end": 18.96
+},
+{
+"text": "instalando",
+"start": 18.96,
+"end": 19.4
+},
+{
+"text": "tu",
+"start": 19.4,
+"end": 19.54
+},
+{
+"text": "cuenta",
+"start": 19.54,
+"end": 19.78
+},
+{
+"text": "en",
+"start": 19.78,
+"end": 19.96
+},
+{
+"text": "otro",
+"start": 19.96,
+"end": 20.12
+},
+{
+"text": "móvil.",
+"start": 20.12,
+"end": 20.46
+},
+{
+"text": "Minuto",
+"start": 20.82,
+"end": 21.1
+},
+{
+"text": "tres.",
+"start": 21.1,
+"end": 21.36
+},
+{
+"text": "Se",
+"start": 21.82,
+"end": 21.9
+},
+{
+"text": "lo",
+"start": 21.9,
+"end": 21.98
+},
+{
+"text": "mandas.",
+"start": 21.98,
+"end": 22.34
+},
+{
+"text": "Y",
+"start": 22.62,
+"end": 22.68
+},
+{
+"text": "tu",
+"start": 22.68,
+"end": 22.8
+},
+{
+"text": "WhatsApp",
+"start": 22.8,
+"end": 23.2
+},
+{
+"text": "salta",
+"start": 23.2,
+"end": 23.56
+},
+{
+"text": "a",
+"start": 23.56,
+"end": 23.66
+},
+{
+"text": "su",
+"start": 23.66,
+"end": 23.76
+},
+{
+"text": "móvil.",
+"start": 23.76,
+"end": 24.06
+},
+{
+"text": "Tú",
+"start": 24.36,
+"end": 24.48
+},
+{
+"text": "te",
+"start": 24.48,
+"end": 24.78
+},
+{
+"text": "quedas",
+"start": 24.78,
+"end": 25.08
+},
+{
+"text": "fuera.",
+"start": 25.08,
+"end": 25.32
+},
+{
+"text": "Minuto",
+"start": 25.74,
+"end": 26.02
+},
+{
+"text": "cuatro.",
+"start": 26.02,
+"end": 26.44
+},
+{
+"text": "Pone",
+"start": 26.8,
+"end": 26.94
+},
+{
+"text": "un",
+"start": 26.94,
+"end": 27.1
+},
+{
+"text": "PIN",
+"start": 27.1,
+"end": 27.28
+},
+{
+"text": "que",
+"start": 27.28,
+"end": 27.5
+},
+{
+"text": "solo",
+"start": 27.5,
+"end": 27.72
+},
+{
+"text": "sabe",
+"start": 27.72,
+"end": 28.04
+},
+{
+"text": "él,",
+"start": 28.04,
+"end": 28.28
+},
+{
+"text": "para",
+"start": 28.28,
+"end": 28.54
+},
+{
+"text": "que",
+"start": 28.54,
+"end": 28.7
+},
+{
+"text": "no",
+"start": 28.7,
+"end": 28.88
+},
+{
+"text": "la",
+"start": 28.88,
+"end": 29.0
+},
+{
+"text": "recuperes.",
+"start": 29.0,
+"end": 29.6
+},
+{
+"text": "Minuto",
+"start": 29.6,
+"end": 30.2
+},
+{
+"text": "cinco.",
+"start": 30.2,
+"end": 30.6
+},
+{
+"text": "Escribe",
+"start": 30.92,
+"end": 31.3
+},
+{
+"text": "a",
+"start": 31.3,
+"end": 31.46
+},
+{
+"text": "tus",
+"start": 31.46,
+"end": 31.56
+},
+{
+"text": "contactos",
+"start": 31.56,
+"end": 32.08
+},
+{
+"text": "haciéndose",
+"start": 32.08,
+"end": 32.613
+},
+{
+"text": "pasar",
+"start": 32.613,
+"end": 32.88
+},
+{
+"text": "por",
+"start": 32.88,
+"end": 33.06
+},
+{
+"text": "ti.",
+"start": 33.06,
+"end": 33.24
+},
+{
+"text": "¿Me",
+"start": 33.64,
+"end": 33.7
+},
+{
+"text": "haces",
+"start": 33.7,
+"end": 33.9
+},
+{
+"text": "un",
+"start": 33.9,
+"end": 34.06
+},
+{
+"text": "Bizum?",
+"start": 34.06,
+"end": 34.32
+},
+{
+"text": "¿La",
+"start": 34.62,
+"end": 34.74
+},
+{
+"text": "solución?",
+"start": 34.74,
+"end": 35.18
+},
+{
+"text": "Activa",
+"start": 35.54,
+"end": 35.88
+},
+{
+"text": "la",
+"start": 35.88,
+"end": 36.0
+},
+{
+"text": "verificación",
+"start": 36.0,
+"end": 36.4
+},
+{
+"text": "en",
+"start": 36.4,
+"end": 36.66
+},
+{
+"text": "dos",
+"start": 36.66,
+"end": 36.8
+},
+{
+"text": "pasos,",
+"start": 36.8,
+"end": 37.18
+},
+{
+"text": "en",
+"start": 37.18,
+"end": 37.46
+},
+{
+"text": "Ajustes,",
+"start": 37.46,
+"end": 38.0
+},
+{
+"text": "Cuenta.",
+"start": 38.0,
+"end": 38.46
+},
+{
+"text": "Tarda",
+"start": 38.82,
+"end": 39.0
+},
+{
+"text": "un",
+"start": 39.0,
+"end": 39.22
+},
+{
+"text": "minuto.",
+"start": 39.22,
+"end": 39.62
+},
+{
+"text": "Y",
+"start": 39.88,
+"end": 39.98
+},
+{
+"text": "un",
+"start": 39.98,
+"end": 40.1
+},
+{
+"text": "código",
+"start": 40.1,
+"end": 40.32
+},
+{
+"text": "que",
+"start": 40.32,
+"end": 40.6
+},
+{
+"text": "te",
+"start": 40.6,
+"end": 40.7
+},
+{
+"text": "llega",
+"start": 40.7,
+"end": 40.86
+},
+{
+"text": "a",
+"start": 40.86,
+"end": 41.06
+},
+{
+"text": "ti",
+"start": 41.06,
+"end": 41.14
+},
+{
+"text": "no",
+"start": 41.14,
+"end": 41.52
+},
+{
+"text": "se",
+"start": 41.52,
+"end": 41.68
+},
+{
+"text": "le",
+"start": 41.68,
+"end": 41.76
+},
+{
+"text": "da",
+"start": 41.76,
+"end": 41.9
+},
+{
+"text": "a",
+"start": 41.9,
+"end": 42.02
+},
+{
+"text": "nadie.",
+"start": 42.02,
+"end": 42.24
+},
+{
+"text": "Ni",
+"start": 42.6,
+"end": 42.74
+},
+{
+"text": "a",
+"start": 42.74,
+"end": 42.8
+},
+{
+"text": "tu",
+"start": 42.8,
+"end": 42.92
+},
+{
+"text": "prima.",
+"start": 42.92,
+"end": 43.14
+}
+]

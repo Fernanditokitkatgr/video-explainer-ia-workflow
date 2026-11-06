@@ -14,7 +14,7 @@
  * Todos aceptan "zona"/"caja" como las demás escenas y funcionan en 16:9 y 9:16.
  */
 import React from 'react';
-import {useVideoConfig} from 'remotion';
+import {Img, staticFile, useVideoConfig} from 'remotion';
 import {C, CHIP_COLORS, col, decay, easeInOut, easeOut, fmt, FONT, jit, lerp, overshoot, pop, ramp, useBoil, wobEllipse, wobLine, wobPoly, wobRect} from './base';
 import {Icono} from './Iconos';
 import {Caja, Grande, Rafaga} from './piezas';
@@ -382,11 +382,11 @@ const Reloj: React.FC<EscenaProps> = ({d, t, t0, t1}) => {
   return (
     <>
       {d.escenario && (
-        <Caja x={z.x} y={z.vertical ? 140 : 70} seed="esc" bg={C.ink} scale={pop(t, t0, 0.35)} rotate={-2} style={{padding: '4px 26px', fontSize: z.vertical ? 40 : 44, color: C.paper}}>
+        <Caja x={z.x} y={z.vertical ? 140 : 70} seed="esc" bg={C.ink} scale={d.continua ? 1 : pop(t, t0, 0.35)} rotate={-2} style={{padding: '4px 26px', fontSize: z.vertical ? 40 : 44, color: C.paper}}>
           {d.escenario}
         </Caja>
       )}
-      <div style={{position: 'absolute', left: cx + tiemble, top: cy, scale: `${pop(t, t0, 0.45) * (1 + 0.08 * decay(t, ta + dur, 5))}`}}>
+      <div style={{position: 'absolute', left: cx + tiemble, top: cy, scale: `${(d.continua ? 1 : pop(t, t0, 0.45)) * (1 + 0.08 * decay(t, ta + dur, 5))}`}}>
         <Svg>
           <path d={wobEllipse(8, 10, R, R, `rjs${b}`, 0.02)} fill={C.ink} />
           <path d={wobEllipse(0, 0, R, R, `rj${b}`, 0.02)} fill={col(d.color_esfera, C.paper)} stroke={C.ink} strokeWidth={10} />
@@ -805,6 +805,276 @@ const Experimento: React.FC<EscenaProps> = ({d, t, t0}) => {
   );
 };
 
+
+// ═════════════════════════ 9 · IMAGEN (apoyo visual generado) ═════════════════════════
+/** Imagen generada (Gemini, estilo rotulador) como apoyo en un momento clave. El mono y las piezas siguen
+ *  siendo de código: la imagen va enmarcada como una foto pegada con celo ("marco"), o de fondo ("fondo").
+ *  `src` lo pone motor_plano.py (<slug>/img/<archivo>); la imagen sale de channel/.../<slug>/img_motor/. */
+const Imagen: React.FC<EscenaProps> = ({d, t, t0, t1}) => {
+  const z = useZona(d);
+  const b = useBoil();
+  const ta = at(d.al, t0);
+  const p = pop(t, ta, 0.5);
+  const kb = 1 + 0.07 * ramp(t, ta, Math.max(1, t1 - ta), (x) => x);
+  if (!d.src || p <= 0.001) return null;
+  if (d.modo === 'fondo') {
+    return (
+      <div style={{position: 'absolute', inset: 0, opacity: Math.min(1, ramp(t, ta, 0.35)), overflow: 'hidden'}}>
+        <Img src={staticFile(d.src)} style={{width: '100%', height: '100%', objectFit: 'cover', scale: `${kb}`}} />
+        <div style={{position: 'absolute', inset: 0, background: `rgba(255,255,255,${d.velo ?? 0.18})`}} />
+      </div>
+    );
+  }
+  const asp = d.aspecto === '1:1' ? 1 : d.aspecto === '9:16' ? 16 / 9 : 9 / 16;
+  const W = d.ancho ?? (z.vertical ? 860 : 980);
+  const H = W * asp;
+  const rot = d.rot ?? jit(`im${d.src}`, 3);
+  const y = z.y + (z.vertical ? 0 : 40);
+  return (
+    <>
+      <div style={{position: 'absolute', left: z.x, top: y, width: W, height: H, translate: '-50% -50%', scale: `${p}`, rotate: `${rot + Math.sin((t - ta) * 1.5) * 0.6}deg`}}>
+        <div style={{position: 'absolute', left: 12, top: 16, width: W, height: H, background: C.ink, borderRadius: 18}} />
+        <div style={{position: 'absolute', inset: 0, overflow: 'hidden', borderRadius: 18, background: C.paper}}>
+          <Img src={staticFile(d.src)} style={{width: '100%', height: '100%', objectFit: 'cover', scale: `${kb}`}} />
+        </div>
+        <svg style={{position: 'absolute', left: 0, top: 0, overflow: 'visible'}} width={1} height={1}>
+          <path d={wobRect(0, 0, W, H, `imb${b}`, 3, 18)} fill="none" stroke={C.ink} strokeWidth={10} />
+          {/* celo en las esquinas */}
+          <rect x={-30} y={-14} width={110} height={34} rx={4} fill="rgba(255,236,160,0.85)" transform={`rotate(-28 25 3)`} />
+          <rect x={W - 80} y={-14} width={110} height={34} rx={4} fill="rgba(255,236,160,0.85)" transform={`rotate(28 ${W - 25} 3)`} />
+        </svg>
+      </div>
+      {d.pie && (
+        <Caja x={z.x} y={y + (H * p) / 2 + 30} seed={`imp${d.src}`} bg={col(d.color_pie, C.yellow)} scale={pop(t, at(d.pie_al, ta + 0.35), 0.35)} rotate={-2} style={{padding: '6px 24px', fontSize: z.vertical ? 44 : 46}}>
+          {d.pie}
+        </Caja>
+      )}
+    </>
+  );
+};
+
+
+// ═════════════════════════ 10 · JUICIO (balanza de pruebas) ═════════════════════════
+/** Balanza de la justicia: cada prueba cae como una ficha en el platillo de la acusación (izq) o de la defensa
+ *  (der); el brazo se inclina hacia el lado con más peso; marcador arriba y veredicto con sello y mazo.
+ *  d.pruebas [{texto, lado: 'acusacion'|'defensa', al, peso}], d.veredicto, d.veredicto_al, d.color_veredicto,
+ *  d.etiquetas [izq, der] (por defecto ACUSACIÓN / DEFENSA). */
+const Juicio: React.FC<EscenaProps> = ({d, t, t0}) => {
+  const z = useZona(d);
+  const b = useBoil();
+  const ps: any[] = d.pruebas ?? [];
+  const ts = ps.map((p, i) => at(p.al, t0 + 0.6 + i * 1.2));
+  let izq = 0;
+  let der = 0;
+  ps.forEach((p, i) => {
+    const w = (p.peso ?? 1) * ramp(t, ts[i], 0.5, easeOut);
+    if (p.lado === 'defensa') der += w;
+    else izq += w;
+  });
+  const ang = Math.max(-16, Math.min(16, (der - izq) * 5));
+  const cx = z.x;
+  const cy = z.y + (z.vertical ? -40 : 0);
+  const L = z.vertical ? 330 : 380;
+  const rad = (ang * Math.PI) / 180;
+  const plato = (sd: number) => [cx + sd * L * Math.cos(rad), cy + sd * L * Math.sin(rad)] as [number, number];
+  const tv = at(d.veredicto_al, 1e9);
+  const etq: string[] = d.etiquetas ?? ['ACUSACIÓN', 'DEFENSA'];
+  const n = (lado: string) => ps.filter((p, i) => (p.lado === 'defensa') === (lado === 'defensa') && t >= ts[i]).length;
+  const pila: Record<string, number> = {acusacion: 0, defensa: 0};
+  const k = actualDe(ts, t);
+  return (
+    <>
+      <div style={{position: 'absolute', left: 0, top: 0, scale: `${pop(t, t0, 0.45)}`, transformOrigin: `${cx}px ${cy}px`}}>
+        <Svg>
+          {/* pie y mástil */}
+          <path d={wobPoly([[cx - 120, cy + 330], [cx + 120, cy + 330], [cx + 60, cy + 290], [cx - 60, cy + 290]], `jp${b}`, 2, true)} fill="#B5651D" stroke={C.ink} strokeWidth={7} />
+          <path d={wobLine([cx, cy + 295], [cx, cy - 20], `jm${b}`, 1.5)} stroke={C.ink} strokeWidth={18} strokeLinecap="round" />
+          <path d={wobLine([cx, cy + 295], [cx, cy - 20], `jm${b}`, 1.5)} stroke={C.gold} strokeWidth={9} strokeLinecap="round" />
+          {/* brazo */}
+          <path d={wobLine(plato(-1), plato(1), `jb${b}`, 1.5)} stroke={C.ink} strokeWidth={16} strokeLinecap="round" />
+          <path d={wobLine(plato(-1), plato(1), `jb${b}`, 1.5)} stroke={C.gold} strokeWidth={8} strokeLinecap="round" />
+          <circle cx={cx} cy={cy} r={22} fill={C.gold} stroke={C.ink} strokeWidth={6} />
+          {[-1, 1].map((sd) => {
+            const [px, py] = plato(sd);
+            return (
+              <g key={sd}>
+                <path d={`M${px} ${py} L${px - 90} ${py + 150} M${px} ${py} L${px + 90} ${py + 150}`} stroke={C.ink} strokeWidth={4} />
+                <path d={wobPoly([[px - 120, py + 150], [px + 120, py + 150], [px + 80, py + 190], [px - 80, py + 190]], `jpl${sd}${b}`, 2, true)} fill={sd < 0 ? C.red : C.blue} stroke={C.ink} strokeWidth={6} />
+              </g>
+            );
+          })}
+        </Svg>
+        {[-1, 1].map((sd) => (
+          <Caja key={sd} x={cx + sd * L} y={cy - 150} seed={`je${sd}`} bg={sd < 0 ? C.red : C.blue} rotate={sd * 3} style={{padding: '4px 20px', fontSize: z.vertical ? 34 : 40, color: C.paper}}>
+            {etq[sd < 0 ? 0 : 1]} {n(sd < 0 ? 'acusacion' : 'defensa')}
+          </Caja>
+        ))}
+      </div>
+      {/* fichas en los platillos */}
+      {ps.map((p, i) => {
+        if (t < ts[i] - 0.4) return null;
+        const lado = p.lado === 'defensa' ? 'defensa' : 'acusacion';
+        const j = pila[lado]++;
+        const [px, py] = plato(lado === 'defensa' ? 1 : -1);
+        const caida = ramp(t, ts[i] - 0.4, 0.4, (x) => x * x);
+        const y = lerp(py - 500, py + 120 - j * 34, caida);
+        return (
+          <div key={i} style={{position: 'absolute', left: px + ((j % 3) - 1) * 60, top: y, translate: '-50% -50%', width: 54, height: 30, borderRadius: 8, background: lado === 'defensa' ? C.blue : C.red, border: `4px solid ${C.ink}`}} />
+        );
+      })}
+      {/* la prueba actual */}
+      {k >= 0 && t < tv && (
+        <Caja x={cx} y={z.vertical ? cy + 470 : cy - 300} seed={`jt${k}`} bg={ps[k].lado === 'defensa' ? '#DDF1FB' : '#FBE1DA'} scale={pop(t, ts[k] - 0.2, 0.35)} rotate={jit(`jt${k}`, 3)}
+          style={{padding: '8px 26px', fontSize: z.vertical ? 42 : 46, maxWidth: z.vertical ? 900 : 1100, whiteSpace: 'normal', textAlign: 'center', lineHeight: 1.1}}>
+          {ps[k].lado === 'defensa' ? 'DEFENSA · ' : 'ACUSACIÓN · '}{ps[k].texto}
+        </Caja>
+      )}
+      {t >= tv && d.veredicto && (
+        <>
+          <div style={{position: 'absolute', left: cx, top: cy - 60, translate: '-50% -50%', scale: `${lerp(3, 1, ramp(t, tv, 0.18, (x) => x * x))}`, rotate: '-10deg', border: `14px solid ${col(d.color_veredicto, C.orange)}`,
+            borderRadius: 22, padding: '0 34px', fontFamily: FONT, fontSize: z.vertical ? 86 : 110, color: col(d.color_veredicto, C.orange), background: 'rgba(255,255,255,0.92)', whiteSpace: 'nowrap'}}>
+            {d.veredicto}
+          </div>
+          <div style={{position: 'absolute', left: cx + (z.vertical ? 250 : 420), top: cy - 260, rotate: `${-40 + 40 * ramp(t, tv - 0.2, 0.2)}deg`}}>
+            <Icono nombre="mazo" tam={200} />
+          </div>
+        </>
+      )}
+    </>
+  );
+};
+
+
+// ═════════════════════════ 11 · PANTALLA PARTIDA (dos bandos en paralelo) ═════════════════════════
+/** Dos bandos a la misma hora: mitad izquierda y mitad derecha con un rayo en medio, reloj común arriba y
+ *  "choques" que saltan la frontera. d.izq/d.der {nombre, color}, d.horas [{al, hora}],
+ *  d.eventos [{lado: izq|der, texto, icono, al}], d.choques [{al, texto}]. */
+const Partida: React.FC<EscenaProps> = ({d, t, t0}) => {
+  const z = useZona(d);
+  const b = useBoil();
+  const W = z.VW;
+  const H = z.VH;
+  const m = W / 2;
+  const lados: ('izq' | 'der')[] = ['izq', 'der'];
+  const evs: any[] = d.eventos ?? [];
+  const horas: any[] = d.horas ?? [];
+  const kh = actualDe(horas.map((h) => at(h.al, t0)), t);
+  const chs: any[] = d.choques ?? [];
+  const kc = actualDe(chs.map((c) => at(c.al, 1e9)), t);
+  const choque = kc >= 0 ? chs[kc] : null;
+  const dc = choque ? t - at(choque.al, 0) : 99;
+  const sh = dc < 0.6 ? Math.sin(dc * 60) * 14 * (1 - dc / 0.6) : 0;
+  const zig: [number, number][] = Array.from({length: 11}, (_, i) => [m + (i % 2 ? 26 : -26) + sh, (i / 10) * H]);
+  return (
+    <>
+      {lados.map((l, j) => {
+        const c = col(d[l]?.color, j ? C.blue : C.red);
+        return (
+          <React.Fragment key={l}>
+            <div style={{position: 'absolute', left: j ? m : 0, top: 0, width: m, height: H, background: c, opacity: 0.16 * ramp(t, t0, 0.3)}} />
+            <Grande x={j ? m + m / 2 : m / 2} y={70} size={70} color={c} scale={pop(t, t0, 0.35)} rotate={j ? 2 : -2}>
+              {d[l]?.nombre}
+            </Grande>
+          </React.Fragment>
+        );
+      })}
+      <Svg>
+        <path d={wobPoly(zig, `pz${b}`, 3)} fill="none" stroke={C.ink} strokeWidth={16} strokeLinejoin="round" />
+        <path d={wobPoly(zig, `pz${b}`, 3)} fill="none" stroke={dc < 0.8 ? C.yellow : C.paper} strokeWidth={7} strokeLinejoin="round" />
+      </Svg>
+      {kh >= 0 && (
+        <Caja x={m + sh} y={70} seed={`ph${kh}`} bg={C.ink} scale={1 + 0.25 * decay(t, at(horas[kh].al, t0), 6)} style={{padding: '4px 26px', fontSize: 62, color: C.paper}}>
+          {horas[kh].hora}
+        </Caja>
+      )}
+      {lados.map((l, j) => {
+        const lista = evs.filter((e) => e.lado === l);
+        const k = actualDe(lista.map((e) => at(e.al, 1e9)), t);
+        if (k < 0) return null;
+        const e = lista[k];
+        const ta = at(e.al, t0);
+        const x = j ? m + m / 2 : m / 2;
+        return (
+          <div key={l} style={{position: 'absolute', left: x, top: 330 + Math.sin(t * 3 + j) * 6, scale: `${pop(t, ta, 0.4)}`}}>
+            <div style={{position: 'absolute', left: -120, top: -170}}>
+              <Icono nombre={e.icono ?? 'ordenador'} tam={240} />
+            </div>
+            <Caja x={0} y={120} w={720} seed={`pe${l}${k}`} bg={C.paper} rotate={j ? 2 : -2} style={{padding: '8px 18px', fontSize: 42, whiteSpace: 'normal', textAlign: 'center', lineHeight: 1.08}}>
+              {e.texto}
+            </Caja>
+          </div>
+        );
+      })}
+      {choque && dc < 1.6 && (
+        <>
+          <Grande x={m} y={H * 0.42} size={120} color={C.yellow} scale={pop(t, at(choque.al, 0), 0.25) * (1 - ramp(t, at(choque.al, 0) + 1.3, 0.3))} rotate={-8}>
+            {choque.texto}
+          </Grande>
+          <Rafaga t={t} t0={at(choque.al, 0)} x={m} y={H * 0.42} n={22} />
+        </>
+      )}
+    </>
+  );
+};
+
+// ═════════════════════════ 12 · MUNDO (la cámara sigue al personaje) ═════════════════════════
+/** Mundo continuo de habitaciones (imágenes de apoyo a toda altura): la cámara viaja de una a otra mientras
+ *  el personaje del reparto camina en el sitio. d.estaciones [{titulo, archivo, prompt, src}],
+ *  d.paradas [{al, i}] (llega a la estación i en al), d.rotulos [{al, texto, hora}], d.viaje (s, 1,1). */
+const Mundo: React.FC<EscenaProps> = ({d, t, t0}) => {
+  const z = useZona(d);
+  const b = useBoil();
+  const es: any[] = d.estaciones ?? [];
+  const ps: any[] = d.paradas ?? [];
+  const W = z.VW * 0.9;
+  const H = z.VH - 30;
+  const v = d.viaje ?? 1.1;
+  let cam = ps[0]?.i ?? 0;
+  ps.forEach((p, k) => {
+    if (k === 0) return;
+    const pr = ramp(t, at(p.al, 1e9) - v, v, easeInOut);
+    if (pr > 0) cam = lerp(ps[k - 1].i, p.i, pr);
+  });
+  const off = z.VW / 2 - W / 2 - cam * (W + 40);
+  const rs: any[] = d.rotulos ?? [];
+  const kr = actualDe(rs.map((r) => at(r.al, 1e9)), t);
+  return (
+    <>
+      <div style={{position: 'absolute', left: 0, top: 0, width: z.VW, height: z.VH, background: '#FFF7E0'}} />
+      {es.map((e, i) => {
+        const x = off + i * (W + 40);
+        if (x > z.VW + 50 || x + W < -50) return null;
+        return (
+          <React.Fragment key={i}>
+            <div style={{position: 'absolute', left: x, top: 0, width: W, height: H, overflow: 'hidden', background: C.paper}}>
+              {e.src && <Img src={staticFile(e.src)} style={{width: '100%', height: '100%', objectFit: 'cover'}} />}
+            </div>
+            <Svg>
+              <path d={wobRect(x, -10, W, H + 10, `mw${i}${b}`, 2.5, 6)} fill="none" stroke={C.ink} strokeWidth={12} />
+            </Svg>
+            <Caja x={x + W / 2} y={60} seed={`mt${i}`} bg={C.yellow} rotate={-2} style={{padding: '4px 26px', fontSize: 50}}>
+              {e.titulo}
+            </Caja>
+          </React.Fragment>
+        );
+      })}
+      <div style={{position: 'absolute', left: 0, top: H, width: z.VW, height: 30, background: '#B5651D', borderTop: `8px solid ${C.ink}`}} />
+      {kr >= 0 && (
+        <>
+          {rs[kr].hora && (
+            <Caja x={40} y={70} seed={`mh${kr}`} bg={C.ink} scale={1 + 0.2 * decay(t, at(rs[kr].al, 0), 6)} style={{padding: '4px 22px', fontSize: 52, color: C.paper, translate: '0 -50%', transformOrigin: '0% 50%'}}>
+              {rs[kr].hora}
+            </Caja>
+          )}
+          <Caja x={z.VW / 2 + 240} y={250} seed={`mr${kr}`} bg={C.paper} scale={pop(t, at(rs[kr].al, 0), 0.35)} rotate={jit(`mr${kr}`, 3)} style={{padding: '8px 24px', fontSize: 50, maxWidth: 860, whiteSpace: 'normal', textAlign: 'center', lineHeight: 1.08}}>
+            {rs[kr].texto}
+          </Caja>
+        </>
+      )}
+    </>
+  );
+};
+
 // ═════════════════════════ registro y SFX ═════════════════════════
 export const FORMATOS: Record<string, DefEscena> = {
   capas: {
@@ -894,6 +1164,42 @@ export const FORMATOS: Record<string, DefEscena> = {
         return [['whoosh_suave', th - 0.3, 0.6], ['pop', th, 1], ['pagina', th + 0.15, 0.5]];
       }),
     ],
+  },
+  juicio: {
+    descripcion: 'Juicio: balanza de la justicia; cada prueba cae en el platillo de la acusación o de la defensa; marcador y veredicto con sello y mazo',
+    render: Juicio,
+    sfx: (d, t0) => {
+      const c: Cue[] = [['mazo', t0 + 0.1, 0.9], ['gente', t0 + 0.2, 0.4]];
+      (d.pruebas ?? []).forEach((p: any, i: number) => {
+        const tp = at(p.al, t0 + 0.6 + i * 1.2);
+        c.push(['whoosh', tp - 0.4, 0.6], ['golpe_seco', tp, 0.9], ['tick', tp + 0.2, 0.5]);
+      });
+      if (typeof d.veredicto_al === 'number') c.push(['tension', d.veredicto_al - 1.5, 0.6], ['mazo', d.veredicto_al, 1.2], ['sello', d.veredicto_al + 0.05, 1], ['gente', d.veredicto_al + 0.2, 0.7]);
+      return c;
+    },
+  },
+  partida: {
+    descripcion: 'Pantalla partida: dos bandos a la misma hora, reloj común, eventos por lado y choques que saltan la frontera',
+    render: Partida,
+    sfx: (d, t0) => [
+      ['whoosh', t0, 0.7],
+      ...(d.horas ?? []).map((h: any): Cue => ['reloj', at(h.al, t0), 0.6]),
+      ...(d.eventos ?? []).map((e: any): Cue => [e.lado === 'der' ? 'pop2' : 'pop', at(e.al, t0), 0.9]),
+      ...(d.choques ?? []).flatMap((c: any): Cue[] => [['golpe', at(c.al, t0), 1], ['boom', at(c.al, t0), 0.7], ['zap', at(c.al, t0) + 0.05, 0.6]]),
+    ],
+  },
+  mundo: {
+    descripcion: 'Mundo continuo: la cámara viaja por habitaciones (imágenes de apoyo) mientras el personaje camina; rótulos con hora',
+    render: Mundo,
+    sfx: (d, t0) => [
+      ...(d.paradas ?? []).slice(1).flatMap((p: any): Cue[] => [['whoosh_suave', at(p.al, t0) - (d.viaje ?? 1.1), 0.7], ['pasos', at(p.al, t0) - (d.viaje ?? 1.1), 0.6], ['pop2', at(p.al, t0), 0.6]]),
+      ...(d.rotulos ?? []).map((r: any): Cue => ['pop', at(r.al, t0), 0.9]),
+    ],
+  },
+  imagen: {
+    descripcion: 'Imagen generada de apoyo (estilo rotulador): enmarcada como foto con celo (marco) o de fondo; con pie opcional',
+    render: Imagen,
+    sfx: (d, t0) => [[d.modo === 'fondo' ? 'whoosh_suave' : 'pop', at(d.al, t0), 0.8], ...(d.pie ? ([['pop2', at(d.pie_al, at(d.al, t0) + 0.35), 0.6]] as Cue[]) : [])],
   },
   experimento: {
     descripcion: 'Experimento o simulación: deslizadores que cambian en cada paso y un resultado (medidor o antenas que triangulan)',

@@ -1,0 +1,448 @@
+{
+ "reparto": {
+  "mono": {
+   "tipo": "protagonista",
+   "narrador": true
+  },
+  "hacker": {
+   "tipo": "ciberdelincuente"
+  },
+  "prima": {
+   "tipo": "mona"
+  }
+ },
+ "tramos": [
+  {
+   "en": "",
+   "color": "rojo",
+   "escenas": [
+    {
+     "tipo": "texto",
+     "tam": 88,
+     "palabras": [
+      {
+       "texto": "NO DES",
+       "al": "@-0.5",
+       "color": "amarillo"
+      },
+      {
+       "texto": "ESTE CÓDIGO",
+       "al": "@-0.4",
+       "caja": true,
+       "color": "rojo"
+      }
+     ],
+     "zona": "arriba",
+     "caja": {
+      "y": 150
+     },
+     "por_fila": 14
+    },
+    {
+     "tipo": "pantalla",
+     "dispositivo": "movil",
+     "titulo": "SMS",
+     "color": "azul",
+     "aparece": "@-0.6",
+     "lineas": [
+      {
+       "texto": "Código de WhatsApp: 482 913",
+       "al": "@-0.5",
+       "color": "azul"
+      }
+     ],
+     "caja": {
+      "y": 720
+     }
+    }
+   ],
+   "personajes": {
+    "mono": {
+     "x": 0.25,
+     "escala": 0.95,
+     "pose": "miedo",
+     "cara": "sorpresa",
+     "objeto": "movil",
+     "entrada": "nada",
+     "cambios": [
+      {
+       "al": "@+1.1",
+       "pose": "jarras",
+       "cara": "sorpresa"
+      },
+      {
+       "al": "@+3.3",
+       "pose": "brazos_cruzados",
+       "cara": "guiño"
+      }
+     ]
+    }
+   },
+   "sfx": [
+    [
+     "golpe",
+     0.02,
+     1.0
+    ],
+    [
+     "boom",
+     0.04,
+     0.7
+    ],
+    [
+     "notif",
+     0.3,
+     0.8
+    ]
+   ],
+   "golpes": [
+    0.05
+   ]
+  },
+  {
+   "en": "Minuto cero",
+   "color": "azul",
+   "escenas": [
+    {
+     "tipo": "reloj",
+     "escenario": "SIMULACIÓN DE ATAQUE",
+     "rotulo": "MINUTO 0",
+     "subtitulo": "El anzuelo",
+     "desde": 1170,
+     "hasta": 1170,
+     "al": "@inicio",
+     "caos": 10,
+     "medidor": "PELIGRO",
+     "dur": 0.8
+    }
+   ],
+   "personajes": {
+    "prima": {
+     "x": 0.76,
+     "escala": 0.95,
+     "mira": "izq",
+     "pose": "saludar",
+     "cara": "risa",
+     "objeto": "movil",
+     "entra": "@prima",
+     "entrada": "der"
+    },
+    "mono": {
+     "pose": "presentar",
+     "cara": "risa",
+     "cambios": [
+      {
+       "al": "@+1.1",
+       "pose": "señalar_arriba",
+       "cara": "guiño"
+      },
+      {
+       "al": "@+3.3",
+       "pose": "saludar",
+       "cara": "normal"
+      },
+      {
+       "al": "@+5.5",
+       "pose": "señalar",
+       "cara": "chulo"
+      }
+     ]
+    }
+   }
+  },
+  {
+   "en": "Pero no es tu prima",
+   "color": "morado",
+   "escenas": [
+    {
+     "tipo": "imagen",
+     "archivo": "guarida.png",
+     "prompt": "a dark messy desk at night with two smartphones and a laptop glowing, energy drink cans, hoodie on the chair",
+     "al": "@ladrón",
+     "modo": "marco",
+     "pie": "EL LADRÓN",
+     "caja": {
+      "y": 640
+     }
+    }
+   ],
+   "personajes": {
+    "prima": {
+     "pose": "encogerse",
+     "cara": "triste",
+     "salida": "der"
+    },
+    "hacker": {
+     "x": 0.76,
+     "escala": 0.95,
+     "mira": "izq",
+     "pose": "jarras",
+     "cara": "risa",
+     "objeto": "movil",
+     "entra": "@ladrón",
+     "entrada": "cae"
+    },
+    "mono": {
+     "pose": "pensar",
+     "cara": "sorpresa",
+     "cambios": [
+      {
+       "al": "@+1.1",
+       "pose": "brazos_cruzados",
+       "cara": "normal"
+      },
+      {
+       "al": "@+3.3",
+       "pose": "presentar",
+       "cara": "chulo"
+      }
+     ]
+    }
+   }
+  },
+  {
+   "en": "Minuto uno",
+   "color": "naranja",
+   "escenas": [
+    {
+     "tipo": "reloj",
+     "escenario": "SIMULACIÓN DE ATAQUE",
+     "rotulo": "MINUTO 1",
+     "subtitulo": "Instalan tu cuenta",
+     "desde": 1170,
+     "hasta": 1171,
+     "al": "@inicio",
+     "caos": 30,
+     "medidor": "PELIGRO",
+     "dur": 0.8
+    }
+   ],
+   "personajes": {
+    "hacker": {
+     "pose": "presentar",
+     "cara": "chulo"
+    },
+    "mono": {
+     "pose": "jarras",
+     "cara": "guiño",
+     "cambios": [
+      {
+       "al": "@+1.1",
+       "pose": "saludar",
+       "cara": "chulo"
+      },
+      {
+       "al": "@+3.3",
+       "pose": "señalar",
+       "cara": "risa"
+      }
+     ]
+    }
+   }
+  },
+  {
+   "en": "Minuto tres",
+   "color": "rojo",
+   "escenas": [
+    {
+     "tipo": "reloj",
+     "escenario": "SIMULACIÓN DE ATAQUE",
+     "rotulo": "MINUTO 3",
+     "subtitulo": "Te quedas fuera",
+     "desde": 1171,
+     "hasta": 1173,
+     "al": "@inicio",
+     "caos": 60,
+     "medidor": "PELIGRO",
+     "dur": 0.8
+    }
+   ],
+   "personajes": {
+    "hacker": {
+     "pose": "celebrar",
+     "cara": "risa"
+    },
+    "mono": {
+     "pose": "miedo",
+     "cara": "miedo",
+     "cambios": [
+      {
+       "al": "@+1.1",
+       "pose": "presentar",
+       "cara": "risa"
+      },
+      {
+       "al": "@+3.3",
+       "pose": "señalar",
+       "cara": "normal"
+      }
+     ]
+    }
+   },
+   "golpes": [
+    "@fuera"
+   ]
+  },
+  {
+   "en": "Minuto cuatro",
+   "color": "morado",
+   "escenas": [
+    {
+     "tipo": "reloj",
+     "escenario": "SIMULACIÓN DE ATAQUE",
+     "rotulo": "MINUTO 4",
+     "subtitulo": "Un PIN que no sabes",
+     "desde": 1173,
+     "hasta": 1174,
+     "al": "@inicio",
+     "caos": 75,
+     "medidor": "PELIGRO",
+     "dur": 0.8
+    }
+   ],
+   "personajes": {
+    "hacker": {
+     "pose": "brazos_cruzados",
+     "cara": "chulo"
+    },
+    "mono": {
+     "pose": "brazos_cruzados",
+     "cara": "chulo",
+     "cambios": [
+      {
+       "al": "@+1.1",
+       "pose": "señalar",
+       "cara": "normal"
+      }
+     ]
+    }
+   }
+  },
+  {
+   "en": "Minuto cinco",
+   "color": "naranja",
+   "escenas": [
+    {
+     "tipo": "chat",
+     "mensajes": [
+      {
+       "texto": "«Tú»: ¿me haces un Bizum?",
+       "al": "@contactos"
+      }
+     ],
+     "caja": {
+      "y": 640
+     }
+    }
+   ],
+   "personajes": {
+    "hacker": {
+     "pose": "saludar",
+     "cara": "risa",
+     "salida": "der"
+    },
+    "mono": {
+     "pose": "saludar",
+     "cara": "risa",
+     "cambios": [
+      {
+       "al": "@+1.1",
+       "pose": "señalar",
+       "cara": "risa"
+      },
+      {
+       "al": "@+3.3",
+       "pose": "pensar",
+       "cara": "sorpresa"
+      }
+     ]
+    }
+   }
+  },
+  {
+   "en": "¿La solución?",
+   "color": "verde",
+   "escenas": [
+    {
+     "tipo": "pantalla",
+     "dispositivo": "movil",
+     "titulo": "AJUSTES · CUENTA",
+     "color": "verde",
+     "lineas": [
+      {
+       "texto": "Verificación en dos pasos",
+       "al": "@verificación",
+       "color": "verde"
+      }
+     ],
+     "caja": {
+      "y": 600
+     }
+    }
+   ],
+   "personajes": {
+    "mono": {
+     "pose": "señalar_arriba",
+     "cara": "risa",
+     "cambios": [
+      {
+       "al": "@+1.1",
+       "pose": "presentar",
+       "cara": "sorpresa"
+      },
+      {
+       "al": "@+3.3",
+       "pose": "jarras",
+       "cara": "guiño"
+      }
+     ]
+    }
+   }
+  },
+  {
+   "en": "Y un código que te llega",
+   "color": "amarillo",
+   "escenas": [
+    {
+     "tipo": "sello",
+     "texto": "NI A TU PRIMA",
+     "al": "@prima",
+     "color": "rojo",
+     "tam": 110,
+     "caja": {
+      "y": 620
+     }
+    }
+   ],
+   "personajes": {
+    "prima": {
+     "x": 0.76,
+     "escala": 0.95,
+     "mira": "izq",
+     "pose": "saludar",
+     "cara": "guiño",
+     "entra": "@nadie",
+     "entrada": "der"
+    },
+    "mono": {
+     "pose": "brazos_cruzados",
+     "cara": "chulo",
+     "cambios": [
+      {
+       "al": "@+1.1",
+       "pose": "pensar",
+       "cara": "guiño"
+      },
+      {
+       "al": "@+3.3",
+       "pose": "señalar_arriba",
+       "cara": "normal"
+      }
+     ]
+    }
+   }
+  }
+ ],
+ "cola": 0.9,
+ "formato": "9:16"
+}

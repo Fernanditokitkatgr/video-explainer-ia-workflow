@@ -1,0 +1,642 @@
+[
+{
+"text": "Les",
+"start": 0.0,
+"end": 0.32
+},
+{
+"text": "pagan",
+"start": 0.32,
+"end": 0.62
+},
+{
+"text": "por",
+"start": 0.62,
+"end": 0.92
+},
+{
+"text": "hackear",
+"start": 0.92,
+"end": 1.34
+},
+{
+"text": "su",
+"start": 1.34,
+"end": 1.54
+},
+{
+"text": "propia",
+"start": 1.54,
+"end": 1.92
+},
+{
+"text": "empresa.",
+"start": 1.92,
+"end": 2.4
+},
+{
+"text": "Y",
+"start": 2.4,
+"end": 3.12
+},
+{
+"text": "a",
+"start": 3.12,
+"end": 3.22
+},
+{
+"text": "otros,",
+"start": 3.22,
+"end": 3.44
+},
+{
+"text": "por",
+"start": 3.88,
+"end": 4.08
+},
+{
+"text": "impedirlo.",
+"start": 4.08,
+"end": 4.86
+},
+{
+"text": "Nueve",
+"start": 4.86,
+"end": 5.34
+},
+{
+"text": "de",
+"start": 5.34,
+"end": 5.54
+},
+{
+"text": "la",
+"start": 5.54,
+"end": 5.64
+},
+{
+"text": "mañana.",
+"start": 5.64,
+"end": 5.9
+},
+{
+"text": "El",
+"start": 5.9,
+"end": 6.46
+},
+{
+"text": "Red",
+"start": 6.46,
+"end": 6.6
+},
+{
+"text": "Team",
+"start": 6.6,
+"end": 6.82
+},
+{
+"text": "tiene",
+"start": 6.82,
+"end": 7.1
+},
+{
+"text": "permiso",
+"start": 7.1,
+"end": 7.48
+},
+{
+"text": "para",
+"start": 7.48,
+"end": 7.68
+},
+{
+"text": "colarse.",
+"start": 7.68,
+"end": 8.1
+},
+{
+"text": "El",
+"start": 8.1,
+"end": 8.6
+},
+{
+"text": "Blue",
+"start": 8.6,
+"end": 8.76
+},
+{
+"text": "Team",
+"start": 8.76,
+"end": 8.94
+},
+{
+"text": "no",
+"start": 8.94,
+"end": 9.12
+},
+{
+"text": "sabe",
+"start": 9.12,
+"end": 9.3
+},
+{
+"text": "cuándo,",
+"start": 9.3,
+"end": 9.68
+},
+{
+"text": "y",
+"start": 9.68,
+"end": 10.06
+},
+{
+"text": "vigila",
+"start": 10.06,
+"end": 10.38
+},
+{
+"text": "las",
+"start": 10.38,
+"end": 10.58
+},
+{
+"text": "alarmas.",
+"start": 10.58,
+"end": 10.94
+},
+{
+"text": "Once.",
+"start": 10.94,
+"end": 11.64
+},
+{
+"text": "El",
+"start": 11.64,
+"end": 12.24
+},
+{
+"text": "rojo",
+"start": 12.24,
+"end": 12.56
+},
+{
+"text": "manda",
+"start": 12.56,
+"end": 12.86
+},
+{
+"text": "un",
+"start": 12.86,
+"end": 12.96
+},
+{
+"text": "correo",
+"start": 12.96,
+"end": 13.26
+},
+{
+"text": "trampa",
+"start": 13.26,
+"end": 13.54
+},
+{
+"text": "a",
+"start": 13.54,
+"end": 13.66
+},
+{
+"text": "contabilidad.",
+"start": 13.66,
+"end": 14.28
+},
+{
+"text": "Una",
+"start": 14.28,
+"end": 14.78
+},
+{
+"text": "de",
+"start": 14.78,
+"end": 14.9
+},
+{
+"text": "la",
+"start": 14.9,
+"end": 14.98
+},
+{
+"text": "tarde.",
+"start": 14.98,
+"end": 15.28
+},
+{
+"text": "Alguien",
+"start": 15.28,
+"end": 15.94
+},
+{
+"text": "pica,",
+"start": 15.94,
+"end": 16.28
+},
+{
+"text": "y",
+"start": 16.28,
+"end": 16.66
+},
+{
+"text": "el",
+"start": 16.66,
+"end": 16.8
+},
+{
+"text": "rojo",
+"start": 16.8,
+"end": 17.1
+},
+{
+"text": "entra.",
+"start": 17.1,
+"end": 17.38
+},
+{
+"text": "Cuatro.",
+"start": 17.38,
+"end": 18.08
+},
+{
+"text": "El",
+"start": 18.08,
+"end": 18.62
+},
+{
+"text": "azul",
+"start": 18.62,
+"end": 18.82
+},
+{
+"text": "lo",
+"start": 18.82,
+"end": 19.0
+},
+{
+"text": "caza",
+"start": 19.0,
+"end": 19.22
+},
+{
+"text": "en",
+"start": 19.22,
+"end": 19.38
+},
+{
+"text": "un",
+"start": 19.38,
+"end": 19.48
+},
+{
+"text": "servidor,",
+"start": 19.48,
+"end": 19.9
+},
+{
+"text": "y",
+"start": 19.9,
+"end": 20.26
+},
+{
+"text": "le",
+"start": 20.26,
+"end": 20.34
+},
+{
+"text": "corta",
+"start": 20.34,
+"end": 20.66
+},
+{
+"text": "el",
+"start": 20.66,
+"end": 20.74
+},
+{
+"text": "paso.",
+"start": 20.74,
+"end": 20.9
+},
+{
+"text": "Seis.",
+"start": 20.9,
+"end": 21.58
+},
+{
+"text": "Café",
+"start": 21.58,
+"end": 22.26
+},
+{
+"text": "juntos,",
+"start": 22.26,
+"end": 22.6
+},
+{
+"text": "y",
+"start": 22.6,
+"end": 23.04
+},
+{
+"text": "el",
+"start": 23.04,
+"end": 23.14
+},
+{
+"text": "rojo",
+"start": 23.14,
+"end": 23.44
+},
+{
+"text": "le",
+"start": 23.44,
+"end": 23.58
+},
+{
+"text": "cuenta",
+"start": 23.58,
+"end": 23.78
+},
+{
+"text": "por",
+"start": 23.78,
+"end": 24.0
+},
+{
+"text": "dónde",
+"start": 24.0,
+"end": 24.16
+},
+{
+"text": "entró.",
+"start": 24.16,
+"end": 24.56
+},
+{
+"text": "¿Cuánto",
+"start": 24.56,
+"end": 25.16
+},
+{
+"text": "cobran?",
+"start": 25.16,
+"end": 25.54
+},
+{
+"text": "En",
+"start": 25.84,
+"end": 25.94
+},
+{
+"text": "España,",
+"start": 25.94,
+"end": 26.24
+},
+{
+"text": "un",
+"start": 26.24,
+"end": 26.54
+},
+{
+"text": "junior",
+"start": 26.54,
+"end": 26.82
+},
+{
+"text": "ronda",
+"start": 26.82,
+"end": 27.12
+},
+{
+"text": "los",
+"start": 27.12,
+"end": 27.3
+},
+{
+"text": "treinta",
+"start": 27.3,
+"end": 27.664
+},
+{
+"text": "mil",
+"start": 27.664,
+"end": 27.82
+},
+{
+"text": "euros",
+"start": 27.82,
+"end": 28.06
+},
+{
+"text": "al",
+"start": 28.06,
+"end": 28.24
+},
+{
+"text": "año.",
+"start": 28.24,
+"end": 28.48
+},
+{
+"text": "Un",
+"start": 28.48,
+"end": 28.96
+},
+{
+"text": "senior",
+"start": 28.96,
+"end": 29.28
+},
+{
+"text": "de",
+"start": 29.28,
+"end": 29.46
+},
+{
+"text": "Red",
+"start": 29.46,
+"end": 29.58
+},
+{
+"text": "Team",
+"start": 29.58,
+"end": 29.8
+},
+{
+"text": "puede",
+"start": 29.8,
+"end": 30.08
+},
+{
+"text": "pasar",
+"start": 30.08,
+"end": 30.36
+},
+{
+"text": "de",
+"start": 30.36,
+"end": 30.52
+},
+{
+"text": "setenta",
+"start": 30.52,
+"end": 30.94
+},
+{
+"text": "mil.",
+"start": 30.94,
+"end": 31.12
+},
+{
+"text": "¿Lo",
+"start": 31.12,
+"end": 31.52
+},
+{
+"text": "más",
+"start": 31.52,
+"end": 31.76
+},
+{
+"text": "loco?",
+"start": 31.76,
+"end": 32.16
+},
+{
+"text": "En",
+"start": 32.16,
+"end": 32.52
+},
+{
+"text": "dos",
+"start": 32.52,
+"end": 32.64
+},
+{
+"text": "mil",
+"start": 32.64,
+"end": 32.76
+},
+{
+"text": "diecinueve,",
+"start": 32.76,
+"end": 33.16
+},
+{
+"text": "dos",
+"start": 33.52,
+"end": 33.64
+},
+{
+"text": "de",
+"start": 33.64,
+"end": 33.78
+},
+{
+"text": "ellos",
+"start": 33.78,
+"end": 33.98
+},
+{
+"text": "entraron",
+"start": 33.98,
+"end": 34.44
+},
+{
+"text": "de",
+"start": 34.44,
+"end": 34.58
+},
+{
+"text": "noche",
+"start": 34.58,
+"end": 34.76
+},
+{
+"text": "en",
+"start": 34.76,
+"end": 34.9
+},
+{
+"text": "un",
+"start": 34.9,
+"end": 34.98
+},
+{
+"text": "juzgado",
+"start": 34.98,
+"end": 35.28
+},
+{
+"text": "de",
+"start": 35.28,
+"end": 35.54
+},
+{
+"text": "Iowa,",
+"start": 35.54,
+"end": 35.94
+},
+{
+"text": "con",
+"start": 35.94,
+"end": 36.2
+},
+{
+"text": "autorización.",
+"start": 36.2,
+"end": 36.92
+},
+{
+"text": "Y",
+"start": 36.92,
+"end": 37.38
+},
+{
+"text": "acabaron",
+"start": 37.38,
+"end": 37.8
+},
+{
+"text": "detenidos.",
+"start": 37.8,
+"end": 38.4
+},
+{
+"text": "Los",
+"start": 38.4,
+"end": 38.82
+},
+{
+"text": "cargos",
+"start": 38.82,
+"end": 39.18
+},
+{
+"text": "se",
+"start": 39.18,
+"end": 39.34
+},
+{
+"text": "retiraron",
+"start": 39.34,
+"end": 39.8
+},
+{
+"text": "meses",
+"start": 39.8,
+"end": 40.08
+},
+{
+"text": "después.",
+"start": 40.08,
+"end": 40.5
+}
+]

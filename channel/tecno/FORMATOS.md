@@ -27,9 +27,11 @@ con el motor (`remotion/src/motor`) y un `plano.json`; las escenas nuevas están
 | 6 | **Ranking / tier list** | `tier_list` (o `lista` para top N) | Fichas que vuelan a su fila S/A/B/C/D | «ORDENO LAS 5 … DE PEOR A MEJOR» | final de `como-sabe-google-donde-estas` |
 | 7 | **Línea del tiempo / antes vs ahora** | `linea_tiempo` (o `comparativa`) | La línea se desplaza para centrar cada hito | «EN 2009 … HOY …» | cortes reales en `que-pasaria-si-se-apagara-internet` |
 | 8 | **Te lo demuestro (experimento)** | `experimento` | Mandos que se mueven y un resultado que responde (medidor, o antenas que triangulan) | «TE LO DEMUESTRO EN 60 SEGUNDOS» | triangulación en `como-sabe-google-donde-estas` |
-| 9 | **Simulación de ataque en tiempo real** | `pantalla` + `chat` + `reloj` + reparto (`ciberdelincuente` contra `currito`) | El ciberdelincuente ataca paso a paso; el reloj marca el minuto del ataque; termina con el sello y el consejo | «EN 4 MINUTOS TE ROBAN …» | pendiente (p. ej. cómo te roban la cuenta de WhatsApp) |
-| 10 | **Abuelo pregunta, mono explica** | `chat` + `pregunta` + reparto (`abuelo` y `mono`) | Cada bloque abre con la duda del abuelo en bocadillo y el mono responde con una escena | «¿Y ESTO ME LO PUEDEN HACER A MÍ?» | pendiente (timos con IA a abuelos) |
-| 11 | **Juicio** | `sello` + `comparativa` + reparto (`ia` acusada, `policia`, `abuelo` de juez con `mazo`) | Acusación → pruebas → defensa → veredicto con sello | «LA IA, ACUSADA DE …» | pendiente (¿la IA te va a quitar el curro?) |
+| 9 | **Simulación de ataque en tiempo real** | `pantalla` + `chat` + `reloj` + reparto (`ciberdelincuente` contra `currito`) | El ciberdelincuente ataca paso a paso; el reloj marca el minuto del ataque; termina con el sello y el consejo | «¿TE PIDEN UN CÓDIGO?» / «NO DES ESTE CÓDIGO» | `asi-te-roban-el-whatsapp-en-5-minutos`, `short-no-des-el-codigo-de-whatsapp` |
+| 10 | **Abuelo pregunta, mono explica** | `chat` + `pregunta` + reparto (`abuelo` y `mono`) | Cada bloque abre con la duda del abuelo en bocadillo y el mono responde con una escena | «¿TE COBRAN POR LA CALLE?» | `short-te-pueden-cobrar-por-la-calle` (el largo `es-seguro-pagar-con-el-movil` tiene voz y plano, sin producir) |
+| 11 | **Juicio** | `juicio` (balanza) + `sello` + reparto (`ia` acusada, `policia` de fiscal, `rico` de abogado, `abuelo` de juez) | Acusación → pruebas → defensa → veredicto con sello | «LA IA, ACUSADA DE QUITARTE EL CURRO» | pendiente: `la-ia-te-va-a-quitar-el-trabajo` tiene voz, guion y plano, sin imágenes ni render |
+
+| 12 | **El día a día de… (prueba, sin elegir)** | `reloj` continuo (A), `partida` (B) o `mundo` (C) | Un mismo tramo contado de tres maneras: reloj de 9:00 a 18:00, dos bandos en paralelo, o cámara que sigue al mono por el edificio | «9:00: …» | `channel/tecno/pruebas/dia_a_dia/variante_A.mp4`, `_B`, `_C` |
 
 ## Personajes (hoja: `channel/tecno/pruebas/motor/personajes_v3.mp4`)
 

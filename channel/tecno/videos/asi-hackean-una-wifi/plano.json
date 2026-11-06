@@ -1,0 +1,1894 @@
+{
+ "reparto": {
+  "mono": {
+   "tipo": "protagonista",
+   "narrador": true
+  },
+  "vecino": {
+   "tipo": "gato"
+  },
+  "hacker": {
+   "tipo": "ciberdelincuente"
+  },
+  "cienti": {
+   "tipo": "cientifica"
+  },
+  "currito": {
+   "tipo": "currito"
+  },
+  "nino": {
+   "tipo": "nino"
+  }
+ },
+ "tramos": [
+  {
+   "en": "",
+   "color": "azul",
+   "capitulo": "Tu vecino en tu WiFi",
+   "escenas": [
+    {
+     "tipo": "imagen",
+     "archivo": "vecinos.png",
+     "prompt": "an apartment building at night seen from the street, many lit windows, wifi signal waves drawn between balconies",
+     "al": "@inicio",
+     "modo": "fondo",
+     "velo": 0.3
+    },
+    {
+     "tipo": "texto",
+     "tam": 88,
+     "palabras": [
+      {
+       "texto": "TU VECINO",
+       "al": "@-0.5",
+       "color": "amarillo"
+      },
+      {
+       "texto": "USA TU WIFI",
+       "al": "@-0.4",
+       "caja": true,
+       "color": "rojo"
+      }
+     ],
+     "zona": "arriba",
+     "caja": {
+      "y": 110
+     },
+     "por_fila": 30
+    }
+   ],
+   "personajes": {
+    "vecino": {
+     "x": 0.9,
+     "escala": 0.8,
+     "mira": "izq",
+     "pose": "sentado",
+     "cara": "risa",
+     "objeto": "movil",
+     "entrada": "nada"
+    },
+    "mono": {
+     "x": 0.1,
+     "escala": 0.8,
+     "pose": "jarras",
+     "cara": "enfado",
+     "entrada": "nada",
+     "cambios": [
+      {
+       "al": "@+1.1",
+       "pose": "jarras",
+       "cara": "sorpresa"
+      }
+     ]
+    }
+   },
+   "sfx": [
+    [
+     "golpe",
+     0.02,
+     1.0
+    ],
+    [
+     "boom",
+     0.04,
+     0.7
+    ]
+   ],
+   "golpes": [
+    0.05
+   ]
+  },
+  {
+   "en": "¿Cómo ha entrado?",
+   "color": "morado",
+   "escenas": [
+    {
+     "tipo": "pregunta",
+     "pregunta": "¿Cómo ha entrado?",
+     "al": "@entrado"
+    }
+   ],
+   "personajes": {
+    "vecino": {
+     "pose": "sentado",
+     "cara": "chulo"
+    },
+    "mono": {
+     "pose": "presentar",
+     "cara": "risa",
+     "cambios": [
+      {
+       "al": "@+1.1",
+       "pose": "señalar_arriba",
+       "cara": "guiño"
+      }
+     ]
+    }
+   }
+  },
+  {
+   "en": "Casi nunca hace falta",
+   "escenas": [
+    {
+     "tipo": "sello",
+     "texto": "UN DESCUIDO",
+     "al": "@descuido",
+     "color": "rojo",
+     "tam": 130
+    }
+   ],
+   "personajes": {
+    "vecino": {
+     "pose": "encogerse",
+     "cara": "guiño",
+     "salida": "der"
+    },
+    "mono": {
+     "pose": "pensar",
+     "cara": "sorpresa",
+     "cambios": [
+      {
+       "al": "@+1.1",
+       "pose": "brazos_cruzados",
+       "cara": "normal"
+      }
+     ]
+    }
+   }
+  },
+  {
+   "en": "Estas son las ocho formas",
+   "color": "amarillo",
+   "escenas": [
+    {
+     "tipo": "flujo",
+     "nodos": [
+      {
+       "texto": "LA MÁS FÁCIL",
+       "icono": "llave",
+       "al": "@fácil"
+      },
+      {
+       "texto": "LA MÁS DIFÍCIL",
+       "icono": "escudo",
+       "al": "@difícil",
+       "color": "rojo"
+      },
+      {
+       "texto": "BLÍNDALA",
+       "icono": "candado",
+       "al": "@blindar",
+       "color": "verde"
+      }
+     ]
+    }
+   ],
+   "personajes": {
+    "mono": {
+     "pose": "presentar",
+     "cara": "risa",
+     "cambios": [
+      {
+       "al": "@+1.1",
+       "pose": "saludar",
+       "cara": "chulo"
+      }
+     ]
+    }
+   }
+  },
+  {
+   "en": "Número uno",
+   "capitulo": "1. La clave de fábrica",
+   "escenas": [
+    {
+     "tipo": "lista",
+     "n": 1,
+     "total": 8,
+     "titulo": "LA CLAVE DE FÁBRICA",
+     "apodo": "LA PEGATINA",
+     "color": "amarillo",
+     "titulo_al": "@clave",
+     "apodo_al": "@pegatina"
+    }
+   ],
+   "personajes": {
+    "mono": {
+     "salta": true,
+     "pose": "señalar_arriba",
+     "cara": "normal",
+     "cambios": [
+      {
+       "al": "@+1.1",
+       "pose": "presentar",
+       "cara": "risa"
+      }
+     ]
+    }
+   }
+  },
+  {
+   "en": "Muchos routers salen de fábrica",
+   "escenas": [
+    {
+     "tipo": "imagen",
+     "archivo": "router.png",
+     "prompt": "a home wifi router on a shelf with a blank white sticker on its side, cables behind",
+     "al": "@routers",
+     "modo": "marco",
+     "pie": "NADIE LA CAMBIA",
+     "pie_al": "@nunca"
+    }
+   ],
+   "personajes": {
+    "mono": {
+     "pose": "brazos_cruzados",
+     "cara": "chulo",
+     "cambios": [
+      {
+       "al": "@+1.1",
+       "pose": "señalar",
+       "cara": "normal"
+      }
+     ]
+    }
+   }
+  },
+  {
+   "en": "En dos mil once se publicó",
+   "escenas": [
+    {
+     "tipo": "flujo",
+     "titulo": "2011 · WLAN DE MOVISTAR Y JAZZTEL",
+     "nodos": [
+      {
+       "texto": "NOMBRE DE LA RED",
+       "icono": "wifi",
+       "al": "@nombre"
+      },
+      {
+       "texto": "DIRECCIÓN DEL APARATO",
+       "icono": "router",
+       "al": "@dirección"
+      },
+      {
+       "texto": "LA CLAVE",
+       "icono": "llave",
+       "al": "@aparato",
+       "color": "rojo"
+      }
+     ]
+    }
+   ],
+   "personajes": {
+    "mono": {
+     "pose": "saludar",
+     "cara": "risa",
+     "cambios": [
+      {
+       "al": "@+1.1",
+       "pose": "señalar",
+       "cara": "risa"
+      }
+     ]
+    }
+   }
+  },
+  {
+   "en": "Si tu clave es la de la pegatina",
+   "escenas": [
+    {
+     "tipo": "experimento",
+     "titulo": "DIFICULTAD · FORMA 1/8",
+     "controles": [
+      {
+       "nombre": "Dificultad",
+       "min": 0,
+       "max": 10,
+       "inicio": 0
+      }
+     ],
+     "resultado": {
+      "nombre": "Lo difícil que es",
+      "sufijo": "/10",
+      "min": 0,
+      "max": 10,
+      "inicio": 0
+     },
+     "pasos": [
+      {
+       "al": "@+0.4",
+       "valores": [
+        1
+       ],
+       "resultado": 1
+      }
+     ]
+    }
+   ],
+   "personajes": {
+    "vecino": {
+     "x": 0.9,
+     "escala": 0.8,
+     "mira": "izq",
+     "pose": "saludar",
+     "cara": "risa",
+     "objeto": "movil",
+     "entra": "@otro",
+     "entrada": "der"
+    },
+    "mono": {
+     "pose": "presentar",
+     "cara": "normal",
+     "cambios": [
+      {
+       "al": "@+1.1",
+       "pose": "presentar",
+       "cara": "sorpresa"
+      }
+     ]
+    }
+   }
+  },
+  {
+   "en": "Los routers nuevos traen",
+   "escenas": [
+    {
+     "tipo": "iconos",
+     "tam": 230,
+     "items": [
+      {
+       "icono": "router",
+       "texto": "CLAVES MÁS LARGAS",
+       "al": "@largas"
+      },
+      {
+       "icono": "llave",
+       "texto": "PERO NO LA ELEGISTE TÚ",
+       "al": "@tú"
+      }
+     ]
+    }
+   ],
+   "personajes": {
+    "vecino": {
+     "pose": "pensar",
+     "cara": "normal",
+     "salida": "der"
+    },
+    "mono": {
+     "pose": "señalar",
+     "cara": "risa",
+     "cambios": [
+      {
+       "al": "@+1.1",
+       "pose": "pensar",
+       "cara": "guiño"
+      }
+     ]
+    }
+   }
+  },
+  {
+   "en": "Número dos",
+   "color": "naranja",
+   "capitulo": "2. WEP",
+   "escenas": [
+    {
+     "tipo": "lista",
+     "n": 2,
+     "total": 8,
+     "titulo": "WEP",
+     "apodo": "EL CANDADO DE PAPEL",
+     "color": "naranja",
+     "titulo_al": "@WEP",
+     "apodo_al": "@papel"
+    }
+   ],
+   "personajes": {
+    "mono": {
+     "salta": true,
+     "pose": "señalar",
+     "cara": "sorpresa",
+     "cambios": [
+      {
+       "al": "@+1.1",
+       "pose": "jarras",
+       "cara": "normal"
+      }
+     ]
+    }
+   }
+  },
+  {
+   "en": "WEP fue el primer cifrado",
+   "escenas": [
+    {
+     "tipo": "linea_tiempo",
+     "titulo": "LOS CIFRADOS DE LA WIFI",
+     "hitos": [
+      {
+       "fecha": "1999",
+       "texto": "WEP",
+       "icono": "candado",
+       "al": "@WEP"
+      },
+      {
+       "fecha": "2007",
+       "texto": "Roto en menos de 1 minuto",
+       "icono": "reloj_arena",
+       "al": "@noventa+1.0"
+      }
+     ]
+    }
+   ],
+   "personajes": {
+    "mono": {
+     "pose": "presentar",
+     "cara": "guiño",
+     "cambios": [
+      {
+       "al": "@+1.1",
+       "pose": "señalar_arriba",
+       "cara": "chulo"
+      }
+     ]
+    }
+   }
+  },
+  {
+   "en": "En dos mil siete, unos investigadores",
+   "escenas": [
+    {
+     "tipo": "cifra",
+     "desde": 0,
+     "hasta": 60,
+     "al": "@minuto",
+     "prefijo": "< ",
+     "sufijo": " s",
+     "antes": "ROMPER WEP EN 2007",
+     "tam": 240,
+     "color": "rojo",
+     "dur": 0.6
+    }
+   ],
+   "personajes": {
+    "cienti": {
+     "x": 0.9,
+     "escala": 0.8,
+     "mira": "izq",
+     "pose": "presentar",
+     "cara": "sorpresa",
+     "entra": "@investigadores",
+     "entrada": "der"
+    },
+    "mono": {
+     "pose": "pensar",
+     "cara": "normal",
+     "cambios": [
+      {
+       "al": "@+1.1",
+       "pose": "brazos_cruzados",
+       "cara": "risa"
+      }
+     ]
+    }
+   }
+  },
+  {
+   "en": "Si tu router todavía ofrece",
+   "escenas": [
+    {
+     "tipo": "experimento",
+     "titulo": "DIFICULTAD · FORMA 2/8",
+     "controles": [
+      {
+       "nombre": "Dificultad",
+       "min": 0,
+       "max": 10,
+       "inicio": 0
+      }
+     ],
+     "resultado": {
+      "nombre": "Lo difícil que es",
+      "sufijo": "/10",
+      "min": 0,
+      "max": 10,
+      "inicio": 0
+     },
+     "pasos": [
+      {
+       "al": "@+0.4",
+       "valores": [
+        1
+       ],
+       "resultado": 1
+      }
+     ]
+    }
+   ],
+   "personajes": {
+    "cienti": {
+     "pose": "señalar",
+     "cara": "normal"
+    },
+    "mono": {
+     "pose": "jarras",
+     "cara": "chulo",
+     "cambios": [
+      {
+       "al": "@+1.1",
+       "pose": "saludar",
+       "cara": "normal"
+      }
+     ]
+    }
+   }
+  },
+  {
+   "en": "Hoy casi ningún router",
+   "escenas": [
+    {
+     "tipo": "imagen",
+     "archivo": "trastero.png",
+     "prompt": "an old dusty wifi router with antennas sitting on a box in a cluttered storage room, still with a small green light",
+     "al": "@viejo",
+     "modo": "marco",
+     "pie": "EL ROUTER DEL TRASTERO"
+    }
+   ],
+   "personajes": {
+    "cienti": {
+     "pose": "encogerse",
+     "cara": "sorpresa",
+     "salida": "der"
+    },
+    "mono": {
+     "pose": "señalar_arriba",
+     "cara": "risa",
+     "cambios": [
+      {
+       "al": "@+1.1",
+       "pose": "presentar",
+       "cara": "risa"
+      }
+     ]
+    }
+   }
+  },
+  {
+   "en": "Número tres",
+   "color": "verde",
+   "capitulo": "3. El botón WPS",
+   "escenas": [
+    {
+     "tipo": "lista",
+     "n": 3,
+     "total": 8,
+     "titulo": "EL BOTÓN WPS",
+     "apodo": "EL ATAJO",
+     "color": "verde",
+     "titulo_al": "@WPS",
+     "apodo_al": "@atajo"
+    }
+   ],
+   "personajes": {
+    "mono": {
+     "salta": true,
+     "pose": "brazos_cruzados",
+     "cara": "normal",
+     "cambios": [
+      {
+       "al": "@+1.1",
+       "pose": "señalar",
+       "cara": "sorpresa"
+      }
+     ]
+    }
+   }
+  },
+  {
+   "en": "Muchos routers tienen un botón",
+   "escenas": [
+    {
+     "tipo": "imagen",
+     "archivo": "wps.png",
+     "prompt": "close-up of the back of a wifi router with one big round push button glowing blue, cables",
+     "al": "@botón",
+     "modo": "marco",
+     "pie": "UN PIN DE 8 NÚMEROS",
+     "pie_al": "@ocho"
+    }
+   ],
+   "personajes": {
+    "mono": {
+     "pose": "saludar",
+     "cara": "risa",
+     "cambios": [
+      {
+       "al": "@+1.1",
+       "pose": "señalar",
+       "cara": "guiño"
+      }
+     ]
+    }
+   }
+  },
+  {
+   "en": "En dos mil once se descubrió",
+   "escenas": [
+    {
+     "tipo": "comparativa",
+     "a": {
+      "titulo": "LO QUE PARECÍA",
+      "icono": "candado",
+      "valor": "100 millones",
+      "al": "@millones",
+      "color": "verde"
+     },
+     "b": {
+      "titulo": "LO QUE ERA",
+      "icono": "llave",
+      "valor": "~11.000",
+      "al": "@once",
+      "color": "rojo"
+     },
+     "ganador": "b",
+     "ganador_al": "@once+0.6"
+    }
+   ],
+   "personajes": {
+    "mono": {
+     "pose": "presentar",
+     "cara": "sorpresa",
+     "cambios": [
+      {
+       "al": "@+1.1",
+       "pose": "presentar",
+       "cara": "normal"
+      }
+     ]
+    }
+   }
+  },
+  {
+   "en": "Un atajo para ti",
+   "escenas": [
+    {
+     "tipo": "experimento",
+     "titulo": "DIFICULTAD · FORMA 3/8",
+     "controles": [
+      {
+       "nombre": "Dificultad",
+       "min": 0,
+       "max": 10,
+       "inicio": 0
+      }
+     ],
+     "resultado": {
+      "nombre": "Lo difícil que es",
+      "sufijo": "/10",
+      "min": 0,
+      "max": 10,
+      "inicio": 0
+     },
+     "pasos": [
+      {
+       "al": "@+0.4",
+       "valores": [
+        3
+       ],
+       "resultado": 3
+      }
+     ]
+    }
+   ],
+   "personajes": {
+    "hacker": {
+     "x": 0.9,
+     "escala": 0.8,
+     "mira": "izq",
+     "pose": "jarras",
+     "cara": "risa",
+     "entra": "@fuera",
+     "entrada": "der"
+    },
+    "mono": {
+     "pose": "señalar",
+     "cara": "guiño",
+     "cambios": [
+      {
+       "al": "@+1.1",
+       "pose": "pensar",
+       "cara": "chulo"
+      }
+     ]
+    }
+   }
+  },
+  {
+   "en": "Muchos routers ya lo traen",
+   "color": "verde",
+   "escenas": [
+    {
+     "tipo": "iconos",
+     "tam": 230,
+     "items": [
+      {
+       "icono": "router",
+       "texto": "APAGADO DE FÁBRICA",
+       "al": "@apagado"
+      },
+      {
+       "icono": "candado",
+       "texto": "SE BLOQUEA",
+       "al": "@bloquean"
+      },
+      {
+       "icono": "ojo",
+       "texto": "MIRA EL TUYO",
+       "al": "@tuyo"
+      }
+     ]
+    }
+   ],
+   "personajes": {
+    "hacker": {
+     "pose": "encogerse",
+     "cara": "enfado",
+     "salida": "der"
+    },
+    "mono": {
+     "pose": "señalar",
+     "cara": "normal",
+     "cambios": [
+      {
+       "al": "@+1.1",
+       "pose": "jarras",
+       "cara": "risa"
+      }
+     ]
+    }
+   }
+  },
+  {
+   "en": "Número cuatro",
+   "color": "morado",
+   "capitulo": "4. La contraseña corta",
+   "escenas": [
+    {
+     "tipo": "lista",
+     "n": 4,
+     "total": 8,
+     "titulo": "LA CONTRASEÑA CORTA",
+     "apodo": "LA PRUEBA A LO BRUTO",
+     "color": "morado",
+     "titulo_al": "@contraseña"
+    }
+   ],
+   "personajes": {
+    "mono": {
+     "salta": true,
+     "pose": "presentar",
+     "cara": "chulo",
+     "cambios": [
+      {
+       "al": "@+1.1",
+       "pose": "señalar_arriba",
+       "cara": "normal"
+      }
+     ]
+    }
+   }
+  },
+  {
+   "en": "Si alguien graba el saludo",
+   "escenas": [
+    {
+     "tipo": "flujo",
+     "nodos": [
+      {
+       "texto": "GRABA EL SALUDO",
+       "icono": "micro",
+       "al": "@graba"
+      },
+      {
+       "texto": "PRUEBA EN SU CASA",
+       "icono": "ordenador",
+       "al": "@casa",
+       "color": "rojo"
+      }
+     ]
+    }
+   ],
+   "personajes": {
+    "hacker": {
+     "x": 0.9,
+     "escala": 0.8,
+     "mira": "izq",
+     "pose": "pensar",
+     "cara": "chulo",
+     "entra": "@alguien",
+     "entrada": "cae"
+    },
+    "mono": {
+     "pose": "pensar",
+     "cara": "risa",
+     "cambios": [
+      {
+       "al": "@+1.1",
+       "pose": "brazos_cruzados",
+       "cara": "risa"
+      }
+     ]
+    }
+   }
+  },
+  {
+   "en": "Un ordenador potente prueba",
+   "escenas": [
+    {
+     "tipo": "experimento",
+     "titulo": "LA LONGITUD MANDA (IDEA)",
+     "controles": [
+      {
+       "nombre": "Letras",
+       "min": 0,
+       "max": 30,
+       "inicio": 6
+      }
+     ],
+     "resultado": {
+      "nombre": "Aguante",
+      "min": 0,
+      "max": 100,
+      "inicio": 2,
+      "sufijo": " %"
+     },
+     "pasos": [
+      {
+       "al": "@millones",
+       "valores": [
+        6
+       ],
+       "resultado": 2,
+       "texto": "Corta: cae enseguida"
+      },
+      {
+       "al": "@diccionario",
+       "valores": [
+        8
+       ],
+       "resultado": 8,
+       "texto": "Palabra de diccionario: también"
+      }
+     ]
+    }
+   ],
+   "personajes": {
+    "hacker": {
+     "pose": "celebrar",
+     "cara": "risa"
+    },
+    "mono": {
+     "pose": "jarras",
+     "cara": "normal",
+     "cambios": [
+      {
+       "al": "@+1.1",
+       "pose": "saludar",
+       "cara": "sorpresa"
+      }
+     ]
+    }
+   }
+  },
+  {
+   "en": "Una frase larga, en cambio",
+   "escenas": [
+    {
+     "tipo": "experimento",
+     "titulo": "LA LONGITUD MANDA (IDEA)",
+     "controles": [
+      {
+       "nombre": "Letras",
+       "min": 0,
+       "max": 30,
+       "inicio": 8
+      }
+     ],
+     "resultado": {
+      "nombre": "Aguante",
+      "min": 0,
+      "max": 100,
+      "inicio": 8,
+      "sufijo": " %"
+     },
+     "pasos": [
+      {
+       "al": "@larga",
+       "valores": [
+        26
+       ],
+       "resultado": 98,
+       "texto": "Frase larga: años"
+      }
+     ]
+    }
+   ],
+   "personajes": {
+    "hacker": {
+     "pose": "miedo",
+     "cara": "miedo"
+    },
+    "mono": {
+     "pose": "señalar_arriba",
+     "cara": "risa",
+     "cambios": [
+      {
+       "al": "@+1.1",
+       "pose": "presentar",
+       "cara": "guiño"
+      }
+     ]
+    }
+   }
+  },
+  {
+   "en": "Por ejemplo, tres palabras",
+   "escenas": [
+    {
+     "tipo": "experimento",
+     "titulo": "DIFICULTAD · FORMA 4/8",
+     "controles": [
+      {
+       "nombre": "Dificultad",
+       "min": 0,
+       "max": 10,
+       "inicio": 0
+      }
+     ],
+     "resultado": {
+      "nombre": "Lo difícil que es",
+      "sufijo": "/10",
+      "min": 0,
+      "max": 10,
+      "inicio": 0
+     },
+     "pasos": [
+      {
+       "al": "@+0.4",
+       "valores": [
+        5
+       ],
+       "resultado": 5
+      }
+     ]
+    }
+   ],
+   "personajes": {
+    "hacker": {
+     "pose": "encogerse",
+     "cara": "triste",
+     "salida": "der"
+    },
+    "mono": {
+     "pose": "brazos_cruzados",
+     "cara": "sorpresa",
+     "cambios": [
+      {
+       "al": "@+1.1",
+       "pose": "señalar",
+       "cara": "normal"
+      }
+     ]
+    }
+   }
+  },
+  {
+   "en": "Y ahora vienen las que no",
+   "color": "rojo",
+   "escenas": [
+    {
+     "tipo": "texto",
+     "tam": 110,
+     "palabras": [
+      {
+       "texto": "LAS QUE NO ATACAN",
+       "al": "@atacan"
+      },
+      {
+       "texto": "TU CONTRASEÑA",
+       "al": "@contraseña",
+       "caja": true,
+       "color": "rojo"
+      }
+     ]
+    }
+   ],
+   "personajes": {
+    "mono": {
+     "pose": "miedo",
+     "cara": "sorpresa",
+     "cambios": [
+      {
+       "al": "@+1.1",
+       "pose": "señalar",
+       "cara": "chulo"
+      }
+     ]
+    }
+   }
+  },
+  {
+   "en": "Número cinco",
+   "color": "azul",
+   "capitulo": "5. La red gemela",
+   "escenas": [
+    {
+     "tipo": "lista",
+     "n": 5,
+     "total": 8,
+     "titulo": "LA RED GEMELA",
+     "apodo": "EL DISFRAZ",
+     "color": "azul",
+     "titulo_al": "@red",
+     "apodo_al": "@gemela"
+    }
+   ],
+   "personajes": {
+    "mono": {
+     "salta": true,
+     "pose": "presentar",
+     "cara": "normal",
+     "cambios": [
+      {
+       "al": "@+1.1",
+       "pose": "presentar",
+       "cara": "risa"
+      }
+     ]
+    }
+   }
+  },
+  {
+   "en": "En el aeropuerto ves",
+   "escenas": [
+    {
+     "tipo": "imagen",
+     "archivo": "aeropuerto.png",
+     "prompt": "an airport waiting area with rows of seats, a big window with a plane outside, two identical wifi signal symbols floating in the air",
+     "al": "@aeropuerto",
+     "modo": "marco",
+     "pie": "DOS REDES IGUALES",
+     "pie_al": "@igual"
+    }
+   ],
+   "personajes": {
+    "hacker": {
+     "x": 0.9,
+     "escala": 0.8,
+     "mira": "izq",
+     "pose": "presentar",
+     "cara": "risa",
+     "objeto": "movil",
+     "entra": "@portátil",
+     "entrada": "der"
+    },
+    "mono": {
+     "pose": "señalar",
+     "cara": "chulo",
+     "cambios": [
+      {
+       "al": "@+1.1",
+       "pose": "pensar",
+       "cara": "normal"
+      }
+     ]
+    }
+   }
+  },
+  {
+   "en": "Te conectas a él",
+   "escenas": [
+    {
+     "tipo": "viaje",
+     "viajero": "sobre",
+     "actual": 2,
+     "al": "@manos",
+     "numero_desde": 0,
+     "duracion_tramo": 1.0,
+     "titulo": "TODO PASA POR ÉL",
+     "paradas": [
+      {
+       "nombre": "Tu móvil",
+       "icono": "movil"
+      },
+      {
+       "nombre": "La red falsa",
+       "icono": "calavera"
+      },
+      {
+       "nombre": "Internet",
+       "icono": "mundo"
+      }
+     ]
+    }
+   ],
+   "personajes": {
+    "hacker": {
+     "pose": "celebrar",
+     "cara": "risa",
+     "cambios": [
+      {
+       "al": "@H",
+       "pose": "miedo",
+       "cara": "enfado"
+      }
+     ]
+    },
+    "mono": {
+     "pose": "señalar",
+     "cara": "risa",
+     "cambios": [
+      {
+       "al": "@+1.1",
+       "pose": "jarras",
+       "cara": "risa"
+      }
+     ]
+    }
+   }
+  },
+  {
+   "en": "Número seis",
+   "color": "morado",
+   "capitulo": "6. KRACK",
+   "escenas": [
+    {
+     "tipo": "lista",
+     "n": 6,
+     "total": 8,
+     "titulo": "KRACK",
+     "apodo": "EL FALLO DEL SISTEMA",
+     "color": "morado",
+     "titulo_al": "@KRACK"
+    }
+   ],
+   "personajes": {
+    "hacker": {
+     "pose": "encogerse",
+     "cara": "triste",
+     "salida": "der"
+    },
+    "mono": {
+     "salta": true,
+     "pose": "presentar",
+     "cara": "normal",
+     "cambios": [
+      {
+       "al": "@+1.1",
+       "pose": "señalar_arriba",
+       "cara": "sorpresa"
+      }
+     ]
+    }
+   }
+  },
+  {
+   "en": "En dos mil diecisiete, el investigador",
+   "escenas": [
+    {
+     "tipo": "iconos",
+     "tam": 230,
+     "items": [
+      {
+       "icono": "calendario",
+       "texto": "2017",
+       "al": "@diecisiete"
+      },
+      {
+       "icono": "candado",
+       "texto": "FALLO EN WPA2",
+       "al": "@fallo"
+      }
+     ]
+    }
+   ],
+   "personajes": {
+    "cienti": {
+     "x": 0.9,
+     "escala": 0.8,
+     "mira": "izq",
+     "pose": "señalar_arriba",
+     "cara": "sorpresa",
+     "entra": "@investigador",
+     "entrada": "cae"
+    },
+    "mono": {
+     "pose": "pensar",
+     "cara": "risa",
+     "cambios": [
+      {
+       "al": "@+1.1",
+       "pose": "brazos_cruzados",
+       "cara": "guiño"
+      }
+     ]
+    }
+   }
+  },
+  {
+   "en": "Se arregló con actualizaciones",
+   "color": "verde",
+   "escenas": [
+    {
+     "tipo": "sello",
+     "texto": "PARCHEADO",
+     "al": "@actualizaciones",
+     "color": "verde",
+     "tam": 130
+    }
+   ],
+   "personajes": {
+    "cienti": {
+     "pose": "celebrar",
+     "cara": "risa"
+    },
+    "mono": {
+     "pose": "jarras",
+     "cara": "sorpresa",
+     "cambios": [
+      {
+       "al": "@+1.1",
+       "pose": "saludar",
+       "cara": "normal"
+      }
+     ]
+    }
+   }
+  },
+  {
+   "en": "Y al año siguiente llegó",
+   "escenas": [
+    {
+     "tipo": "experimento",
+     "titulo": "DIFICULTAD · FORMA 6/8",
+     "controles": [
+      {
+       "nombre": "Dificultad",
+       "min": 0,
+       "max": 10,
+       "inicio": 0
+      }
+     ],
+     "resultado": {
+      "nombre": "Lo difícil que es",
+      "sufijo": "/10",
+      "min": 0,
+      "max": 10,
+      "inicio": 0
+     },
+     "pasos": [
+      {
+       "al": "@+0.4",
+       "valores": [
+        9
+       ],
+       "resultado": 9
+      }
+     ]
+    }
+   ],
+   "personajes": {
+    "cienti": {
+     "pose": "presentar",
+     "cara": "normal",
+     "salida": "der"
+    },
+    "mono": {
+     "pose": "señalar_arriba",
+     "cara": "guiño",
+     "cambios": [
+      {
+       "al": "@+1.1",
+       "pose": "presentar",
+       "cara": "chulo"
+      }
+     ]
+    }
+   }
+  },
+  {
+   "en": "Número siete",
+   "color": "naranja",
+   "capitulo": "7. Los aparatos tontos",
+   "escenas": [
+    {
+     "tipo": "lista",
+     "n": 7,
+     "total": 8,
+     "titulo": "LOS APARATOS TONTOS",
+     "apodo": "LA PUERTA TRASERA",
+     "color": "naranja",
+     "titulo_al": "@aparatos"
+    }
+   ],
+   "personajes": {
+    "mono": {
+     "salta": true,
+     "pose": "brazos_cruzados",
+     "cara": "normal",
+     "cambios": [
+      {
+       "al": "@+1.1",
+       "pose": "señalar",
+       "cara": "risa"
+      }
+     ]
+    }
+   }
+  },
+  {
+   "en": "La cámara, la bombilla",
+   "escenas": [
+    {
+     "tipo": "imagen",
+     "archivo": "aparatos.png",
+     "prompt": "a smart home shelf with a small security camera, a smart light bulb and a smart plug, all with tiny glowing lights",
+     "al": "@cámara",
+     "modo": "marco",
+     "pie": "CONTRASEÑA DE FÁBRICA",
+     "pie_al": "@fábrica"
+    }
+   ],
+   "personajes": {
+    "mono": {
+     "pose": "saludar",
+     "cara": "chulo",
+     "cambios": [
+      {
+       "al": "@+1.1",
+       "pose": "señalar",
+       "cara": "normal"
+      }
+     ]
+    }
+   }
+  },
+  {
+   "en": "En octubre de dos mil dieciséis",
+   "escenas": [
+    {
+     "tipo": "mapa",
+     "titulo": "MIRAI · OCTUBRE 2016",
+     "pines": [
+      {
+       "nombre": "TWITTER",
+       "x": -0.6,
+       "y": -0.35,
+       "al": "@Twitter"
+      },
+      {
+       "nombre": "NETFLIX",
+       "x": -0.45,
+       "y": -0.1,
+       "al": "@Netflix"
+      }
+     ],
+     "apagon": {
+      "al": "@tumbó",
+      "continente": 0
+     }
+    }
+   ],
+   "personajes": {
+    "nino": {
+     "x": 0.9,
+     "escala": 0.9,
+     "mira": "izq",
+     "pose": "miedo",
+     "cara": "miedo",
+     "entra": "@Mirai",
+     "entrada": "der"
+    },
+    "mono": {
+     "pose": "presentar",
+     "cara": "risa",
+     "cambios": [
+      {
+       "al": "@+1.1",
+       "pose": "presentar",
+       "cara": "risa"
+      }
+     ]
+    }
+   },
+   "golpes": [
+    "@tumbó"
+   ]
+  },
+  {
+   "en": "Tu WiFi es tan fuerte",
+   "escenas": [
+    {
+     "tipo": "experimento",
+     "titulo": "DIFICULTAD · FORMA 7/8",
+     "controles": [
+      {
+       "nombre": "Dificultad",
+       "min": 0,
+       "max": 10,
+       "inicio": 0
+      }
+     ],
+     "resultado": {
+      "nombre": "Lo difícil que es",
+      "sufijo": "/10",
+      "min": 0,
+      "max": 10,
+      "inicio": 0
+     },
+     "pasos": [
+      {
+       "al": "@+0.4",
+       "valores": [
+        2
+       ],
+       "resultado": 2
+      }
+     ]
+    }
+   ],
+   "personajes": {
+    "nino": {
+     "pose": "pensar",
+     "cara": "normal"
+    },
+    "mono": {
+     "pose": "señalar",
+     "cara": "normal",
+     "cambios": [
+      {
+       "al": "@+1.1",
+       "pose": "pensar",
+       "cara": "sorpresa"
+      }
+     ]
+    }
+   }
+  },
+  {
+   "en": "Por eso conviene una red",
+   "color": "verde",
+   "escenas": [
+    {
+     "tipo": "iconos",
+     "tam": 230,
+     "items": [
+      {
+       "icono": "wifi",
+       "texto": "TU RED",
+       "al": "@red"
+      },
+      {
+       "icono": "wifi",
+       "texto": "RED DE INVITADOS",
+       "al": "@invitados",
+       "color": "naranja"
+      }
+     ]
+    }
+   ],
+   "personajes": {
+    "nino": {
+     "pose": "celebrar",
+     "cara": "risa",
+     "salida": "der"
+    },
+    "mono": {
+     "pose": "señalar",
+     "cara": "risa",
+     "cambios": [
+      {
+       "al": "@+1.1",
+       "pose": "jarras",
+       "cara": "guiño"
+      }
+     ]
+    }
+   }
+  },
+  {
+   "en": "Y la última, la más difícil",
+   "color": "morado",
+   "escenas": [
+    {
+     "tipo": "texto",
+     "tam": 110,
+     "palabras": [
+      {
+       "texto": "LA MÁS DIFÍCIL",
+       "al": "@difícil"
+      },
+      {
+       "texto": "DE EVITAR",
+       "al": "@evitar",
+       "caja": true,
+       "color": "morado"
+      }
+     ]
+    }
+   ],
+   "personajes": {
+    "mono": {
+     "pose": "presentar",
+     "cara": "sorpresa",
+     "cambios": [
+      {
+       "al": "@+1.1",
+       "pose": "señalar_arriba",
+       "cara": "normal"
+      }
+     ]
+    }
+   }
+  },
+  {
+   "en": "Número ocho",
+   "capitulo": "8. El vecino de confianza",
+   "escenas": [
+    {
+     "tipo": "lista",
+     "n": 8,
+     "total": 8,
+     "titulo": "EL VECINO DE CONFIANZA",
+     "apodo": "LA NOTA",
+     "color": "rosa",
+     "titulo_al": "@vecino"
+    }
+   ],
+   "personajes": {
+    "mono": {
+     "salta": true,
+     "pose": "pensar",
+     "cara": "guiño",
+     "cambios": [
+      {
+       "al": "@+1.1",
+       "pose": "brazos_cruzados",
+       "cara": "chulo"
+      }
+     ]
+    }
+   }
+  },
+  {
+   "en": "La mayoría de las veces",
+   "escenas": [
+    {
+     "tipo": "flujo",
+     "nodos": [
+      {
+       "texto": "SE LA DISTE",
+       "icono": "llave",
+       "al": "@pidió"
+      },
+      {
+       "texto": "LA SIGUE TENIENDO",
+       "icono": "calendario",
+       "al": "@sigue"
+      },
+      {
+       "texto": "SU PRIMO TAMBIÉN",
+       "icono": "movil",
+       "al": "@primo",
+       "color": "rojo"
+      }
+     ]
+    }
+   ],
+   "personajes": {
+    "vecino": {
+     "x": 0.9,
+     "escala": 0.8,
+     "mira": "izq",
+     "pose": "saludar",
+     "cara": "risa",
+     "objeto": "movil",
+     "entra": "@Alguien",
+     "entrada": "der"
+    },
+    "mono": {
+     "pose": "jarras",
+     "cara": "normal",
+     "cambios": [
+      {
+       "al": "@+1.1",
+       "pose": "saludar",
+       "cara": "risa"
+      }
+     ]
+    }
+   }
+  },
+  {
+   "en": "La WiFi más segura",
+   "escenas": [
+    {
+     "tipo": "imagen",
+     "archivo": "nevera.png",
+     "prompt": "a kitchen fridge door with a small blank yellow sticky note held by a magnet, cozy kitchen",
+     "al": "@nota",
+     "modo": "marco",
+     "pie": "LA NOTA EN LA NEVERA"
+    }
+   ],
+   "personajes": {
+    "vecino": {
+     "pose": "celebrar",
+     "cara": "risa"
+    },
+    "mono": {
+     "pose": "señalar_arriba",
+     "cara": "chulo",
+     "cambios": [
+      {
+       "al": "@+1.1",
+       "pose": "presentar",
+       "cara": "normal"
+      }
+     ]
+    }
+   }
+  },
+  {
+   "en": "Si las ponemos por dificultad",
+   "color": "morado",
+   "capitulo": "Blinda tu WiFi",
+   "escenas": [
+    {
+     "tipo": "tier_list",
+     "titulo": "DE MÁS FÁCIL (D) A MÁS DIFÍCIL (S)",
+     "filas": [
+      {
+       "n": "S",
+       "color": "#FF7F7F"
+      },
+      {
+       "n": "A",
+       "color": "#FFBF7F"
+      },
+      {
+       "n": "B",
+       "color": "#FFDF7F"
+      },
+      {
+       "n": "C",
+       "color": "#BFFF7F"
+      }
+     ],
+     "items": [
+      {
+       "texto": "Fábrica",
+       "icono": "llave",
+       "fila": "C",
+       "al": "@fábrica"
+      },
+      {
+       "texto": "WEP",
+       "icono": "candado",
+       "fila": "C",
+       "al": "@WEP"
+      },
+      {
+       "texto": "Vecino",
+       "icono": "casa",
+       "fila": "C",
+       "al": "@vecino"
+      },
+      {
+       "texto": "WPS",
+       "icono": "router",
+       "fila": "B",
+       "al": "@WPS"
+      },
+      {
+       "texto": "Aparatos",
+       "icono": "bombilla",
+       "fila": "B",
+       "al": "@tontos"
+      },
+      {
+       "texto": "Gemela",
+       "icono": "wifi",
+       "fila": "A",
+       "al": "@gemela"
+      },
+      {
+       "texto": "KRACK",
+       "icono": "chip",
+       "fila": "S",
+       "al": "@KRACK"
+      }
+     ]
+    }
+   ],
+   "personajes": {
+    "vecino": {
+     "pose": "encogerse",
+     "cara": "sorpresa",
+     "salida": "der"
+    },
+    "mono": {
+     "x": 0.07,
+     "escala": 0.7,
+     "pose": "presentar",
+     "cara": "risa",
+     "cambios": [
+      {
+       "al": "@+1.1",
+       "pose": "señalar",
+       "cara": "risa"
+      }
+     ]
+    }
+   }
+  },
+  {
+   "en": "Así que en cinco minutos",
+   "color": "verde",
+   "escenas": [
+    {
+     "tipo": "iconos",
+     "tam": 170,
+     "items": [
+      {
+       "icono": "llave",
+       "texto": "FRASE LARGA",
+       "al": "@frase"
+      },
+      {
+       "icono": "candado",
+       "texto": "WPA2 O WPA3",
+       "al": "@WPA"
+      },
+      {
+       "icono": "router",
+       "texto": "WPS APAGADO",
+       "al": "@WPS"
+      },
+      {
+       "icono": "chip",
+       "texto": "ACTUALIZA",
+       "al": "@actualiza"
+      },
+      {
+       "icono": "wifi",
+       "texto": "RED DE INVITADOS",
+       "al": "@invitados"
+      }
+     ]
+    }
+   ],
+   "personajes": {
+    "currito": {
+     "x": 0.9,
+     "escala": 0.8,
+     "mira": "izq",
+     "pose": "jarras",
+     "cara": "chulo",
+     "entra": "@minutos",
+     "entrada": "der"
+    },
+    "mono": {
+     "x": 0.1,
+     "escala": 0.8,
+     "pose": "señalar",
+     "cara": "normal",
+     "cambios": [
+      {
+       "al": "@+1.1",
+       "pose": "señalar",
+       "cara": "sorpresa"
+      }
+     ]
+    }
+   }
+  },
+  {
+   "en": "¿Cuándo cambiaste la clave",
+   "color": "azul",
+   "escenas": [
+    {
+     "tipo": "pregunta",
+     "pregunta": "¿Cuándo cambiaste tu clave?",
+     "al": "@cambiaste"
+    }
+   ],
+   "personajes": {
+    "currito": {
+     "pose": "pensar",
+     "cara": "sorpresa"
+    },
+    "mono": {
+     "pose": "presentar",
+     "cara": "risa",
+     "cambios": [
+      {
+       "al": "@+1.1",
+       "pose": "presentar",
+       "cara": "guiño"
+      }
+     ]
+    }
+   }
+  },
+  {
+   "en": "Si te gusta entender",
+   "color": "rojo",
+   "escenas": [
+    {
+     "tipo": "iconos",
+     "tam": 300,
+     "items": [
+      {
+       "icono": "play",
+       "texto": "SUSCRÍBETE",
+       "al": "@suscríbete"
+      }
+     ]
+    }
+   ],
+   "personajes": {
+    "currito": {
+     "pose": "celebrar",
+     "cara": "risa"
+    },
+    "vecino": {
+     "x": 0.72,
+     "escala": 0.7,
+     "mira": "izq",
+     "pose": "celebrar",
+     "cara": "risa",
+     "entra": "@tecnología",
+     "entrada": "salto"
+    },
+    "mono": {
+     "pose": "celebrar",
+     "cara": "risa",
+     "salta": true,
+     "cambios": [
+      {
+       "al": "@+1.1",
+       "pose": "pensar",
+       "cara": "normal"
+      }
+     ]
+    }
+   }
+  }
+ ],
+ "cola": 1.2,
+ "formato": "16:9"
+}

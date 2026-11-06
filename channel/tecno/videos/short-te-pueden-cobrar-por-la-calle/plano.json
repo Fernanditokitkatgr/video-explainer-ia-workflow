@@ -1,0 +1,409 @@
+{
+ "reparto": {
+  "mono": {
+   "tipo": "protagonista",
+   "narrador": true
+  },
+  "abuelo": {
+   "tipo": "abuelo"
+  },
+  "ladron": {
+   "tipo": "ciberdelincuente"
+  }
+ },
+ "tramos": [
+  {
+   "en": "",
+   "color": "rojo",
+   "escenas": [
+    {
+     "tipo": "imagen",
+     "archivo": "calle.png",
+     "prompt": "a city street sidewalk with colorful shop fronts with completely blank plain signs, and a bus stop, nobody there",
+     "al": "@-0.5",
+     "modo": "fondo",
+     "velo": 0.4,
+     "aspecto": "9:16",
+     "aparece": "@-0.6"
+    },
+    {
+     "tipo": "texto",
+     "tam": 88,
+     "palabras": [
+      {
+       "texto": "¿TE COBRAN",
+       "al": "@-0.5",
+       "color": "amarillo"
+      },
+      {
+       "texto": "POR LA CALLE?",
+       "al": "@-0.4",
+       "caja": true,
+       "color": "rojo"
+      }
+     ],
+     "zona": "arriba",
+     "caja": {
+      "y": 150
+     },
+     "por_fila": 14
+    }
+   ],
+   "personajes": {
+    "abuelo": {
+     "x": 0.76,
+     "escala": 0.95,
+     "mira": "izq",
+     "pose": "señalar",
+     "cara": "enfado",
+     "entrada": "nada",
+     "dice": [
+      {
+       "texto": "¡Seguro que sí!",
+       "al": "@-0.4",
+       "hasta": "@fin"
+      }
+     ]
+    },
+    "mono": {
+     "x": 0.25,
+     "escala": 0.95,
+     "pose": "pensar",
+     "cara": "normal",
+     "entrada": "nada",
+     "cambios": [
+      {
+       "al": "@+1.1",
+       "pose": "jarras",
+       "cara": "sorpresa"
+      },
+      {
+       "al": "@+3.3",
+       "pose": "brazos_cruzados",
+       "cara": "guiño"
+      }
+     ]
+    }
+   },
+   "sfx": [
+    [
+     "golpe",
+     0.02,
+     1.0
+    ],
+    [
+     "boom",
+     0.04,
+     0.7
+    ]
+   ],
+   "golpes": [
+    0.05
+   ]
+  },
+  {
+   "en": "Con el móvil, no",
+   "color": "verde",
+   "escenas": [
+    {
+     "tipo": "iconos",
+     "tam": 220,
+     "items": [
+      {
+       "icono": "ojo",
+       "texto": "CARA",
+       "al": "@cara"
+      },
+      {
+       "icono": "dedo",
+       "texto": "HUELLA",
+       "al": "@huella"
+      }
+     ],
+     "caja": {
+      "y": 620
+     }
+    }
+   ],
+   "personajes": {
+    "abuelo": {
+     "pose": "pensar",
+     "cara": "sorpresa"
+    },
+    "mono": {
+     "pose": "presentar",
+     "cara": "risa",
+     "cambios": [
+      {
+       "al": "@+1.1",
+       "pose": "señalar_arriba",
+       "cara": "guiño"
+      },
+      {
+       "al": "@+3.3",
+       "pose": "saludar",
+       "cara": "normal"
+      }
+     ]
+    }
+   }
+  },
+  {
+   "en": "Y la tienda nunca ve",
+   "escenas": [
+    {
+     "tipo": "comparativa",
+     "a": {
+      "titulo": "TU TARJETA",
+      "icono": "tarjeta",
+      "al": "@tarjeta",
+      "color": "azul"
+     },
+     "b": {
+      "titulo": "TOKEN",
+      "icono": "movil",
+      "al": "@token",
+      "color": "verde"
+     },
+     "caja": {
+      "y": 600
+     }
+    }
+   ],
+   "personajes": {
+    "abuelo": {
+     "pose": "pensar",
+     "cara": "normal"
+    },
+    "mono": {
+     "pose": "pensar",
+     "cara": "sorpresa",
+     "cambios": [
+      {
+       "al": "@+1.1",
+       "pose": "brazos_cruzados",
+       "cara": "normal"
+      },
+      {
+       "al": "@+3.3",
+       "pose": "presentar",
+       "cara": "chulo"
+      }
+     ]
+    }
+   }
+  },
+  {
+   "en": "Con la tarjeta de plástico",
+   "color": "naranja",
+   "escenas": [
+    {
+     "tipo": "iconos",
+     "tam": 300,
+     "items": [
+      {
+       "icono": "tarjeta",
+       "texto": "A POCOS CENTÍMETROS",
+       "al": "@centímetros"
+      }
+     ],
+     "caja": {
+      "y": 600
+     }
+    }
+   ],
+   "personajes": {
+    "ladron": {
+     "x": 0.76,
+     "escala": 0.95,
+     "mira": "izq",
+     "pose": "caminar",
+     "cara": "chulo",
+     "entra": "@pegarse",
+     "entrada": "der"
+    },
+    "mono": {
+     "pose": "jarras",
+     "cara": "guiño",
+     "cambios": [
+      {
+       "al": "@+1.1",
+       "pose": "saludar",
+       "cara": "chulo"
+      },
+      {
+       "al": "@+3.3",
+       "pose": "señalar",
+       "cara": "risa"
+      }
+     ]
+    }
+   }
+  },
+  {
+   "en": "Y el cobro dejaría rastro",
+   "escenas": [
+    {
+     "tipo": "imagen",
+     "archivo": "datafono.png",
+     "prompt": "a card payment terminal on a shop counter next to a phone, small sparkles, clean",
+     "al": "@rastro",
+     "modo": "marco",
+     "pie": "DEJA RASTRO",
+     "caja": {
+      "y": 620
+     }
+    }
+   ],
+   "personajes": {
+    "ladron": {
+     "pose": "miedo",
+     "cara": "miedo",
+     "salida": "der"
+    },
+    "mono": {
+     "pose": "señalar_arriba",
+     "cara": "normal",
+     "cambios": [
+      {
+       "al": "@+1.1",
+       "pose": "presentar",
+       "cara": "risa"
+      },
+      {
+       "al": "@+3.3",
+       "pose": "señalar",
+       "cara": "normal"
+      }
+     ]
+    }
+   }
+  },
+  {
+   "en": "Además, sin PIN",
+   "escenas": [
+    {
+     "tipo": "cifra",
+     "desde": 0,
+     "hasta": 50,
+     "al": "@cincuenta",
+     "sufijo": " €",
+     "antes": "SIN PIN, HASTA",
+     "tam": 220,
+     "color": "azul",
+     "dur": 0.6
+    }
+   ],
+   "personajes": {
+    "abuelo": {
+     "x": 0.76,
+     "escala": 0.95,
+     "mira": "izq",
+     "pose": "jarras",
+     "cara": "normal",
+     "entra": "@PIN",
+     "entrada": "pop"
+    },
+    "mono": {
+     "pose": "brazos_cruzados",
+     "cara": "chulo",
+     "cambios": [
+      {
+       "al": "@+1.1",
+       "pose": "señalar",
+       "cara": "normal"
+      },
+      {
+       "al": "@+3.3",
+       "pose": "presentar",
+       "cara": "risa"
+      }
+     ]
+    }
+   }
+  },
+  {
+   "en": "Y si te roban, en España",
+   "escenas": [
+    {
+     "tipo": "cifra",
+     "desde": 0,
+     "hasta": 50,
+     "al": "@cincuenta",
+     "sufijo": " €",
+     "antes": "PIERDES COMO MUCHO",
+     "tam": 220,
+     "color": "verde",
+     "dur": 0.6
+    }
+   ],
+   "personajes": {
+    "abuelo": {
+     "pose": "celebrar",
+     "cara": "risa"
+    },
+    "mono": {
+     "pose": "saludar",
+     "cara": "risa",
+     "cambios": [
+      {
+       "al": "@+1.1",
+       "pose": "señalar",
+       "cara": "risa"
+      },
+      {
+       "al": "@+3.3",
+       "pose": "pensar",
+       "cara": "sorpresa"
+      }
+     ]
+    }
+   }
+  },
+  {
+   "en": "Así que, abuelo",
+   "color": "rojo",
+   "escenas": [
+    {
+     "tipo": "sello",
+     "texto": "OJO AL FALSO BANCO",
+     "al": "@banco",
+     "color": "rojo",
+     "tam": 90,
+     "caja": {
+      "y": 620
+     }
+    }
+   ],
+   "personajes": {
+    "abuelo": {
+     "pose": "encogerse",
+     "cara": "sorpresa"
+    },
+    "mono": {
+     "pose": "señalar",
+     "cara": "guiño",
+     "cambios": [
+      {
+       "al": "@+1.1",
+       "pose": "presentar",
+       "cara": "sorpresa"
+      },
+      {
+       "al": "@+3.3",
+       "pose": "jarras",
+       "cara": "guiño"
+      },
+      {
+       "al": "@+5.5",
+       "pose": "brazos_cruzados",
+       "cara": "normal"
+      }
+     ]
+    }
+   }
+  }
+ ],
+ "cola": 0.9,
+ "formato": "9:16"
+}

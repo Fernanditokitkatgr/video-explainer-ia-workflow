@@ -8,6 +8,7 @@ import React from 'react';
 import {AbsoluteFill, Audio, CalculateMetadataFunction, Easing, Sequence, staticFile, useCurrentFrame, useVideoConfig} from 'remotion';
 import {C, col, decay, loadFont, ramp} from './base';
 import {Cue, ESCENAS} from './Escenas';
+import {CapaReparto, fotogramaMundo, MUNDOS, ProveedorMundo} from './Mundos';
 import {Personaje, Reparto} from './Reparto';
 import {Palabra, PalabrasProvider} from './tiempo';
 
@@ -25,6 +26,8 @@ export type PlanoResuelto = {
   reparto: Record<string, Personaje>;
   sfx_gain: Record<string, number>;
   rayos?: {x: number; y: number};
+  /** mundo temático (Mundos.tsx). Sin él, el vídeo se pinta como siempre. */
+  mundo?: string;
 };
 export type MotorProps = {slug: string; plano?: PlanoResuelto | null};
 
@@ -138,14 +141,19 @@ export const cuesDelPlano = (plano: PlanoResuelto): Cue[] => {
 const Sonido: React.FC<{plano: PlanoResuelto}> = ({plano}) => {
   const {fps} = useVideoConfig();
   const cues = React.useMemo(() => cuesDelPlano(plano), [plano]);
+  const mundo = plano.mundo ? MUNDOS[plano.mundo] : undefined;
   return (
     <>
       <Audio src={staticFile(plano.voz)} />
-      {cues.map(([s, a, k = 1], i) => (
-        <Sequence key={i} from={Math.max(0, Math.round(a * fps))} durationInFrames={Math.round(3 * fps)} layout="none" name={`sfx ${s}`}>
-          <Audio src={staticFile(`sfx/${s}.mp3`)} volume={Math.min(1, (plano.sfx_gain[s] ?? 0.25) * k)} />
-        </Sequence>
-      ))}
+      {mundo?.ambiente.map((a) => <Audio key={a.sfx} src={staticFile(`sfx/${a.sfx}.mp3`)} loop volume={a.vol * (plano.sfx_gain[a.sfx] ?? 0.25)} />)}
+      {cues.map(([s0, a, k = 1], i) => {
+        const s = mundo?.sonidos[s0] ?? s0;
+        return (
+          <Sequence key={i} from={Math.max(0, Math.round(a * fps))} durationInFrames={Math.round(3 * fps)} layout="none" name={`sfx ${s}`}>
+            <Audio src={staticFile(`sfx/${s}.mp3`)} volume={Math.min(1, (plano.sfx_gain[s] ?? 0.25) * k)} />
+          </Sequence>
+        );
+      })}
     </>
   );
 };
@@ -167,7 +175,7 @@ export const Lienzo: React.FC<{plano: PlanoResuelto}> = ({plano}) => {
   loadFont();
   const frame = useCurrentFrame();
   const {fps, width, height} = useVideoConfig();
-  const t = frame / fps;
+  const t = fotogramaMundo(plano.mundo, frame) / fps;
   const golpes = React.useMemo(() => golpesDelPlano(plano), [plano]);
   let punch = 0;
   let sx = 0;
@@ -180,11 +188,13 @@ export const Lienzo: React.FC<{plano: PlanoResuelto}> = ({plano}) => {
   }
   const cx = plano.rayos?.x ?? width / 2;
   const cy = plano.rayos?.y ?? height * 0.58;
+  const FondoMundo = plano.mundo ? MUNDOS[plano.mundo]?.Fondo : undefined;
   return (
     <PalabrasProvider words={plano.palabras}>
+      <ProveedorMundo mundo={plano.mundo}>
       <AbsoluteFill style={{background: C.paper, overflow: 'hidden'}}>
         <AbsoluteFill style={{scale: `${1 + punch}`, translate: `${sx}px ${sy}px`}}>
-          <Fondo tramos={plano.tramos} t={t} W={width} H={height} cx={cx} cy={cy} />
+          {FondoMundo ? <FondoMundo t={t} W={width} H={height} tramos={plano.tramos} /> : <Fondo tramos={plano.tramos} t={t} W={width} H={height} cx={cx} cy={cy} />}
           {plano.tramos.map((tr, i) =>
             tr.escenas.map((e, j) => {
               if (t < e.t0 - 0.05 || t > e.t1 + 0.05) return null;
@@ -199,9 +209,10 @@ export const Lienzo: React.FC<{plano: PlanoResuelto}> = ({plano}) => {
               );
             }),
           )}
-          <Reparto reparto={plano.reparto} t={t} />
+          <CapaReparto mundo={plano.mundo} pinta={(capa) => <Reparto reparto={plano.reparto} t={t} capa={capa} />} />
         </AbsoluteFill>
       </AbsoluteFill>
+      </ProveedorMundo>
     </PalabrasProvider>
   );
 };

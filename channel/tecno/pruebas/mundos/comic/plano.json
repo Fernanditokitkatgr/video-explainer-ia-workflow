@@ -1,0 +1,244 @@
+{
+ "formato": "9:16",
+ "mundo": "comic",
+ "cola": 1.2,
+ "reparto": {
+  "mono": {
+   "tipo": "protagonista",
+   "narrador": true
+  },
+  "ciberdelincuente": {
+   "tipo": "ciberdelincuente"
+  }
+ },
+ "tramos": [
+  {
+   "en": "",
+   "relleno": false,
+   "escenas": [
+    {
+     "tipo": "m_rotulo",
+     "texto": "ESTE SMS\nNO ES DE\nTU BANCO",
+     "kicker": "¡Ojo!",
+     "tam": 124,
+     "al": "@-0.5",
+     "zona": {
+      "y": 400
+     }
+    },
+    {
+     "tipo": "m_visual",
+     "icono": "movil",
+     "etiqueta": "ESCANEANDO",
+     "alerta_texto": "PHISHING DETECTADO",
+     "al": "@-0.5",
+     "y": 860,
+     "tam": 220,
+     "alerta_al": "@casi",
+     "tramos": 1
+    }
+   ],
+   "personajes": {
+    "mono": {
+     "x": 0.27,
+     "entrada": "nada",
+     "pose": "señalar",
+     "cara": "sorpresa",
+     "cambios": [
+      {
+       "al": "@pasando",
+       "pose": "brazos_arriba",
+       "salta": true
+      },
+      {
+       "al": "@casi",
+       "pose": "miedo",
+       "cara": "miedo"
+      }
+     ]
+    },
+    "ciberdelincuente": {
+     "x": 0.74,
+     "entrada": "nada",
+     "pose": "brazos_cruzados",
+     "cara": "chulo",
+     "mira": "izq",
+     "cambios": [
+      {
+       "al": "@casi",
+       "pose": "jarras",
+       "cara": "risa"
+      }
+     ]
+    }
+   },
+   "sfx": [
+    [
+     "golpe",
+     0.02,
+     1.0
+    ],
+    [
+     "boom",
+     0.04,
+     0.7
+    ]
+   ],
+   "golpes": [
+    0.05
+   ]
+  },
+  {
+   "en": "Funciona siempre",
+   "relleno": false,
+   "escenas": [
+    {
+     "tipo": "m_rotulo",
+     "texto": "ATAQUE EN 3 PASOS",
+     "kicker": "Así funciona",
+     "tam": 92,
+     "al": "@inicio",
+     "zona": {
+      "y": 300
+     },
+     "tramos": 3
+    }
+   ],
+   "personajes": {
+    "mono": {
+     "pose": "pensar",
+     "cara": "normal",
+     "cambios": [
+      {
+       "al": "@igual",
+       "pose": "señalar_arriba",
+       "cara": "sorpresa"
+      }
+     ]
+    },
+    "ciberdelincuente": {
+     "pose": "saludar",
+     "cara": "guiño"
+    }
+   }
+  },
+  {
+   "en": "Primero te",
+   "relleno": false,
+   "escenas": [
+    {
+     "tipo": "m_paso",
+     "n": 1,
+     "titulo": "FINGE SER TU BANCO",
+     "detalle": "Te da confianza",
+     "icono": "sobre",
+     "al": "@Primero",
+     "y": 560,
+     "tramos": 2
+    }
+   ],
+   "personajes": {
+    "mono": {
+     "pose": "presentar",
+     "cara": "risa"
+    },
+    "ciberdelincuente": {
+     "pose": "presentar",
+     "cara": "risa",
+     "dice": [
+      {
+       "texto": "¡Soy tu banco!",
+       "al": "@da",
+       "hasta": "@da+1.2"
+      }
+     ]
+    }
+   }
+  },
+  {
+   "en": "Luego te",
+   "relleno": false,
+   "escenas": [
+    {
+     "tipo": "m_paso",
+     "n": 2,
+     "titulo": "PIDE UN CÓDIGO",
+     "detalle": "Solo un momento",
+     "icono": "llave",
+     "al": "@Luego",
+     "y": 770,
+     "tramos": 1
+    }
+   ],
+   "personajes": {
+    "mono": {
+     "pose": "pensar",
+     "cara": "normal"
+    },
+    "ciberdelincuente": {
+     "pose": "señalar",
+     "cara": "chulo",
+     "dice": [
+      {
+       "texto": "Solo tu código",
+       "al": "@pide"
+      }
+     ]
+    }
+   }
+  },
+  {
+   "en": "Y cuando",
+   "relleno": false,
+   "escenas": [
+    {
+     "tipo": "m_paso",
+     "n": 3,
+     "titulo": "CUENTA VACÍA",
+     "detalle": "Demasiado tarde",
+     "icono": "calavera",
+     "al": "@quieres",
+     "y": 980,
+     "color": "alerta"
+    },
+    {
+     "tipo": "sello",
+     "texto": "HACKEADO",
+     "al": "@ya",
+     "caja": {
+      "x": 540,
+      "y": 770
+     },
+     "tam": 130,
+     "color": "rojo"
+    }
+   ],
+   "personajes": {
+    "mono": {
+     "pose": "miedo",
+     "cara": "miedo",
+     "cambios": [
+      {
+       "al": "@ya",
+       "pose": "encogerse",
+       "cara": "triste"
+      }
+     ]
+    },
+    "ciberdelincuente": {
+     "pose": "celebrar",
+     "cara": "risa",
+     "cambios": [
+      {
+       "al": "@ya",
+       "salta": true
+      }
+     ]
+    }
+   },
+   "golpes": [
+    "@ya"
+   ]
+  }
+ ]
+}
